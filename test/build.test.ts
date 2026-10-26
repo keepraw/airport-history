@@ -32,6 +32,13 @@ it("builds identical bytes twice and ships a parseable, independently checked ar
   const manifest = JSON.parse(first["manifest.json"]!) as {
     files: Record<string, string>;
   };
+  const license = await readFile(new URL("../LICENSE", import.meta.url), "utf8");
+  expect(first).toHaveProperty("LICENSE");
+  expect(first["LICENSE"]).toBe(license);
+  expect(manifest.files).toHaveProperty("LICENSE");
+  expect(manifest.files["LICENSE"]).toBe(
+    createHash("sha256").update(license).digest("hex"),
+  );
   for (const [name, digest] of Object.entries(manifest.files))
     expect(createHash("sha256").update(first[name]!).digest("hex")).toBe(
       digest,

@@ -39,6 +39,7 @@ const files: Record<string, string> = {
     new URL("../schema/dataset.schema.json", import.meta.url),
     "utf8",
   ),
+  LICENSE: await readFile(new URL("../LICENSE", import.meta.url), "utf8"),
   "LICENSE-DATA": await readFile(
     new URL("../LICENSE-DATA", import.meta.url),
     "utf8",

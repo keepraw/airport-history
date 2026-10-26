@@ -34,7 +34,8 @@ tests, builds and resolution run offline. `pnpm build` writes:
 dist/v0.1.0/
 ├── airport-history.json
 ├── dataset.schema.json
-├── manifest.json             # SHA-256 hashes of the four other files
+├── manifest.json             # SHA-256 hashes of the five other files
+├── LICENSE
 ├── LICENSE-DATA
 └── THIRD_PARTY_NOTICES.md
 ```
