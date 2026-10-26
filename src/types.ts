@@ -1,10 +1,18 @@
 export type VerificationStatus = "verified" | "pending" | "disputed";
+/** Nature of the publication, independent of the claim it supports. */
+export type SourceType = "primary" | "secondary";
+/** Basis for the whole continuous assignment, not just an event at one boundary. */
+export type EvidenceType =
+  | "primary_direct"
+  | "indirect"
+  | "continuity_inference";
 export interface Source {
   sourceId: string;
   title: string;
   url: string;
   accessedOn: string;
   verificationStatus: VerificationStatus;
+  sourceType: SourceType;
   license: { id: string; url: string | null; note: string };
   note: string;
 }
@@ -36,11 +44,12 @@ export interface CodeAssignment {
   validTo: Boundary;
   verificationStatus: VerificationStatus;
   verifiedOn: string | null;
+  evidenceType: EvidenceType;
   sourceIds: string[];
   note: string;
 }
 export interface Dataset {
-  schemaVersion: "1.0.0";
+  schemaVersion: "2.0.0";
   dataVersion: string;
   sources: Source[];
   airports: PhysicalAirport[];

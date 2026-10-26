@@ -1,10 +1,62 @@
-# Evidence review: bootstrap 0.1.0
+# Evidence review: 0.2.0
 
 Reviewed 2026-10-26. This is a deliberately small factual compilation. Source
 verification means the cited content was checked; it is not a claim of official
 certification. The intervals combine dated code observations, documented changes
 and later corroboration. Continuity between those observations is a documented
 curation inference. An allocation ledger could refine or contradict it.
+
+## Assignment classification
+
+Schema 2 separates `Source.sourceType` (publication nature) from
+`CodeAssignment.evidenceType` (the basis for the whole historical interval).
+`primary_direct` requires a first-hand record explicitly supporting the code
+assignment; `indirect` denotes secondary or indirect support. If the interval
+depends on continuity inferred between observations, `continuity_inference`
+takes precedence. Review status and boundary precision remain independent.
+
+All ten bootstrap intervals already relied on that continuity inference. This
+update makes it structured without upgrading their evidence or changing their
+sources, review dates or time bounds. No new historical source has been added.
+
+| Assignment | Physical airport | Evidence type | Retained limitation |
+| --- | --- | --- | --- |
+| `iata-tao-liuting` | Liuting | `continuity_inference` | Earlier airline observation to reported transfer; original assignment start unknown |
+| `iata-tao-jiaodong` | Jiaodong | `continuity_inference` | Reported approval plus actual opening establishes the boundary; continuity to current snapshot is inferred |
+| `iata-ist-ataturk` | Atatürk | `continuity_inference` | Airline schedule observation to retrospective exchange; original start unknown |
+| `iata-ist-istanbul` | Istanbul | `continuity_inference` | Airline exchange report to current snapshot; exchange day remains uncertain |
+| `iata-hkg-kai-tak` | Kai Tak | `continuity_inference` | Accident record and secondary code end-time; official closure history does not allocate HKG |
+| `iata-hkg-chek-lap-kok` | Chek Lap Kok | `continuity_inference` | Secondary predecessor end-time, opening history and current code; code-switch instant unproven |
+| `iata-den-stapleton` | Stapleton | `continuity_inference` | Historical traffic table and secondary end-time; original start and exact switch unknown |
+| `iata-den-denver` | Denver International | `continuity_inference` | GAO opening history, secondary predecessor end-time and current code; opening alone does not prove allocation |
+| `icao-vhhh-kai-tak` | Kai Tak | `continuity_inference` | Earlier HKG/VHHH observation to secondary VHHH end-time; no primary allocation notice |
+| `icao-vhhh-chek-lap-kok` | Chek Lap Kok | `continuity_inference` | Opening, secondary predecessor VHHH end-time and current VHHH; continuity remains inferred |
+
+## Publication classification
+
+`primary` means first-party publication or original institutional record for its
+own subject, not that every conclusion drawn from it is direct or official code
+allocation evidence. `secondary` includes reporting and compiled structured data.
+
+| Source ID | Source type | What the source actually contributes |
+| --- | --- | --- |
+| `ourairports-20261025` | `secondary` | Compiled current reference attributes and successor code observations |
+| `tzdb-2025b` | `primary` | IANA's own geographical timezone mapping; no allocation evidence |
+| `tao-transfer` | `secondary` | News report of simultaneous opening/closure, not an allocation notice |
+| `tao-code` | `secondary` | News report of IATA approval; the original IATA notice is not held |
+| `tao-earlier` | `primary` | Airline's own TAO procedures and dated earlier use; not first allocation |
+| `ist-transfer` | `primary` | Participant airline's retrospective of its move and IST/ISL exchange |
+| `ist-earlier` | `primary` | Airline's own announcement distributed by Golin/PRWeb, including IST schedule |
+| `hkg-transfer` | `primary` | Government civil aviation history of closure/opening, indirect for code transfer |
+| `hkg-code` | `secondary` | Wikidata's compiled HKG/VHHH end-time statements |
+| `hkg-earlier` | `secondary` | Specialist accident compilation citing an investigation, not the original report |
+| `den-transfer` | `primary` | Original GAO audit report confirming opening, indirect for code transfer |
+| `den-code` | `secondary` | Wikidata's compiled DEN end-time statement |
+| `den-earlier` | `secondary` | Research table compiling historical FAA traffic figures and airport codes |
+
+These classifications retain all source URLs, access dates, license scopes and
+notes. Publication type alone cannot establish `primary_direct`. In particular,
+the government HKG and DEN histories are not primary code-allocation records.
 
 ## Qingdao: TAO
 

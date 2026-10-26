@@ -31,7 +31,7 @@ Initial dependency installation needs network access. All subsequent checks,
 tests, builds and resolution run offline. `pnpm build` writes:
 
 ```text
-dist/v0.1.0/
+dist/v0.2.0/
 ├── airport-history.json
 ├── dataset.schema.json
 ├── manifest.json             # SHA-256 hashes of the five other files
@@ -74,7 +74,7 @@ Unknown attributes have a null value and `unknown` status.
 | --- | --- |
 | `resolved` | One verified physical identity covers the entire local date |
 | `uncertain` | Possible candidates exist, but a boundary, evidence horizon or verification status prevents a unique answer |
-| `conflict` | Confirmed intervals for different physical airports overlap on the query date |
+| `conflict` | Two verified assignments with reviewed evidence certainly overlap for different physical airports on the query date |
 | `not_found` | No curated assignment can apply; no current-directory fallback |
 | `invalid_input` | Invalid code, scheme or Gregorian date |
 
@@ -103,8 +103,9 @@ code reuse needs an explicit future policy. ICAO is a separate namespace:
 - For start bounds `[sMin,sMax]` and end bounds `[eMin,eMax]`, possible coverage
   is `[sMin,eMax)` and certain coverage is `[sMax,eMin)`. A whole-date query is
   `[day,day+1)` and must fit in certain coverage to resolve. Overlapping possible
-  intervals cause uncertainty; overlapping certain intervals for different
-  physical sites are a conflict.
+  intervals cause uncertainty. Overlapping certain intervals for different
+  physical sites are a confirmed conflict only when both assignments and their
+  supporting sources have passed review.
 
 An old airport's original code-assignment date is unknown. Its latest-start bound
 comes from an earlier dated code observation. This is **not** a claim that the
@@ -121,6 +122,64 @@ names, coordinates and timezone mappings remain `reference` attributes; resolvin
 a code does not upgrade them into verified historical names or surveyed positions.
 The display name is a canonical label, not a historical-name timeline. IANA zone
 IDs are not fixed offsets; consumers must use timezone rules for a flight instant.
+
+## Evidence provenance and conflicts
+
+Review status, evidence provenance and temporal precision are separate fields:
+
+| Field | Values and meaning |
+| --- | --- |
+| `Source.sourceType` | `primary`: first-party publication or original institutional record for its own subject; `secondary`: reporting or compilation of other records |
+| `CodeAssignment.evidenceType` | `primary_direct`: a first-hand record explicitly supports the asserted code assignment; `indirect`: secondary or indirect corroboration; `continuity_inference`: a continuous assignment inferred between dated observations |
+
+`evidenceType` describes the **whole continuous assignment**. When continuity
+between observations is inferred, use `continuity_inference` even if a boundary
+has primary evidence. All ten curated assignments have this category and remain
+`verified`. It is visible through `candidates[].assignment.evidenceType`; source
+types are included in candidate and result evidence. See the
+[per-assignment classification](docs/evidence.md#assignment-classification).
+
+A primary publication is primary for its own subject. A government airport
+opening history can be primary for the opening and indirect for code allocation.
+A news report of IATA approval is secondary, even if the quoted decision is
+official. Neither publication type nor an exact boundary upgrades an assignment
+to `primary_direct`. That category requires explicit code-assignment support in
+a primary source; validation requires a primary source reference, while content
+review establishes whether it actually supports the claim.
+
+A confirmed conflict requires different physical airports, the same scheme/code,
+overlapping **certain** intervals, and reviewed evidence for both assignments.
+The shared review gate requires `verified`, a review date, nonempty source
+references that exist and are all verified/accessed by that date, and a recognized
+evidence category (including a primary source for `primary_direct`). Reviewed
+indirect evidence and continuity inferences remain usable; categories do not rank
+competing airports or automatically change verification status.
+
+Verified assignments with only possible temporal overlap produce boundary
+warnings. Any possible or certain overlap involving `pending`/`disputed` claims
+produces an **unconfirmed overlap** warning, not a confirmed-conflict error.
+Invalid evidence still produces validation errors independently. The resolver
+retains all candidates: an unreviewed competitor on the query date prevents a
+unique answer and returns `uncertain`. If a reviewed pair also certainly conflicts
+on that date, `conflict` takes precedence and includes the other candidates.
+Nonoverlapping historical reuse is accepted normally.
+
+## Format compatibility: 0.2.0
+
+The resolver signature, result statuses, physical identities, coordinates,
+timezones and historical boundaries are unchanged. Two required fields were added:
+`Source.sourceType` and `CodeAssignment.evidenceType`. Strict schema 1 consumers
+reject these additions, so `schemaVersion` is now **2.0.0**. The pre-1.0 package,
+`dataVersion` and static output directory advance together to **0.2.0**; the
+manifest carries both versions. The build still produces offline static JSON,
+the schema, all existing license files and SHA-256 checksums deterministically.
+
+Schema 2 validation rejects schema 1 input. To migrate external data, classify
+each publication and the actual assignment evidence before setting the new
+version; do not default old verified records to direct evidence. Consumers must
+update their types/schema and artifact path. Existing callers using this checkout's
+dataset keep the same API and historical results; no runtime migration, publication
+or formal Release is performed.
 
 ## First cases and evidence
 
@@ -146,13 +205,14 @@ conflicts. No historic code start was inferred from an airport opening date.
 src/
   types.ts                   # physical entities, boundaries, assignments, results
   time.ts                    # civil-date and interval operations
+  evidence.ts                # shared evidence review gate
   resolve.ts                 # pure offline resolution
   validate.ts                # JSON Schema plus semantic validation
   index.ts                   # dependency-free resolver entry point
 schema/dataset.schema.json   # strict draft-07 schema
 data/airports.json           # eight sites, ten assignments, source registry
 scripts/{load,validate,build}.ts
-test/{resolve,validate,build}.test.ts
+test/{resolve,validate,build,evidence,conflicts}.test.ts
 test/identities.json          # permanent initial ID mapping
 docs/evidence.md
 README.md
@@ -169,7 +229,8 @@ Schema and semantic checks reject duplicate IDs/external identities, missing
 references or evidence, unknown fields, malformed codes, impossible dates,
 invalid coordinates/timezones, null/status mismatches, unreviewed evidence behind
 verified records, inconsistent precision, reversed/empty intervals and confirmed
-code conflicts. Possible temporal conflicts are warnings. Tests cover historical
+code conflicts. Possible temporal and unconfirmed assignment overlaps are warnings.
+Tests cover historical
 examples, boundary days, unknown bounds, partial precision, conflicts, pending
 claims, invalid inputs, identity stability and reproducible exported artifacts.
 CI runs the same gates; it does not publish or merge anything.

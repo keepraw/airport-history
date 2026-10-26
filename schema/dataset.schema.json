@@ -6,7 +6,7 @@
   "additionalProperties": false,
   "properties": {
     "schemaVersion": {
-      "const": "1.0.0"
+      "const": "2.0.0"
     },
     "dataVersion": {
       "type": "string",
@@ -100,6 +100,10 @@
         "verificationStatus": {
           "enum": ["verified", "pending", "disputed"]
         },
+        "sourceType": {
+          "description": "Nature of the publication for its own subject; primary does not imply direct code-allocation evidence.",
+          "enum": ["primary", "secondary"]
+        },
         "license": {
           "type": "object",
           "additionalProperties": false,
@@ -138,6 +142,7 @@
         "url",
         "accessedOn",
         "verificationStatus",
+        "sourceType",
         "license",
         "note"
       ]
@@ -321,6 +326,10 @@
             }
           ]
         },
+        "evidenceType": {
+          "description": "Basis for the whole continuous code assignment: explicit first-hand code record, indirect corroboration, or continuity inferred between observations. Independent of review status and boundary precision.",
+          "enum": ["primary_direct", "indirect", "continuity_inference"]
+        },
         "sourceIds": {
           "type": "array",
           "items": {
@@ -344,6 +353,7 @@
         "validTo",
         "verificationStatus",
         "verifiedOn",
+        "evidenceType",
         "sourceIds",
         "note"
       ],

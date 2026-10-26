@@ -1,4 +1,5 @@
 import { dateNumber, interval, overlaps } from "./time.ts";
+import { hasReviewedEvidence } from "./evidence.ts";
 import type { Candidate, Dataset, Resolution, Source } from "./types.ts";
 
 /** Pure, offline, date-only resolver. Validate a dataset once before using it. */
@@ -88,6 +89,8 @@ export function resolveAirport(
       const right = interval(other.assignment).certain;
       if (
         a.airport.airportId !== other.airport.airportId &&
+        hasReviewedEvidence(a.assignment, sources) &&
+        hasReviewedEvidence(other.assignment, sources) &&
         Math.max(left[0], right[0], day[0]) <
           Math.min(left[1], right[1], day[1])
       ) {
@@ -103,10 +106,7 @@ export function resolveAirport(
   const certain = result.candidates.filter(
     (c) =>
       c.temporalMatch === "certain" &&
-      c.assignment.verificationStatus === "verified" &&
-      c.assignment.sourceIds.every(
-        (id) => sources.get(id)?.verificationStatus === "verified",
-      ),
+      hasReviewedEvidence(c.assignment, sources),
   );
   const first = certain[0];
   if (
@@ -114,7 +114,7 @@ export function resolveAirport(
     result.candidates.every(
       (c) =>
         c.airport.airportId === first.airport.airportId &&
-        c.assignment.verificationStatus === "verified",
+        hasReviewedEvidence(c.assignment, sources),
     )
   ) {
     return {
