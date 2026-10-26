@@ -2,6 +2,7 @@ import Ajv from "ajv";
 import addFormats from "ajv-formats";
 import schema from "../schema/dataset.schema.json" with { type: "json" };
 import { bounds, dateNumber, interval, overlaps } from "./time.ts";
+import { hasReviewedEvidence } from "./evidence.ts";
 import type { Boundary, Dataset } from "./types.ts";
 
 const ajv = new Ajv({ allErrors: true, strict: true });
@@ -116,6 +117,13 @@ export function validateDataset(input: unknown): ValidationResult {
   }
   for (const a of data.assignments) {
     checkRefs(a.sourceIds, a.assignmentId);
+    if (
+      a.evidenceType === "primary_direct" &&
+      !a.sourceIds.some((id) => sourceById.get(id)?.sourceType === "primary")
+    )
+      errors.push(
+        `${a.assignmentId}: primary_direct needs a primary source supporting the code assignment`,
+      );
     if (!airportIds.has(a.airportId))
       errors.push(`${a.assignmentId}: missing airport ${a.airportId}`);
     checkBoundary(a.validFrom, `${a.assignmentId}.validFrom`);
@@ -153,10 +161,15 @@ export function validateDataset(input: unknown): ValidationResult {
       )
         errors.push(`Duplicate assignment: ${pair}`);
       if (a.airportId !== b.airportId) {
-        if (overlaps(ai.certain, bi.certain))
-          errors.push(`Conflicting assignments: ${pair}`);
-        else if (overlaps(ai.possible, bi.possible))
-          warnings.push(`Possible boundary overlap: ${pair}`);
+        if (!overlaps(ai.possible, bi.possible)) continue;
+        if (
+          !hasReviewedEvidence(a, sourceById) ||
+          !hasReviewedEvidence(b, sourceById)
+        )
+          warnings.push(`Unconfirmed assignment overlap (review required): ${pair}`);
+        else if (overlaps(ai.certain, bi.certain))
+          errors.push(`Conflicting assignments (confirmed conflict): ${pair}`);
+        else warnings.push(`Possible boundary overlap: ${pair}`);
       }
     }
   }

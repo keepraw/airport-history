@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "1.0.0",
-  "dataVersion": "0.1.0",
+  "schemaVersion": "2.0.0",
+  "dataVersion": "0.2.0",
   "sources": [
     {
       "sourceId": "ourairports-20261025",
@@ -8,6 +8,7 @@
       "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/d97df1673cc5ba61a09b17ab5936091a669a04ca/airports.csv",
       "accessedOn": "2026-10-26",
       "verificationStatus": "verified",
+      "sourceType": "secondary",
       "license": {
         "id": "LicenseRef-Public-Domain",
         "url": "https://ourairports.com/data/",
@@ -21,6 +22,7 @@
       "url": "https://data.iana.org/time-zones/tzdb-2025b/zone1970.tab",
       "accessedOn": "2026-10-26",
       "verificationStatus": "verified",
+      "sourceType": "primary",
       "license": {
         "id": "LicenseRef-Public-Domain",
         "url": "https://data.iana.org/time-zones/tzdb-2025b/LICENSE",
@@ -34,6 +36,7 @@
       "url": "https://www.xinhuanet.com/2021-08/12/c_1127752897.htm",
       "accessedOn": "2026-10-26",
       "verificationStatus": "verified",
+      "sourceType": "secondary",
       "license": {
         "id": "LicenseRef-Reference-Only",
         "url": null,
@@ -47,6 +50,7 @@
       "url": "https://news.qingdaonews.com/qingdao/2019-03/22/content_20304508.htm",
       "accessedOn": "2026-10-26",
       "verificationStatus": "verified",
+      "sourceType": "secondary",
       "license": {
         "id": "LicenseRef-Reference-Only",
         "url": null,
@@ -60,6 +64,7 @@
       "url": "https://www.anacargo.jp/en/news/210430_E.html",
       "accessedOn": "2026-10-26",
       "verificationStatus": "verified",
+      "sourceType": "primary",
       "license": {
         "id": "LicenseRef-Reference-Only",
         "url": null,
@@ -73,6 +78,7 @@
       "url": "https://blog.turkishairlines.com/en/mega-move-the-story-of-turkish-airlines-great-migration/",
       "accessedOn": "2026-10-26",
       "verificationStatus": "verified",
+      "sourceType": "primary",
       "license": {
         "id": "LicenseRef-Reference-Only",
         "url": null,
@@ -86,6 +92,7 @@
       "url": "https://www.prweb.com/releases/turkish_airlines_united_states_expansion_continues_with_the_launch_of_nonstop_service_from_atlanta_to_istanbul_in_2016/prweb12812248.htm",
       "accessedOn": "2026-10-26",
       "verificationStatus": "verified",
+      "sourceType": "primary",
       "license": {
         "id": "LicenseRef-Reference-Only",
         "url": null,
@@ -99,6 +106,7 @@
       "url": "https://www.yearbook.gov.hk/1998/ewww/14/1413/middle-middle.htm",
       "accessedOn": "2026-10-26",
       "verificationStatus": "verified",
+      "sourceType": "primary",
       "license": {
         "id": "LicenseRef-Reference-Only",
         "url": null,
@@ -112,6 +120,7 @@
       "url": "https://www.wikidata.org/wiki/Q673202",
       "accessedOn": "2026-10-26",
       "verificationStatus": "verified",
+      "sourceType": "secondary",
       "license": {
         "id": "CC0-1.0",
         "url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
@@ -125,6 +134,7 @@
       "url": "https://aviation-safety.net/asndb/325140",
       "accessedOn": "2026-10-26",
       "verificationStatus": "verified",
+      "sourceType": "secondary",
       "license": {
         "id": "LicenseRef-Reference-Only",
         "url": null,
@@ -138,6 +148,7 @@
       "url": "https://www.govinfo.gov/content/pkg/GAOREPORTS-AIMD-95-230/html/GAOREPORTS-AIMD-95-230.htm",
       "accessedOn": "2026-10-26",
       "verificationStatus": "verified",
+      "sourceType": "primary",
       "license": {
         "id": "LicenseRef-US-Government-Work",
         "url": "https://www.gao.gov/about/contact-us/copyright",
@@ -151,6 +162,7 @@
       "url": "https://www.wikidata.org/w/index.php?title=Q1436575&oldid=2473577165",
       "accessedOn": "2026-10-26",
       "verificationStatus": "verified",
+      "sourceType": "secondary",
       "license": {
         "id": "CC0-1.0",
         "url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
@@ -164,6 +176,7 @@
       "url": "https://onlinepubs.trb.org/Onlinepubs/trr/1989/1218/1218-001.pdf",
       "accessedOn": "2026-10-26",
       "verificationStatus": "verified",
+      "sourceType": "secondary",
       "license": {
         "id": "LicenseRef-Reference-Only",
         "url": null,
@@ -456,6 +469,7 @@
       },
       "verificationStatus": "verified",
       "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
       "sourceIds": [
         "tao-earlier",
         "tao-code",
@@ -480,6 +494,7 @@
       },
       "verificationStatus": "verified",
       "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
       "sourceIds": [
         "tao-earlier",
         "tao-code",
@@ -505,6 +520,7 @@
       },
       "verificationStatus": "verified",
       "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
       "sourceIds": [
         "ist-earlier",
         "ist-transfer"
@@ -528,6 +544,7 @@
       },
       "verificationStatus": "verified",
       "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
       "sourceIds": [
         "ist-earlier",
         "ist-transfer",
@@ -552,6 +569,7 @@
       },
       "verificationStatus": "verified",
       "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
       "sourceIds": [
         "hkg-earlier",
         "hkg-code",
@@ -576,6 +594,7 @@
       },
       "verificationStatus": "verified",
       "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
       "sourceIds": [
         "hkg-earlier",
         "hkg-code",
@@ -601,6 +620,7 @@
       },
       "verificationStatus": "verified",
       "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
       "sourceIds": [
         "den-earlier",
         "den-code",
@@ -625,6 +645,7 @@
       },
       "verificationStatus": "verified",
       "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
       "sourceIds": [
         "den-earlier",
         "den-code",
@@ -650,6 +671,7 @@
       },
       "verificationStatus": "verified",
       "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
       "sourceIds": [
         "hkg-earlier",
         "hkg-code",
@@ -674,6 +696,7 @@
       },
       "verificationStatus": "verified",
       "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
       "sourceIds": [
         "hkg-earlier",
         "hkg-code",

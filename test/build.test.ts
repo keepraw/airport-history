@@ -8,7 +8,7 @@ import { resolveAirport } from "../src/resolve.ts";
 it("builds identical bytes twice and ships a parseable, independently checked artifact", async () => {
   const root = fileURLToPath(new URL("../", import.meta.url));
   const build = fileURLToPath(new URL("../scripts/build.ts", import.meta.url));
-  const dist = new URL("../dist/v0.1.0/", import.meta.url);
+  const dist = new URL("../dist/v0.2.0/", import.meta.url);
   const run = (tz: string) =>
     execFileSync(process.execPath, [build], {
       cwd: root,
@@ -30,8 +30,12 @@ it("builds identical bytes twice and ships a parseable, independently checked ar
   run("Asia/Shanghai");
   expect(await snapshot()).toEqual(first);
   const manifest = JSON.parse(first["manifest.json"]!) as {
+    schemaVersion: string;
+    dataVersion: string;
     files: Record<string, string>;
   };
+  expect(manifest.schemaVersion).toBe("2.0.0");
+  expect(manifest.dataVersion).toBe("0.2.0");
   const license = await readFile(new URL("../LICENSE", import.meta.url), "utf8");
   expect(first).toHaveProperty("LICENSE");
   expect(first["LICENSE"]).toBe(license);
@@ -45,5 +49,10 @@ it("builds identical bytes twice and ships a parseable, independently checked ar
     );
   const dataset: unknown = JSON.parse(first["airport-history.json"]!);
   assertDataset(dataset);
+  expect(dataset.schemaVersion).toBe(manifest.schemaVersion);
+  expect(dataset.dataVersion).toBe(manifest.dataVersion);
+  expect(
+    dataset.assignments.every((a) => a.evidenceType === "continuity_inference"),
+  ).toBe(true);
   expect(resolveAirport(dataset, "HKG", "1997-06-01").status).toBe("resolved");
 });
