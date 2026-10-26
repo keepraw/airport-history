@@ -1,4 +1,10 @@
-# Evidence review: 0.2.0
+# Evidence review: bootstrap and provenance update (0.2.0)
+
+Version 0.3.0 adds five events, five physical identities, ten assignments and
+thirteen sources. See the [batch-1 evidence review](batch-1-evidence.md) and
+[candidate register](batch-1-candidates.md). The bootstrap records and their
+classification below are unchanged; statements about ten intervals or eight
+reference rows in this document refer to that original scope.
 
 Reviewed 2026-10-26. This is a deliberately small factual compilation. Source
 verification means the cited content was checked; it is not a claim of official

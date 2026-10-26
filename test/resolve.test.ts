@@ -39,7 +39,7 @@ describe("curated historical regressions", () => {
     expect(r.airport?.coordinates.value).not.toBeNull();
     expect(r.airport?.timezone.value).not.toBeNull();
     expect(r.evidence.length).toBeGreaterThan(1);
-    expect(r.dataVersion).toBe("0.2.0");
+    expect(r.dataVersion).toBe("0.3.0");
     expect(r.airport?.coordinates.status).toBe("reference");
   });
   it.each([

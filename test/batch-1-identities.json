@@ -1,0 +1,47 @@
+{
+  "benazir-bhutto": {
+    "airportId": "apt_d28173b7-5c8b-4012-8eed-18f96c13a0ce",
+    "ourAirports": "5274",
+    "coordinates": {
+      "latitude": 33.616699,
+      "longitude": 73.099197
+    },
+    "timezone": "Asia/Karachi"
+  },
+  "islamabad": {
+    "airportId": "apt_896e8191-7c0b-4a94-bc14-9dcd7e35feac",
+    "ourAirports": "333692",
+    "coordinates": {
+      "latitude": 33.549,
+      "longitude": 72.82566
+    },
+    "timezone": "Asia/Karachi"
+  },
+  "schonefeld-brandenburg": {
+    "airportId": "apt_f642eef8-1864-43c4-8944-47aaa7ac35ce",
+    "ourAirports": "301881",
+    "coordinates": {
+      "latitude": 52.361738,
+      "longitude": 13.502341
+    },
+    "timezone": "Europe/Berlin"
+  },
+  "astana": {
+    "airportId": "apt_99f19660-7609-49c5-b221-ed4a37046566",
+    "ourAirports": "6423",
+    "coordinates": {
+      "latitude": 51.027035,
+      "longitude": 71.467094
+    },
+    "timezone": "Asia/Almaty"
+  },
+  "chisinau": {
+    "airportId": "apt_7a7e34d3-dbfa-4cce-ad24-818709177bfd",
+    "ourAirports": "4571",
+    "coordinates": {
+      "latitude": 46.92774,
+      "longitude": 28.931704
+    },
+    "timezone": "Europe/Chisinau"
+  }
+}
