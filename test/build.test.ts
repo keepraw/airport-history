@@ -4,11 +4,11 @@ import { readFile, readdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { expect, it } from "vitest";
 import { assertDataset } from "../src/validate.ts";
-import { resolveAirport } from "../src/resolve.ts";
+import { resolveAirport, resolveAirportName } from "../src/index.ts";
 it("builds identical bytes twice and ships a parseable, independently checked artifact", async () => {
   const root = fileURLToPath(new URL("../", import.meta.url));
   const build = fileURLToPath(new URL("../scripts/build.ts", import.meta.url));
-  const dist = new URL("../dist/v0.3.0/", import.meta.url);
+  const dist = new URL("../dist/v0.4.0/", import.meta.url);
   const run = (tz: string) =>
     execFileSync(process.execPath, [build], {
       cwd: root,
@@ -34,9 +34,12 @@ it("builds identical bytes twice and ships a parseable, independently checked ar
     dataVersion: string;
     files: Record<string, string>;
   };
-  expect(manifest.schemaVersion).toBe("2.0.0");
-  expect(manifest.dataVersion).toBe("0.3.0");
-  const license = await readFile(new URL("../LICENSE", import.meta.url), "utf8");
+  expect(manifest.schemaVersion).toBe("3.0.0");
+  expect(manifest.dataVersion).toBe("0.4.0");
+  const license = await readFile(
+    new URL("../LICENSE", import.meta.url),
+    "utf8",
+  );
   expect(first).toHaveProperty("LICENSE");
   expect(first["LICENSE"]).toBe(license);
   expect(manifest.files).toHaveProperty("LICENSE");
@@ -53,7 +56,21 @@ it("builds identical bytes twice and ships a parseable, independently checked ar
   expect(dataset.dataVersion).toBe(manifest.dataVersion);
   expect(dataset.airports).toHaveLength(13);
   expect(dataset.assignments).toHaveLength(20);
-  expect(dataset.sources).toHaveLength(26);
+  expect(dataset.sources).toHaveLength(29);
+  expect(dataset.names).toHaveLength(2);
+  expect(dataset.names.map((n) => n.nameId)).toEqual(
+    dataset.names.map((n) => n.nameId).sort(),
+  );
+  const astanaId = "apt_99f19660-7609-49c5-b221-ed4a37046566";
+  expect(resolveAirportName(dataset, astanaId, "2015-01-01").name).toBe(
+    "Международный аэропорт Астана",
+  );
+  expect(resolveAirportName(dataset, astanaId, "2017-06-21").status).toBe(
+    "uncertain",
+  );
+  expect(resolveAirportName(dataset, astanaId, "2024-01-01").name).toBe(
+    "Международный аэропорт Нурсултан Назарбаев",
+  );
   expect(
     dataset.assignments.every((a) => a.evidenceType === "continuity_inference"),
   ).toBe(true);

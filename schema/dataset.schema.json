@@ -6,7 +6,7 @@
   "additionalProperties": false,
   "properties": {
     "schemaVersion": {
-      "const": "2.0.0"
+      "const": "3.0.0"
     },
     "dataVersion": {
       "type": "string",
@@ -26,6 +26,12 @@
         "$ref": "#/$defs/airport"
       }
     },
+    "names": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/airportName"
+      }
+    },
     "assignments": {
       "type": "array",
       "minItems": 1,
@@ -39,7 +45,8 @@
     "dataVersion",
     "sources",
     "airports",
-    "assignments"
+    "assignments",
+    "names"
   ],
   "$defs": {
     "date": {
@@ -383,6 +390,95 @@
             }
           }
         }
+      ]
+    },
+    "airportName": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "nameId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "language": {
+          "type": "string",
+          "pattern": "^[A-Za-z]{2,8}(?:-[A-Za-z0-9]{1,8})*$"
+        },
+        "kind": {
+          "description": "Only canonical official names participate in date resolution. Aliases and translations never imply an official rename; city names are excluded.",
+          "enum": [
+            "official",
+            "alias",
+            "translation"
+          ]
+        },
+        "airportId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "validFrom": {
+          "$ref": "#/$defs/boundary"
+        },
+        "validTo": {
+          "$ref": "#/$defs/boundary"
+        },
+        "verificationStatus": {
+          "enum": [
+            "verified",
+            "pending",
+            "disputed"
+          ]
+        },
+        "verifiedOn": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/date"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "evidenceType": {
+          "description": "Basis for the whole continuous name claim, independently of review and boundary precision.",
+          "enum": [
+            "primary_direct",
+            "indirect",
+            "continuity_inference"
+          ]
+        },
+        "sourceIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "note": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "nameId",
+        "airportId",
+        "name",
+        "language",
+        "kind",
+        "validFrom",
+        "validTo",
+        "verificationStatus",
+        "verifiedOn",
+        "evidenceType",
+        "sourceIds",
+        "note"
       ]
     }
   }

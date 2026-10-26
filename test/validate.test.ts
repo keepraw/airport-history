@@ -10,7 +10,7 @@ const rejected = (mutate: (d: Dataset) => void, message?: string) => {
   expect(r.errors.length).toBeGreaterThan(0);
   if (message) expect(r.errors.join("\n")).toContain(message);
 };
-it("accepts curated data and reports only the six reviewed boundary overlaps", () => {
+it("accepts curated data and reports the six code boundaries and one official-name boundary", () => {
   const r = validateDataset(data);
   expect(r.errors).toEqual([]);
   expect(r.warnings.sort()).toEqual([
@@ -20,6 +20,7 @@ it("accepts curated data and reports only the six reviewed boundary overlaps", (
     "Possible boundary overlap: iata-isl-istanbul / iata-isl-ataturk",
     "Possible boundary overlap: iata-ist-ataturk / iata-ist-istanbul",
     "Possible boundary overlap: icao-vhhh-kai-tak / icao-vhhh-chek-lap-kok",
+    "Possible official-name boundary overlap: name-astana-before-2017 / name-astana-nazarbayev-2017",
   ]);
 });
 it.each(["airportId", "assignmentId", "sourceId"] as const)(

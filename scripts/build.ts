@@ -26,6 +26,7 @@ const sorted = {
   assignments: [...dataset.assignments].sort((a, b) =>
     a.assignmentId < b.assignmentId ? -1 : 1,
   ),
+  names: [...dataset.names].sort((a, b) => (a.nameId < b.nameId ? -1 : 1)),
   sources: [...dataset.sources].sort((a, b) =>
     a.sourceId < b.sourceId ? -1 : 1,
   ),

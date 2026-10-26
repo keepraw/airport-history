@@ -14,7 +14,9 @@ export function bounds(boundary: Boundary): [number, number] {
     boundary.latest === null ? Infinity : dateNumber(boundary.latest),
   ];
 }
-export function interval(assignment: CodeAssignment): {
+export function interval(
+  assignment: Pick<CodeAssignment, "validFrom" | "validTo">,
+): {
   possible: [number, number];
   certain: [number, number];
 } {

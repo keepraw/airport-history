@@ -17,6 +17,7 @@ function competing(
   overlap: "certain" | "possible" = "certain",
 ): Dataset {
   const d = structuredClone(data);
+  d.names = []; // Isolate code-claim conflicts from the curated name boundary.
   d.assignments = [left, right].map((status, i) => ({
     ...d.assignments[i]!,
     assignmentId: `claim-${i}`,
