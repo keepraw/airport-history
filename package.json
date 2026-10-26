@@ -1,0 +1,26 @@
+{
+  "name": "@keepraw/airport-history",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Historical airport identities, locations, and code assignments.",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": "^24.0.0"
+  },
+  "packageManager": "pnpm@10.14.0",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "validate:data": "node scripts/validate.ts",
+    "test": "vitest run",
+    "build": "node scripts/build.ts",
+    "check": "pnpm typecheck && pnpm validate:data && pnpm test && pnpm build"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "typescript": "^5.9.2",
+    "vitest": "^4.0.0"
+  }
+}
