@@ -5,16 +5,26 @@ import { validateDataset } from "../src/validate.ts";
 
 const data = await loadDataset();
 
-it("classifies all ten curated intervals as reviewed continuity inferences", () => {
+it("classifies all twenty curated intervals as reviewed continuity inferences", () => {
   expect(data.assignments.map((a) => a.assignmentId).sort()).toEqual([
+    "iata-ber-schonefeld-brandenburg",
     "iata-den-denver",
     "iata-den-stapleton",
     "iata-hkg-chek-lap-kok",
     "iata-hkg-kai-tak",
+    "iata-isb-benazir-bhutto",
+    "iata-isb-islamabad",
+    "iata-isl-ataturk",
+    "iata-isl-istanbul",
     "iata-ist-ataturk",
     "iata-ist-istanbul",
+    "iata-kiv-chisinau",
+    "iata-nqz-astana",
+    "iata-rmo-chisinau",
+    "iata-sxf-schonefeld-brandenburg",
     "iata-tao-jiaodong",
     "iata-tao-liuting",
+    "iata-tse-astana",
     "icao-vhhh-chek-lap-kok",
     "icao-vhhh-kai-tak",
   ]);

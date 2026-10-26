@@ -8,7 +8,7 @@ import { resolveAirport } from "../src/resolve.ts";
 it("builds identical bytes twice and ships a parseable, independently checked artifact", async () => {
   const root = fileURLToPath(new URL("../", import.meta.url));
   const build = fileURLToPath(new URL("../scripts/build.ts", import.meta.url));
-  const dist = new URL("../dist/v0.2.0/", import.meta.url);
+  const dist = new URL("../dist/v0.3.0/", import.meta.url);
   const run = (tz: string) =>
     execFileSync(process.execPath, [build], {
       cwd: root,
@@ -35,7 +35,7 @@ it("builds identical bytes twice and ships a parseable, independently checked ar
     files: Record<string, string>;
   };
   expect(manifest.schemaVersion).toBe("2.0.0");
-  expect(manifest.dataVersion).toBe("0.2.0");
+  expect(manifest.dataVersion).toBe("0.3.0");
   const license = await readFile(new URL("../LICENSE", import.meta.url), "utf8");
   expect(first).toHaveProperty("LICENSE");
   expect(first["LICENSE"]).toBe(license);
@@ -51,8 +51,14 @@ it("builds identical bytes twice and ships a parseable, independently checked ar
   assertDataset(dataset);
   expect(dataset.schemaVersion).toBe(manifest.schemaVersion);
   expect(dataset.dataVersion).toBe(manifest.dataVersion);
+  expect(dataset.airports).toHaveLength(13);
+  expect(dataset.assignments).toHaveLength(20);
+  expect(dataset.sources).toHaveLength(26);
   expect(
     dataset.assignments.every((a) => a.evidenceType === "continuity_inference"),
   ).toBe(true);
   expect(resolveAirport(dataset, "HKG", "1997-06-01").status).toBe("resolved");
+  expect(resolveAirport(dataset, "ISB", "2018-05-03").status).toBe("uncertain");
+  expect(resolveAirport(dataset, "BER", "2020-10-26").status).toBe("resolved");
+  expect(resolveAirport(dataset, "KIV", "2024-01-19").status).toBe("not_found");
 });

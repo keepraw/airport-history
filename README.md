@@ -7,8 +7,10 @@ A small, offline TypeScript resolver and versioned reference dataset for
 identify different physical sites over time. This repository preserves those
 sites and the evidence behind their code assignments.
 
-**Bootstrap scope:** eight physical airports, eight IATA assignments for TAO,
-IST, HKG and DEN, plus two ICAO VHHH assignments. This is a curated history layer,
+**Curated scope (0.3.0):** thirteen physical airports, eighteen IATA assignments
+and two ICAO VHHH assignments, with twenty-six evidence sources. The original
+TAO, IST, HKG and DEN examples are joined by five reviewed ISL, ISB, SXF/BER,
+TSE/NQZ and KIV/RMO events. This is a curated history layer,
 not a replacement for a worldwide current-airport directory. No server, database,
 UI, global crawler or Keepraw-Fly integration is included. This is not a
 navigation or operational flight-planning dataset.
@@ -31,7 +33,7 @@ Initial dependency installation needs network access. All subsequent checks,
 tests, builds and resolution run offline. `pnpm build` writes:
 
 ```text
-dist/v0.2.0/
+dist/v0.3.0/
 ├── airport-history.json
 ├── dataset.schema.json
 ├── manifest.json             # SHA-256 hashes of the five other files
@@ -80,8 +82,8 @@ Unknown attributes have a null value and `unknown` status.
 
 Codes are trimmed and uppercased. Dates must be real `YYYY-MM-DD` calendar dates
 in the airport's local civil calendar. Timestamps, offsets and partial query
-dates are rejected. The resolver does not convert UTC to local time. The four
-migration pairs are in the same respective local date systems; cross-timezone
+dates are rejected. The resolver does not convert UTC to local time. The curated
+code-transfer pairs are in the same respective local date systems; cross-timezone
 code reuse needs an explicit future policy. ICAO is a separate namespace:
 `resolveAirport(data, "VHHH", "1997-06-01", "ICAO")` returns Kai Tak.
 
@@ -91,7 +93,8 @@ code reuse needs an explicit future policy. ICAO is a separate namespace:
   it when updating names, sources or coordinates. A physical relocation creates
   another entity. A simple rename does not. Keep closed airport entities.
 - OurAirports numeric IDs are external cross-references, not our primary IDs.
-  The fixture `test/identities.json` freezes the initial identity mapping.
+  The fixture `test/identities.json` freezes the initial identity mapping;
+  `test/batch-1-identities.json` freezes the five added identities and coordinates.
 - Each assignment describes one continuous **left-closed, right-open** interval
   `[validFrom, validTo)`. Each boundary carries `earliest`, `latest`, and
   `precision`: bounds on the unknown actual boundary, not invented event dates.
@@ -134,7 +137,7 @@ Review status, evidence provenance and temporal precision are separate fields:
 
 `evidenceType` describes the **whole continuous assignment**. When continuity
 between observations is inferred, use `continuity_inference` even if a boundary
-has primary evidence. All ten curated assignments have this category and remain
+has primary evidence. All twenty curated assignments have this category and remain
 `verified`. It is visible through `candidates[].assignment.evidenceType`; source
 types are included in candidate and result evidence. See the
 [per-assignment classification](docs/evidence.md#assignment-classification).
@@ -186,6 +189,9 @@ or formal Release is performed.
 All source records were reviewed on **2026-10-26**. Full URLs, license scope,
 access dates, review status and claim notes are in `data/airports.json`.
 The [evidence notes](docs/evidence.md) explain the historical and licensing limits.
+The [batch-1 review](docs/batch-1-evidence.md) and
+[candidate register](docs/batch-1-candidates.md) document new cases, uncertainty
+and deferred leads.
 
 | Code | Physical change | Supported boundary | Date-only behavior |
 | --- | --- | --- | --- |
@@ -193,10 +199,17 @@ The [evidence notes](docs/evidence.md) explain the historical and licensing limi
 | IST | Istanbul Atatürk → Istanbul Airport | 2019-04-06, within the day | 2017: Atatürk; 2024: Istanbul; transfer date uncertain |
 | HKG / VHHH | Kai Tak → Chek Lap Kok | 1998-07-06, within the day | 1997: Kai Tak; 2024: Chek Lap Kok; transfer date uncertain |
 | DEN | Stapleton → Denver International | 1995-02-28, day precision | 1994: Stapleton; 2024: Denver; transfer date uncertain |
+| ISL | Istanbul Airport → Atatürk (inverse of IST) | 2019-04-06, within the day | 2018-12: Istanbul; 2024: Atatürk; exchange day uncertain |
+| ISB | Benazir Bhutto → new Islamabad | May 2018, month precision | 2017: old field; 2019: new field; all May dates uncertain, including May 3 flight move |
+| SXF → BER | Same expanded Schönefeld/Brandenburg airfield | 2020-10-25, day precision | One identity; earlier BER city code excluded; October 31 T1 opening is separate |
+| TSE → NQZ | Same Astana airfield | 2020-06-08, day precision | One identity; change day uncertain; TSE unavailable afterward |
+| KIV → RMO | Same Chișinău airfield | 2024-01-18, day precision | One identity; secondary code evidence; KIV unavailable afterward |
 
-The validator intentionally reports four possible-overlap warnings (IST, HKG,
-VHHH, DEN). They express unresolved boundary-day attribution, not definite data
-conflicts. No historic code start was inferred from an airport opening date.
+The validator intentionally reports six possible-overlap warnings (IST, HKG,
+VHHH, DEN, ISL and ISB). They express unresolved boundary-day or boundary-month
+attribution, not definite data conflicts. No historic code start was inferred
+from an airport opening date. Version 0.3.0 adds data and regression coverage;
+Schema 2.0.0, resolver behavior and all bootstrap records remain unchanged.
 
 ## Repository layout
 
@@ -210,11 +223,13 @@ src/
   validate.ts                # JSON Schema plus semantic validation
   index.ts                   # dependency-free resolver entry point
 schema/dataset.schema.json   # strict draft-07 schema
-data/airports.json           # eight sites, ten assignments, source registry
+data/airports.json           # thirteen sites, twenty assignments, source registry
 scripts/{load,validate,build}.ts
-test/{resolve,validate,build,evidence,conflicts}.test.ts
+test/{resolve,validate,build,evidence,conflicts,batch-1}.test.ts
 test/identities.json          # permanent initial ID mapping
+test/batch-1-identities.json  # five added IDs and reference coordinates
 docs/evidence.md
+docs/batch-1-{candidates,evidence}.md
 README.md
 LICENSE                      # MIT for code
 LICENSE-DATA                 # CC0 legal text; scope below
