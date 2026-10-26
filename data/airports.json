@@ -1,0 +1,686 @@
+{
+  "schemaVersion": "1.0.0",
+  "dataVersion": "0.1.0",
+  "sources": [
+    {
+      "sourceId": "ourairports-20261025",
+      "title": "OurAirports airport snapshot d97df1673cc5ba61a09b17ab5936091a669a04ca",
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/d97df1673cc5ba61a09b17ab5936091a669a04ca/airports.csv",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "url": "https://ourairports.com/data/",
+        "note": "OurAirports explicitly releases its data to the public domain. Preserve that designation, not an invented CC0 license."
+      },
+      "note": "Only eight rows used. Names and coordinates are reference attributes, not historical aerodrome reference points. Current codes corroborate continuing assignments; they cannot establish a historical transfer by themselves."
+    },
+    {
+      "sourceId": "tzdb-2025b",
+      "title": "IANA tzdb 2025b zone1970.tab",
+      "url": "https://data.iana.org/time-zones/tzdb-2025b/zone1970.tab",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "url": "https://data.iana.org/time-zones/tzdb-2025b/LICENSE",
+        "note": "zone1970.tab is public domain under the tzdb LICENSE; no BSD code is copied."
+      },
+      "note": "Selected Beijing Time, Hong Kong, Istanbul and Denver geographical zone identifiers. These are reference mappings; no UTC offset is stored or calculated."
+    },
+    {
+      "sourceId": "tao-transfer",
+      "title": "Xinhua: Qingdao Jiaodong transfer completed",
+      "url": "https://www.xinhuanet.com/2021-08/12/c_1127752897.htm",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it."
+      },
+      "note": "Reports Jiaodong began operation and Liuting closed simultaneously at local midnight on 2021-08-12."
+    },
+    {
+      "sourceId": "tao-code",
+      "title": "Qingdao News: IATA approval to retain TAO",
+      "url": "https://news.qingdaonews.com/qingdao/2019-03/22/content_20304508.htm",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it."
+      },
+      "note": "Reports IATA approval on 2019-03-21: Jiaodong inherits Liuting TAO from the announced opening midnight. Approval date is not the effective transfer date."
+    },
+    {
+      "sourceId": "tao-earlier",
+      "title": "ANA Cargo: TAO cargo procedures",
+      "url": "https://www.anacargo.jp/en/news/210430_E.html",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it."
+      },
+      "note": "2021-04-30 notice explicitly refers to TAO procedures announced 2016-08-16. Combined with the Liuting/Jiaodong transfer sources, establishes code use before 2017, not first assignment."
+    },
+    {
+      "sourceId": "ist-transfer",
+      "title": "Turkish Airlines: Mega move",
+      "url": "https://blog.turkishairlines.com/en/mega-move-the-story-of-turkish-airlines-great-migration/",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it."
+      },
+      "note": "Airline retrospective explicitly records IST/ISL exchange on 2019-04-06 at 02:59. Stored at day precision because the API accepts dates, not flight times. The new airport opening in 2018 is not the IST transfer date."
+    },
+    {
+      "sourceId": "ist-earlier",
+      "title": "Turkish Airlines Atlanta announcement distributed by Golin",
+      "url": "https://www.prweb.com/releases/turkish_airlines_united_states_expansion_continues_with_the_launch_of_nonstop_service_from_atlanta_to_istanbul_in_2016/prweb12812248.htm",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it."
+      },
+      "note": "2015-06-25 announcement names Ataturk as the existing hub and IST in the route schedule. This is an upper bound on first assignment; the advertised 2016 route opening is not the code start."
+    },
+    {
+      "sourceId": "hkg-transfer",
+      "title": "Hong Kong Yearbook 1998: Civil Aviation",
+      "url": "https://www.yearbook.gov.hk/1998/ewww/14/1413/middle-middle.htm",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it."
+      },
+      "note": "Kai Tak closed early on 1998-07-06; Chek Lap Kok commercial service began a few hours later. Do not equate runway closure, first landing and code reassignment instants."
+    },
+    {
+      "sourceId": "hkg-code",
+      "title": "Wikidata Q673202: Kai Tak",
+      "url": "https://www.wikidata.org/wiki/Q673202",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+        "note": "Structured main-namespace data is CC0; no Wikipedia prose or media is copied."
+      },
+      "note": "Structured HKG and VHHH statements have end-time 1998-07-06. Secondary evidence corroborated with the government transfer history. Live entity accessed on the recorded date; not claimed to be revision-pinned."
+    },
+    {
+      "sourceId": "hkg-earlier",
+      "title": "Aviation Safety Network: China Airlines 605, 1993-11-04",
+      "url": "https://aviation-safety.net/asndb/325140",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it."
+      },
+      "note": "Specialist accident record identifies Hong Kong-Kai Tak (HKG/VHHH) on 1993-11-04 and cites the completed CAD investigation. Retrieved directly via the legacy record URL redirect. This bounds the unknown first assignments; it is not the airport opening date."
+    },
+    {
+      "sourceId": "den-transfer",
+      "title": "US GAO: Denver International Airport financial issues",
+      "url": "https://www.govinfo.gov/content/pkg/GAOREPORTS-AIMD-95-230/html/GAOREPORTS-AIMD-95-230.htm",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "license": {
+        "id": "LicenseRef-US-Government-Work",
+        "url": "https://www.gao.gov/about/contact-us/copyright",
+        "note": "Federal report used for factual verification. No report text, third-party graphics or tables are redistributed."
+      },
+      "note": "Retrospective GAO report confirms new Denver airport opened for business on 1995-02-28. No precise code-switch time is established here."
+    },
+    {
+      "sourceId": "den-code",
+      "title": "Wikidata Q1436575: Stapleton",
+      "url": "https://www.wikidata.org/w/index.php?title=Q1436575&oldid=2473577165",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+        "note": "Structured main-namespace data is CC0; no Wikipedia prose or media is copied."
+      },
+      "note": "Structured DEN and KDEN end-time statements give 1995-02-28; checked together with the GAO report, the historical TRB code reference and current OurAirports successor record."
+    },
+    {
+      "sourceId": "den-earlier",
+      "title": "TRB Transportation Research Record 1218 (1989), Table 3",
+      "url": "https://onlinepubs.trb.org/Onlinepubs/trr/1989/1218/1218-001.pdf",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it."
+      },
+      "note": "Table 3 explicitly maps DEN to Denver Stapleton for historical FAA traffic figures. Use publication-year end as a conservative latest bound on first assignment, not a fabricated 1929 IATA start."
+    }
+  ],
+  "airports": [
+    {
+      "airportId": "apt_f470ecb5-c6dc-4516-a233-37302da2115b",
+      "name": {
+        "value": "Qingdao Liuting International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.265837,
+          "longitude": 120.37459
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "Asia/Shanghai",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "27224"
+      }
+    },
+    {
+      "airportId": "apt_6729d2b2-4b79-48c8-9c42-0d4eeba121b8",
+      "name": {
+        "value": "Qingdao Jiaodong International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.361953,
+          "longitude": 120.088171
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "Asia/Shanghai",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "342096"
+      }
+    },
+    {
+      "airportId": "apt_d8f290d3-11cc-4441-af6d-f4dd52d3b8dc",
+      "name": {
+        "value": "İstanbul Atatürk Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 40.971913,
+          "longitude": 28.823714
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "Europe/Istanbul",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "4528"
+      }
+    },
+    {
+      "airportId": "apt_92a92544-1808-487a-85e0-0fa995e1de82",
+      "name": {
+        "value": "İstanbul Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 41.274874,
+          "longitude": 28.732136
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "Europe/Istanbul",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "317457"
+      }
+    },
+    {
+      "airportId": "apt_86460159-a072-4a18-afcc-ab376cda7047",
+      "name": {
+        "value": "Hong Kong International Airport Kai Tak",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 22.320304,
+          "longitude": 114.198074
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "Asia/Hong_Kong",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "28112"
+      }
+    },
+    {
+      "airportId": "apt_8d89722f-007c-4eb4-aaa0-ec1c61007a09",
+      "name": {
+        "value": "Hong Kong International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 22.31184,
+          "longitude": 113.914862
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "Asia/Hong_Kong",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "26535"
+      }
+    },
+    {
+      "airportId": "apt_ce3d25d8-99db-48ae-b824-33cea4de0919",
+      "name": {
+        "value": "Denver Stapleton International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 39.774200439453,
+          "longitude": -104.87899780273
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "America/Denver",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "28113"
+      }
+    },
+    {
+      "airportId": "apt_67f7542e-c336-4ba7-b23a-beaf1b4c1e38",
+      "name": {
+        "value": "Denver International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 39.860027,
+          "longitude": -104.673792
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "America/Denver",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "3486"
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "assignmentId": "iata-tao-liuting",
+      "scheme": "IATA",
+      "code": "TAO",
+      "airportId": "apt_f470ecb5-c6dc-4516-a233-37302da2115b",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2016-08-17",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2021-08-12",
+        "latest": "2021-08-12",
+        "precision": "exact"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "sourceIds": [
+        "tao-earlier",
+        "tao-code",
+        "tao-transfer"
+      ],
+      "note": "Original assignment date remains unknown; latest start is only an evidence bound. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    },
+    {
+      "assignmentId": "iata-tao-jiaodong",
+      "scheme": "IATA",
+      "code": "TAO",
+      "airportId": "apt_6729d2b2-4b79-48c8-9c42-0d4eeba121b8",
+      "validFrom": {
+        "earliest": "2021-08-12",
+        "latest": "2021-08-12",
+        "precision": "exact"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "sourceIds": [
+        "tao-earlier",
+        "tao-code",
+        "tao-transfer",
+        "ourairports-20261025"
+      ],
+      "note": "Transfer establishes the start, not the airport inauguration. The open end is not guaranteed future validity. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    },
+    {
+      "assignmentId": "iata-ist-ataturk",
+      "scheme": "IATA",
+      "code": "IST",
+      "airportId": "apt_d8f290d3-11cc-4441-af6d-f4dd52d3b8dc",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2015-06-26",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2019-04-06",
+        "latest": "2019-04-07",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "sourceIds": [
+        "ist-earlier",
+        "ist-transfer"
+      ],
+      "note": "Original assignment date remains unknown; latest start is only an evidence bound. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    },
+    {
+      "assignmentId": "iata-ist-istanbul",
+      "scheme": "IATA",
+      "code": "IST",
+      "airportId": "apt_92a92544-1808-487a-85e0-0fa995e1de82",
+      "validFrom": {
+        "earliest": "2019-04-06",
+        "latest": "2019-04-07",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "sourceIds": [
+        "ist-earlier",
+        "ist-transfer",
+        "ourairports-20261025"
+      ],
+      "note": "Transfer establishes the start, not the airport inauguration. The open end is not guaranteed future validity. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    },
+    {
+      "assignmentId": "iata-hkg-kai-tak",
+      "scheme": "IATA",
+      "code": "HKG",
+      "airportId": "apt_86460159-a072-4a18-afcc-ab376cda7047",
+      "validFrom": {
+        "earliest": null,
+        "latest": "1993-11-05",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "1998-07-06",
+        "latest": "1998-07-07",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "sourceIds": [
+        "hkg-earlier",
+        "hkg-code",
+        "hkg-transfer"
+      ],
+      "note": "Original assignment date remains unknown; latest start is only an evidence bound. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    },
+    {
+      "assignmentId": "iata-hkg-chek-lap-kok",
+      "scheme": "IATA",
+      "code": "HKG",
+      "airportId": "apt_8d89722f-007c-4eb4-aaa0-ec1c61007a09",
+      "validFrom": {
+        "earliest": "1998-07-06",
+        "latest": "1998-07-07",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "sourceIds": [
+        "hkg-earlier",
+        "hkg-code",
+        "hkg-transfer",
+        "ourairports-20261025"
+      ],
+      "note": "Transfer establishes the start, not the airport inauguration. The open end is not guaranteed future validity. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    },
+    {
+      "assignmentId": "iata-den-stapleton",
+      "scheme": "IATA",
+      "code": "DEN",
+      "airportId": "apt_ce3d25d8-99db-48ae-b824-33cea4de0919",
+      "validFrom": {
+        "earliest": null,
+        "latest": "1989-12-31",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "1995-02-28",
+        "latest": "1995-03-01",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "sourceIds": [
+        "den-earlier",
+        "den-code",
+        "den-transfer"
+      ],
+      "note": "Original assignment date remains unknown; latest start is only an evidence bound. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    },
+    {
+      "assignmentId": "iata-den-denver",
+      "scheme": "IATA",
+      "code": "DEN",
+      "airportId": "apt_67f7542e-c336-4ba7-b23a-beaf1b4c1e38",
+      "validFrom": {
+        "earliest": "1995-02-28",
+        "latest": "1995-03-01",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "sourceIds": [
+        "den-earlier",
+        "den-code",
+        "den-transfer",
+        "ourairports-20261025"
+      ],
+      "note": "Transfer establishes the start, not the airport inauguration. The open end is not guaranteed future validity. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    },
+    {
+      "assignmentId": "icao-vhhh-kai-tak",
+      "scheme": "ICAO",
+      "code": "VHHH",
+      "airportId": "apt_86460159-a072-4a18-afcc-ab376cda7047",
+      "validFrom": {
+        "earliest": null,
+        "latest": "1993-11-05",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "1998-07-06",
+        "latest": "1998-07-07",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "sourceIds": [
+        "hkg-earlier",
+        "hkg-code",
+        "hkg-transfer"
+      ],
+      "note": "Original assignment date remains unknown; latest start is only an evidence bound. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    },
+    {
+      "assignmentId": "icao-vhhh-chek-lap-kok",
+      "scheme": "ICAO",
+      "code": "VHHH",
+      "airportId": "apt_8d89722f-007c-4eb4-aaa0-ec1c61007a09",
+      "validFrom": {
+        "earliest": "1998-07-06",
+        "latest": "1998-07-07",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "sourceIds": [
+        "hkg-earlier",
+        "hkg-code",
+        "hkg-transfer",
+        "ourairports-20261025"
+      ],
+      "note": "Transfer establishes the start, not the airport inauguration. The open end is not guaranteed future validity. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    }
+  ]
+}
