@@ -1789,6 +1789,45 @@
         "pending_review": 4,
         "ready_to_admit": 0
       }
+    },
+    {
+      "admission": {
+        "airports": 0,
+        "assignments": 0,
+        "formalSources": 0,
+        "names": 0,
+        "reason": "No new event has a supported code-effective interval. Physical identities and opening dates are recorded as research evidence; continuity inference is not used to bridge missing code boundaries."
+      },
+      "batchId": "global-2",
+      "eventCount": 4,
+      "followUps": [
+        {
+          "currentStatus": "insufficient_evidence",
+          "dispositionChanged": false,
+          "eventGroupId": "global-1-kti",
+          "priorBatchId": "global-1"
+        },
+        {
+          "currentStatus": "insufficient_evidence",
+          "dispositionChanged": false,
+          "eventGroupId": "global-1-ynt",
+          "priorBatchId": "global-1"
+        },
+        {
+          "currentStatus": "insufficient_evidence",
+          "dispositionChanged": false,
+          "eventGroupId": "global-1-rov",
+          "priorBatchId": "global-1"
+        }
+      ],
+      "path": "research/discovery/batches/global-2.json",
+      "reviewedOn": "2026-10-27",
+      "statusCounts": {
+        "excluded": 2,
+        "insufficient_evidence": 2,
+        "pending_review": 0,
+        "ready_to_admit": 0
+      }
     }
   ],
   "sourceCandidatesByCountry": {

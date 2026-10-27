@@ -12,6 +12,19 @@
     "reviewedOn": "2026-10-27",
     "status": "insufficient_evidence"
   },
+  "cand_07f311536256078e1803e39f": {
+    "conflicts": [],
+    "eventGroupId": "global-2-sgs",
+    "evidenceGaps": [
+      "Official SGS allocation (if any) and the actual TWT effective date are missing; only a 2009–2014 window is bounded by reference/airline observations."
+    ],
+    "evidenceReview": "research/discovery/batches/global-2.json",
+    "exclusionReason": null,
+    "nextAction": "Seek dated IATA code-directory or airline/GDS notices (Cebu Pacific, Airphil Express 2010–2013) and CAAP AIP for RPMN; do not admit TWT from 2014 by continuity.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "insufficient_evidence"
+  },
   "cand_0b3be5f183608a0f8d8463fe": {
     "conflicts": [],
     "eventGroupId": "global-1-ybp",
@@ -92,6 +105,32 @@
     "reviewedOn": "2026-10-27",
     "status": "excluded"
   },
+  "cand_46c26d3137b3b9648b30b005": {
+    "conflicts": [],
+    "eventGroupId": "global-2-sgs",
+    "evidenceGaps": [
+      "Official SGS allocation (if any) and the actual TWT effective date are missing; only a 2009–2014 window is bounded by reference/airline observations."
+    ],
+    "evidenceReview": "research/discovery/batches/global-2.json",
+    "exclusionReason": null,
+    "nextAction": "Seek dated IATA code-directory or airline/GDS notices (Cebu Pacific, Airphil Express 2010–2013) and CAAP AIP for RPMN; do not admit TWT from 2014 by continuity.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "insufficient_evidence"
+  },
+  "cand_49910068effcfc485afc3f68": {
+    "conflicts": [],
+    "eventGroupId": "global-2-cat",
+    "evidenceGaps": [
+      "Original TBI allocation date, whether CAT was ever an IATA airport/city code for Cat Island, its withdrawal, and Cascais CAT allocation date remain missing."
+    ],
+    "evidenceReview": "research/discovery/batches/global-2.json",
+    "exclusionReason": "Exclude the interpretation that the observed CAT-to-TBI revision records a contemporaneous New Bight code transfer: TBI was in working use years earlier and the source edit is an explicit incorrect-code correction.",
+    "nextAction": "Keep a separate follow-up on historical Cat Island CAT and Cascais CAT reuse; seek dated IATA coding directories/OAG guides before any interval.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "excluded"
+  },
   "cand_4ecbdc43aaa5a0a46a3c5e78": {
     "conflicts": [
       "SCTN/SCPC official-document conflict, temporary-strip codes and WCH effective history."
@@ -121,6 +160,19 @@
     "relatedLegacyIds": [],
     "reviewedOn": "2026-10-27",
     "status": "pending_review"
+  },
+  "cand_5ebbfdbcea7f1b2aa138be41": {
+    "conflicts": [],
+    "eventGroupId": "global-2-dqm",
+    "evidenceGaps": [
+      "Whether IATA ever issued JNJ (and for which site) and when DQM was issued remain unknown; last Ja’aluni charter date undocumented."
+    ],
+    "evidenceReview": "research/discovery/batches/global-2.json",
+    "exclusionReason": "Exclude the implied same-airport JNJ-to-DQM code transfer: the before-row is a directory record that conflated Duqm with the separate Ja’aluni aerodrome, as the editor history and separate AIP indicators show.",
+    "nextAction": "Retain a separate Ja’aluni (OOJA) lead and the DQM allocation question; seek IATA coding directory or 2012–2014 Oman Air timetable before attributing JNJ.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "excluded"
   },
   "cand_6bdbc1b60cf1a50fd06abd88": {
     "conflicts": [],
@@ -167,6 +219,19 @@
     "reviewedOn": "2026-10-27",
     "status": "insufficient_evidence"
   },
+  "cand_8244804dd590e3ec97a2a7f7": {
+    "conflicts": [],
+    "eventGroupId": "global-2-dqm",
+    "evidenceGaps": [
+      "Whether IATA ever issued JNJ (and for which site) and when DQM was issued remain unknown; last Ja’aluni charter date undocumented."
+    ],
+    "evidenceReview": "research/discovery/batches/global-2.json",
+    "exclusionReason": "Exclude the implied same-airport JNJ-to-DQM code transfer: the before-row is a directory record that conflated Duqm with the separate Ja’aluni aerodrome, as the editor history and separate AIP indicators show.",
+    "nextAction": "Retain a separate Ja’aluni (OOJA) lead and the DQM allocation question; seek IATA coding directory or 2012–2014 Oman Air timetable before attributing JNJ.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "excluded"
+  },
   "cand_8ac1b12707d7c441ce708d32": {
     "conflicts": [],
     "eventGroupId": "global-1-ynt",
@@ -182,6 +247,32 @@
     "reviewedOn": "2026-10-27",
     "status": "insufficient_evidence"
   },
+  "cand_9d7392c0e4b31d86219d6e71": {
+    "conflicts": [],
+    "eventGroupId": "global-2-iqm",
+    "evidenceGaps": [
+      "IQM/ZWCM reassignment record, exact May 2011 closure day and whether IATA marked the code closed in 2011–2016 are missing."
+    ],
+    "evidenceReview": "research/discovery/batches/global-2.json",
+    "exclusionReason": null,
+    "nextAction": "Retrieve CAAC eAIP ZWCM amendment/NOTAM and any IATA or Travelsky notice around 2016-12; do not bridge the 2011–2016 gap by continuity.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "insufficient_evidence"
+  },
+  "cand_b96e3d61e795c440a6f2c5a0": {
+    "conflicts": [],
+    "eventGroupId": "global-2-cat",
+    "evidenceGaps": [
+      "Original TBI allocation date, whether CAT was ever an IATA airport/city code for Cat Island, its withdrawal, and Cascais CAT allocation date remain missing."
+    ],
+    "evidenceReview": "research/discovery/batches/global-2.json",
+    "exclusionReason": "Exclude the interpretation that the observed CAT-to-TBI revision records a contemporaneous New Bight code transfer: TBI was in working use years earlier and the source edit is an explicit incorrect-code correction.",
+    "nextAction": "Keep a separate follow-up on historical Cat Island CAT and Cascais CAT reuse; seek dated IATA coding directories/OAG guides before any interval.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "excluded"
+  },
   "cand_ba1d95c1c6212eaafe0407f3": {
     "conflicts": [],
     "eventGroupId": "global-1-bve",
@@ -191,6 +282,32 @@
     "evidenceReview": "research/discovery/batches/global-1.json",
     "exclusionReason": "Exclude implied Toul-to-Brive relocation/BVE transfer: edit log explicitly documents distant records being confused under LFSL; old Toul row had no BVE.",
     "nextAction": "Investigate genuine Laroche/Souillac through SIA/IATA archives separately; do not create a Toul successor from this candidate.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "excluded"
+  },
+  "cand_cb20612a6a4f6d8542872ae1": {
+    "conflicts": [],
+    "eventGroupId": "global-2-cat",
+    "evidenceGaps": [
+      "Original TBI allocation date, whether CAT was ever an IATA airport/city code for Cat Island, its withdrawal, and Cascais CAT allocation date remain missing."
+    ],
+    "evidenceReview": "research/discovery/batches/global-2.json",
+    "exclusionReason": "Exclude the interpretation that the observed CAT-to-TBI revision records a contemporaneous New Bight code transfer: TBI was in working use years earlier and the source edit is an explicit incorrect-code correction.",
+    "nextAction": "Keep a separate follow-up on historical Cat Island CAT and Cascais CAT reuse; seek dated IATA coding directories/OAG guides before any interval.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "excluded"
+  },
+  "cand_ccacc72d759fb5541765fb3c": {
+    "conflicts": [],
+    "eventGroupId": "global-2-cat",
+    "evidenceGaps": [
+      "Original TBI allocation date, whether CAT was ever an IATA airport/city code for Cat Island, its withdrawal, and Cascais CAT allocation date remain missing."
+    ],
+    "evidenceReview": "research/discovery/batches/global-2.json",
+    "exclusionReason": "Exclude the interpretation that the observed CAT-to-TBI revision records a contemporaneous New Bight code transfer: TBI was in working use years earlier and the source edit is an explicit incorrect-code correction.",
+    "nextAction": "Keep a separate follow-up on historical Cat Island CAT and Cascais CAT reuse; seek dated IATA coding directories/OAG guides before any interval.",
     "relatedLegacyIds": [],
     "reviewedOn": "2026-10-27",
     "status": "excluded"
@@ -209,6 +326,19 @@
     "relatedLegacyIds": [],
     "reviewedOn": "2026-10-27",
     "status": "pending_review"
+  },
+  "cand_dbe848d5c843e4ffc5270e26": {
+    "conflicts": [],
+    "eventGroupId": "global-2-iqm",
+    "evidenceGaps": [
+      "IQM/ZWCM reassignment record, exact May 2011 closure day and whether IATA marked the code closed in 2011–2016 are missing."
+    ],
+    "evidenceReview": "research/discovery/batches/global-2.json",
+    "exclusionReason": null,
+    "nextAction": "Retrieve CAAC eAIP ZWCM amendment/NOTAM and any IATA or Travelsky notice around 2016-12; do not bridge the 2011–2016 gap by continuity.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "insufficient_evidence"
   },
   "cand_e1f96c81b10b8a30ef076ffa": {
     "conflicts": [],

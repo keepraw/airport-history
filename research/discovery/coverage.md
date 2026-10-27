@@ -10,6 +10,11 @@ review states. Live `reviews.json` overrides cover 21 machine representations of
 18 groups, plus two existing manual leads with unchanged deferred dispositions.
 Query applies the overrides to candidates and the ranked queue; `--snapshot`
 shows original states. `summary.json.reviewBatches` records current batch results.
+The [second verification batch](../../docs/global-verification-batch-2.md)
+([batches/global-2.json](batches/global-2.json)) reviews the four recorded
+next-batch leads (two insufficient evidence, two excluded, zero ready to admit)
+and adds dated follow-ups of KTI, YNT and ROV/RVI without remapping them; 31
+live overrides now cover both batches.
 No observation, queue entry, source pin or formal airport record was removed.
 
 ## Source scope actually inspected
