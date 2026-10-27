@@ -14,7 +14,12 @@
     "validate:data": "node scripts/validate.ts",
     "test": "vitest run",
     "build": "node scripts/build.ts",
-    "check": "pnpm typecheck && pnpm validate:data && pnpm test && pnpm build"
+    "check": "pnpm typecheck && pnpm validate:data && pnpm test && pnpm test:research && pnpm research:validate && pnpm build",
+    "research:fetch": "python3 scripts/discovery/fetch.py",
+    "research:scan": "python3 scripts/discovery/scan.py",
+    "research:report": "python3 scripts/discovery/report.py",
+    "research:validate": "python3 scripts/discovery/validate.py",
+    "test:research": "python3 -m unittest discover -s test/discovery -v"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",

@@ -1,0 +1,9482 @@
+{
+  "discovery": {
+    "byContinent": {
+      "AF": 29299,
+      "AN": 303,
+      "AS": 56513,
+      "EU": 73277,
+      "NA": 256496,
+      "OC": 28157,
+      "SA": 75564,
+      "unknown": 513
+    },
+    "byCountry": {
+      "AD": 22,
+      "AE": 889,
+      "AF": 665,
+      "AG": 35,
+      "AI": 13,
+      "AL": 141,
+      "AM": 126,
+      "AO": 755,
+      "AQ": 280,
+      "AR": 6452,
+      "AS": 41,
+      "AT": 1626,
+      "AU": 18201,
+      "AW": 17,
+      "AZ": 350,
+      "BA": 165,
+      "BB": 18,
+      "BD": 296,
+      "BE": 1493,
+      "BF": 456,
+      "BG": 1282,
+      "BH": 66,
+      "BI": 51,
+      "BJ": 82,
+      "BL": 11,
+      "BM": 32,
+      "BN": 49,
+      "BO": 1693,
+      "BQ": 33,
+      "BR": 47260,
+      "BS": 650,
+      "BT": 50,
+      "BW": 763,
+      "BY": 426,
+      "BZ": 245,
+      "CA": 24491,
+      "CC": 10,
+      "CD": 2832,
+      "CF": 358,
+      "CG": 447,
+      "CH": 909,
+      "CI": 252,
+      "CK": 89,
+      "CL": 4298,
+      "CM": 283,
+      "CN": 4352,
+      "CO": 5341,
+      "CR": 1118,
+      "CU": 1285,
+      "CV": 92,
+      "CW": 9,
+      "CX": 11,
+      "CY": 283,
+      "CZ": 2421,
+      "DE": 8709,
+      "DJ": 95,
+      "DK": 1007,
+      "DM": 20,
+      "DO": 372,
+      "DZ": 683,
+      "EC": 1486,
+      "EE": 374,
+      "EG": 852,
+      "EH": 96,
+      "ER": 73,
+      "ES": 3207,
+      "ET": 507,
+      "FI": 1062,
+      "FJ": 281,
+      "FK": 214,
+      "FM": 55,
+      "FO": 91,
+      "FR": 10288,
+      "GA": 332,
+      "GB": 8394,
+      "GD": 32,
+      "GE": 286,
+      "GF": 121,
+      "GG": 28,
+      "GH": 95,
+      "GI": 11,
+      "GL": 813,
+      "GM": 11,
+      "GN": 140,
+      "GP": 63,
+      "GQ": 53,
+      "GR": 1006,
+      "GS": 2,
+      "GT": 482,
+      "GU": 43,
+      "GW": 60,
+      "GY": 385,
+      "HK": 393,
+      "HM": 4,
+      "HN": 1358,
+      "HR": 519,
+      "HT": 103,
+      "HU": 945,
+      "ID": 4901,
+      "IE": 782,
+      "IL": 348,
+      "IM": 39,
+      "IN": 3658,
+      "IO": 9,
+      "IQ": 702,
+      "IR": 1684,
+      "IS": 798,
+      "IT": 5097,
+      "JE": 10,
+      "JM": 193,
+      "JO": 164,
+      "JP": 8874,
+      "KE": 3339,
+      "KG": 498,
+      "KH": 157,
+      "KI": 196,
+      "KM": 40,
+      "KN": 20,
+      "KP": 674,
+      "KR": 6881,
+      "KS": 16,
+      "KW": 130,
+      "KY": 42,
+      "KZ": 1241,
+      "LA": 185,
+      "LB": 107,
+      "LC": 15,
+      "LI": 11,
+      "LK": 244,
+      "LR": 146,
+      "LS": 300,
+      "LT": 501,
+      "LU": 99,
+      "LV": 519,
+      "LY": 593,
+      "MA": 418,
+      "MC": 18,
+      "MD": 99,
+      "ME": 73,
+      "MF": 14,
+      "MG": 693,
+      "MH": 304,
+      "MK": 176,
+      "ML": 323,
+      "MM": 656,
+      "MN": 289,
+      "MO": 17,
+      "MP": 116,
+      "MQ": 15,
+      "MR": 226,
+      "MS": 22,
+      "MT": 67,
+      "MU": 40,
+      "MV": 142,
+      "MW": 279,
+      "MX": 9529,
+      "MY": 984,
+      "MZ": 566,
+      "NA": 2061,
+      "NC": 242,
+      "NE": 224,
+      "NF": 10,
+      "NG": 436,
+      "NI": 307,
+      "NL": 1214,
+      "NO": 2122,
+      "NP": 490,
+      "NR": 8,
+      "NU": 9,
+      "NZ": 2006,
+      "OM": 307,
+      "PA": 678,
+      "PE": 1579,
+      "PF": 480,
+      "PG": 4953,
+      "PH": 3102,
+      "PK": 1285,
+      "PL": 2462,
+      "PM": 20,
+      "PR": 557,
+      "PS": 58,
+      "PT": 1353,
+      "PW": 28,
+      "PY": 804,
+      "QA": 86,
+      "RE": 39,
+      "RO": 730,
+      "RS": 366,
+      "RU": 10929,
+      "RW": 66,
+      "SA": 947,
+      "SB": 329,
+      "SC": 165,
+      "SD": 360,
+      "SE": 2060,
+      "SG": 84,
+      "SH": 21,
+      "SI": 362,
+      "SK": 720,
+      "SL": 106,
+      "SM": 25,
+      "SN": 149,
+      "SO": 260,
+      "SR": 357,
+      "SS": 589,
+      "ST": 31,
+      "SV": 241,
+      "SX": 10,
+      "SY": 302,
+      "SZ": 157,
+      "TC": 84,
+      "TD": 292,
+      "TF": 42,
+      "TG": 65,
+      "TH": 744,
+      "TJ": 138,
+      "TL": 111,
+      "TM": 266,
+      "TN": 156,
+      "TO": 52,
+      "TR": 1788,
+      "TT": 33,
+      "TV": 18,
+      "TW": 610,
+      "TZ": 1169,
+      "UA": 1754,
+      "UG": 283,
+      "UM": 68,
+      "US": 213713,
+      "UY": 355,
+      "UZ": 1636,
+      "VA": 9,
+      "VC": 54,
+      "VE": 5472,
+      "VG": 39,
+      "VI": 91,
+      "VN": 635,
+      "VU": 280,
+      "WF": 18,
+      "WS": 38,
+      "XK": 69,
+      "XP": 17,
+      "YE": 297,
+      "YT": 10,
+      "ZA": 4538,
+      "ZM": 839,
+      "ZW": 999,
+      "ZZ": 9
+    },
+    "byObservationYear": {
+      "2015": 93899,
+      "2017": 140354,
+      "2018": 3608,
+      "2019": 110371,
+      "2023": 41829,
+      "2024": 17570,
+      "2025": 99271,
+      "2026": 13220
+    },
+    "byObservationYearAndCountry": [
+      {
+        "candidates": 2,
+        "country": "AD",
+        "year": "2015"
+      },
+      {
+        "candidates": 65,
+        "country": "AE",
+        "year": "2015"
+      },
+      {
+        "candidates": 124,
+        "country": "AF",
+        "year": "2015"
+      },
+      {
+        "candidates": 6,
+        "country": "AG",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "AI",
+        "year": "2015"
+      },
+      {
+        "candidates": 16,
+        "country": "AL",
+        "year": "2015"
+      },
+      {
+        "candidates": 30,
+        "country": "AM",
+        "year": "2015"
+      },
+      {
+        "candidates": 115,
+        "country": "AO",
+        "year": "2015"
+      },
+      {
+        "candidates": 49,
+        "country": "AQ",
+        "year": "2015"
+      },
+      {
+        "candidates": 1436,
+        "country": "AR",
+        "year": "2015"
+      },
+      {
+        "candidates": 8,
+        "country": "AS",
+        "year": "2015"
+      },
+      {
+        "candidates": 277,
+        "country": "AT",
+        "year": "2015"
+      },
+      {
+        "candidates": 3801,
+        "country": "AU",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "AW",
+        "year": "2015"
+      },
+      {
+        "candidates": 72,
+        "country": "AZ",
+        "year": "2015"
+      },
+      {
+        "candidates": 22,
+        "country": "BA",
+        "year": "2015"
+      },
+      {
+        "candidates": 4,
+        "country": "BB",
+        "year": "2015"
+      },
+      {
+        "candidates": 33,
+        "country": "BD",
+        "year": "2015"
+      },
+      {
+        "candidates": 252,
+        "country": "BE",
+        "year": "2015"
+      },
+      {
+        "candidates": 100,
+        "country": "BF",
+        "year": "2015"
+      },
+      {
+        "candidates": 156,
+        "country": "BG",
+        "year": "2015"
+      },
+      {
+        "candidates": 4,
+        "country": "BH",
+        "year": "2015"
+      },
+      {
+        "candidates": 8,
+        "country": "BI",
+        "year": "2015"
+      },
+      {
+        "candidates": 18,
+        "country": "BJ",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "BL",
+        "year": "2015"
+      },
+      {
+        "candidates": 8,
+        "country": "BM",
+        "year": "2015"
+      },
+      {
+        "candidates": 4,
+        "country": "BN",
+        "year": "2015"
+      },
+      {
+        "candidates": 364,
+        "country": "BO",
+        "year": "2015"
+      },
+      {
+        "candidates": 6,
+        "country": "BQ",
+        "year": "2015"
+      },
+      {
+        "candidates": 7770,
+        "country": "BR",
+        "year": "2015"
+      },
+      {
+        "candidates": 129,
+        "country": "BS",
+        "year": "2015"
+      },
+      {
+        "candidates": 6,
+        "country": "BT",
+        "year": "2015"
+      },
+      {
+        "candidates": 72,
+        "country": "BW",
+        "year": "2015"
+      },
+      {
+        "candidates": 66,
+        "country": "BY",
+        "year": "2015"
+      },
+      {
+        "candidates": 40,
+        "country": "BZ",
+        "year": "2015"
+      },
+      {
+        "candidates": 5370,
+        "country": "CA",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "CC",
+        "year": "2015"
+      },
+      {
+        "candidates": 535,
+        "country": "CD",
+        "year": "2015"
+      },
+      {
+        "candidates": 73,
+        "country": "CF",
+        "year": "2015"
+      },
+      {
+        "candidates": 100,
+        "country": "CG",
+        "year": "2015"
+      },
+      {
+        "candidates": 152,
+        "country": "CH",
+        "year": "2015"
+      },
+      {
+        "candidates": 48,
+        "country": "CI",
+        "year": "2015"
+      },
+      {
+        "candidates": 18,
+        "country": "CK",
+        "year": "2015"
+      },
+      {
+        "candidates": 935,
+        "country": "CL",
+        "year": "2015"
+      },
+      {
+        "candidates": 52,
+        "country": "CM",
+        "year": "2015"
+      },
+      {
+        "candidates": 647,
+        "country": "CN",
+        "year": "2015"
+      },
+      {
+        "candidates": 1402,
+        "country": "CO",
+        "year": "2015"
+      },
+      {
+        "candidates": 246,
+        "country": "CR",
+        "year": "2015"
+      },
+      {
+        "candidates": 272,
+        "country": "CU",
+        "year": "2015"
+      },
+      {
+        "candidates": 20,
+        "country": "CV",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "CW",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "CX",
+        "year": "2015"
+      },
+      {
+        "candidates": 25,
+        "country": "CY",
+        "year": "2015"
+      },
+      {
+        "candidates": 292,
+        "country": "CZ",
+        "year": "2015"
+      },
+      {
+        "candidates": 1349,
+        "country": "DE",
+        "year": "2015"
+      },
+      {
+        "candidates": 18,
+        "country": "DJ",
+        "year": "2015"
+      },
+      {
+        "candidates": 143,
+        "country": "DK",
+        "year": "2015"
+      },
+      {
+        "candidates": 4,
+        "country": "DM",
+        "year": "2015"
+      },
+      {
+        "candidates": 76,
+        "country": "DO",
+        "year": "2015"
+      },
+      {
+        "candidates": 124,
+        "country": "DZ",
+        "year": "2015"
+      },
+      {
+        "candidates": 184,
+        "country": "EC",
+        "year": "2015"
+      },
+      {
+        "candidates": 58,
+        "country": "EE",
+        "year": "2015"
+      },
+      {
+        "candidates": 138,
+        "country": "EG",
+        "year": "2015"
+      },
+      {
+        "candidates": 6,
+        "country": "EH",
+        "year": "2015"
+      },
+      {
+        "candidates": 10,
+        "country": "ER",
+        "year": "2015"
+      },
+      {
+        "candidates": 361,
+        "country": "ES",
+        "year": "2015"
+      },
+      {
+        "candidates": 99,
+        "country": "ET",
+        "year": "2015"
+      },
+      {
+        "candidates": 212,
+        "country": "FI",
+        "year": "2015"
+      },
+      {
+        "candidates": 59,
+        "country": "FJ",
+        "year": "2015"
+      },
+      {
+        "candidates": 26,
+        "country": "FK",
+        "year": "2015"
+      },
+      {
+        "candidates": 12,
+        "country": "FM",
+        "year": "2015"
+      },
+      {
+        "candidates": 16,
+        "country": "FO",
+        "year": "2015"
+      },
+      {
+        "candidates": 1586,
+        "country": "FR",
+        "year": "2015"
+      },
+      {
+        "candidates": 64,
+        "country": "GA",
+        "year": "2015"
+      },
+      {
+        "candidates": 1025,
+        "country": "GB",
+        "year": "2015"
+      },
+      {
+        "candidates": 7,
+        "country": "GD",
+        "year": "2015"
+      },
+      {
+        "candidates": 61,
+        "country": "GE",
+        "year": "2015"
+      },
+      {
+        "candidates": 20,
+        "country": "GF",
+        "year": "2015"
+      },
+      {
+        "candidates": 4,
+        "country": "GG",
+        "year": "2015"
+      },
+      {
+        "candidates": 16,
+        "country": "GH",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "GI",
+        "year": "2015"
+      },
+      {
+        "candidates": 164,
+        "country": "GL",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "GM",
+        "year": "2015"
+      },
+      {
+        "candidates": 28,
+        "country": "GN",
+        "year": "2015"
+      },
+      {
+        "candidates": 12,
+        "country": "GP",
+        "year": "2015"
+      },
+      {
+        "candidates": 6,
+        "country": "GQ",
+        "year": "2015"
+      },
+      {
+        "candidates": 149,
+        "country": "GR",
+        "year": "2015"
+      },
+      {
+        "candidates": 99,
+        "country": "GT",
+        "year": "2015"
+      },
+      {
+        "candidates": 6,
+        "country": "GU",
+        "year": "2015"
+      },
+      {
+        "candidates": 10,
+        "country": "GW",
+        "year": "2015"
+      },
+      {
+        "candidates": 73,
+        "country": "GY",
+        "year": "2015"
+      },
+      {
+        "candidates": 20,
+        "country": "HK",
+        "year": "2015"
+      },
+      {
+        "candidates": 308,
+        "country": "HN",
+        "year": "2015"
+      },
+      {
+        "candidates": 68,
+        "country": "HR",
+        "year": "2015"
+      },
+      {
+        "candidates": 16,
+        "country": "HT",
+        "year": "2015"
+      },
+      {
+        "candidates": 129,
+        "country": "HU",
+        "year": "2015"
+      },
+      {
+        "candidates": 928,
+        "country": "ID",
+        "year": "2015"
+      },
+      {
+        "candidates": 99,
+        "country": "IE",
+        "year": "2015"
+      },
+      {
+        "candidates": 56,
+        "country": "IL",
+        "year": "2015"
+      },
+      {
+        "candidates": 4,
+        "country": "IM",
+        "year": "2015"
+      },
+      {
+        "candidates": 674,
+        "country": "IN",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "IO",
+        "year": "2015"
+      },
+      {
+        "candidates": 152,
+        "country": "IQ",
+        "year": "2015"
+      },
+      {
+        "candidates": 272,
+        "country": "IR",
+        "year": "2015"
+      },
+      {
+        "candidates": 170,
+        "country": "IS",
+        "year": "2015"
+      },
+      {
+        "candidates": 398,
+        "country": "IT",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "JE",
+        "year": "2015"
+      },
+      {
+        "candidates": 38,
+        "country": "JM",
+        "year": "2015"
+      },
+      {
+        "candidates": 35,
+        "country": "JO",
+        "year": "2015"
+      },
+      {
+        "candidates": 298,
+        "country": "JP",
+        "year": "2015"
+      },
+      {
+        "candidates": 478,
+        "country": "KE",
+        "year": "2015"
+      },
+      {
+        "candidates": 119,
+        "country": "KG",
+        "year": "2015"
+      },
+      {
+        "candidates": 29,
+        "country": "KH",
+        "year": "2015"
+      },
+      {
+        "candidates": 42,
+        "country": "KI",
+        "year": "2015"
+      },
+      {
+        "candidates": 8,
+        "country": "KM",
+        "year": "2015"
+      },
+      {
+        "candidates": 4,
+        "country": "KN",
+        "year": "2015"
+      },
+      {
+        "candidates": 135,
+        "country": "KP",
+        "year": "2015"
+      },
+      {
+        "candidates": 479,
+        "country": "KR",
+        "year": "2015"
+      },
+      {
+        "candidates": 8,
+        "country": "KS",
+        "year": "2015"
+      },
+      {
+        "candidates": 16,
+        "country": "KW",
+        "year": "2015"
+      },
+      {
+        "candidates": 6,
+        "country": "KY",
+        "year": "2015"
+      },
+      {
+        "candidates": 220,
+        "country": "KZ",
+        "year": "2015"
+      },
+      {
+        "candidates": 42,
+        "country": "LA",
+        "year": "2015"
+      },
+      {
+        "candidates": 8,
+        "country": "LB",
+        "year": "2015"
+      },
+      {
+        "candidates": 4,
+        "country": "LC",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "LI",
+        "year": "2015"
+      },
+      {
+        "candidates": 46,
+        "country": "LK",
+        "year": "2015"
+      },
+      {
+        "candidates": 30,
+        "country": "LR",
+        "year": "2015"
+      },
+      {
+        "candidates": 66,
+        "country": "LS",
+        "year": "2015"
+      },
+      {
+        "candidates": 81,
+        "country": "LT",
+        "year": "2015"
+      },
+      {
+        "candidates": 18,
+        "country": "LU",
+        "year": "2015"
+      },
+      {
+        "candidates": 48,
+        "country": "LV",
+        "year": "2015"
+      },
+      {
+        "candidates": 118,
+        "country": "LY",
+        "year": "2015"
+      },
+      {
+        "candidates": 74,
+        "country": "MA",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "MC",
+        "year": "2015"
+      },
+      {
+        "candidates": 16,
+        "country": "MD",
+        "year": "2015"
+      },
+      {
+        "candidates": 15,
+        "country": "ME",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "MF",
+        "year": "2015"
+      },
+      {
+        "candidates": 140,
+        "country": "MG",
+        "year": "2015"
+      },
+      {
+        "candidates": 67,
+        "country": "MH",
+        "year": "2015"
+      },
+      {
+        "candidates": 26,
+        "country": "MK",
+        "year": "2015"
+      },
+      {
+        "candidates": 62,
+        "country": "ML",
+        "year": "2015"
+      },
+      {
+        "candidates": 152,
+        "country": "MM",
+        "year": "2015"
+      },
+      {
+        "candidates": 58,
+        "country": "MN",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "MO",
+        "year": "2015"
+      },
+      {
+        "candidates": 22,
+        "country": "MP",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "MQ",
+        "year": "2015"
+      },
+      {
+        "candidates": 42,
+        "country": "MR",
+        "year": "2015"
+      },
+      {
+        "candidates": 5,
+        "country": "MS",
+        "year": "2015"
+      },
+      {
+        "candidates": 19,
+        "country": "MT",
+        "year": "2015"
+      },
+      {
+        "candidates": 6,
+        "country": "MU",
+        "year": "2015"
+      },
+      {
+        "candidates": 18,
+        "country": "MV",
+        "year": "2015"
+      },
+      {
+        "candidates": 58,
+        "country": "MW",
+        "year": "2015"
+      },
+      {
+        "candidates": 415,
+        "country": "MX",
+        "year": "2015"
+      },
+      {
+        "candidates": 205,
+        "country": "MY",
+        "year": "2015"
+      },
+      {
+        "candidates": 77,
+        "country": "MZ",
+        "year": "2015"
+      },
+      {
+        "candidates": 448,
+        "country": "NA",
+        "year": "2015"
+      },
+      {
+        "candidates": 42,
+        "country": "NC",
+        "year": "2015"
+      },
+      {
+        "candidates": 46,
+        "country": "NE",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "NF",
+        "year": "2015"
+      },
+      {
+        "candidates": 79,
+        "country": "NG",
+        "year": "2015"
+      },
+      {
+        "candidates": 60,
+        "country": "NI",
+        "year": "2015"
+      },
+      {
+        "candidates": 169,
+        "country": "NL",
+        "year": "2015"
+      },
+      {
+        "candidates": 331,
+        "country": "NO",
+        "year": "2015"
+      },
+      {
+        "candidates": 94,
+        "country": "NP",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "NR",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "NU",
+        "year": "2015"
+      },
+      {
+        "candidates": 406,
+        "country": "NZ",
+        "year": "2015"
+      },
+      {
+        "candidates": 50,
+        "country": "OM",
+        "year": "2015"
+      },
+      {
+        "candidates": 120,
+        "country": "PA",
+        "year": "2015"
+      },
+      {
+        "candidates": 326,
+        "country": "PE",
+        "year": "2015"
+      },
+      {
+        "candidates": 108,
+        "country": "PF",
+        "year": "2015"
+      },
+      {
+        "candidates": 1120,
+        "country": "PG",
+        "year": "2015"
+      },
+      {
+        "candidates": 232,
+        "country": "PH",
+        "year": "2015"
+      },
+      {
+        "candidates": 251,
+        "country": "PK",
+        "year": "2015"
+      },
+      {
+        "candidates": 355,
+        "country": "PL",
+        "year": "2015"
+      },
+      {
+        "candidates": 4,
+        "country": "PM",
+        "year": "2015"
+      },
+      {
+        "candidates": 129,
+        "country": "PR",
+        "year": "2015"
+      },
+      {
+        "candidates": 14,
+        "country": "PS",
+        "year": "2015"
+      },
+      {
+        "candidates": 134,
+        "country": "PT",
+        "year": "2015"
+      },
+      {
+        "candidates": 6,
+        "country": "PW",
+        "year": "2015"
+      },
+      {
+        "candidates": 104,
+        "country": "PY",
+        "year": "2015"
+      },
+      {
+        "candidates": 11,
+        "country": "QA",
+        "year": "2015"
+      },
+      {
+        "candidates": 4,
+        "country": "RE",
+        "year": "2015"
+      },
+      {
+        "candidates": 57,
+        "country": "RO",
+        "year": "2015"
+      },
+      {
+        "candidates": 55,
+        "country": "RS",
+        "year": "2015"
+      },
+      {
+        "candidates": 1948,
+        "country": "RU",
+        "year": "2015"
+      },
+      {
+        "candidates": 14,
+        "country": "RW",
+        "year": "2015"
+      },
+      {
+        "candidates": 151,
+        "country": "SA",
+        "year": "2015"
+      },
+      {
+        "candidates": 76,
+        "country": "SB",
+        "year": "2015"
+      },
+      {
+        "candidates": 34,
+        "country": "SC",
+        "year": "2015"
+      },
+      {
+        "candidates": 62,
+        "country": "SD",
+        "year": "2015"
+      },
+      {
+        "candidates": 370,
+        "country": "SE",
+        "year": "2015"
+      },
+      {
+        "candidates": 18,
+        "country": "SG",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "SH",
+        "year": "2015"
+      },
+      {
+        "candidates": 67,
+        "country": "SI",
+        "year": "2015"
+      },
+      {
+        "candidates": 47,
+        "country": "SK",
+        "year": "2015"
+      },
+      {
+        "candidates": 24,
+        "country": "SL",
+        "year": "2015"
+      },
+      {
+        "candidates": 4,
+        "country": "SM",
+        "year": "2015"
+      },
+      {
+        "candidates": 28,
+        "country": "SN",
+        "year": "2015"
+      },
+      {
+        "candidates": 44,
+        "country": "SO",
+        "year": "2015"
+      },
+      {
+        "candidates": 56,
+        "country": "SR",
+        "year": "2015"
+      },
+      {
+        "candidates": 80,
+        "country": "SS",
+        "year": "2015"
+      },
+      {
+        "candidates": 4,
+        "country": "ST",
+        "year": "2015"
+      },
+      {
+        "candidates": 54,
+        "country": "SV",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "SX",
+        "year": "2015"
+      },
+      {
+        "candidates": 54,
+        "country": "SY",
+        "year": "2015"
+      },
+      {
+        "candidates": 33,
+        "country": "SZ",
+        "year": "2015"
+      },
+      {
+        "candidates": 20,
+        "country": "TC",
+        "year": "2015"
+      },
+      {
+        "candidates": 46,
+        "country": "TD",
+        "year": "2015"
+      },
+      {
+        "candidates": 8,
+        "country": "TF",
+        "year": "2015"
+      },
+      {
+        "candidates": 14,
+        "country": "TG",
+        "year": "2015"
+      },
+      {
+        "candidates": 136,
+        "country": "TH",
+        "year": "2015"
+      },
+      {
+        "candidates": 30,
+        "country": "TJ",
+        "year": "2015"
+      },
+      {
+        "candidates": 22,
+        "country": "TL",
+        "year": "2015"
+      },
+      {
+        "candidates": 43,
+        "country": "TM",
+        "year": "2015"
+      },
+      {
+        "candidates": 30,
+        "country": "TN",
+        "year": "2015"
+      },
+      {
+        "candidates": 12,
+        "country": "TO",
+        "year": "2015"
+      },
+      {
+        "candidates": 241,
+        "country": "TR",
+        "year": "2015"
+      },
+      {
+        "candidates": 6,
+        "country": "TT",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "TV",
+        "year": "2015"
+      },
+      {
+        "candidates": 65,
+        "country": "TW",
+        "year": "2015"
+      },
+      {
+        "candidates": 139,
+        "country": "TZ",
+        "year": "2015"
+      },
+      {
+        "candidates": 306,
+        "country": "UA",
+        "year": "2015"
+      },
+      {
+        "candidates": 37,
+        "country": "UG",
+        "year": "2015"
+      },
+      {
+        "candidates": 15,
+        "country": "UM",
+        "year": "2015"
+      },
+      {
+        "candidates": 43117,
+        "country": "US",
+        "year": "2015"
+      },
+      {
+        "candidates": 40,
+        "country": "UY",
+        "year": "2015"
+      },
+      {
+        "candidates": 350,
+        "country": "UZ",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "VA",
+        "year": "2015"
+      },
+      {
+        "candidates": 10,
+        "country": "VC",
+        "year": "2015"
+      },
+      {
+        "candidates": 1185,
+        "country": "VE",
+        "year": "2015"
+      },
+      {
+        "candidates": 6,
+        "country": "VG",
+        "year": "2015"
+      },
+      {
+        "candidates": 18,
+        "country": "VI",
+        "year": "2015"
+      },
+      {
+        "candidates": 76,
+        "country": "VN",
+        "year": "2015"
+      },
+      {
+        "candidates": 64,
+        "country": "VU",
+        "year": "2015"
+      },
+      {
+        "candidates": 4,
+        "country": "WF",
+        "year": "2015"
+      },
+      {
+        "candidates": 8,
+        "country": "WS",
+        "year": "2015"
+      },
+      {
+        "candidates": 50,
+        "country": "YE",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "YT",
+        "year": "2015"
+      },
+      {
+        "candidates": 891,
+        "country": "ZA",
+        "year": "2015"
+      },
+      {
+        "candidates": 152,
+        "country": "ZM",
+        "year": "2015"
+      },
+      {
+        "candidates": 164,
+        "country": "ZW",
+        "year": "2015"
+      },
+      {
+        "candidates": 3,
+        "country": "ZZ",
+        "year": "2015"
+      },
+      {
+        "candidates": 4,
+        "country": "AD",
+        "year": "2017"
+      },
+      {
+        "candidates": 115,
+        "country": "AE",
+        "year": "2017"
+      },
+      {
+        "candidates": 184,
+        "country": "AF",
+        "year": "2017"
+      },
+      {
+        "candidates": 6,
+        "country": "AG",
+        "year": "2017"
+      },
+      {
+        "candidates": 3,
+        "country": "AI",
+        "year": "2017"
+      },
+      {
+        "candidates": 28,
+        "country": "AL",
+        "year": "2017"
+      },
+      {
+        "candidates": 39,
+        "country": "AM",
+        "year": "2017"
+      },
+      {
+        "candidates": 216,
+        "country": "AO",
+        "year": "2017"
+      },
+      {
+        "candidates": 69,
+        "country": "AQ",
+        "year": "2017"
+      },
+      {
+        "candidates": 1826,
+        "country": "AR",
+        "year": "2017"
+      },
+      {
+        "candidates": 12,
+        "country": "AS",
+        "year": "2017"
+      },
+      {
+        "candidates": 409,
+        "country": "AT",
+        "year": "2017"
+      },
+      {
+        "candidates": 5517,
+        "country": "AU",
+        "year": "2017"
+      },
+      {
+        "candidates": 3,
+        "country": "AW",
+        "year": "2017"
+      },
+      {
+        "candidates": 105,
+        "country": "AZ",
+        "year": "2017"
+      },
+      {
+        "candidates": 37,
+        "country": "BA",
+        "year": "2017"
+      },
+      {
+        "candidates": 5,
+        "country": "BB",
+        "year": "2017"
+      },
+      {
+        "candidates": 45,
+        "country": "BD",
+        "year": "2017"
+      },
+      {
+        "candidates": 386,
+        "country": "BE",
+        "year": "2017"
+      },
+      {
+        "candidates": 150,
+        "country": "BF",
+        "year": "2017"
+      },
+      {
+        "candidates": 270,
+        "country": "BG",
+        "year": "2017"
+      },
+      {
+        "candidates": 8,
+        "country": "BH",
+        "year": "2017"
+      },
+      {
+        "candidates": 13,
+        "country": "BI",
+        "year": "2017"
+      },
+      {
+        "candidates": 28,
+        "country": "BJ",
+        "year": "2017"
+      },
+      {
+        "candidates": 3,
+        "country": "BL",
+        "year": "2017"
+      },
+      {
+        "candidates": 9,
+        "country": "BM",
+        "year": "2017"
+      },
+      {
+        "candidates": 6,
+        "country": "BN",
+        "year": "2017"
+      },
+      {
+        "candidates": 559,
+        "country": "BO",
+        "year": "2017"
+      },
+      {
+        "candidates": 9,
+        "country": "BQ",
+        "year": "2017"
+      },
+      {
+        "candidates": 11603,
+        "country": "BR",
+        "year": "2017"
+      },
+      {
+        "candidates": 188,
+        "country": "BS",
+        "year": "2017"
+      },
+      {
+        "candidates": 10,
+        "country": "BT",
+        "year": "2017"
+      },
+      {
+        "candidates": 194,
+        "country": "BW",
+        "year": "2017"
+      },
+      {
+        "candidates": 110,
+        "country": "BY",
+        "year": "2017"
+      },
+      {
+        "candidates": 59,
+        "country": "BZ",
+        "year": "2017"
+      },
+      {
+        "candidates": 7608,
+        "country": "CA",
+        "year": "2017"
+      },
+      {
+        "candidates": 3,
+        "country": "CC",
+        "year": "2017"
+      },
+      {
+        "candidates": 815,
+        "country": "CD",
+        "year": "2017"
+      },
+      {
+        "candidates": 111,
+        "country": "CF",
+        "year": "2017"
+      },
+      {
+        "candidates": 149,
+        "country": "CG",
+        "year": "2017"
+      },
+      {
+        "candidates": 237,
+        "country": "CH",
+        "year": "2017"
+      },
+      {
+        "candidates": 72,
+        "country": "CI",
+        "year": "2017"
+      },
+      {
+        "candidates": 28,
+        "country": "CK",
+        "year": "2017"
+      },
+      {
+        "candidates": 1364,
+        "country": "CL",
+        "year": "2017"
+      },
+      {
+        "candidates": 87,
+        "country": "CM",
+        "year": "2017"
+      },
+      {
+        "candidates": 992,
+        "country": "CN",
+        "year": "2017"
+      },
+      {
+        "candidates": 1462,
+        "country": "CO",
+        "year": "2017"
+      },
+      {
+        "candidates": 371,
+        "country": "CR",
+        "year": "2017"
+      },
+      {
+        "candidates": 402,
+        "country": "CU",
+        "year": "2017"
+      },
+      {
+        "candidates": 30,
+        "country": "CV",
+        "year": "2017"
+      },
+      {
+        "candidates": 3,
+        "country": "CW",
+        "year": "2017"
+      },
+      {
+        "candidates": 3,
+        "country": "CX",
+        "year": "2017"
+      },
+      {
+        "candidates": 34,
+        "country": "CY",
+        "year": "2017"
+      },
+      {
+        "candidates": 556,
+        "country": "CZ",
+        "year": "2017"
+      },
+      {
+        "candidates": 2146,
+        "country": "DE",
+        "year": "2017"
+      },
+      {
+        "candidates": 27,
+        "country": "DJ",
+        "year": "2017"
+      },
+      {
+        "candidates": 253,
+        "country": "DK",
+        "year": "2017"
+      },
+      {
+        "candidates": 6,
+        "country": "DM",
+        "year": "2017"
+      },
+      {
+        "candidates": 109,
+        "country": "DO",
+        "year": "2017"
+      },
+      {
+        "candidates": 181,
+        "country": "DZ",
+        "year": "2017"
+      },
+      {
+        "candidates": 304,
+        "country": "EC",
+        "year": "2017"
+      },
+      {
+        "candidates": 87,
+        "country": "EE",
+        "year": "2017"
+      },
+      {
+        "candidates": 207,
+        "country": "EG",
+        "year": "2017"
+      },
+      {
+        "candidates": 12,
+        "country": "EH",
+        "year": "2017"
+      },
+      {
+        "candidates": 15,
+        "country": "ER",
+        "year": "2017"
+      },
+      {
+        "candidates": 756,
+        "country": "ES",
+        "year": "2017"
+      },
+      {
+        "candidates": 147,
+        "country": "ET",
+        "year": "2017"
+      },
+      {
+        "candidates": 323,
+        "country": "FI",
+        "year": "2017"
+      },
+      {
+        "candidates": 88,
+        "country": "FJ",
+        "year": "2017"
+      },
+      {
+        "candidates": 65,
+        "country": "FK",
+        "year": "2017"
+      },
+      {
+        "candidates": 18,
+        "country": "FM",
+        "year": "2017"
+      },
+      {
+        "candidates": 24,
+        "country": "FO",
+        "year": "2017"
+      },
+      {
+        "candidates": 2401,
+        "country": "FR",
+        "year": "2017"
+      },
+      {
+        "candidates": 96,
+        "country": "GA",
+        "year": "2017"
+      },
+      {
+        "candidates": 1698,
+        "country": "GB",
+        "year": "2017"
+      },
+      {
+        "candidates": 9,
+        "country": "GD",
+        "year": "2017"
+      },
+      {
+        "candidates": 80,
+        "country": "GE",
+        "year": "2017"
+      },
+      {
+        "candidates": 32,
+        "country": "GF",
+        "year": "2017"
+      },
+      {
+        "candidates": 7,
+        "country": "GG",
+        "year": "2017"
+      },
+      {
+        "candidates": 25,
+        "country": "GH",
+        "year": "2017"
+      },
+      {
+        "candidates": 3,
+        "country": "GI",
+        "year": "2017"
+      },
+      {
+        "candidates": 243,
+        "country": "GL",
+        "year": "2017"
+      },
+      {
+        "candidates": 3,
+        "country": "GM",
+        "year": "2017"
+      },
+      {
+        "candidates": 44,
+        "country": "GN",
+        "year": "2017"
+      },
+      {
+        "candidates": 18,
+        "country": "GP",
+        "year": "2017"
+      },
+      {
+        "candidates": 13,
+        "country": "GQ",
+        "year": "2017"
+      },
+      {
+        "candidates": 230,
+        "country": "GR",
+        "year": "2017"
+      },
+      {
+        "candidates": 150,
+        "country": "GT",
+        "year": "2017"
+      },
+      {
+        "candidates": 9,
+        "country": "GU",
+        "year": "2017"
+      },
+      {
+        "candidates": 17,
+        "country": "GW",
+        "year": "2017"
+      },
+      {
+        "candidates": 104,
+        "country": "GY",
+        "year": "2017"
+      },
+      {
+        "candidates": 27,
+        "country": "HK",
+        "year": "2017"
+      },
+      {
+        "candidates": 465,
+        "country": "HN",
+        "year": "2017"
+      },
+      {
+        "candidates": 111,
+        "country": "HR",
+        "year": "2017"
+      },
+      {
+        "candidates": 24,
+        "country": "HT",
+        "year": "2017"
+      },
+      {
+        "candidates": 228,
+        "country": "HU",
+        "year": "2017"
+      },
+      {
+        "candidates": 1205,
+        "country": "ID",
+        "year": "2017"
+      },
+      {
+        "candidates": 193,
+        "country": "IE",
+        "year": "2017"
+      },
+      {
+        "candidates": 95,
+        "country": "IL",
+        "year": "2017"
+      },
+      {
+        "candidates": 9,
+        "country": "IM",
+        "year": "2017"
+      },
+      {
+        "candidates": 973,
+        "country": "IN",
+        "year": "2017"
+      },
+      {
+        "candidates": 3,
+        "country": "IO",
+        "year": "2017"
+      },
+      {
+        "candidates": 228,
+        "country": "IQ",
+        "year": "2017"
+      },
+      {
+        "candidates": 401,
+        "country": "IR",
+        "year": "2017"
+      },
+      {
+        "candidates": 251,
+        "country": "IS",
+        "year": "2017"
+      },
+      {
+        "candidates": 1061,
+        "country": "IT",
+        "year": "2017"
+      },
+      {
+        "candidates": 3,
+        "country": "JE",
+        "year": "2017"
+      },
+      {
+        "candidates": 59,
+        "country": "JM",
+        "year": "2017"
+      },
+      {
+        "candidates": 51,
+        "country": "JO",
+        "year": "2017"
+      },
+      {
+        "candidates": 525,
+        "country": "JP",
+        "year": "2017"
+      },
+      {
+        "candidates": 845,
+        "country": "KE",
+        "year": "2017"
+      },
+      {
+        "candidates": 154,
+        "country": "KG",
+        "year": "2017"
+      },
+      {
+        "candidates": 39,
+        "country": "KH",
+        "year": "2017"
+      },
+      {
+        "candidates": 64,
+        "country": "KI",
+        "year": "2017"
+      },
+      {
+        "candidates": 12,
+        "country": "KM",
+        "year": "2017"
+      },
+      {
+        "candidates": 6,
+        "country": "KN",
+        "year": "2017"
+      },
+      {
+        "candidates": 225,
+        "country": "KP",
+        "year": "2017"
+      },
+      {
+        "candidates": 1016,
+        "country": "KR",
+        "year": "2017"
+      },
+      {
+        "candidates": 8,
+        "country": "KS",
+        "year": "2017"
+      },
+      {
+        "candidates": 24,
+        "country": "KW",
+        "year": "2017"
+      },
+      {
+        "candidates": 9,
+        "country": "KY",
+        "year": "2017"
+      },
+      {
+        "candidates": 337,
+        "country": "KZ",
+        "year": "2017"
+      },
+      {
+        "candidates": 57,
+        "country": "LA",
+        "year": "2017"
+      },
+      {
+        "candidates": 13,
+        "country": "LB",
+        "year": "2017"
+      },
+      {
+        "candidates": 4,
+        "country": "LC",
+        "year": "2017"
+      },
+      {
+        "candidates": 2,
+        "country": "LI",
+        "year": "2017"
+      },
+      {
+        "candidates": 73,
+        "country": "LK",
+        "year": "2017"
+      },
+      {
+        "candidates": 43,
+        "country": "LR",
+        "year": "2017"
+      },
+      {
+        "candidates": 99,
+        "country": "LS",
+        "year": "2017"
+      },
+      {
+        "candidates": 133,
+        "country": "LT",
+        "year": "2017"
+      },
+      {
+        "candidates": 28,
+        "country": "LU",
+        "year": "2017"
+      },
+      {
+        "candidates": 90,
+        "country": "LV",
+        "year": "2017"
+      },
+      {
+        "candidates": 174,
+        "country": "LY",
+        "year": "2017"
+      },
+      {
+        "candidates": 106,
+        "country": "MA",
+        "year": "2017"
+      },
+      {
+        "candidates": 4,
+        "country": "MC",
+        "year": "2017"
+      },
+      {
+        "candidates": 23,
+        "country": "MD",
+        "year": "2017"
+      },
+      {
+        "candidates": 21,
+        "country": "ME",
+        "year": "2017"
+      },
+      {
+        "candidates": 4,
+        "country": "MF",
+        "year": "2017"
+      },
+      {
+        "candidates": 220,
+        "country": "MG",
+        "year": "2017"
+      },
+      {
+        "candidates": 95,
+        "country": "MH",
+        "year": "2017"
+      },
+      {
+        "candidates": 40,
+        "country": "MK",
+        "year": "2017"
+      },
+      {
+        "candidates": 93,
+        "country": "ML",
+        "year": "2017"
+      },
+      {
+        "candidates": 227,
+        "country": "MM",
+        "year": "2017"
+      },
+      {
+        "candidates": 81,
+        "country": "MN",
+        "year": "2017"
+      },
+      {
+        "candidates": 3,
+        "country": "MO",
+        "year": "2017"
+      },
+      {
+        "candidates": 33,
+        "country": "MP",
+        "year": "2017"
+      },
+      {
+        "candidates": 3,
+        "country": "MQ",
+        "year": "2017"
+      },
+      {
+        "candidates": 64,
+        "country": "MR",
+        "year": "2017"
+      },
+      {
+        "candidates": 6,
+        "country": "MS",
+        "year": "2017"
+      },
+      {
+        "candidates": 16,
+        "country": "MT",
+        "year": "2017"
+      },
+      {
+        "candidates": 9,
+        "country": "MU",
+        "year": "2017"
+      },
+      {
+        "candidates": 29,
+        "country": "MV",
+        "year": "2017"
+      },
+      {
+        "candidates": 87,
+        "country": "MW",
+        "year": "2017"
+      },
+      {
+        "candidates": 1168,
+        "country": "MX",
+        "year": "2017"
+      },
+      {
+        "candidates": 308,
+        "country": "MY",
+        "year": "2017"
+      },
+      {
+        "candidates": 155,
+        "country": "MZ",
+        "year": "2017"
+      },
+      {
+        "candidates": 690,
+        "country": "NA",
+        "year": "2017"
+      },
+      {
+        "candidates": 64,
+        "country": "NC",
+        "year": "2017"
+      },
+      {
+        "candidates": 68,
+        "country": "NE",
+        "year": "2017"
+      },
+      {
+        "candidates": 3,
+        "country": "NF",
+        "year": "2017"
+      },
+      {
+        "candidates": 122,
+        "country": "NG",
+        "year": "2017"
+      },
+      {
+        "candidates": 92,
+        "country": "NI",
+        "year": "2017"
+      },
+      {
+        "candidates": 242,
+        "country": "NL",
+        "year": "2017"
+      },
+      {
+        "candidates": 543,
+        "country": "NO",
+        "year": "2017"
+      },
+      {
+        "candidates": 139,
+        "country": "NP",
+        "year": "2017"
+      },
+      {
+        "candidates": 2,
+        "country": "NR",
+        "year": "2017"
+      },
+      {
+        "candidates": 3,
+        "country": "NU",
+        "year": "2017"
+      },
+      {
+        "candidates": 609,
+        "country": "NZ",
+        "year": "2017"
+      },
+      {
+        "candidates": 76,
+        "country": "OM",
+        "year": "2017"
+      },
+      {
+        "candidates": 191,
+        "country": "PA",
+        "year": "2017"
+      },
+      {
+        "candidates": 491,
+        "country": "PE",
+        "year": "2017"
+      },
+      {
+        "candidates": 158,
+        "country": "PF",
+        "year": "2017"
+      },
+      {
+        "candidates": 1347,
+        "country": "PG",
+        "year": "2017"
+      },
+      {
+        "candidates": 361,
+        "country": "PH",
+        "year": "2017"
+      },
+      {
+        "candidates": 381,
+        "country": "PK",
+        "year": "2017"
+      },
+      {
+        "candidates": 594,
+        "country": "PL",
+        "year": "2017"
+      },
+      {
+        "candidates": 6,
+        "country": "PM",
+        "year": "2017"
+      },
+      {
+        "candidates": 182,
+        "country": "PR",
+        "year": "2017"
+      },
+      {
+        "candidates": 15,
+        "country": "PS",
+        "year": "2017"
+      },
+      {
+        "candidates": 258,
+        "country": "PT",
+        "year": "2017"
+      },
+      {
+        "candidates": 9,
+        "country": "PW",
+        "year": "2017"
+      },
+      {
+        "candidates": 168,
+        "country": "PY",
+        "year": "2017"
+      },
+      {
+        "candidates": 15,
+        "country": "QA",
+        "year": "2017"
+      },
+      {
+        "candidates": 6,
+        "country": "RE",
+        "year": "2017"
+      },
+      {
+        "candidates": 110,
+        "country": "RO",
+        "year": "2017"
+      },
+      {
+        "candidates": 78,
+        "country": "RS",
+        "year": "2017"
+      },
+      {
+        "candidates": 2761,
+        "country": "RU",
+        "year": "2017"
+      },
+      {
+        "candidates": 22,
+        "country": "RW",
+        "year": "2017"
+      },
+      {
+        "candidates": 225,
+        "country": "SA",
+        "year": "2017"
+      },
+      {
+        "candidates": 102,
+        "country": "SB",
+        "year": "2017"
+      },
+      {
+        "candidates": 36,
+        "country": "SC",
+        "year": "2017"
+      },
+      {
+        "candidates": 94,
+        "country": "SD",
+        "year": "2017"
+      },
+      {
+        "candidates": 572,
+        "country": "SE",
+        "year": "2017"
+      },
+      {
+        "candidates": 27,
+        "country": "SG",
+        "year": "2017"
+      },
+      {
+        "candidates": 4,
+        "country": "SH",
+        "year": "2017"
+      },
+      {
+        "candidates": 103,
+        "country": "SI",
+        "year": "2017"
+      },
+      {
+        "candidates": 151,
+        "country": "SK",
+        "year": "2017"
+      },
+      {
+        "candidates": 36,
+        "country": "SL",
+        "year": "2017"
+      },
+      {
+        "candidates": 6,
+        "country": "SM",
+        "year": "2017"
+      },
+      {
+        "candidates": 44,
+        "country": "SN",
+        "year": "2017"
+      },
+      {
+        "candidates": 67,
+        "country": "SO",
+        "year": "2017"
+      },
+      {
+        "candidates": 100,
+        "country": "SR",
+        "year": "2017"
+      },
+      {
+        "candidates": 126,
+        "country": "SS",
+        "year": "2017"
+      },
+      {
+        "candidates": 8,
+        "country": "ST",
+        "year": "2017"
+      },
+      {
+        "candidates": 81,
+        "country": "SV",
+        "year": "2017"
+      },
+      {
+        "candidates": 3,
+        "country": "SX",
+        "year": "2017"
+      },
+      {
+        "candidates": 79,
+        "country": "SY",
+        "year": "2017"
+      },
+      {
+        "candidates": 48,
+        "country": "SZ",
+        "year": "2017"
+      },
+      {
+        "candidates": 28,
+        "country": "TC",
+        "year": "2017"
+      },
+      {
+        "candidates": 78,
+        "country": "TD",
+        "year": "2017"
+      },
+      {
+        "candidates": 13,
+        "country": "TF",
+        "year": "2017"
+      },
+      {
+        "candidates": 20,
+        "country": "TG",
+        "year": "2017"
+      },
+      {
+        "candidates": 204,
+        "country": "TH",
+        "year": "2017"
+      },
+      {
+        "candidates": 44,
+        "country": "TJ",
+        "year": "2017"
+      },
+      {
+        "candidates": 36,
+        "country": "TL",
+        "year": "2017"
+      },
+      {
+        "candidates": 63,
+        "country": "TM",
+        "year": "2017"
+      },
+      {
+        "candidates": 44,
+        "country": "TN",
+        "year": "2017"
+      },
+      {
+        "candidates": 18,
+        "country": "TO",
+        "year": "2017"
+      },
+      {
+        "candidates": 360,
+        "country": "TR",
+        "year": "2017"
+      },
+      {
+        "candidates": 9,
+        "country": "TT",
+        "year": "2017"
+      },
+      {
+        "candidates": 5,
+        "country": "TV",
+        "year": "2017"
+      },
+      {
+        "candidates": 125,
+        "country": "TW",
+        "year": "2017"
+      },
+      {
+        "candidates": 339,
+        "country": "TZ",
+        "year": "2017"
+      },
+      {
+        "candidates": 450,
+        "country": "UA",
+        "year": "2017"
+      },
+      {
+        "candidates": 70,
+        "country": "UG",
+        "year": "2017"
+      },
+      {
+        "candidates": 18,
+        "country": "UM",
+        "year": "2017"
+      },
+      {
+        "candidates": 63408,
+        "country": "US",
+        "year": "2017"
+      },
+      {
+        "candidates": 77,
+        "country": "UY",
+        "year": "2017"
+      },
+      {
+        "candidates": 523,
+        "country": "UZ",
+        "year": "2017"
+      },
+      {
+        "candidates": 3,
+        "country": "VA",
+        "year": "2017"
+      },
+      {
+        "candidates": 16,
+        "country": "VC",
+        "year": "2017"
+      },
+      {
+        "candidates": 1770,
+        "country": "VE",
+        "year": "2017"
+      },
+      {
+        "candidates": 9,
+        "country": "VG",
+        "year": "2017"
+      },
+      {
+        "candidates": 26,
+        "country": "VI",
+        "year": "2017"
+      },
+      {
+        "candidates": 117,
+        "country": "VN",
+        "year": "2017"
+      },
+      {
+        "candidates": 91,
+        "country": "VU",
+        "year": "2017"
+      },
+      {
+        "candidates": 6,
+        "country": "WF",
+        "year": "2017"
+      },
+      {
+        "candidates": 12,
+        "country": "WS",
+        "year": "2017"
+      },
+      {
+        "candidates": 6,
+        "country": "XK",
+        "year": "2017"
+      },
+      {
+        "candidates": 76,
+        "country": "YE",
+        "year": "2017"
+      },
+      {
+        "candidates": 3,
+        "country": "YT",
+        "year": "2017"
+      },
+      {
+        "candidates": 1347,
+        "country": "ZA",
+        "year": "2017"
+      },
+      {
+        "candidates": 253,
+        "country": "ZM",
+        "year": "2017"
+      },
+      {
+        "candidates": 300,
+        "country": "ZW",
+        "year": "2017"
+      },
+      {
+        "candidates": 2,
+        "country": "ZZ",
+        "year": "2017"
+      },
+      {
+        "candidates": 1,
+        "country": "AD",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "AE",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "AF",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "AG",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "AI",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "AL",
+        "year": "2018"
+      },
+      {
+        "candidates": 49,
+        "country": "AR",
+        "year": "2018"
+      },
+      {
+        "candidates": 8,
+        "country": "AT",
+        "year": "2018"
+      },
+      {
+        "candidates": 30,
+        "country": "AU",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "BA",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "BE",
+        "year": "2018"
+      },
+      {
+        "candidates": 15,
+        "country": "BG",
+        "year": "2018"
+      },
+      {
+        "candidates": 4,
+        "country": "BO",
+        "year": "2018"
+      },
+      {
+        "candidates": 246,
+        "country": "BR",
+        "year": "2018"
+      },
+      {
+        "candidates": 16,
+        "country": "BS",
+        "year": "2018"
+      },
+      {
+        "candidates": 3,
+        "country": "BW",
+        "year": "2018"
+      },
+      {
+        "candidates": 6,
+        "country": "BY",
+        "year": "2018"
+      },
+      {
+        "candidates": 7,
+        "country": "BZ",
+        "year": "2018"
+      },
+      {
+        "candidates": 20,
+        "country": "CA",
+        "year": "2018"
+      },
+      {
+        "candidates": 6,
+        "country": "CD",
+        "year": "2018"
+      },
+      {
+        "candidates": 3,
+        "country": "CF",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "CG",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "CH",
+        "year": "2018"
+      },
+      {
+        "candidates": 6,
+        "country": "CL",
+        "year": "2018"
+      },
+      {
+        "candidates": 28,
+        "country": "CN",
+        "year": "2018"
+      },
+      {
+        "candidates": 3,
+        "country": "CO",
+        "year": "2018"
+      },
+      {
+        "candidates": 14,
+        "country": "CR",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "CY",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "CZ",
+        "year": "2018"
+      },
+      {
+        "candidates": 40,
+        "country": "DE",
+        "year": "2018"
+      },
+      {
+        "candidates": 7,
+        "country": "DK",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "DM",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "DZ",
+        "year": "2018"
+      },
+      {
+        "candidates": 7,
+        "country": "EC",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "EE",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "EG",
+        "year": "2018"
+      },
+      {
+        "candidates": 32,
+        "country": "ES",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "ET",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "FI",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "FJ",
+        "year": "2018"
+      },
+      {
+        "candidates": 63,
+        "country": "FR",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "GA",
+        "year": "2018"
+      },
+      {
+        "candidates": 59,
+        "country": "GB",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "GL",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "GQ",
+        "year": "2018"
+      },
+      {
+        "candidates": 9,
+        "country": "GR",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "GT",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "GU",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "GY",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "HK",
+        "year": "2018"
+      },
+      {
+        "candidates": 16,
+        "country": "HR",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "HT",
+        "year": "2018"
+      },
+      {
+        "candidates": 14,
+        "country": "HU",
+        "year": "2018"
+      },
+      {
+        "candidates": 21,
+        "country": "ID",
+        "year": "2018"
+      },
+      {
+        "candidates": 4,
+        "country": "IE",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "IL",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "IM",
+        "year": "2018"
+      },
+      {
+        "candidates": 26,
+        "country": "IN",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "IQ",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "IR",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "IS",
+        "year": "2018"
+      },
+      {
+        "candidates": 13,
+        "country": "IT",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "JP",
+        "year": "2018"
+      },
+      {
+        "candidates": 25,
+        "country": "KE",
+        "year": "2018"
+      },
+      {
+        "candidates": 3,
+        "country": "KP",
+        "year": "2018"
+      },
+      {
+        "candidates": 842,
+        "country": "KR",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "KY",
+        "year": "2018"
+      },
+      {
+        "candidates": 6,
+        "country": "KZ",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "LA",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "LR",
+        "year": "2018"
+      },
+      {
+        "candidates": 29,
+        "country": "LV",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "LY",
+        "year": "2018"
+      },
+      {
+        "candidates": 5,
+        "country": "MA",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "MD",
+        "year": "2018"
+      },
+      {
+        "candidates": 11,
+        "country": "MG",
+        "year": "2018"
+      },
+      {
+        "candidates": 3,
+        "country": "MH",
+        "year": "2018"
+      },
+      {
+        "candidates": 4,
+        "country": "MM",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "MP",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "MW",
+        "year": "2018"
+      },
+      {
+        "candidates": 339,
+        "country": "MX",
+        "year": "2018"
+      },
+      {
+        "candidates": 3,
+        "country": "MY",
+        "year": "2018"
+      },
+      {
+        "candidates": 4,
+        "country": "MZ",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "NA",
+        "year": "2018"
+      },
+      {
+        "candidates": 3,
+        "country": "NG",
+        "year": "2018"
+      },
+      {
+        "candidates": 6,
+        "country": "NL",
+        "year": "2018"
+      },
+      {
+        "candidates": 12,
+        "country": "NO",
+        "year": "2018"
+      },
+      {
+        "candidates": 6,
+        "country": "NP",
+        "year": "2018"
+      },
+      {
+        "candidates": 4,
+        "country": "NZ",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "OM",
+        "year": "2018"
+      },
+      {
+        "candidates": 3,
+        "country": "PA",
+        "year": "2018"
+      },
+      {
+        "candidates": 13,
+        "country": "PE",
+        "year": "2018"
+      },
+      {
+        "candidates": 4,
+        "country": "PF",
+        "year": "2018"
+      },
+      {
+        "candidates": 3,
+        "country": "PG",
+        "year": "2018"
+      },
+      {
+        "candidates": 164,
+        "country": "PH",
+        "year": "2018"
+      },
+      {
+        "candidates": 10,
+        "country": "PK",
+        "year": "2018"
+      },
+      {
+        "candidates": 28,
+        "country": "PL",
+        "year": "2018"
+      },
+      {
+        "candidates": 136,
+        "country": "PT",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "PW",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "PY",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "QA",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "RO",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "RS",
+        "year": "2018"
+      },
+      {
+        "candidates": 44,
+        "country": "RU",
+        "year": "2018"
+      },
+      {
+        "candidates": 10,
+        "country": "SA",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "SB",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "SC",
+        "year": "2018"
+      },
+      {
+        "candidates": 13,
+        "country": "SE",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "SI",
+        "year": "2018"
+      },
+      {
+        "candidates": 7,
+        "country": "SK",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "SO",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "SR",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "TC",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "TD",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "TH",
+        "year": "2018"
+      },
+      {
+        "candidates": 12,
+        "country": "TR",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "TT",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "TW",
+        "year": "2018"
+      },
+      {
+        "candidates": 10,
+        "country": "TZ",
+        "year": "2018"
+      },
+      {
+        "candidates": 8,
+        "country": "UA",
+        "year": "2018"
+      },
+      {
+        "candidates": 927,
+        "country": "US",
+        "year": "2018"
+      },
+      {
+        "candidates": 20,
+        "country": "UY",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "UZ",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "VC",
+        "year": "2018"
+      },
+      {
+        "candidates": 6,
+        "country": "VE",
+        "year": "2018"
+      },
+      {
+        "candidates": 6,
+        "country": "VN",
+        "year": "2018"
+      },
+      {
+        "candidates": 3,
+        "country": "VU",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "YE",
+        "year": "2018"
+      },
+      {
+        "candidates": 15,
+        "country": "ZA",
+        "year": "2018"
+      },
+      {
+        "candidates": 2,
+        "country": "ZM",
+        "year": "2018"
+      },
+      {
+        "candidates": 1,
+        "country": "ZZ",
+        "year": "2018"
+      },
+      {
+        "candidates": 4,
+        "country": "AD",
+        "year": "2019"
+      },
+      {
+        "candidates": 105,
+        "country": "AE",
+        "year": "2019"
+      },
+      {
+        "candidates": 126,
+        "country": "AF",
+        "year": "2019"
+      },
+      {
+        "candidates": 6,
+        "country": "AG",
+        "year": "2019"
+      },
+      {
+        "candidates": 2,
+        "country": "AI",
+        "year": "2019"
+      },
+      {
+        "candidates": 24,
+        "country": "AL",
+        "year": "2019"
+      },
+      {
+        "candidates": 26,
+        "country": "AM",
+        "year": "2019"
+      },
+      {
+        "candidates": 208,
+        "country": "AO",
+        "year": "2019"
+      },
+      {
+        "candidates": 54,
+        "country": "AQ",
+        "year": "2019"
+      },
+      {
+        "candidates": 1695,
+        "country": "AR",
+        "year": "2019"
+      },
+      {
+        "candidates": 8,
+        "country": "AS",
+        "year": "2019"
+      },
+      {
+        "candidates": 290,
+        "country": "AT",
+        "year": "2019"
+      },
+      {
+        "candidates": 3910,
+        "country": "AU",
+        "year": "2019"
+      },
+      {
+        "candidates": 2,
+        "country": "AW",
+        "year": "2019"
+      },
+      {
+        "candidates": 70,
+        "country": "AZ",
+        "year": "2019"
+      },
+      {
+        "candidates": 29,
+        "country": "BA",
+        "year": "2019"
+      },
+      {
+        "candidates": 4,
+        "country": "BB",
+        "year": "2019"
+      },
+      {
+        "candidates": 32,
+        "country": "BD",
+        "year": "2019"
+      },
+      {
+        "candidates": 291,
+        "country": "BE",
+        "year": "2019"
+      },
+      {
+        "candidates": 102,
+        "country": "BF",
+        "year": "2019"
+      },
+      {
+        "candidates": 268,
+        "country": "BG",
+        "year": "2019"
+      },
+      {
+        "candidates": 8,
+        "country": "BH",
+        "year": "2019"
+      },
+      {
+        "candidates": 14,
+        "country": "BI",
+        "year": "2019"
+      },
+      {
+        "candidates": 20,
+        "country": "BJ",
+        "year": "2019"
+      },
+      {
+        "candidates": 2,
+        "country": "BL",
+        "year": "2019"
+      },
+      {
+        "candidates": 6,
+        "country": "BM",
+        "year": "2019"
+      },
+      {
+        "candidates": 4,
+        "country": "BN",
+        "year": "2019"
+      },
+      {
+        "candidates": 394,
+        "country": "BO",
+        "year": "2019"
+      },
+      {
+        "candidates": 6,
+        "country": "BQ",
+        "year": "2019"
+      },
+      {
+        "candidates": 8750,
+        "country": "BR",
+        "year": "2019"
+      },
+      {
+        "candidates": 132,
+        "country": "BS",
+        "year": "2019"
+      },
+      {
+        "candidates": 10,
+        "country": "BT",
+        "year": "2019"
+      },
+      {
+        "candidates": 254,
+        "country": "BW",
+        "year": "2019"
+      },
+      {
+        "candidates": 108,
+        "country": "BY",
+        "year": "2019"
+      },
+      {
+        "candidates": 54,
+        "country": "BZ",
+        "year": "2019"
+      },
+      {
+        "candidates": 5566,
+        "country": "CA",
+        "year": "2019"
+      },
+      {
+        "candidates": 2,
+        "country": "CC",
+        "year": "2019"
+      },
+      {
+        "candidates": 570,
+        "country": "CD",
+        "year": "2019"
+      },
+      {
+        "candidates": 92,
+        "country": "CF",
+        "year": "2019"
+      },
+      {
+        "candidates": 106,
+        "country": "CG",
+        "year": "2019"
+      },
+      {
+        "candidates": 175,
+        "country": "CH",
+        "year": "2019"
+      },
+      {
+        "candidates": 52,
+        "country": "CI",
+        "year": "2019"
+      },
+      {
+        "candidates": 20,
+        "country": "CK",
+        "year": "2019"
+      },
+      {
+        "candidates": 948,
+        "country": "CL",
+        "year": "2019"
+      },
+      {
+        "candidates": 70,
+        "country": "CM",
+        "year": "2019"
+      },
+      {
+        "candidates": 808,
+        "country": "CN",
+        "year": "2019"
+      },
+      {
+        "candidates": 1412,
+        "country": "CO",
+        "year": "2019"
+      },
+      {
+        "candidates": 265,
+        "country": "CR",
+        "year": "2019"
+      },
+      {
+        "candidates": 268,
+        "country": "CU",
+        "year": "2019"
+      },
+      {
+        "candidates": 20,
+        "country": "CV",
+        "year": "2019"
+      },
+      {
+        "candidates": 2,
+        "country": "CW",
+        "year": "2019"
+      },
+      {
+        "candidates": 2,
+        "country": "CX",
+        "year": "2019"
+      },
+      {
+        "candidates": 24,
+        "country": "CY",
+        "year": "2019"
+      },
+      {
+        "candidates": 537,
+        "country": "CZ",
+        "year": "2019"
+      },
+      {
+        "candidates": 1909,
+        "country": "DE",
+        "year": "2019"
+      },
+      {
+        "candidates": 18,
+        "country": "DJ",
+        "year": "2019"
+      },
+      {
+        "candidates": 239,
+        "country": "DK",
+        "year": "2019"
+      },
+      {
+        "candidates": 4,
+        "country": "DM",
+        "year": "2019"
+      },
+      {
+        "candidates": 78,
+        "country": "DO",
+        "year": "2019"
+      },
+      {
+        "candidates": 122,
+        "country": "DZ",
+        "year": "2019"
+      },
+      {
+        "candidates": 246,
+        "country": "EC",
+        "year": "2019"
+      },
+      {
+        "candidates": 74,
+        "country": "EE",
+        "year": "2019"
+      },
+      {
+        "candidates": 139,
+        "country": "EG",
+        "year": "2019"
+      },
+      {
+        "candidates": 12,
+        "country": "EH",
+        "year": "2019"
+      },
+      {
+        "candidates": 12,
+        "country": "ER",
+        "year": "2019"
+      },
+      {
+        "candidates": 849,
+        "country": "ES",
+        "year": "2019"
+      },
+      {
+        "candidates": 116,
+        "country": "ET",
+        "year": "2019"
+      },
+      {
+        "candidates": 222,
+        "country": "FI",
+        "year": "2019"
+      },
+      {
+        "candidates": 66,
+        "country": "FJ",
+        "year": "2019"
+      },
+      {
+        "candidates": 78,
+        "country": "FK",
+        "year": "2019"
+      },
+      {
+        "candidates": 12,
+        "country": "FM",
+        "year": "2019"
+      },
+      {
+        "candidates": 16,
+        "country": "FO",
+        "year": "2019"
+      },
+      {
+        "candidates": 1717,
+        "country": "FR",
+        "year": "2019"
+      },
+      {
+        "candidates": 70,
+        "country": "GA",
+        "year": "2019"
+      },
+      {
+        "candidates": 1835,
+        "country": "GB",
+        "year": "2019"
+      },
+      {
+        "candidates": 6,
+        "country": "GD",
+        "year": "2019"
+      },
+      {
+        "candidates": 56,
+        "country": "GE",
+        "year": "2019"
+      },
+      {
+        "candidates": 24,
+        "country": "GF",
+        "year": "2019"
+      },
+      {
+        "candidates": 6,
+        "country": "GG",
+        "year": "2019"
+      },
+      {
+        "candidates": 20,
+        "country": "GH",
+        "year": "2019"
+      },
+      {
+        "candidates": 2,
+        "country": "GI",
+        "year": "2019"
+      },
+      {
+        "candidates": 168,
+        "country": "GL",
+        "year": "2019"
+      },
+      {
+        "candidates": 2,
+        "country": "GM",
+        "year": "2019"
+      },
+      {
+        "candidates": 32,
+        "country": "GN",
+        "year": "2019"
+      },
+      {
+        "candidates": 12,
+        "country": "GP",
+        "year": "2019"
+      },
+      {
+        "candidates": 14,
+        "country": "GQ",
+        "year": "2019"
+      },
+      {
+        "candidates": 178,
+        "country": "GR",
+        "year": "2019"
+      },
+      {
+        "candidates": 106,
+        "country": "GT",
+        "year": "2019"
+      },
+      {
+        "candidates": 8,
+        "country": "GU",
+        "year": "2019"
+      },
+      {
+        "candidates": 14,
+        "country": "GW",
+        "year": "2019"
+      },
+      {
+        "candidates": 76,
+        "country": "GY",
+        "year": "2019"
+      },
+      {
+        "candidates": 18,
+        "country": "HK",
+        "year": "2019"
+      },
+      {
+        "candidates": 316,
+        "country": "HN",
+        "year": "2019"
+      },
+      {
+        "candidates": 107,
+        "country": "HR",
+        "year": "2019"
+      },
+      {
+        "candidates": 16,
+        "country": "HT",
+        "year": "2019"
+      },
+      {
+        "candidates": 218,
+        "country": "HU",
+        "year": "2019"
+      },
+      {
+        "candidates": 939,
+        "country": "ID",
+        "year": "2019"
+      },
+      {
+        "candidates": 199,
+        "country": "IE",
+        "year": "2019"
+      },
+      {
+        "candidates": 79,
+        "country": "IL",
+        "year": "2019"
+      },
+      {
+        "candidates": 11,
+        "country": "IM",
+        "year": "2019"
+      },
+      {
+        "candidates": 685,
+        "country": "IN",
+        "year": "2019"
+      },
+      {
+        "candidates": 2,
+        "country": "IO",
+        "year": "2019"
+      },
+      {
+        "candidates": 151,
+        "country": "IQ",
+        "year": "2019"
+      },
+      {
+        "candidates": 272,
+        "country": "IR",
+        "year": "2019"
+      },
+      {
+        "candidates": 170,
+        "country": "IS",
+        "year": "2019"
+      },
+      {
+        "candidates": 1346,
+        "country": "IT",
+        "year": "2019"
+      },
+      {
+        "candidates": 2,
+        "country": "JE",
+        "year": "2019"
+      },
+      {
+        "candidates": 48,
+        "country": "JM",
+        "year": "2019"
+      },
+      {
+        "candidates": 34,
+        "country": "JO",
+        "year": "2019"
+      },
+      {
+        "candidates": 467,
+        "country": "JP",
+        "year": "2019"
+      },
+      {
+        "candidates": 743,
+        "country": "KE",
+        "year": "2019"
+      },
+      {
+        "candidates": 108,
+        "country": "KG",
+        "year": "2019"
+      },
+      {
+        "candidates": 28,
+        "country": "KH",
+        "year": "2019"
+      },
+      {
+        "candidates": 44,
+        "country": "KI",
+        "year": "2019"
+      },
+      {
+        "candidates": 8,
+        "country": "KM",
+        "year": "2019"
+      },
+      {
+        "candidates": 4,
+        "country": "KN",
+        "year": "2019"
+      },
+      {
+        "candidates": 188,
+        "country": "KP",
+        "year": "2019"
+      },
+      {
+        "candidates": 2750,
+        "country": "KR",
+        "year": "2019"
+      },
+      {
+        "candidates": 16,
+        "country": "KW",
+        "year": "2019"
+      },
+      {
+        "candidates": 6,
+        "country": "KY",
+        "year": "2019"
+      },
+      {
+        "candidates": 254,
+        "country": "KZ",
+        "year": "2019"
+      },
+      {
+        "candidates": 40,
+        "country": "LA",
+        "year": "2019"
+      },
+      {
+        "candidates": 8,
+        "country": "LB",
+        "year": "2019"
+      },
+      {
+        "candidates": 4,
+        "country": "LC",
+        "year": "2019"
+      },
+      {
+        "candidates": 2,
+        "country": "LI",
+        "year": "2019"
+      },
+      {
+        "candidates": 68,
+        "country": "LK",
+        "year": "2019"
+      },
+      {
+        "candidates": 32,
+        "country": "LR",
+        "year": "2019"
+      },
+      {
+        "candidates": 66,
+        "country": "LS",
+        "year": "2019"
+      },
+      {
+        "candidates": 115,
+        "country": "LT",
+        "year": "2019"
+      },
+      {
+        "candidates": 19,
+        "country": "LU",
+        "year": "2019"
+      },
+      {
+        "candidates": 144,
+        "country": "LV",
+        "year": "2019"
+      },
+      {
+        "candidates": 124,
+        "country": "LY",
+        "year": "2019"
+      },
+      {
+        "candidates": 73,
+        "country": "MA",
+        "year": "2019"
+      },
+      {
+        "candidates": 4,
+        "country": "MC",
+        "year": "2019"
+      },
+      {
+        "candidates": 16,
+        "country": "MD",
+        "year": "2019"
+      },
+      {
+        "candidates": 14,
+        "country": "ME",
+        "year": "2019"
+      },
+      {
+        "candidates": 4,
+        "country": "MF",
+        "year": "2019"
+      },
+      {
+        "candidates": 164,
+        "country": "MG",
+        "year": "2019"
+      },
+      {
+        "candidates": 68,
+        "country": "MH",
+        "year": "2019"
+      },
+      {
+        "candidates": 28,
+        "country": "MK",
+        "year": "2019"
+      },
+      {
+        "candidates": 62,
+        "country": "ML",
+        "year": "2019"
+      },
+      {
+        "candidates": 150,
+        "country": "MM",
+        "year": "2019"
+      },
+      {
+        "candidates": 58,
+        "country": "MN",
+        "year": "2019"
+      },
+      {
+        "candidates": 2,
+        "country": "MO",
+        "year": "2019"
+      },
+      {
+        "candidates": 22,
+        "country": "MP",
+        "year": "2019"
+      },
+      {
+        "candidates": 2,
+        "country": "MQ",
+        "year": "2019"
+      },
+      {
+        "candidates": 48,
+        "country": "MR",
+        "year": "2019"
+      },
+      {
+        "candidates": 4,
+        "country": "MS",
+        "year": "2019"
+      },
+      {
+        "candidates": 14,
+        "country": "MT",
+        "year": "2019"
+      },
+      {
+        "candidates": 8,
+        "country": "MU",
+        "year": "2019"
+      },
+      {
+        "candidates": 26,
+        "country": "MV",
+        "year": "2019"
+      },
+      {
+        "candidates": 58,
+        "country": "MW",
+        "year": "2019"
+      },
+      {
+        "candidates": 2437,
+        "country": "MX",
+        "year": "2019"
+      },
+      {
+        "candidates": 210,
+        "country": "MY",
+        "year": "2019"
+      },
+      {
+        "candidates": 174,
+        "country": "MZ",
+        "year": "2019"
+      },
+      {
+        "candidates": 494,
+        "country": "NA",
+        "year": "2019"
+      },
+      {
+        "candidates": 44,
+        "country": "NC",
+        "year": "2019"
+      },
+      {
+        "candidates": 46,
+        "country": "NE",
+        "year": "2019"
+      },
+      {
+        "candidates": 2,
+        "country": "NF",
+        "year": "2019"
+      },
+      {
+        "candidates": 92,
+        "country": "NG",
+        "year": "2019"
+      },
+      {
+        "candidates": 64,
+        "country": "NI",
+        "year": "2019"
+      },
+      {
+        "candidates": 177,
+        "country": "NL",
+        "year": "2019"
+      },
+      {
+        "candidates": 455,
+        "country": "NO",
+        "year": "2019"
+      },
+      {
+        "candidates": 96,
+        "country": "NP",
+        "year": "2019"
+      },
+      {
+        "candidates": 2,
+        "country": "NR",
+        "year": "2019"
+      },
+      {
+        "candidates": 2,
+        "country": "NU",
+        "year": "2019"
+      },
+      {
+        "candidates": 424,
+        "country": "NZ",
+        "year": "2019"
+      },
+      {
+        "candidates": 54,
+        "country": "OM",
+        "year": "2019"
+      },
+      {
+        "candidates": 143,
+        "country": "PA",
+        "year": "2019"
+      },
+      {
+        "candidates": 346,
+        "country": "PE",
+        "year": "2019"
+      },
+      {
+        "candidates": 110,
+        "country": "PF",
+        "year": "2019"
+      },
+      {
+        "candidates": 1188,
+        "country": "PG",
+        "year": "2019"
+      },
+      {
+        "candidates": 562,
+        "country": "PH",
+        "year": "2019"
+      },
+      {
+        "candidates": 273,
+        "country": "PK",
+        "year": "2019"
+      },
+      {
+        "candidates": 555,
+        "country": "PL",
+        "year": "2019"
+      },
+      {
+        "candidates": 4,
+        "country": "PM",
+        "year": "2019"
+      },
+      {
+        "candidates": 125,
+        "country": "PR",
+        "year": "2019"
+      },
+      {
+        "candidates": 8,
+        "country": "PS",
+        "year": "2019"
+      },
+      {
+        "candidates": 423,
+        "country": "PT",
+        "year": "2019"
+      },
+      {
+        "candidates": 6,
+        "country": "PW",
+        "year": "2019"
+      },
+      {
+        "candidates": 139,
+        "country": "PY",
+        "year": "2019"
+      },
+      {
+        "candidates": 12,
+        "country": "QA",
+        "year": "2019"
+      },
+      {
+        "candidates": 4,
+        "country": "RE",
+        "year": "2019"
+      },
+      {
+        "candidates": 117,
+        "country": "RO",
+        "year": "2019"
+      },
+      {
+        "candidates": 74,
+        "country": "RS",
+        "year": "2019"
+      },
+      {
+        "candidates": 2134,
+        "country": "RU",
+        "year": "2019"
+      },
+      {
+        "candidates": 16,
+        "country": "RW",
+        "year": "2019"
+      },
+      {
+        "candidates": 162,
+        "country": "SA",
+        "year": "2019"
+      },
+      {
+        "candidates": 76,
+        "country": "SB",
+        "year": "2019"
+      },
+      {
+        "candidates": 34,
+        "country": "SC",
+        "year": "2019"
+      },
+      {
+        "candidates": 74,
+        "country": "SD",
+        "year": "2019"
+      },
+      {
+        "candidates": 448,
+        "country": "SE",
+        "year": "2019"
+      },
+      {
+        "candidates": 19,
+        "country": "SG",
+        "year": "2019"
+      },
+      {
+        "candidates": 4,
+        "country": "SH",
+        "year": "2019"
+      },
+      {
+        "candidates": 83,
+        "country": "SI",
+        "year": "2019"
+      },
+      {
+        "candidates": 216,
+        "country": "SK",
+        "year": "2019"
+      },
+      {
+        "candidates": 24,
+        "country": "SL",
+        "year": "2019"
+      },
+      {
+        "candidates": 4,
+        "country": "SM",
+        "year": "2019"
+      },
+      {
+        "candidates": 32,
+        "country": "SN",
+        "year": "2019"
+      },
+      {
+        "candidates": 58,
+        "country": "SO",
+        "year": "2019"
+      },
+      {
+        "candidates": 102,
+        "country": "SR",
+        "year": "2019"
+      },
+      {
+        "candidates": 92,
+        "country": "SS",
+        "year": "2019"
+      },
+      {
+        "candidates": 8,
+        "country": "ST",
+        "year": "2019"
+      },
+      {
+        "candidates": 54,
+        "country": "SV",
+        "year": "2019"
+      },
+      {
+        "candidates": 2,
+        "country": "SX",
+        "year": "2019"
+      },
+      {
+        "candidates": 56,
+        "country": "SY",
+        "year": "2019"
+      },
+      {
+        "candidates": 32,
+        "country": "SZ",
+        "year": "2019"
+      },
+      {
+        "candidates": 18,
+        "country": "TC",
+        "year": "2019"
+      },
+      {
+        "candidates": 74,
+        "country": "TD",
+        "year": "2019"
+      },
+      {
+        "candidates": 8,
+        "country": "TF",
+        "year": "2019"
+      },
+      {
+        "candidates": 14,
+        "country": "TG",
+        "year": "2019"
+      },
+      {
+        "candidates": 136,
+        "country": "TH",
+        "year": "2019"
+      },
+      {
+        "candidates": 30,
+        "country": "TJ",
+        "year": "2019"
+      },
+      {
+        "candidates": 28,
+        "country": "TL",
+        "year": "2019"
+      },
+      {
+        "candidates": 42,
+        "country": "TM",
+        "year": "2019"
+      },
+      {
+        "candidates": 30,
+        "country": "TN",
+        "year": "2019"
+      },
+      {
+        "candidates": 12,
+        "country": "TO",
+        "year": "2019"
+      },
+      {
+        "candidates": 248,
+        "country": "TR",
+        "year": "2019"
+      },
+      {
+        "candidates": 6,
+        "country": "TT",
+        "year": "2019"
+      },
+      {
+        "candidates": 6,
+        "country": "TV",
+        "year": "2019"
+      },
+      {
+        "candidates": 130,
+        "country": "TW",
+        "year": "2019"
+      },
+      {
+        "candidates": 414,
+        "country": "TZ",
+        "year": "2019"
+      },
+      {
+        "candidates": 381,
+        "country": "UA",
+        "year": "2019"
+      },
+      {
+        "candidates": 75,
+        "country": "UG",
+        "year": "2019"
+      },
+      {
+        "candidates": 12,
+        "country": "UM",
+        "year": "2019"
+      },
+      {
+        "candidates": 45544,
+        "country": "US",
+        "year": "2019"
+      },
+      {
+        "candidates": 108,
+        "country": "UY",
+        "year": "2019"
+      },
+      {
+        "candidates": 352,
+        "country": "UZ",
+        "year": "2019"
+      },
+      {
+        "candidates": 2,
+        "country": "VA",
+        "year": "2019"
+      },
+      {
+        "candidates": 12,
+        "country": "VC",
+        "year": "2019"
+      },
+      {
+        "candidates": 1184,
+        "country": "VE",
+        "year": "2019"
+      },
+      {
+        "candidates": 6,
+        "country": "VG",
+        "year": "2019"
+      },
+      {
+        "candidates": 18,
+        "country": "VI",
+        "year": "2019"
+      },
+      {
+        "candidates": 99,
+        "country": "VN",
+        "year": "2019"
+      },
+      {
+        "candidates": 64,
+        "country": "VU",
+        "year": "2019"
+      },
+      {
+        "candidates": 4,
+        "country": "WF",
+        "year": "2019"
+      },
+      {
+        "candidates": 8,
+        "country": "WS",
+        "year": "2019"
+      },
+      {
+        "candidates": 12,
+        "country": "XK",
+        "year": "2019"
+      },
+      {
+        "candidates": 50,
+        "country": "YE",
+        "year": "2019"
+      },
+      {
+        "candidates": 2,
+        "country": "YT",
+        "year": "2019"
+      },
+      {
+        "candidates": 976,
+        "country": "ZA",
+        "year": "2019"
+      },
+      {
+        "candidates": 206,
+        "country": "ZM",
+        "year": "2019"
+      },
+      {
+        "candidates": 276,
+        "country": "ZW",
+        "year": "2019"
+      },
+      {
+        "candidates": 1,
+        "country": "ZZ",
+        "year": "2019"
+      },
+      {
+        "candidates": 3,
+        "country": "AD",
+        "year": "2023"
+      },
+      {
+        "candidates": 219,
+        "country": "AE",
+        "year": "2023"
+      },
+      {
+        "candidates": 73,
+        "country": "AF",
+        "year": "2023"
+      },
+      {
+        "candidates": 5,
+        "country": "AG",
+        "year": "2023"
+      },
+      {
+        "candidates": 2,
+        "country": "AI",
+        "year": "2023"
+      },
+      {
+        "candidates": 16,
+        "country": "AL",
+        "year": "2023"
+      },
+      {
+        "candidates": 9,
+        "country": "AM",
+        "year": "2023"
+      },
+      {
+        "candidates": 42,
+        "country": "AO",
+        "year": "2023"
+      },
+      {
+        "candidates": 38,
+        "country": "AQ",
+        "year": "2023"
+      },
+      {
+        "candidates": 258,
+        "country": "AR",
+        "year": "2023"
+      },
+      {
+        "candidates": 5,
+        "country": "AS",
+        "year": "2023"
+      },
+      {
+        "candidates": 60,
+        "country": "AT",
+        "year": "2023"
+      },
+      {
+        "candidates": 1498,
+        "country": "AU",
+        "year": "2023"
+      },
+      {
+        "candidates": 3,
+        "country": "AW",
+        "year": "2023"
+      },
+      {
+        "candidates": 32,
+        "country": "AZ",
+        "year": "2023"
+      },
+      {
+        "candidates": 12,
+        "country": "BA",
+        "year": "2023"
+      },
+      {
+        "candidates": 1,
+        "country": "BB",
+        "year": "2023"
+      },
+      {
+        "candidates": 45,
+        "country": "BD",
+        "year": "2023"
+      },
+      {
+        "candidates": 101,
+        "country": "BE",
+        "year": "2023"
+      },
+      {
+        "candidates": 13,
+        "country": "BF",
+        "year": "2023"
+      },
+      {
+        "candidates": 80,
+        "country": "BG",
+        "year": "2023"
+      },
+      {
+        "candidates": 9,
+        "country": "BH",
+        "year": "2023"
+      },
+      {
+        "candidates": 4,
+        "country": "BI",
+        "year": "2023"
+      },
+      {
+        "candidates": 1,
+        "country": "BL",
+        "year": "2023"
+      },
+      {
+        "candidates": 3,
+        "country": "BM",
+        "year": "2023"
+      },
+      {
+        "candidates": 16,
+        "country": "BN",
+        "year": "2023"
+      },
+      {
+        "candidates": 21,
+        "country": "BO",
+        "year": "2023"
+      },
+      {
+        "candidates": 2,
+        "country": "BQ",
+        "year": "2023"
+      },
+      {
+        "candidates": 5203,
+        "country": "BR",
+        "year": "2023"
+      },
+      {
+        "candidates": 53,
+        "country": "BS",
+        "year": "2023"
+      },
+      {
+        "candidates": 9,
+        "country": "BT",
+        "year": "2023"
+      },
+      {
+        "candidates": 42,
+        "country": "BW",
+        "year": "2023"
+      },
+      {
+        "candidates": 37,
+        "country": "BY",
+        "year": "2023"
+      },
+      {
+        "candidates": 27,
+        "country": "BZ",
+        "year": "2023"
+      },
+      {
+        "candidates": 1104,
+        "country": "CA",
+        "year": "2023"
+      },
+      {
+        "candidates": 1,
+        "country": "CC",
+        "year": "2023"
+      },
+      {
+        "candidates": 265,
+        "country": "CD",
+        "year": "2023"
+      },
+      {
+        "candidates": 10,
+        "country": "CF",
+        "year": "2023"
+      },
+      {
+        "candidates": 9,
+        "country": "CG",
+        "year": "2023"
+      },
+      {
+        "candidates": 50,
+        "country": "CH",
+        "year": "2023"
+      },
+      {
+        "candidates": 31,
+        "country": "CI",
+        "year": "2023"
+      },
+      {
+        "candidates": 4,
+        "country": "CK",
+        "year": "2023"
+      },
+      {
+        "candidates": 104,
+        "country": "CL",
+        "year": "2023"
+      },
+      {
+        "candidates": 7,
+        "country": "CM",
+        "year": "2023"
+      },
+      {
+        "candidates": 604,
+        "country": "CN",
+        "year": "2023"
+      },
+      {
+        "candidates": 114,
+        "country": "CO",
+        "year": "2023"
+      },
+      {
+        "candidates": 17,
+        "country": "CR",
+        "year": "2023"
+      },
+      {
+        "candidates": 86,
+        "country": "CU",
+        "year": "2023"
+      },
+      {
+        "candidates": 3,
+        "country": "CV",
+        "year": "2023"
+      },
+      {
+        "candidates": 1,
+        "country": "CW",
+        "year": "2023"
+      },
+      {
+        "candidates": 1,
+        "country": "CX",
+        "year": "2023"
+      },
+      {
+        "candidates": 86,
+        "country": "CY",
+        "year": "2023"
+      },
+      {
+        "candidates": 113,
+        "country": "CZ",
+        "year": "2023"
+      },
+      {
+        "candidates": 445,
+        "country": "DE",
+        "year": "2023"
+      },
+      {
+        "candidates": 12,
+        "country": "DJ",
+        "year": "2023"
+      },
+      {
+        "candidates": 91,
+        "country": "DK",
+        "year": "2023"
+      },
+      {
+        "candidates": 1,
+        "country": "DM",
+        "year": "2023"
+      },
+      {
+        "candidates": 10,
+        "country": "DO",
+        "year": "2023"
+      },
+      {
+        "candidates": 86,
+        "country": "DZ",
+        "year": "2023"
+      },
+      {
+        "candidates": 58,
+        "country": "EC",
+        "year": "2023"
+      },
+      {
+        "candidates": 23,
+        "country": "EE",
+        "year": "2023"
+      },
+      {
+        "candidates": 123,
+        "country": "EG",
+        "year": "2023"
+      },
+      {
+        "candidates": 26,
+        "country": "EH",
+        "year": "2023"
+      },
+      {
+        "candidates": 6,
+        "country": "ER",
+        "year": "2023"
+      },
+      {
+        "candidates": 362,
+        "country": "ES",
+        "year": "2023"
+      },
+      {
+        "candidates": 39,
+        "country": "ET",
+        "year": "2023"
+      },
+      {
+        "candidates": 120,
+        "country": "FI",
+        "year": "2023"
+      },
+      {
+        "candidates": 15,
+        "country": "FJ",
+        "year": "2023"
+      },
+      {
+        "candidates": 1,
+        "country": "FM",
+        "year": "2023"
+      },
+      {
+        "candidates": 16,
+        "country": "FO",
+        "year": "2023"
+      },
+      {
+        "candidates": 999,
+        "country": "FR",
+        "year": "2023"
+      },
+      {
+        "candidates": 15,
+        "country": "GA",
+        "year": "2023"
+      },
+      {
+        "candidates": 727,
+        "country": "GB",
+        "year": "2023"
+      },
+      {
+        "candidates": 3,
+        "country": "GD",
+        "year": "2023"
+      },
+      {
+        "candidates": 17,
+        "country": "GE",
+        "year": "2023"
+      },
+      {
+        "candidates": 20,
+        "country": "GF",
+        "year": "2023"
+      },
+      {
+        "candidates": 2,
+        "country": "GG",
+        "year": "2023"
+      },
+      {
+        "candidates": 9,
+        "country": "GH",
+        "year": "2023"
+      },
+      {
+        "candidates": 1,
+        "country": "GI",
+        "year": "2023"
+      },
+      {
+        "candidates": 91,
+        "country": "GL",
+        "year": "2023"
+      },
+      {
+        "candidates": 1,
+        "country": "GM",
+        "year": "2023"
+      },
+      {
+        "candidates": 10,
+        "country": "GN",
+        "year": "2023"
+      },
+      {
+        "candidates": 6,
+        "country": "GP",
+        "year": "2023"
+      },
+      {
+        "candidates": 4,
+        "country": "GQ",
+        "year": "2023"
+      },
+      {
+        "candidates": 132,
+        "country": "GR",
+        "year": "2023"
+      },
+      {
+        "candidates": 1,
+        "country": "GS",
+        "year": "2023"
+      },
+      {
+        "candidates": 27,
+        "country": "GT",
+        "year": "2023"
+      },
+      {
+        "candidates": 7,
+        "country": "GU",
+        "year": "2023"
+      },
+      {
+        "candidates": 4,
+        "country": "GW",
+        "year": "2023"
+      },
+      {
+        "candidates": 26,
+        "country": "GY",
+        "year": "2023"
+      },
+      {
+        "candidates": 103,
+        "country": "HK",
+        "year": "2023"
+      },
+      {
+        "candidates": 2,
+        "country": "HM",
+        "year": "2023"
+      },
+      {
+        "candidates": 46,
+        "country": "HN",
+        "year": "2023"
+      },
+      {
+        "candidates": 37,
+        "country": "HR",
+        "year": "2023"
+      },
+      {
+        "candidates": 18,
+        "country": "HT",
+        "year": "2023"
+      },
+      {
+        "candidates": 72,
+        "country": "HU",
+        "year": "2023"
+      },
+      {
+        "candidates": 439,
+        "country": "ID",
+        "year": "2023"
+      },
+      {
+        "candidates": 78,
+        "country": "IE",
+        "year": "2023"
+      },
+      {
+        "candidates": 20,
+        "country": "IL",
+        "year": "2023"
+      },
+      {
+        "candidates": 5,
+        "country": "IM",
+        "year": "2023"
+      },
+      {
+        "candidates": 433,
+        "country": "IN",
+        "year": "2023"
+      },
+      {
+        "candidates": 42,
+        "country": "IQ",
+        "year": "2023"
+      },
+      {
+        "candidates": 277,
+        "country": "IR",
+        "year": "2023"
+      },
+      {
+        "candidates": 28,
+        "country": "IS",
+        "year": "2023"
+      },
+      {
+        "candidates": 316,
+        "country": "IT",
+        "year": "2023"
+      },
+      {
+        "candidates": 13,
+        "country": "JM",
+        "year": "2023"
+      },
+      {
+        "candidates": 10,
+        "country": "JO",
+        "year": "2023"
+      },
+      {
+        "candidates": 3337,
+        "country": "JP",
+        "year": "2023"
+      },
+      {
+        "candidates": 38,
+        "country": "KE",
+        "year": "2023"
+      },
+      {
+        "candidates": 19,
+        "country": "KG",
+        "year": "2023"
+      },
+      {
+        "candidates": 13,
+        "country": "KH",
+        "year": "2023"
+      },
+      {
+        "candidates": 7,
+        "country": "KI",
+        "year": "2023"
+      },
+      {
+        "candidates": 3,
+        "country": "KM",
+        "year": "2023"
+      },
+      {
+        "candidates": 1,
+        "country": "KN",
+        "year": "2023"
+      },
+      {
+        "candidates": 11,
+        "country": "KP",
+        "year": "2023"
+      },
+      {
+        "candidates": 171,
+        "country": "KR",
+        "year": "2023"
+      },
+      {
+        "candidates": 22,
+        "country": "KW",
+        "year": "2023"
+      },
+      {
+        "candidates": 10,
+        "country": "KY",
+        "year": "2023"
+      },
+      {
+        "candidates": 129,
+        "country": "KZ",
+        "year": "2023"
+      },
+      {
+        "candidates": 6,
+        "country": "LA",
+        "year": "2023"
+      },
+      {
+        "candidates": 9,
+        "country": "LB",
+        "year": "2023"
+      },
+      {
+        "candidates": 1,
+        "country": "LC",
+        "year": "2023"
+      },
+      {
+        "candidates": 2,
+        "country": "LI",
+        "year": "2023"
+      },
+      {
+        "candidates": 9,
+        "country": "LK",
+        "year": "2023"
+      },
+      {
+        "candidates": 13,
+        "country": "LR",
+        "year": "2023"
+      },
+      {
+        "candidates": 5,
+        "country": "LS",
+        "year": "2023"
+      },
+      {
+        "candidates": 52,
+        "country": "LT",
+        "year": "2023"
+      },
+      {
+        "candidates": 2,
+        "country": "LU",
+        "year": "2023"
+      },
+      {
+        "candidates": 76,
+        "country": "LV",
+        "year": "2023"
+      },
+      {
+        "candidates": 46,
+        "country": "LY",
+        "year": "2023"
+      },
+      {
+        "candidates": 34,
+        "country": "MA",
+        "year": "2023"
+      },
+      {
+        "candidates": 3,
+        "country": "MC",
+        "year": "2023"
+      },
+      {
+        "candidates": 11,
+        "country": "MD",
+        "year": "2023"
+      },
+      {
+        "candidates": 5,
+        "country": "ME",
+        "year": "2023"
+      },
+      {
+        "candidates": 1,
+        "country": "MF",
+        "year": "2023"
+      },
+      {
+        "candidates": 36,
+        "country": "MG",
+        "year": "2023"
+      },
+      {
+        "candidates": 9,
+        "country": "MH",
+        "year": "2023"
+      },
+      {
+        "candidates": 9,
+        "country": "MK",
+        "year": "2023"
+      },
+      {
+        "candidates": 23,
+        "country": "ML",
+        "year": "2023"
+      },
+      {
+        "candidates": 20,
+        "country": "MM",
+        "year": "2023"
+      },
+      {
+        "candidates": 18,
+        "country": "MN",
+        "year": "2023"
+      },
+      {
+        "candidates": 5,
+        "country": "MO",
+        "year": "2023"
+      },
+      {
+        "candidates": 12,
+        "country": "MP",
+        "year": "2023"
+      },
+      {
+        "candidates": 4,
+        "country": "MQ",
+        "year": "2023"
+      },
+      {
+        "candidates": 23,
+        "country": "MR",
+        "year": "2023"
+      },
+      {
+        "candidates": 2,
+        "country": "MS",
+        "year": "2023"
+      },
+      {
+        "candidates": 5,
+        "country": "MT",
+        "year": "2023"
+      },
+      {
+        "candidates": 2,
+        "country": "MU",
+        "year": "2023"
+      },
+      {
+        "candidates": 19,
+        "country": "MV",
+        "year": "2023"
+      },
+      {
+        "candidates": 12,
+        "country": "MW",
+        "year": "2023"
+      },
+      {
+        "candidates": 1325,
+        "country": "MX",
+        "year": "2023"
+      },
+      {
+        "candidates": 74,
+        "country": "MY",
+        "year": "2023"
+      },
+      {
+        "candidates": 23,
+        "country": "MZ",
+        "year": "2023"
+      },
+      {
+        "candidates": 29,
+        "country": "NA",
+        "year": "2023"
+      },
+      {
+        "candidates": 22,
+        "country": "NC",
+        "year": "2023"
+      },
+      {
+        "candidates": 11,
+        "country": "NE",
+        "year": "2023"
+      },
+      {
+        "candidates": 1,
+        "country": "NF",
+        "year": "2023"
+      },
+      {
+        "candidates": 30,
+        "country": "NG",
+        "year": "2023"
+      },
+      {
+        "candidates": 23,
+        "country": "NI",
+        "year": "2023"
+      },
+      {
+        "candidates": 124,
+        "country": "NL",
+        "year": "2023"
+      },
+      {
+        "candidates": 228,
+        "country": "NO",
+        "year": "2023"
+      },
+      {
+        "candidates": 65,
+        "country": "NP",
+        "year": "2023"
+      },
+      {
+        "candidates": 120,
+        "country": "NZ",
+        "year": "2023"
+      },
+      {
+        "candidates": 46,
+        "country": "OM",
+        "year": "2023"
+      },
+      {
+        "candidates": 57,
+        "country": "PA",
+        "year": "2023"
+      },
+      {
+        "candidates": 89,
+        "country": "PE",
+        "year": "2023"
+      },
+      {
+        "candidates": 28,
+        "country": "PF",
+        "year": "2023"
+      },
+      {
+        "candidates": 108,
+        "country": "PG",
+        "year": "2023"
+      },
+      {
+        "candidates": 612,
+        "country": "PH",
+        "year": "2023"
+      },
+      {
+        "candidates": 103,
+        "country": "PK",
+        "year": "2023"
+      },
+      {
+        "candidates": 158,
+        "country": "PL",
+        "year": "2023"
+      },
+      {
+        "candidates": 1,
+        "country": "PM",
+        "year": "2023"
+      },
+      {
+        "candidates": 23,
+        "country": "PR",
+        "year": "2023"
+      },
+      {
+        "candidates": 7,
+        "country": "PS",
+        "year": "2023"
+      },
+      {
+        "candidates": 88,
+        "country": "PT",
+        "year": "2023"
+      },
+      {
+        "candidates": 2,
+        "country": "PW",
+        "year": "2023"
+      },
+      {
+        "candidates": 102,
+        "country": "PY",
+        "year": "2023"
+      },
+      {
+        "candidates": 19,
+        "country": "QA",
+        "year": "2023"
+      },
+      {
+        "candidates": 9,
+        "country": "RE",
+        "year": "2023"
+      },
+      {
+        "candidates": 74,
+        "country": "RO",
+        "year": "2023"
+      },
+      {
+        "candidates": 34,
+        "country": "RS",
+        "year": "2023"
+      },
+      {
+        "candidates": 976,
+        "country": "RU",
+        "year": "2023"
+      },
+      {
+        "candidates": 2,
+        "country": "RW",
+        "year": "2023"
+      },
+      {
+        "candidates": 122,
+        "country": "SA",
+        "year": "2023"
+      },
+      {
+        "candidates": 8,
+        "country": "SB",
+        "year": "2023"
+      },
+      {
+        "candidates": 11,
+        "country": "SC",
+        "year": "2023"
+      },
+      {
+        "candidates": 32,
+        "country": "SD",
+        "year": "2023"
+      },
+      {
+        "candidates": 139,
+        "country": "SE",
+        "year": "2023"
+      },
+      {
+        "candidates": 9,
+        "country": "SG",
+        "year": "2023"
+      },
+      {
+        "candidates": 4,
+        "country": "SH",
+        "year": "2023"
+      },
+      {
+        "candidates": 17,
+        "country": "SI",
+        "year": "2023"
+      },
+      {
+        "candidates": 54,
+        "country": "SK",
+        "year": "2023"
+      },
+      {
+        "candidates": 7,
+        "country": "SL",
+        "year": "2023"
+      },
+      {
+        "candidates": 3,
+        "country": "SM",
+        "year": "2023"
+      },
+      {
+        "candidates": 9,
+        "country": "SN",
+        "year": "2023"
+      },
+      {
+        "candidates": 27,
+        "country": "SO",
+        "year": "2023"
+      },
+      {
+        "candidates": 18,
+        "country": "SR",
+        "year": "2023"
+      },
+      {
+        "candidates": 77,
+        "country": "SS",
+        "year": "2023"
+      },
+      {
+        "candidates": 3,
+        "country": "ST",
+        "year": "2023"
+      },
+      {
+        "candidates": 7,
+        "country": "SV",
+        "year": "2023"
+      },
+      {
+        "candidates": 1,
+        "country": "SX",
+        "year": "2023"
+      },
+      {
+        "candidates": 27,
+        "country": "SY",
+        "year": "2023"
+      },
+      {
+        "candidates": 6,
+        "country": "SZ",
+        "year": "2023"
+      },
+      {
+        "candidates": 6,
+        "country": "TC",
+        "year": "2023"
+      },
+      {
+        "candidates": 28,
+        "country": "TD",
+        "year": "2023"
+      },
+      {
+        "candidates": 4,
+        "country": "TF",
+        "year": "2023"
+      },
+      {
+        "candidates": 3,
+        "country": "TG",
+        "year": "2023"
+      },
+      {
+        "candidates": 69,
+        "country": "TH",
+        "year": "2023"
+      },
+      {
+        "candidates": 7,
+        "country": "TJ",
+        "year": "2023"
+      },
+      {
+        "candidates": 6,
+        "country": "TL",
+        "year": "2023"
+      },
+      {
+        "candidates": 42,
+        "country": "TM",
+        "year": "2023"
+      },
+      {
+        "candidates": 18,
+        "country": "TN",
+        "year": "2023"
+      },
+      {
+        "candidates": 1,
+        "country": "TO",
+        "year": "2023"
+      },
+      {
+        "candidates": 242,
+        "country": "TR",
+        "year": "2023"
+      },
+      {
+        "candidates": 2,
+        "country": "TT",
+        "year": "2023"
+      },
+      {
+        "candidates": 64,
+        "country": "TW",
+        "year": "2023"
+      },
+      {
+        "candidates": 21,
+        "country": "TZ",
+        "year": "2023"
+      },
+      {
+        "candidates": 156,
+        "country": "UA",
+        "year": "2023"
+      },
+      {
+        "candidates": 41,
+        "country": "UG",
+        "year": "2023"
+      },
+      {
+        "candidates": 8,
+        "country": "UM",
+        "year": "2023"
+      },
+      {
+        "candidates": 14918,
+        "country": "US",
+        "year": "2023"
+      },
+      {
+        "candidates": 16,
+        "country": "UY",
+        "year": "2023"
+      },
+      {
+        "candidates": 146,
+        "country": "UZ",
+        "year": "2023"
+      },
+      {
+        "candidates": 1,
+        "country": "VA",
+        "year": "2023"
+      },
+      {
+        "candidates": 5,
+        "country": "VC",
+        "year": "2023"
+      },
+      {
+        "candidates": 61,
+        "country": "VE",
+        "year": "2023"
+      },
+      {
+        "candidates": 4,
+        "country": "VG",
+        "year": "2023"
+      },
+      {
+        "candidates": 2,
+        "country": "VI",
+        "year": "2023"
+      },
+      {
+        "candidates": 91,
+        "country": "VN",
+        "year": "2023"
+      },
+      {
+        "candidates": 7,
+        "country": "VU",
+        "year": "2023"
+      },
+      {
+        "candidates": 2,
+        "country": "WS",
+        "year": "2023"
+      },
+      {
+        "candidates": 8,
+        "country": "XK",
+        "year": "2023"
+      },
+      {
+        "candidates": 30,
+        "country": "YE",
+        "year": "2023"
+      },
+      {
+        "candidates": 1,
+        "country": "YT",
+        "year": "2023"
+      },
+      {
+        "candidates": 259,
+        "country": "ZA",
+        "year": "2023"
+      },
+      {
+        "candidates": 51,
+        "country": "ZM",
+        "year": "2023"
+      },
+      {
+        "candidates": 53,
+        "country": "ZW",
+        "year": "2023"
+      },
+      {
+        "candidates": 21,
+        "country": "AE",
+        "year": "2024"
+      },
+      {
+        "candidates": 13,
+        "country": "AF",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "AG",
+        "year": "2024"
+      },
+      {
+        "candidates": 10,
+        "country": "AL",
+        "year": "2024"
+      },
+      {
+        "candidates": 22,
+        "country": "AO",
+        "year": "2024"
+      },
+      {
+        "candidates": 9,
+        "country": "AQ",
+        "year": "2024"
+      },
+      {
+        "candidates": 68,
+        "country": "AR",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "AS",
+        "year": "2024"
+      },
+      {
+        "candidates": 129,
+        "country": "AT",
+        "year": "2024"
+      },
+      {
+        "candidates": 263,
+        "country": "AU",
+        "year": "2024"
+      },
+      {
+        "candidates": 2,
+        "country": "AW",
+        "year": "2024"
+      },
+      {
+        "candidates": 2,
+        "country": "AZ",
+        "year": "2024"
+      },
+      {
+        "candidates": 19,
+        "country": "BA",
+        "year": "2024"
+      },
+      {
+        "candidates": 7,
+        "country": "BD",
+        "year": "2024"
+      },
+      {
+        "candidates": 127,
+        "country": "BE",
+        "year": "2024"
+      },
+      {
+        "candidates": 24,
+        "country": "BF",
+        "year": "2024"
+      },
+      {
+        "candidates": 175,
+        "country": "BG",
+        "year": "2024"
+      },
+      {
+        "candidates": 3,
+        "country": "BH",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "BM",
+        "year": "2024"
+      },
+      {
+        "candidates": 115,
+        "country": "BO",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "BQ",
+        "year": "2024"
+      },
+      {
+        "candidates": 1278,
+        "country": "BR",
+        "year": "2024"
+      },
+      {
+        "candidates": 14,
+        "country": "BS",
+        "year": "2024"
+      },
+      {
+        "candidates": 8,
+        "country": "BW",
+        "year": "2024"
+      },
+      {
+        "candidates": 9,
+        "country": "BY",
+        "year": "2024"
+      },
+      {
+        "candidates": 4,
+        "country": "BZ",
+        "year": "2024"
+      },
+      {
+        "candidates": 691,
+        "country": "CA",
+        "year": "2024"
+      },
+      {
+        "candidates": 115,
+        "country": "CD",
+        "year": "2024"
+      },
+      {
+        "candidates": 3,
+        "country": "CF",
+        "year": "2024"
+      },
+      {
+        "candidates": 15,
+        "country": "CG",
+        "year": "2024"
+      },
+      {
+        "candidates": 103,
+        "country": "CH",
+        "year": "2024"
+      },
+      {
+        "candidates": 9,
+        "country": "CI",
+        "year": "2024"
+      },
+      {
+        "candidates": 269,
+        "country": "CL",
+        "year": "2024"
+      },
+      {
+        "candidates": 10,
+        "country": "CM",
+        "year": "2024"
+      },
+      {
+        "candidates": 144,
+        "country": "CN",
+        "year": "2024"
+      },
+      {
+        "candidates": 95,
+        "country": "CO",
+        "year": "2024"
+      },
+      {
+        "candidates": 48,
+        "country": "CR",
+        "year": "2024"
+      },
+      {
+        "candidates": 68,
+        "country": "CU",
+        "year": "2024"
+      },
+      {
+        "candidates": 2,
+        "country": "CV",
+        "year": "2024"
+      },
+      {
+        "candidates": 2,
+        "country": "CY",
+        "year": "2024"
+      },
+      {
+        "candidates": 302,
+        "country": "CZ",
+        "year": "2024"
+      },
+      {
+        "candidates": 990,
+        "country": "DE",
+        "year": "2024"
+      },
+      {
+        "candidates": 70,
+        "country": "DK",
+        "year": "2024"
+      },
+      {
+        "candidates": 17,
+        "country": "DO",
+        "year": "2024"
+      },
+      {
+        "candidates": 17,
+        "country": "DZ",
+        "year": "2024"
+      },
+      {
+        "candidates": 276,
+        "country": "EC",
+        "year": "2024"
+      },
+      {
+        "candidates": 34,
+        "country": "EE",
+        "year": "2024"
+      },
+      {
+        "candidates": 53,
+        "country": "EG",
+        "year": "2024"
+      },
+      {
+        "candidates": 128,
+        "country": "ES",
+        "year": "2024"
+      },
+      {
+        "candidates": 6,
+        "country": "ET",
+        "year": "2024"
+      },
+      {
+        "candidates": 23,
+        "country": "FI",
+        "year": "2024"
+      },
+      {
+        "candidates": 3,
+        "country": "FJ",
+        "year": "2024"
+      },
+      {
+        "candidates": 2,
+        "country": "FO",
+        "year": "2024"
+      },
+      {
+        "candidates": 1358,
+        "country": "FR",
+        "year": "2024"
+      },
+      {
+        "candidates": 18,
+        "country": "GA",
+        "year": "2024"
+      },
+      {
+        "candidates": 812,
+        "country": "GB",
+        "year": "2024"
+      },
+      {
+        "candidates": 4,
+        "country": "GE",
+        "year": "2024"
+      },
+      {
+        "candidates": 4,
+        "country": "GG",
+        "year": "2024"
+      },
+      {
+        "candidates": 2,
+        "country": "GH",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "GI",
+        "year": "2024"
+      },
+      {
+        "candidates": 10,
+        "country": "GL",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "GN",
+        "year": "2024"
+      },
+      {
+        "candidates": 2,
+        "country": "GP",
+        "year": "2024"
+      },
+      {
+        "candidates": 84,
+        "country": "GR",
+        "year": "2024"
+      },
+      {
+        "candidates": 14,
+        "country": "GT",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "GU",
+        "year": "2024"
+      },
+      {
+        "candidates": 2,
+        "country": "GW",
+        "year": "2024"
+      },
+      {
+        "candidates": 15,
+        "country": "GY",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "HK",
+        "year": "2024"
+      },
+      {
+        "candidates": 10,
+        "country": "HN",
+        "year": "2024"
+      },
+      {
+        "candidates": 45,
+        "country": "HR",
+        "year": "2024"
+      },
+      {
+        "candidates": 2,
+        "country": "HT",
+        "year": "2024"
+      },
+      {
+        "candidates": 72,
+        "country": "HU",
+        "year": "2024"
+      },
+      {
+        "candidates": 148,
+        "country": "ID",
+        "year": "2024"
+      },
+      {
+        "candidates": 18,
+        "country": "IE",
+        "year": "2024"
+      },
+      {
+        "candidates": 14,
+        "country": "IL",
+        "year": "2024"
+      },
+      {
+        "candidates": 64,
+        "country": "IN",
+        "year": "2024"
+      },
+      {
+        "candidates": 8,
+        "country": "IQ",
+        "year": "2024"
+      },
+      {
+        "candidates": 31,
+        "country": "IR",
+        "year": "2024"
+      },
+      {
+        "candidates": 25,
+        "country": "IS",
+        "year": "2024"
+      },
+      {
+        "candidates": 594,
+        "country": "IT",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "JM",
+        "year": "2024"
+      },
+      {
+        "candidates": 3,
+        "country": "JO",
+        "year": "2024"
+      },
+      {
+        "candidates": 352,
+        "country": "JP",
+        "year": "2024"
+      },
+      {
+        "candidates": 23,
+        "country": "KE",
+        "year": "2024"
+      },
+      {
+        "candidates": 5,
+        "country": "KG",
+        "year": "2024"
+      },
+      {
+        "candidates": 6,
+        "country": "KH",
+        "year": "2024"
+      },
+      {
+        "candidates": 12,
+        "country": "KI",
+        "year": "2024"
+      },
+      {
+        "candidates": 9,
+        "country": "KP",
+        "year": "2024"
+      },
+      {
+        "candidates": 45,
+        "country": "KR",
+        "year": "2024"
+      },
+      {
+        "candidates": 9,
+        "country": "KZ",
+        "year": "2024"
+      },
+      {
+        "candidates": 5,
+        "country": "LA",
+        "year": "2024"
+      },
+      {
+        "candidates": 26,
+        "country": "LB",
+        "year": "2024"
+      },
+      {
+        "candidates": 4,
+        "country": "LK",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "LR",
+        "year": "2024"
+      },
+      {
+        "candidates": 26,
+        "country": "LS",
+        "year": "2024"
+      },
+      {
+        "candidates": 2,
+        "country": "LT",
+        "year": "2024"
+      },
+      {
+        "candidates": 15,
+        "country": "LU",
+        "year": "2024"
+      },
+      {
+        "candidates": 2,
+        "country": "LV",
+        "year": "2024"
+      },
+      {
+        "candidates": 27,
+        "country": "LY",
+        "year": "2024"
+      },
+      {
+        "candidates": 3,
+        "country": "MA",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "MC",
+        "year": "2024"
+      },
+      {
+        "candidates": 5,
+        "country": "MD",
+        "year": "2024"
+      },
+      {
+        "candidates": 4,
+        "country": "ME",
+        "year": "2024"
+      },
+      {
+        "candidates": 6,
+        "country": "MG",
+        "year": "2024"
+      },
+      {
+        "candidates": 15,
+        "country": "MH",
+        "year": "2024"
+      },
+      {
+        "candidates": 24,
+        "country": "MK",
+        "year": "2024"
+      },
+      {
+        "candidates": 9,
+        "country": "ML",
+        "year": "2024"
+      },
+      {
+        "candidates": 9,
+        "country": "MM",
+        "year": "2024"
+      },
+      {
+        "candidates": 17,
+        "country": "MN",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "MP",
+        "year": "2024"
+      },
+      {
+        "candidates": 4,
+        "country": "MR",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "MT",
+        "year": "2024"
+      },
+      {
+        "candidates": 4,
+        "country": "MU",
+        "year": "2024"
+      },
+      {
+        "candidates": 5,
+        "country": "MV",
+        "year": "2024"
+      },
+      {
+        "candidates": 10,
+        "country": "MW",
+        "year": "2024"
+      },
+      {
+        "candidates": 920,
+        "country": "MX",
+        "year": "2024"
+      },
+      {
+        "candidates": 19,
+        "country": "MY",
+        "year": "2024"
+      },
+      {
+        "candidates": 10,
+        "country": "MZ",
+        "year": "2024"
+      },
+      {
+        "candidates": 20,
+        "country": "NA",
+        "year": "2024"
+      },
+      {
+        "candidates": 3,
+        "country": "NC",
+        "year": "2024"
+      },
+      {
+        "candidates": 8,
+        "country": "NE",
+        "year": "2024"
+      },
+      {
+        "candidates": 8,
+        "country": "NG",
+        "year": "2024"
+      },
+      {
+        "candidates": 11,
+        "country": "NI",
+        "year": "2024"
+      },
+      {
+        "candidates": 191,
+        "country": "NL",
+        "year": "2024"
+      },
+      {
+        "candidates": 161,
+        "country": "NO",
+        "year": "2024"
+      },
+      {
+        "candidates": 16,
+        "country": "NP",
+        "year": "2024"
+      },
+      {
+        "candidates": 31,
+        "country": "NZ",
+        "year": "2024"
+      },
+      {
+        "candidates": 6,
+        "country": "OM",
+        "year": "2024"
+      },
+      {
+        "candidates": 23,
+        "country": "PA",
+        "year": "2024"
+      },
+      {
+        "candidates": 40,
+        "country": "PE",
+        "year": "2024"
+      },
+      {
+        "candidates": 8,
+        "country": "PF",
+        "year": "2024"
+      },
+      {
+        "candidates": 64,
+        "country": "PG",
+        "year": "2024"
+      },
+      {
+        "candidates": 99,
+        "country": "PH",
+        "year": "2024"
+      },
+      {
+        "candidates": 11,
+        "country": "PK",
+        "year": "2024"
+      },
+      {
+        "candidates": 219,
+        "country": "PL",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "PM",
+        "year": "2024"
+      },
+      {
+        "candidates": 7,
+        "country": "PR",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "PS",
+        "year": "2024"
+      },
+      {
+        "candidates": 19,
+        "country": "PT",
+        "year": "2024"
+      },
+      {
+        "candidates": 70,
+        "country": "PY",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "QA",
+        "year": "2024"
+      },
+      {
+        "candidates": 3,
+        "country": "RE",
+        "year": "2024"
+      },
+      {
+        "candidates": 89,
+        "country": "RO",
+        "year": "2024"
+      },
+      {
+        "candidates": 52,
+        "country": "RS",
+        "year": "2024"
+      },
+      {
+        "candidates": 481,
+        "country": "RU",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "RW",
+        "year": "2024"
+      },
+      {
+        "candidates": 18,
+        "country": "SA",
+        "year": "2024"
+      },
+      {
+        "candidates": 6,
+        "country": "SB",
+        "year": "2024"
+      },
+      {
+        "candidates": 16,
+        "country": "SC",
+        "year": "2024"
+      },
+      {
+        "candidates": 3,
+        "country": "SD",
+        "year": "2024"
+      },
+      {
+        "candidates": 95,
+        "country": "SE",
+        "year": "2024"
+      },
+      {
+        "candidates": 43,
+        "country": "SI",
+        "year": "2024"
+      },
+      {
+        "candidates": 67,
+        "country": "SK",
+        "year": "2024"
+      },
+      {
+        "candidates": 3,
+        "country": "SM",
+        "year": "2024"
+      },
+      {
+        "candidates": 2,
+        "country": "SN",
+        "year": "2024"
+      },
+      {
+        "candidates": 6,
+        "country": "SO",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "SR",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "ST",
+        "year": "2024"
+      },
+      {
+        "candidates": 13,
+        "country": "SV",
+        "year": "2024"
+      },
+      {
+        "candidates": 14,
+        "country": "SY",
+        "year": "2024"
+      },
+      {
+        "candidates": 7,
+        "country": "SZ",
+        "year": "2024"
+      },
+      {
+        "candidates": 9,
+        "country": "TD",
+        "year": "2024"
+      },
+      {
+        "candidates": 15,
+        "country": "TH",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "TJ",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "TL",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "TM",
+        "year": "2024"
+      },
+      {
+        "candidates": 2,
+        "country": "TN",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "TO",
+        "year": "2024"
+      },
+      {
+        "candidates": 117,
+        "country": "TR",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "TT",
+        "year": "2024"
+      },
+      {
+        "candidates": 8,
+        "country": "TW",
+        "year": "2024"
+      },
+      {
+        "candidates": 19,
+        "country": "TZ",
+        "year": "2024"
+      },
+      {
+        "candidates": 71,
+        "country": "UA",
+        "year": "2024"
+      },
+      {
+        "candidates": 5,
+        "country": "UG",
+        "year": "2024"
+      },
+      {
+        "candidates": 4312,
+        "country": "US",
+        "year": "2024"
+      },
+      {
+        "candidates": 21,
+        "country": "UY",
+        "year": "2024"
+      },
+      {
+        "candidates": 3,
+        "country": "UZ",
+        "year": "2024"
+      },
+      {
+        "candidates": 83,
+        "country": "VE",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "VG",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "VI",
+        "year": "2024"
+      },
+      {
+        "candidates": 57,
+        "country": "VN",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "VU",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "WF",
+        "year": "2024"
+      },
+      {
+        "candidates": 1,
+        "country": "WS",
+        "year": "2024"
+      },
+      {
+        "candidates": 8,
+        "country": "XK",
+        "year": "2024"
+      },
+      {
+        "candidates": 11,
+        "country": "YE",
+        "year": "2024"
+      },
+      {
+        "candidates": 39,
+        "country": "ZA",
+        "year": "2024"
+      },
+      {
+        "candidates": 12,
+        "country": "ZM",
+        "year": "2024"
+      },
+      {
+        "candidates": 8,
+        "country": "ZW",
+        "year": "2024"
+      },
+      {
+        "candidates": 7,
+        "country": "AD",
+        "year": "2025"
+      },
+      {
+        "candidates": 264,
+        "country": "AE",
+        "year": "2025"
+      },
+      {
+        "candidates": 121,
+        "country": "AF",
+        "year": "2025"
+      },
+      {
+        "candidates": 6,
+        "country": "AG",
+        "year": "2025"
+      },
+      {
+        "candidates": 2,
+        "country": "AI",
+        "year": "2025"
+      },
+      {
+        "candidates": 39,
+        "country": "AL",
+        "year": "2025"
+      },
+      {
+        "candidates": 18,
+        "country": "AM",
+        "year": "2025"
+      },
+      {
+        "candidates": 128,
+        "country": "AO",
+        "year": "2025"
+      },
+      {
+        "candidates": 50,
+        "country": "AQ",
+        "year": "2025"
+      },
+      {
+        "candidates": 1019,
+        "country": "AR",
+        "year": "2025"
+      },
+      {
+        "candidates": 6,
+        "country": "AS",
+        "year": "2025"
+      },
+      {
+        "candidates": 310,
+        "country": "AT",
+        "year": "2025"
+      },
+      {
+        "candidates": 2988,
+        "country": "AU",
+        "year": "2025"
+      },
+      {
+        "candidates": 4,
+        "country": "AW",
+        "year": "2025"
+      },
+      {
+        "candidates": 50,
+        "country": "AZ",
+        "year": "2025"
+      },
+      {
+        "candidates": 33,
+        "country": "BA",
+        "year": "2025"
+      },
+      {
+        "candidates": 2,
+        "country": "BB",
+        "year": "2025"
+      },
+      {
+        "candidates": 62,
+        "country": "BD",
+        "year": "2025"
+      },
+      {
+        "candidates": 289,
+        "country": "BE",
+        "year": "2025"
+      },
+      {
+        "candidates": 52,
+        "country": "BF",
+        "year": "2025"
+      },
+      {
+        "candidates": 273,
+        "country": "BG",
+        "year": "2025"
+      },
+      {
+        "candidates": 13,
+        "country": "BH",
+        "year": "2025"
+      },
+      {
+        "candidates": 9,
+        "country": "BI",
+        "year": "2025"
+      },
+      {
+        "candidates": 10,
+        "country": "BJ",
+        "year": "2025"
+      },
+      {
+        "candidates": 2,
+        "country": "BL",
+        "year": "2025"
+      },
+      {
+        "candidates": 4,
+        "country": "BM",
+        "year": "2025"
+      },
+      {
+        "candidates": 17,
+        "country": "BN",
+        "year": "2025"
+      },
+      {
+        "candidates": 216,
+        "country": "BO",
+        "year": "2025"
+      },
+      {
+        "candidates": 8,
+        "country": "BQ",
+        "year": "2025"
+      },
+      {
+        "candidates": 10528,
+        "country": "BR",
+        "year": "2025"
+      },
+      {
+        "candidates": 93,
+        "country": "BS",
+        "year": "2025"
+      },
+      {
+        "candidates": 14,
+        "country": "BT",
+        "year": "2025"
+      },
+      {
+        "candidates": 165,
+        "country": "BW",
+        "year": "2025"
+      },
+      {
+        "candidates": 79,
+        "country": "BY",
+        "year": "2025"
+      },
+      {
+        "candidates": 40,
+        "country": "BZ",
+        "year": "2025"
+      },
+      {
+        "candidates": 3782,
+        "country": "CA",
+        "year": "2025"
+      },
+      {
+        "candidates": 1,
+        "country": "CC",
+        "year": "2025"
+      },
+      {
+        "candidates": 369,
+        "country": "CD",
+        "year": "2025"
+      },
+      {
+        "candidates": 55,
+        "country": "CF",
+        "year": "2025"
+      },
+      {
+        "candidates": 61,
+        "country": "CG",
+        "year": "2025"
+      },
+      {
+        "candidates": 173,
+        "country": "CH",
+        "year": "2025"
+      },
+      {
+        "candidates": 35,
+        "country": "CI",
+        "year": "2025"
+      },
+      {
+        "candidates": 12,
+        "country": "CK",
+        "year": "2025"
+      },
+      {
+        "candidates": 574,
+        "country": "CL",
+        "year": "2025"
+      },
+      {
+        "candidates": 43,
+        "country": "CM",
+        "year": "2025"
+      },
+      {
+        "candidates": 928,
+        "country": "CN",
+        "year": "2025"
+      },
+      {
+        "candidates": 789,
+        "country": "CO",
+        "year": "2025"
+      },
+      {
+        "candidates": 149,
+        "country": "CR",
+        "year": "2025"
+      },
+      {
+        "candidates": 182,
+        "country": "CU",
+        "year": "2025"
+      },
+      {
+        "candidates": 12,
+        "country": "CV",
+        "year": "2025"
+      },
+      {
+        "candidates": 1,
+        "country": "CW",
+        "year": "2025"
+      },
+      {
+        "candidates": 1,
+        "country": "CX",
+        "year": "2025"
+      },
+      {
+        "candidates": 98,
+        "country": "CY",
+        "year": "2025"
+      },
+      {
+        "candidates": 427,
+        "country": "CZ",
+        "year": "2025"
+      },
+      {
+        "candidates": 1550,
+        "country": "DE",
+        "year": "2025"
+      },
+      {
+        "candidates": 17,
+        "country": "DJ",
+        "year": "2025"
+      },
+      {
+        "candidates": 175,
+        "country": "DK",
+        "year": "2025"
+      },
+      {
+        "candidates": 2,
+        "country": "DM",
+        "year": "2025"
+      },
+      {
+        "candidates": 76,
+        "country": "DO",
+        "year": "2025"
+      },
+      {
+        "candidates": 116,
+        "country": "DZ",
+        "year": "2025"
+      },
+      {
+        "candidates": 375,
+        "country": "EC",
+        "year": "2025"
+      },
+      {
+        "candidates": 86,
+        "country": "EE",
+        "year": "2025"
+      },
+      {
+        "candidates": 148,
+        "country": "EG",
+        "year": "2025"
+      },
+      {
+        "candidates": 34,
+        "country": "EH",
+        "year": "2025"
+      },
+      {
+        "candidates": 15,
+        "country": "ER",
+        "year": "2025"
+      },
+      {
+        "candidates": 605,
+        "country": "ES",
+        "year": "2025"
+      },
+      {
+        "candidates": 82,
+        "country": "ET",
+        "year": "2025"
+      },
+      {
+        "candidates": 144,
+        "country": "FI",
+        "year": "2025"
+      },
+      {
+        "candidates": 47,
+        "country": "FJ",
+        "year": "2025"
+      },
+      {
+        "candidates": 39,
+        "country": "FK",
+        "year": "2025"
+      },
+      {
+        "candidates": 7,
+        "country": "FM",
+        "year": "2025"
+      },
+      {
+        "candidates": 16,
+        "country": "FO",
+        "year": "2025"
+      },
+      {
+        "candidates": 1918,
+        "country": "FR",
+        "year": "2025"
+      },
+      {
+        "candidates": 60,
+        "country": "GA",
+        "year": "2025"
+      },
+      {
+        "candidates": 1967,
+        "country": "GB",
+        "year": "2025"
+      },
+      {
+        "candidates": 5,
+        "country": "GD",
+        "year": "2025"
+      },
+      {
+        "candidates": 54,
+        "country": "GE",
+        "year": "2025"
+      },
+      {
+        "candidates": 22,
+        "country": "GF",
+        "year": "2025"
+      },
+      {
+        "candidates": 4,
+        "country": "GG",
+        "year": "2025"
+      },
+      {
+        "candidates": 18,
+        "country": "GH",
+        "year": "2025"
+      },
+      {
+        "candidates": 1,
+        "country": "GI",
+        "year": "2025"
+      },
+      {
+        "candidates": 106,
+        "country": "GL",
+        "year": "2025"
+      },
+      {
+        "candidates": 2,
+        "country": "GM",
+        "year": "2025"
+      },
+      {
+        "candidates": 17,
+        "country": "GN",
+        "year": "2025"
+      },
+      {
+        "candidates": 12,
+        "country": "GP",
+        "year": "2025"
+      },
+      {
+        "candidates": 7,
+        "country": "GQ",
+        "year": "2025"
+      },
+      {
+        "candidates": 183,
+        "country": "GR",
+        "year": "2025"
+      },
+      {
+        "candidates": 1,
+        "country": "GS",
+        "year": "2025"
+      },
+      {
+        "candidates": 77,
+        "country": "GT",
+        "year": "2025"
+      },
+      {
+        "candidates": 9,
+        "country": "GU",
+        "year": "2025"
+      },
+      {
+        "candidates": 7,
+        "country": "GW",
+        "year": "2025"
+      },
+      {
+        "candidates": 58,
+        "country": "GY",
+        "year": "2025"
+      },
+      {
+        "candidates": 220,
+        "country": "HK",
+        "year": "2025"
+      },
+      {
+        "candidates": 2,
+        "country": "HM",
+        "year": "2025"
+      },
+      {
+        "candidates": 205,
+        "country": "HN",
+        "year": "2025"
+      },
+      {
+        "candidates": 90,
+        "country": "HR",
+        "year": "2025"
+      },
+      {
+        "candidates": 25,
+        "country": "HT",
+        "year": "2025"
+      },
+      {
+        "candidates": 159,
+        "country": "HU",
+        "year": "2025"
+      },
+      {
+        "candidates": 866,
+        "country": "ID",
+        "year": "2025"
+      },
+      {
+        "candidates": 167,
+        "country": "IE",
+        "year": "2025"
+      },
+      {
+        "candidates": 67,
+        "country": "IL",
+        "year": "2025"
+      },
+      {
+        "candidates": 7,
+        "country": "IM",
+        "year": "2025"
+      },
+      {
+        "candidates": 676,
+        "country": "IN",
+        "year": "2025"
+      },
+      {
+        "candidates": 1,
+        "country": "IO",
+        "year": "2025"
+      },
+      {
+        "candidates": 95,
+        "country": "IQ",
+        "year": "2025"
+      },
+      {
+        "candidates": 317,
+        "country": "IR",
+        "year": "2025"
+      },
+      {
+        "candidates": 105,
+        "country": "IS",
+        "year": "2025"
+      },
+      {
+        "candidates": 989,
+        "country": "IT",
+        "year": "2025"
+      },
+      {
+        "candidates": 1,
+        "country": "JE",
+        "year": "2025"
+      },
+      {
+        "candidates": 33,
+        "country": "JM",
+        "year": "2025"
+      },
+      {
+        "candidates": 24,
+        "country": "JO",
+        "year": "2025"
+      },
+      {
+        "candidates": 3844,
+        "country": "JP",
+        "year": "2025"
+      },
+      {
+        "candidates": 402,
+        "country": "KE",
+        "year": "2025"
+      },
+      {
+        "candidates": 63,
+        "country": "KG",
+        "year": "2025"
+      },
+      {
+        "candidates": 27,
+        "country": "KH",
+        "year": "2025"
+      },
+      {
+        "candidates": 23,
+        "country": "KI",
+        "year": "2025"
+      },
+      {
+        "candidates": 6,
+        "country": "KM",
+        "year": "2025"
+      },
+      {
+        "candidates": 3,
+        "country": "KN",
+        "year": "2025"
+      },
+      {
+        "candidates": 100,
+        "country": "KP",
+        "year": "2025"
+      },
+      {
+        "candidates": 1462,
+        "country": "KR",
+        "year": "2025"
+      },
+      {
+        "candidates": 29,
+        "country": "KW",
+        "year": "2025"
+      },
+      {
+        "candidates": 10,
+        "country": "KY",
+        "year": "2025"
+      },
+      {
+        "candidates": 196,
+        "country": "KZ",
+        "year": "2025"
+      },
+      {
+        "candidates": 26,
+        "country": "LA",
+        "year": "2025"
+      },
+      {
+        "candidates": 39,
+        "country": "LB",
+        "year": "2025"
+      },
+      {
+        "candidates": 2,
+        "country": "LC",
+        "year": "2025"
+      },
+      {
+        "candidates": 2,
+        "country": "LI",
+        "year": "2025"
+      },
+      {
+        "candidates": 39,
+        "country": "LK",
+        "year": "2025"
+      },
+      {
+        "candidates": 22,
+        "country": "LR",
+        "year": "2025"
+      },
+      {
+        "candidates": 36,
+        "country": "LS",
+        "year": "2025"
+      },
+      {
+        "candidates": 81,
+        "country": "LT",
+        "year": "2025"
+      },
+      {
+        "candidates": 15,
+        "country": "LU",
+        "year": "2025"
+      },
+      {
+        "candidates": 95,
+        "country": "LV",
+        "year": "2025"
+      },
+      {
+        "candidates": 89,
+        "country": "LY",
+        "year": "2025"
+      },
+      {
+        "candidates": 102,
+        "country": "MA",
+        "year": "2025"
+      },
+      {
+        "candidates": 3,
+        "country": "MC",
+        "year": "2025"
+      },
+      {
+        "candidates": 20,
+        "country": "MD",
+        "year": "2025"
+      },
+      {
+        "candidates": 10,
+        "country": "ME",
+        "year": "2025"
+      },
+      {
+        "candidates": 3,
+        "country": "MF",
+        "year": "2025"
+      },
+      {
+        "candidates": 102,
+        "country": "MG",
+        "year": "2025"
+      },
+      {
+        "candidates": 43,
+        "country": "MH",
+        "year": "2025"
+      },
+      {
+        "candidates": 47,
+        "country": "MK",
+        "year": "2025"
+      },
+      {
+        "candidates": 42,
+        "country": "ML",
+        "year": "2025"
+      },
+      {
+        "candidates": 89,
+        "country": "MM",
+        "year": "2025"
+      },
+      {
+        "candidates": 46,
+        "country": "MN",
+        "year": "2025"
+      },
+      {
+        "candidates": 5,
+        "country": "MO",
+        "year": "2025"
+      },
+      {
+        "candidates": 12,
+        "country": "MP",
+        "year": "2025"
+      },
+      {
+        "candidates": 4,
+        "country": "MQ",
+        "year": "2025"
+      },
+      {
+        "candidates": 38,
+        "country": "MR",
+        "year": "2025"
+      },
+      {
+        "candidates": 4,
+        "country": "MS",
+        "year": "2025"
+      },
+      {
+        "candidates": 9,
+        "country": "MT",
+        "year": "2025"
+      },
+      {
+        "candidates": 8,
+        "country": "MU",
+        "year": "2025"
+      },
+      {
+        "candidates": 32,
+        "country": "MV",
+        "year": "2025"
+      },
+      {
+        "candidates": 39,
+        "country": "MW",
+        "year": "2025"
+      },
+      {
+        "candidates": 2828,
+        "country": "MX",
+        "year": "2025"
+      },
+      {
+        "candidates": 154,
+        "country": "MY",
+        "year": "2025"
+      },
+      {
+        "candidates": 106,
+        "country": "MZ",
+        "year": "2025"
+      },
+      {
+        "candidates": 289,
+        "country": "NA",
+        "year": "2025"
+      },
+      {
+        "candidates": 60,
+        "country": "NC",
+        "year": "2025"
+      },
+      {
+        "candidates": 29,
+        "country": "NE",
+        "year": "2025"
+      },
+      {
+        "candidates": 1,
+        "country": "NF",
+        "year": "2025"
+      },
+      {
+        "candidates": 73,
+        "country": "NG",
+        "year": "2025"
+      },
+      {
+        "candidates": 54,
+        "country": "NI",
+        "year": "2025"
+      },
+      {
+        "candidates": 291,
+        "country": "NL",
+        "year": "2025"
+      },
+      {
+        "candidates": 352,
+        "country": "NO",
+        "year": "2025"
+      },
+      {
+        "candidates": 65,
+        "country": "NP",
+        "year": "2025"
+      },
+      {
+        "candidates": 1,
+        "country": "NR",
+        "year": "2025"
+      },
+      {
+        "candidates": 1,
+        "country": "NU",
+        "year": "2025"
+      },
+      {
+        "candidates": 313,
+        "country": "NZ",
+        "year": "2025"
+      },
+      {
+        "candidates": 66,
+        "country": "OM",
+        "year": "2025"
+      },
+      {
+        "candidates": 133,
+        "country": "PA",
+        "year": "2025"
+      },
+      {
+        "candidates": 258,
+        "country": "PE",
+        "year": "2025"
+      },
+      {
+        "candidates": 57,
+        "country": "PF",
+        "year": "2025"
+      },
+      {
+        "candidates": 1079,
+        "country": "PG",
+        "year": "2025"
+      },
+      {
+        "candidates": 981,
+        "country": "PH",
+        "year": "2025"
+      },
+      {
+        "candidates": 223,
+        "country": "PK",
+        "year": "2025"
+      },
+      {
+        "candidates": 460,
+        "country": "PL",
+        "year": "2025"
+      },
+      {
+        "candidates": 2,
+        "country": "PM",
+        "year": "2025"
+      },
+      {
+        "candidates": 84,
+        "country": "PR",
+        "year": "2025"
+      },
+      {
+        "candidates": 11,
+        "country": "PS",
+        "year": "2025"
+      },
+      {
+        "candidates": 248,
+        "country": "PT",
+        "year": "2025"
+      },
+      {
+        "candidates": 3,
+        "country": "PW",
+        "year": "2025"
+      },
+      {
+        "candidates": 125,
+        "country": "PY",
+        "year": "2025"
+      },
+      {
+        "candidates": 23,
+        "country": "QA",
+        "year": "2025"
+      },
+      {
+        "candidates": 11,
+        "country": "RE",
+        "year": "2025"
+      },
+      {
+        "candidates": 172,
+        "country": "RO",
+        "year": "2025"
+      },
+      {
+        "candidates": 71,
+        "country": "RS",
+        "year": "2025"
+      },
+      {
+        "candidates": 2013,
+        "country": "RU",
+        "year": "2025"
+      },
+      {
+        "candidates": 9,
+        "country": "RW",
+        "year": "2025"
+      },
+      {
+        "candidates": 179,
+        "country": "SA",
+        "year": "2025"
+      },
+      {
+        "candidates": 55,
+        "country": "SB",
+        "year": "2025"
+      },
+      {
+        "candidates": 22,
+        "country": "SC",
+        "year": "2025"
+      },
+      {
+        "candidates": 82,
+        "country": "SD",
+        "year": "2025"
+      },
+      {
+        "candidates": 318,
+        "country": "SE",
+        "year": "2025"
+      },
+      {
+        "candidates": 11,
+        "country": "SG",
+        "year": "2025"
+      },
+      {
+        "candidates": 4,
+        "country": "SH",
+        "year": "2025"
+      },
+      {
+        "candidates": 47,
+        "country": "SI",
+        "year": "2025"
+      },
+      {
+        "candidates": 146,
+        "country": "SK",
+        "year": "2025"
+      },
+      {
+        "candidates": 15,
+        "country": "SL",
+        "year": "2025"
+      },
+      {
+        "candidates": 4,
+        "country": "SM",
+        "year": "2025"
+      },
+      {
+        "candidates": 23,
+        "country": "SN",
+        "year": "2025"
+      },
+      {
+        "candidates": 47,
+        "country": "SO",
+        "year": "2025"
+      },
+      {
+        "candidates": 68,
+        "country": "SR",
+        "year": "2025"
+      },
+      {
+        "candidates": 196,
+        "country": "SS",
+        "year": "2025"
+      },
+      {
+        "candidates": 6,
+        "country": "ST",
+        "year": "2025"
+      },
+      {
+        "candidates": 31,
+        "country": "SV",
+        "year": "2025"
+      },
+      {
+        "candidates": 2,
+        "country": "SX",
+        "year": "2025"
+      },
+      {
+        "candidates": 62,
+        "country": "SY",
+        "year": "2025"
+      },
+      {
+        "candidates": 17,
+        "country": "SZ",
+        "year": "2025"
+      },
+      {
+        "candidates": 10,
+        "country": "TC",
+        "year": "2025"
+      },
+      {
+        "candidates": 47,
+        "country": "TD",
+        "year": "2025"
+      },
+      {
+        "candidates": 7,
+        "country": "TF",
+        "year": "2025"
+      },
+      {
+        "candidates": 7,
+        "country": "TG",
+        "year": "2025"
+      },
+      {
+        "candidates": 127,
+        "country": "TH",
+        "year": "2025"
+      },
+      {
+        "candidates": 21,
+        "country": "TJ",
+        "year": "2025"
+      },
+      {
+        "candidates": 14,
+        "country": "TL",
+        "year": "2025"
+      },
+      {
+        "candidates": 53,
+        "country": "TM",
+        "year": "2025"
+      },
+      {
+        "candidates": 25,
+        "country": "TN",
+        "year": "2025"
+      },
+      {
+        "candidates": 6,
+        "country": "TO",
+        "year": "2025"
+      },
+      {
+        "candidates": 425,
+        "country": "TR",
+        "year": "2025"
+      },
+      {
+        "candidates": 5,
+        "country": "TT",
+        "year": "2025"
+      },
+      {
+        "candidates": 3,
+        "country": "TV",
+        "year": "2025"
+      },
+      {
+        "candidates": 195,
+        "country": "TW",
+        "year": "2025"
+      },
+      {
+        "candidates": 215,
+        "country": "TZ",
+        "year": "2025"
+      },
+      {
+        "candidates": 315,
+        "country": "UA",
+        "year": "2025"
+      },
+      {
+        "candidates": 47,
+        "country": "UG",
+        "year": "2025"
+      },
+      {
+        "candidates": 14,
+        "country": "UM",
+        "year": "2025"
+      },
+      {
+        "candidates": 39469,
+        "country": "US",
+        "year": "2025"
+      },
+      {
+        "candidates": 70,
+        "country": "UY",
+        "year": "2025"
+      },
+      {
+        "candidates": 183,
+        "country": "UZ",
+        "year": "2025"
+      },
+      {
+        "candidates": 1,
+        "country": "VA",
+        "year": "2025"
+      },
+      {
+        "candidates": 9,
+        "country": "VC",
+        "year": "2025"
+      },
+      {
+        "candidates": 667,
+        "country": "VE",
+        "year": "2025"
+      },
+      {
+        "candidates": 9,
+        "country": "VG",
+        "year": "2025"
+      },
+      {
+        "candidates": 22,
+        "country": "VI",
+        "year": "2025"
+      },
+      {
+        "candidates": 165,
+        "country": "VN",
+        "year": "2025"
+      },
+      {
+        "candidates": 48,
+        "country": "VU",
+        "year": "2025"
+      },
+      {
+        "candidates": 2,
+        "country": "WF",
+        "year": "2025"
+      },
+      {
+        "candidates": 6,
+        "country": "WS",
+        "year": "2025"
+      },
+      {
+        "candidates": 33,
+        "country": "XK",
+        "year": "2025"
+      },
+      {
+        "candidates": 17,
+        "country": "XP",
+        "year": "2025"
+      },
+      {
+        "candidates": 58,
+        "country": "YE",
+        "year": "2025"
+      },
+      {
+        "candidates": 1,
+        "country": "YT",
+        "year": "2025"
+      },
+      {
+        "candidates": 702,
+        "country": "ZA",
+        "year": "2025"
+      },
+      {
+        "candidates": 131,
+        "country": "ZM",
+        "year": "2025"
+      },
+      {
+        "candidates": 168,
+        "country": "ZW",
+        "year": "2025"
+      },
+      {
+        "candidates": 1,
+        "country": "AD",
+        "year": "2026"
+      },
+      {
+        "candidates": 98,
+        "country": "AE",
+        "year": "2026"
+      },
+      {
+        "candidates": 23,
+        "country": "AF",
+        "year": "2026"
+      },
+      {
+        "candidates": 4,
+        "country": "AG",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "AI",
+        "year": "2026"
+      },
+      {
+        "candidates": 7,
+        "country": "AL",
+        "year": "2026"
+      },
+      {
+        "candidates": 4,
+        "country": "AM",
+        "year": "2026"
+      },
+      {
+        "candidates": 24,
+        "country": "AO",
+        "year": "2026"
+      },
+      {
+        "candidates": 11,
+        "country": "AQ",
+        "year": "2026"
+      },
+      {
+        "candidates": 101,
+        "country": "AR",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "AS",
+        "year": "2026"
+      },
+      {
+        "candidates": 143,
+        "country": "AT",
+        "year": "2026"
+      },
+      {
+        "candidates": 194,
+        "country": "AU",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "AW",
+        "year": "2026"
+      },
+      {
+        "candidates": 19,
+        "country": "AZ",
+        "year": "2026"
+      },
+      {
+        "candidates": 12,
+        "country": "BA",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "BB",
+        "year": "2026"
+      },
+      {
+        "candidates": 72,
+        "country": "BD",
+        "year": "2026"
+      },
+      {
+        "candidates": 45,
+        "country": "BE",
+        "year": "2026"
+      },
+      {
+        "candidates": 15,
+        "country": "BF",
+        "year": "2026"
+      },
+      {
+        "candidates": 45,
+        "country": "BG",
+        "year": "2026"
+      },
+      {
+        "candidates": 21,
+        "country": "BH",
+        "year": "2026"
+      },
+      {
+        "candidates": 3,
+        "country": "BI",
+        "year": "2026"
+      },
+      {
+        "candidates": 6,
+        "country": "BJ",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "BL",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "BM",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "BN",
+        "year": "2026"
+      },
+      {
+        "candidates": 20,
+        "country": "BO",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "BQ",
+        "year": "2026"
+      },
+      {
+        "candidates": 1882,
+        "country": "BR",
+        "year": "2026"
+      },
+      {
+        "candidates": 25,
+        "country": "BS",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "BT",
+        "year": "2026"
+      },
+      {
+        "candidates": 25,
+        "country": "BW",
+        "year": "2026"
+      },
+      {
+        "candidates": 11,
+        "country": "BY",
+        "year": "2026"
+      },
+      {
+        "candidates": 14,
+        "country": "BZ",
+        "year": "2026"
+      },
+      {
+        "candidates": 350,
+        "country": "CA",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "CC",
+        "year": "2026"
+      },
+      {
+        "candidates": 157,
+        "country": "CD",
+        "year": "2026"
+      },
+      {
+        "candidates": 11,
+        "country": "CF",
+        "year": "2026"
+      },
+      {
+        "candidates": 6,
+        "country": "CG",
+        "year": "2026"
+      },
+      {
+        "candidates": 18,
+        "country": "CH",
+        "year": "2026"
+      },
+      {
+        "candidates": 5,
+        "country": "CI",
+        "year": "2026"
+      },
+      {
+        "candidates": 7,
+        "country": "CK",
+        "year": "2026"
+      },
+      {
+        "candidates": 98,
+        "country": "CL",
+        "year": "2026"
+      },
+      {
+        "candidates": 14,
+        "country": "CM",
+        "year": "2026"
+      },
+      {
+        "candidates": 201,
+        "country": "CN",
+        "year": "2026"
+      },
+      {
+        "candidates": 64,
+        "country": "CO",
+        "year": "2026"
+      },
+      {
+        "candidates": 8,
+        "country": "CR",
+        "year": "2026"
+      },
+      {
+        "candidates": 7,
+        "country": "CU",
+        "year": "2026"
+      },
+      {
+        "candidates": 5,
+        "country": "CV",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "CX",
+        "year": "2026"
+      },
+      {
+        "candidates": 12,
+        "country": "CY",
+        "year": "2026"
+      },
+      {
+        "candidates": 192,
+        "country": "CZ",
+        "year": "2026"
+      },
+      {
+        "candidates": 280,
+        "country": "DE",
+        "year": "2026"
+      },
+      {
+        "candidates": 3,
+        "country": "DJ",
+        "year": "2026"
+      },
+      {
+        "candidates": 29,
+        "country": "DK",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "DM",
+        "year": "2026"
+      },
+      {
+        "candidates": 6,
+        "country": "DO",
+        "year": "2026"
+      },
+      {
+        "candidates": 36,
+        "country": "DZ",
+        "year": "2026"
+      },
+      {
+        "candidates": 36,
+        "country": "EC",
+        "year": "2026"
+      },
+      {
+        "candidates": 10,
+        "country": "EE",
+        "year": "2026"
+      },
+      {
+        "candidates": 42,
+        "country": "EG",
+        "year": "2026"
+      },
+      {
+        "candidates": 6,
+        "country": "EH",
+        "year": "2026"
+      },
+      {
+        "candidates": 15,
+        "country": "ER",
+        "year": "2026"
+      },
+      {
+        "candidates": 114,
+        "country": "ES",
+        "year": "2026"
+      },
+      {
+        "candidates": 16,
+        "country": "ET",
+        "year": "2026"
+      },
+      {
+        "candidates": 17,
+        "country": "FI",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "FJ",
+        "year": "2026"
+      },
+      {
+        "candidates": 6,
+        "country": "FK",
+        "year": "2026"
+      },
+      {
+        "candidates": 5,
+        "country": "FM",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "FO",
+        "year": "2026"
+      },
+      {
+        "candidates": 246,
+        "country": "FR",
+        "year": "2026"
+      },
+      {
+        "candidates": 8,
+        "country": "GA",
+        "year": "2026"
+      },
+      {
+        "candidates": 271,
+        "country": "GB",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "GD",
+        "year": "2026"
+      },
+      {
+        "candidates": 14,
+        "country": "GE",
+        "year": "2026"
+      },
+      {
+        "candidates": 3,
+        "country": "GF",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "GG",
+        "year": "2026"
+      },
+      {
+        "candidates": 5,
+        "country": "GH",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "GI",
+        "year": "2026"
+      },
+      {
+        "candidates": 29,
+        "country": "GL",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "GM",
+        "year": "2026"
+      },
+      {
+        "candidates": 8,
+        "country": "GN",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "GP",
+        "year": "2026"
+      },
+      {
+        "candidates": 8,
+        "country": "GQ",
+        "year": "2026"
+      },
+      {
+        "candidates": 41,
+        "country": "GR",
+        "year": "2026"
+      },
+      {
+        "candidates": 8,
+        "country": "GT",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "GU",
+        "year": "2026"
+      },
+      {
+        "candidates": 6,
+        "country": "GW",
+        "year": "2026"
+      },
+      {
+        "candidates": 31,
+        "country": "GY",
+        "year": "2026"
+      },
+      {
+        "candidates": 3,
+        "country": "HK",
+        "year": "2026"
+      },
+      {
+        "candidates": 8,
+        "country": "HN",
+        "year": "2026"
+      },
+      {
+        "candidates": 45,
+        "country": "HR",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "HT",
+        "year": "2026"
+      },
+      {
+        "candidates": 53,
+        "country": "HU",
+        "year": "2026"
+      },
+      {
+        "candidates": 355,
+        "country": "ID",
+        "year": "2026"
+      },
+      {
+        "candidates": 24,
+        "country": "IE",
+        "year": "2026"
+      },
+      {
+        "candidates": 15,
+        "country": "IL",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "IM",
+        "year": "2026"
+      },
+      {
+        "candidates": 127,
+        "country": "IN",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "IO",
+        "year": "2026"
+      },
+      {
+        "candidates": 25,
+        "country": "IQ",
+        "year": "2026"
+      },
+      {
+        "candidates": 112,
+        "country": "IR",
+        "year": "2026"
+      },
+      {
+        "candidates": 48,
+        "country": "IS",
+        "year": "2026"
+      },
+      {
+        "candidates": 380,
+        "country": "IT",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "JE",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "JM",
+        "year": "2026"
+      },
+      {
+        "candidates": 7,
+        "country": "JO",
+        "year": "2026"
+      },
+      {
+        "candidates": 49,
+        "country": "JP",
+        "year": "2026"
+      },
+      {
+        "candidates": 785,
+        "country": "KE",
+        "year": "2026"
+      },
+      {
+        "candidates": 30,
+        "country": "KG",
+        "year": "2026"
+      },
+      {
+        "candidates": 15,
+        "country": "KH",
+        "year": "2026"
+      },
+      {
+        "candidates": 4,
+        "country": "KI",
+        "year": "2026"
+      },
+      {
+        "candidates": 3,
+        "country": "KM",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "KN",
+        "year": "2026"
+      },
+      {
+        "candidates": 3,
+        "country": "KP",
+        "year": "2026"
+      },
+      {
+        "candidates": 116,
+        "country": "KR",
+        "year": "2026"
+      },
+      {
+        "candidates": 23,
+        "country": "KW",
+        "year": "2026"
+      },
+      {
+        "candidates": 90,
+        "country": "KZ",
+        "year": "2026"
+      },
+      {
+        "candidates": 7,
+        "country": "LA",
+        "year": "2026"
+      },
+      {
+        "candidates": 4,
+        "country": "LB",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "LI",
+        "year": "2026"
+      },
+      {
+        "candidates": 5,
+        "country": "LK",
+        "year": "2026"
+      },
+      {
+        "candidates": 3,
+        "country": "LR",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "LS",
+        "year": "2026"
+      },
+      {
+        "candidates": 37,
+        "country": "LT",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "LU",
+        "year": "2026"
+      },
+      {
+        "candidates": 35,
+        "country": "LV",
+        "year": "2026"
+      },
+      {
+        "candidates": 13,
+        "country": "LY",
+        "year": "2026"
+      },
+      {
+        "candidates": 21,
+        "country": "MA",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "MC",
+        "year": "2026"
+      },
+      {
+        "candidates": 7,
+        "country": "MD",
+        "year": "2026"
+      },
+      {
+        "candidates": 4,
+        "country": "ME",
+        "year": "2026"
+      },
+      {
+        "candidates": 14,
+        "country": "MG",
+        "year": "2026"
+      },
+      {
+        "candidates": 4,
+        "country": "MH",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "MK",
+        "year": "2026"
+      },
+      {
+        "candidates": 32,
+        "country": "ML",
+        "year": "2026"
+      },
+      {
+        "candidates": 5,
+        "country": "MM",
+        "year": "2026"
+      },
+      {
+        "candidates": 11,
+        "country": "MN",
+        "year": "2026"
+      },
+      {
+        "candidates": 13,
+        "country": "MP",
+        "year": "2026"
+      },
+      {
+        "candidates": 7,
+        "country": "MR",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "MS",
+        "year": "2026"
+      },
+      {
+        "candidates": 3,
+        "country": "MT",
+        "year": "2026"
+      },
+      {
+        "candidates": 3,
+        "country": "MU",
+        "year": "2026"
+      },
+      {
+        "candidates": 13,
+        "country": "MV",
+        "year": "2026"
+      },
+      {
+        "candidates": 13,
+        "country": "MW",
+        "year": "2026"
+      },
+      {
+        "candidates": 97,
+        "country": "MX",
+        "year": "2026"
+      },
+      {
+        "candidates": 11,
+        "country": "MY",
+        "year": "2026"
+      },
+      {
+        "candidates": 17,
+        "country": "MZ",
+        "year": "2026"
+      },
+      {
+        "candidates": 89,
+        "country": "NA",
+        "year": "2026"
+      },
+      {
+        "candidates": 7,
+        "country": "NC",
+        "year": "2026"
+      },
+      {
+        "candidates": 16,
+        "country": "NE",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "NF",
+        "year": "2026"
+      },
+      {
+        "candidates": 29,
+        "country": "NG",
+        "year": "2026"
+      },
+      {
+        "candidates": 3,
+        "country": "NI",
+        "year": "2026"
+      },
+      {
+        "candidates": 14,
+        "country": "NL",
+        "year": "2026"
+      },
+      {
+        "candidates": 40,
+        "country": "NO",
+        "year": "2026"
+      },
+      {
+        "candidates": 9,
+        "country": "NP",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "NR",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "NU",
+        "year": "2026"
+      },
+      {
+        "candidates": 99,
+        "country": "NZ",
+        "year": "2026"
+      },
+      {
+        "candidates": 7,
+        "country": "OM",
+        "year": "2026"
+      },
+      {
+        "candidates": 8,
+        "country": "PA",
+        "year": "2026"
+      },
+      {
+        "candidates": 16,
+        "country": "PE",
+        "year": "2026"
+      },
+      {
+        "candidates": 7,
+        "country": "PF",
+        "year": "2026"
+      },
+      {
+        "candidates": 44,
+        "country": "PG",
+        "year": "2026"
+      },
+      {
+        "candidates": 91,
+        "country": "PH",
+        "year": "2026"
+      },
+      {
+        "candidates": 33,
+        "country": "PK",
+        "year": "2026"
+      },
+      {
+        "candidates": 93,
+        "country": "PL",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "PM",
+        "year": "2026"
+      },
+      {
+        "candidates": 7,
+        "country": "PR",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "PS",
+        "year": "2026"
+      },
+      {
+        "candidates": 47,
+        "country": "PT",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "PW",
+        "year": "2026"
+      },
+      {
+        "candidates": 94,
+        "country": "PY",
+        "year": "2026"
+      },
+      {
+        "candidates": 4,
+        "country": "QA",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "RE",
+        "year": "2026"
+      },
+      {
+        "candidates": 109,
+        "country": "RO",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "RS",
+        "year": "2026"
+      },
+      {
+        "candidates": 572,
+        "country": "RU",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "RW",
+        "year": "2026"
+      },
+      {
+        "candidates": 80,
+        "country": "SA",
+        "year": "2026"
+      },
+      {
+        "candidates": 5,
+        "country": "SB",
+        "year": "2026"
+      },
+      {
+        "candidates": 11,
+        "country": "SC",
+        "year": "2026"
+      },
+      {
+        "candidates": 13,
+        "country": "SD",
+        "year": "2026"
+      },
+      {
+        "candidates": 105,
+        "country": "SE",
+        "year": "2026"
+      },
+      {
+        "candidates": 3,
+        "country": "SH",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "SI",
+        "year": "2026"
+      },
+      {
+        "candidates": 32,
+        "country": "SK",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "SM",
+        "year": "2026"
+      },
+      {
+        "candidates": 11,
+        "country": "SN",
+        "year": "2026"
+      },
+      {
+        "candidates": 10,
+        "country": "SO",
+        "year": "2026"
+      },
+      {
+        "candidates": 11,
+        "country": "SR",
+        "year": "2026"
+      },
+      {
+        "candidates": 18,
+        "country": "SS",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "ST",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "SV",
+        "year": "2026"
+      },
+      {
+        "candidates": 10,
+        "country": "SY",
+        "year": "2026"
+      },
+      {
+        "candidates": 14,
+        "country": "SZ",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "TC",
+        "year": "2026"
+      },
+      {
+        "candidates": 8,
+        "country": "TD",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "TF",
+        "year": "2026"
+      },
+      {
+        "candidates": 7,
+        "country": "TG",
+        "year": "2026"
+      },
+      {
+        "candidates": 56,
+        "country": "TH",
+        "year": "2026"
+      },
+      {
+        "candidates": 5,
+        "country": "TJ",
+        "year": "2026"
+      },
+      {
+        "candidates": 4,
+        "country": "TL",
+        "year": "2026"
+      },
+      {
+        "candidates": 22,
+        "country": "TM",
+        "year": "2026"
+      },
+      {
+        "candidates": 7,
+        "country": "TN",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "TO",
+        "year": "2026"
+      },
+      {
+        "candidates": 143,
+        "country": "TR",
+        "year": "2026"
+      },
+      {
+        "candidates": 3,
+        "country": "TT",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "TV",
+        "year": "2026"
+      },
+      {
+        "candidates": 21,
+        "country": "TW",
+        "year": "2026"
+      },
+      {
+        "candidates": 12,
+        "country": "TZ",
+        "year": "2026"
+      },
+      {
+        "candidates": 67,
+        "country": "UA",
+        "year": "2026"
+      },
+      {
+        "candidates": 8,
+        "country": "UG",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "UM",
+        "year": "2026"
+      },
+      {
+        "candidates": 2018,
+        "country": "US",
+        "year": "2026"
+      },
+      {
+        "candidates": 3,
+        "country": "UY",
+        "year": "2026"
+      },
+      {
+        "candidates": 78,
+        "country": "UZ",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "VC",
+        "year": "2026"
+      },
+      {
+        "candidates": 516,
+        "country": "VE",
+        "year": "2026"
+      },
+      {
+        "candidates": 4,
+        "country": "VG",
+        "year": "2026"
+      },
+      {
+        "candidates": 4,
+        "country": "VI",
+        "year": "2026"
+      },
+      {
+        "candidates": 24,
+        "country": "VN",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "VU",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "WF",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "WS",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "XK",
+        "year": "2026"
+      },
+      {
+        "candidates": 21,
+        "country": "YE",
+        "year": "2026"
+      },
+      {
+        "candidates": 1,
+        "country": "YT",
+        "year": "2026"
+      },
+      {
+        "candidates": 309,
+        "country": "ZA",
+        "year": "2026"
+      },
+      {
+        "candidates": 32,
+        "country": "ZM",
+        "year": "2026"
+      },
+      {
+        "candidates": 30,
+        "country": "ZW",
+        "year": "2026"
+      },
+      {
+        "candidates": 2,
+        "country": "ZZ",
+        "year": "2026"
+      }
+    ],
+    "byStatus": {
+      "pending_investigation": 520122
+    },
+    "byType": {
+      "baseline_closed_record": 1429,
+      "city_label_change": 10358,
+      "coordinate_revision": 219188,
+      "facility_type_change": 1927,
+      "gps_code_change": 11164,
+      "iata_change": 2218,
+      "icao_change": 85214,
+      "possible_closure": 5856,
+      "possible_rename": 13533,
+      "possible_reopening": 350,
+      "record_added": 47225,
+      "record_removed": 7162,
+      "record_revision": 151862
+    },
+    "candidates": 520122,
+    "rawCandidateObservations": 682713,
+    "repeatedObservationsGrouped": 162591
+  },
+  "history": {
+    "absentAtTarget": 6705,
+    "blockedComparisons": 0,
+    "columnsAcrossVersions": [
+      " continent",
+      "continent",
+      "coordinates",
+      "elevation_ft",
+      "gps_code",
+      "home_link",
+      "iata_code",
+      "icao_code",
+      "id",
+      "ident",
+      "iso_country",
+      "iso_region",
+      "keywords",
+      "latitude_deg",
+      "local_code",
+      "longitude_deg",
+      "municipality",
+      "name",
+      "scheduled_service",
+      "type",
+      "wikipedia_link"
+    ],
+    "entitiesEverObserved": 92991,
+    "fileChangingCommits": 418,
+    "from": "2015-02-25T11:46:23-06:00",
+    "mode": "all reachable main-ancestor file revisions; all merge-parent diffs; no annual sampling",
+    "parentDiffs": 418,
+    "parentDiffsByObservationYear": {
+      "2015": 3,
+      "2017": 6,
+      "2018": 4,
+      "2019": 4,
+      "2023": 2,
+      "2024": 86,
+      "2025": 88,
+      "2026": 225
+    },
+    "parsedFileVersions": 410,
+    "recordVersionsProcessed": 33944880,
+    "sourceFormattingRepairs": {},
+    "through": "2026-10-26T03:07:41Z",
+    "uniqueFileVersions": 410,
+    "unparsedFileVersions": 0
+  },
+  "path": "data/airport-codes.csv",
+  "revision": "0a775c03687f0b57175df2285592397c1099b9dc",
+  "sourceId": "airport-codes",
+  "target": {
+    "byCountry": {
+      "AD": 3,
+      "AE": 307,
+      "AF": 81,
+      "AG": 6,
+      "AI": 2,
+      "AL": 21,
+      "AM": 16,
+      "AO": 126,
+      "AQ": 42,
+      "AR": 1009,
+      "AS": 4,
+      "AT": 201,
+      "AU": 2795,
+      "AW": 4,
+      "AZ": 42,
+      "BA": 28,
+      "BB": 2,
+      "BD": 58,
+      "BE": 217,
+      "BF": 51,
+      "BG": 234,
+      "BH": 25,
+      "BI": 7,
+      "BJ": 10,
+      "BL": 1,
+      "BM": 4,
+      "BN": 16,
+      "BO": 206,
+      "BQ": 4,
+      "BR": 8113,
+      "BS": 78,
+      "BT": 12,
+      "BW": 144,
+      "BY": 73,
+      "BZ": 37,
+      "CA": 3369,
+      "CC": 1,
+      "CD": 307,
+      "CF": 49,
+      "CG": 57,
+      "CH": 133,
+      "CI": 32,
+      "CK": 12,
+      "CL": 544,
+      "CM": 47,
+      "CN": 785,
+      "CO": 738,
+      "CR": 144,
+      "CU": 156,
+      "CV": 11,
+      "CW": 1,
+      "CX": 1,
+      "CY": 95,
+      "CZ": 406,
+      "DE": 1435,
+      "DJ": 17,
+      "DK": 151,
+      "DM": 3,
+      "DO": 50,
+      "DZ": 116,
+      "EC": 361,
+      "EE": 62,
+      "EG": 144,
+      "EH": 30,
+      "ER": 21,
+      "ES": 588,
+      "ET": 70,
+      "FI": 125,
+      "FJ": 37,
+      "FK": 41,
+      "FM": 7,
+      "FO": 16,
+      "FR": 1788,
+      "GA": 47,
+      "GB": 1612,
+      "GD": 3,
+      "GE": 55,
+      "GF": 22,
+      "GG": 5,
+      "GH": 18,
+      "GI": 1,
+      "GL": 91,
+      "GM": 1,
+      "GN": 19,
+      "GP": 10,
+      "GQ": 8,
+      "GR": 169,
+      "GS": 1,
+      "GT": 73,
+      "GU": 7,
+      "GW": 10,
+      "GY": 61,
+      "HK": 152,
+      "HM": 2,
+      "HN": 160,
+      "HR": 83,
+      "HT": 22,
+      "HU": 142,
+      "ID": 731,
+      "IE": 137,
+      "IL": 58,
+      "IM": 7,
+      "IN": 657,
+      "IO": 1,
+      "IQ": 95,
+      "IR": 352,
+      "IS": 95,
+      "IT": 1158,
+      "JE": 2,
+      "JM": 27,
+      "JO": 24,
+      "JP": 3747,
+      "KE": 370,
+      "KG": 61,
+      "KH": 21,
+      "KI": 23,
+      "KM": 4,
+      "KN": 3,
+      "KP": 94,
+      "KR": 1427,
+      "KW": 46,
+      "KY": 10,
+      "KZ": 215,
+      "LA": 28,
+      "LB": 39,
+      "LC": 2,
+      "LI": 2,
+      "LK": 38,
+      "LR": 20,
+      "LS": 34,
+      "LT": 77,
+      "LU": 15,
+      "LV": 92,
+      "LY": 81,
+      "MA": 45,
+      "MC": 3,
+      "MD": 15,
+      "ME": 9,
+      "MF": 2,
+      "MG": 94,
+      "MH": 36,
+      "MK": 34,
+      "ML": 40,
+      "MM": 83,
+      "MN": 42,
+      "MO": 5,
+      "MP": 14,
+      "MQ": 4,
+      "MR": 34,
+      "MS": 2,
+      "MT": 9,
+      "MU": 8,
+      "MV": 31,
+      "MW": 31,
+      "MX": 2695,
+      "MY": 134,
+      "MZ": 105,
+      "NA": 303,
+      "NC": 27,
+      "NE": 28,
+      "NF": 1,
+      "NG": 69,
+      "NI": 44,
+      "NL": 275,
+      "NO": 305,
+      "NP": 65,
+      "NR": 1,
+      "NU": 1,
+      "NZ": 335,
+      "OM": 62,
+      "PA": 91,
+      "PE": 209,
+      "PF": 59,
+      "PG": 652,
+      "PH": 856,
+      "PK": 195,
+      "PL": 402,
+      "PM": 3,
+      "PR": 73,
+      "PS": 7,
+      "PT": 238,
+      "PW": 3,
+      "PY": 133,
+      "QA": 23,
+      "RE": 11,
+      "RO": 215,
+      "RS": 65,
+      "RU": 1841,
+      "RW": 9,
+      "SA": 193,
+      "SB": 41,
+      "SC": 24,
+      "SD": 58,
+      "SE": 283,
+      "SG": 11,
+      "SH": 4,
+      "SI": 47,
+      "SK": 129,
+      "SL": 12,
+      "SM": 2,
+      "SN": 25,
+      "SO": 45,
+      "SR": 57,
+      "SS": 103,
+      "ST": 4,
+      "SV": 29,
+      "SX": 1,
+      "SY": 60,
+      "SZ": 17,
+      "TC": 9,
+      "TD": 49,
+      "TF": 7,
+      "TG": 7,
+      "TH": 135,
+      "TJ": 21,
+      "TL": 14,
+      "TM": 59,
+      "TN": 25,
+      "TO": 6,
+      "TR": 444,
+      "TT": 3,
+      "TV": 3,
+      "TW": 125,
+      "TZ": 211,
+      "UA": 298,
+      "UG": 42,
+      "UM": 9,
+      "US": 32696,
+      "UY": 70,
+      "UZ": 195,
+      "VA": 1,
+      "VC": 6,
+      "VE": 899,
+      "VG": 8,
+      "VI": 11,
+      "VN": 98,
+      "VU": 36,
+      "WF": 2,
+      "WS": 5,
+      "XK": 25,
+      "XP": 9,
+      "YE": 50,
+      "YT": 1,
+      "ZA": 689,
+      "ZM": 132,
+      "ZW": 167,
+      "ZZ": 2
+    },
+    "byType": {
+      "balloonport": 63,
+      "closed": 13585,
+      "heliport": 23260,
+      "large_airport": 1175,
+      "medium_airport": 4105,
+      "seaplane_base": 1273,
+      "small_airport": 42825
+    },
+    "closed": 13585,
+    "columns": [
+      "continent",
+      "coordinates",
+      "elevation_ft",
+      "gps_code",
+      "iata_code",
+      "icao_code",
+      "ident",
+      "iso_country",
+      "iso_region",
+      "local_code",
+      "municipality",
+      "name",
+      "type"
+    ],
+    "gpsCodeNonempty": 44500,
+    "iataNonempty": 9052,
+    "icaoFieldNonempty": 10616,
+    "icaoFourLetters": 10616,
+    "neitherIataNorExplicitIcao": 74438,
+    "noIataIcaoOrGps": 41206,
+    "records": 86286,
+    "scheduledService": 0
+  }
+}

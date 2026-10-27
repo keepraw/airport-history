@@ -12,8 +12,10 @@ two ICAO VHHH assignments and two official-name intervals for Astana, with
 twenty-nine evidence sources. The original
 TAO, IST, HKG and DEN examples are joined by five reviewed ISL, ISB, SXF/BER,
 TSE/NQZ and KIV/RMO events. This is a curated history layer,
-not a replacement for a worldwide current-airport directory. No server, database,
-UI, global crawler or Keepraw-Fly integration is included. This is not a
+not a replacement for a worldwide current-airport directory. A separate
+[global discovery research layer](research/discovery/README.md) scans pinned
+source histories and tracks coverage and unverified candidates. No server,
+UI or Keepraw-Fly integration is included. This is not a
 navigation or operational flight-planning dataset.
 
 ## Run
@@ -323,9 +325,10 @@ Next priorities: archive more primary allocation/AIP evidence (especially DEN
 and HKG), establish earlier first-assignment bounds, verify historical airport
 reference points and names, add carefully sourced ICAO transfers, and design
 instant-level disambiguation only when there is supporting evidence. Cross-version
-ID retirement/alias review should precede larger contributions. No automatic
-current-data fallback, global import system or main-project integration is planned
-in this bootstrap.
+ID retirement/alias review should precede larger contributions. The separate
+[global discovery workflow](research/discovery/README.md) now produces a worldwide
+verification queue; candidate counts do not limit future coverage. No automatic
+current-data fallback or main-project integration is included.
 
 ## License
 

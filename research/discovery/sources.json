@@ -1,0 +1,97 @@
+{
+  "formatVersion": 1,
+  "accessedOn": "2026-10-27",
+  "sources": [
+    {
+      "id": "ourairports",
+      "url": "https://github.com/davidmegginson/ourairports-data",
+      "localRepository": "work/ourairports.git",
+      "revision": "d97df1673cc5ba61a09b17ab5936091a669a04ca",
+      "path": "airports.csv",
+      "key": "id",
+      "license": "Public-Domain"
+    },
+    {
+      "id": "airport-codes",
+      "url": "https://github.com/datasets/airport-codes",
+      "localRepository": "work/airport-codes.git",
+      "revision": "0a775c03687f0b57175df2285592397c1099b9dc",
+      "path": "data/airport-codes.csv",
+      "key": "ident",
+      "license": "ODC-PDDL-1.0"
+    },
+    {
+      "id": "airport-codes-raw",
+      "url": "https://github.com/datasets/airport-codes",
+      "localRepository": "work/airport-codes.git",
+      "revision": "0a775c03687f0b57175df2285592397c1099b9dc",
+      "path": "archive/data.csv",
+      "key": "id",
+      "license": "ODC-PDDL-1.0"
+    },
+    {
+      "id": "airport-codes-initial",
+      "url": "https://github.com/datasets/airport-codes",
+      "localRepository": "work/airport-codes.git",
+      "revision": "0a775c03687f0b57175df2285592397c1099b9dc",
+      "path": "airports.csv",
+      "key": "@legacy",
+      "license": "ODC-PDDL-1.0"
+    },
+    {
+      "id": "airport-codes-legacy",
+      "url": "https://github.com/datasets/airport-codes",
+      "localRepository": "work/airport-codes.git",
+      "revision": "0a775c03687f0b57175df2285592397c1099b9dc",
+      "path": "data/airports-codes.csv",
+      "key": "@legacy",
+      "license": "ODC-PDDL-1.0"
+    },
+    {
+      "id": "airportsdata",
+      "url": "https://github.com/mborsetti/airportsdata",
+      "localRepository": "work/airportsdata.git",
+      "revision": "47ae282a8491758e6dafe28d4139539e561b54d5",
+      "path": "airportsdata/airports.csv",
+      "key": "icao",
+      "license": "MIT",
+      "csvRepairs": [
+        {
+          "id": "eddb-unquoted-linebreak-before-timezone",
+          "from": ",13.500667,\n\"Europe/Berlin\"",
+          "to": ",13.500667,\"Europe/Berlin\"",
+          "meaning": "Join the malformed EDDB record continuation. Preserve raw Git blobs; this adapter repairs formatting only, not a historical field value."
+        }
+      ]
+    },
+    {
+      "id": "airportsdata-city-codes",
+      "url": "https://github.com/mborsetti/airportsdata",
+      "localRepository": "work/airportsdata.git",
+      "revision": "47ae282a8491758e6dafe28d4139539e561b54d5",
+      "path": "airportsdata/iata_macs.csv",
+      "key": "City Code+Airport Code",
+      "license": "MIT"
+    },
+    {
+      "id": "mwgg",
+      "url": "https://github.com/mwgg/Airports",
+      "localRepository": "work/mwgg.git",
+      "revision": "a89e4e0dda9d9878337e2da190ebe1ef1d6af705",
+      "path": "airports.json",
+      "key": "icao",
+      "license": "MIT",
+      "format": "json",
+      "allowParseGaps": true,
+      "jsonRepairs": [
+        {
+          "id": "empty-elevation-token-as-missing",
+          "from": "\"elevation\": ,",
+          "to": "\"elevation\": null,",
+          "occurrences": 1401,
+          "meaning": "Only one inspected malformed blob has 1401 empty elevation tokens. Interpret as missing; raw blob retained and no elevation value invented."
+        }
+      ]
+    }
+  ]
+}

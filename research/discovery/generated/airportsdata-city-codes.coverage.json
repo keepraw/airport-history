@@ -1,0 +1,91 @@
+{
+  "discovery": {
+    "byContinent": {},
+    "byCountry": {},
+    "byObservationYear": {},
+    "byObservationYearAndCountry": [],
+    "byStatus": {},
+    "byType": {},
+    "candidates": 0,
+    "rawCandidateObservations": 0,
+    "repeatedObservationsGrouped": 0
+  },
+  "history": {
+    "absentAtTarget": 0,
+    "blockedComparisons": 0,
+    "columnsAcrossVersions": [
+      "Airport Code",
+      "Airport Name",
+      "City Code",
+      "City Name",
+      "Country"
+    ],
+    "entitiesEverObserved": 89,
+    "fileChangingCommits": 1,
+    "from": "2023-05-24T12:28:29+08:00",
+    "mode": "all reachable main-ancestor file revisions; all merge-parent diffs; no annual sampling",
+    "parentDiffs": 1,
+    "parentDiffsByObservationYear": {
+      "2023": 1
+    },
+    "parsedFileVersions": 1,
+    "recordVersionsProcessed": 89,
+    "sourceFormattingRepairs": {},
+    "through": "2023-05-24T12:28:29+08:00",
+    "uniqueFileVersions": 1,
+    "unparsedFileVersions": 0
+  },
+  "path": "airportsdata/iata_macs.csv",
+  "revision": "47ae282a8491758e6dafe28d4139539e561b54d5",
+  "sourceId": "airportsdata-city-codes",
+  "target": {
+    "byCountry": {
+      "AE": 2,
+      "AR": 2,
+      "AU": 2,
+      "BE": 2,
+      "BR": 7,
+      "CA": 2,
+      "CN": 4,
+      "ES": 2,
+      "FR": 2,
+      "GB": 7,
+      "ID": 4,
+      "IR": 2,
+      "IS": 2,
+      "IT": 5,
+      "JP": 9,
+      "KR": 2,
+      "NO": 2,
+      "RU": 3,
+      "SE": 2,
+      "SL": 2,
+      "SN": 2,
+      "TH": 2,
+      "TR": 5,
+      "TW": 2,
+      "UA": 2,
+      "US": 10,
+      "ZA": 1
+    },
+    "byType": {
+      "not_supplied": 89
+    },
+    "closed": 0,
+    "columns": [
+      "Airport Code",
+      "Airport Name",
+      "City Code",
+      "City Name",
+      "Country"
+    ],
+    "gpsCodeNonempty": 0,
+    "iataNonempty": 89,
+    "icaoFieldNonempty": 0,
+    "icaoFourLetters": 0,
+    "neitherIataNorExplicitIcao": 0,
+    "noIataIcaoOrGps": 0,
+    "records": 89,
+    "scheduledService": 0
+  }
+}

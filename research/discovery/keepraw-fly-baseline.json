@@ -1,0 +1,19 @@
+{
+  "repository": "https://github.com/keepraw/Keepraw-Fly",
+  "revision": "0407d77de1a7260256c0209a8f743e5e6a6d68f9",
+  "path": "packages/core/data/airports.iata.json",
+  "inputPath": "work/keepraw-fly-input/airports.iata.json",
+  "sha256": "b99c1cff36c309113be27e606e43e19f107cd86e2072d269c41fc7a0e0cb2839",
+  "airportCount": 7884,
+  "upstreamMetadata": {
+    "source": "https://github.com/mborsetti/airportsdata",
+    "revision": "d306f66b5c33617e0bc13d413fea07292a5d9211",
+    "csv": "https://raw.githubusercontent.com/mborsetti/airportsdata/d306f66b5c33617e0bc13d413fea07292a5d9211/airportsdata/airports.csv",
+    "cityGroupsCsv": "https://raw.githubusercontent.com/mborsetti/airportsdata/d306f66b5c33617e0bc13d413fea07292a5d9211/airportsdata/iata_macs.csv",
+    "license": "MIT",
+    "generatedAt": "2026-09-02T01:03:39.583Z",
+    "airportCount": 7884,
+    "cityGroupCount": 40
+  },
+  "accessedOn": "2026-10-27"
+}
