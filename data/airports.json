@@ -1,6 +1,6 @@
 {
-  "schemaVersion": "2.0.0",
-  "dataVersion": "0.3.0",
+  "schemaVersion": "3.0.0",
+  "dataVersion": "0.4.0",
   "sources": [
     {
       "sourceId": "ourairports-20261025",
@@ -365,6 +365,48 @@
         "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
       },
       "note": "Contemporaneous 2024-01-18 report says the airport now uses RMO rather than KIV and old-code tickets remain usable. Corroborates actual implementation and predecessor code retirement at this site. No exact change time, global KIV reuse survey or complete allocation ledger is established."
+    },
+    {
+      "sourceId": "astana-name-original-2017",
+      "title": "Kazakhstan Government Resolution No. 381: original airport renaming text (2017)",
+      "url": "https://kazpravda.kz/uploads/redactors/files/5949db169808b1498012438.pdf",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Original official newspaper reproduction, second resolution on page 1. Adopted 2017-06-20; renames the airport itself from Международный аэропорт Астана to Международный аэропорт Нурсултан Назарбаев. Clause 2 makes first official publication the effective day. This original text avoids conflating the later 2020 corporate-name amendment with a second airport rename. No exact local-midnight instant is stated."
+    },
+    {
+      "sourceId": "astana-name-publication",
+      "title": "Adilet official publication metadata for Resolution No. 381",
+      "url": "https://old.adilet.zan.kz/rus/docs/P1700000381/info",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Official metadata lists first newspaper publication on 2017-06-21: Kazakhstanskaya Pravda No. 117 (28496) and Egemen Qazaqstan No. 117 (29098). Combined with original clause 2, this establishes June 21 as the effective day, not the June 20 adoption date. The July 20 printing of the collected acts is later, not first publication. The consolidated text was amended on 2020-07-10 for the joint-stock company; not evidence of a new airport name."
+    },
+    {
+      "sourceId": "astana-name-observation-2006",
+      "title": "Kazakhstan Government Resolution No. 1095: Astana airport development plan",
+      "url": "https://old.adilet.zan.kz/rus/docs/P060001095_",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Dated 2006-11-20, the airport development plan repeatedly identifies Международный аэропорт Астана and its existing airfield infrastructure. This is an earlier name observation, not an original naming decision. The latest-start bound is the following civil day; no founding, city-renaming or corporate incorporation date is substituted for the unknown airport-name start."
     }
   ],
   "airports": [
@@ -1299,6 +1341,62 @@
         "ourairports-batch1-20261025"
       ],
       "note": "Same physical Chisinau airport. Secondary announcement and implementation reports support January 18, without an allocation instant. Old tickets retaining KIV do not establish a continuing airport assignment; no other KIV reuse is asserted. Date-only change-day queries remain uncertain. The open end does not guarantee validity on or after 2026-10-25. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    }
+  ],
+  "names": [
+    {
+      "nameId": "name-astana-before-2017",
+      "airportId": "apt_99f19660-7609-49c5-b221-ed4a37046566",
+      "language": "ru",
+      "kind": "official",
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "name": "Международный аэропорт Астана",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2006-11-21",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2017-06-21",
+        "latest": "2017-06-22",
+        "precision": "day"
+      },
+      "sourceIds": [
+        "astana-name-observation-2006",
+        "astana-name-original-2017",
+        "astana-name-publication"
+      ],
+      "note": "Canonical Russian official airport name in the original 2017 decision. Continuity from the 2006 observation to the renaming is a reviewed inference. Original naming date remains unknown; dates before 2006-11-21 are uncertain. June 21 is the first-publication effective day; whole-day resolution remains conservative because no midnight instant is established. City renames and IATA code changes do not create name intervals."
+    },
+    {
+      "nameId": "name-astana-nazarbayev-2017",
+      "airportId": "apt_99f19660-7609-49c5-b221-ed4a37046566",
+      "language": "ru",
+      "kind": "official",
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "name": "Международный аэропорт Нурсултан Назарбаев",
+      "validFrom": {
+        "earliest": "2017-06-21",
+        "latest": "2017-06-22",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "sourceIds": [
+        "astana-name-original-2017",
+        "astana-name-publication",
+        "nqz-code-change",
+        "nqz-implementation",
+        "ourairports-batch1-20261025"
+      ],
+      "note": "Canonical Russian official airport name from the original renaming, with later aviation-administration use and the fixed current-directory label corroborating continuation. The whole interval is a reviewed continuity inference, not direct evidence for every day. Known effective day is 2017-06-21, not signing day 2017-06-20 or the 2020 IATA code change. The 2020 corporate wording amendment, city renames and English translations are not additional airport renames. On or after the fixed 2026-10-25 evidence horizon the result is uncertain."
     }
   ]
 }

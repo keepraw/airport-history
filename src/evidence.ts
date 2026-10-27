@@ -2,10 +2,13 @@ import type { CodeAssignment, Source } from "./types.ts";
 
 /** Shared review gate for resolution and confirmed-conflict detection.
  * Evidence type describes provenance; it does not replace review or rank winners.
- * Source content must still be reviewed for the actual code-assignment claim.
+ * Source content must still be reviewed for the actual historical claim.
  */
 export function hasReviewedEvidence(
-  assignment: CodeAssignment,
+  assignment: Pick<
+    CodeAssignment,
+    "verificationStatus" | "verifiedOn" | "sourceIds" | "evidenceType"
+  >,
   sources: ReadonlyMap<string, Source>,
 ): boolean {
   const verifiedOn = assignment.verifiedOn;
@@ -24,6 +27,8 @@ export function hasReviewedEvidence(
       );
     }) &&
     (assignment.evidenceType !== "primary_direct" ||
-      assignment.sourceIds.some((id) => sources.get(id)?.sourceType === "primary"))
+      assignment.sourceIds.some(
+        (id) => sources.get(id)?.sourceType === "primary",
+      ))
   );
 }

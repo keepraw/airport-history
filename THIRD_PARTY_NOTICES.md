@@ -11,6 +11,7 @@ This dedication does not change third-party licenses or confer rights in marks.
 | Wikidata structured statements, Q673202 / Q1436575 | [CC0 1.0](https://www.wikidata.org/wiki/Wikidata:Licensing) | Historic code associations and day-level end qualifiers; secondary evidence |
 | IANA tzdb 2025b `zone1970.tab` | [Public domain](https://data.iana.org/time-zones/tzdb-2025b/LICENSE) | Eight geographical zone identifiers (four bootstrap, four batch 1); no code or offset tables copied |
 | Government reports, airline/airport notices, news articles, Aviation Safety Network, TRB, Helis and Fluko | Each publisher retains its applicable rights; see per-source license records | Links and independently written factual notes only; no source article, PDF, table, image or lengthy extract distributed. Batch 1 includes airport-authored material hosted on Routes and public broadcaster reports classified as secondary |
+| Kazakhstan Government Resolutions Nos. 1095 (2006) and 381 (2017), including the original newspaper reproduction and Adilet publication metadata | No open redistribution license established; `LicenseRef-Reference-Only` | Official-name facts and independently written evidence notes with links; no document, newspaper page or PDF redistributed. The new name intervals are reviewed continuity inferences; current reference labels do not prove earlier use |
 
 `LicenseRef-Reference-Only` means no open redistribution license was established.
 It is not a permission grant. Source access/review status is separate from its
@@ -20,6 +21,6 @@ identification. If importing further third-party data, verify its actual terms
 and preserve attribution/license notices before including it.
 
 The JSON source registry carries URLs, access dates, review status and license
-scope. Every airport attribute and code assignment references that registry.
+scope. Every airport attribute, code assignment and name record references that registry.
 No bulk worldwide airport snapshot is shipped. Runtime resolution never downloads
 or substitutes a current directory for historical evidence.

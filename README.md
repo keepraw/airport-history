@@ -1,14 +1,15 @@
 # airport-history
 
-Historical airport identities, locations, and code assignments.
+Historical airport identities, locations, code assignments, and official names.
 
 A small, offline TypeScript resolver and versioned reference dataset for
 [Keepraw-Fly](https://github.com/keepraw/Keepraw-Fly). The same airport code can
 identify different physical sites over time. This repository preserves those
 sites and the evidence behind their code assignments.
 
-**Curated scope (0.3.0):** thirteen physical airports, eighteen IATA assignments
-and two ICAO VHHH assignments, with twenty-six evidence sources. The original
+**Curated scope (0.4.0):** thirteen physical airports, eighteen IATA assignments,
+two ICAO VHHH assignments and two official-name intervals for Astana, with
+twenty-nine evidence sources. The original
 TAO, IST, HKG and DEN examples are joined by five reviewed ISL, ISB, SXF/BER,
 TSE/NQZ and KIV/RMO events. This is a curated history layer,
 not a replacement for a worldwide current-airport directory. No server, database,
@@ -33,7 +34,7 @@ Initial dependency installation needs network access. All subsequent checks,
 tests, builds and resolution run offline. `pnpm build` writes:
 
 ```text
-dist/v0.3.0/
+dist/v0.4.0/
 ├── airport-history.json
 ├── dataset.schema.json
 ├── manifest.json             # SHA-256 hashes of the five other files
@@ -87,6 +88,46 @@ code-transfer pairs are in the same respective local date systems; cross-timezon
 code reuse needs an explicit future policy. ICAO is a separate namespace:
 `resolveAirport(data, "VHHH", "1997-06-01", "ICAO")` returns Kai Tak.
 
+## Resolve a historical name
+
+```ts
+import { resolveAirportName } from "./src/index.ts";
+const astanaId = "apt_99f19660-7609-49c5-b221-ed4a37046566";
+resolveAirportName(data, astanaId, "2015-06-01"); // resolved: Международный аэропорт Астана
+resolveAirportName(data, astanaId, "2017-06-21"); // uncertain: effective day
+resolveAirportName(data, astanaId, "2024-06-01"); // resolved: Международный аэропорт Нурсултан Назарбаев
+```
+
+`resolveAirportName(dataset, airportId, localDate)` is a separate pure, offline API.
+It never changes code resolution, physical identity, coordinates, or the static
+`PhysicalAirport.name` reference label. Its result includes `name`, `language`,
+`historicallyVerified`, the unchanged `airport`, candidates, evidence and a reason.
+
+| Name status | Meaning |
+| --- | --- |
+| `resolved` | A reviewed canonical official name covers the whole date; `historicallyVerified: true` |
+| `uncertain` | A possible official-name claim exists, but boundaries, review or evidence coverage prevent selection; `name: null` |
+| `conflict` | Different reviewed canonical official names certainly overlap on this date; `name: null` |
+| `reference` | No official-name interval can apply; `name` is the static label and **is not historically verified for this date** |
+| `not_found` | The permanent airport ID is absent |
+| `invalid_input` | Empty ID or invalid Gregorian date |
+
+Every `names[]` record has a stable `nameId`, `airportId`, text, canonical language
+tag, `kind`, the existing time boundaries, sources, evidence type and review fields.
+Only `kind: "official"` participates in resolution. Historical aliases and
+translations have separate `alias` / `translation` kinds; neither establishes an
+official rename. City names belong outside this collection. This API selects one
+canonical source-language official name per period; it does not negotiate display
+languages, translate text, or rank parallel official spellings. The seed uses the
+Russian original. Competing canonical records require review, not automatic ranking.
+
+All time and evidence rules below apply to names as well as code assignments.
+Even a static name marked `verified` cannot become a verified historical fallback.
+Unknown original naming dates and dates beyond the checked evidence horizon stay
+uncertain. No contemporary label is copied backward into a historical interval.
+See the [Astana name evidence review](docs/historical-names.md) for source scope,
+the distinction between signing and publication, and the later corporate amendment.
+
 ## Identity and time model
 
 - `airportId` is an opaque `apt_<UUIDv4>`, assigned once and never reused. Keep
@@ -120,10 +161,11 @@ continuity horizon. Later queries are uncertain rather than silently extrapolate
 `verified` records are reviewed historical conclusions, including explicitly
 recorded continuity inferences between observations and the documented transfer.
 They are not an official IATA/ICAO allocation ledger or proof of every intervening
-day. `pending`/`disputed` records cannot yield a resolved result. All seeded
+day. `pending`/`disputed` records cannot yield a resolved result. All seeded static
 names, coordinates and timezone mappings remain `reference` attributes; resolving
 a code does not upgrade them into verified historical names or surveyed positions.
-The display name is a canonical label, not a historical-name timeline. IANA zone
+The static display name is a canonical reference label; `names[]` holds the
+independently reviewed historical-name timeline. IANA zone
 IDs are not fixed offsets; consumers must use timezone rules for a flight instant.
 
 ## Evidence provenance and conflicts
@@ -134,6 +176,7 @@ Review status, evidence provenance and temporal precision are separate fields:
 | --- | --- |
 | `Source.sourceType` | `primary`: first-party publication or original institutional record for its own subject; `secondary`: reporting or compilation of other records |
 | `CodeAssignment.evidenceType` | `primary_direct`: a first-hand record explicitly supports the asserted code assignment; `indirect`: secondary or indirect corroboration; `continuity_inference`: a continuous assignment inferred between dated observations |
+| `AirportName.evidenceType` | The same categories, applied to the entire name interval rather than to code allocation |
 
 `evidenceType` describes the **whole continuous assignment**. When continuity
 between observations is inferred, use `continuity_inference` even if a boundary
@@ -167,22 +210,24 @@ unique answer and returns `uncertain`. If a reviewed pair also certainly conflic
 on that date, `conflict` takes precedence and includes the other candidates.
 Nonoverlapping historical reuse is accepted normally.
 
-## Format compatibility: 0.2.0
+## Format compatibility: 0.4.0
 
-The resolver signature, result statuses, physical identities, coordinates,
-timezones and historical boundaries are unchanged. Two required fields were added:
-`Source.sourceType` and `CodeAssignment.evidenceType`. Strict schema 1 consumers
-reject these additions, so `schemaVersion` is now **2.0.0**. The pre-1.0 package,
-`dataVersion` and static output directory advance together to **0.2.0**; the
-manifest carries both versions. The build still produces offline static JSON,
-the schema, all existing license files and SHA-256 checksums deterministically.
+The required top-level `names` array is new. Strict schema 2 consumers reject it,
+so `schemaVersion` advances from **2.0.0 to 3.0.0**. Package and `dataVersion`
+advance from **0.3.0 to 0.4.0**, and the output directory is `dist/v0.4.0/`.
+The manifest carries both versions. The static `PhysicalAirport.name` field and
+all thirteen physical airport records, twenty code assignments and twenty-six
+existing source records are unchanged. `resolveAirport` retains its signature,
+result shape, evidence and historical behavior.
 
-Schema 2 validation rejects schema 1 input. To migrate external data, classify
-each publication and the actual assignment evidence before setting the new
-version; do not default old verified records to direct evidence. Consumers must
-update their types/schema and artifact path. Existing callers using this checkout's
-dataset keep the same API and historical results; no runtime migration, publication
-or formal Release is performed.
+Schema 3 rejects schema 2 input. To migrate an external schema 2 dataset, update
+its schema version and add `names: []` until name evidence has been reviewed.
+Do not generate historical names from static labels or city/code changes. An empty
+timeline yields explicitly unverified reference-name results. Consumers must update
+their schema/types and artifact path; no runtime migration is performed. Preserve
+the existing provenance fields introduced by schema 2 (`Source.sourceType` and
+`CodeAssignment.evidenceType`). The build remains deterministic and offline and
+ships the existing license files and SHA-256 checksums.
 
 ## First cases and evidence
 
@@ -191,7 +236,8 @@ access dates, review status and claim notes are in `data/airports.json`.
 The [evidence notes](docs/evidence.md) explain the historical and licensing limits.
 The [batch-1 review](docs/batch-1-evidence.md) and
 [candidate register](docs/batch-1-candidates.md) document new cases, uncertainty
-and deferred leads.
+and deferred leads. The [historical-name review](docs/historical-names.md) documents
+the two Astana name intervals added in 0.4.0.
 
 | Code | Physical change | Supported boundary | Date-only behavior |
 | --- | --- | --- | --- |
@@ -205,11 +251,11 @@ and deferred leads.
 | TSE → NQZ | Same Astana airfield | 2020-06-08, day precision | One identity; change day uncertain; TSE unavailable afterward |
 | KIV → RMO | Same Chișinău airfield | 2024-01-18, day precision | One identity; secondary code evidence; KIV unavailable afterward |
 
-The validator intentionally reports six possible-overlap warnings (IST, HKG,
-VHHH, DEN, ISL and ISB). They express unresolved boundary-day or boundary-month
-attribution, not definite data conflicts. No historic code start was inferred
-from an airport opening date. Version 0.3.0 adds data and regression coverage;
-Schema 2.0.0, resolver behavior and all bootstrap records remain unchanged.
+The validator intentionally reports six code-overlap warnings (IST, HKG,
+VHHH, DEN, ISL and ISB) plus one Astana official-name boundary warning. These
+express unresolved boundary attribution, not confirmed conflicts. No historic
+code start was inferred from an airport opening date. Version 0.3.0 added the five
+code-history events; 0.4.0 preserves those facts and adds name history separately.
 
 ## Repository layout
 
@@ -220,16 +266,18 @@ src/
   time.ts                    # civil-date and interval operations
   evidence.ts                # shared evidence review gate
   resolve.ts                 # pure offline resolution
+  names.ts                   # pure historical official-name resolution
   validate.ts                # JSON Schema plus semantic validation
   index.ts                   # dependency-free resolver entry point
 schema/dataset.schema.json   # strict draft-07 schema
-data/airports.json           # thirteen sites, twenty assignments, source registry
+data/airports.json           # thirteen sites, twenty assignments, two names, sources
 scripts/{load,validate,build}.ts
-test/{resolve,validate,build,evidence,conflicts,batch-1}.test.ts
+test/{resolve,validate,build,evidence,conflicts,batch-1,names}.test.ts
 test/identities.json          # permanent initial ID mapping
 test/batch-1-identities.json  # five added IDs and reference coordinates
 docs/evidence.md
 docs/batch-1-{candidates,evidence}.md
+docs/historical-names.md
 README.md
 LICENSE                      # MIT for code
 LICENSE-DATA                 # CC0 legal text; scope below
@@ -244,7 +292,7 @@ Schema and semantic checks reject duplicate IDs/external identities, missing
 references or evidence, unknown fields, malformed codes, impossible dates,
 invalid coordinates/timezones, null/status mismatches, unreviewed evidence behind
 verified records, inconsistent precision, reversed/empty intervals and confirmed
-code conflicts. Possible temporal and unconfirmed assignment overlaps are warnings.
+code/name conflicts. Possible temporal and unconfirmed overlaps are warnings.
 Tests cover historical
 examples, boundary days, unknown bounds, partial precision, conflicts, pending
 claims, invalid inputs, identity stability and reproducible exported artifacts.

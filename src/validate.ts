@@ -48,6 +48,10 @@ export function validateDataset(input: unknown): ValidationResult {
     data.sources.map((s) => s.sourceId),
     "sourceId",
   );
+  unique(
+    data.names.map((n) => n.nameId),
+    "nameId",
+  );
   const sourceById = new Map(data.sources.map((s) => [s.sourceId, s]));
   const airportIds = new Set(data.airports.map((a) => a.airportId));
   const checkRefs = (ids: string[], label: string) => {
@@ -115,33 +119,43 @@ export function validateDataset(input: unknown): ValidationResult {
       }
     }
   }
-  for (const a of data.assignments) {
-    checkRefs(a.sourceIds, a.assignmentId);
+  for (const name of data.names) {
+    try {
+      if (Intl.getCanonicalLocales(name.language)[0] !== name.language)
+        errors.push(
+          `${name.nameId}: language must be a canonical language tag`,
+        );
+    } catch {
+      errors.push(`${name.nameId}: invalid language tag`);
+    }
+  }
+  // Names and code assignments share temporal and evidence requirements.
+  for (const a of [...data.assignments, ...data.names]) {
+    const id = "assignmentId" in a ? a.assignmentId : a.nameId;
+    checkRefs(a.sourceIds, id);
     if (
       a.evidenceType === "primary_direct" &&
       !a.sourceIds.some((id) => sourceById.get(id)?.sourceType === "primary")
     )
       errors.push(
-        `${a.assignmentId}: primary_direct needs a primary source supporting the code assignment`,
+        `${id}: primary_direct needs a primary source supporting the claim`,
       );
     if (!airportIds.has(a.airportId))
-      errors.push(`${a.assignmentId}: missing airport ${a.airportId}`);
-    checkBoundary(a.validFrom, `${a.assignmentId}.validFrom`);
-    checkBoundary(a.validTo, `${a.assignmentId}.validTo`);
+      errors.push(`${id}: missing airport ${a.airportId}`);
+    checkBoundary(a.validFrom, `${id}.validFrom`);
+    checkBoundary(a.validTo, `${id}.validTo`);
     const start = bounds(a.validFrom),
       end = bounds(a.validTo);
     if (start[0] >= end[1])
-      errors.push(`${a.assignmentId}: impossible or inconsistent interval`);
+      errors.push(`${id}: impossible or inconsistent interval`);
     if (a.verificationStatus === "verified") {
-      if (!a.verifiedOn) errors.push(`${a.assignmentId}: verifiedOn required`);
-      for (const id of a.sourceIds) {
-        const source = sourceById.get(id);
+      if (!a.verifiedOn) errors.push(`${id}: verifiedOn required`);
+      for (const sourceId of a.sourceIds) {
+        const source = sourceById.get(sourceId);
         if (source?.verificationStatus !== "verified")
-          errors.push(`${a.assignmentId}: unreviewed evidence ${id}`);
+          errors.push(`${id}: unreviewed evidence ${sourceId}`);
         if (source && a.verifiedOn && source.accessedOn > a.verifiedOn)
-          errors.push(
-            `${a.assignmentId}: verification predates evidence access`,
-          );
+          errors.push(`${id}: verification predates evidence access`);
       }
     }
   }
@@ -166,11 +180,43 @@ export function validateDataset(input: unknown): ValidationResult {
           !hasReviewedEvidence(a, sourceById) ||
           !hasReviewedEvidence(b, sourceById)
         )
-          warnings.push(`Unconfirmed assignment overlap (review required): ${pair}`);
+          warnings.push(
+            `Unconfirmed assignment overlap (review required): ${pair}`,
+          );
         else if (overlaps(ai.certain, bi.certain))
           errors.push(`Conflicting assignments (confirmed conflict): ${pair}`);
         else warnings.push(`Possible boundary overlap: ${pair}`);
       }
+    }
+  }
+  for (let i = 0; i < data.names.length; i++) {
+    const a = data.names[i]!;
+    for (const b of data.names.slice(i + 1)) {
+      if (a.airportId !== b.airportId || a.kind !== b.kind) continue;
+      const sameName = a.name === b.name && a.language === b.language;
+      const pair = `${a.nameId} / ${b.nameId}`;
+      if (
+        sameName &&
+        a.validFrom.earliest === b.validFrom.earliest &&
+        a.validFrom.latest === b.validFrom.latest &&
+        a.validTo.earliest === b.validTo.earliest &&
+        a.validTo.latest === b.validTo.latest
+      )
+        errors.push(`Duplicate airport name interval: ${pair}`);
+      if (a.kind !== "official" || sameName) continue;
+      const ai = interval(a),
+        bi = interval(b);
+      if (!overlaps(ai.possible, bi.possible)) continue;
+      if (
+        !hasReviewedEvidence(a, sourceById) ||
+        !hasReviewedEvidence(b, sourceById)
+      )
+        warnings.push(
+          `Unconfirmed official-name overlap (review required): ${pair}`,
+        );
+      else if (overlaps(ai.certain, bi.certain))
+        errors.push(`Conflicting official names (confirmed conflict): ${pair}`);
+      else warnings.push(`Possible official-name boundary overlap: ${pair}`);
     }
   }
   return { errors, warnings };
