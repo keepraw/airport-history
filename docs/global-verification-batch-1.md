@@ -142,6 +142,16 @@ formal data. The existing full scan can still export the same overrides during
 an explicitly requested future scan. A later full report includes the batch
 summary too.
 
+Review refresh authenticates the **old summary size and SHA-256** along with all
+other artifacts, then checks **every existing non-review input hash**, before any
+output write. Its only manifest changes are `reviewInputs` and the summary entry;
+it never re-registers non-review inputs. A changed summary, scanner, source config
+or other recorded non-review input fails without modifying outputs. Intentional
+generator changes require an explicit `pnpm research:report --reuse-baselines`.
+That report rebuilds derived reports from generated candidates and verifies/reuses
+the exported regional and Keepraw-Fly comparison baselines, with matching pins,
+versions and hashes. It does not open source repositories or fetch/scan histories.
+
 Validation checks the 20-group ceiling, all related candidate IDs, source links,
 claim classifications, conflicts, exclusion reasons, retained gaps, pinned raw
 observations and review mappings. Tests cover live overrides without source/date

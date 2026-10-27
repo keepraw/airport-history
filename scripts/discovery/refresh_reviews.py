@@ -7,34 +7,41 @@ from core import write_json
 from review import batch_summaries, require
 
 ROOT = Path(__file__).resolve().parents[2]
-OUT = ROOT / 'research/discovery/generated'
 
 
-def main():
-    lock = json.loads((OUT / 'manifest.json').read_text())
-    # Never use review refresh to silently bless changed discovery observations.
+def refresh_reviews(root):
+    out = root / 'research/discovery/generated'
+    lock = json.loads((out / 'manifest.json').read_text())
+    # Verify the entire old snapshot, including summary, before any writes.
+    require('summary.json' in lock['files'], 'Summary is missing from the manifest')
+    require(set(lock['files']) == {p.name for p in out.iterdir() if p.is_file() and p.name != 'manifest.json'},
+            'Unmanifested discovery artifact; review refresh cannot replace a report')
     for name, expected in lock['files'].items():
-        if name == 'summary.json':
-            continue
-        raw = (OUT / name).read_bytes()
+        raw = (out / name).read_bytes()
         require(len(raw) == expected['bytes'] and hashlib.sha256(raw).hexdigest() == expected['sha256'],
                 f'Discovery artifact changed: {name}; review refresh cannot replace a scan')
-    summary = json.loads((OUT / 'summary.json').read_text())
-    summary['reviewBatches'] = batch_summaries(ROOT)
-    write_json(OUT / 'summary.json', summary)
-    inputs = [*(p for p in sorted((ROOT / 'research/discovery').glob('*.json')) if p.name != 'reviews.json'),
-              *sorted((ROOT / 'scripts/discovery').glob('*.py'))]
-    review_inputs = [ROOT / 'research/discovery/reviews.json',
-                     *sorted((ROOT / 'research/discovery/batches').glob('*.json'))]
-    def hashes(paths):
-        return {str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest() for p in paths}
-    lock['inputs'] = hashes(inputs)
-    lock['reviewInputs'] = hashes(review_inputs)
-    raw = (OUT / 'summary.json').read_bytes()
+    for name, digest in lock['inputs'].items():
+        require(hashlib.sha256((root / name).read_bytes()).hexdigest() == digest,
+                f'Non-review input changed: {name}; run research:report explicitly')
+    review_inputs = [root / 'research/discovery/reviews.json',
+                     *sorted((root / 'research/discovery/batches').glob('*.json'))]
+    require(not (set(lock['inputs']) & {str(p.relative_to(root)) for p in review_inputs}),
+            'Review input is registered as a non-review input; run research:report explicitly')
+    summary = json.loads((out / 'summary.json').read_text())
+    summary['reviewBatches'] = batch_summaries(root)
+    # Read/validate all allowed review inputs before changing either output.
+    review_hashes = {}
+    for path in review_inputs:
+        raw = path.read_bytes()
+        require(isinstance(json.loads(raw), dict), f'Invalid review record: {path.relative_to(root)}')
+        review_hashes[str(path.relative_to(root))] = hashlib.sha256(raw).hexdigest()
+    lock['reviewInputs'] = review_hashes
+    write_json(out / 'summary.json', summary)
+    raw = (out / 'summary.json').read_bytes()
     lock['files']['summary.json'] = {'bytes': len(raw), 'sha256': hashlib.sha256(raw).hexdigest()}
-    write_json(OUT / 'manifest.json', lock)
+    write_json(out / 'manifest.json', lock)
     print('Refreshed review metadata; discovery observations, queue, source pins and formal data unchanged.')
 
 
 if __name__ == '__main__':
-    main()
+    refresh_reviews(ROOT)

@@ -17,8 +17,15 @@ review, four excluded interpretations, zero admissions. Its
 overlays. Compressed observations/queue retain their PR #5 snapshot; query applies
 the overrides by default (`--snapshot` shows original state, `--queue` queries the
 ranked queue). `summary.json.reviewBatches` separates review results from exported
-discovery counts. `pnpm research:review-report` refreshes only review metadata and
-hashes, without scanning source history or rewriting source artifacts/formal data.
+discovery counts. `pnpm research:review-report` checks every old artifact size/hash
+(including summary) and every recorded non-review input hash before writing.
+It updates only review-input hashes, `summary.json.reviewBatches` and the summary
+size/hash; recorded non-review hashes stay unchanged. Unexpected edits require
+an explicit report regeneration, not a review refresh. After intentional generator
+changes, use `pnpm research:report --reuse-baselines` to regenerate reports and the
+manifest from existing generated candidates and verified exported baselines. This
+option never reads source Git objects or requires source mirrors/Keepraw-Fly input
+downloads. Neither command fetches or scans source repository history.
 
 ## Run
 

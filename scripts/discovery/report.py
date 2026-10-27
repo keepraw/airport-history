@@ -8,10 +8,48 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 from core import canonical, distance, git, normalized, read_candidates, read_jsonl, rows_from_text, source_text, stable_id, write_json, write_jsonl
-from review import batch_summaries
+from review import batch_summaries, require
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'research/discovery/generated'
+
+
+def reuse_baselines(config, out):
+    """Use authenticated exported baselines without opening source repositories."""
+    lock = json.loads((out / 'manifest.json').read_text())
+    require(set(lock['files']) == {p.name for p in out.iterdir() if p.is_file() and p.name != 'manifest.json'},
+            'Unmanifested artifact in report snapshot')
+    for name, expected in lock['files'].items():
+        raw = (out / name).read_bytes()
+        require(len(raw) == expected['bytes'] and hashlib.sha256(raw).hexdigest() == expected['sha256'],
+                f'Changed report snapshot artifact: {name}')
+    # Reusing an exported baseline is valid only for the same pinned source data.
+    expected_versions = {}
+    for source in config['sources']:
+        sid = source['id']
+        coverage = json.loads((out / (sid + '.coverage.json')).read_text())
+        require(all(coverage[k] == source[v] for k, v in
+                    [('sourceId', 'id'), ('revision', 'revision'), ('path', 'path')]),
+                f'Stale snapshot source pin: {sid}')
+        by_year = {}
+        for version in read_jsonl(out / (sid + '.versions.jsonl.gz')):
+            if version['afterBlob'] == '0' * 40 or version['afterRecords'] is None:
+                continue
+            year = version['observedAt'][:4]
+            if year not in by_year or version['observedAt'] > by_year[year]['observedAt']:
+                by_year[year] = version
+        expected_versions.update({(sid, year): version for year, version in by_year.items()})
+    regional = json.loads((out / 'year-country-coverage.json').read_text())
+    actual_versions = {(r['sourceId'], r['observationYear']): r['representativeVersion'] for r in regional}
+    require(len(actual_versions) == len(regional) and actual_versions == expected_versions,
+            'Stale regional coverage snapshot')
+    require(all(sum(r['recordsByCountry'].values()) == r['representativeVersion']['afterRecords'] for r in regional),
+            'Wrong regional snapshot record count')
+    baseline = json.loads((ROOT / 'research/discovery/keepraw-fly-baseline.json').read_text())
+    comparison = json.loads((out / 'keepraw-fly-comparison.json').read_text())
+    require(all(comparison[k] == v for k, v in baseline.items() if k != 'airports'),
+            'Stale Keepraw-Fly comparison snapshot')
+    return comparison
 
 
 def regional_coverage(config, out):
@@ -240,16 +278,21 @@ def compare(out):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, default=OUT)
+    parser.add_argument('--reuse-baselines', action='store_true',
+                        help='Verify and reuse exported regional/comparison baselines; never read source Git objects or fetch/scan')
     args = parser.parse_args()
     out = args.output
     config = json.loads((ROOT / 'research/discovery/sources.json').read_text())
     reports = [json.loads((out / (s['id'] + '.coverage.json')).read_text()) for s in config['sources']]
-    regional_coverage(config, out)
+    if args.reuse_baselines:
+        comparison = reuse_baselines(config, out)
+    else:
+        regional_coverage(config, out)
+        comparison = compare(out)
     links = code_links(config, out)
     legacy = legacy_links(config, out)
     priority = verification_queue(config, out)
     duplicates = exact_duplicate_groups(config, out)
-    comparison = compare(out)
     types, countries, years, statuses = (Counter() for _ in range(4))
     for report in reports:
         for counter, field in [(types, 'byType'), (countries, 'byCountry'), (years, 'byObservationYear'), (statuses, 'byStatus')]:
