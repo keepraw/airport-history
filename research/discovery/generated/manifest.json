@@ -437,8 +437,8 @@
       "sha256": "ba2b8fdc9cdaf01dbf748cd505046fca79f55c2729e27b9d2a566a4af607c264"
     },
     "legacy-links.jsonl.gz": {
-      "bytes": 14703,
-      "sha256": "1598e5bfc57d2fb45cf3f3834c6c8ad70499beeb921df3bb1de20f73520eb90b"
+      "bytes": 14916,
+      "sha256": "262ab37eb8d3ba62b9fa63e71384ec67328c3d73b2674646d62af8d923f324ad"
     },
     "mwgg.candidates.0.jsonl.gz": {
       "bytes": 433385,
@@ -601,8 +601,8 @@
       "sha256": "1106b802178c945f93a22c2316823412d8c48da73f254dfbe2e39b0ace67fb78"
     },
     "summary.json": {
-      "bytes": 835310,
-      "sha256": "239c11ecca64f3c33de9c3d49b5e3adb3b57ff3576fac26321329b4ee688e216"
+      "bytes": 836612,
+      "sha256": "d65db4f18a5aa9457624dd76d6b81b1eef8df5bf080036a029e99f5eb58de6d3"
     },
     "verification-queue.jsonl.gz": {
       "bytes": 102458,
@@ -615,7 +615,7 @@
   },
   "formatVersion": 1,
   "inputs": {
-    "research/discovery/curated-baseline.json": "ea481578eda13fdea881f77cf6f40bf4b45563eafb8f49cadfa28aa025cfbccf",
+    "research/discovery/curated-baseline.json": "b25946b9af7edba2ba5d6ba57157d58d2fd01e36b262f028a2ae6f8685aef71c",
     "research/discovery/keepraw-fly-baseline.json": "c15b52a72c62cf03fe44978ab2511ddf400d5fc88f628175e804e13b8f174e38",
     "research/discovery/legacy.json": "397e3b8169ee55f0317f1447b99e82aec09e03a2a1dc79b805362b66a37c3174",
     "research/discovery/source-assessment.json": "ca9c561801f21acf3e8c896136ace72a306605531fcab55d29075ac1e76ba342",
@@ -625,13 +625,14 @@
     "scripts/discovery/query.py": "4244b7b75f0d1fa2f3a72245cd07c7a79944060dda23feaa070debb43dd0d372",
     "scripts/discovery/refresh_reviews.py": "bcf207c0f411f3800da773e37a7d6a3f4d90b9fc8d18e1233e471679262838d1",
     "scripts/discovery/report.py": "a567eb3962f2eee4d18a76612dd9c75293917bb1eb9df3b423bf322a34c5a258",
-    "scripts/discovery/review.py": "33b1c91b7a4cef938cb304553ea5a29464e33bd329080a748f979d5941ac3c07",
+    "scripts/discovery/review.py": "b6540d6cff18a3bdd0e8ef06a743defbeb9436cf620437d419036fde1ae2a92d",
     "scripts/discovery/scan.py": "5f5ac9a8859842d5bdd4028da475a18dfce0576a81df195300eb40d976bfa46e",
-    "scripts/discovery/validate.py": "4489bc2a4374b37d0ef7b7b5547efbaa2b5e41d41291e0a7bd91410560bf4833"
+    "scripts/discovery/validate.py": "599de92bbf6915a627c9e393a660df3ca3f66ab2289b8e8584bae7d003621483"
   },
   "reviewInputs": {
-    "research/discovery/batches/global-1.json": "4d0aa2fa15e2d4a32a78e5061639b6643056f7f28c813b0a011a27b87eabb6b6",
+    "research/discovery/batches/global-1.json": "4a3cf6124383d9adbba7f16691123461cbd9e5a535801f2253bc197349443e70",
     "research/discovery/batches/global-2.json": "b1cddfb6b7827896cbb87b9fdfaea3547afa4e366d5d4b913d10f6418b99f065",
-    "research/discovery/reviews.json": "49e32e00f3b224cb05d4982d2a57748dbda7290dc3b5aed4f2b1d35fbec6a336"
+    "research/discovery/batches/global-3.json": "96b3c91c778330f4df7a29da346ae89790a55af06bfd9c9d939cd2b9dff6617b",
+    "research/discovery/reviews.json": "835e0209ad1778ec421aea72a91daf0654b83d69fa274bbe991a1562de6d85f6"
   }
 }

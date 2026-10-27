@@ -12,13 +12,17 @@ sys.path.insert(0, str(ROOT / 'scripts/discovery'))
 from review import batch_summaries, validate_batch, validate_batch_series, validate_review_overrides
 
 BATCHES = ROOT / 'research/discovery/batches'
-# PR #6 merged review record (main 02d4f2396a1bec8ad5ee0c8b10c3a8eb30db5643). Changing it requires a
-# documented disposition change in a follow-up and a deliberate update of this pin.
-GLOBAL_1_SHA256 = '4d0aa2fa15e2d4a32a78e5061639b6643056f7f28c813b0a011a27b87eabb6b6'
+# PR #6 merged review record (main 02d4f2396a1bec8ad5ee0c8b10c3a8eb30db5643) had SHA-256 4d0aa2fa...b6b6.
+# PR #8 deliberately changed three dispositions via global-3 follow-ups; the original conclusions are kept in
+# each event's dispositionHistory. Changing it again requires another documented follow-up and a new pin.
+GLOBAL_1_ORIGINAL_SHA256 = '4d0aa2fa15e2d4a32a78e5061639b6643056f7f28c813b0a011a27b87eabb6b6'
+GLOBAL_1_SHA256 = '4a3cf6124383d9adbba7f16691123461cbd9e5a535801f2253bc197349443e70'
+ADMITTED_IN_GLOBAL_3 = {'global-1-rov', 'global-1-ynt', 'global-1-pnh'}
 GLOBAL_1_STATUSES = {
     'global-1-kti': 'insufficient_evidence', 'global-1-ynt': 'insufficient_evidence', 'global-1-rov': 'insufficient_evidence',
     'global-1-lyg': 'insufficient_evidence', 'global-1-ybp': 'insufficient_evidence', 'global-1-lzo': 'insufficient_evidence',
     'global-1-jng': 'insufficient_evidence', 'global-1-dakar': 'insufficient_evidence', 'global-1-pnh': 'insufficient_evidence',
+    # Original PR #6 statuses; ADMITTED_IN_GLOBAL_3 events are now ready_to_admit.
     'global-1-aap': 'insufficient_evidence', 'global-1-cdt': 'excluded', 'global-1-dni': 'pending_review',
     'global-1-ngn': 'excluded', 'global-1-wch': 'pending_review', 'global-1-bve': 'excluded', 'global-1-knn': 'pending_review',
     'global-1-utr': 'pending_review', 'global-1-hds': 'excluded', 'global-1-lmh': 'insufficient_evidence',
@@ -38,17 +42,27 @@ class BatchSeriesTest(unittest.TestCase):
     def setUp(self):
         self.g1 = load('global-1.json')
         self.g2 = load('global-2.json')
+        self.g3 = load('global-3.json')
         self.reviews = json.loads((ROOT / 'research/discovery/reviews.json').read_text())
 
     def records(self, g1=None, g2=None):
         return [('research/discovery/batches/global-1.json', g1 or self.g1),
-                ('research/discovery/batches/global-2.json', g2 or self.g2)]
+                ('research/discovery/batches/global-2.json', g2 or self.g2),
+                ('research/discovery/batches/global-3.json', self.g3)]
+
+    def series(self, g1=None, g2=None, g3=None):
+        return validate_batch_series([g1 or self.g1, g2 or self.g2, g3 or self.g3])
 
     def test_previous_batch_record_is_preserved_byte_for_byte(self):
         raw = (BATCHES / 'global-1.json').read_bytes()
         self.assertEqual(hashlib.sha256(raw).hexdigest(), GLOBAL_1_SHA256)
-        self.assertEqual({e['eventGroupId']: e['status'] for e in self.g1['events']}, GLOBAL_1_STATUSES)
-        self.assertEqual(self.g1['statusCounts'], {'excluded': 4, 'insufficient_evidence': 12, 'pending_review': 4, 'ready_to_admit': 0})
+        live = {e['eventGroupId']: e['status'] for e in self.g1['events']}
+        original = {e['eventGroupId']: (e['dispositionHistory'][0]['status'] if 'dispositionHistory' in e else e['status'])
+                    for e in self.g1['events']}
+        self.assertEqual(original, GLOBAL_1_STATUSES)
+        self.assertEqual({g for g in live if live[g] != GLOBAL_1_STATUSES[g]}, ADMITTED_IN_GLOBAL_3)
+        self.assertEqual(self.g1['statusCounts'], {'excluded': 4, 'insufficient_evidence': 9, 'pending_review': 4, 'ready_to_admit': 3})
+        self.assertEqual(self.g1['admission']['assignments'], 0)  # global-1 itself admitted nothing
         for cid, override in self.reviews.items():
             if override['eventGroupId'].startswith('global-1-'):
                 self.assertEqual(override['evidenceReview'], 'research/discovery/batches/global-1.json')
@@ -65,7 +79,7 @@ class BatchSeriesTest(unittest.TestCase):
             self.assertEqual(event['sourceObservation']['candidateId'], event['candidateIds'][0])
 
     def test_every_candidate_maps_to_at_most_one_event_across_batches(self):
-        mapping = validate_batch_series([self.g1, self.g2])
+        mapping = self.series()
         self.assertEqual(len(mapping), sum(len(e['candidateIds'] + e['relatedCandidateIds'])
                                            for b in (self.g1, self.g2) for e in b['events']))
         validate_review_overrides(self.reviews, self.records())
@@ -76,7 +90,7 @@ class BatchSeriesTest(unittest.TestCase):
                 g2 = copy.deepcopy(self.g2)
                 g2['events'][0]['relatedCandidateIds'].append(cid)
                 with self.assertRaisesRegex(ValueError, 'Candidate maps to multiple batch events'):
-                    validate_batch_series([self.g1, g2])
+                    self.series(g2=g2)
                 with self.assertRaisesRegex(ValueError, 'Candidate maps to multiple batch events'):
                     validate_review_overrides(self.reviews, self.records(g2=g2))
 
@@ -84,11 +98,11 @@ class BatchSeriesTest(unittest.TestCase):
         g2 = copy.deepcopy(self.g2)
         g2['events'][0]['eventGroupId'] = 'global-1-kti'
         with self.assertRaisesRegex(ValueError, 'Duplicate event group across batches'):
-            validate_batch_series([self.g1, g2])
+            self.series(g2=g2)
         g2 = copy.deepcopy(self.g2)
         g2['batchId'] = 'global-1'
         with self.assertRaisesRegex(ValueError, 'Duplicate batch ID'):
-            validate_batch_series([self.g1, g2])
+            self.series(g2=g2)
 
     def test_follow_ups_keep_global_one_as_sole_mapping(self):
         follow = {f['eventGroupId']: f for f in self.g2['followUps']}
@@ -96,7 +110,7 @@ class BatchSeriesTest(unittest.TestCase):
         for f in follow.values():
             self.assertEqual(f['candidateIds'], [])
             self.assertFalse(f['dispositionChanged'])
-            self.assertEqual(f['currentStatus'], GLOBAL_1_STATUSES[f['eventGroupId']])
+            self.assertEqual(f['currentStatus'], GLOBAL_1_STATUSES[f['eventGroupId']])  # status at PR #7 time
             self.assertTrue(f['searches'] and f['negativeResults'] and f['remainingGaps'])
         g2 = copy.deepcopy(self.g2)
         g2['followUps'][0]['candidateIds'] = ['cand_fd2a5e00b9b3f58536c0433e']
@@ -107,13 +121,13 @@ class BatchSeriesTest(unittest.TestCase):
         g2 = copy.deepcopy(self.g2)
         g2['followUps'][0]['eventGroupId'] = 'global-2-sgs'  # same-batch, not earlier
         with self.assertRaisesRegex(ValueError, 'references no earlier event'):
-            validate_batch_series([self.g1, g2])
+            self.series(g2=g2)
         g2 = copy.deepcopy(self.g2)
         g2['followUps'][0]['currentStatus'] = 'ready_to_admit'
         g2['followUps'][0]['dispositionChanged'] = True
         g2['followUps'][0]['changeReason'] = 'test'
         with self.assertRaisesRegex(ValueError, 'disagrees with owning event'):
-            validate_batch_series([self.g1, g2])
+            self.series(g2=g2)
         g2 = copy.deepcopy(self.g2)
         g2['followUps'][0]['dispositionChanged'] = True
         with self.assertRaisesRegex(ValueError, 'flag disagrees'):
@@ -142,9 +156,54 @@ class BatchSeriesTest(unittest.TestCase):
 
     def test_summary_lists_batches_in_numeric_order_with_follow_ups(self):
         summaries = batch_summaries(ROOT)
-        self.assertEqual([s['batchId'] for s in summaries], ['global-1', 'global-2'])
+        self.assertEqual([s['batchId'] for s in summaries], ['global-1', 'global-2', 'global-3'])
         self.assertNotIn('followUps', summaries[0])
         self.assertEqual([f['eventGroupId'] for f in summaries[1]['followUps']], ['global-1-kti', 'global-1-ynt', 'global-1-rov'])
+
+
+class AdmissionFollowUpTest(BatchSeriesTest):
+    def test_global_three_changes_dispositions_without_remapping(self):
+        self.assertEqual(self.g3['events'], [])
+        follow = {f['eventGroupId']: f for f in self.g3['followUps']}
+        self.assertEqual(set(follow), ADMITTED_IN_GLOBAL_3)
+        for f in follow.values():
+            self.assertEqual((f['priorStatus'], f['currentStatus'], f['dispositionChanged']), ('insufficient_evidence', 'ready_to_admit', True))
+            self.assertEqual(f['candidateIds'], [])
+            self.assertTrue(f['changeReason'] and f['remainingGaps'] and f['expectedResolverBehaviour'])
+            self.assertTrue(f['continuityInference']['usedForAdmission'])
+        self.assertEqual(sum(len(f['admittedAssignmentIds']) for f in follow.values()), self.g3['admission']['assignments'])
+        self.assertEqual(sum(len(f['admittedAirportIds']) for f in follow.values()), self.g3['admission']['airports'])
+        for event in self.g1['events']:
+            if event['eventGroupId'] in ADMITTED_IN_GLOBAL_3:
+                self.assertEqual([h['recordedIn'] for h in event['dispositionHistory']], ['global-1', 'global-3'])
+                self.assertEqual(event['admissionReview'], 'research/discovery/batches/global-3.json')
+
+    def test_kratie_and_qiemo_remain_research_only(self):
+        statuses = {e['eventGroupId']: e['status'] for e in self.g1['events'] + self.g2['events']}
+        self.assertEqual(statuses['global-1-kti'], 'insufficient_evidence')
+        self.assertEqual(statuses['global-2-iqm'], 'insufficient_evidence')
+
+    def test_disposition_change_without_follow_up_is_rejected(self):
+        with self.assertRaisesRegex(ValueError, 'Follow-up status disagrees with owning event'):
+            validate_batch_series([self.g1, self.g2])  # global-3 missing
+        g1 = copy.deepcopy(self.g1)
+        event = next(e for e in g1['events'] if e['eventGroupId'] == 'global-1-kti')
+        event['status'] = 'ready_to_admit'
+        g1['statusCounts']['insufficient_evidence'] -= 1
+        g1['statusCounts']['ready_to_admit'] += 1
+        with self.assertRaisesRegex(ValueError, '(disagrees with owning event|breaks the disposition chain): global-1-kti'):
+            self.series(g1=g1)
+
+    def test_broken_chain_and_unready_admission_are_rejected(self):
+        g3 = copy.deepcopy(self.g3)
+        g3['followUps'][0]['priorStatus'] = 'pending_review'
+        with self.assertRaisesRegex(ValueError, 'breaks the disposition chain'):
+            self.series(g3=g3)
+        g3 = copy.deepcopy(self.g3)
+        g3['followUps'][0]['currentStatus'] = 'insufficient_evidence'
+        g3['followUps'][0]['dispositionChanged'] = False
+        with self.assertRaisesRegex(ValueError, 'Unready follow-up promoted'):
+            validate_batch(g3)
 
 
 if __name__ == '__main__':

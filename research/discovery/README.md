@@ -1,10 +1,14 @@
 # Global airport history discovery
 
 This repeatable research layer discovers worldwide history from source revisions.
-Candidates are neither resolver input nor a limit on future coverage. Schema
-3.0.0, dataset/package 0.4.0, thirteen permanent airport identities, twenty code
-assignments and two name records remain unchanged. `curated-baseline.json`
-freezes the complete formal dataset at merged PR #4.
+Candidates are neither resolver input nor a limit on future coverage; no research
+command writes formal data. `curated-baseline.json` pins the reviewed formal
+dataset (0.5.0: nineteen identities, twenty-nine code assignments, two names,
+forty-three sources, schema 3.0.0) and lists `preservedBaselines`: the 0.4.0
+dataset is frozen in `test/curated-0.4.0.json`, and validation requires every one
+of its records to remain unchanged. Formal admissions arrive only through a
+reviewed batch follow-up ([global-3](batches/global-3.json), see
+[the 0.5.0 admission review](../../docs/curated-admissions-pr8.md)).
 
 Read [coverage.md](coverage.md) and [generated/summary.json](generated/summary.json)
 together. Counts describe inspected source records and research transitions,
@@ -31,10 +35,14 @@ The [second verification batch](../../docs/global-verification-batch-2.md)
 reviews the four leads in global-1's `nextBatch` (two insufficient evidence,
 two excluded, zero admissions) in [batches/global-2.json](batches/global-2.json).
 Its `followUps` re-investigate KTI, YNT and ROV/RVI while global-1 stays their
-sole mapping: a follow-up carries no candidate IDs and must agree with the
-owning event's disposition. Validation checks all batches together, so each
-candidate maps to at most one event and each batch respects its own
-`maximumEvents` ceiling (never above 20).
+sole mapping: a follow-up carries no candidate IDs. Follow-ups form an ordered
+disposition chain per event, starting at the owning event's original status
+(`dispositionHistory[0]` once a disposition has changed) and ending at its live
+status. The follow-up-only [global-3](batches/global-3.json) admission review
+changes global-1 ROV, YNT and PNH to `ready_to_admit` and lists the formal IDs
+admitted in 0.5.0; validation requires those IDs to exist. Validation checks all
+batches together, so each candidate maps to at most one event and each batch
+respects its own `maximumEvents` ceiling (never above 20).
 
 ## Run
 

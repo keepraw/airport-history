@@ -1,6 +1,6 @@
 {
   "schemaVersion": "3.0.0",
-  "dataVersion": "0.4.0",
+  "dataVersion": "0.5.0",
   "sources": [
     {
       "sourceId": "ourairports-20261025",
@@ -407,6 +407,202 @@
         "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
       },
       "note": "Dated 2006-11-20, the airport development plan repeatedly identifies Международный аэропорт Астана and its existing airfield infrastructure. This is an earlier name observation, not an original naming decision. The latest-start bound is the following civil day; no founding, city-renaming or corporate incorporation date is substituted for the unknown airport-name start."
+    },
+    {
+      "sourceId": "ourairports-pr8-20261025",
+      "title": "OurAirports fixed snapshot: six PR #8 physical-site reference rows",
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/d97df1673cc5ba61a09b17ab5936091a669a04ca/airports.csv",
+      "accessedOn": "2026-10-27",
+      "verificationStatus": "verified",
+      "sourceType": "secondary",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "url": "https://ourairports.com/data/",
+        "note": "OurAirports releases its data to the public domain. Only the six identified reference rows are used; no member comments are copied."
+      },
+      "note": "Same pinned revision as the existing OurAirports sources. Rows 6518 (old Rostov-on-Don), 326363 (Platov), 27227 (Yantai Laishan), 332096 (Yantai Penglai), 26475 (Phnom Penh/Pochentong) and 342098 (Techo) were read from the repository-held parsed inventory of this exact revision (research/discovery/generated/ourairports.entities.jsonl.gz, presentAtTarget), not re-downloaded. Names and coordinates are reference attributes. Current ROV/URRP, YNT/ZSYT, KTI/VDTI codes corroborate continuity only to the fixed 2026-10-25 horizon; old-site rows carry no current IATA code, which does not end or erase their identities or prove withdrawal."
+    },
+    {
+      "sourceId": "rov-flydubai-2016",
+      "title": "flydubai statements relating to FZ 981",
+      "url": "https://news.flydubai.com/flydubai-statements-relating-to-fz-981",
+      "accessedOn": "2026-10-27",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Airline statement of 2016-03-19 describes FZ 981 bound for \"Rostov on Don (ROV)\", which crashed on landing at the old Rostov-on-Don airport. A dated ROV observation for the old site; bounds its unknown first allocation by 2016-03-20. Not an allocation record."
+    },
+    {
+      "sourceId": "rov-aeroflot-2017",
+      "title": "Aeroflot agency notice: new Rostov-on-Don airport from 2017-11-27 (republished)",
+      "url": "https://aviakassir.info/news/airlines/2963-su-aeroflot-otkrytie-novogo-mezhdunarodnogo-aeroporta-v-g-rostov-na-donu-s-27-11-2017.html",
+      "accessedOn": "2026-10-27",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Third-party republication of an Aeroflot agency notice dated 2017-11-27: from 27.11.2017 Platov is assigned ROV, previously belonging to old Rostov-on-Don, and old Rostov-on-Don is assigned temporary RVI; SU flights still operate to RVI until a later transfer date. It cites an attached IATA notice that is not reproduced and was not retrieved. Day-level code-change evidence; no time of day, no RVI end."
+    },
+    {
+      "sourceId": "rov-gov-order-2434r",
+      "title": "Government of the Russian Federation order No. 2434-r of 2017-11-04",
+      "url": "http://static.government.ru/media/files/AGCgTsVRezAjhuNIkq7gYA7VIWOLGnWM.pdf",
+      "accessedOn": "2026-10-27",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Opens international airport Rostov-on-Don (Platov) and closes the separate civil aerodrome Rostov-on-Don; effective 2017-11-27 except closure and federal-list removal, effective 2018-03-01. Establishes the two physical airports and legal civil closure; contains no IATA or ICAO code and is not a code-withdrawal record. Read through a text reader (https endpoint unreachable from the workspace)."
+    },
+    {
+      "sourceId": "ynt-dzwww-2014",
+      "title": "Dazhong Yantai: new Penglai airport retains YNT",
+      "url": "https://yantai.dzwww.com/xinwen/ytxw/ytsh/201411/t20141110_11338121.htm",
+      "accessedOn": "2026-10-27",
+      "verificationStatus": "verified",
+      "sourceType": "secondary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Report of 2014-11-10 quoting IATA Beijing staff: Yantai applied in September 2014 for the new Penglai airport to use YNT, the code currently used by Laishan, and was approved; IATA planned to prompt the coordinate change from December 11. Airlines had not yet been notified. Approval and plan are not an implementation record; the planned opening slipped to 2015."
+    },
+    {
+      "sourceId": "ynt-spring-2015",
+      "title": "Spring Airlines notice on the opening of Yantai Penglai International Airport",
+      "url": "https://www.ch.com/news/33497b984fc54d96927e965b33fa9a1e.html",
+      "accessedOn": "2026-10-27",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Airline notice dated 2015-05-13: Penglai to enter use at 2015-05-28 00:00 with old Laishan fully closed; all Spring Yantai flights move; 57 km between airports. Operational transfer evidence only; it states no code."
+    },
+    {
+      "sourceId": "ynt-aip-zsyt-2025",
+      "title": "AIP China aerodrome section ZSYT/YNT YANTAI/Penglai (EFF2510011600), third-party mirror",
+      "url": "https://yinlei.org/x-plane10/doc/ZSYT.pdf",
+      "accessedOn": "2026-10-27",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Third-party copy of the CAAC AIP aerodrome section headed ZSYT/YNT YANTAI/Penglai, effective 2025-10-01. Current-state corroboration of YNT at Penglai; dates neither the YNT nor the ZSYT changeover."
+    },
+    {
+      "sourceId": "pnh-airportal-2008",
+      "title": "Korea Airportal: Pochentong Airport (PNH/VDPP) information sheet",
+      "url": "https://www.airportal.go.kr/file/htmlOpen/upload/airport/PNH.pdf",
+      "accessedOn": "2026-10-27",
+      "verificationStatus": "verified",
+      "sourceType": "secondary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Korean government aviation portal sheet for Pochentong Airport, codes PNH / VDPP, reference date 2008-12-31. Compiled observation; bounds the unknown first PNH allocation by 2009-01-01. Not an allocation record."
+    },
+    {
+      "sourceId": "vdpp-icao-fasid-2014",
+      "title": "ICAO ASIA/PAC FASID Table MET 1A (25/4/2014)",
+      "url": "https://www.icao.int/sites/default/files/APAC/Documents/edocs/FASID/tmet1a.pdf",
+      "accessedOn": "2026-10-27",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "ICAO regional table dated 25/4/2014 lists PHNOM PENH with location indicator VDPP. Bounds the unknown first VDPP allocation by 2014-04-26. Read through a text reader (workspace download returned HTTP 403)."
+    },
+    {
+      "sourceId": "pnh-sia-2025",
+      "title": "Singapore Airlines circular: relocation of PNH to KTI airport",
+      "url": "https://agent360.singaporeair.com/content/dam/agent360/web-assets/pdf/local/hk/HKGSQ_Relocation_of_PNH_to_KTI_Airport_SN125.pdf",
+      "accessedOn": "2026-10-27",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Airline circular issued 2025-08-26 identifies old PNH and new KTI and moves own services from 2025-09-09. Inspected in the global-1 review (content_inspected on 2026-10-27); a fresh workspace download on 2026-10-27 hit an HTTP/2 error. Not a PNH withdrawal record."
+    },
+    {
+      "sourceId": "kti-vna-2025",
+      "title": "Vietnam Airlines: relocation of operations to Techo International Airport (KTI)",
+      "url": "https://www.vietnamairlines.com/us/en/vietnam-airlines/press-room/press-release/2025/0819-VNA-chuyen-doi-san-bay-khai-thac-Campuchia",
+      "accessedOn": "2026-10-27",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Airline release of 2025-08-19: under a Cambodian civil aviation directive, operations move from Phnom Penh International (PNH) to Techo International (KTI) at 00:01 on 2025-09-09. Carrier implementation evidence, not IATA allocation."
+    },
+    {
+      "sourceId": "kti-aeroroutes-2025",
+      "title": "AeroRoutes: Phnom Penh Krong Ta Khmau (KTI) schedule filings",
+      "url": "https://www.aeroroutes.com/eng/250721-ktisep25",
+      "accessedOn": "2026-10-27",
+      "verificationStatus": "verified",
+      "sourceType": "secondary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Trade report published 2025-07-22: airlines filing operational schedules at the new Phnom Penh airport under IATA code KTI, replacing PNH from 09SEP25. Bounds the unknown first KTI allocation to Techo by 2025-07-23."
+    },
+    {
+      "sourceId": "vdti-icao-wp25",
+      "title": "ICAO APAC MET SG/29 WP/25 presented by Cambodia",
+      "url": "https://www.icao.int/sites/default/files/APAC/Meetings/2025/2025%20MET%20SG29/3-Working%20Papers/WP25-AI.5-KHM-VDTI-ROBEX-INTEGRATION-Rev.1.pdf",
+      "accessedOn": "2026-10-27",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Cambodia states VDTI was received from ICAO and published in the Cambodia AIP; Techo operates from 0000 UTC 2025-09-04 and Phnom Penh VDPP officially closes at 1700 UTC 2025-09-08. No IATA content. Read through a text reader (workspace download returned HTTP 403)."
+    },
+    {
+      "sourceId": "vdti-aip-amdt-0925",
+      "title": "Cambodia AIP AD 2 VDTI, AIRAC AMDT 09/25 (copy hosted by OPSGROUP)",
+      "url": "https://ops.group/blog/wp-content/uploads/2025/08/VDTI-AIP.pdf",
+      "accessedOn": "2026-10-27",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Third-party copy of Cambodia Air Traffic Services AIP pages dated 04 SEP 25, titled VDTI - TECHO INTERNATIONAL AIRPORT. Corroborates the 2025-09-04 AIP effective state. No IATA code."
     }
   ],
   "airports": [
@@ -837,6 +1033,204 @@
       },
       "externalIds": {
         "ourAirports": "4571"
+      }
+    },
+    {
+      "airportId": "apt_0fd3915b-6dd8-4391-a840-9992db9683cf",
+      "name": {
+        "value": "Rostov-on-Don Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 47.258203,
+          "longitude": 39.8181
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "Europe/Moscow",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "6518"
+      }
+    },
+    {
+      "airportId": "apt_4c75d2ab-29db-4593-8b78-6104b8bdb720",
+      "name": {
+        "value": "Platov International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 47.493888,
+          "longitude": 39.924722
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "Europe/Moscow",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "326363"
+      }
+    },
+    {
+      "airportId": "apt_7923bd7d-2855-4d5f-b979-63a5380cd3da",
+      "name": {
+        "value": "Yantai Laishan Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 37.396825,
+          "longitude": 121.369571
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "Asia/Shanghai",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "27227"
+      }
+    },
+    {
+      "airportId": "apt_0f0ebbe2-ce55-4b70-8d22-c760fe94777e",
+      "name": {
+        "value": "Yantai Penglai International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 37.659724,
+          "longitude": 120.978124
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "Asia/Shanghai",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "332096"
+      }
+    },
+    {
+      "airportId": "apt_dafb3e33-c7ed-431a-b8e8-22eecf543107",
+      "name": {
+        "value": "Phnom Penh International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 11.547155,
+          "longitude": 104.844699
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "Asia/Bangkok",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "26475"
+      }
+    },
+    {
+      "airportId": "apt_b97de260-274b-4cfd-b56e-5f035c6a7768",
+      "name": {
+        "value": "Techo International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 11.359987,
+          "longitude": 104.921272
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "Asia/Bangkok",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "342098"
       }
     }
   ],
@@ -1341,6 +1735,230 @@
         "ourairports-batch1-20261025"
       ],
       "note": "Same physical Chisinau airport. Secondary announcement and implementation reports support January 18, without an allocation instant. Old tickets retaining KIV do not establish a continuing airport assignment; no other KIV reuse is asserted. Date-only change-day queries remain uncertain. The open end does not guarantee validity on or after 2026-10-25. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    },
+    {
+      "assignmentId": "iata-rov-rostov-on-don",
+      "scheme": "IATA",
+      "code": "ROV",
+      "airportId": "apt_0fd3915b-6dd8-4391-a840-9992db9683cf",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2016-03-20",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2017-11-27",
+        "latest": "2017-11-28",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-27",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "rov-flydubai-2016",
+        "rov-aeroflot-2017",
+        "rov-gov-order-2434r"
+      ],
+      "note": "Old Rostov-on-Don airport (URRR in reference data). First allocation unknown; latest start is the 2016-03-19 airline observation. ROV passed to the separate new Platov airport on 2017-11-27 per Aeroflot citing an IATA notice; the time of day is unknown, so the whole day is uncertain. The 2017-12-07 passenger transfer and the 2018-03-01 legal closure are later, separate events. An unverified fan-site claim that the code was received on 2017-11-24 is treated as a notification date and recorded in docs/curated-admissions-pr8.md. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    },
+    {
+      "assignmentId": "iata-rov-platov",
+      "scheme": "IATA",
+      "code": "ROV",
+      "airportId": "apt_4c75d2ab-29db-4593-8b78-6104b8bdb720",
+      "validFrom": {
+        "earliest": "2017-11-27",
+        "latest": "2017-11-28",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-27",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "rov-aeroflot-2017",
+        "rov-gov-order-2434r",
+        "ourairports-pr8-20261025"
+      ],
+      "note": "Platov inherits ROV on 2017-11-27 (day precision), ten days before its first passengers on 2017-12-07; opening is not the code boundary. The open end is not guaranteed future validity. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    },
+    {
+      "assignmentId": "iata-rvi-rostov-on-don",
+      "scheme": "IATA",
+      "code": "RVI",
+      "airportId": "apt_0fd3915b-6dd8-4391-a840-9992db9683cf",
+      "validFrom": {
+        "earliest": "2017-11-27",
+        "latest": "2017-11-28",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2017-11-28",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-27",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "rov-aeroflot-2017",
+        "rov-gov-order-2434r"
+      ],
+      "note": "Temporary code for the old airport from 2017-11-27; in use on that day for SU flights. No RVI withdrawal record was found: passenger closure on 2017-12-07 and legal closure on 2018-03-01 do not withdraw a code, so the end has no latest bound and later RVI queries remain uncertain rather than inventing a withdrawal date. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    },
+    {
+      "assignmentId": "iata-ynt-laishan",
+      "scheme": "IATA",
+      "code": "YNT",
+      "airportId": "apt_7923bd7d-2855-4d5f-b979-63a5380cd3da",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2014-11-11",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2014-11-10",
+        "latest": "2015-05-28",
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-27",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "ynt-dzwww-2014",
+        "ynt-spring-2015"
+      ],
+      "note": "Old Yantai Laishan airport. First allocation unknown; the 2014-11-10 report observes YNT as Laishan's current code. IATA had approved YNT for Penglai and planned a coordinate update from 2014-12-11, but no implementation record was found; the latest end is the 2015-05-28 00:00 civil closure of Laishan. Every date from 2014-11-10 to 2015-05-27 is therefore uncertain; neither the planned date nor the opening is asserted as the switch. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    },
+    {
+      "assignmentId": "iata-ynt-penglai",
+      "scheme": "IATA",
+      "code": "YNT",
+      "airportId": "apt_0f0ebbe2-ce55-4b70-8d22-c760fe94777e",
+      "validFrom": {
+        "earliest": "2014-11-10",
+        "latest": "2015-05-28",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-27",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "ynt-dzwww-2014",
+        "ynt-spring-2015",
+        "ynt-aip-zsyt-2025",
+        "ourairports-pr8-20261025"
+      ],
+      "note": "Separate Penglai site, 57 km by road from Laishan. Start bounded by the reported IATA approval (not before the 2014-11-10 observation of YNT at Laishan) and by the complete civil transfer at 2015-05-28 00:00; current AIP and snapshot corroborate continuity. ZSYT is not admitted: no changeover record exists between the 2013 Laishan chart and the 2025 Penglai AIP. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    },
+    {
+      "assignmentId": "iata-pnh-pochentong",
+      "scheme": "IATA",
+      "code": "PNH",
+      "airportId": "apt_dafb3e33-c7ed-431a-b8e8-22eecf543107",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2009-01-01",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2025-09-09",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-27",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "pnh-airportal-2008",
+        "pnh-sia-2025",
+        "kti-vna-2025"
+      ],
+      "note": "Old Phnom Penh (Pochentong) airport. First allocation unknown; latest start is a 2008-12-31 reference-dated observation. Airline operations under PNH continued through 2025-09-08 and moved to KTI at 00:01 local on 2025-09-09. No decision to withdraw or reuse PNH was found, so the end has no latest bound; later PNH queries stay uncertain. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    },
+    {
+      "assignmentId": "icao-vdpp-pochentong",
+      "scheme": "ICAO",
+      "code": "VDPP",
+      "airportId": "apt_dafb3e33-c7ed-431a-b8e8-22eecf543107",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2014-04-26",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2025-09-08",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-27",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "vdpp-icao-fasid-2014",
+        "vdti-icao-wp25"
+      ],
+      "note": "First allocation unknown; latest start is the ICAO regional table dated 2014-04-25. Cambodia stated the aerodrome officially closes at 1700 UTC on 2025-09-08; aerodrome closure is not an indicator withdrawal, so the end has no latest bound. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    },
+    {
+      "assignmentId": "iata-kti-techo",
+      "scheme": "IATA",
+      "code": "KTI",
+      "airportId": "apt_b97de260-274b-4cfd-b56e-5f035c6a7768",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2025-07-23",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-27",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "kti-aeroroutes-2025",
+        "kti-vna-2025",
+        "pnh-sia-2025",
+        "ourairports-pr8-20261025"
+      ],
+      "note": "Techo, a greenfield site separate from Pochentong and from Kratie. The IATA allocation date is unknown, so the start has no earliest bound; schedules were filed under KTI by 2025-07-22, and carriers moved operations at 2025-09-09. KTI was previously associated with Kratie according to a Cambodian embassy notice, but no dated Kratie observation is admitted, so no Kratie assignment or reassignment boundary is asserted. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    },
+    {
+      "assignmentId": "icao-vdti-techo",
+      "scheme": "ICAO",
+      "code": "VDTI",
+      "airportId": "apt_b97de260-274b-4cfd-b56e-5f035c6a7768",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2025-09-04",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-27",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "vdti-icao-wp25",
+        "vdti-aip-amdt-0925",
+        "ourairports-pr8-20261025"
+      ],
+      "note": "ICAO indicator issued before operation (date unknown); published AIP operation from 0000 UTC 2025-09-04. The AIP effective date is distinct from the 2025-09-09 airline move and from any IATA date. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
     }
   ],
   "names": [

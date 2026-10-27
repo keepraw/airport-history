@@ -1,0 +1,724 @@
+{
+  "formatVersion": 1,
+  "batchId": "global-3",
+  "reviewedOn": "2026-10-27",
+  "baseCommit": "7c8e0b6623ccce51ee27d25df01631097b359afd",
+  "precondition": {
+    "pr": 7,
+    "mergedAt": "2026-10-27 (verified via GitHub API before branching)",
+    "mergeCommit": "7c8e0b6623ccce51ee27d25df01631097b359afd",
+    "baseBranch": "main"
+  },
+  "selection": {
+    "maximumEvents": 1,
+    "eventCount": 0,
+    "policy": "Admission re-assessment only: no new discovery events. Follow-ups change dispositions of global-1 events whose evidence meets the curated 0.4.0 standard; mappings stay in global-1.",
+    "rawPriorityQueue": "research/discovery/generated/verification-queue.jsonl.gz"
+  },
+  "statusCounts": {
+    "excluded": 0,
+    "insufficient_evidence": 0,
+    "pending_review": 0,
+    "ready_to_admit": 0
+  },
+  "admission": {
+    "airports": 6,
+    "assignments": 9,
+    "names": 0,
+    "formalSources": 14,
+    "dataVersion": "0.5.0",
+    "reason": "Three global-1 events re-assessed against the existing curated standard; six physical airports and nine code intervals admitted with open or uncertain boundaries where evidence stops. Kratie, ZSYT, URRR/URRP and Qiemo remain research-only."
+  },
+  "sources": [
+    {
+      "sourceId": "g3-rov-flydubai",
+      "title": "flydubai statements relating to FZ 981",
+      "url": "https://news.flydubai.com/flydubai-statements-relating-to-fz-981",
+      "sourceType": "primary",
+      "publisherRole": "airline statement",
+      "publishedOn": "2016-03-19",
+      "publicationForm": "original",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "FZ 981 bound for \"Rostov on Don (ROV)\" on 2016-03-19, i.e. the old airport."
+      ],
+      "limitations": "Dated code-use observation only; no allocation date.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://news.flydubai.com/flydubai-statements-relating-to-fz-981",
+          "status": 200,
+          "contentType": "text/html",
+          "bytes": 100091,
+          "sha256": "188e9dd84bd2ec51edf215e6ddbe2a1f17c7dc6875405455798c78439c80555d"
+        }
+      ],
+      "formalSourceId": "rov-flydubai-2016"
+    },
+    {
+      "sourceId": "g3-rov-aeroflot",
+      "title": "Aeroflot agency notice of 2017-11-27 (republished)",
+      "url": "https://aviakassir.info/news/airlines/2963-su-aeroflot-otkrytie-novogo-mezhdunarodnogo-aeroporta-v-g-rostov-na-donu-s-27-11-2017.html",
+      "sourceType": "primary",
+      "publisherRole": "airline agency notice reproduced by a ticketing-agent news site",
+      "publishedOn": "2017-11-27",
+      "publicationForm": "third_party_reproduction",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "From 27.11.2017 Platov holds ROV (previously the old airport’s); the old airport holds temporary RVI; SU flights still use RVI."
+      ],
+      "limitations": "Third-party reproduction; attached IATA notice not available; no time of day; no RVI end.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://aviakassir.info/news/airlines/2963-su-aeroflot-otkrytie-novogo-mezhdunarodnogo-aeroporta-v-g-rostov-na-donu-s-27-11-2017.html",
+          "status": 200,
+          "contentType": "text/html",
+          "bytes": 32763,
+          "sha256": "1f8985aef57d4cef10c5c7bf2a6837e37d7b7b7665c9b202e8d41bbb3a1f43f1"
+        }
+      ],
+      "formalSourceId": "rov-aeroflot-2017"
+    },
+    {
+      "sourceId": "g3-rov-order",
+      "title": "Government order No. 2434-r of 2017-11-04",
+      "url": "https://static.government.ru/media/files/AGCgTsVRezAjhuNIkq7gYA7VIWOLGnWM.pdf",
+      "sourceType": "primary",
+      "publisherRole": "federal government legal act",
+      "publishedOn": "2017-11-04",
+      "publicationForm": "original",
+      "accessedOn": "2026-10-27",
+      "accessResult": "web_content_inspected_origin_download_blocked",
+      "supportedFacts": [
+        "Opens Rostov-on-Don (Platov) and closes the separate civil aerodrome Rostov-on-Don; in force 2017-11-27, closure items 2018-03-01."
+      ],
+      "limitations": "No IATA/ICAO code; legal closure is not code withdrawal.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "error": "CONNECT tunnel failed, response 502 (https)"
+        },
+        {
+          "method": "web_reader",
+          "result": "PDF text inspected at http://static.government.ru/... through the web reader."
+        }
+      ],
+      "formalSourceId": "rov-gov-order-2434r"
+    },
+    {
+      "sourceId": "g3-ynt-dzwww",
+      "title": "Dazhong Yantai: new Penglai airport retains YNT",
+      "url": "https://yantai.dzwww.com/xinwen/ytxw/ytsh/201411/t20141110_11338121.htm",
+      "sourceType": "secondary",
+      "publisherRole": "regional news quoting IATA Beijing staff",
+      "publishedOn": "2014-11-10",
+      "publicationForm": "original",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "YNT is Laishan’s current code; approved for Penglai in September 2014; coordinate prompt planned from 2014-12-11; airlines not yet notified."
+      ],
+      "limitations": "Approval and plan are not implementation; planned opening slipped.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://yantai.dzwww.com/xinwen/ytxw/ytsh/201411/t20141110_11338121.htm",
+          "status": 200,
+          "contentType": "text/html",
+          "bytes": 46114,
+          "sha256": "1c5a4ff676ce9881a451a790c6c9aca1fbd0a246404b9462e940e32887c51a95"
+        }
+      ],
+      "formalSourceId": "ynt-dzwww-2014"
+    },
+    {
+      "sourceId": "g3-ynt-spring",
+      "title": "Spring Airlines notice on Penglai opening",
+      "url": "https://www.ch.com/news/33497b984fc54d96927e965b33fa9a1e.html",
+      "sourceType": "primary",
+      "publisherRole": "airline notice",
+      "publishedOn": "2015-05-13",
+      "publicationForm": "original",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Penglai enters use 2015-05-28 00:00 and Laishan fully closes; all Spring Yantai flights move; 57 km apart."
+      ],
+      "limitations": "States no code.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://www.ch.com/news/33497b984fc54d96927e965b33fa9a1e.html",
+          "status": 200,
+          "contentType": "text/html",
+          "bytes": 54154,
+          "sha256": "16ab4cc1cead2012ba9b7d1b121aac4c34473f3852b92fca518977800bf8851e"
+        }
+      ],
+      "formalSourceId": "ynt-spring-2015"
+    },
+    {
+      "sourceId": "g3-ynt-aip",
+      "title": "AIP China ZSYT/YNT YANTAI/Penglai (EFF2510011600), third-party mirror",
+      "url": "https://yinlei.org/x-plane10/doc/ZSYT.pdf",
+      "sourceType": "primary",
+      "publisherRole": "CAAC AIP aerodrome section reproduced on a personal site",
+      "publishedOn": "2025-10-01",
+      "publicationForm": "third_party_reproduction",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Current AIP heading ZSYT/YNT YANTAI/Penglai."
+      ],
+      "limitations": "Current state only.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://yinlei.org/x-plane10/doc/ZSYT.pdf",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 6067847,
+          "sha256": "415bf3dda30738e2349b6a9f8a5b35186a88e5986ae8aa78867d47d0ea9d62e6"
+        }
+      ],
+      "formalSourceId": "ynt-aip-zsyt-2025"
+    },
+    {
+      "sourceId": "g3-pnh-airportal",
+      "title": "Korea Airportal: Pochentong Airport (PNH/VDPP)",
+      "url": "https://www.airportal.go.kr/file/htmlOpen/upload/airport/PNH.pdf",
+      "sourceType": "secondary",
+      "publisherRole": "government aviation portal compilation",
+      "publishedOn": "2008-12-31 (reference date)",
+      "publicationForm": "original",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Pochentong Airport, codes PNH / VDPP, reference date 2008-12-31."
+      ],
+      "limitations": "Compiled sheet; not an allocation record.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://www.airportal.go.kr/file/htmlOpen/upload/airport/PNH.pdf",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 233404,
+          "sha256": "a4903c43c0a01afa75c930005d91856fa1d74e1afb7685dc79a464ed76511743"
+        }
+      ],
+      "formalSourceId": "pnh-airportal-2008"
+    },
+    {
+      "sourceId": "g3-vdpp-fasid",
+      "title": "ICAO ASIA/PAC FASID Table MET 1A (25/4/2014)",
+      "url": "https://www.icao.int/sites/default/files/APAC/Documents/edocs/FASID/tmet1a.pdf",
+      "sourceType": "primary",
+      "publisherRole": "ICAO regional planning table",
+      "publishedOn": "2014-04-25",
+      "publicationForm": "original",
+      "accessedOn": "2026-10-27",
+      "accessResult": "web_content_inspected_origin_download_blocked",
+      "supportedFacts": [
+        "Lists PHNOM PENH with location indicator VDPP, dated 25/4/2014."
+      ],
+      "limitations": "Planning table, not an allocation record.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://www.icao.int/sites/default/files/APAC/Documents/edocs/FASID/tmet1a.pdf",
+          "status": 403,
+          "contentType": "text/html",
+          "bytes": 5670,
+          "sha256": "0263a4f6fefe27cb7210d66a9260361c2130ea651bf12a84777b3698eb77d554"
+        },
+        {
+          "method": "web_reader",
+          "result": "Full 11-page PDF text inspected through the web reader."
+        }
+      ],
+      "formalSourceId": "vdpp-icao-fasid-2014"
+    },
+    {
+      "sourceId": "g3-pnh-sia",
+      "title": "Singapore Airlines circular: relocation of PNH to KTI airport",
+      "url": "https://agent360.singaporeair.com/content/dam/agent360/web-assets/pdf/local/hk/HKGSQ_Relocation_of_PNH_to_KTI_Airport_SN125.pdf",
+      "sourceType": "primary",
+      "publisherRole": "airline circular",
+      "publishedOn": "2025-08-26",
+      "publicationForm": "original",
+      "accessedOn": "2026-10-27",
+      "accessResult": "previously_inspected_redownload_failed",
+      "supportedFacts": [
+        "Old PNH and new KTI; own services move from 2025-09-09 (content inspected in the global-1 review on this date)."
+      ],
+      "limitations": "Fresh download failed on HTTP/2; relies on the global-1 inspection of the same URL on the same day.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "error": "curl: HTTP/2 stream not closed cleanly"
+        }
+      ],
+      "formalSourceId": "pnh-sia-2025"
+    },
+    {
+      "sourceId": "g3-kti-vna",
+      "title": "Vietnam Airlines: relocation to Techo (KTI)",
+      "url": "https://www.vietnamairlines.com/us/en/vietnam-airlines/press-room/press-release/2025/0819-VNA-chuyen-doi-san-bay-khai-thac-Campuchia",
+      "sourceType": "primary",
+      "publisherRole": "airline press release",
+      "publishedOn": "2025-08-19",
+      "publicationForm": "original",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "PNH to KTI at 00:01 on 2025-09-09 under a Cambodian civil aviation directive."
+      ],
+      "limitations": "Carrier implementation, not allocation.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://www.vietnamairlines.com/us/en/vietnam-airlines/press-room/press-release/2025/0819-VNA-chuyen-doi-san-bay-khai-thac-Campuchia",
+          "status": 200,
+          "contentType": "text/html",
+          "bytes": 1078815,
+          "sha256": "ffb01dc3dc185717ff2a835bc66634d59c4e27fa502b228fc7ddb762d677785f"
+        }
+      ],
+      "formalSourceId": "kti-vna-2025"
+    },
+    {
+      "sourceId": "g3-kti-aeroroutes",
+      "title": "AeroRoutes: KTI schedule filings",
+      "url": "https://www.aeroroutes.com/eng/250721-ktisep25",
+      "sourceType": "secondary",
+      "publisherRole": "schedule-data trade reporting",
+      "publishedOn": "2025-07-22",
+      "publicationForm": "original",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Airlines filing schedules under KTI for the new airport by 2025-07-22."
+      ],
+      "limitations": "Not an allocation record.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://www.aeroroutes.com/eng/250721-ktisep25",
+          "status": 200,
+          "contentType": "text/html",
+          "bytes": 204128,
+          "sha256": "4ce4f9471ac3a02af838aebadd30accc6a08750c977bea7ad7d37cc96659cdb4"
+        }
+      ],
+      "formalSourceId": "kti-aeroroutes-2025"
+    },
+    {
+      "sourceId": "g3-vdti-wp25",
+      "title": "ICAO APAC MET SG/29 WP/25 (Cambodia)",
+      "url": "https://www.icao.int/sites/default/files/APAC/Meetings/2025/2025%20MET%20SG29/3-Working%20Papers/WP25-AI.5-KHM-VDTI-ROBEX-INTEGRATION-Rev.1.pdf",
+      "sourceType": "primary",
+      "publisherRole": "state working paper to an ICAO regional meeting",
+      "publishedOn": "2025-08",
+      "publicationForm": "original",
+      "accessedOn": "2026-10-27",
+      "accessResult": "web_content_inspected_origin_download_blocked",
+      "supportedFacts": [
+        "VDTI received from ICAO and in the Cambodia AIP; Techo operates from 0000 UTC 2025-09-04; VDPP closes 1700 UTC 2025-09-08."
+      ],
+      "limitations": "No IATA content.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "error": "HTTP 403 from workspace curl"
+        },
+        {
+          "method": "web_reader",
+          "result": "Full PDF text inspected through the web reader."
+        }
+      ],
+      "formalSourceId": "vdti-icao-wp25"
+    },
+    {
+      "sourceId": "g3-vdti-aip",
+      "title": "Cambodia AIP AD 2 VDTI, AIRAC AMDT 09/25 (OPSGROUP copy)",
+      "url": "https://ops.group/blog/wp-content/uploads/2025/08/VDTI-AIP.pdf",
+      "sourceType": "primary",
+      "publisherRole": "national AIP reproduced by a third party",
+      "publishedOn": "2025-09-04 (page date)",
+      "publicationForm": "third_party_reproduction",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "VDTI - TECHO INTERNATIONAL AIRPORT, AIRAC AMDT 09/25."
+      ],
+      "limitations": "No IATA field.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://ops.group/blog/wp-content/uploads/2025/08/VDTI-AIP.pdf",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 8589203,
+          "sha256": "49efcc44212355473c5cba7c0343cd4c35668c054586de6f44c018e1c9aaf09d"
+        }
+      ],
+      "formalSourceId": "vdti-aip-amdt-0925"
+    }
+  ],
+  "events": [],
+  "followUps": [
+    {
+      "eventGroupId": "global-1-rov",
+      "priorBatchId": "global-1",
+      "priorStatus": "insufficient_evidence",
+      "currentStatus": "ready_to_admit",
+      "dispositionChanged": true,
+      "changeReason": "The 0.4.0 dataset admits code exchanges on day-precision airline/authority reports (IST, NQZ, RMO, BER). Aeroflot’s dated notice, consistent with the government order’s effective date, meets that standard; global-1 applied a stricter primary-IATA requirement.",
+      "candidateIds": [],
+      "primaryCandidateIdReference": "cand_7fc9b08615e93efbdffdc2a8",
+      "searches": [
+        "Targeted re-assessment of already-retrieved evidence against the curated 0.4.0 admission standard (docs/evidence.md, batch-1); one targeted search per missing observation bound."
+      ],
+      "sourceIds": [
+        "g3-rov-flydubai",
+        "g3-rov-aeroflot",
+        "g3-rov-order"
+      ],
+      "claimFindings": {
+        "physicalIdentity": {
+          "conclusion": "Old Rostov-on-Don airfield and new Platov are separate airports; a federal order opens one and closes the other.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "g3-rov-order"
+          ]
+        },
+        "iata": {
+          "conclusion": "ROV at old Rostov observed 2016-03-19; Aeroflot (citing IATA) dates ROV to Platov and temporary RVI to the old airport from 2017-11-27.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "g3-rov-flydubai",
+            "g3-rov-aeroflot"
+          ]
+        },
+        "icao": {
+          "conclusion": "URRR/URRP not admitted: no retrieved AIP amendment or dated primary indicator record.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "g3-rov-order"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "ROV/RVI switch on 2017-11-27 at day precision; passenger move 2017-12-07 and legal closure 2018-03-01 are separate and not used as code boundaries; RVI end open.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "g3-rov-aeroflot",
+            "g3-rov-order"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "No official-name interval admitted; display labels are reference only.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "g3-rov-order"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "Legal civil closure 2018-03-01 directly established; not a code withdrawal.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "g3-rov-order"
+          ]
+        }
+      },
+      "negativeResults": [
+        "IATA notice attached to the Aeroflot circular not retrieved.",
+        "No RVI withdrawal record.",
+        "No URRP/URRR AIP amendment."
+      ],
+      "remainingGaps": [
+        "RVI withdrawal date.",
+        "URRR/URRP effective dates.",
+        "Exact time of day of the 2017-11-27 switch."
+      ],
+      "nextAction": "Obtain the IATA notice or a GDS bulletin to narrow the switch instant and find any RVI withdrawal; seek Russian AIP AIRAC pages for URRP/URRR.",
+      "admittedAirportIds": [
+        "apt_0fd3915b-6dd8-4391-a840-9992db9683cf",
+        "apt_4c75d2ab-29db-4593-8b78-6104b8bdb720"
+      ],
+      "admittedAssignmentIds": [
+        "iata-rov-rostov-on-don",
+        "iata-rov-platov",
+        "iata-rvi-rostov-on-don"
+      ],
+      "admittedNameIds": [],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": true,
+        "note": "Admitted intervals join dated observations and documented transfer evidence by reviewed continuity inference, the same standard as the 0.4.0 TAO, IST, HKG, DEN, ISB, BER, NQZ and RMO intervals. Unknown boundaries stay open or uncertain."
+      },
+      "expectedResolverBehaviour": [
+        "ROV before 2016-03-20: uncertain (old site possible; first allocation unknown).",
+        "ROV 2016-03-20..2017-11-26: resolved old Rostov-on-Don.",
+        "ROV 2017-11-27: uncertain (both).",
+        "ROV from 2017-11-28: resolved Platov.",
+        "RVI any date: uncertain (old site possible; no certain interval because RVI end is unknown)."
+      ]
+    },
+    {
+      "eventGroupId": "global-1-ynt",
+      "priorBatchId": "global-1",
+      "priorStatus": "insufficient_evidence",
+      "currentStatus": "ready_to_admit",
+      "dispositionChanged": true,
+      "changeReason": "Equivalent to the 0.4.0 TAO pattern (reported IATA retention approval + actual civil transfer + current corroboration), with a wider uncertainty window because the approval was not tied to the opening instant.",
+      "candidateIds": [],
+      "primaryCandidateIdReference": "cand_8ac1b12707d7c441ce708d32",
+      "searches": [
+        "Targeted re-assessment of already-retrieved evidence against the curated 0.4.0 admission standard (docs/evidence.md, batch-1); one targeted search per missing observation bound."
+      ],
+      "sourceIds": [
+        "g3-ynt-dzwww",
+        "g3-ynt-spring",
+        "g3-ynt-aip"
+      ],
+      "claimFindings": {
+        "physicalIdentity": {
+          "conclusion": "Laishan and Penglai are separate sites 57 km apart by road.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "g3-ynt-spring"
+          ]
+        },
+        "iata": {
+          "conclusion": "YNT observed at Laishan on 2014-11-10 and approved for Penglai; complete civil transfer on 2015-05-28 00:00; current AIP shows YNT at Penglai.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "g3-ynt-dzwww",
+            "g3-ynt-spring",
+            "g3-ynt-aip"
+          ]
+        },
+        "icao": {
+          "conclusion": "ZSYT not admitted: Laishan 2013 chart and Penglai 2025 AIP lack a changeover record.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "g3-ynt-aip"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "YNT switch uncertain anywhere from 2014-11-10 to 2015-05-28; neither the planned 2014-12-11 update nor the opening is asserted as the switch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "g3-ynt-dzwww",
+            "g3-ynt-spring"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "No official-name interval admitted.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "g3-ynt-spring"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "Laishan civil use replaced by Penglai at 2015-05-28 00:00; continued military use not modelled.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "g3-ynt-spring"
+          ]
+        }
+      },
+      "negativeResults": [
+        "No IATA/CAAC/GDS implementation record.",
+        "No ZSYT changeover amendment."
+      ],
+      "remainingGaps": [
+        "Actual YNT repointing date.",
+        "Earlier dated YNT observation at Laishan (start before 2014-11-11 unknown).",
+        "ZSYT history."
+      ],
+      "nextAction": "Retrieve CAAC AIRAC 1506 amendment or Travelsky/IATA bulletin; find a pre-2014 dated YNT observation to tighten the Laishan start.",
+      "admittedAirportIds": [
+        "apt_7923bd7d-2855-4d5f-b979-63a5380cd3da",
+        "apt_0f0ebbe2-ce55-4b70-8d22-c760fe94777e"
+      ],
+      "admittedAssignmentIds": [
+        "iata-ynt-laishan",
+        "iata-ynt-penglai"
+      ],
+      "admittedNameIds": [],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": true,
+        "note": "Admitted intervals join dated observations and documented transfer evidence by reviewed continuity inference, the same standard as the 0.4.0 TAO, IST, HKG, DEN, ISB, BER, NQZ and RMO intervals. Unknown boundaries stay open or uncertain."
+      },
+      "expectedResolverBehaviour": [
+        "YNT before 2014-11-11: uncertain (Laishan possible).",
+        "YNT 2014-11-10..2015-05-27: uncertain (Laishan and Penglai).",
+        "YNT from 2015-05-28: resolved Penglai."
+      ]
+    },
+    {
+      "eventGroupId": "global-1-pnh",
+      "priorBatchId": "global-1",
+      "priorStatus": "insufficient_evidence",
+      "currentStatus": "ready_to_admit",
+      "dispositionChanged": true,
+      "changeReason": "Separate dated observations bound each assignment without inventing allocation or withdrawal dates, as the 0.4.0 intervals do; global-1 deferred all four together because Kratie and withdrawal questions were unresolved.",
+      "candidateIds": [],
+      "primaryCandidateIdReference": "legacy-phnom-penh",
+      "searches": [
+        "Targeted re-assessment of already-retrieved evidence against the curated 0.4.0 admission standard (docs/evidence.md, batch-1); one targeted search per missing observation bound."
+      ],
+      "sourceIds": [
+        "g3-pnh-airportal",
+        "g3-vdpp-fasid",
+        "g3-pnh-sia",
+        "g3-kti-vna",
+        "g3-kti-aeroroutes",
+        "g3-vdti-wp25",
+        "g3-vdti-aip"
+      ],
+      "claimFindings": {
+        "physicalIdentity": {
+          "conclusion": "Pochentong (old PNH/VDPP) and greenfield Techo are separate airports; Kratie is a third, unadmitted site.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "g3-vdti-wp25",
+            "g3-vdti-aip"
+          ]
+        },
+        "iata": {
+          "conclusion": "PNH observed at Pochentong (2008-12-31 reference) and used until operations moved at 00:01 on 2025-09-09; KTI filed for Techo by 2025-07-22.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "g3-pnh-airportal",
+            "g3-pnh-sia",
+            "g3-kti-vna",
+            "g3-kti-aeroroutes"
+          ]
+        },
+        "icao": {
+          "conclusion": "VDPP observed 2014-04-25; Cambodia states Techo VDTI operates from 0000 UTC 2025-09-04 and VDPP closes 1700 UTC 2025-09-08.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "g3-vdpp-fasid",
+            "g3-vdti-wp25",
+            "g3-vdti-aip"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "PNH and VDPP ends have earliest bounds only (no withdrawal records); KTI and VDTI starts have latest bounds only (allocation dates unknown). AIP effective date, airline move and IATA allocation are kept distinct.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "g3-vdti-wp25",
+            "g3-kti-vna",
+            "g3-kti-aeroroutes"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "No official-name interval admitted.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "g3-vdti-aip"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "Techo replaced Pochentong for civil service; aerodrome closure is not indicator withdrawal.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "g3-vdti-wp25"
+          ]
+        }
+      },
+      "negativeResults": [
+        "No IATA allocation record for KTI at Techo or Kratie.",
+        "No PNH/VDPP withdrawal record."
+      ],
+      "remainingGaps": [
+        "KTI allocation date at Techo and Kratie history (global-1-kti stays insufficient_evidence).",
+        "PNH and VDPP withdrawal or reuse."
+      ],
+      "nextAction": "Keep global-1-kti open for Kratie; seek CATS eAIP history and IATA records for PNH retention and KTI allocation.",
+      "admittedAirportIds": [
+        "apt_dafb3e33-c7ed-431a-b8e8-22eecf543107",
+        "apt_b97de260-274b-4cfd-b56e-5f035c6a7768"
+      ],
+      "admittedAssignmentIds": [
+        "iata-pnh-pochentong",
+        "icao-vdpp-pochentong",
+        "iata-kti-techo",
+        "icao-vdti-techo"
+      ],
+      "admittedNameIds": [],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": true,
+        "note": "Admitted intervals join dated observations and documented transfer evidence by reviewed continuity inference, the same standard as the 0.4.0 TAO, IST, HKG, DEN, ISB, BER, NQZ and RMO intervals. Unknown boundaries stay open or uncertain."
+      },
+      "expectedResolverBehaviour": [
+        "PNH 2009-01-01..2025-09-08: resolved Pochentong; earlier and from 2025-09-09: uncertain.",
+        "VDPP 2014-04-26..2025-09-07: resolved Pochentong; from 2025-09-08: uncertain.",
+        "KTI from 2025-07-23: resolved Techo; earlier: uncertain (Kratie not modelled).",
+        "VDTI from 2025-09-04: resolved Techo; earlier: uncertain."
+      ]
+    }
+  ],
+  "nextBatch": []
+}

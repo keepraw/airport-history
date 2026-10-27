@@ -19,7 +19,9 @@ def validate_batch(batch):
     events = batch['events']
     ceiling = batch['selection']['maximumEvents']
     require(isinstance(ceiling, int) and 0 < ceiling <= MAX_EVENTS, 'Wrong batch ceiling')
-    require(0 < len(events) <= MAX_EVENTS, 'A verification batch must contain at most 20 events')
+    require(len(events) <= MAX_EVENTS, 'A verification batch must contain at most 20 events')
+    # A batch may hold only follow-ups (e.g. an admission review of earlier events) but never nothing.
+    require(events or batch.get('followUps'), 'A verification batch must review at least one event or follow-up')
     require(len(events) <= ceiling, f'A verification batch must contain at most {ceiling} events')
     require(batch['selection']['eventCount'] == len(events), 'Wrong reviewed event count')
     require(re.fullmatch(r'\d{4}-\d{2}-\d{2}', batch['reviewedOn']), 'Missing review date')
@@ -74,6 +76,9 @@ def validate_follow_up(follow_up, sources):
         require(follow_up.get('changeReason'), 'Changed follow-up disposition lacks a documented reason')
     require(follow_up.get('searches') and follow_up.get('negativeResults') is not None, 'Follow-up lacks documented searches/negative results')
     require(follow_up.get('remainingGaps') or follow_up['currentStatus'] == 'ready_to_admit', 'Follow-up lacks retained gaps')
+    admitted = [follow_up.get(k, []) for k in ('admittedAirportIds', 'admittedAssignmentIds', 'admittedNameIds')]
+    if follow_up['currentStatus'] != 'ready_to_admit':
+        require(not any(admitted), 'Unready follow-up promoted to formal data')
     require(follow_up.get('sourceIds') and set(follow_up['sourceIds']) <= sources.keys(), 'Unknown follow-up evidence source')
     require(set(follow_up.get('claimFindings', {})) == CLAIMS, 'Missing claim-specific follow-up findings')
     for claim in follow_up['claimFindings'].values():
@@ -93,7 +98,7 @@ def batch_order(batch_id):
 def validate_batch_series(batches):
     """Check all completed batches together: unique IDs and mappings, follow-ups only reference earlier events."""
     ordered = sorted(batches, key=lambda b: batch_order(b['batchId']))
-    batch_ids, events, candidates = set(), {}, {}
+    batch_ids, events, candidates, chain = set(), {}, {}, {}
     for batch in ordered:
         validate_batch(batch)
         require(batch['batchId'] not in batch_ids, f"Duplicate batch ID: {batch['batchId']}")
@@ -102,10 +107,10 @@ def validate_batch_series(batches):
             require(target is not None, f"Follow-up references no earlier event: {follow_up['eventGroupId']}")
             owner, event = target
             require(follow_up['priorBatchId'] == owner, f"Follow-up names the wrong owning batch: {follow_up['eventGroupId']}")
-            # The owning batch record is the live disposition; a follow-up must agree with it.
-            require(event['status'] == follow_up['currentStatus'], f"Follow-up status disagrees with owning event: {follow_up['eventGroupId']}")
-            if not follow_up['dispositionChanged']:
-                require(event['status'] == follow_up['priorStatus'], f"Unchanged follow-up disagrees with owning event: {follow_up['eventGroupId']}")
+            # Follow-ups form an ordered chain from the owning batch's original disposition.
+            require(chain[follow_up['eventGroupId']] == follow_up['priorStatus'],
+                    f"Follow-up prior status breaks the disposition chain: {follow_up['eventGroupId']}")
+            chain[follow_up['eventGroupId']] = follow_up['currentStatus']
         batch_ids.add(batch['batchId'])
         for event in batch['events']:
             for cid in event['candidateIds'] + event['relatedCandidateIds']:
@@ -113,6 +118,17 @@ def validate_batch_series(batches):
                 candidates[cid] = event['eventGroupId']
             require(event['eventGroupId'] not in events, f"Duplicate event group across batches: {event['eventGroupId']}")
             events[event['eventGroupId']] = (batch['batchId'], event)
+            history = event.get('dispositionHistory', [])
+            for entry in history:
+                require(entry.get('status') in DISPOSITIONS and entry.get('recordedIn') and entry.get('reason'),
+                        f"Incomplete disposition history: {event['eventGroupId']}")
+            chain[event['eventGroupId']] = history[0]['status'] if history else event['status']
+    for group, (owner, event) in events.items():
+        history = event.get('dispositionHistory', [])
+        require(not history or history[0]['recordedIn'] == owner, f"Disposition history must start in the owning batch: {group}")
+    for group, status in chain.items():
+        # The owning record is the live disposition; the last follow-up must agree with it.
+        require(events[group][1]['status'] == status, f"Follow-up status disagrees with owning event: {group}")
     return candidates
 
 

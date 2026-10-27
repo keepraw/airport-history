@@ -33,7 +33,7 @@ class RefreshReviewsTest(unittest.TestCase):
             path = self.root / name
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_bytes(raw)
-        for name in ('batches/global-1.json', 'batches/global-2.json', 'reviews.json'):
+        for name in ('batches/global-1.json', 'batches/global-2.json', 'batches/global-3.json', 'reviews.json'):
             path = self.discovery / name
             path.parent.mkdir(parents=True, exist_ok=True)
             path.write_bytes((ROOT / 'research/discovery' / name).read_bytes())
@@ -53,7 +53,8 @@ class RefreshReviewsTest(unittest.TestCase):
             'inputs': {name: digest(self.root / name) for name in self.inputs},
             'reviewInputs': {str(p.relative_to(self.root)): digest(p) for p in
                              [self.discovery / 'reviews.json', self.discovery / 'batches/global-1.json',
-                              self.discovery / 'batches/global-2.json']},
+                              self.discovery / 'batches/global-2.json',
+                              self.discovery / 'batches/global-3.json']},
         })
 
     def snapshot(self):

@@ -29,6 +29,17 @@ def main():
     baseline = json.loads((ROOT / 'research/discovery/curated-baseline.json').read_text())
     require(hashlib.sha256((ROOT / 'data/airports.json').read_bytes()).hexdigest() == baseline['sha256'], 'Curated historical facts changed')
     dataset = json.loads((ROOT / 'data/airports.json').read_text())
+    require(all(baseline[k] == len(dataset[k]) for k in ('airports', 'assignments', 'names', 'sources')) and
+            baseline['dataVersion'] == dataset['dataVersion'], 'Curated baseline counts/version are stale')
+    # Every earlier reviewed dataset stays protected: its records must survive byte-for-byte as JSON values.
+    for previous in baseline['preservedBaselines']:
+        raw = (ROOT / previous['record']).read_bytes()
+        require(hashlib.sha256(raw).hexdigest() == previous['sha256'], f"Preserved curated record changed: {previous['record']}")
+        frozen = json.loads(raw)
+        for key, id_key in (('airports', 'airportId'), ('assignments', 'assignmentId'), ('names', 'nameId'), ('sources', 'sourceId')):
+            current = {r[id_key]: r for r in dataset[key]}
+            require(all(current.get(r[id_key]) == r for r in frozen[key]),
+                    f"Pre-{dataset['dataVersion']} curated {key} changed or removed (baseline {previous['dataVersion']})")
     airports = {r['airportId'] for r in dataset['airports']}
     assignments = {r['assignmentId'] for r in dataset['assignments']}
     names = {r['nameId'] for r in dataset['names']}
@@ -123,10 +134,14 @@ def main():
             if observation:
                 raw = reviewed_rows[observation['candidateId']]
                 require(all(observation[k] == raw[k] for k in ('sourceId', 'sourceEntityId', 'changes', 'observations')), 'Review altered pinned source transition')
+        for follow_up in batch.get('followUps', []):
+            require(set(follow_up.get('admittedAirportIds', [])) <= airports, 'Follow-up admits a missing airport')
+            require(set(follow_up.get('admittedAssignmentIds', [])) <= assignments, 'Follow-up admits a missing assignment')
+            require(set(follow_up.get('admittedNameIds', [])) <= names, 'Follow-up admits a missing name')
         for lead in batch['nextBatch']:
             require(lead['candidateId'] in known_ids, 'Dangling next-batch lead')
     require(set(lock.get('reviewInputs', {})) == {'research/discovery/reviews.json', *(r['path'] for r in batches)}, 'Unmanifested review evidence')
-    print(f'Validated {grand_total:,} source candidates, {link_count:,} code-association leads, {len(legacy)} legacy leads; curated data unchanged.')
+    print(f'Validated {grand_total:,} source candidates, {link_count:,} code-association leads, {len(legacy)} legacy leads; curated data matches the reviewed baseline and preserved earlier records.')
     print(f'Validated {len(batches)} bounded review batch(es), {len(reviews)} live candidate review overrides.')
 
 

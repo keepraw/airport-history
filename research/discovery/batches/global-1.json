@@ -18,9 +18,9 @@
   },
   "statusCounts": {
     "excluded": 4,
-    "insufficient_evidence": 12,
+    "insufficient_evidence": 9,
     "pending_review": 4,
-    "ready_to_admit": 0
+    "ready_to_admit": 3
   },
   "admission": {
     "airports": 0,
@@ -1226,7 +1226,7 @@
       "eventGroupId": "global-1-ynt",
       "label": "Yantai Laishan / Penglai",
       "reviewedOn": "2026-10-27",
-      "status": "insufficient_evidence",
+      "status": "ready_to_admit",
       "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
       "candidateIds": [
         "cand_8ac1b12707d7c441ce708d32",
@@ -1349,13 +1349,28 @@
             "ynt-spring-move"
           ]
         }
-      ]
+      ],
+      "dispositionHistory": [
+        {
+          "status": "insufficient_evidence",
+          "recordedIn": "global-1",
+          "reviewedOn": "2026-10-27",
+          "reason": "Original PR #6 conclusion; claims, gaps and next action above are preserved unchanged."
+        },
+        {
+          "status": "ready_to_admit",
+          "recordedIn": "global-3",
+          "reviewedOn": "2026-10-27",
+          "reason": "Equivalent to the 0.4.0 TAO pattern (reported IATA retention approval + actual civil transfer + current corroboration), with a wider uncertainty window because the approval was not tied to the opening instant."
+        }
+      ],
+      "admissionReview": "research/discovery/batches/global-3.json"
     },
     {
       "eventGroupId": "global-1-rov",
       "label": "Rostov-on-Don / Platov ROV and RVI",
       "reviewedOn": "2026-10-27",
-      "status": "insufficient_evidence",
+      "status": "ready_to_admit",
       "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
       "candidateIds": [
         "cand_7fc9b08615e93efbdffdc2a8",
@@ -1507,7 +1522,22 @@
             "rov-history"
           ]
         }
-      ]
+      ],
+      "dispositionHistory": [
+        {
+          "status": "insufficient_evidence",
+          "recordedIn": "global-1",
+          "reviewedOn": "2026-10-27",
+          "reason": "Original PR #6 conclusion; claims, gaps and next action above are preserved unchanged."
+        },
+        {
+          "status": "ready_to_admit",
+          "recordedIn": "global-3",
+          "reviewedOn": "2026-10-27",
+          "reason": "The 0.4.0 dataset admits code exchanges on day-precision airline/authority reports (IST, NQZ, RMO, BER). Aeroflot’s dated notice, consistent with the government order’s effective date, meets that standard; global-1 applied a stricter primary-IATA requirement."
+        }
+      ],
+      "admissionReview": "research/discovery/batches/global-3.json"
     },
     {
       "eventGroupId": "global-1-lyg",
@@ -2168,7 +2198,7 @@
       "eventGroupId": "global-1-pnh",
       "label": "Phnom Penh Pochentong / Techo",
       "reviewedOn": "2026-10-27",
-      "status": "insufficient_evidence",
+      "status": "ready_to_admit",
       "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
       "candidateIds": [
         "legacy-phnom-penh"
@@ -2261,7 +2291,22 @@
       ],
       "relatedEventGroupIds": [
         "global-1-kti"
-      ]
+      ],
+      "dispositionHistory": [
+        {
+          "status": "insufficient_evidence",
+          "recordedIn": "global-1",
+          "reviewedOn": "2026-10-27",
+          "reason": "Original PR #6 conclusion; claims, gaps and next action above are preserved unchanged."
+        },
+        {
+          "status": "ready_to_admit",
+          "recordedIn": "global-3",
+          "reviewedOn": "2026-10-27",
+          "reason": "Separate dated observations bound each assignment without inventing allocation or withdrawal dates, as the 0.4.0 intervals do; global-1 deferred all four together because Kratie and withdrawal questions were unresolved."
+        }
+      ],
+      "admissionReview": "research/discovery/batches/global-3.json"
     },
     {
       "eventGroupId": "global-1-aap",
