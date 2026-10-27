@@ -574,7 +574,7 @@
         "url": null,
         "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
       },
-      "note": "Trade report published 2025-07-22: airlines filing operational schedules at the new Phnom Penh airport under IATA code KTI, replacing PNH from 09SEP25. Bounds the unknown first KTI allocation to Techo by 2025-07-23."
+      "note": "Trade report published 2025-07-22: airlines filing schedules under IATA code KTI for the new Phnom Penh airport for travel from 09SEP25, replacing PNH. Shows KTI was usable in reservation systems before opening; it is not evidence of KTI flights operated at Techo before 2025-09-09 and does not set the assignment's latest start."
     },
     {
       "sourceId": "vdti-icao-wp25",
@@ -1916,7 +1916,7 @@
       "airportId": "apt_b97de260-274b-4cfd-b56e-5f035c6a7768",
       "validFrom": {
         "earliest": null,
-        "latest": "2025-07-23",
+        "latest": "2025-09-10",
         "precision": "unknown"
       },
       "validTo": {
@@ -1933,7 +1933,7 @@
         "pnh-sia-2025",
         "ourairports-pr8-20261025"
       ],
-      "note": "Techo, a greenfield site separate from Pochentong and from Kratie. The IATA allocation date is unknown, so the start has no earliest bound; schedules were filed under KTI by 2025-07-22, and carriers moved operations at 2025-09-09. KTI was previously associated with Kratie according to a Cambodian embassy notice, but no dated Kratie observation is admitted, so no Kratie assignment or reassignment boundary is asserted. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+      "note": "Techo, a greenfield site separate from Pochentong and from Kratie. The IATA allocation date is unknown, so the start has no earliest bound. Schedules filed under KTI by 2025-07-22 were for travel from 2025-09-09 and show booking availability, not flights operated at Techo under KTI; they are not used as a flight-date boundary. Carriers moved operations at 00:01 local on 2025-09-09, so that whole local date stays uncertain and the latest start is 2025-09-10. KTI was previously associated with Kratie according to a Cambodian embassy notice, but no dated Kratie observation is admitted, so no Kratie assignment or reassignment boundary is asserted. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
     },
     {
       "assignmentId": "icao-vdti-techo",

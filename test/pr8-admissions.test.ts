@@ -73,8 +73,10 @@ describe("PR #8 resolver behaviour around uncertain transitions", () => {
     ["PNH", "2025-09-08", "IATA", "resolved", "pochentong"],
     ["PNH", "2025-09-09", "IATA", "uncertain", null],
     ["PNH", "2008-06-01", "IATA", "uncertain", null],
-    ["KTI", "2025-09-09", "IATA", "resolved", "techo"],
-    ["KTI", "2025-07-23", "IATA", "resolved", "techo"],
+    ["KTI", "2025-09-10", "IATA", "resolved", "techo"],
+    ["KTI", "2025-09-09", "IATA", "uncertain", null],
+    ["KTI", "2025-09-08", "IATA", "uncertain", null],
+    ["KTI", "2025-07-23", "IATA", "uncertain", null],
     ["KTI", "2025-07-22", "IATA", "uncertain", null],
     ["KTI", "2020-01-01", "IATA", "uncertain", null],
     ["VDTI", "2025-09-04", "ICAO", "resolved", "techo"],
@@ -112,9 +114,11 @@ describe("PR #8 resolver behaviour around uncertain transitions", () => {
       expect(a.validFrom.earliest).toBeNull();
     }
   });
-  it("opening and planned dates are not code boundaries", () => {
+  it("opening, planned and booking-availability dates are not code boundaries", () => {
     const platov = data.assignments.find((a) => a.assignmentId === "iata-rov-platov")!;
     expect(platov.validFrom).toEqual({ earliest: "2017-11-27", latest: "2017-11-28", precision: "day" });
+    const kti = data.assignments.find((a) => a.assignmentId === "iata-kti-techo")!;
+    expect(kti.validFrom).toEqual({ earliest: null, latest: "2025-09-10", precision: "unknown" });
     const penglai = data.assignments.find((a) => a.assignmentId === "iata-ynt-penglai")!;
     expect(penglai.validFrom).toEqual({ earliest: "2014-11-10", latest: "2015-05-28", precision: "unknown" });
   });

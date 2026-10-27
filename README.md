@@ -266,7 +266,7 @@ the two Astana name intervals added in 0.4.0.
 | ROV / RVI | Old Rostov-on-Don → Platov; old field gets temporary RVI | 2017-11-27, day precision | 2016: old field; 2017-11-28 onward: Platov; switch day uncertain; RVI always uncertain (end unknown) |
 | YNT | Yantai Laishan → Yantai Penglai | between 2014-11-10 and 2015-05-28 | Before 2014-11-11: uncertain (start unknown); window uncertain; 2015-05-28 onward: Penglai |
 | PNH / VDPP | Phnom Penh (Pochentong), replaced by Techo | earliest end 2025-09-09 (PNH) / 2025-09-08 (VDPP); withdrawal unknown | 2015: Pochentong; after the move: uncertain, not reassigned |
-| KTI / VDTI | Techo (greenfield; Kratie history not admitted) | latest start 2025-07-23 (KTI) / 2025-09-04 (VDTI) | After those dates: Techo; earlier: uncertain |
+| KTI / VDTI | Techo (greenfield; Kratie history not admitted) | latest start 2025-09-10 (KTI; 2025-09-09 transfer day uncertain) / 2025-09-04 (VDTI) | After those dates: Techo; earlier: uncertain |
 
 The validator intentionally reports eight code-overlap warnings (IST, HKG,
 VHHH, DEN, ISL, ISB, ROV and YNT) plus one Astana official-name boundary warning. These

@@ -99,9 +99,13 @@ Every assignment is `verified` / `continuity_inference`, verified 2026-10-27.
   Cambodia states the aerodrome closes 1700 UTC 2025-09-08. End ≥ 2025-09-08,
   no latest bound (closure is not indicator withdrawal).
 - **IATA KTI at Techo — admitted.** Start: no earliest bound (allocation date
-  unknown; KTI is reported as previously Kratie's), latest 2025-07-23 from
-  AeroRoutes' 2025-07-22 schedule-filing report; Vietnam Airlines and Singapore
-  Airlines corroborate; open end.
+  unknown; KTI is reported as previously Kratie's), latest **2025-09-10**; open
+  end. AeroRoutes' 2025-07-22 report shows schedules filed under KTI for travel
+  from 2025-09-09: booking availability for future flights, not flights operated
+  at Techo under KTI, so it is not a flight-date boundary (revised in review; an
+  earlier draft used 2025-07-23). Vietnam Airlines moved operations at 00:01
+  local on 2025-09-09 and Singapore Airlines from that date; under the
+  resolver's whole-local-date rule the transfer day stays uncertain.
 - **ICAO VDTI — admitted.** Latest start 2025-09-04, the AIP/ICAO-stated
   operating date; indicator issue date unknown; open end. The AIP effective date
   (2025-09-04), airline move (2025-09-09) and IATA allocation (unknown) remain
@@ -136,15 +140,16 @@ Every assignment is `verified` / `continuity_inference`, verified 2026-10-27.
 | YNT 2015-05-28 / 2020-01-01 | not_found | Penglai |
 | PNH 2015-01-01 / 2025-09-08 | not_found | Pochentong |
 | PNH 2025-09-09 | not_found | uncertain (no withdrawal record) |
-| KTI 2025-07-23 / 2025-09-09 | not_found | Techo |
+| KTI 2025-07-23 / 2025-09-09 | not_found | uncertain (booking-only / transfer day) |
+| KTI 2025-09-10 | not_found | Techo |
 | KTI 2020-01-01 | not_found | uncertain (Kratie not modelled) |
 | VDTI 2025-09-04 | not_found | Techo |
 | VDPP 2020-01-01 / 2025-09-07 | not_found | Pochentong |
 | ZSYT, URRR any date | not_found | not_found (not admitted) |
 
 Within the 2026-10-25 evidence horizon, the newly certain intervals cover
-19,161 code-days that previously returned `not_found`: ROV old 617, ROV Platov
-3,253, YNT Penglai 4,168, PNH 6,095, VDPP 4,153, KTI 459, VDTI 416. All
+19,112 code-days that previously returned `not_found`: ROV old 617, ROV Platov
+3,253, YNT Penglai 4,168, PNH 6,095, VDPP 4,153, KTI 410, VDTI 416. All
 existing 0.4.0 queries and warnings are unchanged; the validator adds exactly
 two expected possible-overlap warnings (ROV, YNT).
 

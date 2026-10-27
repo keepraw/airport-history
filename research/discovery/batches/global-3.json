@@ -341,7 +341,7 @@
       "accessedOn": "2026-10-27",
       "accessResult": "content_inspected",
       "supportedFacts": [
-        "Airlines filing schedules under KTI for the new airport by 2025-07-22."
+        "Airlines filing schedules under KTI by 2025-07-22 for travel from 2025-09-09 (booking availability, not operations)."
       ],
       "limitations": "Not an allocation record.",
       "license": {
@@ -645,7 +645,7 @@
           ]
         },
         "iata": {
-          "conclusion": "PNH observed at Pochentong (2008-12-31 reference) and used until operations moved at 00:01 on 2025-09-09; KTI filed for Techo by 2025-07-22.",
+          "conclusion": "PNH observed at Pochentong (2008-12-31 reference) and used until operations moved at 00:01 on 2025-09-09; KTI filed for Techo by 2025-07-22 for travel from 2025-09-09; operations under KTI begin at 00:01 local on 2025-09-09.",
           "evidenceType": "indirect",
           "sourceIds": [
             "g3-pnh-airportal",
@@ -715,7 +715,7 @@
       "expectedResolverBehaviour": [
         "PNH 2009-01-01..2025-09-08: resolved Pochentong; earlier and from 2025-09-09: uncertain.",
         "VDPP 2014-04-26..2025-09-07: resolved Pochentong; from 2025-09-08: uncertain.",
-        "KTI from 2025-07-23: resolved Techo; earlier: uncertain (Kratie not modelled).",
+        "KTI from 2025-09-10: resolved Techo; 2025-09-09 (00:01 transfer day) and earlier: uncertain (allocation date unknown; Kratie not modelled).",
         "VDTI from 2025-09-04: resolved Techo; earlier: uncertain."
       ]
     }
