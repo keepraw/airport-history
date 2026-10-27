@@ -133,6 +133,64 @@ class RefreshReviewsTest(unittest.TestCase):
                 self.assertEqual(self.snapshot(), before)
                 path.write_bytes(original)
 
+    def assert_semantic_refresh_rejected(self, mutate, message):
+        # Each mutation starts from valid JSON; hash refresh is allowed for reviews.
+        reviews = json.loads((ROOT / 'research/discovery/reviews.json').read_text())
+        mutate(reviews)
+        write_json(self.discovery / 'reviews.json', reviews)
+        before = self.snapshot()
+        with patch('refresh_reviews.write_json', side_effect=AssertionError('Output write attempted')):
+            with self.assertRaisesRegex(ValueError, message):
+                refresh_reviews(self.root)
+        self.assertEqual(self.snapshot(), before)
+
+    def test_status_mismatch_is_rejected_before_any_output_write(self):
+        def mismatch(reviews):
+            review = reviews[next(iter(reviews))]
+            review['status'] = 'pending_review' if review['status'] != 'pending_review' else 'insufficient_evidence'
+        self.assert_semantic_refresh_rejected(mismatch, 'Review status disagrees with batch')
+
+    def test_event_group_mismatch_is_rejected_before_any_output_write(self):
+        def mismatch(reviews):
+            reviews[next(iter(reviews))]['eventGroupId'] = 'global-1-wrong-event'
+        self.assert_semantic_refresh_rejected(mismatch, 'Review event group disagrees with batch')
+
+    def test_evidence_path_mismatch_is_rejected_before_any_output_write(self):
+        def mismatch(reviews):
+            reviews[next(iter(reviews))]['evidenceReview'] = 'research/discovery/batches/wrong.json'
+        self.assert_semantic_refresh_rejected(mismatch, 'Review evidence path disagrees with batch')
+
+    def test_orphaned_and_missing_overrides_are_rejected_without_output_changes(self):
+        def orphan(reviews):
+            reviews['cand_orphan'] = copy.deepcopy(reviews[next(iter(reviews))])
+        def missing(reviews):
+            del reviews[next(iter(reviews))]
+        for mutation, message in [(orphan, 'Orphaned candidate review overrides'),
+                                  (missing, 'Missing candidate review mappings')]:
+            with self.subTest(error=message):
+                self.assert_semantic_refresh_rejected(mutation, message)
+
+    def test_required_review_fields_are_validated_before_output_changes(self):
+        cases = [('status', 'unknown', 'Invalid review status'),
+                 ('nextAction', '', 'Missing review nextAction'),
+                 ('nextAction', '   ', 'Missing review nextAction'),
+                 ('evidenceGaps', [], 'Missing review evidenceGaps'),
+                 ('evidenceGaps', ['   '], 'Missing review evidenceGaps'),
+                 ('exclusionReason', '', 'Missing review exclusionReason')]
+        for field, value, message in cases:
+            with self.subTest(field=field, value=value):
+                def invalidate(reviews):
+                    review = (next(r for r in reviews.values() if r['status'] == 'excluded')
+                              if field == 'exclusionReason' else reviews[next(iter(reviews))])
+                    review[field] = value
+                self.assert_semantic_refresh_rejected(invalidate, message)
+
+    def test_candidate_cannot_map_to_events_in_multiple_batches(self):
+        batch = json.loads((self.discovery / 'batches/global-1.json').read_text())
+        batch['batchId'] = 'duplicate-batch'
+        write_json(self.discovery / 'batches/duplicate.json', batch)
+        self.assert_semantic_refresh_rejected(lambda reviews: None, 'Candidate maps to multiple batch events')
+
     def test_report_can_verify_reused_baselines_without_source_git_objects(self):
         version = {'commit': '1' * 40, 'afterBlob': '2' * 40,
                    'afterRecords': 1, 'observedAt': '2025-01-02T00:00:00Z'}

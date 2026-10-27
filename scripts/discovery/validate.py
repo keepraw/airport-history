@@ -6,12 +6,10 @@ from collections import Counter
 from pathlib import Path
 
 from core import apply_review, read_candidates, read_jsonl, stable_id
-from review import batch_summaries
+from review import REVIEW_STATUSES as STATUSES, batch_summaries, validate_review_overrides
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'research/discovery/generated'
-STATUSES = {'pending_investigation', 'insufficient_evidence', 'pending_review',
-            'ready_to_admit', 'excluded', 'already_curated'}
 
 
 def require(test, message):
@@ -115,24 +113,18 @@ def main():
     batches = batch_summaries(ROOT)
     require(summary.get('reviewBatches', []) == batches, 'Stale batch review summary')
     known_ids = all_ids | {r['candidateId'] for r in legacy}
-    mapped_reviews = set()
-    for entry in batches:
-        batch = json.loads((ROOT / entry['path']).read_text())
+    batch_records = [(entry['path'], json.loads((ROOT / entry['path']).read_text())) for entry in batches]
+    validate_review_overrides(reviews, batch_records)
+    for _, batch in batch_records:
         for event in batch['events']:
             ids = event['candidateIds'] + event['relatedCandidateIds']
             require(set(ids) <= known_ids, 'Dangling reviewed candidate')
-            for cid in ids:
-                if cid.startswith('cand_'):
-                    require(cid in reviews and reviews[cid]['status'] == event['status'] and reviews[cid]['eventGroupId'] == event['eventGroupId'], 'Stale candidate review mapping')
-                    require(reviews[cid]['evidenceReview'] == entry['path'], 'Wrong evidence review path')
-                    mapped_reviews.add(cid)
             observation = event.get('sourceObservation')
             if observation:
                 raw = reviewed_rows[observation['candidateId']]
                 require(all(observation[k] == raw[k] for k in ('sourceId', 'sourceEntityId', 'changes', 'observations')), 'Review altered pinned source transition')
         for lead in batch['nextBatch']:
             require(lead['candidateId'] in known_ids, 'Dangling next-batch lead')
-    require(review_ids == mapped_reviews, 'Live review has no claim-specific batch evidence')
     require(set(lock.get('reviewInputs', {})) == {'research/discovery/reviews.json', *(r['path'] for r in batches)}, 'Unmanifested review evidence')
     print(f'Validated {grand_total:,} source candidates, {link_count:,} code-association leads, {len(legacy)} legacy leads; curated data unchanged.')
     print(f'Validated {len(batches)} bounded review batch(es), {len(reviews)} live candidate review overrides.')

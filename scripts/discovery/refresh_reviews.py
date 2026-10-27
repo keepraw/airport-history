@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 
 from core import write_json
-from review import batch_summaries, require
+from review import batch_summaries, require, validate_review_overrides
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -31,10 +31,17 @@ def refresh_reviews(root):
     summary['reviewBatches'] = batch_summaries(root)
     # Read/validate all allowed review inputs before changing either output.
     review_hashes = {}
+    review_records = {}
     for path in review_inputs:
         raw = path.read_bytes()
-        require(isinstance(json.loads(raw), dict), f'Invalid review record: {path.relative_to(root)}')
-        review_hashes[str(path.relative_to(root))] = hashlib.sha256(raw).hexdigest()
+        name = str(path.relative_to(root))
+        record = json.loads(raw)
+        require(isinstance(record, dict), f'Invalid review record: {name}')
+        review_records[name] = record
+        review_hashes[name] = hashlib.sha256(raw).hexdigest()
+    reviews_path = 'research/discovery/reviews.json'
+    validate_review_overrides(review_records[reviews_path],
+                              [(name, record) for name, record in review_records.items() if name != reviews_path])
     lock['reviewInputs'] = review_hashes
     write_json(out / 'summary.json', summary)
     raw = (out / 'summary.json').read_bytes()

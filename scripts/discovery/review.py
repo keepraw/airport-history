@@ -4,6 +4,7 @@ import re
 from collections import Counter
 
 DISPOSITIONS = {'ready_to_admit', 'insufficient_evidence', 'excluded', 'pending_review'}
+REVIEW_STATUSES = DISPOSITIONS | {'pending_investigation', 'already_curated'}
 CLAIMS = {'physicalIdentity', 'iata', 'icao', 'historicalBoundary', 'historicalNames', 'closureAndReplacement'}
 EVIDENCE = {'primary_direct', 'indirect', 'continuity_inference'}
 
@@ -65,3 +66,38 @@ def batch_summaries(root):
                        'reviewedOn': batch['reviewedOn'], 'eventCount': len(batch['events']),
                        'statusCounts': batch['statusCounts'], 'admission': batch['admission']})
     return result
+
+
+def validate_review_overrides(reviews, batches):
+    """Check live overrides against all completed batches before publishing them."""
+    require(isinstance(reviews, dict), 'Review overrides must be an object')
+    candidate_events = {}
+    seen_ids = set()
+    for batch_path, batch in batches:
+        validate_batch(batch)
+        for event in batch['events']:
+            for cid in event['candidateIds'] + event['relatedCandidateIds']:
+                require(isinstance(cid, str) and cid.startswith(('cand_', 'legacy-')), 'Invalid reviewed candidate ID')
+                require(cid not in seen_ids, f'Candidate maps to multiple batch events: {cid}')
+                seen_ids.add(cid)
+                # Legacy leads retain their review in legacy.json, not overrides.
+                if cid.startswith('cand_'):
+                    candidate_events[cid] = (event, batch_path)
+    require(not (set(candidate_events) - set(reviews)), 'Missing candidate review mappings')
+    require(not (set(reviews) - set(candidate_events)), 'Orphaned candidate review overrides')
+    for cid, override in reviews.items():
+        require(isinstance(override, dict), f'Invalid review override: {cid}')
+        status = override.get('status')
+        require(isinstance(status, str) and status in REVIEW_STATUSES, f'Invalid review status: {cid}')
+        event, batch_path = candidate_events[cid]
+        require(status == event['status'], f'Review status disagrees with batch: {cid}')
+        require(override.get('eventGroupId') == event['eventGroupId'], f'Review event group disagrees with batch: {cid}')
+        require(override.get('evidenceReview') == batch_path, f'Review evidence path disagrees with batch: {cid}')
+        action = override.get('nextAction')
+        require(isinstance(action, str) and action.strip(), f'Missing review nextAction: {cid}')
+        gaps = override.get('evidenceGaps')
+        require(isinstance(gaps, list) and gaps and all(isinstance(g, str) and g.strip() for g in gaps),
+                f'Missing review evidenceGaps: {cid}')
+        if status == 'excluded':
+            reason = override.get('exclusionReason')
+            require(isinstance(reason, str) and reason.strip(), f'Missing review exclusionReason: {cid}')
