@@ -1770,6 +1770,27 @@
   },
   "preservedLegacyLeads": 18,
   "rawSourceCandidateObservations": 1608335,
+  "reviewBatches": [
+    {
+      "admission": {
+        "airports": 0,
+        "assignments": 0,
+        "formalSources": 0,
+        "names": 0,
+        "reason": "No complete proposed historical code interval passed this batch review. Direct identity, naming observations and carrier code-use facts are retained as research evidence; missing allocation boundaries and contradictory mappings are not repaired by continuity inference."
+      },
+      "batchId": "global-1",
+      "eventCount": 20,
+      "path": "research/discovery/batches/global-1.json",
+      "reviewedOn": "2026-10-27",
+      "statusCounts": {
+        "excluded": 4,
+        "insufficient_evidence": 12,
+        "pending_review": 4,
+        "ready_to_admit": 0
+      }
+    }
+  ],
   "sourceCandidatesByCountry": {
     "AD": 55,
     "AE": 2589,

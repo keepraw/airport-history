@@ -226,9 +226,22 @@ def read_jsonl(path):
             yield json.loads(line)
 
 
-def read_candidates(out, source_id):
+def apply_review(row, reviews):
+    """Overlay authoritative curation without changing a pinned source observation."""
+    override = reviews.get(row['candidateId'])
+    if override is None:
+        return row
+    result = dict(row)
+    result['review'] = {**row.get('review', {'status': row.get('status')}), **override}
+    if 'status' in row:  # Compact priority queue rows use a top-level status.
+        result['status'] = result['review']['status']
+    return result
+
+
+def read_candidates(out, source_id, reviews=None):
     for path in sorted(out.glob(source_id + '.candidates.*.jsonl.gz')):
-        yield from read_jsonl(path)
+        for row in read_jsonl(path):
+            yield apply_review(row, reviews or {})
 
 
 def write_candidates(out, source_id, rows):

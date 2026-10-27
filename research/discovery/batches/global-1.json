@@ -1,0 +1,3905 @@
+{
+  "formatVersion": 1,
+  "batchId": "global-1",
+  "reviewedOn": "2026-10-27",
+  "baseCommit": "f616eec670fdbc940d42ad82f2a2a34f55e2d6cc",
+  "precondition": {
+    "pr": 5,
+    "mergedAt": "2026-10-27T02:56:00Z",
+    "mergeCommit": "f616eec670fdbc940d42ad82f2a2a34f55e2d6cc",
+    "baseBranch": "main"
+  },
+  "selection": {
+    "maximumEvents": 20,
+    "eventCount": 20,
+    "initialPriorityQueueSize": 1664,
+    "policy": "Nine requested unresolved groups plus ranked existing queue leads. Count event groups once; aliases/exact derived duplicates are related IDs, not independent events or evidence. Four false interpretations were excluded; subsequent ranked leads, including Limón, Sahiwal, Kankan and Uttaradit, fill the bounded review batch. No new discovery scan or Wikidata dump.",
+    "rawPriorityQueue": "research/discovery/generated/verification-queue.jsonl.gz"
+  },
+  "statusCounts": {
+    "excluded": 4,
+    "insufficient_evidence": 12,
+    "pending_review": 4,
+    "ready_to_admit": 0
+  },
+  "admission": {
+    "airports": 0,
+    "assignments": 0,
+    "names": 0,
+    "formalSources": 0,
+    "reason": "No complete proposed historical code interval passed this batch review. Direct identity, naming observations and carrier code-use facts are retained as research evidence; missing allocation boundaries and contradictory mappings are not repaired by continuity inference."
+  },
+  "sources": [
+    {
+      "sourceId": "ynt-iata-plan",
+      "title": "Dazhong: reported IATA approval and planned coordinate update",
+      "url": "https://yantai.dzwww.com/xinwen/ytxw/ytsh/201411/t20141110_11338121.htm",
+      "sourceType": "secondary",
+      "publisherRole": "news report of an IATA Beijing office interview",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Published 2014-11-10; reports September approval to retain YNT and a planned coordinate update on 2014-12-11."
+      ],
+      "limitations": "Neither the approval nor the planned update proves actual implementation. The report says airlines had not received relocation notice.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://yantai.dzwww.com/xinwen/ytxw/ytsh/201411/t20141110_11338121.htm",
+          "status": 200,
+          "contentType": "text/html",
+          "bytes": 46114,
+          "sha256": "1c5a4ff676ce9881a451a790c6c9aca1fbd0a246404b9462e940e32887c51a95",
+          "textCharacters": 11063
+        }
+      ]
+    },
+    {
+      "sourceId": "ynt-spring-move",
+      "title": "Spring Airlines: Yantai relocation notice, 2015-05-13",
+      "url": "https://www.ch.com/news/33497b984fc54d96927e965b33fa9a1e.html",
+      "sourceType": "primary",
+      "publisherRole": "participating airline",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Own flights move to Penglai at 2015-05-28 00:00; old and new airports are 57 km apart by road."
+      ],
+      "limitations": "Direct operational notice; no YNT or ZSYT allocation clause. Airline closure wording does not establish termination of every military use.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://www.ch.com/news/33497b984fc54d96927e965b33fa9a1e.html",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 54154,
+          "sha256": "16ab4cc1cead2012ba9b7d1b121aac4c34473f3852b92fca518977800bf8851e",
+          "textCharacters": 12755
+        }
+      ]
+    },
+    {
+      "sourceId": "rov-nov27",
+      "title": "DON24: ROV reassigned and RVI used at old airport",
+      "url": "https://don24.ru/rubric/transport/izmeneniya-v-biletah-aeroport-rostova-poluchil-novyy-kod.html",
+      "sourceType": "secondary",
+      "publisherRole": "regional news",
+      "accessedOn": "2026-10-27",
+      "accessResult": "indexed_extract_only_origin_blocked",
+      "supportedFacts": [
+        "2017-11-27 report explicitly distinguishes new-airport ROV from old-airport RVI."
+      ],
+      "limitations": "No underlying IATA/airline implementation record; report date alone does not establish the exact instant or original allocation. Origin retrieval failed on review date; indexed extracts are retained as leads, not fully verified publications or admission evidence.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "sourceId": "rov-nov20",
+      "title": "FrequentFlyers: advance review of Platov",
+      "url": "https://www.frequentflyers.ru/2017/11/20/rov_review/",
+      "sourceType": "secondary",
+      "publisherRole": "specialist aviation reporting",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Predicts ROV transition by November 27 and distinguishes old URRR from new URRP."
+      ],
+      "limitations": "Forward-looking language is not a completed allocation ledger; independence of reporting origins is unestablished.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://www.frequentflyers.ru/2017/11/20/rov_review/",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 165445,
+          "sha256": "3950d9d23b5cad551ccc76a2b856e98b46c3f228aff1a8920754a2fbcf149019",
+          "textCharacters": 48114
+        }
+      ]
+    },
+    {
+      "sourceId": "rov-dec1",
+      "title": "Russian Aviation Insider: pre-opening report",
+      "url": "https://www.rusaviainsider.com/platov-airport-open-december/",
+      "sourceType": "secondary",
+      "publisherRole": "aviation trade reporting",
+      "accessedOn": "2026-10-27",
+      "accessResult": "web_content_inspected_origin_download_blocked",
+      "supportedFacts": [
+        "2017-12-01 report says Platov already inherited ROV and old airport temporarily uses RVI, before December 7 operations."
+      ],
+      "limitations": "Supports separation of code and flight dates, without a primary effective-date notice.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "error": "HTTP Error 401: Unauthorized"
+        },
+        {
+          "method": "web_reader",
+          "result": "Article content inspected; direct workspace fetch was blocked or returned a rejection page."
+        }
+      ]
+    },
+    {
+      "sourceId": "rov-history",
+      "title": "Platov operator history",
+      "url": "https://ar-rov.ru/about/history/",
+      "sourceType": "primary",
+      "publisherRole": "airport operator",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "New airport received first passengers on 2017-12-07."
+      ],
+      "limitations": "No IATA allocation boundary; project naming and passenger opening are separate claims.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://ar-rov.ru/about/history/",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 42514,
+          "sha256": "4d3592501654aced7d4fb1ff177850836422716c5765b833239aec6ebbeaa593",
+          "textCharacters": 11823
+        }
+      ]
+    },
+    {
+      "sourceId": "rov-w17",
+      "title": "Platov winter 2017 official information",
+      "url": "https://ar-rov.ru/upload/iblock/23e/ofi_w17_p.pdf",
+      "sourceType": "primary",
+      "publisherRole": "operator schedule-coordination archive",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "One-page W17 technical/schedule information is available from operator archive."
+      ],
+      "limitations": "Cyrillic domestic coding and seasonal coverage do not explicitly establish ROV/RVI IATA switch timing. Not admitted as direct IATA evidence.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://ar-rov.ru/upload/iblock/23e/ofi_w17_p.pdf",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 178685,
+          "sha256": "3d73aeaa07faec6bd845937573040fa21ab6beaf9e33780db495f978400f48bf",
+          "textCharacters": 668
+        }
+      ]
+    },
+    {
+      "sourceId": "lyg-cua",
+      "title": "China United Airlines: Baitabu flight relocation",
+      "url": "https://info.flycua.com/jcms/publish/APP/appjjtz/j20211123_363_521_8377.html",
+      "sourceType": "primary",
+      "publisherRole": "participating airline",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Notice dated 2021-11-23 moves all listed airport flights to Huaguoshan at 2021-12-02 00:00."
+      ],
+      "limitations": "No explicit IATA/ICAO allocation statement.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://info.flycua.com/jcms/publish/APP/appjjtz/j20211123_363_521_8377.html",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 34518,
+          "sha256": "4ed9943c8b603806d14393fc6cd795770efd65536e49341cd1b24d3323c09e5f",
+          "textCharacters": 27696
+        }
+      ]
+    },
+    {
+      "sourceId": "yibin-opening",
+      "title": "Sichuan government-hosted Sichuan Daily opening report",
+      "url": "https://www.scjg.gov.cn/news/4275.html",
+      "sourceType": "secondary",
+      "publisherRole": "government host republishing a newspaper",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Published 2019-12-06; Wuliangye first arrival on December 5 and location at Zongchang."
+      ],
+      "limitations": "The government hostname does not turn republished news into an allocation notice. No YBP/ZUYB boundary.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://www.scjg.gov.cn/news/4275.html",
+          "status": 200,
+          "contentType": "text/html",
+          "bytes": 6828,
+          "sha256": "c9db0c30ab8e68ff5bf012fb6b13bba40dd6a3757696b9a88826363c6db89e88",
+          "textCharacters": 1287
+        }
+      ]
+    },
+    {
+      "sourceId": "yibin-old-use",
+      "title": "The Paper: Caiba civilian closure and remaining military use",
+      "url": "https://www.thepaper.cn/newsDetail_forward_5140577",
+      "sourceType": "secondary",
+      "publisherRole": "news report interviewing airport staff",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "2019-12-04 report separates civilian closure from continuing military use and next-day relocation."
+      ],
+      "limitations": "No code withdrawal/allocation notice; military closure was still prospective.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://www.thepaper.cn/newsDetail_forward_5140577",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 29936,
+          "sha256": "63213fdb2506b2f5e4befcbfe3d057015d5d4a1b261e1de7875072b188edee58",
+          "textCharacters": 8457
+        }
+      ]
+    },
+    {
+      "sourceId": "luzhou-opening",
+      "title": "CNR-hosted report: Yunlong opening after service gap",
+      "url": "https://sc.cnr.cn/sc/2014sz/20180910/t20180910_524356124.shtml",
+      "sourceType": "secondary",
+      "publisherRole": "broadcast/news report credited to Xinhua",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Yunlong opened 2018-09-10; report says Lantian had stopped service about twelve months earlier. Distinct locations are described."
+      ],
+      "limitations": "Does not establish a seamless 2018 code transfer, exact old-site closure, LZO allocation or ZULZ reuse.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://sc.cnr.cn/sc/2014sz/20180910/t20180910_524356124.shtml",
+          "status": 200,
+          "contentType": "text/html",
+          "bytes": 40497,
+          "sha256": "87fc296295ebd9a12b813d18a85af4d10246cc58fabbb79e7cdd9badf109a085",
+          "textCharacters": 15422
+        }
+      ]
+    },
+    {
+      "sourceId": "jng-csair",
+      "title": "China Southern: Qufu to Da’an notice",
+      "url": "https://www.csair.com/newh5/cn/service_notice/1hi7qev4ktpqb.shtml",
+      "sourceType": "primary",
+      "publisherRole": "participating airline",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Notice dated 2023-12-22 moves its Jining domestic flights at 2023-12-28 00:00."
+      ],
+      "limitations": "No code field; neither JNG assignment nor ICAO identity is allocated by this notice.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://www.csair.com/newh5/cn/service_notice/1hi7qev4ktpqb.shtml",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 3933,
+          "sha256": "286374d1a20f8bf97b456c3a01734ae51f0f142cdced18628451e4f8d3a2b39b",
+          "textCharacters": 1710
+        }
+      ]
+    },
+    {
+      "sourceId": "dakar-saa",
+      "title": "SAA release reproduced by AVIATOR, 2017-12-07",
+      "url": "https://aviator.aero/press/south-african-airways-advises-of-dakar-airport-change",
+      "sourceType": "primary",
+      "publisherRole": "attributed participant press release on a third-party host",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Distinguishes old DKR from new DSS; SAA first landing at DSS is scheduled for 2017-12-08 01:20; new site is in Diass."
+      ],
+      "limitations": "Attribution is visible, original airline-host copy not held. Broad service-termination wording is not DKR withdrawal or all-use closure; carrier switch date differs from airport opening.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://aviator.aero/press/south-african-airways-advises-of-dakar-airport-change",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 20974,
+          "sha256": "15ab623aab70c8ca09bec4cabd27a6d29bb3d3db07ad5b8bdd4da58a1a347645",
+          "textCharacters": 6489
+        }
+      ]
+    },
+    {
+      "sourceId": "pnh-sia",
+      "title": "Singapore Airlines sales circular SN125/260825",
+      "url": "https://agent360.singaporeair.com/content/dam/agent360/web-assets/pdf/local/hk/HKGSQ_Relocation_of_PNH_to_KTI_Airport_SN125.pdf",
+      "sourceType": "primary",
+      "publisherRole": "participating airline",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Issued 2025-08-26; identifies old PNH and new KTI, with own services moved from 2025-09-09."
+      ],
+      "limitations": "Direct dated code-use/flight implementation evidence, not the first KTI allocation or PNH withdrawal.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://agent360.singaporeair.com/content/dam/agent360/web-assets/pdf/local/hk/HKGSQ_Relocation_of_PNH_to_KTI_Airport_SN125.pdf",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 85642,
+          "sha256": "2eede00804c89c252f2c4c9ec962dba955ebdd7202a929912720bf56d8e08a27",
+          "textCharacters": 2329
+        }
+      ]
+    },
+    {
+      "sourceId": "kti-ocic",
+      "title": "OCIC: Techo project",
+      "url": "https://www.ocic.com.kh/projects/techo-international-airport",
+      "sourceType": "primary",
+      "publisherRole": "airport developer/shareholder",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Identifies greenfield Techo in Kandal, current IATA KTI and ICAO VDTI, and service opening on 2025-09-09."
+      ],
+      "limitations": "No Kratie allocation ledger, original Techo code-effective date or PNH withdrawal.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://www.ocic.com.kh/projects/techo-international-airport",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 44903,
+          "sha256": "9d24412bd27aa08ac6b388f3d997f7335cf04b5dd87fa8a080549d06b70dafdf",
+          "textCharacters": 6275
+        }
+      ]
+    },
+    {
+      "sourceId": "kti-certificate",
+      "title": "Techo: certificate handover and planned service opening",
+      "url": "https://www.techoairport.com.kh/news/airport-certification",
+      "sourceType": "primary",
+      "publisherRole": "airport operator",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "2025-08-04 certificate handover; distinguishes planned September 9 operations from October 20 inauguration."
+      ],
+      "limitations": "Certificate handover and inauguration are not code allocation dates.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://www.techoairport.com.kh/news/airport-certification",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 398316,
+          "sha256": "0f0baa1f6dfc384d6a51359f91a1e96dfab33bfac7105ad3c3718fcbcc3ece28",
+          "textCharacters": 163135
+        }
+      ]
+    },
+    {
+      "sourceId": "aap-ministry",
+      "title": "Indonesian transport ministry: Samarinda replacement",
+      "url": "https://dephub.go.id/post/read/tiga-maskapai-segera-isi-rute-penerbangan-dari-dan-ke-samarinda?language=id",
+      "sourceType": "primary",
+      "publisherRole": "transport ministry",
+      "accessedOn": "2026-10-27",
+      "accessResult": "web_content_inspected_origin_download_blocked",
+      "supportedFacts": [
+        "New APT Pranoto was built to replace constrained Temindung; October 25, 2018 was an inauguration."
+      ],
+      "limitations": "No SRI withdrawal, first AAP assignment or historical WALS reuse date; inauguration is not automatically first operation.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://dephub.go.id/post/read/tiga-maskapai-segera-isi-rute-penerbangan-dari-dan-ke-samarinda?language=id",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 413,
+          "sha256": "7af0afaeed81c155f60591c49dfd10c01bad3410d2dfc6e86e417b3af852a153",
+          "textCharacters": 228,
+          "contentIsArticle": false
+        },
+        {
+          "method": "web_reader",
+          "result": "Article content inspected; direct workspace fetch was blocked or returned a rejection page."
+        }
+      ]
+    },
+    {
+      "sourceId": "aap-directory",
+      "title": "DGCA Indonesia: APT Pranoto airport profile",
+      "url": "https://hubud.dephub.go.id/bandara/45",
+      "sourceType": "primary",
+      "publisherRole": "aviation authority directory",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Current profile explicitly identifies AAP, WALS and Sungai Siring location."
+      ],
+      "limitations": "Direct current code observation only; cannot project codes back across Temindung history. Some contact details still mention Temindung.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://hubud.dephub.go.id/bandara/45",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 186675,
+          "sha256": "f66d3ee5b404ddead6b40102b6932fd2b94202f6dd23d1bf24a53fb89041f070",
+          "textCharacters": 41145
+        }
+      ]
+    },
+    {
+      "sourceId": "cdt-operator",
+      "title": "Castellón operator technical data",
+      "url": "https://aeroportcastello.com/en/profesionals/aeronautical-information/airport-technical-data/",
+      "sourceType": "primary",
+      "publisherRole": "airport operator",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Explicit current IATA CDT and ICAO LECH."
+      ],
+      "limitations": "No historical Calamocha allocation, CDT transfer or original effective date.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://aeroportcastello.com/en/profesionals/aeronautical-information/airport-technical-data/",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 161402,
+          "sha256": "2e7be8bc99e532b13662a2a3e8e8f6ead34be48672303e91fb4a957488993e22",
+          "textCharacters": 52874
+        }
+      ]
+    },
+    {
+      "sourceId": "cdt-changes",
+      "title": "OurAirports Castellón edit history",
+      "url": "https://ourairports.com/airports/LECH/changes.html",
+      "sourceType": "secondary",
+      "publisherRole": "community directory edit log",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "2015 edit describes CDT from LECN; later GPS/ident revisions distinguish LEDS and LECH."
+      ],
+      "limitations": "Evidence of directory observations and conflation only, not official allocation. The genuine LECN/CDT question remains separate from Calamocha.",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "url": "https://ourairports.com/data/",
+        "note": "OurAirports releases airport data to the public domain. Only factual facility/edit observations are used; this does not relicense website UI, photographs or map tiles. Derived Git observations retain the licenses in sources.json and THIRD_PARTY_NOTICES.md."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://ourairports.com/airports/LECH/changes.html",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 25500,
+          "sha256": "4806816dd6a5ed4455b6c79876755f7c262204d1f14c7078b983012171332e55",
+          "textCharacters": 3510
+        }
+      ]
+    },
+    {
+      "sourceId": "dni-guide",
+      "title": "AirportGuide: Wad Medani",
+      "url": "https://airportguide.com/airport/info/DNI",
+      "sourceType": "secondary",
+      "publisherRole": "compiled directory",
+      "accessedOn": "2026-10-27",
+      "accessResult": "indexed_extract_only_origin_blocked",
+      "supportedFacts": [
+        "Closed-site listing at 14.383451, 33.526679 with DNI/HSWD."
+      ],
+      "limitations": "Not an independent allocation ledger; provenance overlap with OurAirports is possible. Origin retrieval failed on review date; indexed extracts are retained as leads, not fully verified publications or admission evidence.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    },
+    {
+      "sourceId": "dni-wikipedia",
+      "title": "Wikipedia: Wad Medani",
+      "url": "https://en.wikipedia.org/wiki/Wad_Medani_Airport",
+      "sourceType": "secondary",
+      "publisherRole": "encyclopedia",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Lists closed DNI/HSWD but places it at 15.3875, 36.3289."
+      ],
+      "limitations": "Material coordinate conflict with directory/site lead; no reliable closure date. No text or licensed table is imported.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://en.wikipedia.org/wiki/Wad_Medani_Airport",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 100802,
+          "sha256": "45ab94ebe09a562145ca44cc26d17ff2507b40581259a8620451b0722910b58d",
+          "textCharacters": 24380
+        }
+      ]
+    },
+    {
+      "sourceId": "ngn-changes",
+      "title": "OurAirports Narganá edit history",
+      "url": "https://ourairports.com/airports/PA-0012/changes.html",
+      "sourceType": "secondary",
+      "publisherRole": "community directory edit log",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Editor explicitly moved a marker about 75 km northwest using OSM; later removes NGN."
+      ],
+      "limitations": "Direct evidence of an editorial marker correction, indirect for physical airport/code history. PA-0012 is local, not ICAO; do not merge with CZJ.",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "url": "https://ourairports.com/data/",
+        "note": "OurAirports releases airport data to the public domain. Only factual facility/edit observations are used; this does not relicense website UI, photographs or map tiles. Derived Git observations retain the licenses in sources.json and THIRD_PARTY_NOTICES.md."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://ourairports.com/airports/PA-0012/changes.html",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 17934,
+          "sha256": "323a8409a116bce791fe797a2c0028800bdfc94996ab5f8a0cb6e3e9b58521b1",
+          "textCharacters": 2286
+        }
+      ]
+    },
+    {
+      "sourceId": "wch-resolution",
+      "title": "Chile DGAC Resolution 09/2/027, 2015-01-22",
+      "url": "https://www.dgac.gob.cl/transparencia/pdf2015/DASA027.pdf",
+      "sourceType": "primary",
+      "publisherRole": "aviation authority establishment resolution",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Names Nuevo Chaitén, location indicator SCTN, coordinates 42 46 55 S / 72 50 06 W and location northwest of Chaitén."
+      ],
+      "limitations": "Direct new-site identity and SCTN observation. Signing is not assumed to be IATA transfer or an exact ICAO transfer instant.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://www.dgac.gob.cl/transparencia/pdf2015/DASA027.pdf",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 1124622,
+          "sha256": "21db03f635ba3a53a55e9b46a52069be27bc6d16c5dca9d754dea6c5133b98d9",
+          "textCharacters": 2
+        }
+      ]
+    },
+    {
+      "sourceId": "wch-fiche",
+      "title": "Chile DGAC Chaitén technical/history fiche",
+      "url": "https://www.dgac.gob.cl/wp-content/uploads/2024/06/CHAITEN-FICHA-TECNICA.pdf",
+      "sourceType": "primary",
+      "publisherRole": "aviation authority retrospective",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Describes old field destruction in 2008, temporary road strip, new opening 2015-01-25 and inherited codes. Technical page prints SCPC."
+      ],
+      "limitations": "SCPC conflicts with SCTN in resolution/current AIP. Code inheritance lacks a specific effective date. Requires independent review; no inferred continuous transfer through the temporary strip.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://www.dgac.gob.cl/wp-content/uploads/2024/06/CHAITEN-FICHA-TECNICA.pdf",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 523859,
+          "sha256": "b9a55cc8a739220b3b5789652dec0ceb0b109ae71017cfb91495d6807e079fd4",
+          "textCharacters": 5151
+        }
+      ]
+    },
+    {
+      "sourceId": "bve-changes",
+      "title": "OurAirports LFSL edit history",
+      "url": "https://ourairports.com/airports/LFSL/changes.html",
+      "sourceType": "secondary",
+      "publisherRole": "community directory edit log",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Documents Toul/Brive confusion, corrections and later repurposing of the record between distant locations."
+      ],
+      "limitations": "Not a BVE relocation from Toul; real Laroche/Souillac BVE history and any LFSL reuse remain distinct follow-ups.",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "url": "https://ourairports.com/data/",
+        "note": "OurAirports releases airport data to the public domain. Only factual facility/edit observations are used; this does not relicense website UI, photographs or map tiles. Derived Git observations retain the licenses in sources.json and THIRD_PARTY_NOTICES.md."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://ourairports.com/airports/LFSL/changes.html",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 31251,
+          "sha256": "b4b1f62fd517eaa077c514ef9e45cbda4d117f138f91bca008fb4bbfb58b3e7a",
+          "textCharacters": 4779
+        }
+      ]
+    },
+    {
+      "sourceId": "bve-operator",
+      "title": "Brive operator aeronautical information",
+      "url": "https://www.aeroport-brive-vallee-dordogne.com/professionnals/airport-informations-and-air-information-publication",
+      "sourceType": "primary",
+      "publisherRole": "airport operator",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Provides LFSL aeronautical information for Brive."
+      ],
+      "limitations": "Current site observation, no dated BVE transfer from Laroche or Toul allocation history.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://www.aeroport-brive-vallee-dordogne.com/professionnals/airport-informations-and-air-information-publication",
+          "status": 200,
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 61406,
+          "sha256": "4917b0ba2618fbb041e28197804d0326f7ce90f3d5bc888abddbed89cdb5e6f3",
+          "textCharacters": 10952
+        }
+      ]
+    },
+    {
+      "sourceId": "knn-icao",
+      "title": "ICAO MET/SG/10 appendices, 2011",
+      "url": "https://www.icao.int/sites/default/files/sp-files/ESAF/Documents/APIRG/APIRG18/Docs/wp18_appendices_en.pdf",
+      "sourceType": "primary",
+      "publisherRole": "ICAO regional meteorological planning document",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Lists Kankan/Kankan with GUXN; IATA cell is blank."
+      ],
+      "limitations": "A meteorological/planning row is not an IATA allocation. Cannot choose between old Kankan and Diankana by the city name alone.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://www.icao.int/sites/default/files/sp-files/ESAF/Documents/APIRG/APIRG18/Docs/wp18_appendices_en.pdf",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 10932837,
+          "sha256": "7418c6a994071fef1bb426395e718f0918f6818427f59f4b7df1671375c3ee5a",
+          "textCharacters": 864402
+        }
+      ]
+    },
+    {
+      "sourceId": "knn-wikipedia",
+      "title": "Wikipedia: Kankan airport",
+      "url": "https://en.wikipedia.org/wiki/Kankan_Airport",
+      "sourceType": "secondary",
+      "publisherRole": "encyclopedia",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Distinguishes present Diankana GUXD from earlier in-town GUXN."
+      ],
+      "limitations": "Conflicts with other directories attaching GUXN to Diankana; physical mapping and boundary require Guinea AIS evidence.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://en.wikipedia.org/wiki/Kankan_Airport",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 105388,
+          "sha256": "2f7fd72df5935e85251f45e031d74bd52b35611a61531d1ee49733262ac4879a",
+          "textCharacters": 24589
+        }
+      ]
+    },
+    {
+      "sourceId": "utr-aip",
+      "title": "CAAT: retained Thailand AIP aerodrome index",
+      "url": "https://www.caat.or.th/wp-content/uploads/2017/03/AD1.3-Index-to-aerodromes-and-heliports4.pdf",
+      "sourceType": "primary",
+      "publisherRole": "aviation authority AIP archive",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Index associates Uttaradit with VTPU; VTUD is Udon Thani, a different airport."
+      ],
+      "limitations": "No UTR allocation or withdrawal date; a legacy AIP index can retain a nonoperating field.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://www.caat.or.th/wp-content/uploads/2017/03/AD1.3-Index-to-aerodromes-and-heliports4.pdf",
+          "status": 200,
+          "contentType": "application/pdf",
+          "bytes": 187859,
+          "sha256": "ad79ec34864e14133a13fc46c3066d3c4f8bfd4af73e1db16d26115f140153d1",
+          "textCharacters": 18122
+        }
+      ]
+    },
+    {
+      "sourceId": "utr-history",
+      "title": "Uttaradit air facilities historical review",
+      "url": "https://www.ww2norththailand.com/other/uttaradit-area-air-facilities-review-1953-onwards/",
+      "sourceType": "secondary",
+      "publisherRole": "specialist historical review",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Distinguishes area airfield locations and historical maps."
+      ],
+      "limitations": "Secondary interpretation does not independently resolve which physical site had UTR/VTPU at which time; no primary closure order.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://www.ww2norththailand.com/other/uttaradit-area-air-facilities-review-1953-onwards/",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 181770,
+          "sha256": "998b6d897b4c120bfecee671bd0a3c4ed18e90f1e237a24461ba742f3142003c",
+          "textCharacters": 110862
+        }
+      ]
+    },
+    {
+      "sourceId": "hds-changes",
+      "title": "OurAirports FAHS edit history",
+      "url": "https://ourairports.com/airports/FAHS/changes.html",
+      "sourceType": "secondary",
+      "publisherRole": "community directory edit log",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "2026 edits remove codes and move the record into the South Atlantic under a non-existent-airport label."
+      ],
+      "limitations": "An invalid directory marker is not a physical relocation, closure or official code withdrawal.",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "url": "https://ourairports.com/data/",
+        "note": "OurAirports releases airport data to the public domain. Only factual facility/edit observations are used; this does not relicense website UI, photographs or map tiles. Derived Git observations retain the licenses in sources.json and THIRD_PARTY_NOTICES.md."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://ourairports.com/airports/FAHS/changes.html",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 20856,
+          "sha256": "9bacee2ebe1c9c7f403ce8c8c606ba20f1b8cb6ee998221a1bbeb93da903b9e1",
+          "textCharacters": 3485
+        }
+      ]
+    },
+    {
+      "sourceId": "hds-operator",
+      "title": "Eastgate operator aviation information",
+      "url": "https://eastgateairport.co.za/aviation/",
+      "sourceType": "primary",
+      "publisherRole": "airport operator",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Identifies Hoedspruit FAHS and runway locations in South Africa."
+      ],
+      "limitations": "Current operational/site observation only; not an IATA historical allocation ledger.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://eastgateairport.co.za/aviation/",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 208904,
+          "sha256": "c56b021bdb2718c23ef43c8ea2c2dc414255ab0c6fdc5772de474c2e9ad7787b",
+          "textCharacters": 191274
+        }
+      ]
+    },
+    {
+      "sourceId": "hds-aip",
+      "title": "South Africa AIP FAHS, valid 2022-01-15",
+      "url": "https://cad.atns.co.za/SmartAIM/EAipPackages/15-JAN-22/2022-01-15-000000/html/eAIP/FA-AD-2-FAHS-en-US.html",
+      "sourceType": "primary",
+      "publisherRole": "aviation authority AIP via ATNS",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "FAHS Hoedspruit coordinates and Eastgate operational references."
+      ],
+      "limitations": "Supports same airfield; does not allocate HDS or establish a 2026 withdrawal.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://cad.atns.co.za/SmartAIM/EAipPackages/15-JAN-22/2022-01-15-000000/html/eAIP/FA-AD-2-FAHS-en-US.html",
+          "status": 200,
+          "contentType": "text/html",
+          "bytes": 85715,
+          "sha256": "fdb7591a8752858dac7b5ff87854f7630a96293ebd4478f12e45447eac4cc61e",
+          "textCharacters": 14765
+        }
+      ]
+    },
+    {
+      "sourceId": "lmh-dir",
+      "title": "OurAirports Limón facility entry",
+      "url": "https://ourairports.com/airports/MHLN/tags/",
+      "sourceType": "secondary",
+      "publisherRole": "community directory",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Lists Limón/LMH and GPS identifier MHLN."
+      ],
+      "limitations": "Current directory identification only. GPS MHLN is not automatically official ICAO; no historical reopening/relocation date.",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "url": "https://ourairports.com/data/",
+        "note": "OurAirports releases airport data to the public domain. Only factual facility/edit observations are used; this does not relicense website UI, photographs or map tiles. Derived Git observations retain the licenses in sources.json and THIRD_PARTY_NOTICES.md."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://ourairports.com/airports/MHLN/tags/",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 11334,
+          "sha256": "87e3f1d80f1fc482ef103dc5c8ff26adc91b8c0896097a69c3b865566b561c24",
+          "textCharacters": 897
+        }
+      ]
+    },
+    {
+      "sourceId": "swn-dir",
+      "title": "OurAirports Sahiwal facility entry",
+      "url": "https://ourairports.com/airports/PK-0052/",
+      "sourceType": "secondary",
+      "publisherRole": "community directory",
+      "accessedOn": "2026-10-27",
+      "accessResult": "content_inspected",
+      "supportedFacts": [
+        "Closed record retains OPSW/SWN in keywords."
+      ],
+      "limitations": "Keywords are historical leads, not an allocation or withdrawal ledger; PK-0052 is local, not ICAO.",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "url": "https://ourairports.com/data/",
+        "note": "OurAirports releases airport data to the public domain. Only factual facility/edit observations are used; this does not relicense website UI, photographs or map tiles. Derived Git observations retain the licenses in sources.json and THIRD_PARTY_NOTICES.md."
+      },
+      "accessChecks": [
+        {
+          "finalUrl": "https://ourairports.com/airports/PK-0052/",
+          "status": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 12824,
+          "sha256": "0411e9e4c1c0b34fd6e02ccba2ccf0210382eb833190cfa3f2a07aea3cff455a",
+          "textCharacters": 1367
+        }
+      ]
+    },
+    {
+      "sourceId": "swn-guide",
+      "title": "AirportGuide Sahiwal listing",
+      "url": "https://airportguide.com/airport/info/SWN",
+      "sourceType": "secondary",
+      "publisherRole": "compiled directory",
+      "accessedOn": "2026-10-27",
+      "accessResult": "indexed_extract_only_origin_blocked",
+      "supportedFacts": [
+        "Lists SWN/OPSW and closed status."
+      ],
+      "limitations": "No primary effective-date record; possible common directory ancestry means no independent corroboration claim. Origin retrieval failed on review date; indexed extracts are retained as leads, not fully verified publications or admission evidence.",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      },
+      "accessChecks": [
+        {
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ]
+    }
+  ],
+  "events": [
+    {
+      "eventGroupId": "global-1-kti",
+      "label": "Kratie / Techo KTI prior allocation",
+      "reviewedOn": "2026-10-27",
+      "status": "insufficient_evidence",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "cand_fd2a5e00b9b3f58536c0433e"
+      ],
+      "relatedCandidateIds": [],
+      "sourceIds": [
+        "kti-ocic",
+        "kti-certificate",
+        "pnh-sia"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "Kratie and greenfield Techo in Kandal are separate places, also distinct from old Pochentong. The small Kratie coordinate edit is not a move to Techo.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "kti-ocic",
+            "kti-certificate",
+            "pnh-sia"
+          ]
+        },
+        "iata": {
+          "conclusion": "Techo KTI use is directly observed; prior Kratie KTI is a pinned directory observation, not independently verified allocation.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "kti-ocic",
+            "kti-certificate",
+            "pnh-sia"
+          ]
+        },
+        "icao": {
+          "conclusion": "VDTI is directly identified at Techo. Kratie VDKT occurs in the directory GPS field; it is not promoted as allocated ICAO.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "kti-ocic",
+            "kti-certificate",
+            "pnh-sia"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "2024 directory removal at Kratie, 2025 certificate handover, flight move and inauguration are four different observations. None establishes when Kratie KTI ended or Techo KTI began.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "kti-ocic",
+            "kti-certificate",
+            "pnh-sia"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Techo is a current developer label; original formal naming decision/date is not held.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "kti-ocic",
+            "kti-certificate",
+            "pnh-sia"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "No replacement relationship from Kratie to Techo is established. PNH service replacement is a separate reviewed event.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "kti-ocic",
+            "kti-certificate",
+            "pnh-sia"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "Kratie KTI allocation/withdrawal and Techo first KTI effective record are missing."
+      ],
+      "conflicts": [],
+      "exclusionReason": null,
+      "nextAction": "Obtain dated SSCA/IATA location identifier records for Kratie and Techo before constructing non-overlapping intervals.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "sourceObservation": {
+        "candidateId": "cand_fd2a5e00b9b3f58536c0433e",
+        "sourceId": "airport-codes-raw",
+        "sourceEntityId": "31781",
+        "changes": {
+          "elevation": [
+            "",
+            "102"
+          ],
+          "gps_code": [
+            "VDKT",
+            ""
+          ],
+          "iata": [
+            "KTI",
+            ""
+          ],
+          "keywords": [
+            "",
+            "KTI, VDKT"
+          ],
+          "lat": [
+            "12.48799991607666",
+            "12.489017"
+          ],
+          "lon": [
+            "106.05500030517578",
+            "106.05469"
+          ],
+          "type": [
+            "small_airport",
+            "closed"
+          ],
+          "wikipedia_link": [
+            "",
+            "https://en.wikipedia.org/wiki/Krati%C3%A9_Airport"
+          ]
+        },
+        "observations": [
+          {
+            "action": "M",
+            "afterBlob": "260a09188d2cff992739de75c2162096a43ed76c",
+            "beforeBlob": "4ed7260e184984d234c4cb9c0c1d080ade4827f0",
+            "commit": "09ab66f23778cd5c577c96d09a600dcac15bb82b",
+            "observedAt": "2024-10-01T11:30:59Z",
+            "parents": [
+              "51c43e6610742d5162452d3e5229dda197eaf238"
+            ]
+          },
+          {
+            "action": "M",
+            "afterBlob": "260a09188d2cff992739de75c2162096a43ed76c",
+            "beforeBlob": "4ed7260e184984d234c4cb9c0c1d080ade4827f0",
+            "commit": "63f6278fd0de9ad80af2835dcd1bc8558176aa1c",
+            "observedAt": "2024-10-01T17:34:37+05:00",
+            "parents": [
+              "68f702aa6eebf14ed5f7e3bf9be609f9fb8a5663",
+              "7eb67666b64fba95e8036882d81f9948fceec4d9"
+            ]
+          }
+        ],
+        "url": "https://github.com/datasets/airport-codes/blob/09ab66f23778cd5c577c96d09a600dcac15bb82b/archive/data.csv",
+        "sourceType": "secondary",
+        "evidenceType": "indirect",
+        "semantics": "Pinned directory revision; observing commit time is not an effective event boundary.",
+        "license": "ODC-PDDL-1.0"
+      },
+      "directlyEstablishedFacts": [
+        {
+          "fact": "Developer identifies greenfield Techo and current KTI/VDTI; no original effective date is given.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "kti-ocic"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [
+        "global-1-pnh"
+      ]
+    },
+    {
+      "eventGroupId": "global-1-ynt",
+      "label": "Yantai Laishan / Penglai",
+      "reviewedOn": "2026-10-27",
+      "status": "insufficient_evidence",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "cand_8ac1b12707d7c441ce708d32",
+        "legacy-yantai"
+      ],
+      "relatedCandidateIds": [],
+      "sourceIds": [
+        "ynt-iata-plan",
+        "ynt-spring-move"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "Separate airfields; airline gives a 57 km road journey. This is not a terminal expansion.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "ynt-iata-plan",
+            "ynt-spring-move"
+          ]
+        },
+        "iata": {
+          "conclusion": "YNT retention was approved in 2014 according to reporting; actual implementation remains unproved.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ynt-iata-plan",
+            "ynt-spring-move"
+          ]
+        },
+        "icao": {
+          "conclusion": "ZSYT source key is not independent proof of historical ICAO continuity across the two sites.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ynt-iata-plan",
+            "ynt-spring-move"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Planned 2014-12-11 coordinate update differs from actual 2015-05-28 flight move; no actual code-effective notice is held.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ynt-iata-plan",
+            "ynt-spring-move"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Airline observes Penglai name; this is not the original naming decision or a rename of the Laishan physical site.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ynt-iata-plan",
+            "ynt-spring-move"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "Civil flights move to Penglai; closure wording does not establish all military use or code withdrawal.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ynt-iata-plan",
+            "ynt-spring-move"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "Actual YNT implementation date and historical ZSYT allocation mapping missing."
+      ],
+      "conflicts": [],
+      "exclusionReason": null,
+      "nextAction": "Seek final IATA location update/AIP and airline-system implementation replacing the abandoned 2014 plan.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "sourceObservation": {
+        "candidateId": "cand_8ac1b12707d7c441ce708d32",
+        "sourceId": "airportsdata",
+        "sourceEntityId": "ZSYT",
+        "changes": {
+          "elevation": [
+            "59",
+            "154"
+          ],
+          "lat": [
+            "37.4016990662",
+            "37.657222"
+          ],
+          "lon": [
+            "121.3720016479",
+            "120.987222"
+          ],
+          "name": [
+            "Yantai Laishan Airport",
+            "Penglai Intl"
+          ]
+        },
+        "observations": [
+          {
+            "action": "M",
+            "afterBlob": "73d432236f07112f0e746c9202f4988a62fbe6e0",
+            "beforeBlob": "3e7f410e51c81dbf91ed2879a117756110ad5244",
+            "commit": "0c8ac0d24e22a9f174dec04c5fd5102dcdd0d3ad",
+            "observedAt": "2024-04-01T19:12:39+08:00",
+            "parents": [
+              "f94e5d608a63685ba9f7e82b7c1bbe8de2692e9c"
+            ]
+          }
+        ],
+        "url": "https://github.com/mborsetti/airportsdata/blob/0c8ac0d24e22a9f174dec04c5fd5102dcdd0d3ad/airportsdata/airports.csv",
+        "sourceType": "secondary",
+        "evidenceType": "indirect",
+        "semantics": "Pinned directory revision; observing commit time is not an effective event boundary.",
+        "license": "MIT"
+      },
+      "directlyEstablishedFacts": [
+        {
+          "fact": "Carrier instructs a change between separate airports at 2015-05-28 00:00, not a code-allocation change.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "ynt-spring-move"
+          ]
+        }
+      ]
+    },
+    {
+      "eventGroupId": "global-1-rov",
+      "label": "Rostov-on-Don / Platov ROV and RVI",
+      "reviewedOn": "2026-10-27",
+      "status": "insufficient_evidence",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "cand_7fc9b08615e93efbdffdc2a8",
+        "legacy-rostov-on-don"
+      ],
+      "relatedCandidateIds": [],
+      "sourceIds": [
+        "rov-nov27",
+        "rov-nov20",
+        "rov-dec1",
+        "rov-history",
+        "rov-w17"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "Separate old Rostov airfield and newly built Platov, not the same field renamed.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "rov-nov27",
+            "rov-nov20",
+            "rov-dec1",
+            "rov-history",
+            "rov-w17"
+          ]
+        },
+        "iata": {
+          "conclusion": "Several reports explicitly put ROV at Platov and RVI at old Rostov before the passenger move; no primary IATA implementation record retrieved.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "rov-nov27",
+            "rov-nov20",
+            "rov-dec1",
+            "rov-history",
+            "rov-w17"
+          ]
+        },
+        "icao": {
+          "conclusion": "URRR old / URRP new is reported; do not transfer old URRR simply because ROV moved. The W17 domestic-code sheet does not independently allocate IATA.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "rov-nov27",
+            "rov-nov20",
+            "rov-dec1",
+            "rov-history",
+            "rov-w17"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "November 27 reported code reassignment precedes December 7 passenger opening. November 20 article is prospective, December 1 retrospective. No exact code-effective instant or RVI end is proved.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "rov-nov27",
+            "rov-nov20",
+            "rov-dec1",
+            "rov-history",
+            "rov-w17"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "January 2017 project name is not a city rename or ROV boundary; formal name decision not admitted.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "rov-nov27",
+            "rov-nov20",
+            "rov-dec1",
+            "rov-history",
+            "rov-w17"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "Old passenger service ending does not itself withdraw RVI or URRR.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "rov-nov27",
+            "rov-nov20",
+            "rov-dec1",
+            "rov-history",
+            "rov-w17"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "Primary ROV/RVI implementation evidence and RVI end date missing."
+      ],
+      "conflicts": [],
+      "exclusionReason": null,
+      "nextAction": "Retrieve IATA notice or carrier/GDS change bulletin, and dated URRR/URRP AIP pages.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "sourceObservation": {
+        "candidateId": "cand_7fc9b08615e93efbdffdc2a8",
+        "sourceId": "airport-codes-raw",
+        "sourceEntityId": "6518",
+        "changes": {
+          "iata": [
+            "ROV",
+            "RVI"
+          ],
+          "keywords": [
+            "Аэропорт Ростов-на-Дону, Rostov-na-Donu Airport",
+            "ROV, Аэропорт Ростов-на-Дону, Rostov-na-Donu Airport"
+          ],
+          "lat": [
+            "47.2582015991",
+            "47.258203"
+          ],
+          "lon": [
+            "39.8180999756",
+            "39.8181"
+          ],
+          "scheduled_service": [
+            "yes",
+            "no"
+          ],
+          "type": [
+            "large_airport",
+            "closed"
+          ]
+        },
+        "observations": [
+          {
+            "action": "M",
+            "afterBlob": "4ed7260e184984d234c4cb9c0c1d080ade4827f0",
+            "beforeBlob": "8304e1616f9918c3f97118a37e5565fde7c7cd25",
+            "commit": "4dfc3ac15e8e1d0889a114b268e28f3477a65d8b",
+            "observedAt": "2019-06-13T16:48:28+02:00",
+            "parents": [
+              "69723c25deeeae7ebaa37f914c8ff3bec9ce7ed3"
+            ]
+          }
+        ],
+        "url": "https://github.com/datasets/airport-codes/blob/4dfc3ac15e8e1d0889a114b268e28f3477a65d8b/archive/data.csv",
+        "sourceType": "secondary",
+        "evidenceType": "indirect",
+        "semantics": "Pinned directory revision; observing commit time is not an effective event boundary.",
+        "license": "ODC-PDDL-1.0"
+      },
+      "directlyEstablishedFacts": [
+        {
+          "fact": "Operator history dates first passengers at Platov to 2017-12-07.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "rov-history"
+          ]
+        }
+      ]
+    },
+    {
+      "eventGroupId": "global-1-lyg",
+      "label": "Lianyungang Baitabu / Huaguoshan",
+      "reviewedOn": "2026-10-27",
+      "status": "insufficient_evidence",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "cand_ee28c2f36941d4b62ff604b2",
+        "legacy-lianyungang"
+      ],
+      "relatedCandidateIds": [],
+      "sourceIds": [
+        "lyg-cua"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "Different sites; raw derivative repurposes a Baitabu record into Huaguoshan. Never reuse that external record as proof of physical continuity.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "lyg-cua"
+          ]
+        },
+        "iata": {
+          "conclusion": "LYG on new field is a directory observation; the airline notice does not mention the code.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "lyg-cua"
+          ]
+        },
+        "icao": {
+          "conclusion": "ZSLG appears in a GPS field; historical official allocations need separate AIP evidence.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "lyg-cua"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "2021-12-02 00:00 is the flight relocation boundary, not established as a code boundary by the retrieved notice. 2024 source edit is a delayed directory observation.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "lyg-cua"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Huaguoshan name in airline notice is an observation, not naming legislation; International suffix is not backdated.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "lyg-cua"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "Civil flights transferred; no all-use military closure or ICAO withdrawal asserted.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "lyg-cua"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "Code-specific LYG/ZSLG implementation and old-site code end missing."
+      ],
+      "conflicts": [],
+      "exclusionReason": null,
+      "nextAction": "Find final IATA implementation and CAAC AIRAC supplement; preserve distinct physical identities.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "sourceObservation": {
+        "candidateId": "cand_ee28c2f36941d4b62ff604b2",
+        "sourceId": "airport-codes-raw",
+        "sourceEntityId": "44167",
+        "changes": {
+          "city": [
+            "",
+            "Lianyungang"
+          ],
+          "gps_code": [
+            "",
+            "ZSLG"
+          ],
+          "iata": [
+            "",
+            "LYG"
+          ],
+          "lat": [
+            "34.5713996887207",
+            "34.41406"
+          ],
+          "lon": [
+            "118.875",
+            "119.17899"
+          ],
+          "name": [
+            "Baitabu Air Base",
+            "Lianyungang Huaguoshan International Airport"
+          ],
+          "scheduled_service": [
+            "no",
+            "yes"
+          ],
+          "wikipedia_link": [
+            "",
+            "https://en.wikipedia.org/wiki/Lianyungang_Huaguoshan_International_Airport"
+          ]
+        },
+        "observations": [
+          {
+            "action": "M",
+            "afterBlob": "260a09188d2cff992739de75c2162096a43ed76c",
+            "beforeBlob": "4ed7260e184984d234c4cb9c0c1d080ade4827f0",
+            "commit": "09ab66f23778cd5c577c96d09a600dcac15bb82b",
+            "observedAt": "2024-10-01T11:30:59Z",
+            "parents": [
+              "51c43e6610742d5162452d3e5229dda197eaf238"
+            ]
+          },
+          {
+            "action": "M",
+            "afterBlob": "260a09188d2cff992739de75c2162096a43ed76c",
+            "beforeBlob": "4ed7260e184984d234c4cb9c0c1d080ade4827f0",
+            "commit": "63f6278fd0de9ad80af2835dcd1bc8558176aa1c",
+            "observedAt": "2024-10-01T17:34:37+05:00",
+            "parents": [
+              "68f702aa6eebf14ed5f7e3bf9be609f9fb8a5663",
+              "7eb67666b64fba95e8036882d81f9948fceec4d9"
+            ]
+          }
+        ],
+        "url": "https://github.com/datasets/airport-codes/blob/09ab66f23778cd5c577c96d09a600dcac15bb82b/archive/data.csv",
+        "sourceType": "secondary",
+        "evidenceType": "indirect",
+        "semantics": "Pinned directory revision; observing commit time is not an effective event boundary.",
+        "license": "ODC-PDDL-1.0"
+      },
+      "directlyEstablishedFacts": [
+        {
+          "fact": "Carrier directs flight relocation at 2021-12-02 00:00 without naming code allocation.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "lyg-cua"
+          ]
+        }
+      ]
+    },
+    {
+      "eventGroupId": "global-1-ybp",
+      "label": "Yibin Caiba / Wuliangye",
+      "reviewedOn": "2026-10-27",
+      "status": "insufficient_evidence",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "cand_0b3be5f183608a0f8d8463fe",
+        "legacy-yibin"
+      ],
+      "relatedCandidateIds": [],
+      "sourceIds": [
+        "yibin-opening",
+        "yibin-old-use"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "Caiba and Wuliangye are distinct sites, not a canonical-name update to one physical airport.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "yibin-opening",
+            "yibin-old-use"
+          ]
+        },
+        "iata": {
+          "conclusion": "YBP continuity is directory-based; opening reports do not allocate it.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "yibin-opening",
+            "yibin-old-use"
+          ]
+        },
+        "icao": {
+          "conclusion": "ZUYB key in mwgg is an identifier observation, not an official historical assignment.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "yibin-opening",
+            "yibin-old-use"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "December 5, 2019 service opening is distinct from unknown YBP/ZUYB implementation dates.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "yibin-opening",
+            "yibin-old-use"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Wuliangye is observed in news; no original name-effective decision held.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "yibin-opening",
+            "yibin-old-use"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "Caiba civilian shutdown must be separated from military operations reported as continuing.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "yibin-opening",
+            "yibin-old-use"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "Code boundary evidence and complete military closure date missing."
+      ],
+      "conflicts": [],
+      "exclusionReason": null,
+      "nextAction": "Retrieve CAAC/IATA implementation and separate civil/military aerodrome notices.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "sourceObservation": {
+        "candidateId": "cand_0b3be5f183608a0f8d8463fe",
+        "sourceId": "mwgg",
+        "sourceEntityId": "ZUYB",
+        "changes": {
+          "elevation": [
+            "924",
+            "1378"
+          ],
+          "lat": [
+            "28.8005555556",
+            "28.858"
+          ],
+          "lon": [
+            "104.545",
+            "104.525"
+          ],
+          "name": [
+            "Yibin Caiba Airport",
+            "Yibin Wuliangye Airport"
+          ]
+        },
+        "observations": [
+          {
+            "action": "M",
+            "afterBlob": "868c8ad818fcb90ba91f88cbd0155d946c4a2be4",
+            "beforeBlob": "aeee6bf071f9fa1dab4993ca048de0c02db06539",
+            "commit": "071a7d9927fb468ce340e4db15ac862a3b19e16e",
+            "observedAt": "2024-08-24T17:33:42+02:00",
+            "parents": [
+              "f104702e6120400991cc90ab9ac7114bbe832cf0"
+            ]
+          },
+          {
+            "action": "M",
+            "afterBlob": "868c8ad818fcb90ba91f88cbd0155d946c4a2be4",
+            "beforeBlob": "9b49e16c4193e629dd5941c9787efa8f2de71445",
+            "commit": "af0c8282b1ef3de17e36f926c95ee357738f04bb",
+            "observedAt": "2024-08-24T17:47:01+02:00",
+            "parents": [
+              "821e573a6903aeef60389f5aa0accf07a3cfc3de",
+              "071a7d9927fb468ce340e4db15ac862a3b19e16e"
+            ]
+          },
+          {
+            "action": "M",
+            "afterBlob": "8668c0e928393e83f37137cc25b3442297489e9b",
+            "beforeBlob": "322cd45c91b9df7dfbe50d15623fc2215065e6c1",
+            "commit": "55eeae4d8dd73f6f567c3b4f931d5efc1c7bc449",
+            "observedAt": "2024-08-24T22:13:14+02:00",
+            "parents": [
+              "8553beb99ba07149668ce527ea1ca5ab96ec4312",
+              "577e9024902c09b8981f63f9f62355c36cc0a13b"
+            ]
+          },
+          {
+            "action": "M",
+            "afterBlob": "58c6e08960fa2696124f3260722c30fb5a9f8410",
+            "beforeBlob": "ffc7a18e5b0fe4edef71dab6fca7b59901f600f4",
+            "commit": "a09b4f8ff079b9225c7acba42e3d509968899006",
+            "observedAt": "2024-08-26T08:57:11+03:00",
+            "parents": [
+              "fc29ff6a8943dc47b267512f32cfc84c4be64f0a",
+              "a7507b65cfe2a93a28b97a8f3a4fb266e2d3fc8b"
+            ]
+          }
+        ],
+        "url": "https://github.com/mwgg/Airports/blob/071a7d9927fb468ce340e4db15ac862a3b19e16e/airports.json",
+        "sourceType": "secondary",
+        "evidenceType": "indirect",
+        "semantics": "Pinned directory revision; observing commit time is not an effective event boundary.",
+        "license": "MIT"
+      },
+      "directlyEstablishedFacts": []
+    },
+    {
+      "eventGroupId": "global-1-lzo",
+      "label": "Luzhou Lantian / Yunlong",
+      "reviewedOn": "2026-10-27",
+      "status": "insufficient_evidence",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "cand_6bdbc1b60cf1a50fd06abd88",
+        "legacy-luzhou"
+      ],
+      "relatedCandidateIds": [],
+      "sourceIds": [
+        "luzhou-opening"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "Distinct Lantian and Yunlong locations; no physical identity merge.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "luzhou-opening"
+          ]
+        },
+        "iata": {
+          "conclusion": "LZO transfer hypothesis is not established at the new opening by this report.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "luzhou-opening"
+          ]
+        },
+        "icao": {
+          "conclusion": "ZULZ in the old directory GPS field does not prove ICAO reuse timing.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "luzhou-opening"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Yunlong opened 2018-09-10 after about twelve months without Lantian service. Do not close the old assignment at new opening or invent seamless continuation.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "luzhou-opening"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Different site names; no formal rename timeline collected.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "luzhou-opening"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "Reported operational gap needs its own dated old-site closure notice; code validity could differ from service.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "luzhou-opening"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "Lantian last service/withdrawal, Yunlong first allocation and ICAO implementation missing."
+      ],
+      "conflicts": [],
+      "exclusionReason": null,
+      "nextAction": "Find 2017 Lantian closure NOTAM and 2018 CAAC/IATA implementation separately.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "sourceObservation": {
+        "candidateId": "cand_6bdbc1b60cf1a50fd06abd88",
+        "sourceId": "airport-codes-raw",
+        "sourceEntityId": "35313",
+        "changes": {
+          "city": [
+            "Luzhou",
+            "Luzhou (Jiangyang)"
+          ],
+          "gps_code": [
+            "ZULZ",
+            ""
+          ],
+          "iata": [
+            "LZO",
+            ""
+          ],
+          "ident": [
+            "ZULZ",
+            "CN-0011"
+          ],
+          "keywords": [
+            "",
+            "LZO, ZULZ"
+          ],
+          "lat": [
+            "28.85219955444336",
+            "28.852577"
+          ],
+          "lon": [
+            "105.39299774169922",
+            "105.392579"
+          ],
+          "name": [
+            "Luzhou Airport",
+            "Luzhou Lantian Airport"
+          ],
+          "scheduled_service": [
+            "yes",
+            "no"
+          ],
+          "type": [
+            "small_airport",
+            "closed"
+          ],
+          "wikipedia_link": [
+            "http://en.wikipedia.org/wiki/Luzhou_Airport",
+            "https://en.wikipedia.org/wiki/Luzhou_Lantian_Airport"
+          ]
+        },
+        "observations": [
+          {
+            "action": "M",
+            "afterBlob": "260a09188d2cff992739de75c2162096a43ed76c",
+            "beforeBlob": "4ed7260e184984d234c4cb9c0c1d080ade4827f0",
+            "commit": "09ab66f23778cd5c577c96d09a600dcac15bb82b",
+            "observedAt": "2024-10-01T11:30:59Z",
+            "parents": [
+              "51c43e6610742d5162452d3e5229dda197eaf238"
+            ]
+          },
+          {
+            "action": "M",
+            "afterBlob": "260a09188d2cff992739de75c2162096a43ed76c",
+            "beforeBlob": "4ed7260e184984d234c4cb9c0c1d080ade4827f0",
+            "commit": "63f6278fd0de9ad80af2835dcd1bc8558176aa1c",
+            "observedAt": "2024-10-01T17:34:37+05:00",
+            "parents": [
+              "68f702aa6eebf14ed5f7e3bf9be609f9fb8a5663",
+              "7eb67666b64fba95e8036882d81f9948fceec4d9"
+            ]
+          }
+        ],
+        "url": "https://github.com/datasets/airport-codes/blob/09ab66f23778cd5c577c96d09a600dcac15bb82b/archive/data.csv",
+        "sourceType": "secondary",
+        "evidenceType": "indirect",
+        "semantics": "Pinned directory revision; observing commit time is not an effective event boundary.",
+        "license": "ODC-PDDL-1.0"
+      },
+      "directlyEstablishedFacts": []
+    },
+    {
+      "eventGroupId": "global-1-jng",
+      "label": "Jining Qufu / Da’an",
+      "reviewedOn": "2026-10-27",
+      "status": "insufficient_evidence",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "cand_e1f96c81b10b8a30ef076ffa",
+        "legacy-jining"
+      ],
+      "relatedCandidateIds": [],
+      "sourceIds": [
+        "jng-csair"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "Carrier explicitly moves between separate Qufu and Da’an airports.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "jng-csair"
+          ]
+        },
+        "iata": {
+          "conclusion": "Notice does not state JNG allocation; 2024 directory deletion cannot date the 2023 code transition.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "jng-csair"
+          ]
+        },
+        "icao": {
+          "conclusion": "ZSJG is observed in old GPS data; neither ZSDA nor other similar identifiers are accepted without AIP evidence.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "jng-csair"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "2023-12-28 00:00 is China Southern flight relocation only; signing/publication on December 22 is separate.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "jng-csair"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Da’an is observed in airline notice; no official-name interval is backdated.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "jng-csair"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "Airline transfer does not prove old physical site closed to all use.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "jng-csair"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "JNG effective date, both physical-site ICAO allocation histories missing."
+      ],
+      "conflicts": [],
+      "exclusionReason": null,
+      "nextAction": "Seek CAAC AIRAC and IATA implementation; reject guessed ZSDA.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "sourceObservation": {
+        "candidateId": "cand_e1f96c81b10b8a30ef076ffa",
+        "sourceId": "ourairports",
+        "sourceEntityId": "300515",
+        "changes": {
+          "gps_code": [
+            "ZSJG",
+            ""
+          ],
+          "iata": [
+            "JNG",
+            ""
+          ],
+          "keywords": [
+            "",
+            "JNG, ZSJG"
+          ]
+        },
+        "observations": [
+          {
+            "action": "M",
+            "afterBlob": "4efc990ba46915d57f38ca957c888cd6c19daae9",
+            "beforeBlob": "fd0ecc3799dc7e413af79564ef14be2649e9521a",
+            "commit": "3cb3ef9b4289873aa694b503093d0535b097b334",
+            "observedAt": "2024-09-23T03:53:31-04:00",
+            "parents": [
+              "28f7a4711d1359e9e05f1e8e47732079c0ffc059"
+            ]
+          }
+        ],
+        "url": "https://github.com/davidmegginson/ourairports-data/blob/3cb3ef9b4289873aa694b503093d0535b097b334/airports.csv",
+        "sourceType": "secondary",
+        "evidenceType": "indirect",
+        "semantics": "Pinned directory revision; observing commit time is not an effective event boundary.",
+        "license": "Public-Domain"
+      },
+      "directlyEstablishedFacts": [
+        {
+          "fact": "Carrier directs its domestic flights to Da’an at 2023-12-28 00:00.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "jng-csair"
+          ]
+        }
+      ]
+    },
+    {
+      "eventGroupId": "global-1-dakar",
+      "label": "Dakar Léopold Sédar Senghor / Blaise Diagne",
+      "reviewedOn": "2026-10-27",
+      "status": "insufficient_evidence",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "legacy-dakar"
+      ],
+      "relatedCandidateIds": [],
+      "sourceIds": [
+        "dakar-saa"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "Old Dakar/Yoff and Diass are separate fields; SAA notice locates the new site away from Dakar.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "dakar-saa"
+          ]
+        },
+        "iata": {
+          "conclusion": "Explicit DKR old / DSS new: this is not DKR inheritance. A commercial move is not DKR withdrawal.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "dakar-saa"
+          ]
+        },
+        "icao": {
+          "conclusion": "GOOY/GOBD remain directory leads; no code-specific primary ICAO implementation inspected.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "dakar-saa"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "SAA scheduled first DSS arrival 2017-12-08 01:20 differs from December 7 airport opening. Neither is automatically first DSS allocation.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "dakar-saa"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Name labels are directly used by SAA, not original formal name changes.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "dakar-saa"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "SAA service termination wording is not a legal all-use closure or code retirement order.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "dakar-saa"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "Original DSS start and DKR continuation/withdrawal records missing."
+      ],
+      "conflicts": [],
+      "exclusionReason": null,
+      "nextAction": "Inspect Senegal/ASECNA notices for GOOY/GOBD and independent IATA history; keep DKR at old site unless disproved.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "directlyEstablishedFacts": [
+        {
+          "fact": "Attributed SAA release distinguishes DKR and DSS and schedules its first new-airport landing for December 8.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "dakar-saa"
+          ]
+        }
+      ]
+    },
+    {
+      "eventGroupId": "global-1-pnh",
+      "label": "Phnom Penh Pochentong / Techo",
+      "reviewedOn": "2026-10-27",
+      "status": "insufficient_evidence",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "legacy-phnom-penh"
+      ],
+      "relatedCandidateIds": [],
+      "sourceIds": [
+        "pnh-sia",
+        "kti-ocic",
+        "kti-certificate"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "Techo is a separate greenfield site replacing Pochentong passenger operations; not a rename of the old airfield.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "pnh-sia",
+            "kti-ocic",
+            "kti-certificate"
+          ]
+        },
+        "iata": {
+          "conclusion": "Airline directly distinguishes PNH from KTI. PNH is not inherited; KTI prior Kratie history is reviewed separately.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "pnh-sia",
+            "kti-ocic",
+            "kti-certificate"
+          ]
+        },
+        "icao": {
+          "conclusion": "Current developer identifies VDTI; VDPP old history and withdrawal need independent AIP evidence.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "pnh-sia",
+            "kti-ocic",
+            "kti-certificate"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "September 9, 2025 is SIA flight/code-use implementation, not proof of first KTI allocation; August certificate and October inauguration are separate.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "pnh-sia",
+            "kti-ocic",
+            "kti-certificate"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "No city-name change or Pochentong rename is inferred from the new Techo label.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "pnh-sia",
+            "kti-ocic",
+            "kti-certificate"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "Own passenger move is established; legal closure to all operations and PNH withdrawal remain unproved.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "pnh-sia",
+            "kti-ocic",
+            "kti-certificate"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "PNH withdrawal/retention and full code interval boundaries missing; Kratie prior KTI unresolved."
+      ],
+      "conflicts": [],
+      "exclusionReason": null,
+      "nextAction": "Obtain SSCA AIP closure/availability and IATA allocation notices; link to Kratie review before admitting KTI history.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "directlyEstablishedFacts": [
+        {
+          "fact": "SIA instructions identify distinct PNH/KTI and its September 9 flight implementation; developer confirms new site.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "pnh-sia",
+            "kti-ocic"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [
+        "global-1-kti"
+      ]
+    },
+    {
+      "eventGroupId": "global-1-aap",
+      "label": "Samarinda Temindung / APT Pranoto",
+      "reviewedOn": "2026-10-27",
+      "status": "insufficient_evidence",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "cand_3aba472425775e4a29a4d63b"
+      ],
+      "relatedCandidateIds": [],
+      "sourceIds": [
+        "aap-ministry",
+        "aap-directory"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "Distinct sites; same source entity was moved from Temindung to Sungai Siring.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "aap-ministry",
+            "aap-directory"
+          ]
+        },
+        "iata": {
+          "conclusion": "Old SRI to new AAP is a different-code replacement hypothesis; authority directly observes current AAP only.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "aap-ministry",
+            "aap-directory"
+          ]
+        },
+        "icao": {
+          "conclusion": "Authority directly identifies current WALS; no historical WALS reuse boundary established.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "aap-ministry",
+            "aap-directory"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "October 25, 2018 inauguration must not be assumed to be first operation, AAP allocation or SRI withdrawal.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "aap-ministry",
+            "aap-directory"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "APT Pranoto official label is observed, but original naming decision effective clause not inspected.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "aap-ministry",
+            "aap-directory"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "Ministry confirms replacement; not original code withdrawal.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "aap-ministry",
+            "aap-directory"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "SRI/AAP and historical WALS boundaries missing."
+      ],
+      "conflicts": [],
+      "exclusionReason": null,
+      "nextAction": "Locate Indonesia AIS implementation and original naming decision KP 676/2017; separate inauguration from first service.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "sourceObservation": {
+        "candidateId": "cand_3aba472425775e4a29a4d63b",
+        "sourceId": "airport-codes-raw",
+        "sourceEntityId": "26763",
+        "changes": {
+          "elevation": [
+            "33",
+            "82"
+          ],
+          "iata": [
+            "SRI",
+            "AAP"
+          ],
+          "keywords": [
+            "WRLS",
+            "Sungai Siring Airport"
+          ],
+          "lat": [
+            "-0.484530985355",
+            "-0.374478"
+          ],
+          "lon": [
+            "117.156997681",
+            "117.250128"
+          ],
+          "name": [
+            "Temindung Airport",
+            "Aji Pangeran Tumenggung Pranoto International Airport"
+          ],
+          "wikipedia_link": [
+            "http://en.wikipedia.org/wiki/Temindung_Airport",
+            "https://en.wikipedia.org/wiki/Aji_Pangeran_Tumenggung_Pranoto_International_Airport"
+          ]
+        },
+        "observations": [
+          {
+            "action": "M",
+            "afterBlob": "260a09188d2cff992739de75c2162096a43ed76c",
+            "beforeBlob": "4ed7260e184984d234c4cb9c0c1d080ade4827f0",
+            "commit": "09ab66f23778cd5c577c96d09a600dcac15bb82b",
+            "observedAt": "2024-10-01T11:30:59Z",
+            "parents": [
+              "51c43e6610742d5162452d3e5229dda197eaf238"
+            ]
+          },
+          {
+            "action": "M",
+            "afterBlob": "260a09188d2cff992739de75c2162096a43ed76c",
+            "beforeBlob": "4ed7260e184984d234c4cb9c0c1d080ade4827f0",
+            "commit": "63f6278fd0de9ad80af2835dcd1bc8558176aa1c",
+            "observedAt": "2024-10-01T17:34:37+05:00",
+            "parents": [
+              "68f702aa6eebf14ed5f7e3bf9be609f9fb8a5663",
+              "7eb67666b64fba95e8036882d81f9948fceec4d9"
+            ]
+          }
+        ],
+        "url": "https://github.com/datasets/airport-codes/blob/09ab66f23778cd5c577c96d09a600dcac15bb82b/archive/data.csv",
+        "sourceType": "secondary",
+        "evidenceType": "indirect",
+        "semantics": "Pinned directory revision; observing commit time is not an effective event boundary.",
+        "license": "ODC-PDDL-1.0"
+      },
+      "directlyEstablishedFacts": [
+        {
+          "fact": "Authority observes current AAP/WALS at Sungai Siring; ministry describes replacement of Temindung.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "aap-directory",
+            "aap-ministry"
+          ]
+        }
+      ]
+    },
+    {
+      "eventGroupId": "global-1-cdt",
+      "label": "Calamocha / Castellón directory conflation",
+      "reviewedOn": "2026-10-27",
+      "status": "excluded",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "cand_27f8e5c4d6f78bb8d11e7629"
+      ],
+      "relatedCandidateIds": [],
+      "sourceIds": [
+        "cdt-operator",
+        "cdt-changes"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "Exclude the implied Calamocha-to-Castellón physical relocation/CDT transfer: a directory record keyed by a reused identifier was repurposed between unrelated locations.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cdt-operator",
+            "cdt-changes"
+          ]
+        },
+        "iata": {
+          "conclusion": "Old Calamocha row had no CDT. Current CDT belongs to Castellón; genuine LECN-to-new-site CDT history remains a separate unresolved follow-up.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cdt-operator",
+            "cdt-changes"
+          ]
+        },
+        "icao": {
+          "conclusion": "LECH/LEDS/LECN are distinct historical identifier questions; this source edit does not date official reuse.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cdt-operator",
+            "cdt-changes"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "2019 derivative update is not an airport move or allocation date.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cdt-operator",
+            "cdt-changes"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Unrelated place labels, not a formal airport rename.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cdt-operator",
+            "cdt-changes"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "Closed-to-open source flag reflects repurposed directory content, not Calamocha reopening in Castellón.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cdt-operator",
+            "cdt-changes"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "Actual CDT LECN transfer and LECH official reuse chronology remain outside this excluded interpretation."
+      ],
+      "conflicts": [],
+      "exclusionReason": "Exclude the implied Calamocha-to-Castellón physical relocation/CDT transfer: a directory record keyed by a reused identifier was repurposed between unrelated locations.",
+      "nextAction": "Retain genuine LECN/CDT and ICAO reuse follow-ups; do not create a Calamocha successor entity from this row.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "sourceObservation": {
+        "candidateId": "cand_27f8e5c4d6f78bb8d11e7629",
+        "sourceId": "airport-codes-raw",
+        "sourceEntityId": "29410",
+        "changes": {
+          "city": [
+            "Calamocha",
+            "Castellón de la Plana"
+          ],
+          "elevation": [
+            "2936",
+            "1145"
+          ],
+          "gps_code": [
+            "",
+            "LECH"
+          ],
+          "home_link": [
+            "",
+            "http://www.aeropuerto-castellon.com/"
+          ],
+          "iata": [
+            "",
+            "CDT"
+          ],
+          "lat": [
+            "40.900002",
+            "40.213889"
+          ],
+          "lon": [
+            "-1.30412",
+            "0.073333"
+          ],
+          "name": [
+            "Calamocha Air Base",
+            "Castellón-Costa Azahar Airport"
+          ],
+          "region": [
+            "ES-AR",
+            "ES-CS"
+          ],
+          "scheduled_service": [
+            "no",
+            "yes"
+          ],
+          "type": [
+            "closed",
+            "medium_airport"
+          ],
+          "wikipedia_link": [
+            "",
+            "http://en.wikipedia.org/wiki/Castell%C3%B3n-Costa_Azahar_Airport"
+          ]
+        },
+        "observations": [
+          {
+            "action": "M",
+            "afterBlob": "4ed7260e184984d234c4cb9c0c1d080ade4827f0",
+            "beforeBlob": "8304e1616f9918c3f97118a37e5565fde7c7cd25",
+            "commit": "4dfc3ac15e8e1d0889a114b268e28f3477a65d8b",
+            "observedAt": "2019-06-13T16:48:28+02:00",
+            "parents": [
+              "69723c25deeeae7ebaa37f914c8ff3bec9ce7ed3"
+            ]
+          }
+        ],
+        "url": "https://github.com/datasets/airport-codes/blob/4dfc3ac15e8e1d0889a114b268e28f3477a65d8b/archive/data.csv",
+        "sourceType": "secondary",
+        "evidenceType": "indirect",
+        "semantics": "Pinned directory revision; observing commit time is not an effective event boundary.",
+        "license": "ODC-PDDL-1.0"
+      },
+      "directlyEstablishedFacts": [
+        {
+          "fact": "Operator explicitly identifies current CDT/LECH; this is not proof of Calamocha history.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "cdt-operator"
+          ]
+        }
+      ]
+    },
+    {
+      "eventGroupId": "global-1-dni",
+      "label": "Wad Medani coded coordinate shift",
+      "reviewedOn": "2026-10-27",
+      "status": "pending_review",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "cand_e2f8f10d49342c01a7e4c0ec"
+      ],
+      "relatedCandidateIds": [],
+      "sourceIds": [
+        "dni-guide",
+        "dni-wikipedia"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "Physical site unresolved: machine move near Wad Medani differs materially from another published coordinate in eastern Sudan.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "dni-guide",
+            "dni-wikipedia"
+          ]
+        },
+        "iata": {
+          "conclusion": "DNI is a secondary observation, not a proven allocation to either disputed location.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "dni-guide",
+            "dni-wikipedia"
+          ]
+        },
+        "icao": {
+          "conclusion": "HSWD secondary associations do not resolve the physical site.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "dni-guide",
+            "dni-wikipedia"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "No primary closure date or historical relocation implementation obtained.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "dni-guide",
+            "dni-wikipedia"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Wad Madani/Medani transliteration is not proven official renaming.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "dni-guide",
+            "dni-wikipedia"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "Closed flags across directories do not establish a dated closure or replacement.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "dni-guide",
+            "dni-wikipedia"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "Material coordinate conflict; identity and code chronology both unresolved."
+      ],
+      "conflicts": [
+        "Material coordinate conflict; identity and code chronology both unresolved."
+      ],
+      "exclusionReason": null,
+      "nextAction": "Obtain Sudan AIS historical chart/site plan and closure notice; independently review coordinates before entity creation.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "sourceObservation": {
+        "candidateId": "cand_e2f8f10d49342c01a7e4c0ec",
+        "sourceId": "ourairports",
+        "sourceEntityId": "318069",
+        "changes": {
+          "lat": [
+            "14.295633",
+            "14.383451"
+          ],
+          "lon": [
+            "33.547271",
+            "33.526679"
+          ],
+          "type": [
+            "small_airport",
+            "closed"
+          ]
+        },
+        "observations": [
+          {
+            "action": "M",
+            "afterBlob": "5e6ae7be8ae4c17ff4db64592eda499f18924954",
+            "beforeBlob": "b77ffb2b106c1b07c59d6aba591c452bdb3aee63",
+            "commit": "9348f63dbdfe2a37c4390de2972d4ef64bb84db0",
+            "observedAt": "2022-08-13T03:53:41-04:00",
+            "parents": [
+              "ba7a63e649445db13cf4004cf1b3f79a86216a48"
+            ]
+          }
+        ],
+        "url": "https://github.com/davidmegginson/ourairports-data/blob/9348f63dbdfe2a37c4390de2972d4ef64bb84db0/airports.csv",
+        "sourceType": "secondary",
+        "evidenceType": "indirect",
+        "semantics": "Pinned directory revision; observing commit time is not an effective event boundary.",
+        "license": "Public-Domain"
+      },
+      "directlyEstablishedFacts": []
+    },
+    {
+      "eventGroupId": "global-1-ngn",
+      "label": "Narganá marker correction",
+      "reviewedOn": "2026-10-27",
+      "status": "excluded",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "cand_3788d9d4f8b213d5d1c24425"
+      ],
+      "relatedCandidateIds": [],
+      "sourceIds": [
+        "ngn-changes"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "Exclude physical relocation interpretation: editor explicitly says marker moved about 75 km using OSM, not that an airport relocated.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ngn-changes"
+          ]
+        },
+        "iata": {
+          "conclusion": "NGN was added/removed in edits; do not turn those edits into official assignments or equate NGN with nearby CZJ.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ngn-changes"
+          ]
+        },
+        "icao": {
+          "conclusion": "PA-0012 is a local source ID, not ICAO. No official ICAO assignment established.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ngn-changes"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "August/November 2022 are edit dates, not airport closure or code dates.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ngn-changes"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Accent/municipality edits do not prove formal renaming.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ngn-changes"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "Source closed flag is not an independently dated closure; nearby Corazón de Jesús remains a separate entity question.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ngn-changes"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "Original NGN allocation, physical closed-field identity and closure remain unresolved follow-ups."
+      ],
+      "conflicts": [],
+      "exclusionReason": "Exclude physical relocation interpretation: editor explicitly says marker moved about 75 km using OSM, not that an airport relocated.",
+      "nextAction": "Retain historical NGN/Corazón de Jesús question; reject this marker correction as a move event.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "sourceObservation": {
+        "candidateId": "cand_3788d9d4f8b213d5d1c24425",
+        "sourceId": "ourairports",
+        "sourceEntityId": "42195",
+        "changes": {
+          "city": [
+            "Nargana",
+            "Narganá"
+          ],
+          "elevation": [
+            "1305",
+            "7"
+          ],
+          "iata": [
+            "",
+            "NGN"
+          ],
+          "keywords": [
+            "",
+            "NGN, Corazón de Jesús"
+          ],
+          "lat": [
+            "9.064220428466797",
+            "9.444659"
+          ],
+          "lon": [
+            "-78.0165023803711",
+            "-78.588896"
+          ],
+          "name": [
+            "Nargana Airport",
+            "Narganá Airport"
+          ],
+          "type": [
+            "small_airport",
+            "closed"
+          ]
+        },
+        "observations": [
+          {
+            "action": "M",
+            "afterBlob": "9280cfa35b4bedcea4cc10ba475257e55bd56367",
+            "beforeBlob": "6629de6896752ca00dcbc5c3480813860a1dd187",
+            "commit": "9fac99787b64a93dd8f16e646b7bca24b89c141e",
+            "observedAt": "2022-08-19T03:53:40-04:00",
+            "parents": [
+              "d9e14e0bda13572c98a0c1af045070abb98a1281"
+            ]
+          }
+        ],
+        "url": "https://github.com/davidmegginson/ourairports-data/blob/9fac99787b64a93dd8f16e646b7bca24b89c141e/airports.csv",
+        "sourceType": "secondary",
+        "evidenceType": "indirect",
+        "semantics": "Pinned directory revision; observing commit time is not an effective event boundary.",
+        "license": "Public-Domain"
+      },
+      "directlyEstablishedFacts": []
+    },
+    {
+      "eventGroupId": "global-1-wch",
+      "label": "Chaitén / Nuevo Chaitén",
+      "reviewedOn": "2026-10-27",
+      "status": "pending_review",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "cand_4ecbdc43aaa5a0a46a3c5e78"
+      ],
+      "relatedCandidateIds": [],
+      "sourceIds": [
+        "wch-resolution",
+        "wch-fiche"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "DGAC describes destroyed old field, temporary road strip and new northwest site. Machine edit restores old-site coordinates after conflation; do not merge the three locations.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "wch-resolution",
+            "wch-fiche"
+          ]
+        },
+        "iata": {
+          "conclusion": "Retrospective says codes inherited but does not specify WCH allocation timing; machine deletion is not effective withdrawal.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "wch-resolution",
+            "wch-fiche"
+          ]
+        },
+        "icao": {
+          "conclusion": "Resolution directly lists new SCTN; technical fiche prints SCPC. This contradictory official material is quarantined pending independent AIS review.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "wch-resolution",
+            "wch-fiche"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "2008 destruction, January 22, 2015 resolution and January 25 inauguration differ. No exact transfer date through the temporary strip established.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "wch-resolution",
+            "wch-fiche"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Resolution directly observes official Nuevo Chaitén label; no continuous name interval admitted while the group needs independent review.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "wch-resolution",
+            "wch-fiche"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "Replacement is supported; code transfer and temporary-strip identity remain distinct claims.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "wch-resolution",
+            "wch-fiche"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "SCTN/SCPC official-document conflict, temporary-strip codes and WCH effective history."
+      ],
+      "conflicts": [
+        "SCTN/SCPC official-document conflict, temporary-strip codes and WCH effective history."
+      ],
+      "exclusionReason": null,
+      "nextAction": "Retrieve independent dated Chile AIS/AIP amendment, verify technical-fiche typo and old/temporary-site identifiers before admission.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "sourceObservation": {
+        "candidateId": "cand_4ecbdc43aaa5a0a46a3c5e78",
+        "sourceId": "ourairports",
+        "sourceEntityId": "6045",
+        "changes": {
+          "city": [
+            "Chaiten",
+            "Chaitén"
+          ],
+          "elevation": [
+            "95",
+            "13"
+          ],
+          "gps_code": [
+            "SCTN",
+            ""
+          ],
+          "iata": [
+            "WCH",
+            ""
+          ],
+          "keywords": [
+            "",
+            "WCH, SCTN"
+          ],
+          "lat": [
+            "-42.781943",
+            "-42.9328"
+          ],
+          "lon": [
+            "-72.834999",
+            "-72.6991"
+          ],
+          "name": [
+            "Nuevo Chaitén Airport",
+            "Chaitén Airfield"
+          ],
+          "type": [
+            "medium_airport",
+            "closed"
+          ],
+          "wikipedia_link": [
+            "",
+            "https://en.wikipedia.org/wiki/Chait%C3%A9n_Airfield"
+          ]
+        },
+        "observations": [
+          {
+            "action": "M",
+            "afterBlob": "8e04b0e0c763568b60476446c6bf8742af718c12",
+            "beforeBlob": "e6c3c4daee14e232634ee6d1ae1c916462c1f7fe",
+            "commit": "c0fa74aea4626a09c050e171b0f602ba5cad2204",
+            "observedAt": "2022-12-17T03:53:27-05:00",
+            "parents": [
+              "25fb7fd3bf9e57a6fe4dce45fbe5b361e694fa9e"
+            ]
+          }
+        ],
+        "url": "https://github.com/davidmegginson/ourairports-data/blob/c0fa74aea4626a09c050e171b0f602ba5cad2204/airports.csv",
+        "sourceType": "secondary",
+        "evidenceType": "indirect",
+        "semantics": "Pinned directory revision; observing commit time is not an effective event boundary.",
+        "license": "Public-Domain"
+      },
+      "directlyEstablishedFacts": [
+        {
+          "fact": "Resolution identifies Nuevo Chaitén, SCTN and northwest coordinates on 2015-01-22; transfer timing remains unproved.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "wch-resolution"
+          ]
+        }
+      ]
+    },
+    {
+      "eventGroupId": "global-1-bve",
+      "label": "Toul-Rosières / Brive directory conflation",
+      "reviewedOn": "2026-10-27",
+      "status": "excluded",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "cand_ba1d95c1c6212eaafe0407f3"
+      ],
+      "relatedCandidateIds": [],
+      "sourceIds": [
+        "bve-changes",
+        "bve-operator"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "Exclude implied Toul-to-Brive relocation/BVE transfer: edit log explicitly documents distant records being confused under LFSL; old Toul row had no BVE.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "bve-changes",
+            "bve-operator"
+          ]
+        },
+        "iata": {
+          "conclusion": "BVE transfer from Brive-Laroche to Souillac is a separate real-history lead, not proved by repurposing the Toul row.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "bve-changes",
+            "bve-operator"
+          ]
+        },
+        "icao": {
+          "conclusion": "LFSL reuse may be historical; source edit does not establish official reuse timing.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "bve-changes",
+            "bve-operator"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "2024 derivative observation is not a 2024 physical move or reopening.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "bve-changes",
+            "bve-operator"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Two unrelated place names are not a formal rename of one physical airport.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "bve-changes",
+            "bve-operator"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "Closed-to-open flag is an editorial reassignment, not Toul reopening as Brive.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "bve-changes",
+            "bve-operator"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "Genuine Laroche/Souillac BVE transfer and official LFSL reuse chronology remain preserved follow-ups."
+      ],
+      "conflicts": [],
+      "exclusionReason": "Exclude implied Toul-to-Brive relocation/BVE transfer: edit log explicitly documents distant records being confused under LFSL; old Toul row had no BVE.",
+      "nextAction": "Investigate genuine Laroche/Souillac through SIA/IATA archives separately; do not create a Toul successor from this candidate.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "sourceObservation": {
+        "candidateId": "cand_ba1d95c1c6212eaafe0407f3",
+        "sourceId": "airport-codes-raw",
+        "sourceEntityId": "29001",
+        "changes": {
+          "city": [
+            "St Dizier",
+            "Brive la Gaillarde"
+          ],
+          "elevation": [
+            "936",
+            "1016"
+          ],
+          "gps_code": [
+            "",
+            "LFSL"
+          ],
+          "home_link": [
+            "",
+            "http://www.aeroport-brive-vallee-dordogne.fr"
+          ],
+          "iata": [
+            "",
+            "BVE"
+          ],
+          "lat": [
+            "48.780001",
+            "45.039722"
+          ],
+          "lon": [
+            "5.980003",
+            "1.485556"
+          ],
+          "name": [
+            "Toul Rosières Air Base",
+            "Brive-Souillac"
+          ],
+          "region": [
+            "FR-M",
+            "FR-NAQ"
+          ],
+          "scheduled_service": [
+            "no",
+            "yes"
+          ],
+          "type": [
+            "closed",
+            "medium_airport"
+          ],
+          "wikipedia_link": [
+            "",
+            "https://fr.wikipedia.org/wiki/Aéroport_de_Brive-Souillac"
+          ]
+        },
+        "observations": [
+          {
+            "action": "M",
+            "afterBlob": "260a09188d2cff992739de75c2162096a43ed76c",
+            "beforeBlob": "4ed7260e184984d234c4cb9c0c1d080ade4827f0",
+            "commit": "09ab66f23778cd5c577c96d09a600dcac15bb82b",
+            "observedAt": "2024-10-01T11:30:59Z",
+            "parents": [
+              "51c43e6610742d5162452d3e5229dda197eaf238"
+            ]
+          },
+          {
+            "action": "M",
+            "afterBlob": "260a09188d2cff992739de75c2162096a43ed76c",
+            "beforeBlob": "4ed7260e184984d234c4cb9c0c1d080ade4827f0",
+            "commit": "63f6278fd0de9ad80af2835dcd1bc8558176aa1c",
+            "observedAt": "2024-10-01T17:34:37+05:00",
+            "parents": [
+              "68f702aa6eebf14ed5f7e3bf9be609f9fb8a5663",
+              "7eb67666b64fba95e8036882d81f9948fceec4d9"
+            ]
+          }
+        ],
+        "url": "https://github.com/datasets/airport-codes/blob/09ab66f23778cd5c577c96d09a600dcac15bb82b/archive/data.csv",
+        "sourceType": "secondary",
+        "evidenceType": "indirect",
+        "semantics": "Pinned directory revision; observing commit time is not an effective event boundary.",
+        "license": "ODC-PDDL-1.0"
+      },
+      "directlyEstablishedFacts": [
+        {
+          "fact": "Brive operator publishes LFSL aeronautical documentation; no historical BVE transfer boundary.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "bve-operator"
+          ]
+        }
+      ]
+    },
+    {
+      "eventGroupId": "global-1-knn",
+      "label": "Kankan / Diankana coded-site split",
+      "reviewedOn": "2026-10-27",
+      "status": "pending_review",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "cand_d143eee2e286e0dfbbaa2339"
+      ],
+      "relatedCandidateIds": [
+        "cand_51b7f16fdc1dd9b60af605a7"
+      ],
+      "sourceIds": [
+        "knn-icao",
+        "knn-wikipedia"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "Two location hypotheses survive; secondary old/new mapping and ICAO planning city label do not independently identify every physical record.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "knn-icao",
+            "knn-wikipedia"
+          ]
+        },
+        "iata": {
+          "conclusion": "KNN is removed from restored old-site record; no dated official transfer to Diankana obtained.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "knn-icao",
+            "knn-wikipedia"
+          ]
+        },
+        "icao": {
+          "conclusion": "ICAO planning document associates Kankan/Kankan with GUXN, while other accounts distinguish Diankana GUXD; directories conflict about mapping.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "knn-icao",
+            "knn-wikipedia"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "June 2025 edit is a correction observation, not a code transfer or closure date.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "knn-icao",
+            "knn-wikipedia"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Kankan/Diankana labels cannot be treated as a same-site formal rename.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "knn-icao",
+            "knn-wikipedia"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "Old-site closure and new-site opening dates remain unknown.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "knn-icao",
+            "knn-wikipedia"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "GUXN/GUXD physical mapping conflict; KNN boundary missing."
+      ],
+      "conflicts": [
+        "GUXN/GUXD physical mapping conflict; KNN boundary missing."
+      ],
+      "exclusionReason": null,
+      "nextAction": "Use Guinea AIS charts/Doc 7910 history and IATA notices, independently of directories, to resolve both sites.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "sourceObservation": {
+        "candidateId": "cand_d143eee2e286e0dfbbaa2339",
+        "sourceId": "ourairports",
+        "sourceEntityId": "44577",
+        "changes": {
+          "elevation": [
+            "1233",
+            "1267"
+          ],
+          "gps_code": [
+            "GUXD",
+            ""
+          ],
+          "iata": [
+            "KNN",
+            ""
+          ],
+          "keywords": [
+            "",
+            "KNN, GUXN"
+          ],
+          "lat": [
+            "10.448438",
+            "10.394"
+          ],
+          "lon": [
+            "-9.228757",
+            "-9.3038"
+          ],
+          "type": [
+            "small_airport",
+            "closed"
+          ],
+          "wikipedia_link": [
+            "https://en.wikipedia.org/wiki/Kankan_Airport",
+            ""
+          ]
+        },
+        "observations": [
+          {
+            "action": "M",
+            "afterBlob": "78e09a17f5187b855f644ec3bec5af1a02c0126b",
+            "beforeBlob": "c553c9dc6cc1fccf789c55f551994dc1f97c9b33",
+            "commit": "8c2de8936ac134519c76581226c9d67e6f56ca88",
+            "observedAt": "2025-06-07T03:53:11+02:00",
+            "parents": [
+              "59766634522957034516dd78336f833103ff2d61"
+            ]
+          }
+        ],
+        "url": "https://github.com/davidmegginson/ourairports-data/blob/8c2de8936ac134519c76581226c9d67e6f56ca88/airports.csv",
+        "sourceType": "secondary",
+        "evidenceType": "indirect",
+        "semantics": "Pinned directory revision; observing commit time is not an effective event boundary.",
+        "license": "Public-Domain"
+      },
+      "exactDuplicateGroupId": "dup_293f24eacb96702d95adab66",
+      "directlyEstablishedFacts": [
+        {
+          "fact": "ICAO planning document contains a Kankan/Kankan GUXN row with no IATA entry; exact physical mapping remains uncertain.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "knn-icao"
+          ]
+        }
+      ]
+    },
+    {
+      "eventGroupId": "global-1-utr",
+      "label": "Uttaradit UTR/VTPU location and closure",
+      "reviewedOn": "2026-10-27",
+      "status": "pending_review",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "cand_ec671992f93700beb8d14848"
+      ],
+      "relatedCandidateIds": [
+        "cand_7c7e49cc4bff8eff387e6c44"
+      ],
+      "sourceIds": [
+        "utr-aip",
+        "utr-history"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "Source restores a different abandoned-field location; area had multiple facilities, so physical identity needs historical map reconciliation.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "utr-aip",
+            "utr-history"
+          ]
+        },
+        "iata": {
+          "conclusion": "UTR removal is an edit, not a dated official withdrawal.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "utr-aip",
+            "utr-history"
+          ]
+        },
+        "icao": {
+          "conclusion": "VTPU occurs in retained primary AIP index, but historic-map interpretation and closed-site narrative remain unresolved. VTUD is unrelated Udon Thani.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "utr-aip",
+            "utr-history"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Reported early closure and later retained AIP listing cannot alone determine service or code validity. September 2025 edit is not the closure.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "utr-aip",
+            "utr-history"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Wang Yang alias is not an evidenced formal renaming interval.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "utr-aip",
+            "utr-history"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "No primary closure order or replacement mapping obtained.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "utr-aip",
+            "utr-history"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "Physical site mapping and meaning of retained AIP listing versus reported closure unresolved."
+      ],
+      "conflicts": [
+        "Physical site mapping and meaning of retained AIP listing versus reported closure unresolved."
+      ],
+      "exclusionReason": null,
+      "nextAction": "Reconcile dated Thai AIP coordinates and original DOA closure documents before admitting UTR/VTPU history.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "sourceObservation": {
+        "candidateId": "cand_ec671992f93700beb8d14848",
+        "sourceId": "ourairports",
+        "sourceEntityId": "32560",
+        "changes": {
+          "gps_code": [
+            "VTPU",
+            ""
+          ],
+          "iata": [
+            "UTR",
+            ""
+          ],
+          "icao": [
+            "VTPU",
+            ""
+          ],
+          "keywords": [
+            "",
+            "VTPU, UTR"
+          ],
+          "lat": [
+            "17.617000579833984",
+            "17.67371"
+          ],
+          "lon": [
+            "100.0999984741211",
+            "100.235267"
+          ],
+          "type": [
+            "small_airport",
+            "closed"
+          ],
+          "wikipedia_link": [
+            "",
+            "https://en.wikipedia.org/wiki/Uttaradit_Airport"
+          ]
+        },
+        "observations": [
+          {
+            "action": "M",
+            "afterBlob": "e45d5ec0424a6f19a586106d37226fe7dba31f59",
+            "beforeBlob": "17f32cdd381d16318fa30fd226d948449e5c1106",
+            "commit": "72f73c4011ef3f9e58eb0ccb09c4fc8a4bdc30f5",
+            "observedAt": "2025-09-30T03:53:11+02:00",
+            "parents": [
+              "2f770ade275b01eb1f2f51d57c432c544bc4d766"
+            ]
+          }
+        ],
+        "url": "https://github.com/davidmegginson/ourairports-data/blob/72f73c4011ef3f9e58eb0ccb09c4fc8a4bdc30f5/airports.csv",
+        "sourceType": "secondary",
+        "evidenceType": "indirect",
+        "semantics": "Pinned directory revision; observing commit time is not an effective event boundary.",
+        "license": "Public-Domain"
+      },
+      "exactDuplicateGroupId": "dup_7964d158462eebfaaf00e9ce",
+      "directlyEstablishedFacts": [
+        {
+          "fact": "CAAT retained AIP index contains Uttaradit/VTPU; it does not establish operation or withdrawal dates.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "utr-aip"
+          ]
+        }
+      ]
+    },
+    {
+      "eventGroupId": "global-1-hds",
+      "label": "Hoedspruit non-existent marker",
+      "reviewedOn": "2026-10-27",
+      "status": "excluded",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "cand_410d7e6a2202857176507e0f"
+      ],
+      "relatedCandidateIds": [
+        "cand_eeff9be4c0a1e52a3ffff2d9"
+      ],
+      "sourceIds": [
+        "hds-changes",
+        "hds-operator",
+        "hds-aip"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "Exclude South Atlantic relocation/non-existent-airport interpretation: source record was edited to an invalid distant marker; operator/AIP identify the real South African airfield.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "hds-changes",
+            "hds-operator",
+            "hds-aip"
+          ]
+        },
+        "iata": {
+          "conclusion": "HDS directory removal does not prove official withdrawal; Eastgate/AFB records must be matched by physical airfield rather than duplicate rows.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "hds-changes",
+            "hds-operator",
+            "hds-aip"
+          ]
+        },
+        "icao": {
+          "conclusion": "Operator and AIP identify FAHS in South Africa; no move to the South Atlantic.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "hds-changes",
+            "hds-operator",
+            "hds-aip"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "January 2026 export/edit date is not a physical airport closure or code end.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "hds-changes",
+            "hds-operator",
+            "hds-aip"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Non-Existent Airport is an editorial label, not an official name.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "hds-changes",
+            "hds-operator",
+            "hds-aip"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "No physical relocation or closure demonstrated; duplicate/erroneous record cleanup is excluded.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "hds-changes",
+            "hds-operator",
+            "hds-aip"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "Historic HDS assignment and possible civil/military identifier distinctions remain outside this excluded edit."
+      ],
+      "conflicts": [],
+      "exclusionReason": "Exclude South Atlantic relocation/non-existent-airport interpretation: source record was edited to an invalid distant marker; operator/AIP identify the real South African airfield.",
+      "nextAction": "Exclude this false relocation; preserve real Eastgate/Hoedspruit and verify civil/military code history separately.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "sourceObservation": {
+        "candidateId": "cand_410d7e6a2202857176507e0f",
+        "sourceId": "ourairports",
+        "sourceEntityId": "2790",
+        "changes": {
+          "city": [
+            "Hoedspruit",
+            ""
+          ],
+          "country": [
+            "ZA",
+            "ZZ"
+          ],
+          "gps_code": [
+            "FAHS",
+            ""
+          ],
+          "iata": [
+            "HDS",
+            ""
+          ],
+          "icao": [
+            "FAHS",
+            ""
+          ],
+          "lat": [
+            "-24.368600845299998",
+            "-46.181902"
+          ],
+          "lon": [
+            "31.0487003326",
+            "-12.114796"
+          ],
+          "name": [
+            "Hoedspruit Air Force Base Airport",
+            "Non-Existent Airport"
+          ],
+          "region": [
+            "ZA-NP",
+            "ZZ-U-A"
+          ],
+          "scheduled_service": [
+            "yes",
+            "no"
+          ],
+          "type": [
+            "small_airport",
+            "closed"
+          ],
+          "wikipedia_link": [
+            "https://en.wikipedia.org/wiki/Hoedspruit_Airport#Eastgate_Airport",
+            ""
+          ]
+        },
+        "observations": [
+          {
+            "action": "M",
+            "afterBlob": "6b3930272cb6efb2ae721fac3df636e8229c5974",
+            "beforeBlob": "2f50a77b9606d854b01d6ff4e3805e0940afd073",
+            "commit": "85971b678ebe0999387f1ab7de5984d8c34dd7e0",
+            "observedAt": "2026-01-16T03:53:12+01:00",
+            "parents": [
+              "12dea92aac5e5ab90c034075bb3dc77906165552"
+            ]
+          }
+        ],
+        "url": "https://github.com/davidmegginson/ourairports-data/blob/85971b678ebe0999387f1ab7de5984d8c34dd7e0/airports.csv",
+        "sourceType": "secondary",
+        "evidenceType": "indirect",
+        "semantics": "Pinned directory revision; observing commit time is not an effective event boundary.",
+        "license": "Public-Domain"
+      },
+      "exactDuplicateGroupId": "dup_38bcec614419fcb10d3c5ef6",
+      "directlyEstablishedFacts": [
+        {
+          "fact": "Operator and AIP identify the real Hoedspruit FAHS airfield in South Africa.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "hds-operator",
+            "hds-aip"
+          ]
+        }
+      ]
+    },
+    {
+      "eventGroupId": "global-1-lmh",
+      "label": "Limón LMH coordinate/reopening lead",
+      "reviewedOn": "2026-10-27",
+      "status": "insufficient_evidence",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "cand_025ed86a58c3d799fd1028e1"
+      ],
+      "relatedCandidateIds": [],
+      "sourceIds": [
+        "lmh-dir"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "A roughly 6 km coordinate shift could be a marker correction or separate field; directory alone cannot choose.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "lmh-dir"
+          ]
+        },
+        "iata": {
+          "conclusion": "LMH addition to closed-to-open source revision is not an official first allocation.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "lmh-dir"
+          ]
+        },
+        "icao": {
+          "conclusion": "MHLN is a GPS/identifier observation; official ICAO status requires Honduran AIS.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "lmh-dir"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "No dated opening, reopening, relocation or code-effective document retrieved.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "lmh-dir"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Limón spelling is not a proven formal rename.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "lmh-dir"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "Closed-to-small-airport source flag does not prove reopening.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "lmh-dir"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "Physical continuity, reopening date and code implementation missing."
+      ],
+      "conflicts": [],
+      "exclusionReason": null,
+      "nextAction": "Obtain Honduran AHAC historical AIP/chart and airport authorization; preserve the coordinate alternatives.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "sourceObservation": {
+        "candidateId": "cand_025ed86a58c3d799fd1028e1",
+        "sourceId": "airport-codes-raw",
+        "sourceEntityId": "42090",
+        "changes": {
+          "iata": [
+            "",
+            "LMH"
+          ],
+          "lat": [
+            "15.863332748413",
+            "15.856066"
+          ],
+          "lon": [
+            "-85.498611450195",
+            "-85.443978"
+          ],
+          "type": [
+            "closed",
+            "small_airport"
+          ]
+        },
+        "observations": [
+          {
+            "action": "M",
+            "afterBlob": "260a09188d2cff992739de75c2162096a43ed76c",
+            "beforeBlob": "4ed7260e184984d234c4cb9c0c1d080ade4827f0",
+            "commit": "09ab66f23778cd5c577c96d09a600dcac15bb82b",
+            "observedAt": "2024-10-01T11:30:59Z",
+            "parents": [
+              "51c43e6610742d5162452d3e5229dda197eaf238"
+            ]
+          },
+          {
+            "action": "M",
+            "afterBlob": "260a09188d2cff992739de75c2162096a43ed76c",
+            "beforeBlob": "4ed7260e184984d234c4cb9c0c1d080ade4827f0",
+            "commit": "63f6278fd0de9ad80af2835dcd1bc8558176aa1c",
+            "observedAt": "2024-10-01T17:34:37+05:00",
+            "parents": [
+              "68f702aa6eebf14ed5f7e3bf9be609f9fb8a5663",
+              "7eb67666b64fba95e8036882d81f9948fceec4d9"
+            ]
+          }
+        ],
+        "url": "https://github.com/datasets/airport-codes/blob/09ab66f23778cd5c577c96d09a600dcac15bb82b/archive/data.csv",
+        "sourceType": "secondary",
+        "evidenceType": "indirect",
+        "semantics": "Pinned directory revision; observing commit time is not an effective event boundary.",
+        "license": "ODC-PDDL-1.0"
+      },
+      "directlyEstablishedFacts": []
+    },
+    {
+      "eventGroupId": "global-1-swn",
+      "label": "Sahiwal SWN/OPSW coordinate and closure lead",
+      "reviewedOn": "2026-10-27",
+      "status": "insufficient_evidence",
+      "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
+      "candidateIds": [
+        "cand_319a76a6d0b81db2843a9ca4"
+      ],
+      "relatedCandidateIds": [],
+      "sourceIds": [
+        "swn-dir",
+        "swn-guide"
+      ],
+      "claims": {
+        "physicalIdentity": {
+          "conclusion": "Longitude changes about 8 km while the record becomes closed; could be a correction, no distinct replacement field established.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "swn-dir",
+            "swn-guide"
+          ]
+        },
+        "iata": {
+          "conclusion": "SWN retained only as keywords is a history lead, not a withdrawal notice.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "swn-dir",
+            "swn-guide"
+          ]
+        },
+        "icao": {
+          "conclusion": "OPSW appears as old GPS field/compiled code; PK-0052 is a local ID, not substitute ICAO.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "swn-dir",
+            "swn-guide"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "No official closure or code end date retrieved; export time is not used as event date.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "swn-dir",
+            "swn-guide"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Sahiwal current label is not historical name evidence.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "swn-dir",
+            "swn-guide"
+          ]
+        },
+        "closureAndReplacement": {
+          "conclusion": "Closed flag is indirect and no successor identified.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "swn-dir",
+            "swn-guide"
+          ]
+        }
+      },
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": false,
+        "note": "No continuous historical interval is admitted. Continuity between directory observations would be an inference, and does not repair the gaps listed here."
+      },
+      "evidenceGaps": [
+        "Physical site correction versus move and official code/closure boundaries missing."
+      ],
+      "conflicts": [],
+      "exclusionReason": null,
+      "nextAction": "Seek Pakistan AIS historical OPSW charts and closure notice; do not create a second entity from changed coordinates.",
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "sourceObservation": {
+        "candidateId": "cand_319a76a6d0b81db2843a9ca4",
+        "sourceId": "airport-codes-raw",
+        "sourceEntityId": "41625",
+        "changes": {
+          "gps_code": [
+            "OPSW",
+            ""
+          ],
+          "iata": [
+            "SWN",
+            ""
+          ],
+          "ident": [
+            "OPSW",
+            "PK-0052"
+          ],
+          "keywords": [
+            "",
+            "OPSW, SWN"
+          ],
+          "lat": [
+            "31.88944435119629",
+            "31.88959"
+          ],
+          "lon": [
+            "72.39167022705078",
+            "72.309345"
+          ],
+          "type": [
+            "small_airport",
+            "closed"
+          ]
+        },
+        "observations": [
+          {
+            "action": "M",
+            "afterBlob": "260a09188d2cff992739de75c2162096a43ed76c",
+            "beforeBlob": "4ed7260e184984d234c4cb9c0c1d080ade4827f0",
+            "commit": "09ab66f23778cd5c577c96d09a600dcac15bb82b",
+            "observedAt": "2024-10-01T11:30:59Z",
+            "parents": [
+              "51c43e6610742d5162452d3e5229dda197eaf238"
+            ]
+          },
+          {
+            "action": "M",
+            "afterBlob": "260a09188d2cff992739de75c2162096a43ed76c",
+            "beforeBlob": "4ed7260e184984d234c4cb9c0c1d080ade4827f0",
+            "commit": "63f6278fd0de9ad80af2835dcd1bc8558176aa1c",
+            "observedAt": "2024-10-01T17:34:37+05:00",
+            "parents": [
+              "68f702aa6eebf14ed5f7e3bf9be609f9fb8a5663",
+              "7eb67666b64fba95e8036882d81f9948fceec4d9"
+            ]
+          }
+        ],
+        "url": "https://github.com/datasets/airport-codes/blob/09ab66f23778cd5c577c96d09a600dcac15bb82b/archive/data.csv",
+        "sourceType": "secondary",
+        "evidenceType": "indirect",
+        "semantics": "Pinned directory revision; observing commit time is not an effective event boundary.",
+        "license": "ODC-PDDL-1.0"
+      },
+      "directlyEstablishedFacts": []
+    }
+  ],
+  "nextBatch": [
+    {
+      "candidateId": "cand_07f311536256078e1803e39f",
+      "label": "Sanga Sanga SGS / TWT"
+    },
+    {
+      "candidateId": "cand_5ebbfdbcea7f1b2aa138be41",
+      "label": "Duqm DQM / JNJ"
+    },
+    {
+      "candidateId": "cand_cb20612a6a4f6d8542872ae1",
+      "label": "New Bight CAT / TBI"
+    },
+    {
+      "candidateId": "cand_dbe848d5c843e4ffc5270e26",
+      "label": "Qiemo old / Yudu IQM"
+    }
+  ]
+}

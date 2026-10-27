@@ -10,6 +10,23 @@ Read [coverage.md](coverage.md) and [generated/summary.json](generated/summary.j
 together. Counts describe inspected source records and research transitions,
 never real-world event totals or global completion percentages.
 
+The [first verification batch](../../docs/global-verification-batch-1.md) reviews
+20 existing event groups: 12 insufficient evidence, four pending independent
+review, four excluded interpretations, zero admissions. Its
+[claim-specific record](batches/global-1.json) and `reviews.json` are live curation
+overlays. Compressed observations/queue retain their PR #5 snapshot; query applies
+the overrides by default (`--snapshot` shows original state, `--queue` queries the
+ranked queue). `summary.json.reviewBatches` separates review results from exported
+discovery counts. `pnpm research:review-report` checks every old artifact size/hash
+(including summary) and every recorded non-review input hash before writing.
+It updates only review-input hashes, `summary.json.reviewBatches` and the summary
+size/hash; recorded non-review hashes stay unchanged. Unexpected edits require
+an explicit report regeneration, not a review refresh. After intentional generator
+changes, use `pnpm research:report --reuse-baselines` to regenerate reports and the
+manifest from existing generated candidates and verified exported baselines. This
+option never reads source Git objects or requires source mirrors/Keepraw-Fly input
+downloads. Neither command fetches or scans source repository history.
+
 ## Run
 
 Use Python 3.12+ (standard library only), Git, Node 24 and pnpm 10.14.0.
@@ -25,6 +42,7 @@ pnpm check
 
 python3 scripts/discovery/query.py --code JNG --source ourairports
 python3 scripts/discovery/query.py --country CN --type possible_relocation --limit 0
+python3 scripts/discovery/query.py --queue --status pending_review
 ```
 
 Downloads and resumable SQLite caches live in ignored `work/`. Initial scans take

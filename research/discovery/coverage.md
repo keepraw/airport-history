@@ -2,6 +2,16 @@
 
 This report measures source inspection, not completeness of global airport history. All counts are reproducible from `generated/summary.json`, per-source coverage/version/gap files and the pinned source manifest. No newly discovered historical fact has been admitted to the resolver database.
 
+The subsequent [first verification batch](../../docs/global-verification-batch-1.md)
+reviewed 20 existing event groups (12 insufficient evidence, four pending review,
+four excluded, zero ready to admit), recorded in [batches/global-1.json](batches/global-1.json).
+Discovery tables below retain the original export counts, including snapshot
+review states. Live `reviews.json` overrides cover 21 machine representations of
+18 groups, plus two existing manual leads with unchanged deferred dispositions.
+Query applies the overrides to candidates and the ranked queue; `--snapshot`
+shows original states. `summary.json.reviewBatches` records current batch results.
+No observation, queue entry, source pin or formal airport record was removed.
+
 ## Source scope actually inspected
 
 Each row is a pinned repository **file history**, not an independent airport population. Main-ancestor commits and every merge-parent comparison are enumerated. Distinct versions include a zero-row deletion version where applicable. Row-version counts represent all rows in distinct parsed snapshots, carried through verified diffs; they are not distinct airports.
