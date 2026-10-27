@@ -5,3 +5,7 @@ coverage/
 .DS_Store
 .env
 .env.*
+
+# Explicit research downloads, caches and scratch files
+work/
+__pycache__/

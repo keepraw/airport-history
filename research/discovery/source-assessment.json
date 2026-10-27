@@ -1,0 +1,103 @@
+{
+  "assessedOn": "2026-10-27",
+  "wikidata": {
+    "status": "capability_assessment_only; no global history scan",
+    "license": "CC0-1.0 for structured main-namespace data",
+    "documentation": {
+      "url": "https://www.wikidata.org/w/index.php?title=Wikidata:Database_download&oldid=2479770906",
+      "sha256OfRetrievedHtml": "d67131e8fc0390aa3ac164704c0b964178ae83d6bc1737893d608f29828374df"
+    },
+    "currentJsonDump": {
+      "url": "https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.json.bz2",
+      "contentLengthBytes": 103488697311,
+      "lastModified": "2026-10-21T02:33:31Z",
+      "etag": "6ad8247b-18186833df",
+      "meaning": "Current entity statements and qualifiers, not complete revision history. Not downloaded: larger than available 29 GB workspace disk."
+    },
+    "xmlDumpStatus": {
+      "url": "https://dumps.wikimedia.org/wikidatawiki/20261001/dumpstatus.json",
+      "sha256": "4ed926227231bf6cb7d1026d2227cb405c4809a1391e96f559bacc7401e32aa1",
+      "metacurrentdump": {
+        "status": "done",
+        "files": 102,
+        "bytes": 179591010509
+      },
+      "metahistorybz2dump": "skipped",
+      "metahistory7zdump": "skipped"
+    },
+    "revisionApiProbe": {
+      "entity": "Q673202",
+      "url": "https://www.wikidata.org/w/api.php?action=query&titles=Q673202&prop=revisions&rvlimit=max&rvprop=ids%7Ctimestamp&format=json",
+      "revisionsEnumerated": 192,
+      "oldest": {
+        "revid": 1233792,
+        "parentid": 0,
+        "timestamp": "2012-12-09T18:18:42Z"
+      },
+      "newest": {
+        "revid": 2545191681,
+        "parentid": 2544474557,
+        "timestamp": "2026-09-13T19:29:07Z"
+      },
+      "hasContinuation": false,
+      "contentFetchedForAllRevisions": false,
+      "sha256": "7f104daaca08fe312e870347bc8f3f62bb3a4b30b61b42f87235e2c1e9447d9c"
+    },
+    "currentEntityProbe": {
+      "entity": "Q673202",
+      "revision": 2545191681,
+      "properties": [
+        "P131",
+        "P1366",
+        "P137",
+        "P138",
+        "P1566",
+        "P1619",
+        "P167",
+        "P17",
+        "P18",
+        "P2044",
+        "P238",
+        "P239",
+        "P31",
+        "P3417",
+        "P373",
+        "P3999",
+        "P454",
+        "P529",
+        "P571",
+        "P576",
+        "P5817",
+        "P625",
+        "P646",
+        "P931"
+      ],
+      "relevantFields": {
+        "P238": 1,
+        "P239": 1,
+        "P1448": 0,
+        "P625": 1,
+        "P571": 1,
+        "P576": 1
+      },
+      "sha256": "529779770543a208a1d06b9c20206d722a799c270a9c7f1ee3656813ba2c5281"
+    },
+    "gaps": [
+      "No complete airport entity universe enumerated; class membership can change and retired code entities may lack current airport typing.",
+      "No global historical revision contents scanned. A latest-state SPARQL result cannot find deleted statements or deleted entities.",
+      "Public XML history jobs in inspected month were skipped; current JSON is not a history dump.",
+      "A reliable future job needs storage/external streaming, a pinned dump checksum, checkpointed global entity inventory including coded and closed sites, revision continuation and per-revision content retrieval."
+    ]
+  },
+  "ourairports": {
+    "termsUrl": "https://ourairports.com/data/",
+    "termsSha256": "b9f7afa7970cc6c6da0c22283092230c736497538022dff5718cabfadc5a7d7b",
+    "license": "Public domain declaration",
+    "historyMeaning": "Daily exported repository snapshots, not the database edit ledger; changes reverted between exports are invisible. No opening/closure date fields."
+  },
+  "officialPublications": {
+    "status": "Existing evidence and legacy leads preserved; no worldwide official archive scan performed.",
+    "reason": "There is no configured global regulator/operator/airline notice archive or historical allocation ledger. Existing opening notices cannot establish code transfer dates.",
+    "nextStep": "Use the generated code/identity queue to select jurisdictions; record each official archive, inspected date range, license and retrieval gaps before processing."
+  }
+}

@@ -1,0 +1,631 @@
+{
+  "files": {
+    "airport-codes-initial.candidates.0.jsonl.gz": {
+      "bytes": 436635,
+      "sha256": "14e3f907ed29b2885a350f79ab59e24805a39a3b139f3cbf8c02e9011f4738be"
+    },
+    "airport-codes-initial.candidates.1.jsonl.gz": {
+      "bytes": 425321,
+      "sha256": "d5245d95463bf4a18b967c0058d1690cf6c4389121d3c31756d009a8f2b57ba5"
+    },
+    "airport-codes-initial.candidates.2.jsonl.gz": {
+      "bytes": 429713,
+      "sha256": "99d711c6884d71318e6715d91d8db21cb0d22a37ec14a0e42a1490904f873706"
+    },
+    "airport-codes-initial.candidates.3.jsonl.gz": {
+      "bytes": 434476,
+      "sha256": "aa52fc1a24b98d0edcb8d3f1ce25cd2ee6dc880ab39ba0067e28fc4617e12ec5"
+    },
+    "airport-codes-initial.candidates.4.jsonl.gz": {
+      "bytes": 433319,
+      "sha256": "60aa2e80db4eb6ac4097e34a783058ebb5a3e974b57c7afdc37e4dd51ab788b2"
+    },
+    "airport-codes-initial.candidates.5.jsonl.gz": {
+      "bytes": 433181,
+      "sha256": "04bdff17c6424e5bb606a40e3aa5e2aa52c570d998494e4a39b84780bb723620"
+    },
+    "airport-codes-initial.candidates.6.jsonl.gz": {
+      "bytes": 428683,
+      "sha256": "fb92431010a6e5e9a6cf556ad47fbd23af41af187ccb6faf3759f72458be1042"
+    },
+    "airport-codes-initial.candidates.7.jsonl.gz": {
+      "bytes": 428459,
+      "sha256": "5d37ecc374e89dc96b536e14559b0f3bb89312b27da964eeb316c2e78d11f166"
+    },
+    "airport-codes-initial.candidates.8.jsonl.gz": {
+      "bytes": 432817,
+      "sha256": "4a44a80e457958a62987eecef1039e641e62cf54ff566d5d0bb4350bf016a975"
+    },
+    "airport-codes-initial.candidates.9.jsonl.gz": {
+      "bytes": 422697,
+      "sha256": "bbf0c8883ddb82e4da91c76cc19eb40b2ed947a53c92651931af8b3e48fa13ea"
+    },
+    "airport-codes-initial.candidates.a.jsonl.gz": {
+      "bytes": 430462,
+      "sha256": "847c5530ef91110e1557501553c70d54729043107a4c1056c3181a3495113470"
+    },
+    "airport-codes-initial.candidates.b.jsonl.gz": {
+      "bytes": 433922,
+      "sha256": "5853cae708f1678ac38f68d3cb6f970d82c30d48a927f2d00984f4230f8dc18c"
+    },
+    "airport-codes-initial.candidates.c.jsonl.gz": {
+      "bytes": 439334,
+      "sha256": "924753b594f2933a81429066370ff264a15ef8df0c78f0f4c35fab4c9be6706a"
+    },
+    "airport-codes-initial.candidates.d.jsonl.gz": {
+      "bytes": 443835,
+      "sha256": "297c0f5d3e8e49835c3334420dbbaa1c3abb3d97660282e10419c60d8c9f3065"
+    },
+    "airport-codes-initial.candidates.e.jsonl.gz": {
+      "bytes": 437646,
+      "sha256": "a814b197fe7e895e4ce2f4d48b75bec5455adebc0a3af3e8922ff4e9e8d65d31"
+    },
+    "airport-codes-initial.candidates.f.jsonl.gz": {
+      "bytes": 430565,
+      "sha256": "6088b4ffb309a457693c174017a4f7ce3f7b21abbe83a96d842f924a371feb69"
+    },
+    "airport-codes-initial.coverage.json": {
+      "bytes": 27949,
+      "sha256": "835ee94d043974cc5a9389332011cd63021ce41579900b89d937004c3ff41c3f"
+    },
+    "airport-codes-initial.entities.jsonl.gz": {
+      "bytes": 3271957,
+      "sha256": "8b14a74cbafc96d1b5f88fe5a9ee580ad1cf2168d7e0e00a1524dae8c3a1c49f"
+    },
+    "airport-codes-initial.gaps.jsonl.gz": {
+      "bytes": 20,
+      "sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64"
+    },
+    "airport-codes-initial.versions.jsonl.gz": {
+      "bytes": 434,
+      "sha256": "fab54f12c9b416e4697aa4f5ca62e8ef5b06506ed122a67b6e9e6ca81b2957c0"
+    },
+    "airport-codes-legacy.candidates.0.jsonl.gz": {
+      "bytes": 3404,
+      "sha256": "e79b3725d252b135babab59fc00786cc2a58d7a4ef9e9b1ada231860c6d3de67"
+    },
+    "airport-codes-legacy.candidates.1.jsonl.gz": {
+      "bytes": 4013,
+      "sha256": "26bb3ec9f21c4fed22ad8c49f81aeb9d7c5b6c3efec1597497b894f60469dd28"
+    },
+    "airport-codes-legacy.candidates.2.jsonl.gz": {
+      "bytes": 2978,
+      "sha256": "c07e3e0538c4b36c305a1c37882954138b424adc3b95ffc5bbf338e3701fa2bd"
+    },
+    "airport-codes-legacy.candidates.3.jsonl.gz": {
+      "bytes": 3209,
+      "sha256": "9ba2a0e6bddd32631b49333bd43578b9868e37f74eb38f7cd9079fd1fae2ea10"
+    },
+    "airport-codes-legacy.candidates.4.jsonl.gz": {
+      "bytes": 3054,
+      "sha256": "7756cfde6f48e49b16c8787ae170f3443cad57ebba43bb4cb0b17549eb2a8c62"
+    },
+    "airport-codes-legacy.candidates.5.jsonl.gz": {
+      "bytes": 3236,
+      "sha256": "78c8f32c113fd3bc6eb272a56f1853f9f0ffb21cc94b9e8423f7c365a4cc00a9"
+    },
+    "airport-codes-legacy.candidates.6.jsonl.gz": {
+      "bytes": 2729,
+      "sha256": "312026692c5480aa15df84195fd4ff3dda7f81439c250e1943ad39c6e34b71d9"
+    },
+    "airport-codes-legacy.candidates.7.jsonl.gz": {
+      "bytes": 3855,
+      "sha256": "2693542affcb8084a830195928e06e36e8f45ad0c6e15a99d3f51bb31cbb4dfd"
+    },
+    "airport-codes-legacy.candidates.8.jsonl.gz": {
+      "bytes": 3608,
+      "sha256": "fb2f2197e03b1bbbeabf89e675eec371db8f31753d811fd4a17034c9ddf30ab5"
+    },
+    "airport-codes-legacy.candidates.9.jsonl.gz": {
+      "bytes": 4280,
+      "sha256": "cea2e0e574055aba2082782bf89b29052274527efee90847c5d695da041dcb37"
+    },
+    "airport-codes-legacy.candidates.a.jsonl.gz": {
+      "bytes": 3771,
+      "sha256": "e01ff0bfee6157390d82751b858f3eed5ef7bcee86432750376edeb9ac938f94"
+    },
+    "airport-codes-legacy.candidates.b.jsonl.gz": {
+      "bytes": 3341,
+      "sha256": "942ec5a73a44e4d0e44b4f7343900aaac42e2a4e95c8780b1bdd8aac0415abc0"
+    },
+    "airport-codes-legacy.candidates.c.jsonl.gz": {
+      "bytes": 4019,
+      "sha256": "c76b754dfdcdb79616e34f06bd39d59218e3fc4a05fa5f680b0115ce9b4ba337"
+    },
+    "airport-codes-legacy.candidates.d.jsonl.gz": {
+      "bytes": 2812,
+      "sha256": "4d42b6185ffc1bf467352ed104d5aed7bfeb4ddf981498943d86b832c96813e3"
+    },
+    "airport-codes-legacy.candidates.e.jsonl.gz": {
+      "bytes": 2925,
+      "sha256": "ad920d7ab92255e2cd4b22e8200a96d42b3f995536451a04c6b038673954c226"
+    },
+    "airport-codes-legacy.candidates.f.jsonl.gz": {
+      "bytes": 3638,
+      "sha256": "bdff6da660c62a3b78878fa1203745049f57259207bc5abd41ed0b872200e2c0"
+    },
+    "airport-codes-legacy.coverage.json": {
+      "bytes": 13492,
+      "sha256": "e4d1d9a55a5a24a5ebf9392060aaa9b297b5e4a64beaaaad8471f9929af8dd27"
+    },
+    "airport-codes-legacy.entities.jsonl.gz": {
+      "bytes": 18671,
+      "sha256": "5efb797f419c72ea3faa1b6951bb921696e5ae91fa12c77bb5c176b999949488"
+    },
+    "airport-codes-legacy.gaps.jsonl.gz": {
+      "bytes": 20,
+      "sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64"
+    },
+    "airport-codes-legacy.versions.jsonl.gz": {
+      "bytes": 294,
+      "sha256": "915d8f05196051a1f05ce584d023912f3fdbc6481f1174a3f0eb899f403b7d60"
+    },
+    "airport-codes-raw.candidates.0.jsonl.gz": {
+      "bytes": 1394640,
+      "sha256": "bee1ae7332fced02b1f890741cf65d89b51e12aa7438edec39e1e705907a8b53"
+    },
+    "airport-codes-raw.candidates.1.jsonl.gz": {
+      "bytes": 1333822,
+      "sha256": "cf7bc3197293b76bef7f23215383cd44559faf9b696aa1f4a368f9cde794d9c2"
+    },
+    "airport-codes-raw.candidates.2.jsonl.gz": {
+      "bytes": 1392565,
+      "sha256": "afbf32fd67a53eb8cef52b0c1fd86e500875dd75e5c36f8a793d1982553e8246"
+    },
+    "airport-codes-raw.candidates.3.jsonl.gz": {
+      "bytes": 1354880,
+      "sha256": "12f215656bd7fd9491e03068ef727bba8380c0993ed0e93d4eaa6c338ce0cb48"
+    },
+    "airport-codes-raw.candidates.4.jsonl.gz": {
+      "bytes": 1363959,
+      "sha256": "749f47e16f7b1a0c714c9ebf7d8aedeeae44db048e381e4214efe84d9cedf9e5"
+    },
+    "airport-codes-raw.candidates.5.jsonl.gz": {
+      "bytes": 1373459,
+      "sha256": "ee98e3221f9cd7b1c5f4cd67902f956918ba7cd1e6acf0aa16e773f26d5cbcfa"
+    },
+    "airport-codes-raw.candidates.6.jsonl.gz": {
+      "bytes": 1373212,
+      "sha256": "f8f73eac46c4de2f58a847b9c46e034b81eb7f94742b2caa6782bc8a155f22be"
+    },
+    "airport-codes-raw.candidates.7.jsonl.gz": {
+      "bytes": 1365766,
+      "sha256": "4a771c296c2e7b95239525888d40085b8085cc15a805177b9ff05815d9e46675"
+    },
+    "airport-codes-raw.candidates.8.jsonl.gz": {
+      "bytes": 1380888,
+      "sha256": "c463ee29989573f5ff91e32381e0a64756fe5778b3d8a0b83d3d41739666a3e0"
+    },
+    "airport-codes-raw.candidates.9.jsonl.gz": {
+      "bytes": 1375959,
+      "sha256": "c6bfb4eb174ed35112006277ea1bf38e4f2021a206c03df007424dd78da51d94"
+    },
+    "airport-codes-raw.candidates.a.jsonl.gz": {
+      "bytes": 1389169,
+      "sha256": "36106617cd128a1661f5fff95aec8cbe6ac6102b6947157202c45e09ee83e99f"
+    },
+    "airport-codes-raw.candidates.b.jsonl.gz": {
+      "bytes": 1360838,
+      "sha256": "30fa21edae8c461cdc80d1d073b0982ff82c713ffd391ee12fc61aea35a827b1"
+    },
+    "airport-codes-raw.candidates.c.jsonl.gz": {
+      "bytes": 1386553,
+      "sha256": "99fce3258c89ae1c5905d954186b00304f8b36fd0714635d8aaf02fa272b7b65"
+    },
+    "airport-codes-raw.candidates.d.jsonl.gz": {
+      "bytes": 1359929,
+      "sha256": "58bfc7ec8ce5bfb7f4e06e98e07721cc73b98d345fd8d03bd3a9aed964844acb"
+    },
+    "airport-codes-raw.candidates.e.jsonl.gz": {
+      "bytes": 1339391,
+      "sha256": "0355e00a4868545d0ec4c08d5c38fd38cc4ddcbd851154c6bc5ac33fb67d9627"
+    },
+    "airport-codes-raw.candidates.f.jsonl.gz": {
+      "bytes": 1351253,
+      "sha256": "d71764a1a2d089e28fc773c5f4855c5d26a1bbd4624b612948fb1cd2f57912b8"
+    },
+    "airport-codes-raw.coverage.json": {
+      "bytes": 104192,
+      "sha256": "6e27b2b633bfc6f1b39d93610911bcfb66b0eba144a6868afe011f4527236026"
+    },
+    "airport-codes-raw.entities.jsonl.gz": {
+      "bytes": 6480412,
+      "sha256": "fbfb2c166f40bfaf82642d21a67f11ff8ba161ddee7b5d17d69c52962d5d3fdc"
+    },
+    "airport-codes-raw.gaps.jsonl.gz": {
+      "bytes": 20,
+      "sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64"
+    },
+    "airport-codes-raw.versions.jsonl.gz": {
+      "bytes": 29420,
+      "sha256": "4fbe99afe7f17f301f9c920df9db89386b7220a83648c4e97dc84d0ef6552cff"
+    },
+    "airport-codes.candidates.0.jsonl.gz": {
+      "bytes": 4055616,
+      "sha256": "d6fd656b6f0ac5ec5586f0a6f334e1cb0eeb92bfc8b8bd22e3fb0185978df9aa"
+    },
+    "airport-codes.candidates.1.jsonl.gz": {
+      "bytes": 4098744,
+      "sha256": "4d7e0ce9c38010d7f7451913234d4ab948920b9f984087812fc3fd40cef8428f"
+    },
+    "airport-codes.candidates.2.jsonl.gz": {
+      "bytes": 4062263,
+      "sha256": "3378ba328d988add317ba47c3396becfb7db8492ae9d7642a5198a0ec3b86c1f"
+    },
+    "airport-codes.candidates.3.jsonl.gz": {
+      "bytes": 4069083,
+      "sha256": "7115ac95d01985f8d0ffcbcb600dd860acb66abab7a029d180f23ed76c69aba9"
+    },
+    "airport-codes.candidates.4.jsonl.gz": {
+      "bytes": 4074692,
+      "sha256": "696e4352d97e8ade049f0d3322eb185788ccf38ca7b0c3709b32a297536fc8c3"
+    },
+    "airport-codes.candidates.5.jsonl.gz": {
+      "bytes": 4085373,
+      "sha256": "db52c8d20122172bcdd9745082efb4bc2a703be63e7d3ce3519ada1126cab415"
+    },
+    "airport-codes.candidates.6.jsonl.gz": {
+      "bytes": 4080796,
+      "sha256": "fb247cdea82cdfd864e0e1bbe5fda7bddc67b4a33719e3a6339d8e14c260df44"
+    },
+    "airport-codes.candidates.7.jsonl.gz": {
+      "bytes": 4080324,
+      "sha256": "e1040d1369574422acb12383e02a5372e6382e933bb355e592e8a302c25a96da"
+    },
+    "airport-codes.candidates.8.jsonl.gz": {
+      "bytes": 4076548,
+      "sha256": "8a448b31ea944fd6a0338a5c50072efc1360fa6161a3f57015bfbe1f9c153880"
+    },
+    "airport-codes.candidates.9.jsonl.gz": {
+      "bytes": 4111648,
+      "sha256": "91f368652f791ae5bbe4fd1fc43cee077fa1348644b3b6a567b76ef8f6f3f4bb"
+    },
+    "airport-codes.candidates.a.jsonl.gz": {
+      "bytes": 4145543,
+      "sha256": "8ae79403856eafcb09752a3e4c16cdef80b9223843ea147546342c94e8f06405"
+    },
+    "airport-codes.candidates.b.jsonl.gz": {
+      "bytes": 4075794,
+      "sha256": "8027fd30f0151ced06039c9b0add63d07f22da7d02058f55eb13f77ead2da97b"
+    },
+    "airport-codes.candidates.c.jsonl.gz": {
+      "bytes": 4049212,
+      "sha256": "adbf4f25641c72f29c56b69f46c9a2dd460b2adeba372881b81a4cbc47e037f7"
+    },
+    "airport-codes.candidates.d.jsonl.gz": {
+      "bytes": 4072388,
+      "sha256": "aa2832655f882deb1b40b8e80a9e16fc51c3f88317d65b21e4017db35af2eb65"
+    },
+    "airport-codes.candidates.e.jsonl.gz": {
+      "bytes": 4106192,
+      "sha256": "f1f7a621ce3fe83d02a8ae4e2546377e5e51613e1e02f3a323c9e40c10676e60"
+    },
+    "airport-codes.candidates.f.jsonl.gz": {
+      "bytes": 4059301,
+      "sha256": "e02862b210e1f360bfca29158177653cb205c0a9fb1ab1531e155f50f115694f"
+    },
+    "airport-codes.coverage.json": {
+      "bytes": 172289,
+      "sha256": "e59ff40cffb71bb284d4e3c573ff82a2962691cd8da730ecb5409d20bf2bb65c"
+    },
+    "airport-codes.entities.jsonl.gz": {
+      "bytes": 5475857,
+      "sha256": "8b4d7e889a9a0c9e5089de3b0a09de65bdfe398ffbe99c60910a834ada7ddd9f"
+    },
+    "airport-codes.gaps.jsonl.gz": {
+      "bytes": 20,
+      "sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64"
+    },
+    "airport-codes.versions.jsonl.gz": {
+      "bytes": 30687,
+      "sha256": "ba69bbd567663ce3624c4944d9b5b6b1bc5715fa9d77d3300378c1543c667b15"
+    },
+    "airportsdata-city-codes.coverage.json": {
+      "bytes": 1956,
+      "sha256": "0d95ec8981202e14374010f1b81069305aec1d062f37c18e5a5b896a653c35b3"
+    },
+    "airportsdata-city-codes.entities.jsonl.gz": {
+      "bytes": 3546,
+      "sha256": "b5073dd95ed2f267950785a9de11477e5887043a2f2edf1c2ba2f0ca3c743496"
+    },
+    "airportsdata-city-codes.gaps.jsonl.gz": {
+      "bytes": 20,
+      "sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64"
+    },
+    "airportsdata-city-codes.versions.jsonl.gz": {
+      "bytes": 211,
+      "sha256": "31aaacacc2a77ee8562ca9ec60c931ae4f67678c1bf4536c29510babc3daa86a"
+    },
+    "airportsdata.candidates.0.jsonl.gz": {
+      "bytes": 839263,
+      "sha256": "e77cc83604a450f4329d4ac660aa45f77ca7ec65493291f899c184474f611237"
+    },
+    "airportsdata.candidates.1.jsonl.gz": {
+      "bytes": 843211,
+      "sha256": "17e7e851aa07869d0656d4a3c35f1ccae712c46c885cd6e47c9f4c36b6c42cb1"
+    },
+    "airportsdata.candidates.2.jsonl.gz": {
+      "bytes": 829354,
+      "sha256": "f0c5487c21e1b97ced714ae9ddc6adaecf56d6d15ebbe56cd7e44d3d989e53f9"
+    },
+    "airportsdata.candidates.3.jsonl.gz": {
+      "bytes": 838299,
+      "sha256": "db0a492b1037bf428c586ec62b7917ca286865d223a1da387929789349d68e43"
+    },
+    "airportsdata.candidates.4.jsonl.gz": {
+      "bytes": 829543,
+      "sha256": "01d4db3b91d955abb5416ab0b5150e9c33cdcc42962157f802c385ebe539076f"
+    },
+    "airportsdata.candidates.5.jsonl.gz": {
+      "bytes": 840789,
+      "sha256": "6f328715581d2b318dda330c07fcac76aba65c477759b781e952c3c4cb395626"
+    },
+    "airportsdata.candidates.6.jsonl.gz": {
+      "bytes": 852398,
+      "sha256": "12e5b4a59f97d06567a60b955f05e08338d7351681dc5323c067f220f7c4eab8"
+    },
+    "airportsdata.candidates.7.jsonl.gz": {
+      "bytes": 834311,
+      "sha256": "cb3a5a04ea14959de24068decb3e17db1de9b347a663bcbd084339b880619d0c"
+    },
+    "airportsdata.candidates.8.jsonl.gz": {
+      "bytes": 849537,
+      "sha256": "6ea0ddc35d54aa7bb3d262f2d099b6f522204ac5e4712bd5331e76452b8347e2"
+    },
+    "airportsdata.candidates.9.jsonl.gz": {
+      "bytes": 833795,
+      "sha256": "2c1a78e47c4ce062437e9835d4257bed83ca1835a9ad43227af50382582b5644"
+    },
+    "airportsdata.candidates.a.jsonl.gz": {
+      "bytes": 836401,
+      "sha256": "40689d53295f19a3455a8c51b8d616afec91eab2c02239eedbb4b4a9df75a8a8"
+    },
+    "airportsdata.candidates.b.jsonl.gz": {
+      "bytes": 828558,
+      "sha256": "0ee549ff1246aef897252625753eac3566d01003b0112eac2f342efd4053bb36"
+    },
+    "airportsdata.candidates.c.jsonl.gz": {
+      "bytes": 830725,
+      "sha256": "ddf8a73724703a3d2a35f7bf254d8d69250f08d5a301bea58e0cf8ffcf072cc8"
+    },
+    "airportsdata.candidates.d.jsonl.gz": {
+      "bytes": 834296,
+      "sha256": "88cf7c9d9e6796d96062306b59716576bcbbb293cd3301757abc87ea5712d973"
+    },
+    "airportsdata.candidates.e.jsonl.gz": {
+      "bytes": 830780,
+      "sha256": "7f5439ad34799fe151a01d0889f69c15113b158b146d6f399a1d395377ecbc09"
+    },
+    "airportsdata.candidates.f.jsonl.gz": {
+      "bytes": 837097,
+      "sha256": "57585d6ed30924444bf1b1c42eefa59ae9dcdc43c1e8592975e3cb030537cb0a"
+    },
+    "airportsdata.coverage.json": {
+      "bytes": 100340,
+      "sha256": "e32bf8519b97eaac547a44112a03a7a0f61abcd98d02acb6ddb53b653a8d1442"
+    },
+    "airportsdata.entities.jsonl.gz": {
+      "bytes": 1691523,
+      "sha256": "2d4a6a31af26d59cb04fce97f9511ed44bc45072e014872223b6aeb989f38bf3"
+    },
+    "airportsdata.gaps.jsonl.gz": {
+      "bytes": 20,
+      "sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64"
+    },
+    "airportsdata.versions.jsonl.gz": {
+      "bytes": 8843,
+      "sha256": "e66a9a2e5331f9215f99c12facfc27a05d4046963ceccfbc416fafc86da9167c"
+    },
+    "code-links.candidates.jsonl.gz": {
+      "bytes": 636926,
+      "sha256": "0fd4b78a0e8ff28f7334f5283ea5b793de68cb1285c833f7da9136193e54e254"
+    },
+    "cross-source-code-index.jsonl.gz": {
+      "bytes": 2506618,
+      "sha256": "e9e638858c0b3696b8fa6e701f4d74233b4d6aa8a11fadfce07e13fbf17abadd"
+    },
+    "duplicate-groups.jsonl.gz": {
+      "bytes": 10928702,
+      "sha256": "a148633b085290f1b7ecbf5c1d3077b712f7a6db350e24d6bae0378aa2f14d51"
+    },
+    "keepraw-fly-comparison.json": {
+      "bytes": 18276,
+      "sha256": "e58f4106a8d9456cb8f72c3a3171a6ef9a56fa1e94d595db3b7cfbda19b30e3a"
+    },
+    "keepraw-fly-differences.jsonl.gz": {
+      "bytes": 66148,
+      "sha256": "ba2b8fdc9cdaf01dbf748cd505046fca79f55c2729e27b9d2a566a4af607c264"
+    },
+    "legacy-links.jsonl.gz": {
+      "bytes": 14703,
+      "sha256": "1598e5bfc57d2fb45cf3f3834c6c8ad70499beeb921df3bb1de20f73520eb90b"
+    },
+    "mwgg.candidates.0.jsonl.gz": {
+      "bytes": 433385,
+      "sha256": "548568b87b7960aaa8202469ab5f5a82c6d6432684e9981291bd8aadb4de44f5"
+    },
+    "mwgg.candidates.1.jsonl.gz": {
+      "bytes": 433734,
+      "sha256": "a9074e676e459cff2dfdafc3e1277680a752b09a83f7238f7d74741169f1c9d6"
+    },
+    "mwgg.candidates.2.jsonl.gz": {
+      "bytes": 443906,
+      "sha256": "9dbd9e4258f0d18e7421f07e8972f1883e6d61da4dc36c0b8bb3f658ea559e44"
+    },
+    "mwgg.candidates.3.jsonl.gz": {
+      "bytes": 440744,
+      "sha256": "8c5a2e4f317dc530340fde4d6c3bee2f1f86a0d23a2e0913c2867ba8fc92176b"
+    },
+    "mwgg.candidates.4.jsonl.gz": {
+      "bytes": 434702,
+      "sha256": "4dc3f85bef047a59fe85bfee2a5cb2d25c1c90ab30ba0021ad9d2756f353b426"
+    },
+    "mwgg.candidates.5.jsonl.gz": {
+      "bytes": 452738,
+      "sha256": "a1d6bb09aba2455a18936cab45c9a00ca40e1d613251696aba043366520b0fb5"
+    },
+    "mwgg.candidates.6.jsonl.gz": {
+      "bytes": 434874,
+      "sha256": "f306d2294beb3b15cf28702c0b55ce59e996669c44f3750328f16f52a627163c"
+    },
+    "mwgg.candidates.7.jsonl.gz": {
+      "bytes": 429983,
+      "sha256": "f0daa99c0d9b1058a71e8247bfdf2f04b7b2280c88f34d535af6614fe12091b9"
+    },
+    "mwgg.candidates.8.jsonl.gz": {
+      "bytes": 428101,
+      "sha256": "6952e9313a9b3e9df2454b66cc72dfffc215a5a20e568d25c3222ce663843c8f"
+    },
+    "mwgg.candidates.9.jsonl.gz": {
+      "bytes": 440866,
+      "sha256": "febae0ff03e04c02a5d5b35fd4fb1dec9316d57238306d338b143a1cafa6601b"
+    },
+    "mwgg.candidates.a.jsonl.gz": {
+      "bytes": 427770,
+      "sha256": "1f4f8ca99d5fb43b0ef8e5786ee363da4955e909c519908531cda75799ea8bad"
+    },
+    "mwgg.candidates.b.jsonl.gz": {
+      "bytes": 443488,
+      "sha256": "72dfca9eb524819bd159cd3a251eb9373e369c0ed6a3ceaa8007f8d8e6451491"
+    },
+    "mwgg.candidates.c.jsonl.gz": {
+      "bytes": 436928,
+      "sha256": "e91504acbb642eff9a1de9c5b9a17039118b9366d8e8f123665634e7b9e469c6"
+    },
+    "mwgg.candidates.d.jsonl.gz": {
+      "bytes": 437994,
+      "sha256": "819c5a37acee911b0469b5c9451869dc3a6ad74cfa6ac3f71215f7425e403d63"
+    },
+    "mwgg.candidates.e.jsonl.gz": {
+      "bytes": 450908,
+      "sha256": "030112aafc3789adec7fe0d998c23bf22e83510ff7c2ac2e814c9cb1c59291f4"
+    },
+    "mwgg.candidates.f.jsonl.gz": {
+      "bytes": 431130,
+      "sha256": "7ecb44c0a6536f0d01d04f5cda482ea9dea2e9418011548252d94c800c5130e9"
+    },
+    "mwgg.coverage.json": {
+      "bytes": 99506,
+      "sha256": "280917118319d1fb23c049382143afe60c8c16ee719c34ec84228a950321b471"
+    },
+    "mwgg.entities.jsonl.gz": {
+      "bytes": 1608651,
+      "sha256": "6177e9142ff7e71520a0b6141e7525fa74b64fe1cfad7a6243971327cd84f9db"
+    },
+    "mwgg.gaps.jsonl.gz": {
+      "bytes": 10042,
+      "sha256": "1179dd83cdcc825a1af740afd9a90b9fd5404232070c858447702e7a3af10534"
+    },
+    "mwgg.versions.jsonl.gz": {
+      "bytes": 31333,
+      "sha256": "233976f239b379ff58a16cba76d574ed929ec5534a50de53042b8785c93758f5"
+    },
+    "ourairports.candidates.0.jsonl.gz": {
+      "bytes": 2981157,
+      "sha256": "8f4bb0275f16150307d16832d4b96c53926087a07397e1b57e196a7533954eb0"
+    },
+    "ourairports.candidates.1.jsonl.gz": {
+      "bytes": 2998774,
+      "sha256": "814777cdfee83ed7f9193175ffd95ebb917531041b25af48f3df352e8df46f30"
+    },
+    "ourairports.candidates.2.jsonl.gz": {
+      "bytes": 3022545,
+      "sha256": "6cfea771c725953adf577b97c2da51b48b6fae2e18392564d13345e29a92b21e"
+    },
+    "ourairports.candidates.3.jsonl.gz": {
+      "bytes": 3017360,
+      "sha256": "b869c154c2fe9e7ee2f46e40f8783a9ae92ab048a70a38d9ee12ee1a11cc5081"
+    },
+    "ourairports.candidates.4.jsonl.gz": {
+      "bytes": 3025844,
+      "sha256": "d4d799e0c6e045546ee0801d7f5ada16c6058b18508c8d9cb05943592636b184"
+    },
+    "ourairports.candidates.5.jsonl.gz": {
+      "bytes": 2992493,
+      "sha256": "b4a880ad255e66efbd38f407985e01ae8127bdd281431769df829ca7222468f3"
+    },
+    "ourairports.candidates.6.jsonl.gz": {
+      "bytes": 2968429,
+      "sha256": "dcef365e57c3f3e35c9e6f179657d97da19a8097c49d9780a230c34771776279"
+    },
+    "ourairports.candidates.7.jsonl.gz": {
+      "bytes": 3002921,
+      "sha256": "d94f53bcbfc18f2775e40e124f9fee5039530f2ffebefbaf5bbf40ae54cb75f7"
+    },
+    "ourairports.candidates.8.jsonl.gz": {
+      "bytes": 2984775,
+      "sha256": "877f6d20ba902b033bf2cd747c39d107947937d5eb3fdad33c875c6f8441321d"
+    },
+    "ourairports.candidates.9.jsonl.gz": {
+      "bytes": 2988756,
+      "sha256": "f1f7214a01d406ee0d2b9e4307de329670e8cc01ad293a3ed023b4a1ebf94e02"
+    },
+    "ourairports.candidates.a.jsonl.gz": {
+      "bytes": 2970274,
+      "sha256": "cbbd117cf8acc65975426f6a5248fbdc52340a56431da731f7a2da19ee6c1e65"
+    },
+    "ourairports.candidates.b.jsonl.gz": {
+      "bytes": 3077417,
+      "sha256": "002bef24d4c9c68c8e4d2aaa9e02e285c84554c1b52bf375635f0cddd5528fe9"
+    },
+    "ourairports.candidates.c.jsonl.gz": {
+      "bytes": 3023159,
+      "sha256": "1e928e1526ee6a1158936f45cafaa2619203e339b1ae83b0e02b99778ae51851"
+    },
+    "ourairports.candidates.d.jsonl.gz": {
+      "bytes": 3005108,
+      "sha256": "36247734e4e85fedd0481b40ebb4625d535c67e2ace20b2e467865548250c7b9"
+    },
+    "ourairports.candidates.e.jsonl.gz": {
+      "bytes": 3024743,
+      "sha256": "ecdf97a3b25272832bb0c413ad1dc6e2294474732edc3dff96aaed8d28a9af00"
+    },
+    "ourairports.candidates.f.jsonl.gz": {
+      "bytes": 3023480,
+      "sha256": "a683f66b6aecbc7333e8534307cc8781cf36fe23df5a51360d9f606bf08724ab"
+    },
+    "ourairports.coverage.json": {
+      "bytes": 119946,
+      "sha256": "dfdadb93179ac27e0b02356973583df18073a79df089b205f8754685007c622f"
+    },
+    "ourairports.entities.jsonl.gz": {
+      "bytes": 6651586,
+      "sha256": "fb585b67aeeef7d14e54836c5a20fe371a85ea65e23fa96935a33fb5f09d690c"
+    },
+    "ourairports.gaps.jsonl.gz": {
+      "bytes": 20,
+      "sha256": "9ceffb7310338057cfe71a4ae1e2c98d2c485d81cdef906532a801f457a38d64"
+    },
+    "ourairports.versions.jsonl.gz": {
+      "bytes": 122669,
+      "sha256": "1106b802178c945f93a22c2316823412d8c48da73f254dfbe2e39b0ace67fb78"
+    },
+    "summary.json": {
+      "bytes": 833312,
+      "sha256": "ae19014c4e41083dc86b64ec47ca838481bf0196cb690917b46e219d459fd49f"
+    },
+    "verification-queue.jsonl.gz": {
+      "bytes": 102458,
+      "sha256": "fe3724d3c457916c6074771692e56b486d663efa915cd967df34509c0ee21d72"
+    },
+    "year-country-coverage.json": {
+      "bytes": 170912,
+      "sha256": "6911d7c24566e45c3a59cdbf89857771b4e955ef7081240621b270c63af8eba3"
+    }
+  },
+  "formatVersion": 1,
+  "inputs": {
+    "research/discovery/curated-baseline.json": "ea481578eda13fdea881f77cf6f40bf4b45563eafb8f49cadfa28aa025cfbccf",
+    "research/discovery/keepraw-fly-baseline.json": "c15b52a72c62cf03fe44978ab2511ddf400d5fc88f628175e804e13b8f174e38",
+    "research/discovery/legacy.json": "397e3b8169ee55f0317f1447b99e82aec09e03a2a1dc79b805362b66a37c3174",
+    "research/discovery/reviews.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
+    "research/discovery/source-assessment.json": "ca9c561801f21acf3e8c896136ace72a306605531fcab55d29075ac1e76ba342",
+    "research/discovery/sources.json": "8a8c9775b2049e4ecf2f6a2f3b7bb8c5cff9b7bc3dbd4a28b8c4643eca7cd9c2",
+    "scripts/discovery/core.py": "c996cbc582d126d79e7950bdee6fdd183d31a8ac960c3c8a880dde97dc28b4a4",
+    "scripts/discovery/fetch.py": "c9b23f9bf6c90620da8b8b56e6cd05b7aef0448a0c0feddf3f2705d543c86625",
+    "scripts/discovery/query.py": "e1d8530ba49cec253e45cb000b522bc108b60943d0801b917c1edc8ca54d917f",
+    "scripts/discovery/report.py": "3e9ff3ff6c3329e6c56a617e4a374cbdbade7f16bceb27e4c4851c2ca3f71459",
+    "scripts/discovery/scan.py": "5f5ac9a8859842d5bdd4028da475a18dfce0576a81df195300eb40d976bfa46e",
+    "scripts/discovery/validate.py": "8784377ac82f4cf9533ee1606d74aace10525017f4b36c8d4a8a7ebadc2a86de"
+  }
+}

@@ -1,0 +1,335 @@
+[
+  {
+    "candidateId": "legacy-istanbul-isl-exchange",
+    "label": "Istanbul ISL exchange",
+    "siteLead": "Istanbul Airport → Atatürk (reverse direction to IST)",
+    "codes": [
+      "ISL",
+      "IST"
+    ],
+    "reportedDateLead": "2019-04-06",
+    "eventDatePrecision": "unreviewed_lead",
+    "note": "[Participant airline retrospective](https://blog.turkishairlines.com/en/mega-move-the-story-of-turkish-airlines-great-migration/), [Ercan operator's 2018 ISL flight](https://www.ercanhavalimani.aero/en/news/kktc-iin-nemli-gn). Reuse the two existing permanent IDs; do not invent the initial ISL allocation date.",
+    "sourceDocument": "docs/batch-1-candidates.md",
+    "sourceVersion": "69352cad4d82236be1638757c259034a45ffadc2",
+    "status": "already_curated",
+    "evidenceType": "continuity_inference",
+    "conflicts": [],
+    "exclusionReason": null,
+    "nextAction": "Preserve admitted conclusions; use new revisions only as review leads."
+  },
+  {
+    "candidateId": "legacy-islamabad",
+    "label": "Islamabad",
+    "siteLead": "Benazir Bhutto / Chaklala → new Islamabad",
+    "codes": [
+      "ISB",
+      "OPRN",
+      "OPIS",
+      "ICAO"
+    ],
+    "reportedDateLead": "Flights moved 2018-05-03; code transfer reported only as May 2018",
+    "eventDatePrecision": "unreviewed_lead",
+    "note": "[Government operational notice](https://pid.gov.pk/site/press_detail/8275), [TAT report](https://www.tatnews.org/2018/05/thai-shifts-to-serve-pakistans-newly-opened-islamabad-international-airport/), [explicit secondary ISB transfer account](https://www.helis.com/database/gps/OPRN/). Do not infer the ISB transfer day from inauguration or opening.",
+    "sourceDocument": "docs/batch-1-candidates.md",
+    "sourceVersion": "69352cad4d82236be1638757c259034a45ffadc2",
+    "status": "already_curated",
+    "evidenceType": "continuity_inference",
+    "conflicts": [],
+    "exclusionReason": null,
+    "nextAction": "Preserve admitted conclusions; use new revisions only as review leads."
+  },
+  {
+    "candidateId": "legacy-yantai",
+    "label": "Yantai",
+    "siteLead": "Laishan → Penglai",
+    "codes": [
+      "YNT"
+    ],
+    "reportedDateLead": "2015-05-28",
+    "eventDatePrecision": "unreviewed_lead",
+    "note": "[Operator announcement](https://www.ytairport.com.cn/index/kgxw/1177.html), [reported IATA approval to retain YNT](https://yantai.dzwww.com/xinwen/ytxw/ytsh/201411/t20141110_11338121.htm), [airline relocation notice](https://www.ch.com/news/33497b984fc54d96927e965b33fa9a1e.html). Approval in 2014 is not the effective transfer.",
+    "sourceDocument": "docs/batch-1-candidates.md",
+    "sourceVersion": "69352cad4d82236be1638757c259034a45ffadc2",
+    "status": "insufficient_evidence",
+    "evidenceType": "indirect",
+    "conflicts": [
+      "Code timing differs from flight move or opening; see original evidence review."
+    ],
+    "exclusionReason": null,
+    "nextAction": "Obtain code-specific primary implementation notice; review physical identity separately."
+  },
+  {
+    "candidateId": "legacy-berlin-sch-nefeld",
+    "label": "Berlin Schönefeld",
+    "siteLead": "Same continuing, expanded Schönefeld/Brandenburg airfield",
+    "codes": [
+      "SXF",
+      "BER"
+    ],
+    "reportedDateLead": "2020-10-25, before T1 opening on 2020-10-31",
+    "eventDatePrecision": "unreviewed_lead",
+    "note": "[Airport-authored announcement on Routes](https://www.routesonline.com/airports/2515/berlin-brandenburg-airport/news/294598/sxf-becomes-ber-schonefeld-airport-is-now-ber-terminal-5/), [slot coordinator notice](https://fluko.org/wp-content/uploads/2020/05/BER-Information-on-Airport-Slot-Coordination-W20-S21-20200506.pdf). One physical identity; historical BER city code must not become a pre-2020 airport assignment.",
+    "sourceDocument": "docs/batch-1-candidates.md",
+    "sourceVersion": "69352cad4d82236be1638757c259034a45ffadc2",
+    "status": "already_curated",
+    "evidenceType": "continuity_inference",
+    "conflicts": [],
+    "exclusionReason": null,
+    "nextAction": "Preserve admitted conclusions; use new revisions only as review leads."
+  },
+  {
+    "candidateId": "legacy-astana",
+    "label": "Astana",
+    "siteLead": "Same Nursultan Nazarbayev airfield",
+    "codes": [
+      "TSE",
+      "NQZ"
+    ],
+    "reportedDateLead": "2020-06-08",
+    "eventDatePrecision": "unreviewed_lead",
+    "note": "[Aviation Administration of Kazakhstan](https://caa.gov.kz/ru/blog/post/kod-aeroporta-g-nur-sultan-izmenen), [implementation notice](https://caa.gov.kz/ru/blog/post/nqz-novoe-imya-na-karte-poletov). Verify effective date separately from IATA decision and airport/city renames.",
+    "sourceDocument": "docs/batch-1-candidates.md",
+    "sourceVersion": "69352cad4d82236be1638757c259034a45ffadc2",
+    "status": "already_curated",
+    "evidenceType": "continuity_inference",
+    "conflicts": [],
+    "exclusionReason": null,
+    "nextAction": "Preserve admitted conclusions; use new revisions only as review leads."
+  },
+  {
+    "candidateId": "legacy-chi-in-u",
+    "label": "Chișinău",
+    "siteLead": "Same Chișinău airfield",
+    "codes": [
+      "KIV",
+      "RMO"
+    ],
+    "reportedDateLead": "2024-01-18",
+    "eventDatePrecision": "unreviewed_lead",
+    "note": "[Airport channel](https://t.me/s/chisinauairport/133), [contemporaneous report](https://www.radiomoldova.md/p/28718/attention-travelers-abbreviation-kiv-is-replaced-by-rmo-on-flight-charts-starting-today). Need directly inspected code evidence; no physical move.",
+    "sourceDocument": "docs/batch-1-candidates.md",
+    "sourceVersion": "69352cad4d82236be1638757c259034a45ffadc2",
+    "status": "already_curated",
+    "evidenceType": "continuity_inference",
+    "conflicts": [],
+    "exclusionReason": null,
+    "nextAction": "Preserve admitted conclusions; use new revisions only as review leads."
+  },
+  {
+    "candidateId": "legacy-rostov-on-don",
+    "label": "Rostov-on-Don",
+    "siteLead": "old Rostov → Platov",
+    "codes": [
+      "ROV",
+      "RVI"
+    ],
+    "reportedDateLead": "Code transfer reported 2017-11-27; flights moved 2017-12-07",
+    "eventDatePrecision": "unreviewed_lead",
+    "note": "[Nov 27 code report](https://don24.ru/rubric/transport/izmeneniya-v-biletah-aeroport-rostova-poluchil-novyy-kod.html), [operator flight move](https://ar-rov.ru/en/about/news/all-domestic-and-international-flights-will-be-carried/), [earlier account predicting code change with the move](https://www.frequentflyers.ru/2017/11/20/rov_review/). Conflicting timing needs allocation/airline-system evidence, not a chosen plausible date.",
+    "sourceDocument": "docs/batch-1-candidates.md",
+    "sourceVersion": "69352cad4d82236be1638757c259034a45ffadc2",
+    "status": "insufficient_evidence",
+    "evidenceType": "indirect",
+    "conflicts": [
+      "Code timing differs from flight move or opening; see original evidence review."
+    ],
+    "exclusionReason": null,
+    "nextAction": "Obtain code-specific primary implementation notice; review physical identity separately."
+  },
+  {
+    "candidateId": "legacy-dakar",
+    "label": "Dakar",
+    "siteLead": "Léopold Sédar Senghor → Blaise Diagne",
+    "codes": [
+      "DKR",
+      "DSS"
+    ],
+    "reportedDateLead": "2017-12-07",
+    "eventDatePrecision": "unreviewed_lead",
+    "note": "[Old airport reference](https://ourairports.com/airports/GOOY/). Replacement is not DKR inheritance; DKR remains recorded at the old site. No supported withdrawal boundary collected.",
+    "sourceDocument": "docs/batch-1-candidates.md",
+    "sourceVersion": "69352cad4d82236be1638757c259034a45ffadc2",
+    "status": "insufficient_evidence",
+    "evidenceType": "indirect",
+    "conflicts": [],
+    "exclusionReason": null,
+    "nextAction": "Obtain code-specific primary implementation notice; review physical identity separately."
+  },
+  {
+    "candidateId": "legacy-lianyungang",
+    "label": "Lianyungang",
+    "siteLead": "Baitabu → Huaguoshan",
+    "codes": [
+      "LYG"
+    ],
+    "reportedDateLead": "2021-12-02",
+    "eventDatePrecision": "unreviewed_lead",
+    "note": "[Government relocation report](https://www.lyg.gov.cn/zglygzfmhwz/rdhy/content/72118cbc-d596-4870-883a-5053c8e90556.htm), [airline move](https://info.flycua.com/jcms/publish/APP/appjjtz/j20211123_363_521_8377.html). Opening/move established; specific code allocation boundary not yet independently established.",
+    "sourceDocument": "docs/batch-1-candidates.md",
+    "sourceVersion": "69352cad4d82236be1638757c259034a45ffadc2",
+    "status": "insufficient_evidence",
+    "evidenceType": "indirect",
+    "conflicts": [],
+    "exclusionReason": null,
+    "nextAction": "Obtain code-specific primary implementation notice; review physical identity separately."
+  },
+  {
+    "candidateId": "legacy-yibin",
+    "label": "Yibin",
+    "siteLead": "Caiba → Wuliangye",
+    "codes": [
+      "YBP"
+    ],
+    "reportedDateLead": "2019-12-05",
+    "eventDatePrecision": "unreviewed_lead",
+    "note": "[Government report](https://www.scjg.gov.cn/news/4275.html). Opening evidence alone does not establish code transfer timing.",
+    "sourceDocument": "docs/batch-1-candidates.md",
+    "sourceVersion": "69352cad4d82236be1638757c259034a45ffadc2",
+    "status": "insufficient_evidence",
+    "evidenceType": "indirect",
+    "conflicts": [],
+    "exclusionReason": null,
+    "nextAction": "Obtain code-specific primary implementation notice; review physical identity separately."
+  },
+  {
+    "candidateId": "legacy-luzhou",
+    "label": "Luzhou",
+    "siteLead": "Lantian → Yunlong",
+    "codes": [
+      "LZO"
+    ],
+    "reportedDateLead": "2018-09-10",
+    "eventDatePrecision": "unreviewed_lead",
+    "note": "[Contemporaneous opening report](https://sc.cnr.cn/sc/2014sz/20180910/t20180910_524356124.shtml). Specific code boundary evidence still needed.",
+    "sourceDocument": "docs/batch-1-candidates.md",
+    "sourceVersion": "69352cad4d82236be1638757c259034a45ffadc2",
+    "status": "insufficient_evidence",
+    "evidenceType": "indirect",
+    "conflicts": [],
+    "exclusionReason": null,
+    "nextAction": "Obtain code-specific primary implementation notice; review physical identity separately."
+  },
+  {
+    "candidateId": "legacy-jining",
+    "label": "Jining",
+    "siteLead": "Qufu → Da'an",
+    "codes": [
+      "JNG"
+    ],
+    "reportedDateLead": "2023-12-28",
+    "eventDatePrecision": "unreviewed_lead",
+    "note": "[Airline relocation notice](https://www.csair.com/newh5/cn/service_notice/1hi7qev4ktpqb.shtml). Move established; no independently verified code-transfer boundary collected.",
+    "sourceDocument": "docs/batch-1-candidates.md",
+    "sourceVersion": "69352cad4d82236be1638757c259034a45ffadc2",
+    "status": "insufficient_evidence",
+    "evidenceType": "indirect",
+    "conflicts": [],
+    "exclusionReason": null,
+    "nextAction": "Obtain code-specific primary implementation notice; review physical identity separately."
+  },
+  {
+    "candidateId": "legacy-phnom-penh",
+    "label": "Phnom Penh",
+    "siteLead": "Pochentong → Techo",
+    "codes": [
+      "PNH",
+      "KTI"
+    ],
+    "reportedDateLead": "2025-09-09",
+    "eventDatePrecision": "unreviewed_lead",
+    "note": "[Airport replacement report from airline/airport industry](https://www.aci-asiapac.aero/media-centre/news/air-cambodia-to-launch-new-narita-fuzhou-china-phnom-penh-cambodia-route-from-october-26-2025). A distinct-code replacement; flight move alone does not establish either code's allocation/withdrawal.",
+    "sourceDocument": "docs/batch-1-candidates.md",
+    "sourceVersion": "69352cad4d82236be1638757c259034a45ffadc2",
+    "status": "insufficient_evidence",
+    "evidenceType": "indirect",
+    "conflicts": [],
+    "exclusionReason": null,
+    "nextAction": "Obtain code-specific primary implementation notice; review physical identity separately."
+  },
+  {
+    "candidateId": "legacy-astana-name-2017",
+    "label": "Astana official name",
+    "codes": [
+      "TSE",
+      "NQZ"
+    ],
+    "eventDatePrecision": "see_existing_review",
+    "note": "Signing 2017-06-20; effective first publication 2017-06-21; two name intervals already curated.",
+    "sourceDocument": "docs/historical-names.md",
+    "sourceVersion": "3c5a2e70c94cd8e5ff34ee32b325ceb2ad2b3e12",
+    "status": "already_curated",
+    "evidenceType": "continuity_inference",
+    "conflicts": [],
+    "exclusionReason": null,
+    "nextAction": "Retain disposition; reopen only with new claim-specific evidence."
+  },
+  {
+    "candidateId": "legacy-astana-name-before-2006",
+    "label": "Earlier Astana official names",
+    "codes": [
+      "TSE",
+      "NQZ"
+    ],
+    "eventDatePrecision": "see_existing_review",
+    "note": "2006 dated observation is not the original adoption date.",
+    "sourceDocument": "docs/historical-names.md",
+    "sourceVersion": "3c5a2e70c94cd8e5ff34ee32b325ceb2ad2b3e12",
+    "status": "insufficient_evidence",
+    "evidenceType": "indirect",
+    "conflicts": [],
+    "exclusionReason": null,
+    "nextAction": "Retain disposition; reopen only with new claim-specific evidence."
+  },
+  {
+    "candidateId": "legacy-astana-corporate-2020",
+    "label": "Astana corporate amendment",
+    "codes": [
+      "TSE",
+      "NQZ"
+    ],
+    "eventDatePrecision": "see_existing_review",
+    "note": "2020 corporate wording amendment does not establish another airport rename.",
+    "sourceDocument": "docs/historical-names.md",
+    "sourceVersion": "3c5a2e70c94cd8e5ff34ee32b325ceb2ad2b3e12",
+    "status": "excluded",
+    "evidenceType": "indirect",
+    "conflicts": [],
+    "exclusionReason": "2020 corporate wording amendment does not establish another airport rename.",
+    "nextAction": "Retain disposition; reopen only with new claim-specific evidence."
+  },
+  {
+    "candidateId": "legacy-astana-city-2019-2022",
+    "label": "Astana city name changes",
+    "codes": [
+      "TSE",
+      "NQZ"
+    ],
+    "eventDatePrecision": "see_existing_review",
+    "note": "2019/2022 city renames are not airport-name events.",
+    "sourceDocument": "docs/historical-names.md",
+    "sourceVersion": "3c5a2e70c94cd8e5ff34ee32b325ceb2ad2b3e12",
+    "status": "excluded",
+    "evidenceType": "indirect",
+    "conflicts": [],
+    "exclusionReason": "2019/2022 city renames are not airport-name events.",
+    "nextAction": "Retain disposition; reopen only with new claim-specific evidence."
+  },
+  {
+    "candidateId": "legacy-ber-terminal-2020",
+    "label": "Berlin Terminal 1 opening",
+    "codes": [
+      "SXF",
+      "BER"
+    ],
+    "eventDatePrecision": "see_existing_review",
+    "note": "2020-10-31 terminal opening is not a separate physical airport; code change 2020-10-25 reviewed independently.",
+    "sourceDocument": "docs/batch-1-evidence.md",
+    "sourceVersion": "3c5a2e70c94cd8e5ff34ee32b325ceb2ad2b3e12",
+    "status": "excluded",
+    "evidenceType": "indirect",
+    "conflicts": [],
+    "exclusionReason": "2020-10-31 terminal opening is not a separate physical airport; code change 2020-10-25 reviewed independently.",
+    "nextAction": "Retain disposition; reopen only with new claim-specific evidence."
+  }
+]

@@ -1,0 +1,747 @@
+{
+  "discovery": {
+    "byContinent": {
+      "unknown": 567
+    },
+    "byCountry": {
+      "AE": 4,
+      "AL": 1,
+      "AM": 1,
+      "AR": 1,
+      "AT": 1,
+      "AU": 5,
+      "AZ": 1,
+      "BA": 1,
+      "BE": 3,
+      "BG": 4,
+      "BH": 1,
+      "BN": 1,
+      "BR": 9,
+      "BS": 1,
+      "BY": 1,
+      "BZ": 1,
+      "CA": 12,
+      "CH": 2,
+      "CK": 1,
+      "CL": 1,
+      "CN": 31,
+      "CO": 1,
+      "CU": 2,
+      "CY": 2,
+      "CZ": 1,
+      "DE": 17,
+      "DK": 3,
+      "DO": 2,
+      "DZ": 1,
+      "EC": 2,
+      "EE": 1,
+      "EG": 2,
+      "ES": 9,
+      "ET": 1,
+      "FI": 1,
+      "FR": 8,
+      "GB": 27,
+      "GE": 1,
+      "GH": 1,
+      "GR": 3,
+      "GU": 1,
+      "HK": 1,
+      "HR": 1,
+      "HU": 1,
+      "ID": 6,
+      "IE": 3,
+      "IL": 2,
+      "IN": 12,
+      "IQ": 2,
+      "IR": 5,
+      "IS": 1,
+      "IT": 18,
+      "JM": 1,
+      "JO": 1,
+      "JP": 13,
+      "KE": 2,
+      "KG": 1,
+      "KH": 2,
+      "KR": 8,
+      "KS": 1,
+      "KW": 1,
+      "KY": 1,
+      "KZ": 3,
+      "LB": 1,
+      "LK": 2,
+      "LT": 1,
+      "LU": 1,
+      "LV": 1,
+      "LY": 1,
+      "MA": 1,
+      "ME": 1,
+      "MM": 2,
+      "MO": 1,
+      "MT": 1,
+      "MV": 1,
+      "MX": 10,
+      "MY": 1,
+      "NG": 3,
+      "NL": 3,
+      "NO": 6,
+      "NZ": 3,
+      "OM": 3,
+      "PA": 1,
+      "PE": 2,
+      "PG": 1,
+      "PH": 5,
+      "PK": 3,
+      "PL": 7,
+      "PR": 2,
+      "PT": 5,
+      "QA": 2,
+      "RO": 1,
+      "RS": 1,
+      "RU": 15,
+      "SA": 5,
+      "SD": 1,
+      "SE": 4,
+      "SG": 1,
+      "SI": 1,
+      "SK": 1,
+      "SN": 1,
+      "SS": 1,
+      "SX": 1,
+      "SY": 3,
+      "TH": 3,
+      "TN": 2,
+      "TR": 13,
+      "TW": 3,
+      "UA": 5,
+      "US": 170,
+      "UY": 1,
+      "UZ": 1,
+      "VN": 3,
+      "ZA": 4
+    },
+    "byObservationYear": {
+      "2015": 567
+    },
+    "byObservationYearAndCountry": [
+      {
+        "candidates": 4,
+        "country": "AE",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "AL",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "AM",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "AR",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "AT",
+        "year": "2015"
+      },
+      {
+        "candidates": 5,
+        "country": "AU",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "AZ",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "BA",
+        "year": "2015"
+      },
+      {
+        "candidates": 3,
+        "country": "BE",
+        "year": "2015"
+      },
+      {
+        "candidates": 4,
+        "country": "BG",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "BH",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "BN",
+        "year": "2015"
+      },
+      {
+        "candidates": 9,
+        "country": "BR",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "BS",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "BY",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "BZ",
+        "year": "2015"
+      },
+      {
+        "candidates": 12,
+        "country": "CA",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "CH",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "CK",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "CL",
+        "year": "2015"
+      },
+      {
+        "candidates": 31,
+        "country": "CN",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "CO",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "CU",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "CY",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "CZ",
+        "year": "2015"
+      },
+      {
+        "candidates": 17,
+        "country": "DE",
+        "year": "2015"
+      },
+      {
+        "candidates": 3,
+        "country": "DK",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "DO",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "DZ",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "EC",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "EE",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "EG",
+        "year": "2015"
+      },
+      {
+        "candidates": 9,
+        "country": "ES",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "ET",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "FI",
+        "year": "2015"
+      },
+      {
+        "candidates": 8,
+        "country": "FR",
+        "year": "2015"
+      },
+      {
+        "candidates": 27,
+        "country": "GB",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "GE",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "GH",
+        "year": "2015"
+      },
+      {
+        "candidates": 3,
+        "country": "GR",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "GU",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "HK",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "HR",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "HU",
+        "year": "2015"
+      },
+      {
+        "candidates": 6,
+        "country": "ID",
+        "year": "2015"
+      },
+      {
+        "candidates": 3,
+        "country": "IE",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "IL",
+        "year": "2015"
+      },
+      {
+        "candidates": 12,
+        "country": "IN",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "IQ",
+        "year": "2015"
+      },
+      {
+        "candidates": 5,
+        "country": "IR",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "IS",
+        "year": "2015"
+      },
+      {
+        "candidates": 18,
+        "country": "IT",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "JM",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "JO",
+        "year": "2015"
+      },
+      {
+        "candidates": 13,
+        "country": "JP",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "KE",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "KG",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "KH",
+        "year": "2015"
+      },
+      {
+        "candidates": 8,
+        "country": "KR",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "KS",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "KW",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "KY",
+        "year": "2015"
+      },
+      {
+        "candidates": 3,
+        "country": "KZ",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "LB",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "LK",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "LT",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "LU",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "LV",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "LY",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "MA",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "ME",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "MM",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "MO",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "MT",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "MV",
+        "year": "2015"
+      },
+      {
+        "candidates": 10,
+        "country": "MX",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "MY",
+        "year": "2015"
+      },
+      {
+        "candidates": 3,
+        "country": "NG",
+        "year": "2015"
+      },
+      {
+        "candidates": 3,
+        "country": "NL",
+        "year": "2015"
+      },
+      {
+        "candidates": 6,
+        "country": "NO",
+        "year": "2015"
+      },
+      {
+        "candidates": 3,
+        "country": "NZ",
+        "year": "2015"
+      },
+      {
+        "candidates": 3,
+        "country": "OM",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "PA",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "PE",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "PG",
+        "year": "2015"
+      },
+      {
+        "candidates": 5,
+        "country": "PH",
+        "year": "2015"
+      },
+      {
+        "candidates": 3,
+        "country": "PK",
+        "year": "2015"
+      },
+      {
+        "candidates": 7,
+        "country": "PL",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "PR",
+        "year": "2015"
+      },
+      {
+        "candidates": 5,
+        "country": "PT",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "QA",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "RO",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "RS",
+        "year": "2015"
+      },
+      {
+        "candidates": 15,
+        "country": "RU",
+        "year": "2015"
+      },
+      {
+        "candidates": 5,
+        "country": "SA",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "SD",
+        "year": "2015"
+      },
+      {
+        "candidates": 4,
+        "country": "SE",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "SG",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "SI",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "SK",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "SN",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "SS",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "SX",
+        "year": "2015"
+      },
+      {
+        "candidates": 3,
+        "country": "SY",
+        "year": "2015"
+      },
+      {
+        "candidates": 3,
+        "country": "TH",
+        "year": "2015"
+      },
+      {
+        "candidates": 2,
+        "country": "TN",
+        "year": "2015"
+      },
+      {
+        "candidates": 13,
+        "country": "TR",
+        "year": "2015"
+      },
+      {
+        "candidates": 3,
+        "country": "TW",
+        "year": "2015"
+      },
+      {
+        "candidates": 5,
+        "country": "UA",
+        "year": "2015"
+      },
+      {
+        "candidates": 170,
+        "country": "US",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "UY",
+        "year": "2015"
+      },
+      {
+        "candidates": 1,
+        "country": "UZ",
+        "year": "2015"
+      },
+      {
+        "candidates": 3,
+        "country": "VN",
+        "year": "2015"
+      },
+      {
+        "candidates": 4,
+        "country": "ZA",
+        "year": "2015"
+      }
+    ],
+    "byStatus": {
+      "pending_investigation": 567
+    },
+    "byType": {
+      "record_removed": 567
+    },
+    "candidates": 567,
+    "rawCandidateObservations": 567,
+    "repeatedObservationsGrouped": 0
+  },
+  "history": {
+    "absentAtTarget": 567,
+    "blockedComparisons": 0,
+    "columnsAcrossVersions": [
+      "iata_code",
+      "iso_country",
+      "name"
+    ],
+    "entitiesEverObserved": 567,
+    "fileChangingCommits": 2,
+    "from": "2015-02-17T09:50:12-06:00",
+    "mode": "all reachable main-ancestor file revisions; all merge-parent diffs; no annual sampling",
+    "parentDiffs": 2,
+    "parentDiffsByObservationYear": {
+      "2015": 2
+    },
+    "parsedFileVersions": 2,
+    "recordVersionsProcessed": 567,
+    "sourceFormattingRepairs": {},
+    "through": "2015-02-25T11:46:23-06:00",
+    "uniqueFileVersions": 2,
+    "unparsedFileVersions": 0
+  },
+  "path": "data/airports-codes.csv",
+  "revision": "0a775c03687f0b57175df2285592397c1099b9dc",
+  "sourceId": "airport-codes-legacy",
+  "target": {
+    "byCountry": {},
+    "byType": {},
+    "closed": 0,
+    "columns": [],
+    "gpsCodeNonempty": 0,
+    "iataNonempty": 0,
+    "icaoFieldNonempty": 0,
+    "icaoFourLetters": 0,
+    "neitherIataNorExplicitIcao": 0,
+    "noIataIcaoOrGps": 0,
+    "records": 0,
+    "scheduledService": 0
+  }
+}
