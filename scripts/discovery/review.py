@@ -7,6 +7,7 @@ DISPOSITIONS = {'ready_to_admit', 'insufficient_evidence', 'excluded', 'pending_
 REVIEW_STATUSES = DISPOSITIONS | {'pending_investigation', 'already_curated'}
 CLAIMS = {'physicalIdentity', 'iata', 'icao', 'historicalBoundary', 'historicalNames', 'closureAndReplacement'}
 EVIDENCE = {'primary_direct', 'indirect', 'continuity_inference'}
+MAX_EVENTS = 20
 
 
 def require(condition, message):
@@ -16,9 +17,11 @@ def require(condition, message):
 
 def validate_batch(batch):
     events = batch['events']
-    require(0 < len(events) <= 20, 'A verification batch must contain at most 20 events')
+    ceiling = batch['selection']['maximumEvents']
+    require(isinstance(ceiling, int) and 0 < ceiling <= MAX_EVENTS, 'Wrong batch ceiling')
+    require(0 < len(events) <= MAX_EVENTS, 'A verification batch must contain at most 20 events')
+    require(len(events) <= ceiling, f'A verification batch must contain at most {ceiling} events')
     require(batch['selection']['eventCount'] == len(events), 'Wrong reviewed event count')
-    require(batch['selection']['maximumEvents'] == 20, 'Wrong batch ceiling')
     require(re.fullmatch(r'\d{4}-\d{2}-\d{2}', batch['reviewedOn']), 'Missing review date')
     counts = Counter(e['status'] for e in events)
     require(all(batch['statusCounts'].get(s, 0) == counts[s] for s in DISPOSITIONS), 'Wrong batch dispositions')
@@ -55,16 +58,79 @@ def validate_batch(batch):
             require(event['exclusionReason'], 'Missing exclusion reason')
         if event['status'] == 'pending_review':
             require(event['conflicts'], 'Missing independent-review conflict')
+    for follow_up in batch.get('followUps', []):
+        validate_follow_up(follow_up, sources)
+
+
+def validate_follow_up(follow_up, sources):
+    """A follow-up re-investigates an event owned by an earlier batch; it never maps candidates."""
+    require(follow_up.get('candidateIds') == [], 'Follow-up must not map candidates; the earlier batch keeps the sole mapping')
+    for key in ('eventGroupId', 'priorBatchId', 'priorStatus', 'currentStatus', 'nextAction'):
+        require(isinstance(follow_up.get(key), str) and follow_up[key].strip(), f'Missing follow-up {key}')
+    require(follow_up['priorStatus'] in DISPOSITIONS and follow_up['currentStatus'] in DISPOSITIONS, 'Unknown follow-up disposition')
+    require(isinstance(follow_up.get('dispositionChanged'), bool), 'Missing follow-up disposition flag')
+    require(follow_up['dispositionChanged'] == (follow_up['priorStatus'] != follow_up['currentStatus']), 'Follow-up disposition flag disagrees with statuses')
+    if follow_up['dispositionChanged']:
+        require(follow_up.get('changeReason'), 'Changed follow-up disposition lacks a documented reason')
+    require(follow_up.get('searches') and follow_up.get('negativeResults') is not None, 'Follow-up lacks documented searches/negative results')
+    require(follow_up.get('remainingGaps') or follow_up['currentStatus'] == 'ready_to_admit', 'Follow-up lacks retained gaps')
+    require(follow_up.get('sourceIds') and set(follow_up['sourceIds']) <= sources.keys(), 'Unknown follow-up evidence source')
+    require(set(follow_up.get('claimFindings', {})) == CLAIMS, 'Missing claim-specific follow-up findings')
+    for claim in follow_up['claimFindings'].values():
+        require(claim['conclusion'] and claim['evidenceType'] in EVIDENCE, 'Missing follow-up claim basis')
+        require(claim['sourceIds'] and set(claim['sourceIds']) <= set(follow_up['sourceIds']), 'Dangling follow-up claim source')
+        if claim['evidenceType'] == 'primary_direct':
+            require(any(sources[s]['sourceType'] == 'primary' for s in claim['sourceIds']), 'Primary follow-up claim lacks primary publication')
+
+
+def batch_order(batch_id):
+    require(isinstance(batch_id, str) and batch_id, 'Missing batch ID')
+    match = re.fullmatch(r'(.*?)-(\d+)', batch_id)
+    # Numbered series sort numerically (global-2 before global-10); other IDs sort lexically.
+    return (match.group(1), int(match.group(2))) if match else (batch_id, -1)
+
+
+def validate_batch_series(batches):
+    """Check all completed batches together: unique IDs and mappings, follow-ups only reference earlier events."""
+    ordered = sorted(batches, key=lambda b: batch_order(b['batchId']))
+    batch_ids, events, candidates = set(), {}, {}
+    for batch in ordered:
+        validate_batch(batch)
+        require(batch['batchId'] not in batch_ids, f"Duplicate batch ID: {batch['batchId']}")
+        for follow_up in batch.get('followUps', []):
+            target = events.get(follow_up['eventGroupId'])
+            require(target is not None, f"Follow-up references no earlier event: {follow_up['eventGroupId']}")
+            owner, event = target
+            require(follow_up['priorBatchId'] == owner, f"Follow-up names the wrong owning batch: {follow_up['eventGroupId']}")
+            # The owning batch record is the live disposition; a follow-up must agree with it.
+            require(event['status'] == follow_up['currentStatus'], f"Follow-up status disagrees with owning event: {follow_up['eventGroupId']}")
+            if not follow_up['dispositionChanged']:
+                require(event['status'] == follow_up['priorStatus'], f"Unchanged follow-up disagrees with owning event: {follow_up['eventGroupId']}")
+        batch_ids.add(batch['batchId'])
+        for event in batch['events']:
+            for cid in event['candidateIds'] + event['relatedCandidateIds']:
+                require(cid not in candidates, f'Candidate maps to multiple batch events: {cid}')
+                candidates[cid] = event['eventGroupId']
+            require(event['eventGroupId'] not in events, f"Duplicate event group across batches: {event['eventGroupId']}")
+            events[event['eventGroupId']] = (batch['batchId'], event)
+    return candidates
 
 
 def batch_summaries(root):
-    result = []
+    result, batches = [], []
     for path in sorted((root / 'research/discovery/batches').glob('*.json')):
         batch = json.loads(path.read_text())
-        validate_batch(batch)
-        result.append({'batchId': batch['batchId'], 'path': str(path.relative_to(root)),
-                       'reviewedOn': batch['reviewedOn'], 'eventCount': len(batch['events']),
-                       'statusCounts': batch['statusCounts'], 'admission': batch['admission']})
+        batches.append(batch)
+        entry = {'batchId': batch['batchId'], 'path': str(path.relative_to(root)),
+                 'reviewedOn': batch['reviewedOn'], 'eventCount': len(batch['events']),
+                 'statusCounts': batch['statusCounts'], 'admission': batch['admission']}
+        if batch.get('followUps'):
+            entry['followUps'] = [{'eventGroupId': f['eventGroupId'], 'priorBatchId': f['priorBatchId'],
+                                   'currentStatus': f['currentStatus'], 'dispositionChanged': f['dispositionChanged']}
+                                  for f in batch['followUps']]
+        result.append(entry)
+    validate_batch_series(batches)
+    result.sort(key=lambda entry: batch_order(entry['batchId']))
     return result
 
 
@@ -73,8 +139,8 @@ def validate_review_overrides(reviews, batches):
     require(isinstance(reviews, dict), 'Review overrides must be an object')
     candidate_events = {}
     seen_ids = set()
+    validate_batch_series([batch for _, batch in batches])
     for batch_path, batch in batches:
-        validate_batch(batch)
         for event in batch['events']:
             for cid in event['candidateIds'] + event['relatedCandidateIds']:
                 require(isinstance(cid, str) and cid.startswith(('cand_', 'legacy-')), 'Invalid reviewed candidate ID')

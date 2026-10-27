@@ -601,8 +601,8 @@
       "sha256": "1106b802178c945f93a22c2316823412d8c48da73f254dfbe2e39b0ace67fb78"
     },
     "summary.json": {
-      "bytes": 834061,
-      "sha256": "254e687c9927c66b974224ed70030c1f1e0c7f73e61401053e88ff4ca7c018d6"
+      "bytes": 835310,
+      "sha256": "239c11ecca64f3c33de9c3d49b5e3adb3b57ff3576fac26321329b4ee688e216"
     },
     "verification-queue.jsonl.gz": {
       "bytes": 102458,
@@ -625,12 +625,13 @@
     "scripts/discovery/query.py": "4244b7b75f0d1fa2f3a72245cd07c7a79944060dda23feaa070debb43dd0d372",
     "scripts/discovery/refresh_reviews.py": "bcf207c0f411f3800da773e37a7d6a3f4d90b9fc8d18e1233e471679262838d1",
     "scripts/discovery/report.py": "a567eb3962f2eee4d18a76612dd9c75293917bb1eb9df3b423bf322a34c5a258",
-    "scripts/discovery/review.py": "dcb9230b88e4090eabb6a44f58014c7803d6398eaf099b8ee18946f1755bba81",
+    "scripts/discovery/review.py": "33b1c91b7a4cef938cb304553ea5a29464e33bd329080a748f979d5941ac3c07",
     "scripts/discovery/scan.py": "5f5ac9a8859842d5bdd4028da475a18dfce0576a81df195300eb40d976bfa46e",
     "scripts/discovery/validate.py": "4489bc2a4374b37d0ef7b7b5547efbaa2b5e41d41291e0a7bd91410560bf4833"
   },
   "reviewInputs": {
     "research/discovery/batches/global-1.json": "4d0aa2fa15e2d4a32a78e5061639b6643056f7f28c813b0a011a27b87eabb6b6",
-    "research/discovery/reviews.json": "42ade597c2211364e609d2a614c8be4362d95b6e28ea5e04eb9cb840676e93f2"
+    "research/discovery/batches/global-2.json": "b1cddfb6b7827896cbb87b9fdfaea3547afa4e366d5d4b913d10f6418b99f065",
+    "research/discovery/reviews.json": "49e32e00f3b224cb05d4982d2a57748dbda7290dc3b5aed4f2b1d35fbec6a336"
   }
 }

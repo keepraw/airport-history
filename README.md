@@ -280,6 +280,7 @@ test/batch-1-identities.json  # five added IDs and reference coordinates
 docs/evidence.md
 docs/batch-1-{candidates,evidence}.md
 docs/historical-names.md
+docs/global-verification-batch-{1,2}.md
 README.md
 LICENSE                      # MIT for code
 LICENSE-DATA                 # CC0 legal text; scope below

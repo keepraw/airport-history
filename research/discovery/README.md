@@ -27,6 +27,15 @@ manifest from existing generated candidates and verified exported baselines. Thi
 option never reads source Git objects or requires source mirrors/Keepraw-Fly input
 downloads. Neither command fetches or scans source repository history.
 
+The [second verification batch](../../docs/global-verification-batch-2.md)
+reviews the four leads in global-1's `nextBatch` (two insufficient evidence,
+two excluded, zero admissions) in [batches/global-2.json](batches/global-2.json).
+Its `followUps` re-investigate KTI, YNT and ROV/RVI while global-1 stays their
+sole mapping: a follow-up carries no candidate IDs and must agree with the
+owning event's disposition. Validation checks all batches together, so each
+candidate maps to at most one event and each batch respects its own
+`maximumEvents` ceiling (never above 20).
+
 ## Run
 
 Use Python 3.12+ (standard library only), Git, Node 24 and pnpm 10.14.0.
