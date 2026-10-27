@@ -18,6 +18,7 @@
     "research:fetch": "python3 scripts/discovery/fetch.py",
     "research:scan": "python3 scripts/discovery/scan.py",
     "research:report": "python3 scripts/discovery/report.py",
+    "research:review-report": "python3 scripts/discovery/refresh_reviews.py",
     "research:validate": "python3 scripts/discovery/validate.py",
     "test:research": "python3 -m unittest discover -s test/discovery -v"
   },

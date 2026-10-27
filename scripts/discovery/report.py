@@ -8,6 +8,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 from core import canonical, distance, git, normalized, read_candidates, read_jsonl, rows_from_text, source_text, stable_id, write_json, write_jsonl
+from review import batch_summaries
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'research/discovery/generated'
@@ -272,15 +273,19 @@ def main():
                             'Country counts follow each source; continent may be unknown. No regional completeness is inferred.'],
                'sources': reports, 'currentDirectoryComparison': comparison}
     summary['verificationQueue'] = priority
+    summary['reviewBatches'] = batch_summaries(ROOT)
     summary['exactCrossSourceDuplicateGroups'] = duplicates
     summary['sourceTransitionLeadsAfterExactCrossSourceGrouping'] = summary['sourceRevisionCandidates'] - duplicates['duplicateCandidateExcess']
     write_json(out / 'summary.json', summary)
     manifest = {p.name: {'sha256': hashlib.sha256(p.read_bytes()).hexdigest(), 'bytes': p.stat().st_size}
                 for p in sorted(out.iterdir()) if p.is_file() and p.name != 'manifest.json'}
-    inputs = [*sorted((ROOT / 'research/discovery').glob('*.json')),
+    inputs = [*(p for p in sorted((ROOT / 'research/discovery').glob('*.json')) if p.name != 'reviews.json'),
               *sorted((ROOT / 'scripts/discovery').glob('*.py'))]
+    review_inputs = [ROOT / 'research/discovery/reviews.json',
+                     *sorted((ROOT / 'research/discovery/batches').glob('*.json'))]
     write_json(out / 'manifest.json', {'formatVersion': 1, 'files': manifest,
-                                      'inputs': {str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest() for p in inputs}})
+                                      'inputs': {str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest() for p in inputs},
+                                      'reviewInputs': {str(p.relative_to(ROOT)): hashlib.sha256(p.read_bytes()).hexdigest() for p in review_inputs}})
     print(canonical({k: v for k, v in summary.items() if k not in ('sources', 'currentDirectoryComparison', 'verificationQueue')}))
 
 

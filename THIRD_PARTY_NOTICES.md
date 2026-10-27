@@ -45,3 +45,16 @@ MIT source extracts retain MIT terms; they are not relicensed under the project'
 CC0 data dedication. Research annotations and tooling do not change the upstream
 terms. Official notices and prior deferred evidence remain reference-only links
 and independent factual notes; no copyrighted articles/PDFs are bundled.
+# First global verification review references
+
+The 37 reference records in `research/discovery/batches/global-1.json` preserve
+publisher roles, concrete URLs, access dates/results, supported facts and license
+limits. This is a research evidence registry, not an addition to the formal source
+registry. Government/operator/airline publications are not assumed to be openly
+licensed: absent a specific grant they are `LicenseRef-Reference-Only`. Only links
+and independently written factual notes are committed; no article, PDF, photograph
+or map is redistributed. OurAirports factual data retains its public-domain
+designation; existing PDDL/MIT source observations retain their original notices.
+An attributed airline release on a third-party host is distinguished from an
+original airline-host copy. Blocked origin downloads and indexed extracts are
+identified, and are not silently promoted to inspected allocation records.

@@ -601,8 +601,8 @@
       "sha256": "1106b802178c945f93a22c2316823412d8c48da73f254dfbe2e39b0ace67fb78"
     },
     "summary.json": {
-      "bytes": 833312,
-      "sha256": "ae19014c4e41083dc86b64ec47ca838481bf0196cb690917b46e219d459fd49f"
+      "bytes": 834061,
+      "sha256": "254e687c9927c66b974224ed70030c1f1e0c7f73e61401053e88ff4ca7c018d6"
     },
     "verification-queue.jsonl.gz": {
       "bytes": 102458,
@@ -618,14 +618,19 @@
     "research/discovery/curated-baseline.json": "ea481578eda13fdea881f77cf6f40bf4b45563eafb8f49cadfa28aa025cfbccf",
     "research/discovery/keepraw-fly-baseline.json": "c15b52a72c62cf03fe44978ab2511ddf400d5fc88f628175e804e13b8f174e38",
     "research/discovery/legacy.json": "397e3b8169ee55f0317f1447b99e82aec09e03a2a1dc79b805362b66a37c3174",
-    "research/discovery/reviews.json": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356",
     "research/discovery/source-assessment.json": "ca9c561801f21acf3e8c896136ace72a306605531fcab55d29075ac1e76ba342",
     "research/discovery/sources.json": "8a8c9775b2049e4ecf2f6a2f3b7bb8c5cff9b7bc3dbd4a28b8c4643eca7cd9c2",
-    "scripts/discovery/core.py": "c996cbc582d126d79e7950bdee6fdd183d31a8ac960c3c8a880dde97dc28b4a4",
+    "scripts/discovery/core.py": "d461f3c35506df61cddc4802f3b82560c9f3f0ceb9e3ac4eb49a77a85c88945b",
     "scripts/discovery/fetch.py": "c9b23f9bf6c90620da8b8b56e6cd05b7aef0448a0c0feddf3f2705d543c86625",
-    "scripts/discovery/query.py": "e1d8530ba49cec253e45cb000b522bc108b60943d0801b917c1edc8ca54d917f",
-    "scripts/discovery/report.py": "3e9ff3ff6c3329e6c56a617e4a374cbdbade7f16bceb27e4c4851c2ca3f71459",
+    "scripts/discovery/query.py": "4244b7b75f0d1fa2f3a72245cd07c7a79944060dda23feaa070debb43dd0d372",
+    "scripts/discovery/refresh_reviews.py": "c61727d7ef94c5ff477abcbd9e520b01f8d133f0bfaf6e7e0190a8113671d764",
+    "scripts/discovery/report.py": "c4f12616cd2de5d0e18568ccc1578e5c9a5b836c2f8418470114ef107e5816e8",
+    "scripts/discovery/review.py": "c46acc344d13157f5e463a4890b77da638ff4efc5335983f494de05070d779d4",
     "scripts/discovery/scan.py": "5f5ac9a8859842d5bdd4028da475a18dfce0576a81df195300eb40d976bfa46e",
-    "scripts/discovery/validate.py": "8784377ac82f4cf9533ee1606d74aace10525017f4b36c8d4a8a7ebadc2a86de"
+    "scripts/discovery/validate.py": "aa281df14c50de510ded8cb9084c4802c08f16f6cea7f3831bfd180ec3e580a9"
+  },
+  "reviewInputs": {
+    "research/discovery/batches/global-1.json": "4d0aa2fa15e2d4a32a78e5061639b6643056f7f28c813b0a011a27b87eabb6b6",
+    "research/discovery/reviews.json": "42ade597c2211364e609d2a614c8be4362d95b6e28ea5e04eb9cb840676e93f2"
   }
 }

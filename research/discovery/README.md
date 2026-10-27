@@ -10,6 +10,16 @@ Read [coverage.md](coverage.md) and [generated/summary.json](generated/summary.j
 together. Counts describe inspected source records and research transitions,
 never real-world event totals or global completion percentages.
 
+The [first verification batch](../../docs/global-verification-batch-1.md) reviews
+20 existing event groups: 12 insufficient evidence, four pending independent
+review, four excluded interpretations, zero admissions. Its
+[claim-specific record](batches/global-1.json) and `reviews.json` are live curation
+overlays. Compressed observations/queue retain their PR #5 snapshot; query applies
+the overrides by default (`--snapshot` shows original state, `--queue` queries the
+ranked queue). `summary.json.reviewBatches` separates review results from exported
+discovery counts. `pnpm research:review-report` refreshes only review metadata and
+hashes, without scanning source history or rewriting source artifacts/formal data.
+
 ## Run
 
 Use Python 3.12+ (standard library only), Git, Node 24 and pnpm 10.14.0.
@@ -25,6 +35,7 @@ pnpm check
 
 python3 scripts/discovery/query.py --code JNG --source ourairports
 python3 scripts/discovery/query.py --country CN --type possible_relocation --limit 0
+python3 scripts/discovery/query.py --queue --status pending_review
 ```
 
 Downloads and resumable SQLite caches live in ignored `work/`. Initial scans take

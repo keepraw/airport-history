@@ -5,7 +5,8 @@ import re
 from collections import Counter
 from pathlib import Path
 
-from core import read_candidates, read_jsonl, stable_id
+from core import apply_review, read_candidates, read_jsonl, stable_id
+from review import batch_summaries
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / 'research/discovery/generated'
@@ -25,7 +26,7 @@ def main():
         require(path.stat().st_size == expected['bytes'], f'Wrong size: {name}')
         require(hashlib.sha256(path.read_bytes()).hexdigest() == expected['sha256'], f'Wrong hash: {name}')
     require(set(lock['files']) == {p.name for p in OUT.iterdir() if p.is_file() and p.name != 'manifest.json'}, 'Unmanifested artifact')
-    for name, digest in lock['inputs'].items():
+    for name, digest in {**lock['inputs'], **lock.get('reviewInputs', {})}.items():
         require(hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == digest, f'Changed generation input: {name}; regenerate report')
     baseline = json.loads((ROOT / 'research/discovery/curated-baseline.json').read_text())
     require(hashlib.sha256((ROOT / 'data/airports.json').read_bytes()).hexdigest() == baseline['sha256'], 'Curated historical facts changed')
@@ -34,8 +35,10 @@ def main():
     assignments = {r['assignmentId'] for r in dataset['assignments']}
     names = {r['nameId'] for r in dataset['names']}
     config = json.loads((ROOT / 'research/discovery/sources.json').read_text())
-    review_ids = set(json.loads((ROOT / 'research/discovery/reviews.json').read_text()))
+    reviews = json.loads((ROOT / 'research/discovery/reviews.json').read_text())
+    review_ids = set(reviews)
     seen_reviews = set()
+    reviewed_rows = {}
     grand_total = 0
     all_ids = set()
     for source in config['sources']:
@@ -51,6 +54,12 @@ def main():
             ids.add(cid)
             if cid in review_ids:
                 seen_reviews.add(cid)
+                reviewed_rows[cid] = row
+                reviewed = apply_review(row, reviews)['review']
+                require(reviewed['status'] in STATUSES, 'Unknown live review status')
+                require(reviewed.get('nextAction') and reviewed.get('evidenceGaps'), 'Incomplete live review')
+                if reviewed['status'] == 'excluded':
+                    require(reviewed.get('exclusionReason'), 'Missing live exclusion reason')
             extra = 'baseline_closed_record' if row['types'] == ['baseline_closed_record'] else None
             require(cid == stable_id('cand_', [sid, row['sourceEntityId'], row['changes'], extra]), f'Unstable ID {cid}')
             require(row['sourceId'] == sid, 'Wrong source')
@@ -103,7 +112,30 @@ def main():
     require(grand_total-excess == summary['sourceTransitionLeadsAfterExactCrossSourceGrouping'], 'Wrong deduplicated total')
     legacy = json.loads((ROOT / 'research/discovery/legacy.json').read_text())
     require(sum(r['status'] == 'insufficient_evidence' for r in legacy) >= 8, 'Lost deferred leads')
+    batches = batch_summaries(ROOT)
+    require(summary.get('reviewBatches', []) == batches, 'Stale batch review summary')
+    known_ids = all_ids | {r['candidateId'] for r in legacy}
+    mapped_reviews = set()
+    for entry in batches:
+        batch = json.loads((ROOT / entry['path']).read_text())
+        for event in batch['events']:
+            ids = event['candidateIds'] + event['relatedCandidateIds']
+            require(set(ids) <= known_ids, 'Dangling reviewed candidate')
+            for cid in ids:
+                if cid.startswith('cand_'):
+                    require(cid in reviews and reviews[cid]['status'] == event['status'] and reviews[cid]['eventGroupId'] == event['eventGroupId'], 'Stale candidate review mapping')
+                    require(reviews[cid]['evidenceReview'] == entry['path'], 'Wrong evidence review path')
+                    mapped_reviews.add(cid)
+            observation = event.get('sourceObservation')
+            if observation:
+                raw = reviewed_rows[observation['candidateId']]
+                require(all(observation[k] == raw[k] for k in ('sourceId', 'sourceEntityId', 'changes', 'observations')), 'Review altered pinned source transition')
+        for lead in batch['nextBatch']:
+            require(lead['candidateId'] in known_ids, 'Dangling next-batch lead')
+    require(review_ids == mapped_reviews, 'Live review has no claim-specific batch evidence')
+    require(set(lock.get('reviewInputs', {})) == {'research/discovery/reviews.json', *(r['path'] for r in batches)}, 'Unmanifested review evidence')
     print(f'Validated {grand_total:,} source candidates, {link_count:,} code-association leads, {len(legacy)} legacy leads; curated data unchanged.')
+    print(f'Validated {len(batches)} bounded review batch(es), {len(reviews)} live candidate review overrides.')
 
 
 if __name__ == '__main__':

@@ -1,1 +1,299 @@
-{}
+{
+  "cand_025ed86a58c3d799fd1028e1": {
+    "conflicts": [],
+    "eventGroupId": "global-1-lmh",
+    "evidenceGaps": [
+      "Physical continuity, reopening date and code implementation missing."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": null,
+    "nextAction": "Obtain Honduran AHAC historical AIP/chart and airport authorization; preserve the coordinate alternatives.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "insufficient_evidence"
+  },
+  "cand_0b3be5f183608a0f8d8463fe": {
+    "conflicts": [],
+    "eventGroupId": "global-1-ybp",
+    "evidenceGaps": [
+      "Code boundary evidence and complete military closure date missing."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": null,
+    "nextAction": "Retrieve CAAC/IATA implementation and separate civil/military aerodrome notices.",
+    "relatedLegacyIds": [
+      "legacy-yibin"
+    ],
+    "reviewedOn": "2026-10-27",
+    "status": "insufficient_evidence"
+  },
+  "cand_27f8e5c4d6f78bb8d11e7629": {
+    "conflicts": [],
+    "eventGroupId": "global-1-cdt",
+    "evidenceGaps": [
+      "Actual CDT LECN transfer and LECH official reuse chronology remain outside this excluded interpretation."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": "Exclude the implied Calamocha-to-Castellón physical relocation/CDT transfer: a directory record keyed by a reused identifier was repurposed between unrelated locations.",
+    "nextAction": "Retain genuine LECN/CDT and ICAO reuse follow-ups; do not create a Calamocha successor entity from this row.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "excluded"
+  },
+  "cand_319a76a6d0b81db2843a9ca4": {
+    "conflicts": [],
+    "eventGroupId": "global-1-swn",
+    "evidenceGaps": [
+      "Physical site correction versus move and official code/closure boundaries missing."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": null,
+    "nextAction": "Seek Pakistan AIS historical OPSW charts and closure notice; do not create a second entity from changed coordinates.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "insufficient_evidence"
+  },
+  "cand_3788d9d4f8b213d5d1c24425": {
+    "conflicts": [],
+    "eventGroupId": "global-1-ngn",
+    "evidenceGaps": [
+      "Original NGN allocation, physical closed-field identity and closure remain unresolved follow-ups."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": "Exclude physical relocation interpretation: editor explicitly says marker moved about 75 km using OSM, not that an airport relocated.",
+    "nextAction": "Retain historical NGN/Corazón de Jesús question; reject this marker correction as a move event.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "excluded"
+  },
+  "cand_3aba472425775e4a29a4d63b": {
+    "conflicts": [],
+    "eventGroupId": "global-1-aap",
+    "evidenceGaps": [
+      "SRI/AAP and historical WALS boundaries missing."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": null,
+    "nextAction": "Locate Indonesia AIS implementation and original naming decision KP 676/2017; separate inauguration from first service.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "insufficient_evidence"
+  },
+  "cand_410d7e6a2202857176507e0f": {
+    "conflicts": [],
+    "eventGroupId": "global-1-hds",
+    "evidenceGaps": [
+      "Historic HDS assignment and possible civil/military identifier distinctions remain outside this excluded edit."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": "Exclude South Atlantic relocation/non-existent-airport interpretation: source record was edited to an invalid distant marker; operator/AIP identify the real South African airfield.",
+    "nextAction": "Exclude this false relocation; preserve real Eastgate/Hoedspruit and verify civil/military code history separately.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "excluded"
+  },
+  "cand_4ecbdc43aaa5a0a46a3c5e78": {
+    "conflicts": [
+      "SCTN/SCPC official-document conflict, temporary-strip codes and WCH effective history."
+    ],
+    "eventGroupId": "global-1-wch",
+    "evidenceGaps": [
+      "SCTN/SCPC official-document conflict, temporary-strip codes and WCH effective history."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": null,
+    "nextAction": "Retrieve independent dated Chile AIS/AIP amendment, verify technical-fiche typo and old/temporary-site identifiers before admission.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "pending_review"
+  },
+  "cand_51b7f16fdc1dd9b60af605a7": {
+    "conflicts": [
+      "GUXN/GUXD physical mapping conflict; KNN boundary missing."
+    ],
+    "eventGroupId": "global-1-knn",
+    "evidenceGaps": [
+      "GUXN/GUXD physical mapping conflict; KNN boundary missing."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": null,
+    "nextAction": "Use Guinea AIS charts/Doc 7910 history and IATA notices, independently of directories, to resolve both sites.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "pending_review"
+  },
+  "cand_6bdbc1b60cf1a50fd06abd88": {
+    "conflicts": [],
+    "eventGroupId": "global-1-lzo",
+    "evidenceGaps": [
+      "Lantian last service/withdrawal, Yunlong first allocation and ICAO implementation missing."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": null,
+    "nextAction": "Find 2017 Lantian closure NOTAM and 2018 CAAC/IATA implementation separately.",
+    "relatedLegacyIds": [
+      "legacy-luzhou"
+    ],
+    "reviewedOn": "2026-10-27",
+    "status": "insufficient_evidence"
+  },
+  "cand_7c7e49cc4bff8eff387e6c44": {
+    "conflicts": [
+      "Physical site mapping and meaning of retained AIP listing versus reported closure unresolved."
+    ],
+    "eventGroupId": "global-1-utr",
+    "evidenceGaps": [
+      "Physical site mapping and meaning of retained AIP listing versus reported closure unresolved."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": null,
+    "nextAction": "Reconcile dated Thai AIP coordinates and original DOA closure documents before admitting UTR/VTPU history.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "pending_review"
+  },
+  "cand_7fc9b08615e93efbdffdc2a8": {
+    "conflicts": [],
+    "eventGroupId": "global-1-rov",
+    "evidenceGaps": [
+      "Primary ROV/RVI implementation evidence and RVI end date missing."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": null,
+    "nextAction": "Retrieve IATA notice or carrier/GDS change bulletin, and dated URRR/URRP AIP pages.",
+    "relatedLegacyIds": [
+      "legacy-rostov-on-don"
+    ],
+    "reviewedOn": "2026-10-27",
+    "status": "insufficient_evidence"
+  },
+  "cand_8ac1b12707d7c441ce708d32": {
+    "conflicts": [],
+    "eventGroupId": "global-1-ynt",
+    "evidenceGaps": [
+      "Actual YNT implementation date and historical ZSYT allocation mapping missing."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": null,
+    "nextAction": "Seek final IATA location update/AIP and airline-system implementation replacing the abandoned 2014 plan.",
+    "relatedLegacyIds": [
+      "legacy-yantai"
+    ],
+    "reviewedOn": "2026-10-27",
+    "status": "insufficient_evidence"
+  },
+  "cand_ba1d95c1c6212eaafe0407f3": {
+    "conflicts": [],
+    "eventGroupId": "global-1-bve",
+    "evidenceGaps": [
+      "Genuine Laroche/Souillac BVE transfer and official LFSL reuse chronology remain preserved follow-ups."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": "Exclude implied Toul-to-Brive relocation/BVE transfer: edit log explicitly documents distant records being confused under LFSL; old Toul row had no BVE.",
+    "nextAction": "Investigate genuine Laroche/Souillac through SIA/IATA archives separately; do not create a Toul successor from this candidate.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "excluded"
+  },
+  "cand_d143eee2e286e0dfbbaa2339": {
+    "conflicts": [
+      "GUXN/GUXD physical mapping conflict; KNN boundary missing."
+    ],
+    "eventGroupId": "global-1-knn",
+    "evidenceGaps": [
+      "GUXN/GUXD physical mapping conflict; KNN boundary missing."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": null,
+    "nextAction": "Use Guinea AIS charts/Doc 7910 history and IATA notices, independently of directories, to resolve both sites.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "pending_review"
+  },
+  "cand_e1f96c81b10b8a30ef076ffa": {
+    "conflicts": [],
+    "eventGroupId": "global-1-jng",
+    "evidenceGaps": [
+      "JNG effective date, both physical-site ICAO allocation histories missing."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": null,
+    "nextAction": "Seek CAAC AIRAC and IATA implementation; reject guessed ZSDA.",
+    "relatedLegacyIds": [
+      "legacy-jining"
+    ],
+    "reviewedOn": "2026-10-27",
+    "status": "insufficient_evidence"
+  },
+  "cand_e2f8f10d49342c01a7e4c0ec": {
+    "conflicts": [
+      "Material coordinate conflict; identity and code chronology both unresolved."
+    ],
+    "eventGroupId": "global-1-dni",
+    "evidenceGaps": [
+      "Material coordinate conflict; identity and code chronology both unresolved."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": null,
+    "nextAction": "Obtain Sudan AIS historical chart/site plan and closure notice; independently review coordinates before entity creation.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "pending_review"
+  },
+  "cand_ec671992f93700beb8d14848": {
+    "conflicts": [
+      "Physical site mapping and meaning of retained AIP listing versus reported closure unresolved."
+    ],
+    "eventGroupId": "global-1-utr",
+    "evidenceGaps": [
+      "Physical site mapping and meaning of retained AIP listing versus reported closure unresolved."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": null,
+    "nextAction": "Reconcile dated Thai AIP coordinates and original DOA closure documents before admitting UTR/VTPU history.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "pending_review"
+  },
+  "cand_ee28c2f36941d4b62ff604b2": {
+    "conflicts": [],
+    "eventGroupId": "global-1-lyg",
+    "evidenceGaps": [
+      "Code-specific LYG/ZSLG implementation and old-site code end missing."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": null,
+    "nextAction": "Find final IATA implementation and CAAC AIRAC supplement; preserve distinct physical identities.",
+    "relatedLegacyIds": [
+      "legacy-lianyungang"
+    ],
+    "reviewedOn": "2026-10-27",
+    "status": "insufficient_evidence"
+  },
+  "cand_eeff9be4c0a1e52a3ffff2d9": {
+    "conflicts": [],
+    "eventGroupId": "global-1-hds",
+    "evidenceGaps": [
+      "Historic HDS assignment and possible civil/military identifier distinctions remain outside this excluded edit."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": "Exclude South Atlantic relocation/non-existent-airport interpretation: source record was edited to an invalid distant marker; operator/AIP identify the real South African airfield.",
+    "nextAction": "Exclude this false relocation; preserve real Eastgate/Hoedspruit and verify civil/military code history separately.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "excluded"
+  },
+  "cand_fd2a5e00b9b3f58536c0433e": {
+    "conflicts": [],
+    "eventGroupId": "global-1-kti",
+    "evidenceGaps": [
+      "Kratie KTI allocation/withdrawal and Techo first KTI effective record are missing."
+    ],
+    "evidenceReview": "research/discovery/batches/global-1.json",
+    "exclusionReason": null,
+    "nextAction": "Obtain dated SSCA/IATA location identifier records for Kratie and Techo before constructing non-overlapping intervals.",
+    "relatedLegacyIds": [],
+    "reviewedOn": "2026-10-27",
+    "status": "insufficient_evidence"
+  }
+}
