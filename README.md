@@ -7,11 +7,13 @@ A small, offline TypeScript resolver and versioned reference dataset for
 identify different physical sites over time. This repository preserves those
 sites and the evidence behind their code assignments.
 
-**Curated scope (0.4.0):** thirteen physical airports, eighteen IATA assignments,
-two ICAO VHHH assignments and two official-name intervals for Astana, with
-twenty-nine evidence sources. The original
-TAO, IST, HKG and DEN examples are joined by five reviewed ISL, ISB, SXF/BER,
-TSE/NQZ and KIV/RMO events. This is a curated history layer,
+**Curated scope (0.5.0):** nineteen physical airports, twenty-five IATA
+assignments, four ICAO assignments (VHHH twice, VDPP, VDTI) and two
+official-name intervals for Astana, with forty-three evidence sources. The
+original TAO, IST, HKG and DEN examples are joined by five reviewed ISL, ISB,
+SXF/BER, TSE/NQZ and KIV/RMO events and, in 0.5.0, by ROV/RVI (Rostov-on-Don /
+Platov), YNT (Yantai Laishan / Penglai) and PNH/KTI with VDPP/VDTI (Phnom Penh /
+Techo); see the [0.5.0 admission review](docs/curated-admissions-pr8.md). This is a curated history layer,
 not a replacement for a worldwide current-airport directory. A separate
 [global discovery research layer](research/discovery/README.md) scans pinned
 source histories and tracks coverage and unverified candidates. No server,
@@ -36,7 +38,7 @@ Initial dependency installation needs network access. All subsequent checks,
 tests, builds and resolution run offline. `pnpm build` writes:
 
 ```text
-dist/v0.4.0/
+dist/v0.5.0/
 ├── airport-history.json
 ├── dataset.schema.json
 ├── manifest.json             # SHA-256 hashes of the five other files
@@ -212,7 +214,16 @@ unique answer and returns `uncertain`. If a reviewed pair also certainly conflic
 on that date, `conflict` takes precedence and includes the other candidates.
 Nonoverlapping historical reuse is accepted normally.
 
-## Format compatibility: 0.4.0
+## Format compatibility: 0.5.0
+
+0.5.0 changes data only: schema **3.0.0** is unchanged, package and
+`dataVersion` advance from **0.4.0 to 0.5.0**, and the output directory is
+`dist/v0.5.0/`. Every 0.4.0 airport, assignment, name and source record is
+preserved unchanged (frozen in `test/curated-0.4.0.json` and enforced by tests
+and research validation). Six identities, nine assignments and fourteen sources
+are added; `resolveAirport` behavior for existing codes is unchanged.
+
+## Format compatibility: 0.4.0 (historical)
 
 The required top-level `names` array is new. Strict schema 2 consumers reject it,
 so `schemaVersion` advances from **2.0.0 to 3.0.0**. Package and `dataVersion`
@@ -252,9 +263,13 @@ the two Astana name intervals added in 0.4.0.
 | SXF → BER | Same expanded Schönefeld/Brandenburg airfield | 2020-10-25, day precision | One identity; earlier BER city code excluded; October 31 T1 opening is separate |
 | TSE → NQZ | Same Astana airfield | 2020-06-08, day precision | One identity; change day uncertain; TSE unavailable afterward |
 | KIV → RMO | Same Chișinău airfield | 2024-01-18, day precision | One identity; secondary code evidence; KIV unavailable afterward |
+| ROV / RVI | Old Rostov-on-Don → Platov; old field gets temporary RVI | 2017-11-27, day precision | 2016: old field; 2017-11-28 onward: Platov; switch day uncertain; RVI always uncertain (end unknown) |
+| YNT | Yantai Laishan → Yantai Penglai | between 2014-11-10 and 2015-05-28 | Before 2014-11-11: uncertain (start unknown); window uncertain; 2015-05-28 onward: Penglai |
+| PNH / VDPP | Phnom Penh (Pochentong), replaced by Techo | earliest end 2025-09-09 (PNH) / 2025-09-08 (VDPP); withdrawal unknown | 2015: Pochentong; after the move: uncertain, not reassigned |
+| KTI / VDTI | Techo (greenfield; Kratie history not admitted) | latest start 2025-09-10 (KTI; 2025-09-09 transfer day uncertain) / 2025-09-04 (VDTI) | After those dates: Techo; earlier: uncertain |
 
-The validator intentionally reports six code-overlap warnings (IST, HKG,
-VHHH, DEN, ISL and ISB) plus one Astana official-name boundary warning. These
+The validator intentionally reports eight code-overlap warnings (IST, HKG,
+VHHH, DEN, ISL, ISB, ROV and YNT) plus one Astana official-name boundary warning. These
 express unresolved boundary attribution, not confirmed conflicts. No historic
 code start was inferred from an airport opening date. Version 0.3.0 added the five
 code-history events; 0.4.0 preserves those facts and adds name history separately.
@@ -281,6 +296,7 @@ docs/evidence.md
 docs/batch-1-{candidates,evidence}.md
 docs/historical-names.md
 docs/global-verification-batch-{1,2}.md
+docs/curated-admissions-pr8.md
 README.md
 LICENSE                      # MIT for code
 LICENSE-DATA                 # CC0 legal text; scope below

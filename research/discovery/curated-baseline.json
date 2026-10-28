@@ -1,9 +1,23 @@
 {
-  "baseCommit": "3c5a2e70c94cd8e5ff34ee32b325ceb2ad2b3e12",
-  "sha256": "17aa754e7868db145aa002e4c765fc593f8066c8b4566a4a4ac6eb7738b91c6a",
+  "baseCommit": "7c8e0b6623ccce51ee27d25df01631097b359afd",
+  "sha256": "43bb532977cc5df61e6f34b55cab86c7aad3518d5a33ec89745ceccd49d3b67e",
   "schemaVersion": "3.0.0",
-  "dataVersion": "0.4.0",
-  "airports": 13,
-  "assignments": 20,
-  "names": 2
+  "dataVersion": "0.5.0",
+  "airports": 19,
+  "assignments": 29,
+  "names": 2,
+  "sources": 43,
+  "note": "Reviewed PR #8 dataset (global-3 admissions). Earlier reviewed datasets are frozen in preservedBaselines; validation requires every one of their records to remain unchanged.",
+  "preservedBaselines": [
+    {
+      "dataVersion": "0.4.0",
+      "baseCommit": "3c5a2e70c94cd8e5ff34ee32b325ceb2ad2b3e12",
+      "sha256": "17aa754e7868db145aa002e4c765fc593f8066c8b4566a4a4ac6eb7738b91c6a",
+      "record": "test/curated-0.4.0.json",
+      "airports": 13,
+      "assignments": 20,
+      "names": 2,
+      "sources": 29
+    }
+  ]
 }

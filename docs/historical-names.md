@@ -73,8 +73,8 @@ label with `historicallyVerified: false`, regardless of the static fact's status
 Uncertain or conflicting claims return no selected name and retain candidates and
 evidence. The resolver never overwrites the airport object or changes code results.
 
-Schema **3.0.0** requires `names`; package/data version **0.4.0** uses
-`dist/v0.4.0/`. Schema 2 input must be explicitly migrated with `names: []` before
+Schema **3.0.0** requires `names`; package/data version **0.4.0** introduced it
+(current data version 0.5.0 uses `dist/v0.5.0/`; no name records were added in 0.5.0). Schema 2 input must be explicitly migrated with `names: []` before
 adding reviewed name records. All thirteen physical records, twenty code
 assignments and twenty-six original source records are preserved. There is no
 automatic promotion from static labels, language translations or city names.

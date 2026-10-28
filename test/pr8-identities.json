@@ -1,0 +1,56 @@
+{
+  "rostov-on-don": {
+    "airportId": "apt_0fd3915b-6dd8-4391-a840-9992db9683cf",
+    "ourAirports": "6518",
+    "coordinates": {
+      "latitude": 47.258203,
+      "longitude": 39.8181
+    },
+    "timezone": "Europe/Moscow"
+  },
+  "platov": {
+    "airportId": "apt_4c75d2ab-29db-4593-8b78-6104b8bdb720",
+    "ourAirports": "326363",
+    "coordinates": {
+      "latitude": 47.493888,
+      "longitude": 39.924722
+    },
+    "timezone": "Europe/Moscow"
+  },
+  "laishan": {
+    "airportId": "apt_7923bd7d-2855-4d5f-b979-63a5380cd3da",
+    "ourAirports": "27227",
+    "coordinates": {
+      "latitude": 37.396825,
+      "longitude": 121.369571
+    },
+    "timezone": "Asia/Shanghai"
+  },
+  "penglai": {
+    "airportId": "apt_0f0ebbe2-ce55-4b70-8d22-c760fe94777e",
+    "ourAirports": "332096",
+    "coordinates": {
+      "latitude": 37.659724,
+      "longitude": 120.978124
+    },
+    "timezone": "Asia/Shanghai"
+  },
+  "pochentong": {
+    "airportId": "apt_dafb3e33-c7ed-431a-b8e8-22eecf543107",
+    "ourAirports": "26475",
+    "coordinates": {
+      "latitude": 11.547155,
+      "longitude": 104.844699
+    },
+    "timezone": "Asia/Bangkok"
+  },
+  "techo": {
+    "airportId": "apt_b97de260-274b-4cfd-b56e-5f035c6a7768",
+    "ourAirports": "342098",
+    "coordinates": {
+      "latitude": 11.359987,
+      "longitude": 104.921272
+    },
+    "timezone": "Asia/Bangkok"
+  }
+}

@@ -305,7 +305,7 @@ describe("official-name conflicts", () => {
       left === "verified" && right === "verified" && overlap === "certain";
     const v = validateDataset(d);
     expect(v.errors.length).toBe(confirmed ? 1 : 0);
-    expect(v.warnings.length).toBe(confirmed ? 6 : 7);
+    expect(v.warnings.length).toBe(confirmed ? 8 : 9);
     if (confirmed) expect(v.errors[0]).toContain("Conflicting official names");
     else
       expect(v.warnings.at(-1)).toContain(

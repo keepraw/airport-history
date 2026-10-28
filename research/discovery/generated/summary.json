@@ -1785,9 +1785,9 @@
       "reviewedOn": "2026-10-27",
       "statusCounts": {
         "excluded": 4,
-        "insufficient_evidence": 12,
+        "insufficient_evidence": 9,
         "pending_review": 4,
-        "ready_to_admit": 0
+        "ready_to_admit": 3
       }
     },
     {
@@ -1825,6 +1825,46 @@
       "statusCounts": {
         "excluded": 2,
         "insufficient_evidence": 2,
+        "pending_review": 0,
+        "ready_to_admit": 0
+      }
+    },
+    {
+      "admission": {
+        "airports": 6,
+        "assignments": 9,
+        "dataVersion": "0.5.0",
+        "formalSources": 14,
+        "names": 0,
+        "reason": "Three global-1 events re-assessed against the existing curated standard; six physical airports and nine code intervals admitted with open or uncertain boundaries where evidence stops. Kratie, ZSYT, URRR/URRP and Qiemo remain research-only."
+      },
+      "batchId": "global-3",
+      "eventCount": 0,
+      "followUps": [
+        {
+          "currentStatus": "ready_to_admit",
+          "dispositionChanged": true,
+          "eventGroupId": "global-1-rov",
+          "priorBatchId": "global-1"
+        },
+        {
+          "currentStatus": "ready_to_admit",
+          "dispositionChanged": true,
+          "eventGroupId": "global-1-ynt",
+          "priorBatchId": "global-1"
+        },
+        {
+          "currentStatus": "ready_to_admit",
+          "dispositionChanged": true,
+          "eventGroupId": "global-1-pnh",
+          "priorBatchId": "global-1"
+        }
+      ],
+      "path": "research/discovery/batches/global-3.json",
+      "reviewedOn": "2026-10-27",
+      "statusCounts": {
+        "excluded": 0,
+        "insufficient_evidence": 0,
         "pending_review": 0,
         "ready_to_admit": 0
       }

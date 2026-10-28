@@ -14,7 +14,11 @@ The [second verification batch](../../docs/global-verification-batch-2.md)
 ([batches/global-2.json](batches/global-2.json)) reviews the four recorded
 next-batch leads (two insufficient evidence, two excluded, zero ready to admit)
 and adds dated follow-ups of KTI, YNT and ROV/RVI without remapping them; 31
-live overrides now cover both batches.
+live overrides now cover both batches. The follow-up-only
+[global-3](batches/global-3.json) admission review moves global-1 ROV, YNT and PNH
+to `ready_to_admit`; the formal dataset (0.5.0) gains six identities and nine
+assignments. Candidate shard `matches` remain the PR #5 snapshot and are not
+rescanned against the new formal records.
 No observation, queue entry, source pin or formal airport record was removed.
 
 ## Source scope actually inspected

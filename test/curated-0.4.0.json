@@ -1,0 +1,1402 @@
+{
+  "schemaVersion": "3.0.0",
+  "dataVersion": "0.4.0",
+  "sources": [
+    {
+      "sourceId": "ourairports-20261025",
+      "title": "OurAirports airport snapshot d97df1673cc5ba61a09b17ab5936091a669a04ca",
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/d97df1673cc5ba61a09b17ab5936091a669a04ca/airports.csv",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "secondary",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "url": "https://ourairports.com/data/",
+        "note": "OurAirports explicitly releases its data to the public domain. Preserve that designation, not an invented CC0 license."
+      },
+      "note": "Only eight rows used. Names and coordinates are reference attributes, not historical aerodrome reference points. Current codes corroborate continuing assignments; they cannot establish a historical transfer by themselves."
+    },
+    {
+      "sourceId": "tzdb-2025b",
+      "title": "IANA tzdb 2025b zone1970.tab",
+      "url": "https://data.iana.org/time-zones/tzdb-2025b/zone1970.tab",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "url": "https://data.iana.org/time-zones/tzdb-2025b/LICENSE",
+        "note": "zone1970.tab is public domain under the tzdb LICENSE; no BSD code is copied."
+      },
+      "note": "Selected Beijing Time, Hong Kong, Istanbul and Denver geographical zone identifiers. These are reference mappings; no UTC offset is stored or calculated."
+    },
+    {
+      "sourceId": "tao-transfer",
+      "title": "Xinhua: Qingdao Jiaodong transfer completed",
+      "url": "https://www.xinhuanet.com/2021-08/12/c_1127752897.htm",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "secondary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it."
+      },
+      "note": "Reports Jiaodong began operation and Liuting closed simultaneously at local midnight on 2021-08-12."
+    },
+    {
+      "sourceId": "tao-code",
+      "title": "Qingdao News: IATA approval to retain TAO",
+      "url": "https://news.qingdaonews.com/qingdao/2019-03/22/content_20304508.htm",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "secondary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it."
+      },
+      "note": "Reports IATA approval on 2019-03-21: Jiaodong inherits Liuting TAO from the announced opening midnight. Approval date is not the effective transfer date."
+    },
+    {
+      "sourceId": "tao-earlier",
+      "title": "ANA Cargo: TAO cargo procedures",
+      "url": "https://www.anacargo.jp/en/news/210430_E.html",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it."
+      },
+      "note": "2021-04-30 notice explicitly refers to TAO procedures announced 2016-08-16. Combined with the Liuting/Jiaodong transfer sources, establishes code use before 2017, not first assignment."
+    },
+    {
+      "sourceId": "ist-transfer",
+      "title": "Turkish Airlines: Mega move",
+      "url": "https://blog.turkishairlines.com/en/mega-move-the-story-of-turkish-airlines-great-migration/",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it."
+      },
+      "note": "Airline retrospective explicitly records IST/ISL exchange on 2019-04-06 at 02:59. Stored at day precision because the API accepts dates, not flight times. The new airport opening in 2018 is not the IST transfer date."
+    },
+    {
+      "sourceId": "ist-earlier",
+      "title": "Turkish Airlines Atlanta announcement distributed by Golin",
+      "url": "https://www.prweb.com/releases/turkish_airlines_united_states_expansion_continues_with_the_launch_of_nonstop_service_from_atlanta_to_istanbul_in_2016/prweb12812248.htm",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it."
+      },
+      "note": "2015-06-25 announcement names Ataturk as the existing hub and IST in the route schedule. This is an upper bound on first assignment; the advertised 2016 route opening is not the code start."
+    },
+    {
+      "sourceId": "hkg-transfer",
+      "title": "Hong Kong Yearbook 1998: Civil Aviation",
+      "url": "https://www.yearbook.gov.hk/1998/ewww/14/1413/middle-middle.htm",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it."
+      },
+      "note": "Kai Tak closed early on 1998-07-06; Chek Lap Kok commercial service began a few hours later. Do not equate runway closure, first landing and code reassignment instants."
+    },
+    {
+      "sourceId": "hkg-code",
+      "title": "Wikidata Q673202: Kai Tak",
+      "url": "https://www.wikidata.org/wiki/Q673202",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "secondary",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+        "note": "Structured main-namespace data is CC0; no Wikipedia prose or media is copied."
+      },
+      "note": "Structured HKG and VHHH statements have end-time 1998-07-06. Secondary evidence corroborated with the government transfer history. Live entity accessed on the recorded date; not claimed to be revision-pinned."
+    },
+    {
+      "sourceId": "hkg-earlier",
+      "title": "Aviation Safety Network: China Airlines 605, 1993-11-04",
+      "url": "https://aviation-safety.net/asndb/325140",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "secondary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it."
+      },
+      "note": "Specialist accident record identifies Hong Kong-Kai Tak (HKG/VHHH) on 1993-11-04 and cites the completed CAD investigation. Retrieved directly via the legacy record URL redirect. This bounds the unknown first assignments; it is not the airport opening date."
+    },
+    {
+      "sourceId": "den-transfer",
+      "title": "US GAO: Denver International Airport financial issues",
+      "url": "https://www.govinfo.gov/content/pkg/GAOREPORTS-AIMD-95-230/html/GAOREPORTS-AIMD-95-230.htm",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-US-Government-Work",
+        "url": "https://www.gao.gov/about/contact-us/copyright",
+        "note": "Federal report used for factual verification. No report text, third-party graphics or tables are redistributed."
+      },
+      "note": "Retrospective GAO report confirms new Denver airport opened for business on 1995-02-28. No precise code-switch time is established here."
+    },
+    {
+      "sourceId": "den-code",
+      "title": "Wikidata Q1436575: Stapleton",
+      "url": "https://www.wikidata.org/w/index.php?title=Q1436575&oldid=2473577165",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "secondary",
+      "license": {
+        "id": "CC0-1.0",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Licensing",
+        "note": "Structured main-namespace data is CC0; no Wikipedia prose or media is copied."
+      },
+      "note": "Structured DEN and KDEN end-time statements give 1995-02-28; checked together with the GAO report, the historical TRB code reference and current OurAirports successor record."
+    },
+    {
+      "sourceId": "den-earlier",
+      "title": "TRB Transportation Research Record 1218 (1989), Table 3",
+      "url": "https://onlinepubs.trb.org/Onlinepubs/trr/1989/1218/1218-001.pdf",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "secondary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it."
+      },
+      "note": "Table 3 explicitly maps DEN to Denver Stapleton for historical FAA traffic figures. Use publication-year end as a conservative latest bound on first assignment, not a fabricated 1929 IATA start."
+    },
+    {
+      "sourceId": "ourairports-batch1-20261025",
+      "title": "OurAirports fixed snapshot: five batch-1 physical-site reference rows",
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/d97df1673cc5ba61a09b17ab5936091a669a04ca/airports.csv",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "secondary",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "url": "https://ourairports.com/data/",
+        "note": "OurAirports releases its data to the public domain. Only the five identified reference rows are used for this batch; no member comments are copied."
+      },
+      "note": "Individually inspected numeric rows 5274 (old Islamabad/PAF Base Nur Khan), 333692 (new Islamabad), 301881 (Berlin Brandenburg), 6423 (Astana) and 4571 (Chisinau). Names and coordinates are reference attributes. Current ISB, BER, NQZ and RMO corroborate continuity only to the fixed 2026-10-25 horizon. Old Islamabad has no current IATA code; this does not erase its identity. Berlin row 2209 is a separate upstream Schonefeld terminal-area record, not a second physical airfield in this dataset; see docs/batch-1-evidence.md."
+    },
+    {
+      "sourceId": "tzdb-batch1-2025b",
+      "title": "IANA tzdb 2025b zone1970.tab: four additional geographical zone mappings",
+      "url": "https://data.iana.org/time-zones/tzdb-2025b/zone1970.tab",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "url": "https://data.iana.org/time-zones/tzdb-2025b/LICENSE",
+        "note": "The tzdb license places zone1970.tab in the public domain; the listed BSD exceptions do not apply to this file."
+      },
+      "note": "Asia/Karachi for both Islamabad sites, Europe/Berlin for the continuing Schonefeld/Brandenburg site, Asia/Almaty for Astana (most of Kazakhstan) and Europe/Chisinau. Geographical mappings, not historical fixed offsets or airport-code evidence."
+    },
+    {
+      "sourceId": "isl-earlier",
+      "title": "Ercan Airport operator: TK978 from Istanbul Airport, 2018-10-31",
+      "url": "https://www.ercanhavalimani.aero/en/news/kktc-iin-nemli-gn",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "The receiving airport operator explicitly identifies the 2018-10-31 flight from the new Istanbul Airport as ISL-ECN. This bounds the unknown first ISL assignment at that site by 2018-11-01; neither inauguration on October 29 nor this observation is asserted as first allocation."
+    },
+    {
+      "sourceId": "isb-earlier",
+      "title": "Pakistan International Airlines flight operations safety circular, 2016-05-06",
+      "url": "https://crewserver1.piac.com.pk/Documents/Circular/FLT_OPS_-_SAFETY_-_3_-_Fri_May_06_2016_356.pdf",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Page 1, dated 2016-05-06, explicitly uses Islamabad (ISB) for the then-operating airport. Latest-start bound is 2016-05-07; actual original allocation remains unknown. The airline PDF was inspected, not redistributed."
+    },
+    {
+      "sourceId": "isb-code-transfer",
+      "title": "Helis: Benazir Bhutto / Islamabad Chaklala airport history",
+      "url": "https://www.helis.com/database/gps/OPRN/",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "secondary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Explicitly states that international scheduled services moved to new Islamabad in May 2018 and the IATA code ISB transferred. Gives no allocation day or instant. Also states the old airport remains open. The shared code-transfer boundary is therefore month precision, 2018-05-01 through 2018-06-01; May 3 flight operations do not refine it."
+    },
+    {
+      "sourceId": "isb-operational-plan",
+      "title": "Pakistan Press Information Department PR No.159, 2018-04-18",
+      "url": "https://pid.gov.pk/site/press_detail/8275",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Government reports operational readiness of the new greenfield airport and scheduled operation from May 3. This establishes a separate physical site and a planned flight-operating date, not an IATA transfer boundary or completed opening."
+    },
+    {
+      "sourceId": "isb-operations",
+      "title": "TAT Newsroom: THAI shifts to new Islamabad airport, 2018-05-04",
+      "url": "https://www.tatnews.org/2018/05/thai-shifts-to-serve-pakistans-newly-opened-islamabad-international-airport/",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "secondary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Thailand tourism authority reports THAI operating at the new airport from 2018-05-03 and closure of the predecessor for international services. Secondary reporting of another operator, despite the government publisher. It does not state an ISB allocation day or closure of the military airfield."
+    },
+    {
+      "sourceId": "ber-code-change",
+      "title": "Berlin Brandenburg Airport: SXF becomes BER / Schonefeld is now Terminal 5",
+      "url": "https://www.routesonline.com/airports/2515/berlin-brandenburg-airport/news/294598/sxf-becomes-ber-schonefeld-airport-is-now-ber-terminal-5/",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Airport-authored announcement on its Routes profile, posted 2020-10-27, describes replacement of SXF by BER for the October 25 winter schedule, with existing Schonefeld facilities continuing as T5. It is first-party code-change evidence hosted on a third-party platform. No midnight instant is asserted; day precision is retained."
+    },
+    {
+      "sourceId": "ber-coordination",
+      "title": "Fluko: Berlin W20/S21 airport slot coordination, dated 2020-04-30",
+      "url": "https://fluko.org/wp-content/uploads/2020/05/BER-Information-on-Airport-Slot-Coordination-W20-S21-20200506.pdf",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Page 1 describes BER as an extension of the current SXF airside infrastructure and explicitly says SXF is renamed BER on 2020-10-25, before the October 31 opening. The document is dated April 30 on page 5, not May 6 from its filename. It observes existing SXF by April 30, giving latest-start bound 2020-05-01. The PDF is not redistributed."
+    },
+    {
+      "sourceId": "nqz-code-change",
+      "title": "Aviation Administration of Kazakhstan: airport TSE to NQZ code decision",
+      "url": "https://caa.gov.kz/ru/blog/post/kod-aeroporta-g-nur-sultan-izmenen",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Dated 2020-04-06. Explicitly distinguishes the IATA decision of April 6 from application of TSE to NQZ on 2020-06-08. Existing TSE observation bounds the unknown original start by 2020-04-07. Code change at the same airport, not a physical relocation or the airport/city renaming date; no midnight instant proved."
+    },
+    {
+      "sourceId": "nqz-implementation",
+      "title": "Aviation Administration of Kazakhstan: NQZ on the flight map",
+      "url": "https://caa.gov.kz/ru/blog/post/nqz-novoe-imya-na-karte-poletov",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Dated 2020-06-07, reiterates application of NQZ from June 8 to reservation systems, boarding passes, baggage tags and displays. Corroborates the effective date independently of the 2019 policy decision; current OurAirports NQZ observation supports inferred continuation."
+    },
+    {
+      "sourceId": "rmo-announcement",
+      "title": "Radio Moldova: KIV retires, Chisinau embraces RMO, 2023-12-19",
+      "url": "https://radiomoldova.md/p/27139/",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "secondary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Reports the minister announcing IATA code KIV replacement by RMO effective 2024-01-18 at the same airport. Existing KIV observation bounds its unknown first allocation by 2023-12-20. Government-owned reporting is secondary for the allocation claim; it is not the original IATA notice."
+    },
+    {
+      "sourceId": "rmo-implementation",
+      "title": "Radio Moldova: KIV replaced by RMO from 2024-01-18",
+      "url": "https://www.radiomoldova.md/p/28718/attention-travelers-abbreviation-kiv-is-replaced-by-rmo-on-flight-charts-starting-today",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "secondary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Contemporaneous 2024-01-18 report says the airport now uses RMO rather than KIV and old-code tickets remain usable. Corroborates actual implementation and predecessor code retirement at this site. No exact change time, global KIV reuse survey or complete allocation ledger is established."
+    },
+    {
+      "sourceId": "astana-name-original-2017",
+      "title": "Kazakhstan Government Resolution No. 381: original airport renaming text (2017)",
+      "url": "https://kazpravda.kz/uploads/redactors/files/5949db169808b1498012438.pdf",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Original official newspaper reproduction, second resolution on page 1. Adopted 2017-06-20; renames the airport itself from Международный аэропорт Астана to Международный аэропорт Нурсултан Назарбаев. Clause 2 makes first official publication the effective day. This original text avoids conflating the later 2020 corporate-name amendment with a second airport rename. No exact local-midnight instant is stated."
+    },
+    {
+      "sourceId": "astana-name-publication",
+      "title": "Adilet official publication metadata for Resolution No. 381",
+      "url": "https://old.adilet.zan.kz/rus/docs/P1700000381/info",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Official metadata lists first newspaper publication on 2017-06-21: Kazakhstanskaya Pravda No. 117 (28496) and Egemen Qazaqstan No. 117 (29098). Combined with original clause 2, this establishes June 21 as the effective day, not the June 20 adoption date. The July 20 printing of the collected acts is later, not first publication. The consolidated text was amended on 2020-07-10 for the joint-stock company; not evidence of a new airport name."
+    },
+    {
+      "sourceId": "astana-name-observation-2006",
+      "title": "Kazakhstan Government Resolution No. 1095: Astana airport development plan",
+      "url": "https://old.adilet.zan.kz/rus/docs/P060001095_",
+      "accessedOn": "2026-10-26",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
+      },
+      "note": "Dated 2006-11-20, the airport development plan repeatedly identifies Международный аэропорт Астана and its existing airfield infrastructure. This is an earlier name observation, not an original naming decision. The latest-start bound is the following civil day; no founding, city-renaming or corporate incorporation date is substituted for the unknown airport-name start."
+    }
+  ],
+  "airports": [
+    {
+      "airportId": "apt_f470ecb5-c6dc-4516-a233-37302da2115b",
+      "name": {
+        "value": "Qingdao Liuting International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.265837,
+          "longitude": 120.37459
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "Asia/Shanghai",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "27224"
+      }
+    },
+    {
+      "airportId": "apt_6729d2b2-4b79-48c8-9c42-0d4eeba121b8",
+      "name": {
+        "value": "Qingdao Jiaodong International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 36.361953,
+          "longitude": 120.088171
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "Asia/Shanghai",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "342096"
+      }
+    },
+    {
+      "airportId": "apt_d8f290d3-11cc-4441-af6d-f4dd52d3b8dc",
+      "name": {
+        "value": "İstanbul Atatürk Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 40.971913,
+          "longitude": 28.823714
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "Europe/Istanbul",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "4528"
+      }
+    },
+    {
+      "airportId": "apt_92a92544-1808-487a-85e0-0fa995e1de82",
+      "name": {
+        "value": "İstanbul Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 41.274874,
+          "longitude": 28.732136
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "Europe/Istanbul",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "317457"
+      }
+    },
+    {
+      "airportId": "apt_86460159-a072-4a18-afcc-ab376cda7047",
+      "name": {
+        "value": "Hong Kong International Airport Kai Tak",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 22.320304,
+          "longitude": 114.198074
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "Asia/Hong_Kong",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "28112"
+      }
+    },
+    {
+      "airportId": "apt_8d89722f-007c-4eb4-aaa0-ec1c61007a09",
+      "name": {
+        "value": "Hong Kong International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 22.31184,
+          "longitude": 113.914862
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "Asia/Hong_Kong",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "26535"
+      }
+    },
+    {
+      "airportId": "apt_ce3d25d8-99db-48ae-b824-33cea4de0919",
+      "name": {
+        "value": "Denver Stapleton International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 39.774200439453,
+          "longitude": -104.87899780273
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "America/Denver",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "28113"
+      }
+    },
+    {
+      "airportId": "apt_67f7542e-c336-4ba7-b23a-beaf1b4c1e38",
+      "name": {
+        "value": "Denver International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "Canonical display label; not an assertion of the legal name on every historical date."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 39.860027,
+          "longitude": -104.673792
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified."
+      },
+      "timezone": {
+        "value": "America/Denver",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "3486"
+      }
+    },
+    {
+      "airportId": "apt_d28173b7-5c8b-4012-8eed-18f96c13a0ce",
+      "name": {
+        "value": "PAF Base Nur Khan (Benazir Bhutto International Airport)",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "note": "Canonical display label from the fixed reference row; not a historical-name timeline. A civil-service closure or later rename does not erase this identity."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 33.616699,
+          "longitude": 73.099197
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "note": "WGS84 site reference coordinates from the fixed OurAirports row, not a surveyed historical aerodrome reference point."
+      },
+      "timezone": {
+        "value": "Asia/Karachi",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-batch1-2025b"
+        ],
+        "note": "Geographical IANA zone mapping; consumers must apply timezone rules for historical instants, not a fixed UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "5274"
+      }
+    },
+    {
+      "airportId": "apt_896e8191-7c0b-4a94-bc14-9dcd7e35feac",
+      "name": {
+        "value": "Islamabad International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "note": "Canonical display label from the fixed reference row; not a historical-name timeline. A civil-service closure or later rename does not erase this identity."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 33.549,
+          "longitude": 72.82566
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "note": "WGS84 site reference coordinates from the fixed OurAirports row, not a surveyed historical aerodrome reference point."
+      },
+      "timezone": {
+        "value": "Asia/Karachi",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-batch1-2025b"
+        ],
+        "note": "Geographical IANA zone mapping; consumers must apply timezone rules for historical instants, not a fixed UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "333692"
+      }
+    },
+    {
+      "airportId": "apt_f642eef8-1864-43c4-8944-47aaa7ac35ce",
+      "name": {
+        "value": "Berlin Brandenburg Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "note": "Canonical display label from the fixed reference row; not a historical-name timeline. A civil-service closure or later rename does not erase this identity."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 52.361738,
+          "longitude": 13.502341
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "note": "WGS84 site reference coordinates from the fixed OurAirports row, not a surveyed historical aerodrome reference point. Current expanded-airfield reference position, not the historical SXF terminal location. This is one continuing airfield; terminal changes do not create physical identities."
+      },
+      "timezone": {
+        "value": "Europe/Berlin",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-batch1-2025b"
+        ],
+        "note": "Geographical IANA zone mapping; consumers must apply timezone rules for historical instants, not a fixed UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "301881"
+      }
+    },
+    {
+      "airportId": "apt_99f19660-7609-49c5-b221-ed4a37046566",
+      "name": {
+        "value": "Nursultan Nazarbayev International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "note": "Canonical display label from the fixed reference row; not a historical-name timeline. A civil-service closure or later rename does not erase this identity."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 51.027035,
+          "longitude": 71.467094
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "note": "WGS84 site reference coordinates from the fixed OurAirports row, not a surveyed historical aerodrome reference point."
+      },
+      "timezone": {
+        "value": "Asia/Almaty",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-batch1-2025b"
+        ],
+        "note": "Geographical IANA zone mapping; consumers must apply timezone rules for historical instants, not a fixed UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "6423"
+      }
+    },
+    {
+      "airportId": "apt_7a7e34d3-dbfa-4cce-ad24-818709177bfd",
+      "name": {
+        "value": "Chişinău International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "note": "Canonical display label from the fixed reference row; not a historical-name timeline. A civil-service closure or later rename does not erase this identity."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 46.92774,
+          "longitude": 28.931704
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "note": "WGS84 site reference coordinates from the fixed OurAirports row, not a surveyed historical aerodrome reference point."
+      },
+      "timezone": {
+        "value": "Europe/Chisinau",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-batch1-2025b"
+        ],
+        "note": "Geographical IANA zone mapping; consumers must apply timezone rules for historical instants, not a fixed UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "4571"
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "assignmentId": "iata-tao-liuting",
+      "scheme": "IATA",
+      "code": "TAO",
+      "airportId": "apt_f470ecb5-c6dc-4516-a233-37302da2115b",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2016-08-17",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2021-08-12",
+        "latest": "2021-08-12",
+        "precision": "exact"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "tao-earlier",
+        "tao-code",
+        "tao-transfer"
+      ],
+      "note": "Original assignment date remains unknown; latest start is only an evidence bound. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    },
+    {
+      "assignmentId": "iata-tao-jiaodong",
+      "scheme": "IATA",
+      "code": "TAO",
+      "airportId": "apt_6729d2b2-4b79-48c8-9c42-0d4eeba121b8",
+      "validFrom": {
+        "earliest": "2021-08-12",
+        "latest": "2021-08-12",
+        "precision": "exact"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "tao-earlier",
+        "tao-code",
+        "tao-transfer",
+        "ourairports-20261025"
+      ],
+      "note": "Transfer establishes the start, not the airport inauguration. The open end is not guaranteed future validity. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    },
+    {
+      "assignmentId": "iata-ist-ataturk",
+      "scheme": "IATA",
+      "code": "IST",
+      "airportId": "apt_d8f290d3-11cc-4441-af6d-f4dd52d3b8dc",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2015-06-26",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2019-04-06",
+        "latest": "2019-04-07",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "ist-earlier",
+        "ist-transfer"
+      ],
+      "note": "Original assignment date remains unknown; latest start is only an evidence bound. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    },
+    {
+      "assignmentId": "iata-ist-istanbul",
+      "scheme": "IATA",
+      "code": "IST",
+      "airportId": "apt_92a92544-1808-487a-85e0-0fa995e1de82",
+      "validFrom": {
+        "earliest": "2019-04-06",
+        "latest": "2019-04-07",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "ist-earlier",
+        "ist-transfer",
+        "ourairports-20261025"
+      ],
+      "note": "Transfer establishes the start, not the airport inauguration. The open end is not guaranteed future validity. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    },
+    {
+      "assignmentId": "iata-hkg-kai-tak",
+      "scheme": "IATA",
+      "code": "HKG",
+      "airportId": "apt_86460159-a072-4a18-afcc-ab376cda7047",
+      "validFrom": {
+        "earliest": null,
+        "latest": "1993-11-05",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "1998-07-06",
+        "latest": "1998-07-07",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "hkg-earlier",
+        "hkg-code",
+        "hkg-transfer"
+      ],
+      "note": "Original assignment date remains unknown; latest start is only an evidence bound. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    },
+    {
+      "assignmentId": "iata-hkg-chek-lap-kok",
+      "scheme": "IATA",
+      "code": "HKG",
+      "airportId": "apt_8d89722f-007c-4eb4-aaa0-ec1c61007a09",
+      "validFrom": {
+        "earliest": "1998-07-06",
+        "latest": "1998-07-07",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "hkg-earlier",
+        "hkg-code",
+        "hkg-transfer",
+        "ourairports-20261025"
+      ],
+      "note": "Transfer establishes the start, not the airport inauguration. The open end is not guaranteed future validity. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    },
+    {
+      "assignmentId": "iata-den-stapleton",
+      "scheme": "IATA",
+      "code": "DEN",
+      "airportId": "apt_ce3d25d8-99db-48ae-b824-33cea4de0919",
+      "validFrom": {
+        "earliest": null,
+        "latest": "1989-12-31",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "1995-02-28",
+        "latest": "1995-03-01",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "den-earlier",
+        "den-code",
+        "den-transfer"
+      ],
+      "note": "Original assignment date remains unknown; latest start is only an evidence bound. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    },
+    {
+      "assignmentId": "iata-den-denver",
+      "scheme": "IATA",
+      "code": "DEN",
+      "airportId": "apt_67f7542e-c336-4ba7-b23a-beaf1b4c1e38",
+      "validFrom": {
+        "earliest": "1995-02-28",
+        "latest": "1995-03-01",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "den-earlier",
+        "den-code",
+        "den-transfer",
+        "ourairports-20261025"
+      ],
+      "note": "Transfer establishes the start, not the airport inauguration. The open end is not guaranteed future validity. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    },
+    {
+      "assignmentId": "icao-vhhh-kai-tak",
+      "scheme": "ICAO",
+      "code": "VHHH",
+      "airportId": "apt_86460159-a072-4a18-afcc-ab376cda7047",
+      "validFrom": {
+        "earliest": null,
+        "latest": "1993-11-05",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "1998-07-06",
+        "latest": "1998-07-07",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "hkg-earlier",
+        "hkg-code",
+        "hkg-transfer"
+      ],
+      "note": "Original assignment date remains unknown; latest start is only an evidence bound. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    },
+    {
+      "assignmentId": "icao-vhhh-chek-lap-kok",
+      "scheme": "ICAO",
+      "code": "VHHH",
+      "airportId": "apt_8d89722f-007c-4eb4-aaa0-ec1c61007a09",
+      "validFrom": {
+        "earliest": "1998-07-06",
+        "latest": "1998-07-07",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "hkg-earlier",
+        "hkg-code",
+        "hkg-transfer",
+        "ourairports-20261025"
+      ],
+      "note": "Transfer establishes the start, not the airport inauguration. The open end is not guaranteed future validity. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger."
+    },
+    {
+      "assignmentId": "iata-isl-istanbul",
+      "scheme": "IATA",
+      "code": "ISL",
+      "airportId": "apt_92a92544-1808-487a-85e0-0fa995e1de82",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2018-11-01",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2019-04-06",
+        "latest": "2019-04-07",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "isl-earlier",
+        "ist-transfer"
+      ],
+      "note": "New Istanbul Airport used ISL by the dated October 31 flight, before adopting IST. First ISL allocation date remains unknown; the October 29 inauguration is not used as allocation. ISL moved to Ataturk on April 6, within the day. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    },
+    {
+      "assignmentId": "iata-isl-ataturk",
+      "scheme": "IATA",
+      "code": "ISL",
+      "airportId": "apt_d8f290d3-11cc-4441-af6d-f4dd52d3b8dc",
+      "validFrom": {
+        "earliest": "2019-04-06",
+        "latest": "2019-04-07",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "ist-transfer",
+        "ourairports-20261025"
+      ],
+      "note": "ISL arrived at Ataturk in the inverse exchange with IST; preserve the existing Ataturk physical identity despite the passenger-service move. Day-only April 6 is uncertain. Current code observation supports continuity only before 2026-10-25, not future validity or a claim that passenger service continues. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    },
+    {
+      "assignmentId": "iata-isb-benazir-bhutto",
+      "scheme": "IATA",
+      "code": "ISB",
+      "airportId": "apt_d28173b7-5c8b-4012-8eed-18f96c13a0ce",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2016-05-07",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2018-05-01",
+        "latest": "2018-06-01",
+        "precision": "month"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "isb-earlier",
+        "isb-code-transfer",
+        "isb-operational-plan",
+        "isb-operations"
+      ],
+      "note": "Unknown original ISB allocation is bounded by the 2016 airline observation. Explicit code-transfer evidence establishes May 2018 only. Flight operations moved May 3, but no precise IATA transfer day is inferred. The old airfield remains a separate military/general-aviation site without current ISB. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    },
+    {
+      "assignmentId": "iata-isb-islamabad",
+      "scheme": "IATA",
+      "code": "ISB",
+      "airportId": "apt_896e8191-7c0b-4a94-bc14-9dcd7e35feac",
+      "validFrom": {
+        "earliest": "2018-05-01",
+        "latest": "2018-06-01",
+        "precision": "month"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "isb-earlier",
+        "isb-code-transfer",
+        "isb-operational-plan",
+        "isb-operations",
+        "ourairports-batch1-20261025"
+      ],
+      "note": "ISB transferred to a geographically separate new airport during May 2018. Every date in that month, including May 3, remains uncertain. OPIS is a distinct ICAO code, not an inherited OPRN assignment; neither ICAO allocation is added. Continuity is checked only before 2026-10-25. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    },
+    {
+      "assignmentId": "iata-sxf-schonefeld-brandenburg",
+      "scheme": "IATA",
+      "code": "SXF",
+      "airportId": "apt_f642eef8-1864-43c4-8944-47aaa7ac35ce",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2020-05-01",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2020-10-25",
+        "latest": "2020-10-26",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "ber-coordination",
+        "ber-code-change"
+      ],
+      "note": "First allocation remains unknown; latest start is only a dated observation bound. The continuing Schonefeld airfield expanded into Brandenburg; old facilities became T5. October 25 airport-code change is separate from October 31 T1 opening. Pre-2020 BER metropolitan/city-code use is outside the airport namespace; no airport assignment is created for it. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    },
+    {
+      "assignmentId": "iata-ber-schonefeld-brandenburg",
+      "scheme": "IATA",
+      "code": "BER",
+      "airportId": "apt_f642eef8-1864-43c4-8944-47aaa7ac35ce",
+      "validFrom": {
+        "earliest": "2020-10-25",
+        "latest": "2020-10-26",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "ber-coordination",
+        "ber-code-change",
+        "ourairports-batch1-20261025"
+      ],
+      "note": "The continuing Schonefeld airfield expanded into Brandenburg; old facilities became T5. October 25 airport-code change is separate from October 31 T1 opening. Pre-2020 BER metropolitan/city-code use is outside the airport namespace; no airport assignment is created for it. Date-only change-day queries remain uncertain. The open end does not guarantee validity on or after 2026-10-25. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    },
+    {
+      "assignmentId": "iata-tse-astana",
+      "scheme": "IATA",
+      "code": "TSE",
+      "airportId": "apt_99f19660-7609-49c5-b221-ed4a37046566",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2020-04-07",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2020-06-08",
+        "latest": "2020-06-09",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "nqz-code-change",
+        "nqz-implementation"
+      ],
+      "note": "First allocation remains unknown; latest start is only a dated observation bound. Same physical Astana airport. June 8 code change is separate from April 6 IATA decision and earlier airport/city renames. Exact local change instant is unproved. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    },
+    {
+      "assignmentId": "iata-nqz-astana",
+      "scheme": "IATA",
+      "code": "NQZ",
+      "airportId": "apt_99f19660-7609-49c5-b221-ed4a37046566",
+      "validFrom": {
+        "earliest": "2020-06-08",
+        "latest": "2020-06-09",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "nqz-code-change",
+        "nqz-implementation",
+        "ourairports-batch1-20261025"
+      ],
+      "note": "Same physical Astana airport. June 8 code change is separate from April 6 IATA decision and earlier airport/city renames. Exact local change instant is unproved. Date-only change-day queries remain uncertain. The open end does not guarantee validity on or after 2026-10-25. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    },
+    {
+      "assignmentId": "iata-kiv-chisinau",
+      "scheme": "IATA",
+      "code": "KIV",
+      "airportId": "apt_7a7e34d3-dbfa-4cce-ad24-818709177bfd",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2023-12-20",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2024-01-18",
+        "latest": "2024-01-19",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "rmo-announcement",
+        "rmo-implementation"
+      ],
+      "note": "First allocation remains unknown; latest start is only a dated observation bound. Same physical Chisinau airport. Secondary announcement and implementation reports support January 18, without an allocation instant. Old tickets retaining KIV do not establish a continuing airport assignment; no other KIV reuse is asserted. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    },
+    {
+      "assignmentId": "iata-rmo-chisinau",
+      "scheme": "IATA",
+      "code": "RMO",
+      "airportId": "apt_7a7e34d3-dbfa-4cce-ad24-818709177bfd",
+      "validFrom": {
+        "earliest": "2024-01-18",
+        "latest": "2024-01-19",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "rmo-announcement",
+        "rmo-implementation",
+        "ourairports-batch1-20261025"
+      ],
+      "note": "Same physical Chisinau airport. Secondary announcement and implementation reports support January 18, without an allocation instant. Old tickets retaining KIV do not establish a continuing airport assignment; no other KIV reuse is asserted. Date-only change-day queries remain uncertain. The open end does not guarantee validity on or after 2026-10-25. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    }
+  ],
+  "names": [
+    {
+      "nameId": "name-astana-before-2017",
+      "airportId": "apt_99f19660-7609-49c5-b221-ed4a37046566",
+      "language": "ru",
+      "kind": "official",
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "name": "Международный аэропорт Астана",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2006-11-21",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2017-06-21",
+        "latest": "2017-06-22",
+        "precision": "day"
+      },
+      "sourceIds": [
+        "astana-name-observation-2006",
+        "astana-name-original-2017",
+        "astana-name-publication"
+      ],
+      "note": "Canonical Russian official airport name in the original 2017 decision. Continuity from the 2006 observation to the renaming is a reviewed inference. Original naming date remains unknown; dates before 2006-11-21 are uncertain. June 21 is the first-publication effective day; whole-day resolution remains conservative because no midnight instant is established. City renames and IATA code changes do not create name intervals."
+    },
+    {
+      "nameId": "name-astana-nazarbayev-2017",
+      "airportId": "apt_99f19660-7609-49c5-b221-ed4a37046566",
+      "language": "ru",
+      "kind": "official",
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26",
+      "evidenceType": "continuity_inference",
+      "name": "Международный аэропорт Нурсултан Назарбаев",
+      "validFrom": {
+        "earliest": "2017-06-21",
+        "latest": "2017-06-22",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "sourceIds": [
+        "astana-name-original-2017",
+        "astana-name-publication",
+        "nqz-code-change",
+        "nqz-implementation",
+        "ourairports-batch1-20261025"
+      ],
+      "note": "Canonical Russian official airport name from the original renaming, with later aviation-administration use and the fixed current-directory label corroborating continuation. The whole interval is a reviewed continuity inference, not direct evidence for every day. Known effective day is 2017-06-21, not signing day 2017-06-20 or the 2020 IATA code change. The 2020 corporate wording amendment, city renames and English translations are not additional airport renames. On or after the fixed 2026-10-25 evidence horizon the result is uncertain."
+    }
+  ]
+}

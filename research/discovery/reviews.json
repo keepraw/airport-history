@@ -205,6 +205,7 @@
     "status": "pending_review"
   },
   "cand_7fc9b08615e93efbdffdc2a8": {
+    "admissionReview": "research/discovery/batches/global-3.json",
     "conflicts": [],
     "eventGroupId": "global-1-rov",
     "evidenceGaps": [
@@ -217,7 +218,7 @@
       "legacy-rostov-on-don"
     ],
     "reviewedOn": "2026-10-27",
-    "status": "insufficient_evidence"
+    "status": "ready_to_admit"
   },
   "cand_8244804dd590e3ec97a2a7f7": {
     "conflicts": [],
@@ -233,6 +234,7 @@
     "status": "excluded"
   },
   "cand_8ac1b12707d7c441ce708d32": {
+    "admissionReview": "research/discovery/batches/global-3.json",
     "conflicts": [],
     "eventGroupId": "global-1-ynt",
     "evidenceGaps": [
@@ -245,7 +247,7 @@
       "legacy-yantai"
     ],
     "reviewedOn": "2026-10-27",
-    "status": "insufficient_evidence"
+    "status": "ready_to_admit"
   },
   "cand_9d7392c0e4b31d86219d6e71": {
     "conflicts": [],

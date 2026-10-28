@@ -47,7 +47,8 @@ describe("batch 1 historical identity and coordinates", () => {
   });
 
   it("adds five permanent identities without replacing the original eight", () => {
-    expect(data.airports).toHaveLength(13);
+    // PR #8 adds six more identities (test/pr8-admissions.test.ts); batch-1 IDs stay unchanged.
+    expect(data.airports).toHaveLength(19);
     const allIds = [...Object.values(initialIds), ...Object.values(batchIds)];
     expect(new Set(allIds.map((i) => i.airportId)).size).toBe(13);
     for (const identity of allIds) {
