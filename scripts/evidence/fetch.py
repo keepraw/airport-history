@@ -139,7 +139,13 @@ def recover(output):
             raise ValueError(f"Upstream content changed: {source['sourceId']}. Keep pinned input; discover a separately reviewed snapshot.")
         path = output / source['inputPath']
         path.parent.mkdir(parents=True, exist_ok=True)
-        path.write_bytes(gzip.compress(raw, mtime=0))
+        # GzipFile fixes the same header/OS bytes used by discovery. gzip.compress
+        # differs across Python/zlib versions even when the original bytes match.
+        with path.open('wb') as stream:
+            with gzip.GzipFile(filename='', mode='wb', fileobj=stream, mtime=0) as compressed:
+                compressed.write(raw)
+        if digest(path) != source['inputSha256']:
+            raise ValueError('Recovered compression differs from the pinned input: ' + source['sourceId'])
     print('Recovered hash-verified originals into ' + str(output))
 
 

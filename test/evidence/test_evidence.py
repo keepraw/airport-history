@@ -1,5 +1,6 @@
 import copy
 import gzip
+import importlib.util
 import json
 import sys
 import tempfile
@@ -13,6 +14,10 @@ from pipeline import (BASE, OUT, build, validate, load_locked, parse_bts, parse_
                       match_observation, candidate_index, load_reference, finish)
 from common import digest, read_jsonl
 from admissions import validate_admission
+spec = importlib.util.spec_from_file_location('evidence_fetch', ROOT / 'scripts/evidence/fetch.py')
+evidence_fetch = importlib.util.module_from_spec(spec)
+sys.modules['evidence_fetch'] = evidence_fetch
+spec.loader.exec_module(evidence_fetch)
 
 
 class EvidenceTests(unittest.TestCase):
@@ -80,6 +85,16 @@ class EvidenceTests(unittest.TestCase):
             (directory / 'source-lock.json').write_text(json.dumps({'sources': [source]}))
             with self.assertRaisesRegex(ValueError, 'Changed pinned input'):
                 list(load_locked(directory))
+
+    def test_recovery_reconstructs_both_original_and_compressed_hashes(self):
+        originals = {source['retrievalUrl']: raw for source, raw in self.sources.values()}
+        bts_raw = self.sources['bts-master-coordinate'][1]
+        with tempfile.TemporaryDirectory(dir=ROOT / 'work') as tmp, \
+                patch('evidence_fetch.bts', return_value=(bts_raw, 'unused-transport-hash')), \
+                patch('evidence_fetch.get', side_effect=lambda url: (originals[url], url)):
+            evidence_fetch.recover(Path(tmp))
+            for source, _ in self.sources.values():
+                self.assertEqual(digest(Path(tmp) / source['inputPath']), source['inputSha256'])
 
     def test_all_evidence_retained_and_prepared_packets_cannot_admit(self):
         validate()

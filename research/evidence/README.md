@@ -54,7 +54,10 @@ pnpm evidence:fetch --discover --output work/new-primary-snapshot \
 Discovery writes a new lock for inspection; it never overwrites the checked-in
 one. Recovery rejects changed original hashes. BTS ZIP generation can change its
 container bytes; the lock records that transport hash, while recovery checks the
-actual CSV member hash. Content SHA-256 is the version when the issuer supplies
+actual CSV member hash and reconstructs the pinned deterministic gzip bytes.
+Both online discovery and online recovery were actually run on the 24-publication
+corpus; the recovery regression also checks both original and compressed hashes.
+Content SHA-256 is the version when the issuer supplies
 no revision date. Access timestamps record actual retrieval; offline rebuilds
 preserve them. The collector records failed individual FAA retrievals instead of
 inventing success. Network failures during the search/BTS bootstrap fail visibly.
