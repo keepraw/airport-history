@@ -1,0 +1,71 @@
+import { readFileSync } from 'node:fs';
+import { gzipSync } from 'node:zlib';
+import { describe, expect, it } from 'vitest';
+import { airportByIata, installAirportDirectory, buildRouteSegments, distanceForFlight, distanceKilometers } from '@keepraw-fly/core';
+import type { AirportReference, CompactAirportRow } from '@keepraw-fly/core';
+import type { KeeprawFlight } from '@keepraw-fly/schema';
+import { resolveFlightEndpoints, resolveEndpoint } from '../../scripts/compat/fly-adapter.ts';
+import type { FlyReference } from '../../scripts/compat/fly-adapter.ts';
+import type { Dataset } from '../../src/types.ts';
+__MAP_IMPORT__
+
+const dataset = JSON.parse(readFileSync('dist/v0.7.0/airport-history.json', 'utf8')) as Dataset;
+const rows = JSON.parse(readFileSync(__DIRECTORY_PATH__, 'utf8')) as CompactAirportRow[];
+const flight = (date: string): KeeprawFlight => ({ id: date, flightNumber: 'KA123', serviceDate: date,
+  airline: { iata: 'KA' }, origin: { iata: 'TAO' }, destination: { iata: 'HKG' },
+  scheduledDeparture: `${date}T10:00:00+08:00`, scheduledArrival: `${date}T13:00:00+08:00` });
+
+describe('actual Fly code against the real historical build', () => {
+  __MAP_TEST__
+  it('keeps the full current directory while resolving TAO physical sites per flight', () => {
+    installAirportDirectory(rows);
+    expect(airportByIata.size).toBe(7884);
+    const directory: ReadonlyMap<string, FlyReference> = airportByIata;
+    const before = flight('2021-08-11'), after = flight('2021-08-13');
+    const archiveBefore = JSON.stringify([before, after]);
+    const old = resolveFlightEndpoints(dataset, before, directory);
+    const current = resolveFlightEndpoints(dataset, after, directory);
+    expect(old.origin.view?.historicalIdentityVerified).toBe(true);
+    expect(old.origin.view?.airportId).not.toBe(current.origin.view?.airportId);
+    const oldPoint = old.origin.view!.coordinates!.value!;
+    const destination = old.actualDestination.view!.coordinates!.value!;
+    const historicalDistance = distanceKilometers(oldPoint, destination);
+    const currentDistance = distanceForFlight(before)!;
+    expect(Math.abs(historicalDistance - currentDistance)).toBeGreaterThan(0.1);
+    const siteSeparationKm = distanceKilometers(oldPoint, current.origin.view!.coordinates!.value!);
+    expect(siteSeparationKm).toBeGreaterThan(20);
+    // Existing route aggregation demonstrably loses the historical physical-site distinction.
+    expect(buildRouteSegments([before, after])).toHaveLength(1);
+    expect(new Set([old.origin.view!.airportId, current.origin.view!.airportId]).size).toBe(2);
+    expect(JSON.stringify([before, after])).toBe(archiveBefore);
+    expect(old.origin.view!.city).toBeNull();
+    expect(old.origin.view!.coordinates!.status).toBe('reference');
+    console.log('DISTANCE_MEASUREMENT', JSON.stringify({ currentKm: currentDistance, historicalKm: historicalDistance,
+      differenceKm: historicalDistance - currentDistance, siteSeparationKm }));
+  });
+  it('runs Fly calculations with nullable historical projection guarded by capability', () => {
+    installAirportDirectory(rows);
+    const resolved = resolveEndpoint(dataset, 'HKG', '1997-01-01', airportByIata);
+    const ambiguous = resolveEndpoint(dataset, 'HKG', '1998-07-06', airportByIata);
+    expect(resolved.canCalculateDistance).toBe(true);
+    expect(ambiguous.canCalculateDistance).toBe(false);
+    expect(ambiguous.referenceFallback?.iata).toBe('HKG');
+    expect(ambiguous.historicalIdentityVerified).toBe(false);
+    expect(resolveEndpoint(dataset, 'JFK', '2020-01-01', airportByIata).referenceFallback).not.toBeNull();
+    const reference: AirportReference = airportByIata.get('TAO')!;
+    expect(reference.timezone).toBe('Asia/Shanghai');
+  });
+  it('measures indexed directory and historic resolver cost using real artifacts', () => {
+    installAirportDirectory(rows);
+    const start = performance.now();
+    for (let i=0; i<10000; i++) resolveEndpoint(dataset, 'TAO', i % 2 ? '2021-08-11' : '2021-08-13', airportByIata);
+    const elapsedMs = performance.now() - start;
+    const bytes = readFileSync('dist/v0.7.0/airport-history.json');
+    const directoryBytes = readFileSync(__DIRECTORY_PATH__);
+    console.log('PERFORMANCE_MEASUREMENT', JSON.stringify({ iterations: 10000, elapsedMs,
+      microsecondsPerResolution: elapsedMs * 1000 / 10000, historyBytes: bytes.length,
+      historyGzipBytes: gzipSync(bytes, { level: 9 }).length,
+      flyDirectoryBytes: directoryBytes.length, flyDirectoryGzipBytes: gzipSync(directoryBytes, { level: 9 }).length }));
+    expect(elapsedMs).toBeLessThan(20000);
+  });
+});

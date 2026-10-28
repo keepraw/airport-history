@@ -1,0 +1,30 @@
+{
+  "repository": "https://github.com/keepraw/Keepraw-Fly",
+  "revision": "50a00d9d2b4fede6595b008d211167ef020eedbd",
+  "files": {
+    "packages/core/src/reference-data.ts": "c8b21e4bf9be84d1230bc905885e71629d5de216fba6c19017c2cf972778493f",
+    "packages/core/src/routes.ts": "3346869e09a62d1a5a326eaa29587996d4806e7eea5a2cbb8c7c8784d7cb244e",
+    "packages/core/src/statistics.ts": "d8ffd10c160fa96d29427d9892d632532dc75f5334c31a3e69a37620c208ee33",
+    "packages/core/src/calculations.ts": "c803c36c59e1143016fb67cbc923c20cbcb3e873732d68a739684aa62c46c9f5",
+    "packages/core/src/formatting.ts": "0acb46bb72d7c6a9f1a55123b68c131ef8a3dab86792f3eb098b08b2555e49b1",
+    "packages/core/src/time-display.ts": "e64274f7935bb2d940e9007eb97c281cf3661209de21c69131bbe783b52866d3",
+    "packages/core/src/airport-search.ts": "f172b91f008b665bae6847253894e07396541b5dbf083b55624feaeafc2568b7",
+    "packages/core/src/search.ts": "810dbdcb6ada7c3d30d325a67350e5faec6c9a89eb76e6c75909d1b61c8f5438",
+    "packages/core/data/airports.iata.json": "b99c1cff36c309113be27e606e43e19f107cd86e2072d269c41fc7a0e0cb2839",
+    "apps/web/src/data/airport-directory.ts": "fd207ff8017d908c46fade1753dda5630270da31345524fdacd8fac0102cb9b4",
+    "apps/web/src/data/flight-editor.ts": "d58d78ed54430cbf6e61d3e60e6dea5d2539c9c651bc38436324b96420e4fb19",
+    "apps/web/src/data/csv-import.ts": "be9f5b89fb09e946fb7e0a4cf095eb7bc46f24cc1b290f058ffc451d3f46cfb9",
+    "apps/web/src/data/map-geometry.ts": "d5d23aec9aec18aece2ea8f394f0e2bde713f31c516800de8c968aad7cb26206",
+    "docs/schema.md": "15c50cc09be985a3e47a50a117a3861e405d22103f7752e4a0e8f9f6650bfb47",
+    "packages/schema/src/index.ts": "e17900ad72f8a54f9cf8211abaafd43184be485f0b9e049f32472759445413df",
+    "packages/core/tests/core.test.ts": "5be63245e7c1751a976aa0ef1666c1f9f020f32e28e2d7e013affbe9c5045e96",
+    "packages/core/tests/routes.test.ts": "c60536dab5793fc0fb3157b185d7bd8f8bbb3e43d79344cd40d81c12ee900bfe",
+    "packages/core/tests/time-display.test.ts": "7dfdb60ceeb6b96282f874c1821eb074e7ed0d8250eaf0a3f6a50351c408f283",
+    "apps/web/src/data/flight-editor.test.ts": "e4102e305703b69154b5fb92e3ba26dc6d62651947386b8b86ca9308aca0646c",
+    "apps/web/src/data/csv-import.test.ts": "4821e23fa1bd0ddd838fcfce743879172eed988da896f7a378e58ee08a084aab",
+    "packages/validator/src/index.ts": "26789de05de58dc7052b8de08ce322ca4b8604b22f8a3f16960a18f4771705d6",
+    "packages/validator/src/generated/schema-validator.js": "9b4a89bd54f05ff75e64a2fa9bd99b2b21907d34b12b15855a36eac6059935f7",
+    "packages/core/data/LICENSE.airportsdata": "1ab6bf365e1f6a1883ab6a2f797e761b221081b52a33273d86c157fd562106be",
+    "apps/web/src/data/map-geometry.test.ts": "b4c9c2b34a8f87d8ba7053a8d6b1350d3059a77ef7d6959ba6316ecd80b49fc9"
+  }
+}

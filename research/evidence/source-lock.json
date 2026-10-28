@@ -1,0 +1,996 @@
+{
+  "baseCommit": "d520136e82a348ff6f3429f9c879672ad1dfa5b8",
+  "failures": [],
+  "formatVersion": 1,
+  "preparedOn": "2026-10-28",
+  "selection": {
+    "documentsDiscovered": 23,
+    "scope": "All results of a targeted closure phrase query, plus the complete BTS table; not the complete FAA corpus.",
+    "searchUrl": "https://www.federalregister.gov/api/v1/documents.json?conditions%5Bagencies%5D%5B%5D=federal-aviation-administration&conditions%5Bterm%5D=%22airport%22+%22permanently+closed%22&conditions%5Bpublication_date%5D%5Blte%5D=2026-10-28&per_page=100&order=newest"
+  },
+  "sources": [
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:51+00:00",
+      "documentEffectiveDate": null,
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/bts-master.csv.gz",
+      "inputSha256": "ae7a8cd6d98a57e3167ceb679750b6087f219d3bcd95e390d058aa65b2107fdf",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "USDOT is not IATA. Statistical attribute dates are not operational or code-allocation dates.",
+        "Publication/revision date unavailable; version is the actual content hash."
+      ],
+      "metadataUrl": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FLL",
+      "originalBytes": 4551954,
+      "originalPublicationKey": "usdot-bts:T_MASTER_CORD:84c4e9269567665823954737d4925663af57fd6249f47f456bff3d28ed0aec8b",
+      "originalSha256": "84c4e9269567665823954737d4925663af57fd6249f47f456bff3d28ed0aec8b",
+      "provider": "bts-master",
+      "publicationDate": null,
+      "publisher": "US Department of Transportation, Bureau of Transportation Statistics",
+      "retrievalUrl": "https://www.transtats.bts.gov/DL_SelectFields.aspx?QO_fu146_anzr=N8vn6v10+f722146+gnoyr5&gnoyr_VQ=FLL",
+      "sourceFamily": "usdot-bts",
+      "sourceId": "bts-master-coordinate",
+      "sourceType": "primary",
+      "supports": [
+        "Issuer-reported historical statistical attributes, USDOT airport code, names and coordinates."
+      ],
+      "title": "Aviation Support Tables: Master Coordinate",
+      "transportSha256": "b2fe86c737002c3e5b0473b5f997a653237df1d71ad56bc21e1e2f2db494b602",
+      "url": "https://www.transtats.bts.gov/DL_SelectFields.aspx?QO_fu146_anzr=N8vn6v10+f722146+gnoyr5&gnoyr_VQ=FLL",
+      "version": "sha256:84c4e9269567665823954737d4925663af57fd6249f47f456bff3d28ed0aec8b"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:52+00:00",
+      "documentEffectiveDate": "2026-10-13",
+      "documentNumber": "2026-20859",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-2026-20859.htm.gz",
+      "inputSha256": "5c7ecf7e314372e6687d46d45b74df02c5d1f3112909ead55a0ac9d4d8b30caf",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 58265,
+      "originalPublicationKey": "usdot-faa:FR:2026-20859",
+      "originalSha256": "80cdbe3dde307683f1ad6837fcd6f46770ef0dbc9adeb6d2d62b5b919d1afde7",
+      "provider": "faa-fr",
+      "publicationDate": "2026-10-13",
+      "publicationType": "Notice",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2026-10-13/html/2026-20859.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-2026-20859",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Notice of Agency Determination on Waiver With Respect to Land; Indianapolis Downtown Heliport, Indianapolis, Indiana",
+      "url": "https://www.federalregister.gov/documents/2026/10/13/2026-20859/notice-of-agency-determination-on-waiver-with-respect-to-land-indianapolis-downtown-heliport",
+      "version": "sha256:80cdbe3dde307683f1ad6837fcd6f46770ef0dbc9adeb6d2d62b5b919d1afde7"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:53+00:00",
+      "documentEffectiveDate": "2025-10-02",
+      "documentNumber": "2025-09856",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-2025-09856.htm.gz",
+      "inputSha256": "c01604803112be0ef29b85483fdc3739056d1b1c55fd52d20f737eeb034090ba",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 10391,
+      "originalPublicationKey": "usdot-faa:FR:2025-09856",
+      "originalSha256": "95880fde27121beb61202521bd025b1788fa32ddd8a954495ab4af3841178978",
+      "provider": "faa-fr",
+      "publicationDate": "2025-06-02",
+      "publicationType": "Rule",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2025-06-02/html/2025-09856.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-2025-09856",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Revocation of Class D and Class E4 Airspace; Establishment of Class E2 Airspace; Amendment of Class E5 Airspace, Aberdeen, MD",
+      "url": "https://www.federalregister.gov/documents/2025/06/02/2025-09856/revocation-of-class-d-and-class-e4-airspace-establishment-of-class-e2-airspace-amendment-of-class-e5",
+      "version": "sha256:95880fde27121beb61202521bd025b1788fa32ddd8a954495ab4af3841178978"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:53+00:00",
+      "documentEffectiveDate": null,
+      "documentNumber": "2023-01022",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-2023-01022.htm.gz",
+      "inputSha256": "4fdbccdeaa081533df4baf7840f8e91794d7a44f9c1786b9900f7c29ab212fa8",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 41459,
+      "originalPublicationKey": "usdot-faa:FR:2023-01022",
+      "originalSha256": "bd98012dc221a9b2fb363d35fc3b3d70042fcbae9f0ac7471e5d68f1ecc0028b",
+      "provider": "faa-fr",
+      "publicationDate": "2023-01-27",
+      "publicationType": "Proposed Rule",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2023-01-27/html/2023-01022.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-2023-01022",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Amendment of the Nashville International Airport Class C Airspace; Nashville, TN; and the John C. Tune Airport Class D Airspace; Nashville, TN",
+      "url": "https://www.federalregister.gov/documents/2023/01/27/2023-01022/amendment-of-the-nashville-international-airport-class-c-airspace-nashville-tn-and-the-john-c-tune",
+      "version": "sha256:bd98012dc221a9b2fb363d35fc3b3d70042fcbae9f0ac7471e5d68f1ecc0028b"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:53+00:00",
+      "documentEffectiveDate": null,
+      "documentNumber": "2022-22901",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-2022-22901.htm.gz",
+      "inputSha256": "f2f01faf646ed409c9ee9f4dbd03429f7657f4dcdec9cc17e4ea97c492cfb7f4",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 11665,
+      "originalPublicationKey": "usdot-faa:FR:2022-22901",
+      "originalSha256": "6a549a22c1a584f3651914ae4fdc150993acd9d04adfe9abe9399aa76daa568f",
+      "provider": "faa-fr",
+      "publicationDate": "2022-10-28",
+      "publicationType": "Proposed Rule",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2022-10-28/html/2022-22901.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-2022-22901",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Proposed Amendment of Class D and E Airspace; Hickory and Morganton, NC",
+      "url": "https://www.federalregister.gov/documents/2022/10/28/2022-22901/proposed-amendment-of-class-d-and-e-airspace-hickory-and-morganton-nc",
+      "version": "sha256:6a549a22c1a584f3651914ae4fdc150993acd9d04adfe9abe9399aa76daa568f"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:53+00:00",
+      "documentEffectiveDate": "2017-02-02",
+      "documentNumber": "2016-28726",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-2016-28726.htm.gz",
+      "inputSha256": "ac46ec35e0358eae13b247a59232bc7e883bdfcd77124aa9a2dcc3a37ddbbe31",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 11115,
+      "originalPublicationKey": "usdot-faa:FR:2016-28726",
+      "originalSha256": "ba4376020d961f30e0dcd5d3adb9ee05f53c18d1977d6f2dc4611aef5d94e7d1",
+      "provider": "faa-fr",
+      "publicationDate": "2016-12-01",
+      "publicationType": "Rule",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2016-12-01/html/2016-28726.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-2016-28726",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Amendment of Class C Airspace; El Paso International Airport, TX",
+      "url": "https://www.federalregister.gov/documents/2016/12/01/2016-28726/amendment-of-class-c-airspace-el-paso-international-airport-tx",
+      "version": "sha256:ba4376020d961f30e0dcd5d3adb9ee05f53c18d1977d6f2dc4611aef5d94e7d1"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:53+00:00",
+      "documentEffectiveDate": null,
+      "documentNumber": "2016-19556",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-2016-19556.htm.gz",
+      "inputSha256": "bb60ef110daf7cd1d99de3becb6aab8e818f30a0d79a86e7b52f957fa2081641",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 12799,
+      "originalPublicationKey": "usdot-faa:FR:2016-19556",
+      "originalSha256": "10f86e603e511bc22e06e743e9d96f5b20af6df07eebfde946e0484eef07c5f1",
+      "provider": "faa-fr",
+      "publicationDate": "2016-08-17",
+      "publicationType": "Proposed Rule",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2016-08-17/html/2016-19556.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-2016-19556",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Proposed Amendment of Class C Airspace; El Paso International Airport, TX",
+      "url": "https://www.federalregister.gov/documents/2016/08/17/2016-19556/proposed-amendment-of-class-c-airspace-el-paso-international-airport-tx",
+      "version": "sha256:10f86e603e511bc22e06e743e9d96f5b20af6df07eebfde946e0484eef07c5f1"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:54+00:00",
+      "documentEffectiveDate": "2016-11-10",
+      "documentNumber": "2016-19244",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-2016-19244.htm.gz",
+      "inputSha256": "97a6c7802e930a402ccbd3b9aaecf79709d96f29cf7c8036e3bfcbdfffcaefb7",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 9650,
+      "originalPublicationKey": "usdot-faa:FR:2016-19244",
+      "originalSha256": "9b394b9ce9bc87f49f23ab8267b5933a3f563eaa17522214b4d0b0ff1ce53054",
+      "provider": "faa-fr",
+      "publicationDate": "2016-08-15",
+      "publicationType": "Rule",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2016-08-15/html/2016-19244.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-2016-19244",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Amendment of Class C Airspace; Syracuse Hancock International Airport, NY",
+      "url": "https://www.federalregister.gov/documents/2016/08/15/2016-19244/amendment-of-class-c-airspace-syracuse-hancock-international-airport-ny",
+      "version": "sha256:9b394b9ce9bc87f49f23ab8267b5933a3f563eaa17522214b4d0b0ff1ce53054"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:54+00:00",
+      "documentEffectiveDate": "2016-09-15",
+      "documentNumber": "2016-13551",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-2016-13551.htm.gz",
+      "inputSha256": "b09f188a37549f3bb2781511c8f7684409fe61b8f44dcb4e9a3baf447b14541e",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 8914,
+      "originalPublicationKey": "usdot-faa:FR:2016-13551",
+      "originalSha256": "b0aa2f3e10151cfce0c88bb9b3d3937e7ea7d4e204544c0f6ed196c638193cf2",
+      "provider": "faa-fr",
+      "publicationDate": "2016-06-09",
+      "publicationType": "Rule",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2016-06-09/html/2016-13551.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-2016-13551",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Amendment of Class C Airspace; Capital Region International Airport, MI",
+      "url": "https://www.federalregister.gov/documents/2016/06/09/2016-13551/amendment-of-class-c-airspace-capital-region-international-airport-mi",
+      "version": "sha256:b0aa2f3e10151cfce0c88bb9b3d3937e7ea7d4e204544c0f6ed196c638193cf2"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:54+00:00",
+      "documentEffectiveDate": null,
+      "documentNumber": "2016-06833",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-2016-06833.htm.gz",
+      "inputSha256": "7cd4c2338c7a09d0750ad2210419595f09032df4f736428883820751895b7b9b",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 11588,
+      "originalPublicationKey": "usdot-faa:FR:2016-06833",
+      "originalSha256": "ec4bda6b3cbcddbe2af19d3bfdce2691fbf9dc2aec54f3262958d5a1fb09ff90",
+      "provider": "faa-fr",
+      "publicationDate": "2016-03-28",
+      "publicationType": "Proposed Rule",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2016-03-28/html/2016-06833.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-2016-06833",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Proposed Amendment of Class C Airspace; Syracuse Hancock International Airport, NY",
+      "url": "https://www.federalregister.gov/documents/2016/03/28/2016-06833/proposed-amendment-of-class-c-airspace-syracuse-hancock-international-airport-ny",
+      "version": "sha256:ec4bda6b3cbcddbe2af19d3bfdce2691fbf9dc2aec54f3262958d5a1fb09ff90"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:54+00:00",
+      "documentEffectiveDate": null,
+      "documentNumber": "2015-29912",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-2015-29912.htm.gz",
+      "inputSha256": "51914f390de2794aafdf19a7db8b5ae281f1291d29b58621e63b7f538ccc1a60",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 11868,
+      "originalPublicationKey": "usdot-faa:FR:2015-29912",
+      "originalSha256": "2706a283feacdc36381b515d67efb0ad17c21d786b468bb374b142cefb66d3a4",
+      "provider": "faa-fr",
+      "publicationDate": "2015-11-27",
+      "publicationType": "Proposed Rule",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2015-11-27/html/2015-29912.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-2015-29912",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Proposed Amendment of Class C Airspace; Capital Region International Airport, MI",
+      "url": "https://www.federalregister.gov/documents/2015/11/27/2015-29912/proposed-amendment-of-class-c-airspace-capital-region-international-airport-mi",
+      "version": "sha256:2706a283feacdc36381b515d67efb0ad17c21d786b468bb374b142cefb66d3a4"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:54+00:00",
+      "documentEffectiveDate": null,
+      "documentNumber": "2014-08205",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-2014-08205.htm.gz",
+      "inputSha256": "a9ca1d7cc51cacf07a93f7c836d5699db9b32504c0182a0906da84c0848d714c",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 4837,
+      "originalPublicationKey": "usdot-faa:FR:2014-08205",
+      "originalSha256": "5aad50debf7d017f63c22bde7f8e92325238cf1b4624e0df2cba2063927c74c8",
+      "provider": "faa-fr",
+      "publicationDate": "2014-04-11",
+      "publicationType": "Notice",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2014-04-11/html/2014-08205.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-2014-08205",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Notice of a Non-Aeronautical Land-Use Change Effecting the Quitclaim Deed and Federal Grant Assurance Obligations at A.B. Won Pat Guam International Airport, Tamuning, Guam",
+      "url": "https://www.federalregister.gov/documents/2014/04/11/2014-08205/notice-of-a-non-aeronautical-land-use-change-effecting-the-quitclaim-deed-and-federal-grant",
+      "version": "sha256:5aad50debf7d017f63c22bde7f8e92325238cf1b4624e0df2cba2063927c74c8"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:54+00:00",
+      "documentEffectiveDate": "2013-06-27",
+      "documentNumber": "2013-10810",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-2013-10810.htm.gz",
+      "inputSha256": "91425f40a4dff692bdda7ee1951c8098f5fe29c30c46ac3af5c24e8b4fb397fb",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 9158,
+      "originalPublicationKey": "usdot-faa:FR:2013-10810",
+      "originalSha256": "dcbbe4073a63d1b5393820e55d9b26a7c5717e7982b5cac992edd456fe3fce7d",
+      "provider": "faa-fr",
+      "publicationDate": "2013-05-09",
+      "publicationType": "Rule",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2013-05-09/html/2013-10810.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-2013-10810",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Modification of Class C Airspace; Nashville International Airport; TN",
+      "url": "https://www.federalregister.gov/documents/2013/05/09/2013-10810/modification-of-class-c-airspace-nashville-international-airport-tn",
+      "version": "sha256:dcbbe4073a63d1b5393820e55d9b26a7c5717e7982b5cac992edd456fe3fce7d"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:55+00:00",
+      "documentEffectiveDate": null,
+      "documentNumber": "2013-02053",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-2013-02053.htm.gz",
+      "inputSha256": "41b7213f97bdbcbc0a57ed352f7493e798b10e74d2c6814d921158a8d1e685b1",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 9969,
+      "originalPublicationKey": "usdot-faa:FR:2013-02053",
+      "originalSha256": "174fa39a903ba4fe9db6d3df6a14ee8e264f6b2f291a5f77e3aab9d8eac64cbb",
+      "provider": "faa-fr",
+      "publicationDate": "2013-01-30",
+      "publicationType": "Proposed Rule",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2013-01-30/html/2013-02053.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-2013-02053",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Proposed Amendment of Class C Airspace; Nashville International Airport, TN",
+      "url": "https://www.federalregister.gov/documents/2013/01/30/2013-02053/proposed-amendment-of-class-c-airspace-nashville-international-airport-tn",
+      "version": "sha256:174fa39a903ba4fe9db6d3df6a14ee8e264f6b2f291a5f77e3aab9d8eac64cbb"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:55+00:00",
+      "documentEffectiveDate": null,
+      "documentNumber": "E9-190",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-E9-190.htm.gz",
+      "inputSha256": "00a9b71379407505bbcc3f9fd1a83e6f9422c92360c18683b93598a96d077fa4",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 6660,
+      "originalPublicationKey": "usdot-faa:FR:E9-190",
+      "originalSha256": "f3065fc6e908390e0fba7a4717b64f816d80b4f481a62049ee48bf7da553d38c",
+      "provider": "faa-fr",
+      "publicationDate": "2009-01-09",
+      "publicationType": "Notice",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2009-01-09/html/E9-190.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-E9-190",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Notice of Availability of the Record of Decision (ROD) for the Final Environmental Impact Statement (Final EIS) for the Development and Expansion of Runway 9R/27L and Other Associated Airport Projects at Fort Lauderdale-Hollywood International Airport (FLL), Broward County, FL, Published in June 2008",
+      "url": "https://www.federalregister.gov/documents/2009/01/09/E9-190/notice-of-availability-of-the-record-of-decision-rod-for-the-final-environmental-impact-statement",
+      "version": "sha256:f3065fc6e908390e0fba7a4717b64f816d80b4f481a62049ee48bf7da553d38c"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:55+00:00",
+      "documentEffectiveDate": null,
+      "documentNumber": "E8-18135",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-E8-18135.htm.gz",
+      "inputSha256": "734d350f343e294b8e62e5c4bc433fb7d9e684e3d344ec5f7eb3b49c10062981",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 6444,
+      "originalPublicationKey": "usdot-faa:FR:E8-18135",
+      "originalSha256": "3dd4d947c32c113e2ffb962865178d85207e58a411e03617b46452d568af77a6",
+      "provider": "faa-fr",
+      "publicationDate": "2008-08-11",
+      "publicationType": "Rule",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2008-08-11/html/E8-18135.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-E8-18135",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Modification of Class E Airspace; Rome, NY",
+      "url": "https://www.federalregister.gov/documents/2008/08/11/E8-18135/modification-of-class-e-airspace-rome-ny",
+      "version": "sha256:3dd4d947c32c113e2ffb962865178d85207e58a411e03617b46452d568af77a6"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:55+00:00",
+      "documentEffectiveDate": null,
+      "documentNumber": "E8-9852",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-E8-9852.htm.gz",
+      "inputSha256": "f35d639d473b486ce2dd922cb5fab65552e51d5e205a500c35afa5ecb50f2e9c",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 8971,
+      "originalPublicationKey": "usdot-faa:FR:E8-9852",
+      "originalSha256": "76dd1445ab5bf3bab752ec0f5a4253f15d2d6f4089d4a543902f953524705c33",
+      "provider": "faa-fr",
+      "publicationDate": "2008-05-08",
+      "publicationType": "Proposed Rule",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2008-05-08/html/E8-9852.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-E8-9852",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Modification of Class E Airspace; Rome, NY",
+      "url": "https://www.federalregister.gov/documents/2008/05/08/E8-9852/modification-of-class-e-airspace-rome-ny",
+      "version": "sha256:76dd1445ab5bf3bab752ec0f5a4253f15d2d6f4089d4a543902f953524705c33"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:55+00:00",
+      "documentEffectiveDate": null,
+      "documentNumber": "07-4332",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-07-4332.htm.gz",
+      "inputSha256": "0f6a35b4cc82ac9ee7ed3e3f45c1cbe3f835a9ea4bdd6f2d59e7038b6c3c2030",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 8816,
+      "originalPublicationKey": "usdot-faa:FR:07-4332",
+      "originalSha256": "191d1170c719548e7ca96becf1a637b4c0f6c740496df98ead806062924389d3",
+      "provider": "faa-fr",
+      "publicationDate": "2007-09-07",
+      "publicationType": "Rule",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2007-09-07/html/07-4332.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-07-4332",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Removal of Class D and E Airspace; Utica, NY; Amendment of Class D and E Airspace; Rome, NY; Establishment of Class E Airspace; Rome, NY",
+      "url": "https://www.federalregister.gov/documents/2007/09/07/07-4332/removal-of-class-d-and-e-airspace-utica-ny-amendment-of-class-d-and-e-airspace-rome-ny-establishment",
+      "version": "sha256:191d1170c719548e7ca96becf1a637b4c0f6c740496df98ead806062924389d3"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:55+00:00",
+      "documentEffectiveDate": null,
+      "documentNumber": "06-9231",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-06-9231.htm.gz",
+      "inputSha256": "4e79fd92e7a431d8033c42e432e88b20b6329b7b21165f4b91959f4a38c7008d",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 4756,
+      "originalPublicationKey": "usdot-faa:FR:06-9231",
+      "originalSha256": "6598192404c34ef12d5e3c120621aa55a3c0f550973a2edaa044349064deb271",
+      "provider": "faa-fr",
+      "publicationDate": "2006-11-21",
+      "publicationType": "Rule",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2006-11-21/html/06-9231.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-06-9231",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Removal of Class E Airspace; Cedar Springs, GA",
+      "url": "https://www.federalregister.gov/documents/2006/11/21/06-9231/removal-of-class-e-airspace-cedar-springs-ga",
+      "version": "sha256:6598192404c34ef12d5e3c120621aa55a3c0f550973a2edaa044349064deb271"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:56+00:00",
+      "documentEffectiveDate": null,
+      "documentNumber": "06-5184",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-06-5184.htm.gz",
+      "inputSha256": "7cadc35840c784cf4cca5a3da9b7c25de916538ccb63247212572c938570325e",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 5371,
+      "originalPublicationKey": "usdot-faa:FR:06-5184",
+      "originalSha256": "844c6b6f0c16481bedae5b5f173064ccdf8c75bfa7215c6134485cabeb9fbeb9",
+      "provider": "faa-fr",
+      "publicationDate": "2006-06-07",
+      "publicationType": "Rule",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2006-06-07/html/06-5184.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-06-5184",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Removal of Class D and E Airspace; Roosevelt Roads, PR Amendment of Class E Airspace; Isla de Vieques, PR",
+      "url": "https://www.federalregister.gov/documents/2006/06/07/06-5184/removal-of-class-d-and-e-airspace-roosevelt-roads-pr-amendment-of-class-e-airspace-isla-de-vieques",
+      "version": "sha256:844c6b6f0c16481bedae5b5f173064ccdf8c75bfa7215c6134485cabeb9fbeb9"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:56+00:00",
+      "documentEffectiveDate": null,
+      "documentNumber": "03-19166",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-03-19166.htm.gz",
+      "inputSha256": "8f9de867039509c502e7eb4dd8da0d56bd8bda395b4c6dbe2f9bf1ea402fc097",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 8209,
+      "originalPublicationKey": "usdot-faa:FR:03-19166",
+      "originalSha256": "b92a200e0cc954587c77819c57ca33b7a03db07eec8c78dabddb176d0053b3ed",
+      "provider": "faa-fr",
+      "publicationDate": "2003-07-28",
+      "publicationType": "Proposed Rule",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2003-07-28/html/03-19166.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-03-19166",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Proposed Revocation of Class D Airspace; Chicago, IL",
+      "url": "https://www.federalregister.gov/documents/2003/07/28/03-19166/proposed-revocation-of-class-d-airspace-chicago-il",
+      "version": "sha256:b92a200e0cc954587c77819c57ca33b7a03db07eec8c78dabddb176d0053b3ed"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:57+00:00",
+      "documentEffectiveDate": null,
+      "documentNumber": "02-14785",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-02-14785.htm.gz",
+      "inputSha256": "6272b3b4a0f8a20228f97a90e239bde2847401263b21ea6e7e5cec1b93a2686c",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 1290513,
+      "originalPublicationKey": "usdot-faa:FR:02-14785",
+      "originalSha256": "b00fd233777a32922f0927a4b3e635781eb4e1345857d78377e5c460246d56e4",
+      "provider": "faa-fr",
+      "publicationDate": "2002-09-25",
+      "publicationType": "Proposed Rule",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2002-09-25/html/02-14785.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-02-14785",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Flight Simulation Device Initial and Continuing Qualification and Use",
+      "url": "https://www.federalregister.gov/documents/2002/09/25/02-14785/flight-simulation-device-initial-and-continuing-qualification-and-use",
+      "version": "sha256:b00fd233777a32922f0927a4b3e635781eb4e1345857d78377e5c460246d56e4"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:57+00:00",
+      "documentEffectiveDate": null,
+      "documentNumber": "00-26515",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-00-26515.htm.gz",
+      "inputSha256": "266ecf3c77e01d4242326b29c4c80eaf353e385fd7337ab4bc41e9643f2862d2",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 3477,
+      "originalPublicationKey": "usdot-faa:FR:00-26515",
+      "originalSha256": "601f824809123eaee26c4ba3a2ee85ab1bbc2c5545af18d3ec8be5cb89dc1cb7",
+      "provider": "faa-fr",
+      "publicationDate": "2000-10-16",
+      "publicationType": "Notice",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2000-10-16/html/00-26515.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-00-26515",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Public Notice for Waiver of Aeronautical Land-Use Assurance, Rhinelander-Oneida County Airport, Rhinelander, WI",
+      "url": "https://www.federalregister.gov/documents/2000/10/16/00-26515/public-notice-for-waiver-of-aeronautical-land-use-assurance-rhinelander-oneida-county-airport",
+      "version": "sha256:601f824809123eaee26c4ba3a2ee85ab1bbc2c5545af18d3ec8be5cb89dc1cb7"
+    },
+    {
+      "accessRestrictions": "Public anonymous HTTP; moderate sequential requests; upstream can change or rate-limit.",
+      "accessedAt": "2026-10-28T13:16:57+00:00",
+      "documentEffectiveDate": null,
+      "documentNumber": "97-22500",
+      "independence": {
+        "independentOfDirectoryPublication": true,
+        "mirrorsCountAsIndependent": false,
+        "originalIssuer": true,
+        "underlyingFactLineage": "not_established_per_claim"
+      },
+      "inputPath": "inputs/fr-97-22500.htm.gz",
+      "inputSha256": "272bb2762dd1ba7654de136cb6c443c13fa4ef34c08f340815070d4a637f820f",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "limitations": [
+        "Proposed/final rule effectiveness is not a facility closure, opening or code allocation date.",
+        "An air traffic tower or runway closure does not establish airport closure.",
+        "Metadata search is discovery only; GovInfo contains the original agency publication."
+      ],
+      "originalBytes": 1364,
+      "originalPublicationKey": "usdot-faa:FR:97-22500",
+      "originalSha256": "85145df75df92d300cafa17d5e19e33705bfe959a4e2b4a160df2b5c956f7c68",
+      "provider": "faa-fr",
+      "publicationDate": "1997-08-25",
+      "publicationType": "Notice",
+      "publisher": "Federal Aviation Administration; published by Office of the Federal Register/GPO",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-1997-08-25/html/97-22500.htm",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-fr-97-22500",
+      "sourceType": "primary",
+      "supports": [
+        "FAA statements and regulatory location blocks in the cited original paragraphs."
+      ],
+      "title": "Flight Service Station at Pierre Regional Airport, Pierre, South Dakota",
+      "url": "https://www.federalregister.gov/documents/1997/08/25/97-22500/flight-service-station-at-pierre-regional-airport-pierre-south-dakota",
+      "version": "sha256:85145df75df92d300cafa17d5e19e33705bfe959a4e2b4a160df2b5c956f7c68"
+    }
+  ]
+}

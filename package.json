@@ -14,7 +14,7 @@
     "validate:data": "node scripts/validate.ts",
     "test": "vitest run",
     "build": "node scripts/build.ts",
-    "check": "pnpm typecheck && pnpm validate:data && pnpm test && pnpm test:research && pnpm research:validate && pnpm reference:validate && pnpm test:reference && pnpm build",
+    "check": "pnpm typecheck && pnpm validate:data && pnpm test && pnpm test:research && pnpm research:validate && pnpm reference:validate && pnpm test:reference && pnpm evidence:validate && pnpm test:evidence && pnpm build",
     "research:fetch": "python3 scripts/discovery/fetch.py",
     "research:scan": "python3 scripts/discovery/scan.py",
     "research:report": "python3 scripts/discovery/report.py",
@@ -24,10 +24,15 @@
     "reference:fetch": "python3 scripts/reference/fetch.py",
     "reference:build": "python3 scripts/reference/build.py && python3 scripts/reference/triage.py",
     "reference:lookup": "python3 scripts/reference/query.py",
-    "reference:review": "python3 scripts/reference/admissions.py",
+    "reference:review": "python3 scripts/evidence/review.py",
     "reference:validate": "node scripts/reference/validate-schema.ts && python3 scripts/reference/validate.py",
     "test:reference": "python3 -m unittest discover -s test/reference -v",
-    "reference:fetch-timezones": "python3 scripts/reference/timezones.py --fetch"
+    "reference:fetch-timezones": "python3 scripts/reference/timezones.py --fetch",
+    "evidence:fetch": "python3 scripts/evidence/fetch.py",
+    "evidence:build": "python3 scripts/evidence/pipeline.py build",
+    "evidence:validate": "node scripts/evidence/validate-schema.ts && python3 scripts/evidence/pipeline.py validate",
+    "test:evidence": "python3 -m unittest discover -s test/evidence -v",
+    "compat:fly": "python3 scripts/compat/run-fly.py"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",

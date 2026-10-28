@@ -1,0 +1,260 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Primary publication observation 1.0.0",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "observationId",
+    "sourceId",
+    "sourceFamily",
+    "originalPublicationKey",
+    "locator",
+    "name",
+    "observedAt",
+    "kind",
+    "country",
+    "publicationDate",
+    "documentEffectiveDate",
+    "historicalObservationDate",
+    "formatVersion",
+    "historicallyVerified",
+    "eventDate",
+    "coordinates",
+    "codes",
+    "attributeInterval",
+    "supports",
+    "doesNotEstablish",
+    "qualityFlags"
+  ],
+  "properties": {
+    "observationId": {
+      "type": "string"
+    },
+    "sourceId": {
+      "type": "string"
+    },
+    "sourceFamily": {
+      "type": "string"
+    },
+    "originalPublicationKey": {
+      "type": "string"
+    },
+    "locator": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "observedAt": {
+      "type": "string"
+    },
+    "kind": {
+      "type": "string"
+    },
+    "country": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "publicationDate": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "documentEffectiveDate": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "historicalObservationDate": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "formatVersion": {
+      "const": 1
+    },
+    "historicallyVerified": {
+      "const": false
+    },
+    "eventDate": {
+      "type": "null"
+    },
+    "coordinates": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "latitude",
+        "longitude"
+      ],
+      "properties": {
+        "latitude": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90
+        },
+        "longitude": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180
+        }
+      }
+    },
+    "codes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "scheme",
+          "code"
+        ],
+        "properties": {
+          "scheme": {
+            "enum": [
+              "USDOT",
+              "IATA",
+              "ICAO"
+            ]
+          },
+          "code": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "attributeInterval": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "from",
+        "through",
+        "semantics"
+      ],
+      "properties": {
+        "from": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "through": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "semantics": {
+          "type": "string"
+        }
+      }
+    },
+    "supports": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "doesNotEstablish": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "qualityFlags": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "authorityRecordId": {
+      "type": "string"
+    },
+    "authorityAirportId": {
+      "type": "string"
+    },
+    "reportedClosed": {
+      "type": "boolean"
+    },
+    "excerpt": {
+      "type": "string"
+    },
+    "referenceHints": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "reportedEventBounds": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "earliest",
+        "latest",
+        "precision"
+      ],
+      "properties": {
+        "earliest": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "latest": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "precision": {
+          "enum": [
+            "year",
+            "unknown"
+          ]
+        }
+      }
+    },
+    "curatedBoundaryWarnings": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "assignmentId",
+          "statisticalFrom",
+          "curatedFromEarliest",
+          "meaning"
+        ],
+        "properties": {
+          "assignmentId": {
+            "type": "string"
+          },
+          "statisticalFrom": {
+            "type": "string"
+          },
+          "curatedFromEarliest": {
+            "type": "string"
+          },
+          "meaning": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
