@@ -175,7 +175,7 @@ def parse_faa(source, raw, names):
         yield finish(o)
 
 
-def load_locked(directory=BASE):
+def load_locked(directory=BASE, providers=('bts-master', 'faa-fr')):
     lock = json.loads((directory / 'source-lock.json').read_text())
     sources = lock['sources']
     if len({s['sourceId'] for s in sources}) != len(sources):
@@ -196,7 +196,7 @@ def load_locked(directory=BASE):
             raise ValueError('Source access timestamp needs a timezone')
         if not all(source[key].startswith('https://') for key in ['url', 'retrievalUrl']):
             raise ValueError('Missing concrete HTTPS publication URL')
-        if source['provider'] not in ['bts-master', 'faa-fr']:
+        if source['provider'] not in providers:
             raise ValueError('Unknown primary provider')
         yield source, raw
 
@@ -399,14 +399,14 @@ def build(output=OUT):
                'sameOriginalDuplicatesRemoved': duplicates, 'matchedObservations': len(observations) - len(unmatched),
                'unmatchedObservations': len(unmatched), 'candidateLinks': len(links),
                'matchedCandidateGroups': len({a['eventGroupId'] for a in links}),
-               'conflictingGroups': len({a['eventGroupId'] for a in links if a['status'] == 'conflict'}),
-               'ambiguousGroups': len({a['eventGroupId'] for a in links if a['status'] == 'ambiguous'}),
+               'associationConflictGroups': len({a['eventGroupId'] for a in links if a['status'] == 'conflict'}),
+               'identityAmbiguityGroups': len({a['eventGroupId'] for a in links if a['status'] == 'ambiguous'}),
                'priorityGroups': len({a['eventGroupId'] for a in links if a['priorityCodeReuseLead']}),
                'priorityCodeLeadsWithAttachments': sum(bool(set(lead['referenceIds']) & {a['referenceId'] for a in links})
                     for lead in read_jsonl(TRIAGE / 'code-reuse-leads.jsonl.gz')),
                'curatedBoundaryWarningObservations': sum('curatedBoundaryWarnings' in o for o in observations.values()),
                'directoryCorrectionContextGroups': len({a['eventGroupId'] for a in links if a['directoryCorrection'] == 'context_only'}),
-               'adjudicatedDirectoryCorrections': 0, 'pendingReviewGroups': sum(len(b['events']) for b in batches),
+               'adjudicatedDirectoryCorrections': 0, 'confirmedHistoricalCodeConflicts': 0, 'pendingReviewGroups': sum(len(b['events']) for b in batches),
                'reviewPackets': len(batches), 'existingReviewAttachments': len(owned),
                'newVerifiedHistoricalAdmissions': 0, 'eventDatesInferredFromDirectoryCommits': 0}
     write_json(output / 'metrics.json', metrics)

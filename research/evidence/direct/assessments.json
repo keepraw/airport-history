@@ -1,0 +1,669 @@
+{
+  "assignments": [
+    {
+      "assignmentId": "proposal-icao-pfn",
+      "boundaryAssessment": "Stop certain coverage before the announced closure day; code withdrawal is unknown.",
+      "code": "KPFN",
+      "continuityAssessment": "Codex recommendation only: interpolate the same site/indicator between cited observations under the explicit FAA namespace rule. This is continuity_inference, not independently verified daily use; human acceptance is required.",
+      "factIds": [
+        "pfn-code",
+        "icao-rule-2009",
+        "panama-transfer"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "pfn",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2009-05-08",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2010-05-22",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "proposal-icao-ecp",
+      "boundaryAssessment": "Administrative code association at the replacement; exact first allocation/opening and continuity need human assessment.",
+      "code": "KECP",
+      "continuityAssessment": "Codex recommendation only: interpolate the same site/indicator between cited observations under the explicit FAA namespace rule. This is continuity_inference, not independently verified daily use; human acceptance is required.",
+      "factIds": [
+        "ecp-code",
+        "icao-rule-2014",
+        "panama-taf",
+        "panama-actual"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "ecp",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2010-05-24",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2014-07-24",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "proposal-icao-sgu-old",
+      "boundaryAssessment": "Conservative endpoint before TAF transition; not a claimed code withdrawal on January 12 or decommission on January 13.",
+      "code": "KSGU",
+      "continuityAssessment": "Codex recommendation only: interpolate the same site/indicator between cited observations under the explicit FAA namespace rule. This is continuity_inference, not independently verified daily use; human acceptance is required.",
+      "factIds": [
+        "sgu-old-code",
+        "icao-rule-2009",
+        "sgu-taf-start",
+        "sgu-decommission"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "sgu-old",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2009-05-08",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2011-01-12",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "proposal-icao-sgu-new",
+      "boundaryAssessment": "No direct allocation at January 2011 opening. December 15 is a TAF switch; whole local date after it supplies a proposed conservative start bound.",
+      "code": "KSGU",
+      "continuityAssessment": "Codex recommendation only: interpolate the same site/indicator between cited observations under the explicit FAA namespace rule. This is continuity_inference, not independently verified daily use; human acceptance is required.",
+      "factIds": [
+        "sgu-new-code",
+        "icao-rule-2014",
+        "sgu-taf-restore"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "sgu-new",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2011-12-16",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2014-07-24",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "proposal-icao-isn",
+      "boundaryAssessment": "Do not bridge the unobserved 2014-2019 interval or turn statutory closure into indicator withdrawal.",
+      "code": "KISN",
+      "continuityAssessment": "Codex recommendation only: interpolate the same site/indicator between cited observations under the explicit FAA namespace rule. This is continuity_inference, not independently verified daily use; human acceptance is required.",
+      "factIds": [
+        "isn-code-2009",
+        "isn-code-2014",
+        "icao-rule-2009",
+        "icao-rule-2014",
+        "williston-announced"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "isn",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2009-05-08",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2014-07-24",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "proposal-icao-xwa",
+      "boundaryAssessment": "Administrative designation can predate opening. Stop certain coverage at the later FAA physical-site observation; RTMA list maintenance is context only and supplies no allocation endpoint. Continuous allocation needs review.",
+      "code": "KXWA",
+      "continuityAssessment": "Codex recommendation only: interpolate the same site/indicator between cited observations under the explicit FAA namespace rule. This is continuity_inference, not independently verified daily use; human acceptance is required.",
+      "factIds": [
+        "williston-xwa-code",
+        "icao-rule-2009",
+        "icao-rule-2014",
+        "williston-actual"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "xwa",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2019-08-30",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2020-05-06",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "proposal-icao-hdi",
+      "boundaryAssessment": "Limit the proposed continuity to the next scheduled directory edition. Later operational versus statutory closure chronology remains blocked.",
+      "code": "KHDI",
+      "continuityAssessment": "Codex recommendation only: interpolate the same site/indicator between cited observations under the explicit FAA namespace rule. This is continuity_inference, not independently verified daily use; human acceptance is required.",
+      "factIds": [
+        "hdi-code",
+        "icao-rule-2009",
+        "cleveland-earlier-closure",
+        "cleveland-statutory-closure"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "hdi",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2009-05-08",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2009-08-27",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "proposal-icao-rzr",
+      "boundaryAssessment": "Separate new physical site. No exact opening day or IATA assignment is asserted.",
+      "code": "KRZR",
+      "continuityAssessment": "Codex recommendation only: interpolate the same site/indicator between cited observations under the explicit FAA namespace rule. This is continuity_inference, not independently verified daily use; human acceptance is required.",
+      "factIds": [
+        "rzr-code",
+        "icao-rule-2014",
+        "cleveland-replacement"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "rzr",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2014-02-06",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2014-07-24",
+        "latest": null,
+        "precision": "unknown"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "caseId": "panama",
+      "factIds": [
+        "panama-transfer",
+        "panama-taf",
+        "panama-actual"
+      ],
+      "findings": "Two regulatory physical locations ~20 km apart. NWS supplies announced local event days separately from UTC TAF effectiveness; later FAA confirms actual operations only to month precision.",
+      "gaps": [
+        "Exact-day execution remains uncorroborated retrospectively.",
+        "No IATA ledger or first-allocation/withdrawal decision."
+      ],
+      "groupIds": [
+        "dup_74d59eb493cd15e3e5b56600",
+        "lead_aab2291b41e2412c65ac4a5b"
+      ],
+      "siteKeys": [
+        "pfn",
+        "ecp"
+      ]
+    },
+    {
+      "caseId": "st-george",
+      "factIds": [
+        "sgu-taf-start",
+        "sgu-temp-code",
+        "sgu-taf-restore",
+        "sgu-decommission",
+        "sgu-distance-error",
+        "sgu-sample"
+      ],
+      "findings": "Distinct former/replacement coordinates. Temporary KDXZ precedes KSGU restoration; no direct KSGU transfer at opening. FAA decommission date, TAF dates and unsigned policy sample are separate claims.",
+      "gaps": [
+        "KDXZ ICAO interval withheld pending authenticated FAA ledger.",
+        "Exact operational opening and KSGU withdrawal/reallocation remain unknown.",
+        "FAA property-notice approximate distance is inconsistent with regulatory coordinates."
+      ],
+      "groupIds": [
+        "dup_585be9d35b00cb9985f5390c",
+        "lead_a7bfe0e7628279fd26fb7b41",
+        "lead_d793a5593999957918b16afb"
+      ],
+      "siteKeys": [
+        "sgu-old",
+        "sgu-new"
+      ]
+    },
+    {
+      "caseId": "williston",
+      "factIds": [
+        "williston-announced",
+        "williston-xwa-code",
+        "williston-actual",
+        "williston-new-first-coordinate",
+        "williston-list-correction"
+      ],
+      "findings": "Separate Sloulin and Basin locations, statutory 2019 closure, later confirmation of closure, and same-site coordinate revision. RTMA maintenance years later is not another airport move.",
+      "gaps": [
+        "No independent retrospective confirmation of exact opening day.",
+        "ICAO is derived with the explicit FAA rule; IATA remains unproved.",
+        "RTMA notice has an internally inconsistent effective year."
+      ],
+      "groupIds": [
+        "dup_2b894340741269092660730a",
+        "lead_01bac8ce977266145372f540",
+        "lead_d968aea0b5ec9cc399ea4989",
+        "lead_df058146ff2e7d386b3b4d11"
+      ],
+      "siteKeys": [
+        "isn",
+        "xwa"
+      ]
+    },
+    {
+      "caseId": "cleveland",
+      "factIds": [
+        "cleveland-earlier-closure",
+        "cleveland-statutory-closure",
+        "cleveland-replacement"
+      ],
+      "findings": "Two named physical sites ~3 km apart; source assertions about closure chronology remain unresolved. No existing transition candidate group exists for these two reference records, so no synthetic candidate is invented.",
+      "gaps": [
+        "Need original operator log/NOTAM to separate actual last operations from administrative closure.",
+        "No exact-day opening, IATA history or mapped transition candidate."
+      ],
+      "groupIds": [],
+      "siteKeys": [
+        "hdi",
+        "rzr"
+      ]
+    }
+  ],
+  "decision": "proposed",
+  "facts": [
+    {
+      "anchor": "identifier preceded by “K”.",
+      "conclusion": "JO 7350.8G section 1-4-1 explicitly defines the international location indicator for contiguous-US airports as K plus the three-letter identifier. This is not an IATA conversion.",
+      "factId": "icao-rule-2009",
+      "kind": "namespace_rule",
+      "requiredContext": [
+        "contiguous United States is the three-letter",
+        "INTERNATIONAL LOCATION INDICATORS"
+      ],
+      "sourceId": "faa-2009"
+    },
+    {
+      "anchor": "United States is the three-letter identifier preceded by “K”.",
+      "conclusion": "JO 7350.9 section 1-4-1 retains the same contiguous-US international indicator rule.",
+      "factId": "icao-rule-2014",
+      "kind": "namespace_rule",
+      "requiredContext": [
+        "location indicator for airports in the contiguous",
+        "International Location Identifiers"
+      ],
+      "sourceId": "faa-2014"
+    },
+    {
+      "anchor": "PANAMA CITY-BAY CO INTL ARPT PFN GNV ZJX",
+      "conclusion": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+      "faaIdentifier": "PFN",
+      "factId": "pfn-code",
+      "jurisdiction": "contiguous-US",
+      "kind": "airport_identifier_row",
+      "observationDate": "2009-05-07",
+      "sourceId": "faa-2009"
+    },
+    {
+      "anchor": "ST GEORGE MUNI ARPT SGU CDC ZLA",
+      "conclusion": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+      "faaIdentifier": "SGU",
+      "factId": "sgu-old-code",
+      "jurisdiction": "contiguous-US",
+      "kind": "airport_identifier_row",
+      "observationDate": "2009-05-07",
+      "sourceId": "faa-2009"
+    },
+    {
+      "anchor": "SLOULIN FLD INTL ARPT, WILLISTON, ND ISN GFK ZLC",
+      "conclusion": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+      "faaIdentifier": "ISN",
+      "factId": "isn-code-2009",
+      "jurisdiction": "contiguous-US",
+      "kind": "airport_identifier_row",
+      "observationDate": "2009-05-07",
+      "sourceId": "faa-2009"
+    },
+    {
+      "anchor": "HARDWICK FIELD ARPT HDI BNA ZTL",
+      "conclusion": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+      "faaIdentifier": "HDI",
+      "factId": "hdi-code",
+      "jurisdiction": "contiguous-US",
+      "kind": "airport_identifier_row",
+      "observationDate": "2009-05-07",
+      "sourceId": "faa-2009"
+    },
+    {
+      "anchor": "NORTHWEST FLORIDA BEACHES INTL ECP GNV ZJX NOTTINGHAM, MD, ARPT, PANAMA CITY, FL",
+      "conclusion": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+      "faaIdentifier": "ECP",
+      "factId": "ecp-code",
+      "jurisdiction": "contiguous-US",
+      "kind": "airport_identifier_row",
+      "observationDate": "2014-07-24",
+      "sourceId": "faa-2014"
+    },
+    {
+      "anchor": "ST GEORGE MUNI ARPT SGU CDC ZLA",
+      "conclusion": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+      "faaIdentifier": "SGU",
+      "factId": "sgu-new-code",
+      "jurisdiction": "contiguous-US",
+      "kind": "airport_identifier_row",
+      "observationDate": "2014-07-24",
+      "sourceId": "faa-2014"
+    },
+    {
+      "anchor": "SLOULIN FLD INTL ARPT, WILLISTON, ND ISN GFK ZLC",
+      "conclusion": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+      "faaIdentifier": "ISN",
+      "factId": "isn-code-2014",
+      "jurisdiction": "contiguous-US",
+      "kind": "airport_identifier_row",
+      "observationDate": "2014-07-24",
+      "sourceId": "faa-2014"
+    },
+    {
+      "anchor": "CLEVELAND RGNL JETPORT ARPT RZR BNA ZTL",
+      "conclusion": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+      "faaIdentifier": "RZR",
+      "factId": "rzr-code",
+      "jurisdiction": "contiguous-US",
+      "kind": "airport_identifier_row",
+      "observationDate": "2014-07-24",
+      "sourceId": "faa-2014"
+    },
+    {
+      "anchor": "lat. 30°12'44\"N, long. 85°40'58\"W",
+      "conclusion": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+      "factId": "pfn-location",
+      "kind": "physical_location",
+      "sourceId": "airspace-2007",
+      "subject": "Panama City-Bay County Airport, FL"
+    },
+    {
+      "anchor": "lat. 37°05'26\"N., long. 113°35'35\"W.",
+      "conclusion": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+      "factId": "sgu-old-location",
+      "kind": "physical_location",
+      "sourceId": "airspace-2007",
+      "subject": "St. George Municipal Airport, UT"
+    },
+    {
+      "anchor": "Lat. 48°10′41″ N, long. 103°38′32″ W",
+      "conclusion": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+      "factId": "isn-location",
+      "kind": "physical_location",
+      "sourceId": "fr-2020-09591",
+      "subject": "Williston, Sloulin Field International Airport, ND"
+    },
+    {
+      "anchor": "lat. 35°13''12'N, long. 84°49''57'W",
+      "conclusion": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+      "factId": "hdi-location",
+      "kind": "physical_location",
+      "sourceId": "airspace-2007",
+      "subject": "Hardwick Field Airport"
+    },
+    {
+      "anchor": "lat. 30°21'28'' N., long. 85°47'56'' W.",
+      "conclusion": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+      "factId": "ecp-location",
+      "kind": "physical_location",
+      "sourceId": "airspace-2014",
+      "subject": "Northwest Florida-Panama City International Airport, FL"
+    },
+    {
+      "anchor": "lat. 37°02'11'' N., long. 113°30'37'' W.",
+      "conclusion": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+      "factId": "sgu-new-location",
+      "kind": "physical_location",
+      "sourceId": "airspace-2014",
+      "subject": "St. George Municipal Airport, UT"
+    },
+    {
+      "anchor": "Lat. 48°15′39″ N, long. 103°45′04″ W",
+      "conclusion": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+      "factId": "xwa-location",
+      "kind": "physical_location",
+      "sourceId": "fr-2020-09591",
+      "subject": "Williston Basin International Airport, ND"
+    },
+    {
+      "anchor": "Lat. 35[deg]12'41'' N., long. 84[deg]47'59'' W.",
+      "conclusion": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+      "factId": "rzr-location",
+      "kind": "physical_location",
+      "sourceId": "fr-2013-20499",
+      "subject": "Cleveland Regional Jetport, TN"
+    },
+    {
+      "additionalDate": "2010-05-23",
+      "anchor": "CLOSURE OF PANAMA CITY-BAY COUNTY INTERNATIONAL AIRPORT ON MAY 22 2010 AND THE NEXT DAY TRANSFER OF AVIATION SERVICES",
+      "conclusion": "NWS explicitly states an old-airport closure on May 22 and next-day service transfer to a new site; the advance notice is not proof of execution on each exact day.",
+      "date": "2010-05-22",
+      "dateSemantics": "announced_airport_closure_day",
+      "factId": "panama-transfer",
+      "kind": "scheduled_physical_transition",
+      "sourceId": "nws-panama"
+    },
+    {
+      "anchor": "EFFECTIVE MAY 23 2010 AT 0000 COORDINATED UNIVERSAL TIME /UTC/",
+      "conclusion": "TAF service changes at 0000 UTC, which is still May 22 in Florida. Do not substitute it for the local airport-opening day.",
+      "date": "2010-05-23",
+      "dateSemantics": "TAF_effective_UTC",
+      "factId": "panama-taf",
+      "kind": "service_effective",
+      "sourceId": "nws-panama"
+    },
+    {
+      "anchor": "began operations at the new site in May 2010",
+      "conclusion": "FAA retrospectively confirms actual new-site operations in May 2010, not the exact May 23 opening day.",
+      "date": "2010-05-01",
+      "dateSemantics": "actual_operation_month",
+      "factId": "panama-actual",
+      "kind": "retrospective_physical_transition",
+      "precision": "month",
+      "sourceId": "fr-2011-12359"
+    },
+    {
+      "anchor": "Effective January 12, 2011, at 1800 Coordinated Universal Time (UTC)",
+      "conclusion": "Replacement-airport TAF starts before the commonly reported opening. The corrected subject says KDXZ; the printed publication year says 2010 and is not silently repaired.",
+      "date": "2011-01-12",
+      "dateSemantics": "TAF_effective_UTC",
+      "factId": "sgu-taf-start",
+      "kind": "service_effective",
+      "sourceId": "nws-sgu-open"
+    },
+    {
+      "anchor": "KDXZ was a temporary identifier for the new airport in St. George",
+      "conclusion": "The new physical site used a temporary KDXZ identifier. An authenticated FAA allocation/withdrawal record is still needed for its ICAO interval.",
+      "factId": "sgu-temp-code",
+      "kind": "weather_identifier_history",
+      "sourceId": "nws-sgu-change"
+    },
+    {
+      "anchor": "Effective December 15, 2011, at 1900 Coordinated Universal Time (UTC)",
+      "conclusion": "The new-site TAF returns to KSGU. This dates weather dissemination, not necessarily the exact airport indicator allocation instant.",
+      "date": "2011-12-15",
+      "dateSemantics": "TAF_effective_UTC",
+      "factId": "sgu-taf-restore",
+      "kind": "service_effective",
+      "sourceId": "nws-sgu-change"
+    },
+    {
+      "anchor": "Airport was decommissioned on January 15, 2011",
+      "conclusion": "FAA retrospectively gives January 15 for former-airport decommissioning. This differs in scope from the replacement TAF on January 12; neither proves a KSGU transfer at opening.",
+      "date": "2011-01-15",
+      "dateSemantics": "former_airport_decommission_day",
+      "factId": "sgu-decommission",
+      "kind": "retrospective_physical_transition",
+      "sourceId": "fr-2012-23556"
+    },
+    {
+      "anchor": "in 2011 approximately 15 miles to the east",
+      "conclusion": "The approximate distance/direction in this property notice disagrees with the two regulatory coordinates (~9 km southeast). Keep the direct site coordinates; flag the prose discrepancy for review.",
+      "factId": "sgu-distance-error",
+      "kind": "geographical_discrepancy",
+      "sourceId": "fr-2012-23556"
+    },
+    {
+      "anchor": "Sample Waiver Letter and Form",
+      "conclusion": "Appendix E is an unsigned sample waiver. Its January 13 opening assertion and forecast reversion after a year or two cannot establish actual opening/allocation.",
+      "date": null,
+      "dateSemantics": "sample_not_evidence",
+      "factId": "sgu-sample",
+      "kind": "rejected_sample",
+      "sourceId": "noaa-st-george"
+    },
+    {
+      "anchor": "The permanent closure of the airport is effective as of October 10, 2019",
+      "conclusion": "FAA publishes the statutory closure day; replacement XWA is announced to open that day. Exact execution time and first allocation remain unknown.",
+      "date": "2019-10-10",
+      "dateSemantics": "statutory_permanent_closure_day",
+      "factId": "williston-announced",
+      "kind": "statutory_closure_notice",
+      "sourceId": "fr-2019-18577"
+    },
+    {
+      "anchor": "replacement airport, Williston Basin International Airport (XWA)",
+      "conclusion": "FAA explicitly names XWA for the replacement airport. ICAO KXWA is derived only with the cited contiguous-US airport rule, never treated as IATA.",
+      "faaIdentifier": "XWA",
+      "factId": "williston-xwa-code",
+      "jurisdiction": "contiguous-US",
+      "kind": "airport_identifier_row",
+      "observationDate": "2019-08-29",
+      "sourceId": "fr-2019-18577"
+    },
+    {
+      "anchor": "ND, due to the airport’s closure.",
+      "conclusion": "The later FAA final rule confirms Sloulin has closed; its own July 16, 2020 regulatory effectiveness is not the closure day.",
+      "factId": "williston-actual",
+      "kind": "retrospective_physical_transition",
+      "sourceId": "fr-2020-09591"
+    },
+    {
+      "anchor": "Lat. 48[deg]15'35'' N, long. 103[deg]45'02'' W",
+      "conclusion": "2019 reference point differs by ~130 m from the 2020 point for the same named replacement airport. This is coordinate-revision context, not another airport relocation.",
+      "factId": "williston-new-first-coordinate",
+      "kind": "directory_coordinate_revision",
+      "sourceId": "fr-2019-04153",
+      "subject": "Williston Basin International Airport, ND"
+    },
+    {
+      "anchor": "And the removed station is: KISN (KXWA replaces this station).",
+      "conclusion": "RTMA station-list maintenance is not a new 2023 relocation or airport-code conflict. The notice header says December 2023 while its prospective effective text says January 2023; do not repair that date silently.",
+      "factId": "williston-list-correction",
+      "kind": "directory_update_context",
+      "sourceId": "nws-williston"
+    },
+    {
+      "anchor": "Hardwick Field Airport has closed",
+      "conclusion": "FAA already says closed in August 2013; an operational closure and later administrative release may differ, but the explanation is not established here.",
+      "factId": "cleveland-earlier-closure",
+      "kind": "unresolved_chronology",
+      "sourceId": "fr-2013-20499"
+    },
+    {
+      "anchor": "The permanent closure date of the airport is effective as of March 14, 2014",
+      "conclusion": "FAA gives a later permanent-closure effective day. Keep both statements; do not rewrite the actual closure date as either publication/regulatory date.",
+      "date": "2014-03-14",
+      "dateSemantics": "statutory_permanent_closure_day",
+      "factId": "cleveland-statutory-closure",
+      "kind": "statutory_closure_notice",
+      "sourceId": "fr-2014-02473"
+    },
+    {
+      "anchor": "All flight operations and tenants have been relocated to the newly opened Cleveland Regional Jetport (RZR).",
+      "conclusion": "FAA confirms operations and tenants moved to a separate new RZR site by publication; this is not an exact opening day.",
+      "faaIdentifier": "RZR",
+      "factId": "cleveland-replacement",
+      "jurisdiction": "contiguous-US",
+      "kind": "retrospective_physical_transition",
+      "observationDate": "2014-02-05",
+      "sourceId": "fr-2014-02473"
+    }
+  ],
+  "formatVersion": 1,
+  "humanReviewStatus": "pending",
+  "preparedBy": "Codex",
+  "reviewer": null,
+  "sites": [
+    {
+      "coordinateFactId": "pfn-location",
+      "name": "Panama City-Bay County International Airport",
+      "ourAirports": "3769",
+      "proposedAirportId": "apt_d3a329f9-73d0-43f5-90c2-0ba0a0a2e5be",
+      "siteKey": "pfn"
+    },
+    {
+      "coordinateFactId": "ecp-location",
+      "name": "Northwest Florida Beaches International Airport",
+      "ourAirports": "46530",
+      "proposedAirportId": "apt_74a05fd5-53fa-40f8-a3a6-de8cfd7d5e99",
+      "siteKey": "ecp"
+    },
+    {
+      "coordinateFactId": "sgu-old-location",
+      "name": "St George Municipal Airport (former site)",
+      "ourAirports": "340074",
+      "proposedAirportId": "apt_09d94b3b-c5b4-4796-a1e3-256ba50b29b8",
+      "siteKey": "sgu-old"
+    },
+    {
+      "coordinateFactId": "sgu-new-location",
+      "name": "St George replacement airport",
+      "ourAirports": "21065",
+      "proposedAirportId": "apt_2461a977-184f-445a-9bc2-8d86d26a7521",
+      "siteKey": "sgu-new"
+    },
+    {
+      "coordinateFactId": "isn-location",
+      "name": "Sloulin Field International Airport",
+      "ourAirports": "20188",
+      "proposedAirportId": "apt_ba1f9f8c-1849-4092-9e91-d641bddb6bc6",
+      "siteKey": "isn"
+    },
+    {
+      "coordinateFactId": "xwa-location",
+      "name": "Williston Basin International Airport",
+      "ourAirports": "324440",
+      "proposedAirportId": "apt_661b72ea-f84d-4cec-ae34-fddd5e579b3d",
+      "siteKey": "xwa"
+    },
+    {
+      "coordinateFactId": "hdi-location",
+      "name": "Hardwick Field",
+      "ourAirports": "20037",
+      "proposedAirportId": "apt_4847fbf6-9bae-4feb-9483-bcee3baf7cf6",
+      "siteKey": "hdi"
+    },
+    {
+      "coordinateFactId": "rzr-location",
+      "name": "Cleveland Regional Jetport",
+      "ourAirports": "308893",
+      "proposedAirportId": "apt_b8246bad-8223-46a3-a915-ee93ee7c5852",
+      "siteKey": "rzr"
+    }
+  ],
+  "sourceDateWarnings": {
+    "nws-panama": "Printed Friday April 28 2010 has an inconsistent weekday. Retain numeric date and flag.",
+    "nws-sgu-open": "Printed Wed Jan 5 2010; title and service date point to 2011. Publication date is null rather than silently corrected.",
+    "nws-williston": "Printed Dec 14 2023 but prospective effective date Jan 24 2023. No event boundary is taken from it."
+  }
+}

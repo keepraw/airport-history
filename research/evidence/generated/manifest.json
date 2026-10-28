@@ -10,8 +10,8 @@
       "sha256": "acd2f2368502b772263fdd184f92774b5462165dfd82c706b1bbf8c28c7280f9"
     },
     "metrics.json": {
-      "bytes": 924,
-      "sha256": "d1dd072e1c6d5ce0026bec69e63fadb3b740ad5da6c15ce8e26173d64b43a20b"
+      "bytes": 981,
+      "sha256": "dcc83fe51a6979fa0585b73ed3a86db9107b4e6593a98543fcc0ff66bdfa1ac8"
     },
     "observations.jsonl.gz": {
       "bytes": 1748155,
@@ -63,7 +63,7 @@
     "research/evidence/inputs/fr-E9-190.htm.gz": "00a9b71379407505bbcc3f9fd1a83e6f9422c92360c18683b93598a96d077fa4",
     "research/evidence/source-lock.json": "e378fab43aa5552b312f08ba213ca6e7eddd817f48aeb3318afeb43e432dd432",
     "scripts/discovery/review.py": "b6540d6cff18a3bdd0e8ef06a743defbeb9436cf620437d419036fde1ae2a92d",
-    "scripts/evidence/pipeline.py": "dc5d3b52d4ff5739394ba5e5a2bd7401a76d9d8db81bbc11d9993b7462243afa",
+    "scripts/evidence/pipeline.py": "460b75289acec26ec71d85ecc323740bd58aca778fc6cc9a57053692d36f58f1",
     "scripts/reference/admissions.py": "269bf6975595b213f7e3a46d10ebc27653f85bfb58e8c3f3676e2076bfda6e10"
   }
 }

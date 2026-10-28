@@ -153,3 +153,12 @@ history or justify an assignment interval. No record in this run has received
 independent human acceptance, so **formal historical additions and query-coverage
 increase are both zero**. This is a running source-to-review pipeline, not an
 automatic source-to-fact importer.
+
+## PR13 direct evidence continuation
+
+[Direct historical evidence and concrete pending records](direct/README.md) adds
+historical FAA identifier/location editions and NOAA/FAA event notices without
+recollecting this BTS/23-document corpus. Its six physical-airport/six ICAO
+interval proposals remain pending human review. PR12 metrics now explicitly name
+association disagreement and identity ambiguity; neither is counted as a
+confirmed historical code conflict.

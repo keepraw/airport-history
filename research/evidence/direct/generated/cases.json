@@ -1,0 +1,97 @@
+[
+  {
+    "caseId": "panama",
+    "factIds": [
+      "panama-transfer",
+      "panama-taf",
+      "panama-actual"
+    ],
+    "findings": "Two regulatory physical locations ~20 km apart. NWS supplies announced local event days separately from UTC TAF effectiveness; later FAA confirms actual operations only to month precision.",
+    "gaps": [
+      "Exact-day execution remains uncorroborated retrospectively.",
+      "No IATA ledger or first-allocation/withdrawal decision."
+    ],
+    "groupIds": [
+      "dup_74d59eb493cd15e3e5b56600",
+      "lead_aab2291b41e2412c65ac4a5b"
+    ],
+    "siteDistanceKm": 19.653,
+    "siteKeys": [
+      "pfn",
+      "ecp"
+    ]
+  },
+  {
+    "caseId": "st-george",
+    "factIds": [
+      "sgu-taf-start",
+      "sgu-temp-code",
+      "sgu-taf-restore",
+      "sgu-decommission",
+      "sgu-distance-error",
+      "sgu-sample"
+    ],
+    "findings": "Distinct former/replacement coordinates. Temporary KDXZ precedes KSGU restoration; no direct KSGU transfer at opening. FAA decommission date, TAF dates and unsigned policy sample are separate claims.",
+    "gaps": [
+      "KDXZ ICAO interval withheld pending authenticated FAA ledger.",
+      "Exact operational opening and KSGU withdrawal/reallocation remain unknown.",
+      "FAA property-notice approximate distance is inconsistent with regulatory coordinates."
+    ],
+    "groupIds": [
+      "dup_585be9d35b00cb9985f5390c",
+      "lead_a7bfe0e7628279fd26fb7b41",
+      "lead_d793a5593999957918b16afb"
+    ],
+    "siteDistanceKm": 9.499,
+    "siteKeys": [
+      "sgu-old",
+      "sgu-new"
+    ]
+  },
+  {
+    "caseId": "williston",
+    "factIds": [
+      "williston-announced",
+      "williston-xwa-code",
+      "williston-actual",
+      "williston-new-first-coordinate",
+      "williston-list-correction"
+    ],
+    "findings": "Separate Sloulin and Basin locations, statutory 2019 closure, later confirmation of closure, and same-site coordinate revision. RTMA maintenance years later is not another airport move.",
+    "gaps": [
+      "No independent retrospective confirmation of exact opening day.",
+      "ICAO is derived with the explicit FAA rule; IATA remains unproved.",
+      "RTMA notice has an internally inconsistent effective year."
+    ],
+    "groupIds": [
+      "dup_2b894340741269092660730a",
+      "lead_01bac8ce977266145372f540",
+      "lead_d968aea0b5ec9cc399ea4989",
+      "lead_df058146ff2e7d386b3b4d11"
+    ],
+    "siteDistanceKm": 12.239,
+    "siteKeys": [
+      "isn",
+      "xwa"
+    ]
+  },
+  {
+    "caseId": "cleveland",
+    "factIds": [
+      "cleveland-earlier-closure",
+      "cleveland-statutory-closure",
+      "cleveland-replacement"
+    ],
+    "findings": "Two named physical sites ~3 km apart; source assertions about closure chronology remain unresolved. No existing transition candidate group exists for these two reference records, so no synthetic candidate is invented.",
+    "gaps": [
+      "Need original operator log/NOTAM to separate actual last operations from administrative closure.",
+      "No exact-day opening, IATA history or mapped transition candidate."
+    ],
+    "groupIds": [],
+    "siteDistanceKm": 3.128,
+    "siteKeys": [
+      "hdi",
+      "rzr"
+    ]
+  }
+]

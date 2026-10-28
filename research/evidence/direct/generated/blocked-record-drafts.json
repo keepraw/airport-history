@@ -1,0 +1,326 @@
+{
+  "airports": [
+    {
+      "airportId": "apt_4847fbf6-9bae-4feb-9483-bcee3baf7cf6",
+      "coordinates": {
+        "note": "Named official regulatory location, pending human physical-site review; not an exact historical runway footprint.",
+        "sourceIds": [
+          "airspace-2007"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 35.22,
+          "longitude": -84.8325
+        }
+      },
+      "externalIds": {
+        "ourAirports": "20037"
+      },
+      "name": {
+        "note": "Display label only; no historical official-name interval proposed.",
+        "sourceIds": [
+          "airspace-2007"
+        ],
+        "status": "reference",
+        "value": "Hardwick Field"
+      },
+      "timezone": {
+        "note": "No timezone inference in this proposal.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_b8246bad-8223-46a3-a915-ee93ee7c5852",
+      "coordinates": {
+        "note": "Named official regulatory location, pending human physical-site review; not an exact historical runway footprint.",
+        "sourceIds": [
+          "fr-2013-20499"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 35.21138888888889,
+          "longitude": -84.79972222222221
+        }
+      },
+      "externalIds": {
+        "ourAirports": "308893"
+      },
+      "name": {
+        "note": "Display label only; no historical official-name interval proposed.",
+        "sourceIds": [
+          "fr-2013-20499"
+        ],
+        "status": "reference",
+        "value": "Cleveland Regional Jetport"
+      },
+      "timezone": {
+        "note": "No timezone inference in this proposal.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "airportId": "apt_4847fbf6-9bae-4feb-9483-bcee3baf7cf6",
+      "assignmentId": "proposal-icao-hdi",
+      "code": "KHDI",
+      "evidenceType": "continuity_inference",
+      "note": "Limit the proposed continuity to the next scheduled directory edition. Later operational versus statutory closure chronology remains blocked. Codex recommendation only: interpolate the same site/indicator between cited observations under the explicit FAA namespace rule. This is continuity_inference, not independently verified daily use; human acceptance is required.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "faa-2009",
+        "fr-2013-20499",
+        "fr-2014-02473"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2009-05-08",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2009-08-27",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "pending",
+      "verifiedOn": null
+    },
+    {
+      "airportId": "apt_b8246bad-8223-46a3-a915-ee93ee7c5852",
+      "assignmentId": "proposal-icao-rzr",
+      "code": "KRZR",
+      "evidenceType": "continuity_inference",
+      "note": "Separate new physical site. No exact opening day or IATA assignment is asserted. Codex recommendation only: interpolate the same site/indicator between cited observations under the explicit FAA namespace rule. This is continuity_inference, not independently verified daily use; human acceptance is required.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "faa-2014",
+        "fr-2014-02473"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2014-02-06",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2014-07-24",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "pending",
+      "verifiedOn": null
+    }
+  ],
+  "dossier": [
+    {
+      "decision": "pending",
+      "factIds": [
+        "hdi-location"
+      ],
+      "observations": [
+        {
+          "basis": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+          "citation": {
+            "anchor": "lat. 35°13''12'N, long. 84°49''57'W",
+            "context": "52'W) Centerville Municipal Airport, TN Hardwick Field Airport (lat. 35°50'15\"N, long. 87°26'43\"W) (lat. 35°13''12'N, long. 84°49''57'W) Hardwick NDB That airspace extending upward from 700 feet above (lat. 35°09''13'N, long. 84°54''21'W) the surface within a 7-mile radius o",
+            "extractedPage": 586,
+            "normalizedOffset": 2383
+          },
+          "claimScope": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "hdi-location",
+          "independentOriginal": true,
+          "observedOn": "2007-09-15",
+          "originalPublicationKey": "usdot-faa:JO7400.9R:2007-09-15",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "airspace-2007"
+        }
+      ],
+      "preparedBy": "Codex",
+      "recordId": "apt_4847fbf6-9bae-4feb-9483-bcee3baf7cf6",
+      "reviewer": null
+    },
+    {
+      "decision": "pending",
+      "factIds": [
+        "rzr-location"
+      ],
+      "observations": [
+        {
+          "basis": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+          "citation": {
+            "anchor": "Lat. 35[deg]12'41'' N., long. 84[deg]47'59'' W.",
+            "context": "ty Hospital, Pikeville, TN. * * * * * ASO TN E5 Cleveland, TN [New] Cleveland Regional Jetport, TN (Lat. 35[deg]12'41'' N., long. 84[deg]47'59'' W.) Bradley Memorial Hospital, TN, Point in Space Coordinates (Lat. 35[deg]10'52'' N., long. 84[deg]52'56'' W.) That airspace extending upward",
+            "extractedPage": 1,
+            "normalizedOffset": 7433
+          },
+          "claimScope": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "rzr-location",
+          "independentOriginal": true,
+          "observedOn": "2013-08-23",
+          "originalPublicationKey": "usdot-faa:FR:2013-20499",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "fr-2013-20499"
+        }
+      ],
+      "preparedBy": "Codex",
+      "recordId": "apt_b8246bad-8223-46a3-a915-ee93ee7c5852",
+      "reviewer": null
+    },
+    {
+      "boundaryAssessment": "Limit the proposed continuity to the next scheduled directory edition. Later operational versus statutory closure chronology remains blocked.",
+      "continuityAssessment": "Codex recommendation only: interpolate the same site/indicator between cited observations under the explicit FAA namespace rule. This is continuity_inference, not independently verified daily use; human acceptance is required.",
+      "decision": "pending",
+      "factIds": [
+        "hdi-code",
+        "icao-rule-2009",
+        "cleveland-earlier-closure",
+        "cleveland-statutory-closure"
+      ],
+      "observations": [
+        {
+          "basis": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+          "citation": {
+            "anchor": "HARDWICK FIELD ARPT HDI BNA ZTL",
+            "context": " ND89 GFK ZMP BRADLEY MEMORIAL HOSPITAL 33TN BNA ZME CLEMMONS, NC, HELIPORT BERTS ARPT NC32 RDU ZTL HARDWICK FIELD ARPT HDI BNA ZTL CLEMSON, SC, HARDWICK NDB HDI BNA CLEMSON NDB CEU AND CLEVELAND, TX, OCONEE COUNTY RGNL ARPT CEU AND ZTL AINSWORTH ARPT Ø6TE CXO ZHU USAR C",
+            "extractedPage": 101,
+            "normalizedOffset": 423
+          },
+          "claimScope": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "hdi-code",
+          "independentOriginal": true,
+          "observedOn": "2009-05-07",
+          "originalPublicationKey": "usdot-faa:JO7350.8G:2009-05-07",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "faa-2009"
+        },
+        {
+          "basis": "JO 7350.8G section 1-4-1 explicitly defines the international location indicator for contiguous-US airports as K plus the three-letter identifier. This is not an IATA conversion.",
+          "citation": {
+            "anchor": "identifier preceded by “K”.",
+            "context": "ows: contiguous United States is the three-letter a. Within the United States and its jurisdictions identifier preceded by “K”. For other non- to: Aeronautical Information Management, contiguous United States airports, the following NFDC, Federal Aviation Administrat",
+            "extractedPage": 21,
+            "normalizedOffset": 466
+          },
+          "claimScope": "JO 7350.8G section 1-4-1 explicitly defines the international location indicator for contiguous-US airports as K plus the three-letter identifier. This is not an IATA conversion.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "icao-rule-2009",
+          "independentOriginal": true,
+          "observedOn": "2009-05-07",
+          "originalPublicationKey": "usdot-faa:JO7350.8G:2009-05-07",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "faa-2009"
+        },
+        {
+          "basis": "FAA already says closed in August 2013; an operational closure and later administrative release may differ, but the explanation is not established here.",
+          "citation": {
+            "anchor": "Hardwick Field Airport has closed",
+            "context": "ew Standard Instrument Approach Procedures (SIAPs) have been developed at Mark Anton Airport. Also, Hardwick Field Airport has closed; therefore, the controlled airspace area is removed. This action also establishes Class E Airspace at Cleveland Regional Jetport, Cleveland",
+            "extractedPage": 1,
+            "normalizedOffset": 987
+          },
+          "claimScope": "FAA already says closed in August 2013; an operational closure and later administrative release may differ, but the explanation is not established here.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "cleveland-earlier-closure",
+          "independentOriginal": true,
+          "observedOn": "2013-08-23",
+          "originalPublicationKey": "usdot-faa:FR:2013-20499",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "fr-2013-20499"
+        },
+        {
+          "basis": "FAA gives a later permanent-closure effective day. Keep both statements; do not rewrite the actual closure date as either publication/regulatory date.",
+          "citation": {
+            "anchor": "The permanent closure date of the airport is effective as of March 14, 2014",
+            "context": "sure of Cleveland Hardwick Field Airport in accordance with U.S.C. 46319(b). DATES: Effective Date: The permanent closure date of the airport is effective as of March 14, 2014. FOR FURTHER INFORMATION CONTACT: Stephen Wilson, Community Planner, Federal Aviation Administration, Memphis Airports District Office, 260",
+            "extractedPage": 1,
+            "normalizedOffset": 1186
+          },
+          "claimScope": "FAA gives a later permanent-closure effective day. Keep both statements; do not rewrite the actual closure date as either publication/regulatory date.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "cleveland-statutory-closure",
+          "independentOriginal": true,
+          "observedOn": "2014-02-05",
+          "originalPublicationKey": "usdot-faa:FR:2014-02473",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "fr-2014-02473"
+        }
+      ],
+      "preparedBy": "Codex",
+      "recordId": "proposal-icao-hdi",
+      "reviewer": null
+    },
+    {
+      "boundaryAssessment": "Separate new physical site. No exact opening day or IATA assignment is asserted.",
+      "continuityAssessment": "Codex recommendation only: interpolate the same site/indicator between cited observations under the explicit FAA namespace rule. This is continuity_inference, not independently verified daily use; human acceptance is required.",
+      "decision": "pending",
+      "factIds": [
+        "rzr-code",
+        "icao-rule-2014",
+        "cleveland-replacement"
+      ],
+      "observations": [
+        {
+          "basis": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+          "citation": {
+            "anchor": "CLEVELAND RGNL JETPORT ARPT RZR BNA ZTL",
+            "context": "INTON, KY, BRADLEY MEMORIAL HOSPITAL 33TN BNA ZME HELIPORT CLINTON-HICKMAN COUNTY ARPT ØKY7 LOU ZME CLEVELAND RGNL JETPORT ARPT RZR BNA ZTL CLINTON, LA, HARDWICK FIELD ARPT HDI BNA ZTL MC CUTCHEON FIELD ARPT LA83 DRI ZHU CLEVELAND, TX, OVERTON PRIVATE ARPT 4LA8 DRI ZHU CAVOK AIR",
+            "extractedPage": 99,
+            "normalizedOffset": 2008
+          },
+          "claimScope": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "rzr-code",
+          "independentOriginal": true,
+          "observedOn": "2014-07-24",
+          "originalPublicationKey": "usdot-faa:JO7350.9:2014-07-24",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "faa-2014"
+        },
+        {
+          "basis": "JO 7350.9 section 1-4-1 retains the same contiguous-US international indicator rule.",
+          "citation": {
+            "anchor": "United States is the three-letter identifier preceded by “K”.",
+            "context": "tional location indicator location indicator for airports in the contiguous assignments as follows: United States is the three-letter identifier preceded by “K”. For other non-contiguous United States a. Within the United States and its jurisdictions to: airports, the following two letter prefix will",
+            "extractedPage": 19,
+            "normalizedOffset": 381
+          },
+          "claimScope": "JO 7350.9 section 1-4-1 retains the same contiguous-US international indicator rule.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "icao-rule-2014",
+          "independentOriginal": true,
+          "observedOn": "2014-07-24",
+          "originalPublicationKey": "usdot-faa:JO7350.9:2014-07-24",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "faa-2014"
+        },
+        {
+          "basis": "FAA confirms operations and tenants moved to a separate new RZR site by publication; this is not an exact opening day.",
+          "citation": {
+            "anchor": "All flight operations and tenants have been relocated to the newly opened Cleveland Regional Jetport (RZR).",
+            "context": "miles from HDI. The closed facility, comprised of approximately 62 acres will be parceled and sold. All flight operations and tenants have been relocated to the newly opened Cleveland Regional Jetport (RZR). Per U.S.C. 46319(a), a public agency may not permanently close an airport listed in the National Plan of Integrated Airports Systems (NPIAS",
+            "extractedPage": 1,
+            "normalizedOffset": 2486
+          },
+          "claimScope": "FAA confirms operations and tenants moved to a separate new RZR site by publication; this is not an exact opening day.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "cleveland-replacement",
+          "independentOriginal": true,
+          "observedOn": "2014-02-05",
+          "originalPublicationKey": "usdot-faa:FR:2014-02473",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "fr-2014-02473"
+        }
+      ],
+      "preparedBy": "Codex",
+      "recordId": "proposal-icao-rzr",
+      "reviewer": null
+    }
+  ],
+  "reason": "No existing transition candidate ownership and unresolved closure chronology; no synthetic candidate or acceptance invented."
+}
