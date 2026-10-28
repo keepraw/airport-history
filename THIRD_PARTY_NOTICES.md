@@ -17,6 +17,12 @@ identified historical reference observations under its existing ODC-PDDL-1.0
 notices; original candidate artifacts are retained. These derivatives are one
 OurAirports source family and never independent historical confirmations.
 
+The reference timezone-name catalog contains public-domain Zone/Link identifiers
+from IANA tzdb 2025b. Its exact release archive URL/SHA-256 and selected text
+members are pinned in `reference/timezones-lock.json`; only the derived sorted
+identifier list is redistributed. It validates identifier names without using
+host tzdata, and makes no new historical airport/timezone-rule assertion.
+
 | Material | Upstream terms | Use in this repository |
 | --- | --- | --- |
 | Twenty-two OurAirports rows (eight bootstrap, five batch 1, six in 0.5.0, three in 0.6.0), fixed commit in `data/airports.json` | [Public domain declaration](https://ourairports.com/data/) | Historical-layer names, reference coordinates and numeric external IDs; current codes corroborate continuing assignments. Separate source records preserve each batch's scope. The separately versioned reference layer additionally ships its exact pinned full CSV |

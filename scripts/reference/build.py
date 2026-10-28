@@ -7,10 +7,10 @@ import io
 import json
 import re
 from collections import Counter, defaultdict
-from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 from common import (ROOT, DISCOVERY, OUTPUT, canonical, checked, distance, manifest,
                     position, read_jsonl, stable_id, verify_discovery, write_json, write_jsonl)
+from timezones import load_catalog
 
 TYPES = {'balloonport', 'closed', 'heliport', 'large_airport', 'medium_airport', 'seaplane_base', 'small_airport'}
 CODE_FIELDS = {'IATA': 'iata_code', 'ICAO': 'icao_code', 'GPS': 'gps_code', 'LOCAL': 'local_code', 'IDENT': 'ident'}
@@ -111,7 +111,7 @@ def add_transition(record, candidate):
             })
 
 
-def enrich_timezones(records, inventory, source):
+def enrich_timezones(records, inventory, source, allowed_zones):
     """Use a unique identifier + same country + <=1 km, never IATA alone."""
     index = defaultdict(list)
     for entry in inventory:
@@ -129,14 +129,13 @@ def enrich_timezones(records, inventory, source):
         zones = set()
         for entity, row in sorted(candidates.items()):
             tz = row.get('tz')
-            try:
-                if tz:
-                    ZoneInfo(tz)
+            if tz:
+                if tz in allowed_zones:
                     zones.add(tz)
                     record['timezoneEvidence'].append({'sourceId': 'airportsdata', 'sourceEntityId': entity,
                                                       'revision': source['revision'], 'timezone': tz})
-            except (ZoneInfoNotFoundError, ValueError):
-                record['flags'].append('invalid_timezone')
+                else:
+                    record['flags'].append('invalid_timezone')
         if len(zones) == 1:
             record['timezone'] = next(iter(zones))
         elif zones:
@@ -212,7 +211,7 @@ def build(output=OUTPUT):
                                                      'removalCandidateId': candidate['candidateId']}
     source_config = json.loads((ROOT / 'research/discovery/sources.json').read_text())
     tz_source = next(s for s in source_config['sources'] if s['id'] == 'airportsdata')
-    enrich_timezones(records, read_jsonl(DISCOVERY / 'airportsdata.entities.jsonl.gz'), tz_source)
+    enrich_timezones(records, read_jsonl(DISCOVERY / 'airportsdata.entities.jsonl.gz'), tz_source, load_catalog())
     code_index, country_index = defaultdict(set), defaultdict(list)
     for entity, record in sorted(records.items()):
         rid = record['referenceId']
@@ -278,10 +277,12 @@ def build(output=OUTPUT):
         'airport-codes-raw': {**{k: next(s for s in source_config['sources'] if s['id'] == 'airport-codes-raw')[k]
                                     for k in ('url', 'revision', 'path', 'license')},
                               'meaning': 'Derived OurAirports numeric-ID transition observations; one source family, not independent historical confirmation'},
-        'licenseScope': 'OurAirports: public domain. airportsdata: MIT; see LICENSE-airportsdata. airport-codes-raw transition evidence: ODC-PDDL-1.0. Original IDs/annotations: CC0. No primary-source documents redistributed.',
+        'iana-tzdb': json.loads((ROOT / 'reference/timezones-lock.json').read_text()),
+        'licenseScope': 'OurAirports and IANA timezone names: public domain. airportsdata: MIT; see LICENSE-airportsdata. airport-codes-raw transition evidence: ODC-PDDL-1.0. Original IDs/annotations: CC0. No primary-source documents redistributed.',
     })
     inputs = [lock_path, input_path, ROOT / 'data/airports.json', ROOT / 'reference/LICENSE-airportsdata',
               ROOT / 'schema/reference-record.schema.json',
+              ROOT / 'reference/timezones-lock.json', ROOT / 'reference/inputs/iana-timezones.json',
               ROOT / 'research/discovery/sources.json', DISCOVERY / 'manifest.json', *(DISCOVERY / n for n in names),
               *sorted((ROOT / 'scripts/reference').glob('*.py'))]
     manifest(output, inputs, referenceVersion=lock['referenceVersion'], schemaVersion='1.0.0',

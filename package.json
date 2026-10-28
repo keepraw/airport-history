@@ -26,7 +26,8 @@
     "reference:lookup": "python3 scripts/reference/query.py",
     "reference:review": "python3 scripts/reference/admissions.py",
     "reference:validate": "node scripts/reference/validate-schema.ts && python3 scripts/reference/validate.py",
-    "test:reference": "python3 -m unittest discover -s test/reference -v"
+    "test:reference": "python3 -m unittest discover -s test/reference -v",
+    "reference:fetch-timezones": "python3 scripts/reference/timezones.py --fetch"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",

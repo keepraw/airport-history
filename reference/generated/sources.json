@@ -14,7 +14,26 @@
     "revision": "47ae282a8491758e6dafe28d4139539e561b54d5",
     "url": "https://github.com/mborsetti/airportsdata"
   },
-  "licenseScope": "OurAirports: public domain. airportsdata: MIT; see LICENSE-airportsdata. airport-codes-raw transition evidence: ODC-PDDL-1.0. Original IDs/annotations: CC0. No primary-source documents redistributed.",
+  "iana-tzdb": {
+    "downloadUrl": "https://data.iana.org/time-zones/releases/tzdata2025b.tar.gz",
+    "formatVersion": 1,
+    "license": "Public-Domain",
+    "sha256": "11810413345fc7805017e27ea9fa4885fd74cd61b2911711ad038f5d28d71474",
+    "sourceFiles": [
+      "africa",
+      "antarctica",
+      "asia",
+      "australasia",
+      "backward",
+      "etcetera",
+      "europe",
+      "factory",
+      "northamerica",
+      "southamerica"
+    ],
+    "version": "2025b"
+  },
+  "licenseScope": "OurAirports and IANA timezone names: public domain. airportsdata: MIT; see LICENSE-airportsdata. airport-codes-raw transition evidence: ODC-PDDL-1.0. Original IDs/annotations: CC0. No primary-source documents redistributed.",
   "ourairports": {
     "downloadUrl": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/d97df1673cc5ba61a09b17ab5936091a669a04ca/airports.csv",
     "formatVersion": 1,

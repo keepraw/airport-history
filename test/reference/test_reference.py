@@ -12,7 +12,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'scripts/reference'))
 from common import OUTPUT, DISCOVERY, digest, read_jsonl, stable_id
-from build import build, make_record, add_transition
+from build import build, make_record, add_transition, enrich_timezones
+from timezones import load_catalog
 from query import lookup
 from triage import classify, match_reference, build as build_triage, OUT as TRIAGE
 from admissions import packets, validate_admission
@@ -112,6 +113,23 @@ class ReferenceTests(unittest.TestCase):
         add_transition(record, candidate)
         self.assertEqual(len(record['locations']), 1)
         self.assertIn('incomplete_historical_location', record['flags'])
+
+    def test_timezone_enrichment_uses_pinned_names_without_host_tzdb(self):
+        # America/Coyhaique first appeared in tzdb 2025b. Host packages can be older.
+        from unittest.mock import patch
+        row = {'id': '1', 'name': 'Example', 'type': 'small_airport', 'latitude_deg': '-45.6',
+               'longitude_deg': '-72.1', 'iso_country': 'CL', 'icao_code': 'SCCY'}
+        record = make_record(row, True, self.lock, [])
+        entry = {'sourceEntityId': 'SCCY', 'presentAtTarget': True,
+                 'reference': {'row': {'country': 'CL', 'lat': '-45.6', 'lon': '-72.1', 'tz': 'America/Coyhaique'}}}
+        with patch('zoneinfo.ZoneInfo', side_effect=RuntimeError('Host tzdb must not be consulted')):
+            enrich_timezones({'1': record}, [entry], {'revision': 'a' * 40}, load_catalog())
+        self.assertEqual(record['timezone'], 'America/Coyhaique')
+        entry['reference']['row']['tz'] = 'Invalid/Unlisted'
+        record = make_record(row, True, self.lock, [])
+        enrich_timezones({'1': record}, [entry], {'revision': 'a' * 40}, load_catalog())
+        self.assertIsNone(record['timezone'])
+        self.assertIn('invalid_timezone', record['flags'])
 
     def test_bounded_memory_lookup_runtime_smoke(self):
         start = time.monotonic()

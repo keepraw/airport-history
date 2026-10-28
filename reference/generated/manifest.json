@@ -94,8 +94,8 @@
       "sha256": "1645b2df761f58ec10c9907efea2eed55f7cd5eff3012dba0e7eb79f8ce54395"
     },
     "sources.json": {
-      "bytes": 1647,
-      "sha256": "3564de2347625c9b3d6f12ef315ec967fadf703bc6d25a6d739b24f12fb2b174"
+      "bytes": 2148,
+      "sha256": "fda2385e56d29fe93dafdb11c5d04b25817add09e149f28f3f239030e609a7b0"
     }
   },
   "formatVersion": 1,
@@ -103,8 +103,10 @@
   "inputs": {
     "data/airports.json": "31c5735b333881d7afdd527fe4af1db8e28413d5bba114fbf88a4aad0809cff7",
     "reference/LICENSE-airportsdata": "1ab6bf365e1f6a1883ab6a2f797e761b221081b52a33273d86c157fd562106be",
+    "reference/inputs/iana-timezones.json": "7c18bc4d7429b4d88888ae972fb84c4f78570285c5039721d6aa095ee2bd9d6d",
     "reference/inputs/ourairports.csv.gz": "14bbb17808aac8208152344f7e8dedbc783998e181ce5bf7c213fae11ac17059",
     "reference/source-lock.json": "33b9a7b4ce39bbe5b59dae30f16ca51776cd654c61432cb6d10d03240dce5646",
+    "reference/timezones-lock.json": "d6b1bcb9586dc4c01a3e21cfca487e644980bdddde84a32e17c8add0780479a9",
     "research/discovery/generated/airport-codes-raw.candidates.0.jsonl.gz": "bee1ae7332fced02b1f890741cf65d89b51e12aa7438edec39e1e705907a8b53",
     "research/discovery/generated/airport-codes-raw.candidates.1.jsonl.gz": "cf7bc3197293b76bef7f23215383cd44559faf9b696aa1f4a368f9cde794d9c2",
     "research/discovery/generated/airport-codes-raw.candidates.2.jsonl.gz": "afbf32fd67a53eb8cef52b0c1fd86e500875dd75e5c36f8a793d1982553e8246",
@@ -145,12 +147,13 @@
     "research/discovery/sources.json": "8a8c9775b2049e4ecf2f6a2f3b7bb8c5cff9b7bc3dbd4a28b8c4643eca7cd9c2",
     "schema/reference-record.schema.json": "460c7da3ab479dbc4f9806f00f8cfa1f4788d55144052d71b15bbc9278236ee5",
     "scripts/reference/admissions.py": "269bf6975595b213f7e3a46d10ebc27653f85bfb58e8c3f3676e2076bfda6e10",
-    "scripts/reference/build.py": "f3b954bf223b53531b56eba42c038fc9faa6677077136be4a646a988a5b3f2a5",
+    "scripts/reference/build.py": "3fe61f058505b6feeae2a7f085442d58dbe1a37dd834ff51129748335f05d1d7",
     "scripts/reference/common.py": "3d47617b33fe01cb11882a020495a6eddd91cbf3339ef79c721eb1c01e7cb67b",
     "scripts/reference/fetch.py": "6b1c0eccf497216868866140b17174eaaaaf8fdac23733ff7cc8ef1971dc5753",
     "scripts/reference/query.py": "c1cc45bb5bf250c08dbe76f57296b6ca2ad6c18921862ae078339c81b57d2fa2",
+    "scripts/reference/timezones.py": "4d3ed16dde589a2cb2cb83e6ca082f01af87a7a961819e99a97b6d75440b12a6",
     "scripts/reference/triage.py": "9ea641529c9d738eef5cf7e22b71bff6d4191ddf57bca015a89e5f96137f3113",
-    "scripts/reference/validate.py": "e12135c9e9416f592b485cbb4925c6c15bfda6d7516d6281bf1b8e257af59a25"
+    "scripts/reference/validate.py": "98ef34ec0e4cc693b6d972064e5079e3f8a61805d6333e7789ca6d89a72abaa7"
   },
   "referenceVersion": "1.0.0",
   "schemaVersion": "1.0.0"

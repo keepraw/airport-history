@@ -7,6 +7,7 @@ from collections import Counter, defaultdict
 from common import ROOT, DISCOVERY, OUTPUT, checked, distance, read_jsonl, stable_id
 from build import TYPES, identifiers
 from triage import OUT
+from timezones import load_catalog
 
 
 def validate_manifest(directory):
@@ -27,6 +28,7 @@ def main():
     checked(ROOT / 'test/curated-0.7.0.json', '31c5735b333881d7afdd527fe4af1db8e28413d5bba114fbf88a4aad0809cff7')
     assert curated == json.loads((ROOT / 'test/curated-0.7.0.json').read_text()), 'Reviewed 0.7.0 changed'
     airports = {a['airportId']: a for a in curated['airports']}
+    allowed_timezones = load_catalog()
     records = {}
     codes, countries = defaultdict(set), defaultdict(set)
     for shard in '0123456789abcdef':
@@ -35,6 +37,7 @@ def main():
             assert rid == stable_id('ref_', ['ourairports', row['sourceEntityId']]) and rid[4] == shard
             assert rid not in records and row['historicallyVerified'] is False
             records[rid] = row
+            assert row['timezone'] is None or row['timezone'] in allowed_timezones, 'Timezone outside the pinned catalog'
             countries[row['country'] or 'unknown'].add(rid)
             for scheme, code in row['identifiers'].items():
                 if code and (scheme not in ('IATA', 'ICAO') or 'invalid_' + scheme.lower() not in row['flags']):

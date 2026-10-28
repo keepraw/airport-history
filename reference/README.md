@@ -26,6 +26,7 @@ See [source-lock.json](source-lock.json). If recovery is necessary, explicitly r
 
 ```sh
 pnpm reference:fetch
+pnpm reference:fetch-timezones # only if the pinned IANA name catalog needs recovery
 ```
 
 This downloads that commit's raw file and requires both hashes before replacement.
@@ -130,6 +131,14 @@ retain all observations and a null selected value. The upstream `icao` field
 contains pseudo identifiers; it is used for matching, **never** for importing
 ICAO assignments. This is an additional reference attribute, not independent
 historical confirmation. [Upstream MIT notices](LICENSE-airportsdata) are retained.
+
+Timezone-name validity uses the checked-in **IANA tzdb 2025b** catalog of 598
+Zone/Link identifiers, rather than the host's installed timezone database. This
+includes `America/Coyhaique` even on older hosts. The exact IANA release archive
+URL, SHA-256 and source members are pinned in `timezones-lock.json`; the recovery
+command validates that hash before reconstructing the sorted catalog. Ordinary
+offline builds need neither that archive nor host tzdata. This catalog validates
+names only; it does not assert historical timezone rules or airport timezones.
 
 The strict [record schema](../schema/reference-record.schema.json), reference and
 triage manifests, exact [metrics](generated/metrics.json) and source metadata
