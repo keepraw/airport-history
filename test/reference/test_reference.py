@@ -16,6 +16,7 @@ from build import build, make_record, add_transition, enrich_timezones
 from timezones import load_catalog
 from query import lookup
 from triage import classify, match_reference, build as build_triage, OUT as TRIAGE
+from validate import main as validate_reference
 from admissions import packets, validate_admission
 from review import validate_batch_series
 
@@ -28,8 +29,7 @@ class ReferenceTests(unittest.TestCase):
         cls.lock = json.loads((ROOT / 'reference/source-lock.json').read_text())
 
     def test_complete_pinned_population_and_historical_only(self):
-        from validate import main
-        main()
+        validate_reference()
 
     def test_full_rebuild_byte_identical(self):
         with tempfile.TemporaryDirectory(dir=ROOT / 'work') as temp:
