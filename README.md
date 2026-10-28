@@ -2,10 +2,31 @@
 
 Historical airport identities, locations, code assignments, and official names.
 
-A small, offline TypeScript resolver and versioned reference dataset for
+An offline TypeScript historical resolver and a worldwide reference database for
 [Keepraw-Fly](https://github.com/keepraw/Keepraw-Fly). The same airport code can
 identify different physical sites over time. This repository preserves those
 sites and the evidence behind their code assignments.
+
+**Worldwide reference 1.0.0:** 86,950 queryable OurAirports source records,
+including the entire 86,286-row pinned snapshot and 664 retained historical-only
+records. It preserves 13,643 closed records, typed identifiers, source revisions,
+location ambiguity and 24,013 reference timezones. These are reference observations;
+they do not increase the number of verified historical airports below.
+
+```sh
+pnpm reference:lookup --code JFK
+pnpm reference:lookup --code KJFK --scheme ICAO
+pnpm reference:lookup --code KTI       # ambiguous historical reference observations
+pnpm reference:lookup --name Temindung --country ID
+pnpm reference:lookup --source-id 12148 # removed, closed, code-less facility
+```
+
+The [worldwide reference and bulk-review guide](reference/README.md) documents
+reproducible offline builds, eligibility, evidence limits, indexed lookup and
+multi-batch admission review. All 1,240,058 existing worldwide transition
+candidates are mechanically processed into 88,330 relevant review groups and
+explicit excluded/deferred categories. No new upstream history scan is needed.
+See [measured before/after coverage and performance](docs/worldwide-reference-pr11.md).
 
 **Curated scope (0.7.0):** twenty-three physical airports, twenty-eight IATA
 assignments, twelve ICAO assignments and three official-name intervals, with
@@ -21,8 +42,8 @@ Version 0.7.0 adds six reviewed ICAO histories at existing sites: OPRN/OPIS,
 LTBA/LTFM, EDDB and UACC. OPRN coverage stops at the last admitted 2021 AIP
 observation; preparatory OPIS/LTFM AIP designations do not certify flights before
 commissioning. See [boundaries, source limitations and measured coverage](docs/curated-icao-pr10.md).
-This is a curated history layer,
-not a replacement for a worldwide current-airport directory. A separate
+This remains the authoritative curated history layer. The worldwide reference
+lookup above is separate and never returns resolved historical answers. A separate
 [global discovery research layer](research/discovery/README.md) scans pinned
 source histories and tracks coverage and unverified candidates. No server,
 UI or Keepraw-Fly integration is included. This is not a
@@ -365,7 +386,10 @@ independent; no Keepraw-Fly files, import behavior or PR #106 were modified.
 
 ## Contribute and next steps
 
-Add a few well-sourced transitions at a time. Review licenses and preserve source
+Use the worldwide reference baseline and deterministic bulk triage to process
+historical leads systematically. Supported admissions may span many compatible
+review batches; each preserves the existing 20-event validation rule, with no
+arbitrary ceiling on total progress. Review licenses and preserve source
 URLs, access/review dates and uncertainty. Never generate IDs from airport codes
 or regenerate existing IDs. New factual evidence should update the dataset
 version and regression expectations deliberately, leaving closed entities intact.

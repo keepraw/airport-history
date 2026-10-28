@@ -1,0 +1,34 @@
+{
+  "activeOrOtherNotMarkedClosed": 73307,
+  "closed": 13643,
+  "curatedLinkedReferenceRecords": 22,
+  "distinctCuratedAirportIds": 22,
+  "eligibleReferenceRecords": 86950,
+  "historicalOnly": 664,
+  "newVerifiedAirports": 0,
+  "newVerifiedAssignments": 0,
+  "newVerifiedNames": 0,
+  "pinnedSnapshotRecords": 86286,
+  "presentAtSnapshot": 86286,
+  "recordsWithMultipleLocationHypotheses": 678,
+  "referenceLookups": {
+    "IATA": {
+      "multipleLocationHypotheses": 364,
+      "multipleSourceRecords": 237,
+      "uniqueSourceRecord": 9362
+    },
+    "ICAO": {
+      "multipleLocationHypotheses": 181,
+      "multipleSourceRecords": 17,
+      "uniqueSourceRecord": 10722
+    }
+  },
+  "rejected": {},
+  "snapshotClosed": 13585,
+  "snapshotNotMarkedClosed": 72701,
+  "sourceRecordsInspected": 86950,
+  "unresolvedLocationHypotheses": 750,
+  "withTimezone": 24013,
+  "withoutCurrentIataIcaoOrGps": 41716,
+  "withoutCurrentIataOrIcao": 75047
+}

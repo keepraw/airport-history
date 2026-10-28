@@ -1,0 +1,160 @@
+{
+  "evidenceStatus": "reference_observations_only",
+  "files": {
+    "countries.jsonl.gz": {
+      "bytes": 1286813,
+      "sha256": "382445838d467c0324a0a9d7886e4b04533bc592f25878adedc5f0d3b4d21b0a"
+    },
+    "index.GPS.jsonl.gz": {
+      "bytes": 857113,
+      "sha256": "44c09b202d7fbb69152c6ed7d9d8c49f085997c302eecfa5fde9ed1f1bfb5417"
+    },
+    "index.IATA.jsonl.gz": {
+      "bytes": 188710,
+      "sha256": "a64c152e062e7668007440e895cc50ad0941dde4d0004b9f1e309cf7297491c4"
+    },
+    "index.ICAO.jsonl.gz": {
+      "bytes": 208363,
+      "sha256": "0322dbe43cc14fccd02473d0d4c73729704e83a59e3f3c86c0fe014f4d50e869"
+    },
+    "index.IDENT.jsonl.gz": {
+      "bytes": 1659371,
+      "sha256": "be9c51153d0f935cb5195db78a1c935e705eb369f42bcdc79fe247be9cc38df5"
+    },
+    "index.LOCAL.jsonl.gz": {
+      "bytes": 691473,
+      "sha256": "29cbeef74296e0eb46f25f3dde6d1a65024f9d8a3e46cb8ae028b620f203b8e3"
+    },
+    "metrics.json": {
+      "bytes": 942,
+      "sha256": "469d3414e830c1e3f0f22cbeb9d18945dc404e3744705632e6b24bda49ae35da"
+    },
+    "records.0.jsonl.gz": {
+      "bytes": 1044494,
+      "sha256": "20408e2bd7fa1ec8147150acc5aeebdb63831755214401946160a7b92690bf99"
+    },
+    "records.1.jsonl.gz": {
+      "bytes": 1040769,
+      "sha256": "7639f1b483c833bb19607f9067a5ae7d651be86e82d76a746d9b2b40cb963a10"
+    },
+    "records.2.jsonl.gz": {
+      "bytes": 1039212,
+      "sha256": "c7e2362f3af1ecd0887b2fe877f6aa2f834858cd5d0662e6f9c3b88fa650d403"
+    },
+    "records.3.jsonl.gz": {
+      "bytes": 1031079,
+      "sha256": "80ee620904e0add57248bd319e6aac0e0be578d0325edd41cda1a32d2130fd64"
+    },
+    "records.4.jsonl.gz": {
+      "bytes": 1046759,
+      "sha256": "ab58993840b8147ae4a85a869b54a0d67ea7382d017695995a414a212724c980"
+    },
+    "records.5.jsonl.gz": {
+      "bytes": 1056587,
+      "sha256": "31331da7743edc29c1d1b198241e70a272dacebc90c6e0222e257a3b75b19d83"
+    },
+    "records.6.jsonl.gz": {
+      "bytes": 1018027,
+      "sha256": "1bbfcac18912fbd648230dfd8fff953bc4f4219ce0ae163dfb745c8b6c6551d2"
+    },
+    "records.7.jsonl.gz": {
+      "bytes": 1042707,
+      "sha256": "6ab9bd33ffe23dd7f0cb6628d020fa677a1342a7d83137b41c10ad46281436f2"
+    },
+    "records.8.jsonl.gz": {
+      "bytes": 1063031,
+      "sha256": "e2b265b8e2fb2e0cea5287952c147ad7b2e5f49959ab2dfc66089f5496dde3a6"
+    },
+    "records.9.jsonl.gz": {
+      "bytes": 1016462,
+      "sha256": "02ef00eb8fba59f4700288576a6354a695ef3ab858438ae71fa15e132699b30f"
+    },
+    "records.a.jsonl.gz": {
+      "bytes": 1060135,
+      "sha256": "4cb57f0130d2da8bf00d6984ca830a87198415cd0fc4021b962645981851f20c"
+    },
+    "records.b.jsonl.gz": {
+      "bytes": 1036847,
+      "sha256": "71a564d273d9cae922c5c4a69ae3c31fa9e847eb0479982bf0d4ca2299b76e44"
+    },
+    "records.c.jsonl.gz": {
+      "bytes": 1060490,
+      "sha256": "12805e2fe82f24c05b6562530f25983f7e17ce7ec107305f404d43d7f8be76f7"
+    },
+    "records.d.jsonl.gz": {
+      "bytes": 1037422,
+      "sha256": "df8e4ee23d07954d8b842d10e87ae59c24ce5dcd991caa862b5ec85c9357a464"
+    },
+    "records.e.jsonl.gz": {
+      "bytes": 1029307,
+      "sha256": "5d678ba1341da5c4d5ab829a3343767df95992f5b999e86a834baf10a5173008"
+    },
+    "records.f.jsonl.gz": {
+      "bytes": 1037659,
+      "sha256": "1645b2df761f58ec10c9907efea2eed55f7cd5eff3012dba0e7eb79f8ce54395"
+    },
+    "sources.json": {
+      "bytes": 2148,
+      "sha256": "fda2385e56d29fe93dafdb11c5d04b25817add09e149f28f3f239030e609a7b0"
+    }
+  },
+  "formatVersion": 1,
+  "historicalDataVersion": "0.7.0",
+  "inputs": {
+    "data/airports.json": "31c5735b333881d7afdd527fe4af1db8e28413d5bba114fbf88a4aad0809cff7",
+    "reference/LICENSE-airportsdata": "1ab6bf365e1f6a1883ab6a2f797e761b221081b52a33273d86c157fd562106be",
+    "reference/inputs/iana-timezones.json": "7c18bc4d7429b4d88888ae972fb84c4f78570285c5039721d6aa095ee2bd9d6d",
+    "reference/inputs/ourairports.csv.gz": "14bbb17808aac8208152344f7e8dedbc783998e181ce5bf7c213fae11ac17059",
+    "reference/source-lock.json": "33b9a7b4ce39bbe5b59dae30f16ca51776cd654c61432cb6d10d03240dce5646",
+    "reference/timezones-lock.json": "d6b1bcb9586dc4c01a3e21cfca487e644980bdddde84a32e17c8add0780479a9",
+    "research/discovery/generated/airport-codes-raw.candidates.0.jsonl.gz": "bee1ae7332fced02b1f890741cf65d89b51e12aa7438edec39e1e705907a8b53",
+    "research/discovery/generated/airport-codes-raw.candidates.1.jsonl.gz": "cf7bc3197293b76bef7f23215383cd44559faf9b696aa1f4a368f9cde794d9c2",
+    "research/discovery/generated/airport-codes-raw.candidates.2.jsonl.gz": "afbf32fd67a53eb8cef52b0c1fd86e500875dd75e5c36f8a793d1982553e8246",
+    "research/discovery/generated/airport-codes-raw.candidates.3.jsonl.gz": "12f215656bd7fd9491e03068ef727bba8380c0993ed0e93d4eaa6c338ce0cb48",
+    "research/discovery/generated/airport-codes-raw.candidates.4.jsonl.gz": "749f47e16f7b1a0c714c9ebf7d8aedeeae44db048e381e4214efe84d9cedf9e5",
+    "research/discovery/generated/airport-codes-raw.candidates.5.jsonl.gz": "ee98e3221f9cd7b1c5f4cd67902f956918ba7cd1e6acf0aa16e773f26d5cbcfa",
+    "research/discovery/generated/airport-codes-raw.candidates.6.jsonl.gz": "f8f73eac46c4de2f58a847b9c46e034b81eb7f94742b2caa6782bc8a155f22be",
+    "research/discovery/generated/airport-codes-raw.candidates.7.jsonl.gz": "4a771c296c2e7b95239525888d40085b8085cc15a805177b9ff05815d9e46675",
+    "research/discovery/generated/airport-codes-raw.candidates.8.jsonl.gz": "c463ee29989573f5ff91e32381e0a64756fe5778b3d8a0b83d3d41739666a3e0",
+    "research/discovery/generated/airport-codes-raw.candidates.9.jsonl.gz": "c6bfb4eb174ed35112006277ea1bf38e4f2021a206c03df007424dd78da51d94",
+    "research/discovery/generated/airport-codes-raw.candidates.a.jsonl.gz": "36106617cd128a1661f5fff95aec8cbe6ac6102b6947157202c45e09ee83e99f",
+    "research/discovery/generated/airport-codes-raw.candidates.b.jsonl.gz": "30fa21edae8c461cdc80d1d073b0982ff82c713ffd391ee12fc61aea35a827b1",
+    "research/discovery/generated/airport-codes-raw.candidates.c.jsonl.gz": "99fce3258c89ae1c5905d954186b00304f8b36fd0714635d8aaf02fa272b7b65",
+    "research/discovery/generated/airport-codes-raw.candidates.d.jsonl.gz": "58bfc7ec8ce5bfb7f4e06e98e07721cc73b98d345fd8d03bd3a9aed964844acb",
+    "research/discovery/generated/airport-codes-raw.candidates.e.jsonl.gz": "0355e00a4868545d0ec4c08d5c38fd38cc4ddcbd851154c6bc5ac33fb67d9627",
+    "research/discovery/generated/airport-codes-raw.candidates.f.jsonl.gz": "d71764a1a2d089e28fc773c5f4855c5d26a1bbd4624b612948fb1cd2f57912b8",
+    "research/discovery/generated/airportsdata.entities.jsonl.gz": "2d4a6a31af26d59cb04fce97f9511ed44bc45072e014872223b6aeb989f38bf3",
+    "research/discovery/generated/manifest.json": "7e966a934874ad676c41f00c9768654b6c6d7c86a06863b7d9933591bea7e35f",
+    "research/discovery/generated/ourairports.candidates.0.jsonl.gz": "8f4bb0275f16150307d16832d4b96c53926087a07397e1b57e196a7533954eb0",
+    "research/discovery/generated/ourairports.candidates.1.jsonl.gz": "814777cdfee83ed7f9193175ffd95ebb917531041b25af48f3df352e8df46f30",
+    "research/discovery/generated/ourairports.candidates.2.jsonl.gz": "6cfea771c725953adf577b97c2da51b48b6fae2e18392564d13345e29a92b21e",
+    "research/discovery/generated/ourairports.candidates.3.jsonl.gz": "b869c154c2fe9e7ee2f46e40f8783a9ae92ab048a70a38d9ee12ee1a11cc5081",
+    "research/discovery/generated/ourairports.candidates.4.jsonl.gz": "d4d799e0c6e045546ee0801d7f5ada16c6058b18508c8d9cb05943592636b184",
+    "research/discovery/generated/ourairports.candidates.5.jsonl.gz": "b4a880ad255e66efbd38f407985e01ae8127bdd281431769df829ca7222468f3",
+    "research/discovery/generated/ourairports.candidates.6.jsonl.gz": "dcef365e57c3f3e35c9e6f179657d97da19a8097c49d9780a230c34771776279",
+    "research/discovery/generated/ourairports.candidates.7.jsonl.gz": "d94f53bcbfc18f2775e40e124f9fee5039530f2ffebefbaf5bbf40ae54cb75f7",
+    "research/discovery/generated/ourairports.candidates.8.jsonl.gz": "877f6d20ba902b033bf2cd747c39d107947937d5eb3fdad33c875c6f8441321d",
+    "research/discovery/generated/ourairports.candidates.9.jsonl.gz": "f1f7214a01d406ee0d2b9e4307de329670e8cc01ad293a3ed023b4a1ebf94e02",
+    "research/discovery/generated/ourairports.candidates.a.jsonl.gz": "cbbd117cf8acc65975426f6a5248fbdc52340a56431da731f7a2da19ee6c1e65",
+    "research/discovery/generated/ourairports.candidates.b.jsonl.gz": "002bef24d4c9c68c8e4d2aaa9e02e285c84554c1b52bf375635f0cddd5528fe9",
+    "research/discovery/generated/ourairports.candidates.c.jsonl.gz": "1e928e1526ee6a1158936f45cafaa2619203e339b1ae83b0e02b99778ae51851",
+    "research/discovery/generated/ourairports.candidates.d.jsonl.gz": "36247734e4e85fedd0481b40ebb4625d535c67e2ace20b2e467865548250c7b9",
+    "research/discovery/generated/ourairports.candidates.e.jsonl.gz": "ecdf97a3b25272832bb0c413ad1dc6e2294474732edc3dff96aaed8d28a9af00",
+    "research/discovery/generated/ourairports.candidates.f.jsonl.gz": "a683f66b6aecbc7333e8534307cc8781cf36fe23df5a51360d9f606bf08724ab",
+    "research/discovery/generated/ourairports.coverage.json": "dfdadb93179ac27e0b02356973583df18073a79df089b205f8754685007c622f",
+    "research/discovery/generated/ourairports.entities.jsonl.gz": "fb585b67aeeef7d14e54836c5a20fe371a85ea65e23fa96935a33fb5f09d690c",
+    "research/discovery/generated/ourairports.versions.jsonl.gz": "1106b802178c945f93a22c2316823412d8c48da73f254dfbe2e39b0ace67fb78",
+    "research/discovery/sources.json": "8a8c9775b2049e4ecf2f6a2f3b7bb8c5cff9b7bc3dbd4a28b8c4643eca7cd9c2",
+    "schema/reference-record.schema.json": "460c7da3ab479dbc4f9806f00f8cfa1f4788d55144052d71b15bbc9278236ee5",
+    "scripts/reference/admissions.py": "269bf6975595b213f7e3a46d10ebc27653f85bfb58e8c3f3676e2076bfda6e10",
+    "scripts/reference/build.py": "3fe61f058505b6feeae2a7f085442d58dbe1a37dd834ff51129748335f05d1d7",
+    "scripts/reference/common.py": "3d47617b33fe01cb11882a020495a6eddd91cbf3339ef79c721eb1c01e7cb67b",
+    "scripts/reference/fetch.py": "6b1c0eccf497216868866140b17174eaaaaf8fdac23733ff7cc8ef1971dc5753",
+    "scripts/reference/query.py": "c1cc45bb5bf250c08dbe76f57296b6ca2ad6c18921862ae078339c81b57d2fa2",
+    "scripts/reference/timezones.py": "4d3ed16dde589a2cb2cb83e6ca082f01af87a7a961819e99a97b6d75440b12a6",
+    "scripts/reference/triage.py": "9ea641529c9d738eef5cf7e22b71bff6d4191ddf57bca015a89e5f96137f3113",
+    "scripts/reference/validate.py": "98ef34ec0e4cc693b6d972064e5079e3f8a61805d6333e7789ca6d89a72abaa7"
+  },
+  "referenceVersion": "1.0.0",
+  "schemaVersion": "1.0.0"
+}

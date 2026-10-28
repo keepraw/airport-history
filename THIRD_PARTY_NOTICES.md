@@ -5,9 +5,27 @@ Project-authored database selection, arrangement, IDs and factual annotations:
 CC0 1.0 (`LICENSE-DATA`), to the extent the contributors hold rights to them.
 This dedication does not change third-party licenses or confer rights in marks.
 
+The separately versioned worldwide reference layer redistributes the full pinned
+OurAirports CSV (public domain) and factual timezone attributes from the pinned
+`airportsdata` identity inventory (MIT). The original airportsdata/mwgg notices
+are included in [reference/LICENSE-airportsdata](reference/LICENSE-airportsdata).
+Exact revisions, raw/compressed hashes, source IDs, provenance and evidence
+limitations are recorded in `reference/source-lock.json` and the generated
+reference manifests. Imported directory observations are not verified historical
+facts. Existing airport-codes data is reused by discovery/triage and as explicitly
+identified historical reference observations under its existing ODC-PDDL-1.0
+notices; original candidate artifacts are retained. These derivatives are one
+OurAirports source family and never independent historical confirmations.
+
+The reference timezone-name catalog contains public-domain Zone/Link identifiers
+from IANA tzdb 2025b. Its exact release archive URL/SHA-256 and selected text
+members are pinned in `reference/timezones-lock.json`; only the derived sorted
+identifier list is redistributed. It validates identifier names without using
+host tzdata, and makes no new historical airport/timezone-rule assertion.
+
 | Material | Upstream terms | Use in this repository |
 | --- | --- | --- |
-| Twenty-two OurAirports rows (eight bootstrap, five batch 1, six in 0.5.0, three in 0.6.0), fixed commit in `data/airports.json` | [Public domain declaration](https://ourairports.com/data/) | Names, reference coordinates, numeric external IDs; current codes corroborate continuing assignments. Separate source records preserve each batch's scope; no full snapshot shipped |
+| Twenty-two OurAirports rows (eight bootstrap, five batch 1, six in 0.5.0, three in 0.6.0), fixed commit in `data/airports.json` | [Public domain declaration](https://ourairports.com/data/) | Historical-layer names, reference coordinates and numeric external IDs; current codes corroborate continuing assignments. Separate source records preserve each batch's scope. The separately versioned reference layer additionally ships its exact pinned full CSV |
 | Wikidata structured statements, Q673202 / Q1436575 | [CC0 1.0](https://www.wikidata.org/wiki/Wikidata:Licensing) | Historic code associations and day-level end qualifiers; secondary evidence |
 | IANA tzdb 2025b `zone1970.tab` / `zone.tab` | [Public domain](https://data.iana.org/time-zones/tzdb-2025b/LICENSE) | Twelve geographical zone identifiers, including Africa/Dakar and Asia/Makassar in 0.6.0; no code or offset tables copied |
 | Temindung reference position and label from `mwgg/Airports` at `6dbaa83ab5efd193aa6d70f4f5bb1eb93ee821f8`, WALS row | MIT; copyright (c) 2014 mwgg; full notice below | Reference attributes only; stale SRI/WALS fields do not certify code history. This formal extract retains MIT terms, outside the CC0 dedication |
