@@ -17,7 +17,11 @@ and adds dated follow-ups of KTI, YNT and ROV/RVI without remapping them; 31
 live overrides now cover both batches. The follow-up-only
 [global-3](batches/global-3.json) admission review moves global-1 ROV, YNT and PNH
 to `ready_to_admit`; the formal dataset (0.5.0) gains six identities and nine
-assignments. Candidate shard `matches` remain the PR #5 snapshot and are not
+assignments. [Global-4](batches/global-4.json) screens ten existing opportunities
+and follows up four, with partial Dakar/Samarinda admissions: four identities,
+five assignments and one name (formal 0.6.0). Global-1 retains sole ownership of
+all candidate mappings and its original claim-specific findings; two further
+status changes have explicit disposition history. Candidate shard `matches` remain the PR #5 snapshot and are not
 rescanned against the new formal records.
 No observation, queue entry, source pin or formal airport record was removed.
 

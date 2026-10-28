@@ -1,13 +1,13 @@
 {
-  "baseCommit": "7c8e0b6623ccce51ee27d25df01631097b359afd",
-  "sha256": "43bb532977cc5df61e6f34b55cab86c7aad3518d5a33ec89745ceccd49d3b67e",
+  "baseCommit": "7a9432994cd56058e9c436a3cbd82685f43c716a",
+  "sha256": "a64086c6864cdf6e2d3ab3df72ffec704a3bdef3cc3d70f1c29cb2d7eeeabe80",
   "schemaVersion": "3.0.0",
-  "dataVersion": "0.5.0",
-  "airports": 19,
-  "assignments": 29,
-  "names": 2,
-  "sources": 43,
-  "note": "Reviewed PR #8 dataset (global-3 admissions). Earlier reviewed datasets are frozen in preservedBaselines; validation requires every one of their records to remain unchanged.",
+  "dataVersion": "0.6.0",
+  "airports": 23,
+  "assignments": 34,
+  "names": 3,
+  "sources": 56,
+  "note": "Reviewed global-4 formal expansion. Both 0.4.0 and 0.5.0 records remain frozen and required unchanged.",
   "preservedBaselines": [
     {
       "dataVersion": "0.4.0",
@@ -18,6 +18,16 @@
       "assignments": 20,
       "names": 2,
       "sources": 29
+    },
+    {
+      "dataVersion": "0.5.0",
+      "baseCommit": "7a9432994cd56058e9c436a3cbd82685f43c716a",
+      "sha256": "43bb532977cc5df61e6f34b55cab86c7aad3518d5a33ec89745ceccd49d3b67e",
+      "record": "test/curated-0.5.0.json",
+      "airports": 19,
+      "assignments": 29,
+      "names": 2,
+      "sources": 43
     }
   ]
 }

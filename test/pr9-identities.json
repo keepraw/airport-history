@@ -1,0 +1,38 @@
+{
+  "yoff": {
+    "airportId": "apt_7b4e284f-4573-4de6-bdc1-75805dec20d4",
+    "ourAirports": "3125",
+    "coordinates": {
+      "latitude": 14.742337,
+      "longitude": -17.479222
+    },
+    "timezone": "Africa/Dakar"
+  },
+  "diass": {
+    "airportId": "apt_ced7c7a9-5d08-4d0f-84d7-e0d432a78096",
+    "ourAirports": "325736",
+    "coordinates": {
+      "latitude": 14.670878,
+      "longitude": -17.072829
+    },
+    "timezone": "Africa/Dakar"
+  },
+  "pranoto": {
+    "airportId": "apt_80ab4c35-b89f-40af-a368-bc71b3716d5a",
+    "ourAirports": "26763",
+    "coordinates": {
+      "latitude": -0.374478,
+      "longitude": 117.250128
+    },
+    "timezone": "Asia/Makassar"
+  },
+  "temindung": {
+    "airportId": "apt_967383b9-116c-4c3b-a8fb-c67515a3eb83",
+    "ourAirports": null,
+    "coordinates": {
+      "latitude": -0.4845309854,
+      "longitude": 117.1569976807
+    },
+    "timezone": "Asia/Makassar"
+  }
+}

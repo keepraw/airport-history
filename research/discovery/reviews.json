@@ -90,7 +90,22 @@
     "nextAction": "Locate Indonesia AIS implementation and original naming decision KP 676/2017; separate inauguration from first service.",
     "relatedLegacyIds": [],
     "reviewedOn": "2026-10-27",
-    "status": "insufficient_evidence"
+    "status": "ready_to_admit",
+    "dispositionHistory": [
+      {
+        "status": "insufficient_evidence",
+        "recordedIn": "global-1",
+        "reviewedOn": "2026-10-27",
+        "reason": "Original conclusions, source references, gaps and next action above preserved unchanged."
+      },
+      {
+        "status": "ready_to_admit",
+        "recordedIn": "global-4",
+        "reviewedOn": "2026-10-28",
+        "reason": "Actual dated AAP observation permits conservative code coverage; original naming decision independently supports one official-name interval. Identity-only Temindung preserves the documented predecessor without certifying unsupported code history."
+      }
+    ],
+    "admissionReview": "research/discovery/batches/global-4.json"
   },
   "cand_410d7e6a2202857176507e0f": {
     "conflicts": [],

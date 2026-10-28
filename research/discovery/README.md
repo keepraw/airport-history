@@ -3,12 +3,13 @@
 This repeatable research layer discovers worldwide history from source revisions.
 Candidates are neither resolver input nor a limit on future coverage; no research
 command writes formal data. `curated-baseline.json` pins the reviewed formal
-dataset (0.5.0: nineteen identities, twenty-nine code assignments, two names,
-forty-three sources, schema 3.0.0) and lists `preservedBaselines`: the 0.4.0
-dataset is frozen in `test/curated-0.4.0.json`, and validation requires every one
-of its records to remain unchanged. Formal admissions arrive only through a
-reviewed batch follow-up ([global-3](batches/global-3.json), see
-[the 0.5.0 admission review](../../docs/curated-admissions-pr8.md)).
+dataset (0.6.0: twenty-three identities, thirty-four code assignments, three names,
+fifty-six sources, schema 3.0.0) and lists `preservedBaselines`: both 0.4.0 and
+0.5.0 are frozen in `test/curated-0.4.0.json` and `test/curated-0.5.0.json`.
+Validation requires every earlier record to remain unchanged. Formal admissions
+arrive through reviewed follow-ups ([global-3](batches/global-3.json) and
+[global-4](batches/global-4.json)); see the
+[0.6.0 admission review](../../docs/curated-admissions-pr9.md).
 
 Read [coverage.md](coverage.md) and [generated/summary.json](generated/summary.json)
 together. Counts describe inspected source records and research transitions,
@@ -43,6 +44,10 @@ changes global-1 ROV, YNT and PNH to `ready_to_admit` and lists the formal IDs
 admitted in 0.5.0; validation requires those IDs to exist. Validation checks all
 batches together, so each candidate maps to at most one event and each batch
 respects its own `maximumEvents` ceiling (never above 20).
+Global-4 screens ten existing opportunities, follows up four global-1 events,
+and admits partial Dakar/Samarinda coverage without new candidate mappings.
+Original claims and sources stay in global-1; two new dispositions are recorded
+in its history. SRI, WALS, LYG and JNG code histories remain unadmitted.
 
 ## Run
 

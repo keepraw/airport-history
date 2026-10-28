@@ -1,0 +1,52 @@
+{
+  "window": {
+    "startInclusive": "2013-03-29",
+    "endExclusive": "2026-10-25"
+  },
+  "unit": "distinct code/scheme/local-date queries; includes reviewed continuity inference, not independently observed flights",
+  "before": "not_found for every measured query in 0.5.0",
+  "rows": [
+    {
+      "code": "DKR",
+      "scheme": "IATA",
+      "resolved": 1713,
+      "uncertain": 3245,
+      "firstResolved": "2013-03-30",
+      "lastResolved": "2017-12-06"
+    },
+    {
+      "code": "DSS",
+      "scheme": "IATA",
+      "resolved": 3259,
+      "uncertain": 1699,
+      "firstResolved": "2017-11-22",
+      "lastResolved": "2026-10-24"
+    },
+    {
+      "code": "GOOY",
+      "scheme": "ICAO",
+      "resolved": 4957,
+      "uncertain": 1,
+      "firstResolved": "2013-03-30",
+      "lastResolved": "2026-10-24"
+    },
+    {
+      "code": "GOBD",
+      "scheme": "ICAO",
+      "resolved": 3244,
+      "uncertain": 1714,
+      "firstResolved": "2017-12-07",
+      "lastResolved": "2026-10-24"
+    },
+    {
+      "code": "AAP",
+      "scheme": "IATA",
+      "resolved": 2622,
+      "uncertain": 2336,
+      "firstResolved": "2019-08-21",
+      "lastResolved": "2026-10-24"
+    }
+  ],
+  "totalResolved": 15795,
+  "totalUncertain": 8995
+}
