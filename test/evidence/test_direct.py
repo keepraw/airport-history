@@ -3,6 +3,7 @@ import gzip
 import importlib.util
 import json
 import socket
+import shutil
 import sys
 import tempfile
 import unittest
@@ -118,6 +119,25 @@ class DirectEvidenceTests(unittest.TestCase):
             direct.validate(output)
             for path in direct.OUT.iterdir():
                 self.assertEqual(path.read_bytes(), (output / path.name).read_bytes(), path.name)
+
+    def test_build_consumes_an_explicit_new_snapshot_and_traces_its_originals(self):
+        with tempfile.TemporaryDirectory(dir=ROOT / 'work') as tmp:
+            snapshot = Path(tmp) / 'new-snapshot'
+            snapshot.mkdir()
+            for directory in ('inputs', 'texts'):
+                shutil.copytree(direct.BASE / directory, snapshot / directory)
+            lock = json.loads((direct.BASE / 'source-lock.json').read_text())
+            lock['sources'][0]['accessedAt'] = '2026-10-28T14:01:00+00:00'
+            direct.write_json(snapshot / 'source-lock.json', lock)
+            output = Path(tmp) / 'proposal'
+            with patch.object(direct, 'get', side_effect=AssertionError('network disabled')):
+                direct.build(output, snapshot)
+                direct.validate(output)
+            manifest = json.loads((output / 'manifest.json').read_text())
+            self.assertEqual(manifest['sourceDirectory'], str(snapshot.relative_to(ROOT)))
+            observations = list(direct.read_jsonl(output / 'observations.jsonl.gz'))
+            self.assertTrue(any(o['observedAt'] == '2026-10-28T14:01:00+00:00' for o in observations))
+            self.assertIn(str(snapshot.relative_to(ROOT)) + '/inputs/', (output / 'evidence-index.md').read_text())
 
 
 if __name__ == '__main__':

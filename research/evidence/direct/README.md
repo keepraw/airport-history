@@ -148,8 +148,10 @@ corepack pnpm install --frozen-lockfile
 # Online, EMPTY destination: refetch all 16 originals from official hosts.
 # Reject any changed original bytes; authenticate each citation in fresh extraction.
 corepack pnpm evidence:direct fetch --recover --output work/direct-recovered
-# Or collect a separately inspectable new snapshot from the explicit catalog:
+# Or collect a separately inspectable new snapshot and feed it directly to build:
 corepack pnpm evidence:direct fetch --output work/direct-new-snapshot
+corepack pnpm evidence:direct build --sources work/direct-new-snapshot --output work/direct-new-proposal
+corepack pnpm evidence:direct validate --output work/direct-new-proposal
 
 # Offline: committed originals → exact source citations → physical/code judgments
 # → existing candidate join → actual schema-valid pending dataset and dossiers.
@@ -165,6 +167,14 @@ original acquisition writer, and calls the unchanged admission implementation.
 It does not pretend that parsing can decide historical identity or continuity.
 The pending dataset passes the normal schema/semantic validator and is then
 **rejected by the existing human-review admission gate**, as required.
+
+A separate real online acquisition was also consumed directly with `build
+--sources work/direct-end-to-end --output work/direct-end-to-end-proposal`.
+Its manifest binds all sixteen freshly acquired originals and their extractions;
+validation passed and its pending dataset is byte-identical to the committed
+proposal. Provenance paths/access timestamps reflect the actual input snapshot.
+The explicit-snapshot regression additionally proves the build uses that input
+rather than silently rereading the committed source lock.
 
 An actual full online recovery succeeded for all 16 original-content hashes and
 deterministic compressed hashes, with every cited span re-extracted. The first

@@ -144,13 +144,16 @@ def locked_sources(directory=BASE):
     return result
 
 
-def build(output=OUT):
+def build(output=OUT, source_directory=BASE):
     started = time.perf_counter()
     assessment = json.loads((BASE / 'assessments.json').read_text())
     if (assessment['humanReviewStatus'] != 'pending' or assessment['reviewer'] is not None
             or assessment['decision'] != 'proposed'):
         raise ValueError('Demonstration must not impersonate human acceptance')
-    loaded = locked_sources()
+    source_directory = source_directory.resolve()
+    if not source_directory.is_relative_to(ROOT.resolve()):
+        raise ValueError('Keep reproducible source snapshots inside the repository work directory')
+    loaded = locked_sources(source_directory)
     sources = {sid: pair[0] for sid, pair in loaded.items()}
     facts = {}
     for fact in assessment['facts']:
@@ -246,7 +249,7 @@ def build(output=OUT):
         if any(by_group[gid]['physicalMatch']['referenceId'] not in reference_ids for gid in case['groupIds']):
             raise ValueError('Case points to an unrelated existing candidate group')
     selected = [by_group[gid] for gid in sorted(selected_ids)]
-    lock = json.loads((BASE / 'source-lock.json').read_text())
+    lock = json.loads((source_directory / 'source-lock.json').read_text())
     batches = list(packets(selected, lock['preparedOn'], lock['baseCommit']))
     for batch in batches:
         batch['batchId'] = batch['batchId'].replace('bulk-proposal', 'direct-fact-proposal')
@@ -313,8 +316,10 @@ def build(output=OUT):
         '[Pending dataset](proposed-data.json) · [Record dossiers](dossier.json) · [Blocked drafts](blocked-record-drafts.json)', '',
         '## Original publications', '']
     for sid, source in sources.items():
+        raw_path = (source_directory / source['inputPath']).relative_to(ROOT)
+        text_path = (source_directory / source['textPath']).relative_to(ROOT)
         index_lines += [f"- **{sid}** — [{source['title']}]({source['url']}); role `{source['role']}`. "
-            f"[Original bytes](../{source['inputPath']}); [extraction](../{source['textPath']}). "
+            f"Original archive `{raw_path}`; extraction `{text_path}` (repository-relative paths). "
             f"SHA-256 `{source['originalSha256']}`; accessed {source['accessedAt']}."]
     index_lines += ['', '## Claim-specific proposed judgments', '']
     for fid, fact in facts.items():
@@ -336,13 +341,14 @@ def build(output=OUT):
             raise
     else:
         raise ValueError('Pending proposals unexpectedly passed human admission gate')
-    inputs = [BASE / 'catalog.json', BASE / 'assessments.json', BASE / 'source-lock.json',
+    inputs = [BASE / 'catalog.json', BASE / 'assessments.json', source_directory / 'source-lock.json',
               ROOT / 'data/airports.json', ROOT / 'scripts/evidence/direct.py',
               ROOT / 'scripts/evidence/pipeline.py', ROOT / 'scripts/evidence/fetch.py',
               ROOT / 'scripts/reference/admissions.py', ROOT / 'scripts/discovery/review.py',
               ROOT / 'reference/generated/manifest.json', ROOT / 'reference/triage/manifest.json']
-    inputs += [BASE / s[key] for s in sources.values() for key in ('inputPath', 'textPath')]
+    inputs += [source_directory / s[key] for s in sources.values() for key in ('inputPath', 'textPath')]
     write_json(output / 'manifest.json', {'formatVersion': 1, 'status': 'pending_human_review',
+        'sourceDirectory': str(source_directory.relative_to(ROOT)),
         'inputs': {str(p.relative_to(ROOT)): digest(p) for p in sorted(inputs)},
         'files': {p.name: digest(p) for p in sorted(output.iterdir()) if p.name != 'manifest.json'}})
     print(json.dumps({'metrics': metrics, 'elapsedSeconds': round(time.perf_counter() - started, 3),
@@ -356,7 +362,10 @@ def validate(output=OUT):
         checked(ROOT / path, sha)
     for name, sha in lock['files'].items():
         checked(output / name, sha)
-    loaded = locked_sources()
+    source_directory = (ROOT / lock['sourceDirectory']).resolve()
+    if not source_directory.is_relative_to(ROOT.resolve()):
+        raise ValueError('Source snapshot escapes repository')
+    loaded = locked_sources(source_directory)
     assessment = json.loads((BASE / 'assessments.json').read_text())
     facts = {f['factId']: f for f in read_jsonl(output / 'facts.jsonl.gz')}
     if len(facts) != len(assessment['facts']):
@@ -404,6 +413,8 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('command', choices=['fetch', 'build', 'validate'])
     parser.add_argument('--output', type=Path)
+    parser.add_argument('--sources', type=Path, default=BASE,
+                        help='Locked source snapshot consumed by build; default is the committed corpus')
     parser.add_argument('--recover', action='store_true')
     args = parser.parse_args()
     if args.command == 'fetch':
@@ -411,6 +422,6 @@ if __name__ == '__main__':
             parser.error('Online acquisition requires an explicit empty --output')
         acquire(args.output, args.recover)
     elif args.command == 'build':
-        build(args.output or OUT)
+        build(args.output or OUT, args.sources)
     else:
         validate(args.output or OUT)

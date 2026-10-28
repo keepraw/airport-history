@@ -3,7 +3,7 @@
     "blocked-record-drafts.json": "d83578cc1987984e2c2c40bf64e894c714e42d74e6c4f050a788b30fca3e12fa",
     "cases.json": "18e7ee57d00351213689f7c0c9bad18c90eeda1678f53162cf4cdab1f97ff297",
     "dossier.json": "7ac2e2fff4dfdea435ff014457a40938fde58bf9f733715e0ffac8fb4fd03311",
-    "evidence-index.md": "daf2d33e49633cfcc4cd4ba47bfcc9fd2ee6e41f0f8802903f0210d4bf5c5856",
+    "evidence-index.md": "274e1e7e36508988d4b9b398d2a385d492c422a5abfceb72fbe3d2df347103bb",
     "facts.jsonl.gz": "1e15731896716db41158e934c1b39843cd944f09793cca50779baaaae3f4cb25",
     "matches.jsonl.gz": "ca42b95785cc1f1345accf381d534a1a3d815419b56aae5ce79a3a5cbc85a0ee",
     "metrics.json": "04ac3f23d09f67644c9ac965fe201fd580e5dfec0faf486e304eb5c0c6e64370",
@@ -52,10 +52,11 @@
     "research/evidence/direct/texts/nws-sgu-open.txt.gz": "bdbc24d78d702171531d29392676f0241fe445f3d687d90a16dca5aebddc095b",
     "research/evidence/direct/texts/nws-williston.txt.gz": "7553bb8c612106d125e63adc067514cbf3fddb0e40b8c40fa5dcc0ff1b9fa576",
     "scripts/discovery/review.py": "b6540d6cff18a3bdd0e8ef06a743defbeb9436cf620437d419036fde1ae2a92d",
-    "scripts/evidence/direct.py": "21cab11dc5a5cabb4b43102e98180ea83f726de4c2d8fde6a00e2683ead7b1da",
+    "scripts/evidence/direct.py": "1db533b77ca41b19e5f3a5a61ea615a7378d0669adac4fd089c3463fe14591cf",
     "scripts/evidence/fetch.py": "2928a776ca9c0b20f1d55af455e774acaf4a5ae1f5f516daf519826e5d9b8a57",
     "scripts/evidence/pipeline.py": "460b75289acec26ec71d85ecc323740bd58aca778fc6cc9a57053692d36f58f1",
     "scripts/reference/admissions.py": "269bf6975595b213f7e3a46d10ebc27653f85bfb58e8c3f3676e2076bfda6e10"
   },
+  "sourceDirectory": "research/evidence/direct",
   "status": "pending_human_review"
 }
