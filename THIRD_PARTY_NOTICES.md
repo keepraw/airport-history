@@ -103,3 +103,21 @@ designation; existing PDDL/MIT source observations retain their original notices
 An attributed airline release on a third-party host is distinguished from an
 original airline-host copy. Blocked origin downloads and indexed extracts are
 identified, and are not silently promoted to inspected allocation records.
+
+## PR13 original FAA and NOAA historical publications
+
+`research/evidence/direct/inputs/` retains 16 exact original publications: FAA
+JO 7350.8G/7350.9 identifier directories, JO 7400.9R/7400.9Y airspace/location
+orders, seven FAA Federal Register works, and five NOAA/NWS notices/instructions
+(including an unsigned sample retained as rejected evidence). These are
+US federal government factual works under [17 USC 105 / GovInfo policy](https://www.govinfo.gov/about/policies).
+See also [NOAA information policy](https://www.noaa.gov/information-technology/information-quality)
+and the issuer attribution, original hashes, exact extraction locators and scope
+in the [direct evidence registry](research/evidence/direct/source-lock.json).
+
+The designation applies to these government-authored originals and factual
+annotations, not to all linked attachments, commercial directories, foreign AIPs,
+photos or third-party works. No restricted charts or proprietary IATA ledger is
+imported. Raw PDFs/HTML and their text extractions keep source attribution and
+separate hashes. Their availability does not establish human acceptance or permit
+IATA inference from FAA codes. No earlier third-party licensing scope changes.

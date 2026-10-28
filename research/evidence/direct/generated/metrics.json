@@ -1,0 +1,31 @@
+{
+  "adjudicatedDirectoryCorrections": 0,
+  "associationConflictGroups": 3,
+  "blockedICAOIntervalDrafts": 2,
+  "blockedPhysicalAirportDrafts": 2,
+  "candidateAssociations": 19,
+  "confirmedHistoricalCodeConflicts": 0,
+  "datedPhysicalCases": 4,
+  "directCodeAllocationBoundaryFacts": 0,
+  "directoryUpdateContexts": 1,
+  "existingCandidateGroupsInvestigated": 9,
+  "formalAdmissions": 0,
+  "formalHistoricalCoverageIncrease": 0,
+  "humanApprovedRecords": 0,
+  "identityAmbiguityGroups": 7,
+  "intervalDraftsWithUnresolvedCrossSiteOverlap": 2,
+  "originalPublications": 16,
+  "proposedIATAIntervals": 0,
+  "proposedICAOIntervals": 6,
+  "proposedPhysicalAirports": 6,
+  "proposedSources": 11,
+  "rejectedSamplePublications": 1,
+  "retrospectiveExactPhysicalDayFacts": 1,
+  "sameSiteCoordinateRevisionContexts": 1,
+  "sourceFamilies": [
+    "noaa-nws",
+    "usdot-faa"
+  ],
+  "unresolvedClosureChronologies": 1,
+  "usefulOriginalPublications": 15
+}

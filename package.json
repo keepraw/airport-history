@@ -30,9 +30,10 @@
     "reference:fetch-timezones": "python3 scripts/reference/timezones.py --fetch",
     "evidence:fetch": "python3 scripts/evidence/fetch.py",
     "evidence:build": "python3 scripts/evidence/pipeline.py build",
-    "evidence:validate": "node scripts/evidence/validate-schema.ts && python3 scripts/evidence/pipeline.py validate",
+    "evidence:validate": "node scripts/evidence/validate-schema.ts && python3 scripts/evidence/pipeline.py validate && pnpm evidence:direct validate",
     "test:evidence": "python3 -m unittest discover -s test/evidence -v",
-    "compat:fly": "python3 scripts/compat/run-fly.py"
+    "compat:fly": "python3 scripts/compat/run-fly.py",
+    "evidence:direct": "python3 scripts/evidence/direct.py"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",

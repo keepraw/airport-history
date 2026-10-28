@@ -213,7 +213,7 @@ Review status, evidence provenance and temporal precision are separate fields:
 
 `evidenceType` describes the **whole continuous assignment**. When continuity
 between observations is inferred, use `continuity_inference` even if a boundary
-has primary evidence. All thirty-four curated assignments have this category and remain
+has primary evidence. All forty curated assignments have this category and remain
 `verified`. It is visible through `candidates[].assignment.evidenceType`; source
 types are included in candidate and result evidence. See the
 [per-assignment classification](docs/evidence.md#assignment-classification).
@@ -342,7 +342,7 @@ src/
   validate.ts                # JSON Schema plus semantic validation
   index.ts                   # dependency-free resolver entry point
 schema/dataset.schema.json   # strict draft-07 schema
-data/airports.json           # 23 sites, 34 assignments, 3 names, 56 sources
+data/airports.json           # 23 sites, 40 assignments, 3 names, 70 sources
 scripts/{load,validate,build}.ts
 test/{resolve,validate,build,evidence,conflicts,batch-1,names}.test.ts
 test/identities.json          # permanent initial ID mapping
@@ -404,6 +404,15 @@ ID retirement/alias review should precede larger contributions. The separate
 [global discovery workflow](research/discovery/README.md) now produces a worldwide
 verification queue; candidate counts do not limit future coverage. No automatic
 current-data fallback or main-project integration is included.
+
+## Direct historical evidence proposals (PR13)
+
+The [direct-source demonstration](research/evidence/direct/README.md) acquires
+15 useful official historical publications plus one rejected policy sample,
+assesses four physical-history cases, and prepares six physical-airport/six ICAO
+interval proposals with exact original citations. Two Cleveland drafts remain
+blocked; the KSGU pair still needs transfer bounds. All proposals require real
+human review. Formal data stays 0.7.0 and historical coverage does not increase.
 
 ## License
 

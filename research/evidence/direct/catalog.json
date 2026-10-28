@@ -1,0 +1,341 @@
+{
+  "selection": "Existing US physical-relocation leads and paired official historical editions. No automated global admission or fixed airport ceiling.",
+  "sources": [
+    {
+      "documentEffectiveDate": "2009-05-07",
+      "extractor": "pdftotext-layout",
+      "inputPath": "inputs/faa-2009.pdf.gz",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "originalPublicationKey": "usdot-faa:JO7350.8G:2009-05-07",
+      "provider": "faa-order",
+      "publicationDate": "2009-05-07",
+      "publisher": "Federal Aviation Administration",
+      "retrievalUrl": "https://www.faa.gov/documentLibrary/media/Order/Basic7350.8G.pdf",
+      "role": "code_directory",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-2009",
+      "supports": [
+        "Only claim-specific facts cited in assessments.json; directory rows require the explicit jurisdiction and airport rule."
+      ],
+      "title": "JO 7350.8G Location Identifiers",
+      "url": "https://www.faa.gov/documentLibrary/media/Order/Basic7350.8G.pdf"
+    },
+    {
+      "documentEffectiveDate": "2014-07-24",
+      "extractor": "pdftotext-layout",
+      "inputPath": "inputs/faa-2014.pdf.gz",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "originalPublicationKey": "usdot-faa:JO7350.9:2014-07-24",
+      "provider": "faa-order",
+      "publicationDate": null,
+      "publisher": "Federal Aviation Administration",
+      "retrievalUrl": "https://www.faa.gov/documentLibrary/media/Order/LID_7-24-14.pdf",
+      "role": "code_directory",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-2014",
+      "supports": [
+        "Only claim-specific facts cited in assessments.json; directory rows require the explicit jurisdiction and airport rule."
+      ],
+      "title": "JO 7350.9 Location Identifiers",
+      "url": "https://www.faa.gov/documentLibrary/media/Order/LID_7-24-14.pdf"
+    },
+    {
+      "documentEffectiveDate": "2007-09-15",
+      "extractor": "pdftotext-layout",
+      "inputPath": "inputs/airspace-2007.pdf.gz",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "originalPublicationKey": "usdot-faa:JO7400.9R:2007-09-15",
+      "provider": "faa-airspace",
+      "publicationDate": null,
+      "publisher": "Federal Aviation Administration",
+      "retrievalUrl": "https://www.faa.gov/documentLibrary/media/Order/ND/7400.9R.pdf",
+      "role": "physical_location",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "airspace-2007",
+      "supports": [
+        "Only claim-specific facts cited in assessments.json; directory rows require the explicit jurisdiction and airport rule."
+      ],
+      "title": "JO 7400.9R Airspace Designations and Reporting Points",
+      "url": "https://www.faa.gov/documentLibrary/media/Order/ND/7400.9R.pdf"
+    },
+    {
+      "documentEffectiveDate": "2014-09-15",
+      "extractor": "pdftotext-layout",
+      "inputPath": "inputs/airspace-2014.pdf.gz",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "originalPublicationKey": "usdot-faa:JO7400.9Y:2014-09-15",
+      "provider": "faa-airspace",
+      "publicationDate": "2014-08-06",
+      "publisher": "Federal Aviation Administration",
+      "retrievalUrl": "https://www.faa.gov/documentlibrary/media/order/jo_7400.9y.pdf",
+      "role": "physical_location",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "airspace-2014",
+      "supports": [
+        "Only claim-specific facts cited in assessments.json; directory rows require the explicit jurisdiction and airport rule."
+      ],
+      "title": "JO 7400.9Y Airspace Designations and Reporting Points",
+      "url": "https://www.faa.gov/documentlibrary/media/order/jo_7400.9y.pdf"
+    },
+    {
+      "documentEffectiveDate": "2010-05-23",
+      "extractor": "pdftotext-layout",
+      "inputPath": "inputs/nws-panama.pdf.gz",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "originalPublicationKey": "noaa-nws:TIN10-18",
+      "provider": "nws-tin",
+      "publicationDate": "2010-04-28",
+      "publisher": "NOAA National Weather Service",
+      "retrievalUrl": "https://www.weather.gov/media/notification/tins/tin10-18taf_kecp.pdf",
+      "role": "event_notice",
+      "sourceFamily": "noaa-nws",
+      "sourceId": "nws-panama",
+      "supports": [
+        "Only claim-specific facts cited in assessments.json; directory rows require the explicit jurisdiction and airport rule."
+      ],
+      "title": "NWS TIN 10-18 Panama City replacement",
+      "url": "https://www.weather.gov/media/notification/tins/tin10-18taf_kecp.pdf"
+    },
+    {
+      "documentEffectiveDate": "2011-01-12",
+      "extractor": "pdftotext-layout",
+      "inputPath": "inputs/nws-sgu-open.pdf.gz",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "originalPublicationKey": "noaa-nws:TIN10-63:CCA",
+      "provider": "nws-tin",
+      "publicationDate": null,
+      "publisher": "NOAA National Weather Service",
+      "retrievalUrl": "https://www.weather.gov/media/notification/tins/tin10-63st_george_taf_cca.pdf",
+      "role": "event_notice",
+      "sourceFamily": "noaa-nws",
+      "sourceId": "nws-sgu-open",
+      "supports": [
+        "Only claim-specific facts cited in assessments.json; directory rows require the explicit jurisdiction and airport rule."
+      ],
+      "title": "NWS TIN 10-63 Corrected St George replacement",
+      "url": "https://www.weather.gov/media/notification/tins/tin10-63st_george_taf_cca.pdf"
+    },
+    {
+      "documentEffectiveDate": "2011-12-15",
+      "extractor": "pdftotext-layout",
+      "inputPath": "inputs/nws-sgu-change.pdf.gz",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "originalPublicationKey": "noaa-nws:TIN11-48",
+      "provider": "nws-tin",
+      "publicationDate": "2011-11-10",
+      "publisher": "NOAA National Weather Service",
+      "retrievalUrl": "https://www.weather.gov/media/notification/tins/tin11-48taf_sgu.pdf",
+      "role": "event_notice",
+      "sourceFamily": "noaa-nws",
+      "sourceId": "nws-sgu-change",
+      "supports": [
+        "Only claim-specific facts cited in assessments.json; directory rows require the explicit jurisdiction and airport rule."
+      ],
+      "title": "NWS TIN 11-48 St George identifier restoration",
+      "url": "https://www.weather.gov/media/notification/tins/tin11-48taf_sgu.pdf"
+    },
+    {
+      "documentEffectiveDate": null,
+      "extractor": "pdftotext-layout",
+      "inputPath": "inputs/nws-williston.pdf.gz",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "originalPublicationKey": "noaa-nws:SCN23-112",
+      "provider": "nws-tin",
+      "publicationDate": "2023-12-14",
+      "publisher": "NOAA National Weather Service",
+      "retrievalUrl": "https://www.weather.gov/media/notification/pdf_2023_24/scn23-112_rtma_and_urma_v2.10.5.pdf",
+      "role": "directory_update_context",
+      "sourceFamily": "noaa-nws",
+      "sourceId": "nws-williston",
+      "supports": [
+        "Only claim-specific facts cited in assessments.json; directory rows require the explicit jurisdiction and airport rule."
+      ],
+      "title": "NWS SCN 23-112 RTMA/URMA station list update",
+      "url": "https://www.weather.gov/media/notification/pdf_2023_24/scn23-112_rtma_and_urma_v2.10.5.pdf"
+    },
+    {
+      "documentEffectiveDate": "2011-11-09",
+      "extractor": "pdftotext-layout",
+      "inputPath": "inputs/noaa-st-george.pdf.gz",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "originalPublicationKey": "noaa-nws:NWSI10-1805:2011-11-09",
+      "provider": "nws-tin",
+      "publicationDate": "2011-11-09",
+      "publisher": "NOAA National Weather Service",
+      "retrievalUrl": "https://www.weather.gov/media/directives/010_pdfs_archived/pd01018005a.pdf",
+      "role": "rejected_sample",
+      "sourceFamily": "noaa-nws",
+      "sourceId": "noaa-st-george",
+      "supports": [
+        "Only claim-specific facts cited in assessments.json; directory rows require the explicit jurisdiction and airport rule."
+      ],
+      "title": "NWSI 10-1805 Appendix E sample waiver",
+      "url": "https://www.weather.gov/media/directives/010_pdfs_archived/pd01018005a.pdf"
+    },
+    {
+      "documentEffectiveDate": null,
+      "extractor": "govinfo-pre",
+      "inputPath": "inputs/fr-2011-12359.htm.gz",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "originalPublicationKey": "usdot-faa:FR:2011-12359",
+      "provider": "faa-fr",
+      "publicationDate": "2011-05-19",
+      "publisher": "Federal Aviation Administration",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2011-05-19/html/2011-12359.htm",
+      "role": "event_notice",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "fr-2011-12359",
+      "supports": [
+        "Only claim-specific facts cited in assessments.json; directory rows require the explicit jurisdiction and airport rule."
+      ],
+      "title": "FAA Federal Register 2011-12359: Panama City relocation record of decision",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2011-05-19/html/2011-12359.htm"
+    },
+    {
+      "documentEffectiveDate": null,
+      "extractor": "govinfo-pre",
+      "inputPath": "inputs/fr-2012-23556.htm.gz",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "originalPublicationKey": "usdot-faa:FR:2012-23556",
+      "provider": "faa-fr",
+      "publicationDate": "2012-09-25",
+      "publisher": "Federal Aviation Administration",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2012-09-25/html/2012-23556.htm",
+      "role": "event_notice",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "fr-2012-23556",
+      "supports": [
+        "Only claim-specific facts cited in assessments.json; directory rows require the explicit jurisdiction and airport rule."
+      ],
+      "title": "FAA Federal Register 2012-23556: St George property release",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2012-09-25/html/2012-23556.htm"
+    },
+    {
+      "documentEffectiveDate": null,
+      "extractor": "govinfo-pre",
+      "inputPath": "inputs/fr-2019-04153.htm.gz",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "originalPublicationKey": "usdot-faa:FR:2019-04153",
+      "provider": "faa-fr",
+      "publicationDate": "2019-03-08",
+      "publisher": "Federal Aviation Administration",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2019-03-08/html/2019-04153.htm",
+      "role": "event_notice",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "fr-2019-04153",
+      "supports": [
+        "Only claim-specific facts cited in assessments.json; directory rows require the explicit jurisdiction and airport rule."
+      ],
+      "title": "FAA Federal Register 2019-04153: Establishment of Class E Airspace Williston",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2019-03-08/html/2019-04153.htm"
+    },
+    {
+      "documentEffectiveDate": null,
+      "extractor": "pdftotext-raw",
+      "inputPath": "inputs/fr-2020-09591.pdf.gz",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "originalPublicationKey": "usdot-faa:FR:2020-09591",
+      "provider": "faa-fr",
+      "publicationDate": "2020-05-06",
+      "publisher": "Federal Aviation Administration",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2020-05-06/pdf/2020-09591.pdf",
+      "role": "event_notice",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "fr-2020-09591",
+      "supports": [
+        "Only claim-specific facts cited in assessments.json; directory rows require the explicit jurisdiction and airport rule."
+      ],
+      "title": "FAA Federal Register 2020-09591: Revocation and Amendment of Class E Airspace Williston",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2020-05-06/html/2020-09591.htm"
+    },
+    {
+      "documentEffectiveDate": null,
+      "extractor": "govinfo-pre",
+      "inputPath": "inputs/fr-2013-20499.htm.gz",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "originalPublicationKey": "usdot-faa:FR:2013-20499",
+      "provider": "faa-fr",
+      "publicationDate": "2013-08-23",
+      "publisher": "Federal Aviation Administration",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2013-08-23/html/2013-20499.htm",
+      "role": "event_notice",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "fr-2013-20499",
+      "supports": [
+        "Only claim-specific facts cited in assessments.json; directory rows require the explicit jurisdiction and airport rule."
+      ],
+      "title": "FAA Federal Register 2013-20499: Dayton Cleveland airspace amendment",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2013-08-23/html/2013-20499.htm"
+    },
+    {
+      "documentEffectiveDate": null,
+      "extractor": "govinfo-pre",
+      "inputPath": "inputs/fr-2014-02473.htm.gz",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "originalPublicationKey": "usdot-faa:FR:2014-02473",
+      "provider": "faa-fr",
+      "publicationDate": "2014-02-05",
+      "publisher": "Federal Aviation Administration",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2014-02-05/html/2014-02473.htm",
+      "role": "event_notice",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "fr-2014-02473",
+      "supports": [
+        "Only claim-specific facts cited in assessments.json; directory rows require the explicit jurisdiction and airport rule."
+      ],
+      "title": "FAA Federal Register 2014-02473: Cleveland Hardwick permanent closure notice",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2014-02-05/html/2014-02473.htm"
+    },
+    {
+      "documentEffectiveDate": null,
+      "extractor": "govinfo-pre",
+      "inputPath": "inputs/fr-2019-18577.htm.gz",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "originalPublicationKey": "usdot-faa:FR:2019-18577",
+      "provider": "faa-fr",
+      "publicationDate": "2019-08-29",
+      "publisher": "Federal Aviation Administration",
+      "retrievalUrl": "https://www.govinfo.gov/content/pkg/FR-2019-08-29/html/2019-18577.htm",
+      "role": "event_notice",
+      "sourceFamily": "usdot-faa",
+      "sourceId": "fr-2019-18577",
+      "supports": [
+        "Only claim-specific facts cited in assessments.json; directory rows require the explicit jurisdiction and airport rule."
+      ],
+      "title": "FAA Federal Register 2019-18577: Sloulin Field permanent closure notice",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2019-08-29/html/2019-18577.htm"
+    }
+  ]
+}
