@@ -1,0 +1,69 @@
+{
+  "evidenceStatus": "pending_human_claim_review",
+  "files": {
+    "existing-review-attachments.jsonl.gz": {
+      "bytes": 815,
+      "sha256": "f72fc48ef800623a2b519898d7258194ebd0418d842f66a845159bc97cf1e073"
+    },
+    "matches.jsonl.gz": {
+      "bytes": 1401767,
+      "sha256": "acd2f2368502b772263fdd184f92774b5462165dfd82c706b1bbf8c28c7280f9"
+    },
+    "metrics.json": {
+      "bytes": 924,
+      "sha256": "d1dd072e1c6d5ce0026bec69e63fadb3b740ad5da6c15ce8e26173d64b43a20b"
+    },
+    "observations.jsonl.gz": {
+      "bytes": 1748155,
+      "sha256": "d1b267f61869783e5016458be943e03e5536dd61da0dee0f635a113c24d8a40d"
+    },
+    "review-packets.jsonl.gz": {
+      "bytes": 3719361,
+      "sha256": "4f8a4e9d2509adb6902eab220496f9ee221cd6df56d8a188a22bd9fedbc28abc"
+    },
+    "unmatched.jsonl.gz": {
+      "bytes": 36383,
+      "sha256": "c36bdbf921587dede3e2de89f3078f81b46a56b1b118be07cec934aaf150704c"
+    }
+  },
+  "formatVersion": 1,
+  "inputs": {
+    "data/airports.json": "31c5735b333881d7afdd527fe4af1db8e28413d5bba114fbf88a4aad0809cff7",
+    "reference/generated/manifest.json": "3339f29a0f60d3519ddc07f94342bf38adce06e628e82c4c0b1ee5cc39bb426a",
+    "reference/triage/code-reuse-leads.jsonl.gz": "eafa926f6eef2c8eb94fcab93a74207131f49f14c7ab606eb0eb4f0b7be6cbe2",
+    "reference/triage/groups.jsonl.gz": "8445391e7846efacb39ace5ba82131b1cc5759bf8e8cdaa0ff85767f363dd8c2",
+    "reference/triage/manifest.json": "e6cd6d129f01bd96604ac60f3a3ecfefd570665e77ff1b643303c92535e227db",
+    "research/discovery/batches/global-1.json": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094",
+    "research/discovery/batches/global-2.json": "b1cddfb6b7827896cbb87b9fdfaea3547afa4e366d5d4b913d10f6418b99f065",
+    "research/discovery/batches/global-3.json": "6b272f267fba3b79c5a9e3ffa4412a96064a2d2c2e650fdc4a457ef6aeda3032",
+    "research/discovery/batches/global-4.json": "fb897a9848dcfbd5c9cc482392c40851d8a4826caa8ae3ee4f341ccaf7e0e625",
+    "research/evidence/inputs/bts-master.csv.gz": "ae7a8cd6d98a57e3167ceb679750b6087f219d3bcd95e390d058aa65b2107fdf",
+    "research/evidence/inputs/fr-00-26515.htm.gz": "266ecf3c77e01d4242326b29c4c80eaf353e385fd7337ab4bc41e9643f2862d2",
+    "research/evidence/inputs/fr-02-14785.htm.gz": "6272b3b4a0f8a20228f97a90e239bde2847401263b21ea6e7e5cec1b93a2686c",
+    "research/evidence/inputs/fr-03-19166.htm.gz": "8f9de867039509c502e7eb4dd8da0d56bd8bda395b4c6dbe2f9bf1ea402fc097",
+    "research/evidence/inputs/fr-06-5184.htm.gz": "7cadc35840c784cf4cca5a3da9b7c25de916538ccb63247212572c938570325e",
+    "research/evidence/inputs/fr-06-9231.htm.gz": "4e79fd92e7a431d8033c42e432e88b20b6329b7b21165f4b91959f4a38c7008d",
+    "research/evidence/inputs/fr-07-4332.htm.gz": "0f6a35b4cc82ac9ee7ed3e3f45c1cbe3f835a9ea4bdd6f2d59e7038b6c3c2030",
+    "research/evidence/inputs/fr-2013-02053.htm.gz": "41b7213f97bdbcbc0a57ed352f7493e798b10e74d2c6814d921158a8d1e685b1",
+    "research/evidence/inputs/fr-2013-10810.htm.gz": "91425f40a4dff692bdda7ee1951c8098f5fe29c30c46ac3af5c24e8b4fb397fb",
+    "research/evidence/inputs/fr-2014-08205.htm.gz": "a9ca1d7cc51cacf07a93f7c836d5699db9b32504c0182a0906da84c0848d714c",
+    "research/evidence/inputs/fr-2015-29912.htm.gz": "51914f390de2794aafdf19a7db8b5ae281f1291d29b58621e63b7f538ccc1a60",
+    "research/evidence/inputs/fr-2016-06833.htm.gz": "7cd4c2338c7a09d0750ad2210419595f09032df4f736428883820751895b7b9b",
+    "research/evidence/inputs/fr-2016-13551.htm.gz": "b09f188a37549f3bb2781511c8f7684409fe61b8f44dcb4e9a3baf447b14541e",
+    "research/evidence/inputs/fr-2016-19244.htm.gz": "97a6c7802e930a402ccbd3b9aaecf79709d96f29cf7c8036e3bfcbdfffcaefb7",
+    "research/evidence/inputs/fr-2016-19556.htm.gz": "bb60ef110daf7cd1d99de3becb6aab8e818f30a0d79a86e7b52f957fa2081641",
+    "research/evidence/inputs/fr-2016-28726.htm.gz": "ac46ec35e0358eae13b247a59232bc7e883bdfcd77124aa9a2dcc3a37ddbbe31",
+    "research/evidence/inputs/fr-2022-22901.htm.gz": "f2f01faf646ed409c9ee9f4dbd03429f7657f4dcdec9cc17e4ea97c492cfb7f4",
+    "research/evidence/inputs/fr-2023-01022.htm.gz": "4fdbccdeaa081533df4baf7840f8e91794d7a44f9c1786b9900f7c29ab212fa8",
+    "research/evidence/inputs/fr-2025-09856.htm.gz": "c01604803112be0ef29b85483fdc3739056d1b1c55fd52d20f737eeb034090ba",
+    "research/evidence/inputs/fr-2026-20859.htm.gz": "5c7ecf7e314372e6687d46d45b74df02c5d1f3112909ead55a0ac9d4d8b30caf",
+    "research/evidence/inputs/fr-97-22500.htm.gz": "272bb2762dd1ba7654de136cb6c443c13fa4ef34c08f340815070d4a637f820f",
+    "research/evidence/inputs/fr-E8-18135.htm.gz": "734d350f343e294b8e62e5c4bc433fb7d9e684e3d344ec5f7eb3b49c10062981",
+    "research/evidence/inputs/fr-E8-9852.htm.gz": "f35d639d473b486ce2dd922cb5fab65552e51d5e205a500c35afa5ecb50f2e9c",
+    "research/evidence/inputs/fr-E9-190.htm.gz": "00a9b71379407505bbcc3f9fd1a83e6f9422c92360c18683b93598a96d077fa4",
+    "research/evidence/source-lock.json": "e378fab43aa5552b312f08ba213ca6e7eddd817f48aeb3318afeb43e432dd432",
+    "scripts/discovery/review.py": "b6540d6cff18a3bdd0e8ef06a743defbeb9436cf620437d419036fde1ae2a92d",
+    "scripts/evidence/pipeline.py": "dc5d3b52d4ff5739394ba5e5a2bd7401a76d9d8db81bbc11d9993b7462243afa",
+    "scripts/reference/admissions.py": "269bf6975595b213f7e3a46d10ebc27653f85bfb58e8c3f3676e2076bfda6e10"
+  }
+}

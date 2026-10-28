@@ -1,0 +1,69 @@
+{
+  "flyRevision": "50a00d9d2b4fede6595b008d211167ef020eedbd",
+  "historicalDataVersion": "0.7.0",
+  "historicalBuildSha256": "2a0f2a1e9ce6aba3d47d7adccf3a3da816f86e24a949a0272b5dc05dee86aa6c",
+  "readOnlyCheckoutClean": true,
+  "runtime": "Node 24.19.0; Vitest 4.1.12; D3-geo 3.1.1 in Airport History/work only",
+  "passedTests": 182,
+  "testSuites": [
+    {
+      "path": "AirportHistory/work/compat/fly-cross.experiment.ts",
+      "status": "passed",
+      "tests": 4
+    },
+    {
+      "path": "Fly/packages/core/tests/core.test.ts",
+      "status": "passed",
+      "tests": 84
+    },
+    {
+      "path": "Fly/packages/core/tests/routes.test.ts",
+      "status": "passed",
+      "tests": 2
+    },
+    {
+      "path": "Fly/packages/core/tests/time-display.test.ts",
+      "status": "passed",
+      "tests": 8
+    },
+    {
+      "path": "Fly/apps/web/src/data/csv-import.test.ts",
+      "status": "passed",
+      "tests": 43
+    },
+    {
+      "path": "Fly/apps/web/src/data/flight-editor.test.ts",
+      "status": "passed",
+      "tests": 35
+    },
+    {
+      "path": "Fly/apps/web/src/data/map-geometry.test.ts",
+      "status": "passed",
+      "tests": 6
+    }
+  ],
+  "DISTANCE_MEASUREMENT": {
+    "currentKm": 1672.8530029155793,
+    "historicalKm": 1672.1514207409305,
+    "differenceKm": -0.70158217464882,
+    "siteSeparationKm": 27.799477598357093
+  },
+  "PERFORMANCE_MEASUREMENT": {
+    "iterations": 10000,
+    "elapsedMs": 197.6861970000001,
+    "microsecondsPerResolution": 19.76861970000001,
+    "historyBytes": 137440,
+    "historyGzipBytes": 23495,
+    "flyDirectoryBytes": 683392,
+    "flyDirectoryGzipBytes": 233321
+  },
+  "referenceRecordShards": 16,
+  "referenceRecordGzipBytes": 16660987,
+  "referenceRecordUncompressedBytes": 139542135,
+  "limitations": [
+    "Cross-repository suite runs actual Fly source with Airport History test dependencies, not Fly full application CI.",
+    "No whole-browser bundle, IndexedDB migration, UI integration or real-user latency claim.",
+    "Production curated data has no actual conflict; existing historical resolver conflict regressions and adapter policy tests cover that status without adding assignments.",
+    "Null-attribute projection uses the repository existing missing-attribute regression condition; no historical assignments are fabricated."
+  ]
+}

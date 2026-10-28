@@ -1,0 +1,33 @@
+{
+  "assessedOn": "2026-10-28",
+  "attempts": [
+    {
+      "system": "BTS Master Coordinate",
+      "result": "implemented_and_acquired",
+      "detail": "Static guessed ZIP/lookup paths returned 404. The actual public ASP.NET form downloaded a ZIP containing the complete T_MASTER_CORD.csv, then content hashes were locked.",
+      "url": "https://www.transtats.bts.gov/Fields.asp?gnoyr_VQ=FLL"
+    },
+    {
+      "system": "FAA Federal Register / GovInfo",
+      "result": "implemented_and_acquired",
+      "detail": "Public API query returned 23 publications. A FederalRegister raw-text URL returned HTTP 429; the documented GovInfo original HTML path successfully supplied all 23 agency publications. Both channels are one original-publication family.",
+      "url": "https://www.govinfo.gov/app/collection/FR"
+    },
+    {
+      "system": "NTSB bulk aviation / API",
+      "result": "not_acquired",
+      "detail": "data.ntsb.gov/avdata and its ZIP/listing, and api.ntsb.gov/public/api/Aviation/v1/GetAviationDataDictionary returned HTTP 403 in this executor. Search-index visibility does not constitute downloaded or inspected original evidence. No NTSB records are included.",
+      "url": "https://www.ntsb.gov/safety/data/pages/Data_Stats.aspx"
+    },
+    {
+      "system": "FAA NASR historical archive",
+      "result": "not_acquired",
+      "detail": "A probed nfdc.faa.gov/webContent/28DaySub/2020-12-31/ path returned HTTP 404. This only rejects that guessed path, not the existence or legality of all historical archives. No NASR evidence is claimed.",
+      "url": "https://nfdc.faa.gov/webContent/28DaySub/2020-12-31/"
+    }
+  ],
+  "unresolved": [
+    "AIP/IATA original allocation ledgers remain useful for code/date-specific admission.",
+    "No access restrictions were bypassed; restricted charts, PDFs and third-party docket attachments were not redistributed."
+  ]
+}

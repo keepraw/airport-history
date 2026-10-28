@@ -1,0 +1,33 @@
+{
+  "adjudicatedDirectoryCorrections": 0,
+  "ambiguousGroups": 5256,
+  "candidateLinks": 37251,
+  "conflictingGroups": 1580,
+  "curatedBoundaryWarningObservations": 6,
+  "directoryCorrectionContextGroups": 46,
+  "eventDatesInferredFromDirectoryCommits": 0,
+  "existingReviewAttachments": 14,
+  "matchedCandidateGroups": 11784,
+  "matchedObservations": 18101,
+  "newVerifiedHistoricalAdmissions": 0,
+  "observationKinds": {
+    "closure_statement": 3,
+    "official_name_mention": 117,
+    "regulatory_location_observation": 13,
+    "statistical_attribute": 20295,
+    "unparsed_document": 5
+  },
+  "observations": 20433,
+  "originalPublications": 24,
+  "pendingReviewGroups": 11770,
+  "priorityCodeLeadsWithAttachments": 186,
+  "priorityGroups": 483,
+  "reviewPackets": 589,
+  "sameOriginalDuplicatesRemoved": 0,
+  "sourceFamilies": [
+    "usdot-bts",
+    "usdot-faa"
+  ],
+  "sources": 24,
+  "unmatchedObservations": 2332
+}
