@@ -437,8 +437,8 @@
       "sha256": "ba2b8fdc9cdaf01dbf748cd505046fca79f55c2729e27b9d2a566a4af607c264"
     },
     "legacy-links.jsonl.gz": {
-      "bytes": 14916,
-      "sha256": "262ab37eb8d3ba62b9fa63e71384ec67328c3d73b2674646d62af8d923f324ad"
+      "bytes": 14989,
+      "sha256": "4747a20f7543d2b236a9c9bf206a433bc2e6a18c9b5b4b1aa7f5c71ba89df966"
     },
     "mwgg.candidates.0.jsonl.gz": {
       "bytes": 433385,
@@ -601,8 +601,8 @@
       "sha256": "1106b802178c945f93a22c2316823412d8c48da73f254dfbe2e39b0ace67fb78"
     },
     "summary.json": {
-      "bytes": 836612,
-      "sha256": "d65db4f18a5aa9457624dd76d6b81b1eef8df5bf080036a029e99f5eb58de6d3"
+      "bytes": 837979,
+      "sha256": "af06f6a7a02aaed0f39036a485043d3982da2c138bb02ae3db5aea8881f4cb0f"
     },
     "verification-queue.jsonl.gz": {
       "bytes": 102458,
@@ -615,7 +615,7 @@
   },
   "formatVersion": 1,
   "inputs": {
-    "research/discovery/curated-baseline.json": "922d7dd7c31d034ef514716075e700eb7b08a3138254da7cceffdf4e7e954e66",
+    "research/discovery/curated-baseline.json": "44df245a32fb557fc1f96e99350eb9e73b129e8cca6b2fbd25ef7c4b29ba4ac0",
     "research/discovery/keepraw-fly-baseline.json": "c15b52a72c62cf03fe44978ab2511ddf400d5fc88f628175e804e13b8f174e38",
     "research/discovery/legacy.json": "397e3b8169ee55f0317f1447b99e82aec09e03a2a1dc79b805362b66a37c3174",
     "research/discovery/source-assessment.json": "ca9c561801f21acf3e8c896136ace72a306605531fcab55d29075ac1e76ba342",
@@ -630,9 +630,10 @@
     "scripts/discovery/validate.py": "599de92bbf6915a627c9e393a660df3ca3f66ab2289b8e8584bae7d003621483"
   },
   "reviewInputs": {
-    "research/discovery/batches/global-1.json": "4a3cf6124383d9adbba7f16691123461cbd9e5a535801f2253bc197349443e70",
+    "research/discovery/batches/global-1.json": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094",
     "research/discovery/batches/global-2.json": "b1cddfb6b7827896cbb87b9fdfaea3547afa4e366d5d4b913d10f6418b99f065",
     "research/discovery/batches/global-3.json": "6b272f267fba3b79c5a9e3ffa4412a96064a2d2c2e650fdc4a457ef6aeda3032",
-    "research/discovery/reviews.json": "835e0209ad1778ec421aea72a91daf0654b83d69fa274bbe991a1562de6d85f6"
+    "research/discovery/batches/global-4.json": "fb897a9848dcfbd5c9cc482392c40851d8a4826caa8ae3ee4f341ccaf7e0e625",
+    "research/discovery/reviews.json": "353bdf3f269312255f0bcdcc9a49ff7099019060754c391689359955c65d8814"
   }
 }

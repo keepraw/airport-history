@@ -18,9 +18,9 @@
   },
   "statusCounts": {
     "excluded": 4,
-    "insufficient_evidence": 9,
+    "insufficient_evidence": 7,
     "pending_review": 4,
-    "ready_to_admit": 3
+    "ready_to_admit": 5
   },
   "admission": {
     "airports": 0,
@@ -2117,7 +2117,7 @@
       "eventGroupId": "global-1-dakar",
       "label": "Dakar Léopold Sédar Senghor / Blaise Diagne",
       "reviewedOn": "2026-10-27",
-      "status": "insufficient_evidence",
+      "status": "ready_to_admit",
       "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
       "candidateIds": [
         "legacy-dakar"
@@ -2192,7 +2192,22 @@
             "dakar-saa"
           ]
         }
-      ]
+      ],
+      "dispositionHistory": [
+        {
+          "status": "insufficient_evidence",
+          "recordedIn": "global-1",
+          "reviewedOn": "2026-10-27",
+          "reason": "Original conclusions, source references, gaps and next action above preserved unchanged."
+        },
+        {
+          "status": "ready_to_admit",
+          "recordedIn": "global-4",
+          "reviewedOn": "2026-10-28",
+          "reason": "New dated actual-flight, explicit IATA allocation and AIP evidence supports bounded historical coverage without requiring exact original allocation dates. Contradictory DKR end evidence is isolated in an open boundary."
+        }
+      ],
+      "admissionReview": "research/discovery/batches/global-4.json"
     },
     {
       "eventGroupId": "global-1-pnh",
@@ -2312,7 +2327,7 @@
       "eventGroupId": "global-1-aap",
       "label": "Samarinda Temindung / APT Pranoto",
       "reviewedOn": "2026-10-27",
-      "status": "insufficient_evidence",
+      "status": "ready_to_admit",
       "scope": "The specific historical interpretation of the linked existing lead; no whole-city or whole-code history is certified.",
       "candidateIds": [
         "cand_3aba472425775e4a29a4d63b"
@@ -2458,7 +2473,22 @@
             "aap-ministry"
           ]
         }
-      ]
+      ],
+      "dispositionHistory": [
+        {
+          "status": "insufficient_evidence",
+          "recordedIn": "global-1",
+          "reviewedOn": "2026-10-27",
+          "reason": "Original conclusions, source references, gaps and next action above preserved unchanged."
+        },
+        {
+          "status": "ready_to_admit",
+          "recordedIn": "global-4",
+          "reviewedOn": "2026-10-28",
+          "reason": "Actual dated AAP observation permits conservative code coverage; original naming decision independently supports one official-name interval. Identity-only Temindung preserves the documented predecessor without certifying unsupported code history."
+        }
+      ],
+      "admissionReview": "research/discovery/batches/global-4.json"
     },
     {
       "eventGroupId": "global-1-cdt",

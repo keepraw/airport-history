@@ -4,6 +4,7 @@ import { resolveAirport } from "../src/index.ts";
 import { validateDataset } from "../src/validate.ts";
 import ids from "./pr8-identities.json" with { type: "json" };
 import frozen from "./curated-0.4.0.json" with { type: "json" };
+import frozenPr8 from "./curated-0.5.0.json" with { type: "json" };
 
 const data = await loadDataset();
 type Key = keyof typeof ids;
@@ -21,11 +22,11 @@ describe("0.4.0 curated facts are preserved unchanged", () => {
     for (const record of frozen[key] as unknown as Record<string, unknown>[])
       expect(current.get(record[idKey])).toEqual(record);
   });
-  it("adds only new records and a data version bump", () => {
+  it("freezes the reviewed 0.5.0 expansion counts and schema", () => {
     expect(frozen.dataVersion).toBe("0.4.0");
-    expect(data.dataVersion).toBe("0.5.0");
+    expect(frozenPr8.dataVersion).toBe("0.5.0");
     expect(data.schemaVersion).toBe(frozen.schemaVersion);
-    expect([data.airports.length, data.assignments.length, data.names.length, data.sources.length])
+    expect([frozenPr8.airports.length, frozenPr8.assignments.length, frozenPr8.names.length, frozenPr8.sources.length])
       .toEqual([19, 29, 2, 43]);
   });
 });

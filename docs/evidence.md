@@ -14,6 +14,11 @@ curation inference. An allocation ledger could refine or contradict it.
 
 ## Assignment classification
 
+Later admission reviews preserve these original findings. The five 0.6.0
+intervals are also reviewed `continuity_inference`, including DSS, whose first
+allocation observation is direct IATA evidence but whose whole interval still
+depends on continuity. See [the claim-by-claim 0.6.0 review](curated-admissions-pr9.md).
+
 Schema 2 separates `Source.sourceType` (publication nature) from
 `CodeAssignment.evidenceType` (the basis for the whole historical interval).
 `primary_direct` requires a first-hand record explicitly supporting the code

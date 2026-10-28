@@ -7,11 +7,13 @@ This dedication does not change third-party licenses or confer rights in marks.
 
 | Material | Upstream terms | Use in this repository |
 | --- | --- | --- |
-| Nineteen OurAirports rows (eight bootstrap, five batch 1, six in 0.5.0), fixed commit in `data/airports.json` | [Public domain declaration](https://ourairports.com/data/) | Names, reference coordinates, numeric external IDs; current codes corroborate continuing assignments. Separate source records preserve each batch's scope; no full snapshot shipped |
+| Twenty-two OurAirports rows (eight bootstrap, five batch 1, six in 0.5.0, three in 0.6.0), fixed commit in `data/airports.json` | [Public domain declaration](https://ourairports.com/data/) | Names, reference coordinates, numeric external IDs; current codes corroborate continuing assignments. Separate source records preserve each batch's scope; no full snapshot shipped |
 | Wikidata structured statements, Q673202 / Q1436575 | [CC0 1.0](https://www.wikidata.org/wiki/Wikidata:Licensing) | Historic code associations and day-level end qualifiers; secondary evidence |
-| IANA tzdb 2025b `zone1970.tab` | [Public domain](https://data.iana.org/time-zones/tzdb-2025b/LICENSE) | Ten geographical zone identifiers (four bootstrap, four batch 1, Europe/Moscow and Asia/Bangkok in 0.5.0; Asia/Shanghai reused); no code or offset tables copied |
+| IANA tzdb 2025b `zone1970.tab` / `zone.tab` | [Public domain](https://data.iana.org/time-zones/tzdb-2025b/LICENSE) | Twelve geographical zone identifiers, including Africa/Dakar and Asia/Makassar in 0.6.0; no code or offset tables copied |
+| Temindung reference position and label from `mwgg/Airports` at `6dbaa83ab5efd193aa6d70f4f5bb1eb93ee821f8`, WALS row | MIT; copyright (c) 2014 mwgg; full notice below | Reference attributes only; stale SRI/WALS fields do not certify code history. This formal extract retains MIT terms, outside the CC0 dedication |
 | Government reports, airline/airport notices, news articles, Aviation Safety Network, TRB, Helis and Fluko | Each publisher retains its applicable rights; see per-source license records | Links and independently written factual notes only; no source article, PDF, table, image or lengthy extract distributed. Batch 1 includes airport-authored material hosted on Routes and public broadcaster reports classified as secondary |
 | Kazakhstan Government Resolutions Nos. 1095 (2006) and 381 (2017), including the original newspaper reproduction and Adilet publication metadata | No open redistribution license established; `LicenseRef-Reference-Only` | Official-name facts and independently written evidence notes with links; no document, newspaper page or PDF redistributed. The new name intervals are reviewed continuity inferences; current reference labels do not prove earlier use |
+| IATA 2017 Dakar notification (Sabre copy), BEA flight investigation, ASECNA AIP (2017 supplement on Scribd and current official entries), DGCA/airport history, Merdeka operational report, Indonesian Decision KP 676/2017 | Reference-only; each publisher retains rights | Links and original factual notes for Dakar and Samarinda. Third-party reproductions are identified. No source prose, PDFs, maps or images distributed |
 
 `LicenseRef-Reference-Only` means no open redistribution license was established.
 It is not a permission grant. Source access/review status is separate from its
@@ -25,6 +27,30 @@ scope. Every airport attribute, code assignment and name record references that 
 Formal resolver artifacts contain only the curated historical dataset. Runtime
 resolution never downloads or substitutes a current directory for historical
 evidence. The separate research inventories are described below.
+
+## MIT notice for the formal Temindung reference extract
+
+The MIT License (MIT)
+
+Copyright (c) 2014 mwgg
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ## Global discovery research artifacts
 

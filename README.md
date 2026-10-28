@@ -7,13 +7,16 @@ A small, offline TypeScript resolver and versioned reference dataset for
 identify different physical sites over time. This repository preserves those
 sites and the evidence behind their code assignments.
 
-**Curated scope (0.5.0):** nineteen physical airports, twenty-five IATA
-assignments, four ICAO assignments (VHHH twice, VDPP, VDTI) and two
-official-name intervals for Astana, with forty-three evidence sources. The
+**Curated scope (0.6.0):** twenty-three physical airports, twenty-eight IATA
+assignments, six ICAO assignments and three official-name intervals, with
+fifty-six evidence sources. The
 original TAO, IST, HKG and DEN examples are joined by five reviewed ISL, ISB,
 SXF/BER, TSE/NQZ and KIV/RMO events and, in 0.5.0, by ROV/RVI (Rostov-on-Don /
 Platov), YNT (Yantai Laishan / Penglai) and PNH/KTI with VDPP/VDTI (Phnom Penh /
-Techo); see the [0.5.0 admission review](docs/curated-admissions-pr8.md). This is a curated history layer,
+Techo); see the [0.5.0 admission review](docs/curated-admissions-pr8.md).
+Version 0.6.0 adds Dakar Yoff / Diass (DKR/DSS, GOOY/GOBD), Samarinda
+Temindung / Pranoto (AAP only), and Pranoto's Indonesian official-name interval;
+see the [0.6.0 admission review](docs/curated-admissions-pr9.md). This is a curated history layer,
 not a replacement for a worldwide current-airport directory. A separate
 [global discovery research layer](research/discovery/README.md) scans pinned
 source histories and tracks coverage and unverified candidates. No server,
@@ -38,7 +41,7 @@ Initial dependency installation needs network access. All subsequent checks,
 tests, builds and resolution run offline. `pnpm build` writes:
 
 ```text
-dist/v0.5.0/
+dist/v0.6.0/
 ├── airport-history.json
 ├── dataset.schema.json
 ├── manifest.json             # SHA-256 hashes of the five other files
@@ -184,7 +187,7 @@ Review status, evidence provenance and temporal precision are separate fields:
 
 `evidenceType` describes the **whole continuous assignment**. When continuity
 between observations is inferred, use `continuity_inference` even if a boundary
-has primary evidence. All twenty curated assignments have this category and remain
+has primary evidence. All thirty-four curated assignments have this category and remain
 `verified`. It is visible through `candidates[].assignment.evidenceType`; source
 types are included in candidate and result evidence. See the
 [per-assignment classification](docs/evidence.md#assignment-classification).
@@ -214,7 +217,20 @@ unique answer and returns `uncertain`. If a reviewed pair also certainly conflic
 on that date, `conflict` takes precedence and includes the other candidates.
 Nonoverlapping historical reuse is accepted normally.
 
-## Format compatibility: 0.5.0
+## Format compatibility: 0.6.0
+
+0.6.0 adds four physical identities, five code assignments, one official-name
+interval and thirteen sources. Schema **3.0.0** and resolver logic are unchanged.
+Package and data versions advance together; output is `dist/v0.6.0/`.
+Both reviewed datasets are frozen in `test/curated-0.4.0.json` and
+`test/curated-0.5.0.json`; regression tests and `research:validate` require every
+earlier record to survive unchanged. Temindung is an identity-only predecessor:
+SRI and WALS are not admitted. AAP dates before 2019-08-21 remain uncertain.
+DSS resolves from 2017-11-22 because an IATA notice explicitly confirms existing
+allocation, separately from the December airport opening. DKR after 2017-12-06
+stays uncertain because the announced withdrawal conflicts with later directories.
+
+## Format compatibility: 0.5.0 (historical)
 
 0.5.0 changes data only: schema **3.0.0** is unchanged, package and
 `dataVersion` advance from **0.4.0 to 0.5.0**, and the output directory is
@@ -244,7 +260,7 @@ ships the existing license files and SHA-256 checksums.
 
 ## First cases and evidence
 
-All source records were reviewed on **2026-10-26**. Full URLs, license scope,
+Source records retain their individual access and review dates. Full URLs, license scope,
 access dates, review status and claim notes are in `data/airports.json`.
 The [evidence notes](docs/evidence.md) explain the historical and licensing limits.
 The [batch-1 review](docs/batch-1-evidence.md) and
@@ -267,6 +283,9 @@ the two Astana name intervals added in 0.4.0.
 | YNT | Yantai Laishan → Yantai Penglai | between 2014-11-10 and 2015-05-28 | Before 2014-11-11: uncertain (start unknown); window uncertain; 2015-05-28 onward: Penglai |
 | PNH / VDPP | Phnom Penh (Pochentong), replaced by Techo | earliest end 2025-09-09 (PNH) / 2025-09-08 (VDPP); withdrawal unknown | 2015: Pochentong; after the move: uncertain, not reassigned |
 | KTI / VDTI | Techo (greenfield; Kratie history not admitted) | latest start 2025-09-10 (KTI; 2025-09-09 transfer day uncertain) / 2025-09-04 (VDTI) | After those dates: Techo; earlier: uncertain |
+| DKR / DSS | Dakar Yoff → separate Diass | DKR end ≥2017-12-07, latest unknown; DSS start ≤2017-11-22 | 2016 DKR: Yoff; later DKR uncertain; DSS: Diass from explicit allocation observation, not booking |
+| GOOY / GOBD | Separate Dakar airfields | GOOY start ≤2013-03-30; GOBD start ≤2017-12-07 | GOOY continues at Yoff after passenger move; GOBD resolves Diass |
+| AAP | Pranoto at Sungai Siring, replacing Temindung | start ≤2019-08-21; earlier allocation unknown | 2018 opening/inauguration uncertain; 2019-08-21 onward: Pranoto; SRI/WALS not admitted |
 
 The validator intentionally reports eight code-overlap warnings (IST, HKG,
 VHHH, DEN, ISL, ISB, ROV and YNT) plus one Astana official-name boundary warning. These
@@ -287,7 +306,7 @@ src/
   validate.ts                # JSON Schema plus semantic validation
   index.ts                   # dependency-free resolver entry point
 schema/dataset.schema.json   # strict draft-07 schema
-data/airports.json           # thirteen sites, twenty assignments, two names, sources
+data/airports.json           # 23 sites, 34 assignments, 3 names, 56 sources
 scripts/{load,validate,build}.ts
 test/{resolve,validate,build,evidence,conflicts,batch-1,names}.test.ts
 test/identities.json          # permanent initial ID mapping
@@ -296,7 +315,7 @@ docs/evidence.md
 docs/batch-1-{candidates,evidence}.md
 docs/historical-names.md
 docs/global-verification-batch-{1,2}.md
-docs/curated-admissions-pr8.md
+docs/curated-admissions-pr{8,9}.md
 README.md
 LICENSE                      # MIT for code
 LICENSE-DATA                 # CC0 legal text; scope below

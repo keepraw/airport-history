@@ -1,6 +1,6 @@
 {
   "schemaVersion": "3.0.0",
-  "dataVersion": "0.5.0",
+  "dataVersion": "0.6.0",
   "sources": [
     {
       "sourceId": "ourairports-20261025",
@@ -603,6 +603,188 @@
         "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables."
       },
       "note": "Third-party copy of Cambodia Air Traffic Services AIP pages dated 04 SEP 25, titled VDTI - TECHO INTERNATIONAL AIRPORT. Corroborates the 2025-09-04 AIP effective state. No IATA code."
+    },
+    {
+      "sourceId": "ourairports-pr9-20261025",
+      "title": "OurAirports fixed snapshot: three PR #9 physical-site reference rows",
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/d97df1673cc5ba61a09b17ab5936091a669a04ca/airports.csv",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "secondary",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "url": "https://ourairports.com/data/",
+        "note": "OurAirports declares its data public domain. Only the identified factual reference attributes are extracted."
+      },
+      "note": "Rows 3125 (Yoff), 325736 (Diass), 26763 (Sungai Siring) supply reference labels, positions and external IDs; DSS and AAP corroborate continuing code use. Row 26763 was repurposed from Temindung: it identifies only the new site here. DKR remains in the snapshot despite the 2017 withdrawal notice; this is a conflict to investigate, not proof of uninterrupted DKR continuation or reinstatement."
+    },
+    {
+      "sourceId": "mwgg-temindung-reference",
+      "title": "mwgg fixed pre-correction WALS record: Temindung reference position",
+      "url": "https://raw.githubusercontent.com/mwgg/Airports/6dbaa83ab5efd193aa6d70f4f5bb1eb93ee821f8/airports.json",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "secondary",
+      "license": {
+        "id": "MIT",
+        "url": "https://github.com/mwgg/Airports/blob/6dbaa83ab5efd193aa6d70f4f5bb1eb93ee821f8/LICENSE",
+        "note": "Copyright (c) 2014 mwgg. MIT notice retained in research/discovery/licenses/mwgg-MIT.txt and THIRD_PARTY_NOTICES.md; this extract is not relicensed as CC0."
+      },
+      "note": "WALS row names Temindung at -0.4845309854, 117.1569976807, geographically distinct from Sungai Siring. This stale pre-correction row supplies reference attributes only. Its SRI/WALS fields and commit date are not historical code-effective boundaries. No OurAirports ID is attached to the old site."
+    },
+    {
+      "sourceId": "tzdb-pr9-2025b",
+      "title": "IANA tzdb 2025b geographical zone mappings for Dakar and Samarinda",
+      "url": "https://data.iana.org/time-zones/tzdb-2025b/zone.tab",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "url": "https://data.iana.org/time-zones/tzdb-2025b/LICENSE",
+        "note": "IANA tzdb is public domain except identified third-party material; only zone identifiers are used."
+      },
+      "note": "The SN and ID entries in zone.tab support geographical mappings Africa/Dakar and Asia/Makassar. Reference geographical mappings only, not historical fixed UTC offsets."
+    },
+    {
+      "sourceId": "dakar-bea-2013",
+      "title": "BEA SX-BHS investigation: actual Dakar flight on 2013-03-29, appendix IRBA",
+      "url": "https://bea.aero/fileadmin/documents/docspa/2013/sx-s130329/pdf/sx-s130329_06.pdf",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed."
+      },
+      "note": "IRBA appendix Table 2 records actual 2013-03-29 arrival and departure at Leopold-Sedar-Senghor, explicitly DKR / GOOY. Dated actual-flight code observation, not original allocation. Latest-start bound is 2013-03-30."
+    },
+    {
+      "sourceId": "dakar-iata-2017",
+      "title": "IATA Special Industry Notification, 2017-11-21: DKR city and airport changes (Sabre-hosted copy)",
+      "url": "https://www.hanjinsabre.com/CommonFiles/BoardUpLoadFiles/AirLineNews/58199/SpecialNotif_NOV_21_DKR%20%28002%29.pdf",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed."
+      },
+      "note": "IATA Coding Administration explicitly confirms DSS already assigned to Blaise Diagne on 2017-11-21, before opening. Announces DKR airport-code withdrawal and city listing changes for 2017-12-07. DSS is not a transfer of DKR. Original DSS allocation date unknown. Prospective DKR withdrawal conflicts with later directories; no latest end is certified. City codes are outside this schema. This is an allocation confirmation, not future-flight booking evidence."
+    },
+    {
+      "sourceId": "dakar-saa-2017",
+      "title": "SAA release reproduced by AVIATOR, 2017-12-07",
+      "url": "https://aviator.aero/press/south-african-airways-advises-of-dakar-airport-change",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed."
+      },
+      "note": "Reused global-1 dakar-saa evidence: old DKR and new DSS are separate sites; SAA announces its first new-airport arrival for 2017-12-08. Original access and limitations remain in global-1. SAA schedule publication and first scheduled arrival do not date DSS allocation or prove DKR withdrawal."
+    },
+    {
+      "sourceId": "gobd-aip-sup-2017",
+      "title": "ASECNA AIRAC AIP SUP 100/A/17GO: GOBD charts effective 2017-12-07 (Scribd copy)",
+      "url": "https://fr.scribd.com/document/691144013/AIRAC-AIP-SUP-N-100-A-17GO-12-OCTOBER-2017",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed."
+      },
+      "note": "Title and charts explicitly identify Blaise Diagne Diass as GOBD; page 1 makes charts effective 2017-12-07 0000 UTC. Third-party reproduction inspected, not the retired origin PDF. 2017-10-12 publication is not code start. Original indicator issue unknown; effective AIP state bounds latest start, not exact allocation."
+    },
+    {
+      "sourceId": "gooy-aip-2026",
+      "title": "ASECNA eAIP Senegal AD 2 GOOY: Dakar / Leopold Sedar Senghor",
+      "url": "https://aim.asecna.aero/html/eAIP/FR-_13AD-2.GOOY-fr-FR.html",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed."
+      },
+      "note": "Current AIP AD 2.1 explicitly identifies GOOY at Yoff, with military administration and prior-permission operations. Confirms continued ICAO identity; passenger relocation did not withdraw GOOY. No IATA field."
+    },
+    {
+      "sourceId": "gobd-aip-2026",
+      "title": "ASECNA eAIP Senegal AD 2 GOBD: Blaise Diagne Dakar Diass",
+      "url": "https://aim.asecna.aero/html/eAIP/FR-_13AD-2.GOBD-fr-FR.html",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed."
+      },
+      "note": "Current AIP AD 2.1 explicitly identifies GOBD at Diass, separately from GOOY. Corroborates continuing ICAO use. No IATA allocation date."
+    },
+    {
+      "sourceId": "aap-dgca-2026",
+      "title": "DGCA Indonesia: Aji Pangeran Tumenggung Pranoto airport profile",
+      "url": "https://hubud.dephub.go.id/bandara/45",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed."
+      },
+      "note": "Authority identifies AAP / WALS and Aji Pangeran Tumenggung Pranoto at Sungai Siring; links to the airport operator. Current observation only. Residual Temindung contact address does not merge the physical sites or date WALS reuse."
+    },
+    {
+      "sourceId": "aap-operator-history",
+      "title": "APT Pranoto operator: physical replacement history",
+      "url": "https://www.aptpairport.id/profile",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed."
+      },
+      "note": "Operator, linked by DGCA, states Pranoto replaced Temindung: old closure 2018-05-23, new operation 2018-05-24; October inauguration is separate. Retrospective physical history; these dates do not allocate AAP, withdraw SRI or transfer WALS."
+    },
+    {
+      "sourceId": "aap-weather-2019",
+      "title": "Merdeka: actual AAP diversions and delays on 2019-08-20",
+      "url": "https://www.merdeka.com/peristiwa/empat-penerbangan-ke-samarinda-dialihkan-ke-balikpapan-akibat-cuaca-buruk.html",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "secondary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed."
+      },
+      "note": "Dated 2019-08-20 report identifies Samarinda (AAP), Pranoto and actual flight disruptions, including GA580, JT666 and ID6671. Contemporaneous operational code observation quoting airport operations staff. Not booking availability or original allocation. Latest start 2019-08-21; earlier operation/name dates do not prove code use."
+    },
+    {
+      "sourceId": "aap-name-kp676-2017",
+      "title": "Indonesia Transport Minister Decision KP 676/2017: Pranoto official airport name",
+      "url": "https://hubud.kemenhub.go.id/regulasi/cari/2389",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed."
+      },
+      "note": "Linked original four-page decree: operative First clause names the new Samarinda airport Aji Pangeran Tumenggung Pranoto; Third clause effective on determination, 2017-07-27. Original PDF inspected via the authority link. Page publication 2017-09-20 and six-month administrative implementation deadline are not name boundaries. No time of day, so July 27 remains uncertain. No IATA/ICAO allocation content."
     }
   ],
   "airports": [
@@ -1232,6 +1414,136 @@
       "externalIds": {
         "ourAirports": "342098"
       }
+    },
+    {
+      "airportId": "apt_7b4e284f-4573-4de6-bdc1-75805dec20d4",
+      "name": {
+        "value": "Léopold Sédar Senghor International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-pr9-20261025"
+        ],
+        "note": "Reference display label; historical official-name evidence is independent."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 14.742337,
+          "longitude": -17.479222
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-pr9-20261025"
+        ],
+        "note": "WGS84 reference position only, not a surveyed historical airport reference point."
+      },
+      "timezone": {
+        "value": "Africa/Dakar",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-pr9-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "3125"
+      }
+    },
+    {
+      "airportId": "apt_ced7c7a9-5d08-4d0f-84d7-e0d432a78096",
+      "name": {
+        "value": "Blaise Diagne International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-pr9-20261025"
+        ],
+        "note": "Reference display label; historical official-name evidence is independent."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 14.670878,
+          "longitude": -17.072829
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-pr9-20261025"
+        ],
+        "note": "WGS84 reference position only, not a surveyed historical airport reference point."
+      },
+      "timezone": {
+        "value": "Africa/Dakar",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-pr9-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "325736"
+      }
+    },
+    {
+      "airportId": "apt_80ab4c35-b89f-40af-a368-bc71b3716d5a",
+      "name": {
+        "value": "Aji Pangeran Tumenggung Pranoto International Airport",
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-pr9-20261025"
+        ],
+        "note": "Reference display label; historical official-name evidence is independent."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": -0.374478,
+          "longitude": 117.250128
+        },
+        "status": "reference",
+        "sourceIds": [
+          "ourairports-pr9-20261025"
+        ],
+        "note": "WGS84 reference position only, not a surveyed historical airport reference point."
+      },
+      "timezone": {
+        "value": "Asia/Makassar",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-pr9-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {
+        "ourAirports": "26763"
+      }
+    },
+    {
+      "airportId": "apt_967383b9-116c-4c3b-a8fb-c67515a3eb83",
+      "name": {
+        "value": "Temindung Airport",
+        "status": "reference",
+        "sourceIds": [
+          "mwgg-temindung-reference"
+        ],
+        "note": "Reference display label; historical official-name evidence is independent."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": -0.4845309854,
+          "longitude": 117.1569976807
+        },
+        "status": "reference",
+        "sourceIds": [
+          "mwgg-temindung-reference"
+        ],
+        "note": "WGS84 reference position only, not a surveyed historical airport reference point."
+      },
+      "timezone": {
+        "value": "Asia/Makassar",
+        "status": "reference",
+        "sourceIds": [
+          "tzdb-pr9-2025b"
+        ],
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
+      },
+      "externalIds": {}
     }
   ],
   "assignments": [
@@ -1959,6 +2271,132 @@
         "ourairports-pr8-20261025"
       ],
       "note": "ICAO indicator issued before operation (date unknown); published AIP operation from 0000 UTC 2025-09-04. The AIP effective date is distinct from the 2025-09-09 airline move and from any IATA date. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification."
+    },
+    {
+      "assignmentId": "iata-dkr-yoff",
+      "scheme": "IATA",
+      "code": "DKR",
+      "airportId": "apt_7b4e284f-4573-4de6-bdc1-75805dec20d4",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2013-03-30",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2017-12-07",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "dakar-bea-2013",
+        "dakar-iata-2017",
+        "dakar-saa-2017",
+        "ourairports-pr9-20261025"
+      ],
+      "note": "Actual 2013-03-29 DKR flight at Yoff bounds unknown allocation. IATA announces withdrawal for 2017-12-07 and SAA describes old DKR during that transition. Later directories retain DKR, so implementation/reinstatement is unresolved: no latest-end bound and no certified DKR interval after 2017-12-06. DKR is never assigned to Diass here; city coding is separate. The whole interval is a reviewed continuity inference between observations, not daily direct verification or an allocation ledger."
+    },
+    {
+      "assignmentId": "iata-dss-diass",
+      "scheme": "IATA",
+      "code": "DSS",
+      "airportId": "apt_ced7c7a9-5d08-4d0f-84d7-e0d432a78096",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2017-11-22",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "dakar-iata-2017",
+        "dakar-saa-2017",
+        "ourairports-pr9-20261025"
+      ],
+      "note": "IATA explicitly confirms DSS already assigned to Blaise Diagne on 2017-11-21; latest start is the following whole local date. Original allocation remains unknown. This pre-opening bound is administrative allocation evidence, not a booking observation, flight schedule or claim of pre-opening passenger operations. The whole interval is a reviewed continuity inference between observations, not daily direct verification or an allocation ledger."
+    },
+    {
+      "assignmentId": "icao-gooy-yoff",
+      "scheme": "ICAO",
+      "code": "GOOY",
+      "airportId": "apt_7b4e284f-4573-4de6-bdc1-75805dec20d4",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2013-03-30",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "dakar-bea-2013",
+        "gooy-aip-2026",
+        "ourairports-pr9-20261025"
+      ],
+      "note": "Actual 2013-03-29 flight observes GOOY at Yoff; current AIP retains GOOY under military administration. No ICAO withdrawal is inferred from passenger relocation or the IATA DKR notice. The whole interval is a reviewed continuity inference between observations, not daily direct verification or an allocation ledger."
+    },
+    {
+      "assignmentId": "icao-gobd-diass",
+      "scheme": "ICAO",
+      "code": "GOBD",
+      "airportId": "apt_ced7c7a9-5d08-4d0f-84d7-e0d432a78096",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2017-12-07",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "gobd-aip-sup-2017",
+        "gobd-aip-2026",
+        "ourairports-pr9-20261025"
+      ],
+      "note": "GOBD charts effective 2017-12-07 0000 UTC establish the AIP state by that local date (Dakar UTC+0), not original indicator issue. October 12 publication does not bound allocation; the start remains open to the past. The whole interval is a reviewed continuity inference between observations, not daily direct verification or an allocation ledger."
+    },
+    {
+      "assignmentId": "iata-aap-pranoto",
+      "scheme": "IATA",
+      "code": "AAP",
+      "airportId": "apt_80ab4c35-b89f-40af-a368-bc71b3716d5a",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2019-08-21",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "aap-weather-2019",
+        "aap-dgca-2026",
+        "ourairports-pr9-20261025"
+      ],
+      "note": "Actual operational AAP observation on 2019-08-20 bounds latest start to 2019-08-21. May 2018 opening, October 2018 inauguration and prospective schedules are not code bounds. Earlier AAP at Andrau Airpark is outside admitted coverage; earlier dates remain uncertain. SRI withdrawal and WALS reuse are not certified. The whole interval is a reviewed continuity inference between observations, not daily direct verification or an allocation ledger."
     }
   ],
   "names": [
@@ -2015,6 +2453,31 @@
         "ourairports-batch1-20261025"
       ],
       "note": "Canonical Russian official airport name from the original renaming, with later aviation-administration use and the fixed current-directory label corroborating continuation. The whole interval is a reviewed continuity inference, not direct evidence for every day. Known effective day is 2017-06-21, not signing day 2017-06-20 or the 2020 IATA code change. The 2020 corporate wording amendment, city renames and English translations are not additional airport renames. On or after the fixed 2026-10-25 evidence horizon the result is uncertain."
+    },
+    {
+      "nameId": "name-pranoto-kp676-2017",
+      "airportId": "apt_80ab4c35-b89f-40af-a368-bc71b3716d5a",
+      "name": "Bandar Udara Aji Pangeran Tumenggung Pranoto",
+      "language": "id",
+      "kind": "official",
+      "validFrom": {
+        "earliest": "2017-07-27",
+        "latest": "2017-07-28",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "aap-name-kp676-2017",
+        "aap-dgca-2026"
+      ],
+      "note": "Canonical Indonesian airport name, from operative clauses First/Third of KP 676/2017, effective on determination 2017-07-27. Day precision preserves whole-date uncertainty; later publication and administrative deadline are distinct. This names the new site before opening, not Temindung or an IATA code. Continued authority use supports a reviewed continuity inference to the fixed evidence horizon; translations and the International display suffix are not admitted official name intervals."
     }
   ]
 }

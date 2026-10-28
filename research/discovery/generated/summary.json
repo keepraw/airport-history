@@ -1785,9 +1785,9 @@
       "reviewedOn": "2026-10-27",
       "statusCounts": {
         "excluded": 4,
-        "insufficient_evidence": 9,
+        "insufficient_evidence": 7,
         "pending_review": 4,
-        "ready_to_admit": 3
+        "ready_to_admit": 5
       }
     },
     {
@@ -1862,6 +1862,52 @@
       ],
       "path": "research/discovery/batches/global-3.json",
       "reviewedOn": "2026-10-27",
+      "statusCounts": {
+        "excluded": 0,
+        "insufficient_evidence": 0,
+        "pending_review": 0,
+        "ready_to_admit": 0
+      }
+    },
+    {
+      "admission": {
+        "airports": 4,
+        "assignments": 5,
+        "dataVersion": "0.6.0",
+        "formalSources": 13,
+        "names": 1,
+        "reason": "Evidence-first partial admissions for Dakar and Samarinda; blocked claims stay outside formal history."
+      },
+      "batchId": "global-4",
+      "eventCount": 0,
+      "followUps": [
+        {
+          "currentStatus": "ready_to_admit",
+          "dispositionChanged": true,
+          "eventGroupId": "global-1-dakar",
+          "priorBatchId": "global-1"
+        },
+        {
+          "currentStatus": "ready_to_admit",
+          "dispositionChanged": true,
+          "eventGroupId": "global-1-aap",
+          "priorBatchId": "global-1"
+        },
+        {
+          "currentStatus": "insufficient_evidence",
+          "dispositionChanged": false,
+          "eventGroupId": "global-1-lyg",
+          "priorBatchId": "global-1"
+        },
+        {
+          "currentStatus": "insufficient_evidence",
+          "dispositionChanged": false,
+          "eventGroupId": "global-1-jng",
+          "priorBatchId": "global-1"
+        }
+      ],
+      "path": "research/discovery/batches/global-4.json",
+      "reviewedOn": "2026-10-28",
       "statusCounts": {
         "excluded": 0,
         "insufficient_evidence": 0,

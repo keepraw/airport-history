@@ -13,11 +13,13 @@ from review import batch_summaries, validate_batch, validate_batch_series, valid
 
 BATCHES = ROOT / 'research/discovery/batches'
 # PR #6 merged review record (main 02d4f2396a1bec8ad5ee0c8b10c3a8eb30db5643) had SHA-256 4d0aa2fa...b6b6.
-# PR #8 deliberately changed three dispositions via global-3 follow-ups; the original conclusions are kept in
+# PR #8/#9 deliberately changed dispositions via global-3/global-4 follow-ups; the original conclusions are kept in
 # each event's dispositionHistory. Changing it again requires another documented follow-up and a new pin.
 GLOBAL_1_ORIGINAL_SHA256 = '4d0aa2fa15e2d4a32a78e5061639b6643056f7f28c813b0a011a27b87eabb6b6'
-GLOBAL_1_SHA256 = '4a3cf6124383d9adbba7f16691123461cbd9e5a535801f2253bc197349443e70'
+GLOBAL_1_PR8_SHA256 = '4a3cf6124383d9adbba7f16691123461cbd9e5a535801f2253bc197349443e70'
+GLOBAL_1_SHA256 = '4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094'
 ADMITTED_IN_GLOBAL_3 = {'global-1-rov', 'global-1-ynt', 'global-1-pnh'}
+ADMITTED_IN_GLOBAL_4 = {'global-1-dakar', 'global-1-aap'}
 GLOBAL_1_STATUSES = {
     'global-1-kti': 'insufficient_evidence', 'global-1-ynt': 'insufficient_evidence', 'global-1-rov': 'insufficient_evidence',
     'global-1-lyg': 'insufficient_evidence', 'global-1-ybp': 'insufficient_evidence', 'global-1-lzo': 'insufficient_evidence',
@@ -43,25 +45,27 @@ class BatchSeriesTest(unittest.TestCase):
         self.g1 = load('global-1.json')
         self.g2 = load('global-2.json')
         self.g3 = load('global-3.json')
+        self.g4 = load('global-4.json')
         self.reviews = json.loads((ROOT / 'research/discovery/reviews.json').read_text())
 
     def records(self, g1=None, g2=None):
         return [('research/discovery/batches/global-1.json', g1 or self.g1),
                 ('research/discovery/batches/global-2.json', g2 or self.g2),
-                ('research/discovery/batches/global-3.json', self.g3)]
+                ('research/discovery/batches/global-3.json', self.g3),
+                ('research/discovery/batches/global-4.json', self.g4)]
 
     def series(self, g1=None, g2=None, g3=None):
-        return validate_batch_series([g1 or self.g1, g2 or self.g2, g3 or self.g3])
+        return validate_batch_series([g1 or self.g1, g2 or self.g2, g3 or self.g3, self.g4])
 
-    def test_previous_batch_record_is_preserved_byte_for_byte(self):
+    def test_reviewed_disposition_pin_and_original_conclusions_are_preserved(self):
         raw = (BATCHES / 'global-1.json').read_bytes()
         self.assertEqual(hashlib.sha256(raw).hexdigest(), GLOBAL_1_SHA256)
         live = {e['eventGroupId']: e['status'] for e in self.g1['events']}
         original = {e['eventGroupId']: (e['dispositionHistory'][0]['status'] if 'dispositionHistory' in e else e['status'])
                     for e in self.g1['events']}
         self.assertEqual(original, GLOBAL_1_STATUSES)
-        self.assertEqual({g for g in live if live[g] != GLOBAL_1_STATUSES[g]}, ADMITTED_IN_GLOBAL_3)
-        self.assertEqual(self.g1['statusCounts'], {'excluded': 4, 'insufficient_evidence': 9, 'pending_review': 4, 'ready_to_admit': 3})
+        self.assertEqual({g for g in live if live[g] != GLOBAL_1_STATUSES[g]}, ADMITTED_IN_GLOBAL_3 | ADMITTED_IN_GLOBAL_4)
+        self.assertEqual(self.g1['statusCounts'], {'excluded': 4, 'insufficient_evidence': 7, 'pending_review': 4, 'ready_to_admit': 5})
         self.assertEqual(self.g1['admission']['assignments'], 0)  # global-1 itself admitted nothing
         for cid, override in self.reviews.items():
             if override['eventGroupId'].startswith('global-1-'):
@@ -156,7 +160,7 @@ class BatchSeriesTest(unittest.TestCase):
 
     def test_summary_lists_batches_in_numeric_order_with_follow_ups(self):
         summaries = batch_summaries(ROOT)
-        self.assertEqual([s['batchId'] for s in summaries], ['global-1', 'global-2', 'global-3'])
+        self.assertEqual([s['batchId'] for s in summaries], ['global-1', 'global-2', 'global-3', 'global-4'])
         self.assertNotIn('followUps', summaries[0])
         self.assertEqual([f['eventGroupId'] for f in summaries[1]['followUps']], ['global-1-kti', 'global-1-ynt', 'global-1-rov'])
 
@@ -204,6 +208,54 @@ class AdmissionFollowUpTest(BatchSeriesTest):
         g3['followUps'][0]['dispositionChanged'] = False
         with self.assertRaisesRegex(ValueError, 'Unready follow-up promoted'):
             validate_batch(g3)
+
+
+class GlobalFourAdmissionTest(unittest.TestCase):
+    def setUp(self):
+        self.batches = [load(f'global-{n}.json') for n in range(1, 5)]
+        self.g1, _, _, self.g4 = self.batches
+
+    def test_screening_is_bounded_and_does_not_repeat_completed_admissions(self):
+        screening = self.g4['screening']
+        self.assertEqual(len(screening), 10)
+        self.assertEqual(sum(s['selected'] for s in screening), 4)
+        self.assertEqual(self.g4['events'], [])
+        follow = {f['eventGroupId']: f for f in self.g4['followUps']}
+        self.assertEqual(set(follow), {'global-1-dakar', 'global-1-aap', 'global-1-lyg', 'global-1-jng'})
+        self.assertEqual({g for g, f in follow.items() if f['dispositionChanged']}, ADMITTED_IN_GLOBAL_4)
+        self.assertTrue(all(f['candidateIds'] == [] for f in follow.values()))
+        self.assertEqual(sum(len(f['admittedAirportIds']) for f in follow.values()), 4)
+        self.assertEqual(sum(len(f['admittedAssignmentIds']) for f in follow.values()), 5)
+        self.assertEqual(sum(len(f['admittedNameIds']) for f in follow.values()), 1)
+        self.assertTrue(all(f['remainingGaps'] for f in follow.values()))
+
+    def test_partial_admissions_preserve_original_claims_and_mapping_ownership(self):
+        mapping = validate_batch_series(self.batches)
+        for event in self.g1['events']:
+            if event['eventGroupId'] not in ADMITTED_IN_GLOBAL_4:
+                continue
+            self.assertEqual([h['recordedIn'] for h in event['dispositionHistory']], ['global-1', 'global-4'])
+            self.assertEqual(event['dispositionHistory'][0]['status'], 'insufficient_evidence')
+            self.assertFalse(event['continuityInference']['usedForAdmission'])  # original review, retained
+            self.assertTrue(event['claims'] and event['sourceIds'] and event['evidenceGaps'])
+            self.assertEqual(event['admittedAssignmentIds'], [])  # admission belongs to follow-up
+            for cid in event['candidateIds'] + event['relatedCandidateIds']:
+                self.assertEqual(mapping[cid], event['eventGroupId'])
+        with self.assertRaisesRegex(ValueError, 'disagrees with owning event'):
+            validate_batch_series(self.batches[:-1])
+
+    def test_admitted_ids_and_formal_source_links_exist(self):
+        data = json.loads((ROOT / 'data/airports.json').read_text())
+        formal_sources = {s['sourceId']: s for s in data['sources']}
+        for source in self.g4['sources']:
+            if source.get('formalSourceId'):
+                self.assertIn(source['formalSourceId'], formal_sources)
+                self.assertEqual(source['url'], formal_sources[source['formalSourceId']]['url'])
+        for f in self.g4['followUps']:
+            for field, key, id_key in [('admittedAirportIds', 'airports', 'airportId'),
+                                      ('admittedAssignmentIds', 'assignments', 'assignmentId'),
+                                      ('admittedNameIds', 'names', 'nameId')]:
+                self.assertLessEqual(set(f[field]), {r[id_key] for r in data[key]})
 
 
 if __name__ == '__main__':
