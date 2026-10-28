@@ -1,0 +1,26 @@
+{
+  "candidateClassifications": {
+    "closure_or_reopening_observation": 13760,
+    "code_change_observation": 68012,
+    "empty_namespace_backfill_excluded": 223937,
+    "location_change_or_directory_correction": 2006,
+    "name_label_observation": 33578,
+    "non_event_revision_deferred": 898765
+  },
+  "duplicateMembersGrouped": 29026,
+  "eventGroups": 88330,
+  "geographicallyDistinctCodeLeads": 493,
+  "groupsAlreadyUnderReview": 28,
+  "groupsAwaitingEvidence": 88302,
+  "groupsLinkedToReferenceRecord": 33773,
+  "groupsWithOurairportsDerivatives": 18390,
+  "groupsWithUnavailableNumericReferenceRecord": 3,
+  "groupsWithoutReferenceRecordMatch": 54557,
+  "maximumEventsPerReviewBatch": 20,
+  "mechanicallyExcludedCandidates": 223937,
+  "newVerifiedHistoricalAdmissions": 0,
+  "nonEventCandidatesDeferred": 898765,
+  "selectedCandidates": 117356,
+  "selectedSourceObservations": 181297,
+  "sourceCandidatesInspected": 1240058
+}

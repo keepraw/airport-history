@@ -23,4 +23,6 @@ jobs:
       - run: pnpm test
       - run: pnpm test:research
       - run: pnpm research:validate
+      - run: pnpm reference:validate
+      - run: pnpm test:reference
       - run: pnpm build

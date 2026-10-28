@@ -14,13 +14,19 @@
     "validate:data": "node scripts/validate.ts",
     "test": "vitest run",
     "build": "node scripts/build.ts",
-    "check": "pnpm typecheck && pnpm validate:data && pnpm test && pnpm test:research && pnpm research:validate && pnpm build",
+    "check": "pnpm typecheck && pnpm validate:data && pnpm test && pnpm test:research && pnpm research:validate && pnpm reference:validate && pnpm test:reference && pnpm build",
     "research:fetch": "python3 scripts/discovery/fetch.py",
     "research:scan": "python3 scripts/discovery/scan.py",
     "research:report": "python3 scripts/discovery/report.py",
     "research:review-report": "python3 scripts/discovery/refresh_reviews.py",
     "research:validate": "python3 scripts/discovery/validate.py",
-    "test:research": "python3 -m unittest discover -s test/discovery -v"
+    "test:research": "python3 -m unittest discover -s test/discovery -v",
+    "reference:fetch": "python3 scripts/reference/fetch.py",
+    "reference:build": "python3 scripts/reference/build.py && python3 scripts/reference/triage.py",
+    "reference:lookup": "python3 scripts/reference/query.py",
+    "reference:review": "python3 scripts/reference/admissions.py",
+    "reference:validate": "node scripts/reference/validate-schema.ts && python3 scripts/reference/validate.py",
+    "test:reference": "python3 -m unittest discover -s test/reference -v"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",

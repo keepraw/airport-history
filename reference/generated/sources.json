@@ -1,0 +1,33 @@
+{
+  "airport-codes-raw": {
+    "license": "ODC-PDDL-1.0",
+    "meaning": "Derived OurAirports numeric-ID transition observations; one source family, not independent historical confirmation",
+    "path": "archive/data.csv",
+    "revision": "0a775c03687f0b57175df2285592397c1099b9dc",
+    "url": "https://github.com/datasets/airport-codes"
+  },
+  "airportsdata": {
+    "license": "MIT",
+    "meaning": "Timezone reference enrichment only; matching is not independent historical confirmation",
+    "observedAt": "2026-09-05T13:59:21+08:00",
+    "path": "airportsdata/airports.csv",
+    "revision": "47ae282a8491758e6dafe28d4139539e561b54d5",
+    "url": "https://github.com/mborsetti/airportsdata"
+  },
+  "licenseScope": "OurAirports: public domain. airportsdata: MIT; see LICENSE-airportsdata. airport-codes-raw transition evidence: ODC-PDDL-1.0. Original IDs/annotations: CC0. No primary-source documents redistributed.",
+  "ourairports": {
+    "downloadUrl": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/d97df1673cc5ba61a09b17ab5936091a669a04ca/airports.csv",
+    "formatVersion": 1,
+    "gitBlob": "fdcf59f3383d63ad14afbd8d7fd8b2ca954845ca",
+    "license": "Public-Domain",
+    "licenseUrl": "https://ourairports.com/help/data-dictionary.html",
+    "observedAt": "2026-10-26T03:53:12+01:00",
+    "path": "airports.csv",
+    "records": 86286,
+    "referenceVersion": "1.0.0",
+    "repository": "https://github.com/davidmegginson/ourairports-data",
+    "revision": "d97df1673cc5ba61a09b17ab5936091a669a04ca",
+    "sha256": "27c6500d0a742edece15c5aaf960e08c01df0d4356c5c86255897b5d3749ad3b",
+    "sourceId": "ourairports"
+  }
+}
