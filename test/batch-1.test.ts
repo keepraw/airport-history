@@ -112,9 +112,11 @@ describe("transfers and conservative boundary behavior", () => {
     const oldField = data.airports.find((a) => a.airportId === batchIds["benazir-bhutto"].airportId)!;
     expect(oldField.coordinates.value).toEqual(batchIds["benazir-bhutto"].coordinates);
     expect(oldField.coordinates.sourceIds).toContain("ourairports-batch1-20261025");
-    // A replacement does not transfer OPRN to OPIS or invent ICAO intervals.
-    expect(resolveAirport(data, "OPRN", "2017-06-01", "ICAO").status).toBe("not_found");
-    expect(resolveAirport(data, "OPIS", "2019-06-01", "ICAO").status).toBe("not_found");
+    // PR #10 independently verifies both ICAO histories at their existing sites.
+    expect(resolveAirport(data, "OPRN", "2017-06-01", "ICAO").airport?.airportId)
+      .toBe(batchIds["benazir-bhutto"].airportId);
+    expect(resolveAirport(data, "OPIS", "2019-06-01", "ICAO").airport?.airportId)
+      .toBe(batchIds.islamabad.airportId);
   });
 
   it.each([

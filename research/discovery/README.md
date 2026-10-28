@@ -3,13 +3,18 @@
 This repeatable research layer discovers worldwide history from source revisions.
 Candidates are neither resolver input nor a limit on future coverage; no research
 command writes formal data. `curated-baseline.json` pins the reviewed formal
-dataset (0.6.0: twenty-three identities, thirty-four code assignments, three names,
-fifty-six sources, schema 3.0.0) and lists `preservedBaselines`: both 0.4.0 and
-0.5.0 are frozen in `test/curated-0.4.0.json` and `test/curated-0.5.0.json`.
+dataset (0.7.0: twenty-three identities, forty code assignments, three names,
+seventy sources, schema 3.0.0) and lists `preservedBaselines`: 0.4.0, 0.5.0 and
+0.6.0 are frozen in `test/curated-0.4.0.json`, `test/curated-0.5.0.json` and
+`test/curated-0.6.0.json`.
 Validation requires every earlier record to remain unchanged. Formal admissions
 arrive through reviewed follow-ups ([global-3](batches/global-3.json) and
 [global-4](batches/global-4.json)); see the
 [0.6.0 admission review](../../docs/curated-admissions-pr9.md).
+The focused [0.7.0 ICAO review](../../docs/curated-icao-pr10.md) adds six
+assignments at existing identities. It creates no discovery batch, candidate
+mapping or disposition change: its claims supplement already curated sites,
+without changing the scope or findings of any existing discovery event.
 
 Read [coverage.md](coverage.md) and [generated/summary.json](generated/summary.json)
 together. Counts describe inspected source records and research transitions,

@@ -1,13 +1,13 @@
 {
-  "baseCommit": "7a9432994cd56058e9c436a3cbd82685f43c716a",
-  "sha256": "a64086c6864cdf6e2d3ab3df72ffec704a3bdef3cc3d70f1c29cb2d7eeeabe80",
+  "baseCommit": "cb0f003c21f0cb77cf4576dbe915cee1c9971a91",
+  "sha256": "31c5735b333881d7afdd527fe4af1db8e28413d5bba114fbf88a4aad0809cff7",
   "schemaVersion": "3.0.0",
-  "dataVersion": "0.6.0",
+  "dataVersion": "0.7.0",
   "airports": 23,
-  "assignments": 34,
+  "assignments": 40,
   "names": 3,
-  "sources": 56,
-  "note": "Reviewed global-4 formal expansion. Both 0.4.0 and 0.5.0 records remain frozen and required unchanged.",
+  "sources": 70,
+  "note": "Focused PR #10 historical ICAO admissions for existing physical airports. Every 0.4.0, 0.5.0 and merged 0.6.0 record is frozen and required unchanged.",
   "preservedBaselines": [
     {
       "dataVersion": "0.4.0",
@@ -28,6 +28,16 @@
       "assignments": 29,
       "names": 2,
       "sources": 43
+    },
+    {
+      "dataVersion": "0.6.0",
+      "baseCommit": "cb0f003c21f0cb77cf4576dbe915cee1c9971a91",
+      "sha256": "a64086c6864cdf6e2d3ab3df72ffec704a3bdef3cc3d70f1c29cb2d7eeeabe80",
+      "record": "test/curated-0.6.0.json",
+      "airports": 23,
+      "assignments": 34,
+      "names": 3,
+      "sources": 56
     }
   ]
 }

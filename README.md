@@ -7,16 +7,21 @@ A small, offline TypeScript resolver and versioned reference dataset for
 identify different physical sites over time. This repository preserves those
 sites and the evidence behind their code assignments.
 
-**Curated scope (0.6.0):** twenty-three physical airports, twenty-eight IATA
-assignments, six ICAO assignments and three official-name intervals, with
-fifty-six evidence sources. The
+**Curated scope (0.7.0):** twenty-three physical airports, twenty-eight IATA
+assignments, twelve ICAO assignments and three official-name intervals, with
+seventy evidence sources. The
 original TAO, IST, HKG and DEN examples are joined by five reviewed ISL, ISB,
 SXF/BER, TSE/NQZ and KIV/RMO events and, in 0.5.0, by ROV/RVI (Rostov-on-Don /
 Platov), YNT (Yantai Laishan / Penglai) and PNH/KTI with VDPP/VDTI (Phnom Penh /
 Techo); see the [0.5.0 admission review](docs/curated-admissions-pr8.md).
 Version 0.6.0 adds Dakar Yoff / Diass (DKR/DSS, GOOY/GOBD), Samarinda
 Temindung / Pranoto (AAP only), and Pranoto's Indonesian official-name interval;
-see the [0.6.0 admission review](docs/curated-admissions-pr9.md). This is a curated history layer,
+see the [0.6.0 admission review](docs/curated-admissions-pr9.md).
+Version 0.7.0 adds six reviewed ICAO histories at existing sites: OPRN/OPIS,
+LTBA/LTFM, EDDB and UACC. OPRN coverage stops at the last admitted 2021 AIP
+observation; preparatory OPIS/LTFM AIP designations do not certify flights before
+commissioning. See [boundaries, source limitations and measured coverage](docs/curated-icao-pr10.md).
+This is a curated history layer,
 not a replacement for a worldwide current-airport directory. A separate
 [global discovery research layer](research/discovery/README.md) scans pinned
 source histories and tracks coverage and unverified candidates. No server,
@@ -41,7 +46,7 @@ Initial dependency installation needs network access. All subsequent checks,
 tests, builds and resolution run offline. `pnpm build` writes:
 
 ```text
-dist/v0.6.0/
+dist/v0.7.0/
 ├── airport-history.json
 ├── dataset.schema.json
 ├── manifest.json             # SHA-256 hashes of the five other files
@@ -217,7 +222,17 @@ unique answer and returns `uncertain`. If a reviewed pair also certainly conflic
 on that date, `conflict` takes precedence and includes the other candidates.
 Nonoverlapping historical reuse is accepted normally.
 
-## Format compatibility: 0.6.0
+## Format compatibility: 0.7.0
+
+0.7.0 adds six ICAO intervals and fourteen reviewed sources at existing physical
+airports. Schema **3.0.0**, resolver logic, old records and the evidence horizon
+remain unchanged. Package/data versions advance together; output is `dist/v0.7.0/`.
+Reviewed 0.4.0, 0.5.0 and merged 0.6.0 snapshots are frozen and required unchanged
+by tests and research validation. See the [ICAO admission review](docs/curated-icao-pr10.md)
+for administrative AIP designations, operational observations and OPRN's earlier
+evidence limit.
+
+## Format compatibility: 0.6.0 (historical)
 
 0.6.0 adds four physical identities, five code assignments, one official-name
 interval and thirteen sources. Schema **3.0.0** and resolver logic are unchanged.

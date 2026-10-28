@@ -437,8 +437,8 @@
       "sha256": "ba2b8fdc9cdaf01dbf748cd505046fca79f55c2729e27b9d2a566a4af607c264"
     },
     "legacy-links.jsonl.gz": {
-      "bytes": 14989,
-      "sha256": "4747a20f7543d2b236a9c9bf206a433bc2e6a18c9b5b4b1aa7f5c71ba89df966"
+      "bytes": 15006,
+      "sha256": "0a56880a38431d03fb6b364f0efcd526365105df1993da78d5fb011de432316c"
     },
     "mwgg.candidates.0.jsonl.gz": {
       "bytes": 433385,
@@ -615,7 +615,7 @@
   },
   "formatVersion": 1,
   "inputs": {
-    "research/discovery/curated-baseline.json": "44df245a32fb557fc1f96e99350eb9e73b129e8cca6b2fbd25ef7c4b29ba4ac0",
+    "research/discovery/curated-baseline.json": "e59ce3adbd39eb2fa44b76c0a9340cc6e30a7796722d56893c5a99a5673cde51",
     "research/discovery/keepraw-fly-baseline.json": "c15b52a72c62cf03fe44978ab2511ddf400d5fc88f628175e804e13b8f174e38",
     "research/discovery/legacy.json": "397e3b8169ee55f0317f1447b99e82aec09e03a2a1dc79b805362b66a37c3174",
     "research/discovery/source-assessment.json": "ca9c561801f21acf3e8c896136ace72a306605531fcab55d29075ac1e76ba342",
