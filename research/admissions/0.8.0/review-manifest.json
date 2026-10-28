@@ -1,0 +1,25 @@
+{
+  "approvalId": "keepraw-seven-records-2026-10-28",
+  "originalProposalInputs": {
+    "research/evidence/direct/assessments.json": "15ba07be3ea5e6654df8c9aec7e6056a37376cbb2723eb346f867515757f10eb",
+    "research/evidence/direct/source-lock.json": "d054af9e1a37816207393e8768e5780ff12d3f5b4ef9e30348dbcacfca75431d",
+    "research/evidence/direct/generated/proposed-data.json": "83ec2f278f5ef5af8432c76d919012bd9a0f907322e818c181e059c8efe13df6",
+    "research/evidence/direct/generated/dossier.json": "7ac2e2fff4dfdea435ff014457a40938fde58bf9f733715e0ffac8fb4fd03311",
+    "research/evidence/direct/generated/review-packets.jsonl.gz": "95aa68ebc8dd91b3c0926856b74acfe7ebef6478ab74912d1fdcf7843dad101e",
+    "research/evidence/direct/generated/blocked-record-drafts.json": "d83578cc1987984e2c2c40bf64e894c714e42d74e6c4f050a788b30fca3e12fa",
+    "research/evidence/direct/generated/evidence-index.md": "274e1e7e36508988d4b9b398d2a385d492c422a5abfceb72fbe3d2df347103bb"
+  },
+  "priorLocalAudit": {
+    "auditSha256": "0911c22b84bf5bf067ede1f77e903e0acb0e63a9c239d0210b6838393e25c87d",
+    "coverageSha256": "cac5284433036ebe2f293e99667645bbf5573693f0de9f4c912c8587214f1e22",
+    "meaning": "Both local files existed and were read; they are advisory, not the user authorization."
+  },
+  "formalDatasetSha256": "b7880507c50cf8f993c98b3ec66f34e6433c452d7637eea7c6bfe61edbf166a3",
+  "reviewFiles": {
+    "approval.json": "b1198ca66df312c00506b455a503cab5fd195278345b41f1ad3b2c2a06ecb8f3",
+    "dossier.json": "0b6e890c6e5841ecf12a24f026e06cb676c67363829208a556f6d9617a82568f",
+    "source-review.json": "718224bcca193da80c264a1de7f67c2d5e826146dce458f3774a41a3b79f7447",
+    "batches/approved-historical-1.json": "b473750f7ee7fcd4d72bd09afa214532fffe346dc5ea4f115fd6245f50588ceb",
+    "coverage.json": "a6e06025c704360bbd488e5af310eab6cc32831ade478ce30b3b8aa69128ba5e"
+  }
+}

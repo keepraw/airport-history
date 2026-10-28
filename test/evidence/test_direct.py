@@ -97,7 +97,7 @@ class DirectEvidenceTests(unittest.TestCase):
     def test_unique_existing_review_ownership_and_no_invented_candidate(self):
         direct.validate()
         pending = json.loads((direct.OUT / 'proposed-data.json').read_text())
-        base = json.loads((ROOT / 'data/airports.json').read_text())
+        base = json.loads(direct.research_baseline_path().read_text())
         batches = list(direct.read_jsonl(direct.OUT / 'review-packets.jsonl.gz'))
         dossier = json.loads((direct.OUT / 'dossier.json').read_text())
         self.assertEqual(len(pending['airports']) - len(base['airports']), 6)

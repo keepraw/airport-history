@@ -1,0 +1,105 @@
+{
+  "dataVersion": "0.8.0",
+  "formalDatasetSha256": "b7880507c50cf8f993c98b3ec66f34e6433c452d7637eea7c6bfe61edbf166a3",
+  "method": "Actual formal data, unchanged resolver; enumerate every local civil date 2000-01-01 through 2020-12-31 and separately calculate calendar-day differences. No hypothetical verification state.",
+  "rows": [
+    {
+      "code": "KPFN",
+      "scheme": "ICAO",
+      "certainWindow": [
+        "2009-05-08",
+        "2010-04-28"
+      ],
+      "independentCivilDayDifference": 355,
+      "resolvedCodeDateQueries": 355,
+      "boundarySamples": [
+        {
+          "date": "2009-05-07",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "date": "2009-05-08",
+          "status": "resolved",
+          "airportId": "apt_d3a329f9-73d0-43f5-90c2-0ba0a0a2e5be"
+        },
+        {
+          "date": "2010-04-27",
+          "status": "resolved",
+          "airportId": "apt_d3a329f9-73d0-43f5-90c2-0ba0a0a2e5be"
+        },
+        {
+          "date": "2010-04-28",
+          "status": "uncertain",
+          "airportId": null
+        }
+      ]
+    },
+    {
+      "code": "KECP",
+      "scheme": "ICAO",
+      "certainWindow": [
+        "2010-05-24",
+        "2014-07-24"
+      ],
+      "independentCivilDayDifference": 1522,
+      "resolvedCodeDateQueries": 1522,
+      "boundarySamples": [
+        {
+          "date": "2010-05-23",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "date": "2010-05-24",
+          "status": "resolved",
+          "airportId": "apt_74a05fd5-53fa-40f8-a3a6-de8cfd7d5e99"
+        },
+        {
+          "date": "2014-07-23",
+          "status": "resolved",
+          "airportId": "apt_74a05fd5-53fa-40f8-a3a6-de8cfd7d5e99"
+        },
+        {
+          "date": "2014-07-24",
+          "status": "uncertain",
+          "airportId": null
+        }
+      ]
+    },
+    {
+      "code": "KISN",
+      "scheme": "ICAO",
+      "certainWindow": [
+        "2009-05-08",
+        "2014-07-24"
+      ],
+      "independentCivilDayDifference": 1903,
+      "resolvedCodeDateQueries": 1903,
+      "boundarySamples": [
+        {
+          "date": "2009-05-07",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "date": "2009-05-08",
+          "status": "resolved",
+          "airportId": "apt_ba1f9f8c-1849-4092-9e91-d641bddb6bc6"
+        },
+        {
+          "date": "2014-07-23",
+          "status": "resolved",
+          "airportId": "apt_ba1f9f8c-1849-4092-9e91-d641bddb6bc6"
+        },
+        {
+          "date": "2014-07-24",
+          "status": "uncertain",
+          "airportId": null
+        }
+      ]
+    }
+  ],
+  "totalResolvedCodeDateQueries": 3780,
+  "meaning": "Code/date query combinations, not independent facts or global coverage."
+}

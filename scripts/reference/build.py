@@ -9,7 +9,7 @@ import re
 from collections import Counter, defaultdict
 
 from common import (ROOT, DISCOVERY, OUTPUT, canonical, checked, distance, manifest,
-                    position, read_jsonl, stable_id, verify_discovery, write_json, write_jsonl)
+                    position, read_jsonl, research_baseline_path, stable_id, verify_discovery, write_json, write_jsonl)
 from timezones import load_catalog
 
 TYPES = {'balloonport', 'closed', 'heliport', 'large_airport', 'medium_airport', 'seaplane_base', 'small_airport'}
@@ -163,7 +163,7 @@ def build(output=OUTPUT):
     target = [v for v in versions if v['commit'] == lock['revision'] and v['afterBlob'] == lock['gitBlob']]
     if len(target) != 1 or target[0]['observedAt'] != lock['observedAt']:
         raise ValueError('Snapshot observation metadata is not pinned to its source revision')
-    dataset = json.loads((ROOT / 'data/airports.json').read_text())
+    dataset = json.loads(research_baseline_path().read_text())
     inventory = {e['sourceEntityId']: e for e in read_jsonl(DISCOVERY / 'ourairports.entities.jsonl.gz')}
     if len(inventory) != coverage['history']['entitiesEverObserved']:
         raise ValueError('Incomplete source identity inventory')
@@ -280,7 +280,7 @@ def build(output=OUTPUT):
         'iana-tzdb': json.loads((ROOT / 'reference/timezones-lock.json').read_text()),
         'licenseScope': 'OurAirports and IANA timezone names: public domain. airportsdata: MIT; see LICENSE-airportsdata. airport-codes-raw transition evidence: ODC-PDDL-1.0. Original IDs/annotations: CC0. No primary-source documents redistributed.',
     })
-    inputs = [lock_path, input_path, ROOT / 'data/airports.json', ROOT / 'reference/LICENSE-airportsdata',
+    inputs = [lock_path, input_path, research_baseline_path(), ROOT / 'reference/LICENSE-airportsdata',
               ROOT / 'schema/reference-record.schema.json',
               ROOT / 'reference/timezones-lock.json', ROOT / 'reference/inputs/iana-timezones.json',
               ROOT / 'research/discovery/sources.json', DISCOVERY / 'manifest.json', *(DISCOVERY / n for n in names),

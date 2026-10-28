@@ -105,7 +105,7 @@ class EvidenceTests(unittest.TestCase):
                             for b in batches for e in b['events']))
         self.assertTrue(all('reviewer' not in b for b in batches))
         base = json.loads((ROOT / 'data/airports.json').read_text())
-        proposed = {**base, 'dataVersion': '0.8.0'}
+        proposed = {**base, 'dataVersion': '0.9.0'}
         with self.assertRaisesRegex(ValueError, 'Prepared packets'):
             validate_admission(base, proposed, batches, [])
 

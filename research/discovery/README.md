@@ -16,6 +16,13 @@ assignments at existing identities. It creates no discovery batch, candidate
 mapping or disposition change: its claims supplement already curated sites,
 without changing the scope or findings of any existing discovery event.
 
+The live formal dataset is now **0.8.0: 27 identities, 43 assignments, 3 names
+and 77 sources** after the [seven user-approved records](../admissions/0.8.0/README.md).
+This research snapshot retains its immutable 0.7.0 input and original candidate
+findings. Its historical baseline pin is not a claim that the live dataset has
+no later admissions. Report reproduction can use `--reuse-baselines` without
+opening source Git repositories or rescanning history.
+
 Read [coverage.md](coverage.md) and [generated/summary.json](generated/summary.json)
 together. Counts describe inspected source records and research transitions,
 never real-world event totals or global completion percentages.

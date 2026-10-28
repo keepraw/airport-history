@@ -135,7 +135,11 @@ def code_links(config, out):
 
 def legacy_links(config, out):
     legacy = json.loads((ROOT / 'research/discovery/legacy.json').read_text())
-    dataset = json.loads((ROOT / 'data/airports.json').read_text())
+    baseline = json.loads((ROOT / 'research/discovery/curated-baseline.json').read_text())
+    raw = (ROOT / f"test/curated-{baseline['dataVersion']}.json").read_bytes()
+    if hashlib.sha256(raw).hexdigest() != baseline['sha256']:
+        raise ValueError('Changed frozen discovery input')
+    dataset = json.loads(raw)
     codes = defaultdict(set)
     for source in config['sources']:
         for record in read_candidates(out, source['id']):
@@ -323,7 +327,8 @@ def main():
     manifest = {p.name: {'sha256': hashlib.sha256(p.read_bytes()).hexdigest(), 'bytes': p.stat().st_size}
                 for p in sorted(out.iterdir()) if p.is_file() and p.name != 'manifest.json'}
     inputs = [*(p for p in sorted((ROOT / 'research/discovery').glob('*.json')) if p.name != 'reviews.json'),
-              *sorted((ROOT / 'scripts/discovery').glob('*.py'))]
+              *sorted((ROOT / 'scripts/discovery').glob('*.py')),
+              ROOT / f"test/curated-{json.loads((ROOT / 'research/discovery/curated-baseline.json').read_text())['dataVersion']}.json"]
     review_inputs = [ROOT / 'research/discovery/reviews.json',
                      *sorted((ROOT / 'research/discovery/batches').glob('*.json'))]
     write_json(out / 'manifest.json', {'formatVersion': 1, 'files': manifest,

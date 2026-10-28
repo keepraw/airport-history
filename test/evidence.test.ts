@@ -5,7 +5,7 @@ import { validateDataset } from "../src/validate.ts";
 
 const data = await loadDataset();
 
-it("classifies all forty curated intervals as reviewed continuity inferences", () => {
+it("classifies all forty-three curated intervals as reviewed continuity inferences", () => {
   expect(data.assignments.map((a) => a.assignmentId).sort()).toEqual([
     "iata-aap-pranoto",
     "iata-ber-schonefeld-brandenburg",
@@ -47,6 +47,9 @@ it("classifies all forty curated intervals as reviewed continuity inferences", (
     "icao-vdti-techo",
     "icao-vhhh-chek-lap-kok",
     "icao-vhhh-kai-tak",
+    "proposal-icao-ecp",
+    "proposal-icao-isn",
+    "proposal-icao-pfn",
   ]);
   for (const a of data.assignments) {
     expect(a.evidenceType).toBe("continuity_inference");

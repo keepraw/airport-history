@@ -1,12 +1,12 @@
 import { describe, expect, it } from "vitest";
 import { readFileSync } from "node:fs";
-import { loadDataset } from "../scripts/load.ts";
 import { resolveAirport } from "../src/resolve.ts";
 import { dateNumber, interval, overlaps } from "../src/time.ts";
 import { assertDataset, validateDataset } from "../src/validate.ts";
 import type { Dataset } from "../src/types.ts";
 
-const base = await loadDataset();
+// PR13 is an immutable pending proposal against 0.7.0, not the later admitted data.
+const base: Dataset = JSON.parse(readFileSync(new URL("./curated-0.7.0.json", import.meta.url), "utf8"));
 const proposal: Dataset = JSON.parse(readFileSync(new URL(
   "../research/evidence/direct/generated/proposed-data.json", import.meta.url), "utf8"));
 const added = proposal.assignments.filter(a => !base.assignments.some(b => b.assignmentId === a.assignmentId));

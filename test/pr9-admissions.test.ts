@@ -36,7 +36,7 @@ describe("reviewed baselines survive the 0.6.0 expansion", () => {
       const raw = await readFile(new URL(`../${b.record}`, import.meta.url));
       expect(createHash("sha256").update(raw).digest("hex")).toBe(b.sha256);
     }
-    const raw = await readFile(new URL("../data/airports.json", import.meta.url));
+    const raw = await readFile(new URL("./curated-0.7.0.json", import.meta.url));
     expect(createHash("sha256").update(raw).digest("hex")).toBe(baseline.sha256);
     expect(frozen06.dataVersion).toBe("0.6.0");
     expect(frozen06.schemaVersion).toBe("3.0.0");
