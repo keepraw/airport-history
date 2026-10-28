@@ -24,6 +24,10 @@ all candidate mappings and its original claim-specific findings; two further
 status changes have explicit disposition history. Candidate shard `matches` remain the PR #5 snapshot and are not
 rescanned against the new formal records.
 No observation, queue entry, source pin or formal airport record was removed.
+The subsequent [focused ICAO review](../../docs/curated-icao-pr10.md) adds six
+formal assignments at existing identities (0.7.0), without scanning source
+history, changing discovery dispositions or creating another global batch.
+Its measured historical resolver gain is separate from every discovery count below.
 
 ## Source scope actually inspected
 

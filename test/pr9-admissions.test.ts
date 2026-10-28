@@ -10,6 +10,7 @@ import ids from "./pr9-identities.json" with { type: "json" };
 import coverage from "./pr9-coverage.json" with { type: "json" };
 import frozen04 from "./curated-0.4.0.json" with { type: "json" };
 import frozen05 from "./curated-0.5.0.json" with { type: "json" };
+import frozen06 from "./curated-0.6.0.json" with { type: "json" };
 
 const data = await loadDataset();
 const previous = frozen05 as Dataset;
@@ -30,16 +31,16 @@ describe("reviewed baselines survive the 0.6.0 expansion", () => {
     }
   });
   it("pins both immutable snapshots and the current data bytes", async () => {
-    expect(baseline.preservedBaselines.map((b) => b.dataVersion)).toEqual(["0.4.0", "0.5.0"]);
+    expect(baseline.preservedBaselines.map((b) => b.dataVersion)).toEqual(["0.4.0", "0.5.0", "0.6.0"]);
     for (const b of baseline.preservedBaselines) {
       const raw = await readFile(new URL(`../${b.record}`, import.meta.url));
       expect(createHash("sha256").update(raw).digest("hex")).toBe(b.sha256);
     }
     const raw = await readFile(new URL("../data/airports.json", import.meta.url));
     expect(createHash("sha256").update(raw).digest("hex")).toBe(baseline.sha256);
-    expect(data.dataVersion).toBe("0.6.0");
-    expect(data.schemaVersion).toBe("3.0.0");
-    expect([data.airports.length, data.assignments.length, data.names.length, data.sources.length])
+    expect(frozen06.dataVersion).toBe("0.6.0");
+    expect(frozen06.schemaVersion).toBe("3.0.0");
+    expect([frozen06.airports.length, frozen06.assignments.length, frozen06.names.length, frozen06.sources.length])
       .toEqual([23, 34, 3, 56]);
   });
   it("preserves previous resolver results at every old boundary and adjacent day", () => {
@@ -109,7 +110,8 @@ describe("conservative code history", () => {
     expect(result.airport?.airportId ?? null).toBe(site ? ids[site].airportId : null);
   });
   it("keeps original allocations and disputed withdrawals open", () => {
-    const added = data.assignments.filter((a) => !previous.assignments.some((p) => p.assignmentId === a.assignmentId));
+    const pr9Ids = new Set(frozen06.assignments.filter((a) => !previous.assignments.some((p) => p.assignmentId === a.assignmentId)).map((a) => a.assignmentId));
+    const added = data.assignments.filter((a) => pr9Ids.has(a.assignmentId));
     expect(added).toHaveLength(5);
     for (const a of added) {
       expect(a.validFrom.earliest).toBeNull();

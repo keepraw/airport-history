@@ -8,7 +8,7 @@ import { resolveAirport, resolveAirportName } from "../src/index.ts";
 it("builds identical bytes twice and ships a parseable, independently checked artifact", async () => {
   const root = fileURLToPath(new URL("../", import.meta.url));
   const build = fileURLToPath(new URL("../scripts/build.ts", import.meta.url));
-  const dist = new URL("../dist/v0.6.0/", import.meta.url);
+  const dist = new URL("../dist/v0.7.0/", import.meta.url);
   const run = (tz: string) =>
     execFileSync(process.execPath, [build], {
       cwd: root,
@@ -35,7 +35,7 @@ it("builds identical bytes twice and ships a parseable, independently checked ar
     files: Record<string, string>;
   };
   expect(manifest.schemaVersion).toBe("3.0.0");
-  expect(manifest.dataVersion).toBe("0.6.0");
+  expect(manifest.dataVersion).toBe("0.7.0");
   const license = await readFile(
     new URL("../LICENSE", import.meta.url),
     "utf8",
@@ -55,8 +55,8 @@ it("builds identical bytes twice and ships a parseable, independently checked ar
   expect(dataset.schemaVersion).toBe(manifest.schemaVersion);
   expect(dataset.dataVersion).toBe(manifest.dataVersion);
   expect(dataset.airports).toHaveLength(23);
-  expect(dataset.assignments).toHaveLength(34);
-  expect(dataset.sources).toHaveLength(56);
+  expect(dataset.assignments).toHaveLength(40);
+  expect(dataset.sources).toHaveLength(70);
   expect(dataset.names).toHaveLength(3);
   expect(dataset.names.map((n) => n.nameId)).toEqual(
     dataset.names.map((n) => n.nameId).sort(),

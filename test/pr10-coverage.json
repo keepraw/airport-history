@@ -1,0 +1,66 @@
+{
+  "window": {
+    "startInclusive": "2011-10-15",
+    "endExclusive": "2026-10-25"
+  },
+  "unit": "distinct ICAO code/scheme/local-date queries; all intervals use reviewed continuity inference, not independently observed daily flights",
+  "before": "not_found for all measured queries in frozen 0.6.0",
+  "rows": [
+    {
+      "code": "OPRN",
+      "scheme": "ICAO",
+      "basis": "actual 2016 flight; retained 2021 AIP site",
+      "resolved": 1689,
+      "uncertain": 3800,
+      "firstResolved": "2016-08-09",
+      "lastResolved": "2021-03-24"
+    },
+    {
+      "code": "OPIS",
+      "scheme": "ICAO",
+      "basis": "administrative AIP designation; commissioning separate",
+      "resolved": 3411,
+      "uncertain": 2078,
+      "firstResolved": "2017-06-23",
+      "lastResolved": "2026-10-24"
+    },
+    {
+      "code": "LTBA",
+      "scheme": "ICAO",
+      "basis": "actual 2011 flight; retained 2026 AIP site",
+      "resolved": 5487,
+      "uncertain": 2,
+      "firstResolved": "2011-10-17",
+      "lastResolved": "2026-10-24"
+    },
+    {
+      "code": "LTFM",
+      "scheme": "ICAO",
+      "basis": "administrative AIP designation; actual flight independently observed in 2019",
+      "resolved": 2935,
+      "uncertain": 2554,
+      "firstResolved": "2018-10-12",
+      "lastResolved": "2026-10-24"
+    },
+    {
+      "code": "EDDB",
+      "scheme": "ICAO",
+      "basis": "actual 2016 flight; same expanded site",
+      "resolved": 3760,
+      "uncertain": 1729,
+      "firstResolved": "2016-07-09",
+      "lastResolved": "2026-10-24"
+    },
+    {
+      "code": "UACC",
+      "scheme": "ICAO",
+      "basis": "actual 2016 logbook legs and 2018 landing; same site",
+      "resolved": 3829,
+      "uncertain": 1660,
+      "firstResolved": "2016-05-01",
+      "lastResolved": "2026-10-24"
+    }
+  ],
+  "totalResolved": 21111,
+  "totalUncertain": 11823
+}

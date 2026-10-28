@@ -1,6 +1,6 @@
 {
   "schemaVersion": "3.0.0",
-  "dataVersion": "0.6.0",
+  "dataVersion": "0.7.0",
   "sources": [
     {
       "sourceId": "ourairports-20261025",
@@ -785,6 +785,202 @@
         "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed."
       },
       "note": "Linked original four-page decree: operative First clause names the new Samarinda airport Aji Pangeran Tumenggung Pranoto; Third clause effective on determination, 2017-07-27. Original PDF inspected via the authority link. Page publication 2017-09-20 and six-month administrative implementation deadline are not name boundaries. No time of day, so July 27 remains uncertain. No IATA/ICAO allocation content."
+    },
+    {
+      "sourceId": "oprn-bea-2016",
+      "title": "BEA2016-0485: AP-BLA departure and return at Islamabad, 2016-08-08",
+      "url": "https://bea.aero/en/investigation-reports/notified-events/detail/serious-incident-to-the-airbus-a320-200-registered-ap-bla-operated-by-pakistan-international-airlines-on-08-08-2016-at-islamabad-investigation-led-by-caa---pakistan/",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed."
+      },
+      "note": "Pakistan CAA occurrence notification held by BEA. Local date 2016-08-08, last departure OPRN (ISB), Islamabad/Chaklala; departure and runway-30 return identify the old site. Observes actual use, not original allocation. Later BEA pages with stale OPRN/ISB labels are not used to extend this interval."
+    },
+    {
+      "sourceId": "oprn-aip-2021",
+      "title": "Pakistan AIP AD 2 OPRN-1, AIRAC AMDT 01/21, 25 MAR 2021 (reproduction)",
+      "url": "https://www.scribd.com/document/896418285/RNLNSW4",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed."
+      },
+      "note": "Original CAA AIP content inspected in a publicly readable third-party reproduction, not an origin-hosted authenticated copy. AD 2.1 explicitly identifies OPRN; AD 2.2 places it at 333700.36N 0730555.46E on runway 30/12, under joint PAF/CAA administration. This is the old Chaklala site after the civil move, not OPIS. Page date 2021-03-25 is the last admitted observation, not withdrawal. No extension from the fixed directory GPS-only field. Reproduction includes other chart vintages; only this dated AIP page supports the endpoint."
+    },
+    {
+      "sourceId": "opis-aip-2017",
+      "title": "Pakistan AIRAC AIP SUP S-12/17, published 27 APR 2017, effective 22 JUN 2017 (reproduction)",
+      "url": "https://gateway.x-plane.com/bug_reports/attachments/20946",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed."
+      },
+      "note": "Original CAA supplement S-12 to S-14/17 PDF inspected in a third-party attachment. S-12/17 page 1 makes the AIP data effective 2017-06-22 0001 UTC, while paragraph 7 reserves commissioning for a later NOTAM. Appendix A-1 AD 2.1 identifies OPIS and AD 2.2 gives 333256.70N 0724932.34E, the separate new Islamabad site. Supports published administrative designation by that effective date, not flights, first allocation, or the 2018 passenger move. Pakistan is UTC+5: latest-start bound is the next whole local date, June 23. Origin-hosted historical PDF was not retrieved."
+    },
+    {
+      "sourceId": "opis-aip-2026",
+      "title": "Pakistan Airports Authority eAIP amendment 02/26, effective 11 JUN 2026",
+      "url": "https://paawebadmin.paa.gov.pk/media/eaip/02-26/eAIP/main.html",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed."
+      },
+      "note": "Official amendment cover, effective 2026-06-11, explicitly updates aerodrome data for Islamabad International Airport (OPIS). Corroborates continued designation of the new airport; the 2017 supplement supplies its physical coordinates. Does not date first allocation. Continuation to the unchanged 2026-10-25 exclusive horizon is inferred with the existing fixed directory snapshot."
+    },
+    {
+      "sourceId": "ltba-bea-2011",
+      "title": "BEA f-xi111015: F-GKXI flight from Istanbul Ataturk, 2011-10-15",
+      "url": "https://bea.aero/en/investigation-reports/notified-events/detail/mouvements-daileron-de-profondeur-droit-non-commandes-en-tangage-en-croisiere/",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed."
+      },
+      "note": "BEA closed investigation: actual Air France Istanbul-to-Paris flight, occurrence local date 2011-10-15 in France, last departure LTBA (IST), Istanbul/Ataturk. Original allocation unknown. Departure time is absent and Istanbul was one hour ahead of France; use 2011-10-17 as a conservative whole-local-date latest-start bound, rather than asserting the departure local day or allocation day."
+    },
+    {
+      "sourceId": "ltba-aip-2026",
+      "title": "DHMI AIP Turkiye AD 2 LTBA-1, 19 MAR 2026",
+      "url": "https://www.dhmi.gov.tr/AIPDocuments/LT_AD_2_LTBA_en.pdf",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed."
+      },
+      "note": "AD 2.1 explicitly identifies LTBA as Istanbul/Ataturk; AD 2.2 places the reference point at 405834N 0284851E on TWY D. Page 1 date is 2026-03-19; a stray 2016 amendment label in the PDF wrapper is not the date of this entry. Confirms retention at the old site after the IST passenger-code exchange. Neither civilian passenger relocation nor a runway/operating change withdraws the indicator."
+    },
+    {
+      "sourceId": "ltfm-aip-sup-2018",
+      "title": "DHMI AIRAC AIP SUP 04/18, published 11 SEP 2018, effective 11 OCT 2018 (reproduction)",
+      "url": "https://www.scribd.com/document/421103799/LT-Sup-2018-04-en",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed."
+      },
+      "note": "Original DHMI supplement inspected in a publicly readable third-party reproduction; origin PDF was not retrieved. Cover explicitly designates Istanbul New Airport (LTFM), effective 2018-10-11, and amends its AD 2 procedures while separately retaining LTBA procedures. Paragraphs 2-3 defer use of procedures to airport service and a later commissioning NOTAM. This is administrative AIP designation, not observed flights, an allocation ledger, or a claim of airport service on October 11. With no effective instant proved, latest start is conservatively October 12. Current official AD 2 coordinates and the later actual flight independently identify the new physical site."
+    },
+    {
+      "sourceId": "ltfm-bea-2019",
+      "title": "BEA2020-0011: TC-LOL actual flight from Istanbul to Port Harcourt, 2019-12-31",
+      "url": "https://bea.aero/en/investigation-reports/notified-events/detail/serious-incident-to-the-airbus-a330-registered-tc-lol-operated-by-turkish-airlines-on-31-12-2019-at-port-harcourt-nigeria-investigation-led-by-bfu---germany/",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed."
+      },
+      "note": "Occurrence notification held by BEA explicitly lists last departure Turkey (LTFM (IST): Istanbul/Havalimani) for the actual 2019-12-31 Port Harcourt landing excursion. This is an operational observation distinct from the preparatory 2018 AIP and the 2019 IATA exchange. The page heading says BFU/Germany, but its responsible-entity and summary fields say Nigeria/AIB; do not treat the heading as investigative provenance or infer a precise Turkish departure day."
+    },
+    {
+      "sourceId": "ltfm-aip-2026",
+      "title": "DHMI AIP Turkiye AD 2 LTFM-1, 19 MAR 2026",
+      "url": "https://www.dhmi.gov.tr/AIPDocuments/LT_AD_2_LTFM_en.pdf",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed."
+      },
+      "note": "AD 2.1 explicitly identifies LTFM as Istanbul Airport; AD 2.2 gives 411631N 0284507E, west of RWY 18/36, at Arnavutkoy. Distinct from LTBA at Ataturk. This 2026-03-19 page corroborates continued assignment, not original allocation or an ICAO transfer from Ataturk."
+    },
+    {
+      "sourceId": "eddb-bea-2016",
+      "title": "BEA2016-0398: D-AICF departure from Berlin Schonefeld, 2016-07-08",
+      "url": "https://bea.aero/en/investigation-reports/notified-events/detail/serious-incident-to-the-airbus-a320-registered-d-aicf-operated-by-condor-flugdienst-gmbh-on-08-07-16-en-route-investigation-led-by-bfu---germany/",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed."
+      },
+      "note": "German BFU occurrence notification held by BEA: local date 2016-07-08, actual Condor flight, last departure EDDB (SXF): Berlin-Schonefeld. France and Berlin share the local civil date offset. Supports latest start 2016-07-09, not first allocation. The existing Fluko infrastructure-extension evidence links this site to the curated Brandenburg identity."
+    },
+    {
+      "sourceId": "eddb-manual-2026",
+      "title": "Berlin Brandenburg Aerodrome Manual EDDB A.8, version 10.8, effective 01 APR 2026",
+      "url": "https://corporate.berlin-airport.de/content/dam/corporate/en/geschaeftspartner/ordnungen-antraege/flugplatzhandbuch/eddb-a8-en.pdf",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed."
+      },
+      "note": "Airport operator original manual, cover version 10.8 effective 2026-04-01. Section 1.1 on page 5 explicitly associates Berlin Brandenburg with AIP Germany AD 2 EDDB; section 2.1.4 also references its A-CDM procedure. Current retained indicator at the same expanded physical airport. The revision-history dates do not establish earlier indicator allocation. The DFS October 2026 entry was located, but its page image was not retrieved and is not formal evidence here."
+    },
+    {
+      "sourceId": "uacc-anac-2016",
+      "title": "ANAC Parecer 501/2019, process 00058.522585/2017-13: actual April 2016 flight legs",
+      "url": "https://www.anac.gov.br/acesso-a-informacao/junta-recursal/decisoes-monocraticas/2019/maio/00058-522585-2017-13/@@display-file/dlb_arquivo/SEI_00058.522585_2017_13.pdf",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed."
+      },
+      "note": "Original authority case record, pages 1-2: reconstructed actual PR-OMX journey from authenticated logbooks, not a schedule. Table and narrative identify EPWA-UACC (Astana, Kazakhstan)-ZWWW on 2016-04-29. Publication/decision is in 2019, not the code observation date. No time standard is given for the journey table: allow an extra local-day rollover at historical Astana UTC+6 and use 2016-05-01 latest start. The later local-dated BEA landing and official AIP independently confirm UACC is the aerodrome indicator, not an ACC/FIR or GPS identifier."
+    },
+    {
+      "sourceId": "uacc-bea-2018",
+      "title": "BEA2018-0361: P4-KBB landing at Astana, 2018-05-22",
+      "url": "https://bea.aero/en/investigation-reports/notified-events/detail/serious-incident-to-the-airbus-a320-registered-p4-kbb-and-operated-by-air-astana-on-22-05-2018-at-astana-investigation-led-by-aaid---kazakhstan/",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed."
+      },
+      "note": "Kazakhstan authority occurrence notification held by BEA: local date 2018-05-22, location AD Astana, actual runway excursion during landing, destination UACC (TSE): Astana. Independent operational confirmation before the TSE/NQZ IATA change. Not a first-allocation record."
+    },
+    {
+      "sourceId": "uacc-aip-2026",
+      "title": "Kazaeronavigatsia eAIP AD 2 UACC, edition effective 01 OCT 2026",
+      "url": "https://www.ans.kz/AIP/eAIP/2026-10-01-AIRAC/html/eAIP/UA-AD-2.UACC-en-GB.html",
+      "accessedOn": "2026-10-28",
+      "verificationStatus": "verified",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed."
+      },
+      "note": "Official effective edition 2026-10-01, not the future October 29 edition. AD 2.1 identifies UACC-Astana; AD 2.2 gives 510121N 0712758E, center of runway, and Nursultan Nazarbayev International Airport administration with NQZ SITA address. Same runway/site as the curated TSE/NQZ airport. Proves this edition state only, not original allocation. A guessed 2019 edition returned a soft 404 and is not used."
     }
   ],
   "airports": [
@@ -2397,6 +2593,160 @@
         "ourairports-pr9-20261025"
       ],
       "note": "Actual operational AAP observation on 2019-08-20 bounds latest start to 2019-08-21. May 2018 opening, October 2018 inauguration and prospective schedules are not code bounds. Earlier AAP at Andrau Airpark is outside admitted coverage; earlier dates remain uncertain. SRI withdrawal and WALS reuse are not certified. The whole interval is a reviewed continuity inference between observations, not daily direct verification or an allocation ledger."
+    },
+    {
+      "assignmentId": "icao-oprn-chaklala",
+      "scheme": "ICAO",
+      "code": "OPRN",
+      "airportId": "apt_d28173b7-5c8b-4012-8eed-18f96c13a0ce",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2016-08-09",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2021-03-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "oprn-bea-2016",
+        "oprn-aip-2021"
+      ],
+      "note": "Observed on 2016-08-08 at the old Chaklala site; AIP AD 2 OPRN-1 dated 2021-03-25 still identifies the same runway after civil operations moved to OPIS. Coverage ends conservatively at that last observation (exclusive), not an asserted withdrawal. The fixed directory has OPRN only in gps_code, with blank icao_code; it does not extend ICAO coverage. No OPRN transfer to the new airport or new entity for military use. The whole interval is a reviewed continuity inference between dated observations, not daily direct verification, a first-allocation date, or proof that flights operated on every resolved date."
+    },
+    {
+      "assignmentId": "icao-opis-islamabad",
+      "scheme": "ICAO",
+      "code": "OPIS",
+      "airportId": "apt_896e8191-7c0b-4a94-bc14-9dcd7e35feac",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2017-06-23",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "opis-aip-2017",
+        "opis-aip-2026",
+        "ourairports-batch1-20261025"
+      ],
+      "note": "Unknown original allocation; administrative AIP designation at the new site is documented effective 2017-06-22 0001 UTC (0501 local), hence the next whole-local-date latest-start bound. Commissioning was expressly deferred to a NOTAM; this does not establish flights in 2017 or use the 2018 opening as an ICAO transfer. OPRN belongs to the separate old site. Continued OPIS is corroborated by official 2026 AIP and the unchanged fixed evidence horizon. The whole interval is a reviewed continuity inference between dated observations, not daily direct verification, a first-allocation date, or proof that flights operated on every resolved date."
+    },
+    {
+      "assignmentId": "icao-ltba-ataturk",
+      "scheme": "ICAO",
+      "code": "LTBA",
+      "airportId": "apt_d8f290d3-11cc-4441-af6d-f4dd52d3b8dc",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2011-10-17",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "ltba-bea-2011",
+        "ltba-aip-2026",
+        "ourairports-20261025"
+      ],
+      "note": "Actual 2011-10-15 France-local flight record identifies departure LTBA at Ataturk. No departure time is given; a conservative additional local-day rollover yields latest start 2011-10-17. The 2026 AD 2 entry retains LTBA at Ataturk after the IATA IST/ISL exchange. Neither that passenger move nor changes in civil operations transfer LTBA to the new site. The whole interval is a reviewed continuity inference between dated observations, not daily direct verification, a first-allocation date, or proof that flights operated on every resolved date."
+    },
+    {
+      "assignmentId": "icao-ltfm-istanbul",
+      "scheme": "ICAO",
+      "code": "LTFM",
+      "airportId": "apt_92a92544-1808-487a-85e0-0fa995e1de82",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2018-10-12",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "ltfm-aip-sup-2018",
+        "ltfm-bea-2019",
+        "ltfm-aip-2026",
+        "ourairports-20261025"
+      ],
+      "note": "Unknown original allocation; SUP 04/18 documents administrative LTFM designation effective 2018-10-11, with no effective instant proved, so the conservative latest start is October 12. Its procedures and airport commissioning remained conditional on service/NOTAM; resolution before service identifies the designated site, not an operated flight. Actual LTFM departure is separately observed in the 2019-12-31 occurrence record. No ICAO transfer from LTBA or backdating from the IATA IST change is asserted. The whole interval is a reviewed continuity inference between dated observations, not daily direct verification, a first-allocation date, or proof that flights operated on every resolved date."
+    },
+    {
+      "assignmentId": "icao-eddb-berlin",
+      "scheme": "ICAO",
+      "code": "EDDB",
+      "airportId": "apt_f642eef8-1864-43c4-8944-47aaa7ac35ce",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2016-07-09",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "eddb-bea-2016",
+        "ber-coordination",
+        "ber-code-change",
+        "eddb-manual-2026",
+        "ourairports-batch1-20261025"
+      ],
+      "note": "Actual 2016-07-08 flight identifies EDDB at Schonefeld. The existing Fluko evidence establishes Brandenburg as an extension of the same airside infrastructure; operator manual retains EDDB at Brandenburg. One continuous assignment to the existing physical ID across the 2020 SXF/BER change, T5 incorporation and T1 opening. No duplicate airport entity or invented ICAO transfer date. The whole interval is a reviewed continuity inference between dated observations, not daily direct verification, a first-allocation date, or proof that flights operated on every resolved date."
+    },
+    {
+      "assignmentId": "icao-uacc-astana",
+      "scheme": "ICAO",
+      "code": "UACC",
+      "airportId": "apt_99f19660-7609-49c5-b221-ed4a37046566",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2016-05-01",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28",
+      "evidenceType": "continuity_inference",
+      "sourceIds": [
+        "uacc-anac-2016",
+        "uacc-bea-2018",
+        "uacc-aip-2026",
+        "nqz-code-change",
+        "ourairports-batch1-20261025"
+      ],
+      "note": "ANAC reconstructs actual 2016-04-29 UACC arrival/departure at Astana. Its log-table time standard is absent: allowing a local-day rollover at historical UTC+6 gives conservative latest start 2016-05-01. BEA confirms a local-dated 2018 landing; official 2026 AIP retains UACC on the same runway/site after TSE/NQZ. Renaming the city or airport and changing IATA code do not create another physical identity or a UACC transfer. The whole interval is a reviewed continuity inference between dated observations, not daily direct verification, a first-allocation date, or proof that flights operated on every resolved date."
     }
   ],
   "names": [
