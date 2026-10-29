@@ -1,0 +1,912 @@
+{
+  "batchId": "approved-historical-090-1",
+  "baseCommit": "f43e172d8833317086a94d0c23302b42f509dcee",
+  "reviewedOn": "2026-10-29",
+  "selection": {
+    "maximumEvents": 20,
+    "eventCount": 6,
+    "scope": "Exact thirteen owner-approved records only"
+  },
+  "statusCounts": {
+    "ready_to_admit": 6,
+    "pending_review": 0,
+    "excluded": 0,
+    "insufficient_evidence": 0
+  },
+  "admission": {
+    "airports": 7,
+    "assignments": 6,
+    "names": 0,
+    "formalSources": 18
+  },
+  "events": [
+    {
+      "admittedAirportIds": [
+        "apt_9e24d5d7-5e1a-4489-b936-2737c438921e"
+      ],
+      "admittedAssignmentIds": [
+        "global-proposal-sindhudurg-icao-vosr"
+      ],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_087cb061dc9981f95f9d81b9",
+        "cand_31e708a294f76c417ac131f8",
+        "cand_aa92342d4b6c107edad8f7db"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "No closureAndReplacement claim is approved in this batch; original pending research remains unchanged.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vosr",
+            "in-aip-12-06-2025-vosr",
+            "in-aip-22-02-2024-vosr"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Only the exact per-assignment ICAO scopes in approval.json are authorized; unknown outer bounds remain.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vosr",
+            "in-aip-12-06-2025-vosr",
+            "in-aip-22-02-2024-vosr"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "No historicalNames claim is approved in this batch; original pending research remains unchanged.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vosr",
+            "in-aip-12-06-2025-vosr",
+            "in-aip-22-02-2024-vosr"
+          ]
+        },
+        "iata": {
+          "conclusion": "No iata claim is approved in this batch; original pending research remains unchanged.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vosr",
+            "in-aip-12-06-2025-vosr",
+            "in-aip-22-02-2024-vosr"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only the exact per-assignment ICAO scopes in approval.json are authorized; unknown outer bounds remain.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vosr",
+            "in-aip-12-06-2025-vosr",
+            "in-aip-22-02-2024-vosr"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Owner-approved distinct physical sites and reference attributes only.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vosr",
+            "in-aip-12-06-2025-vosr",
+            "in-aip-22-02-2024-vosr"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": true,
+        "note": "Explicitly owner-approved individual windows, not entire event-group authorization."
+      },
+      "eventGroupId": "dup_3ba8285a7a6ad98d019277ca",
+      "evidenceFactIds": [
+        "sindhudurg-aip-2024",
+        "sindhudurg-aip-2026",
+        "india-six-years"
+      ],
+      "evidenceGaps": [
+        "Unknown first allocation/final withdrawal; unapproved records remain pending."
+      ],
+      "exclusionReason": null,
+      "label": "Sindhudurg Airport",
+      "nextAction": "Admit only the explicitly listed thirteen approved records after original admission and schema validation; PR awaits human merge.",
+      "proposedRecordIds": [
+        "apt_9e24d5d7-5e1a-4489-b936-2737c438921e",
+        "global-proposal-sindhudurg-icao-vosr"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "in-aip-09-07-2026-vosr",
+        "in-aip-12-06-2025-vosr",
+        "in-aip-22-02-2024-vosr"
+      ],
+      "status": "ready_to_admit"
+    },
+    {
+      "admittedAirportIds": [
+        "apt_66034969-b902-4ede-8011-cc87a23070b7"
+      ],
+      "admittedAssignmentIds": [
+        "global-proposal-kalaburagi-icao-vogb"
+      ],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_0e0464a378e2950d286d736a",
+        "cand_32ffcfca3a814be61181dbca",
+        "cand_60413024720c83bcb8f4331f"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "No closureAndReplacement claim is approved in this batch; original pending research remains unchanged.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vogb",
+            "in-aip-12-06-2025-vogb",
+            "in-aip-22-02-2024-vogb"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Only the exact per-assignment ICAO scopes in approval.json are authorized; unknown outer bounds remain.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vogb",
+            "in-aip-12-06-2025-vogb",
+            "in-aip-22-02-2024-vogb"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "No historicalNames claim is approved in this batch; original pending research remains unchanged.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vogb",
+            "in-aip-12-06-2025-vogb",
+            "in-aip-22-02-2024-vogb"
+          ]
+        },
+        "iata": {
+          "conclusion": "No iata claim is approved in this batch; original pending research remains unchanged.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vogb",
+            "in-aip-12-06-2025-vogb",
+            "in-aip-22-02-2024-vogb"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only the exact per-assignment ICAO scopes in approval.json are authorized; unknown outer bounds remain.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vogb",
+            "in-aip-12-06-2025-vogb",
+            "in-aip-22-02-2024-vogb"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Owner-approved distinct physical sites and reference attributes only.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vogb",
+            "in-aip-12-06-2025-vogb",
+            "in-aip-22-02-2024-vogb"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": true,
+        "note": "Explicitly owner-approved individual windows, not entire event-group authorization."
+      },
+      "eventGroupId": "dup_27ed2ac1e6d76646da47e39c",
+      "evidenceFactIds": [
+        "kalaburagi-aip-2024",
+        "kalaburagi-aip-2026",
+        "india-six-years"
+      ],
+      "evidenceGaps": [
+        "Unknown first allocation/final withdrawal; unapproved records remain pending."
+      ],
+      "exclusionReason": null,
+      "label": "Kalaburagi Airport",
+      "nextAction": "Admit only the explicitly listed thirteen approved records after original admission and schema validation; PR awaits human merge.",
+      "proposedRecordIds": [
+        "apt_66034969-b902-4ede-8011-cc87a23070b7",
+        "global-proposal-kalaburagi-icao-vogb"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "in-aip-09-07-2026-vogb",
+        "in-aip-12-06-2025-vogb",
+        "in-aip-22-02-2024-vogb"
+      ],
+      "status": "ready_to_admit"
+    },
+    {
+      "admittedAirportIds": [
+        "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f"
+      ],
+      "admittedAssignmentIds": [
+        "global-proposal-kushinagar-icao-veki"
+      ],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_035827051abf8a779b1ccf36",
+        "cand_5a3438d3319fe02a5229cd8d",
+        "cand_f40c86effb03bcd092511eb5"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "No closureAndReplacement claim is approved in this batch; original pending research remains unchanged.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-veki",
+            "in-aip-12-06-2025-veki",
+            "in-aip-22-02-2024-veki"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Only the exact per-assignment ICAO scopes in approval.json are authorized; unknown outer bounds remain.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-veki",
+            "in-aip-12-06-2025-veki",
+            "in-aip-22-02-2024-veki"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "No historicalNames claim is approved in this batch; original pending research remains unchanged.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-veki",
+            "in-aip-12-06-2025-veki",
+            "in-aip-22-02-2024-veki"
+          ]
+        },
+        "iata": {
+          "conclusion": "No iata claim is approved in this batch; original pending research remains unchanged.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-veki",
+            "in-aip-12-06-2025-veki",
+            "in-aip-22-02-2024-veki"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only the exact per-assignment ICAO scopes in approval.json are authorized; unknown outer bounds remain.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-veki",
+            "in-aip-12-06-2025-veki",
+            "in-aip-22-02-2024-veki"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Owner-approved distinct physical sites and reference attributes only.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-veki",
+            "in-aip-12-06-2025-veki",
+            "in-aip-22-02-2024-veki"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": true,
+        "note": "Explicitly owner-approved individual windows, not entire event-group authorization."
+      },
+      "eventGroupId": "dup_4d24e77865400b9c4c92c1cc",
+      "evidenceFactIds": [
+        "kushinagar-aip-2024",
+        "kushinagar-aip-2026",
+        "india-six-years"
+      ],
+      "evidenceGaps": [
+        "Unknown first allocation/final withdrawal; unapproved records remain pending."
+      ],
+      "exclusionReason": null,
+      "label": "Kushinagar International Airport",
+      "nextAction": "Admit only the explicitly listed thirteen approved records after original admission and schema validation; PR awaits human merge.",
+      "proposedRecordIds": [
+        "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f",
+        "global-proposal-kushinagar-icao-veki"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "in-aip-09-07-2026-veki",
+        "in-aip-12-06-2025-veki",
+        "in-aip-22-02-2024-veki"
+      ],
+      "status": "ready_to_admit"
+    },
+    {
+      "admittedAirportIds": [
+        "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9"
+      ],
+      "admittedAssignmentIds": [
+        "global-proposal-pakyong-icao-vepy"
+      ],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_44068c6677d207a725e8a057",
+        "cand_9af887a0c7e530731f72ecd2",
+        "cand_e4f734f10c344afb9634c552"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "No closureAndReplacement claim is approved in this batch; original pending research remains unchanged.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vepy",
+            "in-aip-12-06-2025-vepy",
+            "in-aip-22-02-2024-vepy"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Only the exact per-assignment ICAO scopes in approval.json are authorized; unknown outer bounds remain.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vepy",
+            "in-aip-12-06-2025-vepy",
+            "in-aip-22-02-2024-vepy"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "No historicalNames claim is approved in this batch; original pending research remains unchanged.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vepy",
+            "in-aip-12-06-2025-vepy",
+            "in-aip-22-02-2024-vepy"
+          ]
+        },
+        "iata": {
+          "conclusion": "No iata claim is approved in this batch; original pending research remains unchanged.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vepy",
+            "in-aip-12-06-2025-vepy",
+            "in-aip-22-02-2024-vepy"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only the exact per-assignment ICAO scopes in approval.json are authorized; unknown outer bounds remain.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vepy",
+            "in-aip-12-06-2025-vepy",
+            "in-aip-22-02-2024-vepy"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Owner-approved distinct physical sites and reference attributes only.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vepy",
+            "in-aip-12-06-2025-vepy",
+            "in-aip-22-02-2024-vepy"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": true,
+        "note": "Explicitly owner-approved individual windows, not entire event-group authorization."
+      },
+      "eventGroupId": "dup_5f5ccdfccdad5394bef22d11",
+      "evidenceFactIds": [
+        "pakyong-aip-2024",
+        "pakyong-aip-2026",
+        "india-six-years"
+      ],
+      "evidenceGaps": [
+        "Unknown first allocation/final withdrawal; unapproved records remain pending."
+      ],
+      "exclusionReason": null,
+      "label": "Pakyong Airport",
+      "nextAction": "Admit only the explicitly listed thirteen approved records after original admission and schema validation; PR awaits human merge.",
+      "proposedRecordIds": [
+        "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9",
+        "global-proposal-pakyong-icao-vepy"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "in-aip-09-07-2026-vepy",
+        "in-aip-12-06-2025-vepy",
+        "in-aip-22-02-2024-vepy"
+      ],
+      "status": "ready_to_admit"
+    },
+    {
+      "admittedAirportIds": [
+        "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3"
+      ],
+      "admittedAssignmentIds": [
+        "global-proposal-kurnool-icao-voku"
+      ],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_0acd4a07f04e72da561cc499",
+        "cand_22ea0d8c41311a4fe76152db",
+        "cand_6e0b8f41667a45a580760e68"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "No closureAndReplacement claim is approved in this batch; original pending research remains unchanged.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-voku",
+            "in-aip-12-06-2025-voku",
+            "in-aip-22-02-2024-voku"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Only the exact per-assignment ICAO scopes in approval.json are authorized; unknown outer bounds remain.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-voku",
+            "in-aip-12-06-2025-voku",
+            "in-aip-22-02-2024-voku"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "No historicalNames claim is approved in this batch; original pending research remains unchanged.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-voku",
+            "in-aip-12-06-2025-voku",
+            "in-aip-22-02-2024-voku"
+          ]
+        },
+        "iata": {
+          "conclusion": "No iata claim is approved in this batch; original pending research remains unchanged.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-voku",
+            "in-aip-12-06-2025-voku",
+            "in-aip-22-02-2024-voku"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only the exact per-assignment ICAO scopes in approval.json are authorized; unknown outer bounds remain.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-voku",
+            "in-aip-12-06-2025-voku",
+            "in-aip-22-02-2024-voku"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Owner-approved distinct physical sites and reference attributes only.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-voku",
+            "in-aip-12-06-2025-voku",
+            "in-aip-22-02-2024-voku"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": true,
+        "note": "Explicitly owner-approved individual windows, not entire event-group authorization."
+      },
+      "eventGroupId": "dup_aaf4adc6feec9f8fb9ff606e",
+      "evidenceFactIds": [
+        "kurnool-aip-2024",
+        "kurnool-aip-2026",
+        "india-six-years"
+      ],
+      "evidenceGaps": [
+        "Unknown first allocation/final withdrawal; unapproved records remain pending."
+      ],
+      "exclusionReason": null,
+      "label": "Kurnool Airport",
+      "nextAction": "Admit only the explicitly listed thirteen approved records after original admission and schema validation; PR awaits human merge.",
+      "proposedRecordIds": [
+        "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3",
+        "global-proposal-kurnool-icao-voku"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "in-aip-09-07-2026-voku",
+        "in-aip-12-06-2025-voku",
+        "in-aip-22-02-2024-voku"
+      ],
+      "status": "ready_to_admit"
+    },
+    {
+      "admittedAirportIds": [
+        "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+        "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12"
+      ],
+      "admittedAssignmentIds": [
+        "global-proposal-murcia-old-icao-lelc"
+      ],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_046cef2da66f3701ba8d8553",
+        "cand_71dd5dded3b8519141e21323",
+        "cand_88618ed036d7258907835f89"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "No closureAndReplacement claim is approved in this batch; original pending research remains unchanged.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "es-murcia-aip",
+            "es-murcia-index-current",
+            "es-sanjavier-aip"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Only the exact per-assignment ICAO scopes in approval.json are authorized; unknown outer bounds remain.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "es-murcia-aip",
+            "es-murcia-index-current",
+            "es-sanjavier-aip"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "No historicalNames claim is approved in this batch; original pending research remains unchanged.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "es-murcia-aip",
+            "es-murcia-index-current",
+            "es-sanjavier-aip"
+          ]
+        },
+        "iata": {
+          "conclusion": "No iata claim is approved in this batch; original pending research remains unchanged.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "es-murcia-aip",
+            "es-murcia-index-current",
+            "es-sanjavier-aip"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only the exact per-assignment ICAO scopes in approval.json are authorized; unknown outer bounds remain.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "es-murcia-aip",
+            "es-murcia-index-current",
+            "es-sanjavier-aip"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Owner-approved distinct physical sites and reference attributes only.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "es-murcia-aip",
+            "es-murcia-index-current",
+            "es-sanjavier-aip"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": true,
+        "note": "Explicitly owner-approved individual windows, not entire event-group authorization."
+      },
+      "eventGroupId": "dup_5c819a661040eb0011dc6f88",
+      "evidenceFactIds": [
+        "murcia-replacement",
+        "murcia-new-arp",
+        "murcia-old-arp",
+        "murcia-aena-first-arrival",
+        "murcia-aena-retrospective"
+      ],
+      "evidenceGaps": [
+        "Unknown first allocation/final withdrawal; unapproved records remain pending."
+      ],
+      "exclusionReason": null,
+      "label": "Región de Murcia International Airport",
+      "nextAction": "Admit only the explicitly listed thirteen approved records after original admission and schema validation; PR awaits human merge.",
+      "proposedRecordIds": [
+        "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+        "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+        "global-proposal-murcia-old-icao-lelc"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "es-murcia-aip",
+        "es-murcia-index-current",
+        "es-sanjavier-aip"
+      ],
+      "status": "ready_to_admit"
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "es-murcia-aip",
+      "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LEMI/LE_AD_2_LEMI_en.pdf",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-29",
+      "title": "Spain AIP Murcia LEMI aerodrome data",
+      "supportedFacts": "Only the named site, ARP/reference attributes and/or code association at the distinct dated observation in the linked dossier.",
+      "limitations": "No first allocation, final withdrawal, operation date, historical official-name interval or timezone. Continuity between observations is separately owner-approved inference. Same-issuer editions/components do not count as independent issuers.",
+      "accessResult": "Fresh online original hash, independent extraction hash and every retained citation position reproduced in this task. Full originals/extractions remain ignored in work/. Offline CI verifies pinned minimal citations and provenance, not fresh online retrieval.",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source terms apply. Excluded from repository MIT license. No onward license to embedded maps or third-party charts granted.",
+        "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LEMI/LE_AD_2_LEMI_en.pdf"
+      }
+    },
+    {
+      "sourceId": "es-murcia-index-current",
+      "url": "https://aip.enaire.es/aip/contenido_AIP/AD/LE_AD_1_3_en.html",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-29",
+      "title": "Current AD 1.3 code and aerodrome index observed 29 October 2026",
+      "supportedFacts": "Only the named site, ARP/reference attributes and/or code association at the distinct dated observation in the linked dossier.",
+      "limitations": "No first allocation, final withdrawal, operation date, historical official-name interval or timezone. Continuity between observations is separately owner-approved inference. Same-issuer editions/components do not count as independent issuers.",
+      "accessResult": "Fresh online original hash, independent extraction hash and every retained citation position reproduced in this task. Full originals/extractions remain ignored in work/. Offline CI verifies pinned minimal citations and provenance, not fresh online retrieval.",
+      "license": {
+        "id": "LicenseRef-Quotation-Only",
+        "note": "No full HTML/PDF or full text is committed. Original publisher rights remain; minimal attributed quotations/factual rows retained solely for critical verification. Fetch original separately to verify its original SHA-256. No charts, photographs, or commercial code ledger redistributed.",
+        "url": "https://aip.enaire.es/aip/contenido_AIP/AD/LE_AD_1_3_en.html"
+      }
+    },
+    {
+      "sourceId": "es-sanjavier-aip",
+      "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LELC/LE_AD_2_LELC_en.pdf",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-29",
+      "title": "Spain AIP San Javier LELC aerodrome data",
+      "supportedFacts": "Only the named site, ARP/reference attributes and/or code association at the distinct dated observation in the linked dossier.",
+      "limitations": "No first allocation, final withdrawal, operation date, historical official-name interval or timezone. Continuity between observations is separately owner-approved inference. Same-issuer editions/components do not count as independent issuers.",
+      "accessResult": "Fresh online original hash, independent extraction hash and every retained citation position reproduced in this task. Full originals/extractions remain ignored in work/. Offline CI verifies pinned minimal citations and provenance, not fresh online retrieval.",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source terms apply. Excluded from repository MIT license. No onward license to embedded maps or third-party charts granted.",
+        "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LELC/LE_AD_2_LELC_en.pdf"
+      }
+    },
+    {
+      "sourceId": "in-aip-09-07-2026-veki",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEKI-en-GB.html",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-29",
+      "title": "AIP India 09-07-2026 AD2 VEKI",
+      "supportedFacts": "Only the named site, ARP/reference attributes and/or code association at the distinct dated observation in the linked dossier.",
+      "limitations": "No first allocation, final withdrawal, operation date, historical official-name interval or timezone. Continuity between observations is separately owner-approved inference. Same-issuer editions/components do not count as independent issuers.",
+      "accessResult": "Fresh online original hash, independent extraction hash and every retained citation position reproduced in this task. Full originals/extractions remain ignored in work/. Offline CI verifies pinned minimal citations and provenance, not fresh online retrieval.",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      }
+    },
+    {
+      "sourceId": "in-aip-09-07-2026-vepy",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEPY-en-GB.html",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-29",
+      "title": "AIP India 09-07-2026 AD2 VEPY",
+      "supportedFacts": "Only the named site, ARP/reference attributes and/or code association at the distinct dated observation in the linked dossier.",
+      "limitations": "No first allocation, final withdrawal, operation date, historical official-name interval or timezone. Continuity between observations is separately owner-approved inference. Same-issuer editions/components do not count as independent issuers.",
+      "accessResult": "Fresh online original hash, independent extraction hash and every retained citation position reproduced in this task. Full originals/extractions remain ignored in work/. Offline CI verifies pinned minimal citations and provenance, not fresh online retrieval.",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      }
+    },
+    {
+      "sourceId": "in-aip-09-07-2026-vogb",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOGB-en-GB.html",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-29",
+      "title": "AIP India 09-07-2026 AD2 VOGB",
+      "supportedFacts": "Only the named site, ARP/reference attributes and/or code association at the distinct dated observation in the linked dossier.",
+      "limitations": "No first allocation, final withdrawal, operation date, historical official-name interval or timezone. Continuity between observations is separately owner-approved inference. Same-issuer editions/components do not count as independent issuers.",
+      "accessResult": "Fresh online original hash, independent extraction hash and every retained citation position reproduced in this task. Full originals/extractions remain ignored in work/. Offline CI verifies pinned minimal citations and provenance, not fresh online retrieval.",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      }
+    },
+    {
+      "sourceId": "in-aip-09-07-2026-voku",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOKU-en-GB.html",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-29",
+      "title": "AIP India 09-07-2026 AD2 VOKU",
+      "supportedFacts": "Only the named site, ARP/reference attributes and/or code association at the distinct dated observation in the linked dossier.",
+      "limitations": "No first allocation, final withdrawal, operation date, historical official-name interval or timezone. Continuity between observations is separately owner-approved inference. Same-issuer editions/components do not count as independent issuers.",
+      "accessResult": "Fresh online original hash, independent extraction hash and every retained citation position reproduced in this task. Full originals/extractions remain ignored in work/. Offline CI verifies pinned minimal citations and provenance, not fresh online retrieval.",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      }
+    },
+    {
+      "sourceId": "in-aip-09-07-2026-vosr",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOSR-en-GB.html",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-29",
+      "title": "AIP India 09-07-2026 AD2 VOSR",
+      "supportedFacts": "Only the named site, ARP/reference attributes and/or code association at the distinct dated observation in the linked dossier.",
+      "limitations": "No first allocation, final withdrawal, operation date, historical official-name interval or timezone. Continuity between observations is separately owner-approved inference. Same-issuer editions/components do not count as independent issuers.",
+      "accessResult": "Fresh online original hash, independent extraction hash and every retained citation position reproduced in this task. Full originals/extractions remain ignored in work/. Offline CI verifies pinned minimal citations and provenance, not fresh online retrieval.",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      }
+    },
+    {
+      "sourceId": "in-aip-12-06-2025-veki",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/12-06-2025/eAIP/IN-AD%202.1VEKI-en-GB.html",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-29",
+      "title": "India AIP 2025-06-12 aerodrome data VEKI",
+      "supportedFacts": "Only the named site, ARP/reference attributes and/or code association at the distinct dated observation in the linked dossier.",
+      "limitations": "No first allocation, final withdrawal, operation date, historical official-name interval or timezone. Continuity between observations is separately owner-approved inference. Same-issuer editions/components do not count as independent issuers.",
+      "accessResult": "Fresh online original hash, independent extraction hash and every retained citation position reproduced in this task. Full originals/extractions remain ignored in work/. Offline CI verifies pinned minimal citations and provenance, not fresh online retrieval.",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "url": "https://www.aai.aero/en/corporate/copyright",
+        "note": "Publisher rights retained; only factual references and necessary short citations. No full-original, chart, map or photo redistribution permission established."
+      }
+    },
+    {
+      "sourceId": "in-aip-12-06-2025-vepy",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/12-06-2025/eAIP/IN-AD%202.1VEPY-en-GB.html",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-29",
+      "title": "India AIP 2025-06-12 aerodrome data VEPY",
+      "supportedFacts": "Only the named site, ARP/reference attributes and/or code association at the distinct dated observation in the linked dossier.",
+      "limitations": "No first allocation, final withdrawal, operation date, historical official-name interval or timezone. Continuity between observations is separately owner-approved inference. Same-issuer editions/components do not count as independent issuers.",
+      "accessResult": "Fresh online original hash, independent extraction hash and every retained citation position reproduced in this task. Full originals/extractions remain ignored in work/. Offline CI verifies pinned minimal citations and provenance, not fresh online retrieval.",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "url": "https://www.aai.aero/en/corporate/copyright",
+        "note": "Publisher rights retained; only factual references and necessary short citations. No full-original, chart, map or photo redistribution permission established."
+      }
+    },
+    {
+      "sourceId": "in-aip-12-06-2025-vogb",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/12-06-2025/eAIP/IN-AD%202.1VOGB-en-GB.html",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-29",
+      "title": "India AIP 2025-06-12 aerodrome data VOGB",
+      "supportedFacts": "Only the named site, ARP/reference attributes and/or code association at the distinct dated observation in the linked dossier.",
+      "limitations": "No first allocation, final withdrawal, operation date, historical official-name interval or timezone. Continuity between observations is separately owner-approved inference. Same-issuer editions/components do not count as independent issuers.",
+      "accessResult": "Fresh online original hash, independent extraction hash and every retained citation position reproduced in this task. Full originals/extractions remain ignored in work/. Offline CI verifies pinned minimal citations and provenance, not fresh online retrieval.",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "url": "https://www.aai.aero/en/corporate/copyright",
+        "note": "Publisher rights retained; only factual references and necessary short citations. No full-original, chart, map or photo redistribution permission established."
+      }
+    },
+    {
+      "sourceId": "in-aip-12-06-2025-voku",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/12-06-2025/eAIP/IN-AD%202.1VOKU-en-GB.html",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-29",
+      "title": "India AIP 2025-06-12 aerodrome data VOKU",
+      "supportedFacts": "Only the named site, ARP/reference attributes and/or code association at the distinct dated observation in the linked dossier.",
+      "limitations": "No first allocation, final withdrawal, operation date, historical official-name interval or timezone. Continuity between observations is separately owner-approved inference. Same-issuer editions/components do not count as independent issuers.",
+      "accessResult": "Fresh online original hash, independent extraction hash and every retained citation position reproduced in this task. Full originals/extractions remain ignored in work/. Offline CI verifies pinned minimal citations and provenance, not fresh online retrieval.",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "url": "https://www.aai.aero/en/corporate/copyright",
+        "note": "Publisher rights retained; only factual references and necessary short citations. No full-original, chart, map or photo redistribution permission established."
+      }
+    },
+    {
+      "sourceId": "in-aip-12-06-2025-vosr",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/12-06-2025/eAIP/IN-AD%202.1VOSR-en-GB.html",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-29",
+      "title": "India AIP 2025-06-12 aerodrome data VOSR",
+      "supportedFacts": "Only the named site, ARP/reference attributes and/or code association at the distinct dated observation in the linked dossier.",
+      "limitations": "No first allocation, final withdrawal, operation date, historical official-name interval or timezone. Continuity between observations is separately owner-approved inference. Same-issuer editions/components do not count as independent issuers.",
+      "accessResult": "Fresh online original hash, independent extraction hash and every retained citation position reproduced in this task. Full originals/extractions remain ignored in work/. Offline CI verifies pinned minimal citations and provenance, not fresh online retrieval.",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "url": "https://www.aai.aero/en/corporate/copyright",
+        "note": "Publisher rights retained; only factual references and necessary short citations. No full-original, chart, map or photo redistribution permission established."
+      }
+    },
+    {
+      "sourceId": "in-aip-22-02-2024-veki",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VEKI-en-GB.html",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-29",
+      "title": "AIP India 22-02-2024 AD2 VEKI",
+      "supportedFacts": "Only the named site, ARP/reference attributes and/or code association at the distinct dated observation in the linked dossier.",
+      "limitations": "No first allocation, final withdrawal, operation date, historical official-name interval or timezone. Continuity between observations is separately owner-approved inference. Same-issuer editions/components do not count as independent issuers.",
+      "accessResult": "Fresh online original hash, independent extraction hash and every retained citation position reproduced in this task. Full originals/extractions remain ignored in work/. Offline CI verifies pinned minimal citations and provenance, not fresh online retrieval.",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      }
+    },
+    {
+      "sourceId": "in-aip-22-02-2024-vepy",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VEPY-en-GB.html",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-29",
+      "title": "AIP India 22-02-2024 AD2 VEPY",
+      "supportedFacts": "Only the named site, ARP/reference attributes and/or code association at the distinct dated observation in the linked dossier.",
+      "limitations": "No first allocation, final withdrawal, operation date, historical official-name interval or timezone. Continuity between observations is separately owner-approved inference. Same-issuer editions/components do not count as independent issuers.",
+      "accessResult": "Fresh online original hash, independent extraction hash and every retained citation position reproduced in this task. Full originals/extractions remain ignored in work/. Offline CI verifies pinned minimal citations and provenance, not fresh online retrieval.",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      }
+    },
+    {
+      "sourceId": "in-aip-22-02-2024-vogb",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOGB-en-GB.html",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-29",
+      "title": "AIP India 22-02-2024 AD2 VOGB",
+      "supportedFacts": "Only the named site, ARP/reference attributes and/or code association at the distinct dated observation in the linked dossier.",
+      "limitations": "No first allocation, final withdrawal, operation date, historical official-name interval or timezone. Continuity between observations is separately owner-approved inference. Same-issuer editions/components do not count as independent issuers.",
+      "accessResult": "Fresh online original hash, independent extraction hash and every retained citation position reproduced in this task. Full originals/extractions remain ignored in work/. Offline CI verifies pinned minimal citations and provenance, not fresh online retrieval.",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      }
+    },
+    {
+      "sourceId": "in-aip-22-02-2024-voku",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOKU-en-GB.html",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-29",
+      "title": "AIP India 22-02-2024 AD2 VOKU",
+      "supportedFacts": "Only the named site, ARP/reference attributes and/or code association at the distinct dated observation in the linked dossier.",
+      "limitations": "No first allocation, final withdrawal, operation date, historical official-name interval or timezone. Continuity between observations is separately owner-approved inference. Same-issuer editions/components do not count as independent issuers.",
+      "accessResult": "Fresh online original hash, independent extraction hash and every retained citation position reproduced in this task. Full originals/extractions remain ignored in work/. Offline CI verifies pinned minimal citations and provenance, not fresh online retrieval.",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      }
+    },
+    {
+      "sourceId": "in-aip-22-02-2024-vosr",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOSR-en-GB.html",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-29",
+      "title": "AIP India 22-02-2024 AD2 VOSR",
+      "supportedFacts": "Only the named site, ARP/reference attributes and/or code association at the distinct dated observation in the linked dossier.",
+      "limitations": "No first allocation, final withdrawal, operation date, historical official-name interval or timezone. Continuity between observations is separately owner-approved inference. Same-issuer editions/components do not count as independent issuers.",
+      "accessResult": "Fresh online original hash, independent extraction hash and every retained citation position reproduced in this task. Full originals/extractions remain ignored in work/. Offline CI verifies pinned minimal citations and provenance, not fresh online retrieval.",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      }
+    }
+  ]
+}

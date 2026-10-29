@@ -55,7 +55,7 @@ def verify():
     a, lock = read(BASE/'assessments.json'), read(BASE/'source-lock.json')
     if a['decision']!='pending' or a['reviewer'] is not None:
         raise ValueError('No human approval may be synthesized')
-    if gb.sha((ROOT/'data/airports.json').read_bytes()) != a['formalBaselineSha256']:
+    if gb.sha((ROOT/'test/curated-0.8.0.json').read_bytes()) != a['formalBaselineSha256']:
         raise ValueError('Formal baseline changed')
     sources = {}
     spans = {}
@@ -121,7 +121,7 @@ def fetch(only=None, recover=False):
 
 
 def propose(a,sources,facts):
-    baseline=read(ROOT/'data/airports.json')
+    baseline=read(ROOT/'test/curated-0.8.0.json')
     proposed=read(gb.OUT/'proposed-data.json')
     source_ids={s['sourceId'] for s in proposed['sources']}
     for sid,s in sources.items():
@@ -195,7 +195,7 @@ def build(output=OUT):
     gb.write(output/'review-packets.json',batches)
     gb.validate_batch_series(batches)
     try:
-        gb.validate_admission(read(ROOT/'data/airports.json'),proposed,batches,dossier)
+        gb.validate_admission(read(ROOT/'test/curated-0.8.0.json'),proposed,batches,dossier)
     except ValueError as error:
         if 'explicit claim review' not in str(error):raise
     else:raise ValueError('Pending market research passed admission')
@@ -251,7 +251,7 @@ def build(output=OUT):
             for ns in namespaces:rows.append({'country':c['country'],'caseKey':c['caseKey'],'checkedYear':year,'namespace':ns,'decision':'pending','reviewer':None,'eventDate':c['eventDate']})
     gb.write(output/'country-year-namespace.json',{'unit':'One case / explicitly inspected year / adjudicated code namespace. Inspection year is not an event year.','rows':rows})
     documents(output,a,sources,facts,metrics,dossier,chain)
-    inputs=[BASE/'assessments.json',BASE/'source-lock.json',BASE/'catalog.json',ROOT/'data/airports.json',gb.OUT/'proposed-data.json',gb.OUT/'query-coverage.json',ROOT/'scripts/evidence/market_batch.py',ROOT/'scripts/evidence/global_coverage.ts']
+    inputs=[BASE/'assessments.json',BASE/'source-lock.json',BASE/'catalog.json',ROOT/'test/curated-0.8.0.json',gb.OUT/'proposed-data.json',gb.OUT/'query-coverage.json',ROOT/'scripts/evidence/market_batch.py',ROOT/'scripts/evidence/global_coverage.ts']
     inputs+=sorted((BASE/'excerpts').glob('*.json'))
     gb.write(output/'manifest.json',{'inputs':{str(p.relative_to(ROOT)):gb.sha(p.read_bytes()) for p in inputs},
         'outputs':{str(p.relative_to(output)):gb.sha(p.read_bytes()) for p in sorted(output.rglob('*')) if p.is_file() and p.name!='manifest.json'}})

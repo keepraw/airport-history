@@ -1,0 +1,457 @@
+{
+  "approvalId": "keepraw-thirteen-records-2026-10-29",
+  "authorizedBy": {
+    "login": "keepraw",
+    "githubUserId": 49091395
+  },
+  "approvedOn": "2026-10-29",
+  "recordedBy": "Codex",
+  "authorizationSource": "Explicit user instruction: Keepraw Airport History — 正式 0.9.0 入库任务; renewed authorization after merged PR #16.",
+  "authorizationMeaning": "Records the owner instruction for exactly seven physical identities and six assignment scopes. Codex transcribed the instruction and checked source content; this is not a GitHub review, signature, independent human review or claim the owner personally read originals. Human PR merge remains separate.",
+  "baseCommit": "f43e172d8833317086a94d0c23302b42f509dcee",
+  "baseDataset": "test/curated-0.8.0.json",
+  "baseSha256": "b7880507c50cf8f993c98b3ec66f34e6433c452d7637eea7c6bfe61edbf166a3",
+  "selectionPath": "research/evidence/first-admission/selection.json",
+  "selectionSha256": "69bb6408f64a2bbc66b7c29fdba27c10f2ab7a6b1e7e5a0e883c67f1463b80ea",
+  "approvedPhysicalAirports": [
+    {
+      "recordId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e",
+      "exactAuthorization": {
+        "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e",
+        "coordinates": {
+          "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+          "sourceIds": [
+            "in-aip-22-02-2024-vosr",
+            "in-aip-12-06-2025-vosr",
+            "in-aip-09-07-2026-vosr"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 16.00333333,
+            "longitude": 73.53277778
+          }
+        },
+        "externalIds": {
+          "ourAirports": "331218"
+        },
+        "name": {
+          "note": "Display label only; no official-name timeline is asserted.",
+          "sourceIds": [
+            "in-aip-22-02-2024-vosr",
+            "in-aip-12-06-2025-vosr",
+            "in-aip-09-07-2026-vosr"
+          ],
+          "status": "reference",
+          "value": "Sindhudurg Airport"
+        },
+        "scope": "Physical identity only; display name/ARP stay reference, timezone unknown. Does not approve any assignment, opening date or official-name interval.",
+        "timezone": {
+          "note": "No historical IANA timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    {
+      "recordId": "apt_66034969-b902-4ede-8011-cc87a23070b7",
+      "exactAuthorization": {
+        "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7",
+        "coordinates": {
+          "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+          "sourceIds": [
+            "in-aip-22-02-2024-vogb",
+            "in-aip-12-06-2025-vogb",
+            "in-aip-09-07-2026-vogb"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 17.30972222,
+            "longitude": 76.95722222
+          }
+        },
+        "externalIds": {
+          "ourAirports": "506610"
+        },
+        "name": {
+          "note": "Display label only; no official-name timeline is asserted.",
+          "sourceIds": [
+            "in-aip-22-02-2024-vogb",
+            "in-aip-12-06-2025-vogb",
+            "in-aip-09-07-2026-vogb"
+          ],
+          "status": "reference",
+          "value": "Kalaburagi Airport"
+        },
+        "scope": "Physical identity only; display name/ARP stay reference, timezone unknown. Does not approve any assignment, opening date or official-name interval.",
+        "timezone": {
+          "note": "No historical IANA timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    {
+      "recordId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f",
+      "exactAuthorization": {
+        "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f",
+        "coordinates": {
+          "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+          "sourceIds": [
+            "in-aip-22-02-2024-veki",
+            "in-aip-12-06-2025-veki",
+            "in-aip-09-07-2026-veki"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 26.77277778,
+            "longitude": 83.89527778
+          }
+        },
+        "externalIds": {
+          "ourAirports": "350147"
+        },
+        "name": {
+          "note": "Display label only; no official-name timeline is asserted.",
+          "sourceIds": [
+            "in-aip-22-02-2024-veki",
+            "in-aip-12-06-2025-veki",
+            "in-aip-09-07-2026-veki"
+          ],
+          "status": "reference",
+          "value": "Kushinagar International Airport"
+        },
+        "scope": "Physical identity only; display name/ARP stay reference, timezone unknown. Does not approve any assignment, opening date or official-name interval.",
+        "timezone": {
+          "note": "No historical IANA timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    {
+      "recordId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9",
+      "exactAuthorization": {
+        "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9",
+        "coordinates": {
+          "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+          "sourceIds": [
+            "in-aip-22-02-2024-vepy",
+            "in-aip-12-06-2025-vepy",
+            "in-aip-09-07-2026-vepy"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 27.22583333,
+            "longitude": 88.58583333
+          }
+        },
+        "externalIds": {
+          "ourAirports": "44362"
+        },
+        "name": {
+          "note": "Display label only; no official-name timeline is asserted.",
+          "sourceIds": [
+            "in-aip-22-02-2024-vepy",
+            "in-aip-12-06-2025-vepy",
+            "in-aip-09-07-2026-vepy"
+          ],
+          "status": "reference",
+          "value": "Pakyong Airport"
+        },
+        "scope": "Physical identity only; display name/ARP stay reference, timezone unknown. Does not approve any assignment, opening date or official-name interval.",
+        "timezone": {
+          "note": "No historical IANA timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    {
+      "recordId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3",
+      "exactAuthorization": {
+        "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3",
+        "coordinates": {
+          "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+          "sourceIds": [
+            "in-aip-22-02-2024-voku",
+            "in-aip-12-06-2025-voku",
+            "in-aip-09-07-2026-voku"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 15.71472222,
+            "longitude": 78.16305556
+          }
+        },
+        "externalIds": {
+          "ourAirports": "340146"
+        },
+        "name": {
+          "note": "Display label only; no official-name timeline is asserted.",
+          "sourceIds": [
+            "in-aip-22-02-2024-voku",
+            "in-aip-12-06-2025-voku",
+            "in-aip-09-07-2026-voku"
+          ],
+          "status": "reference",
+          "value": "Kurnool Airport"
+        },
+        "scope": "Physical identity only; display name/ARP stay reference, timezone unknown. Does not approve any assignment, opening date or official-name interval.",
+        "timezone": {
+          "note": "No historical IANA timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    {
+      "recordId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+      "exactAuthorization": {
+        "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+        "coordinates": {
+          "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+          "sourceIds": [
+            "es-murcia-aip"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 37.80305556,
+            "longitude": -1.12472222
+          }
+        },
+        "externalIds": {
+          "ourAirports": "308134"
+        },
+        "name": {
+          "note": "Display label only; no official-name timeline is asserted.",
+          "sourceIds": [
+            "es-murcia-aip"
+          ],
+          "status": "reference",
+          "value": "Region of Murcia International Airport"
+        },
+        "scope": "Physical identity only; display name/ARP stay reference, timezone unknown. Does not approve any assignment, opening date or official-name interval.",
+        "timezone": {
+          "note": "No historical IANA timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      }
+    },
+    {
+      "recordId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+      "exactAuthorization": {
+        "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+        "coordinates": {
+          "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+          "sourceIds": [
+            "es-sanjavier-aip"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 37.775,
+            "longitude": -0.8125
+          }
+        },
+        "externalIds": {
+          "ourAirports": "4017"
+        },
+        "name": {
+          "note": "Display label only; no official-name timeline is asserted.",
+          "sourceIds": [
+            "es-sanjavier-aip"
+          ],
+          "status": "reference",
+          "value": "San Javier Airport"
+        },
+        "scope": "Physical identity only; display name/ARP stay reference, timezone unknown. Does not approve any assignment, opening date or official-name interval.",
+        "timezone": {
+          "note": "No historical IANA timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      }
+    }
+  ],
+  "approvedAssignments": [
+    {
+      "recordId": "global-proposal-sindhudurg-icao-vosr",
+      "exactAuthorization": {
+        "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e",
+        "code": "VOSR",
+        "evidenceType": "continuity_inference",
+        "recordId": "global-proposal-sindhudurg-icao-vosr",
+        "requiresSeparatePhysicalIdentityApproval": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "in-aip-22-02-2024-vosr",
+          "in-aip-12-06-2025-vosr",
+          "in-aip-09-07-2026-vosr"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": "2024-02-23",
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2026-07-09",
+          "latest": null,
+          "precision": "unknown"
+        }
+      }
+    },
+    {
+      "recordId": "global-proposal-kalaburagi-icao-vogb",
+      "exactAuthorization": {
+        "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7",
+        "code": "VOGB",
+        "evidenceType": "continuity_inference",
+        "recordId": "global-proposal-kalaburagi-icao-vogb",
+        "requiresSeparatePhysicalIdentityApproval": "apt_66034969-b902-4ede-8011-cc87a23070b7",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "in-aip-22-02-2024-vogb",
+          "in-aip-12-06-2025-vogb",
+          "in-aip-09-07-2026-vogb"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": "2024-02-23",
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2026-07-09",
+          "latest": null,
+          "precision": "unknown"
+        }
+      }
+    },
+    {
+      "recordId": "global-proposal-kushinagar-icao-veki",
+      "exactAuthorization": {
+        "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f",
+        "code": "VEKI",
+        "evidenceType": "continuity_inference",
+        "recordId": "global-proposal-kushinagar-icao-veki",
+        "requiresSeparatePhysicalIdentityApproval": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "in-aip-22-02-2024-veki",
+          "in-aip-12-06-2025-veki",
+          "in-aip-09-07-2026-veki"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": "2024-02-23",
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2026-07-09",
+          "latest": null,
+          "precision": "unknown"
+        }
+      }
+    },
+    {
+      "recordId": "global-proposal-pakyong-icao-vepy",
+      "exactAuthorization": {
+        "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9",
+        "code": "VEPY",
+        "evidenceType": "continuity_inference",
+        "recordId": "global-proposal-pakyong-icao-vepy",
+        "requiresSeparatePhysicalIdentityApproval": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "in-aip-22-02-2024-vepy",
+          "in-aip-12-06-2025-vepy",
+          "in-aip-09-07-2026-vepy"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": "2024-02-23",
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2026-07-09",
+          "latest": null,
+          "precision": "unknown"
+        }
+      }
+    },
+    {
+      "recordId": "global-proposal-kurnool-icao-voku",
+      "exactAuthorization": {
+        "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3",
+        "code": "VOKU",
+        "evidenceType": "continuity_inference",
+        "recordId": "global-proposal-kurnool-icao-voku",
+        "requiresSeparatePhysicalIdentityApproval": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "in-aip-22-02-2024-voku",
+          "in-aip-12-06-2025-voku",
+          "in-aip-09-07-2026-voku"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": "2024-02-23",
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2026-07-09",
+          "latest": null,
+          "precision": "unknown"
+        }
+      }
+    },
+    {
+      "recordId": "global-proposal-murcia-old-icao-lelc",
+      "exactAuthorization": {
+        "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+        "code": "LELC",
+        "evidenceType": "continuity_inference",
+        "recordId": "global-proposal-murcia-old-icao-lelc",
+        "requiresSeparatePhysicalIdentityApproval": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "es-sanjavier-aip",
+          "es-murcia-index-current"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": "2026-04-17",
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2026-10-29",
+          "latest": null,
+          "precision": "unknown"
+        }
+      }
+    }
+  ],
+  "deferredAssignmentIds": [
+    "global-proposal-murcia-new-icao-lemi",
+    "global-proposal-murcia-new-iata-rmu",
+    "global-proposal-murcia-old-iata-mjv"
+  ],
+  "excludedScope": [
+    "LEMI",
+    "RMU",
+    "MJV",
+    "All other pending records",
+    "Additional or expanded time windows",
+    "First allocation or final withdrawal",
+    "Operational opening/closure dates",
+    "Historical official-name intervals",
+    "Verified name/coordinates",
+    "Timezone upgrades"
+  ]
+}

@@ -299,7 +299,7 @@ def prepare(output=OUT, source_directory=BASE):
     assessment = json.loads((BASE / 'assessments.json').read_text())
     if assessment['decision'] != 'pending' or assessment['reviewer'] is not None:
         raise ValueError('Research builder cannot record human approval')
-    base_raw = (ROOT / 'data/airports.json').read_bytes()
+    base_raw = (ROOT / 'test/curated-0.8.0.json').read_bytes()
     base = json.loads(base_raw)
     if sha(base_raw) != assessment['formalBaselineSha256']:
         raise ValueError('Formal baseline changed: explicitly rebase judgments and deduplication first')
@@ -448,7 +448,7 @@ def prepare(output=OUT, source_directory=BASE):
           'exactExecutedEventDates': sum(c['eventDate'] is not None and c['eventDate']['precision']=='exact' and c['eventDate']['basis']=='executed' for c in cases),
           'observationOnlyProposalEvents': sum(bool(c.get('siteKeys')) and (not c['eventDate'] or c['eventDate']['basis']!='executed') for c in cases)})
     review_documents(output,assessment,facts,loaded,proposed,base)
-    inputs = ['data/airports.json','research/evidence/global/assessments.json','research/evidence/global/catalog.json',
+    inputs = ['test/curated-0.8.0.json','research/evidence/global/assessments.json','research/evidence/global/catalog.json',
               str((source_directory/'source-lock.json').relative_to(ROOT)),'reference/triage/groups.jsonl.gz',
               'research/discovery/generated/verification-queue.jsonl.gz','scripts/evidence/global_batch.py',
               'scripts/evidence/global_coverage.ts','research/evidence/direct/assessments.json']
@@ -547,7 +547,7 @@ def validate(output=OUT):
             raise ValueError('Research output changed: ' + p)
     assessment = json.loads((BASE/'assessments.json').read_text())
     proposed = json.loads((output/'proposed-data.json').read_text())
-    base = json.loads((ROOT/'data/airports.json').read_text())
+    base = json.loads((ROOT/'test/curated-0.8.0.json').read_text())
     dossiers = json.loads((output/'dossier.json').read_text())
     loaded = {s['sourceId']:(s,t) for s,t in locked(ROOT/manifest['sourceDirectory'])}
     for f in json.loads((output/'facts.json').read_text()):

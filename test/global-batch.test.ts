@@ -5,7 +5,7 @@ import { assertDataset } from "../src/validate.ts";
 import type { Dataset } from "../src/types.ts";
 
 const read = (p:string) => JSON.parse(readFileSync(new URL(p,import.meta.url),"utf8"));
-const formal:Dataset=read("../data/airports.json");
+const formal:Dataset=read("../test/curated-0.8.0.json");
 const pending:Dataset=read("../research/evidence/global/generated/proposed-data.json");
 const report=read("../research/evidence/global/generated/query-coverage.json");
 

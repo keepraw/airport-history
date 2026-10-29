@@ -20,7 +20,7 @@ class GlobalBatchTests(unittest.TestCase):
     def setUpClass(cls):
         cls.assessment = json.loads((gb.BASE/'assessments.json').read_text())
         cls.proposed = json.loads((gb.OUT/'proposed-data.json').read_text())
-        cls.formal = json.loads((ROOT/'data/airports.json').read_text())
+        cls.formal = json.loads((ROOT/'test/curated-0.8.0.json').read_text())
         cls.dossier = json.loads((gb.OUT/'dossier.json').read_text())
 
     def test_complete_offline_rebuild_is_byte_identical(self):

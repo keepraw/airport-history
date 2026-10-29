@@ -149,7 +149,7 @@ def main():
     admit.add_argument('--dossier', type=Path, required=True)
     admit.add_argument('--output', type=Path, required=True)
     admit.add_argument('--base-dataset', type=Path,
-                       help='Replay an admission against the hash-pinned reviewed 0.7.0 snapshot; default: current formal data')
+                       help='Replay against an immutable reviewed 0.7.0 or 0.8.0 snapshot; default: current formal data')
     args = parser.parse_args()
     if args.command == 'prepare':
         if args.output.exists() and any(args.output.iterdir()):
@@ -174,9 +174,14 @@ def main():
     else:
         base_path = ROOT / 'data/airports.json'
         if args.base_dataset is not None:
-            if args.base_dataset.resolve() != research_baseline_path().resolve():
+            baselines = {
+                research_baseline_path().resolve(): '31c5735b333881d7afdd527fe4af1db8e28413d5bba114fbf88a4aad0809cff7',
+                (ROOT / 'test/curated-0.8.0.json').resolve(): 'b7880507c50cf8f993c98b3ec66f34e6433c452d7637eea7c6bfe61edbf166a3',
+            }
+            base_path = args.base_dataset.resolve()
+            if base_path not in baselines:
                 raise ValueError('Admission replay requires the immutable reviewed baseline')
-            base_path = research_baseline_path()
+            checked(base_path, baselines[base_path])
         base = json.loads(base_path.read_text())
         proposed = json.loads(args.dataset.read_text())
         batches = [json.loads(p.read_text()) for p in sorted(args.batches.glob('*.json'))]

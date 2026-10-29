@@ -1,13 +1,12 @@
 import { createHash } from "node:crypto";
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { loadDataset } from "../scripts/load.ts";
 import { resolveAirport, resolveAirportName } from "../src/index.ts";
 import { assertDataset, validateDataset } from "../src/validate.ts";
 import type { Dataset } from "../src/types.ts";
 
-const data = await loadDataset();
 const read = (path: string) => JSON.parse(readFileSync(new URL(path, import.meta.url), "utf8"));
+const data = read("./curated-0.8.0.json") as Dataset;
 const frozen = read("./curated-0.7.0.json") as Dataset;
 const dossier = read("../research/admissions/0.8.0/dossier.json") as Array<{recordId: string; decision: string; reviewer: string; reviewedOn: string}>;
 const sites = {
@@ -107,7 +106,7 @@ describe("seven explicitly user-approved formal admissions", () => {
     const measured = read("../research/admissions/0.8.0/coverage.json");
     expect(measured.rows.map((r: {resolvedCodeDateQueries: number}) => r.resolvedCodeDateQueries)).toEqual([355, 1522, 1903]);
     expect(measured.totalResolvedCodeDateQueries).toBe(total);
-    expect(measured.formalDatasetSha256).toBe(createHash("sha256").update(readFileSync(new URL("../data/airports.json", import.meta.url))).digest("hex"));
+    expect(measured.formalDatasetSha256).toBe(createHash("sha256").update(readFileSync(new URL("./curated-0.8.0.json", import.meta.url))).digest("hex"));
   });
 
   it("cannot resolve an unreviewed source and never promotes blocked codes", () => {

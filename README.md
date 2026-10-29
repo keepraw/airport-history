@@ -28,9 +28,9 @@ candidates are mechanically processed into 88,330 relevant review groups and
 explicit excluded/deferred categories. No new upstream history scan is needed.
 See [measured before/after coverage and performance](docs/worldwide-reference-pr11.md).
 
-**Curated scope (0.8.0):** twenty-seven physical airports, twenty-eight IATA
-assignments, fifteen ICAO assignments and three official-name intervals, with
-seventy-seven evidence sources. The
+**Curated scope (0.9.0):** thirty-four physical airports, twenty-eight IATA
+assignments, twenty-one ICAO assignments and three official-name intervals, with
+ninety-five evidence sources. The
 original TAO, IST, HKG and DEN examples are joined by five reviewed ISL, ISB,
 SXF/BER, TSE/NQZ and KIV/RMO events and, in 0.5.0, by ROV/RVI (Rostov-on-Don /
 Platov), YNT (Yantai Laishan / Penglai) and PNH/KTI with VDPP/VDTI (Phnom Penh /
@@ -46,6 +46,10 @@ Version 0.8.0 admits four explicitly user-approved physical identities and three
 ICAO continuity windows (KPFN, KECP, KISN). Williston Basin's physical identity is
 admitted without a KXWA assignment. The actual new coverage is 3,780 code/date
 queries; see the [authorization, record review and reproduction](research/admissions/0.8.0/README.md).
+Version 0.9.0 admits seven approved physical identities and six exact ICAO windows
+(VOSR, VOGB, VEKI, VEPY, VOKU and LELC), adding 4,530 actual resolved code/date
+queries. The new Murcia identity has no assignment; LEMI, RMU and MJV remain
+deferred. See the [0.9.0 authorization and actual coverage](research/admissions/0.9.0/README.md).
 This remains the authoritative curated history layer. The worldwide reference
 lookup above is separate and never returns resolved historical answers. A separate
 [global discovery research layer](research/discovery/README.md) scans pinned
@@ -73,7 +77,7 @@ Initial dependency installation needs network access. All subsequent checks,
 tests, builds and resolution run offline. `pnpm build` writes:
 
 ```text
-dist/v0.8.0/
+dist/v0.9.0/
 ├── airport-history.json
 ├── dataset.schema.json
 ├── manifest.json             # SHA-256 hashes of the five other files
@@ -249,7 +253,22 @@ unique answer and returns `uncertain`. If a reviewed pair also certainly conflic
 on that date, `conflict` takes precedence and includes the other candidates.
 Nonoverlapping historical reuse is accepted normally.
 
-## Format compatibility: 0.8.0
+## Format compatibility: 0.9.0
++
++0.9.0 adds seven explicitly owner-approved physical identities, six ICAO
++assignments and eighteen scoped source records. Schema **3.0.0**, resolver
++semantics and all published records remain unchanged. Names/coordinates stay
++reference; timezones stay unknown. The certain windows are limited to the exact
++authorization. Unknown outer dates remain uncertain. Package/data versions
++advance together; output is `dist/v0.9.0/`.
++
++The original admission gate passed before formal replacement and replays in CI.
++Actual production-resolver measurements reproduce 4,530 new resolved queries,
++21,390 outside-window uncertain queries and 146,938 unchanged existing code
++answers. The [admission dossier](research/admissions/0.9.0/README.md) documents
++source rights, exact scopes, boundary checks and immutable research baselines.
++
++## Format compatibility: 0.8.0 (historical)
 
 0.8.0 adds only the seven user-approved records and seven scoped primary sources.
 Schema **3.0.0** and resolver/evidence semantics are unchanged. Unknown first
@@ -362,7 +381,7 @@ src/
   validate.ts                # JSON Schema plus semantic validation
   index.ts                   # dependency-free resolver entry point
 schema/dataset.schema.json   # strict draft-07 schema
-data/airports.json           # 23 sites, 40 assignments, 3 names, 70 sources
+data/airports.json           # 34 sites, 49 assignments, 3 names, 95 sources
 scripts/{load,validate,build}.ts
 test/{resolve,validate,build,evidence,conflicts,batch-1,names}.test.ts
 test/identities.json          # permanent initial ID mapping

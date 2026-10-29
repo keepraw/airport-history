@@ -5,7 +5,7 @@ import { assertDataset } from "../src/validate.ts";
 import type { Dataset } from "../src/types.ts";
 
 const read=(path:string)=>JSON.parse(readFileSync(new URL(path,import.meta.url),"utf8"));
-const base:Dataset=read("../data/airports.json");
+const base:Dataset=read("../test/curated-0.8.0.json");
 const pending:Dataset=read("../research/evidence/markets/generated/proposed-data.json");
 const hypothetical=structuredClone(pending);
 const published=new Set(base.assignments.map(a=>a.assignmentId));

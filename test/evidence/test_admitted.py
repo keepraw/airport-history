@@ -13,7 +13,7 @@ import admitted
 class ApprovedAdmissionTests(unittest.TestCase):
     def fixture(self):
         root = admitted.REVIEW
-        return [admitted.load(ROOT / 'data/airports.json'), admitted.load(root / 'approval.json'),
+        return [admitted.load(ROOT / 'test/curated-0.8.0.json'), admitted.load(root / 'approval.json'),
                 admitted.load(root / 'dossier.json'), admitted.load(root / 'source-review.json'),
                 [admitted.load(p) for p in sorted((root / 'batches').glob('*.json'))]]
 
@@ -43,7 +43,7 @@ class ApprovedAdmissionTests(unittest.TestCase):
             output = Path(tmp) / 'must-not-exist.json'
             result = subprocess.run([sys.executable, str(ROOT / 'scripts/evidence/review.py'), 'validate',
                                      '--base-dataset', str(fake), '--batches', str(admitted.REVIEW / 'batches'),
-                                     '--dataset', str(ROOT / 'data/airports.json'),
+                                     '--dataset', str(ROOT / 'test/curated-0.8.0.json'),
                                      '--dossier', str(admitted.REVIEW / 'dossier.json'), '--output', str(output)],
                                     capture_output=True, text=True)
             self.assertNotEqual(result.returncode, 0)
