@@ -33,7 +33,7 @@ class TransferTests(unittest.TestCase):
 
     def test_pending_records_cannot_pass_admission_and_formal_is_identical(self):
         a,s,f,_=tb.verify();proposed,dossier=tb.propose(a,s,f)
-        base=tb.read(ROOT/'data/airports.json');batches=tb.packets(a,s,dossier)
+        base=tb.read(ROOT/'test/curated-0.8.0.json');batches=tb.packets(a,s,dossier)
         for collection,key in tb.FIELDS:
             now={r[key]:r for r in proposed[collection]}
             self.assertTrue(all(now[r[key]]==r for r in base[collection]))

@@ -52,7 +52,7 @@ type LockedSource = {
 export function loadInputs() {
   const selection = read<Selection>(`${DIRECTORY}/selection.json`);
   const lock = read<{ sources: LockedSource[] }>(`${DIRECTORY}/source-lock.json`);
-  const base = read<Dataset>("data/airports.json");
+  const base = read<Dataset>("test/curated-0.8.0.json");
   const stages = Object.fromEntries(["global", "markets", "transfers"].map(stage =>
     [stage, read<Dataset>(`research/evidence/${stage}/generated/proposed-data.json`)]));
   return { selection, lock, base, stages };
@@ -60,7 +60,7 @@ export function loadInputs() {
 type Inputs = ReturnType<typeof loadInputs>;
 export function validateInputs(input: Inputs) {
   const { selection: s, lock, base, stages } = input;
-  if (hash("data/airports.json") !== s.formalBaselineSha256 || base.dataVersion !== "0.8.0")
+  if (hash("test/curated-0.8.0.json") !== s.formalBaselineSha256 || base.dataVersion !== "0.8.0")
     throw new Error("Formal baseline changed: explicitly rebase and re-review the preparation");
   assertDataset(base);
   const unique = (ids: string[]) => { if (new Set(ids).size !== ids.length) throw new Error("Duplicate record or source"); };
@@ -341,7 +341,7 @@ export function buildArtifacts(input = loadInputs()): Record<string, string> {
     "请逐条回复：`批准物理身份 <完整 airportId>，名称和坐标保留 reference、timezone unknown`；然后另行回复 `批准代码分配 <完整提案 ID>，<scheme> <code> → <完整 airportId>，仅 [start,end)`。也可逐条选择暂缓。", "",
     "物理身份授权与代码授权互不替代。以 selection.json 的 exactAuthorization 为机器可读范围，不能用‘批准整个事件组/全部研究’代替。明确授权前不得正式入库；下一轮仍须通过现有 admission gate、来源审查、0.9.0 差分及完整回归检查。", "");
   outputs["审批清单.zh-CN.md"] = lines.join("\n");
-  const inputPaths = ["data/airports.json", `${DIRECTORY}/selection.json`, `${DIRECTORY}/source-lock.json`,
+  const inputPaths = ["test/curated-0.8.0.json", `${DIRECTORY}/selection.json`, `${DIRECTORY}/source-lock.json`,
     ...input.lock.sources.map(s => `${DIRECTORY}/${s.excerptPath}`),
     ...["global", "markets", "transfers"].flatMap(s => [`research/evidence/${s}/generated/proposed-data.json`, `research/evidence/${s}/generated/dossier.json`]),
     "research/evidence/global/generated/batches/global-evidence-proposal-1.json",

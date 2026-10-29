@@ -1,6 +1,5 @@
 {
   "inputs": {
-    "data/airports.json": "b7880507c50cf8f993c98b3ec66f34e6433c452d7637eea7c6bfe61edbf166a3",
     "research/evidence/global/generated/proposed-data.json": "5c4fc8fb01bc3a938f3bcbfcacdd2e539eadc5ba8c6e09b99d2b303abe620f13",
     "research/evidence/global/generated/query-coverage.json": "994ed613b3c028ee175f162e258093d3a1b5a65fcc5a756feffcff3c2cc5a537",
     "research/evidence/markets/assessments.json": "84eabd6e9fbcbf07af94df2173abb0769f7850311b9aaf5e0a5ea4a623d9c3c9",
@@ -66,8 +65,9 @@
     "research/evidence/markets/excerpts/us-slc-rebuild.json": "a6acd91c2b57fb3de0617d574e0a81f70c7f1dee6f2de6071ec1747f25e8455a",
     "research/evidence/markets/excerpts/us-xwa-executed-2020.json": "af0284b63850f12e356198d1e23323a401fef19ce8fc8ef4f3f8090fab9c5d9b",
     "research/evidence/markets/source-lock.json": "6bb9d3b8ed594064c78db6e9bd4844fd3ede49e091c51e055bf6956b3974932f",
-    "scripts/evidence/global_coverage.ts": "b2243c8098f19e9342e86a80f88cf7caaace9d66de915881ea7c0435085ec34d",
-    "scripts/evidence/market_batch.py": "40330c429f34662a71cf9b66b7d7be9a8563f047928191d8f59b0765f4545cd5"
+    "scripts/evidence/global_coverage.ts": "012779ec2296525582cb3589e48b34462d62b523e18743f243ad15cb49508af9",
+    "scripts/evidence/market_batch.py": "42aabbf56d42d5a61b83e2c2adcad66ed9013364a29c9d493cbfa4381f7c9cb0",
+    "test/curated-0.8.0.json": "b7880507c50cf8f993c98b3ec66f34e6433c452d7637eea7c6bfe61edbf166a3"
   },
   "outputs": {
     "RESULTS.zh-CN.md": "219d3ea1cefe293b6c13b80d130668d2757aaccd2d9d3a1e22af91cf3ffccd5d",

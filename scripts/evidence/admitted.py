@@ -83,13 +83,16 @@ def validate():
         checked(ROOT / name, sha)
     for name, sha in manifest['reviewFiles'].items():
         checked(REVIEW / name, sha)
-    checked(ROOT / 'data/airports.json', manifest['formalDatasetSha256'])
-    require((ROOT / 'data/airports.json').read_bytes() == (ROOT / 'test/curated-0.8.0.json').read_bytes(),
-            'Formal data differs from reviewed 0.8.0 snapshot')
+    checked(ROOT / 'test/curated-0.8.0.json', manifest['formalDatasetSha256'])
+    formal = load(ROOT / 'data/airports.json')
+    frozen = load(ROOT / 'test/curated-0.8.0.json')
+    for collection, key in [('airports', 'airportId'), ('assignments', 'assignmentId'), ('names', 'nameId'), ('sources', 'sourceId')]:
+        current = {r[key]: r for r in formal[collection]}
+        require(all(current.get(r[key]) == r for r in frozen[collection]), 'Released 0.8.0 record changed')
     approval, dossier = load(REVIEW / 'approval.json'), load(REVIEW / 'dossier.json')
     sources = load(REVIEW / 'source-review.json')
     batches = [load(p) for p in sorted((REVIEW / 'batches').glob('*.json'))]
-    dataset = load(ROOT / 'data/airports.json')
+    dataset = load(ROOT / 'test/curated-0.8.0.json')
     counts = validate_records(dataset, approval, dossier, sources, batches)
     originals = direct.locked_sources()
     for s in sources:
@@ -113,7 +116,7 @@ def validate():
         output = Path(tmp) / 'validated.json'
         subprocess.run(['python3', str(ROOT / 'scripts/evidence/review.py'), 'validate',
                         '--base-dataset', str(research_baseline_path()), '--batches', str(REVIEW / 'batches'),
-                        '--dataset', str(ROOT / 'data/airports.json'), '--dossier', str(REVIEW / 'dossier.json'),
+                        '--dataset', str(ROOT / 'test/curated-0.8.0.json'), '--dossier', str(REVIEW / 'dossier.json'),
                         '--output', str(output)], cwd=ROOT, check=True)
         require(load(output) == dataset, 'Validated output differs from formal data')
     print('Validated user-approved formal 0.8.0: ' + json.dumps(counts, sort_keys=True))

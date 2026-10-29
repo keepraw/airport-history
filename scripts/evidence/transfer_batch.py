@@ -163,7 +163,7 @@ def verify_sources(directory=BASE, cache=None):
 def verify():
     a=read(BASE/'assessments.json');sources,spans=verify_sources(BASE)
     if a['decision']!='pending' or a['reviewer'] is not None:raise ValueError('Human approval invented')
-    if gb.sha((ROOT/'data/airports.json').read_bytes())!=a['formalBaselineSha256']:raise ValueError('Formal baseline changed')
+    if gb.sha((ROOT/'test/curated-0.8.0.json').read_bytes())!=a['formalBaselineSha256']:raise ValueError('Formal baseline changed')
     facts={}
     for f in a['facts']:
         if f['decision']!='pending' or f['reviewer'] is not None:raise ValueError('Fact approval invented')
@@ -193,7 +193,7 @@ def verify():
 
 
 def propose(a,sources,facts):
-    base=read(ROOT/'data/airports.json');proposed=read(mb.OUT/'proposed-data.json');dossier=[]
+    base=read(ROOT/'test/curated-0.8.0.json');proposed=read(mb.OUT/'proposed-data.json');dossier=[]
     existing={s['sourceId'] for s in proposed['sources']}
     for sid,s in sources.items():
         if sid not in existing:
@@ -284,7 +284,7 @@ def build(output=OUT):
     proposed,dossier=propose(a,sources,facts);batches=packets(a,sources,dossier)
     gb.write(output/'proposed-data.json',proposed);gb.write(output/'dossier.json',dossier)
     gb.write(output/'review-packets.json',batches);gb.write(output/'matrix.json',a['cases'])
-    try:gb.validate_admission(read(ROOT/'data/airports.json'),proposed,batches,dossier)
+    try:gb.validate_admission(read(ROOT/'test/curated-0.8.0.json'),proposed,batches,dossier)
     except ValueError as error:
         if 'explicit claim review' not in str(error):raise
     else:raise ValueError('Pending transfer research passed formal admission')
@@ -331,7 +331,7 @@ def build(output=OUT):
                           'humanApproved':False,'formallyAdmitted':False,'exhaustiveCountryCoverage':False})
     gb.write(output/'country-year.json',{'scope':'Only the explicitly investigated cases; uninspected years/countries are unknown, never no-change.','rows':years})
     documents(output,a,sources,facts,m,coverage,dossier)
-    inputs=[BASE/'assessments.json',BASE/'catalog.json',BASE/'source-lock.json',BASE/'discovery-log.json',ROOT/'data/airports.json',
+    inputs=[BASE/'assessments.json',BASE/'catalog.json',BASE/'source-lock.json',BASE/'discovery-log.json',ROOT/'test/curated-0.8.0.json',
             mb.OUT/'manifest.json',mb.OUT/'proposed-data.json',mb.OUT/'review-packets.json',gb.OUT/'review-packets.jsonl.gz',
             ROOT/'scripts/evidence/transfer_batch.py',ROOT/'scripts/evidence/transfer_coverage.ts',ROOT/'scripts/evidence/global_coverage.ts']
     inputs+=sorted((BASE/'excerpts').glob('*.json'))

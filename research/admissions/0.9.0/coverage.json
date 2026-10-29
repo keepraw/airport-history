@@ -1,0 +1,335 @@
+{
+  "measurement": "Actual production resolveAirport() against formal data/airports.json; no hypothetical accepted dataset",
+  "baseCommit": "f43e172d8833317086a94d0c23302b42f509dcee",
+  "baseDatasetSha256": "b7880507c50cf8f993c98b3ec66f34e6433c452d7637eea7c6bfe61edbf166a3",
+  "formalDatasetSha256": "1beec87eac60c8f844a5756073811edadbfb6d4a831fb4f03ce5552796ce539b",
+  "resolverSha256": "af9631a3c270a2ca71606a75cf7830d9f7e711bab431a919fa5be615f26ec5b0",
+  "schemaVersion": "3.0.0",
+  "dataVersion": "0.9.0",
+  "period": [
+    "2015-01-01",
+    "2026-10-29"
+  ],
+  "unit": "Unique (scheme, code, whole local date); end of benchmark inclusive",
+  "beforeCounts": {
+    "airports": 27,
+    "assignments": 43,
+    "names": 3,
+    "sources": 77
+  },
+  "afterCounts": {
+    "airports": 34,
+    "assignments": 49,
+    "names": 3,
+    "sources": 95
+  },
+  "rows": [
+    {
+      "assignmentId": "global-proposal-sindhudurg-icao-vosr",
+      "scheme": "ICAO",
+      "code": "VOSR",
+      "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e",
+      "certainWindow": [
+        "2024-02-23",
+        "2026-07-09"
+      ],
+      "resolvedQueries": 867,
+      "uncertainQueries": 3453,
+      "boundaries": [
+        {
+          "localDate": "2024-02-21",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2024-02-22",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2024-02-23",
+          "status": "resolved",
+          "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e"
+        },
+        {
+          "localDate": "2024-02-24",
+          "status": "resolved",
+          "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e"
+        },
+        {
+          "localDate": "2026-07-08",
+          "status": "resolved",
+          "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e"
+        },
+        {
+          "localDate": "2026-07-09",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2026-07-10",
+          "status": "uncertain",
+          "airportId": null
+        }
+      ]
+    },
+    {
+      "assignmentId": "global-proposal-kalaburagi-icao-vogb",
+      "scheme": "ICAO",
+      "code": "VOGB",
+      "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7",
+      "certainWindow": [
+        "2024-02-23",
+        "2026-07-09"
+      ],
+      "resolvedQueries": 867,
+      "uncertainQueries": 3453,
+      "boundaries": [
+        {
+          "localDate": "2024-02-21",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2024-02-22",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2024-02-23",
+          "status": "resolved",
+          "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7"
+        },
+        {
+          "localDate": "2024-02-24",
+          "status": "resolved",
+          "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7"
+        },
+        {
+          "localDate": "2026-07-08",
+          "status": "resolved",
+          "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7"
+        },
+        {
+          "localDate": "2026-07-09",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2026-07-10",
+          "status": "uncertain",
+          "airportId": null
+        }
+      ]
+    },
+    {
+      "assignmentId": "global-proposal-kushinagar-icao-veki",
+      "scheme": "ICAO",
+      "code": "VEKI",
+      "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f",
+      "certainWindow": [
+        "2024-02-23",
+        "2026-07-09"
+      ],
+      "resolvedQueries": 867,
+      "uncertainQueries": 3453,
+      "boundaries": [
+        {
+          "localDate": "2024-02-21",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2024-02-22",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2024-02-23",
+          "status": "resolved",
+          "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f"
+        },
+        {
+          "localDate": "2024-02-24",
+          "status": "resolved",
+          "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f"
+        },
+        {
+          "localDate": "2026-07-08",
+          "status": "resolved",
+          "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f"
+        },
+        {
+          "localDate": "2026-07-09",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2026-07-10",
+          "status": "uncertain",
+          "airportId": null
+        }
+      ]
+    },
+    {
+      "assignmentId": "global-proposal-pakyong-icao-vepy",
+      "scheme": "ICAO",
+      "code": "VEPY",
+      "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9",
+      "certainWindow": [
+        "2024-02-23",
+        "2026-07-09"
+      ],
+      "resolvedQueries": 867,
+      "uncertainQueries": 3453,
+      "boundaries": [
+        {
+          "localDate": "2024-02-21",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2024-02-22",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2024-02-23",
+          "status": "resolved",
+          "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9"
+        },
+        {
+          "localDate": "2024-02-24",
+          "status": "resolved",
+          "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9"
+        },
+        {
+          "localDate": "2026-07-08",
+          "status": "resolved",
+          "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9"
+        },
+        {
+          "localDate": "2026-07-09",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2026-07-10",
+          "status": "uncertain",
+          "airportId": null
+        }
+      ]
+    },
+    {
+      "assignmentId": "global-proposal-kurnool-icao-voku",
+      "scheme": "ICAO",
+      "code": "VOKU",
+      "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3",
+      "certainWindow": [
+        "2024-02-23",
+        "2026-07-09"
+      ],
+      "resolvedQueries": 867,
+      "uncertainQueries": 3453,
+      "boundaries": [
+        {
+          "localDate": "2024-02-21",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2024-02-22",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2024-02-23",
+          "status": "resolved",
+          "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3"
+        },
+        {
+          "localDate": "2024-02-24",
+          "status": "resolved",
+          "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3"
+        },
+        {
+          "localDate": "2026-07-08",
+          "status": "resolved",
+          "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3"
+        },
+        {
+          "localDate": "2026-07-09",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2026-07-10",
+          "status": "uncertain",
+          "airportId": null
+        }
+      ]
+    },
+    {
+      "assignmentId": "global-proposal-murcia-old-icao-lelc",
+      "scheme": "ICAO",
+      "code": "LELC",
+      "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+      "certainWindow": [
+        "2026-04-17",
+        "2026-10-29"
+      ],
+      "resolvedQueries": 195,
+      "uncertainQueries": 4125,
+      "boundaries": [
+        {
+          "localDate": "2026-04-15",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2026-04-16",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2026-04-17",
+          "status": "resolved",
+          "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12"
+        },
+        {
+          "localDate": "2026-04-18",
+          "status": "resolved",
+          "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12"
+        },
+        {
+          "localDate": "2026-10-28",
+          "status": "resolved",
+          "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12"
+        },
+        {
+          "localDate": "2026-10-29",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2026-10-30",
+          "status": "uncertain",
+          "airportId": null
+        }
+      ]
+    }
+  ],
+  "transitions": {
+    "not_found->uncertain": 21390,
+    "not_found->resolved": 4530
+  },
+  "netNewResolved": 4530,
+  "newOutsideWindowUncertain": 21390,
+  "protectedQueries": 146938,
+  "protectedNameQueries": 116721,
+  "changedExistingAnswers": 0,
+  "changedPublishedResolved": 0,
+  "newConflicts": 0,
+  "removedConflicts": 0,
+  "deferredUnchangedQueries": 12960
+}

@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'scripts/evidence'))
 from pipeline import (BASE, OUT, build, validate, load_locked, parse_bts, parse_faa,
                       match_observation, candidate_index, load_reference, finish)
-from common import digest, read_jsonl
+from common import digest, read_jsonl, research_baseline_path
 from admissions import validate_admission
 spec = importlib.util.spec_from_file_location('evidence_fetch', ROOT / 'scripts/evidence/fetch.py')
 evidence_fetch = importlib.util.module_from_spec(spec)
@@ -104,7 +104,7 @@ class EvidenceTests(unittest.TestCase):
         self.assertTrue(all(e['status'] == 'pending_review' and not e['admittedAssignmentIds']
                             for b in batches for e in b['events']))
         self.assertTrue(all('reviewer' not in b for b in batches))
-        base = json.loads((ROOT / 'data/airports.json').read_text())
+        base = json.loads(research_baseline_path().read_text())
         proposed = {**base, 'dataVersion': '0.9.0'}
         with self.assertRaisesRegex(ValueError, 'Prepared packets'):
             validate_admission(base, proposed, batches, [])

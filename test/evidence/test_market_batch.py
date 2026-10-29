@@ -31,7 +31,7 @@ class MarketTests(unittest.TestCase):
 
     def test_pending_gate_and_permanent_formal_records(self):
         a,s,f=mb.verify();proposed,dossier=mb.propose(a,s,f)
-        base=mb.read(ROOT/'data/airports.json')
+        base=mb.read(ROOT/'test/curated-0.8.0.json')
         for collection,key in [('airports','airportId'),('assignments','assignmentId'),('names','nameId'),('sources','sourceId')]:
             now={r[key]:r for r in proposed[collection]}
             self.assertTrue(all(now[r[key]]==r for r in base[collection]))

@@ -121,3 +121,18 @@ photos or third-party works. No restricted charts or proprietary IATA ledger is
 imported. Raw PDFs/HTML and their text extractions keep source attribution and
 separate hashes. Their availability does not establish human acceptance or permit
 IATA inference from FAA codes. No earlier third-party licensing scope changes.
+
+## 0.9.0 AAI and ENAIRE scoped factual references
+
+The eighteen added source records cite AAI India AIP aerodrome observations in
+the 2024-02-22, 2025-06-12 and 2026-07-09 editions, ENAIRE LEMI/LELC aerodrome
+pages and its current aerodrome index. These are six publication keys from two
+issuers, with shared lineage within each issuer. Source record counts do not
+assert independent corroboration by eighteen publishers.
+
+Publisher rights remain reserved. No full-original, chart, map, photo or full-text
+redistribution permission is established or inferred from online access. Only
+source links, provenance hashes, necessary short factual citations and original
+annotations are included. AAI/ENAIRE publications are not relicensed under the
+project's CC0 data dedication or MIT code license. See the exact URLs, terms and
+scoped content checks in [source-review.json](research/admissions/0.9.0/source-review.json).

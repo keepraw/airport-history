@@ -11,7 +11,7 @@ type Case = { caseKey: string; codes: string[]; oldSite: Site; newSite: Site };
 type Window = { from: string; toExclusive: string; status: string; airportId: string | null };
 const directory = resolve(process.argv[2] ?? "research/evidence/transfers/generated");
 const load = <T>(path: string): T => JSON.parse(readFileSync(path, "utf8"));
-const base = load<Dataset>("data/airports.json");
+const base = load<Dataset>("test/curated-0.8.0.json");
 const current = load<Dataset>(`${directory}/proposed-data.json`);
 const previous = load<Dataset>("research/evidence/markets/generated/proposed-data.json");
 const cases = load<Case[]>(`${directory}/matrix.json`);

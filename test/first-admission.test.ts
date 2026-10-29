@@ -74,7 +74,7 @@ describe("first historical admission preparation", () => {
 from pathlib import Path
 sys.path.insert(0,'scripts/reference')
 from admissions import validate_admission
-base=json.loads(Path('data/airports.json').read_text())
+base=json.loads(Path('test/curated-0.8.0.json').read_text())
 proposed=json.loads(Path('${DIRECTORY}/generated/scoped-proposed-data.json').read_text())
 dossier=json.loads(Path('${DIRECTORY}/generated/dossier.json').read_text())
 batches=[json.loads(p.read_text()) for p in sorted(Path('research/evidence/global/generated/batches').glob('*.json'))]

@@ -1,8 +1,7 @@
 {
   "inputs": {
-    "data/airports.json": "b7880507c50cf8f993c98b3ec66f34e6433c452d7637eea7c6bfe61edbf166a3",
     "research/evidence/global/generated/review-packets.jsonl.gz": "c5996365a76793cc00469c86c66b7804f364faf5da37b44869cfafc2080df5de",
-    "research/evidence/markets/generated/manifest.json": "f8b4a6e4e363cb932eac4e2adb2b07bf78b84ac92b22ec49386163a9b750699b",
+    "research/evidence/markets/generated/manifest.json": "e03f2125116de517fee6b3cd7397d3c572f8f3a5a0618cf11f51e8923532d670",
     "research/evidence/markets/generated/proposed-data.json": "053baaab66c06fe9322617cc05cc39d28f8faa10533fb9b88d919b7bf545d792",
     "research/evidence/markets/generated/review-packets.json": "d12d5ede4d394eef50c6d88ac979773e326b6db53dcd356982756d0b048081ee",
     "research/evidence/transfers/assessments.json": "4301b5e5f12a61be76babbd630ea9ed3c17d1d2be809272e54a03c2c92df95ee",
@@ -25,9 +24,10 @@
     "research/evidence/transfers/excerpts/ph-bohol-jica.json": "03cf74ec33b41e7b4e3716a1125c8d7706f9df0601c3ecc982ac3e4a6534edaa",
     "research/evidence/transfers/excerpts/pnh-sia-2025.json": "430d04ad4f962eeb2e8b615f444a52ce067191bc66cd3219c995c5f6b1eeabe5",
     "research/evidence/transfers/source-lock.json": "13a52012ad1fbb75229247595eda490625dd2fbe0ff9a191886d2e1d77403d86",
-    "scripts/evidence/global_coverage.ts": "b2243c8098f19e9342e86a80f88cf7caaace9d66de915881ea7c0435085ec34d",
-    "scripts/evidence/transfer_batch.py": "4678e5a67686936d45eb908648034b07bad4f910268c3545279b3fb50712db75",
-    "scripts/evidence/transfer_coverage.ts": "e026d3821aa1d1830b25c40fef718681ffe8abe9ce82d9c3a1a483c6adebe3bf"
+    "scripts/evidence/global_coverage.ts": "012779ec2296525582cb3589e48b34462d62b523e18743f243ad15cb49508af9",
+    "scripts/evidence/transfer_batch.py": "b1028624755bfa41991f2889d7e4b4cf286316d227a1b0494f9b8759673944a9",
+    "scripts/evidence/transfer_coverage.ts": "d8e9a6f45d1a2ff0fb12b2e0741f31c4051c54a8b00db2b7a5019be4feb87eec",
+    "test/curated-0.8.0.json": "b7880507c50cf8f993c98b3ec66f34e6433c452d7637eea7c6bfe61edbf166a3"
   },
   "outputs": {
     "RESULTS.zh-CN.md": "b5347fbffd2d11a622c8a3a7c1da1dfed0aa1c692b34bfa145a987c80613481c",

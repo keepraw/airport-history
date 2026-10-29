@@ -7,7 +7,7 @@ import { resolve } from "node:path";
 
 type Window = { from: string; toExclusive: string; status: string };
 const directory = resolve(process.argv[2] ?? "research/evidence/global/generated");
-const base: Dataset = JSON.parse(readFileSync("data/airports.json", "utf8"));
+const base: Dataset = JSON.parse(readFileSync("test/curated-0.8.0.json", "utf8"));
 const proposed: Dataset = JSON.parse(readFileSync(`${directory}/proposed-data.json`, "utf8"));
 assertDataset(base);
 assertDataset(proposed);
