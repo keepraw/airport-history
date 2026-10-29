@@ -1,6 +1,12 @@
 {
   "auditedHeadFingerprint": "4deb4315d7f6513b67124c3bdd4cf5dc6499fef8a002d64e7a7155345826d3b7",
   "base": "9a22e059eb997d8195450b48f1f9b794550f2b28",
+  "cleanSnapshot": {
+    "commit": "64e1891ec44f27b32e89f20dcf9accaa18b38933",
+    "parent": "9a22e059eb997d8195450b48f1f9b794550f2b28",
+    "purpose": "Sanitized PR snapshot: unchanged formal/research facts, fingerprint metadata, no restricted originals or direct retired locators.",
+    "tree": "9f709a79fa11c2d1c77ea1e16e0d021f3f064c3a"
+  },
   "files": 184,
   "fingerprintScheme": {
     "algorithm": "SHA-256",
