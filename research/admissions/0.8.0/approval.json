@@ -1,0 +1,87 @@
+{
+  "approvalId": "keepraw-seven-records-2026-10-28",
+  "authorizedBy": {
+    "login": "keepraw",
+    "githubUserId": 49091395
+  },
+  "approvedOn": "2026-10-28",
+  "recordedBy": "Codex",
+  "authorizationSource": "Explicit user instruction in this conversation: Airport History: first seven user-approved historical records for formal admission.",
+  "authorizationMeaning": "The user explicitly approved these seven records and retained the PR merge decision. This records that instruction; it is not a GitHub review, signature, assertion that the user read PDFs, or approval by Codex.",
+  "baseCommit": "e023dae254d8abac221eb41404753c664bb8a25c",
+  "baseDataset": "test/curated-0.7.0.json",
+  "baseSha256": "31c5735b333881d7afdd527fe4af1db8e28413d5bba114fbf88a4aad0809cff7",
+  "approvedAirportIds": [
+    "apt_d3a329f9-73d0-43f5-90c2-0ba0a0a2e5be",
+    "apt_74a05fd5-53fa-40f8-a3a6-de8cfd7d5e99",
+    "apt_ba1f9f8c-1849-4092-9e91-d641bddb6bc6",
+    "apt_661b72ea-f84d-4cec-ae34-fddd5e579b3d"
+  ],
+  "approvedAssignments": [
+    {
+      "assignmentId": "proposal-icao-pfn",
+      "scheme": "ICAO",
+      "code": "KPFN",
+      "airportId": "apt_d3a329f9-73d0-43f5-90c2-0ba0a0a2e5be",
+      "evidenceType": "continuity_inference",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2009-05-08",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2010-04-28",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "proposal-icao-ecp",
+      "scheme": "ICAO",
+      "code": "KECP",
+      "airportId": "apt_74a05fd5-53fa-40f8-a3a6-de8cfd7d5e99",
+      "evidenceType": "continuity_inference",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2010-05-24",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2014-07-24",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "proposal-icao-isn",
+      "scheme": "ICAO",
+      "code": "KISN",
+      "airportId": "apt_ba1f9f8c-1849-4092-9e91-d641bddb6bc6",
+      "evidenceType": "continuity_inference",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2009-05-08",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2014-07-24",
+        "latest": null,
+        "precision": "unknown"
+      }
+    }
+  ],
+  "staticAttributeScope": "Distinct physical identities and FAA reference positions only. Names remain reference display labels; timezones remain unknown. External IDs are reference crosswalks, not primary historical confirmation.",
+  "excludedScope": [
+    "KXWA historical assignment",
+    "Both KSGU assignments",
+    "KDXZ intervals",
+    "Cleveland/Hardwick drafts",
+    "Any IATA interval",
+    "Any historical official-name interval",
+    "Exact operational opening/closure dates",
+    "Exact initial allocation/withdrawal dates",
+    "Historical runway footprints",
+    "Timezone upgrades",
+    "Other candidate records"
+  ]
+}

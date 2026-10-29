@@ -101,7 +101,6 @@
   "formatVersion": 1,
   "historicalDataVersion": "0.7.0",
   "inputs": {
-    "data/airports.json": "31c5735b333881d7afdd527fe4af1db8e28413d5bba114fbf88a4aad0809cff7",
     "reference/LICENSE-airportsdata": "1ab6bf365e1f6a1883ab6a2f797e761b221081b52a33273d86c157fd562106be",
     "reference/inputs/iana-timezones.json": "7c18bc4d7429b4d88888ae972fb84c4f78570285c5039721d6aa095ee2bd9d6d",
     "reference/inputs/ourairports.csv.gz": "14bbb17808aac8208152344f7e8dedbc783998e181ce5bf7c213fae11ac17059",
@@ -124,7 +123,7 @@
     "research/discovery/generated/airport-codes-raw.candidates.e.jsonl.gz": "0355e00a4868545d0ec4c08d5c38fd38cc4ddcbd851154c6bc5ac33fb67d9627",
     "research/discovery/generated/airport-codes-raw.candidates.f.jsonl.gz": "d71764a1a2d089e28fc773c5f4855c5d26a1bbd4624b612948fb1cd2f57912b8",
     "research/discovery/generated/airportsdata.entities.jsonl.gz": "2d4a6a31af26d59cb04fce97f9511ed44bc45072e014872223b6aeb989f38bf3",
-    "research/discovery/generated/manifest.json": "7e966a934874ad676c41f00c9768654b6c6d7c86a06863b7d9933591bea7e35f",
+    "research/discovery/generated/manifest.json": "b588949a16ada7ae787f0a40286288d3f2fccbcce1e4fe62d6113c71792659d7",
     "research/discovery/generated/ourairports.candidates.0.jsonl.gz": "8f4bb0275f16150307d16832d4b96c53926087a07397e1b57e196a7533954eb0",
     "research/discovery/generated/ourairports.candidates.1.jsonl.gz": "814777cdfee83ed7f9193175ffd95ebb917531041b25af48f3df352e8df46f30",
     "research/discovery/generated/ourairports.candidates.2.jsonl.gz": "6cfea771c725953adf577b97c2da51b48b6fae2e18392564d13345e29a92b21e",
@@ -146,14 +145,15 @@
     "research/discovery/generated/ourairports.versions.jsonl.gz": "1106b802178c945f93a22c2316823412d8c48da73f254dfbe2e39b0ace67fb78",
     "research/discovery/sources.json": "8a8c9775b2049e4ecf2f6a2f3b7bb8c5cff9b7bc3dbd4a28b8c4643eca7cd9c2",
     "schema/reference-record.schema.json": "460c7da3ab479dbc4f9806f00f8cfa1f4788d55144052d71b15bbc9278236ee5",
-    "scripts/reference/admissions.py": "269bf6975595b213f7e3a46d10ebc27653f85bfb58e8c3f3676e2076bfda6e10",
-    "scripts/reference/build.py": "3fe61f058505b6feeae2a7f085442d58dbe1a37dd834ff51129748335f05d1d7",
-    "scripts/reference/common.py": "3d47617b33fe01cb11882a020495a6eddd91cbf3339ef79c721eb1c01e7cb67b",
+    "scripts/reference/admissions.py": "ee984f652312fe4ff9ac88387006aa683e420ca41050e12bab42dc9df6656f96",
+    "scripts/reference/build.py": "f758172952a9c9b5893414dc24df8b9ab424446f959e68ded245c5029f5c9825",
+    "scripts/reference/common.py": "abaa48d37d4087b9bd4223e1ecf659fcc323addce570cee1d5348cbfac78ac46",
     "scripts/reference/fetch.py": "6b1c0eccf497216868866140b17174eaaaaf8fdac23733ff7cc8ef1971dc5753",
     "scripts/reference/query.py": "c1cc45bb5bf250c08dbe76f57296b6ca2ad6c18921862ae078339c81b57d2fa2",
     "scripts/reference/timezones.py": "4d3ed16dde589a2cb2cb83e6ca082f01af87a7a961819e99a97b6d75440b12a6",
     "scripts/reference/triage.py": "9ea641529c9d738eef5cf7e22b71bff6d4191ddf57bca015a89e5f96137f3113",
-    "scripts/reference/validate.py": "98ef34ec0e4cc693b6d972064e5079e3f8a61805d6333e7789ca6d89a72abaa7"
+    "scripts/reference/validate.py": "ae2f301f37885b233aa333d55ae828399812d15f8de7e4c7c2d12d98517ae2dc",
+    "test/curated-0.7.0.json": "31c5735b333881d7afdd527fe4af1db8e28413d5bba114fbf88a4aad0809cff7"
   },
   "referenceVersion": "1.0.0",
   "schemaVersion": "1.0.0"

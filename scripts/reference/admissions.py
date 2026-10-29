@@ -7,7 +7,7 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-from common import ROOT, canonical, checked, digest, read_jsonl, write_json
+from common import ROOT, canonical, checked, digest, read_jsonl, research_baseline_path, write_json
 from triage import OUT
 
 sys.path.insert(0, str(ROOT / 'scripts/discovery'))
@@ -148,6 +148,8 @@ def main():
     admit.add_argument('--dataset', type=Path, required=True)
     admit.add_argument('--dossier', type=Path, required=True)
     admit.add_argument('--output', type=Path, required=True)
+    admit.add_argument('--base-dataset', type=Path,
+                       help='Replay an admission against the hash-pinned reviewed 0.7.0 snapshot; default: current formal data')
     args = parser.parse_args()
     if args.command == 'prepare':
         if args.output.exists() and any(args.output.iterdir()):
@@ -170,7 +172,12 @@ def main():
         })
         print(f'Prepared {count} pending-review batches; no historical facts admitted.')
     else:
-        base = json.loads((ROOT / 'data/airports.json').read_text())
+        base_path = ROOT / 'data/airports.json'
+        if args.base_dataset is not None:
+            if args.base_dataset.resolve() != research_baseline_path().resolve():
+                raise ValueError('Admission replay requires the immutable reviewed baseline')
+            base_path = research_baseline_path()
+        base = json.loads(base_path.read_text())
         proposed = json.loads(args.dataset.read_text())
         batches = [json.loads(p.read_text()) for p in sorted(args.batches.glob('*.json'))]
         existing = [json.loads(p.read_text()) for p in sorted((ROOT / 'research/discovery/batches').glob('*.json'))]

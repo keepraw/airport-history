@@ -2,9 +2,11 @@
 
 Reference format **1.0.0** is a separately versioned, offline observation layer.
 It contains **86,950 source records**, not 86,950 verified physical airports.
-The historical layer remains **0.7.0 / schema 3.0.0**, with its 23 permanent
-physical identities, 40 reviewed code assignments and 3 official-name intervals.
-`resolveAirport()` continues to use only that reviewed layer.
+The live historical layer is **0.8.0 / schema 3.0.0**, with 27 permanent
+physical identities, 43 reviewed code assignments and 3 official-name intervals.
+`resolveAirport()` uses that formal layer. These PR11 reference observations and
+curated crosswalks retain their immutable, hash-checked **0.7.0** research input;
+they are not a live projection or a current inventory of admitted records.
 
 ## Reproduce the baseline
 

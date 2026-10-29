@@ -1,7 +1,6 @@
 import { createHash } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import { describe, expect, it } from "vitest";
-import { loadDataset } from "../scripts/load.ts";
 import { resolveAirport, resolveAirportName } from "../src/index.ts";
 import type { Dataset } from "../src/types.ts";
 import { validateDataset } from "../src/validate.ts";
@@ -10,8 +9,10 @@ import coverage from "./pr10-coverage.json" with { type: "json" };
 import frozen04 from "./curated-0.4.0.json" with { type: "json" };
 import frozen05 from "./curated-0.5.0.json" with { type: "json" };
 import frozen06 from "./curated-0.6.0.json" with { type: "json" };
+import frozen07 from "./curated-0.7.0.json" with { type: "json" };
 
-const data = await loadDataset();
+// Version-specific admission assertions; current-data preservation is tested separately.
+const data = frozen07 as Dataset;
 const previous = frozen06 as Dataset;
 const sites = {
   OPRN: "apt_d28173b7-5c8b-4012-8eed-18f96c13a0ce",
@@ -51,7 +52,7 @@ describe("0.7.0 preserves all three reviewed datasets", () => {
       expect(createHash("sha256").update(bytes).digest("hex")).toBe(hash);
     }
     expect(baseline.preservedBaselines[2]!.baseCommit).toBe("cb0f003c21f0cb77cf4576dbe915cee1c9971a91");
-    const bytes = await readFile(new URL("../data/airports.json", import.meta.url));
+    const bytes = await readFile(new URL("./curated-0.7.0.json", import.meta.url));
     expect(createHash("sha256").update(bytes).digest("hex")).toBe(baseline.sha256);
     expect(data.dataVersion).toBe("0.7.0");
     expect(data.schemaVersion).toBe("3.0.0");

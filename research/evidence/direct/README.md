@@ -1,7 +1,12 @@
 # PR13: direct historical evidence and pending record proposals
 
-**No historical facts have been admitted.** Formal data remains 0.7.0, with
-23 physical airports, 40 assignments, 3 historical names and 70 sources.
+**Historical PR13 snapshot:** no facts were admitted by this demonstration.
+Its immutable formal input is 0.7.0, with 23 physical airports, 40 assignments,
+3 historical names and 70 sources. The later, separate
+[0.8.0 admission](../../admissions/0.8.0/README.md) records explicit user approval
+of only four physical identities and three adjusted/retained ICAO windows.
+All original proposals, dossiers, source evidence and blocked drafts below remain
+unchanged and pending as the original research snapshot; they are not live approval records.
 PR #12 was confirmed merged on 2026-10-28 at 14:00:48 UTC; this branch starts at
 latest main `8fecd4e6cbc322a23246ebaf2f2f0041c902e505`. Its BTS corpus and
 23-publication FAA closure search were not reacquired or expanded.
@@ -53,7 +58,7 @@ create independent corroboration.
 - [Pending dataset](generated/proposed-data.json): all frozen formal records
   unchanged, plus six proposed physical IDs, six pending ICAO assignments and
   eleven pending source records. Its `0.8.0` version is reserved inside this
-  proposal only; package/runtime data remains `0.7.0`.
+  original proposal only; it is distinct from the separately approved formal `0.8.0` dataset.
 - [Record dossiers](generated/dossier.json): twelve pending judgments,
   including separate boundary and continuity assessments for every interval.
   `reviewer` is null and `decision` is pending throughout.

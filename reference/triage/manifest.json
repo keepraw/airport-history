@@ -22,7 +22,7 @@
     "reference/generated/index.ICAO.jsonl.gz": "0322dbe43cc14fccd02473d0d4c73729704e83a59e3f3c86c0fe014f4d50e869",
     "reference/generated/index.IDENT.jsonl.gz": "be9c51153d0f935cb5195db78a1c935e705eb369f42bcdc79fe247be9cc38df5",
     "reference/generated/index.LOCAL.jsonl.gz": "29cbeef74296e0eb46f25f3dde6d1a65024f9d8a3e46cb8ae028b620f203b8e3",
-    "reference/generated/manifest.json": "3339f29a0f60d3519ddc07f94342bf38adce06e628e82c4c0b1ee5cc39bb426a",
+    "reference/generated/manifest.json": "583040ad87ad4f26a598aadc74ada429d9bd68007dc17d4a7b809d1d2212ea24",
     "reference/generated/metrics.json": "469d3414e830c1e3f0f22cbeb9d18945dc404e3744705632e6b24bda49ae35da",
     "reference/generated/records.0.jsonl.gz": "20408e2bd7fa1ec8147150acc5aeebdb63831755214401946160a7b92690bf99",
     "reference/generated/records.1.jsonl.gz": "7639f1b483c833bb19607f9067a5ae7d651be86e82d76a746d9b2b40cb963a10",
@@ -122,7 +122,7 @@
     "research/discovery/generated/airportsdata.candidates.e.jsonl.gz": "7f5439ad34799fe151a01d0889f69c15113b158b146d6f399a1d395377ecbc09",
     "research/discovery/generated/airportsdata.candidates.f.jsonl.gz": "57585d6ed30924444bf1b1c42eefa59ae9dcdc43c1e8592975e3cb030537cb0a",
     "research/discovery/generated/duplicate-groups.jsonl.gz": "a148633b085290f1b7ecbf5c1d3077b712f7a6db350e24d6bae0378aa2f14d51",
-    "research/discovery/generated/manifest.json": "7e966a934874ad676c41f00c9768654b6c6d7c86a06863b7d9933591bea7e35f",
+    "research/discovery/generated/manifest.json": "b588949a16ada7ae787f0a40286288d3f2fccbcce1e4fe62d6113c71792659d7",
     "research/discovery/generated/mwgg.candidates.0.jsonl.gz": "548568b87b7960aaa8202469ab5f5a82c6d6432684e9981291bd8aadb4de44f5",
     "research/discovery/generated/mwgg.candidates.1.jsonl.gz": "a9074e676e459cff2dfdafc3e1277680a752b09a83f7238f7d74741169f1c9d6",
     "research/discovery/generated/mwgg.candidates.2.jsonl.gz": "9dbd9e4258f0d18e7421f07e8972f1883e6d61da4dc36c0b8bb3f658ea559e44",
@@ -156,7 +156,7 @@
     "research/discovery/generated/ourairports.candidates.e.jsonl.gz": "ecdf97a3b25272832bb0c413ad1dc6e2294474732edc3dff96aaed8d28a9af00",
     "research/discovery/generated/ourairports.candidates.f.jsonl.gz": "a683f66b6aecbc7333e8534307cc8781cf36fe23df5a51360d9f606bf08724ab",
     "research/discovery/reviews.json": "353bdf3f269312255f0bcdcc9a49ff7099019060754c391689359955c65d8814",
-    "scripts/reference/common.py": "3d47617b33fe01cb11882a020495a6eddd91cbf3339ef79c721eb1c01e7cb67b",
+    "scripts/reference/common.py": "abaa48d37d4087b9bd4223e1ecf659fcc323addce570cee1d5348cbfac78ac46",
     "scripts/reference/triage.py": "9ea641529c9d738eef5cf7e22b71bff6d4191ddf57bca015a89e5f96137f3113"
   },
   "schemaVersion": "1.0.0"

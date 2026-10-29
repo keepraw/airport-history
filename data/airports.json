@@ -1,6 +1,6 @@
 {
   "schemaVersion": "3.0.0",
-  "dataVersion": "0.7.0",
+  "dataVersion": "0.8.0",
   "sources": [
     {
       "sourceId": "ourairports-20261025",
@@ -981,6 +981,104 @@
         "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed."
       },
       "note": "Official effective edition 2026-10-01, not the future October 29 edition. AD 2.1 identifies UACC-Astana; AD 2.2 gives 510121N 0712758E, center of runway, and Nursultan Nazarbayev International Airport administration with NQZ SITA address. Same runway/site as the curated TSE/NQZ airport. Proves this edition state only, not original allocation. A guessed 2019 edition returned a soft 404 and is not used."
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "note": "Content checked by Codex against the hash-locked original; accepted claim scope authorized by keepraw on 2026-10-28. Supports: PFN and ISN airport identifier rows; section 1-4-1 contiguous-US international indicator rule. Limits: Directory date is an observation, not first allocation. PFN navaid/ILS rows are not airport evidence. See research/admissions/0.8.0/source-review.json. No claim that the user personally read this publication.",
+      "sourceId": "faa-2009",
+      "sourceType": "primary",
+      "title": "JO 7350.8G Location Identifiers",
+      "url": "https://www.faa.gov/documentLibrary/media/Order/Basic7350.8G.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "note": "Content checked by Codex against the hash-locked original; accepted claim scope authorized by keepraw on 2026-10-28. Supports: ECP and ISN airport identifier rows; section 1-4-1 contiguous-US international indicator rule. Limits: Same FAA register lineage as 2009. No daily-use proof, endpoint withdrawal, IATA assignment or KXWA allocation. See research/admissions/0.8.0/source-review.json. No claim that the user personally read this publication.",
+      "sourceId": "faa-2014",
+      "sourceType": "primary",
+      "title": "JO 7350.9 Location Identifiers",
+      "url": "https://www.faa.gov/documentLibrary/media/Order/LID_7-24-14.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "note": "Content checked by Codex against the hash-locked original; accepted claim scope authorized by keepraw on 2026-10-28. Supports: Named Panama City-Bay County airport reference position. Limits: Airspace/reference position only; no operational or ICAO allocation boundary. See research/admissions/0.8.0/source-review.json. No claim that the user personally read this publication.",
+      "sourceId": "airspace-2007",
+      "sourceType": "primary",
+      "title": "JO 7400.9R Airspace Designations and Reporting Points",
+      "url": "https://www.faa.gov/documentLibrary/media/Order/ND/7400.9R.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "note": "Content checked by Codex against the hash-locked original; accepted claim scope authorized by keepraw on 2026-10-28. Supports: Replacement Northwest Florida-Panama City airport reference position, linked to the Beaches display identity by the replacement-site materials. Limits: Edition is dated 2014-08-06, effective 2014-09-15, and compiles in-effect or pending airspace. No historical official-name interval or exact positional guarantee. See research/admissions/0.8.0/source-review.json. No claim that the user personally read this publication.",
+      "sourceId": "airspace-2014",
+      "sourceType": "primary",
+      "title": "JO 7400.9Y Airspace Designations and Reporting Points",
+      "url": "https://www.faa.gov/documentlibrary/media/order/jo_7400.9y.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "note": "Content checked by Codex against the hash-locked original; accepted claim scope authorized by keepraw on 2026-10-28. Supports: Printed numeric 2010-04-28 notice associates KPFN with the former airport and KECP with the replacement. Limits: Printed weekday conflicts with numeric issue date and is not silently corrected. TAF starts 2010-05-23 0000 UTC; projected May 22 closure/next-day transfer are not executed-operation or code-allocation proof. See research/admissions/0.8.0/source-review.json. No claim that the user personally read this publication.",
+      "sourceId": "nws-panama",
+      "sourceType": "primary",
+      "title": "NWS TIN 10-18 Panama City replacement",
+      "url": "https://www.weather.gov/media/notification/tins/tin10-18taf_kecp.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "note": "Content checked by Codex against the hash-locked original; accepted claim scope authorized by keepraw on 2026-10-28. Supports: Original FAA narrative links PFN and the ECP replacement site; supports the cross-publication physical identity binding. Limits: Published 2011-05-19; the retrospective May 2010 operation statement is context only. No opening/closing event date is admitted. See research/admissions/0.8.0/source-review.json. No claim that the user personally read this publication.",
+      "sourceId": "fr-2011-12359",
+      "sourceType": "primary",
+      "title": "FAA Federal Register 2011-12359: Panama City relocation record of decision",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2011-05-19/html/2011-12359.htm",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "note": "Content checked by Codex against the hash-locked original; accepted claim scope authorized by keepraw on 2026-10-28. Supports: Named Sloulin Field and Williston Basin reference coordinates, distinct sites, and an administrative coordinate revision. Limits: Published 2020-05-06; airspace action effective 2020-07-16 0901 UTC. Neither date is an airport closure/code withdrawal date; no KXWA interval supported. See research/admissions/0.8.0/source-review.json. No claim that the user personally read this publication.",
+      "sourceId": "fr-2020-09591",
+      "sourceType": "primary",
+      "title": "FAA Federal Register 2020-09591: Revocation and Amendment of Class E Airspace Williston",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2020-05-06/pdf/2020-09591.pdf",
+      "verificationStatus": "verified"
     }
   ],
   "airports": [
@@ -1740,6 +1838,130 @@
         "note": "Geographical IANA zone mapping, not a fixed historical UTC offset."
       },
       "externalIds": {}
+    },
+    {
+      "airportId": "apt_d3a329f9-73d0-43f5-90c2-0ba0a0a2e5be",
+      "coordinates": {
+        "note": "User-approved distinct physical-site identity and FAA reference position only; not a historical runway footprint or operational interval.",
+        "sourceIds": [
+          "airspace-2007"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 30.21222222222222,
+          "longitude": -85.68277777777779
+        }
+      },
+      "externalIds": {
+        "ourAirports": "3769"
+      },
+      "name": {
+        "note": "Display label only; no historical official-name interval proposed.",
+        "sourceIds": [
+          "airspace-2007"
+        ],
+        "status": "reference",
+        "value": "Panama City-Bay County International Airport"
+      },
+      "timezone": {
+        "note": "Unknown; no timezone claim was authorized or established.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_74a05fd5-53fa-40f8-a3a6-de8cfd7d5e99",
+      "coordinates": {
+        "note": "User-approved distinct physical-site identity and FAA reference position only; not a historical runway footprint or operational interval.",
+        "sourceIds": [
+          "airspace-2014"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 30.35777777777778,
+          "longitude": -85.79888888888888
+        }
+      },
+      "externalIds": {
+        "ourAirports": "46530"
+      },
+      "name": {
+        "note": "Display label only; no historical official-name interval proposed.",
+        "sourceIds": [
+          "airspace-2014"
+        ],
+        "status": "reference",
+        "value": "Northwest Florida Beaches International Airport"
+      },
+      "timezone": {
+        "note": "Unknown; no timezone claim was authorized or established.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_ba1f9f8c-1849-4092-9e91-d641bddb6bc6",
+      "coordinates": {
+        "note": "User-approved distinct physical-site identity and FAA reference position only; not a historical runway footprint or operational interval.",
+        "sourceIds": [
+          "fr-2020-09591"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 48.17805555555555,
+          "longitude": -103.64222222222223
+        }
+      },
+      "externalIds": {
+        "ourAirports": "20188"
+      },
+      "name": {
+        "note": "Display label only; no historical official-name interval proposed.",
+        "sourceIds": [
+          "fr-2020-09591"
+        ],
+        "status": "reference",
+        "value": "Sloulin Field International Airport"
+      },
+      "timezone": {
+        "note": "Unknown; no timezone claim was authorized or established.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_661b72ea-f84d-4cec-ae34-fddd5e579b3d",
+      "coordinates": {
+        "note": "User-approved distinct physical-site identity and FAA reference position only; not a historical runway footprint or operational interval.",
+        "sourceIds": [
+          "fr-2020-09591"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 48.26083333333333,
+          "longitude": -103.75111111111111
+        }
+      },
+      "externalIds": {
+        "ourAirports": "324440"
+      },
+      "name": {
+        "note": "Display label only; no historical official-name interval proposed.",
+        "sourceIds": [
+          "fr-2020-09591"
+        ],
+        "status": "reference",
+        "value": "Williston Basin International Airport"
+      },
+      "timezone": {
+        "note": "Unknown; no timezone claim was authorized or established.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
     }
   ],
   "assignments": [
@@ -2747,6 +2969,79 @@
         "ourairports-batch1-20261025"
       ],
       "note": "ANAC reconstructs actual 2016-04-29 UACC arrival/departure at Astana. Its log-table time standard is absent: allowing a local-day rollover at historical UTC+6 gives conservative latest start 2016-05-01. BEA confirms a local-dated 2018 landing; official 2026 AIP retains UACC on the same runway/site after TSE/NQZ. Renaming the city or airport and changing IATA code do not create another physical identity or a UACC transfer. The whole interval is a reviewed continuity inference between dated observations, not daily direct verification, a first-allocation date, or proof that flights operated on every resolved date."
+    },
+    {
+      "airportId": "apt_d3a329f9-73d0-43f5-90c2-0ba0a0a2e5be",
+      "assignmentId": "proposal-icao-pfn",
+      "code": "KPFN",
+      "evidenceType": "continuity_inference",
+      "note": "User-approved certain coverage [2009-05-08, 2010-04-28). FAA 2009 airport row and scoped K-prefix rule, followed by the printed numeric issue date of NWS TIN10-18, support a reviewed continuity inference. The prior May 2010 tail is not accepted. First allocation and withdrawal remain unknown; the forecast service/closure dates are not allocation boundaries.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "faa-2009",
+        "nws-panama"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2009-05-08",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2010-04-28",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    },
+    {
+      "airportId": "apt_74a05fd5-53fa-40f8-a3a6-de8cfd7d5e99",
+      "assignmentId": "proposal-icao-ecp",
+      "code": "KECP",
+      "evidenceType": "continuity_inference",
+      "note": "User-approved certain coverage [2010-05-24, 2014-07-24). Continuity is inferred between the NWS KECP association and the FAA 2014 ECP airport row under the contiguous-US K-prefix rule, with FAA replacement-site context. This is not an exact opening, initial allocation or withdrawal interval.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "faa-2014",
+        "fr-2011-12359",
+        "nws-panama"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2010-05-24",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2014-07-24",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    },
+    {
+      "airportId": "apt_ba1f9f8c-1849-4092-9e91-d641bddb6bc6",
+      "assignmentId": "proposal-icao-isn",
+      "code": "KISN",
+      "evidenceType": "continuity_inference",
+      "note": "User-approved certain coverage [2009-05-08, 2014-07-24). Continuity is inferred between the 2009 and 2014 FAA ISN airport rows under their scoped K-prefix rules. These editions share the FAA register lineage. No 2014-2019 bridge or allocation/withdrawal date is asserted.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "faa-2009",
+        "faa-2014"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2009-05-08",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2014-07-24",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
     }
   ],
   "names": [

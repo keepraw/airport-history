@@ -28,9 +28,9 @@ candidates are mechanically processed into 88,330 relevant review groups and
 explicit excluded/deferred categories. No new upstream history scan is needed.
 See [measured before/after coverage and performance](docs/worldwide-reference-pr11.md).
 
-**Curated scope (0.7.0):** twenty-three physical airports, twenty-eight IATA
-assignments, twelve ICAO assignments and three official-name intervals, with
-seventy evidence sources. The
+**Curated scope (0.8.0):** twenty-seven physical airports, twenty-eight IATA
+assignments, fifteen ICAO assignments and three official-name intervals, with
+seventy-seven evidence sources. The
 original TAO, IST, HKG and DEN examples are joined by five reviewed ISL, ISB,
 SXF/BER, TSE/NQZ and KIV/RMO events and, in 0.5.0, by ROV/RVI (Rostov-on-Don /
 Platov), YNT (Yantai Laishan / Penglai) and PNH/KTI with VDPP/VDTI (Phnom Penh /
@@ -42,6 +42,10 @@ Version 0.7.0 adds six reviewed ICAO histories at existing sites: OPRN/OPIS,
 LTBA/LTFM, EDDB and UACC. OPRN coverage stops at the last admitted 2021 AIP
 observation; preparatory OPIS/LTFM AIP designations do not certify flights before
 commissioning. See [boundaries, source limitations and measured coverage](docs/curated-icao-pr10.md).
+Version 0.8.0 admits four explicitly user-approved physical identities and three
+ICAO continuity windows (KPFN, KECP, KISN). Williston Basin's physical identity is
+admitted without a KXWA assignment. The actual new coverage is 3,780 code/date
+queries; see the [authorization, record review and reproduction](research/admissions/0.8.0/README.md).
 This remains the authoritative curated history layer. The worldwide reference
 lookup above is separate and never returns resolved historical answers. A separate
 [global discovery research layer](research/discovery/README.md) scans pinned
@@ -52,6 +56,8 @@ navigation or operational flight-planning dataset.
 ## Run
 
 Use Node.js 24 and pnpm 10.14.0 (the package manager is pinned in `package.json`).
+Full admission validation also uses Python 3 and Poppler's `pdftotext` to check
+the accepted ECP airport row directly against its original PDF. CI ensures it is available.
 
 ```sh
 pnpm install --frozen-lockfile
@@ -67,7 +73,7 @@ Initial dependency installation needs network access. All subsequent checks,
 tests, builds and resolution run offline. `pnpm build` writes:
 
 ```text
-dist/v0.7.0/
+dist/v0.8.0/
 ├── airport-history.json
 ├── dataset.schema.json
 ├── manifest.json             # SHA-256 hashes of the five other files
@@ -243,7 +249,21 @@ unique answer and returns `uncertain`. If a reviewed pair also certainly conflic
 on that date, `conflict` takes precedence and includes the other candidates.
 Nonoverlapping historical reuse is accepted normally.
 
-## Format compatibility: 0.7.0
+## Format compatibility: 0.8.0
+
+0.8.0 adds only the seven user-approved records and seven scoped primary sources.
+Schema **3.0.0** and resolver/evidence semantics are unchanged. Unknown first
+allocation and withdrawal bounds remain null. Names and coordinates remain
+reference attributes; all four new timezones remain unknown. Package/data
+versions advance together; output is `dist/v0.8.0/`. Every 0.4.0–0.7.0 record
+and old query result is preserved, and 0.8.0 has its own reviewed snapshot.
+
+PR11–13 research outputs retain their hash-pinned 0.7.0 input and original
+pending states. Reproducing those historical snapshots does not re-admit records
+or expand candidates. The separate admission validation runs against the actual
+formal 0.8.0 database and is included in `pnpm check` and CI.
+
+## Format compatibility: 0.7.0 (historical)
 
 0.7.0 adds six ICAO intervals and fourteen reviewed sources at existing physical
 airports. Schema **3.0.0**, resolver logic, old records and the evidence horizon
@@ -412,7 +432,10 @@ The [direct-source demonstration](research/evidence/direct/README.md) acquires
 assesses four physical-history cases, and prepares six physical-airport/six ICAO
 interval proposals with exact original citations. Two Cleveland drafts remain
 blocked; the KSGU pair still needs transfer bounds. All proposals require real
-human review. Formal data stays 0.7.0 and historical coverage does not increase.
+human review in that original snapshot. The separately recorded user approval
+now admits only the seven records documented in the [0.8.0 admission](research/admissions/0.8.0/README.md).
+KXWA, KSGU, KDXZ and Cleveland intervals remain unadmitted; the original pending
+dataset, dossiers, evidence and blocked drafts are preserved.
 
 ## License
 

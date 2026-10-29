@@ -26,7 +26,10 @@ def main():
     validate_manifest(OUT)
     curated = json.loads((ROOT / 'data/airports.json').read_text())
     checked(ROOT / 'test/curated-0.7.0.json', '31c5735b333881d7afdd527fe4af1db8e28413d5bba114fbf88a4aad0809cff7')
-    assert curated == json.loads((ROOT / 'test/curated-0.7.0.json').read_text()), 'Reviewed 0.7.0 changed'
+    frozen = json.loads((ROOT / 'test/curated-0.7.0.json').read_text())
+    for collection, key in [('airports', 'airportId'), ('assignments', 'assignmentId'), ('names', 'nameId'), ('sources', 'sourceId')]:
+        current = {r[key]: r for r in curated[collection]}
+        assert all(current.get(r[key]) == r for r in frozen[collection]), 'Reviewed 0.7.0 changed'
     airports = {a['airportId']: a for a in curated['airports']}
     allowed_timezones = load_catalog()
     records = {}

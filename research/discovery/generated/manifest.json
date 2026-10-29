@@ -624,10 +624,11 @@
     "scripts/discovery/fetch.py": "c9b23f9bf6c90620da8b8b56e6cd05b7aef0448a0c0feddf3f2705d543c86625",
     "scripts/discovery/query.py": "4244b7b75f0d1fa2f3a72245cd07c7a79944060dda23feaa070debb43dd0d372",
     "scripts/discovery/refresh_reviews.py": "bcf207c0f411f3800da773e37a7d6a3f4d90b9fc8d18e1233e471679262838d1",
-    "scripts/discovery/report.py": "a567eb3962f2eee4d18a76612dd9c75293917bb1eb9df3b423bf322a34c5a258",
+    "scripts/discovery/report.py": "0bd326d18534345416174c208cc09fe722f4bf7a83a2d421ff99baef491bf002",
     "scripts/discovery/review.py": "b6540d6cff18a3bdd0e8ef06a743defbeb9436cf620437d419036fde1ae2a92d",
     "scripts/discovery/scan.py": "5f5ac9a8859842d5bdd4028da475a18dfce0576a81df195300eb40d976bfa46e",
-    "scripts/discovery/validate.py": "599de92bbf6915a627c9e393a660df3ca3f66ab2289b8e8584bae7d003621483"
+    "scripts/discovery/validate.py": "15d1d293c255e20595f3bb74de94e0ab9f49e9ab0e7827ea8c983fc739c2dd76",
+    "test/curated-0.7.0.json": "31c5735b333881d7afdd527fe4af1db8e28413d5bba114fbf88a4aad0809cff7"
   },
   "reviewInputs": {
     "research/discovery/batches/global-1.json": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094",

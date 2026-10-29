@@ -23,7 +23,7 @@ _fetch = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_fetch)
 get, save_source = _fetch.get, _fetch.save_source
 from pipeline import plain_text
-from common import checked, digest, distance, read_jsonl, stable_id, write_json, write_jsonl
+from common import checked, digest, distance, read_jsonl, research_baseline_path, stable_id, write_json, write_jsonl
 from admissions import packets, validate_admission
 from review import CLAIMS, validate_batch_series
 
@@ -164,7 +164,7 @@ def build(output=OUT, source_directory=BASE):
                                 'originalSha256': sources[sid]['originalSha256'],
                                 'judgmentStatus': 'codex_proposed_pending_human_review'}
     sites = {s['siteKey']: s for s in assessment['sites']}
-    base = json.loads((ROOT / 'data/airports.json').read_text())
+    base = json.loads(research_baseline_path().read_text())
     proposed = copy.deepcopy(base)
     proposed['dataVersion'] = '0.8.0'
     proposed['sources'] += [{key: source[key] for key in ('sourceId', 'title', 'url', 'sourceType', 'license')} | {
@@ -342,7 +342,7 @@ def build(output=OUT, source_directory=BASE):
     else:
         raise ValueError('Pending proposals unexpectedly passed human admission gate')
     inputs = [BASE / 'catalog.json', BASE / 'assessments.json', source_directory / 'source-lock.json',
-              ROOT / 'data/airports.json', ROOT / 'scripts/evidence/direct.py',
+              research_baseline_path(), ROOT / 'scripts/evidence/direct.py',
               ROOT / 'scripts/evidence/pipeline.py', ROOT / 'scripts/evidence/fetch.py',
               ROOT / 'scripts/reference/admissions.py', ROOT / 'scripts/discovery/review.py',
               ROOT / 'reference/generated/manifest.json', ROOT / 'reference/triage/manifest.json']
@@ -381,7 +381,7 @@ def validate(output=OUT):
         raise ValueError('Prepared dossier claims human approval')
     if assessment['humanReviewStatus'] != 'pending':
         raise ValueError('Unexpected review status')
-    base = json.loads((ROOT / 'data/airports.json').read_text())
+    base = json.loads(research_baseline_path().read_text())
     proposed = json.loads((output / 'proposed-data.json').read_text())
     record_ids = set()
     for collection, key in [('sources', 'sourceId'), ('airports', 'airportId'), ('assignments', 'assignmentId'), ('names', 'nameId')]:

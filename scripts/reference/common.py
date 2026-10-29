@@ -68,6 +68,13 @@ def checked(path, expected):
         raise ValueError(f'Changed pinned input: {path}')
 
 
+def research_baseline_path():
+    """Immutable input of the PR11-13 research snapshots, independent of later admissions."""
+    path = ROOT / 'test/curated-0.7.0.json'
+    checked(path, '31c5735b333881d7afdd527fe4af1db8e28413d5bba114fbf88a4aad0809cff7')
+    return path
+
+
 def verify_discovery(names):
     lock = json.loads((DISCOVERY / 'manifest.json').read_text())
     for name in names:

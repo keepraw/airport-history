@@ -1,0 +1,434 @@
+{
+  "admission": {
+    "airports": 4,
+    "assignments": 3,
+    "names": 0,
+    "formalSources": 7
+  },
+  "baseCommit": "e023dae254d8abac221eb41404753c664bb8a25c",
+  "batchId": "approved-historical-1",
+  "events": [
+    {
+      "admittedAirportIds": [
+        "apt_ba1f9f8c-1849-4092-9e91-d641bddb6bc6",
+        "apt_661b72ea-f84d-4cec-ae34-fddd5e579b3d"
+      ],
+      "admittedAssignmentIds": [
+        "proposal-icao-isn"
+      ],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_bcf7de0b43ba9ac563ba0cef",
+        "cand_ea06505ec871fee6331e5a04"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "Replacement narratives support site binding only; exact operational event dates are not approved.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "faa-2009",
+            "faa-2014",
+            "fr-2020-09591"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Approved latest-start/earliest-end coverage limits only; first allocation and withdrawal remain unknown.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "faa-2009",
+            "faa-2014",
+            "fr-2020-09591"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only listed KPFN/KECP/KISN continuity windows are approved. KXWA is not approved.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "faa-2009",
+            "faa-2014",
+            "fr-2020-09591"
+          ]
+        },
+        "iata": {
+          "conclusion": "No IATA fact approved or admitted.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "faa-2009",
+            "faa-2014",
+            "fr-2020-09591"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Reference display labels only; no historical official-name interval approved.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "faa-2009",
+            "faa-2014",
+            "fr-2020-09591"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Only the listed distinct physical sites and reference attributes are approved.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "faa-2009",
+            "faa-2014",
+            "fr-2020-09591"
+          ]
+        }
+      },
+      "conflicts": [
+        "Retain PR13 evidence limitations and all blocked cases; partial scope approval does not adjudicate other candidate claims."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": true,
+        "note": "User explicitly approved only the listed bounded windows. FAA editions are repeated register observations, not independent daily confirmations."
+      },
+      "eventGroupId": "dup_2b894340741269092660730a",
+      "evidenceFactIds": [
+        "icao-rule-2009",
+        "icao-rule-2014",
+        "isn-code-2009",
+        "isn-code-2014",
+        "williston-actual",
+        "williston-announced",
+        "williston-list-correction",
+        "williston-new-first-coordinate",
+        "williston-xwa-code",
+        "isn-location",
+        "xwa-location"
+      ],
+      "evidenceGaps": [
+        "Unknown first allocation/withdrawal dates; unapproved KXWA and other pending records remain outside admission."
+      ],
+      "exclusionReason": null,
+      "label": "Williston Basin International Airport",
+      "nextAction": "Admit only the explicitly approved records after the unchanged review, schema, frozen-history and CI checks; keep the PR unmerged. All other research claims retain their original pending status.",
+      "proposalOwnerEventGroupId": "dup_2b894340741269092660730a",
+      "proposedRecordIds": [
+        "apt_ba1f9f8c-1849-4092-9e91-d641bddb6bc6",
+        "apt_661b72ea-f84d-4cec-ae34-fddd5e579b3d",
+        "proposal-icao-isn"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-28",
+      "sourceIds": [
+        "faa-2009",
+        "faa-2014",
+        "fr-2020-09591"
+      ],
+      "status": "ready_to_admit",
+      "reviewer": "keepraw",
+      "approvalId": "keepraw-seven-records-2026-10-28",
+      "approvedRecordIds": [
+        "apt_ba1f9f8c-1849-4092-9e91-d641bddb6bc6",
+        "apt_661b72ea-f84d-4cec-ae34-fddd5e579b3d",
+        "proposal-icao-isn"
+      ],
+      "unapprovedRecordIds": [
+        "proposal-icao-xwa"
+      ],
+      "originalProposedRecordIds": [
+        "apt_ba1f9f8c-1849-4092-9e91-d641bddb6bc6",
+        "apt_661b72ea-f84d-4cec-ae34-fddd5e579b3d",
+        "proposal-icao-isn",
+        "proposal-icao-xwa"
+      ]
+    },
+    {
+      "admittedAirportIds": [
+        "apt_d3a329f9-73d0-43f5-90c2-0ba0a0a2e5be",
+        "apt_74a05fd5-53fa-40f8-a3a6-de8cfd7d5e99"
+      ],
+      "admittedAssignmentIds": [
+        "proposal-icao-pfn",
+        "proposal-icao-ecp"
+      ],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_52c183365583a41ae77091d6",
+        "cand_82af8dd125b3aa56d6e69f62",
+        "cand_9add79b6e1842e3375869997"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "Replacement narratives support site binding only; exact operational event dates are not approved.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "airspace-2007",
+            "airspace-2014",
+            "faa-2009",
+            "faa-2014",
+            "fr-2011-12359",
+            "nws-panama"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Approved latest-start/earliest-end coverage limits only; first allocation and withdrawal remain unknown.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "airspace-2007",
+            "airspace-2014",
+            "faa-2009",
+            "faa-2014",
+            "fr-2011-12359",
+            "nws-panama"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only listed KPFN/KECP/KISN continuity windows are approved. KXWA is not approved.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "airspace-2007",
+            "airspace-2014",
+            "faa-2009",
+            "faa-2014",
+            "fr-2011-12359",
+            "nws-panama"
+          ]
+        },
+        "iata": {
+          "conclusion": "No IATA fact approved or admitted.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "airspace-2007",
+            "airspace-2014",
+            "faa-2009",
+            "faa-2014",
+            "fr-2011-12359",
+            "nws-panama"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Reference display labels only; no historical official-name interval approved.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "airspace-2007",
+            "airspace-2014",
+            "faa-2009",
+            "faa-2014",
+            "fr-2011-12359",
+            "nws-panama"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Only the listed distinct physical sites and reference attributes are approved.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "airspace-2007",
+            "airspace-2014",
+            "faa-2009",
+            "faa-2014",
+            "fr-2011-12359",
+            "nws-panama"
+          ]
+        }
+      },
+      "conflicts": [
+        "Retain PR13 evidence limitations and all blocked cases; partial scope approval does not adjudicate other candidate claims."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "usedForAdmission": true,
+        "note": "User explicitly approved only the listed bounded windows. FAA editions are repeated register observations, not independent daily confirmations."
+      },
+      "eventGroupId": "dup_74d59eb493cd15e3e5b56600",
+      "evidenceFactIds": [
+        "ecp-code",
+        "icao-rule-2009",
+        "icao-rule-2014",
+        "panama-actual",
+        "panama-taf",
+        "panama-transfer",
+        "pfn-code",
+        "pfn-location",
+        "ecp-location"
+      ],
+      "evidenceGaps": [
+        "Unknown first allocation/withdrawal dates; unapproved KXWA and other pending records remain outside admission."
+      ],
+      "exclusionReason": null,
+      "label": "Northwest Florida Beaches International Airport",
+      "nextAction": "Admit only the explicitly approved records after the unchanged review, schema, frozen-history and CI checks; keep the PR unmerged. All other research claims retain their original pending status.",
+      "proposalOwnerEventGroupId": "dup_74d59eb493cd15e3e5b56600",
+      "proposedRecordIds": [
+        "apt_d3a329f9-73d0-43f5-90c2-0ba0a0a2e5be",
+        "apt_74a05fd5-53fa-40f8-a3a6-de8cfd7d5e99",
+        "proposal-icao-pfn",
+        "proposal-icao-ecp"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-28",
+      "sourceIds": [
+        "airspace-2007",
+        "airspace-2014",
+        "faa-2009",
+        "faa-2014",
+        "fr-2011-12359",
+        "nws-panama"
+      ],
+      "status": "ready_to_admit",
+      "reviewer": "keepraw",
+      "approvalId": "keepraw-seven-records-2026-10-28",
+      "approvedRecordIds": [
+        "apt_d3a329f9-73d0-43f5-90c2-0ba0a0a2e5be",
+        "apt_74a05fd5-53fa-40f8-a3a6-de8cfd7d5e99",
+        "proposal-icao-pfn",
+        "proposal-icao-ecp"
+      ],
+      "unapprovedRecordIds": [],
+      "originalProposedRecordIds": [
+        "apt_d3a329f9-73d0-43f5-90c2-0ba0a0a2e5be",
+        "apt_74a05fd5-53fa-40f8-a3a6-de8cfd7d5e99",
+        "proposal-icao-pfn",
+        "proposal-icao-ecp"
+      ]
+    }
+  ],
+  "formatVersion": 1,
+  "nextBatch": [],
+  "preparationOnly": false,
+  "reviewedOn": "2026-10-28",
+  "selection": {
+    "eventCount": 2,
+    "maximumEvents": 20,
+    "policy": "Two existing PR13 owner events, restricted to seven explicitly user-approved records; original pending research packet is preserved."
+  },
+  "sources": [
+    {
+      "sourceId": "faa-2009",
+      "url": "https://www.faa.gov/documentLibrary/media/Order/Basic7350.8G.pdf",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-28",
+      "supportedFacts": [
+        "PFN and ISN airport identifier rows; section 1-4-1 contiguous-US international indicator rule."
+      ],
+      "limitations": [
+        "Directory date is an observation, not first allocation. PFN navaid/ILS rows are not airport evidence."
+      ],
+      "accessResult": "Original hash matches; cited spans located in freshly extracted original. Actual access: 2026-10-28T23:27:41+00:00; user scope approval: 2026-10-28.",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      }
+    },
+    {
+      "sourceId": "faa-2014",
+      "url": "https://www.faa.gov/documentLibrary/media/Order/LID_7-24-14.pdf",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-28",
+      "supportedFacts": [
+        "ECP and ISN airport identifier rows; section 1-4-1 contiguous-US international indicator rule."
+      ],
+      "limitations": [
+        "Same FAA register lineage as 2009. No daily-use proof, endpoint withdrawal, IATA assignment or KXWA allocation."
+      ],
+      "accessResult": "Original hash matches; cited spans located in freshly extracted original. Actual access: 2026-10-28T23:27:40+00:00; user scope approval: 2026-10-28.",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      }
+    },
+    {
+      "sourceId": "airspace-2007",
+      "url": "https://www.faa.gov/documentLibrary/media/Order/ND/7400.9R.pdf",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-28",
+      "supportedFacts": [
+        "Named Panama City-Bay County airport reference position."
+      ],
+      "limitations": [
+        "Airspace/reference position only; no operational or ICAO allocation boundary."
+      ],
+      "accessResult": "Original hash matches; cited spans located in freshly extracted original. Actual access: 2026-10-28T23:27:42+00:00; user scope approval: 2026-10-28.",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      }
+    },
+    {
+      "sourceId": "airspace-2014",
+      "url": "https://www.faa.gov/documentlibrary/media/order/jo_7400.9y.pdf",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-28",
+      "supportedFacts": [
+        "Replacement Northwest Florida-Panama City airport reference position, linked to the Beaches display identity by the replacement-site materials."
+      ],
+      "limitations": [
+        "Edition is dated 2014-08-06, effective 2014-09-15, and compiles in-effect or pending airspace. No historical official-name interval or exact positional guarantee."
+      ],
+      "accessResult": "Original hash matches; cited spans located in freshly extracted original. Actual access: 2026-10-28T23:27:44+00:00; user scope approval: 2026-10-28.",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      }
+    },
+    {
+      "sourceId": "nws-panama",
+      "url": "https://www.weather.gov/media/notification/tins/tin10-18taf_kecp.pdf",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-28",
+      "supportedFacts": [
+        "Printed numeric 2010-04-28 notice associates KPFN with the former airport and KECP with the replacement."
+      ],
+      "limitations": [
+        "Printed weekday conflicts with numeric issue date and is not silently corrected. TAF starts 2010-05-23 0000 UTC; projected May 22 closure/next-day transfer are not executed-operation or code-allocation proof."
+      ],
+      "accessResult": "Original hash matches; cited spans located in freshly extracted original. Actual access: 2026-10-28T23:27:42+00:00; user scope approval: 2026-10-28.",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      }
+    },
+    {
+      "sourceId": "fr-2011-12359",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2011-05-19/html/2011-12359.htm",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-28",
+      "supportedFacts": [
+        "Original FAA narrative links PFN and the ECP replacement site; supports the cross-publication physical identity binding."
+      ],
+      "limitations": [
+        "Published 2011-05-19; the retrospective May 2010 operation statement is context only. No opening/closing event date is admitted."
+      ],
+      "accessResult": "Original hash matches; cited spans located in freshly extracted original. Actual access: 2026-10-28T23:27:42+00:00; user scope approval: 2026-10-28.",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      }
+    },
+    {
+      "sourceId": "fr-2020-09591",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2020-05-06/pdf/2020-09591.pdf",
+      "sourceType": "primary",
+      "accessedOn": "2026-10-28",
+      "supportedFacts": [
+        "Named Sloulin Field and Williston Basin reference coordinates, distinct sites, and an administrative coordinate revision."
+      ],
+      "limitations": [
+        "Published 2020-05-06; airspace action effective 2020-07-16 0901 UTC. Neither date is an airport closure/code withdrawal date; no KXWA interval supported."
+      ],
+      "accessResult": "Original hash matches; cited spans located in freshly extracted original. Actual access: 2026-10-28T23:27:43+00:00; user scope approval: 2026-10-28.",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      }
+    }
+  ],
+  "statusCounts": {
+    "pending_review": 0,
+    "ready_to_admit": 2,
+    "excluded": 0,
+    "insufficient_evidence": 0
+  },
+  "reviewer": "keepraw",
+  "reviewBasis": "The user explicitly approved these seven records and retained the PR merge decision. This records that instruction; it is not a GitHub review, signature, assertion that the user read PDFs, or approval by Codex."
+}

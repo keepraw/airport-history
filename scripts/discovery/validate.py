@@ -27,10 +27,17 @@ def main():
     for name, digest in {**lock['inputs'], **lock.get('reviewInputs', {})}.items():
         require(hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == digest, f'Changed generation input: {name}; regenerate report')
     baseline = json.loads((ROOT / 'research/discovery/curated-baseline.json').read_text())
-    require(hashlib.sha256((ROOT / 'data/airports.json').read_bytes()).hexdigest() == baseline['sha256'], 'Curated historical facts changed')
+    # Discovery observations were generated against this immutable research input.
+    # Later formal admissions may append records, never change the reviewed ones.
+    frozen_path = ROOT / f"test/curated-{baseline['dataVersion']}.json"
+    require(hashlib.sha256(frozen_path.read_bytes()).hexdigest() == baseline['sha256'], 'Curated historical facts changed')
+    frozen = json.loads(frozen_path.read_text())
     dataset = json.loads((ROOT / 'data/airports.json').read_text())
-    require(all(baseline[k] == len(dataset[k]) for k in ('airports', 'assignments', 'names', 'sources')) and
-            baseline['dataVersion'] == dataset['dataVersion'], 'Curated baseline counts/version are stale')
+    require(all(baseline[k] == len(frozen[k]) for k in ('airports', 'assignments', 'names', 'sources')) and
+            baseline['dataVersion'] == frozen['dataVersion'], 'Curated baseline counts/version are stale')
+    for key, id_key in (('airports', 'airportId'), ('assignments', 'assignmentId'), ('names', 'nameId'), ('sources', 'sourceId')):
+        current = {r[id_key]: r for r in dataset[key]}
+        require(all(current.get(r[id_key]) == r for r in frozen[key]), f'Frozen research baseline {key} changed')
     # Every earlier reviewed dataset stays protected: its records must survive byte-for-byte as JSON values.
     for previous in baseline['preservedBaselines']:
         raw = (ROOT / previous['record']).read_bytes()

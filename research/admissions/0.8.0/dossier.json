@@ -1,0 +1,790 @@
+[
+  {
+    "decision": "accepted",
+    "factIds": [
+      "pfn-location"
+    ],
+    "observations": [
+      {
+        "basis": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+        "citation": {
+          "anchor": "lat. 30°12'44\"N, long. 85°40'58\"W",
+          "context": "O FL D Panama City, FL Panama City-Bay County Airport, FL AMENDMENTS 8/03/06 71 FR 32822 (Revised) (lat. 30°12'44\"N, long. 85°40'58\"W) That airspace extending upward from the surface to ASO FL D St. Augustine, FL and including 2,500 feet MSL within a 4.6-mile St. Augustine",
+          "extractedPage": 161,
+          "normalizedOffset": 2417
+        },
+        "claimScope": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+        "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+        "factId": "pfn-location",
+        "independentOriginal": true,
+        "observedOn": "2007-09-15",
+        "originalPublicationKey": "usdot-faa:JO7400.9R:2007-09-15",
+        "sourceFamily": "usdot-faa",
+        "sourceId": "airspace-2007",
+        "originalProposalObservation": {
+          "basis": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+          "citation": {
+            "anchor": "lat. 30°12'44\"N, long. 85°40'58\"W",
+            "context": "O FL D Panama City, FL Panama City-Bay County Airport, FL AMENDMENTS 8/03/06 71 FR 32822 (Revised) (lat. 30°12'44\"N, long. 85°40'58\"W) That airspace extending upward from the surface to ASO FL D St. Augustine, FL and including 2,500 feet MSL within a 4.6-mile St. Augustine",
+            "extractedPage": 161,
+            "normalizedOffset": 2417
+          },
+          "claimScope": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "pfn-location",
+          "independentOriginal": true,
+          "observedOn": "2007-09-15",
+          "originalPublicationKey": "usdot-faa:JO7400.9R:2007-09-15",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "airspace-2007"
+        },
+        "independenceAssessment": "Original issuing publication. Other pages/rows of this same publication are not independent confirmations."
+      }
+    ],
+    "preparedBy": "Codex",
+    "recordId": "apt_d3a329f9-73d0-43f5-90c2-0ba0a0a2e5be",
+    "reviewer": "keepraw",
+    "reviewedOn": "2026-10-28",
+    "reviewBasis": {
+      "approvalId": "keepraw-seven-records-2026-10-28",
+      "approvalRecord": "research/admissions/0.8.0/approval.json",
+      "authorizedBy": "keepraw",
+      "recordedBy": "Codex",
+      "meaning": "The user explicitly approved these seven records and retained the PR merge decision. This records that instruction; it is not a GitHub review, signature, assertion that the user read PDFs, or approval by Codex."
+    },
+    "originalProposal": {
+      "path": "research/evidence/direct/generated/dossier.json",
+      "sha256": "7ac2e2fff4dfdea435ff014457a40938fde58bf9f733715e0ffac8fb4fd03311",
+      "recordId": "apt_d3a329f9-73d0-43f5-90c2-0ba0a0a2e5be"
+    },
+    "approvedClaimScope": "Distinct physical identities and FAA reference positions only. Names remain reference display labels; timezones remain unknown. External IDs are reference crosswalks, not primary historical confirmation."
+  },
+  {
+    "decision": "accepted",
+    "factIds": [
+      "ecp-location"
+    ],
+    "observations": [
+      {
+        "basis": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+        "citation": {
+          "anchor": "lat. 30°21'28'' N., long. 85°47'56'' W.",
+          "context": " FR 68503 (Added) ASO FL D Panama City, FL Northwest Florida-Panama City International Airport, FL (lat. 30°21'28'' N., long. 85°47'56'' W.) That airspace extending upward from the surface up to and including 2,500 feet MSL within a 4.7-mile radius of the Northwest Florida-Panam",
+          "extractedPage": 294,
+          "normalizedOffset": 589
+        },
+        "claimScope": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+        "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+        "factId": "ecp-location",
+        "independentOriginal": true,
+        "observedOn": "2014-09-15",
+        "originalPublicationKey": "usdot-faa:JO7400.9Y:2014-09-15",
+        "sourceFamily": "usdot-faa",
+        "sourceId": "airspace-2014",
+        "originalProposalObservation": {
+          "basis": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+          "citation": {
+            "anchor": "lat. 30°21'28'' N., long. 85°47'56'' W.",
+            "context": " FR 68503 (Added) ASO FL D Panama City, FL Northwest Florida-Panama City International Airport, FL (lat. 30°21'28'' N., long. 85°47'56'' W.) That airspace extending upward from the surface up to and including 2,500 feet MSL within a 4.7-mile radius of the Northwest Florida-Panam",
+            "extractedPage": 294,
+            "normalizedOffset": 589
+          },
+          "claimScope": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "ecp-location",
+          "independentOriginal": true,
+          "observedOn": "2014-09-15",
+          "originalPublicationKey": "usdot-faa:JO7400.9Y:2014-09-15",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "airspace-2014"
+        },
+        "independenceAssessment": "Original issuing publication. Other pages/rows of this same publication are not independent confirmations."
+      }
+    ],
+    "preparedBy": "Codex",
+    "recordId": "apt_74a05fd5-53fa-40f8-a3a6-de8cfd7d5e99",
+    "reviewer": "keepraw",
+    "reviewedOn": "2026-10-28",
+    "reviewBasis": {
+      "approvalId": "keepraw-seven-records-2026-10-28",
+      "approvalRecord": "research/admissions/0.8.0/approval.json",
+      "authorizedBy": "keepraw",
+      "recordedBy": "Codex",
+      "meaning": "The user explicitly approved these seven records and retained the PR merge decision. This records that instruction; it is not a GitHub review, signature, assertion that the user read PDFs, or approval by Codex."
+    },
+    "originalProposal": {
+      "path": "research/evidence/direct/generated/dossier.json",
+      "sha256": "7ac2e2fff4dfdea435ff014457a40938fde58bf9f733715e0ffac8fb4fd03311",
+      "recordId": "apt_74a05fd5-53fa-40f8-a3a6-de8cfd7d5e99"
+    },
+    "approvedClaimScope": "Distinct physical identities and FAA reference positions only. Names remain reference display labels; timezones remain unknown. External IDs are reference crosswalks, not primary historical confirmation."
+  },
+  {
+    "decision": "accepted",
+    "factIds": [
+      "isn-location"
+    ],
+    "observations": [
+      {
+        "basis": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+        "citation": {
+          "anchor": "Lat. 48°10′41″ N, long. 103°38′32″ W",
+          "context": "as. * * * * * AGL ND E2 Williston, ND [Revoked] Williston, Sloulin Field International Airport, ND (Lat. 48°10′41″ N, long. 103°38′32″ W) AGL ND E2 Williston, ND [New] Williston Basin International Airport, ND (Lat. 48°15′39″ N, long. 103°45′04″ W) That airspace extending upw",
+          "extractedPage": 2,
+          "normalizedOffset": 2385
+        },
+        "claimScope": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+        "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+        "factId": "isn-location",
+        "independentOriginal": true,
+        "observedOn": "2020-05-06",
+        "originalPublicationKey": "usdot-faa:FR:2020-09591",
+        "sourceFamily": "usdot-faa",
+        "sourceId": "fr-2020-09591",
+        "originalProposalObservation": {
+          "basis": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+          "citation": {
+            "anchor": "Lat. 48°10′41″ N, long. 103°38′32″ W",
+            "context": "as. * * * * * AGL ND E2 Williston, ND [Revoked] Williston, Sloulin Field International Airport, ND (Lat. 48°10′41″ N, long. 103°38′32″ W) AGL ND E2 Williston, ND [New] Williston Basin International Airport, ND (Lat. 48°15′39″ N, long. 103°45′04″ W) That airspace extending upw",
+            "extractedPage": 2,
+            "normalizedOffset": 2385
+          },
+          "claimScope": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "isn-location",
+          "independentOriginal": true,
+          "observedOn": "2020-05-06",
+          "originalPublicationKey": "usdot-faa:FR:2020-09591",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "fr-2020-09591"
+        },
+        "independenceAssessment": "Original issuing publication. Other pages/rows of this same publication are not independent confirmations."
+      }
+    ],
+    "preparedBy": "Codex",
+    "recordId": "apt_ba1f9f8c-1849-4092-9e91-d641bddb6bc6",
+    "reviewer": "keepraw",
+    "reviewedOn": "2026-10-28",
+    "reviewBasis": {
+      "approvalId": "keepraw-seven-records-2026-10-28",
+      "approvalRecord": "research/admissions/0.8.0/approval.json",
+      "authorizedBy": "keepraw",
+      "recordedBy": "Codex",
+      "meaning": "The user explicitly approved these seven records and retained the PR merge decision. This records that instruction; it is not a GitHub review, signature, assertion that the user read PDFs, or approval by Codex."
+    },
+    "originalProposal": {
+      "path": "research/evidence/direct/generated/dossier.json",
+      "sha256": "7ac2e2fff4dfdea435ff014457a40938fde58bf9f733715e0ffac8fb4fd03311",
+      "recordId": "apt_ba1f9f8c-1849-4092-9e91-d641bddb6bc6"
+    },
+    "approvedClaimScope": "Distinct physical identities and FAA reference positions only. Names remain reference display labels; timezones remain unknown. External IDs are reference crosswalks, not primary historical confirmation."
+  },
+  {
+    "decision": "accepted",
+    "factIds": [
+      "xwa-location"
+    ],
+    "observations": [
+      {
+        "basis": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+        "citation": {
+          "anchor": "Lat. 48°15′39″ N, long. 103°45′04″ W",
+          "context": "41″ N, long. 103°38′32″ W) AGL ND E2 Williston, ND [New] Williston Basin International Airport, ND (Lat. 48°15′39″ N, long. 103°45′04″ W) That airspace extending upward from the surface within a 4.2-mile radius of the airport, and within 1.3 miles each side of the 135° bearin",
+          "extractedPage": 2,
+          "normalizedOffset": 2496
+        },
+        "claimScope": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+        "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+        "factId": "xwa-location",
+        "independentOriginal": true,
+        "observedOn": "2020-05-06",
+        "originalPublicationKey": "usdot-faa:FR:2020-09591",
+        "sourceFamily": "usdot-faa",
+        "sourceId": "fr-2020-09591",
+        "originalProposalObservation": {
+          "basis": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+          "citation": {
+            "anchor": "Lat. 48°15′39″ N, long. 103°45′04″ W",
+            "context": "41″ N, long. 103°38′32″ W) AGL ND E2 Williston, ND [New] Williston Basin International Airport, ND (Lat. 48°15′39″ N, long. 103°45′04″ W) That airspace extending upward from the surface within a 4.2-mile radius of the airport, and within 1.3 miles each side of the 135° bearin",
+            "extractedPage": 2,
+            "normalizedOffset": 2496
+          },
+          "claimScope": "Named regulatory airport reference location; an identity anchor, not proof of the exact historical runway position or a code allocation date.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "xwa-location",
+          "independentOriginal": true,
+          "observedOn": "2020-05-06",
+          "originalPublicationKey": "usdot-faa:FR:2020-09591",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "fr-2020-09591"
+        },
+        "independenceAssessment": "Original issuing publication. Other pages/rows of this same publication are not independent confirmations."
+      }
+    ],
+    "preparedBy": "Codex",
+    "recordId": "apt_661b72ea-f84d-4cec-ae34-fddd5e579b3d",
+    "reviewer": "keepraw",
+    "reviewedOn": "2026-10-28",
+    "reviewBasis": {
+      "approvalId": "keepraw-seven-records-2026-10-28",
+      "approvalRecord": "research/admissions/0.8.0/approval.json",
+      "authorizedBy": "keepraw",
+      "recordedBy": "Codex",
+      "meaning": "The user explicitly approved these seven records and retained the PR merge decision. This records that instruction; it is not a GitHub review, signature, assertion that the user read PDFs, or approval by Codex."
+    },
+    "originalProposal": {
+      "path": "research/evidence/direct/generated/dossier.json",
+      "sha256": "7ac2e2fff4dfdea435ff014457a40938fde58bf9f733715e0ffac8fb4fd03311",
+      "recordId": "apt_661b72ea-f84d-4cec-ae34-fddd5e579b3d"
+    },
+    "approvedClaimScope": "Distinct physical identities and FAA reference positions only. Names remain reference display labels; timezones remain unknown. External IDs are reference crosswalks, not primary historical confirmation."
+  },
+  {
+    "boundaryAssessment": "User-approved certain coverage [2009-05-08, 2010-04-28). FAA 2009 airport row and scoped K-prefix rule, followed by the printed numeric issue date of NWS TIN10-18, support a reviewed continuity inference. The prior May 2010 tail is not accepted. First allocation and withdrawal remain unknown; the forecast service/closure dates are not allocation boundaries. validFrom.earliest and validTo.latest remain null; precision remains unknown.",
+    "continuityAssessment": "Explicitly user-approved continuity_inference between the cited observations only. No independent daily observations or exact allocation/withdrawal event are claimed.",
+    "decision": "accepted",
+    "factIds": [
+      "pfn-code",
+      "icao-rule-2009",
+      "panama-transfer"
+    ],
+    "observations": [
+      {
+        "basis": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+        "citation": {
+          "anchor": "PANAMA CITY-BAY CO INTL ARPT PFN GNV ZJX",
+          "context": " GNV TEATE FIELD ARPT 4XS2 FTW ZFW PANAMA CITY VORTAC PFN GNV PARADISE AIR HAVEN ARPT, 39OK MLC ZFW PANAMA CITY-BAY CO INTL ARPT PFN GNV ZJX GOLDSBY, OK PANAMA CITY-BAY CO INTL ILS PFN PARADISE AIR PARK ARPT, TRIDELL, UT67 CDC ZLC RWY 14 UT A-P-3",
+          "extractedPage": 325,
+          "normalizedOffset": 4374
+        },
+        "claimScope": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+        "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+        "factId": "pfn-code",
+        "independentOriginal": true,
+        "observedOn": "2009-05-07",
+        "originalPublicationKey": "usdot-faa:JO7350.8G:2009-05-07",
+        "sourceFamily": "usdot-faa",
+        "sourceId": "faa-2009",
+        "originalProposalObservation": {
+          "basis": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+          "citation": {
+            "anchor": "PANAMA CITY-BAY CO INTL ARPT PFN GNV ZJX",
+            "context": " GNV TEATE FIELD ARPT 4XS2 FTW ZFW PANAMA CITY VORTAC PFN GNV PARADISE AIR HAVEN ARPT, 39OK MLC ZFW PANAMA CITY-BAY CO INTL ARPT PFN GNV ZJX GOLDSBY, OK PANAMA CITY-BAY CO INTL ILS PFN PARADISE AIR PARK ARPT, TRIDELL, UT67 CDC ZLC RWY 14 UT A-P-3",
+            "extractedPage": 325,
+            "normalizedOffset": 4374
+          },
+          "claimScope": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "pfn-code",
+          "independentOriginal": true,
+          "observedOn": "2009-05-07",
+          "originalPublicationKey": "usdot-faa:JO7350.8G:2009-05-07",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "faa-2009"
+        },
+        "independenceAssessment": "Original issuing publication. Other pages/rows of this same publication are not independent confirmations."
+      },
+      {
+        "basis": "JO 7350.8G section 1-4-1 explicitly defines the international location indicator for contiguous-US airports as K plus the three-letter identifier. This is not an IATA conversion.",
+        "citation": {
+          "anchor": "identifier preceded by “K”.",
+          "context": "ows: contiguous United States is the three-letter a. Within the United States and its jurisdictions identifier preceded by “K”. For other non- to: Aeronautical Information Management, contiguous United States airports, the following NFDC, Federal Aviation Administrat",
+          "extractedPage": 21,
+          "normalizedOffset": 466
+        },
+        "claimScope": "JO 7350.8G section 1-4-1 explicitly defines the international location indicator for contiguous-US airports as K plus the three-letter identifier. This is not an IATA conversion.",
+        "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+        "factId": "icao-rule-2009",
+        "independentOriginal": true,
+        "observedOn": "2009-05-07",
+        "originalPublicationKey": "usdot-faa:JO7350.8G:2009-05-07",
+        "sourceFamily": "usdot-faa",
+        "sourceId": "faa-2009",
+        "originalProposalObservation": {
+          "basis": "JO 7350.8G section 1-4-1 explicitly defines the international location indicator for contiguous-US airports as K plus the three-letter identifier. This is not an IATA conversion.",
+          "citation": {
+            "anchor": "identifier preceded by “K”.",
+            "context": "ows: contiguous United States is the three-letter a. Within the United States and its jurisdictions identifier preceded by “K”. For other non- to: Aeronautical Information Management, contiguous United States airports, the following NFDC, Federal Aviation Administrat",
+            "extractedPage": 21,
+            "normalizedOffset": 466
+          },
+          "claimScope": "JO 7350.8G section 1-4-1 explicitly defines the international location indicator for contiguous-US airports as K plus the three-letter identifier. This is not an IATA conversion.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "icao-rule-2009",
+          "independentOriginal": true,
+          "observedOn": "2009-05-07",
+          "originalPublicationKey": "usdot-faa:JO7350.8G:2009-05-07",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "faa-2009"
+        },
+        "independenceAssessment": "Original issuing publication. Other pages/rows of this same publication are not independent confirmations."
+      },
+      {
+        "basis": "Dated KPFN/former-site and KECP/replacement-site association; planned TAF change is context only.",
+        "citation": {
+          "anchor": "CLOSURE OF PANAMA CITY-BAY COUNTY INTERNATIONAL AIRPORT ON MAY 22 2010 AND THE NEXT DAY TRANSFER OF AVIATION SERVICES",
+          "context": "ERVICE FOR PANAMA CITY-BAY COUNTY INTERNATIONAL AIRPORT /KPFN/ WILL CEASE. THIS CHANGE REFLECTS THE CLOSURE OF PANAMA CITY-BAY COUNTY INTERNATIONAL AIRPORT ON MAY 22 2010 AND THE NEXT DAY TRANSFER OF AVIATION SERVICES TO THE NEW NORTHWEST FLORIDA BEACHES INTERNATIONAL AIRPORT LOCATED 11 MILES NORTHWEST OF THE CURRENT LOCATION. THE EFFECTIVE DATE OF THIS C",
+          "extractedPage": 1,
+          "normalizedOffset": 1118
+        },
+        "claimScope": "Dated KPFN/former-site and KECP/replacement-site association; planned TAF change is context only.",
+        "dateSemantics": "Printed numeric issue date of a prospective notice, with a conflicting printed weekday retained. 2010-05-23 0000 UTC is separately the announced TAF effective time, not allocation or executed opening.",
+        "factId": "panama-transfer",
+        "independentOriginal": true,
+        "observedOn": "2010-04-28",
+        "originalPublicationKey": "noaa-nws:TIN10-18",
+        "sourceFamily": "noaa-nws",
+        "sourceId": "nws-panama",
+        "originalProposalObservation": {
+          "basis": "NWS explicitly states an old-airport closure on May 22 and next-day service transfer to a new site; the advance notice is not proof of execution on each exact day.",
+          "citation": {
+            "anchor": "CLOSURE OF PANAMA CITY-BAY COUNTY INTERNATIONAL AIRPORT ON MAY 22 2010 AND THE NEXT DAY TRANSFER OF AVIATION SERVICES",
+            "context": "ERVICE FOR PANAMA CITY-BAY COUNTY INTERNATIONAL AIRPORT /KPFN/ WILL CEASE. THIS CHANGE REFLECTS THE CLOSURE OF PANAMA CITY-BAY COUNTY INTERNATIONAL AIRPORT ON MAY 22 2010 AND THE NEXT DAY TRANSFER OF AVIATION SERVICES TO THE NEW NORTHWEST FLORIDA BEACHES INTERNATIONAL AIRPORT LOCATED 11 MILES NORTHWEST OF THE CURRENT LOCATION. THE EFFECTIVE DATE OF THIS C",
+            "extractedPage": 1,
+            "normalizedOffset": 1118
+          },
+          "claimScope": "NWS explicitly states an old-airport closure on May 22 and next-day service transfer to a new site; the advance notice is not proof of execution on each exact day.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "panama-transfer",
+          "independentOriginal": true,
+          "observedOn": "2010-05-23",
+          "originalPublicationKey": "noaa-nws:TIN10-18",
+          "sourceFamily": "noaa-nws",
+          "sourceId": "nws-panama"
+        },
+        "independenceAssessment": "Original issuing publication. Other pages/rows of this same publication are not independent confirmations."
+      }
+    ],
+    "preparedBy": "Codex",
+    "recordId": "proposal-icao-pfn",
+    "reviewer": "keepraw",
+    "reviewedOn": "2026-10-28",
+    "reviewBasis": {
+      "approvalId": "keepraw-seven-records-2026-10-28",
+      "approvalRecord": "research/admissions/0.8.0/approval.json",
+      "authorizedBy": "keepraw",
+      "recordedBy": "Codex",
+      "meaning": "The user explicitly approved these seven records and retained the PR merge decision. This records that instruction; it is not a GitHub review, signature, assertion that the user read PDFs, or approval by Codex."
+    },
+    "originalProposal": {
+      "path": "research/evidence/direct/generated/dossier.json",
+      "sha256": "7ac2e2fff4dfdea435ff014457a40938fde58bf9f733715e0ffac8fb4fd03311",
+      "recordId": "proposal-icao-pfn"
+    },
+    "approvedRecord": {
+      "airportId": "apt_d3a329f9-73d0-43f5-90c2-0ba0a0a2e5be",
+      "assignmentId": "proposal-icao-pfn",
+      "code": "KPFN",
+      "evidenceType": "continuity_inference",
+      "note": "User-approved certain coverage [2009-05-08, 2010-04-28). FAA 2009 airport row and scoped K-prefix rule, followed by the printed numeric issue date of NWS TIN10-18, support a reviewed continuity inference. The prior May 2010 tail is not accepted. First allocation and withdrawal remain unknown; the forecast service/closure dates are not allocation boundaries.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "faa-2009",
+        "nws-panama"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2009-05-08",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2010-04-28",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    }
+  },
+  {
+    "boundaryAssessment": "User-approved certain coverage [2010-05-24, 2014-07-24). Continuity is inferred between the NWS KECP association and the FAA 2014 ECP airport row under the contiguous-US K-prefix rule, with FAA replacement-site context. This is not an exact opening, initial allocation or withdrawal interval. validFrom.earliest and validTo.latest remain null; precision remains unknown.",
+    "continuityAssessment": "Explicitly user-approved continuity_inference between the cited observations only. No independent daily observations or exact allocation/withdrawal event are claimed.",
+    "decision": "accepted",
+    "factIds": [
+      "ecp-code",
+      "icao-rule-2014",
+      "panama-taf",
+      "panama-actual"
+    ],
+    "observations": [
+      {
+        "basis": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+        "citation": {
+          "extractedPage": 307,
+          "extractionTool": "pdftotext -raw",
+          "anchor": "NORTHWEST FLORIDA BEACHES INTL ARPT, PANAMA CITY, FL ECP GNV ZJX",
+          "note": "Read in original column/row order; the PR13 layout extraction interleaves an unrelated Nottingham row. Original proposal citation remains in originalProposalObservation."
+        },
+        "claimScope": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+        "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+        "factId": "ecp-code",
+        "independentOriginal": true,
+        "observedOn": "2014-07-24",
+        "originalPublicationKey": "usdot-faa:JO7350.9:2014-07-24",
+        "sourceFamily": "usdot-faa",
+        "sourceId": "faa-2014",
+        "originalProposalObservation": {
+          "basis": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+          "citation": {
+            "anchor": "NORTHWEST FLORIDA BEACHES INTL ECP GNV ZJX NOTTINGHAM, MD, ARPT, PANAMA CITY, FL",
+            "context": "F ZAU SONS PRIVATE-COMMERCIAL ARPT 47MN PNM ZMP GARY, IN NORWOOD HELIPORT, ELKHART, IN IN75 HUF ZAU NORTHWEST FLORIDA BEACHES INTL ECP GNV ZJX NOTTINGHAM, MD, ARPT, PANAMA CITY, FL NOTTINGHAM RCO OTT DCA NORTHWEST FLORIDA COMMUNITY 8ØFL GNV ZJX NOTTINGHAM VORTAC OTT DCA HOSPITAL HELIPORT, CHIPLEY, FL NOTTINGHAM, NH, NO",
+            "extractedPage": 307,
+            "normalizedOffset": 2796
+          },
+          "claimScope": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "ecp-code",
+          "independentOriginal": true,
+          "observedOn": "2014-07-24",
+          "originalPublicationKey": "usdot-faa:JO7350.9:2014-07-24",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "faa-2014"
+        },
+        "independenceAssessment": "Original issuing publication. Other pages/rows of this same publication are not independent confirmations."
+      },
+      {
+        "basis": "JO 7350.9 section 1-4-1 retains the same contiguous-US international indicator rule.",
+        "citation": {
+          "anchor": "United States is the three-letter identifier preceded by “K”.",
+          "context": "tional location indicator location indicator for airports in the contiguous assignments as follows: United States is the three-letter identifier preceded by “K”. For other non-contiguous United States a. Within the United States and its jurisdictions to: airports, the following two letter prefix will",
+          "extractedPage": 19,
+          "normalizedOffset": 381
+        },
+        "claimScope": "JO 7350.9 section 1-4-1 retains the same contiguous-US international indicator rule.",
+        "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+        "factId": "icao-rule-2014",
+        "independentOriginal": true,
+        "observedOn": "2014-07-24",
+        "originalPublicationKey": "usdot-faa:JO7350.9:2014-07-24",
+        "sourceFamily": "usdot-faa",
+        "sourceId": "faa-2014",
+        "originalProposalObservation": {
+          "basis": "JO 7350.9 section 1-4-1 retains the same contiguous-US international indicator rule.",
+          "citation": {
+            "anchor": "United States is the three-letter identifier preceded by “K”.",
+            "context": "tional location indicator location indicator for airports in the contiguous assignments as follows: United States is the three-letter identifier preceded by “K”. For other non-contiguous United States a. Within the United States and its jurisdictions to: airports, the following two letter prefix will",
+            "extractedPage": 19,
+            "normalizedOffset": 381
+          },
+          "claimScope": "JO 7350.9 section 1-4-1 retains the same contiguous-US international indicator rule.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "icao-rule-2014",
+          "independentOriginal": true,
+          "observedOn": "2014-07-24",
+          "originalPublicationKey": "usdot-faa:JO7350.9:2014-07-24",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "faa-2014"
+        },
+        "independenceAssessment": "Original issuing publication. Other pages/rows of this same publication are not independent confirmations."
+      },
+      {
+        "basis": "Dated KPFN/former-site and KECP/replacement-site association; planned TAF change is context only.",
+        "citation": {
+          "anchor": "EFFECTIVE MAY 23 2010 AT 0000 COORDINATED UNIVERSAL TIME /UTC/",
+          "context": "VE MAY 23 2010 NOTE: THE FOLLOWING CHANGES HAVE NO IMPACT ON NOAA WEATHER WIRE SERVICE SUBSCRIBERS. EFFECTIVE MAY 23 2010 AT 0000 COORDINATED UNIVERSAL TIME /UTC/...THE NWS OFFICE IN TALLAHASSE FLORIDA WILL BEGIN TAF SERVICE FOR THE NORTHWEST FLORIDA BEACHES INTERNATIONAL AIRPORT /KECP/IN PANAMA CITY ",
+          "extractedPage": 1,
+          "normalizedOffset": 709
+        },
+        "claimScope": "Dated KPFN/former-site and KECP/replacement-site association; planned TAF change is context only.",
+        "dateSemantics": "Printed numeric issue date of a prospective notice, with a conflicting printed weekday retained. 2010-05-23 0000 UTC is separately the announced TAF effective time, not allocation or executed opening.",
+        "factId": "panama-taf",
+        "independentOriginal": true,
+        "observedOn": "2010-04-28",
+        "originalPublicationKey": "noaa-nws:TIN10-18",
+        "sourceFamily": "noaa-nws",
+        "sourceId": "nws-panama",
+        "originalProposalObservation": {
+          "basis": "TAF service changes at 0000 UTC, which is still May 22 in Florida. Do not substitute it for the local airport-opening day.",
+          "citation": {
+            "anchor": "EFFECTIVE MAY 23 2010 AT 0000 COORDINATED UNIVERSAL TIME /UTC/",
+            "context": "VE MAY 23 2010 NOTE: THE FOLLOWING CHANGES HAVE NO IMPACT ON NOAA WEATHER WIRE SERVICE SUBSCRIBERS. EFFECTIVE MAY 23 2010 AT 0000 COORDINATED UNIVERSAL TIME /UTC/...THE NWS OFFICE IN TALLAHASSE FLORIDA WILL BEGIN TAF SERVICE FOR THE NORTHWEST FLORIDA BEACHES INTERNATIONAL AIRPORT /KECP/IN PANAMA CITY ",
+            "extractedPage": 1,
+            "normalizedOffset": 709
+          },
+          "claimScope": "TAF service changes at 0000 UTC, which is still May 22 in Florida. Do not substitute it for the local airport-opening day.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "panama-taf",
+          "independentOriginal": true,
+          "observedOn": "2010-05-23",
+          "originalPublicationKey": "noaa-nws:TIN10-18",
+          "sourceFamily": "noaa-nws",
+          "sourceId": "nws-panama"
+        },
+        "independenceAssessment": "Original issuing publication. Other pages/rows of this same publication are not independent confirmations."
+      },
+      {
+        "basis": "FAA narrative binds the ECP replacement to the new site. Its retrospective May 2010 operating month remains context; no exact opening date is admitted.",
+        "citation": {
+          "anchor": "began operations at the new site in May 2010",
+          "context": "t approved in the 2006 ROD was named the Northwest Florida Beaches International Airport (ECP), and began operations at the new site in May 2010. The FAA noted in the 2006 FEIS that further federal action would be necessary to decommission and dispose of the existing airport property",
+          "extractedPage": 1,
+          "normalizedOffset": 1350
+        },
+        "claimScope": "FAA narrative binds the ECP replacement to the new site. Its retrospective May 2010 operating month remains context; no exact opening date is admitted.",
+        "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+        "factId": "panama-actual",
+        "independentOriginal": true,
+        "observedOn": "2011-05-19",
+        "originalPublicationKey": "usdot-faa:FR:2011-12359",
+        "sourceFamily": "usdot-faa",
+        "sourceId": "fr-2011-12359",
+        "originalProposalObservation": {
+          "basis": "FAA retrospectively confirms actual new-site operations in May 2010, not the exact May 23 opening day.",
+          "citation": {
+            "anchor": "began operations at the new site in May 2010",
+            "context": "t approved in the 2006 ROD was named the Northwest Florida Beaches International Airport (ECP), and began operations at the new site in May 2010. The FAA noted in the 2006 FEIS that further federal action would be necessary to decommission and dispose of the existing airport property",
+            "extractedPage": 1,
+            "normalizedOffset": 1350
+          },
+          "claimScope": "FAA retrospectively confirms actual new-site operations in May 2010, not the exact May 23 opening day.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "panama-actual",
+          "independentOriginal": true,
+          "observedOn": "2011-05-19",
+          "originalPublicationKey": "usdot-faa:FR:2011-12359",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "fr-2011-12359"
+        },
+        "independenceAssessment": "Original issuing publication. Other pages/rows of this same publication are not independent confirmations."
+      }
+    ],
+    "preparedBy": "Codex",
+    "recordId": "proposal-icao-ecp",
+    "reviewer": "keepraw",
+    "reviewedOn": "2026-10-28",
+    "reviewBasis": {
+      "approvalId": "keepraw-seven-records-2026-10-28",
+      "approvalRecord": "research/admissions/0.8.0/approval.json",
+      "authorizedBy": "keepraw",
+      "recordedBy": "Codex",
+      "meaning": "The user explicitly approved these seven records and retained the PR merge decision. This records that instruction; it is not a GitHub review, signature, assertion that the user read PDFs, or approval by Codex."
+    },
+    "originalProposal": {
+      "path": "research/evidence/direct/generated/dossier.json",
+      "sha256": "7ac2e2fff4dfdea435ff014457a40938fde58bf9f733715e0ffac8fb4fd03311",
+      "recordId": "proposal-icao-ecp"
+    },
+    "approvedRecord": {
+      "airportId": "apt_74a05fd5-53fa-40f8-a3a6-de8cfd7d5e99",
+      "assignmentId": "proposal-icao-ecp",
+      "code": "KECP",
+      "evidenceType": "continuity_inference",
+      "note": "User-approved certain coverage [2010-05-24, 2014-07-24). Continuity is inferred between the NWS KECP association and the FAA 2014 ECP airport row under the contiguous-US K-prefix rule, with FAA replacement-site context. This is not an exact opening, initial allocation or withdrawal interval.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "faa-2014",
+        "fr-2011-12359",
+        "nws-panama"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2010-05-24",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2014-07-24",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    }
+  },
+  {
+    "boundaryAssessment": "User-approved certain coverage [2009-05-08, 2014-07-24). Continuity is inferred between the 2009 and 2014 FAA ISN airport rows under their scoped K-prefix rules. These editions share the FAA register lineage. No 2014-2019 bridge or allocation/withdrawal date is asserted. validFrom.earliest and validTo.latest remain null; precision remains unknown.",
+    "continuityAssessment": "Explicitly user-approved continuity_inference between the cited observations only. No independent daily observations or exact allocation/withdrawal event are claimed.",
+    "decision": "accepted",
+    "factIds": [
+      "isn-code-2009",
+      "isn-code-2014",
+      "icao-rule-2009",
+      "icao-rule-2014"
+    ],
+    "observations": [
+      {
+        "basis": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+        "citation": {
+          "anchor": "SLOULIN FLD INTL ARPT, WILLISTON, ND ISN GFK ZLC",
+          "context": "ASSAS, VA 51VA DCA ZDC SLOOP ARPT, KANNAPOLIS, NC 41NC RDU ZTL SKYVIEW ARPT, OZARK, MO MU7Ø COU ZKC SLOULIN FLD INTL ARPT, WILLISTON, ND ISN GFK ZLC SKYVIEW ARPT, RUSH, NY 84NY BUF ZOB SLOVER NDB, JESUP, GA JES MCN SKYVIEW HELIPORT, SOUDERTON, PA PA83 IPT ZNY SLUDER AIRSTRIP ARPT, BELLEV",
+          "extractedPage": 392,
+          "normalizedOffset": 1542
+        },
+        "claimScope": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+        "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+        "factId": "isn-code-2009",
+        "independentOriginal": true,
+        "observedOn": "2009-05-07",
+        "originalPublicationKey": "usdot-faa:JO7350.8G:2009-05-07",
+        "sourceFamily": "usdot-faa",
+        "sourceId": "faa-2009",
+        "originalProposalObservation": {
+          "basis": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+          "citation": {
+            "anchor": "SLOULIN FLD INTL ARPT, WILLISTON, ND ISN GFK ZLC",
+            "context": "ASSAS, VA 51VA DCA ZDC SLOOP ARPT, KANNAPOLIS, NC 41NC RDU ZTL SKYVIEW ARPT, OZARK, MO MU7Ø COU ZKC SLOULIN FLD INTL ARPT, WILLISTON, ND ISN GFK ZLC SKYVIEW ARPT, RUSH, NY 84NY BUF ZOB SLOVER NDB, JESUP, GA JES MCN SKYVIEW HELIPORT, SOUDERTON, PA PA83 IPT ZNY SLUDER AIRSTRIP ARPT, BELLEV",
+            "extractedPage": 392,
+            "normalizedOffset": 1542
+          },
+          "claimScope": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "isn-code-2009",
+          "independentOriginal": true,
+          "observedOn": "2009-05-07",
+          "originalPublicationKey": "usdot-faa:JO7350.8G:2009-05-07",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "faa-2009"
+        },
+        "independenceAssessment": "Original issuing publication. Other pages/rows of this same publication are not independent confirmations."
+      },
+      {
+        "basis": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+        "citation": {
+          "anchor": "SLOULIN FLD INTL ARPT, WILLISTON, ND ISN GFK ZLC",
+          "context": "41 ANB ZJX SMITHFIELD, NC, SLOOP ARPT, KANNAPOLIS, NC 41NC RDU ZTL JOHNSTON COUNTY ARPT JNX RDU ZDC SLOULIN FLD INTL ARPT, WILLISTON, ND ISN GFK ZLC JOHNSTON COUNTY ILS/DME RWY Ø3 JNX SLOVER NDB, JESUP, GA JES MCN JOHNSTON MEMORIAL HOSPITAL NC23 RDU ZDC SLUDER AIRSTRIP ARPT, BELLEVUE, ID",
+          "extractedPage": 388,
+          "normalizedOffset": 4061
+        },
+        "claimScope": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+        "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+        "factId": "isn-code-2014",
+        "independentOriginal": true,
+        "observedOn": "2014-07-24",
+        "originalPublicationKey": "usdot-faa:JO7350.9:2014-07-24",
+        "sourceFamily": "usdot-faa",
+        "sourceId": "faa-2014",
+        "originalProposalObservation": {
+          "basis": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+          "citation": {
+            "anchor": "SLOULIN FLD INTL ARPT, WILLISTON, ND ISN GFK ZLC",
+            "context": "41 ANB ZJX SMITHFIELD, NC, SLOOP ARPT, KANNAPOLIS, NC 41NC RDU ZTL JOHNSTON COUNTY ARPT JNX RDU ZDC SLOULIN FLD INTL ARPT, WILLISTON, ND ISN GFK ZLC JOHNSTON COUNTY ILS/DME RWY Ø3 JNX SLOVER NDB, JESUP, GA JES MCN JOHNSTON MEMORIAL HOSPITAL NC23 RDU ZDC SLUDER AIRSTRIP ARPT, BELLEVUE, ID",
+            "extractedPage": 388,
+            "normalizedOffset": 4061
+          },
+          "claimScope": "Explicit airport row, not a navaid or weather-office identifier. International ICAO interpretation additionally cites the section 1-4-1 jurisdiction rule.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "isn-code-2014",
+          "independentOriginal": true,
+          "observedOn": "2014-07-24",
+          "originalPublicationKey": "usdot-faa:JO7350.9:2014-07-24",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "faa-2014"
+        },
+        "independenceAssessment": "Original issuing publication. Other pages/rows of this same publication are not independent confirmations."
+      },
+      {
+        "basis": "JO 7350.8G section 1-4-1 explicitly defines the international location indicator for contiguous-US airports as K plus the three-letter identifier. This is not an IATA conversion.",
+        "citation": {
+          "anchor": "identifier preceded by “K”.",
+          "context": "ows: contiguous United States is the three-letter a. Within the United States and its jurisdictions identifier preceded by “K”. For other non- to: Aeronautical Information Management, contiguous United States airports, the following NFDC, Federal Aviation Administrat",
+          "extractedPage": 21,
+          "normalizedOffset": 466
+        },
+        "claimScope": "JO 7350.8G section 1-4-1 explicitly defines the international location indicator for contiguous-US airports as K plus the three-letter identifier. This is not an IATA conversion.",
+        "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+        "factId": "icao-rule-2009",
+        "independentOriginal": true,
+        "observedOn": "2009-05-07",
+        "originalPublicationKey": "usdot-faa:JO7350.8G:2009-05-07",
+        "sourceFamily": "usdot-faa",
+        "sourceId": "faa-2009",
+        "originalProposalObservation": {
+          "basis": "JO 7350.8G section 1-4-1 explicitly defines the international location indicator for contiguous-US airports as K plus the three-letter identifier. This is not an IATA conversion.",
+          "citation": {
+            "anchor": "identifier preceded by “K”.",
+            "context": "ows: contiguous United States is the three-letter a. Within the United States and its jurisdictions identifier preceded by “K”. For other non- to: Aeronautical Information Management, contiguous United States airports, the following NFDC, Federal Aviation Administrat",
+            "extractedPage": 21,
+            "normalizedOffset": 466
+          },
+          "claimScope": "JO 7350.8G section 1-4-1 explicitly defines the international location indicator for contiguous-US airports as K plus the three-letter identifier. This is not an IATA conversion.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "icao-rule-2009",
+          "independentOriginal": true,
+          "observedOn": "2009-05-07",
+          "originalPublicationKey": "usdot-faa:JO7350.8G:2009-05-07",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "faa-2009"
+        },
+        "independenceAssessment": "Original issuing publication. Other pages/rows of this same publication are not independent confirmations."
+      },
+      {
+        "basis": "JO 7350.9 section 1-4-1 retains the same contiguous-US international indicator rule.",
+        "citation": {
+          "anchor": "United States is the three-letter identifier preceded by “K”.",
+          "context": "tional location indicator location indicator for airports in the contiguous assignments as follows: United States is the three-letter identifier preceded by “K”. For other non-contiguous United States a. Within the United States and its jurisdictions to: airports, the following two letter prefix will",
+          "extractedPage": 19,
+          "normalizedOffset": 381
+        },
+        "claimScope": "JO 7350.9 section 1-4-1 retains the same contiguous-US international indicator rule.",
+        "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+        "factId": "icao-rule-2014",
+        "independentOriginal": true,
+        "observedOn": "2014-07-24",
+        "originalPublicationKey": "usdot-faa:JO7350.9:2014-07-24",
+        "sourceFamily": "usdot-faa",
+        "sourceId": "faa-2014",
+        "originalProposalObservation": {
+          "basis": "JO 7350.9 section 1-4-1 retains the same contiguous-US international indicator rule.",
+          "citation": {
+            "anchor": "United States is the three-letter identifier preceded by “K”.",
+            "context": "tional location indicator location indicator for airports in the contiguous assignments as follows: United States is the three-letter identifier preceded by “K”. For other non-contiguous United States a. Within the United States and its jurisdictions to: airports, the following two letter prefix will",
+            "extractedPage": 19,
+            "normalizedOffset": 381
+          },
+          "claimScope": "JO 7350.9 section 1-4-1 retains the same contiguous-US international indicator rule.",
+          "dateSemantics": "Dated publication/edition observation, not an allocation or flight day.",
+          "factId": "icao-rule-2014",
+          "independentOriginal": true,
+          "observedOn": "2014-07-24",
+          "originalPublicationKey": "usdot-faa:JO7350.9:2014-07-24",
+          "sourceFamily": "usdot-faa",
+          "sourceId": "faa-2014"
+        },
+        "independenceAssessment": "Original issuing publication. Other pages/rows of this same publication are not independent confirmations."
+      }
+    ],
+    "preparedBy": "Codex",
+    "recordId": "proposal-icao-isn",
+    "reviewer": "keepraw",
+    "reviewedOn": "2026-10-28",
+    "reviewBasis": {
+      "approvalId": "keepraw-seven-records-2026-10-28",
+      "approvalRecord": "research/admissions/0.8.0/approval.json",
+      "authorizedBy": "keepraw",
+      "recordedBy": "Codex",
+      "meaning": "The user explicitly approved these seven records and retained the PR merge decision. This records that instruction; it is not a GitHub review, signature, assertion that the user read PDFs, or approval by Codex."
+    },
+    "originalProposal": {
+      "path": "research/evidence/direct/generated/dossier.json",
+      "sha256": "7ac2e2fff4dfdea435ff014457a40938fde58bf9f733715e0ffac8fb4fd03311",
+      "recordId": "proposal-icao-isn"
+    },
+    "approvedRecord": {
+      "airportId": "apt_ba1f9f8c-1849-4092-9e91-d641bddb6bc6",
+      "assignmentId": "proposal-icao-isn",
+      "code": "KISN",
+      "evidenceType": "continuity_inference",
+      "note": "User-approved certain coverage [2009-05-08, 2014-07-24). Continuity is inferred between the 2009 and 2014 FAA ISN airport rows under their scoped K-prefix rules. These editions share the FAA register lineage. No 2014-2019 bridge or allocation/withdrawal date is asserted.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "faa-2009",
+        "faa-2014"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2009-05-08",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2014-07-24",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    },
+    "excludedObservationFactIds": [
+      "williston-announced"
+    ],
+    "excludedObservationReason": "2019 closure context is outside the approved 2009-2014 code window and supplies no needed allocation endpoint."
+  }
+]

@@ -1,6 +1,6 @@
 {
   "name": "@keepraw/airport-history",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "private": true,
   "description": "Historical airport identities, locations, code assignments, and official names.",
   "type": "module",
@@ -14,7 +14,7 @@
     "validate:data": "node scripts/validate.ts",
     "test": "vitest run",
     "build": "node scripts/build.ts",
-    "check": "pnpm typecheck && pnpm validate:data && pnpm test && pnpm test:research && pnpm research:validate && pnpm reference:validate && pnpm test:reference && pnpm evidence:validate && pnpm test:evidence && pnpm build",
+    "check": "pnpm typecheck && pnpm validate:data && pnpm validate:admission && pnpm test && pnpm test:research && pnpm research:validate && pnpm reference:validate && pnpm test:reference && pnpm evidence:validate && pnpm test:evidence && pnpm build",
     "research:fetch": "python3 scripts/discovery/fetch.py",
     "research:scan": "python3 scripts/discovery/scan.py",
     "research:report": "python3 scripts/discovery/report.py",
@@ -33,7 +33,8 @@
     "evidence:validate": "node scripts/evidence/validate-schema.ts && python3 scripts/evidence/pipeline.py validate && pnpm evidence:direct validate",
     "test:evidence": "python3 -m unittest discover -s test/evidence -v",
     "compat:fly": "python3 scripts/compat/run-fly.py",
-    "evidence:direct": "python3 scripts/evidence/direct.py"
+    "evidence:direct": "python3 scripts/evidence/direct.py",
+    "validate:admission": "python3 scripts/evidence/admitted.py"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",

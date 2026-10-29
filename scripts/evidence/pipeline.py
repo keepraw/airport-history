@@ -19,7 +19,7 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'reference'))
-from common import ROOT, OUTPUT, canonical, checked, digest, distance, position, read_jsonl, stable_id, write_json, write_jsonl
+from common import ROOT, OUTPUT, canonical, checked, digest, distance, position, read_jsonl, research_baseline_path, stable_id, write_json, write_jsonl
 from admissions import packets
 from review import CLAIMS, validate_batch_series
 
@@ -342,7 +342,7 @@ def build(output=OUT):
                 if len(tokens(name)) and len(normalized(name)) >= 7:
                     us_names[name].add(rid)
     sources, observations, duplicates = {}, {}, 0
-    curated = json.loads((ROOT / 'data/airports.json').read_text())
+    curated = json.loads(research_baseline_path().read_text())
     airports = {a['airportId']: a for a in curated['airports']}
     def compare_curated(o):
         if o['kind'] != 'statistical_attribute' or o['coordinates'] is None:
@@ -413,7 +413,7 @@ def build(output=OUT):
     inputs = [BASE / 'source-lock.json', *(BASE / s['inputPath'] for s in sources.values()),
               OUTPUT / 'manifest.json', TRIAGE / 'manifest.json', TRIAGE / 'groups.jsonl.gz', TRIAGE / 'code-reuse-leads.jsonl.gz',
               ROOT / 'scripts/evidence/pipeline.py', ROOT / 'scripts/reference/admissions.py', ROOT / 'scripts/discovery/review.py',
-              ROOT / 'data/airports.json',
+              research_baseline_path(),
               *sorted((ROOT / 'research/discovery/batches').glob('*.json'))]
     write_json(output / 'manifest.json', {'formatVersion': 1, 'evidenceStatus': 'pending_human_claim_review',
                'inputs': {str(p.relative_to(ROOT)): digest(p) for p in sorted(inputs)},

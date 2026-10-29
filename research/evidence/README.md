@@ -2,7 +2,10 @@
 
 This is a reproducible **research attachment** layer. It adds no `apt_` identity,
 assignment, historical name, accepted reviewer or historical coverage. The reviewed
-dataset remains **0.7.0: 23 physical airports, 40 assignments, 70 sources**.
+research input remains the frozen **0.7.0: 23 physical airports, 40 assignments,
+70 sources**. The separate [user-approved 0.8.0 admission](../admissions/0.8.0/README.md)
+updates formal data to 27 airports, 43 assignments and 77 sources; it does not
+alter these original pending evidence judgments or expand this corpus.
 
 Two working online collectors replace the previous directory-only bottleneck:
 
