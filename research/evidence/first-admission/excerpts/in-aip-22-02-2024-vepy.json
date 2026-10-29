@@ -1,0 +1,35 @@
+{
+  "originalSha256": "909d98700aae91605104884bdf66a5156804a4450ce0e55065582fd7095ad76d",
+  "sourceId": "in-aip-22-02-2024-vepy",
+  "spans": [
+    {
+      "characterEnd": 113,
+      "characterStart": 82,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "VEPY - PAKYONG AIRPORT, PAKYONG"
+    },
+    {
+      "characterEnd": 242,
+      "characterStart": 175,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "Aerodrome reference point coordinates and its site 271333N 0883509E"
+    },
+    {
+      "characterEnd": 705,
+      "characterStart": 661,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='DC.date' content='11 JAN 2024'/>"
+    },
+    {
+      "characterEnd": 765,
+      "characterStart": 707,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='EM.effectiveDateStart' content='22 FEB 2024'/>"
+    }
+  ],
+  "textOriginalSha256": "fb63832c09d2fbcc09bec75a8840d73c2f291be0b5ae7c5cd4aa7f21cf8b6d91"
+}

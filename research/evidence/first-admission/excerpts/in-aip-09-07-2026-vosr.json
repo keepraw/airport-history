@@ -1,0 +1,35 @@
+{
+  "originalSha256": "2b297301ec0598b89777250a2b94b15472f17080dbd457a8ea01c361cf3ffb8e",
+  "sourceId": "in-aip-09-07-2026-vosr",
+  "spans": [
+    {
+      "characterEnd": 118,
+      "characterStart": 82,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "VOSR - SINDHUDURG AIRPORT, SINDUDURG"
+    },
+    {
+      "characterEnd": 247,
+      "characterStart": 180,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "Aerodrome reference point coordinates and its site 160012N 0733158E"
+    },
+    {
+      "characterEnd": 705,
+      "characterStart": 661,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='DC.date' content='28 MAY 2026'/>"
+    },
+    {
+      "characterEnd": 765,
+      "characterStart": 707,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='EM.effectiveDateStart' content='09 JUL 2026'/>"
+    }
+  ],
+  "textOriginalSha256": "57985d4f6abf5f32adbd6e7f560c5df18662fccea37859ac191902ada2ac15c5"
+}

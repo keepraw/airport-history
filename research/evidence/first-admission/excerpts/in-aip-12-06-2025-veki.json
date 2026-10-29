@@ -1,0 +1,35 @@
+{
+  "originalSha256": "7f1792d24b14ec52bfd82aca9438a36e31891350e164c706818dfca546cfaddf",
+  "sourceId": "in-aip-12-06-2025-veki",
+  "spans": [
+    {
+      "characterEnd": 107,
+      "characterStart": 82,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "VEKI - KUSHINAGAR AIRPORT"
+    },
+    {
+      "characterEnd": 236,
+      "characterStart": 169,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "Aerodrome reference point coordinates and its site 264622N 0835343E"
+    },
+    {
+      "characterEnd": 705,
+      "characterStart": 661,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='DC.date' content='01 MAY 2025'/>"
+    },
+    {
+      "characterEnd": 765,
+      "characterStart": 707,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='EM.effectiveDateStart' content='12 JUN 2025'/>"
+    }
+  ],
+  "textOriginalSha256": "3b1e8b55697a19ffc1fba579ec5040208a4b2ddec0ad8255c3ff232be3bc5a71"
+}

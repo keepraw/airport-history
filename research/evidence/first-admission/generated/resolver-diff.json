@@ -1,0 +1,1696 @@
+{
+  "period": [
+    "2015-01-01",
+    "2026-10-29"
+  ],
+  "unit": "Unique (scheme, code, localDate); whole local dates only",
+  "hypothesis": "Only specified A scopes and their separately reviewed identities; approval in memory only. Sources/coordinates/name status remain independent.",
+  "formalNewResolvedQueries": 0,
+  "byRecord": [
+    {
+      "recordIds": [
+        "global-proposal-sindhudurg-icao-vosr"
+      ],
+      "uniqueFocusedQueries": 4320,
+      "formalToAccepted": {
+        "not_found->uncertain": 3453,
+        "not_found->resolved": 867
+      },
+      "formalToPending": {
+        "not_found->uncertain": 4320
+      },
+      "pendingToAccepted": {
+        "uncertain->uncertain": 3453,
+        "uncertain->resolved": 867
+      },
+      "netNewResolved": 867,
+      "byScheme": {
+        "IATA": 0,
+        "ICAO": 867
+      },
+      "newConflicts": 0,
+      "removedConflicts": 0,
+      "changedPublishedResolved": 0,
+      "changedExistingAnswers": 0,
+      "protectedQueries": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2024-02-23",
+          "transition": "not_found->uncertain",
+          "airportId": null,
+          "code": "VOSR",
+          "scheme": "ICAO"
+        },
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "transition": "not_found->resolved",
+          "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e",
+          "code": "VOSR",
+          "scheme": "ICAO"
+        },
+        {
+          "from": "2026-07-09",
+          "toExclusive": "2026-10-30",
+          "transition": "not_found->uncertain",
+          "airportId": null,
+          "code": "VOSR",
+          "scheme": "ICAO"
+        }
+      ],
+      "boundaries": [
+        {
+          "scheme": "ICAO",
+          "code": "VOSR",
+          "localDate": "2024-02-21",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VOSR",
+          "localDate": "2024-02-22",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VOSR",
+          "localDate": "2024-02-23",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VOSR",
+          "localDate": "2024-02-24",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VOSR",
+          "localDate": "2026-07-08",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VOSR",
+          "localDate": "2026-07-09",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VOSR",
+          "localDate": "2026-07-10",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        }
+      ]
+    },
+    {
+      "recordIds": [
+        "global-proposal-kalaburagi-icao-vogb"
+      ],
+      "uniqueFocusedQueries": 4320,
+      "formalToAccepted": {
+        "not_found->uncertain": 3453,
+        "not_found->resolved": 867
+      },
+      "formalToPending": {
+        "not_found->uncertain": 4320
+      },
+      "pendingToAccepted": {
+        "uncertain->uncertain": 3453,
+        "uncertain->resolved": 867
+      },
+      "netNewResolved": 867,
+      "byScheme": {
+        "IATA": 0,
+        "ICAO": 867
+      },
+      "newConflicts": 0,
+      "removedConflicts": 0,
+      "changedPublishedResolved": 0,
+      "changedExistingAnswers": 0,
+      "protectedQueries": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2024-02-23",
+          "transition": "not_found->uncertain",
+          "airportId": null,
+          "code": "VOGB",
+          "scheme": "ICAO"
+        },
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "transition": "not_found->resolved",
+          "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7",
+          "code": "VOGB",
+          "scheme": "ICAO"
+        },
+        {
+          "from": "2026-07-09",
+          "toExclusive": "2026-10-30",
+          "transition": "not_found->uncertain",
+          "airportId": null,
+          "code": "VOGB",
+          "scheme": "ICAO"
+        }
+      ],
+      "boundaries": [
+        {
+          "scheme": "ICAO",
+          "code": "VOGB",
+          "localDate": "2024-02-21",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VOGB",
+          "localDate": "2024-02-22",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VOGB",
+          "localDate": "2024-02-23",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VOGB",
+          "localDate": "2024-02-24",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VOGB",
+          "localDate": "2026-07-08",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VOGB",
+          "localDate": "2026-07-09",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VOGB",
+          "localDate": "2026-07-10",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        }
+      ]
+    },
+    {
+      "recordIds": [
+        "global-proposal-kushinagar-icao-veki"
+      ],
+      "uniqueFocusedQueries": 4320,
+      "formalToAccepted": {
+        "not_found->uncertain": 3453,
+        "not_found->resolved": 867
+      },
+      "formalToPending": {
+        "not_found->uncertain": 4320
+      },
+      "pendingToAccepted": {
+        "uncertain->uncertain": 3453,
+        "uncertain->resolved": 867
+      },
+      "netNewResolved": 867,
+      "byScheme": {
+        "IATA": 0,
+        "ICAO": 867
+      },
+      "newConflicts": 0,
+      "removedConflicts": 0,
+      "changedPublishedResolved": 0,
+      "changedExistingAnswers": 0,
+      "protectedQueries": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2024-02-23",
+          "transition": "not_found->uncertain",
+          "airportId": null,
+          "code": "VEKI",
+          "scheme": "ICAO"
+        },
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "transition": "not_found->resolved",
+          "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f",
+          "code": "VEKI",
+          "scheme": "ICAO"
+        },
+        {
+          "from": "2026-07-09",
+          "toExclusive": "2026-10-30",
+          "transition": "not_found->uncertain",
+          "airportId": null,
+          "code": "VEKI",
+          "scheme": "ICAO"
+        }
+      ],
+      "boundaries": [
+        {
+          "scheme": "ICAO",
+          "code": "VEKI",
+          "localDate": "2024-02-21",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VEKI",
+          "localDate": "2024-02-22",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VEKI",
+          "localDate": "2024-02-23",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VEKI",
+          "localDate": "2024-02-24",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VEKI",
+          "localDate": "2026-07-08",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VEKI",
+          "localDate": "2026-07-09",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VEKI",
+          "localDate": "2026-07-10",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        }
+      ]
+    },
+    {
+      "recordIds": [
+        "global-proposal-pakyong-icao-vepy"
+      ],
+      "uniqueFocusedQueries": 4320,
+      "formalToAccepted": {
+        "not_found->uncertain": 3453,
+        "not_found->resolved": 867
+      },
+      "formalToPending": {
+        "not_found->uncertain": 4320
+      },
+      "pendingToAccepted": {
+        "uncertain->uncertain": 3453,
+        "uncertain->resolved": 867
+      },
+      "netNewResolved": 867,
+      "byScheme": {
+        "IATA": 0,
+        "ICAO": 867
+      },
+      "newConflicts": 0,
+      "removedConflicts": 0,
+      "changedPublishedResolved": 0,
+      "changedExistingAnswers": 0,
+      "protectedQueries": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2024-02-23",
+          "transition": "not_found->uncertain",
+          "airportId": null,
+          "code": "VEPY",
+          "scheme": "ICAO"
+        },
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "transition": "not_found->resolved",
+          "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9",
+          "code": "VEPY",
+          "scheme": "ICAO"
+        },
+        {
+          "from": "2026-07-09",
+          "toExclusive": "2026-10-30",
+          "transition": "not_found->uncertain",
+          "airportId": null,
+          "code": "VEPY",
+          "scheme": "ICAO"
+        }
+      ],
+      "boundaries": [
+        {
+          "scheme": "ICAO",
+          "code": "VEPY",
+          "localDate": "2024-02-21",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VEPY",
+          "localDate": "2024-02-22",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VEPY",
+          "localDate": "2024-02-23",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VEPY",
+          "localDate": "2024-02-24",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VEPY",
+          "localDate": "2026-07-08",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VEPY",
+          "localDate": "2026-07-09",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VEPY",
+          "localDate": "2026-07-10",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        }
+      ]
+    },
+    {
+      "recordIds": [
+        "global-proposal-kurnool-icao-voku"
+      ],
+      "uniqueFocusedQueries": 4320,
+      "formalToAccepted": {
+        "not_found->uncertain": 3453,
+        "not_found->resolved": 867
+      },
+      "formalToPending": {
+        "not_found->uncertain": 4320
+      },
+      "pendingToAccepted": {
+        "uncertain->uncertain": 3453,
+        "uncertain->resolved": 867
+      },
+      "netNewResolved": 867,
+      "byScheme": {
+        "IATA": 0,
+        "ICAO": 867
+      },
+      "newConflicts": 0,
+      "removedConflicts": 0,
+      "changedPublishedResolved": 0,
+      "changedExistingAnswers": 0,
+      "protectedQueries": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2024-02-23",
+          "transition": "not_found->uncertain",
+          "airportId": null,
+          "code": "VOKU",
+          "scheme": "ICAO"
+        },
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "transition": "not_found->resolved",
+          "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3",
+          "code": "VOKU",
+          "scheme": "ICAO"
+        },
+        {
+          "from": "2026-07-09",
+          "toExclusive": "2026-10-30",
+          "transition": "not_found->uncertain",
+          "airportId": null,
+          "code": "VOKU",
+          "scheme": "ICAO"
+        }
+      ],
+      "boundaries": [
+        {
+          "scheme": "ICAO",
+          "code": "VOKU",
+          "localDate": "2024-02-21",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VOKU",
+          "localDate": "2024-02-22",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VOKU",
+          "localDate": "2024-02-23",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VOKU",
+          "localDate": "2024-02-24",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VOKU",
+          "localDate": "2026-07-08",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VOKU",
+          "localDate": "2026-07-09",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "VOKU",
+          "localDate": "2026-07-10",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        }
+      ]
+    },
+    {
+      "recordIds": [
+        "global-proposal-murcia-new-icao-lemi"
+      ],
+      "uniqueFocusedQueries": 4320,
+      "formalToAccepted": {
+        "not_found->uncertain": 1675,
+        "not_found->resolved": 2645
+      },
+      "formalToPending": {
+        "not_found->uncertain": 4320
+      },
+      "pendingToAccepted": {
+        "uncertain->uncertain": 1675,
+        "uncertain->resolved": 2645
+      },
+      "netNewResolved": 2645,
+      "byScheme": {
+        "IATA": 0,
+        "ICAO": 2645
+      },
+      "newConflicts": 0,
+      "removedConflicts": 0,
+      "changedPublishedResolved": 0,
+      "changedExistingAnswers": 0,
+      "protectedQueries": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2019-08-02",
+          "transition": "not_found->uncertain",
+          "airportId": null,
+          "code": "LEMI",
+          "scheme": "ICAO"
+        },
+        {
+          "from": "2019-08-02",
+          "toExclusive": "2026-10-29",
+          "transition": "not_found->resolved",
+          "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+          "code": "LEMI",
+          "scheme": "ICAO"
+        },
+        {
+          "from": "2026-10-29",
+          "toExclusive": "2026-10-30",
+          "transition": "not_found->uncertain",
+          "airportId": null,
+          "code": "LEMI",
+          "scheme": "ICAO"
+        }
+      ],
+      "boundaries": [
+        {
+          "scheme": "ICAO",
+          "code": "LEMI",
+          "localDate": "2019-07-31",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "LEMI",
+          "localDate": "2019-08-01",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "LEMI",
+          "localDate": "2019-08-02",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "LEMI",
+          "localDate": "2019-08-03",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "LEMI",
+          "localDate": "2026-10-28",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "LEMI",
+          "localDate": "2026-10-29",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "LEMI",
+          "localDate": "2026-10-30",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        }
+      ]
+    },
+    {
+      "recordIds": [
+        "global-proposal-murcia-old-icao-lelc"
+      ],
+      "uniqueFocusedQueries": 4320,
+      "formalToAccepted": {
+        "not_found->uncertain": 4125,
+        "not_found->resolved": 195
+      },
+      "formalToPending": {
+        "not_found->uncertain": 4320
+      },
+      "pendingToAccepted": {
+        "uncertain->uncertain": 4125,
+        "uncertain->resolved": 195
+      },
+      "netNewResolved": 195,
+      "byScheme": {
+        "IATA": 0,
+        "ICAO": 195
+      },
+      "newConflicts": 0,
+      "removedConflicts": 0,
+      "changedPublishedResolved": 0,
+      "changedExistingAnswers": 0,
+      "protectedQueries": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-04-17",
+          "transition": "not_found->uncertain",
+          "airportId": null,
+          "code": "LELC",
+          "scheme": "ICAO"
+        },
+        {
+          "from": "2026-04-17",
+          "toExclusive": "2026-10-29",
+          "transition": "not_found->resolved",
+          "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+          "code": "LELC",
+          "scheme": "ICAO"
+        },
+        {
+          "from": "2026-10-29",
+          "toExclusive": "2026-10-30",
+          "transition": "not_found->uncertain",
+          "airportId": null,
+          "code": "LELC",
+          "scheme": "ICAO"
+        }
+      ],
+      "boundaries": [
+        {
+          "scheme": "ICAO",
+          "code": "LELC",
+          "localDate": "2026-04-15",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "LELC",
+          "localDate": "2026-04-16",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "LELC",
+          "localDate": "2026-04-17",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "LELC",
+          "localDate": "2026-04-18",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "LELC",
+          "localDate": "2026-10-28",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12"
+        },
+        {
+          "scheme": "ICAO",
+          "code": "LELC",
+          "localDate": "2026-10-29",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "ICAO",
+          "code": "LELC",
+          "localDate": "2026-10-30",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        }
+      ]
+    },
+    {
+      "recordIds": [
+        "global-proposal-murcia-new-iata-rmu"
+      ],
+      "uniqueFocusedQueries": 4320,
+      "formalToAccepted": {
+        "not_found->uncertain": 1675,
+        "not_found->resolved": 2645
+      },
+      "formalToPending": {
+        "not_found->uncertain": 4320
+      },
+      "pendingToAccepted": {
+        "uncertain->uncertain": 1675,
+        "uncertain->resolved": 2645
+      },
+      "netNewResolved": 2645,
+      "byScheme": {
+        "IATA": 2645,
+        "ICAO": 0
+      },
+      "newConflicts": 0,
+      "removedConflicts": 0,
+      "changedPublishedResolved": 0,
+      "changedExistingAnswers": 0,
+      "protectedQueries": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2019-08-02",
+          "transition": "not_found->uncertain",
+          "airportId": null,
+          "code": "RMU",
+          "scheme": "IATA"
+        },
+        {
+          "from": "2019-08-02",
+          "toExclusive": "2026-10-29",
+          "transition": "not_found->resolved",
+          "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+          "code": "RMU",
+          "scheme": "IATA"
+        },
+        {
+          "from": "2026-10-29",
+          "toExclusive": "2026-10-30",
+          "transition": "not_found->uncertain",
+          "airportId": null,
+          "code": "RMU",
+          "scheme": "IATA"
+        }
+      ],
+      "boundaries": [
+        {
+          "scheme": "IATA",
+          "code": "RMU",
+          "localDate": "2019-07-31",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "IATA",
+          "code": "RMU",
+          "localDate": "2019-08-01",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "IATA",
+          "code": "RMU",
+          "localDate": "2019-08-02",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a"
+        },
+        {
+          "scheme": "IATA",
+          "code": "RMU",
+          "localDate": "2019-08-03",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a"
+        },
+        {
+          "scheme": "IATA",
+          "code": "RMU",
+          "localDate": "2026-10-28",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "resolved",
+          "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a"
+        },
+        {
+          "scheme": "IATA",
+          "code": "RMU",
+          "localDate": "2026-10-29",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        },
+        {
+          "scheme": "IATA",
+          "code": "RMU",
+          "localDate": "2026-10-30",
+          "formal": "not_found",
+          "pending": "uncertain",
+          "acceptedHypothesis": "uncertain",
+          "airportId": null
+        }
+      ]
+    }
+  ],
+  "combined": {
+    "recordIds": [
+      "global-proposal-sindhudurg-icao-vosr",
+      "global-proposal-kalaburagi-icao-vogb",
+      "global-proposal-kushinagar-icao-veki",
+      "global-proposal-pakyong-icao-vepy",
+      "global-proposal-kurnool-icao-voku",
+      "global-proposal-murcia-new-icao-lemi",
+      "global-proposal-murcia-old-icao-lelc",
+      "global-proposal-murcia-new-iata-rmu"
+    ],
+    "uniqueFocusedQueries": 34560,
+    "formalToAccepted": {
+      "not_found->uncertain": 24740,
+      "not_found->resolved": 9820
+    },
+    "formalToPending": {
+      "not_found->uncertain": 34560
+    },
+    "pendingToAccepted": {
+      "uncertain->uncertain": 24740,
+      "uncertain->resolved": 9820
+    },
+    "netNewResolved": 9820,
+    "byScheme": {
+      "IATA": 2645,
+      "ICAO": 7175
+    },
+    "newConflicts": 0,
+    "removedConflicts": 0,
+    "changedPublishedResolved": 0,
+    "changedExistingAnswers": 0,
+    "protectedQueries": 146938,
+    "windows": [
+      {
+        "from": "2015-01-01",
+        "toExclusive": "2024-02-23",
+        "transition": "not_found->uncertain",
+        "airportId": null,
+        "code": "VOSR",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2024-02-23",
+        "toExclusive": "2026-07-09",
+        "transition": "not_found->resolved",
+        "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e",
+        "code": "VOSR",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2026-07-09",
+        "toExclusive": "2026-10-30",
+        "transition": "not_found->uncertain",
+        "airportId": null,
+        "code": "VOSR",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2015-01-01",
+        "toExclusive": "2024-02-23",
+        "transition": "not_found->uncertain",
+        "airportId": null,
+        "code": "VOGB",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2024-02-23",
+        "toExclusive": "2026-07-09",
+        "transition": "not_found->resolved",
+        "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7",
+        "code": "VOGB",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2026-07-09",
+        "toExclusive": "2026-10-30",
+        "transition": "not_found->uncertain",
+        "airportId": null,
+        "code": "VOGB",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2015-01-01",
+        "toExclusive": "2024-02-23",
+        "transition": "not_found->uncertain",
+        "airportId": null,
+        "code": "VEKI",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2024-02-23",
+        "toExclusive": "2026-07-09",
+        "transition": "not_found->resolved",
+        "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f",
+        "code": "VEKI",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2026-07-09",
+        "toExclusive": "2026-10-30",
+        "transition": "not_found->uncertain",
+        "airportId": null,
+        "code": "VEKI",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2015-01-01",
+        "toExclusive": "2024-02-23",
+        "transition": "not_found->uncertain",
+        "airportId": null,
+        "code": "VEPY",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2024-02-23",
+        "toExclusive": "2026-07-09",
+        "transition": "not_found->resolved",
+        "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9",
+        "code": "VEPY",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2026-07-09",
+        "toExclusive": "2026-10-30",
+        "transition": "not_found->uncertain",
+        "airportId": null,
+        "code": "VEPY",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2015-01-01",
+        "toExclusive": "2024-02-23",
+        "transition": "not_found->uncertain",
+        "airportId": null,
+        "code": "VOKU",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2024-02-23",
+        "toExclusive": "2026-07-09",
+        "transition": "not_found->resolved",
+        "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3",
+        "code": "VOKU",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2026-07-09",
+        "toExclusive": "2026-10-30",
+        "transition": "not_found->uncertain",
+        "airportId": null,
+        "code": "VOKU",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2015-01-01",
+        "toExclusive": "2019-08-02",
+        "transition": "not_found->uncertain",
+        "airportId": null,
+        "code": "LEMI",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2019-08-02",
+        "toExclusive": "2026-10-29",
+        "transition": "not_found->resolved",
+        "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+        "code": "LEMI",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2026-10-29",
+        "toExclusive": "2026-10-30",
+        "transition": "not_found->uncertain",
+        "airportId": null,
+        "code": "LEMI",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2015-01-01",
+        "toExclusive": "2026-04-17",
+        "transition": "not_found->uncertain",
+        "airportId": null,
+        "code": "LELC",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2026-04-17",
+        "toExclusive": "2026-10-29",
+        "transition": "not_found->resolved",
+        "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+        "code": "LELC",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2026-10-29",
+        "toExclusive": "2026-10-30",
+        "transition": "not_found->uncertain",
+        "airportId": null,
+        "code": "LELC",
+        "scheme": "ICAO"
+      },
+      {
+        "from": "2015-01-01",
+        "toExclusive": "2019-08-02",
+        "transition": "not_found->uncertain",
+        "airportId": null,
+        "code": "RMU",
+        "scheme": "IATA"
+      },
+      {
+        "from": "2019-08-02",
+        "toExclusive": "2026-10-29",
+        "transition": "not_found->resolved",
+        "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+        "code": "RMU",
+        "scheme": "IATA"
+      },
+      {
+        "from": "2026-10-29",
+        "toExclusive": "2026-10-30",
+        "transition": "not_found->uncertain",
+        "airportId": null,
+        "code": "RMU",
+        "scheme": "IATA"
+      }
+    ],
+    "boundaries": [
+      {
+        "scheme": "ICAO",
+        "code": "VOSR",
+        "localDate": "2024-02-21",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOSR",
+        "localDate": "2024-02-22",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOSR",
+        "localDate": "2024-02-23",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOSR",
+        "localDate": "2024-02-24",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOSR",
+        "localDate": "2026-07-08",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOSR",
+        "localDate": "2026-07-09",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOSR",
+        "localDate": "2026-07-10",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOGB",
+        "localDate": "2024-02-21",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOGB",
+        "localDate": "2024-02-22",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOGB",
+        "localDate": "2024-02-23",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOGB",
+        "localDate": "2024-02-24",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOGB",
+        "localDate": "2026-07-08",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOGB",
+        "localDate": "2026-07-09",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOGB",
+        "localDate": "2026-07-10",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VEKI",
+        "localDate": "2024-02-21",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VEKI",
+        "localDate": "2024-02-22",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VEKI",
+        "localDate": "2024-02-23",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VEKI",
+        "localDate": "2024-02-24",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VEKI",
+        "localDate": "2026-07-08",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VEKI",
+        "localDate": "2026-07-09",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VEKI",
+        "localDate": "2026-07-10",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VEPY",
+        "localDate": "2024-02-21",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VEPY",
+        "localDate": "2024-02-22",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VEPY",
+        "localDate": "2024-02-23",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VEPY",
+        "localDate": "2024-02-24",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VEPY",
+        "localDate": "2026-07-08",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VEPY",
+        "localDate": "2026-07-09",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VEPY",
+        "localDate": "2026-07-10",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOKU",
+        "localDate": "2024-02-21",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOKU",
+        "localDate": "2024-02-22",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOKU",
+        "localDate": "2024-02-23",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOKU",
+        "localDate": "2024-02-24",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOKU",
+        "localDate": "2026-07-08",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOKU",
+        "localDate": "2026-07-09",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "VOKU",
+        "localDate": "2026-07-10",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "LEMI",
+        "localDate": "2019-07-31",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "LEMI",
+        "localDate": "2019-08-01",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "LEMI",
+        "localDate": "2019-08-02",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "LEMI",
+        "localDate": "2019-08-03",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "LEMI",
+        "localDate": "2026-10-28",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "LEMI",
+        "localDate": "2026-10-29",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "LEMI",
+        "localDate": "2026-10-30",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "LELC",
+        "localDate": "2026-04-15",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "LELC",
+        "localDate": "2026-04-16",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "LELC",
+        "localDate": "2026-04-17",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "LELC",
+        "localDate": "2026-04-18",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "LELC",
+        "localDate": "2026-10-28",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12"
+      },
+      {
+        "scheme": "ICAO",
+        "code": "LELC",
+        "localDate": "2026-10-29",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "ICAO",
+        "code": "LELC",
+        "localDate": "2026-10-30",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "IATA",
+        "code": "RMU",
+        "localDate": "2019-07-31",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "IATA",
+        "code": "RMU",
+        "localDate": "2019-08-01",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "IATA",
+        "code": "RMU",
+        "localDate": "2019-08-02",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a"
+      },
+      {
+        "scheme": "IATA",
+        "code": "RMU",
+        "localDate": "2019-08-03",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a"
+      },
+      {
+        "scheme": "IATA",
+        "code": "RMU",
+        "localDate": "2026-10-28",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "resolved",
+        "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a"
+      },
+      {
+        "scheme": "IATA",
+        "code": "RMU",
+        "localDate": "2026-10-29",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      },
+      {
+        "scheme": "IATA",
+        "code": "RMU",
+        "localDate": "2026-10-30",
+        "formal": "not_found",
+        "pending": "uncertain",
+        "acceptedHypothesis": "uncertain",
+        "airportId": null
+      }
+    ]
+  },
+  "unselectedRecords": [
+    {
+      "recordId": "global-proposal-murcia-old-iata-mjv",
+      "admittedGain": 0,
+      "measuredAcceptanceWindow": null
+    }
+  ]
+}
