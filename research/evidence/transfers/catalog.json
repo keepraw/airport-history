@@ -1,0 +1,479 @@
+{
+  "formatVersion": 1,
+  "sources": [
+    {
+      "actualEventDate": null,
+      "citations": [
+        {
+          "citationId": "lianyungang-new-quality-q1",
+          "quote": "连云港花果山机场（LYG）",
+          "representation": "normalized_text"
+        },
+        {
+          "citationId": "yibin-new-quality-q1",
+          "quote": "宜宾五粮液机场（YBP）",
+          "representation": "normalized_text"
+        },
+        {
+          "citationId": "luzhou-new-quality-q1",
+          "quote": "泸州云龙机场（LZO）",
+          "representation": "normalized_text"
+        },
+        {
+          "citationId": "zhanjiang-new-quality-q1",
+          "quote": "湛江吴川机场（ZHA）",
+          "representation": "normalized_text"
+        }
+      ],
+      "dataPeriod": [
+        "2022-01-01",
+        "2022-12-31"
+      ],
+      "documentEffectiveDate": null,
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalPublicationKey": "https://chinaairports.org.cn/u/cms/www/202306/12170016gkl3.pdf",
+      "publicationDate": "2023-05",
+      "publisher": "中国民用机场协会 / 中国民航科学技术研究院 / 中国民航报社",
+      "retrievalUrl": "https://chinaairports.org.cn/u/cms/www/202306/12170016gkl3.pdf",
+      "reusesPublication": false,
+      "sourceFamily": "china-airports-service-evaluation",
+      "sourceId": "p0-cn-quality-2022",
+      "sourceType": "primary",
+      "title": "2022 年民用机场服务质量评价报告（2023 年 05 月）",
+      "url": "https://chinaairports.org.cn/u/cms/www/202306/12170016gkl3.pdf"
+    },
+    {
+      "actualEventDate": null,
+      "archiveCaptureDate": "2019-11-20",
+      "archiveRole": "Original carrier HTML bytes preserved by public Internet Archive capture; not an independent mirror publication.",
+      "citations": [
+        {
+          "citationId": "lianyungang-old-spring-2019-11-20-q1",
+          "quote": "连云港白塔埠机场",
+          "representation": "normalized_text"
+        },
+        {
+          "citationId": "lianyungang-old-spring-2019-11-20-q2",
+          "quote": "<a href=\"https://flights.ch.com/airports/LYG/\">连云港机场</a>",
+          "representation": "decoded_html"
+        }
+      ],
+      "documentEffectiveDate": null,
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalPublicationKey": "spring-airport-profile-LYG",
+      "publicationDate": null,
+      "publisher": "春秋航空",
+      "retrievalUrl": "https://web.archive.org/web/20191120170243id_/https://flights.ch.com/airports/airport-LYG/",
+      "reusesPublication": false,
+      "sourceFamily": "spring-airlines",
+      "sourceId": "p0-lianyungang-spring-2019-11-20",
+      "sourceType": "primary",
+      "title": "春秋航空 连云港白塔埠机场 历史网页（捕获 2019-11-20）",
+      "url": "https://flights.ch.com/airports/airport-LYG/"
+    },
+    {
+      "actualEventDate": null,
+      "archiveCaptureDate": "2020-09-21",
+      "archiveRole": "Original carrier HTML bytes preserved by public Internet Archive capture; not an independent mirror publication.",
+      "citations": [
+        {
+          "citationId": "lianyungang-old-spring-2020-09-21-q1",
+          "quote": "连云港白塔埠机场",
+          "representation": "normalized_text"
+        },
+        {
+          "citationId": "lianyungang-old-spring-2020-09-21-q2",
+          "quote": "<a href=\"https://flights.ch.com/airports/LYG/\">连云港机场</a>",
+          "representation": "decoded_html"
+        }
+      ],
+      "documentEffectiveDate": null,
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalPublicationKey": "spring-airport-profile-LYG",
+      "publicationDate": null,
+      "publisher": "春秋航空",
+      "retrievalUrl": "https://web.archive.org/web/20200921115553id_/https://flights.ch.com/airports/airport-LYG/",
+      "reusesPublication": false,
+      "sourceFamily": "spring-airlines",
+      "sourceId": "p0-lianyungang-spring-2020-09-21",
+      "sourceType": "primary",
+      "title": "春秋航空 连云港白塔埠机场 历史网页（捕获 2020-09-21）",
+      "url": "https://flights.ch.com/airports/airport-LYG/"
+    },
+    {
+      "actualEventDate": null,
+      "archiveCaptureDate": "2019-11-15",
+      "archiveRole": "Original carrier HTML bytes preserved by public Internet Archive capture; not an independent mirror publication.",
+      "citations": [
+        {
+          "citationId": "yibin-old-spring-2019-11-15-q1",
+          "quote": "宜宾菜坝机场",
+          "representation": "normalized_text"
+        },
+        {
+          "citationId": "yibin-old-spring-2019-11-15-q2",
+          "quote": "<a href=\"https://flights.ch.com/airports/YBP/\">宜宾机场</a>",
+          "representation": "decoded_html"
+        }
+      ],
+      "documentEffectiveDate": null,
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalPublicationKey": "spring-airport-profile-YBP",
+      "publicationDate": null,
+      "publisher": "春秋航空",
+      "retrievalUrl": "https://web.archive.org/web/20191115131149id_/https://flights.ch.com/airports/airport-YBP/",
+      "reusesPublication": false,
+      "sourceFamily": "spring-airlines",
+      "sourceId": "p0-yibin-spring-2019-11-15",
+      "sourceType": "primary",
+      "title": "春秋航空 宜宾菜坝机场 历史网页（捕获 2019-11-15）",
+      "url": "https://flights.ch.com/airports/airport-YBP/"
+    },
+    {
+      "actualEventDate": null,
+      "archiveCaptureDate": "2019-11-21",
+      "archiveRole": "Original carrier HTML bytes preserved by public Internet Archive capture; not an independent mirror publication.",
+      "citations": [
+        {
+          "citationId": "yibin-old-spring-2019-11-21-q1",
+          "quote": "宜宾菜坝机场",
+          "representation": "normalized_text"
+        },
+        {
+          "citationId": "yibin-old-spring-2019-11-21-q2",
+          "quote": "<a href=\"https://flights.ch.com/airports/YBP/\">宜宾机场</a>",
+          "representation": "decoded_html"
+        }
+      ],
+      "documentEffectiveDate": null,
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalPublicationKey": "spring-airport-profile-YBP",
+      "publicationDate": null,
+      "publisher": "春秋航空",
+      "retrievalUrl": "https://web.archive.org/web/20191121114129id_/https://flights.ch.com/airports/jianjie-YBP/",
+      "reusesPublication": false,
+      "sourceFamily": "spring-airlines",
+      "sourceId": "p0-yibin-spring-2019-11-21",
+      "sourceType": "primary",
+      "title": "春秋航空 宜宾菜坝机场 历史网页（捕获 2019-11-21）",
+      "url": "https://flights.ch.com/airports/jianjie-YBP/"
+    },
+    {
+      "actualEventDate": null,
+      "archiveCapture": "20220725040549",
+      "citations": [
+        {
+          "citationId": "bohol-old-schedule-2015-q1",
+          "quote": "AIRLINE FLIGHT SCHEDULES AIRLINE TAGBILARAN–MANILA MANILA-TAGBILARAN (TAG-MNL) (MNL-TAG)",
+          "representation": "normalized_text"
+        },
+        {
+          "citationId": "bohol-old-schedule-2015-q2",
+          "quote": "Source: Airline Companies (October 2015)",
+          "representation": "normalized_text"
+        },
+        {
+          "citationId": "bohol-old-schedule-2015-q3",
+          "quote": "will replace the existing Tagbilaran Airport",
+          "representation": "normalized_text"
+        }
+      ],
+      "dependencies": [
+        "Airline companies: October 2015 flight schedule compilation"
+      ],
+      "documentEffectiveDate": null,
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalPublicationKey": "https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2015-Edition.pdf",
+      "printedEdition": "2015",
+      "publicationDate": null,
+      "publisher": "Provincial Government of Bohol",
+      "retrievalUrl": "https://web.archive.org/web/20220725040549id_/https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2015-Edition.pdf",
+      "reusesPublication": false,
+      "sourceFamily": "bohol-government-airline-compilation",
+      "sourceId": "p0-bohol-factbook-2015",
+      "sourceType": "primary",
+      "tableDataDate": "2015-10",
+      "title": "Bohol Economic Factbook 2015 Edition（航班表 October 2015）",
+      "url": "https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2015-Edition.pdf"
+    },
+    {
+      "actualEventDate": null,
+      "archiveCapture": "20220725040542",
+      "citations": [
+        {
+          "citationId": "bohol-old-schedule-2017-q1",
+          "quote": "AIRLINE FLIGHT SCHEDULES AIRLINE TAGBILARAN–MANILA MANILA-TAGBILARAN TAGBILARAN- (TAG-MNL) (MNL-TAG)",
+          "representation": "normalized_text"
+        },
+        {
+          "citationId": "bohol-old-schedule-2017-q2",
+          "quote": "Source: Airline Companies (October 2017)",
+          "representation": "normalized_text"
+        },
+        {
+          "citationId": "bohol-old-schedule-2017-q3",
+          "quote": "will replace the existing Tagbilaran Airport",
+          "representation": "normalized_text"
+        }
+      ],
+      "dependencies": [
+        "Airline companies: October 2017 flight schedule compilation"
+      ],
+      "documentEffectiveDate": null,
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalPublicationKey": "https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2016-4.pdf",
+      "printedEdition": "2016",
+      "publicationDate": null,
+      "publisher": "Provincial Government of Bohol",
+      "retrievalUrl": "https://web.archive.org/web/20220725040542id_/https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2016-4.pdf",
+      "reusesPublication": false,
+      "sourceFamily": "bohol-government-airline-compilation",
+      "sourceId": "p0-bohol-factbook-2017",
+      "sourceType": "primary",
+      "tableDataDate": "2017-10",
+      "title": "Bohol Economic Factbook 2016 Edition（航班表 October 2017）",
+      "url": "https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2016-4.pdf"
+    },
+    {
+      "actualEventDate": null,
+      "citations": [
+        {
+          "citationId": "bohol-new-site-airasia-q1",
+          "quote": "Flights to and from Bohol now operate at the Panglao International Airport, replacing the old Tagbilaran airport.",
+          "representation": "normalized_text"
+        }
+      ],
+      "documentEffectiveDate": null,
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalPublicationKey": "https://newsroom.airasia.com/news/2020/2/24/airasia-resumes-flights-to-ho-chi-minh-city-launches-clark-bohol-route-this-summer",
+      "publicationDate": "2020-02-24",
+      "publisher": "AirAsia",
+      "retrievalUrl": "https://newsroom.airasia.com/news/2020/2/24/airasia-resumes-flights-to-ho-chi-minh-city-launches-clark-bohol-route-this-summer",
+      "reusesPublication": false,
+      "sourceFamily": "airasia",
+      "sourceId": "p0-bohol-airasia-site",
+      "sourceType": "primary",
+      "title": "AirAsia resumes Ho Chi Minh City flights and announces Clark–Bohol route",
+      "url": "https://newsroom.airasia.com/news/2020/2/24/airasia-resumes-flights-to-ho-chi-minh-city-launches-clark-bohol-route-this-summer"
+    },
+    {
+      "actualEventDate": null,
+      "citations": [
+        {
+          "citationId": "bohol-new-tag-airasia-q1",
+          "quote": "will be resuming flights each way from Manila to Bohol (TAG) beginning 1 December 2020.",
+          "representation": "normalized_text"
+        }
+      ],
+      "documentEffectiveDate": null,
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalPublicationKey": "https://newsroom.airasia.com/news/2020/11/18/airasia-celebrates-the-reopening-of-bohol-offers-50-off-on-all-flights-from-mnl-to-tag-this-week",
+      "publicationDate": "2020-11-18",
+      "publisher": "AirAsia",
+      "retrievalUrl": "https://newsroom.airasia.com/news/2020/11/18/airasia-celebrates-the-reopening-of-bohol-offers-50-off-on-all-flights-from-mnl-to-tag-this-week",
+      "reusesPublication": false,
+      "sourceFamily": "airasia",
+      "sourceId": "p0-bohol-airasia-booking",
+      "sourceType": "primary",
+      "title": "AirAsia celebrates the reopening of Bohol; Manila–TAG booking offer",
+      "url": "https://newsroom.airasia.com/news/2020/11/18/airasia-celebrates-the-reopening-of-bohol-offers-50-off-on-all-flights-from-mnl-to-tag-this-week"
+    },
+    {
+      "actualEventDate": null,
+      "citations": [
+        {
+          "citationId": "lianyungang-carrier-planned-transfer-q1",
+          "quote": "自2021年12月2日零时起，南航在连云港白塔埠机场进出港航班将全部转至连云港花果山机场运营。",
+          "representation": "normalized_text"
+        }
+      ],
+      "documentEffectiveDate": null,
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalPublicationKey": "https://www.csair.com/newh5/cn/service_notice/1fld91cllsvn0.shtml",
+      "publicationDate": "2021-11-26",
+      "publisher": "中国南方航空",
+      "retrievalUrl": "https://www.csair.com/newh5/cn/service_notice/1fld91cllsvn0.shtml",
+      "reusesPublication": false,
+      "sourceFamily": "china-southern-airlines",
+      "sourceId": "p0-lianyungang-csair-transfer",
+      "sourceType": "primary",
+      "title": "南方航空 lianyungang 转场通知",
+      "url": "https://www.csair.com/newh5/cn/service_notice/1fld91cllsvn0.shtml"
+    },
+    {
+      "actualEventDate": null,
+      "citations": [
+        {
+          "citationId": "zhanjiang-carrier-planned-transfer-q1",
+          "quote": "从2022年3月24日零时起，湛江吴川机场将投入试运行，南航在湛江机场开通的所有航班全部转至湛江吴川机场执行",
+          "representation": "normalized_text"
+        }
+      ],
+      "documentEffectiveDate": null,
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalPublicationKey": "https://www.csair.com/newh5/cn/service_notice/1fulnefkl4qoa.shtml",
+      "publicationDate": "2022-03-21",
+      "publisher": "中国南方航空",
+      "retrievalUrl": "https://www.csair.com/newh5/cn/service_notice/1fulnefkl4qoa.shtml",
+      "reusesPublication": false,
+      "sourceFamily": "china-southern-airlines",
+      "sourceId": "p0-zhanjiang-csair-transfer",
+      "sourceType": "primary",
+      "title": "南方航空 zhanjiang 转场通知",
+      "url": "https://www.csair.com/newh5/cn/service_notice/1fulnefkl4qoa.shtml"
+    },
+    {
+      "actualEventDate": null,
+      "citations": [
+        {
+          "citationId": "techo-executed-2025-q1",
+          "quote": "We began operations on 9 September 2025, followed by our official inauguration on 20 October 2025.",
+          "representation": "normalized_text"
+        }
+      ],
+      "documentEffectiveDate": null,
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalPublicationKey": "https://www.techoairport.com.kh/news/oneyearjourneytechointernationalairport",
+      "publicationDate": "2026-09-11",
+      "publisher": "Techo International Airport",
+      "retrievalUrl": "https://www.techoairport.com.kh/news/oneyearjourneytechointernationalairport",
+      "reusesPublication": false,
+      "sourceFamily": "techo-operator",
+      "sourceId": "p0-techo-anniversary",
+      "sourceType": "primary",
+      "title": "Celebrating our one-year journey at Techo International Airport",
+      "url": "https://www.techoairport.com.kh/news/oneyearjourneytechointernationalairport"
+    },
+    {
+      "actualEventDate": null,
+      "citations": [
+        {
+          "citationId": "techo-kti-current-q1",
+          "quote": "Techo International Airport (IATA: KTI, ICAO: VDTI)",
+          "representation": "normalized_text"
+        }
+      ],
+      "dependencies": [
+        "Same airport ownership/operation project as Techo operator"
+      ],
+      "documentEffectiveDate": null,
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalPublicationKey": "https://www.ocic.com.kh/projects/techo-international-airport",
+      "publicationDate": null,
+      "publisher": "OCIC (airport developer / owner)",
+      "retrievalUrl": "https://www.ocic.com.kh/projects/techo-international-airport",
+      "reusesPublication": false,
+      "sourceFamily": "techo-owner-operator",
+      "sourceId": "p0-techo-owner",
+      "sourceType": "primary",
+      "title": "Techo International Airport (IATA: KTI, ICAO: VDTI)",
+      "url": "https://www.ocic.com.kh/projects/techo-international-airport"
+    },
+    {
+      "actualEventDate": null,
+      "citations": [
+        {
+          "citationId": "pnh-kti-sia-distinct-q1",
+          "quote": "Relocation of Phnom Penh International Airport (PNH) to Techo International Airport (KTI)",
+          "representation": "normalized_text"
+        },
+        {
+          "citationId": "pnh-kti-sia-distinct-q2",
+          "quote": "From 9 September 2025, Singapore Airlines (SIA) flights between Singapore and Phnom Penh will operate to and from Techo International Airport (KTI).",
+          "representation": "normalized_text"
+        }
+      ],
+      "documentEffectiveDate": null,
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalPublicationKey": "https://agent360.singaporeair.com/content/dam/agent360/web-assets/pdf/local/hk/HKGSQ_Relocation_of_PNH_to_KTI_Airport_SN125.pdf",
+      "publicationDate": "2025-08-26",
+      "publisher": "Singapore Airlines",
+      "retrievalUrl": "https://agent360.singaporeair.com/content/dam/agent360/web-assets/pdf/local/hk/HKGSQ_Relocation_of_PNH_to_KTI_Airport_SN125.pdf",
+      "reusesPublication": true,
+      "sourceFamily": "singapore-airlines",
+      "sourceId": "pnh-sia-2025",
+      "sourceType": "primary",
+      "title": "SIA SN125/260825: relocation of PNH to KTI",
+      "url": "https://agent360.singaporeair.com/content/dam/agent360/web-assets/pdf/local/hk/HKGSQ_Relocation_of_PNH_to_KTI_Airport_SN125.pdf"
+    },
+    {
+      "actualEventDate": null,
+      "citations": [
+        {
+          "citationId": "bohol-old-arp-jica-q1",
+          "quote": "Airport Reference Point Long. 123°51’13.0665’’E, Lat. 09°39’51.088’’N",
+          "representation": "normalized_text"
+        }
+      ],
+      "documentEffectiveDate": null,
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalPublicationKey": "https://libportal.jica.go.jp/library/Data/DocforEnvironment/Reports/SoutheastAsia/PhilippinesNBACSEPProject/Phillipine_Bohol%20Airport_DFR_2012.pdf",
+      "publicationDate": "2012",
+      "publisher": "JICA / Philippines DOTC",
+      "retrievalUrl": "https://libportal.jica.go.jp/library/Data/DocforEnvironment/Reports/SoutheastAsia/PhilippinesNBACSEPProject/Phillipine_Bohol%20Airport_DFR_2012.pdf",
+      "reusesPublication": true,
+      "sourceFamily": "jica-dotc",
+      "sourceId": "ph-bohol-jica",
+      "sourceType": "primary",
+      "title": "JICA New Bohol Airport Draft Final Report (2012): existing Tagbilaran ARP",
+      "url": "https://libportal.jica.go.jp/library/Data/DocforEnvironment/Reports/SoutheastAsia/PhilippinesNBACSEPProject/Phillipine_Bohol%20Airport_DFR_2012.pdf"
+    },
+    {
+      "actualEventDate": null,
+      "citations": [
+        {
+          "citationId": "lyg-old-guide-undated-q1",
+          "quote": "连云港白塔埠机场 （LYG）",
+          "representation": "normalized_text"
+        }
+      ],
+      "dependencies": [
+        "Service-provider guide hosted by bank; not CAA/IATA allocation ledger"
+      ],
+      "documentEffectiveDate": null,
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalPublicationKey": "https://www.boc.cn/bcservice/bc1/201106/P020111212557815165903.pdf",
+      "publicationDate": null,
+      "publisher": "DragonPass; hosted by Bank of China",
+      "retrievalUrl": "https://www.boc.cn/bcservice/bc1/201106/P020111212557815165903.pdf",
+      "reusesPublication": false,
+      "sourceFamily": "dragonpass-original-service-guide",
+      "sourceId": "p0-dragonpass-boc-old",
+      "sourceType": "primary",
+      "title": "龙腾卡机场指引客户版（出版日未知）",
+      "url": "https://www.boc.cn/bcservice/bc1/201106/P020111212557815165903.pdf"
+    }
+  ]
+}

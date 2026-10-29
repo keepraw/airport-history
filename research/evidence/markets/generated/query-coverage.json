@@ -1,0 +1,1174 @@
+{
+  "period": [
+    "2015-01-01",
+    "2026-10-29"
+  ],
+  "hypothesis": "All new pending sources and assignments approved in memory only; physical coordinates retain reference status.",
+  "formalNewResolvedQueries": 0,
+  "potentialNewResolvedQueries": 21200,
+  "changedPublishedResolvedQueries": 0,
+  "changedPendingResolvedQueries": 0,
+  "codeDateUnit": "One namespace + code + whole local Gregorian date; unique across the combined proposal, not a completeness percentage.",
+  "byAssignment": [
+    {
+      "assignmentId": "global-proposal-sindhudurg-icao-vosr",
+      "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e",
+      "scheme": "ICAO",
+      "code": "VOSR",
+      "newlyResolvedDays": 867,
+      "resolvedWindows": [
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "status": "resolved"
+        }
+      ],
+      "firstResolvedDate": "2024-02-23",
+      "lastResolvedDate": "2026-07-08",
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-kalaburagi-icao-vogb",
+      "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7",
+      "scheme": "ICAO",
+      "code": "VOGB",
+      "newlyResolvedDays": 867,
+      "resolvedWindows": [
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "status": "resolved"
+        }
+      ],
+      "firstResolvedDate": "2024-02-23",
+      "lastResolvedDate": "2026-07-08",
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-kurnool-icao-voku",
+      "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3",
+      "scheme": "ICAO",
+      "code": "VOKU",
+      "newlyResolvedDays": 867,
+      "resolvedWindows": [
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "status": "resolved"
+        }
+      ],
+      "firstResolvedDate": "2024-02-23",
+      "lastResolvedDate": "2026-07-08",
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-kushinagar-icao-veki",
+      "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f",
+      "scheme": "ICAO",
+      "code": "VEKI",
+      "newlyResolvedDays": 867,
+      "resolvedWindows": [
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "status": "resolved"
+        }
+      ],
+      "firstResolvedDate": "2024-02-23",
+      "lastResolvedDate": "2026-07-08",
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-pakyong-icao-vepy",
+      "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9",
+      "scheme": "ICAO",
+      "code": "VEPY",
+      "newlyResolvedDays": 867,
+      "resolvedWindows": [
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "status": "resolved"
+        }
+      ],
+      "firstResolvedDate": "2024-02-23",
+      "lastResolvedDate": "2026-07-08",
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-hollongi-icao-veho",
+      "airportId": "apt_9acf6a6b-6e22-48c6-881c-d602429a9268",
+      "scheme": "ICAO",
+      "code": "VEHO",
+      "newlyResolvedDays": 1343,
+      "resolvedWindows": [
+        {
+          "from": "2022-11-04",
+          "toExclusive": "2026-07-09",
+          "status": "resolved"
+        }
+      ],
+      "firstResolvedDate": "2022-11-04",
+      "lastResolvedDate": "2026-07-08",
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-mopa-icao-voga",
+      "airportId": "apt_d8c584ef-5538-47e0-ab55-ccefd309e6af",
+      "scheme": "ICAO",
+      "code": "VOGA",
+      "newlyResolvedDays": 867,
+      "resolvedWindows": [
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "status": "resolved"
+        }
+      ],
+      "firstResolvedDate": "2024-02-23",
+      "lastResolvedDate": "2026-07-08",
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-shirdi-icao-vasd",
+      "airportId": "apt_fa1bf7a7-a97d-4676-9c9a-7871eda47767",
+      "scheme": "ICAO",
+      "code": "VASD",
+      "newlyResolvedDays": 867,
+      "resolvedWindows": [
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "status": "resolved"
+        }
+      ],
+      "firstResolvedDate": "2024-02-23",
+      "lastResolvedDate": "2026-07-08",
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-kannur-icao-vokn",
+      "airportId": "apt_58a2554f-6a9b-4ad7-bc2c-2550ad21b962",
+      "scheme": "ICAO",
+      "code": "VOKN",
+      "newlyResolvedDays": 867,
+      "resolvedWindows": [
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "status": "resolved"
+        }
+      ],
+      "firstResolvedDate": "2024-02-23",
+      "lastResolvedDate": "2026-07-08",
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-durgapur-icao-vedg",
+      "airportId": "apt_7f9cc70a-c6cc-44a1-b78e-9a817165e1c4",
+      "scheme": "ICAO",
+      "code": "VEDG",
+      "newlyResolvedDays": 867,
+      "resolvedWindows": [
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "status": "resolved"
+        }
+      ],
+      "firstResolvedDate": "2024-02-23",
+      "lastResolvedDate": "2026-07-08",
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-rajkot-new-icao-vahs",
+      "airportId": "apt_f239c222-5378-4291-bc8a-7c3ebb0d147f",
+      "scheme": "ICAO",
+      "code": "VAHS",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-siemreap-new-iata-sai",
+      "airportId": "apt_0c14aa20-7db5-4fcb-8622-5c38a6ef4a95",
+      "scheme": "IATA",
+      "code": "SAI",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-siemreap-old-iata-rep",
+      "airportId": "apt_8067a434-5493-499a-a970-44dd6c2b1b53",
+      "scheme": "IATA",
+      "code": "REP",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-bicol-iata-lgp",
+      "airportId": "apt_e4a0e403-4f25-472c-bac1-b784eba0bcd9",
+      "scheme": "IATA",
+      "code": "LGP",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-bicol-iata-drp",
+      "airportId": "apt_e4a0e403-4f25-472c-bac1-b784eba0bcd9",
+      "scheme": "IATA",
+      "code": "DRP",
+      "newlyResolvedDays": 1413,
+      "resolvedWindows": [
+        {
+          "from": "2022-12-16",
+          "toExclusive": "2026-10-29",
+          "status": "resolved"
+        }
+      ],
+      "firstResolvedDate": "2022-12-16",
+      "lastResolvedDate": "2026-10-28",
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-bohol-new-iata-tag",
+      "airportId": "apt_4dc2e0a8-c3ea-42a1-96c7-a268411b7460",
+      "scheme": "IATA",
+      "code": "TAG",
+      "newlyResolvedDays": 61,
+      "resolvedWindows": [
+        {
+          "from": "2024-09-01",
+          "toExclusive": "2024-11-01",
+          "status": "resolved"
+        }
+      ],
+      "firstResolvedDate": "2024-09-01",
+      "lastResolvedDate": "2024-10-31",
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-chaiten-new-icao-sctn",
+      "airportId": "apt_1aa967e1-6a28-4438-bc18-7acb6920c547",
+      "scheme": "ICAO",
+      "code": "SCTN",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-chaiten-new-iata-wch",
+      "airportId": "apt_1aa967e1-6a28-4438-bc18-7acb6920c547",
+      "scheme": "IATA",
+      "code": "WCH",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-murcia-new-icao-lemi",
+      "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+      "scheme": "ICAO",
+      "code": "LEMI",
+      "newlyResolvedDays": 2645,
+      "resolvedWindows": [
+        {
+          "from": "2019-08-02",
+          "toExclusive": "2026-10-29",
+          "status": "resolved"
+        }
+      ],
+      "firstResolvedDate": "2019-08-02",
+      "lastResolvedDate": "2026-10-28",
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-murcia-new-iata-rmu",
+      "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+      "scheme": "IATA",
+      "code": "RMU",
+      "newlyResolvedDays": 2645,
+      "resolvedWindows": [
+        {
+          "from": "2019-08-02",
+          "toExclusive": "2026-10-29",
+          "status": "resolved"
+        }
+      ],
+      "firstResolvedDate": "2019-08-02",
+      "lastResolvedDate": "2026-10-28",
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-murcia-old-icao-lelc",
+      "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+      "scheme": "ICAO",
+      "code": "LELC",
+      "newlyResolvedDays": 2645,
+      "resolvedWindows": [
+        {
+          "from": "2019-08-02",
+          "toExclusive": "2026-10-29",
+          "status": "resolved"
+        }
+      ],
+      "firstResolvedDate": "2019-08-02",
+      "lastResolvedDate": "2026-10-28",
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-murcia-old-iata-mjv",
+      "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+      "scheme": "IATA",
+      "code": "MJV",
+      "newlyResolvedDays": 2645,
+      "resolvedWindows": [
+        {
+          "from": "2019-08-02",
+          "toExclusive": "2026-10-29",
+          "status": "resolved"
+        }
+      ],
+      "firstResolvedDate": "2019-08-02",
+      "lastResolvedDate": "2026-10-28",
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-ramon-iata-etm",
+      "airportId": "apt_c2ab102c-fede-4c3e-a351-12468dedaf25",
+      "scheme": "IATA",
+      "code": "ETM",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-ramon-icao-ller",
+      "airportId": "apt_c2ab102c-fede-4c3e-a351-12468dedaf25",
+      "scheme": "ICAO",
+      "code": "LLER",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-fagalii-iata-fgi",
+      "airportId": "apt_94e4d809-205f-4295-b39e-2b135c722d8f",
+      "scheme": "IATA",
+      "code": "FGI",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-ndola-new-iata-nla",
+      "airportId": "apt_e171bf4b-8cb3-4fb7-8f17-299a0b35bbeb",
+      "scheme": "IATA",
+      "code": "NLA",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-ndola-new-icao-flsk",
+      "airportId": "apt_e171bf4b-8cb3-4fb7-8f17-299a0b35bbeb",
+      "scheme": "ICAO",
+      "code": "FLSK",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-conquista-new-icao-sbvc",
+      "airportId": "apt_37335154-e31b-4bde-9b4a-073dcb4be07d",
+      "scheme": "ICAO",
+      "code": "SBVC",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-conquista-new-icao-ssvc",
+      "airportId": "apt_37335154-e31b-4bde-9b4a-073dcb4be07d",
+      "scheme": "ICAO",
+      "code": "SSVC",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-luanda-new-iata-nbj",
+      "airportId": "apt_bf785771-6524-405a-bd5d-bb3db352e06f",
+      "scheme": "IATA",
+      "code": "NBJ",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-vandon-iata-vdo",
+      "airportId": "apt_2ae2f4fe-4bea-4b75-8068-fa387b6853a5",
+      "scheme": "IATA",
+      "code": "VDO",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-rajkot-new-iata-hsr",
+      "airportId": "apt_f239c222-5378-4291-bc8a-7c3ebb0d147f",
+      "scheme": "IATA",
+      "code": "HSR",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-qaqortoq-new-icao-bgqo",
+      "airportId": "apt_18a8650d-d0cc-4d3b-aef5-48a57d594b9e",
+      "scheme": "ICAO",
+      "code": "BGQO",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "global-proposal-qaqortoq-new-iata-jju",
+      "airportId": "apt_18a8650d-d0cc-4d3b-aef5-48a57d594b9e",
+      "scheme": "IATA",
+      "code": "JJU",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "markets-proposal-ankang-new-iata-aka",
+      "airportId": "apt_68a848c7-9db9-4233-b0d9-65eb7ed7407e",
+      "scheme": "IATA",
+      "code": "AKA",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "markets-proposal-dazhou-new-iata-dzh",
+      "airportId": "apt_31b795bf-a43d-461f-8321-cf3f1fed208f",
+      "scheme": "IATA",
+      "code": "DZH",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "markets-proposal-dazhou-old-iata-dax",
+      "airportId": "apt_449cf433-2af1-47be-a67e-d571433415a7",
+      "scheme": "IATA",
+      "code": "DAX",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "markets-proposal-jinzhou-new-iata-jnz",
+      "airportId": "apt_309b521b-0137-4c9b-a404-11d7bfc17075",
+      "scheme": "IATA",
+      "code": "JNZ",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "markets-proposal-lianyungang-new-iata-lyg",
+      "airportId": "apt_64b5eaa6-a984-4816-86d9-d8eb71c91451",
+      "scheme": "IATA",
+      "code": "LYG",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "markets-proposal-yanan-new-iata-eny",
+      "airportId": "apt_ebdabf02-ae37-4295-9667-39ea914e3c05",
+      "scheme": "IATA",
+      "code": "ENY",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    },
+    {
+      "assignmentId": "markets-proposal-yibin-new-iata-ybp",
+      "airportId": "apt_8354da99-7d18-4329-bf7b-4ed042a4ad72",
+      "scheme": "IATA",
+      "code": "YBP",
+      "newlyResolvedDays": 0,
+      "resolvedWindows": [],
+      "firstResolvedDate": null,
+      "lastResolvedDate": null,
+      "unresolvedCrossSiteDays": 0
+    }
+  ],
+  "byCode": {
+    "ICAO:VOSR": {
+      "potentialNewResolvedQueries": 867,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2024-02-23",
+          "status": "not_found->uncertain"
+        },
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "status": "not_found->resolved"
+        },
+        {
+          "from": "2026-07-09",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "ICAO:VOGB": {
+      "potentialNewResolvedQueries": 867,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2024-02-23",
+          "status": "not_found->uncertain"
+        },
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "status": "not_found->resolved"
+        },
+        {
+          "from": "2026-07-09",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "ICAO:VOKU": {
+      "potentialNewResolvedQueries": 867,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2024-02-23",
+          "status": "not_found->uncertain"
+        },
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "status": "not_found->resolved"
+        },
+        {
+          "from": "2026-07-09",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "ICAO:VEKI": {
+      "potentialNewResolvedQueries": 867,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2024-02-23",
+          "status": "not_found->uncertain"
+        },
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "status": "not_found->resolved"
+        },
+        {
+          "from": "2026-07-09",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "ICAO:VEPY": {
+      "potentialNewResolvedQueries": 867,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2024-02-23",
+          "status": "not_found->uncertain"
+        },
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "status": "not_found->resolved"
+        },
+        {
+          "from": "2026-07-09",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "ICAO:VEHO": {
+      "potentialNewResolvedQueries": 1343,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2022-11-04",
+          "status": "not_found->uncertain"
+        },
+        {
+          "from": "2022-11-04",
+          "toExclusive": "2026-07-09",
+          "status": "not_found->resolved"
+        },
+        {
+          "from": "2026-07-09",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "ICAO:VOGA": {
+      "potentialNewResolvedQueries": 867,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2024-02-23",
+          "status": "not_found->uncertain"
+        },
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "status": "not_found->resolved"
+        },
+        {
+          "from": "2026-07-09",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "ICAO:VASD": {
+      "potentialNewResolvedQueries": 867,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2024-02-23",
+          "status": "not_found->uncertain"
+        },
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "status": "not_found->resolved"
+        },
+        {
+          "from": "2026-07-09",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "ICAO:VOKN": {
+      "potentialNewResolvedQueries": 867,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2024-02-23",
+          "status": "not_found->uncertain"
+        },
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "status": "not_found->resolved"
+        },
+        {
+          "from": "2026-07-09",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "ICAO:VEDG": {
+      "potentialNewResolvedQueries": 867,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2024-02-23",
+          "status": "not_found->uncertain"
+        },
+        {
+          "from": "2024-02-23",
+          "toExclusive": "2026-07-09",
+          "status": "not_found->resolved"
+        },
+        {
+          "from": "2026-07-09",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "ICAO:VAHS": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:SAI": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:REP": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:LGP": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:DRP": {
+      "potentialNewResolvedQueries": 1413,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2022-12-16",
+          "status": "not_found->uncertain"
+        },
+        {
+          "from": "2022-12-16",
+          "toExclusive": "2026-10-29",
+          "status": "not_found->resolved"
+        },
+        {
+          "from": "2026-10-29",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:TAG": {
+      "potentialNewResolvedQueries": 61,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2024-09-01",
+          "status": "not_found->uncertain"
+        },
+        {
+          "from": "2024-09-01",
+          "toExclusive": "2024-11-01",
+          "status": "not_found->resolved"
+        },
+        {
+          "from": "2024-11-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "ICAO:SCTN": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:WCH": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "ICAO:LEMI": {
+      "potentialNewResolvedQueries": 2645,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2019-08-02",
+          "status": "not_found->uncertain"
+        },
+        {
+          "from": "2019-08-02",
+          "toExclusive": "2026-10-29",
+          "status": "not_found->resolved"
+        },
+        {
+          "from": "2026-10-29",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:RMU": {
+      "potentialNewResolvedQueries": 2645,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2019-08-02",
+          "status": "not_found->uncertain"
+        },
+        {
+          "from": "2019-08-02",
+          "toExclusive": "2026-10-29",
+          "status": "not_found->resolved"
+        },
+        {
+          "from": "2026-10-29",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "ICAO:LELC": {
+      "potentialNewResolvedQueries": 2645,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2019-08-02",
+          "status": "not_found->uncertain"
+        },
+        {
+          "from": "2019-08-02",
+          "toExclusive": "2026-10-29",
+          "status": "not_found->resolved"
+        },
+        {
+          "from": "2026-10-29",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:MJV": {
+      "potentialNewResolvedQueries": 2645,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2019-08-02",
+          "status": "not_found->uncertain"
+        },
+        {
+          "from": "2019-08-02",
+          "toExclusive": "2026-10-29",
+          "status": "not_found->resolved"
+        },
+        {
+          "from": "2026-10-29",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:ETM": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "ICAO:LLER": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:FGI": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:NLA": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "ICAO:FLSK": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "ICAO:SBVC": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "ICAO:SSVC": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:NBJ": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:VDO": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:HSR": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "ICAO:BGQO": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:JJU": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:AKA": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:DZH": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:DAX": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:JNZ": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:LYG": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:ENY": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    },
+    "IATA:YBP": {
+      "potentialNewResolvedQueries": 0,
+      "confirmedConflictDays": 0,
+      "windows": [
+        {
+          "from": "2015-01-01",
+          "toExclusive": "2026-10-30",
+          "status": "not_found->uncertain"
+        }
+      ]
+    }
+  }
+}

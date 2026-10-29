@@ -1,0 +1,21 @@
+{
+  "originalSha256": "a1b54fa8d922f1c6e45d7b84bb58f026097c7ff36039d31c34f5c986d5e6b9a9",
+  "originalTextSha256": "f2866b75e9d77c7c865f26e7b7e3d8380a60a704d8077ff508d670955926e49d",
+  "sourceId": "cn-stat-2021",
+  "spans": [
+    {
+      "factId": "qingdao-finding",
+      "normalizedCharacterEnd": 857,
+      "normalizedCharacterStart": 843,
+      "page": null,
+      "quote": "青岛流亭机场迁至青岛胶东机场"
+    },
+    {
+      "factId": "lianyungang-finding",
+      "normalizedCharacterEnd": 876,
+      "normalizedCharacterStart": 858,
+      "page": null,
+      "quote": "连云港白塔埠机场迁至连云港花果山机场"
+    }
+  ]
+}

@@ -9,3 +9,4 @@ coverage/
 # Explicit research downloads, caches and scratch files
 work/
 __pycache__/
+.acquisition.lock

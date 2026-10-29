@@ -1,0 +1,682 @@
+{
+  "formatVersion": 1,
+  "sources": [
+    {
+      "expectedQuotes": [
+        "标志着历时五年建设的安康富强机场正式通航"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Ankang Municipal Government",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "cn-ankang-government",
+      "title": "Actual Fuqiang commercial arrival",
+      "url": "https://www.ankang.gov.cn/Content-2175564.html"
+    },
+    {
+      "expectedQuotes": [
+        "成都步入“两场一体”运营新时代"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "CAAC Southwest",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "cn-chengdu-parallel",
+      "title": "Executed Tianfu opening and parallel Shuangliu services",
+      "url": "https://www.caac.gov.cn/local/XNGLJ/XN_XXGK/XN_YSSC/202312/t20231207_222264.html"
+    },
+    {
+      "expectedQuotes": [
+        "达州金垭机场（三字代码DZH）",
+        "达州河市机场（三字代码DAX）"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Sichuan Airlines",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "cn-dazhou-airline",
+      "title": "Dazhou DAX to DZH operational transfer notice",
+      "url": "https://www.sichuanair.com/affiche/415.html"
+    },
+    {
+      "expectedQuotes": [
+        "达州金垭机场于5月正式通航，达州河市机场同步关闭。"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "CAAC Southwest",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "cn-dazhou-executed",
+      "title": "2022 regional aviation production and executed Dazhou replacement",
+      "url": "https://www.caac.gov.cn/PHONE/GLJ_PHONE/XNGLJ/XN_XXGK/XNYSSC/202301/t20230116_216897.html"
+    },
+    {
+      "expectedQuotes": [
+        "泸州蓝田机场迁建的新机场"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Luzhou Airport Group",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "cn-luzhou-operator",
+      "title": "Lantian to Yunlong relocation and September 2018 operations",
+      "url": "https://www.luzhouairport.com/content/1790.html"
+    },
+    {
+      "expectedQuotes": [
+        "安康/富强 AKA",
+        "延安/南泥湾 ENY",
+        "达州/金垭 DZH",
+        "连云港/花果山 LYG",
+        "宜宾/五粮液 YBP",
+        "锦州/锦州湾 JNZ",
+        "十堰/武当山 WDS"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Guangdong Department of Ecology and Environment",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "cn-regional-iata",
+      "title": "2023 carbon reporting guide airport IATA appendix",
+      "url": "https://gdee.gd.gov.cn/attachment/0/515/515612/4130544.pdf"
+    },
+    {
+      "expectedQuotes": [
+        "完成了山东烟台机场、辽宁锦州机场迁建",
+        "山东日照三字河机场",
+        "完成了山东烟台机场、辽宁锦州机场迁建"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "CAAC",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "cn-stat-2015",
+      "title": "2015 civil aviation development statistics",
+      "url": "https://www.caac.gov.cn/PHONE/XXGK_17/XXGK/TJSJ/201605/P020160531575434538041.pdf"
+    },
+    {
+      "expectedQuotes": [
+        "湖北十堰"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "CAAC",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "cn-stat-2016",
+      "title": "2016 civil airport statistics",
+      "url": "https://www.caac.gov.cn/PHONE/XXGK_17/XXGK/TJSJ/201702/t20170224_42760.html"
+    },
+    {
+      "expectedQuotes": [
+        "宜宾菜坝机场迁至宜宾五粮液机场",
+        "北京南苑机场停航"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "CAAC",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "cn-stat-2019",
+      "title": "2019 civil airport statistics",
+      "url": "https://www.caac.gov.cn/XXGK/XXGK/TJSJ/202003/t20200309_201358.html"
+    },
+    {
+      "expectedQuotes": [
+        "青岛流亭机场迁至青岛胶东机场",
+        "连云港白塔埠机场迁至连云港花果山机场"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "CAAC",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "cn-stat-2021",
+      "title": "2021 civil airport statistics",
+      "url": "https://www.caac.gov.cn/XXGK/XXGK/TJSJ/202203/t20220322_212478.html"
+    },
+    {
+      "expectedQuotes": [
+        "湛江机场迁至湛江吴川机场"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "CAAC",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "cn-stat-2022",
+      "title": "2022 civil airport statistics",
+      "url": "https://www.caac.gov.cn/XXGK/XXGK/TJSJ/202303/t20230317_217609.html"
+    },
+    {
+      "expectedQuotes": [
+        "迁建二十里铺机场"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "CAAC Northwest",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "cn-yanan-sites",
+      "title": "Yanan Nanniwan operation and Ershilipu replacement",
+      "url": "https://xb.caac.gov.cn/GDTPXW_XB/201811/t20181112_192793.html"
+    },
+    {
+      "expectedQuotes": [
+        "The existing facilities at Schönefeld Airport will continue to operate as BER's Terminal 5."
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Flughafen Berlin Brandenburg GmbH",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "de-ber-history",
+      "title": "BER and Tegel history",
+      "url": "https://corporate.berlin-airport.de/en/company-media/history/berlin-brandenburg-airport.html"
+    },
+    {
+      "expectedQuotes": [
+        "MURCIA/San Javier - LELC (MJV)",
+        "LEMI (RMU)"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "ENAIRE",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "es-murcia-index-current",
+      "title": "Current AD 1.3 code and aerodrome index observed 29 October 2026",
+      "url": "https://aip.enaire.es/aip/contenido_AIP/AD/LE_AD_1_3_en.html"
+    },
+    {
+      "expectedQuotes": [
+        "Starting 21 June 2022"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Finavia",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "fi-hel-terminal",
+      "title": "Helsinki single terminal transition June 2022",
+      "url": "https://www.finavia.fi/en/newsroom/2022/historic-change-taking-place-helsinki-airport-21-june"
+    },
+    {
+      "expectedQuotes": [
+        "Le 19 mars 2019"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Groupe ADP",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "fr-ory-terminal",
+      "title": "Paris Orly four sectors March 2019",
+      "url": "https://www.parisaeroport.fr/docs/default-source/passager-fichiers/preparer/pww/pww30.pdf"
+    },
+    {
+      "expectedQuotes": [
+        "A history of taking flight"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Birmingham Airport",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "gb-bhx-history",
+      "title": "Birmingham history",
+      "url": "https://corporate.birminghamairport.co.uk/our-history/"
+    },
+    {
+      "expectedQuotes": [
+        "Bristol Airport celebrates 60 years of flying from its current site"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Bristol Airport",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "gb-brs-history",
+      "title": "Bristol history",
+      "url": "https://www.bristolairport.co.uk/corporate/about-us/our-history/"
+    },
+    {
+      "expectedQuotes": [
+        "The new appliances are due to be delivered in spring 2027"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Fly Doncaster",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "gb-dsa-fire",
+      "title": "Reopening preparations and spring 2027 fire appliances",
+      "url": "https://www.flydsa.com/news/dsa-orders-three-state-of-the-art-fire-appliances-as-reopening-preparations-continue/"
+    },
+    {
+      "expectedQuotes": [
+        "Doncaster Sheffield Airport closed in November 2022"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "South Yorkshire MCA",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "gb-dsa-status",
+      "title": "Doncaster airport closure and reopening project",
+      "url": "https://www.southyorkshire-ca.gov.uk/business/doncaster-sheffield-airport"
+    },
+    {
+      "expectedQuotes": [
+        "In April, 2024 we welcomed a new strategic partnership"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Edinburgh Airport",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "gb-edi-history",
+      "title": "Edinburgh history",
+      "url": "https://corporate.edinburghairport.com/about-us/edinburgh-airport-history"
+    },
+    {
+      "expectedQuotes": [
+        "Official 50 year anniversary of first commercial flight landing at Glasgow Airport"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Glasgow Airport",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "gb-gla-history",
+      "title": "Glasgow history",
+      "url": "https://www.glasgowairport.com/about-us/"
+    },
+    {
+      "expectedQuotes": [
+        "2020: The global pandemic"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "London Gatwick",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "gb-lgw-history",
+      "title": "Gatwick history",
+      "url": "https://www.gatwickairport.com/company/about-us/our-history.html"
+    },
+    {
+      "expectedQuotes": [
+        "2015"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Heathrow Airport",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "gb-lhr-history",
+      "title": "Heathrow history",
+      "url": "https://www.heathrow.com/company/about-heathrow/our-history"
+    },
+    {
+      "expectedQuotes": [
+        "Terminal Two was expanded by more than 150 per cent"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Manchester Airport",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "gb-man-terminal",
+      "title": "Three years of Terminal 2 extension",
+      "url": "https://mediacentre.manchesterairport.co.uk/three-years-on-manchester-airports-new-terminal-2-in-numbers/"
+    },
+    {
+      "expectedQuotes": [
+        "2017 - Jet2.com"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "London Stansted Airport",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "gb-stn-history",
+      "title": "Stansted history",
+      "url": "https://www.stanstedairport.com/about-us/london-stansted-airport-and-mag/airport-history/"
+    },
+    {
+      "expectedQuotes": [
+        "as of Thursday 18 November 2021"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "SACBO",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "it-bgy-access",
+      "title": "Bergamo terminal extension access November 2021",
+      "url": "https://www.milanbergamoairport.it/en/news/389-new-procedures-for-access-to-the-milan-bergamo-airport-terminal/"
+    },
+    {
+      "expectedQuotes": [
+        "In 2019, New Chitose Airport Terminal Building"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Hokkaido Airports",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "jp-cts-history",
+      "title": "New Chitose history",
+      "url": "https://www.hokkaido-airports.com/en/new-chitose/business/airport/about/"
+    },
+    {
+      "expectedQuotes": [
+        "In March 2025, the additional runway (Runway B) began operation."
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Fukuoka International Airport Co.",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "jp-fuk-history",
+      "title": "Fukuoka airport history",
+      "url": "https://www.fukuoka-airport.jp/en/about/"
+    },
+    {
+      "expectedQuotes": [
+        "Haneda Airport (HND)"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "ANA",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "jp-hnd-ana",
+      "title": "Haneda HND terminal services",
+      "url": "https://www.anahd.co.jp/group/en/pr/202001/20200124.html"
+    },
+    {
+      "expectedQuotes": [
+        "大阪国際空港（伊丹空港）ターミナルの大規模リニューアル"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "MLIT",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "jp-itm-mlit",
+      "title": "Itami terminal renovation 2016 to 2020",
+      "url": "https://www.mlit.go.jp/kokudoseisaku/content/001589177.pdf"
+    },
+    {
+      "expectedQuotes": [
+        "has refreshed the airport counters in the domestic area of Terminal 2"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Peach Aviation",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "jp-kix-peach",
+      "title": "Executed Kansai T2 domestic counter renewal April 2026",
+      "url": "https://www.flypeach.com/application/files/4517/7502/6786/20260401-Press-Release-E.pdf"
+    },
+    {
+      "expectedQuotes": [
+        "中部国際空港島南側で整備を進めている新しいターミナルビル"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Central Japan International Airport Co.",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "jp-ngo-terminal",
+      "title": "Terminal 2 opens September 2019",
+      "url": "https://www.centrair.jp/topics/1221320_1661.html"
+    },
+    {
+      "expectedQuotes": [
+        "2005年に県営空港として開港してから、2025年2月で20周年"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Aichi Prefecture",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "jp-nkm-prefecture",
+      "title": "Nagoya 2005 prefectural airport status twentieth anniversary",
+      "url": "https://www.pref.aichi.jp/press-release/nagoya-airport20th.html"
+    },
+    {
+      "expectedQuotes": [
+        "April 2015 Passenger Terminal 3 was opened."
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "NAA",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "jp-nrt-history",
+      "title": "History of Narita International Airport",
+      "url": "https://www.narita-airport.jp/en/discover/history/"
+    },
+    {
+      "expectedQuotes": [
+        "第二滑走路"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "MLIT",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "jp-oka-runway",
+      "title": "Naha second runway",
+      "url": "https://www.mlit.go.jp/report/press/kouku06_hh_000028.html"
+    },
+    {
+      "expectedQuotes": [
+        "2019年3月30日に開業した国際線等旅客施設"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Mitsubishi Estate",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "jp-shi-operator",
+      "title": "Shimojishima 2019 terminal and 2024 business jet terminal",
+      "url": "https://www.mec.co.jp/news/detail/2024/04/16_mec240416_shimojibj"
+    },
+    {
+      "expectedQuotes": [
+        "2025年4月18日からの国際チャーター便の運用開始"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Kobe City",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "jp-ukb-city",
+      "title": "Kobe airport international charter operations and anniversary",
+      "url": "https://www.city.kobe.lg.jp/a11380/20241010.html"
+    },
+    {
+      "expectedQuotes": [
+        "1997. 04 청주국제공항 개항"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Korea Airports Corporation",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "kr-cjj-history",
+      "title": "Cheongju overview and history",
+      "url": "https://www.airport.co.kr/cheongju/cms/frCon/index.do?MENU_ID=330"
+    },
+    {
+      "expectedQuotes": [
+        "제주국제공항은 제주도 제주시 공항로 2에 위치해 있다."
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Korea Airports Corporation",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "kr-cju-history",
+      "title": "Jeju overview and history",
+      "url": "https://www.airport.co.kr/jeju/cms/frCon/index.do?CONTENTS_NO=1&MENU_ID=320"
+    },
+    {
+      "expectedQuotes": [
+        "김포공항은 서울시 강서구 하늘길 112(공항동)에 위치해 있다."
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Korea Airports Corporation",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "kr-gmp-history",
+      "title": "Gimpo overview and history",
+      "url": "https://www.airport.co.kr/gimpo/cms/frCon/index.do?MENU_ID=2020"
+    },
+    {
+      "expectedQuotes": [
+        "construction of a fourth runway and the expansion of the second passenger terminal"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Incheon International Airport Corporation",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "kr-icn-phases",
+      "title": "Incheon phase four expansion",
+      "url": "https://www.airport.kr/co_en/4385/subview.do"
+    },
+    {
+      "expectedQuotes": [
+        "2007.11 무안국제공항 개항"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Korea Airports Corporation",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "kr-mwx-history",
+      "title": "Muan overview and history",
+      "url": "https://www.airport.co.kr/muan/cms/frCon/index.do?MENU_ID=320"
+    },
+    {
+      "expectedQuotes": [
+        "2017. 07 국제선 여객청사 증축"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Korea Airports Corporation",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "kr-pus-history",
+      "title": "Gimhae overview and history",
+      "url": "https://www.airport.co.kr/gimhae/cms/frCon/index.do?MENU_ID=360"
+    },
+    {
+      "expectedQuotes": [
+        "2020"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Gyeongsangbuk-do Provincial Government",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "kr-tae-province",
+      "title": "Daegu Gyeongbuk integrated new airport planning chronology",
+      "url": "https://www.gb.go.kr/page/10574/10249.do"
+    },
+    {
+      "expectedQuotes": [
+        "planned for 2029/2030"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Avinor",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "no-bodo-plan",
+      "title": "New Bodo airport planned for 2029/2030",
+      "url": "https://om.avinor.no/en/innovation/new-airport-bodo/"
+    },
+    {
+      "expectedQuotes": [
+        "closed down permanently as of 1 April 2017",
+        "closed for commercial traffic in 2016",
+        "operation in April 2017",
+        "Bergen Airport"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "EUROCONTROL / Norway authorities",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "no-nvk-closure",
+      "title": "2017 Norway LSSIP",
+      "url": "https://www.eurocontrol.int/sites/default/files/content/documents/official-documents/reports/LSSIP2017_Norway_Released.pdf"
+    },
+    {
+      "expectedQuotes": [
+        "Atatürk Airport IATA code changed from IST to “ISL”"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Turkish Airlines",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "tr-ist-transfer",
+      "title": "Executed airport and IATA code transfer April 2019",
+      "url": "https://blog.turkishairlines.com/en/mega-move-the-story-of-turkish-airlines-great-migration/"
+    },
+    {
+      "expectedQuotes": [
+        "March 31, 2026, was the final day of operations at the South Terminal."
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Austin Department of Aviation",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "us-aus-terminal",
+      "title": "South Terminal operational history and closure",
+      "url": "https://www.flyaustin.com/south-terminal-aus"
+    },
+    {
+      "expectedQuotes": [
+        "first flights in and out of Newark Liberty’s new, world-class Terminal A"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Port Authority of New York and New Jersey",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "us-ewr-terminal",
+      "title": "EWR Terminal A first flights January 2023",
+      "url": "https://www.portauthoritybuilds.com/redevelopment/us/en/ewr/projects/terminal-a/news/statement-from-the-port-authority-of-new-york-and-new-jersey.html"
+    },
+    {
+      "expectedQuotes": [
+        "Field International Airport (ISN)"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "FAA / GPO",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "us-isn-closure",
+      "title": "Sloulin Field notice of permanent closure",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2019-08-29/pdf/2019-18577.pdf"
+    },
+    {
+      "expectedQuotes": [
+        "completed in 2022"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Port Authority of New York and New Jersey",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "us-lga-authority",
+      "title": "LaGuardia terminal reconstruction completed in 2022",
+      "url": "https://www.portauthoritybuilds.com/redevelopment/us/en/lga.html"
+    },
+    {
+      "expectedQuotes": [
+        "Today, February 28, 2023, the 40-gate New Terminal"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Kansas City Aviation Department",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "us-mci-terminal",
+      "title": "Executed new terminal opening 28 February 2023",
+      "url": "https://kcairports.com/newsroom/news-releases/new-40-gate-terminal-at-kansas-city-international-airport"
+    },
+    {
+      "expectedQuotes": [
+        "On November 6, 2019, the new world-class terminal"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "New Orleans Aviation Board",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "us-msy-history",
+      "title": "MSY history and new terminal",
+      "url": "https://flymsy.com/passengers/history/"
+    },
+    {
+      "expectedQuotes": [
+        "new $1.7B terminal opens to passengers"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Allegheny County Airport Authority",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "us-pit-terminal",
+      "title": "Pittsburgh new terminal opens 2025",
+      "url": "https://flypittsburgh.com/news-article/pittsburgh-international-airports-new-1-7b-terminal-opens-to-passengers/"
+    },
+    {
+      "expectedQuotes": [
+        "First phase opened September 15, 2020"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "Salt Lake City Department of Airports",
+      "purpose": "Exact scoped findings and physical/code bindings in assessments.json",
+      "sourceId": "us-slc-rebuild",
+      "title": "New SLC phased terminal reconstruction",
+      "url": "https://slcairport.com/thenewslc/the-new-slc-fact-sheet"
+    },
+    {
+      "expectedQuotes": [
+        "陕西安康机场和广西梧州西江（原梧州长洲岛）机场停航。"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "CAAC",
+      "purpose": "CAAC 2018 运行公报明确安康停航；不能假定旧场到 2020 年一直有定期客运。",
+      "sourceId": "cn-stat-2018-correct",
+      "title": "2018 civil airport production statistics and Ankang suspension",
+      "url": "https://www.caac.gov.cn/PHONE/XXGK_17/XXGK/TJSJ/201903/t20190305_194972.html"
+    },
+    {
+      "expectedQuotes": [
+        "宜宾五粮液机场于2019年12月5日正式投运"
+      ],
+      "fullRedistribution": "not_established",
+      "publisher": "CAAC Southwest",
+      "purpose": "CAAC 地区管理局回顾确认实际投运日期；该日不是 IATA 分配日期。",
+      "sourceId": "cn-yibin-operation",
+      "title": "Yibin December 2019 operation confirmed",
+      "url": "https://www.caac.gov.cn/PHONE/GLJ_PHONE/XNGLJ/DQXW/202004/t20200402_201866.html"
+    },
+    {
+      "expectedQuotes": [
+        "WILLISTON BASIN INTL ARPT XWA",
+        "WILLISTON RCO ISN",
+        "identifier preceded by “K”"
+      ],
+      "fullRedistribution": "not_needed",
+      "publisher": "Federal Aviation Administration",
+      "purpose": "Williston airport code versus RCO/navaid and actual public operation; IATA remains unproved.",
+      "sourceId": "us-faa-lid-2020",
+      "title": "Order JO 7350.9U Location Identifiers 21 May 2020",
+      "url": "https://www.faa.gov/documentLibrary/media/Order/7350.9U_Location_Identifiers_dtd_5_21_20.pdf"
+    },
+    {
+      "expectedQuotes": [
+        "XWA, Williston, ND is open and"
+      ],
+      "fullRedistribution": "not_needed",
+      "publisher": "FAA / GPO",
+      "purpose": "Williston airport code versus RCO/navaid and actual public operation; IATA remains unproved.",
+      "sourceId": "us-xwa-executed-2020",
+      "title": "Executed Williston Basin open for public aeronautical use February 2020",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2020-02-26/pdf/2020-03870.pdf"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "originalSha256": "4e9c7ef6207ae83e68d162b019aebcce1874566602b5edfd7df11a641558e212",
+  "originalTextSha256": "364ae38008c378f82929cdfcd9ec1b88223a10514f0f83dc0b34ae9d0fd2c916",
+  "sourceId": "cn-stat-2019",
+  "spans": [
+    {
+      "factId": "yibin-finding",
+      "normalizedCharacterEnd": 741,
+      "normalizedCharacterStart": 726,
+      "page": null,
+      "quote": "宜宾菜坝机场迁至宜宾五粮液机场"
+    },
+    {
+      "factId": "beijing-finding",
+      "normalizedCharacterEnd": 725,
+      "normalizedCharacterStart": 717,
+      "page": null,
+      "quote": "北京南苑机场停航"
+    }
+  ]
+}

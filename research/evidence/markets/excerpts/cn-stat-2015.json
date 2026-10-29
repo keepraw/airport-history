@@ -1,0 +1,28 @@
+{
+  "originalSha256": "048d48eda576120b2e5b9c5a9f7f3538caeb1d9eab56e8935faddb2c087b395d",
+  "originalTextSha256": "151a1ab6deaad46ec1196a5855eb44b0e70868ed80716fee3505512aa8f36d04",
+  "sourceId": "cn-stat-2015",
+  "spans": [
+    {
+      "factId": "yantai-finding",
+      "normalizedCharacterEnd": 438,
+      "normalizedCharacterStart": 420,
+      "page": 8,
+      "quote": "完成了山东烟台机场、辽宁锦州机场迁建"
+    },
+    {
+      "factId": "rizhao-finding",
+      "normalizedCharacterEnd": 344,
+      "normalizedCharacterStart": 335,
+      "page": 8,
+      "quote": "山东日照三字河机场"
+    },
+    {
+      "factId": "jinzhou-finding",
+      "normalizedCharacterEnd": 438,
+      "normalizedCharacterStart": 420,
+      "page": 8,
+      "quote": "完成了山东烟台机场、辽宁锦州机场迁建"
+    }
+  ]
+}

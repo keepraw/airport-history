@@ -1,0 +1,958 @@
+{
+  "attempts": [
+    {
+      "accessedAt": "2026-10-29T07:23:37+00:00",
+      "assessmentZh": "模拟飞行站点加注／改编的 AIP 镜像，未认证为未修改原件；不得充当官方原件。",
+      "originalBytes": 8658177,
+      "originalSha256": "771f1f21382f41c2d0180356d291ddc3e183597ddceda67b8b183cc627760ee5",
+      "retrievalUrl": "https://yinlei.org/x-plane10/doc/ZGZJ.pdf",
+      "sourceId": "aip-mirror-zgzj",
+      "status": "acquired_for_inspection",
+      "textSha256": "42b5bd9690e63a39f694fcb9a036933df6cc85951a3a6a4cb5b560da61034566",
+      "url": "https://yinlei.org/x-plane10/doc/ZGZJ.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:23:35+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 404: Not Found",
+      "sourceId": "aip-mirror-zlak",
+      "status": "failed",
+      "url": "https://yinlei.org/x-plane10/doc/ZLAK.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:23:35+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 404: Not Found",
+      "sourceId": "aip-mirror-zlya",
+      "status": "failed",
+      "url": "https://yinlei.org/x-plane10/doc/ZLYA.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:23:35+00:00",
+      "assessmentZh": "模拟飞行站点加注／改编的 AIP 镜像，未认证为未修改原件；不得充当官方原件。",
+      "originalBytes": 4416863,
+      "originalSha256": "85d0d58bbf1af2e142e0c74cd91d72b75339b88430ba0d1e2064a2afa692e60a",
+      "retrievalUrl": "https://yinlei.org/x-plane10/doc/ZSLG.pdf",
+      "sourceId": "aip-mirror-zslg",
+      "status": "acquired_for_inspection",
+      "textSha256": "1de362a7dcbc782b5e4d1144321a3903118fd49e8d36f905ae942f2a87b3c5ba",
+      "url": "https://yinlei.org/x-plane10/doc/ZSLG.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:23:37+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 404: Not Found",
+      "sourceId": "aip-mirror-zulz",
+      "status": "failed",
+      "url": "https://yinlei.org/x-plane10/doc/ZULZ.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:23:36+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 404: Not Found",
+      "sourceId": "aip-mirror-zuyb",
+      "status": "failed",
+      "url": "https://yinlei.org/x-plane10/doc/ZUYB.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:23:36+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 404: Not Found",
+      "sourceId": "aip-mirror-zyjz",
+      "status": "failed",
+      "url": "https://yinlei.org/x-plane10/doc/ZYJZ.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:30:16+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 503: Service Unavailable",
+      "sourceId": "airport-service-2022-retry",
+      "status": "failed",
+      "url": "https://www.chinaairports.org.cn/u/cms/www/202306/12170016gkl3.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:23:39+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 503: Service Unavailable",
+      "sourceId": "airport-service-2022",
+      "status": "failed",
+      "url": "https://www.chinaairports.org.cn/u/cms/www/202306/12170016gkl3.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:32:05+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 404: Not Found",
+      "sourceId": "airportal-aka-historical",
+      "status": "failed",
+      "url": "https://www.airportal.go.kr/file/htmlOpen/upload/airport/AKA.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:32:05+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 404: Not Found",
+      "sourceId": "airportal-eny-historical",
+      "status": "failed",
+      "url": "https://www.airportal.go.kr/file/htmlOpen/upload/airport/ENY.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:32:06+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 404: Not Found",
+      "sourceId": "airportal-jnz-historical",
+      "status": "failed",
+      "url": "https://www.airportal.go.kr/file/htmlOpen/upload/airport/JNZ.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:32:05+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 404: Not Found",
+      "sourceId": "airportal-lyg-historical",
+      "status": "failed",
+      "url": "https://www.airportal.go.kr/file/htmlOpen/upload/airport/LYG.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:32:06+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 404: Not Found",
+      "sourceId": "airportal-lzo-historical",
+      "status": "failed",
+      "url": "https://www.airportal.go.kr/file/htmlOpen/upload/airport/LZO.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:32:07+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 404: Not Found",
+      "sourceId": "airportal-tag-historical",
+      "status": "failed",
+      "url": "https://www.airportal.go.kr/file/htmlOpen/upload/airport/TAG.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:32:06+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 404: Not Found",
+      "sourceId": "airportal-ybp-historical",
+      "status": "failed",
+      "url": "https://www.airportal.go.kr/file/htmlOpen/upload/airport/YBP.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:32:06+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 404: Not Found",
+      "sourceId": "airportal-zha-historical",
+      "status": "failed",
+      "url": "https://www.airportal.go.kr/file/htmlOpen/upload/airport/ZHA.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:21:54+00:00",
+      "assessmentZh": "采纳为具名最小引用；仅支持 assessments 所列范围。",
+      "originalBytes": 346674,
+      "originalSha256": "4ffddbe5ae8cf24a97fb44ce392d06a9b4b38b37ecb64e3b0aa7ff2b4d91ac37",
+      "retrievalUrl": "https://www.boc.cn/bcservice/bc1/201106/P020111212557815165903.pdf",
+      "sourceId": "boc-dragonpass-2011",
+      "status": "acquired_for_inspection",
+      "textSha256": "14739198a67e088d7cb46153f13836949f360ebc9e8853735f31812285e672e8",
+      "url": "https://www.boc.cn/bcservice/bc1/201106/P020111212557815165903.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:23:38+00:00",
+      "assessmentZh": "未用作核心事实；详查全文后不能确认具名物理机场专属 IATA、有效观察日或出版物真实性。",
+      "originalBytes": 137844,
+      "originalSha256": "c91b6712cd9a4e82b8a82442b385467aa0b1ac09742d6639c32958561c3ef35b",
+      "retrievalUrl": "https://newsroom.airasia.com/news/2017/2/9/airasia-is-bohols-official-airline-partner-1",
+      "sourceId": "bohol-airasia-2017",
+      "status": "acquired_for_inspection",
+      "textSha256": "f28bcc732dcc056e086dc993d82284b846c60712eafea8a92e2e1734dfa35085",
+      "url": "https://newsroom.airasia.com/news/2017/2/9/airasia-is-bohols-official-airline-partner-1"
+    },
+    {
+      "accessedAt": "2026-10-29T07:23:37+00:00",
+      "assessmentZh": "采纳为具名最小引用；仅支持 assessments 所列范围。",
+      "originalBytes": 159322,
+      "originalSha256": "adbdd0aa554f8b3c5c27705be060f5a2f5aec851263770202556fcf44baa6da5",
+      "retrievalUrl": "https://newsroom.airasia.com/news/2020/2/24/airasia-resumes-flights-to-ho-chi-minh-city-launches-clark-bohol-route-this-summer",
+      "sourceId": "bohol-airasia-2020",
+      "status": "acquired_for_inspection",
+      "textSha256": "c72d414fe336b1c6b4a6529f3af22c6cf8f760c538f487907d7645a89c03fc66",
+      "url": "https://newsroom.airasia.com/news/2020/2/24/airasia-resumes-flights-to-ho-chi-minh-city-launches-clark-bohol-route-this-summer"
+    },
+    {
+      "accessedAt": "2026-10-29T07:30:15+00:00",
+      "assessmentZh": "采纳为具名最小引用；仅支持 assessments 所列范围。",
+      "originalBytes": 152883,
+      "originalSha256": "c4ed4d80b48cc1e5fb614bf08255ca8319e04f2a9124e5f28280321fee599a71",
+      "retrievalUrl": "https://newsroom.airasia.com/news/2020/11/18/airasia-celebrates-the-reopening-of-bohol-offers-50-off-on-all-flights-from-mnl-to-tag-this-week",
+      "sourceId": "bohol-airasia-reopen",
+      "status": "acquired_for_inspection",
+      "textSha256": "17a5609892a1e24d494a0e63407df420b3be16f946463237aa108d478152dd69",
+      "url": "https://newsroom.airasia.com/news/2020/11/18/airasia-celebrates-the-reopening-of-bohol-offers-50-off-on-all-flights-from-mnl-to-tag-this-week"
+    },
+    {
+      "accessedAt": "2026-10-29T07:31:13+00:00",
+      "assessmentZh": "未用作核心事实；详查全文后不能确认具名物理机场专属 IATA、有效观察日或出版物真实性。",
+      "originalBytes": 367,
+      "originalSha256": "00e24ad01bfe2b013800a20783d99dc3d3967651e6ada9c3947f49c9b608e89a",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2015-Edition.pdf&output=json&filter=statuscode:200&filter=mimetype:application/pdf&collapse=digest&limit=3",
+      "sourceId": "bohol-archive-index",
+      "status": "acquired_for_inspection",
+      "textSha256": "e7c7fd9f48326f1b170e8dcde32d3d9e5641dfe4de7c449acdc9af87dbc62719",
+      "url": "https://web.archive.org/cdx/search/cdx?url=boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2015-Edition.pdf&output=json&filter=statuscode:200&filter=mimetype:application/pdf&collapse=digest&limit=3"
+    },
+    {
+      "accessedAt": "2026-10-29T07:25:22+00:00",
+      "assessmentZh": "未用作核心事实；详查全文后不能确认具名物理机场专属 IATA、有效观察日或出版物真实性。",
+      "originalBytes": 801041,
+      "originalSha256": "4316a59d4fd36c6ec0fb582e97fdb31a10245b2ce100babbc3e79699e22a2d64",
+      "retrievalUrl": "https://caap.gov.ph/wp-content/uploads/2024/07/Bohol-Panglao-International-Airport-PPP-Project-Invitation-to-Submit-Comparative-Proposals.pdf",
+      "sourceId": "bohol-caap-comparative-2024",
+      "status": "acquired_for_inspection",
+      "textSha256": "a144b2be3c9a8b99cf9aac29f14e455e8faa403adab13b3057808870b29bce97",
+      "url": "https://caap.gov.ph/wp-content/uploads/2024/07/Bohol-Panglao-International-Airport-PPP-Project-Invitation-to-Submit-Comparative-Proposals.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:32:45+00:00",
+      "assessmentZh": "采纳为具名最小引用；仅支持 assessments 所列范围。",
+      "originalBytes": 11262497,
+      "originalSha256": "4fec6c9df532bcb04899122201c5627ed467ff73bdce5a7281d5c0cb1a29beeb",
+      "retrievalUrl": "https://web.archive.org/web/20220725040549id_/https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2015-Edition.pdf",
+      "sourceId": "bohol-factbook-2015-archive",
+      "status": "acquired_for_inspection",
+      "textSha256": "e1455ea93c028412166f13e8263209e8e5ca31fafd20e4774715beecf34a4fc8",
+      "url": "https://web.archive.org/web/20220725040549id_/https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2015-Edition.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:26:42+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "The read operation timed out",
+      "sourceId": "bohol-factbook-2015-http",
+      "status": "failed",
+      "url": "http://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2015-Edition.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:25:22+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "The read operation timed out",
+      "sourceId": "bohol-factbook-2015",
+      "status": "failed",
+      "url": "https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2015-Edition.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:32:45+00:00",
+      "assessmentZh": "未用作核心事实；详查全文后不能确认具名物理机场专属 IATA、有效观察日或出版物真实性。",
+      "originalBytes": 354,
+      "originalSha256": "ca1540c16f4ebb72cc77b6bd110fd4b79c0c610d1e5a67c0f0cda9ac57269971",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=boholinvest.bohol.gov.ph%2Fwp-content%2Fuploads%2F2021%2F02%2FBohol-Economic-Factbook-2016-4.pdf&output=json&filter=statuscode%3A200&collapse=digest&limit=3",
+      "sourceId": "bohol-factbook-2017-archive-index",
+      "status": "acquired_for_inspection",
+      "textSha256": "b873732bbe004441cfc97d1f8e4d5cbff66d598a9c80e33ba0f8ef4def3fbf9c",
+      "url": "https://web.archive.org/cdx/search/cdx?url=boholinvest.bohol.gov.ph%2Fwp-content%2Fuploads%2F2021%2F02%2FBohol-Economic-Factbook-2016-4.pdf&output=json&filter=statuscode%3A200&collapse=digest&limit=3"
+    },
+    {
+      "accessedAt": "2026-10-29T07:34:05+00:00",
+      "assessmentZh": "采纳为具名最小引用；仅支持 assessments 所列范围。",
+      "originalBytes": 4105148,
+      "originalSha256": "bb7a45093e069349016b227ac976ae6a14b099daffae54a2c20387d1eb80b694",
+      "retrievalUrl": "https://web.archive.org/web/20220725040542id_/https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2016-4.pdf",
+      "sourceId": "bohol-factbook-2017-archive",
+      "status": "acquired_for_inspection",
+      "textSha256": "89b68b5501e7dac21d20f5f9988b82aacc74e99a087f0a533c74cbc8787801cf",
+      "url": "https://web.archive.org/web/20220725040542id_/https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2016-4.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:25:22+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "The read operation timed out",
+      "sourceId": "bohol-factbook-2017-content",
+      "status": "failed",
+      "url": "https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2016-4.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:31:13+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "sourceId": "bohol-factbook-www",
+      "status": "failed",
+      "url": "https://www.boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2015-Edition.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:30:16+00:00",
+      "assessmentZh": "未用作核心事实；详查全文后不能确认具名物理机场专属 IATA、有效观察日或出版物真实性。",
+      "originalBytes": 2,
+      "originalSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "retrievalUrl": "https://bohol.gov.ph/wp-json/wp/v2/media?search=Factbook&per_page=20",
+      "sourceId": "bohol-main-factbook-search",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://bohol.gov.ph/wp-json/wp/v2/media?search=Factbook&per_page=20"
+    },
+    {
+      "accessedAt": "2026-10-29T07:26:42+00:00",
+      "assessmentZh": "第三方转载或手册副本，未取得可认证发行方原件；仅发现线索。",
+      "originalBytes": 108956,
+      "originalSha256": "e5dfc7c0db023e2a6b34e926f72db738d1b5e072d177252aea4b71bee4ed3596",
+      "retrievalUrl": "https://iorbitnews.com/travel-advisory-pal-transfers-to-new-panglao-airport-starting-nov-28/",
+      "sourceId": "bohol-pal-press-copy",
+      "status": "acquired_for_inspection",
+      "textSha256": "165c42fd382ee7d64f89d4b81cb0d632dbc2939bb4dffcaaf8f0409afd6f723a",
+      "url": "https://iorbitnews.com/travel-advisory-pal-transfers-to-new-panglao-airport-starting-nov-28/"
+    },
+    {
+      "accessedAt": "2026-10-29T07:31:13+00:00",
+      "assessmentZh": "未用作核心事实；详查全文后不能确认具名物理机场专属 IATA、有效观察日或出版物真实性。",
+      "originalBytes": 283247,
+      "originalSha256": "99acddcb433de6bd4f85e6be66ba5bf1f78e7537d98fc2ac8b4655df97581130",
+      "retrievalUrl": "https://ppdo.bohol.gov.ph/profile/socio-economic-profile/",
+      "sourceId": "bohol-profile-index",
+      "status": "acquired_for_inspection",
+      "textSha256": "03faf8dd82f02d2d6aebf08547a80f2fc6f45e3f31b9ec513261121df200df4f",
+      "url": "https://ppdo.bohol.gov.ph/profile/socio-economic-profile/"
+    },
+    {
+      "accessedAt": "2026-10-29T07:30:15+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 404: Not Found",
+      "sourceId": "bohol-tourism-2015-correct",
+      "status": "failed",
+      "url": "https://ppdo.bohol.gov.ph/ppdofiles/Profile/SocioEconomicProfile/EconomicDevelopment/TourismProfile2015.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:26:42+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 404: Not Found",
+      "sourceId": "bohol-tourism-2016",
+      "status": "failed",
+      "url": "https://ppdo.bohol.gov.ph/ppdofiles/Profile/SocioEconomicProfile/TourismProfile2016.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:30:15+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 404: Not Found",
+      "sourceId": "bohol-tourism-2017-correct",
+      "status": "failed",
+      "url": "https://ppdo.bohol.gov.ph/ppdofiles/Profile/SocioEconomicProfile/EconomicDevelopment/TourismProfile2017.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:19:55+00:00",
+      "assessmentZh": "城市／航线运价表含 SIA 等城市代码，不是机场专属 IATA 分配证据。",
+      "originalBytes": 146407,
+      "originalSha256": "92ed54592eed1b610b76a1fca041ed6883a3300f1f4a12d6b70b7c6ec3c7393a",
+      "retrievalUrl": "https://www.caac.gov.cn/XXGK/XXGK/ZFGW/201601/P020160122452787406199.pdf",
+      "sourceId": "caac-fares-2015",
+      "status": "acquired_for_inspection",
+      "textSha256": "76c16e209197841434eb2da59ea6d3ce05567e07b66b7c88cd012c226ae8c3fb",
+      "url": "https://www.caac.gov.cn/XXGK/XXGK/ZFGW/201601/P020160122452787406199.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:19:53+00:00",
+      "assessmentZh": "三页扫描原件已视读，仅名称，没有 IATA。",
+      "originalBytes": 2101581,
+      "originalSha256": "79d01e3ae802a6743346733f656f72f8bce53a75c35a5a91f597171e3f355451",
+      "retrievalUrl": "https://www.caac.gov.cn/XXGK/XXGK/ZFGW/201601/P020160203397076347156.pdf",
+      "sourceId": "caac-names-2009",
+      "status": "acquired_for_inspection",
+      "textSha256": "9478ac3ef61ae9df286d951edbfce4c24049f65e860f053ed9eb2c3fbd78d051",
+      "url": "https://www.caac.gov.cn/XXGK/XXGK/ZFGW/201601/P020160203397076347156.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:21:54+00:00",
+      "assessmentZh": "未用作核心事实；详查全文后不能确认具名物理机场专属 IATA、有效观察日或出版物真实性。",
+      "originalBytes": 4122,
+      "originalSha256": "62fbfe8866dc74b45145a7c4cf76031d67d6132c8a5b9f0537d95c464bc6d4a2",
+      "retrievalUrl": "https://www.csair.com/newh5/cn/service_notice/1fld91cllsvn0.shtml",
+      "sourceId": "ceair-lyg-transfer",
+      "status": "acquired_for_inspection",
+      "textSha256": "700432254eef45aa1b383238eb24f8ad3139c0e99319d18519e050e0f2ec0c0c",
+      "url": "https://www.csair.com/newh5/cn/service_notice/1fld91cllsvn0.shtml"
+    },
+    {
+      "accessedAt": "2026-10-29T07:19:53+00:00",
+      "assessmentZh": "采纳为具名最小引用；仅支持 assessments 所列范围。",
+      "originalBytes": 4122,
+      "originalSha256": "62fbfe8866dc74b45145a7c4cf76031d67d6132c8a5b9f0537d95c464bc6d4a2",
+      "retrievalUrl": "https://www.csair.com/newh5/cn/service_notice/1fld91cllsvn0.shtml",
+      "sourceId": "csair-lyg-transfer",
+      "status": "acquired_for_inspection",
+      "textSha256": "700432254eef45aa1b383238eb24f8ad3139c0e99319d18519e050e0f2ec0c0c",
+      "url": "https://www.csair.com/newh5/cn/service_notice/1fld91cllsvn0.shtml"
+    },
+    {
+      "accessedAt": "2026-10-29T07:21:56+00:00",
+      "assessmentZh": "采纳为具名最小引用；仅支持 assessments 所列范围。",
+      "originalBytes": 3815,
+      "originalSha256": "5297a5ddc116552ee192da196157d0d34693bcc02b5db19ddb7f9c145638cd6c",
+      "retrievalUrl": "https://www.csair.com/newh5/cn/service_notice/1fulnefkl4qoa.shtml",
+      "sourceId": "csair-zha-transfer",
+      "status": "acquired_for_inspection",
+      "textSha256": "02232e3bf73b3d183644c958beea567fca93b0da9233740dc0e435c1e8e6da88",
+      "url": "https://www.csair.com/newh5/cn/service_notice/1fulnefkl4qoa.shtml"
+    },
+    {
+      "accessedAt": "2026-10-29T07:36:43+00:00",
+      "assessmentZh": "未用作核心事实；详查全文后不能确认具名物理机场专属 IATA、有效观察日或出版物真实性。",
+      "originalBytes": 102298,
+      "originalSha256": "74614ff71a0f7e99bafffee6e2dcfcbf5f7099ff2ee0c98195a28bbe737b356d",
+      "retrievalUrl": "https://network.dragonpass.com.cn/bankcomm/airport/list?lg=en&loungeType=lounge&type=jn",
+      "sourceId": "dragonpass-direct-current",
+      "status": "acquired_for_inspection",
+      "textSha256": "f9d83761e130ed5e673b41b758ede46022018a3b425ef32257f128ea18d23896",
+      "url": "https://network.dragonpass.com.cn/bankcomm/airport/list?lg=en&loungeType=lounge&type=jn"
+    },
+    {
+      "accessedAt": "2026-10-29T07:31:14+00:00",
+      "assessmentZh": "未用作核心事实；详查全文后不能确认具名物理机场专属 IATA、有效观察日或出版物真实性。",
+      "originalBytes": 346642,
+      "originalSha256": "95114c598e9e134f3223d17e2c3d88f1a24ceaf63794f1e40c14724dbf6155bd",
+      "retrievalUrl": "https://www.boc.cn/bcservice/bc1/201109/P020110913573786452277.pdf",
+      "sourceId": "lyg-dragonpass-original",
+      "status": "acquired_for_inspection",
+      "textSha256": "7bacfa91099a3ea2571bf2a26d687cd77731215f3314b2c76525044f421b0ff0",
+      "url": "https://www.boc.cn/bcservice/bc1/201109/P020110913573786452277.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:26:44+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+      "sourceId": "lyg-operator-home",
+      "status": "failed",
+      "url": "https://www.lygairport.com/"
+    },
+    {
+      "accessedAt": "2026-10-29T07:30:17+00:00",
+      "assessmentZh": "未用作核心事实；详查全文后不能确认具名物理机场专属 IATA、有效观察日或出版物真实性。",
+      "originalBytes": 12530,
+      "originalSha256": "eb7ace93c1719c9475d9da4b6937b87d9b7050bab0902c862f5e890de567085e",
+      "retrievalUrl": "https://www.lyg.gov.cn/lygmhywwz/news/content/e8390489-3329-4b3d-b45e-cbaf460f97e0.html",
+      "sourceId": "lygrelease-executed",
+      "status": "acquired_for_inspection",
+      "textSha256": "38d5609ebb0bd3010643c39758fe64120087cbfe4c2e23b70a2e0fa54f857f36",
+      "url": "https://www.lyg.gov.cn/lygmhywwz/news/content/e8390489-3329-4b3d-b45e-cbaf460f97e0.html"
+    },
+    {
+      "accessedAt": "2026-10-29T07:41:15+00:00",
+      "assessmentZh": "未用作核心事实；详查全文后不能确认具名物理机场专属 IATA、有效观察日或出版物真实性。",
+      "originalBytes": 827931,
+      "originalSha256": "40f25cca95754af02b3c09b4190df4422cbbe050c3e4b9964660e22071ee8906",
+      "retrievalUrl": "https://file.variflight.com/buckets/feeyo/keys/AD202509121623aaec9490fb9704c47657241cd47e5f32.pdf",
+      "sourceId": "lzo-operator-stats-2025",
+      "status": "acquired_for_inspection",
+      "textSha256": "9a6e2159d0011ffedaa9eb86cdfda234884a009d4a07dba955182d1f8c900d06",
+      "url": "https://file.variflight.com/buckets/feeyo/keys/AD202509121623aaec9490fb9704c47657241cd47e5f32.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:34:05+00:00",
+      "assessmentZh": "未用作核心事实；详查全文后不能确认具名物理机场专属 IATA、有效观察日或出版物真实性。",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=www.philippineairlines.com%2Fen%2Faboutus%2Fnewsandevents%2F%2A&output=json&filter=statuscode%3A200&filter=original%3A.%2A%5BPp%5Danglao.%2A&collapse=urlkey&limit=20",
+      "sourceId": "pal-panglao-archive-filtered",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://web.archive.org/cdx/search/cdx?url=www.philippineairlines.com%2Fen%2Faboutus%2Fnewsandevents%2F%2A&output=json&filter=statuscode%3A200&filter=original%3A.%2A%5BPp%5Danglao.%2A&collapse=urlkey&limit=20"
+    },
+    {
+      "accessedAt": "2026-10-29T07:32:45+00:00",
+      "assessmentZh": "未用作核心事实；详查全文后不能确认具名物理机场专属 IATA、有效观察日或出版物真实性。",
+      "originalBytes": 9587,
+      "originalSha256": "525b808e10281506d90f34aa889a6acf529e1cd344682ecec6508ee33ae1b558",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=%2A.philippineairlines.com%2F%2Apanglao%2A&output=json&filter=statuscode%3A200&collapse=urlkey&limit=30",
+      "sourceId": "pal-panglao-archive-index",
+      "status": "acquired_for_inspection",
+      "textSha256": "e66603e7d667403c4679775d4999aaee243ce62a4a7fa645a602ffb26c3319e9",
+      "url": "https://web.archive.org/cdx/search/cdx?url=%2A.philippineairlines.com%2F%2Apanglao%2A&output=json&filter=statuscode%3A200&collapse=urlkey&limit=30"
+    },
+    {
+      "accessedAt": "2026-10-29T07:38:40+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 503: Service Unavailable",
+      "sourceId": "pal-panglao-domain-archive",
+      "status": "failed",
+      "url": "https://web.archive.org/cdx/search/cdx?url=philippineairlines.com&matchType=domain&output=json&filter=statuscode%3A200&filter=original%3A.%2A%5BPp%5Danglao.%2A&from=2018&to=2020&collapse=urlkey&limit=15"
+    },
+    {
+      "accessedAt": "2026-10-29T07:19:53+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 404: Not Found",
+      "sourceId": "pna-bohol-start",
+      "status": "failed",
+      "url": "https://www.pna.gov.ph/articles/1055091"
+    },
+    {
+      "accessedAt": "2026-10-29T07:52:09+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 503: Service Unavailable",
+      "sourceId": "quality-2017-page",
+      "status": "failed",
+      "url": "https://www.chinaairports.org.cn/ds/2308c5b614.html"
+    },
+    {
+      "accessedAt": "2026-10-29T07:52:25+00:00",
+      "assessmentZh": "历史测评原件有名称但未检出 IATA 表，不据出版或上传日推代码。",
+      "originalBytes": 2639797,
+      "originalSha256": "fb928b33622305a31bb4ac504c64b46357ded74f6bce5761be1142a908efc864",
+      "retrievalUrl": "https://chinaairports.org.cn/u/cms/www/202006/051557079kd7.pdf",
+      "sourceId": "quality-2017",
+      "status": "acquired_for_inspection",
+      "textSha256": "fd90fcbf4b9eec0decfd8a4d0cea40b46e5c1e086f3e1d90710ec1f2231ba1c4",
+      "url": "https://chinaairports.org.cn/u/cms/www/202006/051557079kd7.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:52:09+00:00",
+      "assessmentZh": "历史测评原件有名称但未检出 IATA 表，不据出版或上传日推代码。",
+      "originalBytes": 49324,
+      "originalSha256": "3a2c399fc8b70e8e53c98f69551cdfbfa28ad46a4fb9381bfaf46ed9642a8c0a",
+      "retrievalUrl": "https://chinaairports.org.cn/ds/230887b041.html",
+      "sourceId": "quality-2018-page",
+      "status": "acquired_for_inspection",
+      "textSha256": "da58a0d0e058a27c6cc481a849c58aeb28ccd025fd0db822ec0033b4625bf06f",
+      "url": "https://chinaairports.org.cn/ds/230887b041.html"
+    },
+    {
+      "accessedAt": "2026-10-29T07:52:25+00:00",
+      "assessmentZh": "历史测评原件有名称但未检出 IATA 表，不据出版或上传日推代码。",
+      "originalBytes": 2677530,
+      "originalSha256": "d807aff8c94900df51ae390bcaa647d7e5277414d56638a811833f06bb488ab5",
+      "retrievalUrl": "https://chinaairports.org.cn/u/cms/www/202006/05155740z96b.pdf",
+      "sourceId": "quality-2018",
+      "status": "acquired_for_inspection",
+      "textSha256": "fa86a020658ea0de05dfd4678e4cae9822fc8c614ea69dd494c63fe764c83c7b",
+      "url": "https://chinaairports.org.cn/u/cms/www/202006/05155740z96b.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:48:53+00:00",
+      "assessmentZh": "采纳为具名最小引用；仅支持 assessments 所列范围。",
+      "originalBytes": 1432355,
+      "originalSha256": "42a0649aedb9ac903ce35398c294053d8954f4facb9cc62612bf156d15885ff1",
+      "retrievalUrl": "https://chinaairports.org.cn/u/cms/www/202306/12170016gkl3.pdf",
+      "sourceId": "quality-2022-bare",
+      "status": "acquired_for_inspection",
+      "textSha256": "1ecd1f0a1840fc98a6f472d8bb2841936e09bf0c0b67c858136670eed138a249",
+      "url": "https://chinaairports.org.cn/u/cms/www/202306/12170016gkl3.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:48:53+00:00",
+      "assessmentZh": "实际原件获取失败；不是已取得证据。",
+      "error": "HTTP Error 503: Service Unavailable",
+      "sourceId": "quality-2022-official-retry",
+      "status": "failed",
+      "url": "https://www.chinaairports.org.cn/u/cms/www/202306/12170016gkl3.pdf?download=1"
+    },
+    {
+      "accessedAt": "2026-10-29T07:21:54+00:00",
+      "assessmentZh": "第三方转载或手册副本，未取得可认证发行方原件；仅发现线索。",
+      "originalBytes": 1472126,
+      "originalSha256": "dd09b8b42b8d06f3ae88ff49ad1eaf2416c003c2b18a191ea3a7f29fb687cf08",
+      "retrievalUrl": "https://www.tutorhaichinese.com/attachments/download/?attach_id=216104",
+      "sourceId": "scair-cabin-2017-copy",
+      "status": "acquired_for_inspection",
+      "textSha256": "1a85e2ddbddae46acc706d2d99455685bf8a29e25018c62d81d3334c998e0321",
+      "url": "https://www.tutorhaichinese.com/attachments/download/?attach_id=216104"
+    },
+    {
+      "accessedAt": "2026-10-29T07:32:07+00:00",
+      "assessmentZh": "采纳为具名最小引用；仅支持 assessments 所列范围。",
+      "originalBytes": 85642,
+      "originalSha256": "2eede00804c89c252f2c4c9ec962dba955ebdd7202a929912720bf56d8e08a27",
+      "retrievalUrl": "https://agent360.singaporeair.com/content/dam/agent360/web-assets/pdf/local/hk/HKGSQ_Relocation_of_PNH_to_KTI_Airport_SN125.pdf",
+      "sourceId": "sia-pnh-kti-2025",
+      "status": "acquired_for_inspection",
+      "textSha256": "199fd5d23823eb5735a135839832f0db1e835b37b3eb0c304985c55a04e365f6",
+      "url": "https://agent360.singaporeair.com/content/dam/agent360/web-assets/pdf/local/hk/HKGSQ_Relocation_of_PNH_to_KTI_Airport_SN125.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:36:07+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-AKA%2F&output=json&filter=statuscode%3A200&from=2010&to=2019&collapse=digest&limit=2",
+      "sourceId": "spring-archive-index-aka",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-AKA%2F&output=json&filter=statuscode%3A200&from=2010&to=2019&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:36:05+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-ENY%2F&output=json&filter=statuscode%3A200&from=2010&to=2017&collapse=digest&limit=2",
+      "sourceId": "spring-archive-index-eny",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-ENY%2F&output=json&filter=statuscode%3A200&from=2010&to=2017&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:36:06+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-JNZ%2F&output=json&filter=statuscode%3A200&from=2010&to=2014&collapse=digest&limit=2",
+      "sourceId": "spring-archive-index-jnz",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-JNZ%2F&output=json&filter=statuscode%3A200&from=2010&to=2014&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:36:05+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 245,
+      "originalSha256": "3faad5813b41e4b601c505983fb8c5513630ac7ec9576485383de7387dc54690",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-LYG%2F&output=json&filter=statuscode%3A200&from=2010&to=2020&collapse=digest&limit=2",
+      "sourceId": "spring-archive-index-lyg",
+      "status": "acquired_for_inspection",
+      "textSha256": "42723c6ede6684f457ea462298c80c3a6bcfc69f25006e7b840fd0f689cfaca7",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-LYG%2F&output=json&filter=statuscode%3A200&from=2010&to=2020&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:36:06+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-LZO%2F&output=json&filter=statuscode%3A200&from=2010&to=2017&collapse=digest&limit=2",
+      "sourceId": "spring-archive-index-lzo",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-LZO%2F&output=json&filter=statuscode%3A200&from=2010&to=2017&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:36:05+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-YBP%2F&output=json&filter=statuscode%3A200&from=2010&to=2018&collapse=digest&limit=2",
+      "sourceId": "spring-archive-index-ybp",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-YBP%2F&output=json&filter=statuscode%3A200&from=2010&to=2018&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:36:06+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 412,
+      "originalSha256": "8e80028613267bf87990340af527f56731b8418b0a8d36762ffd60ec85951bc0",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-ZHA%2F&output=json&filter=statuscode%3A200&from=2010&to=2021&collapse=digest&limit=2",
+      "sourceId": "spring-archive-index-zha",
+      "status": "acquired_for_inspection",
+      "textSha256": "172600ccc978c952de7a94f53aec038357b26b11542d67d2ff5cce642d98ab5a",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-ZHA%2F&output=json&filter=statuscode%3A200&from=2010&to=2021&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:41:15+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-AKA%2F&output=json&filter=statuscode%3A200&from=2010&to=20200922&collapse=digest&limit=2",
+      "sourceId": "spring-cutoff-index-airport-aka",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-AKA%2F&output=json&filter=statuscode%3A200&from=2010&to=20200922&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:41:11+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-ENY%2F&output=json&filter=statuscode%3A200&from=2010&to=20181107&collapse=digest&limit=2",
+      "sourceId": "spring-cutoff-index-airport-eny",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-ENY%2F&output=json&filter=statuscode%3A200&from=2010&to=20181107&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:41:13+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-JNZ%2F&output=json&filter=statuscode%3A200&from=2010&to=20151209&collapse=digest&limit=2",
+      "sourceId": "spring-cutoff-index-airport-jnz",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-JNZ%2F&output=json&filter=statuscode%3A200&from=2010&to=20151209&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:41:14+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-LZO%2F&output=json&filter=statuscode%3A200&from=2010&to=20180909&collapse=digest&limit=2",
+      "sourceId": "spring-cutoff-index-airport-lzo",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-LZO%2F&output=json&filter=statuscode%3A200&from=2010&to=20180909&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:41:11+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 245,
+      "originalSha256": "27103246d1e704b803238dbbeb5fbd121826d9adfef2e290cafe6a241112bcbf",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-YBP%2F&output=json&filter=statuscode%3A200&from=2010&to=20191204&collapse=digest&limit=2",
+      "sourceId": "spring-cutoff-index-airport-ybp",
+      "status": "acquired_for_inspection",
+      "textSha256": "63b5711908460d450fc5e86373b8b3c9262c3154c87a3bc63e57cabf17a2a289",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-YBP%2F&output=json&filter=statuscode%3A200&from=2010&to=20191204&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:41:15+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-AKA%2F&output=json&filter=statuscode%3A200&from=2010&to=20200922&collapse=digest&limit=2",
+      "sourceId": "spring-cutoff-index-jianjie-aka",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-AKA%2F&output=json&filter=statuscode%3A200&from=2010&to=20200922&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:41:12+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-ENY%2F&output=json&filter=statuscode%3A200&from=2010&to=20181107&collapse=digest&limit=2",
+      "sourceId": "spring-cutoff-index-jianjie-eny",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-ENY%2F&output=json&filter=statuscode%3A200&from=2010&to=20181107&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:41:13+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-JNZ%2F&output=json&filter=statuscode%3A200&from=2010&to=20151209&collapse=digest&limit=2",
+      "sourceId": "spring-cutoff-index-jianjie-jnz",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-JNZ%2F&output=json&filter=statuscode%3A200&from=2010&to=20151209&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:41:14+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-LZO%2F&output=json&filter=statuscode%3A200&from=2010&to=20180909&collapse=digest&limit=2",
+      "sourceId": "spring-cutoff-index-jianjie-lzo",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-LZO%2F&output=json&filter=statuscode%3A200&from=2010&to=20180909&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:41:11+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 245,
+      "originalSha256": "ff00f9bdd9bde23bfb4d320bf8ad1a2b39f5d22638c1f79a29dbfc3e23d95a43",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-YBP%2F&output=json&filter=statuscode%3A200&from=2010&to=20191204&collapse=digest&limit=2",
+      "sourceId": "spring-cutoff-index-jianjie-ybp",
+      "status": "acquired_for_inspection",
+      "textSha256": "cea7e5cda75dea189078e64ebfbf22b4c3bbba9c739081028f771ff10edaa9ec",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fjianjie-YBP%2F&output=json&filter=statuscode%3A200&from=2010&to=20191204&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:41:47+00:00",
+      "assessmentZh": "采纳为具名最小引用；仅支持 assessments 所列范围。",
+      "originalBytes": 96776,
+      "originalSha256": "66f4d0817f023cab782d56f6e16d67f911fe099b65e482396a596af35ef8a739",
+      "retrievalUrl": "https://web.archive.org/web/20191115131149id_/https://flights.ch.com/airports/airport-YBP/",
+      "sourceId": "spring-cutoff-old-airport-ybp-0",
+      "status": "acquired_for_inspection",
+      "textSha256": "2c52fe15660d23ae829915078f9d2b38d3788b6e2ac20bc253d63b6bb6a7512d",
+      "url": "https://web.archive.org/web/20191115131149id_/https://flights.ch.com/airports/airport-YBP/"
+    },
+    {
+      "accessedAt": "2026-10-29T07:41:47+00:00",
+      "assessmentZh": "采纳为具名最小引用；仅支持 assessments 所列范围。",
+      "originalBytes": 99074,
+      "originalSha256": "d00603abbdf67083210b9054f48348977257c1cb6b84e92e3448a60e97ddc6cf",
+      "retrievalUrl": "https://web.archive.org/web/20191121114129id_/https://flights.ch.com/airports/jianjie-YBP/",
+      "sourceId": "spring-cutoff-old-jianjie-ybp-0",
+      "status": "acquired_for_inspection",
+      "textSha256": "22d36d479f42c48d12dacbea97d7570ad632681562c907e808a57f7b6f2bc05b",
+      "url": "https://web.archive.org/web/20191121114129id_/https://flights.ch.com/airports/jianjie-YBP/"
+    },
+    {
+      "accessedAt": "2026-10-29T07:37:48+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-AKA%2F&output=json&filter=statuscode%3A200&from=2010&to=2019&collapse=digest&limit=2",
+      "sourceId": "spring-home-index-aka",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-AKA%2F&output=json&filter=statuscode%3A200&from=2010&to=2019&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:37:45+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-ENY%2F&output=json&filter=statuscode%3A200&from=2010&to=2017&collapse=digest&limit=2",
+      "sourceId": "spring-home-index-eny",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-ENY%2F&output=json&filter=statuscode%3A200&from=2010&to=2017&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:37:47+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-JNZ%2F&output=json&filter=statuscode%3A200&from=2010&to=2014&collapse=digest&limit=2",
+      "sourceId": "spring-home-index-jnz",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-JNZ%2F&output=json&filter=statuscode%3A200&from=2010&to=2014&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:37:45+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 412,
+      "originalSha256": "a8d091ca408ec1ebee46fdbfd4ee713e6d41ee96e238776805818d17b459671b",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-LYG%2F&output=json&filter=statuscode%3A200&from=2010&to=2020&collapse=digest&limit=2",
+      "sourceId": "spring-home-index-lyg",
+      "status": "acquired_for_inspection",
+      "textSha256": "88b53eabc0102ee3a7037d4e2c2773dbd1426fdc98778cea92da86201c23bcf3",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-LYG%2F&output=json&filter=statuscode%3A200&from=2010&to=2020&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:37:47+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-LZO%2F&output=json&filter=statuscode%3A200&from=2010&to=2017&collapse=digest&limit=2",
+      "sourceId": "spring-home-index-lzo",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-LZO%2F&output=json&filter=statuscode%3A200&from=2010&to=2017&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:37:45+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-YBP%2F&output=json&filter=statuscode%3A200&from=2010&to=2018&collapse=digest&limit=2",
+      "sourceId": "spring-home-index-ybp",
+      "status": "acquired_for_inspection",
+      "textSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-YBP%2F&output=json&filter=statuscode%3A200&from=2010&to=2018&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:37:47+00:00",
+      "assessmentZh": "仅为 Internet Archive CDX 捕获索引元数据，不是航空公司原出版物；无捕获不能证明无历史变化。",
+      "originalBytes": 412,
+      "originalSha256": "5fa910546d3eb3c23f5fddae3e69d58262965bf3ceddac35062ee5b904990e8e",
+      "retrievalUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-ZHA%2F&output=json&filter=statuscode%3A200&from=2010&to=2021&collapse=digest&limit=2",
+      "sourceId": "spring-home-index-zha",
+      "status": "acquired_for_inspection",
+      "textSha256": "a4e2b26279b9615c141bd1d356cc7f17a224599b163df6c9bf83a1a6f2ebb9ba",
+      "url": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com%2Fairports%2Fairport-ZHA%2F&output=json&filter=statuscode%3A200&from=2010&to=2021&collapse=digest&limit=2"
+    },
+    {
+      "accessedAt": "2026-10-29T07:38:39+00:00",
+      "assessmentZh": "采纳为具名最小引用；仅支持 assessments 所列范围。",
+      "originalBytes": 98662,
+      "originalSha256": "3b657ba675df9401cdeb001024c647e18a0ba2b560bbda65695050f635a51b92",
+      "retrievalUrl": "https://web.archive.org/web/20191120170243id_/https://flights.ch.com/airports/airport-LYG/",
+      "sourceId": "spring-home-old-lyg-0",
+      "status": "acquired_for_inspection",
+      "textSha256": "727a73a9e74997c7290c32f14b28fbcc79032f1d37c0d9970ddbdba34ab25666",
+      "url": "https://web.archive.org/web/20191120170243id_/https://flights.ch.com/airports/airport-LYG/"
+    },
+    {
+      "accessedAt": "2026-10-29T07:38:39+00:00",
+      "assessmentZh": "采纳为具名最小引用；仅支持 assessments 所列范围。",
+      "originalBytes": 105674,
+      "originalSha256": "b46a359d592c97d8d85e87a18a502d651fd4082763ee84f3d987ade5144719a3",
+      "retrievalUrl": "https://web.archive.org/web/20200921115553id_/https://flights.ch.com/airports/airport-LYG/",
+      "sourceId": "spring-home-old-lyg-1",
+      "status": "acquired_for_inspection",
+      "textSha256": "d48997fe39aec741b16b9f4a094e50642c33ff87cad8fe5e37710aa964254888",
+      "url": "https://web.archive.org/web/20200921115553id_/https://flights.ch.com/airports/airport-LYG/"
+    },
+    {
+      "accessedAt": "2026-10-29T07:38:39+00:00",
+      "assessmentZh": "未用作核心事实；详查全文后不能确认具名物理机场专属 IATA、有效观察日或出版物真实性。",
+      "originalBytes": 100232,
+      "originalSha256": "7518ea2cda82fb06abab5193473e5c0cbb4a44634194b3c9e14407d415a29a15",
+      "retrievalUrl": "https://web.archive.org/web/20191115134945id_/https://flights.ch.com/airports/airport-ZHA/",
+      "sourceId": "spring-home-old-zha-0",
+      "status": "acquired_for_inspection",
+      "textSha256": "ed52626c1f60321049f13b93a9ae09d50be2dc7b65bbdab497d1ebca2b8d7161",
+      "url": "https://web.archive.org/web/20191115134945id_/https://flights.ch.com/airports/airport-ZHA/"
+    },
+    {
+      "accessedAt": "2026-10-29T07:38:39+00:00",
+      "assessmentZh": "未用作核心事实；详查全文后不能确认具名物理机场专属 IATA、有效观察日或出版物真实性。",
+      "originalBytes": 105234,
+      "originalSha256": "4ca316261c22c370fddf3b89f3453c72851b36ef4e79e2890ee207d0452d638f",
+      "retrievalUrl": "https://web.archive.org/web/20200805113549id_/https://flights.ch.com/airports/airport-ZHA/",
+      "sourceId": "spring-home-old-zha-1",
+      "status": "acquired_for_inspection",
+      "textSha256": "e22d94088d6eeba0a732cb7162b3fd32e3b7247872718626f6902db8f0a0585a",
+      "url": "https://web.archive.org/web/20200805113549id_/https://flights.ch.com/airports/airport-ZHA/"
+    },
+    {
+      "accessedAt": "2026-10-29T07:36:42+00:00",
+      "assessmentZh": "未用作核心事实；详查全文后不能确认具名物理机场专属 IATA、有效观察日或出版物真实性。",
+      "originalBytes": 100962,
+      "originalSha256": "7d602cd5511593dbe90880fddf65960a013a40542279675ea8288750f7860adf",
+      "retrievalUrl": "https://web.archive.org/web/20191119230805id_/https://flights.ch.com/airports/jianjie-LYG/",
+      "sourceId": "spring-old-lyg-0",
+      "status": "acquired_for_inspection",
+      "textSha256": "7ad9ef3bac979f72d5a2ef2c14c0fece8968b556cc11d2c79054c8b7f19d34fb",
+      "url": "https://web.archive.org/web/20191119230805id_/https://flights.ch.com/airports/jianjie-LYG/"
+    },
+    {
+      "accessedAt": "2026-10-29T07:36:42+00:00",
+      "assessmentZh": "未用作核心事实；详查全文后不能确认具名物理机场专属 IATA、有效观察日或出版物真实性。",
+      "originalBytes": 102525,
+      "originalSha256": "f3eaa977d9654fb4d6e7f551f279b37aeb6daadfc9f55bd358e3dc4109a1a904",
+      "retrievalUrl": "https://web.archive.org/web/20191113120645id_/https://flights.ch.com/airports/jianjie-ZHA/",
+      "sourceId": "spring-old-zha-0",
+      "status": "acquired_for_inspection",
+      "textSha256": "369d406ce9a84a69ec3366e8afcc5c1cf3a4ddfc9c39847ccfdc70d128072ad0",
+      "url": "https://web.archive.org/web/20191113120645id_/https://flights.ch.com/airports/jianjie-ZHA/"
+    },
+    {
+      "accessedAt": "2026-10-29T07:36:42+00:00",
+      "assessmentZh": "未用作核心事实；详查全文后不能确认具名物理机场专属 IATA、有效观察日或出版物真实性。",
+      "originalBytes": 107538,
+      "originalSha256": "74d7eb86649fb4d443906c4a7db657378a8e995a8bdc3af84750314e5e56a82d",
+      "retrievalUrl": "https://web.archive.org/web/20200805100456id_/https://flights.ch.com/airports/jianjie-ZHA/",
+      "sourceId": "spring-old-zha-1",
+      "status": "acquired_for_inspection",
+      "textSha256": "d6576ac816b9ee1ba7d1eaa7ca7ad3384ec538e5042a157db6e75465c52ab27e",
+      "url": "https://web.archive.org/web/20200805100456id_/https://flights.ch.com/airports/jianjie-ZHA/"
+    },
+    {
+      "accessedAt": "2026-10-29T07:38:39+00:00",
+      "assessmentZh": "采纳为具名最小引用；仅支持 assessments 所列范围。",
+      "originalBytes": 409162,
+      "originalSha256": "f2cee0108e729b77bca2c71cde0063b41021573606f7b66ba6c0551c49d9ce1e",
+      "retrievalUrl": "https://www.techoairport.com.kh/news/oneyearjourneytechointernationalairport",
+      "sourceId": "techo-operator-2026",
+      "status": "acquired_for_inspection",
+      "textSha256": "34b15931926ec5a5e911a2e0e580de3c184b807a28fdc949d1df9fdfbf9f3f8e",
+      "url": "https://www.techoairport.com.kh/news/oneyearjourneytechointernationalairport"
+    },
+    {
+      "accessedAt": "2026-10-29T07:38:39+00:00",
+      "assessmentZh": "采纳为具名最小引用；仅支持 assessments 所列范围。",
+      "originalBytes": 44903,
+      "originalSha256": "9d24412bd27aa08ac6b388f3d997f7335cf04b5dd87fa8a080549d06b70dafdf",
+      "retrievalUrl": "https://www.ocic.com.kh/projects/techo-international-airport",
+      "sourceId": "techo-owner-current",
+      "status": "acquired_for_inspection",
+      "textSha256": "f6016142dd8f64513c8a850884f7b2add49d4e4c7f23d8133ef1de5ccad29e60",
+      "url": "https://www.ocic.com.kh/projects/techo-international-airport"
+    },
+    {
+      "accessedAt": "2026-10-29T07:32:07+00:00",
+      "assessmentZh": "未用作核心事实；详查全文后不能确认具名物理机场专属 IATA、有效观察日或出版物真实性。",
+      "originalBytes": 527668,
+      "originalSha256": "d5e1182824c2195b03680e0a282a467c545cbe99f63391b114bb97e1fcc76769",
+      "retrievalUrl": "https://www.vietnamairlines.com/us/en/vietnam-airlines/press-room/press-release/2025/0819-VNA-chuyen-doi-san-bay-khai-thac-Campuchia",
+      "sourceId": "vna-pnh-kti-2025",
+      "status": "acquired_for_inspection",
+      "textSha256": "ab4544c74ac7bdb41d6d0be9bd309a6640e1e92b1e7753e3493ba75215951e2d",
+      "url": "https://www.vietnamairlines.com/us/en/vietnam-airlines/press-room/press-release/2025/0819-VNA-chuyen-doi-san-bay-khai-thac-Campuchia"
+    }
+  ],
+  "scope": "实际请求和读件结果；搜索摘要不计取得原件。未经采用不算新增事实或权威代码证据。"
+}

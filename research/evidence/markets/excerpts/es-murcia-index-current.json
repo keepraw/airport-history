@@ -1,0 +1,21 @@
+{
+  "originalSha256": "e451c7062be2c668575c427e0e14b3a39502227b50c036f18695c0ee880ac375",
+  "originalTextSha256": "49764f0b7c55a3314dfc75630e347b5233cab60c42fc26eb9692c5021aa2de4c",
+  "sourceId": "es-murcia-index-current",
+  "spans": [
+    {
+      "factId": "murcia-index-iata",
+      "normalizedCharacterEnd": 5531,
+      "normalizedCharacterStart": 5501,
+      "page": null,
+      "quote": "MURCIA/San Javier - LELC (MJV)"
+    },
+    {
+      "factId": "murcia-index-new",
+      "normalizedCharacterEnd": 5334,
+      "normalizedCharacterStart": 5324,
+      "page": null,
+      "quote": "LEMI (RMU)"
+    }
+  ]
+}

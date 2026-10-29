@@ -1,0 +1,4098 @@
+{
+  "cases": [
+    {
+      "alreadyFormal": true,
+      "candidateCodes": [],
+      "caseKey": "qingdao",
+      "checkedYears": [
+        2021
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": true,
+      "factIds": [
+        "qingdao-finding"
+      ],
+      "findingsZh": "2021 年实际迁址由 CAAC 年报再次确认；正式库已有两个永久 ID 及代码历史，不新增重复提案。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "replacement",
+      "labelZh": "青岛流亭／胶东",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": true,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "中国大陆",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": true,
+      "candidateCodes": [],
+      "caseKey": "yantai",
+      "checkedYears": [
+        2015
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": true,
+      "factIds": [
+        "yantai-finding"
+      ],
+      "findingsZh": "2015 年 CAAC 行业公报确认烟台迁建；正式库已有两场身份与记录，本轮只核重复。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "replacement",
+      "labelZh": "烟台莱山／蓬莱",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": true,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "中国大陆",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "ankang",
+      "checkedYears": [
+        2020
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": "2020-09-25",
+      "executedChange": true,
+      "factIds": [
+        "ankang-finding",
+        "ankang-iata-guide",
+        "ankang-2018-suspension"
+      ],
+      "findingsZh": "政府原件确认 2020-09-25 实际首航；2015–2020 旧场是否仍有民航航班必须另证，不能把富强开航当作 AKA 分配日。",
+      "gapsZh": [
+        "缺少旧场 AKA 的航空主管部门／航司历史原件、旧场停止运行原件及两侧代码边界。"
+      ],
+      "kind": "replacement",
+      "labelZh": "安康五里铺／富强",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": true,
+        "priorityMarket": true,
+        "sameIataLead": true,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "中国大陆",
+      "reviewer": null,
+      "siteKeys": [
+        "ankang-old",
+        "ankang-new"
+      ],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "yanan",
+      "checkedYears": [
+        2018,
+        2019
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": "2018-11-08",
+      "executedChange": true,
+      "factIds": [
+        "yanan-finding",
+        "yanan-iata-guide"
+      ],
+      "findingsZh": "CAAC 明确二十里铺与南泥湾迁建关系，既有 CAAC 资料确认 2018-11-08 实际投运。不能把两个场址合并为一个物理身份。",
+      "gapsZh": [
+        "旧场 ENY 的权威历史原件和 ICAO 新旧场址对应仍不足；气象交换代码表不等同于机场分配台账。"
+      ],
+      "kind": "replacement",
+      "labelZh": "延安二十里铺／南泥湾",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": true,
+        "priorityMarket": true,
+        "sameIataLead": true,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "中国大陆",
+      "reviewer": null,
+      "siteKeys": [
+        "yanan-old",
+        "yanan-new"
+      ],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [
+        "DAX",
+        "DZH"
+      ],
+      "caseKey": "dazhou",
+      "checkedYears": [
+        2022
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": "2022-05-19",
+      "executedChange": true,
+      "factIds": [
+        "dazhou-codes-notice",
+        "dazhou-old-code-notice",
+        "dazhou-executed",
+        "dazhou-iata-guide"
+      ],
+      "findingsZh": "已补双侧代码和实际迁场证明；DAX/DZH 不同码。仍不能从首航日推定首次 IATA 分配日。",
+      "gapsZh": [
+        "两侧只有单次或年度代码关联；暂无足够本地整日区间，两侧 ICAO 分配仍需原件。"
+      ],
+      "kind": "replacement",
+      "labelZh": "达州河市／金垭",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": true,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "中国大陆",
+      "reviewer": null,
+      "siteKeys": [
+        "dazhou-old",
+        "dazhou-new"
+      ],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "lianyungang",
+      "checkedYears": [
+        2021
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": true,
+      "factIds": [
+        "lianyungang-finding",
+        "lianyungang-iata-guide"
+      ],
+      "findingsZh": "CAAC 年报确认 2021 年实质迁建。军用白塔埠旧场与灌云县花果山新场分立；民航迁出不等于军事场址消失。",
+      "gapsZh": [
+        "缺少旧场 LYG 的可审核主管部门／航空公司历史原件及代码交接边界。"
+      ],
+      "kind": "replacement",
+      "labelZh": "连云港白塔埠／花果山",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": true,
+        "priorityMarket": true,
+        "sameIataLead": true,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "中国大陆",
+      "reviewer": null,
+      "siteKeys": [
+        "lianyungang-old",
+        "lianyungang-new"
+      ],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "yibin",
+      "checkedYears": [
+        2019,
+        2020
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": "2019-12-05",
+      "executedChange": true,
+      "factIds": [
+        "yibin-finding",
+        "yibin-iata-guide",
+        "yibin-executed-date"
+      ],
+      "findingsZh": "CAAC 年报确认迁建，地区管理局回顾确认五粮液 2019-12-05 投运；菜坝民航停止与军事设施最终关闭不能混同。",
+      "gapsZh": [
+        "缺少旧场 YBP 权威分配观察；菜坝军事用途、最终关闭及新旧 ZUYB 分配边界仍需另证。"
+      ],
+      "kind": "replacement",
+      "labelZh": "宜宾菜坝／五粮液",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": true,
+        "priorityMarket": true,
+        "sameIataLead": true,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "中国大陆",
+      "reviewer": null,
+      "siteKeys": [
+        "yibin-old",
+        "yibin-new"
+      ],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "luzhou",
+      "checkedYears": [
+        2018
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": true,
+      "factIds": [
+        "luzhou-finding"
+      ],
+      "findingsZh": "运营商原件明确旧蓝田与新云龙迁场及 2018 年 9 月投运。新跑道场址与原场址是两个永久身份。",
+      "gapsZh": [
+        "尚无可用的双侧 LZO 原始分配记录；不把网络代码表或模拟飞行资料用作批准依据。"
+      ],
+      "kind": "replacement",
+      "labelZh": "泸州蓝田／云龙",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": true,
+        "priorityMarket": true,
+        "sameIataLead": true,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "中国大陆",
+      "reviewer": null,
+      "siteKeys": [
+        "luzhou-old",
+        "luzhou-new"
+      ],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "zhanjiang",
+      "checkedYears": [
+        2022
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": true,
+      "factIds": [
+        "zhanjiang-finding"
+      ],
+      "findingsZh": "CAAC 2022 年年报确认吴川替代原湛江运输机场。须区分多个湛江军用机场与已迁出的民航场址。",
+      "gapsZh": [
+        "原湛江民航场址及 ZHA/ZGZJ 的两侧分配原件未齐，当前目录位置不足以替代身份判定。"
+      ],
+      "kind": "replacement",
+      "labelZh": "湛江旧场／吴川",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": true,
+        "priorityMarket": true,
+        "sameIataLead": true,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "中国大陆",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "beijing",
+      "checkedYears": [
+        2019
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "beijing-finding"
+      ],
+      "findingsZh": "2019 年 CAAC 公报同时记载大兴新通航、首都吞吐量超过一亿及南苑停航；大兴没有替代并关闭首都。PEK、PKX、NAY 需分别研究。",
+      "gapsZh": [
+        "大兴开航与南苑民航停止的精确执行日期、三机场代码历史分配仍需逐项补证。"
+      ],
+      "kind": "parallel_airports",
+      "labelZh": "北京首都／大兴／南苑",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "中国大陆",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "chengdu",
+      "checkedYears": [
+        2021,
+        2023
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": "2021-06-27",
+      "executedChange": false,
+      "factIds": [
+        "chengdu-finding"
+      ],
+      "findingsZh": "CAAC 回顾确认天府 2021-06-27 开航与双流并行。2023 年报告分别统计两场航线，不能作 CTU 转移到天府。",
+      "gapsZh": [
+        "需要两场 IATA/ICAO 资料；本轮不生成虚假的关闭或同码转场。"
+      ],
+      "kind": "parallel_airports",
+      "labelZh": "成都双流／天府",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "中国大陆",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "rizhao",
+      "checkedYears": [
+        2015
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": true,
+      "factIds": [
+        "rizhao-finding"
+      ],
+      "findingsZh": "CAAC 公报列为 2015 年新增机场；原件写“三字河”，与现用“山字河”拼写差异保留，不据此新建第二座机场。",
+      "gapsZh": [
+        "新增机场仅有年度边界；准确开航日与历史 RIZ/ZSRZ 分配另证。"
+      ],
+      "kind": "opening",
+      "labelZh": "日照山字河",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "中国大陆",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "shiyan",
+      "checkedYears": [
+        2016
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": true,
+      "factIds": [
+        "shiyan-finding",
+        "shiyan-iata-guide"
+      ],
+      "findingsZh": "2016 年 CAAC 公报列十堰为新通航城市；不能仅凭城市名确定机场全部代码和精确开航日。",
+      "gapsZh": [
+        "机场场址、历史 WDS/ZHSY 与首次执行日期仍需机场或航司原件。"
+      ],
+      "kind": "opening",
+      "labelZh": "十堰武当山",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "中国大陆",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "jinzhou",
+      "checkedYears": [
+        2015
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": true,
+      "factIds": [
+        "jinzhou-finding",
+        "jinzhou-iata-guide"
+      ],
+      "findingsZh": "同一 2015 年 CAAC 原件支持锦州迁建；不将一份公报按机场或页数膨胀成多个独立来源。",
+      "gapsZh": [
+        "小岭子与湾机场的双侧 JNZ 历史、旧场后续用途、分配边界待补。"
+      ],
+      "kind": "replacement",
+      "labelZh": "锦州小岭子／锦州湾",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": true,
+        "priorityMarket": true,
+        "sameIataLead": true,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "中国大陆",
+      "reviewer": null,
+      "siteKeys": [
+        "jinzhou-old",
+        "jinzhou-new"
+      ],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "haneda",
+      "checkedYears": [
+        2020
+      ],
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "haneda-finding"
+      ],
+      "findingsZh": "ANA 2020 公告明确 HND 以及 T2/T3 国际服务安排，东京继续双枢纽；MLIT 另说明航站楼名称调整。仅凭这些调整不新增物理机场。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "东京羽田",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "日本",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "narita",
+      "checkedYears": [
+        2015,
+        2017,
+        2019,
+        2020,
+        2023,
+        2024
+      ],
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "narita-finding"
+      ],
+      "findingsZh": "运营商历史把 2015 年事项明确为 T3 开启，2020 年为机坪塔台；在本页所列 2015–2024 事项中未发现需新增的迁址事实。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "东京成田",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "日本",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "kansai",
+      "checkedYears": [
+        2026
+      ],
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "kansai-finding"
+      ],
+      "findingsZh": "Peach 2026-04-01 执行公告明确既有 T2 国内线柜台更新。2016 原件 403 已记失败；没有把搜索摘要当历史证据。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "大阪关西",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "日本",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "itami",
+      "checkedYears": [
+        2016,
+        2018,
+        2019,
+        2020
+      ],
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "itami-finding"
+      ],
+      "findingsZh": "MLIT 2021 报告回顾 2016–2020 年航站楼改造；不据此生成迁址、代码转移。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "大阪伊丹",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "日本",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "kobe",
+      "checkedYears": [
+        2019,
+        2022,
+        2025,
+        2026
+      ],
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "kobe-finding"
+      ],
+      "findingsZh": "神户市原件确认 2025-04-18 国际包机开始；2030 年定期国际线仍是目标。业务性质改变不等于新场址。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "神户",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "日本",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "chubu",
+      "checkedYears": [
+        2019
+      ],
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "chubu-finding"
+      ],
+      "findingsZh": "运营商 2019 公告明确在既有空港岛南侧新建 T2，NGO/NKM 的 2005 年转换不计入本轮新事件。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "名古屋中部",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "日本",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "komaki",
+      "checkedYears": [
+        2024,
+        2025
+      ],
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "komaki-finding"
+      ],
+      "findingsZh": "爱知县 2024 年公告确认小牧持续作为县营机场，2005 年重组在研究期之前；不把中部 T2 误认为小牧关闭。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "名古屋小牧",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "日本",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "fukuoka",
+      "checkedYears": [
+        2015,
+        2020,
+        2025
+      ],
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "fukuoka-finding"
+      ],
+      "findingsZh": "运营商回顾明确 2025 年是增建 B 跑道和航站楼扩建；不新建永久机场 ID。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "福冈",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "日本",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "chitose",
+      "checkedYears": [
+        2019
+      ],
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "chitose-finding"
+      ],
+      "findingsZh": "运营商历史把 2019 年事项记为国际航站楼扩建；未据此推断 CTS/RJCC 分配变化。英文机器译文措辞异常，作为范围有限的工程判断。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "新千岁",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "日本",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "naha",
+      "checkedYears": [
+        2019,
+        2020
+      ],
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "naha-finding"
+      ],
+      "findingsZh": "MLIT 2019 年公告是第二跑道计划于 2020-03-26 投用；没有证明新物理机场，也未把公告当执行确认。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "那霸",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "日本",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "shimojishima",
+      "checkedYears": [
+        2019,
+        2024
+      ],
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "shimojishima-finding"
+      ],
+      "findingsZh": "项目运营方回顾确认 2019-03-30 是旅客设施开业、2024 年是商务机航站楼；原有训练机场与新航站楼不能混同。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "下地岛",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "日本",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "incheon",
+      "checkedYears": [
+        2017,
+        2018,
+        2024
+      ],
+      "country": "KR",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "incheon-finding"
+      ],
+      "findingsZh": "运营商第 4 阶段材料覆盖 2017–2024 年增建跑道与 T2 扩建；未发现该工程要求新增物理身份。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "首尔仁川",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "韩国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "gimpo",
+      "checkedYears": [
+        2026
+      ],
+      "country": "KR",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "gimpo-finding"
+      ],
+      "findingsZh": "KAC 当前概况明确金浦场址，但年表止于早期历史，无法证明 2015–2026 全期连续；保持下一轮 AIP 检查。",
+      "gapsZh": [
+        "历史页年表未覆盖 2015 后，需补 AIP 和航司历史；本次只确认当前物理概况。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "首尔金浦",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "韩国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "gimhae",
+      "checkedYears": [
+        2017
+      ],
+      "country": "KR",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "gimhae-finding"
+      ],
+      "findingsZh": "KAC 年表明确 2017 年是国际旅客航站楼扩建；1976 年迁场发生于本轮之前，不作为新增迁址。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "釜山金海",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "韩国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "jeju",
+      "checkedYears": [
+        2026
+      ],
+      "country": "KR",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "jeju-finding"
+      ],
+      "findingsZh": "KAC 当前概况给出既有场址；该页没有足够 2015 后年表，不能据此宣称全期无迁址。第二机场计划不能当已投入使用。",
+      "gapsZh": [
+        "缺少 2015–2026 AIP 和第二机场正式实际投运资料；仅完成当前概况核查。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "济州",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "韩国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "cheongju",
+      "checkedYears": [
+        2026
+      ],
+      "country": "KR",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "cheongju-finding"
+      ],
+      "findingsZh": "KAC 年表确认民航开航在 1997 年；本页年表不足以覆盖 2015 后分配变化，未产生可入库新变化。",
+      "gapsZh": [
+        "年表止于早期扩建；需补 2015 后 AIP 历史，保留重点机场队列。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "清州",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "韩国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "muan",
+      "checkedYears": [
+        2026
+      ],
+      "country": "KR",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "muan-finding"
+      ],
+      "findingsZh": "KAC 概况确认 2007 年开航，不能据该旧年表断言事故后已经恢复商业航班；物理身份、暂时停运及恢复要分别调查。",
+      "gapsZh": [
+        "本页不解决 2024 事故后 NOTAM、2026 开放状态与实际复航，继续高优先级补证。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "务安",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "韩国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "daegu",
+      "checkedYears": [
+        2020,
+        2026
+      ],
+      "country": "KR",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "daegu-finding"
+      ],
+      "findingsZh": "省政府新机场项目年表可核规划进展；仅规划、选址、迁移法令均不足以证明新场已经取代旧场。",
+      "gapsZh": [
+        "MOLIT 首选链接出现循环重定向；实际投运、代码与旧场关闭均未获证明，不提议已发生迁场。"
+      ],
+      "kind": "planned_replacement",
+      "labelZh": "大邱／庆北新机场计划",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "韩国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": true,
+      "candidateCodes": [],
+      "caseKey": "williston",
+      "checkedYears": [
+        2019,
+        2020
+      ],
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": true,
+      "factIds": [
+        "williston-finding",
+        "williston-faa-airport-row",
+        "williston-faa-rco-row",
+        "williston-faa-icao-rule",
+        "williston-executed-2020"
+      ],
+      "findingsZh": "新增 2020 FAA Location Identifiers 原件把机场 XWA 与 RCO/导航设施 ISN 分开；配合本土机场加 K 规则支持 KXWA 推导。另一份 2020-02-26 FAA 原件确认新场实际开放；IATA 仍未取得，既有永久 ID 复用，KXWA 旧提案保持 pending／未批准。",
+      "gapsZh": [
+        "新增 FAA 资料尚须用户逐条审查；双侧 IATA 原件和精确分配／撤销日期仍缺，不把 FAA LID 自动转为 IATA，不解除 KXWA 老阻塞。"
+      ],
+      "kind": "replacement",
+      "labelZh": "Williston Sloulin／Basin",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": true,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "美国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "laguardia",
+      "checkedYears": [
+        2018,
+        2022
+      ],
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "laguardia-finding"
+      ],
+      "findingsZh": "PANYNJ 明确 Terminal B 在 2018 起分阶段开放并于 2022 完成；“全新 LGA”指航站楼重建，不是机场迁址。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "New York LaGuardia",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "美国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "saltlake",
+      "checkedYears": [
+        2020,
+        2023,
+        2024
+      ],
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "saltlake-finding"
+      ],
+      "findingsZh": "运营商阶段说明将 New SLC 分成 2020、2023、2024 工程阶段；没有据营销名称另建新物理机场。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "Salt Lake City",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "美国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "kansascity",
+      "checkedYears": [
+        2023
+      ],
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "kansascity-finding"
+      ],
+      "findingsZh": "市航空部门原件确认新航站楼在 2023-02-28 开放；既有机场已运营约五十年，不能按 MCI 迁址处理。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "Kansas City",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "美国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "neworleans",
+      "checkedYears": [
+        2019
+      ],
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "neworleans-finding"
+      ],
+      "findingsZh": "机场历史明确 2019-11-06 为新航站楼开放，三字 MSY 的历史解释另列；未发现迁至另一机场的证据。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "New Orleans",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "美国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "pittsburgh",
+      "checkedYears": [
+        2025
+      ],
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "pittsburgh-finding"
+      ],
+      "findingsZh": "运营商 2025-11-20 页面标题支持旅客航站楼开启这一有限事实，正文未可提取；不把新闻发布日期当确切开航日或迁址日。",
+      "gapsZh": [
+        "正文未取得，实际启用日与既有跑道关系需补完整政府／运营商原件；不扩大标题的证明范围。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "Pittsburgh",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "美国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "austin",
+      "checkedYears": [
+        2017,
+        2026
+      ],
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "austin-finding"
+      ],
+      "findingsZh": "市航空部门材料确认南航站楼最后运营日，Allegiant/Frontier 转主航站楼；这是同场航站楼关闭，不是 AUS 物理机场关闭。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "Austin Bergstrom",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "美国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "newark",
+      "checkedYears": [
+        2023
+      ],
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "newark-finding"
+      ],
+      "findingsZh": "PANYNJ 2023 公告说的是 Terminal A 首班，计划日 1 月 12 日；不得将 EWR 重新分配给所谓新机场。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "Newark Liberty",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "美国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "heathrow",
+      "checkedYears": [
+        2015,
+        2026
+      ],
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "heathrow-finding"
+      ],
+      "findingsZh": "运营商历史列 2015 年 T1 关闭及 T2 扩建脉络，属于既有机场内的航站楼变化；代码分配全史未核。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "London Heathrow",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "英国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "gatwick",
+      "checkedYears": [
+        2020,
+        2026
+      ],
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "gatwick-finding"
+      ],
+      "findingsZh": "运营商历史可核 2020 年疫情影响；没有将航班减少／航站楼停开当作机场物理身份消失。该页遗漏年份仍需补证。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "London Gatwick",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "英国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "stansted",
+      "checkedYears": [
+        2017,
+        2026
+      ],
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "stansted-finding"
+      ],
+      "findingsZh": "机场历史记录 2017 年 Jet2 基地业务，1991 年航站楼开放在本轮之前；不制造 2015 后迁址事实。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "London Stansted",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "英国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "manchester",
+      "checkedYears": [
+        2021,
+        2024,
+        2025
+      ],
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "manchester-finding"
+      ],
+      "findingsZh": "运营商回顾确认 2021 年 T2 扩建，并将 2025 完工作为当时预期；没有关闭整个 Manchester 机场。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "Manchester",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "英国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "birmingham",
+      "checkedYears": [
+        2026
+      ],
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "birmingham-finding"
+      ],
+      "findingsZh": "运营商历史页已读取；只保留有限历史概况，不用机场排名推定代码变更，缺少完整年份资料。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "Birmingham",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "英国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "edinburgh",
+      "checkedYears": [
+        2024
+      ],
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "edinburgh-finding"
+      ],
+      "findingsZh": "运营商历史说明 2024 年变化是股权合作，不是迁址；早期航站楼扩建与地点连续性仍须分别核对。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "Edinburgh",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "英国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "glasgow",
+      "checkedYears": [
+        2015,
+        2016
+      ],
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "glasgow-finding"
+      ],
+      "findingsZh": "运营商 2016 周年年表及航线动态未提出新场址或代码变化；1966 开航不算本轮新增事件。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "Glasgow",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "英国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "bristol",
+      "checkedYears": [
+        2016,
+        2017,
+        2019
+      ],
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "bristol-finding"
+      ],
+      "findingsZh": "运营商明确 2017 年为当前场址运营六十周年；2016、2019 年扩建及旧航站楼拆除不等于全场关闭。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "Bristol",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "英国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "doncaster",
+      "checkedYears": [
+        2022,
+        2026
+      ],
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "doncaster-service-stop",
+        "doncaster-future-preparations"
+      ],
+      "findingsZh": "已区分 2022 商业运营停止、2026 筹备及 2027 预期交付；未获证据证明 2026-10-29 前实际重新开航。",
+      "gapsZh": [
+        "CAA 许可／空域历史、实际最后和首班执行及 DSA/EGCN 分配边界需另证。"
+      ],
+      "kind": "service_closure",
+      "labelZh": "Doncaster Sheffield",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "英国",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "murcia",
+      "checkedYears": [
+        2019,
+        2026
+      ],
+      "country": "ES",
+      "decision": "pending",
+      "eventDate": "2019-01-15",
+      "executedChange": true,
+      "factIds": [
+        "murcia-index-iata",
+        "murcia-index-new"
+      ],
+      "findingsZh": "补齐两侧 IATA 和 ICAO 关系。MJV/RMU 是不同代码，MJV 仍列旧场；不声称 MJV 转给新场或民航关闭日就是撤码日。",
+      "gapsZh": [
+        "精确首次分配未知；拟议连续性须逐项人工批准；本轮完整的是不同码替代链，同一 IATA 跨场址完整链仍单独统计。"
+      ],
+      "kind": "replacement",
+      "labelZh": "Murcia San Javier／Corvera",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": true,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "欧洲大陆",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": true,
+      "candidateCodes": [],
+      "caseKey": "berlin",
+      "checkedYears": [
+        2020,
+        2021
+      ],
+      "country": "DE",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": true,
+      "factIds": [
+        "berlin-finding"
+      ],
+      "findingsZh": "运营商区分 SXF→BER、Schönefeld 扩建为 BER、Tegel 末班与 2021-05-04 执照到期；已有 BER 正式记录不重提，新 Tegel 关系仍需逐条证据。",
+      "gapsZh": [
+        "Tegel 物理记录与 TXL 有效边界尚未正式入库；不能把 Schönefeld/BER 单纯按两座独立新旧机场处理。"
+      ],
+      "kind": "replacement",
+      "labelZh": "Berlin Tegel／Schönefeld／BER",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": true,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "欧洲大陆",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": true,
+      "candidateCodes": [],
+      "caseKey": "istanbul",
+      "checkedYears": [
+        2019
+      ],
+      "country": "TR",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": true,
+      "factIds": [
+        "istanbul-finding"
+      ],
+      "findingsZh": "航司执行回顾确认 2019-04-06 的代码对调，与正式库既有 IST/ISL 两侧链核对；不新增重复分配，不把旧场后续用途当场址消失。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "replacement",
+      "labelZh": "Istanbul Atatürk／新机场",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": true,
+        "priorityMarket": true,
+        "sameIataLead": true,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "欧洲大陆",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "narvik",
+      "checkedYears": [
+        2017
+      ],
+      "country": "NO",
+      "decision": "pending",
+      "eventDate": "2017-04-01",
+      "executedChange": true,
+      "factIds": [
+        "narvik-finding"
+      ],
+      "findingsZh": "EUROCONTROL 国家报告明确 Framnes 2017-04-01 永久关闭；承接 Narvik 服务的 Evenes 是既有机场，尚无 NVK 转给 EVE 的证据。",
+      "gapsZh": [
+        "两侧 NVK/ENNK、EVE/ENEV 权威历史代码原件未齐；不能声称存在代码转移。"
+      ],
+      "kind": "replacement",
+      "labelZh": "Narvik Framnes／Evenes 服务承接",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": true,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "欧洲大陆",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "rygge",
+      "checkedYears": [
+        2016,
+        2017
+      ],
+      "country": "NO",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "rygge-finding"
+      ],
+      "findingsZh": "同一国家报告明确 2016 年关闭的是商业航班并由空军接手，保留 ATS；不能视作物理机场完全消失。",
+      "gapsZh": [
+        "尚未证明 RYG/ENRY 撤销或复航；民航停运与军用延续分别待核。"
+      ],
+      "kind": "service_closure",
+      "labelZh": "Moss Rygge",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "欧洲大陆",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "bodo",
+      "checkedYears": [
+        2024,
+        2026
+      ],
+      "country": "NO",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "bodo-finding"
+      ],
+      "findingsZh": "Avinor 当前计划 2029/2030 完成新机场，2024 年开始施工；截至研究截止不能计为已完成迁场或新代码分配。",
+      "gapsZh": [
+        "未来项目，尚无实际投运或旧场关闭；保留下一轮重点候选。"
+      ],
+      "kind": "planned_replacement",
+      "labelZh": "Bodø 新机场计划",
+      "priority": {
+        "flightGeolocationValue": true,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": true
+      },
+      "queue": "A",
+      "region": "欧洲大陆",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "oslo",
+      "checkedYears": [
+        2017
+      ],
+      "country": "NO",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "oslo-finding"
+      ],
+      "findingsZh": "国家报告明确 2017-04 为新航站楼启用；未发现需要新建物理机场 ID 的证据。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "Oslo Gardermoen",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "欧洲大陆",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "bergen",
+      "checkedYears": [
+        2017
+      ],
+      "country": "NO",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "bergen-finding"
+      ],
+      "findingsZh": "国家报告中核查 Bergen 既有机场及业务范围；本报告不建立 BGO 的完整时间分配台账，保留后续 AIP 核查。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "Bergen Flesland",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "欧洲大陆",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "helsinki",
+      "checkedYears": [
+        2022
+      ],
+      "country": "FI",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "helsinki-finding"
+      ],
+      "findingsZh": "Finavia 明确单航站楼办理流程整合；不能认定 HEL 转移给另一座物理机场。公告计划与实际执行另分。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "Helsinki Vantaa",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "欧洲大陆",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "orly",
+      "checkedYears": [
+        2019
+      ],
+      "country": "FR",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "orly-finding"
+      ],
+      "findingsZh": "ADP 2019 年原刊介绍航站楼统一及 1/2/3/4 区标识，不是 ORY 跨物理机场转移。该刊照片和地图无公开转载授权，不提交完整刊物。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "Paris Orly",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "欧洲大陆",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    },
+    {
+      "alreadyFormal": false,
+      "candidateCodes": [],
+      "caseKey": "bergamo",
+      "checkedYears": [
+        2021
+      ],
+      "country": "IT",
+      "decision": "pending",
+      "eventDate": null,
+      "executedChange": false,
+      "factIds": [
+        "bergamo-finding"
+      ],
+      "findingsZh": "SACBO 原件为航站楼出入口及疫情流程调整；没有据门号变化创建机场迁址事实。",
+      "gapsZh": [
+        "所读资料范围有限，未完成逐期 AIP／完整分配台账核查；不能证明整个 2015–2026 年无变化。"
+      ],
+      "kind": "continuity_check",
+      "labelZh": "Milan Bergamo",
+      "priority": {
+        "flightGeolocationValue": false,
+        "importantAirport": true,
+        "officialEvidenceLead": true,
+        "passengerService": true,
+        "physicalReplacementLead": false,
+        "priorityMarket": true,
+        "sameIataLead": false,
+        "unresolvedBoundary": false
+      },
+      "queue": "B",
+      "region": "欧洲大陆",
+      "reviewer": null,
+      "siteKeys": [],
+      "status": "scoped_facts_assessed"
+    }
+  ],
+  "completedFullSameIataTransfers": 0,
+  "cutoff": "2026-10-29",
+  "decision": "pending",
+  "facts": [
+    {
+      "citation": {
+        "normalizedCharacterEnd": 857,
+        "normalizedCharacterStart": 843,
+        "page": null,
+        "quote": "青岛流亭机场迁至青岛胶东机场"
+      },
+      "codeBindings": [],
+      "conclusionZh": "2021 年实际迁址由 CAAC 年报再次确认；正式库已有两个永久 ID 及代码历史，不新增重复提案。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "qingdao-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "青岛流亭机场迁至青岛胶东机场",
+      "reviewer": null,
+      "sourceId": "cn-stat-2021"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 438,
+        "normalizedCharacterStart": 420,
+        "page": 8,
+        "quote": "完成了山东烟台机场、辽宁锦州机场迁建"
+      },
+      "codeBindings": [],
+      "conclusionZh": "2015 年 CAAC 行业公报确认烟台迁建；正式库已有两场身份与记录，本轮只核重复。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "yantai-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "完成了山东烟台机场、辽宁锦州机场迁建",
+      "reviewer": null,
+      "sourceId": "cn-stat-2015"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 243,
+        "normalizedCharacterStart": 223,
+        "page": null,
+        "quote": "标志着历时五年建设的安康富强机场正式通航"
+      },
+      "codeBindings": [],
+      "conclusionZh": "政府原件确认 2020-09-25 实际首航；2015–2020 旧场是否仍有民航航班必须另证，不能把富强开航当作 AKA 分配日。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "ankang-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "标志着历时五年建设的安康富强机场正式通航",
+      "reviewer": null,
+      "sourceId": "cn-ankang-government"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 933,
+        "normalizedCharacterStart": 925,
+        "page": null,
+        "quote": "迁建二十里铺机场"
+      },
+      "codeBindings": [],
+      "conclusionZh": "CAAC 明确二十里铺与南泥湾迁建关系，既有 CAAC 资料确认 2018-11-08 实际投运。不能把两个场址合并为一个物理身份。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "yanan-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "迁建二十里铺机场",
+      "reviewer": null,
+      "sourceId": "cn-yanan-sites"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 1091,
+        "normalizedCharacterStart": 1076,
+        "page": null,
+        "quote": "达州金垭机场（三字代码DZH）"
+      },
+      "codeBindings": [
+        {
+          "code": "DZH",
+          "scheme": "IATA",
+          "siteKey": "dazhou-new"
+        }
+      ],
+      "conclusionZh": "航司通知是新场 DZH、旧场 DAX，不能按同码转移。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "dazhou-codes-notice",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": "2022-05-07",
+      "quote": "达州金垭机场（三字代码DZH）",
+      "reviewer": null,
+      "sourceId": "cn-dazhou-airline"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 1117,
+        "normalizedCharacterStart": 1102,
+        "page": null,
+        "quote": "达州河市机场（三字代码DAX）"
+      },
+      "codeBindings": [
+        {
+          "code": "DAX",
+          "scheme": "IATA",
+          "siteKey": "dazhou-old"
+        }
+      ],
+      "conclusionZh": "同一通知直接把 DAX 绑定河市旧场。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "dazhou-old-code-notice",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": "2022-05-07",
+      "quote": "达州河市机场（三字代码DAX）",
+      "reviewer": null,
+      "sourceId": "cn-dazhou-airline"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 353,
+        "normalizedCharacterStart": 328,
+        "page": null,
+        "quote": "达州金垭机场于5月正式通航，达州河市机场同步关闭。"
+      },
+      "codeBindings": [],
+      "conclusionZh": "CAAC 2022 年运行报告回顾确认执行；航司未来通知与实际执行分开。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "dazhou-executed",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "达州金垭机场于5月正式通航，达州河市机场同步关闭。",
+      "reviewer": null,
+      "sourceId": "cn-dazhou-executed"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 876,
+        "normalizedCharacterStart": 858,
+        "page": null,
+        "quote": "连云港白塔埠机场迁至连云港花果山机场"
+      },
+      "codeBindings": [],
+      "conclusionZh": "CAAC 年报确认 2021 年实质迁建。军用白塔埠旧场与灌云县花果山新场分立；民航迁出不等于军事场址消失。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "lianyungang-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "连云港白塔埠机场迁至连云港花果山机场",
+      "reviewer": null,
+      "sourceId": "cn-stat-2021"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 741,
+        "normalizedCharacterStart": 726,
+        "page": null,
+        "quote": "宜宾菜坝机场迁至宜宾五粮液机场"
+      },
+      "codeBindings": [],
+      "conclusionZh": "CAAC 年报确认迁建，地区管理局回顾确认五粮液 2019-12-05 投运；菜坝民航停止与军事设施最终关闭不能混同。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "yibin-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "宜宾菜坝机场迁至宜宾五粮液机场",
+      "reviewer": null,
+      "sourceId": "cn-stat-2019"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 116,
+        "normalizedCharacterStart": 104,
+        "page": null,
+        "quote": "泸州蓝田机场迁建的新机场"
+      },
+      "codeBindings": [],
+      "conclusionZh": "运营商原件明确旧蓝田与新云龙迁场及 2018 年 9 月投运。新跑道场址与原场址是两个永久身份。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "luzhou-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "泸州蓝田机场迁建的新机场",
+      "reviewer": null,
+      "sourceId": "cn-luzhou-operator"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 819,
+        "normalizedCharacterStart": 807,
+        "page": null,
+        "quote": "湛江机场迁至湛江吴川机场"
+      },
+      "codeBindings": [],
+      "conclusionZh": "CAAC 2022 年年报确认吴川替代原湛江运输机场。须区分多个湛江军用机场与已迁出的民航场址。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "zhanjiang-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "湛江机场迁至湛江吴川机场",
+      "reviewer": null,
+      "sourceId": "cn-stat-2022"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 725,
+        "normalizedCharacterStart": 717,
+        "page": null,
+        "quote": "北京南苑机场停航"
+      },
+      "codeBindings": [],
+      "conclusionZh": "2019 年 CAAC 公报同时记载大兴新通航、首都吞吐量超过一亿及南苑停航；大兴没有替代并关闭首都。PEK、PKX、NAY 需分别研究。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "beijing-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "北京南苑机场停航",
+      "reviewer": null,
+      "sourceId": "cn-stat-2019"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 360,
+        "normalizedCharacterStart": 345,
+        "page": null,
+        "quote": "成都步入“两场一体”运营新时代"
+      },
+      "codeBindings": [],
+      "conclusionZh": "CAAC 回顾确认天府 2021-06-27 开航与双流并行。2023 年报告分别统计两场航线，不能作 CTU 转移到天府。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "chengdu-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "成都步入“两场一体”运营新时代",
+      "reviewer": null,
+      "sourceId": "cn-chengdu-parallel"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 344,
+        "normalizedCharacterStart": 335,
+        "page": 8,
+        "quote": "山东日照三字河机场"
+      },
+      "codeBindings": [],
+      "conclusionZh": "CAAC 公报列为 2015 年新增机场；原件写“三字河”，与现用“山字河”拼写差异保留，不据此新建第二座机场。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "rizhao-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "山东日照三字河机场",
+      "reviewer": null,
+      "sourceId": "cn-stat-2015"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 290,
+        "normalizedCharacterStart": 286,
+        "page": null,
+        "quote": "湖北十堰"
+      },
+      "codeBindings": [],
+      "conclusionZh": "2016 年 CAAC 公报列十堰为新通航城市；不能仅凭城市名确定机场全部代码和精确开航日。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "shiyan-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "湖北十堰",
+      "reviewer": null,
+      "sourceId": "cn-stat-2016"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 438,
+        "normalizedCharacterStart": 420,
+        "page": 8,
+        "quote": "完成了山东烟台机场、辽宁锦州机场迁建"
+      },
+      "codeBindings": [],
+      "conclusionZh": "同一 2015 年 CAAC 原件支持锦州迁建；不将一份公报按机场或页数膨胀成多个独立来源。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "jinzhou-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "完成了山东烟台机场、辽宁锦州机场迁建",
+      "reviewer": null,
+      "sourceId": "cn-stat-2015"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 750,
+        "normalizedCharacterStart": 730,
+        "page": null,
+        "quote": "Haneda Airport (HND)"
+      },
+      "codeBindings": [],
+      "conclusionZh": "ANA 2020 公告明确 HND 以及 T2/T3 国际服务安排，东京继续双枢纽；MLIT 另说明航站楼名称调整。仅凭这些调整不新增物理机场。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "haneda-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "Haneda Airport (HND)",
+      "reviewer": null,
+      "sourceId": "jp-hnd-ana"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 2590,
+        "normalizedCharacterStart": 2547,
+        "page": null,
+        "quote": "April 2015 Passenger Terminal 3 was opened."
+      },
+      "codeBindings": [],
+      "conclusionZh": "运营商历史把 2015 年事项明确为 T3 开启，2020 年为机坪塔台；在本页所列 2015–2024 事项中未发现需新增的迁址事实。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "narita-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "April 2015 Passenger Terminal 3 was opened.",
+      "reviewer": null,
+      "sourceId": "jp-nrt-history"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 535,
+        "normalizedCharacterStart": 466,
+        "page": 1,
+        "quote": "has refreshed the airport counters in the domestic area of Terminal 2"
+      },
+      "codeBindings": [],
+      "conclusionZh": "Peach 2026-04-01 执行公告明确既有 T2 国内线柜台更新。2016 原件 403 已记失败；没有把搜索摘要当历史证据。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "kansai-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "has refreshed the airport counters in the domestic area of Terminal 2",
+      "reviewer": null,
+      "sourceId": "jp-kix-peach"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 312,
+        "normalizedCharacterStart": 285,
+        "page": 2,
+        "quote": "大阪国際空港（伊丹空港）ターミナルの大規模リニューアル"
+      },
+      "codeBindings": [],
+      "conclusionZh": "MLIT 2021 报告回顾 2016–2020 年航站楼改造；不据此生成迁址、代码转移。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "itami-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "大阪国際空港（伊丹空港）ターミナルの大規模リニューアル",
+      "reviewer": null,
+      "sourceId": "jp-itm-mlit"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 834,
+        "normalizedCharacterStart": 808,
+        "page": null,
+        "quote": "2025年4月18日からの国際チャーター便の運用開始"
+      },
+      "codeBindings": [],
+      "conclusionZh": "神户市原件确认 2025-04-18 国际包机开始；2030 年定期国际线仍是目标。业务性质改变不等于新场址。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "kobe-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "2025年4月18日からの国際チャーター便の運用開始",
+      "reviewer": null,
+      "sourceId": "jp-ukb-city"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 737,
+        "normalizedCharacterStart": 709,
+        "page": null,
+        "quote": "中部国際空港島南側で整備を進めている新しいターミナルビル"
+      },
+      "codeBindings": [],
+      "conclusionZh": "运营商 2019 公告明确在既有空港岛南侧新建 T2，NGO/NKM 的 2005 年转换不计入本轮新事件。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "chubu-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "中部国際空港島南側で整備を進めている新しいターミナルビル",
+      "reviewer": null,
+      "sourceId": "jp-ngo-terminal"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 527,
+        "normalizedCharacterStart": 495,
+        "page": null,
+        "quote": "2005年に県営空港として開港してから、2025年2月で20周年"
+      },
+      "codeBindings": [],
+      "conclusionZh": "爱知县 2024 年公告确认小牧持续作为县营机场，2005 年重组在研究期之前；不把中部 T2 误认为小牧关闭。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "komaki-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "2005年に県営空港として開港してから、2025年2月で20周年",
+      "reviewer": null,
+      "sourceId": "jp-nkm-prefecture"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 5955,
+        "normalizedCharacterStart": 5891,
+        "page": null,
+        "quote": "In March 2025, the additional runway (Runway B) began operation."
+      },
+      "codeBindings": [],
+      "conclusionZh": "运营商回顾明确 2025 年是增建 B 跑道和航站楼扩建；不新建永久机场 ID。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "fukuoka-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "In March 2025, the additional runway (Runway B) began operation.",
+      "reviewer": null,
+      "sourceId": "jp-fuk-history"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 4578,
+        "normalizedCharacterStart": 4532,
+        "page": null,
+        "quote": "In 2019, New Chitose Airport Terminal Building"
+      },
+      "codeBindings": [],
+      "conclusionZh": "运营商历史把 2019 年事项记为国际航站楼扩建；未据此推断 CTS/RJCC 分配变化。英文机器译文措辞异常，作为范围有限的工程判断。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "chitose-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "In 2019, New Chitose Airport Terminal Building",
+      "reviewer": null,
+      "sourceId": "jp-cts-history"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 113,
+        "normalizedCharacterStart": 108,
+        "page": null,
+        "quote": "第二滑走路"
+      },
+      "codeBindings": [],
+      "conclusionZh": "MLIT 2019 年公告是第二跑道计划于 2020-03-26 投用；没有证明新物理机场，也未把公告当执行确认。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "naha-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "第二滑走路",
+      "reviewer": null,
+      "sourceId": "jp-oka-runway"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 1327,
+        "normalizedCharacterStart": 1304,
+        "page": null,
+        "quote": "2019年3月30日に開業した国際線等旅客施設"
+      },
+      "codeBindings": [],
+      "conclusionZh": "项目运营方回顾确认 2019-03-30 是旅客设施开业、2024 年是商务机航站楼；原有训练机场与新航站楼不能混同。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "shimojishima-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "2019年3月30日に開業した国際線等旅客施設",
+      "reviewer": null,
+      "sourceId": "jp-shi-operator"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 2479,
+        "normalizedCharacterStart": 2397,
+        "page": null,
+        "quote": "construction of a fourth runway and the expansion of the second passenger terminal"
+      },
+      "codeBindings": [],
+      "conclusionZh": "运营商第 4 阶段材料覆盖 2017–2024 年增建跑道与 T2 扩建；未发现该工程要求新增物理身份。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "incheon-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "construction of a fourth runway and the expansion of the second passenger terminal",
+      "reviewer": null,
+      "sourceId": "kr-icn-phases"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 1841,
+        "normalizedCharacterStart": 1806,
+        "page": null,
+        "quote": "김포공항은 서울시 강서구 하늘길 112(공항동)에 위치해 있다."
+      },
+      "codeBindings": [],
+      "conclusionZh": "KAC 当前概况明确金浦场址，但年表止于早期历史，无法证明 2015–2026 全期连续；保持下一轮 AIP 检查。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "gimpo-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "김포공항은 서울시 강서구 하늘길 112(공항동)에 위치해 있다.",
+      "reviewer": null,
+      "sourceId": "kr-gmp-history"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 1988,
+        "normalizedCharacterStart": 1968,
+        "page": null,
+        "quote": "2017. 07 국제선 여객청사 증축"
+      },
+      "codeBindings": [],
+      "conclusionZh": "KAC 年表明确 2017 年是国际旅客航站楼扩建；1976 年迁场发生于本轮之前，不作为新增迁址。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "gimhae-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "2017. 07 국제선 여객청사 증축",
+      "reviewer": null,
+      "sourceId": "kr-pus-history"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 1759,
+        "normalizedCharacterStart": 1729,
+        "page": null,
+        "quote": "제주국제공항은 제주도 제주시 공항로 2에 위치해 있다."
+      },
+      "codeBindings": [],
+      "conclusionZh": "KAC 当前概况给出既有场址；该页没有足够 2015 后年表，不能据此宣称全期无迁址。第二机场计划不能当已投入使用。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "jeju-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "제주국제공항은 제주도 제주시 공항로 2에 위치해 있다.",
+      "reviewer": null,
+      "sourceId": "kr-cju-history"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 1927,
+        "normalizedCharacterStart": 1909,
+        "page": null,
+        "quote": "1997. 04 청주국제공항 개항"
+      },
+      "codeBindings": [],
+      "conclusionZh": "KAC 年表确认民航开航在 1997 年；本页年表不足以覆盖 2015 后分配变化，未产生可入库新变化。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "cheongju-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "1997. 04 청주국제공항 개항",
+      "reviewer": null,
+      "sourceId": "kr-cjj-history"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 1796,
+        "normalizedCharacterStart": 1779,
+        "page": null,
+        "quote": "2007.11 무안국제공항 개항"
+      },
+      "codeBindings": [],
+      "conclusionZh": "KAC 概况确认 2007 年开航，不能据该旧年表断言事故后已经恢复商业航班；物理身份、暂时停运及恢复要分别调查。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "muan-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "2007.11 무안국제공항 개항",
+      "reviewer": null,
+      "sourceId": "kr-mwx-history"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 5049,
+        "normalizedCharacterStart": 5045,
+        "page": null,
+        "quote": "2020"
+      },
+      "codeBindings": [],
+      "conclusionZh": "省政府新机场项目年表可核规划进展；仅规划、选址、迁移法令均不足以证明新场已经取代旧场。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "daegu-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "2020",
+      "reviewer": null,
+      "sourceId": "kr-tae-province"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 6725,
+        "normalizedCharacterStart": 6692,
+        "page": 1,
+        "quote": "Field International Airport (ISN)"
+      },
+      "codeBindings": [],
+      "conclusionZh": "FAA 联邦公报是收到市方未来永久关闭通知，不能当作执行证据或把 ISN/XWA 的 FAA LID 自动转为 IATA。两场正式永久 ID 已存在，KXWA 老提案保持阻塞。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "williston-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "Field International Airport (ISN)",
+      "reviewer": null,
+      "sourceId": "us-isn-closure"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 2558,
+        "normalizedCharacterStart": 2541,
+        "page": null,
+        "quote": "completed in 2022"
+      },
+      "codeBindings": [],
+      "conclusionZh": "PANYNJ 明确 Terminal B 在 2018 起分阶段开放并于 2022 完成；“全新 LGA”指航站楼重建，不是机场迁址。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "laguardia-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "completed in 2022",
+      "reviewer": null,
+      "sourceId": "us-lga-authority"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 645,
+        "normalizedCharacterStart": 608,
+        "page": null,
+        "quote": "First phase opened September 15, 2020"
+      },
+      "codeBindings": [],
+      "conclusionZh": "运营商阶段说明将 New SLC 分成 2020、2023、2024 工程阶段；没有据营销名称另建新物理机场。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "saltlake-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "First phase opened September 15, 2020",
+      "reviewer": null,
+      "sourceId": "us-slc-rebuild"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 348,
+        "normalizedCharacterStart": 298,
+        "page": null,
+        "quote": "Today, February 28, 2023, the 40-gate New Terminal"
+      },
+      "codeBindings": [],
+      "conclusionZh": "市航空部门原件确认新航站楼在 2023-02-28 开放；既有机场已运营约五十年，不能按 MCI 迁址处理。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "kansascity-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "Today, February 28, 2023, the 40-gate New Terminal",
+      "reviewer": null,
+      "sourceId": "us-mci-terminal"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 3794,
+        "normalizedCharacterStart": 3745,
+        "page": null,
+        "quote": "On November 6, 2019, the new world-class terminal"
+      },
+      "codeBindings": [],
+      "conclusionZh": "机场历史明确 2019-11-06 为新航站楼开放，三字 MSY 的历史解释另列；未发现迁至另一机场的证据。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "neworleans-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "On November 6, 2019, the new world-class terminal",
+      "reviewer": null,
+      "sourceId": "us-msy-history"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 73,
+        "normalizedCharacterStart": 35,
+        "page": null,
+        "quote": "new $1.7B terminal opens to passengers"
+      },
+      "codeBindings": [],
+      "conclusionZh": "运营商 2025-11-20 页面标题支持旅客航站楼开启这一有限事实，正文未可提取；不把新闻发布日期当确切开航日或迁址日。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "pittsburgh-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "new $1.7B terminal opens to passengers",
+      "reviewer": null,
+      "sourceId": "us-pit-terminal"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 1279,
+        "normalizedCharacterStart": 1209,
+        "page": null,
+        "quote": "March 31, 2026, was the final day of operations at the South Terminal."
+      },
+      "codeBindings": [],
+      "conclusionZh": "市航空部门材料确认南航站楼最后运营日，Allegiant/Frontier 转主航站楼；这是同场航站楼关闭，不是 AUS 物理机场关闭。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "austin-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "March 31, 2026, was the final day of operations at the South Terminal.",
+      "reviewer": null,
+      "sourceId": "us-aus-terminal"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 802,
+        "normalizedCharacterStart": 730,
+        "page": null,
+        "quote": "first flights in and out of Newark Liberty’s new, world-class Terminal A"
+      },
+      "codeBindings": [],
+      "conclusionZh": "PANYNJ 2023 公告说的是 Terminal A 首班，计划日 1 月 12 日；不得将 EWR 重新分配给所谓新机场。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "newark-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "first flights in and out of Newark Liberty’s new, world-class Terminal A",
+      "reviewer": null,
+      "sourceId": "us-ewr-terminal"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 6785,
+        "normalizedCharacterStart": 6781,
+        "page": null,
+        "quote": "2015"
+      },
+      "codeBindings": [],
+      "conclusionZh": "运营商历史列 2015 年 T1 关闭及 T2 扩建脉络，属于既有机场内的航站楼变化；代码分配全史未核。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "heathrow-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "2015",
+      "reviewer": null,
+      "sourceId": "gb-lhr-history"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 6406,
+        "normalizedCharacterStart": 6381,
+        "page": null,
+        "quote": "2020: The global pandemic"
+      },
+      "codeBindings": [],
+      "conclusionZh": "运营商历史可核 2020 年疫情影响；没有将航班减少／航站楼停开当作机场物理身份消失。该页遗漏年份仍需补证。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "gatwick-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "2020: The global pandemic",
+      "reviewer": null,
+      "sourceId": "gb-lgw-history"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 4580,
+        "normalizedCharacterStart": 4565,
+        "page": null,
+        "quote": "2017 - Jet2.com"
+      },
+      "codeBindings": [],
+      "conclusionZh": "机场历史记录 2017 年 Jet2 基地业务，1991 年航站楼开放在本轮之前；不制造 2015 后迁址事实。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "stansted-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "2017 - Jet2.com",
+      "reviewer": null,
+      "sourceId": "gb-stn-history"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 3574,
+        "normalizedCharacterStart": 3523,
+        "page": null,
+        "quote": "Terminal Two was expanded by more than 150 per cent"
+      },
+      "codeBindings": [],
+      "conclusionZh": "运营商回顾确认 2021 年 T2 扩建，并将 2025 完工作为当时预期；没有关闭整个 Manchester 机场。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "manchester-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "Terminal Two was expanded by more than 150 per cent",
+      "reviewer": null,
+      "sourceId": "gb-man-terminal"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 999,
+        "normalizedCharacterStart": 973,
+        "page": null,
+        "quote": "A history of taking flight"
+      },
+      "codeBindings": [],
+      "conclusionZh": "运营商历史页已读取；只保留有限历史概况，不用机场排名推定代码变更，缺少完整年份资料。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "birmingham-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "A history of taking flight",
+      "reviewer": null,
+      "sourceId": "gb-bhx-history"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 2455,
+        "normalizedCharacterStart": 2401,
+        "page": null,
+        "quote": "In April, 2024 we welcomed a new strategic partnership"
+      },
+      "codeBindings": [],
+      "conclusionZh": "运营商历史说明 2024 年变化是股权合作，不是迁址；早期航站楼扩建与地点连续性仍须分别核对。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "edinburgh-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "In April, 2024 we welcomed a new strategic partnership",
+      "reviewer": null,
+      "sourceId": "gb-edi-history"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 35182,
+        "normalizedCharacterStart": 35100,
+        "page": null,
+        "quote": "Official 50 year anniversary of first commercial flight landing at Glasgow Airport"
+      },
+      "codeBindings": [],
+      "conclusionZh": "运营商 2016 周年年表及航线动态未提出新场址或代码变化；1966 开航不算本轮新增事件。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "glasgow-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "Official 50 year anniversary of first commercial flight landing at Glasgow Airport",
+      "reviewer": null,
+      "sourceId": "gb-gla-history"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 5413,
+        "normalizedCharacterStart": 5346,
+        "page": null,
+        "quote": "Bristol Airport celebrates 60 years of flying from its current site"
+      },
+      "codeBindings": [],
+      "conclusionZh": "运营商明确 2017 年为当前场址运营六十周年；2016、2019 年扩建及旧航站楼拆除不等于全场关闭。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "bristol-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "Bristol Airport celebrates 60 years of flying from its current site",
+      "reviewer": null,
+      "sourceId": "gb-brs-history"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 2669,
+        "normalizedCharacterStart": 2618,
+        "page": null,
+        "quote": "Doncaster Sheffield Airport closed in November 2022"
+      },
+      "codeBindings": [],
+      "conclusionZh": "地方政府确认 2022 年商业机场停止运营；不据此宣称物理场址不存在。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "doncaster-service-stop",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "Doncaster Sheffield Airport closed in November 2022",
+      "reviewer": null,
+      "sourceId": "gb-dsa-status"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 2314,
+        "normalizedCharacterStart": 2257,
+        "page": null,
+        "quote": "The new appliances are due to be delivered in spring 2027"
+      },
+      "codeBindings": [],
+      "conclusionZh": "运营商 2026 年 10 月资料仍是未来消防车交付和复航准备，不是已恢复客运。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "doncaster-future-preparations",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "The new appliances are due to be delivered in spring 2027",
+      "reviewer": null,
+      "sourceId": "gb-dsa-fire"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 5531,
+        "normalizedCharacterStart": 5501,
+        "page": null,
+        "quote": "MURCIA/San Javier - LELC (MJV)"
+      },
+      "codeBindings": [
+        {
+          "code": "MJV",
+          "scheme": "IATA",
+          "siteKey": "murcia-old"
+        },
+        {
+          "code": "LELC",
+          "scheme": "ICAO",
+          "siteKey": "murcia-old"
+        }
+      ],
+      "conclusionZh": "ENAIRE 当前 AD1.3 仍列旧军民场址 LELC/MJV；停止定期民航并不等于 IATA 撤销。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "murcia-index-iata",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": "2026-10-29",
+      "quote": "MURCIA/San Javier - LELC (MJV)",
+      "reviewer": null,
+      "sourceId": "es-murcia-index-current"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 5334,
+        "normalizedCharacterStart": 5324,
+        "page": null,
+        "quote": "LEMI (RMU)"
+      },
+      "codeBindings": [
+        {
+          "code": "RMU",
+          "scheme": "IATA",
+          "siteKey": "murcia-new"
+        },
+        {
+          "code": "LEMI",
+          "scheme": "ICAO",
+          "siteKey": "murcia-new"
+        }
+      ],
+      "conclusionZh": "同一版索引列替代场址 LEMI/RMU；与 2019 议会出版的双侧代码结合，可提议有限连续性。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "murcia-index-new",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": "2026-10-29",
+      "quote": "LEMI (RMU)",
+      "reviewer": null,
+      "sourceId": "es-murcia-index-current"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 28226,
+        "normalizedCharacterStart": 28135,
+        "page": null,
+        "quote": "The existing facilities at Schönefeld Airport will continue to operate as BER's Terminal 5."
+      },
+      "codeBindings": [],
+      "conclusionZh": "运营商区分 SXF→BER、Schönefeld 扩建为 BER、Tegel 末班与 2021-05-04 执照到期；已有 BER 正式记录不重提，新 Tegel 关系仍需逐条证据。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "berlin-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "The existing facilities at Schönefeld Airport will continue to operate as BER's Terminal 5.",
+      "reviewer": null,
+      "sourceId": "de-ber-history"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 8763,
+        "normalizedCharacterStart": 8712,
+        "page": null,
+        "quote": "Atatürk Airport IATA code changed from IST to “ISL”"
+      },
+      "codeBindings": [],
+      "conclusionZh": "航司执行回顾确认 2019-04-06 的代码对调，与正式库既有 IST/ISL 两侧链核对；不新增重复分配，不把旧场后续用途当场址消失。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "istanbul-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "Atatürk Airport IATA code changed from IST to “ISL”",
+      "reviewer": null,
+      "sourceId": "tr-ist-transfer"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 2238,
+        "normalizedCharacterStart": 2196,
+        "page": 11,
+        "quote": "closed down permanently as of 1 April 2017"
+      },
+      "codeBindings": [],
+      "conclusionZh": "EUROCONTROL 国家报告明确 Framnes 2017-04-01 永久关闭；承接 Narvik 服务的 Evenes 是既有机场，尚无 NVK 转给 EVE 的证据。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "narvik-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "closed down permanently as of 1 April 2017",
+      "reviewer": null,
+      "sourceId": "no-nvk-closure"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 2683,
+        "normalizedCharacterStart": 2646,
+        "page": 11,
+        "quote": "closed for commercial traffic in 2016"
+      },
+      "codeBindings": [],
+      "conclusionZh": "同一国家报告明确 2016 年关闭的是商业航班并由空军接手，保留 ATS；不能视作物理机场完全消失。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "rygge-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "closed for commercial traffic in 2016",
+      "reviewer": null,
+      "sourceId": "no-nvk-closure"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 2107,
+        "normalizedCharacterStart": 2086,
+        "page": null,
+        "quote": "planned for 2029/2030"
+      },
+      "codeBindings": [],
+      "conclusionZh": "Avinor 当前计划 2029/2030 完成新机场，2024 年开始施工；截至研究截止不能计为已完成迁场或新代码分配。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "bodo-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "planned for 2029/2030",
+      "reviewer": null,
+      "sourceId": "no-bodo-plan"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 2155,
+        "normalizedCharacterStart": 2132,
+        "page": 11,
+        "quote": "operation in April 2017"
+      },
+      "codeBindings": [],
+      "conclusionZh": "国家报告明确 2017-04 为新航站楼启用；未发现需要新建物理机场 ID 的证据。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "oslo-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "operation in April 2017",
+      "reviewer": null,
+      "sourceId": "no-nvk-closure"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 591,
+        "normalizedCharacterStart": 577,
+        "page": 87,
+        "quote": "Bergen Airport"
+      },
+      "codeBindings": [],
+      "conclusionZh": "国家报告中核查 Bergen 既有机场及业务范围；本报告不建立 BGO 的完整时间分配台账，保留后续 AIP 核查。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "bergen-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "Bergen Airport",
+      "reviewer": null,
+      "sourceId": "no-nvk-closure"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 6721,
+        "normalizedCharacterStart": 6700,
+        "page": null,
+        "quote": "Starting 21 June 2022"
+      },
+      "codeBindings": [],
+      "conclusionZh": "Finavia 明确单航站楼办理流程整合；不能认定 HEL 转移给另一座物理机场。公告计划与实际执行另分。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "helsinki-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "Starting 21 June 2022",
+      "reviewer": null,
+      "sourceId": "fi-hel-terminal"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 1908,
+        "normalizedCharacterStart": 1893,
+        "page": 78,
+        "quote": "Le 19 mars 2019"
+      },
+      "codeBindings": [],
+      "conclusionZh": "ADP 2019 年原刊介绍航站楼统一及 1/2/3/4 区标识，不是 ORY 跨物理机场转移。该刊照片和地图无公开转载授权，不提交完整刊物。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "orly-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "Le 19 mars 2019",
+      "reviewer": null,
+      "sourceId": "fr-ory-terminal"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 5200,
+        "normalizedCharacterStart": 5169,
+        "page": null,
+        "quote": "as of Thursday 18 November 2021"
+      },
+      "codeBindings": [],
+      "conclusionZh": "SACBO 原件为航站楼出入口及疫情流程调整；没有据门号变化创建机场迁址事实。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "bergamo-finding",
+      "locator": "Named airport paragraph in original publication; exact PDF page and normalized text offsets below.",
+      "observedOn": null,
+      "quote": "as of Thursday 18 November 2021",
+      "reviewer": null,
+      "sourceId": "it-bgy-access"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 373,
+        "normalizedCharacterStart": 364,
+        "page": 178,
+        "quote": "安康/富强 AKA"
+      },
+      "codeBindings": [
+        {
+          "code": "AKA",
+          "scheme": "IATA",
+          "siteKey": "ankang-new"
+        }
+      ],
+      "conclusionZh": "主管部门 2023 版报告指南附表 H.1 将 AKA 明确列为 安康/富强 的 IATA；表包含新旧达州两个条目，不能把目录年份当代码有效期。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "ankang-iata-guide",
+      "locator": "Appendix H table H.1 airport name/IATA row; document is a reporting reference, not an allocation ledger.",
+      "observedOn": null,
+      "quote": "安康/富强 AKA",
+      "reviewer": null,
+      "sourceId": "cn-regional-iata"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 780,
+        "normalizedCharacterStart": 770,
+        "page": 179,
+        "quote": "延安/南泥湾 ENY"
+      },
+      "codeBindings": [
+        {
+          "code": "ENY",
+          "scheme": "IATA",
+          "siteKey": "yanan-new"
+        }
+      ],
+      "conclusionZh": "主管部门 2023 版报告指南附表 H.1 将 ENY 明确列为 延安/南泥湾 的 IATA；表包含新旧达州两个条目，不能把目录年份当代码有效期。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "yanan-iata-guide",
+      "locator": "Appendix H table H.1 airport name/IATA row; document is a reporting reference, not an allocation ledger.",
+      "observedOn": null,
+      "quote": "延安/南泥湾 ENY",
+      "reviewer": null,
+      "sourceId": "cn-regional-iata"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 677,
+        "normalizedCharacterStart": 668,
+        "page": 180,
+        "quote": "达州/金垭 DZH"
+      },
+      "codeBindings": [
+        {
+          "code": "DZH",
+          "scheme": "IATA",
+          "siteKey": "dazhou-new"
+        }
+      ],
+      "conclusionZh": "主管部门 2023 版报告指南附表 H.1 将 DZH 明确列为 达州/金垭 的 IATA；表包含新旧达州两个条目，不能把目录年份当代码有效期。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "dazhou-iata-guide",
+      "locator": "Appendix H table H.1 airport name/IATA row; document is a reporting reference, not an allocation ledger.",
+      "observedOn": null,
+      "quote": "达州/金垭 DZH",
+      "reviewer": null,
+      "sourceId": "cn-regional-iata"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 523,
+        "normalizedCharacterStart": 512,
+        "page": 178,
+        "quote": "连云港/花果山 LYG"
+      },
+      "codeBindings": [
+        {
+          "code": "LYG",
+          "scheme": "IATA",
+          "siteKey": "lianyungang-new"
+        }
+      ],
+      "conclusionZh": "主管部门 2023 版报告指南附表 H.1 将 LYG 明确列为 连云港/花果山 的 IATA；表包含新旧达州两个条目，不能把目录年份当代码有效期。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "lianyungang-iata-guide",
+      "locator": "Appendix H table H.1 airport name/IATA row; document is a reporting reference, not an allocation ledger.",
+      "observedOn": null,
+      "quote": "连云港/花果山 LYG",
+      "reviewer": null,
+      "sourceId": "cn-regional-iata"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 285,
+        "normalizedCharacterStart": 275,
+        "page": 178,
+        "quote": "宜宾/五粮液 YBP"
+      },
+      "codeBindings": [
+        {
+          "code": "YBP",
+          "scheme": "IATA",
+          "siteKey": "yibin-new"
+        }
+      ],
+      "conclusionZh": "主管部门 2023 版报告指南附表 H.1 将 YBP 明确列为 宜宾/五粮液 的 IATA；表包含新旧达州两个条目，不能把目录年份当代码有效期。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "yibin-iata-guide",
+      "locator": "Appendix H table H.1 airport name/IATA row; document is a reporting reference, not an allocation ledger.",
+      "observedOn": null,
+      "quote": "宜宾/五粮液 YBP",
+      "reviewer": null,
+      "sourceId": "cn-regional-iata"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 565,
+        "normalizedCharacterStart": 555,
+        "page": 178,
+        "quote": "锦州/锦州湾 JNZ"
+      },
+      "codeBindings": [
+        {
+          "code": "JNZ",
+          "scheme": "IATA",
+          "siteKey": "jinzhou-new"
+        }
+      ],
+      "conclusionZh": "主管部门 2023 版报告指南附表 H.1 将 JNZ 明确列为 锦州/锦州湾 的 IATA；表包含新旧达州两个条目，不能把目录年份当代码有效期。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "jinzhou-iata-guide",
+      "locator": "Appendix H table H.1 airport name/IATA row; document is a reporting reference, not an allocation ledger.",
+      "observedOn": null,
+      "quote": "锦州/锦州湾 JNZ",
+      "reviewer": null,
+      "sourceId": "cn-regional-iata"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 606,
+        "normalizedCharacterStart": 596,
+        "page": 178,
+        "quote": "十堰/武当山 WDS"
+      },
+      "codeBindings": [
+        {
+          "code": "WDS",
+          "scheme": "IATA",
+          "siteKey": "shiyan-new"
+        }
+      ],
+      "conclusionZh": "主管部门 2023 版报告指南附表 H.1 将 WDS 明确列为 十堰/武当山 的 IATA；表包含新旧达州两个条目，不能把目录年份当代码有效期。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Does not prove first allocation, final withdrawal, an uninspected year, or a whole local day from one observation."
+      ],
+      "factId": "shiyan-iata-guide",
+      "locator": "Appendix H table H.1 airport name/IATA row; document is a reporting reference, not an allocation ledger.",
+      "observedOn": null,
+      "quote": "十堰/武当山 WDS",
+      "reviewer": null,
+      "sourceId": "cn-regional-iata"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 329,
+        "normalizedCharacterStart": 303,
+        "page": null,
+        "quote": "陕西安康机场和广西梧州西江（原梧州长洲岛）机场停航。"
+      },
+      "codeBindings": [],
+      "conclusionZh": "CAAC 2018 运行公报明确安康停航；不能假定旧场到 2020 年一直有定期客运。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Not a code allocation or withdrawal ledger."
+      ],
+      "factId": "ankang-2018-suspension",
+      "locator": "CAAC original body paragraph",
+      "observedOn": "2019-03-05",
+      "quote": "陕西安康机场和广西梧州西江（原梧州长洲岛）机场停航。",
+      "reviewer": null,
+      "sourceId": "cn-stat-2018-correct"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 658,
+        "normalizedCharacterStart": 636,
+        "page": null,
+        "quote": "宜宾五粮液机场于2019年12月5日正式投运"
+      },
+      "codeBindings": [],
+      "conclusionZh": "CAAC 地区管理局回顾确认实际投运日期；该日不是 IATA 分配日期。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "Not a code allocation or withdrawal ledger."
+      ],
+      "factId": "yibin-executed-date",
+      "locator": "CAAC original body paragraph",
+      "observedOn": "2020-04-02",
+      "quote": "宜宾五粮液机场于2019年12月5日正式投运",
+      "reviewer": null,
+      "sourceId": "cn-yibin-operation"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 3112,
+        "normalizedCharacterStart": 3083,
+        "page": 454,
+        "quote": "WILLISTON BASIN INTL ARPT XWA"
+      },
+      "codeBindings": [],
+      "conclusionZh": "2020 年 FAA 代码原件直接列出 Basin 机场的 FAA LID XWA；同页还列导航设施，不能自动视为 IATA。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "No IATA assignment follows from a three-letter FAA LID or from an RCO/navaid label. Exact allocation/withdrawal and opening day remain unknown."
+      ],
+      "factId": "williston-faa-airport-row",
+      "locator": "FAA Order airport-specific row / Chapter 1 international-location-indicator rule, or Federal Register Williston waiver body; not an IATA ledger.",
+      "observedOn": "2020-05-21",
+      "quote": "WILLISTON BASIN INTL ARPT XWA",
+      "reviewer": null,
+      "sourceId": "us-faa-lid-2020"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 3246,
+        "normalizedCharacterStart": 3229,
+        "page": 454,
+        "quote": "WILLISTON RCO ISN"
+      },
+      "codeBindings": [],
+      "conclusionZh": "同页 ISN 是 RCO，无权据此推定 Sloulin 在 2020 年仍运营或仍有机场代码分配。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "No IATA assignment follows from a three-letter FAA LID or from an RCO/navaid label. Exact allocation/withdrawal and opening day remain unknown."
+      ],
+      "factId": "williston-faa-rco-row",
+      "locator": "FAA Order airport-specific row / Chapter 1 international-location-indicator rule, or Federal Register Williston waiver body; not an IATA ledger.",
+      "observedOn": "2020-05-21",
+      "quote": "WILLISTON RCO ISN",
+      "reviewer": null,
+      "sourceId": "us-faa-lid-2020"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 444,
+        "normalizedCharacterStart": 418,
+        "page": 19,
+        "quote": "identifier preceded by “K”"
+      },
+      "codeBindings": [],
+      "conclusionZh": "同一 FAA Order 明确美国本土机场国际位置代码加 K 规则。与机场专属 XWA 行共同支持 KXWA 推导；仍需逐条审核，旧提案不自动批准。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "No IATA assignment follows from a three-letter FAA LID or from an RCO/navaid label. Exact allocation/withdrawal and opening day remain unknown."
+      ],
+      "factId": "williston-faa-icao-rule",
+      "locator": "FAA Order airport-specific row / Chapter 1 international-location-indicator rule, or Federal Register Williston waiver body; not an IATA ledger.",
+      "observedOn": "2020-05-21",
+      "quote": "identifier preceded by “K”",
+      "reviewer": null,
+      "sourceId": "us-faa-lid-2020"
+    },
+    {
+      "citation": {
+        "normalizedCharacterEnd": 2196,
+        "normalizedCharacterStart": 2166,
+        "page": 1,
+        "quote": "XWA, Williston, ND is open and"
+      },
+      "codeBindings": [],
+      "conclusionZh": "FAA 2020-02-26 联邦公报确认新场已对公众航空使用开放；这能确认执行，但不确定精确开航日或 IATA 分配。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "No IATA assignment follows from a three-letter FAA LID or from an RCO/navaid label. Exact allocation/withdrawal and opening day remain unknown."
+      ],
+      "factId": "williston-executed-2020",
+      "locator": "FAA Order airport-specific row / Chapter 1 international-location-indicator rule, or Federal Register Williston waiver body; not an IATA ledger.",
+      "observedOn": "2020-02-26",
+      "quote": "XWA, Williston, ND is open and",
+      "reviewer": null,
+      "sourceId": "us-xwa-executed-2020"
+    }
+  ],
+  "formalBaselineSha256": "b7880507c50cf8f993c98b3ec66f34e6433c452d7637eea7c6bfe61edbf166a3",
+  "formatVersion": 1,
+  "reviewer": null,
+  "scopeNote": "60 explicitly selected cases. Scoped source examination is not exhaustive proof of no change throughout 2015-2026.",
+  "sites": [
+    {
+      "coordinates": {
+        "latitude": 32.708056,
+        "longitude": 108.931111
+      },
+      "country": "CN",
+      "factIds": [
+        "ankang-finding",
+        "ankang-iata-guide"
+      ],
+      "identityAssessmentZh": "根据迁建原件人工提出 安康五里铺机场 与 安康富强机场 两个场址身份，外部编号仅作参考匹配，不因代码／名称／坐标自动合并。",
+      "name": "安康五里铺机场",
+      "ourAirports": "342663",
+      "proposedAirportId": "apt_0dc2a2f7-1222-46d2-afac-c16cbddb24d6",
+      "siteKey": "ankang-old"
+    },
+    {
+      "coordinates": {
+        "latitude": 32.75696,
+        "longitude": 108.87338
+      },
+      "country": "CN",
+      "factIds": [
+        "ankang-finding",
+        "ankang-iata-guide"
+      ],
+      "identityAssessmentZh": "根据迁建原件人工提出 安康五里铺机场 与 安康富强机场 两个场址身份，外部编号仅作参考匹配，不因代码／名称／坐标自动合并。",
+      "name": "安康富强机场",
+      "ourAirports": "30632",
+      "proposedAirportId": "apt_68a848c7-9db9-4233-b0d9-65eb7ed7407e",
+      "siteKey": "ankang-new"
+    },
+    {
+      "coordinates": {
+        "latitude": 36.636902,
+        "longitude": 109.554001
+      },
+      "country": "CN",
+      "factIds": [
+        "yanan-finding",
+        "yanan-iata-guide"
+      ],
+      "identityAssessmentZh": "根据迁建原件人工提出 延安二十里铺机场 与 延安南泥湾机场 两个场址身份，外部编号仅作参考匹配，不因代码／名称／坐标自动合并。",
+      "name": "延安二十里铺机场",
+      "ourAirports": "31009",
+      "proposedAirportId": "apt_8deac363-2415-499d-8308-8f10de2528c8",
+      "siteKey": "yanan-old"
+    },
+    {
+      "coordinates": {
+        "latitude": 36.479413,
+        "longitude": 109.464083
+      },
+      "country": "CN",
+      "factIds": [
+        "yanan-finding",
+        "yanan-iata-guide"
+      ],
+      "identityAssessmentZh": "根据迁建原件人工提出 延安二十里铺机场 与 延安南泥湾机场 两个场址身份，外部编号仅作参考匹配，不因代码／名称／坐标自动合并。",
+      "name": "延安南泥湾机场",
+      "ourAirports": "336112",
+      "proposedAirportId": "apt_ebdabf02-ae37-4295-9667-39ea914e3c05",
+      "siteKey": "yanan-new"
+    },
+    {
+      "coordinates": {
+        "latitude": 31.1302,
+        "longitude": 107.4295
+      },
+      "country": "CN",
+      "factIds": [
+        "dazhou-codes-notice",
+        "dazhou-old-code-notice",
+        "dazhou-executed",
+        "dazhou-iata-guide"
+      ],
+      "identityAssessmentZh": "根据迁建原件人工提出 达州河市机场 与 达州金垭机场 两个场址身份，外部编号仅作参考匹配，不因代码／名称／坐标自动合并。",
+      "name": "达州河市机场",
+      "ourAirports": "35307",
+      "proposedAirportId": "apt_449cf433-2af1-47be-a67e-d571433415a7",
+      "siteKey": "dazhou-old"
+    },
+    {
+      "coordinates": {
+        "latitude": 31.048815,
+        "longitude": 107.435646
+      },
+      "country": "CN",
+      "factIds": [
+        "dazhou-codes-notice",
+        "dazhou-old-code-notice",
+        "dazhou-executed",
+        "dazhou-iata-guide"
+      ],
+      "identityAssessmentZh": "根据迁建原件人工提出 达州河市机场 与 达州金垭机场 两个场址身份，外部编号仅作参考匹配，不因代码／名称／坐标自动合并。",
+      "name": "达州金垭机场",
+      "ourAirports": "352223",
+      "proposedAirportId": "apt_31b795bf-a43d-461f-8321-cf3f1fed208f",
+      "siteKey": "dazhou-new"
+    },
+    {
+      "coordinates": {
+        "latitude": 34.571302,
+        "longitude": 118.873143
+      },
+      "country": "CN",
+      "factIds": [
+        "lianyungang-finding",
+        "lianyungang-iata-guide"
+      ],
+      "identityAssessmentZh": "根据迁建原件人工提出 连云港白塔埠机场 与 连云港花果山机场 两个场址身份，外部编号仅作参考匹配，不因代码／名称／坐标自动合并。",
+      "name": "连云港白塔埠机场",
+      "ourAirports": "35312",
+      "proposedAirportId": "apt_6f1a6ff3-98db-4e58-95fc-cc78bd5aa836",
+      "siteKey": "lianyungang-old"
+    },
+    {
+      "coordinates": {
+        "latitude": 34.41406,
+        "longitude": 119.17899
+      },
+      "country": "CN",
+      "factIds": [
+        "lianyungang-finding",
+        "lianyungang-iata-guide"
+      ],
+      "identityAssessmentZh": "根据迁建原件人工提出 连云港白塔埠机场 与 连云港花果山机场 两个场址身份，外部编号仅作参考匹配，不因代码／名称／坐标自动合并。",
+      "name": "连云港花果山机场",
+      "ourAirports": "44167",
+      "proposedAirportId": "apt_64b5eaa6-a984-4816-86d9-d8eb71c91451",
+      "siteKey": "lianyungang-new"
+    },
+    {
+      "coordinates": {
+        "latitude": 28.800556,
+        "longitude": 104.545
+      },
+      "country": "CN",
+      "factIds": [
+        "yibin-finding",
+        "yibin-iata-guide"
+      ],
+      "identityAssessmentZh": "根据迁建原件人工提出 宜宾菜坝机场 与 宜宾五粮液机场 两个场址身份，外部编号仅作参考匹配，不因代码／名称／坐标自动合并。",
+      "name": "宜宾菜坝机场",
+      "ourAirports": "300456",
+      "proposedAirportId": "apt_bbf9f2c1-fc01-4ed7-a4aa-74e6ed8ca45f",
+      "siteKey": "yibin-old"
+    },
+    {
+      "coordinates": {
+        "latitude": 28.858431,
+        "longitude": 104.526157
+      },
+      "country": "CN",
+      "factIds": [
+        "yibin-finding",
+        "yibin-iata-guide"
+      ],
+      "identityAssessmentZh": "根据迁建原件人工提出 宜宾菜坝机场 与 宜宾五粮液机场 两个场址身份，外部编号仅作参考匹配，不因代码／名称／坐标自动合并。",
+      "name": "宜宾五粮液机场",
+      "ourAirports": "336111",
+      "proposedAirportId": "apt_8354da99-7d18-4329-bf7b-4ed042a4ad72",
+      "siteKey": "yibin-new"
+    },
+    {
+      "coordinates": {
+        "latitude": 28.852577,
+        "longitude": 105.392579
+      },
+      "country": "CN",
+      "factIds": [
+        "luzhou-finding"
+      ],
+      "identityAssessmentZh": "根据迁建原件人工提出 泸州蓝田机场 与 泸州云龙机场 两个场址身份，外部编号仅作参考匹配，不因代码／名称／坐标自动合并。",
+      "name": "泸州蓝田机场",
+      "ourAirports": "35313",
+      "proposedAirportId": "apt_56b57bca-08d5-4b5e-944e-1e9cce968a0a",
+      "siteKey": "luzhou-old"
+    },
+    {
+      "coordinates": {
+        "latitude": 29.030357,
+        "longitude": 105.468407
+      },
+      "country": "CN",
+      "factIds": [
+        "luzhou-finding"
+      ],
+      "identityAssessmentZh": "根据迁建原件人工提出 泸州蓝田机场 与 泸州云龙机场 两个场址身份，外部编号仅作参考匹配，不因代码／名称／坐标自动合并。",
+      "name": "泸州云龙机场",
+      "ourAirports": "336114",
+      "proposedAirportId": "apt_f11bdf7d-d81d-46fc-a94f-8c8c42d4e245",
+      "siteKey": "luzhou-new"
+    },
+    {
+      "coordinates": {
+        "latitude": 41.101398,
+        "longitude": 121.061996
+      },
+      "country": "CN",
+      "factIds": [
+        "jinzhou-finding",
+        "jinzhou-iata-guide"
+      ],
+      "identityAssessmentZh": "根据迁建原件人工提出 锦州小岭子机场 与 锦州湾机场 两个场址身份，外部编号仅作参考匹配，不因代码／名称／坐标自动合并。",
+      "name": "锦州小岭子机场",
+      "ourAirports": "31706",
+      "proposedAirportId": "apt_07a48d16-088f-4f88-81c3-a689cb03531b",
+      "siteKey": "jinzhou-old"
+    },
+    {
+      "coordinates": {
+        "latitude": 40.936032,
+        "longitude": 121.277114
+      },
+      "country": "CN",
+      "factIds": [
+        "jinzhou-finding",
+        "jinzhou-iata-guide"
+      ],
+      "identityAssessmentZh": "根据迁建原件人工提出 锦州小岭子机场 与 锦州湾机场 两个场址身份，外部编号仅作参考匹配，不因代码／名称／坐标自动合并。",
+      "name": "锦州湾机场",
+      "ourAirports": "339959",
+      "proposedAirportId": "apt_309b521b-0137-4c9b-a404-11d7bfc17075",
+      "siteKey": "jinzhou-new"
+    }
+  ]
+}

@@ -1,0 +1,546 @@
+{
+  "scope": "Local originals used in this investigation; original bytes remain in ignored work storage. CI/offline published evidence checks retained excerpts only.",
+  "sources": [
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 40980,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "08b6f8b0a35d9c34730977549d647728183274ec8c575eefc199876a31348566",
+      "originalTextSha256": "2f97998fdfd3a8fa1af266ade0ddcefd6277f51b0b3ad014fa70170dcd067512",
+      "sourceId": "cn-ankang-government"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 32831,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "e761dee2614cc4076aae4cc21f8150388ab33b31372a59b4cac258358d4505b1",
+      "originalTextSha256": "dc782e2724d28ca680a477bd0e8eebe498d09a216e0c09a25c1cee125d1b6ac9",
+      "sourceId": "cn-chengdu-parallel"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 119211,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "edd26fc088d6f68291c067348036ab3c90350ded1aaf590ae3a3eb9f30ce9e1c",
+      "originalTextSha256": "7495b283c4ab6ca756dc828799e6f43a609cec9b38dbeb78c32a6c2308f66869",
+      "sourceId": "cn-dazhou-airline"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 9070,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "08a64b87e1409242ee864e914ce317336d45f18813f7842ceb1034faaa989fa7",
+      "originalTextSha256": "e712092e129c8eebf88010d7361b863b8e6c2a65696ceeca20f408838e8ed39c",
+      "sourceId": "cn-dazhou-executed"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 9080,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "16e08e321d877611166f7e401ffd0a6aefe019e98a6bcad90d2e6f656c4efe37",
+      "originalTextSha256": "3da05fe4191cac97ea3c8791d2951e7405e3a4a4c478829245051ba0fb729bd4",
+      "sourceId": "cn-luzhou-operator"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 2378026,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "7373887c2088e077f9e1b718033d57b663334cf12381c11efe763bc7c78033b4",
+      "originalTextSha256": "c74cd8558147718a0551d02941ea7b71f21150886c9dbf9231bc1e05b69cfd74",
+      "sourceId": "cn-regional-iata"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 650452,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "048d48eda576120b2e5b9c5a9f7f3538caeb1d9eab56e8935faddb2c087b395d",
+      "originalTextSha256": "151a1ab6deaad46ec1196a5855eb44b0e70868ed80716fee3505512aa8f36d04",
+      "sourceId": "cn-stat-2015"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 16906,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "8ddc317c557d652c4fb96b191094d9bb2772bb6a56dabf6b57d034105035f5cc",
+      "originalTextSha256": "a771b40795c2eb2d0fc57615f2c49d23935496c83ac6f28164c53a0947c9a42f",
+      "sourceId": "cn-stat-2016"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 52416,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "4e9c7ef6207ae83e68d162b019aebcce1874566602b5edfd7df11a641558e212",
+      "originalTextSha256": "364ae38008c378f82929cdfcd9ec1b88223a10514f0f83dc0b34ae9d0fd2c916",
+      "sourceId": "cn-stat-2019"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 56274,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "a1b54fa8d922f1c6e45d7b84bb58f026097c7ff36039d31c34f5c986d5e6b9a9",
+      "originalTextSha256": "f2866b75e9d77c7c865f26e7b7e3d8380a60a704d8077ff508d670955926e49d",
+      "sourceId": "cn-stat-2021"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 55484,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "abf20b6ce63f6f5b1f0255e11db10d5fa2b2b13463b12840ada812da484c66e1",
+      "originalTextSha256": "af39edad9e4c796ab38931e085748ff9e6028070eb46a3c7855e86e027ee2b87",
+      "sourceId": "cn-stat-2022"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 32018,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "150ad64cebdce998090954d46ea6311faac22c9c2a6ab90abdcdcac238449165",
+      "originalTextSha256": "dfd7bd3a42c7e017bfdf7e90fc5d301e4c702e550fe3569e3c27b1025350e8f3",
+      "sourceId": "cn-yanan-sites"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 189615,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "190ff4328ab0d122a344df17faf026279b2444ec8276b056921859830f57665c",
+      "originalTextSha256": "cb137e2e9c9f3169a2c0a7a52604fdda90ba6d8a99df8cc5c5fcd988c4a9643c",
+      "sourceId": "de-ber-history"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 142635,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "e451c7062be2c668575c427e0e14b3a39502227b50c036f18695c0ee880ac375",
+      "originalTextSha256": "49764f0b7c55a3314dfc75630e347b5233cab60c42fc26eb9692c5021aa2de4c",
+      "sourceId": "es-murcia-index-current"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 245237,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "0f286cdec6fecc1bd43a144f28f48a50d7dbf306e0c4f571a65e1f3bc55e36a7",
+      "originalTextSha256": "c40ac7199669f7fb5e305a06991aac05fc9f4941d0bb7be028c3efd1c22a4dc6",
+      "sourceId": "fi-hel-terminal"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 18227336,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "99c7cc8693ba1f6fa9288cda3a6250cd921f7bff9498ced4129b8a5e7e90b891",
+      "originalTextSha256": "0de53859dc272877fda0a5ae61438d80940842f21eb6c273b22e8c42a42e2c0c",
+      "sourceId": "fr-ory-terminal"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 54155,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "0f4d5ac019d4ce71bf52ef0135ae127c3791e24b89e8d1a430142e7275490278",
+      "originalTextSha256": "cb27207abf568ac6203483655c856eadddcfaeae756dee7f695f9b0a2bc55d0a",
+      "sourceId": "gb-bhx-history"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 40964,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "6463429d73b124513016242601192b533a1d48e9620296a211562efafa62da27",
+      "originalTextSha256": "8a12762261a8db9634a4dca35ea53deb1881eba6e2ddca6f8af20554b085d1ef",
+      "sourceId": "gb-brs-history"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 68041,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "ea9a08b0a7e1187cecd42590e49734ff7399dd312dcb01ca9255a4c85c23742d",
+      "originalTextSha256": "74e1b7df0e19899a22a553ef2bc19c0a2b70788eaaa3c676fa0b3d1d7f0d9994",
+      "sourceId": "gb-dsa-fire"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 88801,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "b28715ad60bedae6fa0cded091da76d42f8cf3309c4d12d56090452816702e83",
+      "originalTextSha256": "457fcd8b05bb69c8b50969fbbda96fc09ad45b81e7e1d2aafccc1f69d2a52888",
+      "sourceId": "gb-dsa-status"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 136216,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "58b6b1ce99095a9c4823bfe087a9007dee2876a7e3d59a82f065eba6d329fef2",
+      "originalTextSha256": "31b79fa8210b77ca2a52eb964f84483a224a3512562c869402bda92bde96d175",
+      "sourceId": "gb-edi-history"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 274908,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "648cedd6a02ff77e62c492e546a3365920c29fdd80c610865a0a2dd1216752c6",
+      "originalTextSha256": "fbd3e2aaa6e1dc5bf3eb5644b249dc992895bb5396f09e542d9d27f07e73be56",
+      "sourceId": "gb-gla-history"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 128233,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "1c8cda80967c3ae6cd891d6f356fc8164d3d63bef5711741243329ef54dabeef",
+      "originalTextSha256": "3a50fa4d0d864fe6c3ec84c34481fdfe5873a3a7478b7e2af5b92d215133602a",
+      "sourceId": "gb-lgw-history"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 1051616,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "4a37af586541e2b5959492f1ddfa9aa49e5a94826bccdfd3f0d4764e7b461f2a",
+      "originalTextSha256": "eec142b2f640acb8eea2502a6b17be499b8929d5672d069b7cd7a1aa408d0e92",
+      "sourceId": "gb-lhr-history"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 139319,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "402d7576bb8a6e1351438d412b686e8811d9bd45cae8a406f9fee58aee098edd",
+      "originalTextSha256": "ee5951d7db51f61a43e043edb17e1ecfe959aa919f3b7b050c9f93dc030fd8ae",
+      "sourceId": "gb-man-terminal"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 626955,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "ecd79e040b7745514d86dc77a8b11c8f822ee3f2f350a53ff1379e07387d4e87",
+      "originalTextSha256": "92b1054376261cbbe2de7442d612df3f7767fffe1ad6a5d38a3b8fe9f0b316c7",
+      "sourceId": "gb-stn-history"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 135349,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "c677bf5dcbfef3315cf9d09c82b3b872b911d14f8ccf3e18d3beb68c5a986568",
+      "originalTextSha256": "c5bf531a94b522f8f79d26c3afa2ef01ea166898b1bad0ead398de78c1a49e14",
+      "sourceId": "it-bgy-access"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 77948,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "b3d2c970a6a1b8b5f711f94d3f210669071a63aca80449c581b6e3d845f138b6",
+      "originalTextSha256": "d08e433b9ee79ff5dc798fd4168c581df6203199c7796fbd5bad8baa51a74d97",
+      "sourceId": "jp-cts-history"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 58562,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "94a5741502906ca2ec1e9f053560e973d88d98b0396799a6e9cc24d7c071c563",
+      "originalTextSha256": "d8674b2f2239c640d52b7dba248131e0905a2f393a9f0cf7899ffa159ef6ea47",
+      "sourceId": "jp-fuk-history"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 19236,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "0f2a83c7a778ac67089b35b30422f5bc38959315fea07c7cc54ab343a46a427e",
+      "originalTextSha256": "91e59a4a4a7c20e516bc4dd2b03132f8b89fbee0823fbaf6ea6048b377ae23ca",
+      "sourceId": "jp-hnd-ana"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 4744719,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "358ceb476024ab1e209b82418fa103750acfe1eef3a91361fe72d01abc48b04b",
+      "originalTextSha256": "86ee5339ac5d730192dac58736a74e3cbffa6471545e64f5a4e945147d6e5740",
+      "sourceId": "jp-itm-mlit"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 859215,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "a140f6fb828331ac1c678f5f22d4a365cde2580e46ddba3efefd8355d5790ac2",
+      "originalTextSha256": "03a4a04980dd54644418acbc2726313a8150ee7426d56b20c17a58177b8cfd16",
+      "sourceId": "jp-kix-peach"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 24383,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "10a36a6cdfd72ca88b600c661c9067cc13e6ffe32761a2810be13f49c76a6268",
+      "originalTextSha256": "a7610a6636576dce0deba01397a8fe107123cea65e339c0b57c9970273770bf7",
+      "sourceId": "jp-ngo-terminal"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 25158,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "c502fa08fb36a5b96bd39a1bdc1935c39ae63222b8d32b90f76181232c7e45a2",
+      "originalTextSha256": "06cfec5278906c94a75072946d063680004f5831ff850c86db2f2216c1d5ee91",
+      "sourceId": "jp-nkm-prefecture"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 265524,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "9d2de36695b816e8fb53c58e110e74d8253415761b8ae6897000725aafe2093d",
+      "originalTextSha256": "2247e3e6ab8590ec5cf6b389d27241d58062c023101d75a527492617f5c71576",
+      "sourceId": "jp-nrt-history"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 7408,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "29f0bf1aae3f0c39467df41d80630ecef1cf18902da2cb18d8fafd2b02ce854a",
+      "originalTextSha256": "0d717a617817862bfaec8c4e9da6e67a6c216fbc996086bc947dac0de3d5ca67",
+      "sourceId": "jp-oka-runway"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 55824,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "9a9e2692da3a4c4376e83a1ed2ae3898c04ec20e80c4253a1ecf5e34a64dacc0",
+      "originalTextSha256": "250e10bd2b9599f142a23435fb79c7502d1cab732cd03b53422761ee89c1323c",
+      "sourceId": "jp-shi-operator"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 20989,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "e8b409d9b5d022a2fe44a881dad06f08c39447fa9a60c7cf22c5b12eb83fbd7b",
+      "originalTextSha256": "581535df51e6677bfc807882a9786658e8146c32a9994c64b69705bec4f75dda",
+      "sourceId": "jp-ukb-city"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 73439,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "b1af9411563176aa8b824cf76619eef9f4b13135591a4edb6ec078e3f5a6fd01",
+      "originalTextSha256": "32d5c745e5b196960389b7fd430cc96fc3fe55150ed21b861fcb1ed95becb0ce",
+      "sourceId": "kr-cjj-history"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 76980,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "bf8cf6ac71ce8661302381e6e04f7cb599353595f035a7ff3d9cfd699ce3989d",
+      "originalTextSha256": "cb32b3ebcb3079333b592eb790a8029646f434ba6f8260fa079e89ba4e48e87d",
+      "sourceId": "kr-cju-history"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 79621,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "e15c9eb0dc0a0d3296de3469c52125a52fea33fa527bc86c12c0dae56f994906",
+      "originalTextSha256": "0a22a9d012fba2810b7b8af0eb19a27af662190c2de5936fdae7fc9b652a268a",
+      "sourceId": "kr-gmp-history"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 81666,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "b07dab2aaef267393b4ed5bcdad8454a8e44384e09aea6f211c69de36b1ebd06",
+      "originalTextSha256": "6155a209eb2ebce58ed5d4cbc3ea1bc74b64459b639e2db01fd6308408c1f4c2",
+      "sourceId": "kr-icn-phases"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 71036,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "4cebc54fe226948f82eb88bf6ae31353410ad443e1e3fe4a3d859b345bc1a92b",
+      "originalTextSha256": "d4b925859dfca2eb8686e0550005c3320ace2c40ba3c36c3223cb989834d9cb4",
+      "sourceId": "kr-mwx-history"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 76107,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "3c04130645b0563e4626e94c866428a388dcb67268715c55b6b64569c5ec7643",
+      "originalTextSha256": "a0a1e30d31d92ea7914e7465ba9cdeb2da2afda9a6af6ad9e1d7e69f5925b084",
+      "sourceId": "kr-pus-history"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 568326,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "09570087521ea74781d5536ecf6491a87a4249fef07d7243d9cab3a8da043fdb",
+      "originalTextSha256": "99168ca02aa60021fc98a3ea92fc6461d36401ec07cea1953abfc03097ac2e4a",
+      "sourceId": "kr-tae-province"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 79538,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "94ff0a84e4ac8f764e049b0f7dc14e489da94aef53e503363cfdc746c63d1bc7",
+      "originalTextSha256": "96884f0a285072767375cf0a3fbaf914a82fe471091391e5127e13bbe1bc69c5",
+      "sourceId": "no-bodo-plan"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 5118118,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "c669ce3e47b5a96b6d07fbef41567c7be56851a63ae65bd0bbb8d7a83770b988",
+      "originalTextSha256": "c3fe681919c98b5d3c46688593427394733dd3f8f293804e2f846d99ae8bd197",
+      "sourceId": "no-nvk-closure"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 1543746,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "fdc7ce5457ba50239bf51f44414a1cd862a355b2b750c45f6aa98b7bcb558a1c",
+      "originalTextSha256": "6c25821671f7761bd046d64c2d08aebf01a3388369e4084f060d801bef56e085",
+      "sourceId": "tr-ist-transfer"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 57051,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "38bd4f3535844fcd132ea80495c31b4a49c8756ca22b88a781392e6da0b79245",
+      "originalTextSha256": "075a0938de6e39da38f785b1db3432016d0985723f057967b6d487e347a11b94",
+      "sourceId": "us-aus-terminal"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 73661,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "16b6409a6463dff403c43dab0ab65f31073507d6080be2b85bad9e7f7afcb75c",
+      "originalTextSha256": "d199e640137af787cca5df1f7298afbfd5923eef1987e13c2e4b1b4089f01ffa",
+      "sourceId": "us-ewr-terminal"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 199260,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "0e6b90babfbfec73c582cc0886b7de3c13d866d017993a2caa01ab9851188b35",
+      "originalTextSha256": "86f4713e65449b9899c8ad03d723ba98af3e626def1809120ffdbd712c52df5b",
+      "sourceId": "us-isn-closure"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 128009,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "d3cbc9683629a04af7c84a477a0eb0d2aadf0e8d4cb50634c57ddd7e03cc9dc7",
+      "originalTextSha256": "517df955dbd7ce9bd66c9d21b9e5b2fdbf38e33333a3d70f224973c1e0659136",
+      "sourceId": "us-lga-authority"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 582739,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "b29932be58ba438c7b8e874842401695e97a2204d1dcbddb25e4808041561b37",
+      "originalTextSha256": "0e6087f424b35656328aad04cfcfce16d3e0ca7e179797a0321f0e8d2067e5f6",
+      "sourceId": "us-mci-terminal"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 276896,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "be82ae62502e2a7873951fca0605873b3f562ed5a9873da957a8ca80a9d243ef",
+      "originalTextSha256": "473f7d1490625e8367701ba21ed1960dbcf391ec4b8f68d55f9d139a5d60a526",
+      "sourceId": "us-msy-history"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 807706,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "cc21f2915cdeb325bd4e23c06b0917f4f44fc0cb7a8a9efebea7f0d6b10904a5",
+      "originalTextSha256": "a0c6cda3d99048503af444a444af7398ce3c776c3a819c23de386e8de93ef95e",
+      "sourceId": "us-pit-terminal"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 36470,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "eb25d18b87b3660972a1befce21d6c2245f4348a854b2ba69ea0145ef717c237",
+      "originalTextSha256": "c1543041be8715c19b1fb8a3404fa5e7ff9cf61555c48b19b1921b7af9e728fe",
+      "sourceId": "us-slc-rebuild"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 18150,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "c0317115f7c076ed74daf6678d6f287888438497dcc4f2f403d3022a72fdfafa",
+      "originalTextSha256": "39c515fdc82d440d375e000a9a5c9c5e2508d98ea03ffed172299ab6565b1361",
+      "sourceId": "cn-stat-2018-correct"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 11284,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "1df63a1856e3656aa23abf1ee2d5d3be7bee2ca08280df9b3c77f21c50dd08f4",
+      "originalTextSha256": "5eca3b9ef82efcbe579b87c48691a248a0c104fa4224d87b78660251328c84cf",
+      "sourceId": "cn-yibin-operation"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 23840883,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "2bbf41b5165a30f0a0b557349eaf7dd188bfdbd337a20156f18676fb184b4828",
+      "originalTextSha256": "2fef1cefbdd9b8b7411dc6e3bd7ea2b858ee3ace883f1440ea480e7181ee0f6f",
+      "sourceId": "us-faa-lid-2020"
+    },
+    {
+      "allRetainedSpansMatchOriginalLocation": true,
+      "originalByteHashVerified": true,
+      "originalBytes": 177234,
+      "originalExtractionHashVerified": true,
+      "originalSha256": "889b4afe888832d41801b12862c985965b737902ff5ba11ca42c6e6172523417",
+      "originalTextSha256": "b0a673e1f7f71099e9271749c22febf2f73c7610669a06d96c4e7e14b3e4682b",
+      "sourceId": "us-xwa-executed-2020"
+    }
+  ],
+  "verifiedOn": "2026-10-29"
+}

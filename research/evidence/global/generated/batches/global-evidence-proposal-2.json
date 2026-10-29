@@ -1,0 +1,445 @@
+{
+  "admission": {
+    "airports": 0,
+    "assignments": 0,
+    "formalSources": 0,
+    "names": 0
+  },
+  "baseCommit": "9a22e059eb997d8195450b48f1f9b794550f2b28",
+  "batchId": "global-evidence-proposal-2",
+  "events": [
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_2df679c3db03fcb7d0c78fe8",
+        "cand_b0c99364013d563f4f6a2f27",
+        "cand_fdb6d8891595f209b1ecece5"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ao-luanda-history",
+            "ao-luanda-taag"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "ao-luanda-history",
+            "ao-luanda-taag"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ao-luanda-history",
+            "ao-luanda-taag"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "ao-luanda-history",
+            "ao-luanda-taag"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "ao-luanda-history",
+            "ao-luanda-taag"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ao-luanda-history",
+            "ao-luanda-taag"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_0e7d222af5b1795b13b92611",
+      "evidenceFactIds": [
+        "luanda-transfer",
+        "luanda-nbj",
+        "luanda-actual-month"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing.",
+        "Primary ARP and historical NBJ allocation window missing; no LAD withdrawal/whole-airport closure asserted."
+      ],
+      "exclusionReason": null,
+      "label": "Dr. Antonio Agostinho Neto International Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Primary ARP and historical NBJ allocation window missing; no LAD withdrawal/whole-airport closure asserted.",
+      "proposedRecordIds": [
+        "apt_bf785771-6524-405a-bd5d-bb3db352e06f",
+        "global-proposal-luanda-new-iata-nbj"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "ao-luanda-history",
+        "ao-luanda-taag"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_7b0a403e56e55e48dae46533",
+        "cand_d48a065bd583a64d51fc1552",
+        "cand_ee0130793d21661296a96f51"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "vn-vandon-launch",
+            "vn-vandon-retrospective"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "vn-vandon-launch",
+            "vn-vandon-retrospective"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "vn-vandon-launch",
+            "vn-vandon-retrospective"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "vn-vandon-launch",
+            "vn-vandon-retrospective"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "vn-vandon-launch",
+            "vn-vandon-retrospective"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "vn-vandon-launch",
+            "vn-vandon-retrospective"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_44b63427479f86367ae4280f",
+      "evidenceFactIds": [
+        "vandon-launch",
+        "vandon-2019"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing.",
+        "Publication date for VDO observation and physical ARP missing. No code validity is inferred from the download date."
+      ],
+      "exclusionReason": null,
+      "label": "Van Don International Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Publication date for VDO observation and physical ARP missing. No code validity is inferred from the download date.",
+      "proposedRecordIds": [
+        "apt_2ae2f4fe-4bea-4b75-8068-fa387b6853a5",
+        "global-proposal-vandon-iata-vdo"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "vn-vandon-launch",
+        "vn-vandon-retrospective"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_2882ddfbc2273d2353da787e",
+        "cand_eca9155928d73e8680fb13be"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "Carrier retrospective confirms airport opened April 16. Former heliport JJU physical allocation chronology remains blocked; a city-code list is insufficient.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "gl-citycodes",
+            "gl-qaqortoq-aip",
+            "gl-qaqortoq-airline"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "gl-citycodes",
+            "gl-qaqortoq-aip",
+            "gl-qaqortoq-airline"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "gl-citycodes",
+            "gl-qaqortoq-aip",
+            "gl-qaqortoq-airline"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "gl-citycodes",
+            "gl-qaqortoq-aip",
+            "gl-qaqortoq-airline"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "gl-citycodes",
+            "gl-qaqortoq-aip",
+            "gl-qaqortoq-airline"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "gl-citycodes",
+            "gl-qaqortoq-aip",
+            "gl-qaqortoq-airline"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_03a9df1fa193f5e531470ae7",
+      "evidenceFactIds": [
+        "qaqortoq-aip",
+        "qaqortoq-actual",
+        "qaqortoq-jju",
+        "qaqortoq-citycodes"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing.",
+        "Former heliport JJU allocation and withdrawal boundaries unknown; no exact IATA transfer established."
+      ],
+      "exclusionReason": null,
+      "label": "Qaqortoq Airport (Under Construction)",
+      "nextAction": "Review new physical/ICAO and current IATA observations; obtain historical airport-specific JJU allocation records for former heliport before claiming a resolved transfer chronology.",
+      "proposedRecordIds": [
+        "apt_18a8650d-d0cc-4d3b-aef5-48a57d594b9e",
+        "global-proposal-qaqortoq-new-icao-bgqo",
+        "global-proposal-qaqortoq-new-iata-jju"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "gl-citycodes",
+        "gl-qaqortoq-aip",
+        "gl-qaqortoq-airline"
+      ],
+      "status": "pending_review"
+    }
+  ],
+  "formatVersion": 1,
+  "nextBatch": [],
+  "preparationOnly": true,
+  "reviewedOn": "2026-10-29",
+  "selection": {
+    "eventCount": 3,
+    "maximumEvents": 20,
+    "policy": "Deterministic source-transition triage. Pending evidence review, not a completed admission."
+  },
+  "sources": [
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Evidence archive excluded from repository MIT license; no license to photographs, charts or trademarks granted. Redistribution scope must be checked before downstream republication.",
+        "url": "https://flytaag.com/en/TAAG/History"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "ao-luanda-history",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://flytaag.com/en/TAAG/History"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Evidence archive excluded from repository MIT license; no license to photographs, charts or trademarks granted. Redistribution scope must be checked before downstream republication.",
+        "url": "https://flytaag.com/en/Info/Transfer-of-international-flights-to-AIAAN"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "ao-luanda-taag",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://flytaag.com/en/Info/Transfer-of-international-flights-to-AIAAN"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Publisher rights retained; research archive excluded from MIT license. Airline city codes are not automatically physical-airport allocations.",
+        "url": "https://agent.airgreenland.com/hc/en-us/articles/212865358-City-codes"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "gl-citycodes",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://agent.airgreenland.com/hc/en-us/articles/212865358-City-codes"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Publisher rights retained; research archive excluded from MIT license. Airline city codes are not automatically physical-airport allocations.",
+        "url": "https://aim.naviair.dk/media/files/vifyviythd0/BG_AD_2_BGQO_en.pdf"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "gl-qaqortoq-aip",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim.naviair.dk/media/files/vifyviythd0/BG_AD_2_BGQO_en.pdf"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source rights apply. Research evidence excluded from repository MIT license; no blanket onward republication permission inferred.",
+        "url": "https://flights.airgreenland.com/en/flights-from-qaqortoq-to-nuuk"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "gl-qaqortoq-airline",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://flights.airgreenland.com/en/flights-from-qaqortoq-to-nuuk"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source rights retained. Evidence archive is excluded from the repository MIT license. No blanket downstream republication license inferred.",
+        "url": "https://www.vietnamairlines.com/ke/en/vietnam-airlines/press-room/news/2018/1204-VI-VNA-mo-duong-bay-SGN-VDO"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "vn-vandon-launch",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://www.vietnamairlines.com/ke/en/vietnam-airlines/press-room/news/2018/1204-VI-VNA-mo-duong-bay-SGN-VDO"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Source rights retained; evidence archive excluded from MIT license; no broad republication permission inferred.",
+        "url": "https://spirit.vietnamairlines.com/news/skypec-2019-year-of-renovation-and-development-2.html"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "vn-vandon-retrospective",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://spirit.vietnamairlines.com/news/skypec-2019-year-of-renovation-and-development-2.html"
+    }
+  ],
+  "statusCounts": {
+    "excluded": 0,
+    "insufficient_evidence": 0,
+    "pending_review": 3,
+    "ready_to_admit": 0
+  }
+}
