@@ -1,0 +1,35 @@
+{
+  "originalSha256": "382dc49dcc7ab054ac7f8772fde8fa8e1b0c92b30e567bc629ba083b8f66a5bf",
+  "sourceId": "in-aip-12-06-2025-voku",
+  "spans": [
+    {
+      "characterEnd": 113,
+      "characterStart": 82,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "VOKU - KURNOOL AIRPORT, KURNOOL"
+    },
+    {
+      "characterEnd": 242,
+      "characterStart": 175,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "Aerodrome reference point coordinates and its site 154253N 0780947E"
+    },
+    {
+      "characterEnd": 705,
+      "characterStart": 661,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='DC.date' content='22 AUG 2024'/>"
+    },
+    {
+      "characterEnd": 765,
+      "characterStart": 707,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='EM.effectiveDateStart' content='03 OCT 2024'/>"
+    }
+  ],
+  "textOriginalSha256": "a1a5e3a86baf320c93fd85183a5e1e44ba3d4e5832732ea475e652b14aff2dcd"
+}

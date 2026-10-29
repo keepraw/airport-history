@@ -14,7 +14,7 @@
     "validate:data": "node scripts/validate.ts",
     "test": "vitest run",
     "build": "node scripts/build.ts",
-    "check": "pnpm typecheck && pnpm validate:data && pnpm validate:admission && pnpm test && pnpm test:research && pnpm research:validate && pnpm reference:validate && pnpm test:reference && pnpm evidence:validate && pnpm evidence:global validate && pnpm evidence:markets validate && pnpm evidence:transfers validate && pnpm evidence:history && pnpm test:evidence && pnpm build",
+    "check": "pnpm typecheck && pnpm validate:data && pnpm validate:admission && pnpm test && pnpm test:research && pnpm research:validate && pnpm reference:validate && pnpm test:reference && pnpm evidence:validate && pnpm evidence:global validate && pnpm evidence:markets validate && pnpm evidence:transfers validate && pnpm evidence:first-admission validate && pnpm evidence:history && pnpm test:evidence && pnpm build",
     "research:fetch": "python3 scripts/discovery/fetch.py",
     "research:scan": "python3 scripts/discovery/scan.py",
     "research:report": "python3 scripts/discovery/report.py",
@@ -38,7 +38,8 @@
     "evidence:global": "python3 scripts/evidence/global_batch.py",
     "evidence:markets": "python3 scripts/evidence/market_batch.py",
     "evidence:transfers": "python3 scripts/evidence/transfer_batch.py",
-    "evidence:history": "python3 scripts/evidence/history_audit.py"
+    "evidence:history": "python3 scripts/evidence/history_audit.py",
+    "evidence:first-admission": "node scripts/evidence/first_admission.ts"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",

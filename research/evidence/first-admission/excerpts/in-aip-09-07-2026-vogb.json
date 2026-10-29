@@ -1,0 +1,35 @@
+{
+  "originalSha256": "389c8ca77f515420069ea08f18358e76ea55645d51857be5b16c0c9859a6e35b",
+  "sourceId": "in-aip-09-07-2026-vogb",
+  "spans": [
+    {
+      "characterEnd": 119,
+      "characterStart": 82,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "VOGB - KALABURAGI AIRPORT, KALABURAGI"
+    },
+    {
+      "characterEnd": 248,
+      "characterStart": 181,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "Aerodrome reference point coordinates and its site 171835N 0765726E"
+    },
+    {
+      "characterEnd": 705,
+      "characterStart": 661,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='DC.date' content='28 MAY 2026'/>"
+    },
+    {
+      "characterEnd": 765,
+      "characterStart": 707,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='EM.effectiveDateStart' content='09 JUL 2026'/>"
+    }
+  ],
+  "textOriginalSha256": "d5483bb3df6333378a927612faf4986e655124a1b2030c7a9e3b809a57f7afbb"
+}

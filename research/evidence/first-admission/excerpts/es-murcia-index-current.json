@@ -1,0 +1,35 @@
+{
+  "originalSha256": "e451c7062be2c668575c427e0e14b3a39502227b50c036f18695c0ee880ac375",
+  "sourceId": "es-murcia-index-current",
+  "spans": [
+    {
+      "characterEnd": 49,
+      "characterStart": 36,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "WEF 01-OCT-26"
+    },
+    {
+      "characterEnd": 5334,
+      "characterStart": 5281,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "MURCIA/Aeropuerto de la Región de Murcia - LEMI (RMU)"
+    },
+    {
+      "characterEnd": 5531,
+      "characterStart": 5501,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "MURCIA/San Javier - LELC (MJV)"
+    },
+    {
+      "characterEnd": 1182,
+      "characterStart": 1142,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<span class=\"nuevo\">WEF 01-OCT-26</span>"
+    }
+  ],
+  "textOriginalSha256": "49764f0b7c55a3314dfc75630e347b5233cab60c42fc26eb9692c5021aa2de4c"
+}

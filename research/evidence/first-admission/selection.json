@@ -1,0 +1,952 @@
+{
+  "assignments": [
+    {
+      "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e",
+      "class": "A",
+      "code": "VOSR",
+      "decision": "pending",
+      "editionControlSourceIds": [
+        "in-aip-22-02-2024-vosr",
+        "in-aip-12-06-2025-veki",
+        "in-aip-09-07-2026-vosr"
+      ],
+      "eventGroupId": "dup_3ba8285a7a6ad98d019277ca",
+      "evidenceSourceIds": [
+        "in-aip-22-02-2024-vosr",
+        "in-aip-12-06-2025-vosr",
+        "in-aip-09-07-2026-vosr"
+      ],
+      "exactAuthorization": {
+        "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e",
+        "code": "VOSR",
+        "evidenceType": "continuity_inference",
+        "recordId": "global-proposal-sindhudurg-icao-vosr",
+        "requiresSeparatePhysicalIdentityApproval": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "in-aip-22-02-2024-vosr",
+          "in-aip-12-06-2025-vosr",
+          "in-aip-09-07-2026-vosr"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": "2024-02-23",
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2026-07-09",
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "excludedClaims": [
+        "First allocation",
+        "Final withdrawal",
+        "Opening/closure date",
+        "Other codes at the same airport",
+        "Historical official-name intervals",
+        "Verified coordinates/timezone"
+      ],
+      "proposalStage": "global",
+      "reasonZh": "三期官方 AIP 的名称、ICAO 与 ARP 一致；版次由同档案实际 AIRAC 元数据交叉核实。有限同址连续性可逐记录提交人工决定。",
+      "recommendedWindow": [
+        "2024-02-23",
+        "2026-07-09"
+      ],
+      "recordId": "global-proposal-sindhudurg-icao-vosr",
+      "recordType": "assignment",
+      "residualRisksZh": [
+        "同一 AAI 发布体系的多个时间观察；未穷尽所有中间 AIRAC/NOTAM，连续性仍是推断。"
+      ],
+      "reviewer": null,
+      "scheme": "ICAO",
+      "siteKey": "sindhudurg",
+      "unknownBeforeAndAfter": "Unknown allocation/withdrawal remain open; days before the first whole-day bound and at/after the excluded right observation day remain uncertain in the accepted hypothesis."
+    },
+    {
+      "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7",
+      "class": "A",
+      "code": "VOGB",
+      "decision": "pending",
+      "editionControlSourceIds": [
+        "in-aip-22-02-2024-vosr",
+        "in-aip-12-06-2025-veki",
+        "in-aip-09-07-2026-vosr"
+      ],
+      "eventGroupId": "dup_27ed2ac1e6d76646da47e39c",
+      "evidenceSourceIds": [
+        "in-aip-22-02-2024-vogb",
+        "in-aip-12-06-2025-vogb",
+        "in-aip-09-07-2026-vogb"
+      ],
+      "exactAuthorization": {
+        "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7",
+        "code": "VOGB",
+        "evidenceType": "continuity_inference",
+        "recordId": "global-proposal-kalaburagi-icao-vogb",
+        "requiresSeparatePhysicalIdentityApproval": "apt_66034969-b902-4ede-8011-cc87a23070b7",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "in-aip-22-02-2024-vogb",
+          "in-aip-12-06-2025-vogb",
+          "in-aip-09-07-2026-vogb"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": "2024-02-23",
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2026-07-09",
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "excludedClaims": [
+        "First allocation",
+        "Final withdrawal",
+        "Opening/closure date",
+        "Other codes at the same airport",
+        "Historical official-name intervals",
+        "Verified coordinates/timezone"
+      ],
+      "proposalStage": "global",
+      "reasonZh": "三期官方 AIP 的名称、ICAO 与 ARP 一致；版次由同档案实际 AIRAC 元数据交叉核实。有限同址连续性可逐记录提交人工决定。",
+      "recommendedWindow": [
+        "2024-02-23",
+        "2026-07-09"
+      ],
+      "recordId": "global-proposal-kalaburagi-icao-vogb",
+      "recordType": "assignment",
+      "residualRisksZh": [
+        "同一 AAI 发布体系的多个时间观察；未穷尽所有中间 AIRAC/NOTAM，连续性仍是推断。"
+      ],
+      "reviewer": null,
+      "scheme": "ICAO",
+      "siteKey": "kalaburagi",
+      "unknownBeforeAndAfter": "Unknown allocation/withdrawal remain open; days before the first whole-day bound and at/after the excluded right observation day remain uncertain in the accepted hypothesis."
+    },
+    {
+      "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f",
+      "class": "A",
+      "code": "VEKI",
+      "decision": "pending",
+      "editionControlSourceIds": [
+        "in-aip-22-02-2024-vosr",
+        "in-aip-12-06-2025-veki",
+        "in-aip-09-07-2026-vosr"
+      ],
+      "eventGroupId": "dup_4d24e77865400b9c4c92c1cc",
+      "evidenceSourceIds": [
+        "in-aip-22-02-2024-veki",
+        "in-aip-12-06-2025-veki",
+        "in-aip-09-07-2026-veki"
+      ],
+      "exactAuthorization": {
+        "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f",
+        "code": "VEKI",
+        "evidenceType": "continuity_inference",
+        "recordId": "global-proposal-kushinagar-icao-veki",
+        "requiresSeparatePhysicalIdentityApproval": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "in-aip-22-02-2024-veki",
+          "in-aip-12-06-2025-veki",
+          "in-aip-09-07-2026-veki"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": "2024-02-23",
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2026-07-09",
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "excludedClaims": [
+        "First allocation",
+        "Final withdrawal",
+        "Opening/closure date",
+        "Other codes at the same airport",
+        "Historical official-name intervals",
+        "Verified coordinates/timezone"
+      ],
+      "proposalStage": "global",
+      "reasonZh": "三期官方 AIP 的名称、ICAO 与 ARP 一致；版次由同档案实际 AIRAC 元数据交叉核实。有限同址连续性可逐记录提交人工决定。",
+      "recommendedWindow": [
+        "2024-02-23",
+        "2026-07-09"
+      ],
+      "recordId": "global-proposal-kushinagar-icao-veki",
+      "recordType": "assignment",
+      "residualRisksZh": [
+        "同一 AAI 发布体系的多个时间观察；未穷尽所有中间 AIRAC/NOTAM，连续性仍是推断。"
+      ],
+      "reviewer": null,
+      "scheme": "ICAO",
+      "siteKey": "kushinagar",
+      "unknownBeforeAndAfter": "Unknown allocation/withdrawal remain open; days before the first whole-day bound and at/after the excluded right observation day remain uncertain in the accepted hypothesis."
+    },
+    {
+      "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9",
+      "class": "A",
+      "code": "VEPY",
+      "decision": "pending",
+      "editionControlSourceIds": [
+        "in-aip-22-02-2024-vosr",
+        "in-aip-12-06-2025-veki",
+        "in-aip-09-07-2026-vosr"
+      ],
+      "eventGroupId": "dup_5f5ccdfccdad5394bef22d11",
+      "evidenceSourceIds": [
+        "in-aip-22-02-2024-vepy",
+        "in-aip-12-06-2025-vepy",
+        "in-aip-09-07-2026-vepy"
+      ],
+      "exactAuthorization": {
+        "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9",
+        "code": "VEPY",
+        "evidenceType": "continuity_inference",
+        "recordId": "global-proposal-pakyong-icao-vepy",
+        "requiresSeparatePhysicalIdentityApproval": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "in-aip-22-02-2024-vepy",
+          "in-aip-12-06-2025-vepy",
+          "in-aip-09-07-2026-vepy"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": "2024-02-23",
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2026-07-09",
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "excludedClaims": [
+        "First allocation",
+        "Final withdrawal",
+        "Opening/closure date",
+        "Other codes at the same airport",
+        "Historical official-name intervals",
+        "Verified coordinates/timezone"
+      ],
+      "proposalStage": "global",
+      "reasonZh": "三期官方 AIP 的名称、ICAO 与 ARP 一致；版次由同档案实际 AIRAC 元数据交叉核实。有限同址连续性可逐记录提交人工决定。",
+      "recommendedWindow": [
+        "2024-02-23",
+        "2026-07-09"
+      ],
+      "recordId": "global-proposal-pakyong-icao-vepy",
+      "recordType": "assignment",
+      "residualRisksZh": [
+        "同一 AAI 发布体系的多个时间观察；未穷尽所有中间 AIRAC/NOTAM，连续性仍是推断。"
+      ],
+      "reviewer": null,
+      "scheme": "ICAO",
+      "siteKey": "pakyong",
+      "unknownBeforeAndAfter": "Unknown allocation/withdrawal remain open; days before the first whole-day bound and at/after the excluded right observation day remain uncertain in the accepted hypothesis."
+    },
+    {
+      "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3",
+      "class": "A",
+      "code": "VOKU",
+      "decision": "pending",
+      "editionControlSourceIds": [
+        "in-aip-22-02-2024-vosr",
+        "in-aip-12-06-2025-veki",
+        "in-aip-09-07-2026-vosr"
+      ],
+      "eventGroupId": "dup_aaf4adc6feec9f8fb9ff606e",
+      "evidenceSourceIds": [
+        "in-aip-22-02-2024-voku",
+        "in-aip-12-06-2025-voku",
+        "in-aip-09-07-2026-voku"
+      ],
+      "exactAuthorization": {
+        "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3",
+        "code": "VOKU",
+        "evidenceType": "continuity_inference",
+        "recordId": "global-proposal-kurnool-icao-voku",
+        "requiresSeparatePhysicalIdentityApproval": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "in-aip-22-02-2024-voku",
+          "in-aip-12-06-2025-voku",
+          "in-aip-09-07-2026-voku"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": "2024-02-23",
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2026-07-09",
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "excludedClaims": [
+        "First allocation",
+        "Final withdrawal",
+        "Opening/closure date",
+        "Other codes at the same airport",
+        "Historical official-name intervals",
+        "Verified coordinates/timezone"
+      ],
+      "proposalStage": "global",
+      "reasonZh": "三期官方 AIP 的名称、ICAO 与 ARP 一致；版次由同档案实际 AIRAC 元数据交叉核实。有限同址连续性可逐记录提交人工决定。",
+      "recommendedWindow": [
+        "2024-02-23",
+        "2026-07-09"
+      ],
+      "recordId": "global-proposal-kurnool-icao-voku",
+      "recordType": "assignment",
+      "residualRisksZh": [
+        "同一 AAI 发布体系的多个时间观察；未穷尽所有中间 AIRAC/NOTAM，连续性仍是推断。",
+        "2020/2021 开业年份冲突保留，不影响 2024–2026 ICAO 窗口；本次不批准开业年份。"
+      ],
+      "reviewer": null,
+      "scheme": "ICAO",
+      "siteKey": "kurnool",
+      "unknownBeforeAndAfter": "Unknown allocation/withdrawal remain open; days before the first whole-day bound and at/after the excluded right observation day remain uncertain in the accepted hypothesis."
+    },
+    {
+      "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+      "class": "A",
+      "code": "LEMI",
+      "decision": "pending",
+      "editionControlSourceIds": [],
+      "eventGroupId": "dup_5c819a661040eb0011dc6f88",
+      "evidenceSourceIds": [
+        "es-murcia-parliament",
+        "es-murcia-index-current",
+        "es-murcia-aip"
+      ],
+      "exactAuthorization": {
+        "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+        "code": "LEMI",
+        "evidenceType": "continuity_inference",
+        "recordId": "global-proposal-murcia-new-icao-lemi",
+        "requiresSeparatePhysicalIdentityApproval": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "es-murcia-parliament",
+          "es-murcia-index-current",
+          "es-murcia-aip"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": "2019-08-02",
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2026-10-29",
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "excludedClaims": [
+        "First allocation",
+        "Final withdrawal",
+        "Opening/closure date",
+        "Other codes at the same airport",
+        "Historical official-name intervals",
+        "Verified coordinates/timezone"
+      ],
+      "proposalStage": "markets",
+      "reasonZh": "2019 年议会原刊以当时新机场身份明确列码，2026 年 ENAIRE 索引列同址代码；可提议有限连续性，不是代码行政分配史。",
+      "recommendedWindow": [
+        "2019-08-02",
+        "2026-10-29"
+      ],
+      "recordId": "global-proposal-murcia-new-icao-lemi",
+      "recordType": "assignment",
+      "residualRisksZh": [
+        "2019 年原刊是议会提案人的陈述，不是分配机关通知。",
+        "跨约七年的同址连续性是推断；未穷尽中间修订，不认定首次分配。"
+      ],
+      "reviewer": null,
+      "scheme": "ICAO",
+      "siteKey": "murcia-new",
+      "unknownBeforeAndAfter": "Unknown allocation/withdrawal remain open; days before the first whole-day bound and at/after the excluded right observation day remain uncertain in the accepted hypothesis."
+    },
+    {
+      "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+      "class": "A",
+      "code": "LELC",
+      "decision": "pending",
+      "editionControlSourceIds": [],
+      "eventGroupId": "dup_5c819a661040eb0011dc6f88",
+      "evidenceSourceIds": [
+        "es-sanjavier-aip",
+        "es-murcia-index-current"
+      ],
+      "exactAuthorization": {
+        "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+        "code": "LELC",
+        "evidenceType": "continuity_inference",
+        "recordId": "global-proposal-murcia-old-icao-lelc",
+        "requiresSeparatePhysicalIdentityApproval": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "es-sanjavier-aip",
+          "es-murcia-index-current"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": "2026-04-17",
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2026-10-29",
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "excludedClaims": [
+        "First allocation",
+        "Final withdrawal",
+        "Opening/closure date",
+        "Other codes at the same airport",
+        "Historical official-name intervals",
+        "Verified coordinates/timezone"
+      ],
+      "proposalStage": "global",
+      "reasonZh": "仅推荐两个官方观察支持的 2026 年有限窗口；2019 议会中的旧场代码属历史叙述，不能作为仍有效的起点。",
+      "recommendedWindow": [
+        "2026-04-17",
+        "2026-10-29"
+      ],
+      "recordId": "global-proposal-murcia-old-icao-lelc",
+      "recordType": "assignment",
+      "residualRisksZh": [
+        "不批准既有 global/markets 提议的 2019 起点；旧军用场址与民航服务停止分开。",
+        "2026-04-16 是 AD2 页版日期；2026-10-29 是当前索引取得/观察日，不是撤码日。"
+      ],
+      "reviewer": null,
+      "scheme": "ICAO",
+      "siteKey": "murcia-old",
+      "unknownBeforeAndAfter": "Unknown allocation/withdrawal remain open; days before the first whole-day bound and at/after the excluded right observation day remain uncertain in the accepted hypothesis."
+    },
+    {
+      "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+      "class": "A",
+      "code": "RMU",
+      "decision": "pending",
+      "editionControlSourceIds": [],
+      "eventGroupId": "dup_5c819a661040eb0011dc6f88",
+      "evidenceSourceIds": [
+        "es-murcia-parliament",
+        "es-murcia-index-current"
+      ],
+      "exactAuthorization": {
+        "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+        "code": "RMU",
+        "evidenceType": "continuity_inference",
+        "recordId": "global-proposal-murcia-new-iata-rmu",
+        "requiresSeparatePhysicalIdentityApproval": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+        "scheme": "IATA",
+        "sourceIds": [
+          "es-murcia-parliament",
+          "es-murcia-index-current"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": "2019-08-02",
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2026-10-29",
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "excludedClaims": [
+        "First allocation",
+        "Final withdrawal",
+        "Opening/closure date",
+        "Other codes at the same airport",
+        "Historical official-name intervals",
+        "Verified coordinates/timezone"
+      ],
+      "proposalStage": "markets",
+      "reasonZh": "2019 年议会原刊以当时新机场身份明确列码，2026 年 ENAIRE 索引列同址代码；可提议有限连续性，不是代码行政分配史。",
+      "recommendedWindow": [
+        "2019-08-02",
+        "2026-10-29"
+      ],
+      "recordId": "global-proposal-murcia-new-iata-rmu",
+      "recordType": "assignment",
+      "residualRisksZh": [
+        "2019 年原刊是议会提案人的陈述，不是分配机关通知。",
+        "跨约七年的同址连续性是推断；未穷尽中间修订，不认定首次分配。"
+      ],
+      "reviewer": null,
+      "scheme": "IATA",
+      "siteKey": "murcia-new",
+      "unknownBeforeAndAfter": "Unknown allocation/withdrawal remain open; days before the first whole-day bound and at/after the excluded right observation day remain uncertain in the accepted hypothesis."
+    },
+    {
+      "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+      "class": "B",
+      "code": "MJV",
+      "decision": "pending",
+      "editionControlSourceIds": [],
+      "eventGroupId": "dup_5c819a661040eb0011dc6f88",
+      "evidenceSourceIds": [
+        "es-murcia-parliament",
+        "es-murcia-index-current"
+      ],
+      "exactAuthorization": null,
+      "excludedClaims": [
+        "First allocation",
+        "Final withdrawal",
+        "Opening/closure date",
+        "Other codes at the same airport",
+        "Historical official-name intervals",
+        "Verified coordinates/timezone"
+      ],
+      "proposalStage": "markets",
+      "reasonZh": "2019 年旧场 MJV 是历史关联叙述，2026 年仅有一个当前索引观察；不足以批准跨年连续分配窗口。",
+      "recommendedWindow": null,
+      "recordId": "global-proposal-murcia-old-iata-mjv",
+      "recordType": "assignment",
+      "residualRisksZh": [
+        "需取得另一期明确有日期、有效中的旧场 MJV 原始代码记录或分配/撤销通知；不以民航停航日补边界。"
+      ],
+      "reviewer": null,
+      "scheme": "IATA",
+      "siteKey": "murcia-old",
+      "unknownBeforeAndAfter": "Unknown allocation/withdrawal remain open; days before the first whole-day bound and at/after the excluded right observation day remain uncertain in the accepted hypothesis."
+    }
+  ],
+  "baseCommit": "6f3e50b42b62c4460f7ed0d07f9cc721c278b0b4",
+  "classificationNote": "A/B/C are Codex research recommendations only. Seven identities and nine assignments are reviewed separately; all decisions remain pending. Retained blocked leads are not counted as newly reviewed C records.",
+  "decision": "pending",
+  "formalBaselineSha256": "b7880507c50cf8f993c98b3ec66f34e6433c452d7637eea7c6bfe61edbf166a3",
+  "formatVersion": 1,
+  "physicalAirports": [
+    {
+      "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e",
+      "class": "A",
+      "coordinateStatus": "reference",
+      "coordinates": {
+        "latitude": 16.00333333,
+        "longitude": 73.53277778
+      },
+      "decision": "pending",
+      "displayName": "Sindhudurg Airport",
+      "eventGroupId": "dup_3ba8285a7a6ad98d019277ca",
+      "evidenceSourceIds": [
+        "in-aip-22-02-2024-vosr",
+        "in-aip-12-06-2025-vosr",
+        "in-aip-09-07-2026-vosr"
+      ],
+      "exactAuthorization": {
+        "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e",
+        "coordinates": {
+          "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+          "sourceIds": [
+            "in-aip-22-02-2024-vosr",
+            "in-aip-12-06-2025-vosr",
+            "in-aip-09-07-2026-vosr"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 16.00333333,
+            "longitude": 73.53277778
+          }
+        },
+        "externalIds": {
+          "ourAirports": "331218"
+        },
+        "name": {
+          "note": "Display label only; no official-name timeline is asserted.",
+          "sourceIds": [
+            "in-aip-22-02-2024-vosr",
+            "in-aip-12-06-2025-vosr",
+            "in-aip-09-07-2026-vosr"
+          ],
+          "status": "reference",
+          "value": "Sindhudurg Airport"
+        },
+        "scope": "Physical identity only; display name/ARP stay reference, timezone unknown. Does not approve any assignment, opening date or official-name interval.",
+        "timezone": {
+          "note": "No historical IANA timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      "nameStatus": "reference",
+      "recordId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e",
+      "recordType": "physicalAirport",
+      "reviewer": null,
+      "siteKey": "sindhudurg",
+      "timezoneStatus": "unknown"
+    },
+    {
+      "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7",
+      "class": "A",
+      "coordinateStatus": "reference",
+      "coordinates": {
+        "latitude": 17.30972222,
+        "longitude": 76.95722222
+      },
+      "decision": "pending",
+      "displayName": "Kalaburagi Airport",
+      "eventGroupId": "dup_27ed2ac1e6d76646da47e39c",
+      "evidenceSourceIds": [
+        "in-aip-22-02-2024-vogb",
+        "in-aip-12-06-2025-vogb",
+        "in-aip-09-07-2026-vogb"
+      ],
+      "exactAuthorization": {
+        "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7",
+        "coordinates": {
+          "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+          "sourceIds": [
+            "in-aip-22-02-2024-vogb",
+            "in-aip-12-06-2025-vogb",
+            "in-aip-09-07-2026-vogb"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 17.30972222,
+            "longitude": 76.95722222
+          }
+        },
+        "externalIds": {
+          "ourAirports": "506610"
+        },
+        "name": {
+          "note": "Display label only; no official-name timeline is asserted.",
+          "sourceIds": [
+            "in-aip-22-02-2024-vogb",
+            "in-aip-12-06-2025-vogb",
+            "in-aip-09-07-2026-vogb"
+          ],
+          "status": "reference",
+          "value": "Kalaburagi Airport"
+        },
+        "scope": "Physical identity only; display name/ARP stay reference, timezone unknown. Does not approve any assignment, opening date or official-name interval.",
+        "timezone": {
+          "note": "No historical IANA timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      "nameStatus": "reference",
+      "recordId": "apt_66034969-b902-4ede-8011-cc87a23070b7",
+      "recordType": "physicalAirport",
+      "reviewer": null,
+      "siteKey": "kalaburagi",
+      "timezoneStatus": "unknown"
+    },
+    {
+      "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f",
+      "class": "A",
+      "coordinateStatus": "reference",
+      "coordinates": {
+        "latitude": 26.77277778,
+        "longitude": 83.89527778
+      },
+      "decision": "pending",
+      "displayName": "Kushinagar International Airport",
+      "eventGroupId": "dup_4d24e77865400b9c4c92c1cc",
+      "evidenceSourceIds": [
+        "in-aip-22-02-2024-veki",
+        "in-aip-12-06-2025-veki",
+        "in-aip-09-07-2026-veki"
+      ],
+      "exactAuthorization": {
+        "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f",
+        "coordinates": {
+          "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+          "sourceIds": [
+            "in-aip-22-02-2024-veki",
+            "in-aip-12-06-2025-veki",
+            "in-aip-09-07-2026-veki"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 26.77277778,
+            "longitude": 83.89527778
+          }
+        },
+        "externalIds": {
+          "ourAirports": "350147"
+        },
+        "name": {
+          "note": "Display label only; no official-name timeline is asserted.",
+          "sourceIds": [
+            "in-aip-22-02-2024-veki",
+            "in-aip-12-06-2025-veki",
+            "in-aip-09-07-2026-veki"
+          ],
+          "status": "reference",
+          "value": "Kushinagar International Airport"
+        },
+        "scope": "Physical identity only; display name/ARP stay reference, timezone unknown. Does not approve any assignment, opening date or official-name interval.",
+        "timezone": {
+          "note": "No historical IANA timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      "nameStatus": "reference",
+      "recordId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f",
+      "recordType": "physicalAirport",
+      "reviewer": null,
+      "siteKey": "kushinagar",
+      "timezoneStatus": "unknown"
+    },
+    {
+      "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9",
+      "class": "A",
+      "coordinateStatus": "reference",
+      "coordinates": {
+        "latitude": 27.22583333,
+        "longitude": 88.58583333
+      },
+      "decision": "pending",
+      "displayName": "Pakyong Airport",
+      "eventGroupId": "dup_5f5ccdfccdad5394bef22d11",
+      "evidenceSourceIds": [
+        "in-aip-22-02-2024-vepy",
+        "in-aip-12-06-2025-vepy",
+        "in-aip-09-07-2026-vepy"
+      ],
+      "exactAuthorization": {
+        "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9",
+        "coordinates": {
+          "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+          "sourceIds": [
+            "in-aip-22-02-2024-vepy",
+            "in-aip-12-06-2025-vepy",
+            "in-aip-09-07-2026-vepy"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 27.22583333,
+            "longitude": 88.58583333
+          }
+        },
+        "externalIds": {
+          "ourAirports": "44362"
+        },
+        "name": {
+          "note": "Display label only; no official-name timeline is asserted.",
+          "sourceIds": [
+            "in-aip-22-02-2024-vepy",
+            "in-aip-12-06-2025-vepy",
+            "in-aip-09-07-2026-vepy"
+          ],
+          "status": "reference",
+          "value": "Pakyong Airport"
+        },
+        "scope": "Physical identity only; display name/ARP stay reference, timezone unknown. Does not approve any assignment, opening date or official-name interval.",
+        "timezone": {
+          "note": "No historical IANA timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      "nameStatus": "reference",
+      "recordId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9",
+      "recordType": "physicalAirport",
+      "reviewer": null,
+      "siteKey": "pakyong",
+      "timezoneStatus": "unknown"
+    },
+    {
+      "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3",
+      "class": "A",
+      "coordinateStatus": "reference",
+      "coordinates": {
+        "latitude": 15.71472222,
+        "longitude": 78.16305556
+      },
+      "decision": "pending",
+      "displayName": "Kurnool Airport",
+      "eventGroupId": "dup_aaf4adc6feec9f8fb9ff606e",
+      "evidenceSourceIds": [
+        "in-aip-22-02-2024-voku",
+        "in-aip-12-06-2025-voku",
+        "in-aip-09-07-2026-voku"
+      ],
+      "exactAuthorization": {
+        "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3",
+        "coordinates": {
+          "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+          "sourceIds": [
+            "in-aip-22-02-2024-voku",
+            "in-aip-12-06-2025-voku",
+            "in-aip-09-07-2026-voku"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 15.71472222,
+            "longitude": 78.16305556
+          }
+        },
+        "externalIds": {
+          "ourAirports": "340146"
+        },
+        "name": {
+          "note": "Display label only; no official-name timeline is asserted.",
+          "sourceIds": [
+            "in-aip-22-02-2024-voku",
+            "in-aip-12-06-2025-voku",
+            "in-aip-09-07-2026-voku"
+          ],
+          "status": "reference",
+          "value": "Kurnool Airport"
+        },
+        "scope": "Physical identity only; display name/ARP stay reference, timezone unknown. Does not approve any assignment, opening date or official-name interval.",
+        "timezone": {
+          "note": "No historical IANA timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      "nameStatus": "reference",
+      "recordId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3",
+      "recordType": "physicalAirport",
+      "reviewer": null,
+      "siteKey": "kurnool",
+      "timezoneStatus": "unknown"
+    },
+    {
+      "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+      "class": "A",
+      "coordinateStatus": "reference",
+      "coordinates": {
+        "latitude": 37.80305556,
+        "longitude": -1.12472222
+      },
+      "decision": "pending",
+      "displayName": "Region of Murcia International Airport",
+      "eventGroupId": "dup_5c819a661040eb0011dc6f88",
+      "evidenceSourceIds": [
+        "es-murcia-aip"
+      ],
+      "exactAuthorization": {
+        "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+        "coordinates": {
+          "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+          "sourceIds": [
+            "es-murcia-aip"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 37.80305556,
+            "longitude": -1.12472222
+          }
+        },
+        "externalIds": {
+          "ourAirports": "308134"
+        },
+        "name": {
+          "note": "Display label only; no official-name timeline is asserted.",
+          "sourceIds": [
+            "es-murcia-aip"
+          ],
+          "status": "reference",
+          "value": "Region of Murcia International Airport"
+        },
+        "scope": "Physical identity only; display name/ARP stay reference, timezone unknown. Does not approve any assignment, opening date or official-name interval.",
+        "timezone": {
+          "note": "No historical IANA timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      "nameStatus": "reference",
+      "recordId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+      "recordType": "physicalAirport",
+      "reviewer": null,
+      "siteKey": "murcia-new",
+      "timezoneStatus": "unknown"
+    },
+    {
+      "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+      "class": "A",
+      "coordinateStatus": "reference",
+      "coordinates": {
+        "latitude": 37.775,
+        "longitude": -0.8125
+      },
+      "decision": "pending",
+      "displayName": "San Javier Airport",
+      "eventGroupId": "dup_5c819a661040eb0011dc6f88",
+      "evidenceSourceIds": [
+        "es-sanjavier-aip"
+      ],
+      "exactAuthorization": {
+        "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+        "coordinates": {
+          "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+          "sourceIds": [
+            "es-sanjavier-aip"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 37.775,
+            "longitude": -0.8125
+          }
+        },
+        "externalIds": {
+          "ourAirports": "4017"
+        },
+        "name": {
+          "note": "Display label only; no official-name timeline is asserted.",
+          "sourceIds": [
+            "es-sanjavier-aip"
+          ],
+          "status": "reference",
+          "value": "San Javier Airport"
+        },
+        "scope": "Physical identity only; display name/ARP stay reference, timezone unknown. Does not approve any assignment, opening date or official-name interval.",
+        "timezone": {
+          "note": "No historical IANA timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      "nameStatus": "reference",
+      "recordId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+      "recordType": "physicalAirport",
+      "reviewer": null,
+      "siteKey": "murcia-old",
+      "timezoneStatus": "unknown"
+    }
+  ],
+  "preparedOn": "2026-10-29",
+  "retainedBlockers": [
+    "TAG",
+    "LYG",
+    "YBP",
+    "AKA",
+    "ENY",
+    "JNZ",
+    "LZO",
+    "ZHA",
+    "KSGU",
+    "KDXZ",
+    "KXWA"
+  ],
+  "reviewer": null
+}
