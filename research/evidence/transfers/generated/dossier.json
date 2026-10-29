@@ -1,0 +1,246 @@
+[
+  {
+    "approvalBlockers": [
+      "Human physical-site and coordinate review required."
+    ],
+    "caseKey": "bohol",
+    "decision": "pending",
+    "factIds": [
+      "bohol-old-arp-jica",
+      "bohol-old-schedule-2015",
+      "bohol-old-schedule-2017"
+    ],
+    "identityAssessment": "JICA 旧场 ARP 人工匹配 Tagbilaran 城区旧跑道，与 Panglao 新场分立。坐标仍 reference，待人工批准。",
+    "recordId": "apt_78682b36-d300-4f1a-be34-3d6d9614e17e",
+    "recordType": "physicalAirport",
+    "reviewer": null
+  },
+  {
+    "approvalBlockers": [
+      "Human physical-site and coordinate review required."
+    ],
+    "caseKey": "zhanjiang",
+    "decision": "pending",
+    "factIds": [
+      "zhanjiang-new-quality",
+      "zhanjiang-finding"
+    ],
+    "identityAssessment": "CAAC 迁建关系、南航具名新场与服务报告共同匹配 OA354995 吴川；参考坐标不是经审核 ARP。旧湛江身份未提案。",
+    "recordId": "apt_70c6479b-100c-44fe-b9f2-8fd1b608d9bc",
+    "recordType": "physicalAirport",
+    "reviewer": null
+  },
+  {
+    "approvalBlockers": [
+      "需要真实人工审核；未确定行政交接，未知边界必须保持开放。"
+    ],
+    "boundaryAssessment": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+    "caseKey": "lianyungang",
+    "continuityAssessment": "未提出连续性外推；同侧多次关联仍不足排除另一物理场址开放可能区间。现有有限新场判断保留，交给真实解析器处理新增旧场不确定性。",
+    "decision": "pending",
+    "factIds": [
+      "lianyungang-old-spring-2019-11-20",
+      "lianyungang-old-spring-2020-09-21",
+      "lyg-old-guide-undated"
+    ],
+    "observations": [
+      {
+        "basis": "历史捕获页面把旧场 连云港白塔埠机场 与航空公司机场订票路径 LYG 关联。代码仅存在 HTML href，属于间接机场订票代码判断；不是正文明确标为 IATA 的行政记录。捕获日也不是原文发布日期或代码分配日。",
+        "claimScope": "Dated code/site association only, not continuous validity.",
+        "independentOriginal": true,
+        "observationBounds": {
+          "basis": "archived_carrier_booking_association_indirect",
+          "earliest": "2019-11-20",
+          "latest": "2019-11-20"
+        },
+        "observedOn": "2019-11-20",
+        "sourceFamily": "spring-airlines",
+        "sourceId": "p0-lianyungang-spring-2019-11-20"
+      },
+      {
+        "basis": "历史捕获页面把旧场 连云港白塔埠机场 与航空公司机场订票路径 LYG 关联。代码仅存在 HTML href，属于间接机场订票代码判断；不是正文明确标为 IATA 的行政记录。捕获日也不是原文发布日期或代码分配日。",
+        "claimScope": "Dated code/site association only, not continuous validity.",
+        "independentOriginal": true,
+        "observationBounds": {
+          "basis": "archived_carrier_booking_association_indirect",
+          "earliest": "2020-09-21",
+          "latest": "2020-09-21"
+        },
+        "observedOn": "2020-09-21",
+        "sourceFamily": "spring-airlines",
+        "sourceId": "p0-lianyungang-spring-2020-09-21"
+      }
+    ],
+    "recordId": "transfers-proposal-lianyungang-old-iata-lyg",
+    "recordType": "assignment",
+    "reviewer": null,
+    "revisesPendingOnly": false
+  },
+  {
+    "approvalBlockers": [
+      "需要真实人工审核；未确定行政交接，未知边界必须保持开放。"
+    ],
+    "boundaryAssessment": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+    "caseKey": "yibin",
+    "continuityAssessment": "未提出连续性外推；同侧多次关联仍不足排除另一物理场址开放可能区间。现有有限新场判断保留，交给真实解析器处理新增旧场不确定性。",
+    "decision": "pending",
+    "factIds": [
+      "yibin-old-spring-2019-11-15",
+      "yibin-old-spring-2019-11-21"
+    ],
+    "observations": [
+      {
+        "basis": "历史捕获页面把旧场 宜宾菜坝机场 与航空公司机场订票路径 YBP 关联。代码仅存在 HTML href，属于间接机场订票代码判断；不是正文明确标为 IATA 的行政记录。捕获日也不是原文发布日期或代码分配日。",
+        "claimScope": "Dated code/site association only, not continuous validity.",
+        "independentOriginal": true,
+        "observationBounds": {
+          "basis": "archived_carrier_booking_association_indirect",
+          "earliest": "2019-11-15",
+          "latest": "2019-11-15"
+        },
+        "observedOn": "2019-11-15",
+        "sourceFamily": "spring-airlines",
+        "sourceId": "p0-yibin-spring-2019-11-15"
+      },
+      {
+        "basis": "历史捕获页面把旧场 宜宾菜坝机场 与航空公司机场订票路径 YBP 关联。代码仅存在 HTML href，属于间接机场订票代码判断；不是正文明确标为 IATA 的行政记录。捕获日也不是原文发布日期或代码分配日。",
+        "claimScope": "Dated code/site association only, not continuous validity.",
+        "independentOriginal": true,
+        "observationBounds": {
+          "basis": "archived_carrier_booking_association_indirect",
+          "earliest": "2019-11-21",
+          "latest": "2019-11-21"
+        },
+        "observedOn": "2019-11-21",
+        "sourceFamily": "spring-airlines",
+        "sourceId": "p0-yibin-spring-2019-11-21"
+      }
+    ],
+    "recordId": "transfers-proposal-yibin-old-iata-ybp",
+    "recordType": "assignment",
+    "reviewer": null,
+    "revisesPendingOnly": false
+  },
+  {
+    "approvalBlockers": [
+      "需要真实人工审核；未确定行政交接，未知边界必须保持开放。",
+      "原件只有月份观察；未虚构具体 observedOn 日期，仍缺现有正式入库门槛所需的精确有日期原件。"
+    ],
+    "boundaryAssessment": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+    "caseKey": "bohol",
+    "continuityAssessment": "未提出连续性外推；同侧多次关联仍不足排除另一物理场址开放可能区间。现有有限新场判断保留，交给真实解析器处理新增旧场不确定性。",
+    "decision": "pending",
+    "factIds": [
+      "bohol-old-schedule-2015",
+      "bohol-old-schedule-2017"
+    ],
+    "observations": [],
+    "recordId": "transfers-proposal-bohol-old-iata-tag",
+    "recordType": "assignment",
+    "reviewer": null,
+    "revisesPendingOnly": false
+  },
+  {
+    "approvalBlockers": [
+      "需要真实人工审核；未确定行政交接，未知边界必须保持开放。",
+      "原件只有月份观察；未虚构具体 observedOn 日期，仍缺现有正式入库门槛所需的精确有日期原件。"
+    ],
+    "boundaryAssessment": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+    "caseKey": "luzhou",
+    "continuityAssessment": "未提出连续性外推；同侧多次关联仍不足排除另一物理场址开放可能区间。现有有限新场判断保留，交给真实解析器处理新增旧场不确定性。",
+    "decision": "pending",
+    "factIds": [
+      "luzhou-new-quality"
+    ],
+    "observations": [],
+    "recordId": "transfers-proposal-luzhou-new-iata-lzo",
+    "recordType": "assignment",
+    "reviewer": null,
+    "revisesPendingOnly": false
+  },
+  {
+    "approvalBlockers": [
+      "需要真实人工审核；未确定行政交接，未知边界必须保持开放。",
+      "原件只有月份观察；未虚构具体 observedOn 日期，仍缺现有正式入库门槛所需的精确有日期原件。"
+    ],
+    "boundaryAssessment": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+    "caseKey": "zhanjiang",
+    "continuityAssessment": "未提出连续性外推；同侧多次关联仍不足排除另一物理场址开放可能区间。现有有限新场判断保留，交给真实解析器处理新增旧场不确定性。",
+    "decision": "pending",
+    "factIds": [
+      "zhanjiang-new-quality"
+    ],
+    "observations": [],
+    "recordId": "transfers-proposal-zhanjiang-new-iata-zha",
+    "recordType": "assignment",
+    "reviewer": null,
+    "revisesPendingOnly": false
+  },
+  {
+    "approvalBlockers": [
+      "需要真实人工审核；未确定行政交接，未知边界必须保持开放。",
+      "原件只有月份观察；未虚构具体 observedOn 日期，仍缺现有正式入库门槛所需的精确有日期原件。"
+    ],
+    "boundaryAssessment": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+    "caseKey": "lianyungang",
+    "continuityAssessment": "未提出连续性外推；同侧多次关联仍不足排除另一物理场址开放可能区间。现有有限新场判断保留，交给真实解析器处理新增旧场不确定性。",
+    "decision": "pending",
+    "factIds": [
+      "lianyungang-new-quality"
+    ],
+    "observations": [],
+    "recordId": "markets-proposal-lianyungang-new-iata-lyg",
+    "recordType": "assignment",
+    "reviewer": null,
+    "revisesPendingOnly": true
+  },
+  {
+    "approvalBlockers": [
+      "需要真实人工审核；未确定行政交接，未知边界必须保持开放。",
+      "原件只有月份观察；未虚构具体 observedOn 日期，仍缺现有正式入库门槛所需的精确有日期原件。"
+    ],
+    "boundaryAssessment": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+    "caseKey": "yibin",
+    "continuityAssessment": "未提出连续性外推；同侧多次关联仍不足排除另一物理场址开放可能区间。现有有限新场判断保留，交给真实解析器处理新增旧场不确定性。",
+    "decision": "pending",
+    "factIds": [
+      "yibin-new-quality"
+    ],
+    "observations": [],
+    "recordId": "markets-proposal-yibin-new-iata-ybp",
+    "recordType": "assignment",
+    "reviewer": null,
+    "revisesPendingOnly": true
+  },
+  {
+    "approvalBlockers": [
+      "需要真实人工审核；未确定行政交接，未知边界必须保持开放。"
+    ],
+    "boundaryAssessment": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+    "caseKey": "bohol",
+    "continuityAssessment": "未提出连续性外推；同侧多次关联仍不足排除另一物理场址开放可能区间。现有有限新场判断保留，交给真实解析器处理新增旧场不确定性。",
+    "decision": "pending",
+    "factIds": [
+      "bohol-new-tag-airasia"
+    ],
+    "observations": [
+      {
+        "basis": "2020-11-18 原航空公司公告使用 Bohol(TAG) 预订代码；通过该公司 2020-02 已迁入 Panglao 的原文连接物理身份，属于间接新场代码关联。12-01 是计划复航日，不能认定 11-18 已实际飞行。",
+        "claimScope": "Dated code/site association only, not continuous validity.",
+        "independentOriginal": true,
+        "observationBounds": {
+          "basis": "dated_booking_notice_indirect_site_join",
+          "earliest": "2020-11-18",
+          "latest": "2020-11-18"
+        },
+        "observedOn": "2020-11-18",
+        "sourceFamily": "airasia",
+        "sourceId": "p0-bohol-airasia-booking"
+      }
+    ],
+    "recordId": "global-proposal-bohol-new-iata-tag",
+    "recordType": "assignment",
+    "reviewer": null,
+    "revisesPendingOnly": true
+  }
+]

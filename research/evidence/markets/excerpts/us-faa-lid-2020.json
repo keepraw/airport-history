@@ -1,0 +1,28 @@
+{
+  "originalSha256": "2bbf41b5165a30f0a0b557349eaf7dd188bfdbd337a20156f18676fb184b4828",
+  "originalTextSha256": "2fef1cefbdd9b8b7411dc6e3bd7ea2b858ee3ace883f1440ea480e7181ee0f6f",
+  "sourceId": "us-faa-lid-2020",
+  "spans": [
+    {
+      "factId": "williston-faa-airport-row",
+      "normalizedCharacterEnd": 3112,
+      "normalizedCharacterStart": 3083,
+      "page": 454,
+      "quote": "WILLISTON BASIN INTL ARPT XWA"
+    },
+    {
+      "factId": "williston-faa-rco-row",
+      "normalizedCharacterEnd": 3246,
+      "normalizedCharacterStart": 3229,
+      "page": 454,
+      "quote": "WILLISTON RCO ISN"
+    },
+    {
+      "factId": "williston-faa-icao-rule",
+      "normalizedCharacterEnd": 444,
+      "normalizedCharacterStart": 418,
+      "page": 19,
+      "quote": "identifier preceded by “K”"
+    }
+  ]
+}

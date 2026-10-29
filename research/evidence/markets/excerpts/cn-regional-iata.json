@@ -1,0 +1,56 @@
+{
+  "originalSha256": "7373887c2088e077f9e1b718033d57b663334cf12381c11efe763bc7c78033b4",
+  "originalTextSha256": "c74cd8558147718a0551d02941ea7b71f21150886c9dbf9231bc1e05b69cfd74",
+  "sourceId": "cn-regional-iata",
+  "spans": [
+    {
+      "factId": "ankang-iata-guide",
+      "normalizedCharacterEnd": 373,
+      "normalizedCharacterStart": 364,
+      "page": 178,
+      "quote": "安康/富强 AKA"
+    },
+    {
+      "factId": "yanan-iata-guide",
+      "normalizedCharacterEnd": 780,
+      "normalizedCharacterStart": 770,
+      "page": 179,
+      "quote": "延安/南泥湾 ENY"
+    },
+    {
+      "factId": "dazhou-iata-guide",
+      "normalizedCharacterEnd": 677,
+      "normalizedCharacterStart": 668,
+      "page": 180,
+      "quote": "达州/金垭 DZH"
+    },
+    {
+      "factId": "lianyungang-iata-guide",
+      "normalizedCharacterEnd": 523,
+      "normalizedCharacterStart": 512,
+      "page": 178,
+      "quote": "连云港/花果山 LYG"
+    },
+    {
+      "factId": "yibin-iata-guide",
+      "normalizedCharacterEnd": 285,
+      "normalizedCharacterStart": 275,
+      "page": 178,
+      "quote": "宜宾/五粮液 YBP"
+    },
+    {
+      "factId": "jinzhou-iata-guide",
+      "normalizedCharacterEnd": 565,
+      "normalizedCharacterStart": 555,
+      "page": 178,
+      "quote": "锦州/锦州湾 JNZ"
+    },
+    {
+      "factId": "shiyan-iata-guide",
+      "normalizedCharacterEnd": 606,
+      "normalizedCharacterStart": 596,
+      "page": 178,
+      "quote": "十堰/武当山 WDS"
+    }
+  ]
+}

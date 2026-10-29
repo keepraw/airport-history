@@ -1,0 +1,100 @@
+{
+  "changedPublishedResolvedQueries": 0,
+  "citedOriginalPublications": 60,
+  "combinedPotentialResolvedQueries": {
+    "IATA": 6764,
+    "ICAO": 14436
+  },
+  "completeDifferentIataReplacementChains": 1,
+  "completeSameIataCrossSiteChains": 0,
+  "enrichedPendingAssignments": 4,
+  "formalAdmissions": 0,
+  "formalCounts": [
+    27,
+    43,
+    3,
+    77
+  ],
+  "formalNewResolvedQueries": 0,
+  "formalVersion": "0.8.0",
+  "humanApproved": 0,
+  "incrementalPotentialResolvedQueries": {
+    "IATA": 5290,
+    "ICAO": 336
+  },
+  "newCodeAssociations": 7,
+  "newFacts": 77,
+  "newPhysicalRecords": 14,
+  "newlyRetrievedCitedOriginalPublications": 56,
+  "regions": [
+    {
+      "blockedRecordReviews": 21,
+      "casesNeedingFurtherEvidence": 14,
+      "executedPhysicalChanges": 12,
+      "newPhysicalChangesBeyondFormal": 10,
+      "originalPublications": 14,
+      "pendingRecordReviews": 21,
+      "region": "中国大陆",
+      "scopedInvestigations": 14,
+      "selectedCases": 14
+    },
+    {
+      "blockedRecordReviews": 0,
+      "casesNeedingFurtherEvidence": 11,
+      "executedPhysicalChanges": 0,
+      "newPhysicalChangesBeyondFormal": 0,
+      "originalPublications": 11,
+      "pendingRecordReviews": 0,
+      "region": "日本",
+      "scopedInvestigations": 11,
+      "selectedCases": 11
+    },
+    {
+      "blockedRecordReviews": 0,
+      "casesNeedingFurtherEvidence": 7,
+      "executedPhysicalChanges": 0,
+      "newPhysicalChangesBeyondFormal": 0,
+      "originalPublications": 7,
+      "pendingRecordReviews": 0,
+      "region": "韩国",
+      "scopedInvestigations": 7,
+      "selectedCases": 7
+    },
+    {
+      "blockedRecordReviews": 0,
+      "casesNeedingFurtherEvidence": 8,
+      "executedPhysicalChanges": 1,
+      "newPhysicalChangesBeyondFormal": 0,
+      "originalPublications": 10,
+      "pendingRecordReviews": 0,
+      "region": "美国",
+      "scopedInvestigations": 8,
+      "selectedCases": 8
+    },
+    {
+      "blockedRecordReviews": 0,
+      "casesNeedingFurtherEvidence": 9,
+      "executedPhysicalChanges": 0,
+      "newPhysicalChangesBeyondFormal": 0,
+      "originalPublications": 10,
+      "pendingRecordReviews": 0,
+      "region": "英国",
+      "scopedInvestigations": 9,
+      "selectedCases": 9
+    },
+    {
+      "blockedRecordReviews": 4,
+      "casesNeedingFurtherEvidence": 11,
+      "executedPhysicalChanges": 4,
+      "newPhysicalChangesBeyondFormal": 2,
+      "originalPublications": 8,
+      "pendingRecordReviews": 4,
+      "region": "欧洲大陆",
+      "scopedInvestigations": 11,
+      "selectedCases": 11
+    }
+  ],
+  "scope": "Scoped official-publication examinations, not 60 new changes or an exhaustive 2015-2026 no-change proof.",
+  "scopedInvestigations": 60,
+  "selectedCases": 60
+}

@@ -1,0 +1,3880 @@
+{
+  "assignments": [
+    {
+      "assignmentId": "global-proposal-sindhudurg-icao-vosr",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. Certain coverage excludes the uncertain first observation/implementation local day and stops before the last observation day; no instantaneous observation is treated as a whole local day.",
+      "certaintyPolicy": "bounded_continuity",
+      "code": "VOSR",
+      "continuityAssessment": "Proposed interpolation only between the cited same-site code observations. Human acceptance is required; same-issuer editions share publication lineage. No extrapolation beyond the stated certain window.",
+      "evidenceType": "continuity_inference",
+      "factIds": [
+        "sindhudurg-aip-2024",
+        "sindhudurg-aip-2026",
+        "india-six-years"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "sindhudurg",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2024-02-23",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-kalaburagi-icao-vogb",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. Certain coverage excludes the uncertain first observation/implementation local day and stops before the last observation day; no instantaneous observation is treated as a whole local day.",
+      "certaintyPolicy": "bounded_continuity",
+      "code": "VOGB",
+      "continuityAssessment": "Proposed interpolation only between the cited same-site code observations. Human acceptance is required; same-issuer editions share publication lineage. No extrapolation beyond the stated certain window.",
+      "evidenceType": "continuity_inference",
+      "factIds": [
+        "kalaburagi-aip-2024",
+        "kalaburagi-aip-2026",
+        "india-six-years"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "kalaburagi",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2024-02-23",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-kurnool-icao-voku",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. Certain coverage excludes the uncertain first observation/implementation local day and stops before the last observation day; no instantaneous observation is treated as a whole local day.",
+      "certaintyPolicy": "bounded_continuity",
+      "code": "VOKU",
+      "continuityAssessment": "Proposed interpolation only between the cited same-site code observations. Human acceptance is required; same-issuer editions share publication lineage. No extrapolation beyond the stated certain window.",
+      "evidenceType": "continuity_inference",
+      "factIds": [
+        "kurnool-aip-2024",
+        "kurnool-aip-2026",
+        "india-six-years"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "kurnool",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2024-02-23",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-kushinagar-icao-veki",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. Certain coverage excludes the uncertain first observation/implementation local day and stops before the last observation day; no instantaneous observation is treated as a whole local day.",
+      "certaintyPolicy": "bounded_continuity",
+      "code": "VEKI",
+      "continuityAssessment": "Proposed interpolation only between the cited same-site code observations. Human acceptance is required; same-issuer editions share publication lineage. No extrapolation beyond the stated certain window.",
+      "evidenceType": "continuity_inference",
+      "factIds": [
+        "kushinagar-aip-2024",
+        "kushinagar-aip-2026",
+        "india-six-years"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "kushinagar",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2024-02-23",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-pakyong-icao-vepy",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. Certain coverage excludes the uncertain first observation/implementation local day and stops before the last observation day; no instantaneous observation is treated as a whole local day.",
+      "certaintyPolicy": "bounded_continuity",
+      "code": "VEPY",
+      "continuityAssessment": "Proposed interpolation only between the cited same-site code observations. Human acceptance is required; same-issuer editions share publication lineage. No extrapolation beyond the stated certain window.",
+      "evidenceType": "continuity_inference",
+      "factIds": [
+        "pakyong-aip-2024",
+        "pakyong-aip-2026",
+        "india-six-years"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "pakyong",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2024-02-23",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-hollongi-icao-veho",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. Certain coverage excludes the uncertain first observation/implementation local day and stops before the last observation day; no instantaneous observation is treated as a whole local day.",
+      "certaintyPolicy": "bounded_continuity",
+      "code": "VEHO",
+      "continuityAssessment": "Proposed interpolation only between the cited same-site code observations. Human acceptance is required; same-issuer editions share publication lineage. No extrapolation beyond the stated certain window.",
+      "evidenceType": "continuity_inference",
+      "factIds": [
+        "hollongi-aip-2024",
+        "hollongi-aip-2026",
+        "india-project-years",
+        "hollongi-administrative",
+        "hollongi-administrative"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "hollongi",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2022-11-04",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-mopa-icao-voga",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. Certain coverage excludes the uncertain first observation/implementation local day and stops before the last observation day; no instantaneous observation is treated as a whole local day.",
+      "certaintyPolicy": "bounded_continuity",
+      "code": "VOGA",
+      "continuityAssessment": "Proposed interpolation only between the cited same-site code observations. Human acceptance is required; same-issuer editions share publication lineage. No extrapolation beyond the stated certain window.",
+      "evidenceType": "continuity_inference",
+      "factIds": [
+        "mopa-aip-2024",
+        "mopa-aip-2026",
+        "india-project-years"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "mopa",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2024-02-23",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-shirdi-icao-vasd",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. Certain coverage excludes the uncertain first observation/implementation local day and stops before the last observation day; no instantaneous observation is treated as a whole local day.",
+      "certaintyPolicy": "bounded_continuity",
+      "code": "VASD",
+      "continuityAssessment": "Proposed interpolation only between the cited same-site code observations. Human acceptance is required; same-issuer editions share publication lineage. No extrapolation beyond the stated certain window.",
+      "evidenceType": "continuity_inference",
+      "factIds": [
+        "shirdi-aip-2024",
+        "shirdi-aip-2026",
+        "india-project-years"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "shirdi",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2024-02-23",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-kannur-icao-vokn",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. Certain coverage excludes the uncertain first observation/implementation local day and stops before the last observation day; no instantaneous observation is treated as a whole local day.",
+      "certaintyPolicy": "bounded_continuity",
+      "code": "VOKN",
+      "continuityAssessment": "Proposed interpolation only between the cited same-site code observations. Human acceptance is required; same-issuer editions share publication lineage. No extrapolation beyond the stated certain window.",
+      "evidenceType": "continuity_inference",
+      "factIds": [
+        "kannur-aip-2024",
+        "kannur-aip-2026",
+        "india-project-years"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "kannur",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2024-02-23",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-durgapur-icao-vedg",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. Certain coverage excludes the uncertain first observation/implementation local day and stops before the last observation day; no instantaneous observation is treated as a whole local day.",
+      "certaintyPolicy": "bounded_continuity",
+      "code": "VEDG",
+      "continuityAssessment": "Proposed interpolation only between the cited same-site code observations. Human acceptance is required; same-issuer editions share publication lineage. No extrapolation beyond the stated certain window.",
+      "evidenceType": "continuity_inference",
+      "factIds": [
+        "durgapur-aip-2024",
+        "durgapur-aip-2026",
+        "india-project-years"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "durgapur",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2024-02-23",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-rajkot-new-icao-vahs",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. One instantaneous/day-bounded observation does not establish a whole local date; latest possible start can follow earliest possible end, so the certain interval is empty. Outer allocation/withdrawal bounds remain unknown.",
+      "certaintyPolicy": "observation_only",
+      "code": "VAHS",
+      "continuityAssessment": "Single observation only; no interpolation or resolved whole-local-day coverage is claimed.",
+      "evidenceType": "primary_direct",
+      "factIds": [
+        "rajkot-aip"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "rajkot-new",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2024-02-23",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2024-02-22",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-siemreap-new-iata-sai",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. One instantaneous/day-bounded observation does not establish a whole local date; latest possible start can follow earliest possible end, so the certain interval is empty. Outer allocation/withdrawal bounds remain unknown.",
+      "certaintyPolicy": "observation_only",
+      "code": "SAI",
+      "continuityAssessment": "Single observation only; no interpolation or resolved whole-local-day coverage is claimed.",
+      "evidenceType": "primary_direct",
+      "factIds": [
+        "sai-executed"
+      ],
+      "scheme": "IATA",
+      "siteKey": "siemreap-new",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2023-10-17",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2023-10-16",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-siemreap-old-iata-rep",
+      "boundaryAssessment": "Only a former/undated physical-code association is supported. A historical label or a surviving announcement does not establish active allocation on its publication or download date. All time bounds remain unknown; no certain query day is proposed.",
+      "certaintyPolicy": "association_only",
+      "code": "REP",
+      "continuityAssessment": "No continuity or whole-local-day certainty is inferred from this association.",
+      "evidenceType": "indirect",
+      "factIds": [
+        "sai-executed"
+      ],
+      "scheme": "IATA",
+      "siteKey": "siemreap-old",
+      "validFrom": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-bicol-iata-lgp",
+      "boundaryAssessment": "The carrier retrospectively dates the commercial LGP to DRP implementation to 2022-12-15. This supports observation limits, not an exact global IATA first allocation or final withdrawal; unknown outer bounds remain null. One instantaneous/day-bounded observation does not establish a whole local date; latest possible start can follow earliest possible end, so the certain interval is empty. Outer allocation/withdrawal bounds remain unknown.",
+      "certaintyPolicy": "observation_only",
+      "code": "LGP",
+      "continuityAssessment": "Single observation only; no interpolation or resolved whole-local-day coverage is claimed.",
+      "evidenceType": "indirect",
+      "factIds": [
+        "bicol-code-switch"
+      ],
+      "scheme": "IATA",
+      "siteKey": "bicol",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2022-12-15",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2022-12-14",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-bicol-iata-drp",
+      "boundaryAssessment": "The carrier retrospectively dates the commercial LGP to DRP implementation to 2022-12-15. This supports observation limits, not an exact global IATA first allocation or final withdrawal; unknown outer bounds remain null. Certain coverage excludes the uncertain first observation/implementation local day and stops before the last observation day; no instantaneous observation is treated as a whole local day.",
+      "certaintyPolicy": "bounded_continuity",
+      "code": "DRP",
+      "continuityAssessment": "Proposed interpolation only between the cited same-site code observations. Human acceptance is required; same-issuer editions share publication lineage. No extrapolation beyond the stated certain window.",
+      "evidenceType": "continuity_inference",
+      "factIds": [
+        "bicol-code-switch",
+        "bicol-current"
+      ],
+      "scheme": "IATA",
+      "siteKey": "bicol",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2022-12-16",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-29",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-bohol-new-iata-tag",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. Certain coverage excludes the uncertain first observation/implementation local day and stops before the last observation day; no instantaneous observation is treated as a whole local day.",
+      "certaintyPolicy": "bounded_continuity",
+      "code": "TAG",
+      "continuityAssessment": "Proposed interpolation only between the cited same-site code observations. Human acceptance is required; same-issuer editions share publication lineage. No extrapolation beyond the stated certain window.",
+      "evidenceType": "continuity_inference",
+      "factIds": [
+        "bohol-tag",
+        "bohol-schedule"
+      ],
+      "scheme": "IATA",
+      "siteKey": "bohol-new",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2024-09-01",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2024-11-01",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-chaiten-new-icao-sctn",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. One instantaneous/day-bounded observation does not establish a whole local date; latest possible start can follow earliest possible end, so the certain interval is empty. Outer allocation/withdrawal bounds remain unknown.",
+      "certaintyPolicy": "observation_only",
+      "code": "SCTN",
+      "continuityAssessment": "Single observation only; no interpolation or resolved whole-local-day coverage is claimed.",
+      "evidenceType": "primary_direct",
+      "factIds": [
+        "chaiten-arp"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "chaiten-new",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2026-10-30",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-29",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-chaiten-new-iata-wch",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. One instantaneous/day-bounded observation does not establish a whole local date; latest possible start can follow earliest possible end, so the certain interval is empty. Outer allocation/withdrawal bounds remain unknown.",
+      "certaintyPolicy": "observation_only",
+      "code": "WCH",
+      "continuityAssessment": "Single observation only; no interpolation or resolved whole-local-day coverage is claimed.",
+      "evidenceType": "primary_direct",
+      "factIds": [
+        "chaiten-arp"
+      ],
+      "scheme": "IATA",
+      "siteKey": "chaiten-new",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2026-10-30",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-29",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-murcia-new-icao-lemi",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. Certain coverage excludes the uncertain first observation/implementation local day and stops before the last observation day; no instantaneous observation is treated as a whole local day.",
+      "certaintyPolicy": "bounded_continuity",
+      "code": "LEMI",
+      "continuityAssessment": "Proposed interpolation only between the cited same-site code observations. Human acceptance is required; same-issuer editions share publication lineage. No extrapolation beyond the stated certain window.",
+      "evidenceType": "continuity_inference",
+      "factIds": [
+        "murcia-replacement",
+        "murcia-new-arp"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "murcia-new",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2019-08-02",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-06-11",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-murcia-new-iata-rmu",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. One instantaneous/day-bounded observation does not establish a whole local date; latest possible start can follow earliest possible end, so the certain interval is empty. Outer allocation/withdrawal bounds remain unknown.",
+      "certaintyPolicy": "observation_only",
+      "code": "RMU",
+      "continuityAssessment": "Single observation only; no interpolation or resolved whole-local-day coverage is claimed.",
+      "evidenceType": "indirect",
+      "factIds": [
+        "murcia-replacement"
+      ],
+      "scheme": "IATA",
+      "siteKey": "murcia-new",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2019-08-02",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2019-08-01",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-murcia-old-icao-lelc",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. Certain coverage excludes the uncertain first observation/implementation local day and stops before the last observation day; no instantaneous observation is treated as a whole local day.",
+      "certaintyPolicy": "bounded_continuity",
+      "code": "LELC",
+      "continuityAssessment": "Proposed interpolation only between the cited same-site code observations. Human acceptance is required; same-issuer editions share publication lineage. No extrapolation beyond the stated certain window.",
+      "evidenceType": "continuity_inference",
+      "factIds": [
+        "murcia-replacement",
+        "murcia-old-arp"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "murcia-old",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2019-08-02",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-04-16",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-murcia-old-iata-mjv",
+      "boundaryAssessment": "Only a former/undated physical-code association is supported. A historical label or a surviving announcement does not establish active allocation on its publication or download date. All time bounds remain unknown; no certain query day is proposed.",
+      "certaintyPolicy": "association_only",
+      "code": "MJV",
+      "continuityAssessment": "No continuity or whole-local-day certainty is inferred from this association.",
+      "evidenceType": "indirect",
+      "factIds": [
+        "murcia-replacement"
+      ],
+      "scheme": "IATA",
+      "siteKey": "murcia-old",
+      "validFrom": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-ramon-iata-etm",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. One instantaneous/day-bounded observation does not establish a whole local date; latest possible start can follow earliest possible end, so the certain interval is empty. Outer allocation/withdrawal bounds remain unknown.",
+      "certaintyPolicy": "observation_only",
+      "code": "ETM",
+      "continuityAssessment": "Single observation only; no interpolation or resolved whole-local-day coverage is claimed.",
+      "evidenceType": "indirect",
+      "factIds": [
+        "ramon-etm"
+      ],
+      "scheme": "IATA",
+      "siteKey": "ramon",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2019-04-19",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2019-04-18",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-ramon-icao-ller",
+      "boundaryAssessment": "The operator dates ICAO approval to 2016, but unknown first allocation and withdrawal remain open. A year-bounded administrative approval is not proof of a first-allocation lower bound or any certain daily interval. One instantaneous/day-bounded observation does not establish a whole local date; latest possible start can follow earliest possible end, so the certain interval is empty. Outer allocation/withdrawal bounds remain unknown.",
+      "certaintyPolicy": "observation_only",
+      "code": "LLER",
+      "continuityAssessment": "Single observation only; no interpolation or resolved whole-local-day coverage is claimed.",
+      "evidenceType": "indirect",
+      "factIds": [
+        "ramon-icao-year"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "ramon",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2017-01-01",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2016-01-01",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-fagalii-iata-fgi",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. One instantaneous/day-bounded observation does not establish a whole local date; latest possible start can follow earliest possible end, so the certain interval is empty. Outer allocation/withdrawal bounds remain unknown.",
+      "certaintyPolicy": "observation_only",
+      "code": "FGI",
+      "continuityAssessment": "Single observation only; no interpolation or resolved whole-local-day coverage is claimed.",
+      "evidenceType": "indirect",
+      "factIds": [
+        "fagalii-code"
+      ],
+      "scheme": "IATA",
+      "siteKey": "fagalii",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2026-10-30",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-29",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-ndola-new-iata-nla",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. One instantaneous/day-bounded observation does not establish a whole local date; latest possible start can follow earliest possible end, so the certain interval is empty. Outer allocation/withdrawal bounds remain unknown.",
+      "certaintyPolicy": "observation_only",
+      "code": "NLA",
+      "continuityAssessment": "Single observation only; no interpolation or resolved whole-local-day coverage is claimed.",
+      "evidenceType": "indirect",
+      "factIds": [
+        "ndola-codes"
+      ],
+      "scheme": "IATA",
+      "siteKey": "ndola-new",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2026-10-30",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-29",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-ndola-new-icao-flsk",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. One instantaneous/day-bounded observation does not establish a whole local date; latest possible start can follow earliest possible end, so the certain interval is empty. Outer allocation/withdrawal bounds remain unknown.",
+      "certaintyPolicy": "observation_only",
+      "code": "FLSK",
+      "continuityAssessment": "Single observation only; no interpolation or resolved whole-local-day coverage is claimed.",
+      "evidenceType": "primary_direct",
+      "factIds": [
+        "ndola-codes"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "ndola-new",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2026-10-30",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-29",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-conquista-new-icao-sbvc",
+      "boundaryAssessment": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. One instantaneous/day-bounded observation does not establish a whole local date; latest possible start can follow earliest possible end, so the certain interval is empty. Outer allocation/withdrawal bounds remain unknown.",
+      "certaintyPolicy": "observation_only",
+      "code": "SBVC",
+      "continuityAssessment": "Single observation only; no interpolation or resolved whole-local-day coverage is claimed.",
+      "evidenceType": "primary_direct",
+      "factIds": [
+        "conquista-current",
+        "conquista-arp"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "conquista-new",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2026-10-30",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-29",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-conquista-new-icao-ssvc",
+      "boundaryAssessment": "Only a former/undated physical-code association is supported. A historical label or a surviving announcement does not establish active allocation on its publication or download date. All time bounds remain unknown; no certain query day is proposed.",
+      "certaintyPolicy": "association_only",
+      "code": "SSVC",
+      "continuityAssessment": "No continuity or whole-local-day certainty is inferred from this association.",
+      "evidenceType": "indirect",
+      "factIds": [
+        "conquista-current"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "conquista-new",
+      "validFrom": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-luanda-new-iata-nbj",
+      "boundaryAssessment": "Only a former/undated physical-code association is supported. A historical label or a surviving announcement does not establish active allocation on its publication or download date. All time bounds remain unknown; no certain query day is proposed.",
+      "certaintyPolicy": "association_only",
+      "code": "NBJ",
+      "continuityAssessment": "No continuity or whole-local-day certainty is inferred from this association.",
+      "evidenceType": "indirect",
+      "factIds": [
+        "luanda-nbj"
+      ],
+      "scheme": "IATA",
+      "siteKey": "luanda-new",
+      "validFrom": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-vandon-iata-vdo",
+      "boundaryAssessment": "One historical carrier observation on 2019-10-04 only; unknown initial allocation and final withdrawal remain open. Access in 2026 is not code-validity evidence. One instantaneous/day-bounded observation does not establish a whole local date; latest possible start can follow earliest possible end, so the certain interval is empty. Outer allocation/withdrawal bounds remain unknown.",
+      "certaintyPolicy": "observation_only",
+      "code": "VDO",
+      "continuityAssessment": "Single observation only; no interpolation or resolved whole-local-day coverage is claimed.",
+      "evidenceType": "indirect",
+      "factIds": [
+        "vandon-2019"
+      ],
+      "scheme": "IATA",
+      "siteKey": "vandon",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2019-10-05",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2019-10-04",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-rajkot-new-iata-hsr",
+      "boundaryAssessment": "Current carrier airport-guide association only; AIP navaid HSR is not used as IATA evidence. One instantaneous/day-bounded observation does not establish a whole local date; latest possible start can follow earliest possible end, so the certain interval is empty. Outer allocation/withdrawal bounds remain unknown.",
+      "certaintyPolicy": "observation_only",
+      "code": "HSR",
+      "continuityAssessment": "Single observation only; no interpolation or resolved whole-local-day coverage is claimed.",
+      "evidenceType": "indirect",
+      "factIds": [
+        "rajkot-hsr-airline",
+        "rajkot-aip"
+      ],
+      "scheme": "IATA",
+      "siteKey": "rajkot-new",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2026-10-30",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-29",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-qaqortoq-new-icao-bgqo",
+      "boundaryAssessment": "Only dated AIP or current carrier observation proposed. Exact allocation and former heliport code withdrawal unknown. One instantaneous/day-bounded observation does not establish a whole local date; latest possible start can follow earliest possible end, so the certain interval is empty. Outer allocation/withdrawal bounds remain unknown.",
+      "certaintyPolicy": "observation_only",
+      "code": "BGQO",
+      "continuityAssessment": "Single observation only; no interpolation or resolved whole-local-day coverage is claimed.",
+      "evidenceType": "primary_direct",
+      "factIds": [
+        "qaqortoq-aip"
+      ],
+      "scheme": "ICAO",
+      "siteKey": "qaqortoq-new",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2026-04-17",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-04-16",
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "assignmentId": "global-proposal-qaqortoq-new-iata-jju",
+      "boundaryAssessment": "Only dated AIP or current carrier observation proposed. Exact allocation and former heliport code withdrawal unknown. One instantaneous/day-bounded observation does not establish a whole local date; latest possible start can follow earliest possible end, so the certain interval is empty. Outer allocation/withdrawal bounds remain unknown.",
+      "certaintyPolicy": "observation_only",
+      "code": "JJU",
+      "continuityAssessment": "Single observation only; no interpolation or resolved whole-local-day coverage is claimed.",
+      "evidenceType": "indirect",
+      "factIds": [
+        "qaqortoq-jju",
+        "qaqortoq-aip"
+      ],
+      "scheme": "IATA",
+      "siteKey": "qaqortoq-new",
+      "validFrom": {
+        "earliest": null,
+        "latest": "2026-10-30",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-29",
+        "latest": null,
+        "precision": "unknown"
+      }
+    }
+  ],
+  "baseCommit": "9a22e059eb997d8195450b48f1f9b794550f2b28",
+  "cases": [
+    {
+      "caseKey": "sindhudurg",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "IN",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2021-01-01",
+        "latest": "2022-01-01",
+        "precision": "year"
+      },
+      "eventGroupId": "dup_3ba8285a7a6ad98d019277ca",
+      "factIds": [
+        "sindhudurg-aip-2024",
+        "sindhudurg-aip-2026",
+        "india-six-years"
+      ],
+      "gaps": [],
+      "labelZh": "印度辛杜杜尔格机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow. ",
+      "recommendApproval": true,
+      "relatedGroupIds": [
+        "dup_a6aa458895bc909e53d24067",
+        "lead_cb464aab9d5caa06014d1d0b"
+      ],
+      "reviewSummaryZh": "两期印度 AIP 将 VOSR 绑定到同一场址，拟议确定覆盖为 2024-02-23 至 2026-07-09（后端不含，排除首次观察日）。运营年份为 2021 年；没有把该年份当作 ICAO 首次分配日期，也不提议 IATA 区间。",
+      "siteKeys": [
+        "sindhudurg"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "new_passenger_airport",
+        "icao_observation"
+      ]
+    },
+    {
+      "caseKey": "kalaburagi",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "IN",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2019-01-01",
+        "latest": "2020-01-01",
+        "precision": "year"
+      },
+      "eventGroupId": "dup_27ed2ac1e6d76646da47e39c",
+      "factIds": [
+        "kalaburagi-aip-2024",
+        "kalaburagi-aip-2026",
+        "india-six-years"
+      ],
+      "gaps": [],
+      "labelZh": "印度卡拉布拉吉机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow. ",
+      "recommendApproval": true,
+      "relatedGroupIds": [],
+      "reviewSummaryZh": "2019 年投入使用与 2024、2026 两期 VOGB/场址观察分别取证。可审核有限 ICAO 连续性区间；首次分配、最终撤销及 IATA 历史仍未知。",
+      "siteKeys": [
+        "kalaburagi"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "new_passenger_airport",
+        "icao_observation"
+      ]
+    },
+    {
+      "caseKey": "kurnool",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "IN",
+      "eventDate": null,
+      "eventGroupId": "dup_aaf4adc6feec9f8fb9ff606e",
+      "factIds": [
+        "kurnool-aip-2024",
+        "kurnool-aip-2026",
+        "india-six-years"
+      ],
+      "gaps": [
+        "Government 2025 summary says 2020; contemporary 2021 statement says 2021. Opening chronology unresolved; ICAO observation window does not depend on either year."
+      ],
+      "labelZh": "印度库尔努尔机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Government 2025 summary says 2020; contemporary 2021 statement says 2021. Opening chronology unresolved; ICAO observation window does not depend on either year.",
+      "recommendApproval": false,
+      "relatedGroupIds": [],
+      "reviewSummaryZh": "两期 AIP 支持 VOKU 在同一场址的观察区间。政府材料分别称 2020 年、2021 年启用，冲突未消除，事件年份保持未知；不得据此补写首航或代码启用日期。",
+      "siteKeys": [
+        "kurnool"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "new_passenger_airport",
+        "icao_observation"
+      ]
+    },
+    {
+      "caseKey": "kushinagar",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "IN",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2021-01-01",
+        "latest": "2022-01-01",
+        "precision": "year"
+      },
+      "eventGroupId": "dup_4d24e77865400b9c4c92c1cc",
+      "factIds": [
+        "kushinagar-aip-2024",
+        "kushinagar-aip-2026",
+        "india-six-years"
+      ],
+      "gaps": [],
+      "labelZh": "印度拘尸那迦机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow. ",
+      "recommendApproval": true,
+      "relatedGroupIds": [],
+      "reviewSummaryZh": "政府材料记载 2021 年投用；两期 AIP 支持 VEKI 的同址观察及有限连续性推断。提案没有 IATA 记录，也不认定首次分配日期。",
+      "siteKeys": [
+        "kushinagar"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "new_passenger_airport",
+        "icao_observation"
+      ]
+    },
+    {
+      "caseKey": "pakyong",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "IN",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2018-01-01",
+        "latest": "2019-01-01",
+        "precision": "year"
+      },
+      "eventGroupId": "dup_5f5ccdfccdad5394bef22d11",
+      "factIds": [
+        "pakyong-aip-2024",
+        "pakyong-aip-2026",
+        "india-six-years"
+      ],
+      "gaps": [],
+      "labelZh": "印度帕克扬机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow. ",
+      "recommendApproval": true,
+      "relatedGroupIds": [
+        "lead_d8b054a349b7484380d227c3"
+      ],
+      "reviewSummaryZh": "2018 年投用与 2024、2026 年 VEPY/场址观察分开记录。建议审核明确的 ICAO 观察窗口，保留首次分配和最终撤销的开放边界。",
+      "siteKeys": [
+        "pakyong"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "new_passenger_airport",
+        "icao_observation"
+      ]
+    },
+    {
+      "caseKey": "hollongi",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "IN",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2022-01-01",
+        "latest": "2023-01-01",
+        "precision": "year"
+      },
+      "eventGroupId": "dup_ca9f4a58bb8040253eee0b3f",
+      "factIds": [
+        "hollongi-aip-2024",
+        "hollongi-aip-2026",
+        "india-project-years",
+        "hollongi-administrative",
+        "hollongi-administrative"
+      ],
+      "gaps": [],
+      "labelZh": "印度伊塔那噶霍隆吉机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow. ",
+      "recommendApproval": true,
+      "relatedGroupIds": [
+        "lead_7a9becf7d09ba934a84c5bfd",
+        "lead_baab38328d5fd2fdc40d7f44"
+      ],
+      "reviewSummaryZh": "AIP Supplement 的机场资料于 2022-11-03 生效；该日早于实际客运投用，不充当首航日期。VEHO 跨后续两期 AIP 的连续性须由用户审核，IATA 尚未提议。",
+      "siteKeys": [
+        "hollongi"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "new_passenger_airport",
+        "icao_observation"
+      ]
+    },
+    {
+      "caseKey": "mopa",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "IN",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2023-01-01",
+        "latest": "2024-01-01",
+        "precision": "year"
+      },
+      "eventGroupId": "dup_942a281df9b970b2819543e4",
+      "factIds": [
+        "mopa-aip-2024",
+        "mopa-aip-2026",
+        "india-project-years"
+      ],
+      "gaps": [],
+      "labelZh": "印度果阿莫帕机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow. ",
+      "recommendApproval": true,
+      "relatedGroupIds": [
+        "lead_0f0cfa6d30d7ff3ac9151d51",
+        "lead_4e064bcbd6c631f1c8a1f0f6",
+        "lead_50f6ce8910aca25acff09b23",
+        "lead_b48d576991169d695da0ff6c",
+        "lead_c35e40fd535a3d2c5fd3c990"
+      ],
+      "reviewSummaryZh": "政府回顾记载 2023 年投入使用；两期 AIP 支持 VOGA 在莫帕场址的有限历史窗口。没有将 Dabolim 的 VOGO 误用为本机场代码，也没有提议 GOX 的首次分配。",
+      "siteKeys": [
+        "mopa"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "new_passenger_airport",
+        "icao_observation"
+      ]
+    },
+    {
+      "caseKey": "shirdi",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "IN",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2017-01-01",
+        "latest": "2018-01-01",
+        "precision": "year"
+      },
+      "eventGroupId": "lead_073d99a3bc0822b3033e57a6",
+      "factIds": [
+        "shirdi-aip-2024",
+        "shirdi-aip-2026",
+        "india-project-years"
+      ],
+      "gaps": [],
+      "labelZh": "印度舍尔第机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow. ",
+      "recommendApproval": true,
+      "relatedGroupIds": [
+        "lead_34d3098879dadd830e0dbcdf",
+        "lead_c5b4e31bcdf1c15e1747332a"
+      ],
+      "reviewSummaryZh": "政府材料记载 2017 年投用；VASD 的场址和代码由 2024、2026 两期 AIP 直接观察。仅建议审核该代码观察窗口及场址，不补写未知的首次分配。",
+      "siteKeys": [
+        "shirdi"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "new_passenger_airport",
+        "icao_observation"
+      ]
+    },
+    {
+      "caseKey": "kannur",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "IN",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2018-01-01",
+        "latest": "2019-01-01",
+        "precision": "year"
+      },
+      "eventGroupId": "dup_f3cca06c8be552129785bb71",
+      "factIds": [
+        "kannur-aip-2024",
+        "kannur-aip-2026",
+        "india-project-years"
+      ],
+      "gaps": [],
+      "labelZh": "印度坎努尔机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow. ",
+      "recommendApproval": true,
+      "relatedGroupIds": [],
+      "reviewSummaryZh": "2018 年投用与 VOKN 的 2024、2026 年代码资料分别取证。建议审核 ICAO 有限连续性；未凭名称或三字字符串推定 CNN 的 IATA 历史。",
+      "siteKeys": [
+        "kannur"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "new_passenger_airport",
+        "icao_observation"
+      ]
+    },
+    {
+      "caseKey": "durgapur",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "IN",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2015-01-01",
+        "latest": "2016-01-01",
+        "precision": "year"
+      },
+      "eventGroupId": "dup_12716465e601092315719dae",
+      "factIds": [
+        "durgapur-aip-2024",
+        "durgapur-aip-2026",
+        "india-project-years"
+      ],
+      "gaps": [],
+      "labelZh": "印度杜尔加布尔机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow. ",
+      "recommendApproval": true,
+      "relatedGroupIds": [],
+      "reviewSummaryZh": "政府回顾给出 2015 年投用；VEDG 的历史提案只覆盖两期 AIP 所支持的后续窗口。2015 年没有获得的代码分配资料仍缺失。",
+      "siteKeys": [
+        "durgapur"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "new_passenger_airport",
+        "icao_observation"
+      ]
+    },
+    {
+      "caseKey": "rajkot",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "IN",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2023-09-10",
+        "latest": "2023-09-10",
+        "precision": "exact"
+      },
+      "eventGroupId": "dup_624f8766f03f82889ff9f300",
+      "factIds": [
+        "rajkot-actual",
+        "rajkot-aip",
+        "rajkot-hsr-airline"
+      ],
+      "gaps": [
+        "Old RAJ and historical HSR allocation/withdrawal boundaries remain missing; current HSR is only one observation."
+      ],
+      "labelZh": "印度拉杰果德旧新机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Old RAJ and new HSR allocation evidence not acquired; HSR navaid in AIP is not IATA proof.",
+      "recommendApproval": false,
+      "relatedGroupIds": [],
+      "reviewSummaryZh": "运营商原件明确首班实际抵达为 2023-09-10，区别于 7 月落成典礼。新场址 VAHS 来自 AIP，HSR 来自印度航空机场指南；没有把同名导航台 HSR 冒充 IATA 证据。旧 RAJ 的撤销及 HSR 的历史启用边界仍缺失。",
+      "siteKeys": [
+        "rajkot-new"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "replacement",
+        "iata_change"
+      ]
+    },
+    {
+      "caseKey": "siemreap",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "KH",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2023-10-16",
+        "latest": "2023-10-16",
+        "precision": "exact"
+      },
+      "eventGroupId": "dup_8e1937b05ea9c66c753584f4",
+      "factIds": [
+        "sai-executed",
+        "sai-carrier-plan"
+      ],
+      "gaps": [
+        "Exact REP withdrawal and SAI first allocation missing; original ARP evidence needed for physical admissions."
+      ],
+      "labelZh": "柬埔寨暹粒旧机场与吴哥新机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Exact REP withdrawal and SAI first allocation missing; original ARP evidence needed for physical admissions.",
+      "recommendApproval": false,
+      "relatedGroupIds": [],
+      "reviewSummaryZh": "越南航空回顾确认 2023-10-16 已实施迁场，并明确列出旧 REP、新 SAI。REP 没有可确定的分配区间，不能填补撤销日；SAI 仅有有限日期观察。新旧场址的正式坐标原件仍需补证，暂不建议直接入库。",
+      "siteKeys": [
+        "siemreap-new",
+        "siemreap-old"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "replacement",
+        "iata_change"
+      ]
+    },
+    {
+      "caseKey": "bicol",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "PH",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2022-12-15",
+        "latest": "2022-12-15",
+        "precision": "exact"
+      },
+      "eventGroupId": "dup_df44261fa203882d88de5e74",
+      "factIds": [
+        "bicol-code-switch",
+        "bicol-current"
+      ],
+      "gaps": [
+        "Primary physical ARP still needed. The 2021 LGP transfer from the former Legazpi site is not adjudicated here."
+      ],
+      "labelZh": "菲律宾比科尔机场同址代码变更",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Primary physical ARP still needed. The 2021 LGP transfer from the former Legazpi site is not adjudicated here.",
+      "recommendApproval": false,
+      "relatedGroupIds": [
+        "lead_184ed3cf58bd168c2c4a5f97",
+        "lead_8d1e4a46f47122298bc5a2a0"
+      ],
+      "reviewSummaryZh": "菲律宾航空原始 PDF 明确追述 2022-12-15 从 LGP 改用 DRP，物理身份仍为比科尔机场。该承运人的实施日不自动等于全球 IATA 首次分配或最终撤销日，因此两端未知边界均保留。尚缺用于物理记录入库的原始基准点资料。",
+      "siteKeys": [
+        "bicol"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "same_site_iata_change"
+      ]
+    },
+    {
+      "caseKey": "bohol",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "PH",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2018-11-28",
+        "latest": "2018-11-28",
+        "precision": "exact"
+      },
+      "eventGroupId": "dup_26471c61633056160d41e4e7",
+      "factIds": [
+        "bohol-actual",
+        "bohol-tag",
+        "bohol-schedule",
+        "bohol-physical-point"
+      ],
+      "gaps": [
+        "Old-site TAG allocation/withdrawal not established; do not claim complete P0 transfer chronology."
+      ],
+      "labelZh": "菲律宾塔比拉兰与薄荷邦劳",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Old-site TAG allocation/withdrawal not established: do not claim P0 transfer completion. Primary ARP for new physical record missing; the old site remains a reference hypothesis.",
+      "recommendApproval": true,
+      "relatedGroupIds": [],
+      "reviewSummaryZh": "CAAP 回顾确认新机场于 2018-11-28 投用并替代旧机场，另有新场址坐标与 TAG 观察。2025 年报告中的航班表实际截至 2024 年 11 月。可审核新场址及有限 TAG 窗口；旧场址 TAG 的撤销与完整迁码链仍未证实。",
+      "siteKeys": [
+        "bohol-new"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "replacement",
+        "iata_reuse_lead"
+      ]
+    },
+    {
+      "caseKey": "chaiten",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "CL",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2015-01-01",
+        "latest": "2015-02-01",
+        "precision": "month"
+      },
+      "eventGroupId": "dup_5a7cd2e2b25144398b24d06f",
+      "factIds": [
+        "chaiten-operation",
+        "chaiten-arp"
+      ],
+      "gaps": [
+        "Old SCTN/WCH transfer timing remains unknown; current observation does not cover 2015-2025."
+      ],
+      "labelZh": "智利新柴滕机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Old SCTN/WCH transfer timing remains unknown; current observation does not cover 2015-2025.",
+      "recommendApproval": true,
+      "relatedGroupIds": [],
+      "reviewSummaryZh": "官方工程资料确认落成后开始运行，但不能把网页发布日期 2015-01-29 直接当作启用日。当前 DGAC 原件明确 SCTN/WCH 与新场址坐标；只提议取得时的代码观察，不外推 2015—2025 年分配。",
+      "siteKeys": [
+        "chaiten-new"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "replacement",
+        "iata_reuse_lead"
+      ]
+    },
+    {
+      "caseKey": "murcia",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "ES",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2019-01-15",
+        "latest": "2019-01-15",
+        "precision": "exact"
+      },
+      "eventGroupId": "dup_5c819a661040eb0011dc6f88",
+      "factIds": [
+        "murcia-replacement",
+        "murcia-new-arp",
+        "murcia-old-arp",
+        "murcia-aena-first-arrival",
+        "murcia-aena-retrospective"
+      ],
+      "gaps": [
+        "IATA windows remain one parliamentary publication observation; no direct allocation ledger is acquired."
+      ],
+      "labelZh": "西班牙穆尔西亚旧新机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: IATA windows are one publication observation only; no direct allocation ledger or independent executed opening notice is acquired.",
+      "recommendApproval": true,
+      "relatedGroupIds": [
+        "dup_cbc54082c6a4a8c6559951d4"
+      ],
+      "reviewSummaryZh": "Aena 当日首航原件和后续运营回顾，独立补强议会材料所称的 2019-01-15 民航转移。ENAIRE AIP 分别确认 LEMI、LELC 场址；旧场军用身份未被抹除。IATA RMU/MJV 的首次分配与撤销仍没有直接台账。 旧 MJV 仅为被追述的历史关联，没有确定的代码有效日。",
+      "siteKeys": [
+        "murcia-new",
+        "murcia-old"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "civil_replacement",
+        "distinct_iata_codes"
+      ]
+    },
+    {
+      "caseKey": "ramon",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "IL",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2019-03-18",
+        "latest": "2019-03-18",
+        "precision": "exact"
+      },
+      "eventGroupId": "dup_81055b5354a2d55b7d396d95",
+      "factIds": [
+        "ramon-eilat-actual",
+        "ramon-icao-year",
+        "ramon-etm"
+      ],
+      "gaps": [
+        "Physical ARP and dated ongoing LLER observations missing; 2016 administrative approval is not a 2019 opening boundary."
+      ],
+      "labelZh": "以色列埃拉特与拉蒙机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Physical ARP and dated ongoing LLER observations missing; 2016 administrative approval is not a 2019 opening boundary.",
+      "recommendApproval": false,
+      "relatedGroupIds": [
+        "lead_2199862c95ff299eadf248e2",
+        "lead_c20f5d3441ad2d3859fea954"
+      ],
+      "reviewSummaryZh": "运营商明确埃拉特民航于 2019-03-18 迁往拉蒙。LLER 的申请获接受年份为 2016 年，不能等同 2019 年机场开放，也不能据此填写首次分配下界；其代码提案没有确定日覆盖。ETM 只有 2019-04-18 政府文件观察，尚缺物理基准点原件。",
+      "siteKeys": [
+        "ramon"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "civil_replacement",
+        "icao_allocation"
+      ]
+    },
+    {
+      "caseKey": "fagalii",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "WS",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2023-04-01",
+        "latest": "2023-07-01",
+        "precision": "unknown"
+      },
+      "eventGroupId": "dup_1a70fde51637a2889413a962",
+      "factIds": [
+        "fagalii-quarter",
+        "fagalii-history",
+        "fagalii-code"
+      ],
+      "gaps": [
+        "Primary physical ARP and historical FGI observations during closure/reopening are missing."
+      ],
+      "labelZh": "萨摩亚法加利伊机场重开",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Primary physical ARP and historical FGI observations during closure/reopening are missing.",
+      "recommendApproval": false,
+      "relatedGroupIds": [
+        "lead_5894e8bb4f4a5b4f20ce2555",
+        "lead_d095bfb87e6b118dc0c74085"
+      ],
+      "reviewSummaryZh": "政府季度报告确认 2023 年 4—6 月已经重开，运营商回顾也记载 2023 年。没有把新闻中的 5 月 29 日擅自写成实际重开日。FGI 仅有当前航空公司观察；关闭期间的代码历史和场址基准点仍待补证。",
+      "siteKeys": [
+        "fagalii"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "reopening_same_site"
+      ]
+    },
+    {
+      "caseKey": "ndola",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "ZM",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2021-01-01",
+        "latest": "2022-01-01",
+        "precision": "year"
+      },
+      "eventGroupId": "lead_3e35698d318c89fda875e9b9",
+      "factIds": [
+        "ndola-october",
+        "ndola-august",
+        "ndola-codes"
+      ],
+      "gaps": [
+        "August 7 vs October 7 source chronology unresolved; NLA transfer boundary and primary ARP missing."
+      ],
+      "labelZh": "赞比亚恩多拉新机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: August 7 vs October 7 source chronology unresolved; NLA transfer boundary and primary ARP missing.",
+      "recommendApproval": false,
+      "relatedGroupIds": [
+        "lead_761a07c740b57d04a77b98f9"
+      ],
+      "reviewSummaryZh": "同一运营商分别称 2021-08-07 开放、2021-10-07 全面运行；是否为不同阶段仍未解决。当前 FLSK/NLA 仅绑定新场址，不证明旧场址 NLA 的撤销日。不得用这两条相互有差异的日期填出精确迁码区间。",
+      "siteKeys": [
+        "ndola-new"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "replacement",
+        "iata_reuse_lead",
+        "icao_change"
+      ]
+    },
+    {
+      "caseKey": "conquista",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "BR",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2019-01-01",
+        "latest": "2020-01-01",
+        "precision": "year"
+      },
+      "eventGroupId": "dup_0a28b8ccfb836c3a839e80a9",
+      "factIds": [
+        "conquista-current",
+        "conquista-arp",
+        "conquista-ceremony"
+      ],
+      "gaps": [
+        "VDC historical transfer and SSVC change dates missing. Ceremony day is not flight commencement."
+      ],
+      "labelZh": "巴西维多利亚-达孔基斯塔新机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: VDC historical transfer and SSVC change dates missing. Ceremony day is not flight commencement.",
+      "recommendApproval": true,
+      "relatedGroupIds": [],
+      "reviewSummaryZh": "DECEA 原件明确新场址现用 SBVC、以前为 SSVC，并提供位置；SSVC 与旧物理机场的 SBQV 不得混淆。7 月 23 日是典礼报告日期，不充当实际首航日。VDC 转移及 SSVC 变更日期均仍缺失。",
+      "siteKeys": [
+        "conquista-new"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "replacement",
+        "same_site_icao_change"
+      ]
+    },
+    {
+      "caseKey": "luanda",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "AO",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2024-11-01",
+        "latest": "2024-12-01",
+        "precision": "month"
+      },
+      "eventGroupId": "dup_0e7d222af5b1795b13b92611",
+      "factIds": [
+        "luanda-transfer",
+        "luanda-nbj",
+        "luanda-actual-month"
+      ],
+      "gaps": [
+        "Primary ARP and historical NBJ allocation window missing; no LAD withdrawal/whole-airport closure asserted."
+      ],
+      "labelZh": "安哥拉罗安达新机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Primary ARP and historical NBJ allocation window missing; no LAD withdrawal/whole-airport closure asserted.",
+      "recommendApproval": false,
+      "relatedGroupIds": [
+        "lead_0b07003691e9f68fc03abb6f",
+        "lead_6df4752c3e7cb5d9a466e01c"
+      ],
+      "reviewSummaryZh": "承运人回顾将新机场客运开始记为 2024 年 11 月，另有 2025-10-19 本公司国际航班转移公告。NBJ 只获历史公告中的机场关联，公告日期及分配日期未定，不能用下载日填出有效区间；不认定旧机场整体关闭。",
+      "siteKeys": [
+        "luanda-new"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "phased_civil_replacement",
+        "distinct_iata_codes"
+      ]
+    },
+    {
+      "caseKey": "vandon",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "VN",
+      "eventDate": null,
+      "eventGroupId": "dup_44b63427479f86367ae4280f",
+      "factIds": [
+        "vandon-launch",
+        "vandon-2019"
+      ],
+      "gaps": [
+        "Publication date for VDO observation and physical ARP missing. No code validity is inferred from the download date."
+      ],
+      "labelZh": "越南云屯机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Publication date for VDO observation and physical ARP missing. No code validity is inferred from the download date.",
+      "recommendApproval": false,
+      "relatedGroupIds": [],
+      "reviewSummaryZh": "2018 年材料是计划于 12 月 30 日开航的公告，不能当作已执行证明。VDO 的可用历史观察来自正文标注 2019-10-04 的承运人回顾，提案只覆盖该单次观察；物理基准点及首次分配仍缺失。",
+      "siteKeys": [
+        "vandon"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "new_passenger_airport"
+      ]
+    },
+    {
+      "caseKey": "ankang",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "CN",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2020-09-25",
+        "latest": "2020-09-25",
+        "precision": "exact"
+      },
+      "eventGroupId": "dup_84c2ef50c5668b5f0c74ba09",
+      "factIds": [
+        "ankang-actual"
+      ],
+      "gaps": [
+        "AKA/ZLAK dated code history missing; local government page credits Ankang Daily, not a separate regulator confirmation."
+      ],
+      "labelZh": "中国安康富强机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: AKA/ZLAK dated code history missing; local government page credits Ankang Daily, not a separate regulator confirmation.",
+      "recommendApproval": false,
+      "relatedGroupIds": [
+        "lead_f1ee65d9f84e83c7a9d7783f"
+      ],
+      "reviewSummaryZh": "政府网页正文记载 2020-09-25 实际航班抵达，网页同时署明来源为安康日报，不能冒称另一份独立监管确认。AKA/ZLAK 历史分配仍缺失，未增加孤立的物理机场。",
+      "siteKeys": [],
+      "status": "facts_assessed",
+      "types": [
+        "replacement"
+      ]
+    },
+    {
+      "caseKey": "yanan",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "CN",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2018-11-08",
+        "latest": "2018-11-08",
+        "precision": "exact"
+      },
+      "eventGroupId": "dup_6dfe772c13ba3e3b0cddc719",
+      "factIds": [
+        "yanan-actual"
+      ],
+      "gaps": [
+        "ENY/ZLYA allocation/transfer intervals missing."
+      ],
+      "labelZh": "中国延安南泥湾机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: ENY/ZLYA allocation/transfer intervals missing.",
+      "recommendApproval": false,
+      "relatedGroupIds": [],
+      "reviewSummaryZh": "民航局回顾明确 2018-11-08 已投运。ENY/ZLYA 的旧新场址分配时间链未取得，不使用目录坐标或更名来自动合并两个场址。",
+      "siteKeys": [],
+      "status": "facts_assessed",
+      "types": [
+        "replacement"
+      ]
+    },
+    {
+      "caseKey": "dazhou",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "CN",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2022-01-01",
+        "latest": "2023-01-01",
+        "precision": "year"
+      },
+      "eventGroupId": "dup_76f998b11ae2c83bda9649d2",
+      "factIds": [
+        "dazhou-notice"
+      ],
+      "gaps": [
+        "CAAC report confirms year of relocation but extraction interleaves columns; precise dated execution, site ARP and code intervals require review."
+      ],
+      "labelZh": "中国达州河市与金垭机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: CAAC report confirms year of relocation but extraction interleaves columns; precise dated execution, site ARP and code intervals require review.",
+      "recommendApproval": false,
+      "relatedGroupIds": [],
+      "reviewSummaryZh": "川航原件明确 DAX/DZH 和拟于 2022-05-19 转场；它是事前通知。监管报告只独立确认迁场年份，且提取存在分栏交错，不能据此杜撰实际执行日或精确代码区间。",
+      "siteKeys": [],
+      "status": "blocked",
+      "types": [
+        "replacement"
+      ]
+    },
+    {
+      "caseKey": "yogyakarta",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "ID",
+      "eventDate": {
+        "basis": "announced",
+        "earliest": "2020-03-29",
+        "latest": "2020-03-29",
+        "precision": "exact"
+      },
+      "eventGroupId": "dup_cabf0b20245e8bbfd3c5d173",
+      "factIds": [
+        "yogyakarta-plan"
+      ],
+      "gaps": [
+        "Executed transfer confirmation and code/site ARP history missing; ministry original returned a rejection page."
+      ],
+      "labelZh": "印度尼西亚日惹 JOG 与 YIA",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Executed transfer confirmation and code/site ARP history missing; ministry original returned a rejection page.",
+      "recommendApproval": false,
+      "relatedGroupIds": [],
+      "reviewSummaryZh": "亚航原件是本公司拟于 2020-03-29 转移的事前通知，不证明旧机场全部关闭。主管部门端点返回拒绝页，未计为原件成功；实际执行与历史代码边界仍阻塞。",
+      "siteKeys": [],
+      "status": "blocked",
+      "types": [
+        "replacement"
+      ]
+    },
+    {
+      "caseKey": "mendi",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "PG",
+      "eventDate": null,
+      "eventGroupId": "dup_b7eaf0a861dee4c11cc2d19c",
+      "factIds": [
+        "mendi-reopening"
+      ],
+      "gaps": [
+        "Exact reopening day and MDU/AYMN historical code evidence missing."
+      ],
+      "labelZh": "巴布亚新几内亚门迪机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Exact reopening day and MDU/AYMN historical code evidence missing.",
+      "recommendApproval": false,
+      "relatedGroupIds": [],
+      "reviewSummaryZh": "2024-05-08 政府材料追述机场自 2018 年停用并已重开。没有把该日典礼自动当成实际恢复运营日；MDU/AYMN 代码历史仍缺失。",
+      "siteKeys": [],
+      "status": "blocked",
+      "types": [
+        "closure",
+        "reopening_same_site"
+      ]
+    },
+    {
+      "caseKey": "narvik",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "NO",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2017-04-01",
+        "latest": "2017-04-01",
+        "precision": "exact"
+      },
+      "eventGroupId": "lead_7fd2d8cbe157e47f04be947e",
+      "factIds": [
+        "narvik-closure"
+      ],
+      "gaps": [
+        "NVK/ENNK allocation/withdrawal history missing; no isolated airport record proposed."
+      ],
+      "labelZh": "挪威纳尔维克机场关闭",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: NVK/ENNK allocation/withdrawal history missing; no isolated airport record proposed.",
+      "recommendApproval": false,
+      "relatedGroupIds": [
+        "lead_ee868157afefe69f1500459d"
+      ],
+      "reviewSummaryZh": "挪威利益相关方与 EUROCONTROL 的正式报告记载自 2017-04-01 永久关闭。NVK/ENNK 的分配和撤销日期仍没有原件台账，不为增加数量而提议孤立机场。",
+      "siteKeys": [],
+      "status": "facts_assessed",
+      "types": [
+        "closure"
+      ]
+    },
+    {
+      "caseKey": "pokhara",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "NP",
+      "eventDate": null,
+      "eventGroupId": "dup_8ecc1603c22edc267d9f28a6",
+      "factIds": [],
+      "gaps": [
+        "Both CAAN originals returned 503. PKR/PHH and VNPK/VNPR identity/code disagreement must be resolved from actual originals."
+      ],
+      "labelZh": "尼泊尔博卡拉旧新机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Both CAAN originals returned 503. PKR/PHH and VNPK/VNPR identity/code disagreement must be resolved from actual originals.",
+      "recommendApproval": false,
+      "relatedGroupIds": [
+        "dup_f03b2bac4e82e0ff61e99b94",
+        "lead_cd91b0b8e4dbdc1e2eabd452",
+        "lead_e089a6d319dbaf6799c26720"
+      ],
+      "reviewSummaryZh": "两份 CAAN 原件请求均返回 503。现有目录对 PKR/PHH 与新旧物理机场的关联相互矛盾，不能引用搜索摘要代替原件，也不能自动标为完成。",
+      "siteKeys": [],
+      "status": "blocked",
+      "types": [
+        "replacement"
+      ]
+    },
+    {
+      "caseKey": "mentawai",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "ID",
+      "eventDate": null,
+      "eventGroupId": "dup_6bde11a5ee3b5f4866df7f7a",
+      "factIds": [],
+      "gaps": [
+        "Transport Ministry returned HTTP-200 Request Rejected. RKI/RKO/WIEB/WIBR historical allocation evidence not acquired."
+      ],
+      "labelZh": "印度尼西亚明打威机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Transport Ministry returned HTTP-200 Request Rejected. RKI/RKO/WIEB/WIBR historical allocation evidence not acquired.",
+      "recommendApproval": false,
+      "relatedGroupIds": [
+        "lead_945bef84cc45d143e026e9d4",
+        "lead_b32b260fb83ce212e8c61032"
+      ],
+      "reviewSummaryZh": "主管部门返回 HTTP 200 的 Request Rejected 页面，已保留为失败响应。RKI/RKO、WIEB/WIBR 的原始代码历史尚未取得，事件时间保持未知。",
+      "siteKeys": [],
+      "status": "blocked",
+      "types": [
+        "replacement"
+      ]
+    },
+    {
+      "caseKey": "toraja",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "ID",
+      "eventDate": null,
+      "eventGroupId": "dup_36a29b005e10113a471dce29",
+      "factIds": [],
+      "gaps": [
+        "Transport Ministry returned HTTP-200 Request Rejected. TRT/TTR historical code and executed opening evidence not acquired."
+      ],
+      "labelZh": "印度尼西亚托拉查机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Transport Ministry returned HTTP-200 Request Rejected. TRT/TTR historical code and executed opening evidence not acquired.",
+      "recommendApproval": false,
+      "relatedGroupIds": [],
+      "reviewSummaryZh": "主管部门返回拒绝页，没有成功取得所请求的实际启用原件。TRT/TTR 及对应物理场址的历史仍需补证，未把摘要中的日期写成事实。",
+      "siteKeys": [],
+      "status": "blocked",
+      "types": [
+        "replacement"
+      ]
+    },
+    {
+      "caseKey": "ganja",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "AZ",
+      "eventDate": null,
+      "eventGroupId": "dup_47496e09f61eced88814e107",
+      "factIds": [],
+      "gaps": [
+        "Official operator acquisition failed HTTP 525. KVD/GNJ effective date is unknown."
+      ],
+      "labelZh": "阿塞拜疆占贾机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Official operator acquisition failed HTTP 525. KVD/GNJ effective date is unknown.",
+      "recommendApproval": false,
+      "relatedGroupIds": [
+        "dup_89a8afcd1ccb17d975148277",
+        "lead_fc544ea778fdfa2b8df0e0e6"
+      ],
+      "reviewSummaryZh": "官方运营商端点返回 525，未获得 KVD/GNJ 的权威生效资料。保持未知与阻塞，不以目录编辑日期认定代码变更日。",
+      "siteKeys": [],
+      "status": "blocked",
+      "types": [
+        "replacement"
+      ]
+    },
+    {
+      "caseKey": "xaixai",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "MZ",
+      "eventDate": null,
+      "eventGroupId": "dup_739799377348aa822601d221",
+      "factIds": [],
+      "gaps": [
+        "Operator endpoint returned airport-not-found maintenance page. VJB/FQXA old/new time bounds missing."
+      ],
+      "labelZh": "莫桑比克赛赛／琼戈内机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Operator endpoint returned airport-not-found maintenance page. VJB/FQXA old/new time bounds missing.",
+      "recommendApproval": false,
+      "relatedGroupIds": [
+        "dup_cae29fd6bd2f7ebc058797c1"
+      ],
+      "reviewSummaryZh": "运营商端点实际返回机场未找到及维护页面。未将其算作机场原件；VJB/FQXA 的旧新场址分配边界仍待获取。",
+      "siteKeys": [],
+      "status": "blocked",
+      "types": [
+        "replacement"
+      ]
+    },
+    {
+      "caseKey": "gwadar",
+      "claimFindings": {
+        "closureAndReplacement": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "PK",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2025-01-20",
+        "latest": "2025-01-20",
+        "precision": "exact"
+      },
+      "eventGroupId": "dup_f23f0a3e363272d919374cf2",
+      "factIds": [
+        "gwadar-operational-notam",
+        "gwadar-executed"
+      ],
+      "gaps": [
+        "GWD/OPGW allocation bounds and new-site ARP missing; NOTAM effectiveness is not IATA allocation."
+      ],
+      "labelZh": "巴基斯坦新瓜达尔机场",
+      "nextEvidence": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: NOTAM original acquired; OPGW operational effectiveness is not first IATA GWD allocation. AD2 endpoint returned 404; historical code ledger and ARP missing.",
+      "recommendApproval": false,
+      "relatedGroupIds": [
+        "lead_0f5e85f3cd4fa20d031da303",
+        "lead_13c76d025920a2e67aa1f14f",
+        "lead_4e8cee34782305f9f83a0055",
+        "lead_7bd4085cfde7c1cebcefc7ae"
+      ],
+      "reviewSummaryZh": "NOTAM 将运行生效记为 2025-01-20，政府广播机构当日报告另行确认已投入运行。两种日期含义分别保留；GWD/OPGW 的分配区间和新场址基准点尚未取得，暂不提议孤立场址。",
+      "siteKeys": [],
+      "status": "facts_assessed",
+      "types": [
+        "replacement"
+      ]
+    },
+    {
+      "caseKey": "qaqortoq",
+      "claimFindings": {
+        "closureAndReplacement": "Carrier retrospective confirms airport opened April 16. Former heliport JJU physical allocation chronology remains blocked; a city-code list is insufficient.",
+        "historicalBoundary": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+        "historicalNames": "Display labels only. No official-name interval is proposed in this batch.",
+        "iata": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+        "icao": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+        "physicalIdentity": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited."
+      },
+      "country": "GL",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2026-04-16",
+        "latest": "2026-04-16",
+        "precision": "exact"
+      },
+      "eventGroupId": "dup_03a9df1fa193f5e531470ae7",
+      "factIds": [
+        "qaqortoq-aip",
+        "qaqortoq-actual",
+        "qaqortoq-jju",
+        "qaqortoq-citycodes"
+      ],
+      "gaps": [
+        "Former heliport JJU allocation and withdrawal boundaries unknown; no exact IATA transfer established."
+      ],
+      "labelZh": "格陵兰卡科尔托克新机场",
+      "nextEvidence": "Review new physical/ICAO and current IATA observations; obtain historical airport-specific JJU allocation records for former heliport before claiming a resolved transfer chronology.",
+      "recommendApproval": true,
+      "relatedGroupIds": [],
+      "reviewSummaryZh": "Naviair AIP 确认 BGQO 与新场址，承运人回顾确认 2026-04-16 实际开放；JJU 仅有当前新机场观察。承运人的城市代码表不能证明旧直升机场的物理分配，旧 JJU 撤销日期仍未知。",
+      "siteKeys": [
+        "qaqortoq-new"
+      ],
+      "status": "proposal_pending",
+      "types": [
+        "heliport_replacement",
+        "iata_reuse_lead"
+      ]
+    }
+  ],
+  "decision": "pending",
+  "facts": [
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "india-project-years",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": null,
+      "quote": "Greenfield Airports Operationalised",
+      "sourceId": "in-greenfield-projects",
+      "supports": "Retrospective government operationalisation years; Kurnool 2020 conflicts with the 2021 contemporary statement."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "india-six-years",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2021-12-02",
+      "quote": "Kannur Airport in Kerala (2018), Pakyong Airport in Sikkim (2018), Kalaburagi Airport in Karnataka (2019), Kurnool Airport in Andhra Pradesh (2021), Sindhudurg Airport in Maliarashtra (2021) and Kushinagar Airport in Uttar Pradesh (2021).",
+      "sourceId": "in-greenfield-six-alternative",
+      "supports": "Contemporary government operationalisation years; no exact opening days or IATA history."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VOSR",
+          "scheme": "ICAO",
+          "siteKey": "sindhudurg"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "sindhudurg-aip-2024",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2024-02-22",
+      "quote": "Aerodrome reference point coordinates and its site 160012N 0733158E",
+      "sourceId": "in-aip-22-02-2024-vosr",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VOSR",
+          "scheme": "ICAO",
+          "siteKey": "sindhudurg"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "sindhudurg-aip-2026",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-07-09",
+      "quote": "Aerodrome reference point coordinates and its site 160012N 0733158E",
+      "sourceId": "in-aip-09-07-2026-vosr",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VOGB",
+          "scheme": "ICAO",
+          "siteKey": "kalaburagi"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "kalaburagi-aip-2024",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2024-02-22",
+      "quote": "Aerodrome reference point coordinates and its site 171835N 0765726E",
+      "sourceId": "in-aip-22-02-2024-vogb",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VOGB",
+          "scheme": "ICAO",
+          "siteKey": "kalaburagi"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "kalaburagi-aip-2026",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-07-09",
+      "quote": "Aerodrome reference point coordinates and its site 171835N 0765726E",
+      "sourceId": "in-aip-09-07-2026-vogb",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VOKU",
+          "scheme": "ICAO",
+          "siteKey": "kurnool"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "kurnool-aip-2024",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2024-02-22",
+      "quote": "Aerodrome reference point coordinates and its site 154253N 0780947E",
+      "sourceId": "in-aip-22-02-2024-voku",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VOKU",
+          "scheme": "ICAO",
+          "siteKey": "kurnool"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "kurnool-aip-2026",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-07-09",
+      "quote": "Aerodrome reference point coordinates and its site 154253N 0780947E",
+      "sourceId": "in-aip-09-07-2026-voku",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VEKI",
+          "scheme": "ICAO",
+          "siteKey": "kushinagar"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "kushinagar-aip-2024",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2024-02-22",
+      "quote": "Aerodrome reference point coordinates and its site 264622N 0835343E",
+      "sourceId": "in-aip-22-02-2024-veki",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VEKI",
+          "scheme": "ICAO",
+          "siteKey": "kushinagar"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "kushinagar-aip-2026",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-07-09",
+      "quote": "Aerodrome reference point coordinates and its site 264622N 0835343E",
+      "sourceId": "in-aip-09-07-2026-veki",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VEPY",
+          "scheme": "ICAO",
+          "siteKey": "pakyong"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "pakyong-aip-2024",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2024-02-22",
+      "quote": "Aerodrome reference point coordinates and its site 271333N 0883509E",
+      "sourceId": "in-aip-22-02-2024-vepy",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VEPY",
+          "scheme": "ICAO",
+          "siteKey": "pakyong"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "pakyong-aip-2026",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-07-09",
+      "quote": "Aerodrome reference point coordinates and its site 271333N 0883509E",
+      "sourceId": "in-aip-09-07-2026-vepy",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VEHO",
+          "scheme": "ICAO",
+          "siteKey": "hollongi"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "hollongi-aip-2024",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2024-02-22",
+      "quote": "Aerodrome reference point coordinates and its site 265811N 0933836E",
+      "sourceId": "in-aip-22-02-2024-veho",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VEHO",
+          "scheme": "ICAO",
+          "siteKey": "hollongi"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "hollongi-aip-2026",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-07-09",
+      "quote": "Aerodrome reference point coordinates and its site 265811N 0933836E",
+      "sourceId": "in-aip-09-07-2026-veho",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VEHO",
+          "scheme": "ICAO",
+          "siteKey": "hollongi"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "hollongi-administrative",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2022-11-03",
+      "quote": "[EFFECTIVE DATE: 03 NOV 2022] AERODROME DATA HOLLONGI AIRPORT, ITANAGAR (VEHO) AD 2. AERODROMES VEHO AD 2.1 AERODROME",
+      "sourceId": "in-hollongi-supplement",
+      "supports": "Aerodrome data effectiveness, not first flight; precedes later physical operations."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VOGA",
+          "scheme": "ICAO",
+          "siteKey": "mopa"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "mopa-aip-2024",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2024-02-22",
+      "quote": "Aerodrome reference point coordinates and its site 154433N 0735201E",
+      "sourceId": "in-aip-22-02-2024-voga",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VOGA",
+          "scheme": "ICAO",
+          "siteKey": "mopa"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "mopa-aip-2026",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-07-09",
+      "quote": "Aerodrome reference point coordinates and its site 154433N 0735201E",
+      "sourceId": "in-aip-09-07-2026-voga",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VASD",
+          "scheme": "ICAO",
+          "siteKey": "shirdi"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "shirdi-aip-2024",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2024-02-22",
+      "quote": "Aerodrome reference point coordinates and its site 194127N 0742218E",
+      "sourceId": "in-aip-22-02-2024-vasd",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VASD",
+          "scheme": "ICAO",
+          "siteKey": "shirdi"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "shirdi-aip-2026",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-07-09",
+      "quote": "Aerodrome reference point coordinates and its site 194127N 0742218E",
+      "sourceId": "in-aip-09-07-2026-vasd",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VOKN",
+          "scheme": "ICAO",
+          "siteKey": "kannur"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "kannur-aip-2024",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2024-02-22",
+      "quote": "Aerodrome reference point coordinates and its site 115457N 0753245E",
+      "sourceId": "in-aip-22-02-2024-vokn",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VOKN",
+          "scheme": "ICAO",
+          "siteKey": "kannur"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "kannur-aip-2026",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-07-09",
+      "quote": "Aerodrome reference point coordinates and its site 115457N 0753245E",
+      "sourceId": "in-aip-09-07-2026-vokn",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VEDG",
+          "scheme": "ICAO",
+          "siteKey": "durgapur"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "durgapur-aip-2024",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2024-02-22",
+      "quote": "Aerodrome reference point coordinates and its site 233728N 0871433E",
+      "sourceId": "in-aip-22-02-2024-vedg",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VEDG",
+          "scheme": "ICAO",
+          "siteKey": "durgapur"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "durgapur-aip-2026",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-07-09",
+      "quote": "Aerodrome reference point coordinates and its site 233728N 0871433E",
+      "sourceId": "in-aip-09-07-2026-vedg",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2023-09-10",
+        "latest": "2023-09-10",
+        "precision": "exact"
+      },
+      "factId": "rajkot-actual",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2023-09-11",
+      "quote": "Airport in Gujarat commenced on 10th September, 2023 with the arrival of the first flight from Indore.",
+      "sourceId": "in-rajkot-actual",
+      "supports": "Actual commencement on September 10, separate from July 27 inauguration."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VAHS",
+          "scheme": "ICAO",
+          "siteKey": "rajkot-new"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "rajkot-aip",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2024-02-22",
+      "quote": "Aerodrome reference point coordinates and its site 222318N 0710246E",
+      "sourceId": "in-rajkot-aip-2024",
+      "supports": "Official aerodrome indicator, named airport and ARP, effective edition observation; not first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "SAI",
+          "scheme": "IATA",
+          "siteKey": "siemreap-new"
+        },
+        {
+          "code": "REP",
+          "scheme": "IATA",
+          "siteKey": "siemreap-old"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2023-10-16",
+        "latest": "2023-10-16",
+        "precision": "exact"
+      },
+      "factId": "sai-executed",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2023-10-16",
+      "quote": "Cambodia Airports has announced that as of October 16 the new Siem Reap Angkor International Airport (IATA: SAI) has been operational in Siem Reap, having replaced the Angkor International Airport (IATA: REP).",
+      "sourceId": "kh-sai-vn",
+      "supports": "Executed replacement and explicitly typed IATA names; carrier attributes airport authority, so authority announcement is shared lineage."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "sai-carrier-plan",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2023-09-15",
+      "quote": "effective 16 October 2023.",
+      "sourceId": "kh-sai-airasia",
+      "supports": "AirAsia planned carrier operations; corroborates intended date but not execution independently."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "LGP",
+          "scheme": "IATA",
+          "siteKey": "bicol"
+        },
+        {
+          "code": "DRP",
+          "scheme": "IATA",
+          "siteKey": "bicol"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2022-12-15",
+        "latest": "2022-12-15",
+        "precision": "exact"
+      },
+      "factId": "bicol-code-switch",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2024-01-24",
+      "quote": "Effective 15 December 2022 - Airport code of Bicol International Airport changed from LGP (Legaspi) to DRP (Daraga)",
+      "sourceId": "ph-bicol-pal",
+      "supports": "Carrier explicitly dates same-airport commercial code change, independently of 2021 airport opening."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "DRP",
+          "scheme": "IATA",
+          "siteKey": "bicol"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "bicol-current",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-10-29",
+      "quote": "Popular PAL flight deals to Legazpi (Daraga) (DRP)!",
+      "sourceId": "ph-bicol-current",
+      "supports": "Current commercial code observation at retrieval only; advertised future flights do not prove executed operations."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2018-11-28",
+        "latest": "2018-11-28",
+        "precision": "exact"
+      },
+      "factId": "bohol-actual",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2024-08-31",
+      "quote": "opened on November 28, 2018, after long planning and three years of",
+      "sourceId": "ph-bohol-caap",
+      "supports": "CAAP retrospective executed new airport replacement date."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "TAG",
+          "scheme": "IATA",
+          "siteKey": "bohol-new"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "bohol-tag",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2024-08-31",
+      "quote": "Bohol-Panglao International Airport (TAG) was conceived to provide a",
+      "sourceId": "ph-bohol-caap",
+      "supports": "Explicit contemporary code/name association in August 2024 document; no first allocation inferred."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "bohol-schedule",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2024-11-01",
+      "quote": "Table 10. BOHOL PANGLAO INTERNATIONAL AIRPORT (BPIA) FLIGHT SCHEDULE (As of November 2024)",
+      "sourceId": "ph-bohol-tourism2025",
+      "supports": "Separate CAAP-derived scheduled-flight observation (not independent authority lineage). Use November 1 as conservative earliest end, not publication in 2025."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2015-01-01",
+        "latest": "2015-02-01",
+        "precision": "month"
+      },
+      "factId": "chaiten-operation",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2015-01-29",
+      "quote": "tras lo cual comenzó inmediatamente sus operaciones.",
+      "sourceId": "cl-chaiten-mop",
+      "supports": "Actual operations after inauguration; publication January 29 alone does not establish January 29 as the event day."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "SCTN",
+          "scheme": "ICAO",
+          "siteKey": "chaiten-new"
+        },
+        {
+          "code": "WCH",
+          "scheme": "IATA",
+          "siteKey": "chaiten-new"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "chaiten-arp",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-10-29",
+      "quote": "SCTN / WCH Home Nuevo Chaitén (PUB) Chaitén, X Región, Chile (42º 46' 55'' S, 72º 50' 06'' W)",
+      "sourceId": "cl-chaiten-aip",
+      "supports": "Official airport identity, ICAO and commercial IATA code observation with ARP at retrieval; no 2015 allocation date."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "RMU",
+          "scheme": "IATA",
+          "siteKey": "murcia-new"
+        },
+        {
+          "code": "MJV",
+          "scheme": "IATA",
+          "siteKey": "murcia-old"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2019-01-15",
+        "latest": "2019-01-15",
+        "precision": "exact"
+      },
+      "factId": "murcia-replacement",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2019-08-01",
+      "quote": "El aeropuerto internacional de la Región de Murcia (AIRM) (código IATA: RMU, código OACI: LEMI), que es conocido popularmente como «Aeropuerto de Corvera», abrió al tráfico comercial el 15 de enero de 2019, dando continuidad al tráfico civil que operaba en el aeropuerto de Murcia-San Javier (código IATA: MJV, código OACI: LELC), y que dejó de operar dichos servicios.",
+      "sourceId": "es-murcia-parliament",
+      "supports": "Parliamentary proponent statement, officially published: executed civil replacement and named codes; does not close military site or date allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "LEMI",
+          "scheme": "ICAO",
+          "siteKey": "murcia-new"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "murcia-new-arp",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-06-11",
+      "quote": "ARP 374811N 0010729W. See AD 2-LEMI ADC.",
+      "sourceId": "es-murcia-aip",
+      "supports": "Official named AIP location and ICAO indicator; effective page observation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "LELC",
+          "scheme": "ICAO",
+          "siteKey": "murcia-old"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "murcia-old-arp",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-04-16",
+      "quote": "ARP 374630N 0004845W. See AD 2-LELC ADC.",
+      "sourceId": "es-sanjavier-aip",
+      "supports": "Official named AIP location and ICAO indicator; effective page observation."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2019-03-18",
+        "latest": "2019-03-18",
+        "precision": "exact"
+      },
+      "factId": "ramon-eilat-actual",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-10-29",
+      "quote": "On March 18, 2019, about seventy years after the astablishment of the lone route in Eilat, its activity was stopped and moved to the new and impressive Ramon Airport.",
+      "sourceId": "il-ramon-operator",
+      "supports": "Executed Eilat civil transfer; separate physical sites."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "LLER",
+          "scheme": "ICAO",
+          "siteKey": "ramon"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "administrative",
+        "earliest": "2016-01-01",
+        "latest": "2017-01-01",
+        "precision": "year"
+      },
+      "factId": "ramon-icao-year",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2016-12-31",
+      "quote": "2016 The International Civil Aviation Organization ICAO accepts RTA's application for a Location Indicator for the Ilan and Assaf Ramon / Eilat LLER International Airport.",
+      "sourceId": "il-ramon-operator",
+      "supports": "ICAO assignment approval occurred in 2016, exact day not known."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "ETM",
+          "scheme": "IATA",
+          "siteKey": "ramon"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "ramon-etm",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2019-04-18",
+      "quote": "The current international airport serving Eilat is Ramon Airport (ETM), which starts operating in the beginning of 2019.",
+      "sourceId": "il-ramon-tourism",
+      "supports": "Government commercial airport designation ETM as of dated April 18 2019 directive; not exact start."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2023-04-01",
+        "latest": "2023-07-01",
+        "precision": "unknown"
+      },
+      "factId": "fagalii-quarter",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2023-06-30",
+      "quote": "The Fagalii Airport is now open for operation during the quarter under review.",
+      "sourceId": "ws-fagalii-government",
+      "supports": "Government April-June 2023 performance report confirms reopening within quarter only."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2023-01-01",
+        "latest": "2024-01-01",
+        "precision": "year"
+      },
+      "factId": "fagalii-history",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-10-29",
+      "quote": "2023 Fagalii Airport Reopening.",
+      "sourceId": "ws-fagalii-operator",
+      "supports": "Operator independently records reopening year, no exact date."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "FGI",
+          "scheme": "IATA",
+          "siteKey": "fagalii"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "fagalii-code",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-10-29",
+      "quote": "Operating from Faleolo Regional Terminal (APW) and Fagali‘i (FGI) Airport",
+      "sourceId": "ws-fagalii-airline",
+      "supports": "Carrier identifies current FGI at the reopened Fagalii site; no code activation or withdrawal date."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2021-10-07",
+        "latest": "2021-10-07",
+        "precision": "exact"
+      },
+      "factId": "ndola-october",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2021-10-15",
+      "quote": "the new Simon Mwansa Kapwepwe International Airport (SMKIA) located in Ndola, is fully operational as of Thursday 7th October 2021.",
+      "sourceId": "zm-ndola-actual",
+      "supports": "Operator confirms operational by October 7, old site no longer commercial; conflicts with history date."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2021-08-07",
+        "latest": "2021-08-07",
+        "precision": "exact"
+      },
+      "factId": "ndola-august",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-10-29",
+      "quote": "SMKIA was opened on 7th August 2021 after the re-location of operations from Ndola International Airport, now Zuze Air Base.",
+      "sourceId": "zm-ndola-history",
+      "supports": "Operator history dates opening August 7; does not resolve relationship to October full operation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "NLA",
+          "scheme": "IATA",
+          "siteKey": "ndola-new"
+        },
+        {
+          "code": "FLSK",
+          "scheme": "ICAO",
+          "siteKey": "ndola-new"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "ndola-codes",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-10-29",
+      "quote": "Simon Mwansa Kapwepwe International Airport ( SMKIA, FLSK) NLA, formerly Ndola International Airport (FLND),",
+      "sourceId": "zm-ndola-codes",
+      "supports": "Current named-site codes; old FLND is explicit, old-site IATA NLA not independently established."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "ceremony",
+        "earliest": "2019-07-23",
+        "latest": "2019-07-23",
+        "precision": "exact"
+      },
+      "factId": "conquista-ceremony",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2019-07-23",
+      "quote": "23 de julho de 2019",
+      "sourceId": "br-conquista-actual",
+      "supports": "Ceremony report date only. Does not prove first commercial flight or IATA VDC transfer."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "SBVC",
+          "scheme": "ICAO",
+          "siteKey": "conquista-new"
+        },
+        {
+          "code": "SSVC",
+          "scheme": "ICAO",
+          "siteKey": "conquista-new"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "conquista-current",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-10-29",
+      "quote": "Glauber de Andrade Rocha (SBVC) Vitória da Conquista/BA CIAD: BA0005 ICAO anterior: SSVC",
+      "sourceId": "br-conquista-ais",
+      "supports": "DECEA explicitly identifies current SBVC, former SSVC at the same site; no exact code-change date."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "SBVC",
+          "scheme": "ICAO",
+          "siteKey": "conquista-new"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "conquista-arp",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-10-29",
+      "quote": "14 54 28S/040 54 53W",
+      "sourceId": "br-conquista-ais",
+      "supports": "Official ROTAER physical reference point bound to Glauber de Andrade Rocha (SBVC)."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "announced",
+        "earliest": "2025-10-19",
+        "latest": "2025-10-19",
+        "precision": "exact"
+      },
+      "factId": "luanda-transfer",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-10-29",
+      "quote": "All international flights operated by TAAG Angola Airlines, S.A. will be handled at the new airport starting October 19, 2025.",
+      "sourceId": "ao-luanda-taag",
+      "supports": "Carrier-specific prospective international transfer, not all-airline closure or exact NBJ first allocation."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "NBJ",
+          "scheme": "IATA",
+          "siteKey": "luanda-new"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "luanda-nbj",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": null,
+      "quote": "DR. ANTÓNIO AGOSTINHO NETO INTERNATIONAL AIRPORT (NBJ-AIAAN)",
+      "sourceId": "ao-luanda-taag",
+      "supports": "NBJ is explicitly associated with the named new airport in a historical transfer announcement. Its precise publication day and active-allocation dates are unknown; the download date is not substituted."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2024-11-01",
+        "latest": "2024-12-01",
+        "precision": "month"
+      },
+      "factId": "luanda-actual-month",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2026-10-29",
+      "quote": "In November, passenger commercial operations at AIAAN began through TAAG’s Cabinda route, starting the gradual transfer of operations.",
+      "sourceId": "ao-luanda-history",
+      "supports": "Operator retrospective section 2024 dates passenger start to November 2024, distinct from 2023 cargo/inauguration."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "announced",
+        "earliest": "2018-12-30",
+        "latest": "2018-12-30",
+        "precision": "exact"
+      },
+      "factId": "vandon-launch",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2018-12-04",
+      "quote": "starting 30 December 2018.",
+      "sourceId": "vn-vandon-launch",
+      "supports": "Prospective carrier launch, not independently confirmed first operational day."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "VDO",
+          "scheme": "IATA",
+          "siteKey": "vandon"
+        }
+      ],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "vandon-2019",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2019-10-04",
+      "quote": "Van Don (VDO)",
+      "sourceId": "vn-vandon-retrospective",
+      "supports": "Carrier retrospective dated 4 October 2019 explicitly identifies Van Don VDO; no precise first allocation is inferred."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2020-09-25",
+        "latest": "2020-09-25",
+        "precision": "exact"
+      },
+      "factId": "ankang-actual",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2020-09-25",
+      "quote": "9月25日下午3时50分，从广州飞往安康的CZ5269航班顺利抵达，标志着历时五年建设的安康富强机场正式通航。",
+      "sourceId": "cn-ankang-government",
+      "supports": "Actual flight arrival September 25 2020; no code allocation evidence."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2018-11-08",
+        "latest": "2018-11-08",
+        "precision": "exact"
+      },
+      "factId": "yanan-actual",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2019-08-19",
+      "quote": "延安南泥湾新机场于2018年11月8日顺利投运",
+      "sourceId": "cn-yanan-confirmation",
+      "supports": "CAAC confirms executed operations on November 8 2018; no code allocation ledger."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "announced",
+        "earliest": "2022-05-19",
+        "latest": "2022-05-19",
+        "precision": "exact"
+      },
+      "factId": "dazhou-notice",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2022-05-07",
+      "quote": "2022年5月19日零时起，达州金垭机场（三字代码DZH）正式投入使用。川航原在达州河市机场（三字代码DAX）开通的所有航班将转至达州金垭机场运行。",
+      "sourceId": "cn-dazhou-airline",
+      "supports": "Prospective carrier move with DAX/DZH; does not by itself prove execution or IATA first allocation."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "announced",
+        "earliest": "2020-03-29",
+        "latest": "2020-03-29",
+        "precision": "exact"
+      },
+      "factId": "yogyakarta-plan",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2020-03-18",
+      "quote": "from the Adisutjipto International Airport (JOG) to the newly completed Yogyakarta International Airport (YIA) in Kulon Progo starting 29 March 2020.",
+      "sourceId": "id-yogyakarta-airasia",
+      "supports": "Carrier-specific prospective transfer; does not close old airport or prove execution."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": null,
+      "factId": "mendi-reopening",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2024-05-08",
+      "quote": "Mendi Airport, which had been out of operation since 2018 following the torching of an Air Niugini Dash-8 aircraft",
+      "sourceId": "pg-mendi-government",
+      "supports": "Government May 8 2024 report confirms closure since 2018 and newly reopened site; ceremony/report day not assumed actual reopening day."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Does not establish unknown first allocation, withdrawal, daily continuity or a historical IANA timezone."
+      ],
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2017-04-01",
+        "latest": "2017-04-01",
+        "precision": "exact"
+      },
+      "factId": "narvik-closure",
+      "locator": "Exact normalized original text; PDF physical page or HTML text span is generated and hash-bound.",
+      "observedOn": "2018-03-26",
+      "page": 11,
+      "quote": "Narvik Airport owned by Avinor AS, was closed down permanently as of 1 April 2017.",
+      "sourceId": "no-narvik-eurocontrol",
+      "supports": "Norwegian stakeholder LSSIP report records permanent closure from April 1; no IATA/ICAO withdrawal date."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "Exact ARP survey accuracy, runway footprint, TAG first allocation or old TAG withdrawal."
+      ],
+      "eventDate": null,
+      "factId": "bohol-physical-point",
+      "locator": "IV.2 Airport Site, printed page 29",
+      "observedOn": "2024-08-31",
+      "quote": "Airport coordinates are 9°34′N 123°46.5′E",
+      "sourceId": "ph-bohol-caap",
+      "supports": "CAAP named new airport physical reference point, separately from Tagbilaran old site. Minute-rounded coordinates are reference only."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "HSR",
+          "scheme": "IATA",
+          "siteKey": "rajkot-new"
+        }
+      ],
+      "doesNotSupport": [
+        "2023 HSR activation, RAJ withdrawal, old-airport closure or first flight."
+      ],
+      "eventDate": null,
+      "factId": "rajkot-hsr-airline",
+      "locator": "Official Air India airport guide heading",
+      "observedOn": "2026-10-29",
+      "quote": "Rajkot International Airport (HSR)",
+      "sourceId": "in-rajkot-ai",
+      "supports": "Carrier explicitly names the new Rajkot International Airport with HSR as its commercial airport code. This is separate from the AIP navaid identifier."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "No unspecified code allocation, withdrawal or daily continuity is established."
+      ],
+      "eventDate": {
+        "basis": "administrative",
+        "earliest": "2025-01-20",
+        "latest": "2025-01-20",
+        "precision": "exact"
+      },
+      "factId": "gwadar-operational-notam",
+      "locator": "Exact original paragraph/header; generated page and normalized character offsets.",
+      "observedOn": "2025-06-01",
+      "quote": "WILL BE OPERATIONAL WEF 20TH JANUARY 2025.",
+      "sourceId": "pk-gwadar-notam",
+      "supports": "Operational administrative effectiveness in NOTAM A0028/25; no first IATA GWD allocation."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "No unspecified code allocation, withdrawal or daily continuity is established."
+      ],
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2025-01-20",
+        "latest": "2025-01-20",
+        "precision": "exact"
+      },
+      "factId": "gwadar-executed",
+      "locator": "Exact original paragraph/header; generated page and normalized character offsets.",
+      "observedOn": "2025-01-20",
+      "quote": "has now been fully operationalized.",
+      "sourceId": "pk-gwadar-executed",
+      "supports": "Pakistan government broadcaster January 20 report confirms actual operationalisation, separately from NOTAM effectiveness."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "BGQO",
+          "scheme": "ICAO",
+          "siteKey": "qaqortoq-new"
+        }
+      ],
+      "doesNotSupport": [
+        "No unspecified code allocation, withdrawal or daily continuity is established."
+      ],
+      "eventDate": null,
+      "factId": "qaqortoq-aip",
+      "locator": "Exact original paragraph/header; generated page and normalized character offsets.",
+      "observedOn": "2026-04-16",
+      "quote": "ARP PSN 60 45 58N 046 04 29W",
+      "sourceId": "gl-qaqortoq-aip",
+      "supports": "Naviair AIP BGQO named Qaqortoq ARP and location indicator, effective April 16."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "No unspecified code allocation, withdrawal or daily continuity is established."
+      ],
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2026-04-16",
+        "latest": "2026-04-16",
+        "precision": "exact"
+      },
+      "factId": "qaqortoq-actual",
+      "locator": "Exact original paragraph/header; generated page and normalized character offsets.",
+      "observedOn": "2026-10-29",
+      "quote": "Air Greenland departs from Qaqortoq Airport, which opened on 16 April 2026 with a new 1,500-metre runway.",
+      "sourceId": "gl-qaqortoq-airline",
+      "supports": "Carrier confirms executed airport opening; distinct from old heliport and Narsarsuaq."
+    },
+    {
+      "codeBindings": [
+        {
+          "code": "JJU",
+          "scheme": "IATA",
+          "siteKey": "qaqortoq-new"
+        }
+      ],
+      "doesNotSupport": [
+        "No unspecified code allocation, withdrawal or daily continuity is established."
+      ],
+      "eventDate": null,
+      "factId": "qaqortoq-jju",
+      "locator": "Exact original paragraph/header; generated page and normalized character offsets.",
+      "observedOn": "2026-10-29",
+      "quote": "From Qaqortoq Airport (JJU)",
+      "sourceId": "gl-qaqortoq-airline",
+      "supports": "Current carrier new-physical-airport commercial code association; no exact JJU allocation transfer."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "No unspecified code allocation, withdrawal or daily continuity is established."
+      ],
+      "eventDate": null,
+      "factId": "qaqortoq-citycodes",
+      "locator": "Exact original paragraph/header; generated page and normalized character offsets.",
+      "observedOn": "2026-10-29",
+      "quote": "Below you will find the citycodes for the different airport, heliport and helistops in Greenland:",
+      "sourceId": "gl-citycodes",
+      "supports": "This issuer labels the list city codes. It cannot by itself prove IATA allocation at the former physical heliport."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "IATA first allocation or withdrawal; whole military airport closure."
+      ],
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2019-01-15",
+        "latest": "2019-01-15",
+        "precision": "exact"
+      },
+      "factId": "murcia-aena-first-arrival",
+      "locator": "Original operator press notice body, dated printed header.",
+      "observedOn": "2019-01-15",
+      "quote": "El primer vuelo, el RYR1824 procedente de East Midlands operado por Ryanair, ha llegado a las 10:25 horas",
+      "sourceId": "es-murcia-aena-actual",
+      "supports": "Operator original confirms actual first arrival January 15, independently of the later parliamentary proponent statement."
+    },
+    {
+      "codeBindings": [],
+      "doesNotSupport": [
+        "IATA first allocation or withdrawal; whole military airport closure."
+      ],
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2019-01-15",
+        "latest": "2019-01-15",
+        "precision": "exact"
+      },
+      "factId": "murcia-aena-retrospective",
+      "locator": "Original operator press notice body, dated printed header.",
+      "observedOn": "2019-07-12",
+      "quote": "en los 14 primeros días del año, antes de la puesta en servicio del AIRM el 15 de enero.",
+      "sourceId": "es-murcia-aena-retrospective",
+      "supports": "Operator retrospective confirms civil operational shift after January 14; not a global IATA or military closure ledger."
+    }
+  ],
+  "formalBaselineSha256": "b7880507c50cf8f993c98b3ec66f34e6433c452d7637eea7c6bfe61edbf166a3",
+  "interpretationPolicy": "Codex factual assessments and source cross-checks only; no independent human review has occurred. Recommendations apply to scoped records, not complete transfer chronology.",
+  "proposalDataVersion": "0.9.0",
+  "reviewer": null,
+  "selectionLimit": 100,
+  "sites": [
+    {
+      "coordinateFactId": "sindhudurg-aip-2024",
+      "coordinates": {
+        "latitude": 16.00333333,
+        "longitude": 73.53277778
+      },
+      "country": "IN",
+      "factIds": [
+        "sindhudurg-aip-2024",
+        "sindhudurg-aip-2026",
+        "india-six-years"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Sindhudurg Airport",
+      "ourAirports": "331218",
+      "proposedAirportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e",
+      "siteKey": "sindhudurg"
+    },
+    {
+      "coordinateFactId": "kalaburagi-aip-2024",
+      "coordinates": {
+        "latitude": 17.30972222,
+        "longitude": 76.95722222
+      },
+      "country": "IN",
+      "factIds": [
+        "kalaburagi-aip-2024",
+        "kalaburagi-aip-2026",
+        "india-six-years"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Kalaburagi Airport",
+      "ourAirports": "506610",
+      "proposedAirportId": "apt_66034969-b902-4ede-8011-cc87a23070b7",
+      "siteKey": "kalaburagi"
+    },
+    {
+      "coordinateFactId": "kurnool-aip-2024",
+      "coordinates": {
+        "latitude": 15.71472222,
+        "longitude": 78.16305556
+      },
+      "country": "IN",
+      "factIds": [
+        "kurnool-aip-2024",
+        "kurnool-aip-2026",
+        "india-six-years"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Kurnool Airport",
+      "ourAirports": "340146",
+      "proposedAirportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3",
+      "siteKey": "kurnool"
+    },
+    {
+      "coordinateFactId": "kushinagar-aip-2024",
+      "coordinates": {
+        "latitude": 26.77277778,
+        "longitude": 83.89527778
+      },
+      "country": "IN",
+      "factIds": [
+        "kushinagar-aip-2024",
+        "kushinagar-aip-2026",
+        "india-six-years"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Kushinagar International Airport",
+      "ourAirports": "350147",
+      "proposedAirportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f",
+      "siteKey": "kushinagar"
+    },
+    {
+      "coordinateFactId": "pakyong-aip-2024",
+      "coordinates": {
+        "latitude": 27.22583333,
+        "longitude": 88.58583333
+      },
+      "country": "IN",
+      "factIds": [
+        "pakyong-aip-2024",
+        "pakyong-aip-2026",
+        "india-six-years"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Pakyong Airport",
+      "ourAirports": "44362",
+      "proposedAirportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9",
+      "siteKey": "pakyong"
+    },
+    {
+      "coordinateFactId": "hollongi-aip-2024",
+      "coordinates": {
+        "latitude": 26.96972222,
+        "longitude": 93.64333333
+      },
+      "country": "IN",
+      "factIds": [
+        "hollongi-aip-2024",
+        "hollongi-aip-2026",
+        "india-project-years",
+        "hollongi-administrative",
+        "hollongi-administrative"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Itanagar Donyi Polo Hollongi Airport",
+      "ourAirports": "354546",
+      "proposedAirportId": "apt_9acf6a6b-6e22-48c6-881c-d602429a9268",
+      "siteKey": "hollongi"
+    },
+    {
+      "coordinateFactId": "mopa-aip-2024",
+      "coordinates": {
+        "latitude": 15.7425,
+        "longitude": 73.86694444
+      },
+      "country": "IN",
+      "factIds": [
+        "mopa-aip-2024",
+        "mopa-aip-2026",
+        "india-project-years"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Manohar International Airport",
+      "ourAirports": "342094",
+      "proposedAirportId": "apt_d8c584ef-5538-47e0-ab55-ccefd309e6af",
+      "siteKey": "mopa"
+    },
+    {
+      "coordinateFactId": "shirdi-aip-2024",
+      "coordinates": {
+        "latitude": 19.69083333,
+        "longitude": 74.37166667
+      },
+      "country": "IN",
+      "factIds": [
+        "shirdi-aip-2024",
+        "shirdi-aip-2026",
+        "india-project-years"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Shirdi International Airport",
+      "ourAirports": "327452",
+      "proposedAirportId": "apt_fa1bf7a7-a97d-4676-9c9a-7871eda47767",
+      "siteKey": "shirdi"
+    },
+    {
+      "coordinateFactId": "kannur-aip-2024",
+      "coordinates": {
+        "latitude": 11.91583333,
+        "longitude": 75.54583333
+      },
+      "country": "IN",
+      "factIds": [
+        "kannur-aip-2024",
+        "kannur-aip-2026",
+        "india-project-years"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Kannur International Airport",
+      "ourAirports": "329504",
+      "proposedAirportId": "apt_58a2554f-6a9b-4ad7-bc2c-2550ad21b962",
+      "siteKey": "kannur"
+    },
+    {
+      "coordinateFactId": "durgapur-aip-2024",
+      "coordinates": {
+        "latitude": 23.62444444,
+        "longitude": 87.2425
+      },
+      "country": "IN",
+      "factIds": [
+        "durgapur-aip-2024",
+        "durgapur-aip-2026",
+        "india-project-years"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Kazi Nazrul Islam Airport",
+      "ourAirports": "317982",
+      "proposedAirportId": "apt_7f9cc70a-c6cc-44a1-b78e-9a817165e1c4",
+      "siteKey": "durgapur"
+    },
+    {
+      "coordinateFactId": "rajkot-aip",
+      "coordinates": {
+        "latitude": 22.38833333,
+        "longitude": 71.04611111
+      },
+      "country": "IN",
+      "factIds": [
+        "rajkot-actual",
+        "rajkot-aip",
+        "rajkot-hsr-airline"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Rajkot International Airport",
+      "ourAirports": "512065",
+      "proposedAirportId": "apt_f239c222-5378-4291-bc8a-7c3ebb0d147f",
+      "siteKey": "rajkot-new"
+    },
+    {
+      "country": "KH",
+      "factIds": [
+        "sai-executed",
+        "sai-carrier-plan"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Siem Reap-Angkor International Airport",
+      "ourAirports": "513482",
+      "proposedAirportId": "apt_0c14aa20-7db5-4fcb-8622-5c38a6ef4a95",
+      "siteKey": "siemreap-new"
+    },
+    {
+      "country": "KH",
+      "factIds": [
+        "sai-executed"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Siem Reap International Airport",
+      "ourAirports": "26476",
+      "proposedAirportId": "apt_8067a434-5493-499a-a970-44dd6c2b1b53",
+      "siteKey": "siemreap-old"
+    },
+    {
+      "country": "PH",
+      "factIds": [
+        "bicol-code-switch",
+        "bicol-current"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Bicol International Airport",
+      "ourAirports": "336104",
+      "proposedAirportId": "apt_e4a0e403-4f25-472c-bac1-b784eba0bcd9",
+      "siteKey": "bicol"
+    },
+    {
+      "coordinateFactId": "bohol-physical-point",
+      "coordinates": {
+        "latitude": 9.56666667,
+        "longitude": 123.775
+      },
+      "country": "PH",
+      "factIds": [
+        "bohol-actual",
+        "bohol-tag",
+        "bohol-schedule",
+        "bohol-physical-point"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Bohol-Panglao International Airport",
+      "ourAirports": "336116",
+      "proposedAirportId": "apt_4dc2e0a8-c3ea-42a1-96c7-a268411b7460",
+      "siteKey": "bohol-new"
+    },
+    {
+      "coordinateFactId": "chaiten-arp",
+      "coordinates": {
+        "latitude": -42.78194444,
+        "longitude": -72.835
+      },
+      "country": "CL",
+      "factIds": [
+        "chaiten-operation",
+        "chaiten-arp"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Nuevo Chaitén Airport",
+      "ourAirports": "505530",
+      "proposedAirportId": "apt_1aa967e1-6a28-4438-bc18-7acb6920c547",
+      "siteKey": "chaiten-new"
+    },
+    {
+      "coordinateFactId": "murcia-new-arp",
+      "coordinates": {
+        "latitude": 37.80305556,
+        "longitude": -1.12472222
+      },
+      "country": "ES",
+      "factIds": [
+        "murcia-replacement",
+        "murcia-new-arp"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Region of Murcia International Airport",
+      "ourAirports": "308134",
+      "proposedAirportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+      "siteKey": "murcia-new"
+    },
+    {
+      "coordinateFactId": "murcia-old-arp",
+      "coordinates": {
+        "latitude": 37.775,
+        "longitude": -0.8125
+      },
+      "country": "ES",
+      "factIds": [
+        "murcia-replacement",
+        "murcia-old-arp"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "San Javier Airport",
+      "ourAirports": "4017",
+      "proposedAirportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+      "siteKey": "murcia-old"
+    },
+    {
+      "country": "IL",
+      "factIds": [
+        "ramon-eilat-actual",
+        "ramon-icao-year",
+        "ramon-etm"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Ramon International Airport",
+      "ourAirports": "330388",
+      "proposedAirportId": "apt_c2ab102c-fede-4c3e-a351-12468dedaf25",
+      "siteKey": "ramon"
+    },
+    {
+      "country": "WS",
+      "factIds": [
+        "fagalii-quarter",
+        "fagalii-history",
+        "fagalii-code"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Fagali'i Airport",
+      "ourAirports": "31127",
+      "proposedAirportId": "apt_94e4d809-205f-4295-b39e-2b135c722d8f",
+      "siteKey": "fagalii"
+    },
+    {
+      "country": "ZM",
+      "factIds": [
+        "ndola-october",
+        "ndola-august",
+        "ndola-codes"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Simon Mwansa Kapwepwe International Airport",
+      "ourAirports": "525659",
+      "proposedAirportId": "apt_e171bf4b-8cb3-4fb7-8f17-299a0b35bbeb",
+      "siteKey": "ndola-new"
+    },
+    {
+      "coordinateFactId": "conquista-arp",
+      "coordinates": {
+        "latitude": -14.90777778,
+        "longitude": -40.91472222
+      },
+      "country": "BR",
+      "factIds": [
+        "conquista-current",
+        "conquista-arp",
+        "conquista-ceremony"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Glauber de Andrade Rocha Airport",
+      "ourAirports": "333222",
+      "proposedAirportId": "apt_37335154-e31b-4bde-9b4a-073dcb4be07d",
+      "siteKey": "conquista-new"
+    },
+    {
+      "country": "AO",
+      "factIds": [
+        "luanda-nbj",
+        "luanda-actual-month"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Dr. Antonio Agostinho Neto International Airport",
+      "ourAirports": "312665",
+      "proposedAirportId": "apt_bf785771-6524-405a-bd5d-bb3db352e06f",
+      "siteKey": "luanda-new"
+    },
+    {
+      "country": "VN",
+      "factIds": [
+        "vandon-launch",
+        "vandon-2019"
+      ],
+      "identityAssessment": "Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+      "name": "Van Don International Airport",
+      "ourAirports": "332254",
+      "proposedAirportId": "apt_2ae2f4fe-4bea-4b75-8068-fa387b6853a5",
+      "siteKey": "vandon"
+    },
+    {
+      "coordinateFactId": "qaqortoq-aip",
+      "coordinates": {
+        "latitude": 60.76611111,
+        "longitude": -46.07472222
+      },
+      "country": "GL",
+      "factIds": [
+        "qaqortoq-aip",
+        "qaqortoq-actual",
+        "qaqortoq-jju"
+      ],
+      "identityAssessment": "New fixed-wing airport ARP north of Qaqortoq is distinct from former town heliport; matched using named AIP and carrier descriptions, not city-code equality.",
+      "name": "Qaqortoq Airport",
+      "ourAirports": "429724",
+      "proposedAirportId": "apt_18a8650d-d0cc-4d3b-aef5-48a57d594b9e",
+      "siteKey": "qaqortoq-new"
+    }
+  ],
+  "wholeLocalDayPolicy": "A single point/day-bounded code observation supports association, not a resolved whole local day. Bounded continuity starts after the first uncertain observation day and ends before the last; unknown outer allocation limits remain null."
+}

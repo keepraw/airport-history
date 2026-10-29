@@ -1,0 +1,30 @@
+{
+  "originalSha256": "4fec6c9df532bcb04899122201c5627ed467ff73bdce5a7281d5c0cb1a29beeb",
+  "spans": [
+    {
+      "characterEnd": 88,
+      "characterStart": 0,
+      "citationId": "bohol-old-schedule-2015-q1",
+      "page": 23,
+      "quote": "AIRLINE FLIGHT SCHEDULES AIRLINE TAGBILARAN–MANILA MANILA-TAGBILARAN (TAG-MNL) (MNL-TAG)",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 432,
+      "characterStart": 392,
+      "citationId": "bohol-old-schedule-2015-q2",
+      "page": 23,
+      "quote": "Source: Airline Companies (October 2015)",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 344,
+      "characterStart": 300,
+      "citationId": "bohol-old-schedule-2015-q3",
+      "page": 18,
+      "quote": "will replace the existing Tagbilaran Airport",
+      "representation": "normalized_text"
+    }
+  ],
+  "textOriginalSha256": "e1455ea93c028412166f13e8263209e8e5ca31fafd20e4774715beecf34a4fc8"
+}

@@ -1,0 +1,21 @@
+{
+  "originalSha256": "edd26fc088d6f68291c067348036ab3c90350ded1aaf590ae3a3eb9f30ce9e1c",
+  "originalTextSha256": "7495b283c4ab6ca756dc828799e6f43a609cec9b38dbeb78c32a6c2308f66869",
+  "sourceId": "cn-dazhou-airline",
+  "spans": [
+    {
+      "factId": "dazhou-codes-notice",
+      "normalizedCharacterEnd": 1091,
+      "normalizedCharacterStart": 1076,
+      "page": null,
+      "quote": "达州金垭机场（三字代码DZH）"
+    },
+    {
+      "factId": "dazhou-old-code-notice",
+      "normalizedCharacterEnd": 1117,
+      "normalizedCharacterStart": 1102,
+      "page": null,
+      "quote": "达州河市机场（三字代码DAX）"
+    }
+  ]
+}

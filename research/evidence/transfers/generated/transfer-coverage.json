@@ -1,0 +1,249 @@
+{
+  "period": [
+    "2015-01-01",
+    "2026-10-29"
+  ],
+  "hypothesis": "Only in-memory pending approval; actual resolver enumerates every whole local date. No published records revised.",
+  "totals": {
+    "incrementalResolvedDates": 0,
+    "previousHypotheticalResolvedDatesNowUncertain": 61,
+    "focusedPotentialResolvedDates": 0,
+    "formalNewResolvedQueries": 0,
+    "changedPublishedResolvedQueries": 0,
+    "changedPublishedPendingQueries": 0,
+    "confirmedConflictDates": 0
+  },
+  "formalReferenceRegressionQueries": 17280,
+  "cases": {
+    "ankang": {
+      "incrementalResolvedDates": 0,
+      "previousHypotheticalResolvedDatesNowUncertain": 0,
+      "potentialResolvedDatesAgainstFormal": 0,
+      "confirmedConflictDates": 0,
+      "byCode": {
+        "AKA": {
+          "oldResolvedDates": 0,
+          "newResolvedDates": 0,
+          "uncertainDates": 4320,
+          "crossSitePossibleDates": 0,
+          "windows": [
+            {
+              "from": "2015-01-01",
+              "toExclusive": "2026-10-30",
+              "status": "not_found->uncertain",
+              "airportId": null
+            }
+          ]
+        }
+      }
+    },
+    "yanan": {
+      "incrementalResolvedDates": 0,
+      "previousHypotheticalResolvedDatesNowUncertain": 0,
+      "potentialResolvedDatesAgainstFormal": 0,
+      "confirmedConflictDates": 0,
+      "byCode": {
+        "ENY": {
+          "oldResolvedDates": 0,
+          "newResolvedDates": 0,
+          "uncertainDates": 4320,
+          "crossSitePossibleDates": 0,
+          "windows": [
+            {
+              "from": "2015-01-01",
+              "toExclusive": "2026-10-30",
+              "status": "not_found->uncertain",
+              "airportId": null
+            }
+          ]
+        }
+      }
+    },
+    "lianyungang": {
+      "incrementalResolvedDates": 0,
+      "previousHypotheticalResolvedDatesNowUncertain": 0,
+      "potentialResolvedDatesAgainstFormal": 0,
+      "confirmedConflictDates": 0,
+      "byCode": {
+        "LYG": {
+          "oldResolvedDates": 0,
+          "newResolvedDates": 0,
+          "uncertainDates": 4320,
+          "crossSitePossibleDates": 4320,
+          "windows": [
+            {
+              "from": "2015-01-01",
+              "toExclusive": "2026-10-30",
+              "status": "not_found->uncertain",
+              "airportId": null
+            }
+          ]
+        }
+      }
+    },
+    "yibin": {
+      "incrementalResolvedDates": 0,
+      "previousHypotheticalResolvedDatesNowUncertain": 0,
+      "potentialResolvedDatesAgainstFormal": 0,
+      "confirmedConflictDates": 0,
+      "byCode": {
+        "YBP": {
+          "oldResolvedDates": 0,
+          "newResolvedDates": 0,
+          "uncertainDates": 4320,
+          "crossSitePossibleDates": 4320,
+          "windows": [
+            {
+              "from": "2015-01-01",
+              "toExclusive": "2026-10-30",
+              "status": "not_found->uncertain",
+              "airportId": null
+            }
+          ]
+        }
+      }
+    },
+    "jinzhou": {
+      "incrementalResolvedDates": 0,
+      "previousHypotheticalResolvedDatesNowUncertain": 0,
+      "potentialResolvedDatesAgainstFormal": 0,
+      "confirmedConflictDates": 0,
+      "byCode": {
+        "JNZ": {
+          "oldResolvedDates": 0,
+          "newResolvedDates": 0,
+          "uncertainDates": 4320,
+          "crossSitePossibleDates": 0,
+          "windows": [
+            {
+              "from": "2015-01-01",
+              "toExclusive": "2026-10-30",
+              "status": "not_found->uncertain",
+              "airportId": null
+            }
+          ]
+        }
+      }
+    },
+    "luzhou": {
+      "incrementalResolvedDates": 0,
+      "previousHypotheticalResolvedDatesNowUncertain": 0,
+      "potentialResolvedDatesAgainstFormal": 0,
+      "confirmedConflictDates": 0,
+      "byCode": {
+        "LZO": {
+          "oldResolvedDates": 0,
+          "newResolvedDates": 0,
+          "uncertainDates": 4320,
+          "crossSitePossibleDates": 0,
+          "windows": [
+            {
+              "from": "2015-01-01",
+              "toExclusive": "2026-10-30",
+              "status": "not_found->uncertain",
+              "airportId": null
+            }
+          ]
+        }
+      }
+    },
+    "zhanjiang": {
+      "incrementalResolvedDates": 0,
+      "previousHypotheticalResolvedDatesNowUncertain": 0,
+      "potentialResolvedDatesAgainstFormal": 0,
+      "confirmedConflictDates": 0,
+      "byCode": {
+        "ZHA": {
+          "oldResolvedDates": 0,
+          "newResolvedDates": 0,
+          "uncertainDates": 4320,
+          "crossSitePossibleDates": 0,
+          "windows": [
+            {
+              "from": "2015-01-01",
+              "toExclusive": "2026-10-30",
+              "status": "not_found->uncertain",
+              "airportId": null
+            }
+          ]
+        }
+      }
+    },
+    "bohol": {
+      "incrementalResolvedDates": 0,
+      "previousHypotheticalResolvedDatesNowUncertain": 61,
+      "potentialResolvedDatesAgainstFormal": 0,
+      "confirmedConflictDates": 0,
+      "byCode": {
+        "TAG": {
+          "oldResolvedDates": 0,
+          "newResolvedDates": 0,
+          "uncertainDates": 4320,
+          "crossSitePossibleDates": 4320,
+          "windows": [
+            {
+              "from": "2015-01-01",
+              "toExclusive": "2026-10-30",
+              "status": "not_found->uncertain",
+              "airportId": null
+            }
+          ]
+        }
+      }
+    },
+    "phnom-penh": {
+      "incrementalResolvedDates": 0,
+      "previousHypotheticalResolvedDatesNowUncertain": 0,
+      "potentialResolvedDatesAgainstFormal": 0,
+      "confirmedConflictDates": 0,
+      "byCode": {
+        "PNH": {
+          "oldResolvedDates": 3904,
+          "newResolvedDates": 0,
+          "uncertainDates": 416,
+          "crossSitePossibleDates": 0,
+          "windows": [
+            {
+              "from": "2015-01-01",
+              "toExclusive": "2025-09-09",
+              "status": "resolved->resolved",
+              "airportId": "apt_dafb3e33-c7ed-431a-b8e8-22eecf543107"
+            },
+            {
+              "from": "2025-09-09",
+              "toExclusive": "2026-10-30",
+              "status": "uncertain->uncertain",
+              "airportId": null
+            }
+          ]
+        },
+        "KTI": {
+          "oldResolvedDates": 0,
+          "newResolvedDates": 410,
+          "uncertainDates": 3910,
+          "crossSitePossibleDates": 0,
+          "windows": [
+            {
+              "from": "2015-01-01",
+              "toExclusive": "2025-09-10",
+              "status": "uncertain->uncertain",
+              "airportId": null
+            },
+            {
+              "from": "2025-09-10",
+              "toExclusive": "2026-10-25",
+              "status": "resolved->resolved",
+              "airportId": "apt_b97de260-274b-4cfd-b56e-5f035c6a7768"
+            },
+            {
+              "from": "2026-10-25",
+              "toExclusive": "2026-10-30",
+              "status": "uncertain->uncertain",
+              "airportId": null
+            }
+          ]
+        }
+      }
+    }
+  }
+}

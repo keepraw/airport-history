@@ -1,0 +1,3419 @@
+{
+  "auditedHeadFingerprint": "4deb4315d7f6513b67124c3bdd4cf5dc6499fef8a002d64e7a7155345826d3b7",
+  "base": "9a22e059eb997d8195450b48f1f9b794550f2b28",
+  "cleanSnapshot": {
+    "commit": "64e1891ec44f27b32e89f20dcf9accaa18b38933",
+    "parent": "9a22e059eb997d8195450b48f1f9b794550f2b28",
+    "purpose": "Sanitized PR snapshot: unchanged formal/research facts, fingerprint metadata, no restricted originals or direct retired locators.",
+    "tree": "9f709a79fa11c2d1c77ea1e16e0d021f3f064c3a"
+  },
+  "files": 184,
+  "fingerprintScheme": {
+    "algorithm": "SHA-256",
+    "blobDomain": "restricted-git-blob-v1 followed by one NUL byte",
+    "commitDomain": "restricted-git-commit-v1 followed by one NUL byte",
+    "encoding": "ASCII",
+    "formula": "SHA256(domain + normalized full Git SHA-1), lowercase hexadecimal",
+    "limitation": "Comparison keys avoid direct Git locators. They are not secrecy, rights clearance or evidence of remote deletion.",
+    "normalization": "Strip ASCII space, tab, CR and LF; lowercase; require exactly 40 ASCII hexadecimal SHA-1 digits."
+  },
+  "formatVersion": 2,
+  "fullResponsePairs": 92,
+  "locatorExposureCommitFingerprints": [
+    "5ada2fe43c6a27e1ad3cf429561765d135c13001ee4c7a855a90962e87551d05",
+    "775a96bc36f78cf333a3259598986d6578b60e16819eaa4227dbb034d2770128"
+  ],
+  "metadataMigration": {
+    "method": "One bounded snapshot rebuild from unchanged pinned main, then a normal commit pinning the clean snapshot; explicit expected-head force-with-lease.",
+    "originalExposureConcealed": false,
+    "reason": "Both prior PR commit trees still published direct restricted-object locators; a deletion commit alone would leave those locators reachable.",
+    "researchAndFormalFactsChanged": false
+  },
+  "permissionPolicy": "No explicit full redistribution grant was established in the retained records. Conservatively exclude every full response/extraction from this PR ancestry, including rejected responses.",
+  "priorRebuildFacts": {
+    "ciConclusion": "success",
+    "ciUrl": "https://github.com/keepraw/airport-history/actions/runs/40834011380",
+    "localFullCheck": "passed",
+    "localPrivateBackupRetained": true,
+    "locatorExposureDetectedInBothSubsequentPRCommits": true,
+    "oldCommitIsAncestor": false,
+    "sameTreeAsPriorHead": true
+  },
+  "residualRisk": {
+    "checkedAt": "2026-10-29T12:55:04.812623+00:00",
+    "followUp": "Repository owner may ask GitHub Support to assess retired commits, full-response blobs, historical locator manifests, PR refs and caches. Exact locators remain only in the local untracked owner packet. No request has been sent; cleanup availability is not guaranteed.",
+    "notClaimed": "Branch history reconstruction does not guarantee GitHub object, PR timeline or cache deletion.",
+    "oldBlobApiStillAccessible": true,
+    "oldCommitApiStillAccessible": true,
+    "oldCommitFingerprint": "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd",
+    "remoteOldObjectsStillAccessible": true,
+    "representativeApiChecks": [
+      {
+        "accessible": true,
+        "checkedAt": "2026-10-29T12:55:01.943963+00:00",
+        "kind": "commit",
+        "objectFingerprint": "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd",
+        "returnedIdMatches": true
+      },
+      {
+        "accessible": true,
+        "checkedAt": "2026-10-29T12:55:02.494023+00:00",
+        "kind": "commit",
+        "objectFingerprint": "216e1a3c3984f8a0f2ae55e68ded019d35b682945ea7ed2c4ddf9518332c04e2",
+        "returnedIdMatches": true
+      },
+      {
+        "accessible": true,
+        "checkedAt": "2026-10-29T12:55:03.050836+00:00",
+        "kind": "commit",
+        "objectFingerprint": "4deb4315d7f6513b67124c3bdd4cf5dc6499fef8a002d64e7a7155345826d3b7",
+        "returnedIdMatches": true
+      },
+      {
+        "accessible": true,
+        "bytes": 11529,
+        "checkedAt": "2026-10-29T12:55:03.606627+00:00",
+        "kind": "blob",
+        "objectFingerprint": "d08277a44071208c66b3f3b40885ab84be83babc8cc4e6185174f5730bb66228",
+        "returnedIdMatches": true
+      },
+      {
+        "accessible": true,
+        "bytes": 175681,
+        "checkedAt": "2026-10-29T12:55:04.271727+00:00",
+        "kind": "blob",
+        "objectFingerprint": "3e2e3039a7dce5734a5c5722c39e5cd2824dd485b785baa2149053ede0f5f190",
+        "returnedIdMatches": true
+      },
+      {
+        "accessible": true,
+        "bytes": 3200,
+        "checkedAt": "2026-10-29T12:55:04.812623+00:00",
+        "kind": "blob",
+        "objectFingerprint": "59946bfaa2290676ec80e16e03e19cd952f0ab8d0cc243ce29db8837d2b70c51",
+        "returnedIdMatches": true
+      }
+    ],
+    "sampledOldBlobBytes": 11529,
+    "sampledOldBlobFingerprint": "d08277a44071208c66b3f3b40885ab84be83babc8cc4e6185174f5730bb66228"
+  },
+  "restrictedCommitFingerprints": [
+    "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd",
+    "216e1a3c3984f8a0f2ae55e68ded019d35b682945ea7ed2c4ddf9518332c04e2",
+    "4deb4315d7f6513b67124c3bdd4cf5dc6499fef8a002d64e7a7155345826d3b7"
+  ],
+  "sources": [
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "rejected_response",
+      "files": [
+        {
+          "decompressedSha256": "b88ef4ea139b05566f1c1ee7b235b7576bc6f00ea8fbcb4e5a4c223e7540753b",
+          "gitBlobFingerprint": "d08277a44071208c66b3f3b40885ab84be83babc8cc4e6185174f5730bb66228",
+          "path": "research/evidence/global/inputs/kh-sai-caa.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "174c11239a0d1f4c7a2a0067bfeef14834bd15a96dc7775a91136f06c0e4c2d1"
+        },
+        {
+          "decompressedSha256": "9aab931e3dcd8c377294859b0b60de6c8bc8a6dd5a6ef0afd56e6afd7fd22e0b",
+          "gitBlobFingerprint": "bdb6af89bfc2edc6161ca8a9c5d8bd5ebc52d34d61536a2dd45851058bdc4660",
+          "path": "research/evidence/global/texts/kh-sai-caa.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "7256f216f760c9f830749500f9fa73b7726b350cfa03da3cd57dc3b799de735f"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://www.information.gov.kh/articles/110085"
+      },
+      "originalSha256": "b88ef4ea139b05566f1c1ee7b235b7576bc6f00ea8fbcb4e5a4c223e7540753b",
+      "publisher": "Cambodia Ministry of Information / State Secretariat of Civil Aviation",
+      "sourceId": "kh-sai-caa",
+      "url": "https://www.information.gov.kh/articles/110085"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "ad07ad3ea1a96834e80287ea326d1e3a4bffc61b2e679b2f78439de065247fe9",
+          "gitBlobFingerprint": "3e2e3039a7dce5734a5c5722c39e5cd2824dd485b785baa2149053ede0f5f190",
+          "path": "research/evidence/global/inputs/kh-sai-vn.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "6352aab4ddf5db77bcc0513ed312fcbd8789365ddcbb6c4642c8cace92553a69"
+        },
+        {
+          "decompressedSha256": "640b3578249b7d580cb390dc535460e6fa42c706b3847ea9c05e82db328fcfc6",
+          "gitBlobFingerprint": "59946bfaa2290676ec80e16e03e19cd952f0ab8d0cc243ce29db8837d2b70c51",
+          "path": "research/evidence/global/texts/kh-sai-vn.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "396eba42147d53ed7b6f81c2ab696f38dbc3fe07f8a1d0375531e8ce96a7d47a"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://enews.vietnamairlines.com/2023/10/vietnam-airlines-operates-at-the-new-airport-in-siem-reap/"
+      },
+      "originalSha256": "ad07ad3ea1a96834e80287ea326d1e3a4bffc61b2e679b2f78439de065247fe9",
+      "publisher": "Vietnam Airlines",
+      "sourceId": "kh-sai-vn",
+      "url": "https://enews.vietnamairlines.com/2023/10/vietnam-airlines-operates-at-the-new-airport-in-siem-reap/"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "9592b2bbe636787c60015453dd4c00481f4cd65f9a7aca3d5886214abdbdeebb",
+          "gitBlobFingerprint": "dc914e0528c1063f0228650ef90d32b618fe18ae923ab3d39f9023c46de31e26",
+          "path": "research/evidence/global/inputs/cl-chaiten-mop.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "457f4c61c3b7e8353fa8905883d15b57ab6a653765503f6480d743f3a96a083d"
+        },
+        {
+          "decompressedSha256": "000e8ad2c2b167328e551509163effcd2484070210194b074a4c59a19d1df87b",
+          "gitBlobFingerprint": "c55b8c43c18fd19e7c891c4620a112c1cb7a79fb49322cdf29f74fbcf01bc98a",
+          "path": "research/evidence/global/texts/cl-chaiten-mop.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "35323c3b9e872d07cf3dbdd282004cf3a19b10268a1c58b519ed42e2bf79675e"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://aeropuertos.mop.gob.cl/2015/01/29/ministro-de-obras-publicas-y-directora-de-aeropuertos-inauguran-aerodromo-de-chaiten/"
+      },
+      "originalSha256": "9592b2bbe636787c60015453dd4c00481f4cd65f9a7aca3d5886214abdbdeebb",
+      "publisher": "Chile Ministry of Public Works Directorate of Airports",
+      "sourceId": "cl-chaiten-mop",
+      "url": "https://aeropuertos.mop.gob.cl/2015/01/29/ministro-de-obras-publicas-y-directora-de-aeropuertos-inauguran-aerodromo-de-chaiten/"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "278b31c99edf9048075231edff094c601e1072b4d34a8095d70caa27adb861a8",
+          "gitBlobFingerprint": "ced616027d74daf1ad83bdef083e8e72cd71c04d25ce090fba93b63945a0530e",
+          "path": "research/evidence/global/inputs/cl-chaiten-aip.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "e40c529950985bbd807dd136e06c513f8f4c4e6964cf22f2881663d36ad385e3"
+        },
+        {
+          "decompressedSha256": "a226183d93218f783b430602566ba59d8912d927ad82dc6bb79f7be61bafcf5b",
+          "gitBlobFingerprint": "c82a576a359afab933b559624c7ca3893ebcc85849e5be372e656dbb5d6cafc5",
+          "path": "research/evidence/global/texts/cl-chaiten-aip.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "98e89e7a9b381caa5e2ca065196db8fb35b29555c8fe9a4d40ddbfcb72d82790"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://aipchile.dgac.gob.cl/mobile/aerodromo/designador/SCTN"
+      },
+      "originalSha256": "278b31c99edf9048075231edff094c601e1072b4d34a8095d70caa27adb861a8",
+      "publisher": "Chile DGAC",
+      "sourceId": "cl-chaiten-aip",
+      "url": "https://aipchile.dgac.gob.cl/mobile/aerodromo/designador/SCTN"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "79d6a2610da37e6ce210c9c877b602fa6057b9de95af169fea1258afd8cad64e",
+          "gitBlobFingerprint": "658af687cdccd82df0beb23ed94352d166528757ab95f9778c4466501434c872",
+          "path": "research/evidence/global/inputs/es-murcia-parliament.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "fa92af27a3becdb73925f08d37ea7deb5c0de861e95723a687d89d251abaaf95"
+        },
+        {
+          "decompressedSha256": "41a1461e23fdc529530c8a36a8572789849faf9d6e97669547a539faabf4f04b",
+          "gitBlobFingerprint": "14def4b4552c9f145cc0a97b210059747a93a1e856e5684375018a6eb5e84ef9",
+          "path": "research/evidence/global/texts/es-murcia-parliament.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "2d8dedb77ad5a81c9f07d73374bacce7f850a2b244aafb1b322b703e2c0903eb"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://www.congreso.es/public_oficiales/L13/CONG/BOCG/D/BOCG-13-D-34.PDF"
+      },
+      "originalSha256": "79d6a2610da37e6ce210c9c877b602fa6057b9de95af169fea1258afd8cad64e",
+      "publisher": "Spain Congress of Deputies",
+      "sourceId": "es-murcia-parliament",
+      "url": "https://www.congreso.es/public_oficiales/L13/CONG/BOCG/D/BOCG-13-D-34.PDF"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "1eb2a5da0eeb9c5037ae072137b87f872baf36bc186a09ce3ab042132ad0ad2e",
+          "gitBlobFingerprint": "9f3533b0cea29bf4b1635f29ab459ee96308080fe20b99c12e518670c789a6f5",
+          "path": "research/evidence/global/inputs/il-ramon-operator.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "5806e4c12edd9097b2920a989ec264095a8e17dbdc21912f2579dcce42f70d08"
+        },
+        {
+          "decompressedSha256": "71a0b26b68d78f5119b4cc3774b4d6e19c5d4ead957e52461481dd3805b59d04",
+          "gitBlobFingerprint": "36f05a819e2920c10e7c97004d14fcf43b121cf85d31ae444ed210b2ca1f299f",
+          "path": "research/evidence/global/texts/il-ramon-operator.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "07089bb019593b0e1d00bbb11c8b369866c4881aac73c52fc35b7545c76e2f5f"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://www.iaa.gov.il/en/airports/ramon/about/"
+      },
+      "originalSha256": "1eb2a5da0eeb9c5037ae072137b87f872baf36bc186a09ce3ab042132ad0ad2e",
+      "publisher": "Israel Airports Authority",
+      "sourceId": "il-ramon-operator",
+      "url": "https://www.iaa.gov.il/en/airports/ramon/about/"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "f7c1432e71b494db4cf0d1a1f97b5d595f8f79f580595476c33bc6d3522336f0",
+          "gitBlobFingerprint": "8c3ccca92a41b07507dc845bb0fa250bb5164b113e067751ddc43a1db3f99093",
+          "path": "research/evidence/global/inputs/il-ramon-tourism.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "36a0baad01bc692376dff4bcb1c18cab6313a265b301bdda491aa1b9e7a50d22"
+        },
+        {
+          "decompressedSha256": "130d03840eeaffa771c9bfb6f5147ff649183c41519e52f3ca2e68d2a511c0c2",
+          "gitBlobFingerprint": "1814be12eefad6c7b3d97a84cc06faf8d48104ab371c00478d1b341217c0853f",
+          "path": "research/evidence/global/texts/il-ramon-tourism.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "3500be920d91560932d1ab300cf3d265e02d8075398633bc67ae2a499cb9a6c5"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://www.gov.il/BlobFolder/policy/directive-for-reimbursement-of-flight-operators-operating-direct-flights-to-eilat/en/eilat2019.pdf"
+      },
+      "originalSha256": "f7c1432e71b494db4cf0d1a1f97b5d595f8f79f580595476c33bc6d3522336f0",
+      "publisher": "Israel Ministry of Tourism",
+      "sourceId": "il-ramon-tourism",
+      "url": "https://www.gov.il/BlobFolder/policy/directive-for-reimbursement-of-flight-operators-operating-direct-flights-to-eilat/en/eilat2019.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "c669ce3e47b5a96b6d07fbef41567c7be56851a63ae65bd0bbb8d7a83770b988",
+          "gitBlobFingerprint": "ff326f8ad2ee33afce5544870ff4da0135bfdc99ac34e4c357030bc800d3631c",
+          "path": "research/evidence/global/inputs/no-narvik-eurocontrol.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "5e5c8f0f7fdaf18c779c137eb48e4740dd4726d1e3040501972ed6ea28c75e48"
+        },
+        {
+          "decompressedSha256": "c3fe681919c98b5d3c46688593427394733dd3f8f293804e2f846d99ae8bd197",
+          "gitBlobFingerprint": "eea46c95150cb5714fbf7218d0e670d487d99d12c5d5b51a551e2d86a291514b",
+          "path": "research/evidence/global/texts/no-narvik-eurocontrol.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "0ebb9b5a7e005b78cd185780bda64ceb802478cd99ac15c258901153c9add8b5"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://www.eurocontrol.int/sites/default/files/content/documents/official-documents/reports/LSSIP2017_Norway_Released.pdf"
+      },
+      "originalSha256": "c669ce3e47b5a96b6d07fbef41567c7be56851a63ae65bd0bbb8d7a83770b988",
+      "publisher": "EUROCONTROL and Norwegian aviation stakeholders",
+      "sourceId": "no-narvik-eurocontrol",
+      "url": "https://www.eurocontrol.int/sites/default/files/content/documents/official-documents/reports/LSSIP2017_Norway_Released.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "64fd0f74872879a8f53813b41cb5c877123513b24a3bcd2eb844adb5c0fdbffa",
+          "gitBlobFingerprint": "2290c359309a18139a88960d05a1e281d4c5cee490704e00353e03af307e79b0",
+          "path": "research/evidence/global/inputs/ws-fagalii-government.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "085180f025dc7f981c4d9e078ab2ea2917a5e15f5521a11f94c2369db4fa4e8d"
+        },
+        {
+          "decompressedSha256": "8dcf8b2ee79d404f0647847dd6fe2e2296e10f01e243927ad94829a226650182",
+          "gitBlobFingerprint": "4c3ccd4536a7d0128a72ca210f8efe581ce296b1d206e3ba2aa244ab69aa7242",
+          "path": "research/evidence/global/texts/ws-fagalii-government.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "d3397207e2d0eed5e8ce2700c56db8b7d717fb61a0abf1da630c31fb7d9d4842"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://www.mpe.gov.ws/wp-content/uploads/2024/05/QuarterlyReportApr-June2023_.pdf"
+      },
+      "originalSha256": "64fd0f74872879a8f53813b41cb5c877123513b24a3bcd2eb844adb5c0fdbffa",
+      "publisher": "Samoa Ministry for Public Enterprises",
+      "sourceId": "ws-fagalii-government",
+      "url": "https://www.mpe.gov.ws/wp-content/uploads/2024/05/QuarterlyReportApr-June2023_.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "bc3e43c8bd2f0b5ba05b55d472acf799ae3976f9cac5342cda6913ef79d4f3a1",
+          "gitBlobFingerprint": "4858c7e0c4855af47378246db850b6500346d743f35aa9d905d5482f86e87eb1",
+          "path": "research/evidence/global/inputs/ws-fagalii-operator.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "7b4d1278e96add8a85f98a5d95b9d2d0e1f717fd4d0356b63378c277cb8b7435"
+        },
+        {
+          "decompressedSha256": "8121a1135ab81eb0876fbee9b7c57f8853e1c18c55941569069d17f8b0da971c",
+          "gitBlobFingerprint": "45907b6a9ba4e5350745163776db120ed909be158e1c47224722e7f1c56ec565",
+          "path": "research/evidence/global/texts/ws-fagalii-operator.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "abd7546674ca681a19ec3d821084d43fb4eaba4931f77d4e79edfc5c1d90455d"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://www.samoaairports.com/corporate/history-samoa-airports"
+      },
+      "originalSha256": "bc3e43c8bd2f0b5ba05b55d472acf799ae3976f9cac5342cda6913ef79d4f3a1",
+      "publisher": "Samoa Airport Authority",
+      "sourceId": "ws-fagalii-operator",
+      "url": "https://www.samoaairports.com/corporate/history-samoa-airports"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "08b6f8b0a35d9c34730977549d647728183274ec8c575eefc199876a31348566",
+          "gitBlobFingerprint": "26d4382b3ec26514ede7b7195d577f10eb8ed333e8c0933c59dc10fb815980a9",
+          "path": "research/evidence/global/inputs/cn-ankang-government.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "f4812bd45a53de27b582903aefa1cf7cb253288e442e0ea2f831cf010710f55d"
+        },
+        {
+          "decompressedSha256": "2f97998fdfd3a8fa1af266ade0ddcefd6277f51b0b3ad014fa70170dcd067512",
+          "gitBlobFingerprint": "8839f4380a9260970fa629a34c3f81025bf3626cd98d16dc82c76b7f5de7a53b",
+          "path": "research/evidence/global/texts/cn-ankang-government.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "c381d5ee476571c02df6021ce5fce37edea0299b5a0392a2d5ce8e6b1ad34566"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://www.ankang.gov.cn/Content-2175564.html"
+      },
+      "originalSha256": "08b6f8b0a35d9c34730977549d647728183274ec8c575eefc199876a31348566",
+      "publisher": "Ankang Municipal Government",
+      "sourceId": "cn-ankang-government",
+      "url": "https://www.ankang.gov.cn/Content-2175564.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "c30ad6ac8f64c302489c2d77f152be9061ca36c1dcaa65aac002601a77a1dfae",
+          "gitBlobFingerprint": "3df93cefa96d1e49ae721b3307b30f4548b4a887799267761bc0993124fb8f05",
+          "path": "research/evidence/global/inputs/in-rajkot-government.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "b53a9544ac09daa142e7f42ae9e129c2f0718d8e78bbf8ceec70f0dccfb16427"
+        },
+        {
+          "decompressedSha256": "044335e0cbe07dc92732d3531c3c888399476de80976467164add1d420be4895",
+          "gitBlobFingerprint": "1044824e9944934425df0022654743a7a671e38204279073b79eb77fa71f10dd",
+          "path": "research/evidence/global/texts/in-rajkot-government.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "6470b9e7062c41733f1b8bd74d035faf53341e5e30b08ef7767de98573aeb2a2"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1943451"
+      },
+      "originalSha256": "c30ad6ac8f64c302489c2d77f152be9061ca36c1dcaa65aac002601a77a1dfae",
+      "publisher": "India Press Information Bureau / Ministry of Civil Aviation",
+      "sourceId": "in-rajkot-government",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1943451"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "f382352f8b7f9726953c23bf7b5f3f3ee75d0a89de3921f6069b94430aa179c5",
+          "gitBlobFingerprint": "7327912f1b1da56d95ffbedd17003758e8638d5530f01628acb9df297f88aef6",
+          "path": "research/evidence/global/inputs/in-rajkot-actual.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "8717d6212d99e806619d575e6af73051a8f78d6a3d643af41de5cd2a96397439"
+        },
+        {
+          "decompressedSha256": "7de38822f693e9716c26743e749a815fd33cd29786306a9b8e52c299890710ef",
+          "gitBlobFingerprint": "b9825f1b89b30dc9d8673ad81d9e677f24645a77bfd5ba9500ee1668b51c3b57",
+          "path": "research/evidence/global/texts/in-rajkot-actual.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "90ac1bb429ec3a1707e60c627a887fd34de5f2d309f342551e55ad587dda5eba"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original official publication archived for evidence review. Excluded from repository MIT license; source rights and third-party rights remain applicable. No general redistribution license inferred.",
+        "url": "https://www.aai.aero/sites/default/files/press_release_news/Flights%20operations%20commenced%20from%20Rajkot%20International%20Airport.pdf"
+      },
+      "originalSha256": "f382352f8b7f9726953c23bf7b5f3f3ee75d0a89de3921f6069b94430aa179c5",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-rajkot-actual",
+      "url": "https://www.aai.aero/sites/default/files/press_release_news/Flights%20operations%20commenced%20from%20Rajkot%20International%20Airport.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "f011b55e713b3b46b4683825c12e90bdc146574e6f10e87a034306636aa551d4",
+          "gitBlobFingerprint": "5f9b9f683378b2665133e2b04f6f6b1cea8033524d2a4e01220326c3748ee872",
+          "path": "research/evidence/global/inputs/in-rajkot-aip-2024.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "c1a34fa591171cdd3ae60c7b1951f6eca259c01f2ec5fd18ceedf3d8c874625f"
+        },
+        {
+          "decompressedSha256": "523d3f4ad279a30b5c586e56783346bac2103c38de60f9649028c3d5a828b131",
+          "gitBlobFingerprint": "e5687bec565d51795821a8fd6692117f2caa86a11eb4c63d16af381756d636a6",
+          "path": "research/evidence/global/texts/in-rajkot-aip-2024.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "50bf9e14474aa8328ab8e662f4ff6db959497fe80b4509fe5c9f2e3a16655b81"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original official publication archived for evidence review. Excluded from repository MIT license; source rights and third-party rights remain applicable. No general redistribution license inferred.",
+        "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VAHS-en-GB.html"
+      },
+      "originalSha256": "f011b55e713b3b46b4683825c12e90bdc146574e6f10e87a034306636aa551d4",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-rajkot-aip-2024",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VAHS-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "5b9b25693b8e32cd7ffc4750b0363433ebeae33627d8761035b1cfaa05815ca9",
+          "gitBlobFingerprint": "b9f4a55b140c6fd37b7d8194f865d816b57ab99e1c48f2d77736c43a381d7182",
+          "path": "research/evidence/global/inputs/pk-gwadar-notam.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "33776161f534e65b59baa3dc0903f6a365a55d07108a5d7846664131f1c3347f"
+        },
+        {
+          "decompressedSha256": "fcd4a4a0a7265c59b0be38e052687352232f1d991a1b36b16b397952233269aa",
+          "gitBlobFingerprint": "ace578ae2a279fe021c7199bfd589b672af719b9ed409d3effdcdc6fcc8ab5a5",
+          "path": "research/evidence/global/texts/pk-gwadar-notam.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "58e3a098c04c48edefbecaa4ceaaa2e0a374843f819827d2d33f42349c2c0e34"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original official publication archived for evidence review. Excluded from repository MIT license; source rights and third-party rights remain applicable. No general redistribution license inferred.",
+        "url": "https://paawebadmin.paa.gov.pk/media/w0wfyvxu/a-summ-june-2025.pdf"
+      },
+      "originalSha256": "5b9b25693b8e32cd7ffc4750b0363433ebeae33627d8761035b1cfaa05815ca9",
+      "publisher": "Pakistan Airports Authority",
+      "sourceId": "pk-gwadar-notam",
+      "url": "https://paawebadmin.paa.gov.pk/media/w0wfyvxu/a-summ-june-2025.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "f489b68ba9a7d6cbb229a8b4a438571bff051b622cdaa1e0fa0db4478bc32531",
+          "gitBlobFingerprint": "c004c37dfde27f70902a4470b5f28e4e654bced9f6372d8402aa23915309ddc4",
+          "path": "research/evidence/global/inputs/cn-yanan-actual.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "473d4031705bc475d60bba167be5a78e17ee49005207e5667512cf95ddf8f0b8"
+        },
+        {
+          "decompressedSha256": "d1cb990c63b3871add683372f77508c3366b81cdfaf1383a6cf6a6d218a85bea",
+          "gitBlobFingerprint": "d8d761df4e6bd0267c8f41cdd0896bda5b3464f2e1ed03198357d64567dd149e",
+          "path": "research/evidence/global/texts/cn-yanan-actual.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "8b7d2f202c6898a30c7a080d12ac1ff107a19476076b49eec8352c15f1a705f0"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original official publication archived for evidence review. Excluded from repository MIT license; source rights and third-party rights remain applicable. No general redistribution license inferred.",
+        "url": "https://www.caac.gov.cn/PHONE/GLJ_PHONE/XBGLJ/XB_GDTP/201811/t20181112_192793.html"
+      },
+      "originalSha256": "f489b68ba9a7d6cbb229a8b4a438571bff051b622cdaa1e0fa0db4478bc32531",
+      "publisher": "CAAC Northwest Regional Administration",
+      "sourceId": "cn-yanan-actual",
+      "url": "https://www.caac.gov.cn/PHONE/GLJ_PHONE/XBGLJ/XB_GDTP/201811/t20181112_192793.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "87da448fad4a8dcb5c94c2fb9dddbae6659581f1d25c055eb79d26df47580b05",
+          "gitBlobFingerprint": "11895785b9697184487906753f207c16eaa39ce859ceec61487b05e289287421",
+          "path": "research/evidence/global/inputs/cn-yanan-confirmation.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "71449f9c70b3962d97343dd95ed05fe758bbb18a6ac9b3908b454721aecc945b"
+        },
+        {
+          "decompressedSha256": "9e01a644010e63629badc2298aad5d557eafc0b42e6c9d6a12b71a9fcaba7993",
+          "gitBlobFingerprint": "9bfba16a74604ab01832740740b1f71749a1a9ea01ad486dc85ea63ac9407174",
+          "path": "research/evidence/global/texts/cn-yanan-confirmation.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "2b56e786ede3bd6f5074da8369460e304e3ca35f5afc929f47588828a9270795"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original official publication archived for evidence review. Excluded from repository MIT license; source rights and third-party rights remain applicable. No general redistribution license inferred.",
+        "url": "https://www.caac.gov.cn/XWZX/MHYW/201908/t20190819_198197.html"
+      },
+      "originalSha256": "87da448fad4a8dcb5c94c2fb9dddbae6659581f1d25c055eb79d26df47580b05",
+      "publisher": "CAAC",
+      "sourceId": "cn-yanan-confirmation",
+      "url": "https://www.caac.gov.cn/XWZX/MHYW/201908/t20190819_198197.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "de30e50d758df3bac370d31ef537b9f27774eb0aab2478cd0620b21fe2c3e1d5",
+          "gitBlobFingerprint": "143745445d4db2636a2a91203fedf7457544ae2a2bcfee73d4818468eb2b8fae",
+          "path": "research/evidence/global/inputs/zm-ndola-history.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "f2bb379f56de43ffe3430e26d842a2ec5f1db010d5e5cd074f9d0d491c3b6f05"
+        },
+        {
+          "decompressedSha256": "f75bd5df1fefb884a63a55e8b48b2407b1083c4405808a233359b2ae9237e2f2",
+          "gitBlobFingerprint": "e663eb2fd25e0b3c0e48148e0aeabf98f21508535fa3fcf0c03a474ef551aa9a",
+          "path": "research/evidence/global/texts/zm-ndola-history.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "4b573e99148ef192fdf4666211ef859fd4ba73cb10adc1027f75e66b5b9238d0"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original official publication archived for evidence review. Excluded from repository MIT license; source rights and third-party rights remain applicable. No general redistribution license inferred.",
+        "url": "https://www.zacl.co.zm/airport-section/airports/smkia"
+      },
+      "originalSha256": "de30e50d758df3bac370d31ef537b9f27774eb0aab2478cd0620b21fe2c3e1d5",
+      "publisher": "Zambia Airports Corporation",
+      "sourceId": "zm-ndola-history",
+      "url": "https://www.zacl.co.zm/airport-section/airports/smkia"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "df8dd25d67f87360212ca4c6d9d5ea0a2868ed2bb047830eb14618e6c58649ba",
+          "gitBlobFingerprint": "034c744b31f07719d95ee5d7e3a22d80c21965227e9519c434e949b69f41e12d",
+          "path": "research/evidence/global/inputs/zm-ndola-actual.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "ea89c600d48531f43678ef33c76161e84845eb28397c8f1c2cab0eb4679a7019"
+        },
+        {
+          "decompressedSha256": "3d9b7ea86b241c9a0533c3802685bf382fce83fbf7bdfdc3e65ceefbb4bec8d5",
+          "gitBlobFingerprint": "b9e6bc494329cd442ba6788268a10f1769711b8292ced99456a8e4f6cc06c920",
+          "path": "research/evidence/global/texts/zm-ndola-actual.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "cd7d3e4a9502b46bf063c4eb942c3461b4d30b7b9d6e82afe5fb83714e965a91"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original official publication archived for evidence review. Excluded from repository MIT license; source rights and third-party rights remain applicable. No general redistribution license inferred.",
+        "url": "https://www.zacl.co.zm/airport-section/media-centre/press-release-new-simon-mwansa-kapwepwe-international-airpor"
+      },
+      "originalSha256": "df8dd25d67f87360212ca4c6d9d5ea0a2868ed2bb047830eb14618e6c58649ba",
+      "publisher": "Zambia Airports Corporation",
+      "sourceId": "zm-ndola-actual",
+      "url": "https://www.zacl.co.zm/airport-section/media-centre/press-release-new-simon-mwansa-kapwepwe-international-airpor"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "041f4ae1c100e410f7f02ddce30ec407029ebe89341ecfd8c3e8ac05af41a27d",
+          "gitBlobFingerprint": "c453dee4ae7f67f949ce41e47d74806bfcd66558a70667ceaaf286ae9716671c",
+          "path": "research/evidence/global/inputs/zm-ndola-codes.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "74e02a4549002ef59d76b9351dab5240b4722bda9e9cbad17d6d42b4f813c71a"
+        },
+        {
+          "decompressedSha256": "0c01ad674bcdc4eb83dd6d41fba3cf2686073cf598fff1e3e0811cc27effeaa5",
+          "gitBlobFingerprint": "ed96f38f695bfd6aeb93b1f9d3cb5925f330703039a95137a294003e141d29b0",
+          "path": "research/evidence/global/texts/zm-ndola-codes.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "6b17581b4af485e8f0237d1184fce8ae09a68dd5e74016e13b510887ba4f6875"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original official publication archived for evidence review. Excluded from repository MIT license; source rights and third-party rights remain applicable. No general redistribution license inferred.",
+        "url": "https://www.zacl.co.zm/corporate/airport-services/ground-handling"
+      },
+      "originalSha256": "041f4ae1c100e410f7f02ddce30ec407029ebe89341ecfd8c3e8ac05af41a27d",
+      "publisher": "Zambia Airports Corporation",
+      "sourceId": "zm-ndola-codes",
+      "url": "https://www.zacl.co.zm/corporate/airport-services/ground-handling"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "6cfa86192be69c68b0bb448f113aaf4546664b5a2a573acce9bdd6a50957551f",
+          "gitBlobFingerprint": "95d1e657ba667a0e3b3d938737d5fcbf5a91fa947a1fbee1540b9b982d7170b0",
+          "path": "research/evidence/global/inputs/br-conquista-actual.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "e01e68eb618b36943e0dad07095e1114338d7b509907979f83263e4bc7551454"
+        },
+        {
+          "decompressedSha256": "5483a9c5294faae8bdbb0e72b85070bb69b0b2dd56d144f563587511384e8986",
+          "gitBlobFingerprint": "ff5b638dafc0b09c2fa49fa0a7de72126f16440216b571c4a786747a3ec05701",
+          "path": "research/evidence/global/texts/br-conquista-actual.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "760eb0948b6301e79af9634e2d7bfc44c0ed8e55420826abe3354892c691f835"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original official publication archived for evidence review. Excluded from repository MIT license; source rights and third-party rights remain applicable. No general redistribution license inferred.",
+        "url": "https://www.pmvc.ba.gov.br/aeroporto-glauber-rocha-e-inaugurado-com-a-presenca-do-presidente-jair-bolsonaro/"
+      },
+      "originalSha256": "6cfa86192be69c68b0bb448f113aaf4546664b5a2a573acce9bdd6a50957551f",
+      "publisher": "Vitoria da Conquista Municipal Government",
+      "sourceId": "br-conquista-actual",
+      "url": "https://www.pmvc.ba.gov.br/aeroporto-glauber-rocha-e-inaugurado-com-a-presenca-do-presidente-jair-bolsonaro/"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "6fa2916ef75b1e57678b1382bfd57e5d9a18a2eaa91b42b598d273f268f32bcd",
+          "gitBlobFingerprint": "2d589cac10f9438c630f3e95472f622974b9cd63d68a7ae27334ce374a8b9de1",
+          "path": "research/evidence/global/inputs/br-conquista-closure.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "bab12da2d6d4ec85eb2cba4f65c4539f5dc2d3ba766939429cf99b9a6d14b468"
+        },
+        {
+          "decompressedSha256": "626d38bbe61b2ee07862aea209590fa64b541e36b048abc7381ea8639a7d0678",
+          "gitBlobFingerprint": "99c3cc60b12db3109d07e16dc26c04a16821bbe48582559798833cf8430615a5",
+          "path": "research/evidence/global/texts/br-conquista-closure.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "137fdfba89c5cdb61edfef89ff932ced311fad563a3f25570c8ef025c017b3bc"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original official publication archived for evidence review. Excluded from repository MIT license; source rights and third-party rights remain applicable. No general redistribution license inferred.",
+        "url": "https://www.pmvc.ba.gov.br/sheila-lemos-reforca-a-ministro-da-casa-civil-pleito-de-devolucao-da-area-do-antigo-aeroporto-para-o-municipio/"
+      },
+      "originalSha256": "6fa2916ef75b1e57678b1382bfd57e5d9a18a2eaa91b42b598d273f268f32bcd",
+      "publisher": "Vitoria da Conquista Municipal Government",
+      "sourceId": "br-conquista-closure",
+      "url": "https://www.pmvc.ba.gov.br/sheila-lemos-reforca-a-ministro-da-casa-civil-pleito-de-devolucao-da-area-do-antigo-aeroporto-para-o-municipio/"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "b8560b122298b87a7d495e251935704285979f49b4c7496cff3e32114d881a86",
+          "gitBlobFingerprint": "7ffa4b2242ce06b153efd2308cea9542a9e1cd11b26aaccd5edc92199a182cc5",
+          "path": "research/evidence/global/inputs/ph-bohol-caap.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "8b9c149cc14c9808e7bd8cfba86d7baf0ceff59e668f5b27138ca18f970046a4"
+        },
+        {
+          "decompressedSha256": "d28022f5767154da86a49b8b96fb1c095844cdfe3cd06f07c1897ddbaa8c398b",
+          "gitBlobFingerprint": "14b1acbc4fc3b5648a228d21947b44e718403a1c8bf5fce63999817d1e161a08",
+          "path": "research/evidence/global/texts/ph-bohol-caap.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "3efcffee5fb35a394ef8f2841094dd219ec2351037197b07ea1a1e3d15639001"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Evidence archive excluded from repository MIT license; no license to photographs, charts or trademarks granted. Redistribution scope must be checked before downstream republication.",
+        "url": "https://caap.gov.ph/wp-content/uploads/2024/09/Project-Information-Memorandum-for-Bohol-Panglao-International-Airport-Date-Posted-12-September-2024.pdf"
+      },
+      "originalSha256": "b8560b122298b87a7d495e251935704285979f49b4c7496cff3e32114d881a86",
+      "publisher": "Civil Aviation Authority of the Philippines",
+      "sourceId": "ph-bohol-caap",
+      "url": "https://caap.gov.ph/wp-content/uploads/2024/09/Project-Information-Memorandum-for-Bohol-Panglao-International-Airport-Date-Posted-12-September-2024.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "3b5a1de7a6b8285e6fa9e02f29f566c3ca53a25046a4982bd1a53fce1a7bc28d",
+          "gitBlobFingerprint": "86db683ce757adc980186284c63fb9959f68a2e36069f2448389ee74d1de938c",
+          "path": "research/evidence/global/inputs/ph-bicol-pal.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "47c51437d3a63f1a6def4ec4ad0a98ea7edf87e882dc5c7279d6577f0390025b"
+        },
+        {
+          "decompressedSha256": "9bb280830d9332d2668e3c5cb259afbfe14af5da15d944f7927de50c30159334",
+          "gitBlobFingerprint": "e36f5bf4c36a4b4bd9c6ca8452c945fa9a339f2f8ba055d2ba97b59e32426854",
+          "path": "research/evidence/global/texts/ph-bicol-pal.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "e56e2ac0f1eb88009b440be08dfe9f2aa6f03f1ba8f0378759cbfa37c98485ee"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Evidence archive excluded from repository MIT license; no license to photographs, charts or trademarks granted. Redistribution scope must be checked before downstream republication.",
+        "url": "https://www.philippineairlines.com/content/dam/palportal/migration/files/pdf/downloadable-forms/domestic%20accrual%20chart%20as%2024%20january%202024.pdf"
+      },
+      "originalSha256": "3b5a1de7a6b8285e6fa9e02f29f566c3ca53a25046a4982bd1a53fce1a7bc28d",
+      "publisher": "Philippine Airlines",
+      "sourceId": "ph-bicol-pal",
+      "url": "https://www.philippineairlines.com/content/dam/palportal/migration/files/pdf/downloadable-forms/domestic%20accrual%20chart%20as%2024%20january%202024.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "094b5531b4ef0487c8ee8cb7faebed85105ab318ba442f7a0b41c46ac8774d96",
+          "gitBlobFingerprint": "1723a8801da380f28e276de638507887e8ae865d02bbe269cf7d14cded608ee8",
+          "path": "research/evidence/global/inputs/ao-luanda-taag.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "5215818f8fe0a8065b0abb1eda0c1df3ce26422c8f8e825abfa8bb1c2b143ecf"
+        },
+        {
+          "decompressedSha256": "f89574376574130d3ced9351cd821fa237220dee2c0bd0b6a79fca3ebc9e1fcd",
+          "gitBlobFingerprint": "1048399f93f9e6e62cd1ec5ac65d0525358025e64a546ba8cca10056486b3910",
+          "path": "research/evidence/global/texts/ao-luanda-taag.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "0096f18ab47a4973a38f14d56b3c386ec0703b79efc760720e620f93652a0c0b"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Evidence archive excluded from repository MIT license; no license to photographs, charts or trademarks granted. Redistribution scope must be checked before downstream republication.",
+        "url": "https://flytaag.com/en/Info/Transfer-of-international-flights-to-AIAAN"
+      },
+      "originalSha256": "094b5531b4ef0487c8ee8cb7faebed85105ab318ba442f7a0b41c46ac8774d96",
+      "publisher": "TAAG Angola Airlines",
+      "sourceId": "ao-luanda-taag",
+      "url": "https://flytaag.com/en/Info/Transfer-of-international-flights-to-AIAAN"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "dd1fa54fb26657530266d27d5bc2b92f8cb3ae5957cbe3913d75accb3904078d",
+          "gitBlobFingerprint": "c63f741823bc3c13643cf40c38558f10b6c82c20d4eee1360aad09d51a291f0d",
+          "path": "research/evidence/global/inputs/ao-luanda-history.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "d3d8620a69402d0abfa4d1f1743ba2263c67ada0f5fbf261a4434a6bd7c4b921"
+        },
+        {
+          "decompressedSha256": "4928612f5647638a84d7a31ceffad7b97544a7d534cd857671c522c96c10ec49",
+          "gitBlobFingerprint": "a5632a2261b30d01198503746ac408e5ec91924319c3edc986df19b7d3741752",
+          "path": "research/evidence/global/texts/ao-luanda-history.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "e722a4e314e346b5c38b9f5c3e8c239aea81b2bc8186af1651403a697a8b7960"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Evidence archive excluded from repository MIT license; no license to photographs, charts or trademarks granted. Redistribution scope must be checked before downstream republication.",
+        "url": "https://flytaag.com/en/TAAG/History"
+      },
+      "originalSha256": "dd1fa54fb26657530266d27d5bc2b92f8cb3ae5957cbe3913d75accb3904078d",
+      "publisher": "TAAG Angola Airlines",
+      "sourceId": "ao-luanda-history",
+      "url": "https://flytaag.com/en/TAAG/History"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "rejected_response",
+      "files": [
+        {
+          "decompressedSha256": "c3d27b1170306be59a298854d66af62961244ad58b964ebd0794ff73fbd43741",
+          "gitBlobFingerprint": "a48549728b107f5d58f1ff7a0ff55b9e5c196c32afcfa4060ad3efbf2e287b3b",
+          "path": "research/evidence/global/inputs/mz-xaixai-operator.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "85e2b510f37e09af3635f79827018f6d231bf3d54325497bb6cb74cb21f3e448"
+        },
+        {
+          "decompressedSha256": "f2cbedfaae89a1deb0e463758afe202a09f17abd25a167c57cb864b7a8c898a1",
+          "gitBlobFingerprint": "fbd69d1aba05ef22156dedebbf7bd794e7a721cc9479068281e7d11f3ce84614",
+          "path": "research/evidence/global/texts/mz-xaixai-operator.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "7f3d6f52093630770fa8a1ad1a375e03409aad746e9683e7f9469299f5da74a1"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Evidence archive excluded from repository MIT license; no license to photographs, charts or trademarks granted. Redistribution scope must be checked before downstream republication.",
+        "url": "https://aeroportos.co.mz/detalhes-aeroporto?id=3cd1472c-4f0b-40eb-a2e4-49945488025b"
+      },
+      "originalSha256": "c3d27b1170306be59a298854d66af62961244ad58b964ebd0794ff73fbd43741",
+      "publisher": "Aeroportos de Mocambique",
+      "sourceId": "mz-xaixai-operator",
+      "url": "https://aeroportos.co.mz/detalhes-aeroporto?id=3cd1472c-4f0b-40eb-a2e4-49945488025b"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "rejected_response",
+      "files": [
+        {
+          "decompressedSha256": "f0012f9c3921d7d43a225d6e7bc8131fe86832079ed43dc0e1a9a69f1b5a6135",
+          "gitBlobFingerprint": "fc74fe93efcea5a5ac182b0e0514d00337e52ff949bf7e22686ef6a55448896a",
+          "path": "research/evidence/global/inputs/id-mentawai-actual.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "62c0d9f24fd07e42768c4e03dd99ab97cb3c58b9392708d7974be528131cb980"
+        },
+        {
+          "decompressedSha256": "99591c0dc8076cccc13d9c4412d4ebdc92fc1f0fdd0d5a1a7da22f78dfd13288",
+          "gitBlobFingerprint": "4ef4d91aa3b17d97ddb74e425ebc31773bbea10d28d691e177e844108429e7a4",
+          "path": "research/evidence/global/texts/id-mentawai-actual.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "be67b3bd2f271dc3ca2292ec7796654c6a084d4fc16745e5b2e9563f579792c0"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Evidence archive excluded from repository MIT license; no license to photographs, charts or trademarks granted. Redistribution scope must be checked before downstream republication.",
+        "url": "https://dephub.go.id/index.php/post/read/presiden-resmikan-bandara-mentawai.-aksesibilitas-yang-makin-baik-dorong-meningkatnya-kesejahteraan-masyarakat"
+      },
+      "originalSha256": "f0012f9c3921d7d43a225d6e7bc8131fe86832079ed43dc0e1a9a69f1b5a6135",
+      "publisher": "Indonesia Ministry of Transportation",
+      "sourceId": "id-mentawai-actual",
+      "url": "https://dephub.go.id/index.php/post/read/presiden-resmikan-bandara-mentawai.-aksesibilitas-yang-makin-baik-dorong-meningkatnya-kesejahteraan-masyarakat"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "rejected_response",
+      "files": [
+        {
+          "decompressedSha256": "4d852ceae9209c10fe3bc20fe78a3a6a766ad4fff7d197ae335d8a7c1a8eac61",
+          "gitBlobFingerprint": "a68a80ef5bf543a5f1ed241c825ae8c8e11223f31242586da280bace31bc8dc9",
+          "path": "research/evidence/global/inputs/id-toraja-actual.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "16402adbbbe95b3c6846728e05db7dbf0c95050a7e222c33414cebf5b3e54156"
+        },
+        {
+          "decompressedSha256": "d8ea92d65a2feec6b756a65fdbf18240e618f4e7ac629daf7da430932b2d98cb",
+          "gitBlobFingerprint": "4fed76fa1b30427e4f6da7645a23c789a9fa984a1e5916ca6417b8a3723efa03",
+          "path": "research/evidence/global/texts/id-toraja-actual.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "04ca7189d559fb6ae29a0ca5fe62aba9d4114b159bed499ff1cb8eaa6ba4663a"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Evidence archive excluded from repository MIT license; no license to photographs, charts or trademarks granted. Redistribution scope must be checked before downstream republication.",
+        "url": "https://dephub.go.id/post/read/presiden-ri-resmikan-dua-bandara-sekaligus-di-toraja"
+      },
+      "originalSha256": "4d852ceae9209c10fe3bc20fe78a3a6a766ad4fff7d197ae335d8a7c1a8eac61",
+      "publisher": "Indonesia Ministry of Transportation",
+      "sourceId": "id-toraja-actual",
+      "url": "https://dephub.go.id/post/read/presiden-ri-resmikan-dua-bandara-sekaligus-di-toraja"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "2a46e56dc73036e075291d197e5b4bd07e835934bbb0d647fdb82f2859879db0",
+          "gitBlobFingerprint": "07d0b796e7e8f0e4ef41d51292bf9e6198d8245010efb141509825ea9d81ff58",
+          "path": "research/evidence/global/inputs/id-yogyakarta-airasia.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "000f91e422daaf072812717cecf951df16a5874e324707c4bdb5f387506e9ab4"
+        },
+        {
+          "decompressedSha256": "5af29fc2e40844f2e2f0763aa1fe893e850d156ea52d1e9479f45aa55cd948f5",
+          "gitBlobFingerprint": "0c485741bf8ea73fbd83aa6250e21a4350c1285bdc4fa1d9dd2c0d4e85181cf5",
+          "path": "research/evidence/global/texts/id-yogyakarta-airasia.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "c556313d9fdf40174ed7b3368c1d0f712b0fcebf080ca43d6f3ae59229eef558"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Evidence archive excluded from repository MIT license; no license to photographs, charts or trademarks granted. Redistribution scope must be checked before downstream republication.",
+        "url": "https://newsroom.airasia.com/news/2020/3/19/airasia-to-move-its-operations-in-yogyakarta-to-yogyakarta-international-airport-kulon-progo-starting-29-march-2020"
+      },
+      "originalSha256": "2a46e56dc73036e075291d197e5b4bd07e835934bbb0d647fdb82f2859879db0",
+      "publisher": "AirAsia Indonesia",
+      "sourceId": "id-yogyakarta-airasia",
+      "url": "https://newsroom.airasia.com/news/2020/3/19/airasia-to-move-its-operations-in-yogyakarta-to-yogyakarta-international-airport-kulon-progo-starting-29-march-2020"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "rejected_response",
+      "files": [
+        {
+          "decompressedSha256": "9106077fbc1d97054c449f8c5e5cef6fa0911fef9e3caaecf3a663e442a8a575",
+          "gitBlobFingerprint": "ab09ddcc97d42c2662dccd347c6c8e77a1e688231a54ce053ed63bcaf36d6162",
+          "path": "research/evidence/global/inputs/id-yogyakarta-ministry.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "3fb37fe5e283347b80e6011719ee4d34e8fa44ff583550d1adaf03e842b42b44"
+        },
+        {
+          "decompressedSha256": "6a10105cf1cb73930c5b715066b5d2215bc829061a9552534e3c4706a49e4d00",
+          "gitBlobFingerprint": "838532b8b05ee5241a94102f30a04715bea9016573910e81c3f61bf3acf4e27a",
+          "path": "research/evidence/global/texts/id-yogyakarta-ministry.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "8d93d583396bb6d979cb75db891ab3de5277606a84207f489a7405ca492139db"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Evidence archive excluded from repository MIT license; no license to photographs, charts or trademarks granted. Redistribution scope must be checked before downstream republication.",
+        "url": "https://dephub.go.id/index.php/post/read/beroperasi-penuh-29-maret%2C-menhub-minta-integrasi-antarmoda-di-bandara-internasional-yogyakarta-dioptimalkan"
+      },
+      "originalSha256": "9106077fbc1d97054c449f8c5e5cef6fa0911fef9e3caaecf3a663e442a8a575",
+      "publisher": "Indonesia Ministry of Transportation",
+      "sourceId": "id-yogyakarta-ministry",
+      "url": "https://dephub.go.id/index.php/post/read/beroperasi-penuh-29-maret%2C-menhub-minta-integrasi-antarmoda-di-bandara-internasional-yogyakarta-dioptimalkan"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "310e2e30b1fe6ca39e6e7a695122d392f29341a00d6c32c72c1f4e00166119e5",
+          "gitBlobFingerprint": "45e0df35c26bc75ce5aefbf4c5c7b9710ca593dbb83b94a4a5ffb63c4430ee48",
+          "path": "research/evidence/global/inputs/pg-mendi-government.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "23b312d1d127b272e45727146c2d4ed15fbc919fce6b577ff4250b582f04af62"
+        },
+        {
+          "decompressedSha256": "39b565d8c50681513ff9782e5e91896b3687fecb81d22c172d939922af292027",
+          "gitBlobFingerprint": "4e0420117ee97c8fb57dbb791367500e07637a9c93bc7643e0969c87f01ff5a7",
+          "path": "research/evidence/global/texts/pg-mendi-government.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "051cc53ab56440a81feb79ed9fe3272364f669499114547deb2b321dcd750369"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Evidence archive excluded from repository MIT license; no license to photographs, charts or trademarks granted. Redistribution scope must be checked before downstream republication.",
+        "url": "https://www.pmnec.gov.pg/prime-minister-hon-james-marape-urges-care-of-newly-reopenedk41-million-mendi-airport/"
+      },
+      "originalSha256": "310e2e30b1fe6ca39e6e7a695122d392f29341a00d6c32c72c1f4e00166119e5",
+      "publisher": "PNG Department of Prime Minister and National Executive Council",
+      "sourceId": "pg-mendi-government",
+      "url": "https://www.pmnec.gov.pg/prime-minister-hon-james-marape-urges-care-of-newly-reopenedk41-million-mendi-airport/"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "edd26fc088d6f68291c067348036ab3c90350ded1aaf590ae3a3eb9f30ce9e1c",
+          "gitBlobFingerprint": "61e034f4dbf78c279e5f8d5740ccc18907edd448fe3b4461755e1991dadaa7a8",
+          "path": "research/evidence/global/inputs/cn-dazhou-airline.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "47fa286e4bcd614e8b684f417941dc52d9b3e1c0d5da778087ded62d6368f934"
+        },
+        {
+          "decompressedSha256": "7495b283c4ab6ca756dc828799e6f43a609cec9b38dbeb78c32a6c2308f66869",
+          "gitBlobFingerprint": "bb290bfc31dc7607874f84f889455fa79aeb0f5ad46778fd0e4ca1b0b8ed58d9",
+          "path": "research/evidence/global/texts/cn-dazhou-airline.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "24cc989dfa8ae114509ee24fa87e23abb6a1bba50a7d7aaba31d08f68d44d7cb"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source rights retained. Evidence archive is excluded from the repository MIT license. No blanket downstream republication license inferred.",
+        "url": "https://www.sichuanair.com/affiche/415.html"
+      },
+      "originalSha256": "edd26fc088d6f68291c067348036ab3c90350ded1aaf590ae3a3eb9f30ce9e1c",
+      "publisher": "Sichuan Airlines",
+      "sourceId": "cn-dazhou-airline",
+      "url": "https://www.sichuanair.com/affiche/415.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "20a42fecad57d53f052ea0040947554b488a2a40e5522230bfdcda41b6d207aa",
+          "gitBlobFingerprint": "2de9cfce21e45763abb271ed97ef3ce78d2450665376c8218b6f3e4f4036627b",
+          "path": "research/evidence/global/inputs/cn-2022-aviation-report.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "51e2d397e627d9b7f5e60d514db24c27ab7fd5f19a8d21403be7618372322474"
+        },
+        {
+          "decompressedSha256": "6c24e40f1ef18a12622dd324ae615adc237f4550f9fb7127e65ab59e4f5b5088",
+          "gitBlobFingerprint": "43ac8371c0713933e9ec88edc3e3d4185a0f411b5805d5c70c8feb36dcb20290",
+          "path": "research/evidence/global/texts/cn-2022-aviation-report.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "9b2b0cb688f90fca5a68e707037b3765004518d5adaf4198b0ffecca65ec9e03"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source rights retained. Evidence archive is excluded from the repository MIT license. No blanket downstream republication license inferred.",
+        "url": "https://www.caac.gov.cn/English/Research/Reports/Statistical/202312/P020231225495691527532.pdf"
+      },
+      "originalSha256": "20a42fecad57d53f052ea0040947554b488a2a40e5522230bfdcda41b6d207aa",
+      "publisher": "Civil Aviation Administration of China",
+      "sourceId": "cn-2022-aviation-report",
+      "url": "https://www.caac.gov.cn/English/Research/Reports/Statistical/202312/P020231225495691527532.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "65d73c6f2551240babae169675d15c8df2c807d6709dd94746f476be8da72832",
+          "gitBlobFingerprint": "bff95958c948bc496afa9f3ec475a88a91b1e0ee053b19a27e97b0bef57adf41",
+          "path": "research/evidence/global/inputs/ws-fagalii-airline.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "0f9116fa98c22b99222a740f6341b01ab3cee469209ea3d239b19a25ea95aa20"
+        },
+        {
+          "decompressedSha256": "b0232e4fec1387c1a68a9408ffa866bcf1b6d2547b84197804a769b9a1e99d5c",
+          "gitBlobFingerprint": "1d298a3b87966f750e99690e8f4674da5978242a954a1319e8279e2001e973cc",
+          "path": "research/evidence/global/texts/ws-fagalii-airline.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "72d751b946c0c9e4b64046659e965ededd7287f054541630f6d575f082ca7928"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source rights retained. Evidence archive is excluded from the repository MIT license. No blanket downstream republication license inferred.",
+        "url": "https://samoaairways.com/"
+      },
+      "originalSha256": "65d73c6f2551240babae169675d15c8df2c807d6709dd94746f476be8da72832",
+      "publisher": "Samoa Airways",
+      "sourceId": "ws-fagalii-airline",
+      "url": "https://samoaairways.com/"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "b8415f6b00ca2c112c42365e2cd1a44bab7d2b448743e5fd4fd9001715ad2c66",
+          "gitBlobFingerprint": "d9264bd4e2efbf6b9de554f820972c2fb45017be2dace8ee13113e39d995887c",
+          "path": "research/evidence/global/inputs/vn-vandon-launch.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "ac15e2109aeddd54421f2dbb3ed3d6e18d5a9eaeb0d10a3bc2b75cd1ea1dd720"
+        },
+        {
+          "decompressedSha256": "6185d68bbe9c945258c1ce81f408c60459dd617525ba2687bb79ea915e0c4121",
+          "gitBlobFingerprint": "9b6642fc313879bf5bdb63d7d49bd46bf18b93053631ffe0e232489c036a27c0",
+          "path": "research/evidence/global/texts/vn-vandon-launch.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "ae647c983b75e291b8320662bb7d8ac2c40f0971a412cd19846a46a89d948a6c"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source rights retained. Evidence archive is excluded from the repository MIT license. No blanket downstream republication license inferred.",
+        "url": "https://www.vietnamairlines.com/ke/en/vietnam-airlines/press-room/news/2018/1204-VI-VNA-mo-duong-bay-SGN-VDO"
+      },
+      "originalSha256": "b8415f6b00ca2c112c42365e2cd1a44bab7d2b448743e5fd4fd9001715ad2c66",
+      "publisher": "Vietnam Airlines",
+      "sourceId": "vn-vandon-launch",
+      "url": "https://www.vietnamairlines.com/ke/en/vietnam-airlines/press-room/news/2018/1204-VI-VNA-mo-duong-bay-SGN-VDO"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "90a24c46229b57303be77ff47066578b1504682e460c00b094002b110fdd8354",
+          "gitBlobFingerprint": "eb19081fbf13703948e63f8192b2cf3ecc0fe62d6e6e0ca961b9af9a7da9a49b",
+          "path": "research/evidence/global/inputs/br-conquista-ais.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "5880882b154ec7a2d3cedfc4c0ccd741ff5765d7f9cef6b9de9fbb224f2108d4"
+        },
+        {
+          "decompressedSha256": "c888eb951318a5f572f0ef947014d77104afb01987a98983fdd2d786a6885c0e",
+          "gitBlobFingerprint": "f75cce7547ce191014909cbf673444dd7408dac1bd6159b0a0a74567826adf0e",
+          "path": "research/evidence/global/texts/br-conquista-ais.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "ea21427333c5d51570657e4740ecdc5b45f609bf1c904ffec7fc9073e826f188"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source rights retained. Evidence archive is excluded from the repository MIT license. No blanket downstream republication license inferred.",
+        "url": "https://aisweb.decea.mil.br/?i=aerodromos&codigo=SBVC"
+      },
+      "originalSha256": "90a24c46229b57303be77ff47066578b1504682e460c00b094002b110fdd8354",
+      "publisher": "Brazil DECEA",
+      "sourceId": "br-conquista-ais",
+      "url": "https://aisweb.decea.mil.br/?i=aerodromos&codigo=SBVC"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "2a05dfc8f47f3313be979e6b18835349b76d5ad8b4390502418dc1484e769b80",
+          "gitBlobFingerprint": "371c9cdd07bdc0d56d36b0aaa3bd602773808132bb9f7e3ba08759f2365be10f",
+          "path": "research/evidence/global/inputs/in-aip-2024-adindex.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "f489134e49682c4381cc226b61c050554780179c2bb47433dba73a4d520bdc54"
+        },
+        {
+          "decompressedSha256": "48be697bf70aa8f2b45de96d20b17767b96a8f00526df7b34c57b8b95c88daf9",
+          "gitBlobFingerprint": "ab59d53b17e826ce7f89044771664691a18bca8977e6a92fc181aad329f5e378",
+          "path": "research/evidence/global/texts/in-aip-2024-adindex.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "a56bf1dc39b272ce656876d512801c9a0d51348b12b4010667a4c44d438cd8ec"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Source rights retained; evidence archive excluded from MIT license; no broad republication permission inferred.",
+        "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%201.3-en-GB.html"
+      },
+      "originalSha256": "2a05dfc8f47f3313be979e6b18835349b76d5ad8b4390502418dc1484e769b80",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-2024-adindex",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%201.3-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "4da8111747be857da3f38e924045fb1f7ad133250106f7705473872fd68cb887",
+          "gitBlobFingerprint": "265e4c4ea60a150f392019bc004431e10f7add0db23123e64d559b9366d7be59",
+          "path": "research/evidence/global/inputs/in-hollongi-supplement.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "4947d3edd755c2952989837c37ab13d437d6a10766a53cb98d7c9fc48e88657b"
+        },
+        {
+          "decompressedSha256": "f56db48a6452aafa497e65311e0fd559149c4d65cd20eeab64a30b671473e30c",
+          "gitBlobFingerprint": "df420cdd480ae51406ca21301d52bc979cfb5e89f28b39c3ed1d0877e06a5f9f",
+          "path": "research/evidence/global/texts/in-hollongi-supplement.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "0a3f98e1551e48fe61950faaec3bb31b600d96877e79f0ba172547cad2600300"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Source rights retained; evidence archive excluded from MIT license; no broad republication permission inferred.",
+        "url": "https://aim-india.aai.aero/sites/default/files/aip_supplements/AIPS_2022_166.pdf"
+      },
+      "originalSha256": "4da8111747be857da3f38e924045fb1f7ad133250106f7705473872fd68cb887",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-hollongi-supplement",
+      "url": "https://aim-india.aai.aero/sites/default/files/aip_supplements/AIPS_2022_166.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "2f0ccf7b54fae0770d53ad626c96dfd50a86931a7c44f7eecc25f492e3f05753",
+          "gitBlobFingerprint": "30f54d7557b4f8568dfee1c6418ce8b30cede81d9999d9f1d5aaf1b7e93640a9",
+          "path": "research/evidence/global/inputs/vn-vandon-retrospective.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "ebbb02587292aeb72ce608697948a3d17be2c5a04a5b5cdaa1022db8e95f0756"
+        },
+        {
+          "decompressedSha256": "6e8daa43d0341360205798c10d50f4bf013767fe2a5c0ec6da46a75cf3d7b8a1",
+          "gitBlobFingerprint": "19689c43b20c412aa34a722b4d1b52e990fbfcc0876988671789714eddd827ec",
+          "path": "research/evidence/global/texts/vn-vandon-retrospective.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "d8f3b1f9577b8ab97793183f809db2b32a3d7aaeb0ca881a4e60c35fb2e91837"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Source rights retained; evidence archive excluded from MIT license; no broad republication permission inferred.",
+        "url": "https://spirit.vietnamairlines.com/news/skypec-2019-year-of-renovation-and-development-2.html"
+      },
+      "originalSha256": "2f0ccf7b54fae0770d53ad626c96dfd50a86931a7c44f7eecc25f492e3f05753",
+      "publisher": "Vietnam Airlines",
+      "sourceId": "vn-vandon-retrospective",
+      "url": "https://spirit.vietnamairlines.com/news/skypec-2019-year-of-renovation-and-development-2.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "7ab4b3da4953c4c833c5ede076c824877240ed52e3cd53f62909c3a61da48df3",
+          "gitBlobFingerprint": "bcfdb68fe14ef2d5d33cdc470f667b1c0506e1652715c484f3181a79da99a041",
+          "path": "research/evidence/global/inputs/ph-bicol-current.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "b19df0a351a15134ce6705e9efbf915ec83e15192e88770357de624848b9f64f"
+        },
+        {
+          "decompressedSha256": "ee58519e5e6ff340c7bea365959130d95ff79dedc1f9111f5d5a0da42ebccf3d",
+          "gitBlobFingerprint": "98b2d1b9cb3310bc5dd41d71d4dbe949e9dfc7f2b88c241e44ab88bb7164f86e",
+          "path": "research/evidence/global/texts/ph-bicol-current.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "886bef9f3e9e63c5f69b1bcd6977eab294459d461e9859e9fee02898eb4ae066"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Source rights retained; evidence archive excluded from MIT license; no broad republication permission inferred.",
+        "url": "https://flights.philippineairlines.com/en-ph/flights-to-legazpi-daraga"
+      },
+      "originalSha256": "7ab4b3da4953c4c833c5ede076c824877240ed52e3cd53f62909c3a61da48df3",
+      "publisher": "Philippine Airlines",
+      "sourceId": "ph-bicol-current",
+      "url": "https://flights.philippineairlines.com/en-ph/flights-to-legazpi-daraga"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "6a06169e9b29f5efa8a82d4ba3e989a771bdf5b6349ea5e8ac86a40ae41fe853",
+          "gitBlobFingerprint": "d5c0844b50acd7edba8e79998b73296e286848947f7db572e195fcdfa4052791",
+          "path": "research/evidence/global/inputs/in-greenfield-projects.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "02a07399fe707057c7858ff7ac8fad877c819bb32083ceecf79c77419229fd74"
+        },
+        {
+          "decompressedSha256": "030079e20bff06392911932e5cdc4dcb6f92c798beb0ad973c44f44641af45f0",
+          "gitBlobFingerprint": "3d075e0c353acc817d4efce1e0ef807ac81089e24fed0c3c6ddd532a9dd1c591",
+          "path": "research/evidence/global/texts/in-greenfield-projects.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "748c190066bb831a1e469a1d62077ebe6b9d57ead10f4ffa2df1d4e08301fc08"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-India-Government",
+        "note": "Government factual publication; preserve attribution and applicable PIB copyright policy; third-party works remain excluded.",
+        "url": "https://www.pib.gov.in/ContentPage.aspx?ID=38"
+      },
+      "originalSha256": "6a06169e9b29f5efa8a82d4ba3e989a771bdf5b6349ea5e8ac86a40ae41fe853",
+      "publisher": "India Ministry of Civil Aviation / PIB",
+      "sourceId": "in-greenfield-projects",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/jun/doc2025611568101.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "7d2cdded5aa9ebe710a600f96dd3fc9cc408b8e19f957e91dc4a69d4d216e3f9",
+          "gitBlobFingerprint": "3d6b865285751cd975e457f7087c1873905237e74ed073ac279bc154d098c28f",
+          "path": "research/evidence/global/inputs/in-aip-22-02-2024-vosr.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "707b1d223eaed69ec388f4d4b0c59c62304d5fb1f77ef80d7c0b73eaa4fa40de"
+        },
+        {
+          "decompressedSha256": "3a8b448f5ca6f89edf9aa1e8532f1d4bd2ce7740dc41093cb0550ca0618f2ad5",
+          "gitBlobFingerprint": "a52a7c15cfad15ae83f45e6bd188381eeaeffe394ce157c257b0c0bdd2563708",
+          "path": "research/evidence/global/texts/in-aip-22-02-2024-vosr.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "ab45d885a4dd324e147413272552b1ebd90311cb961f72209ff4eb03177493f6"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "7d2cdded5aa9ebe710a600f96dd3fc9cc408b8e19f957e91dc4a69d4d216e3f9",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-22-02-2024-vosr",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOSR-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "2b297301ec0598b89777250a2b94b15472f17080dbd457a8ea01c361cf3ffb8e",
+          "gitBlobFingerprint": "545f17cd96a69733c0873b5bcf49cdede5cb07e648b96728109d5d7b8a84aa42",
+          "path": "research/evidence/global/inputs/in-aip-09-07-2026-vosr.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "bb6d2ca37af0a5f0b173237e481dcb495d2b5772a752e2401df5a915c2c73504"
+        },
+        {
+          "decompressedSha256": "57985d4f6abf5f32adbd6e7f560c5df18662fccea37859ac191902ada2ac15c5",
+          "gitBlobFingerprint": "70fd76942298c9597926c28cdb2a45f8601a8a146dd16147c019c26d64322b68",
+          "path": "research/evidence/global/texts/in-aip-09-07-2026-vosr.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "628eb771d83b6982148d91ac5a5e0e4cdef40fb3f6602b6a7ccd5c78b480e643"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "2b297301ec0598b89777250a2b94b15472f17080dbd457a8ea01c361cf3ffb8e",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-09-07-2026-vosr",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOSR-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "0c26cd396ba367e6c5bc226701168122c33e78086d381dbde99acfada55c2564",
+          "gitBlobFingerprint": "919a269b2dcc56cfbc65fccfe2391125da5f09f464f8a9392fea526a64a3c614",
+          "path": "research/evidence/global/inputs/in-aip-22-02-2024-vogb.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "842523146ac34131771768ec6056fec3633b22818726e0aeb172eb06735b2096"
+        },
+        {
+          "decompressedSha256": "b65b2fdae71454480d555a0e91cdda3921b60627e9be645288e2f313cfdfe322",
+          "gitBlobFingerprint": "6673ed95c5459bac80c16b28518f32ed1e86c4b19c8d6bfcb20c6071478e491b",
+          "path": "research/evidence/global/texts/in-aip-22-02-2024-vogb.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "969f7093ed9395fd21a532d14d1f784b4091df925391eddcbc1460bfc2097802"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "0c26cd396ba367e6c5bc226701168122c33e78086d381dbde99acfada55c2564",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-22-02-2024-vogb",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOGB-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "389c8ca77f515420069ea08f18358e76ea55645d51857be5b16c0c9859a6e35b",
+          "gitBlobFingerprint": "eabcd392f913672ea4e861a854b59caf6064801215fac0d295a466b8da13d2d4",
+          "path": "research/evidence/global/inputs/in-aip-09-07-2026-vogb.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "0b701984a6d24cac42f663741f0716b898122312e383f03c4f415fb4b5563e9b"
+        },
+        {
+          "decompressedSha256": "d5483bb3df6333378a927612faf4986e655124a1b2030c7a9e3b809a57f7afbb",
+          "gitBlobFingerprint": "cd55d438034787a34639ca2504a9dab0780c28b426302b5eb017513933503ebf",
+          "path": "research/evidence/global/texts/in-aip-09-07-2026-vogb.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "8ade37cd02f108c82fe16da6408c323783f9d0ce9477188590e8aaac6bd58ea6"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "389c8ca77f515420069ea08f18358e76ea55645d51857be5b16c0c9859a6e35b",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-09-07-2026-vogb",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOGB-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "d3b4984bf38100e8e7e59f5505644863537ce1527c203d19ccec061cda2fd8b0",
+          "gitBlobFingerprint": "f36894d33cfcfc2c2bee57620163bebd2331553e35fd31391b1c1d428aab7b5e",
+          "path": "research/evidence/global/inputs/in-aip-22-02-2024-vopc.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "33761edd870632f27a8b409d49c76721a58229c460b7b1c502e103e4588673d5"
+        },
+        {
+          "decompressedSha256": "59f781c9be3664ef85f40f19a5c67588e88aeea4a1b266dee9410fe97e9345bc",
+          "gitBlobFingerprint": "24012b502a8d757f32cba7255a787c902c248cbcffcc16466abcaf1460b0f837",
+          "path": "research/evidence/global/texts/in-aip-22-02-2024-vopc.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "ff39b399ed9d46de144ba4a6a913482a06cc4653ad651a4d531f9e5bdb0e4a60"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "d3b4984bf38100e8e7e59f5505644863537ce1527c203d19ccec061cda2fd8b0",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-22-02-2024-vopc",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOPC-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "265d585ca9a1940740680b2dcffbbb63424a828c5611f68ccab25b1555767ef4",
+          "gitBlobFingerprint": "9cf9bfe2c1cab4780706b13e4b12ec3a41f101a2134ab91618333ffb991ed471",
+          "path": "research/evidence/global/inputs/in-aip-09-07-2026-vopc.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "100f7760a83c8208b1319297b580ee788b9a2a1ae13cbecf1d2dcb86103d18b1"
+        },
+        {
+          "decompressedSha256": "f0a67185fb970c5dbb7c7fde3fbb6be69e54d263f4e989dbe46a9c9e8349bd40",
+          "gitBlobFingerprint": "7fa4ef072a6ccd0c2631ef1136e91f384eae3cfb3b085ed33e4f0942f2af4d20",
+          "path": "research/evidence/global/texts/in-aip-09-07-2026-vopc.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "109446575939e9b987a5ca6131a84cff456317b6302f98a50565a31fac1d3a3c"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "265d585ca9a1940740680b2dcffbbb63424a828c5611f68ccab25b1555767ef4",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-09-07-2026-vopc",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOPC-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "f33ab00d837b6c06c630373f9727c80dc2f581d784c0304268982a4196622d3e",
+          "gitBlobFingerprint": "0cc7b92943c90169675369cb252930a41a37aae820b9a0f19e1025305f3af73b",
+          "path": "research/evidence/global/inputs/in-aip-09-07-2026-veku.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "a4f9901607bc548a9a7eadb02983c706e9af339a8fe572a3ec9f5358a3ef2402"
+        },
+        {
+          "decompressedSha256": "55d9268c45d8eca5222237624e40d8dc7629623ab98da3713964f5c7a79b0ff3",
+          "gitBlobFingerprint": "d69a611996962ecc13eb609d76573240fdc26f11f2f92c4b33c65ba648d1279d",
+          "path": "research/evidence/global/texts/in-aip-09-07-2026-veku.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "a125b0f7e41decc3a118f6787e62ced4f4bd2280e9f982b824ff8d04104c61e9"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "f33ab00d837b6c06c630373f9727c80dc2f581d784c0304268982a4196622d3e",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-09-07-2026-veku",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEKU-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "3358aa1af9e8221a89eb267d26ef6934fba04544ee0b3cc035aa508cf9b00593",
+          "gitBlobFingerprint": "84a672424e6f5058e6ebd527a4c4a13e34d488d84e76c31004963ba2bd87b4df",
+          "path": "research/evidence/global/inputs/in-aip-22-02-2024-vosh.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "94a02f60af08f7be5793bf447e7ac2883dabac84051b19de1ecbd22a7cec55cf"
+        },
+        {
+          "decompressedSha256": "3341bfb784e3ae1f91615a84e52b071d79f3a1c520da16016cc729a7714090cc",
+          "gitBlobFingerprint": "5213de5a5792eb3b494ae01c5cc7c9a70093a41aa2e488b5ea6ad0a8cab4d003",
+          "path": "research/evidence/global/texts/in-aip-22-02-2024-vosh.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "a860d63a663dcea9c642a194d4539c8b0bed485007ac60c3b696d7fbb6c13b2f"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "3358aa1af9e8221a89eb267d26ef6934fba04544ee0b3cc035aa508cf9b00593",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-22-02-2024-vosh",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOSH-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "094839f873fea68c675319964372857073ed66ff79622d80d6d527a79b324907",
+          "gitBlobFingerprint": "5c2dbe55c988232f96a74eb4b5c3e25fdfd79c41ea6e1bee8263a8264af4275e",
+          "path": "research/evidence/global/inputs/in-aip-09-07-2026-vosh.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "bdb78d8f4134d0c84e89f5a138e2587abc238ae597fd0ca98c0a43327359b2c6"
+        },
+        {
+          "decompressedSha256": "578dfd79b81549a88732dc0c24e8a61fd99e2bec4e21989ad1fc18e78f344729",
+          "gitBlobFingerprint": "8fab40b6d65ee647b2f1cc7c30ea43410bec51457561ee2e60fad4fedb29eefb",
+          "path": "research/evidence/global/texts/in-aip-09-07-2026-vosh.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "1afcb57b3b7396bd1899ebb968a7288ae60fb00865c37028dd68d1a5dda988f1"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "094839f873fea68c675319964372857073ed66ff79622d80d6d527a79b324907",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-09-07-2026-vosh",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOSH-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "4099840f7b64571185be2499557c0e3493ccf7f87c95eb384744d05a82c476e5",
+          "gitBlobFingerprint": "6b7fcffce3dd40beba4d78120e5a5aac9dd30bce2b142e3e16af5ab8e66e41b2",
+          "path": "research/evidence/global/inputs/in-aip-22-02-2024-veho.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "098e47ceb504a1dbd4d7bc311dce852632f32e56f4e4fd7665d31dd6c75031ef"
+        },
+        {
+          "decompressedSha256": "12374426709da3704f382c276b543f58885f52c40aa2824fcda7ec30f3d4435d",
+          "gitBlobFingerprint": "91cd8b99fe69d0d01fbfef494ae9b7738d7e8b503fb03433dfb2dc5a07224e30",
+          "path": "research/evidence/global/texts/in-aip-22-02-2024-veho.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "465bde6df0f8df03a3d8d74897cc30bee1857c4d78d51873903103ef5dcb88db"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "4099840f7b64571185be2499557c0e3493ccf7f87c95eb384744d05a82c476e5",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-22-02-2024-veho",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VEHO-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "0b8f5af25cd6d0daf6eac094d147ca6f1df99a4f9760677266743790dbdaa7c1",
+          "gitBlobFingerprint": "623f3a63b36db61ac729ba7a94f980c12da729d5a44565e81df4f4ecafe9270e",
+          "path": "research/evidence/global/inputs/in-aip-09-07-2026-veho.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "e208c27170a35a78ecf5c23acf0254cc6651b6c24203a54fa950e69beccf216c"
+        },
+        {
+          "decompressedSha256": "f0d270495558ec5f863c0306be4a1a09ac41e9c7990d5388eec41448996660e2",
+          "gitBlobFingerprint": "7016ea35f8d02b160cfe77f1e948519c2b1ce8938c8f4d3127ec0cd6782778a5",
+          "path": "research/evidence/global/texts/in-aip-09-07-2026-veho.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "a07292ab1f76bcb1f0bc5c5cb94628ff64b0efde213fb565d310383a107dedb7"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "0b8f5af25cd6d0daf6eac094d147ca6f1df99a4f9760677266743790dbdaa7c1",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-09-07-2026-veho",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEHO-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "f3061cc80885e91d9c4c741c8242a7b9fe01bc184aa4b81c77e97ea40bf9d30b",
+          "gitBlobFingerprint": "e053de66dba231f0d36168166a2dffc7805f109980ff4f309b1cfd057d37bcad",
+          "path": "research/evidence/global/inputs/in-aip-22-02-2024-vogo.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "ac2f07a448fa5f3917bf6b4b4b85540922208dfd694ffd040d50189bd936b2d5"
+        },
+        {
+          "decompressedSha256": "ef936147129577c7209f32468bbcefb97cc260dc1f592167d167e64725d68381",
+          "gitBlobFingerprint": "340c4f8b2e0e966db3961189560525cb4ebfaf38fb98c743633ddc33250c42f3",
+          "path": "research/evidence/global/texts/in-aip-22-02-2024-vogo.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "e13a2c62227cb44a4129f3187ef46602f28b02140051bcdfd238fa66a212f837"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "f3061cc80885e91d9c4c741c8242a7b9fe01bc184aa4b81c77e97ea40bf9d30b",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-22-02-2024-vogo",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOGO-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "3d5fc73bb15358041a3567bc321c784b79b0da6ec29bc9f3e30e43becd405dc2",
+          "gitBlobFingerprint": "d811bbb31313daec1b579b37517ce162644a427a68dd77ed100bcdc534730424",
+          "path": "research/evidence/global/inputs/in-aip-09-07-2026-vogo.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "b9f8f1cb2fdb6b8447d952c69c8ed009688cc2c43c61608b41924ff34919dd59"
+        },
+        {
+          "decompressedSha256": "505a4673eee72949d3aa0688b20385f944daec8f150042d034c5745fc36d8a78",
+          "gitBlobFingerprint": "1408904770aae1d6f8ce8f7ff2460382c3a31557f695674f93c9dd20eba359f0",
+          "path": "research/evidence/global/texts/in-aip-09-07-2026-vogo.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "c7276346bffa2c0cfac04ba906079af76d88a6740d2976e651d9d0ffe8d449af"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "3d5fc73bb15358041a3567bc321c784b79b0da6ec29bc9f3e30e43becd405dc2",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-09-07-2026-vogo",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOGO-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "909d98700aae91605104884bdf66a5156804a4450ce0e55065582fd7095ad76d",
+          "gitBlobFingerprint": "8b9734e51c1906e1a7f077d8a682ea61148b3cc5ab5836f2575be9c9c69fd1ff",
+          "path": "research/evidence/global/inputs/in-aip-22-02-2024-vepy.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "085b83f32b10228bfbf202baed31a988ff17e77881e3be47fc9bf37119486f8d"
+        },
+        {
+          "decompressedSha256": "fb63832c09d2fbcc09bec75a8840d73c2f291be0b5ae7c5cd4aa7f21cf8b6d91",
+          "gitBlobFingerprint": "e704973d2cd68653dcc3c552a79b75d9a0c3d86ec763187de6523c82433d28b4",
+          "path": "research/evidence/global/texts/in-aip-22-02-2024-vepy.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "d16c27065a7f1a172193ebcd53166008029e8ee168feb88cb211ef92aba37ae8"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "909d98700aae91605104884bdf66a5156804a4450ce0e55065582fd7095ad76d",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-22-02-2024-vepy",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VEPY-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "bf1ae46c2470c51f3afd81830c23a7aacb5be3f9d3498661e0be4836bee6d105",
+          "gitBlobFingerprint": "0ce9d68378d5afb3c8ce9b54181eabb0541073bd9df6c12a4ea0e2083ab419a0",
+          "path": "research/evidence/global/inputs/in-aip-09-07-2026-vepy.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "7d62da7899b368a21ec1c40c18c6f5108c3b6af6d88f939c0e5b60839869f5a3"
+        },
+        {
+          "decompressedSha256": "ac10b96fd32c69b987d96cc942e3485a186ca6e11ee846727fab5ae883d84b46",
+          "gitBlobFingerprint": "1167da563017e5ace75995a6b8ec4adf3b2045accba2296b168ee3b1c9b7d539",
+          "path": "research/evidence/global/texts/in-aip-09-07-2026-vepy.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "e509b2670c3501de7f0bb3eb22e920cd2e52844a4af9742ef71d92c83be4dd4d"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "bf1ae46c2470c51f3afd81830c23a7aacb5be3f9d3498661e0be4836bee6d105",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-09-07-2026-vepy",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEPY-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "497b7e51001d0581a712f5b260626c3594f2d3a488a2d26872577fc5bcd8eb4b",
+          "gitBlobFingerprint": "9ca5a0daf5a883b4592e11a06720d95f3de3a3ed708c1833c4dbedfbb576dea8",
+          "path": "research/evidence/global/inputs/in-aip-22-02-2024-voku.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "bf57b4235872bab0d39b7bdd1fd21a29595037134656c0fef4bc4f3208094f60"
+        },
+        {
+          "decompressedSha256": "27a6b78e58df28567c99bf68a42edc988fccb96a42a8403c5ccfed1cc52807d1",
+          "gitBlobFingerprint": "b08d271a0be5577475a4005ddbb9b59afe614a29ad8fdc569d8866cafe6730a6",
+          "path": "research/evidence/global/texts/in-aip-22-02-2024-voku.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "51fb0f0ea80bc78a0cb6ee52feacd295179828b972eaedc58d960cc4672e1003"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "497b7e51001d0581a712f5b260626c3594f2d3a488a2d26872577fc5bcd8eb4b",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-22-02-2024-voku",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOKU-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "382dc49dcc7ab054ac7f8772fde8fa8e1b0c92b30e567bc629ba083b8f66a5bf",
+          "gitBlobFingerprint": "475936cbe7d01e5144523e2ce5891a93b9a0cfbbce3e96f5498b3316ac6a55b0",
+          "path": "research/evidence/global/inputs/in-aip-09-07-2026-voku.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "95fcf86357132c2ecd03cef3083bbbd5910955c5a88184f161b19296cb40aa1d"
+        },
+        {
+          "decompressedSha256": "a1a5e3a86baf320c93fd85183a5e1e44ba3d4e5832732ea475e652b14aff2dcd",
+          "gitBlobFingerprint": "e94de9dc69efa89719d970017bd1210ab78fcd1c63e215d33daf1cac78f2e52e",
+          "path": "research/evidence/global/texts/in-aip-09-07-2026-voku.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "f7893d68a583e00e328b6b800cd8fbd0c282d67a52867a3a0e4d3f9bed4b0ba7"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "382dc49dcc7ab054ac7f8772fde8fa8e1b0c92b30e567bc629ba083b8f66a5bf",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-09-07-2026-voku",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOKU-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "874dc196c54f8628e728e5390d4bf956ba80b879d50bc7eeddd6a91822b1d8cd",
+          "gitBlobFingerprint": "6427760b5e3ef90d7962c6b70640e93f3eca54a2e2264d519ff634d6aa00d3e5",
+          "path": "research/evidence/global/inputs/in-aip-22-02-2024-veki.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "17174cf7d0224daabc33577d809c5243fc3c24e4a1cb72cf845bb48acf8dfddc"
+        },
+        {
+          "decompressedSha256": "2136566810bb71d6eec9c30dc6dbbc8bdc84e4644810698cabbb75ed5d04ab91",
+          "gitBlobFingerprint": "1555e1e625b0feaf0b13bcaef84197d62f23e3f869b265cf6db76a4a01e57da3",
+          "path": "research/evidence/global/texts/in-aip-22-02-2024-veki.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "bd8d82d59ee5273262a30b7d5092caf118b009bcd8d8fc483795752047cf6b7c"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "874dc196c54f8628e728e5390d4bf956ba80b879d50bc7eeddd6a91822b1d8cd",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-22-02-2024-veki",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VEKI-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "80d102e58538e8e7b49375b5c6640d60b30774be80a29ba2c717465cda761fd7",
+          "gitBlobFingerprint": "3525f9d2ae5bf843692b9feb4b2190972c939eaaf95a0d931217c0eaaf6c723d",
+          "path": "research/evidence/global/inputs/in-aip-09-07-2026-veki.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "7e6235f3b810b0e17b4b1f000bea74751b4dd8a4f23bfee5e91a8bb4dc161be8"
+        },
+        {
+          "decompressedSha256": "78bfeec12952d4b889f5a92396f895362da6eddda8a25919cd708e7dbe4f23af",
+          "gitBlobFingerprint": "7f75867fe78fbd24a27c24ff2065371d6f701cdfda60859fb804ce80fb8eb227",
+          "path": "research/evidence/global/texts/in-aip-09-07-2026-veki.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "17566843ddefda3f3cd8e0d24786ff8c18195bee398a42527baa63973864e16a"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "80d102e58538e8e7b49375b5c6640d60b30774be80a29ba2c717465cda761fd7",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-09-07-2026-veki",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEKI-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "ef0994c58ea65dfdad34786342e2b361a1a082a562a8f373773cca6d6f94beba",
+          "gitBlobFingerprint": "ab69f4938610b0b5fbecc4cf51eed0afb89c60fb45eacab76f85dbccef61e2b1",
+          "path": "research/evidence/global/inputs/in-aip-22-02-2024-voga.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "9c3da22b96ccd293fef1e16c4582c661d93987875533840a4bd8b9a56578806e"
+        },
+        {
+          "decompressedSha256": "e677e7f0c815869591ebfc41e39da8031bf57e11fccfdb9da4fed6a719d1793d",
+          "gitBlobFingerprint": "98d2e247f6a9efc006399ab193c36a205c06ddf61449c9a19b627413517dffc3",
+          "path": "research/evidence/global/texts/in-aip-22-02-2024-voga.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "72bb44ee5733e15c76611a3cd480b18ae44f580ed0aba0d801d83613d15b3b16"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "ef0994c58ea65dfdad34786342e2b361a1a082a562a8f373773cca6d6f94beba",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-22-02-2024-voga",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOGA-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "26e4a6d5b270fad6b70880259b82a7341122758d236a1d7ad812369386be2163",
+          "gitBlobFingerprint": "3ea57343efc389953c546cba80641361bc5ac066f10cccee3a539533593301d3",
+          "path": "research/evidence/global/inputs/in-aip-09-07-2026-voga.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "eee0d2f2b146c0febc89e20b59c3e93b186e3b6908de7f72614ccadee85d8323"
+        },
+        {
+          "decompressedSha256": "7562fd89d4c2414f813139735be790403e84c2d8c00860a172c10d202fcbaf16",
+          "gitBlobFingerprint": "e9a80df6103f326880db8939b9db72552d0ce8d40a8a078e5a3e23480d88b367",
+          "path": "research/evidence/global/texts/in-aip-09-07-2026-voga.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "a058b5a25eb58d01ec4e9b73f1d09a779badd19037757858855f19fa2df4b173"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "26e4a6d5b270fad6b70880259b82a7341122758d236a1d7ad812369386be2163",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-09-07-2026-voga",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOGA-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "3f63bbb2053789a45d0f896d28820b7cc953cf1894d60346b6e5e7bf58de32c4",
+          "gitBlobFingerprint": "fba145361dcdf55e22013a9690b7172f0d118203686fbbaf9f97d295652ad011",
+          "path": "research/evidence/global/inputs/kh-sai-airasia.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "29333815b9dab483651450e4739dccc23b06f4454f5b07ee9b6d982d84efcee0"
+        },
+        {
+          "decompressedSha256": "589ff538284726a47f7b010f3c7577571c0c633f3a29e23f56cbef3e933194ba",
+          "gitBlobFingerprint": "87604f4ec2a77f0c76ac8942a8c4ca9efe4bf9583962695b367bfa33c848c2bd",
+          "path": "research/evidence/global/texts/kh-sai-airasia.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "c34d5a6814ed5567ad7cfeeb39efa80f7dabaecac428805725cf8d6efbc34f39"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Source rights remain applicable; original used as research evidence and excluded from repository MIT license. No general reuse permission claimed.",
+        "url": "https://newsroom.airasia.com/news/airasia-operations-in-siem-reap-will-relocate-to-siem-reapangkor-international-airport"
+      },
+      "originalSha256": "3f63bbb2053789a45d0f896d28820b7cc953cf1894d60346b6e5e7bf58de32c4",
+      "publisher": "AirAsia",
+      "sourceId": "kh-sai-airasia",
+      "url": "https://newsroom.airasia.com/news/airasia-operations-in-siem-reap-will-relocate-to-siem-reapangkor-international-airport"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "rejected_response",
+      "files": [
+        {
+          "decompressedSha256": "cdc39a14aafff97dd83d913b18ef8f0f9f570474abfb5fec976417b5d514ec27",
+          "gitBlobFingerprint": "d69a794deb9b6978074db468ff805802225047971c450c9a4f9484db9d82b85c",
+          "path": "research/evidence/global/inputs/kh-sai-bangkok.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "ec2c6c2324b03695dc7bbf77891a742fa71595a7b24a0c5a7193c4c09011d8db"
+        },
+        {
+          "decompressedSha256": "1cbd0e502666575a394db75908c240526b33fd2ad8d903139335d90fef1e4dba",
+          "gitBlobFingerprint": "14f5d53ec1c3a5b9cd68dda92179933118a3cf92d007ef2f25b1d725435f10c2",
+          "path": "research/evidence/global/texts/kh-sai-bangkok.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "9b333e5731443fb4369f2e6915c75f55b730ca3001b07502cb3ad940c2209c06"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Source rights remain applicable; original used as research evidence and excluded from repository MIT license. No general reuse permission claimed.",
+        "url": "https://www.bangkokair.com/eng/press-release/view/relocation-of-siem-reap-international-airport-rep-to-siam-reap-angkor-international-airport-sai"
+      },
+      "originalSha256": "cdc39a14aafff97dd83d913b18ef8f0f9f570474abfb5fec976417b5d514ec27",
+      "publisher": "Bangkok Airways",
+      "sourceId": "kh-sai-bangkok",
+      "url": "https://www.bangkokair.com/eng/press-release/view/relocation-of-siem-reap-international-airport-rep-to-siam-reap-angkor-international-airport-sai"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "be52085386cb98b6b61f4e4a3502d68a5949429068b9b5f72ae5950047c919e7",
+          "gitBlobFingerprint": "16a0f3859e779b05cee87d5c5ec396bc8b17e9bf39ceafbde34949b2f92b142b",
+          "path": "research/evidence/global/inputs/ph-bohol-tourism2025.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "b808515865d922b5d52ec32b186551aad845b9ec262371715969f34f6c0b7011"
+        },
+        {
+          "decompressedSha256": "cc42c13ef5e775b4daa59d080b156a155037208aca567d3e07e7cead836b8f06",
+          "gitBlobFingerprint": "178fe7f861a378bc55ee1ba0586cdda3fea75f53531007819ebd5e45be7e79b5",
+          "path": "research/evidence/global/texts/ph-bohol-tourism2025.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "9862c444f99475ca7c07e5d14fd9128c395d3ee70b67b38bae67201c8b804a71"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Source rights remain applicable; original used as research evidence and excluded from repository MIT license. No general reuse permission claimed.",
+        "url": "https://ppdo.bohol.gov.ph/ppdofiles/Profile/SocioEconomicProfile/EconomicDevelopment/TourismProfile2025.pdf"
+      },
+      "originalSha256": "be52085386cb98b6b61f4e4a3502d68a5949429068b9b5f72ae5950047c919e7",
+      "publisher": "Bohol Provincial Government / CAAP",
+      "sourceId": "ph-bohol-tourism2025",
+      "url": "https://ppdo.bohol.gov.ph/ppdofiles/Profile/SocioEconomicProfile/EconomicDevelopment/TourismProfile2025.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "6c7491c6b23567d01839dc04dadf797e55219eac7f49cb7773895a448e7e1d5c",
+          "gitBlobFingerprint": "74ba7b81b2cfcdcda6a974033b26dd8b4f1981ea7ac5ed426d9c7459e996f235",
+          "path": "research/evidence/global/inputs/in-greenfield-six-alternative.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "b1a5dc262dc9d5c9fc69d6b4d97dcf17fca8b10fd9386bd2394e94e188045484"
+        },
+        {
+          "decompressedSha256": "29ed693045f99d27a9b55431752a7886150fffae5f0f85a095e70b5c27d16934",
+          "gitBlobFingerprint": "9234105b2b42b8415449edf8ea80002788eb5b2aac105dc1c262ba260f4f89b0",
+          "path": "research/evidence/global/texts/in-greenfield-six-alternative.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "6b44f626c53141c8feabdd39a57d4301956b9c568ee0ff47af5d5a89c1c87d15"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Source rights remain applicable; original used as research evidence and excluded from repository MIT license. No general reuse permission claimed.",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1777194"
+      },
+      "originalSha256": "6c7491c6b23567d01839dc04dadf797e55219eac7f49cb7773895a448e7e1d5c",
+      "publisher": "India Ministry of Civil Aviation / PIB",
+      "sourceId": "in-greenfield-six-alternative",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1777194"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "b816f988a33b2bde62e68b297239ff4b8999483a892df7ff774c1bf60987fa4d",
+          "gitBlobFingerprint": "f3f24f6e77a4ff7e875cb2e193ebe2fe5490bf023fe7139fdf001aa48d3bae80",
+          "path": "research/evidence/global/inputs/es-murcia-aip.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "4e5ff08a85631b7a012dda849ba826f3b8a95e652afeb6714aad3daccde1cd54"
+        },
+        {
+          "decompressedSha256": "54d2e70af2ab53979034f9ddab8f4ddffae249556aa24fcf985cd6666b476575",
+          "gitBlobFingerprint": "89ae19c4ff5ded124769791efe40b7871505aa1db1bc7a3392d04e639cbf6dcb",
+          "path": "research/evidence/global/texts/es-murcia-aip.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "b2fdd16ef1e4e8618769909135ad7750a9b340d4b833ab75641101093d4719ee"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source terms apply. Excluded from repository MIT license. No onward license to embedded maps or third-party charts granted.",
+        "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LEMI/LE_AD_2_LEMI_en.pdf"
+      },
+      "originalSha256": "b816f988a33b2bde62e68b297239ff4b8999483a892df7ff774c1bf60987fa4d",
+      "publisher": "ENAIRE",
+      "sourceId": "es-murcia-aip",
+      "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LEMI/LE_AD_2_LEMI_en.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "2bd2cd7ccaff84df3b0f2b01247378a100b8879d540e0b46deeac74ba6a422b6",
+          "gitBlobFingerprint": "e3ffdbd975c6b26e6993c38c3173f473c58061ae9c33ef203d41b8ab26f30369",
+          "path": "research/evidence/global/inputs/es-sanjavier-aip.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "2d3cabed98afeaad75f4ff44b5747560bf08d610a0173ee7fdb9cff118bded7a"
+        },
+        {
+          "decompressedSha256": "f83f3261bc25057334c6b2482366d7f3a7b6104c7cf8d8b00c1c9776236d68e4",
+          "gitBlobFingerprint": "26bb6224ea225a5c56c13c210bdfe9398666882de8bdaa1543faaba46b5d3970",
+          "path": "research/evidence/global/texts/es-sanjavier-aip.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "4343a291f92ffeef84bc707e85edbbfbd8828d3766461e82c4b00caa16630587"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source terms apply. Excluded from repository MIT license. No onward license to embedded maps or third-party charts granted.",
+        "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LELC/LE_AD_2_LELC_en.pdf"
+      },
+      "originalSha256": "2bd2cd7ccaff84df3b0f2b01247378a100b8879d540e0b46deeac74ba6a422b6",
+      "publisher": "ENAIRE",
+      "sourceId": "es-sanjavier-aip",
+      "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LELC/LE_AD_2_LELC_en.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "58f24675ee738ddf8a9003e3f0b68cea77af0b6e3b754ab6e6ff225be0547f44",
+          "gitBlobFingerprint": "82ea39e7aee7daa9937202e370a54cfd98b44e4460dcd5843bf5870d24b687dc",
+          "path": "research/evidence/global/inputs/ph-bohol-jica.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "9dedd14241856ee601fac1eca487520bf53bb8247c97172a008d526ec639d61a"
+        },
+        {
+          "decompressedSha256": "25f937a76b39d7cfc0b29ff80c188281537b9b7efc02684e1f718db74074374e",
+          "gitBlobFingerprint": "174096096c088e9ff422b76f15177f7baa7803836032606c21e2edab0a06cebf",
+          "path": "research/evidence/global/texts/ph-bohol-jica.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "b2acc513f1791661a5276c9f47dd8fef08b3787584014b4285405171ebe88947"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source terms apply. Excluded from repository MIT license. No onward license to embedded maps or third-party charts granted.",
+        "url": "https://libportal.jica.go.jp/library/Data/DocforEnvironment/Reports/SoutheastAsia/PhilippinesNBACSEPProject/Phillipine_Bohol%20Airport_DFR_2012.pdf"
+      },
+      "originalSha256": "58f24675ee738ddf8a9003e3f0b68cea77af0b6e3b754ab6e6ff225be0547f44",
+      "publisher": "JICA / Philippines DOTC",
+      "sourceId": "ph-bohol-jica",
+      "url": "https://libportal.jica.go.jp/library/Data/DocforEnvironment/Reports/SoutheastAsia/PhilippinesNBACSEPProject/Phillipine_Bohol%20Airport_DFR_2012.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "81fd7d03b93967287c610ae0eaf26a4683eecff58436687b444016baa8ba7153",
+          "gitBlobFingerprint": "6506bd191605b6df7744a420b1ab4e1736f3caa0e9c5c4d752f8967b5e5b3ee7",
+          "path": "research/evidence/global/inputs/in-aip-22-02-2024-vasd.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "a839969ee2a63cd1c0467da7d20f253b92ef6df2e438cdbaa701b489ab7b4fc5"
+        },
+        {
+          "decompressedSha256": "d407d55819d3be6781fba0c28c28a93700bdc9e1b9dd62c4bcbc4c3e8b34a54e",
+          "gitBlobFingerprint": "01a4d7cbd2ee393796c4b4cf922d300971c42267c5dfafa9cfe3d897919332d9",
+          "path": "research/evidence/global/texts/in-aip-22-02-2024-vasd.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "dabd47d3f4929148c157c9e0305f9f5b2fe583193e7ad0be291058a197447147"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and source terms. Excluded from repository MIT license.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "81fd7d03b93967287c610ae0eaf26a4683eecff58436687b444016baa8ba7153",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-22-02-2024-vasd",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VASD-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "5cd3fb0fc845c6e934f4cac2286425582b911b3c86449f3001acc0cdd9f38f58",
+          "gitBlobFingerprint": "6abb865214dd727d7f2056aa493f8d7646bd4eb2f3e7ff63c3a1c03dae4cb33a",
+          "path": "research/evidence/global/inputs/in-aip-09-07-2026-vasd.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "f0b9f240f94b519a63b6ae30ce24b2567713d1333b7fd1b8ee8d9d5d802d1054"
+        },
+        {
+          "decompressedSha256": "01dae72e6de158632876c0443acf4266bd84a8b8c162633d05bc31d14b9523b5",
+          "gitBlobFingerprint": "b2d6c5e9f4837796ebf19f8b5559e04ab57eb5e79de64d64eb3757934ce27879",
+          "path": "research/evidence/global/texts/in-aip-09-07-2026-vasd.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "bb1f978b8c1318bcb6a349e7b3e892e06434dba2f9ea302c969f08b106d5b3f0"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and source terms. Excluded from repository MIT license.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "5cd3fb0fc845c6e934f4cac2286425582b911b3c86449f3001acc0cdd9f38f58",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-09-07-2026-vasd",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VASD-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "d1a519377dd26653b7cdcef734ce3e6198feb2608870056fd19dced3d33ed806",
+          "gitBlobFingerprint": "01da13b9966995732dc5a610a85d666083a2604a786d7beb57d1f550506ed2ac",
+          "path": "research/evidence/global/inputs/in-aip-22-02-2024-vokn.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "50d34ceb603157bc92e4fe4dff85d346a6f6e3dbcf144dd2f71b584331453aa1"
+        },
+        {
+          "decompressedSha256": "ec7b127903dbcd2c4441a5e5b522e890e030dfba3a3eb259ca2754a68c08f9df",
+          "gitBlobFingerprint": "515d8ed104a6059623cbcabe6d7d83e27b502fb599488381e02c5b4bf7d952f6",
+          "path": "research/evidence/global/texts/in-aip-22-02-2024-vokn.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "f75610e0a0bd54932eb6b900ac05205608f4bd6eff040bc23ac14e407e73176b"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and source terms. Excluded from repository MIT license.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "d1a519377dd26653b7cdcef734ce3e6198feb2608870056fd19dced3d33ed806",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-22-02-2024-vokn",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOKN-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "b9d89bf196066ed029b57a0e8fa92f39434d2722d2a0e3863e635f1908165dd6",
+          "gitBlobFingerprint": "e904f25d2846a6903bfc370120ac3ad9d430c3cf5c255df7fcf84492c4d77f4f",
+          "path": "research/evidence/global/inputs/in-aip-09-07-2026-vokn.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "9aae5de8c7ac4524c0cf5a7e773a26be7d9304abe605333c84271ea495f2d546"
+        },
+        {
+          "decompressedSha256": "ad193f478a40a55ae9d0fdeb822df6d1abc874caeb3bae0c7984ba61d0ba0e42",
+          "gitBlobFingerprint": "1a02057073d756e112cadb9f182553e157929c1b79df7906ab1523c610b27209",
+          "path": "research/evidence/global/texts/in-aip-09-07-2026-vokn.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "5665ab6db27c3923f62e9504f4718543fc3f3f03e589514223e4166379f8c6bd"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and source terms. Excluded from repository MIT license.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "b9d89bf196066ed029b57a0e8fa92f39434d2722d2a0e3863e635f1908165dd6",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-09-07-2026-vokn",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOKN-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "ae9d1df87457d565ec0768ee755cfcf8000934e991474cd57e90919877968d7a",
+          "gitBlobFingerprint": "95419908d43593e8d0aef046dae2f5106cd3091e2ee8ae3e571bbb7404f128b0",
+          "path": "research/evidence/global/inputs/in-aip-22-02-2024-vedg.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "900afc0567c61ab4795be7f74dc7f7d7e4b2f3e3db8d4ad0dadcf9d34511d150"
+        },
+        {
+          "decompressedSha256": "dc6be05f350779acb6eb7fb26d2473d462d825e9e691b6d9b7ba71f98591a093",
+          "gitBlobFingerprint": "600f3efd83b574468615dfe125bd513d1d4ed94472432d6a5655806d4047c9f7",
+          "path": "research/evidence/global/texts/in-aip-22-02-2024-vedg.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "08f5720ae45c6be979d6b742378f7e4d807cd4fe3c7e3f1244d6d979820ade26"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and source terms. Excluded from repository MIT license.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "ae9d1df87457d565ec0768ee755cfcf8000934e991474cd57e90919877968d7a",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-22-02-2024-vedg",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VEDG-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "c5280e347506c97836f65ce565416be5b15acb16d29dfd16a7542338d3dd5d1d",
+          "gitBlobFingerprint": "3dc087a32d2fea08ec1681958a95d4c71719e021e86b33d88101fed2e5807771",
+          "path": "research/evidence/global/inputs/in-aip-09-07-2026-vedg.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "bd099718d9020966be46120bd040bbee3145b1e0f3867d06ee9776beb441eb05"
+        },
+        {
+          "decompressedSha256": "6528b745454b1d04675b89fd36c3a72388b4f71e296fa1f0e28d412bc24b951b",
+          "gitBlobFingerprint": "eaea899f71517d23e88801f65055d1318c48110b234f384341d18ba98b7a14d3",
+          "path": "research/evidence/global/texts/in-aip-09-07-2026-vedg.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "e0f7cc48a007b24ec3050cac8907291bfd09caaf10d7f3ebcee9181ac28c6bfb"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and source terms. Excluded from repository MIT license.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "originalSha256": "c5280e347506c97836f65ce565416be5b15acb16d29dfd16a7542338d3dd5d1d",
+      "publisher": "Airports Authority of India",
+      "sourceId": "in-aip-09-07-2026-vedg",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEDG-en-GB.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "abcd400f52642da2db39c89c1a3660f8ca7613ad751a23c1bb2d22b1e21e7430",
+          "gitBlobFingerprint": "c18bbf53f4c4ea45dc60bcdcd98eb3dfeb1af5bef37fce137c6d32a794f0ef47",
+          "path": "research/evidence/global/inputs/zm-notam-2018.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "e6e232dff70233b47ff573633d58533ad35e5001917e6548ae59c2b81c153161"
+        },
+        {
+          "decompressedSha256": "a327da7411257d48ef7c0a379f719fb0d4ecdc5130be69dbf2a8bfa60a0e12ed",
+          "gitBlobFingerprint": "3659a3638f405b819fc36a81a42c312a8326ad3b1f879622fc2be1e316db3a6a",
+          "path": "research/evidence/global/texts/zm-notam-2018.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "bdbae067d9f61338f9b6484ccd180f8e6f34f37e1e1ee98c291d7f7fc591e02e"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original rights retained. Research evidence archive excluded from MIT license; downstream republication remains subject to source terms.",
+        "url": "https://www.zacl.co.zm/application/files/7115/2093/9373/NOTAM_Summary_Series_A_for_March_2018.pdf"
+      },
+      "originalSha256": "abcd400f52642da2db39c89c1a3660f8ca7613ad751a23c1bb2d22b1e21e7430",
+      "publisher": "Zambia Airports Corporation",
+      "sourceId": "zm-notam-2018",
+      "url": "https://www.zacl.co.zm/application/files/7115/2093/9373/NOTAM_Summary_Series_A_for_March_2018.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "f9eff7bfb5e3d289521b219b5301adffa1f1d182e55b8d74592e3df0a4706f3d",
+          "gitBlobFingerprint": "1bc060cc38d98c7fc89e8c1413aed18794b1171425d66ff12c8dd32b985adcdd",
+          "path": "research/evidence/global/inputs/zm-notam-2024.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "6264459e94076c8dc5065d89e46844173fba439458ea379b603d3b8f216c1550"
+        },
+        {
+          "decompressedSha256": "216057ec07f015d09e056f22eb0d240a64638e5487dfbcbab1105c2612d24911",
+          "gitBlobFingerprint": "0f637f400aab820407f2685ac2a6ef1fbc450a59851b3d24ead381df50460a98",
+          "path": "research/evidence/global/texts/zm-notam-2024.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "2a78fc1cb5fa6eaae16279b381e12d40d9847dffaf0a1e6f05976b8b0804a73e"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original rights retained. Research evidence archive excluded from MIT license; downstream republication remains subject to source terms.",
+        "url": "https://www.zacl.co.zm/application/files/2917/1808/8119/NOTAM_SUMMARY_ALPHA_june_2024.pdf"
+      },
+      "originalSha256": "f9eff7bfb5e3d289521b219b5301adffa1f1d182e55b8d74592e3df0a4706f3d",
+      "publisher": "Zambia Airports Corporation",
+      "sourceId": "zm-notam-2024",
+      "url": "https://www.zacl.co.zm/application/files/2917/1808/8119/NOTAM_SUMMARY_ALPHA_june_2024.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "99618dc0c21e0ad3c93d9eee82266daaf9b54213a5950c3d50b361c222bb22f0",
+          "gitBlobFingerprint": "141b0126c11edd9ccf41190d356d88acb2b4d7a5940136f86007ce83e2ba9014",
+          "path": "research/evidence/global/inputs/ph-bohol-airasia.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "b2b664616095c571c2df96f85046aa418240669794653caf6c5a0e9ee0a23838"
+        },
+        {
+          "decompressedSha256": "b22731b8590347e3e5a62fbfb921cecaf6a7cf845fdebcc38271e6c9afc8b2f9",
+          "gitBlobFingerprint": "ddd217000cb150c8b07723ae07c33d161e730dab9b9d90696a5693fd5a18a09c",
+          "path": "research/evidence/global/texts/ph-bohol-airasia.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "7976d23d42bfb25acb97a56f7460c40f8e5b64eacb91db1beb45670ff89afb48"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original rights retained. Research evidence archive excluded from MIT license; downstream republication remains subject to source terms.",
+        "url": "https://newsroom.airasia.com/news/2018/11/27/airasia-special-flight-new-panglao-international-airport-from-manila-arrives"
+      },
+      "originalSha256": "99618dc0c21e0ad3c93d9eee82266daaf9b54213a5950c3d50b361c222bb22f0",
+      "publisher": "AirAsia Philippines",
+      "sourceId": "ph-bohol-airasia",
+      "url": "https://newsroom.airasia.com/news/2018/11/27/airasia-special-flight-new-panglao-international-airport-from-manila-arrives"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "rejected_response",
+      "files": [
+        {
+          "decompressedSha256": "bd4d782277b361ffa1ac4a4a3f0f4dd6208470c494a94e508a895b8aa6664913",
+          "gitBlobFingerprint": "c190592ca06d6adbf8352d250b235911667f5b4894740e711daf10a848acc49a",
+          "path": "research/evidence/global/inputs/vn-airportmap.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "69da3b3bf78c67fbf50dc2f1dab8822be87fcf7889874c1f022142de4bded515"
+        },
+        {
+          "decompressedSha256": "a2d3024cb9e05be71d9c7918682523094942ae9512a00f1f6ccc36d21854a591",
+          "gitBlobFingerprint": "e343da36146eb0b8c5dc072b7ff17477e74bca7c454e89281bc198c265360ba6",
+          "path": "research/evidence/global/texts/vn-airportmap.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "31881ad49e30c67534d7252df1df18ee397c3ef170a0bf83467de50020dc4098"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher rights apply; archived for factual research, excluded from MIT license. No general republication permission inferred.",
+        "url": "https://airportmap.vietnamairlines.com/?lang=en"
+      },
+      "originalSha256": "bd4d782277b361ffa1ac4a4a3f0f4dd6208470c494a94e508a895b8aa6664913",
+      "publisher": "Vietnam Airlines",
+      "sourceId": "vn-airportmap",
+      "url": "https://airportmap.vietnamairlines.com/?lang=en"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "1b339d77cf6719a48df5a56e72059966acb38d052b84690848b1e36024ea90c3",
+          "gitBlobFingerprint": "d63b7cddf584d989b5024111407257589982500c1d3ec5d913c892b569eedb23",
+          "path": "research/evidence/global/inputs/ph-caap-cert2025.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "391e5b1573daebc0c031f419c88a78818754423c80f37438b554b1bf884fe034"
+        },
+        {
+          "decompressedSha256": "a431a315fb84b3215a745db8a331cc46c64a6290a9ec1b17c9a3b9acfab3a995",
+          "gitBlobFingerprint": "a743c7ad356738f9be77a6ace667851a75bf7c6c71e26a6d076729e98a57b5d2",
+          "path": "research/evidence/global/texts/ph-caap-cert2025.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "251e2245ee0a51aacc1bad3fa9916eedac75355cf2f5b75b35684d0d27176832"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher rights apply; archived for factual research, excluded from MIT license. No general republication permission inferred.",
+        "url": "https://caap.gov.ph/wp-content/uploads/2025/06/Status-of-Aerodrome-Certification-as-of-02-June-2025.pdf"
+      },
+      "originalSha256": "1b339d77cf6719a48df5a56e72059966acb38d052b84690848b1e36024ea90c3",
+      "publisher": "Civil Aviation Authority of the Philippines",
+      "sourceId": "ph-caap-cert2025",
+      "url": "https://caap.gov.ph/wp-content/uploads/2025/06/Status-of-Aerodrome-Certification-as-of-02-June-2025.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "eff0bb3a2f0463b057b87e96906200c937dca1d8b96672104019cef245f19de7",
+          "gitBlobFingerprint": "bc07695d20bb9c993f7dcecda197a39bbf47b7182e9495e617326819d38a51ff",
+          "path": "research/evidence/global/inputs/ph-pal-chart2021.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "3df15ca5d272b1eb373ee82a6ceaa6105666718dca4d6b53d55d40ebd42bc627"
+        },
+        {
+          "decompressedSha256": "e964050f6dccd505a80a8c07f8cfc34bae4bbf5fd2e6e5eedb67fdef63f2fa92",
+          "gitBlobFingerprint": "c1c8820bde273d19ea1c44f9c98ece67349fdc265c38a1974455d5dcbc7ef860",
+          "path": "research/evidence/global/texts/ph-pal-chart2021.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "9fd35a8069a8c00b4247a0d3541b51609b3cf01dcf9a12bb27ec9886a8e231f4"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher rights apply; archived for factual research, excluded from MIT license. No general republication permission inferred.",
+        "url": "https://www.philippineairlines.com/content/dam/palportal/migration/files/pdf/downloadable-forms/dom_accrual_chart_summary_01jun2021_revised_2.pdf"
+      },
+      "originalSha256": "eff0bb3a2f0463b057b87e96906200c937dca1d8b96672104019cef245f19de7",
+      "publisher": "Philippine Airlines",
+      "sourceId": "ph-pal-chart2021",
+      "url": "https://www.philippineairlines.com/content/dam/palportal/migration/files/pdf/downloadable-forms/dom_accrual_chart_summary_01jun2021_revised_2.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "3b5408a7f7b9d28fbde0f43302404682964e1c480a732e36ffd907ffc7245632",
+          "gitBlobFingerprint": "1d30437cbdd0e321d89e7ee08046650036577b12f5d39ddb6a08cb590c5ef4e1",
+          "path": "research/evidence/global/inputs/in-rajkot-ai.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "30fc90385f7a2bcf2d033a837735ee77817123ee096611e6ac7fa858709eae1a"
+        },
+        {
+          "decompressedSha256": "d552b498ac851d91bc609ea566ba9637bc229c1ab6aa7b4ef18e7af5f713a2c9",
+          "gitBlobFingerprint": "8cc4a6b4f12c928f4d7e01224e7756c432a95927a8bcd22e9c4cfff317ba3f5a",
+          "path": "research/evidence/global/texts/in-rajkot-ai.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "d28b976054f4475820ddfd0c8c75a855a744d36bb71c40c5757abac05127e077"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher rights apply; archived for factual research, excluded from MIT license. No general republication permission inferred.",
+        "url": "https://www.airindia.com/in/en/travel-information/airport-information/rajkot.html"
+      },
+      "originalSha256": "3b5408a7f7b9d28fbde0f43302404682964e1c480a732e36ffd907ffc7245632",
+      "publisher": "Air India",
+      "sourceId": "in-rajkot-ai",
+      "url": "https://www.airindia.com/in/en/travel-information/airport-information/rajkot.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "3c2bbb18e5a5d85dd3b232825b71fd8e66ce8b2fc377b9a740cc0ee1b3b9f30f",
+          "gitBlobFingerprint": "fb63efbd726d1d52c4b1982232dbe6a6189a4e6a64d5c1743e7f09205c6ebbe4",
+          "path": "research/evidence/global/inputs/pk-gwadar-executed.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "02ee2f645a3532a9df695859e6a67f5eaca46e62a6cb07f10d29db117ac2b661"
+        },
+        {
+          "decompressedSha256": "67f01866b5b16ffd52a2cfcc13bffc4506a4fa4f106b7a178c70c25b07d44b35",
+          "gitBlobFingerprint": "e251f1f1d95267815766b57e8f209a369afbdbb611c1e78e2aae08f53a353716",
+          "path": "research/evidence/global/texts/pk-gwadar-executed.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "9ed99f1efa49dddfab5f02b661dbc7860e357a88493e04e8e6b44ecca2ec7745"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source rights apply. Research evidence excluded from repository MIT license; no blanket onward republication permission inferred.",
+        "url": "https://www.radio.gov.pk/20-01-2025/new-gwadar-intl-airport-fully-operationalized"
+      },
+      "originalSha256": "3c2bbb18e5a5d85dd3b232825b71fd8e66ce8b2fc377b9a740cc0ee1b3b9f30f",
+      "publisher": "Pakistan Broadcasting Corporation",
+      "sourceId": "pk-gwadar-executed",
+      "url": "https://www.radio.gov.pk/20-01-2025/new-gwadar-intl-airport-fully-operationalized"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "2a19257d8bf0ce6a63a88a41fea1de2e0abf3a2741caafe7b110c7d457079379",
+          "gitBlobFingerprint": "482c5f624d1ec722667a85b45176d8d2109e83c9148eaea6ba15388fca4ef2e1",
+          "path": "research/evidence/global/inputs/gl-qaqortoq-operator.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "ee06908dbd09a10c46caa53b52b4bc321256c61d0f3cd029e1d453281cd1aa53"
+        },
+        {
+          "decompressedSha256": "412af17ada67e0d708cdaa080963a9de4ad6e9a26a193ab6669f34d0109e1892",
+          "gitBlobFingerprint": "d75fc7b8e2f20d4df49fe5772671ec4183fdb339ce1d44255761b8b96df8f8d2",
+          "path": "research/evidence/global/texts/gl-qaqortoq-operator.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "aeed2bda8e2eba509689b288939ab86cb495ae9da9e043632b2746e4d8b152ce"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source rights apply. Research evidence excluded from repository MIT license; no blanket onward republication permission inferred.",
+        "url": "https://www.airports.gl/en/article/a-new-era-in-south-greenland-qaqortoq-airport-opens/"
+      },
+      "originalSha256": "2a19257d8bf0ce6a63a88a41fea1de2e0abf3a2741caafe7b110c7d457079379",
+      "publisher": "Greenland Airports",
+      "sourceId": "gl-qaqortoq-operator",
+      "url": "https://www.airports.gl/en/article/a-new-era-in-south-greenland-qaqortoq-airport-opens/"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "1ad4005bc997c670d1d34467481806046822326c77ec7517259e347f3e86bfa1",
+          "gitBlobFingerprint": "1228ebb61ebbcba3d665e423381c414c872a4b3ee7e6aac2079a64ccbe9a4a80",
+          "path": "research/evidence/global/inputs/gl-qaqortoq-airline.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "9db316910e1af6c64b8480c674774fa284e2c6c79c26e35819e5d7358d530974"
+        },
+        {
+          "decompressedSha256": "4f39a50c14007bc2a647b559634eb0ef4e1eee15991cfda6ced52537e8c7cc3a",
+          "gitBlobFingerprint": "8a750a3f347139d03eaf6ba27b7d6abeadf1461a5be0cef0e7d98938f3b05772",
+          "path": "research/evidence/global/texts/gl-qaqortoq-airline.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "02cd4339592473b828d94d72a54b38522ab146ceeb69fab7b0b4135a0e260a1f"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source rights apply. Research evidence excluded from repository MIT license; no blanket onward republication permission inferred.",
+        "url": "https://flights.airgreenland.com/en/flights-from-qaqortoq-to-nuuk"
+      },
+      "originalSha256": "1ad4005bc997c670d1d34467481806046822326c77ec7517259e347f3e86bfa1",
+      "publisher": "Air Greenland",
+      "sourceId": "gl-qaqortoq-airline",
+      "url": "https://flights.airgreenland.com/en/flights-from-qaqortoq-to-nuuk"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "d582ba4ba53af7a00b50efb73dcfac39a91024eb036345ab848d26ad21ac0c15",
+          "gitBlobFingerprint": "7bbc5bb771e2e563fd8f1648cda190c9a34914596dcbccd9d015a1e9e54570c3",
+          "path": "research/evidence/global/inputs/gl-annual-2024.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "509a05be2acec1b672dbeeb2bda546fa3b846a90c75c2caf58e3480d1be9eebb"
+        },
+        {
+          "decompressedSha256": "41e0c95f69753b3e4b4d05cf026b09580571dc1e9c6850e0aa966cce791d4dfa",
+          "gitBlobFingerprint": "b4dded2b3003608c87e9ee61eb7b83ce6d246293f55f582dc542c4d233205303",
+          "path": "research/evidence/global/texts/gl-annual-2024.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "6e6091912cd8e56dbf89dca3de5ed814faca3012b17fa2adda19b349038895a5"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source rights apply. Research evidence excluded from repository MIT license; no blanket onward republication permission inferred.",
+        "url": "https://www.airgreenland.com/media/e1whik4o/annual-report_2024_eng_web.pdf"
+      },
+      "originalSha256": "d582ba4ba53af7a00b50efb73dcfac39a91024eb036345ab848d26ad21ac0c15",
+      "publisher": "Air Greenland Group",
+      "sourceId": "gl-annual-2024",
+      "url": "https://www.airgreenland.com/media/e1whik4o/annual-report_2024_eng_web.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "6a102b6cb624487dae5aeccff3f597127fc2ebb756169ed37e421f90a02f7870",
+          "gitBlobFingerprint": "8bd83da54c8adcf569f87f051d1b288394cc3ff61c3b907842674e57dd5ec8e9",
+          "path": "research/evidence/global/inputs/gl-qaqortoq-aip.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "8f45eb2d61f2476d2451895eabe719a0ff1ec0a73a7ce3a72cc755d4f4989873"
+        },
+        {
+          "decompressedSha256": "8152a147be86fb471b1c407e8a3076c974d103492f679fde40b0f92df8791492",
+          "gitBlobFingerprint": "ce69628e82e6c755fa9938dd4161a620a8fa5bbeec3f945033a8aeb0ccd24033",
+          "path": "research/evidence/global/texts/gl-qaqortoq-aip.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "ae1e979426d9450ada86683ac74f64393f5e1d6fceed7c733d9e6409dacd63a9"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Publisher rights retained; research archive excluded from MIT license. Airline city codes are not automatically physical-airport allocations.",
+        "url": "https://aim.naviair.dk/media/files/vifyviythd0/BG_AD_2_BGQO_en.pdf"
+      },
+      "originalSha256": "6a102b6cb624487dae5aeccff3f597127fc2ebb756169ed37e421f90a02f7870",
+      "publisher": "Naviair",
+      "sourceId": "gl-qaqortoq-aip",
+      "url": "https://aim.naviair.dk/media/files/vifyviythd0/BG_AD_2_BGQO_en.pdf"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "e83a14cc3302098bd3032c56bccaa32d27c1dd4bbd9511c1eee4f30298d3c8a1",
+          "gitBlobFingerprint": "22a9e667f857fcb510dae429267d486281f0200115a17a66a154fc14c6caee82",
+          "path": "research/evidence/global/inputs/gl-qaqortoq-transition.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "c940fdf1bb9dccdcad5ef5ad08237924368e5aabd94e051a5738d980c12d2f3b"
+        },
+        {
+          "decompressedSha256": "22b55343d7994a4ad81771273b914ba57336ade58e0550ef4a0d80052603004e",
+          "gitBlobFingerprint": "8988f00e7c9f3b62c9925d462669584c230dc4914b530fb459f9563dcfa5b44e",
+          "path": "research/evidence/global/texts/gl-qaqortoq-transition.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "2991b7b69617c55c50148a7b1525b671e33880e673150bebd2a9f9893da89c9a"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Publisher rights retained; research archive excluded from MIT license. Airline city codes are not automatically physical-airport allocations.",
+        "url": "https://www.airgreenland.com/news/a-transition-in-the-air/"
+      },
+      "originalSha256": "e83a14cc3302098bd3032c56bccaa32d27c1dd4bbd9511c1eee4f30298d3c8a1",
+      "publisher": "Air Greenland",
+      "sourceId": "gl-qaqortoq-transition",
+      "url": "https://www.airgreenland.com/news/a-transition-in-the-air/"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "3f8e3468031c37193a5e0a8b136bd05bda05c39c9604d065205582a610edfcea",
+          "gitBlobFingerprint": "d7b5391297aef50e4b47108d579a4b8733c5ad96284165b605d5378c48c9a8d1",
+          "path": "research/evidence/global/inputs/gl-citycodes.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "3f3673261821edc46ccb93dbd234ba31bd089b82f26b797ba0e45012d4d0a336"
+        },
+        {
+          "decompressedSha256": "a1a5f4900e82ee3d83002afa4b0ead4549c612e1f61e439b82ed1692dcf0f13a",
+          "gitBlobFingerprint": "3cca0f524daf93b50690b5a02d6a4cda124137c2095f4e85624636040706cf1b",
+          "path": "research/evidence/global/texts/gl-citycodes.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "9f4e40bca3f8a4c09989527f5be8b8ebdc6085f07385039dae31eb32dbadebbf"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Publisher rights retained; research archive excluded from MIT license. Airline city codes are not automatically physical-airport allocations.",
+        "url": "https://agent.airgreenland.com/hc/en-us/articles/212865358-City-codes"
+      },
+      "originalSha256": "3f8e3468031c37193a5e0a8b136bd05bda05c39c9604d065205582a610edfcea",
+      "publisher": "Air Greenland",
+      "sourceId": "gl-citycodes",
+      "url": "https://agent.airgreenland.com/hc/en-us/articles/212865358-City-codes"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "bcf0c108aef9a124a8c445d14df6bcac503d06bbcae8783dd06853bb7a1282ce",
+          "gitBlobFingerprint": "a5f5dfaf1259deb7405f3caff1d0fd09b783bc70a45a9b9b0b98577b29ec17d7",
+          "path": "research/evidence/global/inputs/es-murcia-aena-actual.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "5541b40b5937d405c912f7afbb8ba6fd4c675492a4eb0e7c46bd8fb199e86f64"
+        },
+        {
+          "decompressedSha256": "7f1a0d52ad81b2ae1dec85d84ee7bfa89e35de835935b00d1e1ddd8603ac1076",
+          "gitBlobFingerprint": "81fe1ba48655a922c9d682a0b31b90eedec5586d950f6d0bd01cc6bda07f7349",
+          "path": "research/evidence/global/texts/es-murcia-aena-actual.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "2846609bba8bb0713878a34e124062a3ceede595c5461bb92d57e3d68f24c74b"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Aena-Terms",
+        "note": "Original operator press notice; source rights retained, evidence archive excluded from MIT. No onward chart/photo license inferred.",
+        "url": "https://www.aena.es/en/legal-notice.html"
+      },
+      "originalSha256": "bcf0c108aef9a124a8c445d14df6bcac503d06bbcae8783dd06853bb7a1282ce",
+      "publisher": "Aena",
+      "sourceId": "es-murcia-aena-actual",
+      "url": "https://www.aena.es/es/prensa/su-majestad-el-rey-inaugura-el-aeropuerto-internacional-region-de-murcia.html"
+    },
+    {
+      "conclusion": "Exclude full response and full extraction from the public PR history; public availability does not establish redistribution permission.",
+      "contentStatus": "original",
+      "files": [
+        {
+          "decompressedSha256": "39a9f2bb8f4418f6b91cb5330dd03b588180f5598a2998222eb65ce6d726c6cc",
+          "gitBlobFingerprint": "3a41fd733fa5753e912b6bf44bc4895755ff8c412a84b7667a7c465de9515e15",
+          "path": "research/evidence/global/inputs/es-murcia-aena-retrospective.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "c8f7e14ae3d0fe380d1aca5dac778c375a553b05d638c26a08e704a6902bba24"
+        },
+        {
+          "decompressedSha256": "b49ae1ce760b254bdcd8585b30457cbdd80b10317b6ebe3df5ed47f5a81643e4",
+          "gitBlobFingerprint": "0abb375c0f95c64e974ff7a37611e77a9d3cfc3cf36c0a8250f6f367477428f7",
+          "path": "research/evidence/global/texts/es-murcia-aena-retrospective.txt.gz",
+          "presentInCommitFingerprints": [
+            "0ca52e94ce6eca4f0af5ca4ac85fe7ff05902414ae75f70bfe20f93b10bd4bcd"
+          ],
+          "presentInCurrentTree": false,
+          "sha256": "c6e125ba9276c45ea67fb4d81ba0cdf59fcfcd7894121664fee5fe989e763d1d"
+        }
+      ],
+      "fullRedistributionPermission": "not_explicitly_established",
+      "license": {
+        "id": "LicenseRef-Aena-Terms",
+        "note": "Original operator press notice; source rights retained, evidence archive excluded from MIT. No onward chart/photo license inferred.",
+        "url": "https://www.aena.es/en/legal-notice.html"
+      },
+      "originalSha256": "39a9f2bb8f4418f6b91cb5330dd03b588180f5598a2998222eb65ce6d726c6cc",
+      "publisher": "Aena",
+      "sourceId": "es-murcia-aena-retrospective",
+      "url": "https://www.aena.es/es/prensa/el-aeropuerto-internacional-region-de-murcia-cierra-el-primer-semestre-del---ano-con-mas-de-487.000-pasajeros.html"
+    }
+  ]
+}

@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: pnpm/action-setup@v4
         with:
           version: 10.14.0
@@ -29,5 +31,9 @@ jobs:
       - run: pnpm reference:validate
       - run: pnpm test:reference
       - run: pnpm evidence:validate
+      - run: pnpm evidence:global validate
+      - run: pnpm evidence:markets validate
+      - run: pnpm evidence:transfers validate
+      - run: pnpm evidence:history
       - run: pnpm test:evidence
       - run: pnpm build

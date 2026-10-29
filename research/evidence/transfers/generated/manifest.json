@@ -1,0 +1,43 @@
+{
+  "inputs": {
+    "data/airports.json": "b7880507c50cf8f993c98b3ec66f34e6433c452d7637eea7c6bfe61edbf166a3",
+    "research/evidence/global/generated/review-packets.jsonl.gz": "c5996365a76793cc00469c86c66b7804f364faf5da37b44869cfafc2080df5de",
+    "research/evidence/markets/generated/manifest.json": "f8b4a6e4e363cb932eac4e2adb2b07bf78b84ac92b22ec49386163a9b750699b",
+    "research/evidence/markets/generated/proposed-data.json": "053baaab66c06fe9322617cc05cc39d28f8faa10533fb9b88d919b7bf545d792",
+    "research/evidence/markets/generated/review-packets.json": "d12d5ede4d394eef50c6d88ac979773e326b6db53dcd356982756d0b048081ee",
+    "research/evidence/transfers/assessments.json": "4301b5e5f12a61be76babbd630ea9ed3c17d1d2be809272e54a03c2c92df95ee",
+    "research/evidence/transfers/catalog.json": "a76f5a66eebfdebb2101d01e3dae6039e9587c1ae432a5a57d503c343e89fc21",
+    "research/evidence/transfers/discovery-log.json": "00586ca4f35b78989a36eddbdc5ba624c623a24149555c636307d101bf84e774",
+    "research/evidence/transfers/excerpts/p0-bohol-airasia-booking.json": "30a0310b0ac88ad5d78ea4221460bd909e8a769ef14f447efa57918b55106e1b",
+    "research/evidence/transfers/excerpts/p0-bohol-airasia-site.json": "8eca74cb99fbd121e218dc73c5067f8c3612c7cf24e4d3faadeb230c353625df",
+    "research/evidence/transfers/excerpts/p0-bohol-factbook-2015.json": "a5cc1a5d937d1a6fb117ed1d9f8bd1037a77ca1073d9724a9c11b327b9204d84",
+    "research/evidence/transfers/excerpts/p0-bohol-factbook-2017.json": "51abaf31f7c73a85abc87bd325d641f7f4a64af864868298bf7024dd4722d0f5",
+    "research/evidence/transfers/excerpts/p0-cn-quality-2022.json": "8e685f4e1f434a1d08fdb24f7b4ecbdff71355aef443304d3f02d6977a82c188",
+    "research/evidence/transfers/excerpts/p0-dragonpass-boc-old.json": "956b2f281b68aab7e2d940fb6396c60478105ffbb72f5e3a067177085c52c8c0",
+    "research/evidence/transfers/excerpts/p0-lianyungang-csair-transfer.json": "dc31cdeb89c464ba8d0e720f15aa914ec9581160391c79102f5f202ca31e4cfb",
+    "research/evidence/transfers/excerpts/p0-lianyungang-spring-2019-11-20.json": "4c2c5ec9b823d89c37ad8b63d0fabc68216e9dde3b1d6be018af3962b4c24df6",
+    "research/evidence/transfers/excerpts/p0-lianyungang-spring-2020-09-21.json": "9d106230d0a5256af4e63abcf3929d8dab98b6c8db21ec6e46c2a852e370bde8",
+    "research/evidence/transfers/excerpts/p0-techo-anniversary.json": "7f8b89cead824e63dca99a05856f60303020f8313134f6819c09174177aaac65",
+    "research/evidence/transfers/excerpts/p0-techo-owner.json": "453dcd65e6f6959ae521f4ecabb89105d7567ba3a0f3b1654607c3635c076884",
+    "research/evidence/transfers/excerpts/p0-yibin-spring-2019-11-15.json": "1088d8f7f52c61ab2e2ddbd03f3faad6d953efd72ea605ceb2c17856fc046031",
+    "research/evidence/transfers/excerpts/p0-yibin-spring-2019-11-21.json": "3356be6a593031cf32953634b60732eb2ba5a9b7b48b2568e1d0a74033d78079",
+    "research/evidence/transfers/excerpts/p0-zhanjiang-csair-transfer.json": "55e53703204a1cfd1201e8ec277af56c485f7c733ad12d07f5e96ca34fcf7dad",
+    "research/evidence/transfers/excerpts/ph-bohol-jica.json": "03cf74ec33b41e7b4e3716a1125c8d7706f9df0601c3ecc982ac3e4a6534edaa",
+    "research/evidence/transfers/excerpts/pnh-sia-2025.json": "430d04ad4f962eeb2e8b615f444a52ce067191bc66cd3219c995c5f6b1eeabe5",
+    "research/evidence/transfers/source-lock.json": "13a52012ad1fbb75229247595eda490625dd2fbe0ff9a191886d2e1d77403d86",
+    "scripts/evidence/global_coverage.ts": "b2243c8098f19e9342e86a80f88cf7caaace9d66de915881ea7c0435085ec34d",
+    "scripts/evidence/transfer_batch.py": "4678e5a67686936d45eb908648034b07bad4f910268c3545279b3fb50712db75",
+    "scripts/evidence/transfer_coverage.ts": "e026d3821aa1d1830b25c40fef718681ffe8abe9ce82d9c3a1a483c6adebe3bf"
+  },
+  "outputs": {
+    "RESULTS.zh-CN.md": "b5347fbffd2d11a622c8a3a7c1da1dfed0aa1c692b34bfa145a987c80613481c",
+    "country-year.json": "2855d57d8d3a6e2f6fa4d72f6d0493e6b2cd59bf6b24aa7d23e20bd126437bb5",
+    "dossier.json": "a355edeb712851976ccb3cb91ba00afa88fcd6bce1e23f00d1c83272764e4b0d",
+    "matrix.json": "c2231ea8dfe19d31fe969ba61f2a1f47a065422b0123c0c223bb7c9ef5d020a9",
+    "metrics.json": "4bf72f4404b4570fbc771070a7b75cf809de9d443f5820dd97891ad8e8b6901d",
+    "proposed-data.json": "4e751f4be06773f21ded56c28b9f9c1d3abb5b2a3de2172a74c901f9977f6747",
+    "query-coverage.json": "3ae7040a9dd43ce23bcbba88c17a6d16a2776cce59a2ec05d5223f2b594c3797",
+    "review-packets.json": "60706e8c7ea4e4f875b1a66a1512d727986cace08add470e4fa97d0edcf8d1ae",
+    "transfer-coverage.json": "3f25237444328c9ffb401ec9bd1b797d4560a629c0533f00fbe33a42a5add93e"
+  }
+}

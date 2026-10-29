@@ -1,0 +1,48 @@
+{
+  "bothSideIataAssociationsWithoutResolvedWindows": [
+    "dazhou"
+  ],
+  "bothSideIataVerifiedUnderReviewHypothesis": 1,
+  "bothSideIcaoVerifiedUnderReviewHypothesis": 1,
+  "completeDifferentIataReplacementChains": 1,
+  "completeReplacementChainCaseKeys": [
+    "murcia"
+  ],
+  "completeSameIataCrossSiteChains": 0,
+  "conflicts": [
+    "The 2023 Guangdong guide contains both DAX/Heshi and DZH/Jinya as 2022 reporting references; it does not establish simultaneous active airport allocations."
+  ],
+  "newSiteIataOnlyCases": [
+    "ankang",
+    "yanan",
+    "lianyungang",
+    "yibin",
+    "jinzhou"
+  ],
+  "newlyInvestigatedExecutedPhysicalEventsBeyondPriorAndFormal": [
+    "lianyungang",
+    "yibin",
+    "luzhou",
+    "zhanjiang",
+    "rizhao",
+    "shiyan",
+    "jinzhou"
+  ],
+  "oldSiteOnlyChains": [],
+  "preciseAllocationAndWithdrawalDatesEstablished": 0,
+  "relocationWithoutIataEvidence": [
+    "luzhou",
+    "zhanjiang",
+    "narvik"
+  ],
+  "twoSidedPhysicalIdentityCases": [
+    "ankang",
+    "yanan",
+    "dazhou",
+    "lianyungang",
+    "yibin",
+    "luzhou",
+    "jinzhou",
+    "murcia"
+  ]
+}

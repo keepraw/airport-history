@@ -1,0 +1,1530 @@
+{
+  "assignmentReviews": [
+    {
+      "airportId": "apt_6f1a6ff3-98db-4e58-95fc-cc78bd5aa836",
+      "approvalBlockers": [
+        "需要真实人工审核；未确定行政交接，未知边界必须保持开放。"
+      ],
+      "assignmentId": "transfers-proposal-lianyungang-old-iata-lyg",
+      "boundaryAssessment": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "caseKey": "lianyungang",
+      "code": "LYG",
+      "continuityAssessment": "未提出连续性外推；同侧多次关联仍不足排除另一物理场址开放可能区间。现有有限新场判断保留，交给真实解析器处理新增旧场不确定性。",
+      "evidenceType": "indirect",
+      "factIds": [
+        "lianyungang-old-spring-2019-11-20",
+        "lianyungang-old-spring-2020-09-21",
+        "lyg-old-guide-undated"
+      ],
+      "note": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "observations": [
+        {
+          "basis": "历史捕获页面把旧场 连云港白塔埠机场 与航空公司机场订票路径 LYG 关联。代码仅存在 HTML href，属于间接机场订票代码判断；不是正文明确标为 IATA 的行政记录。捕获日也不是原文发布日期或代码分配日。",
+          "claimScope": "Dated code/site association only, not continuous validity.",
+          "independentOriginal": true,
+          "observationBounds": {
+            "basis": "archived_carrier_booking_association_indirect",
+            "earliest": "2019-11-20",
+            "latest": "2019-11-20"
+          },
+          "observedOn": "2019-11-20",
+          "sourceFamily": "spring-airlines",
+          "sourceId": "p0-lianyungang-spring-2019-11-20"
+        },
+        {
+          "basis": "历史捕获页面把旧场 连云港白塔埠机场 与航空公司机场订票路径 LYG 关联。代码仅存在 HTML href，属于间接机场订票代码判断；不是正文明确标为 IATA 的行政记录。捕获日也不是原文发布日期或代码分配日。",
+          "claimScope": "Dated code/site association only, not continuous validity.",
+          "independentOriginal": true,
+          "observationBounds": {
+            "basis": "archived_carrier_booking_association_indirect",
+            "earliest": "2020-09-21",
+            "latest": "2020-09-21"
+          },
+          "observedOn": "2020-09-21",
+          "sourceFamily": "spring-airlines",
+          "sourceId": "p0-lianyungang-spring-2020-09-21"
+        }
+      ],
+      "scheme": "IATA",
+      "sourceIds": [
+        "p0-dragonpass-boc-old",
+        "p0-lianyungang-spring-2019-11-20",
+        "p0-lianyungang-spring-2020-09-21"
+      ]
+    },
+    {
+      "airportId": "apt_bbf9f2c1-fc01-4ed7-a4aa-74e6ed8ca45f",
+      "approvalBlockers": [
+        "需要真实人工审核；未确定行政交接，未知边界必须保持开放。"
+      ],
+      "assignmentId": "transfers-proposal-yibin-old-iata-ybp",
+      "boundaryAssessment": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "caseKey": "yibin",
+      "code": "YBP",
+      "continuityAssessment": "未提出连续性外推；同侧多次关联仍不足排除另一物理场址开放可能区间。现有有限新场判断保留，交给真实解析器处理新增旧场不确定性。",
+      "evidenceType": "indirect",
+      "factIds": [
+        "yibin-old-spring-2019-11-15",
+        "yibin-old-spring-2019-11-21"
+      ],
+      "note": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "observations": [
+        {
+          "basis": "历史捕获页面把旧场 宜宾菜坝机场 与航空公司机场订票路径 YBP 关联。代码仅存在 HTML href，属于间接机场订票代码判断；不是正文明确标为 IATA 的行政记录。捕获日也不是原文发布日期或代码分配日。",
+          "claimScope": "Dated code/site association only, not continuous validity.",
+          "independentOriginal": true,
+          "observationBounds": {
+            "basis": "archived_carrier_booking_association_indirect",
+            "earliest": "2019-11-15",
+            "latest": "2019-11-15"
+          },
+          "observedOn": "2019-11-15",
+          "sourceFamily": "spring-airlines",
+          "sourceId": "p0-yibin-spring-2019-11-15"
+        },
+        {
+          "basis": "历史捕获页面把旧场 宜宾菜坝机场 与航空公司机场订票路径 YBP 关联。代码仅存在 HTML href，属于间接机场订票代码判断；不是正文明确标为 IATA 的行政记录。捕获日也不是原文发布日期或代码分配日。",
+          "claimScope": "Dated code/site association only, not continuous validity.",
+          "independentOriginal": true,
+          "observationBounds": {
+            "basis": "archived_carrier_booking_association_indirect",
+            "earliest": "2019-11-21",
+            "latest": "2019-11-21"
+          },
+          "observedOn": "2019-11-21",
+          "sourceFamily": "spring-airlines",
+          "sourceId": "p0-yibin-spring-2019-11-21"
+        }
+      ],
+      "scheme": "IATA",
+      "sourceIds": [
+        "p0-yibin-spring-2019-11-15",
+        "p0-yibin-spring-2019-11-21"
+      ]
+    },
+    {
+      "airportId": "apt_78682b36-d300-4f1a-be34-3d6d9614e17e",
+      "approvalBlockers": [
+        "需要真实人工审核；未确定行政交接，未知边界必须保持开放。",
+        "原件只有月份观察；未虚构具体 observedOn 日期，仍缺现有正式入库门槛所需的精确有日期原件。"
+      ],
+      "assignmentId": "transfers-proposal-bohol-old-iata-tag",
+      "boundaryAssessment": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "boundedObservations": [
+        {
+          "basis": "政府编制的旧 Tagbilaran 航班表直接印有 TAG；表内数据日期是 2015-10，不以封面 2015、2021 上传路径或 2022 存档替代。新 Panglao 仍被描述为替代现有机场的建设项目。",
+          "claimScope": "Dated code/site association only, not continuous validity.",
+          "dateStatus": "month_only_not_an_exact_observedOn",
+          "independentOriginal": true,
+          "observationBounds": {
+            "basis": "explicit_table_data_month",
+            "earliest": "2015-10-01",
+            "latest": "2015-10-31"
+          },
+          "sourceFamily": "bohol-government-airline-compilation",
+          "sourceId": "p0-bohol-factbook-2015"
+        },
+        {
+          "basis": "政府编制的旧 Tagbilaran 航班表直接印有 TAG；表内数据日期是 2017-10，不以封面 2016、2021 上传路径或 2022 存档替代。新 Panglao 仍被描述为替代现有机场的建设项目。",
+          "claimScope": "Dated code/site association only, not continuous validity.",
+          "dateStatus": "month_only_not_an_exact_observedOn",
+          "independentOriginal": true,
+          "observationBounds": {
+            "basis": "explicit_table_data_month",
+            "earliest": "2017-10-01",
+            "latest": "2017-10-31"
+          },
+          "sourceFamily": "bohol-government-airline-compilation",
+          "sourceId": "p0-bohol-factbook-2017"
+        }
+      ],
+      "caseKey": "bohol",
+      "code": "TAG",
+      "continuityAssessment": "未提出连续性外推；同侧多次关联仍不足排除另一物理场址开放可能区间。现有有限新场判断保留，交给真实解析器处理新增旧场不确定性。",
+      "evidenceType": "primary_direct",
+      "factIds": [
+        "bohol-old-schedule-2015",
+        "bohol-old-schedule-2017"
+      ],
+      "note": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "observations": [],
+      "scheme": "IATA",
+      "sourceIds": [
+        "p0-bohol-factbook-2015",
+        "p0-bohol-factbook-2017"
+      ]
+    },
+    {
+      "airportId": "apt_f11bdf7d-d81d-46fc-a94f-8c8c42d4e245",
+      "approvalBlockers": [
+        "需要真实人工审核；未确定行政交接，未知边界必须保持开放。",
+        "原件只有月份观察；未虚构具体 observedOn 日期，仍缺现有正式入库门槛所需的精确有日期原件。"
+      ],
+      "assignmentId": "transfers-proposal-luzhou-new-iata-lzo",
+      "boundaryAssessment": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "boundedObservations": [
+        {
+          "basis": "原研究报告列出新场 泸州云龙 的 LZO 关联。2022 是测评数据年度，2023-05 是出版月；二者均非分配生效日。",
+          "claimScope": "Dated code/site association only, not continuous validity.",
+          "dateStatus": "month_only_not_an_exact_observedOn",
+          "independentOriginal": true,
+          "observationBounds": {
+            "basis": "publication_month_association_not_allocation",
+            "earliest": "2023-05-01",
+            "latest": "2023-05-31"
+          },
+          "sourceFamily": "china-airports-service-evaluation",
+          "sourceId": "p0-cn-quality-2022"
+        }
+      ],
+      "caseKey": "luzhou",
+      "code": "LZO",
+      "continuityAssessment": "未提出连续性外推；同侧多次关联仍不足排除另一物理场址开放可能区间。现有有限新场判断保留，交给真实解析器处理新增旧场不确定性。",
+      "evidenceType": "primary_direct",
+      "factIds": [
+        "luzhou-new-quality"
+      ],
+      "note": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "observations": [],
+      "scheme": "IATA",
+      "sourceIds": [
+        "p0-cn-quality-2022"
+      ]
+    },
+    {
+      "airportId": "apt_70c6479b-100c-44fe-b9f2-8fd1b608d9bc",
+      "approvalBlockers": [
+        "需要真实人工审核；未确定行政交接，未知边界必须保持开放。",
+        "原件只有月份观察；未虚构具体 observedOn 日期，仍缺现有正式入库门槛所需的精确有日期原件。"
+      ],
+      "assignmentId": "transfers-proposal-zhanjiang-new-iata-zha",
+      "boundaryAssessment": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "boundedObservations": [
+        {
+          "basis": "原研究报告列出新场 湛江吴川 的 ZHA 关联。2022 是测评数据年度，2023-05 是出版月；二者均非分配生效日。",
+          "claimScope": "Dated code/site association only, not continuous validity.",
+          "dateStatus": "month_only_not_an_exact_observedOn",
+          "independentOriginal": true,
+          "observationBounds": {
+            "basis": "publication_month_association_not_allocation",
+            "earliest": "2023-05-01",
+            "latest": "2023-05-31"
+          },
+          "sourceFamily": "china-airports-service-evaluation",
+          "sourceId": "p0-cn-quality-2022"
+        }
+      ],
+      "caseKey": "zhanjiang",
+      "code": "ZHA",
+      "continuityAssessment": "未提出连续性外推；同侧多次关联仍不足排除另一物理场址开放可能区间。现有有限新场判断保留，交给真实解析器处理新增旧场不确定性。",
+      "evidenceType": "primary_direct",
+      "factIds": [
+        "zhanjiang-new-quality"
+      ],
+      "note": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "observations": [],
+      "scheme": "IATA",
+      "sourceIds": [
+        "p0-cn-quality-2022"
+      ]
+    },
+    {
+      "airportId": "apt_64b5eaa6-a984-4816-86d9-d8eb71c91451",
+      "approvalBlockers": [
+        "需要真实人工审核；未确定行政交接，未知边界必须保持开放。",
+        "原件只有月份观察；未虚构具体 observedOn 日期，仍缺现有正式入库门槛所需的精确有日期原件。"
+      ],
+      "assignmentId": "markets-proposal-lianyungang-new-iata-lyg",
+      "boundaryAssessment": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "boundedObservations": [
+        {
+          "basis": "原研究报告列出新场 连云港花果山 的 LYG 关联。2022 是测评数据年度，2023-05 是出版月；二者均非分配生效日。",
+          "claimScope": "Dated code/site association only, not continuous validity.",
+          "dateStatus": "month_only_not_an_exact_observedOn",
+          "independentOriginal": true,
+          "observationBounds": {
+            "basis": "publication_month_association_not_allocation",
+            "earliest": "2023-05-01",
+            "latest": "2023-05-31"
+          },
+          "sourceFamily": "china-airports-service-evaluation",
+          "sourceId": "p0-cn-quality-2022"
+        }
+      ],
+      "caseKey": "lianyungang",
+      "code": "LYG",
+      "continuityAssessment": "未提出连续性外推；同侧多次关联仍不足排除另一物理场址开放可能区间。现有有限新场判断保留，交给真实解析器处理新增旧场不确定性。",
+      "evidenceType": "primary_direct",
+      "factIds": [
+        "lianyungang-new-quality"
+      ],
+      "note": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "observations": [],
+      "scheme": "IATA",
+      "sourceIds": [
+        "p0-cn-quality-2022"
+      ]
+    },
+    {
+      "airportId": "apt_8354da99-7d18-4329-bf7b-4ed042a4ad72",
+      "approvalBlockers": [
+        "需要真实人工审核；未确定行政交接，未知边界必须保持开放。",
+        "原件只有月份观察；未虚构具体 observedOn 日期，仍缺现有正式入库门槛所需的精确有日期原件。"
+      ],
+      "assignmentId": "markets-proposal-yibin-new-iata-ybp",
+      "boundaryAssessment": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "boundedObservations": [
+        {
+          "basis": "原研究报告列出新场 宜宾五粮液 的 YBP 关联。2022 是测评数据年度，2023-05 是出版月；二者均非分配生效日。",
+          "claimScope": "Dated code/site association only, not continuous validity.",
+          "dateStatus": "month_only_not_an_exact_observedOn",
+          "independentOriginal": true,
+          "observationBounds": {
+            "basis": "publication_month_association_not_allocation",
+            "earliest": "2023-05-01",
+            "latest": "2023-05-31"
+          },
+          "sourceFamily": "china-airports-service-evaluation",
+          "sourceId": "p0-cn-quality-2022"
+        }
+      ],
+      "caseKey": "yibin",
+      "code": "YBP",
+      "continuityAssessment": "未提出连续性外推；同侧多次关联仍不足排除另一物理场址开放可能区间。现有有限新场判断保留，交给真实解析器处理新增旧场不确定性。",
+      "evidenceType": "primary_direct",
+      "factIds": [
+        "yibin-new-quality"
+      ],
+      "note": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "observations": [],
+      "scheme": "IATA",
+      "sourceIds": [
+        "p0-cn-quality-2022"
+      ]
+    },
+    {
+      "airportId": "apt_4dc2e0a8-c3ea-42a1-96c7-a268411b7460",
+      "approvalBlockers": [
+        "需要真实人工审核；未确定行政交接，未知边界必须保持开放。"
+      ],
+      "assignmentId": "global-proposal-bohol-new-iata-tag",
+      "boundaryAssessment": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "caseKey": "bohol",
+      "code": "TAG",
+      "continuityAssessment": "未提出连续性外推；同侧多次关联仍不足排除另一物理场址开放可能区间。现有有限新场判断保留，交给真实解析器处理新增旧场不确定性。",
+      "evidenceType": "indirect",
+      "factIds": [
+        "bohol-new-tag-airasia"
+      ],
+      "note": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "observations": [
+        {
+          "basis": "2020-11-18 原航空公司公告使用 Bohol(TAG) 预订代码；通过该公司 2020-02 已迁入 Panglao 的原文连接物理身份，属于间接新场代码关联。12-01 是计划复航日，不能认定 11-18 已实际飞行。",
+          "claimScope": "Dated code/site association only, not continuous validity.",
+          "independentOriginal": true,
+          "observationBounds": {
+            "basis": "dated_booking_notice_indirect_site_join",
+            "earliest": "2020-11-18",
+            "latest": "2020-11-18"
+          },
+          "observedOn": "2020-11-18",
+          "sourceFamily": "airasia",
+          "sourceId": "p0-bohol-airasia-booking"
+        }
+      ],
+      "scheme": "IATA",
+      "sourceIds": [
+        "p0-bohol-airasia-booking"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "bothSidesDirect": false,
+      "boundaryDecisionZh": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "caseKey": "ankang",
+      "classification": "one_sided_iata",
+      "classificationZh": "仅有单侧 IATA 关联",
+      "codeHandoverDate": null,
+      "codes": [
+        "AKA"
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2020-09-25",
+        "latest": "2020-09-25",
+        "precision": "exact"
+      },
+      "eventDateAssessmentZh": "首航日已证实；CAAC 2018 停航使“旧场一直运营到新场”假设不成立。",
+      "examinedDiscoverySourceIds": [
+        "caac-fares-2015",
+        "caac-names-2009",
+        "quality-2017",
+        "quality-2018",
+        "spring-archive-index-aka",
+        "spring-home-index-aka",
+        "spring-cutoff-index-airport-aka",
+        "spring-cutoff-index-jianjie-aka"
+      ],
+      "factIds": [
+        "ankang-finding",
+        "ankang-iata-guide",
+        "ankang-2018-suspension",
+        "ankang-actual"
+      ],
+      "findingZh": "首航日已证实；CAAC 2018 停航使“旧场一直运营到新场”假设不成立。",
+      "gapsZh": [
+        "取得旧场最终代码有效观察／撤销通知和新场首次分配通知；独立人工审核物理身份与关联命名空间。",
+        "未取得旧场有日期机场专属 IATA 原件；新场现有报告附表仅关联，不证明有效年份。"
+      ],
+      "independenceZh": "同一政府系列或 CAAP 衍生航班表不重复算独立佐证；代码表、运营事实和物理调查分别判断。",
+      "labelZh": "安康五里铺／富强",
+      "newExecutedEventBeyondPriorResearch": false,
+      "newSite": {
+        "airportId": "apt_68a848c7-9db9-4233-b0d9-65eb7ed7407e",
+        "coordinates": {
+          "latitude": 32.75696,
+          "longitude": 108.87338
+        },
+        "iataObservations": [],
+        "identityStatusZh": "复用既有 pending 永久 ID；坐标 reference，非正式批准",
+        "name": "安康富强机场",
+        "siteKey": "ankang-new",
+        "undatedIataAssociations": [
+          "ankang-iata-guide"
+        ]
+      },
+      "oldSite": {
+        "airportId": "apt_0dc2a2f7-1222-46d2-afac-c16cbddb24d6",
+        "coordinates": {
+          "latitude": 32.708056,
+          "longitude": 108.931111
+        },
+        "iataObservations": [],
+        "identityStatusZh": "复用既有 pending 永久 ID；坐标 reference，非正式批准",
+        "name": "安康五里铺机场",
+        "siteKey": "ankang-old",
+        "undatedIataAssociations": []
+      },
+      "ownerEventGroupId": "market-case-ankang",
+      "reviewer": null,
+      "sameIataLead": true,
+      "scopedInvestigationZh": "仅核查 factIds 与 examinedDiscoverySourceIds 所列范围。历史 CDX 查询无捕获不代表历史上无代码关联；名称通知与运价城市代码不能补足机场 IATA。"
+    },
+    {
+      "bothSidesDirect": false,
+      "boundaryDecisionZh": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "caseKey": "yanan",
+      "classification": "one_sided_iata",
+      "classificationZh": "仅有单侧 IATA 关联",
+      "codeHandoverDate": null,
+      "codes": [
+        "ENY"
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2018-11-08",
+        "latest": "2018-11-08",
+        "precision": "exact"
+      },
+      "eventDateAssessmentZh": "既有 CAAC 原件证实实际迁场；尚缺旧场代码原件。",
+      "examinedDiscoverySourceIds": [
+        "caac-fares-2015",
+        "caac-names-2009",
+        "quality-2017",
+        "quality-2018",
+        "spring-archive-index-eny",
+        "spring-home-index-eny",
+        "spring-cutoff-index-airport-eny",
+        "spring-cutoff-index-jianjie-eny"
+      ],
+      "factIds": [
+        "yanan-finding",
+        "yanan-iata-guide",
+        "yanan-actual"
+      ],
+      "findingZh": "既有 CAAC 原件证实实际迁场；尚缺旧场代码原件。",
+      "gapsZh": [
+        "取得旧场最终代码有效观察／撤销通知和新场首次分配通知；独立人工审核物理身份与关联命名空间。",
+        "未取得旧场有日期机场专属 IATA 原件；新场现有报告附表仅关联，不证明有效年份。"
+      ],
+      "independenceZh": "同一政府系列或 CAAP 衍生航班表不重复算独立佐证；代码表、运营事实和物理调查分别判断。",
+      "labelZh": "延安二十里铺／南泥湾",
+      "newExecutedEventBeyondPriorResearch": false,
+      "newSite": {
+        "airportId": "apt_ebdabf02-ae37-4295-9667-39ea914e3c05",
+        "coordinates": {
+          "latitude": 36.479413,
+          "longitude": 109.464083
+        },
+        "iataObservations": [],
+        "identityStatusZh": "复用既有 pending 永久 ID；坐标 reference，非正式批准",
+        "name": "延安南泥湾机场",
+        "siteKey": "yanan-new",
+        "undatedIataAssociations": [
+          "yanan-iata-guide"
+        ]
+      },
+      "oldSite": {
+        "airportId": "apt_8deac363-2415-499d-8308-8f10de2528c8",
+        "coordinates": {
+          "latitude": 36.636902,
+          "longitude": 109.554001
+        },
+        "iataObservations": [],
+        "identityStatusZh": "复用既有 pending 永久 ID；坐标 reference，非正式批准",
+        "name": "延安二十里铺机场",
+        "siteKey": "yanan-old",
+        "undatedIataAssociations": []
+      },
+      "ownerEventGroupId": "market-case-yanan",
+      "reviewer": null,
+      "sameIataLead": true,
+      "scopedInvestigationZh": "仅核查 factIds 与 examinedDiscoverySourceIds 所列范围。历史 CDX 查询无捕获不代表历史上无代码关联；名称通知与运价城市代码不能补足机场 IATA。"
+    },
+    {
+      "bothSidesDirect": false,
+      "boundaryDecisionZh": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "caseKey": "lianyungang",
+      "classification": "complete_same_iata_candidate",
+      "classificationZh": "完整同码跨场址候选（两侧关联；不代表已定交接）",
+      "codeHandoverDate": null,
+      "codes": [
+        "LYG"
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2021-01-01",
+        "latest": "2021-12-31",
+        "precision": "year"
+      },
+      "eventDateAssessmentZh": "CAAC 确认 2021 年已迁转；南航 12-02 是计划日期，不升级成已证实实际日。",
+      "examinedDiscoverySourceIds": [
+        "caac-fares-2015",
+        "caac-names-2009",
+        "quality-2017",
+        "quality-2018",
+        "spring-archive-index-lyg",
+        "spring-home-index-lyg"
+      ],
+      "factIds": [
+        "lianyungang-finding",
+        "lianyungang-iata-guide",
+        "lianyungang-carrier-planned-transfer",
+        "lyg-old-guide-undated",
+        "lianyungang-new-quality",
+        "lianyungang-old-spring-2019-11-20",
+        "lianyungang-old-spring-2020-09-21"
+      ],
+      "findingZh": "CAAC 确认 2021 年已迁转；南航 12-02 是计划日期，不升级成已证实实际日。",
+      "gapsZh": [
+        "取得旧场最终代码有效观察／撤销通知和新场首次分配通知；独立人工审核物理身份与关联命名空间。"
+      ],
+      "independenceZh": "旧场航空公司历史捕获与新场三家机构共同发布的测评报告是不同事实来源；同页面多次捕获不算独立出版物。",
+      "labelZh": "连云港白塔埠／花果山",
+      "newExecutedEventBeyondPriorResearch": false,
+      "newSite": {
+        "airportId": "apt_64b5eaa6-a984-4816-86d9-d8eb71c91451",
+        "coordinates": {
+          "latitude": 34.41406,
+          "longitude": 119.17899
+        },
+        "iataObservations": [
+          "lianyungang-new-quality"
+        ],
+        "identityStatusZh": "复用既有 pending 永久 ID；坐标 reference，非正式批准",
+        "name": "连云港花果山机场",
+        "siteKey": "lianyungang-new",
+        "undatedIataAssociations": [
+          "lianyungang-iata-guide"
+        ]
+      },
+      "oldSite": {
+        "airportId": "apt_6f1a6ff3-98db-4e58-95fc-cc78bd5aa836",
+        "coordinates": {
+          "latitude": 34.571302,
+          "longitude": 118.873143
+        },
+        "iataObservations": [
+          "lianyungang-old-spring-2019-11-20",
+          "lianyungang-old-spring-2020-09-21"
+        ],
+        "identityStatusZh": "复用既有 pending 永久 ID；坐标 reference，非正式批准",
+        "name": "连云港白塔埠机场",
+        "siteKey": "lianyungang-old",
+        "undatedIataAssociations": [
+          "lyg-old-guide-undated"
+        ]
+      },
+      "ownerEventGroupId": "market-case-lianyungang",
+      "reviewer": null,
+      "sameIataLead": true,
+      "scopedInvestigationZh": "仅核查 factIds 与 examinedDiscoverySourceIds 所列范围。历史 CDX 查询无捕获不代表历史上无代码关联；名称通知与运价城市代码不能补足机场 IATA。"
+    },
+    {
+      "bothSidesDirect": false,
+      "boundaryDecisionZh": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "caseKey": "yibin",
+      "classification": "complete_same_iata_candidate",
+      "classificationZh": "完整同码跨场址候选（两侧关联；不代表已定交接）",
+      "codeHandoverDate": null,
+      "codes": [
+        "YBP"
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2019-12-05",
+        "latest": "2019-12-05",
+        "precision": "exact"
+      },
+      "eventDateAssessmentZh": "CAAC 地区管理局确认 2019-12-05 实际投运；不是代码分配日。",
+      "examinedDiscoverySourceIds": [
+        "caac-fares-2015",
+        "caac-names-2009",
+        "quality-2017",
+        "quality-2018",
+        "spring-archive-index-ybp",
+        "spring-home-index-ybp",
+        "spring-cutoff-index-airport-ybp",
+        "spring-cutoff-index-jianjie-ybp"
+      ],
+      "factIds": [
+        "yibin-finding",
+        "yibin-iata-guide",
+        "yibin-executed-date",
+        "yibin-new-quality",
+        "yibin-old-spring-2019-11-15",
+        "yibin-old-spring-2019-11-21"
+      ],
+      "findingZh": "CAAC 地区管理局确认 2019-12-05 实际投运；不是代码分配日。",
+      "gapsZh": [
+        "取得旧场最终代码有效观察／撤销通知和新场首次分配通知；独立人工审核物理身份与关联命名空间。"
+      ],
+      "independenceZh": "旧场航空公司历史捕获与新场三家机构共同发布的测评报告是不同事实来源；同页面多次捕获不算独立出版物。",
+      "labelZh": "宜宾菜坝／五粮液",
+      "newExecutedEventBeyondPriorResearch": false,
+      "newSite": {
+        "airportId": "apt_8354da99-7d18-4329-bf7b-4ed042a4ad72",
+        "coordinates": {
+          "latitude": 28.858431,
+          "longitude": 104.526157
+        },
+        "iataObservations": [
+          "yibin-new-quality"
+        ],
+        "identityStatusZh": "复用既有 pending 永久 ID；坐标 reference，非正式批准",
+        "name": "宜宾五粮液机场",
+        "siteKey": "yibin-new",
+        "undatedIataAssociations": [
+          "yibin-iata-guide"
+        ]
+      },
+      "oldSite": {
+        "airportId": "apt_bbf9f2c1-fc01-4ed7-a4aa-74e6ed8ca45f",
+        "coordinates": {
+          "latitude": 28.800556,
+          "longitude": 104.545
+        },
+        "iataObservations": [
+          "yibin-old-spring-2019-11-15",
+          "yibin-old-spring-2019-11-21"
+        ],
+        "identityStatusZh": "复用既有 pending 永久 ID；坐标 reference，非正式批准",
+        "name": "宜宾菜坝机场",
+        "siteKey": "yibin-old",
+        "undatedIataAssociations": []
+      },
+      "ownerEventGroupId": "market-case-yibin",
+      "reviewer": null,
+      "sameIataLead": true,
+      "scopedInvestigationZh": "仅核查 factIds 与 examinedDiscoverySourceIds 所列范围。历史 CDX 查询无捕获不代表历史上无代码关联；名称通知与运价城市代码不能补足机场 IATA。"
+    },
+    {
+      "bothSidesDirect": false,
+      "boundaryDecisionZh": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "caseKey": "jinzhou",
+      "classification": "one_sided_iata",
+      "classificationZh": "仅有单侧 IATA 关联",
+      "codeHandoverDate": null,
+      "codes": [
+        "JNZ"
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2015-01-01",
+        "latest": "2015-12-31",
+        "precision": "year"
+      },
+      "eventDateAssessmentZh": "CAAC 年报仅足以确认 2015 年，不能采用次级网页的日精度。",
+      "examinedDiscoverySourceIds": [
+        "caac-fares-2015",
+        "caac-names-2009",
+        "quality-2017",
+        "quality-2018",
+        "spring-archive-index-jnz",
+        "spring-home-index-jnz",
+        "spring-cutoff-index-airport-jnz",
+        "spring-cutoff-index-jianjie-jnz"
+      ],
+      "factIds": [
+        "jinzhou-finding",
+        "jinzhou-iata-guide"
+      ],
+      "findingZh": "CAAC 年报仅足以确认 2015 年，不能采用次级网页的日精度。",
+      "gapsZh": [
+        "取得旧场最终代码有效观察／撤销通知和新场首次分配通知；独立人工审核物理身份与关联命名空间。",
+        "未取得旧场有日期机场专属 IATA 原件；新场现有报告附表仅关联，不证明有效年份。"
+      ],
+      "independenceZh": "同一政府系列或 CAAP 衍生航班表不重复算独立佐证；代码表、运营事实和物理调查分别判断。",
+      "labelZh": "锦州小岭子／锦州湾",
+      "newExecutedEventBeyondPriorResearch": false,
+      "newSite": {
+        "airportId": "apt_309b521b-0137-4c9b-a404-11d7bfc17075",
+        "coordinates": {
+          "latitude": 40.936032,
+          "longitude": 121.277114
+        },
+        "iataObservations": [],
+        "identityStatusZh": "复用既有 pending 永久 ID；坐标 reference，非正式批准",
+        "name": "锦州湾机场",
+        "siteKey": "jinzhou-new",
+        "undatedIataAssociations": [
+          "jinzhou-iata-guide"
+        ]
+      },
+      "oldSite": {
+        "airportId": "apt_07a48d16-088f-4f88-81c3-a689cb03531b",
+        "coordinates": {
+          "latitude": 41.101398,
+          "longitude": 121.061996
+        },
+        "iataObservations": [],
+        "identityStatusZh": "复用既有 pending 永久 ID；坐标 reference，非正式批准",
+        "name": "锦州小岭子机场",
+        "siteKey": "jinzhou-old",
+        "undatedIataAssociations": []
+      },
+      "ownerEventGroupId": "market-case-jinzhou",
+      "reviewer": null,
+      "sameIataLead": true,
+      "scopedInvestigationZh": "仅核查 factIds 与 examinedDiscoverySourceIds 所列范围。历史 CDX 查询无捕获不代表历史上无代码关联；名称通知与运价城市代码不能补足机场 IATA。"
+    },
+    {
+      "bothSidesDirect": false,
+      "boundaryDecisionZh": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "caseKey": "luzhou",
+      "classification": "one_sided_iata",
+      "classificationZh": "仅有单侧 IATA 关联",
+      "codeHandoverDate": null,
+      "codes": [
+        "LZO"
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2018-09-01",
+        "latest": "2018-09-30",
+        "precision": "month"
+      },
+      "eventDateAssessmentZh": "运营商资料支持 2018-09，尚不能从次级日精度推导代码边界。",
+      "examinedDiscoverySourceIds": [
+        "caac-fares-2015",
+        "caac-names-2009",
+        "quality-2017",
+        "quality-2018",
+        "spring-archive-index-lzo",
+        "spring-home-index-lzo",
+        "spring-cutoff-index-airport-lzo",
+        "spring-cutoff-index-jianjie-lzo"
+      ],
+      "factIds": [
+        "luzhou-finding",
+        "luzhou-new-quality"
+      ],
+      "findingZh": "运营商资料支持 2018-09，尚不能从次级日精度推导代码边界。",
+      "gapsZh": [
+        "取得旧场最终代码有效观察／撤销通知和新场首次分配通知；独立人工审核物理身份与关联命名空间。"
+      ],
+      "independenceZh": "同一政府系列或 CAAP 衍生航班表不重复算独立佐证；代码表、运营事实和物理调查分别判断。",
+      "labelZh": "泸州蓝田／云龙",
+      "newExecutedEventBeyondPriorResearch": false,
+      "newSite": {
+        "airportId": "apt_f11bdf7d-d81d-46fc-a94f-8c8c42d4e245",
+        "coordinates": {
+          "latitude": 29.030357,
+          "longitude": 105.468407
+        },
+        "iataObservations": [
+          "luzhou-new-quality"
+        ],
+        "identityStatusZh": "复用既有 pending 永久 ID；坐标 reference，非正式批准",
+        "name": "泸州云龙机场",
+        "siteKey": "luzhou-new",
+        "undatedIataAssociations": []
+      },
+      "oldSite": {
+        "airportId": "apt_56b57bca-08d5-4b5e-944e-1e9cce968a0a",
+        "coordinates": {
+          "latitude": 28.852577,
+          "longitude": 105.392579
+        },
+        "iataObservations": [],
+        "identityStatusZh": "复用既有 pending 永久 ID；坐标 reference，非正式批准",
+        "name": "泸州蓝田机场",
+        "siteKey": "luzhou-old",
+        "undatedIataAssociations": []
+      },
+      "ownerEventGroupId": "market-case-luzhou",
+      "reviewer": null,
+      "sameIataLead": true,
+      "scopedInvestigationZh": "仅核查 factIds 与 examinedDiscoverySourceIds 所列范围。历史 CDX 查询无捕获不代表历史上无代码关联；名称通知与运价城市代码不能补足机场 IATA。"
+    },
+    {
+      "bothSidesDirect": false,
+      "boundaryDecisionZh": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "caseKey": "zhanjiang",
+      "classification": "one_sided_iata",
+      "classificationZh": "仅有单侧 IATA 关联",
+      "codeHandoverDate": null,
+      "codes": [
+        "ZHA"
+      ],
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2022-01-01",
+        "latest": "2022-12-31",
+        "precision": "year"
+      },
+      "eventDateAssessmentZh": "CAAC 年报确认实际替代发生于 2022；南航 03-24 预告不能单独当执行回顾。",
+      "examinedDiscoverySourceIds": [
+        "caac-fares-2015",
+        "caac-names-2009",
+        "quality-2017",
+        "quality-2018",
+        "spring-archive-index-zha",
+        "spring-home-index-zha"
+      ],
+      "factIds": [
+        "zhanjiang-finding",
+        "zhanjiang-carrier-planned-transfer",
+        "zhanjiang-new-quality"
+      ],
+      "findingZh": "CAAC 年报确认实际替代发生于 2022；南航 03-24 预告不能单独当执行回顾。",
+      "gapsZh": [
+        "取得旧场最终代码有效观察／撤销通知和新场首次分配通知；独立人工审核物理身份与关联命名空间。",
+        "旧网页只有泛称湛江机场，不能排除军用场址；旧场身份及代码均不作记录提案。"
+      ],
+      "independenceZh": "同一政府系列或 CAAP 衍生航班表不重复算独立佐证；代码表、运营事实和物理调查分别判断。",
+      "labelZh": "湛江旧民航／吴川",
+      "newExecutedEventBeyondPriorResearch": false,
+      "newSite": {
+        "airportId": "apt_70c6479b-100c-44fe-b9f2-8fd1b608d9bc",
+        "coordinates": {
+          "latitude": 21.481667,
+          "longitude": 110.590278
+        },
+        "iataObservations": [
+          "zhanjiang-new-quality"
+        ],
+        "identityStatusZh": "新增待审永久 ID；新吴川 OA354995；CAAC 替代事实与服务报告具名，ARP 待补",
+        "name": "湛江吴川国际机场",
+        "siteKey": "zhanjiang-new",
+        "undatedIataAssociations": []
+      },
+      "oldSite": {
+        "airportId": "apt_19e1bbf7-38d2-4d37-8c9a-e11b2f9e3705",
+        "coordinates": null,
+        "iataObservations": [],
+        "identityStatusZh": "仅保留调查假设 ID，未加入机场提案；不将遂溪、坡头等军用机场当旧民航机场",
+        "name": "湛江旧民航机场（具体场址待匹配）",
+        "siteKey": "zhanjiang-old",
+        "undatedIataAssociations": []
+      },
+      "ownerEventGroupId": "market-case-zhanjiang",
+      "reviewer": null,
+      "sameIataLead": true,
+      "scopedInvestigationZh": "仅核查 factIds 与 examinedDiscoverySourceIds 所列范围。历史 CDX 查询无捕获不代表历史上无代码关联；名称通知与运价城市代码不能补足机场 IATA。"
+    },
+    {
+      "bothSidesDirect": true,
+      "boundaryDecisionZh": "旧场最终撤销、新场首次分配及二者行政交接均未知。保留开放可能边界，不把开航／停航／目录出版日期填成代码生效日；本轮不据单次观察扩出整日连续窗口。",
+      "caseKey": "bohol",
+      "classification": "complete_same_iata_candidate",
+      "classificationZh": "完整同码跨场址候选（两侧关联；不代表已定交接）",
+      "codeHandoverDate": null,
+      "codes": [
+        "TAG"
+      ],
+      "country": "PH",
+      "decision": "pending",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2018-11-28",
+        "latest": "2018-11-28",
+        "precision": "exact"
+      },
+      "eventDateAssessmentZh": "CAAP 确认新场 2018-11-28 实际启用；旧场停止商业服务精确时刻仅有矛盾转载，不采用。",
+      "examinedDiscoverySourceIds": [
+        "caac-fares-2015",
+        "caac-names-2009",
+        "quality-2017",
+        "quality-2018"
+      ],
+      "factIds": [
+        "bohol-actual",
+        "bohol-old-arp-jica",
+        "bohol-new-site-airasia",
+        "bohol-physical-point",
+        "bohol-old-schedule-2015",
+        "bohol-old-schedule-2017",
+        "bohol-new-tag-airasia",
+        "bohol-tag"
+      ],
+      "findingZh": "CAAP 确认新场 2018-11-28 实际启用；旧场停止商业服务精确时刻仅有矛盾转载，不采用。",
+      "gapsZh": [
+        "取得旧场最终代码有效观察／撤销通知和新场首次分配通知；独立人工审核物理身份与关联命名空间。",
+        "PAL 转场稿目前仅取得转载，旧场停止时刻有冲突；追踪航空公司原公告或 CAAP 撤销原件。"
+      ],
+      "independenceZh": "同一政府系列或 CAAP 衍生航班表不重复算独立佐证；代码表、运营事实和物理调查分别判断。",
+      "labelZh": "Tagbilaran／Bohol-Panglao",
+      "newExecutedEventBeyondPriorResearch": false,
+      "newSite": {
+        "airportId": "apt_4dc2e0a8-c3ea-42a1-96c7-a268411b7460",
+        "coordinates": {
+          "latitude": 9.56666667,
+          "longitude": 123.775
+        },
+        "iataObservations": [
+          "bohol-new-tag-airasia",
+          "bohol-tag"
+        ],
+        "identityStatusZh": "复用 global pending ID；CAAP 新场参考点独立于旧场",
+        "name": "Bohol-Panglao International Airport",
+        "siteKey": "bohol-new",
+        "undatedIataAssociations": []
+      },
+      "oldSite": {
+        "airportId": "apt_78682b36-d300-4f1a-be34-3d6d9614e17e",
+        "coordinates": {
+          "latitude": 9.664191111111112,
+          "longitude": 123.85362958333333
+        },
+        "iataObservations": [
+          "bohol-old-schedule-2015",
+          "bohol-old-schedule-2017"
+        ],
+        "identityStatusZh": "新增待审永久 ID；JICA 旧场 ARP 与 OurAirports 5747 人工对应，不重用新场 ID",
+        "name": "Tagbilaran Airport (old city site)",
+        "siteKey": "bohol-old",
+        "undatedIataAssociations": []
+      },
+      "ownerEventGroupId": "dup_26471c61633056160d41e4e7",
+      "reviewer": null,
+      "sameIataLead": true,
+      "scopedInvestigationZh": "仅核查 factIds 与 examinedDiscoverySourceIds 所列范围。历史 CDX 查询无捕获不代表历史上无代码关联；名称通知与运价城市代码不能补足机场 IATA。"
+    },
+    {
+      "bothSidesDirect": false,
+      "boundaryDecisionZh": "保持现有 PNH/KTI 和 ICAO 正式边界完全原样；不提出旧记录修订。",
+      "caseKey": "phnom-penh",
+      "classification": "scoped_no_new_same_code_fact",
+      "classificationZh": "经明确范围原件核查，未发现可新增的同码沿用事实",
+      "codeHandoverDate": null,
+      "codes": [
+        "PNH",
+        "KTI"
+      ],
+      "country": "KH",
+      "decision": "pending",
+      "eventDate": {
+        "basis": "executed",
+        "earliest": "2025-09-09",
+        "latest": "2025-09-09",
+        "precision": "exact"
+      },
+      "eventDateAssessmentZh": "运营商回顾证实 2025-09-09 实际运营，10-20 为揭幕。",
+      "examinedDiscoverySourceIds": [
+        "caac-fares-2015",
+        "caac-names-2009",
+        "quality-2017",
+        "quality-2018"
+      ],
+      "factIds": [
+        "pnh-kti-sia-distinct",
+        "techo-executed-2025",
+        "techo-kti-current"
+      ],
+      "findingZh": "原件明确旧 PNH → 新 KTI；正式 0.8.0 已有 KTI 分配，用户关于缺新场 PNH 的假设不成立。不得补造 Techo 的 PNH。",
+      "gapsZh": [
+        "未穷尽全套 IATA 分配台账，不声称全球从未有其他 PNH 变化；本明确范围没有可新增同码事实。"
+      ],
+      "independenceZh": "SIA 航空公司与机场业主／运营商；后两者同项目相互依赖，不作两份独立代码证明。",
+      "labelZh": "Phnom Penh／Techo",
+      "newExecutedEventBeyondPriorResearch": false,
+      "newSite": {
+        "airportId": "apt_b97de260-274b-4cfd-b56e-5f035c6a7768",
+        "coordinates": {
+          "latitude": 11.359987,
+          "longitude": 104.921272
+        },
+        "iataObservations": [
+          "techo-kti-current"
+        ],
+        "identityStatusZh": "复用正式 0.8.0 永久 ID，既有分配不修改",
+        "name": "Techo International Airport",
+        "siteKey": "techo-new",
+        "undatedIataAssociations": []
+      },
+      "oldSite": {
+        "airportId": "apt_dafb3e33-c7ed-431a-b8e8-22eecf543107",
+        "coordinates": {
+          "latitude": 11.547155,
+          "longitude": 104.844699
+        },
+        "iataObservations": [
+          "pnh-kti-sia-distinct"
+        ],
+        "identityStatusZh": "复用正式 0.8.0 永久 ID，既有分配不修改",
+        "name": "Phnom Penh International Airport",
+        "siteKey": "pnh-old",
+        "undatedIataAssociations": []
+      },
+      "ownerEventGroupId": null,
+      "reviewer": null,
+      "sameIataLead": false,
+      "scopedInvestigationZh": "复核正式库及 SIA 原公告、新运营商实际开业回顾和业主专属 IATA/ICAO 声明；结论限于本次迁场。"
+    }
+  ],
+  "cutoff": "2026-10-29",
+  "decision": "pending",
+  "facts": [
+    {
+      "citationIds": [
+        "lianyungang-new-quality-q1"
+      ],
+      "codeBindings": [
+        {
+          "code": "LYG",
+          "scheme": "IATA",
+          "siteKey": "lianyungang-new"
+        }
+      ],
+      "conclusionZh": "原研究报告列出新场 连云港花果山 的 LYG 关联。2022 是测评数据年度，2023-05 是出版月；二者均非分配生效日。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "首次分配、最终撤销、未观察日期及机场开放日等于代码生效日。"
+      ],
+      "factId": "lianyungang-new-quality",
+      "kind": "association",
+      "observation": {
+        "basis": "publication_month_association_not_allocation",
+        "earliest": "2023-05-01",
+        "latest": "2023-05-31"
+      },
+      "reviewer": null,
+      "sourceId": "p0-cn-quality-2022"
+    },
+    {
+      "citationIds": [
+        "yibin-new-quality-q1"
+      ],
+      "codeBindings": [
+        {
+          "code": "YBP",
+          "scheme": "IATA",
+          "siteKey": "yibin-new"
+        }
+      ],
+      "conclusionZh": "原研究报告列出新场 宜宾五粮液 的 YBP 关联。2022 是测评数据年度，2023-05 是出版月；二者均非分配生效日。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "首次分配、最终撤销、未观察日期及机场开放日等于代码生效日。"
+      ],
+      "factId": "yibin-new-quality",
+      "kind": "association",
+      "observation": {
+        "basis": "publication_month_association_not_allocation",
+        "earliest": "2023-05-01",
+        "latest": "2023-05-31"
+      },
+      "reviewer": null,
+      "sourceId": "p0-cn-quality-2022"
+    },
+    {
+      "citationIds": [
+        "luzhou-new-quality-q1"
+      ],
+      "codeBindings": [
+        {
+          "code": "LZO",
+          "scheme": "IATA",
+          "siteKey": "luzhou-new"
+        }
+      ],
+      "conclusionZh": "原研究报告列出新场 泸州云龙 的 LZO 关联。2022 是测评数据年度，2023-05 是出版月；二者均非分配生效日。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "首次分配、最终撤销、未观察日期及机场开放日等于代码生效日。"
+      ],
+      "factId": "luzhou-new-quality",
+      "kind": "association",
+      "observation": {
+        "basis": "publication_month_association_not_allocation",
+        "earliest": "2023-05-01",
+        "latest": "2023-05-31"
+      },
+      "reviewer": null,
+      "sourceId": "p0-cn-quality-2022"
+    },
+    {
+      "citationIds": [
+        "zhanjiang-new-quality-q1"
+      ],
+      "codeBindings": [
+        {
+          "code": "ZHA",
+          "scheme": "IATA",
+          "siteKey": "zhanjiang-new"
+        }
+      ],
+      "conclusionZh": "原研究报告列出新场 湛江吴川 的 ZHA 关联。2022 是测评数据年度，2023-05 是出版月；二者均非分配生效日。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "首次分配、最终撤销、未观察日期及机场开放日等于代码生效日。"
+      ],
+      "factId": "zhanjiang-new-quality",
+      "kind": "association",
+      "observation": {
+        "basis": "publication_month_association_not_allocation",
+        "earliest": "2023-05-01",
+        "latest": "2023-05-31"
+      },
+      "reviewer": null,
+      "sourceId": "p0-cn-quality-2022"
+    },
+    {
+      "citationIds": [
+        "lianyungang-old-spring-2019-11-20-q1",
+        "lianyungang-old-spring-2019-11-20-q2"
+      ],
+      "codeBindings": [
+        {
+          "code": "LYG",
+          "scheme": "IATA",
+          "siteKey": "lianyungang-old"
+        }
+      ],
+      "conclusionZh": "历史捕获页面把旧场 连云港白塔埠机场 与航空公司机场订票路径 LYG 关联。代码仅存在 HTML href，属于间接机场订票代码判断；不是正文明确标为 IATA 的行政记录。捕获日也不是原文发布日期或代码分配日。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "首次分配、最终撤销、未观察日期及机场开放日等于代码生效日。"
+      ],
+      "evidenceType": "indirect",
+      "factId": "lianyungang-old-spring-2019-11-20",
+      "kind": "association",
+      "observation": {
+        "basis": "archived_carrier_booking_association_indirect",
+        "earliest": "2019-11-20",
+        "latest": "2019-11-20"
+      },
+      "reviewer": null,
+      "sourceId": "p0-lianyungang-spring-2019-11-20"
+    },
+    {
+      "citationIds": [
+        "lianyungang-old-spring-2020-09-21-q1",
+        "lianyungang-old-spring-2020-09-21-q2"
+      ],
+      "codeBindings": [
+        {
+          "code": "LYG",
+          "scheme": "IATA",
+          "siteKey": "lianyungang-old"
+        }
+      ],
+      "conclusionZh": "历史捕获页面把旧场 连云港白塔埠机场 与航空公司机场订票路径 LYG 关联。代码仅存在 HTML href，属于间接机场订票代码判断；不是正文明确标为 IATA 的行政记录。捕获日也不是原文发布日期或代码分配日。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "首次分配、最终撤销、未观察日期及机场开放日等于代码生效日。"
+      ],
+      "evidenceType": "indirect",
+      "factId": "lianyungang-old-spring-2020-09-21",
+      "kind": "association",
+      "observation": {
+        "basis": "archived_carrier_booking_association_indirect",
+        "earliest": "2020-09-21",
+        "latest": "2020-09-21"
+      },
+      "reviewer": null,
+      "sourceId": "p0-lianyungang-spring-2020-09-21"
+    },
+    {
+      "citationIds": [
+        "yibin-old-spring-2019-11-15-q1",
+        "yibin-old-spring-2019-11-15-q2"
+      ],
+      "codeBindings": [
+        {
+          "code": "YBP",
+          "scheme": "IATA",
+          "siteKey": "yibin-old"
+        }
+      ],
+      "conclusionZh": "历史捕获页面把旧场 宜宾菜坝机场 与航空公司机场订票路径 YBP 关联。代码仅存在 HTML href，属于间接机场订票代码判断；不是正文明确标为 IATA 的行政记录。捕获日也不是原文发布日期或代码分配日。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "首次分配、最终撤销、未观察日期及机场开放日等于代码生效日。"
+      ],
+      "evidenceType": "indirect",
+      "factId": "yibin-old-spring-2019-11-15",
+      "kind": "association",
+      "observation": {
+        "basis": "archived_carrier_booking_association_indirect",
+        "earliest": "2019-11-15",
+        "latest": "2019-11-15"
+      },
+      "reviewer": null,
+      "sourceId": "p0-yibin-spring-2019-11-15"
+    },
+    {
+      "citationIds": [
+        "yibin-old-spring-2019-11-21-q1",
+        "yibin-old-spring-2019-11-21-q2"
+      ],
+      "codeBindings": [
+        {
+          "code": "YBP",
+          "scheme": "IATA",
+          "siteKey": "yibin-old"
+        }
+      ],
+      "conclusionZh": "历史捕获页面把旧场 宜宾菜坝机场 与航空公司机场订票路径 YBP 关联。代码仅存在 HTML href，属于间接机场订票代码判断；不是正文明确标为 IATA 的行政记录。捕获日也不是原文发布日期或代码分配日。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "首次分配、最终撤销、未观察日期及机场开放日等于代码生效日。"
+      ],
+      "evidenceType": "indirect",
+      "factId": "yibin-old-spring-2019-11-21",
+      "kind": "association",
+      "observation": {
+        "basis": "archived_carrier_booking_association_indirect",
+        "earliest": "2019-11-21",
+        "latest": "2019-11-21"
+      },
+      "reviewer": null,
+      "sourceId": "p0-yibin-spring-2019-11-21"
+    },
+    {
+      "citationIds": [
+        "bohol-old-schedule-2015-q1",
+        "bohol-old-schedule-2015-q2",
+        "bohol-old-schedule-2015-q3"
+      ],
+      "codeBindings": [
+        {
+          "code": "TAG",
+          "scheme": "IATA",
+          "siteKey": "bohol-old"
+        }
+      ],
+      "conclusionZh": "政府编制的旧 Tagbilaran 航班表直接印有 TAG；表内数据日期是 2015-10，不以封面 2015、2021 上传路径或 2022 存档替代。新 Panglao 仍被描述为替代现有机场的建设项目。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "首次分配、最终撤销、未观察日期及机场开放日等于代码生效日。"
+      ],
+      "evidenceType": "direct",
+      "factId": "bohol-old-schedule-2015",
+      "kind": "association",
+      "observation": {
+        "basis": "explicit_table_data_month",
+        "earliest": "2015-10-01",
+        "latest": "2015-10-31"
+      },
+      "reviewer": null,
+      "sourceId": "p0-bohol-factbook-2015"
+    },
+    {
+      "citationIds": [
+        "bohol-old-schedule-2017-q1",
+        "bohol-old-schedule-2017-q2",
+        "bohol-old-schedule-2017-q3"
+      ],
+      "codeBindings": [
+        {
+          "code": "TAG",
+          "scheme": "IATA",
+          "siteKey": "bohol-old"
+        }
+      ],
+      "conclusionZh": "政府编制的旧 Tagbilaran 航班表直接印有 TAG；表内数据日期是 2017-10，不以封面 2016、2021 上传路径或 2022 存档替代。新 Panglao 仍被描述为替代现有机场的建设项目。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "首次分配、最终撤销、未观察日期及机场开放日等于代码生效日。"
+      ],
+      "evidenceType": "direct",
+      "factId": "bohol-old-schedule-2017",
+      "kind": "association",
+      "observation": {
+        "basis": "explicit_table_data_month",
+        "earliest": "2017-10-01",
+        "latest": "2017-10-31"
+      },
+      "reviewer": null,
+      "sourceId": "p0-bohol-factbook-2017"
+    },
+    {
+      "citationIds": [
+        "bohol-new-site-airasia-q1"
+      ],
+      "codeBindings": [],
+      "conclusionZh": "航空公司对其已在新 Panglao 场址运营作实际陈述；文中未取得 TAG 代码，不能单凭该文建立代码观察。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "首次分配、最终撤销、未观察日期及机场开放日等于代码生效日。"
+      ],
+      "factId": "bohol-new-site-airasia",
+      "kind": "executed_physical_operation",
+      "observation": null,
+      "reviewer": null,
+      "sourceId": "p0-bohol-airasia-site"
+    },
+    {
+      "citationIds": [
+        "bohol-new-tag-airasia-q1"
+      ],
+      "codeBindings": [
+        {
+          "code": "TAG",
+          "scheme": "IATA",
+          "siteKey": "bohol-new"
+        }
+      ],
+      "conclusionZh": "2020-11-18 原航空公司公告使用 Bohol(TAG) 预订代码；通过该公司 2020-02 已迁入 Panglao 的原文连接物理身份，属于间接新场代码关联。12-01 是计划复航日，不能认定 11-18 已实际飞行。",
+      "decision": "pending",
+      "dependsOnFactIds": [
+        "bohol-new-site-airasia"
+      ],
+      "doesNotSupport": [
+        "首次分配、最终撤销、未观察日期及机场开放日等于代码生效日。"
+      ],
+      "evidenceType": "indirect",
+      "factId": "bohol-new-tag-airasia",
+      "kind": "association",
+      "observation": {
+        "basis": "dated_booking_notice_indirect_site_join",
+        "earliest": "2020-11-18",
+        "latest": "2020-11-18"
+      },
+      "reviewer": null,
+      "sourceId": "p0-bohol-airasia-booking"
+    },
+    {
+      "citationIds": [
+        "lianyungang-carrier-planned-transfer-q1"
+      ],
+      "codeBindings": [],
+      "conclusionZh": "航空公司原公告直接区分两场并安排迁转；这是前瞻性自有航班计划，不是实际执行回顾，也没有 IATA 三字码。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "首次分配、最终撤销、未观察日期及机场开放日等于代码生效日。"
+      ],
+      "factId": "lianyungang-carrier-planned-transfer",
+      "kind": "prospective_transfer",
+      "observation": null,
+      "reviewer": null,
+      "sourceId": "p0-lianyungang-csair-transfer"
+    },
+    {
+      "citationIds": [
+        "zhanjiang-carrier-planned-transfer-q1"
+      ],
+      "codeBindings": [],
+      "conclusionZh": "航空公司原公告直接区分两场并安排迁转；这是前瞻性自有航班计划，不是实际执行回顾，也没有 IATA 三字码。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "首次分配、最终撤销、未观察日期及机场开放日等于代码生效日。"
+      ],
+      "factId": "zhanjiang-carrier-planned-transfer",
+      "kind": "prospective_transfer",
+      "observation": null,
+      "reviewer": null,
+      "sourceId": "p0-zhanjiang-csair-transfer"
+    },
+    {
+      "citationIds": [
+        "techo-executed-2025-q1"
+      ],
+      "codeBindings": [],
+      "conclusionZh": "新机场运营商区分 2025-09-09 实际运营与 10-20 揭幕，不能把典礼当首航。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "首次分配、最终撤销、未观察日期及机场开放日等于代码生效日。"
+      ],
+      "factId": "techo-executed-2025",
+      "kind": "executed_event",
+      "observation": null,
+      "reviewer": null,
+      "sourceId": "p0-techo-anniversary"
+    },
+    {
+      "citationIds": [
+        "techo-kti-current-q1"
+      ],
+      "codeBindings": [
+        {
+          "code": "KTI",
+          "scheme": "IATA",
+          "siteKey": "techo-new"
+        }
+      ],
+      "conclusionZh": "机场业主明确新场是 KTI，未发现新场 PNH 分配；与运营商同项目依赖，不能算独立的两票代码分配证据。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "首次分配、最终撤销、未观察日期及机场开放日等于代码生效日。"
+      ],
+      "evidenceType": "direct",
+      "factId": "techo-kti-current",
+      "kind": "association",
+      "observation": {
+        "basis": "retrieval_instant_not_whole_local_date",
+        "earliest": "2026-10-29",
+        "latest": "2026-10-29"
+      },
+      "reviewer": null,
+      "sourceId": "p0-techo-owner"
+    },
+    {
+      "citationIds": [
+        "pnh-kti-sia-distinct-q1",
+        "pnh-kti-sia-distinct-q2"
+      ],
+      "codeBindings": [
+        {
+          "code": "PNH",
+          "scheme": "IATA",
+          "siteKey": "pnh-old"
+        }
+      ],
+      "conclusionZh": "已用于正式库的原公告再次确认旧 PNH→新 KTI，而非 PNH 沿用。复用正式永久 ID，不新增代码或覆盖旧开放边界。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "首次分配、最终撤销、未观察日期及机场开放日等于代码生效日。"
+      ],
+      "evidenceType": "direct",
+      "factId": "pnh-kti-sia-distinct",
+      "kind": "association",
+      "notNewHistoricalFact": true,
+      "observation": {
+        "basis": "dated_carrier_notice_old_code_and_planned_new_code",
+        "earliest": "2025-08-26",
+        "latest": "2025-08-26"
+      },
+      "reviewer": null,
+      "sourceId": "pnh-sia-2025"
+    },
+    {
+      "citationIds": [
+        "bohol-old-arp-jica-q1"
+      ],
+      "codeBindings": [],
+      "conclusionZh": "2012 调查报告给出旧 Tagbilaran ARP；仅支持物理旧场匹配，早于研究窗且不能证明 TAG 分配或 2018 撤销。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "首次分配、最终撤销、未观察日期及机场开放日等于代码生效日。"
+      ],
+      "factId": "bohol-old-arp-jica",
+      "kind": "physical_site",
+      "observation": null,
+      "reviewer": null,
+      "sourceId": "ph-bohol-jica"
+    },
+    {
+      "citationIds": [
+        "lyg-old-guide-undated-q1"
+      ],
+      "codeBindings": [
+        {
+          "code": "LYG",
+          "scheme": "IATA",
+          "siteKey": "lianyungang-old"
+        }
+      ],
+      "conclusionZh": "原服务提供商指南明确旧场代码 LYG，但未核实印刷出版日；URL 的 2011 及 PDF 创建时间均不作为有效观察日期。仅补强机场代码命名空间，不计入有日期观察。",
+      "decision": "pending",
+      "doesNotSupport": [
+        "首次分配、最终撤销、未观察日期及机场开放日等于代码生效日。"
+      ],
+      "evidenceType": "indirect",
+      "factId": "lyg-old-guide-undated",
+      "kind": "association",
+      "observation": null,
+      "reviewer": null,
+      "sourceId": "p0-dragonpass-boc-old"
+    }
+  ],
+  "formalBaseCommit": "9a22e059eb997d8195450b48f1f9b794550f2b28",
+  "formalBaselineSha256": "b7880507c50cf8f993c98b3ec66f34e6433c452d7637eea7c6bfe61edbf166a3",
+  "formatVersion": 1,
+  "newSites": [
+    {
+      "airportId": "apt_78682b36-d300-4f1a-be34-3d6d9614e17e",
+      "assessmentZh": "JICA 旧场 ARP 人工匹配 Tagbilaran 城区旧跑道，与 Panglao 新场分立。坐标仍 reference，待人工批准。",
+      "caseKey": "bohol",
+      "coordinateSourceIds": [
+        "ph-bohol-jica"
+      ],
+      "coordinates": {
+        "latitude": 9.664191111111112,
+        "longitude": 123.85362958333333
+      },
+      "factIds": [
+        "bohol-old-arp-jica",
+        "bohol-old-schedule-2015",
+        "bohol-old-schedule-2017"
+      ],
+      "name": "Tagbilaran Airport (old city site)",
+      "ourAirports": "5747",
+      "sourceIds": [
+        "ph-bohol-jica",
+        "p0-bohol-factbook-2015",
+        "p0-bohol-factbook-2017"
+      ]
+    },
+    {
+      "airportId": "apt_70c6479b-100c-44fe-b9f2-8fd1b608d9bc",
+      "assessmentZh": "CAAC 迁建关系、南航具名新场与服务报告共同匹配 OA354995 吴川；参考坐标不是经审核 ARP。旧湛江身份未提案。",
+      "caseKey": "zhanjiang",
+      "coordinateSourceIds": [
+        "global-ourairports-reference"
+      ],
+      "coordinates": {
+        "latitude": 21.481667,
+        "longitude": 110.590278
+      },
+      "factIds": [
+        "zhanjiang-new-quality",
+        "zhanjiang-finding"
+      ],
+      "name": "湛江吴川国际机场",
+      "ourAirports": "354995",
+      "sourceIds": [
+        "p0-cn-quality-2022",
+        "cn-stat-2022"
+      ]
+    }
+  ],
+  "reviewer": null
+}

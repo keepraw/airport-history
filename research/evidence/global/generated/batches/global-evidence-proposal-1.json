@@ -1,0 +1,2918 @@
+{
+  "admission": {
+    "airports": 0,
+    "assignments": 0,
+    "formalSources": 0,
+    "names": 0
+  },
+  "baseCommit": "9a22e059eb997d8195450b48f1f9b794550f2b28",
+  "batchId": "global-evidence-proposal-1",
+  "events": [
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_087cb061dc9981f95f9d81b9",
+        "cand_31e708a294f76c417ac131f8",
+        "cand_aa92342d4b6c107edad8f7db"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vosr",
+            "in-aip-22-02-2024-vosr",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vosr",
+            "in-aip-22-02-2024-vosr",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vosr",
+            "in-aip-22-02-2024-vosr",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vosr",
+            "in-aip-22-02-2024-vosr",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vosr",
+            "in-aip-22-02-2024-vosr",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vosr",
+            "in-aip-22-02-2024-vosr",
+            "in-greenfield-six-alternative"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_3ba8285a7a6ad98d019277ca",
+      "evidenceFactIds": [
+        "sindhudurg-aip-2024",
+        "sindhudurg-aip-2026",
+        "india-six-years"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing."
+      ],
+      "exclusionReason": null,
+      "label": "Sindhudurg Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow. ",
+      "proposedRecordIds": [
+        "apt_9e24d5d7-5e1a-4489-b936-2737c438921e",
+        "global-proposal-sindhudurg-icao-vosr"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "in-aip-09-07-2026-vosr",
+        "in-aip-22-02-2024-vosr",
+        "in-greenfield-six-alternative"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_0e0464a378e2950d286d736a",
+        "cand_32ffcfca3a814be61181dbca",
+        "cand_60413024720c83bcb8f4331f"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vogb",
+            "in-aip-22-02-2024-vogb",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vogb",
+            "in-aip-22-02-2024-vogb",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vogb",
+            "in-aip-22-02-2024-vogb",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vogb",
+            "in-aip-22-02-2024-vogb",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vogb",
+            "in-aip-22-02-2024-vogb",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vogb",
+            "in-aip-22-02-2024-vogb",
+            "in-greenfield-six-alternative"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_27ed2ac1e6d76646da47e39c",
+      "evidenceFactIds": [
+        "kalaburagi-aip-2024",
+        "kalaburagi-aip-2026",
+        "india-six-years"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing."
+      ],
+      "exclusionReason": null,
+      "label": "Kalaburagi Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow. ",
+      "proposedRecordIds": [
+        "apt_66034969-b902-4ede-8011-cc87a23070b7",
+        "global-proposal-kalaburagi-icao-vogb"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "in-aip-09-07-2026-vogb",
+        "in-aip-22-02-2024-vogb",
+        "in-greenfield-six-alternative"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_0acd4a07f04e72da561cc499",
+        "cand_22ea0d8c41311a4fe76152db",
+        "cand_6e0b8f41667a45a580760e68"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-voku",
+            "in-aip-22-02-2024-voku",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-voku",
+            "in-aip-22-02-2024-voku",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-voku",
+            "in-aip-22-02-2024-voku",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-voku",
+            "in-aip-22-02-2024-voku",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-voku",
+            "in-aip-22-02-2024-voku",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-voku",
+            "in-aip-22-02-2024-voku",
+            "in-greenfield-six-alternative"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_aaf4adc6feec9f8fb9ff606e",
+      "evidenceFactIds": [
+        "kurnool-aip-2024",
+        "kurnool-aip-2026",
+        "india-six-years"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing.",
+        "Government 2025 summary says 2020; contemporary 2021 statement says 2021. Opening chronology unresolved; ICAO observation window does not depend on either year."
+      ],
+      "exclusionReason": null,
+      "label": "Kurnool Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Government 2025 summary says 2020; contemporary 2021 statement says 2021. Opening chronology unresolved; ICAO observation window does not depend on either year.",
+      "proposedRecordIds": [
+        "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3",
+        "global-proposal-kurnool-icao-voku"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "in-aip-09-07-2026-voku",
+        "in-aip-22-02-2024-voku",
+        "in-greenfield-six-alternative"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_035827051abf8a779b1ccf36",
+        "cand_5a3438d3319fe02a5229cd8d",
+        "cand_f40c86effb03bcd092511eb5"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-veki",
+            "in-aip-22-02-2024-veki",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-veki",
+            "in-aip-22-02-2024-veki",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-veki",
+            "in-aip-22-02-2024-veki",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-veki",
+            "in-aip-22-02-2024-veki",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-veki",
+            "in-aip-22-02-2024-veki",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-veki",
+            "in-aip-22-02-2024-veki",
+            "in-greenfield-six-alternative"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_4d24e77865400b9c4c92c1cc",
+      "evidenceFactIds": [
+        "kushinagar-aip-2024",
+        "kushinagar-aip-2026",
+        "india-six-years"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing."
+      ],
+      "exclusionReason": null,
+      "label": "Kushinagar International Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow. ",
+      "proposedRecordIds": [
+        "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f",
+        "global-proposal-kushinagar-icao-veki"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "in-aip-09-07-2026-veki",
+        "in-aip-22-02-2024-veki",
+        "in-greenfield-six-alternative"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_44068c6677d207a725e8a057",
+        "cand_9af887a0c7e530731f72ecd2",
+        "cand_e4f734f10c344afb9634c552"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vepy",
+            "in-aip-22-02-2024-vepy",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vepy",
+            "in-aip-22-02-2024-vepy",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vepy",
+            "in-aip-22-02-2024-vepy",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vepy",
+            "in-aip-22-02-2024-vepy",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vepy",
+            "in-aip-22-02-2024-vepy",
+            "in-greenfield-six-alternative"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vepy",
+            "in-aip-22-02-2024-vepy",
+            "in-greenfield-six-alternative"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_5f5ccdfccdad5394bef22d11",
+      "evidenceFactIds": [
+        "pakyong-aip-2024",
+        "pakyong-aip-2026",
+        "india-six-years"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing."
+      ],
+      "exclusionReason": null,
+      "label": "Pakyong Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow. ",
+      "proposedRecordIds": [
+        "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9",
+        "global-proposal-pakyong-icao-vepy"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "in-aip-09-07-2026-vepy",
+        "in-aip-22-02-2024-vepy",
+        "in-greenfield-six-alternative"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_466cea87d0a90bf26766d640",
+        "cand_e5e1b1c0c803ca1713a9fb8f",
+        "cand_f4b3be8f8466d792751da6b9"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-veho",
+            "in-aip-22-02-2024-veho",
+            "in-greenfield-projects",
+            "in-hollongi-supplement"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-veho",
+            "in-aip-22-02-2024-veho",
+            "in-greenfield-projects",
+            "in-hollongi-supplement"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-veho",
+            "in-aip-22-02-2024-veho",
+            "in-greenfield-projects",
+            "in-hollongi-supplement"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-veho",
+            "in-aip-22-02-2024-veho",
+            "in-greenfield-projects",
+            "in-hollongi-supplement"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-veho",
+            "in-aip-22-02-2024-veho",
+            "in-greenfield-projects",
+            "in-hollongi-supplement"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-veho",
+            "in-aip-22-02-2024-veho",
+            "in-greenfield-projects",
+            "in-hollongi-supplement"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_ca9f4a58bb8040253eee0b3f",
+      "evidenceFactIds": [
+        "hollongi-aip-2024",
+        "hollongi-aip-2026",
+        "india-project-years",
+        "hollongi-administrative",
+        "hollongi-administrative"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing."
+      ],
+      "exclusionReason": null,
+      "label": "Itanagar Donyi Polo Hollongi Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow. ",
+      "proposedRecordIds": [
+        "apt_9acf6a6b-6e22-48c6-881c-d602429a9268",
+        "global-proposal-hollongi-icao-veho"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "in-aip-09-07-2026-veho",
+        "in-aip-22-02-2024-veho",
+        "in-greenfield-projects",
+        "in-hollongi-supplement"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_6efd6dfd89641d844456cd6f",
+        "cand_d6e4f7f4be59cf118e300e0d"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-voga",
+            "in-aip-22-02-2024-voga",
+            "in-greenfield-projects"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-voga",
+            "in-aip-22-02-2024-voga",
+            "in-greenfield-projects"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-voga",
+            "in-aip-22-02-2024-voga",
+            "in-greenfield-projects"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-voga",
+            "in-aip-22-02-2024-voga",
+            "in-greenfield-projects"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-voga",
+            "in-aip-22-02-2024-voga",
+            "in-greenfield-projects"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-voga",
+            "in-aip-22-02-2024-voga",
+            "in-greenfield-projects"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_942a281df9b970b2819543e4",
+      "evidenceFactIds": [
+        "mopa-aip-2024",
+        "mopa-aip-2026",
+        "india-project-years"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing."
+      ],
+      "exclusionReason": null,
+      "label": "Manohar International Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow. ",
+      "proposedRecordIds": [
+        "apt_d8c584ef-5538-47e0-ab55-ccefd309e6af",
+        "global-proposal-mopa-icao-voga"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "in-aip-09-07-2026-voga",
+        "in-aip-22-02-2024-voga",
+        "in-greenfield-projects"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_c7c7eef595e12b328a8536d6"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vasd",
+            "in-aip-22-02-2024-vasd",
+            "in-greenfield-projects"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vasd",
+            "in-aip-22-02-2024-vasd",
+            "in-greenfield-projects"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vasd",
+            "in-aip-22-02-2024-vasd",
+            "in-greenfield-projects"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vasd",
+            "in-aip-22-02-2024-vasd",
+            "in-greenfield-projects"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vasd",
+            "in-aip-22-02-2024-vasd",
+            "in-greenfield-projects"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vasd",
+            "in-aip-22-02-2024-vasd",
+            "in-greenfield-projects"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "lead_073d99a3bc0822b3033e57a6",
+      "evidenceFactIds": [
+        "shirdi-aip-2024",
+        "shirdi-aip-2026",
+        "india-project-years"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing."
+      ],
+      "exclusionReason": null,
+      "label": "Shirdi International Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow. ",
+      "proposedRecordIds": [
+        "apt_fa1bf7a7-a97d-4676-9c9a-7871eda47767",
+        "global-proposal-shirdi-icao-vasd"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "in-aip-09-07-2026-vasd",
+        "in-aip-22-02-2024-vasd",
+        "in-greenfield-projects"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_747c675f5c7ba3ee75614318",
+        "cand_96512019b1be49158188519a",
+        "cand_fc109e1e237ce2a4e1e93580"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vokn",
+            "in-aip-22-02-2024-vokn",
+            "in-greenfield-projects"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vokn",
+            "in-aip-22-02-2024-vokn",
+            "in-greenfield-projects"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vokn",
+            "in-aip-22-02-2024-vokn",
+            "in-greenfield-projects"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vokn",
+            "in-aip-22-02-2024-vokn",
+            "in-greenfield-projects"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vokn",
+            "in-aip-22-02-2024-vokn",
+            "in-greenfield-projects"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vokn",
+            "in-aip-22-02-2024-vokn",
+            "in-greenfield-projects"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_f3cca06c8be552129785bb71",
+      "evidenceFactIds": [
+        "kannur-aip-2024",
+        "kannur-aip-2026",
+        "india-project-years"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing."
+      ],
+      "exclusionReason": null,
+      "label": "Kannur International Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow. ",
+      "proposedRecordIds": [
+        "apt_58a2554f-6a9b-4ad7-bc2c-2550ad21b962",
+        "global-proposal-kannur-icao-vokn"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "in-aip-09-07-2026-vokn",
+        "in-aip-22-02-2024-vokn",
+        "in-greenfield-projects"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_55a2551bb8f3054d336a194d",
+        "cand_5fc633a7881137c9a2440e92",
+        "cand_e8559a963e6371c7d6ed82fa"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vedg",
+            "in-aip-22-02-2024-vedg",
+            "in-greenfield-projects"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vedg",
+            "in-aip-22-02-2024-vedg",
+            "in-greenfield-projects"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vedg",
+            "in-aip-22-02-2024-vedg",
+            "in-greenfield-projects"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vedg",
+            "in-aip-22-02-2024-vedg",
+            "in-greenfield-projects"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-aip-09-07-2026-vedg",
+            "in-aip-22-02-2024-vedg",
+            "in-greenfield-projects"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-aip-09-07-2026-vedg",
+            "in-aip-22-02-2024-vedg",
+            "in-greenfield-projects"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_12716465e601092315719dae",
+      "evidenceFactIds": [
+        "durgapur-aip-2024",
+        "durgapur-aip-2026",
+        "india-project-years"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing."
+      ],
+      "exclusionReason": null,
+      "label": "Kazi Nazrul Islam Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow. ",
+      "proposedRecordIds": [
+        "apt_7f9cc70a-c6cc-44a1-b78e-9a817165e1c4",
+        "global-proposal-durgapur-icao-vedg"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "in-aip-09-07-2026-vedg",
+        "in-aip-22-02-2024-vedg",
+        "in-greenfield-projects"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_68c4375022a87e1f78da4f59",
+        "cand_6c38dab0d8a2e67e32bec1d3",
+        "cand_c48659d0a5e8a31db1932035"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-rajkot-actual",
+            "in-rajkot-ai",
+            "in-rajkot-aip-2024"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-rajkot-actual",
+            "in-rajkot-ai",
+            "in-rajkot-aip-2024"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-rajkot-actual",
+            "in-rajkot-ai",
+            "in-rajkot-aip-2024"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-rajkot-actual",
+            "in-rajkot-ai",
+            "in-rajkot-aip-2024"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "in-rajkot-actual",
+            "in-rajkot-ai",
+            "in-rajkot-aip-2024"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "in-rajkot-actual",
+            "in-rajkot-ai",
+            "in-rajkot-aip-2024"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_624f8766f03f82889ff9f300",
+      "evidenceFactIds": [
+        "rajkot-actual",
+        "rajkot-aip",
+        "rajkot-hsr-airline"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing.",
+        "Old RAJ and historical HSR allocation/withdrawal boundaries remain missing; current HSR is only one observation."
+      ],
+      "exclusionReason": null,
+      "label": "Rajkot International Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Old RAJ and new HSR allocation evidence not acquired; HSR navaid in AIP is not IATA proof.",
+      "proposedRecordIds": [
+        "apt_f239c222-5378-4291-bc8a-7c3ebb0d147f",
+        "global-proposal-rajkot-new-icao-vahs",
+        "global-proposal-rajkot-new-iata-hsr"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "in-rajkot-actual",
+        "in-rajkot-ai",
+        "in-rajkot-aip-2024"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_90545bd77eb53664cdce8c71",
+        "cand_aad8f7305c8e610988386232",
+        "cand_b5bd01aae07dbaa52ef78266"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "kh-sai-airasia",
+            "kh-sai-vn"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "kh-sai-airasia",
+            "kh-sai-vn"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "kh-sai-airasia",
+            "kh-sai-vn"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "kh-sai-airasia",
+            "kh-sai-vn"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "kh-sai-airasia",
+            "kh-sai-vn"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "kh-sai-airasia",
+            "kh-sai-vn"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_8e1937b05ea9c66c753584f4",
+      "evidenceFactIds": [
+        "sai-executed",
+        "sai-carrier-plan"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing.",
+        "Exact REP withdrawal and SAI first allocation missing; original ARP evidence needed for physical admissions."
+      ],
+      "exclusionReason": null,
+      "label": "Siem Reap-Angkor International Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Exact REP withdrawal and SAI first allocation missing; original ARP evidence needed for physical admissions.",
+      "proposedRecordIds": [
+        "apt_0c14aa20-7db5-4fcb-8622-5c38a6ef4a95",
+        "apt_8067a434-5493-499a-a970-44dd6c2b1b53",
+        "global-proposal-siemreap-new-iata-sai",
+        "global-proposal-siemreap-old-iata-rep"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "kh-sai-airasia",
+        "kh-sai-vn"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_113adde8dc7a0f10fe48bc7b",
+        "cand_2ffdf1df481e0b76a7b26476",
+        "cand_d39645c5bf90c05dd0da24fe"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ph-bicol-current",
+            "ph-bicol-pal"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "ph-bicol-current",
+            "ph-bicol-pal"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ph-bicol-current",
+            "ph-bicol-pal"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "ph-bicol-current",
+            "ph-bicol-pal"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "ph-bicol-current",
+            "ph-bicol-pal"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ph-bicol-current",
+            "ph-bicol-pal"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_df44261fa203882d88de5e74",
+      "evidenceFactIds": [
+        "bicol-code-switch",
+        "bicol-current"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing.",
+        "Primary physical ARP still needed. The 2021 LGP transfer from the former Legazpi site is not adjudicated here."
+      ],
+      "exclusionReason": null,
+      "label": "Bicol International Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Primary physical ARP still needed. The 2021 LGP transfer from the former Legazpi site is not adjudicated here.",
+      "proposedRecordIds": [
+        "apt_e4a0e403-4f25-472c-bac1-b784eba0bcd9",
+        "global-proposal-bicol-iata-lgp",
+        "global-proposal-bicol-iata-drp"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "ph-bicol-current",
+        "ph-bicol-pal"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_79bc9721c7a8ce7d2cdb80cf",
+        "cand_911acd072de1c081c8e5cfee",
+        "cand_b3a630e15f46010cd0ae2a61"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ph-bohol-caap",
+            "ph-bohol-tourism2025"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "ph-bohol-caap",
+            "ph-bohol-tourism2025"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ph-bohol-caap",
+            "ph-bohol-tourism2025"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "ph-bohol-caap",
+            "ph-bohol-tourism2025"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "ph-bohol-caap",
+            "ph-bohol-tourism2025"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ph-bohol-caap",
+            "ph-bohol-tourism2025"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_26471c61633056160d41e4e7",
+      "evidenceFactIds": [
+        "bohol-actual",
+        "bohol-tag",
+        "bohol-schedule",
+        "bohol-physical-point"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing.",
+        "Old-site TAG allocation/withdrawal not established; do not claim complete P0 transfer chronology."
+      ],
+      "exclusionReason": null,
+      "label": "Bohol-Panglao International Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Old-site TAG allocation/withdrawal not established: do not claim P0 transfer completion. Primary ARP for new physical record missing; the old site remains a reference hypothesis.",
+      "proposedRecordIds": [
+        "apt_4dc2e0a8-c3ea-42a1-96c7-a268411b7460",
+        "global-proposal-bohol-new-iata-tag"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "ph-bohol-caap",
+        "ph-bohol-tourism2025"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_6d15e6e9ae612e435ed0a882",
+        "cand_85e067b65d1052283a2a6ad2"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cl-chaiten-aip",
+            "cl-chaiten-mop"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "cl-chaiten-aip",
+            "cl-chaiten-mop"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cl-chaiten-aip",
+            "cl-chaiten-mop"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "cl-chaiten-aip",
+            "cl-chaiten-mop"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "cl-chaiten-aip",
+            "cl-chaiten-mop"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cl-chaiten-aip",
+            "cl-chaiten-mop"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_5a7cd2e2b25144398b24d06f",
+      "evidenceFactIds": [
+        "chaiten-operation",
+        "chaiten-arp"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing.",
+        "Old SCTN/WCH transfer timing remains unknown; current observation does not cover 2015-2025."
+      ],
+      "exclusionReason": null,
+      "label": "Nuevo Chaitén Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Old SCTN/WCH transfer timing remains unknown; current observation does not cover 2015-2025.",
+      "proposedRecordIds": [
+        "apt_1aa967e1-6a28-4438-bc18-7acb6920c547",
+        "global-proposal-chaiten-new-icao-sctn",
+        "global-proposal-chaiten-new-iata-wch"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "cl-chaiten-aip",
+        "cl-chaiten-mop"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_046cef2da66f3701ba8d8553",
+        "cand_71dd5dded3b8519141e21323",
+        "cand_88618ed036d7258907835f89"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "es-murcia-aena-actual",
+            "es-murcia-aena-retrospective",
+            "es-murcia-aip",
+            "es-murcia-parliament",
+            "es-sanjavier-aip"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "es-murcia-aena-actual",
+            "es-murcia-aena-retrospective",
+            "es-murcia-aip",
+            "es-murcia-parliament",
+            "es-sanjavier-aip"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "es-murcia-aena-actual",
+            "es-murcia-aena-retrospective",
+            "es-murcia-aip",
+            "es-murcia-parliament",
+            "es-sanjavier-aip"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "es-murcia-aena-actual",
+            "es-murcia-aena-retrospective",
+            "es-murcia-aip",
+            "es-murcia-parliament",
+            "es-sanjavier-aip"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "es-murcia-aena-actual",
+            "es-murcia-aena-retrospective",
+            "es-murcia-aip",
+            "es-murcia-parliament",
+            "es-sanjavier-aip"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "es-murcia-aena-actual",
+            "es-murcia-aena-retrospective",
+            "es-murcia-aip",
+            "es-murcia-parliament",
+            "es-sanjavier-aip"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_5c819a661040eb0011dc6f88",
+      "evidenceFactIds": [
+        "murcia-replacement",
+        "murcia-new-arp",
+        "murcia-old-arp",
+        "murcia-aena-first-arrival",
+        "murcia-aena-retrospective"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing.",
+        "IATA windows remain one parliamentary publication observation; no direct allocation ledger is acquired."
+      ],
+      "exclusionReason": null,
+      "label": "Región de Murcia International Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: IATA windows are one publication observation only; no direct allocation ledger or independent executed opening notice is acquired.",
+      "proposedRecordIds": [
+        "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+        "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+        "global-proposal-murcia-new-icao-lemi",
+        "global-proposal-murcia-new-iata-rmu",
+        "global-proposal-murcia-old-icao-lelc",
+        "global-proposal-murcia-old-iata-mjv"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "es-murcia-aena-actual",
+        "es-murcia-aena-retrospective",
+        "es-murcia-aip",
+        "es-murcia-parliament",
+        "es-sanjavier-aip"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_0bd1434d0f336e446eb7d34b",
+        "cand_1d3e6381af0420730d797333",
+        "cand_83646e87b60ac3ee204ffde0"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "il-ramon-operator",
+            "il-ramon-tourism"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "il-ramon-operator",
+            "il-ramon-tourism"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "il-ramon-operator",
+            "il-ramon-tourism"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "il-ramon-operator",
+            "il-ramon-tourism"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "il-ramon-operator",
+            "il-ramon-tourism"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "il-ramon-operator",
+            "il-ramon-tourism"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_81055b5354a2d55b7d396d95",
+      "evidenceFactIds": [
+        "ramon-eilat-actual",
+        "ramon-icao-year",
+        "ramon-etm"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing.",
+        "Physical ARP and dated ongoing LLER observations missing; 2016 administrative approval is not a 2019 opening boundary."
+      ],
+      "exclusionReason": null,
+      "label": "Ramon International Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Physical ARP and dated ongoing LLER observations missing; 2016 administrative approval is not a 2019 opening boundary.",
+      "proposedRecordIds": [
+        "apt_c2ab102c-fede-4c3e-a351-12468dedaf25",
+        "global-proposal-ramon-iata-etm",
+        "global-proposal-ramon-icao-ller"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "il-ramon-operator",
+        "il-ramon-tourism"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_06026887e1e9fbbdd0987af8",
+        "cand_545d0fd48e1ec16ec8e12621",
+        "cand_ee71b412657d90b7fb4e3fa6"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ws-fagalii-airline",
+            "ws-fagalii-government",
+            "ws-fagalii-operator"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "ws-fagalii-airline",
+            "ws-fagalii-government",
+            "ws-fagalii-operator"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ws-fagalii-airline",
+            "ws-fagalii-government",
+            "ws-fagalii-operator"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "ws-fagalii-airline",
+            "ws-fagalii-government",
+            "ws-fagalii-operator"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "ws-fagalii-airline",
+            "ws-fagalii-government",
+            "ws-fagalii-operator"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "ws-fagalii-airline",
+            "ws-fagalii-government",
+            "ws-fagalii-operator"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_1a70fde51637a2889413a962",
+      "evidenceFactIds": [
+        "fagalii-quarter",
+        "fagalii-history",
+        "fagalii-code"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing.",
+        "Primary physical ARP and historical FGI observations during closure/reopening are missing."
+      ],
+      "exclusionReason": null,
+      "label": "Fagali'i Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: Primary physical ARP and historical FGI observations during closure/reopening are missing.",
+      "proposedRecordIds": [
+        "apt_94e4d809-205f-4295-b39e-2b135c722d8f",
+        "global-proposal-fagalii-iata-fgi"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "ws-fagalii-airline",
+        "ws-fagalii-government",
+        "ws-fagalii-operator"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_ee0047fd48acfb13ec1083c3"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "zm-ndola-actual",
+            "zm-ndola-codes",
+            "zm-ndola-history"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "zm-ndola-actual",
+            "zm-ndola-codes",
+            "zm-ndola-history"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "zm-ndola-actual",
+            "zm-ndola-codes",
+            "zm-ndola-history"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "zm-ndola-actual",
+            "zm-ndola-codes",
+            "zm-ndola-history"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "zm-ndola-actual",
+            "zm-ndola-codes",
+            "zm-ndola-history"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "zm-ndola-actual",
+            "zm-ndola-codes",
+            "zm-ndola-history"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "lead_3e35698d318c89fda875e9b9",
+      "evidenceFactIds": [
+        "ndola-october",
+        "ndola-august",
+        "ndola-codes"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing.",
+        "August 7 vs October 7 source chronology unresolved; NLA transfer boundary and primary ARP missing."
+      ],
+      "exclusionReason": null,
+      "label": "Simon Mwansa Kapwepwe International Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: August 7 vs October 7 source chronology unresolved; NLA transfer boundary and primary ARP missing.",
+      "proposedRecordIds": [
+        "apt_e171bf4b-8cb3-4fb7-8f17-299a0b35bbeb",
+        "global-proposal-ndola-new-iata-nla",
+        "global-proposal-ndola-new-icao-flsk"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "zm-ndola-actual",
+        "zm-ndola-codes",
+        "zm-ndola-history"
+      ],
+      "status": "pending_review"
+    },
+    {
+      "admittedAirportIds": [],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_1406b9bdb6a23310e2c8692e",
+        "cand_67c1ca885e472ccd74a003c0",
+        "cand_abc6ebf9ba87474b266cf926"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "A civil-service transfer does not imply military airport closure or code withdrawal. Read the individual executed/prospective event assessments.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "br-conquista-actual",
+            "br-conquista-ais"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Use the exact proposed observation bounds and retain unknown allocation/withdrawal limits. Event dates and publication dates are separate.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "br-conquista-actual",
+            "br-conquista-ais"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Display labels only. No official-name interval is proposed in this batch.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "br-conquista-actual",
+            "br-conquista-ais"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only explicitly scoped carrier/authority code observations support the proposed IATA records. Missing historical allocations remain blocked.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "br-conquista-actual",
+            "br-conquista-ais"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only explicitly named aerodrome indicators in original authority material support ICAO. Navaid codes and FAA three-letter identifiers are not IATA evidence.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "br-conquista-actual",
+            "br-conquista-ais"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Separate the named physical site hypotheses; coordinates are reference attributes unless an original ARP is cited.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "br-conquista-actual",
+            "br-conquista-ais"
+          ]
+        }
+      },
+      "conflicts": [
+        "Source dependence, temporal limits and counterevidence remain in each factual assessment."
+      ],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Source commits do not create continuous historical validity.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "dup_0a28b8ccfb836c3a839e80a9",
+      "evidenceFactIds": [
+        "conquista-current",
+        "conquista-arp",
+        "conquista-ceremony"
+      ],
+      "evidenceGaps": [
+        "Explicit human approval is missing.",
+        "VDC historical transfer and SSVC change dates missing. Ceremony day is not flight commencement."
+      ],
+      "exclusionReason": null,
+      "label": "Glauber de Andrade Rocha Airport",
+      "nextAction": "Review each original, physical match, namespace, boundary and continuity decision; accept records only through the unchanged human admission workflow.  Resolve: VDC historical transfer and SSVC change dates missing. Ceremony day is not flight commencement.",
+      "proposedRecordIds": [
+        "apt_37335154-e31b-4bde-9b4a-073dcb4be07d",
+        "global-proposal-conquista-new-icao-sbvc",
+        "global-proposal-conquista-new-icao-ssvc"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-10-29",
+      "sourceIds": [
+        "br-conquista-actual",
+        "br-conquista-ais"
+      ],
+      "status": "pending_review"
+    }
+  ],
+  "formatVersion": 1,
+  "nextBatch": [],
+  "preparationOnly": true,
+  "reviewedOn": "2026-10-29",
+  "selection": {
+    "eventCount": 20,
+    "maximumEvents": 20,
+    "policy": "Deterministic source-transition triage. Pending evidence review, not a completed admission."
+  },
+  "sources": [
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original official publication archived for evidence review. Excluded from repository MIT license; source rights and third-party rights remain applicable. No general redistribution license inferred.",
+        "url": "https://www.pmvc.ba.gov.br/aeroporto-glauber-rocha-e-inaugurado-com-a-presenca-do-presidente-jair-bolsonaro/"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "br-conquista-actual",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://www.pmvc.ba.gov.br/aeroporto-glauber-rocha-e-inaugurado-com-a-presenca-do-presidente-jair-bolsonaro/"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source rights retained. Evidence archive is excluded from the repository MIT license. No blanket downstream republication license inferred.",
+        "url": "https://aisweb.decea.mil.br/?i=aerodromos&codigo=SBVC"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "br-conquista-ais",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aisweb.decea.mil.br/?i=aerodromos&codigo=SBVC"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://aipchile.dgac.gob.cl/mobile/aerodromo/designador/SCTN"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "cl-chaiten-aip",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aipchile.dgac.gob.cl/mobile/aerodromo/designador/SCTN"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://aeropuertos.mop.gob.cl/2015/01/29/ministro-de-obras-publicas-y-directora-de-aeropuertos-inauguran-aerodromo-de-chaiten/"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "cl-chaiten-mop",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aeropuertos.mop.gob.cl/2015/01/29/ministro-de-obras-publicas-y-directora-de-aeropuertos-inauguran-aerodromo-de-chaiten/"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Aena-Terms",
+        "note": "Original operator press notice; source rights retained, evidence archive excluded from MIT. No onward chart/photo license inferred.",
+        "url": "https://www.aena.es/en/legal-notice.html"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "es-murcia-aena-actual",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://www.aena.es/es/prensa/su-majestad-el-rey-inaugura-el-aeropuerto-internacional-region-de-murcia.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Aena-Terms",
+        "note": "Original operator press notice; source rights retained, evidence archive excluded from MIT. No onward chart/photo license inferred.",
+        "url": "https://www.aena.es/en/legal-notice.html"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "es-murcia-aena-retrospective",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://www.aena.es/es/prensa/el-aeropuerto-internacional-region-de-murcia-cierra-el-primer-semestre-del---ano-con-mas-de-487.000-pasajeros.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source terms apply. Excluded from repository MIT license. No onward license to embedded maps or third-party charts granted.",
+        "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LEMI/LE_AD_2_LEMI_en.pdf"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "es-murcia-aip",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LEMI/LE_AD_2_LEMI_en.pdf"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://www.congreso.es/public_oficiales/L13/CONG/BOCG/D/BOCG-13-D-34.PDF"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "es-murcia-parliament",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://www.congreso.es/public_oficiales/L13/CONG/BOCG/D/BOCG-13-D-34.PDF"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source terms apply. Excluded from repository MIT license. No onward license to embedded maps or third-party charts granted.",
+        "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LELC/LE_AD_2_LELC_en.pdf"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "es-sanjavier-aip",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LELC/LE_AD_2_LELC_en.pdf"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://www.iaa.gov.il/en/airports/ramon/about/"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "il-ramon-operator",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://www.iaa.gov.il/en/airports/ramon/about/"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://www.gov.il/BlobFolder/policy/directive-for-reimbursement-of-flight-operators-operating-direct-flights-to-eilat/en/eilat2019.pdf"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "il-ramon-tourism",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://www.gov.il/BlobFolder/policy/directive-for-reimbursement-of-flight-operators-operating-direct-flights-to-eilat/en/eilat2019.pdf"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and source terms. Excluded from repository MIT license.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-09-07-2026-vasd",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VASD-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and source terms. Excluded from repository MIT license.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-09-07-2026-vedg",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEDG-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-09-07-2026-veho",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEHO-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-09-07-2026-veki",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEKI-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-09-07-2026-vepy",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEPY-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-09-07-2026-voga",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOGA-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-09-07-2026-vogb",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOGB-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and source terms. Excluded from repository MIT license.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-09-07-2026-vokn",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOKN-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-09-07-2026-voku",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOKU-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-09-07-2026-vosr",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOSR-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and source terms. Excluded from repository MIT license.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-22-02-2024-vasd",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VASD-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and source terms. Excluded from repository MIT license.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-22-02-2024-vedg",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VEDG-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-22-02-2024-veho",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VEHO-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-22-02-2024-veki",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VEKI-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-22-02-2024-vepy",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VEPY-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-22-02-2024-voga",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOGA-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-22-02-2024-vogb",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOGB-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and source terms. Excluded from repository MIT license.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-22-02-2024-vokn",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOKN-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-22-02-2024-voku",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOKU-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-aip-22-02-2024-vosr",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOSR-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-India-Government",
+        "note": "Government factual publication; preserve attribution and applicable PIB copyright policy; third-party works remain excluded.",
+        "url": "https://www.pib.gov.in/ContentPage.aspx?ID=38"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-greenfield-projects",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/jun/doc2025611568101.pdf"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Source rights remain applicable; original used as research evidence and excluded from repository MIT license. No general reuse permission claimed.",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1777194"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-greenfield-six-alternative",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1777194"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Source rights retained; evidence archive excluded from MIT license; no broad republication permission inferred.",
+        "url": "https://aim-india.aai.aero/sites/default/files/aip_supplements/AIPS_2022_166.pdf"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-hollongi-supplement",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/sites/default/files/aip_supplements/AIPS_2022_166.pdf"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original official publication archived for evidence review. Excluded from repository MIT license; source rights and third-party rights remain applicable. No general redistribution license inferred.",
+        "url": "https://www.aai.aero/sites/default/files/press_release_news/Flights%20operations%20commenced%20from%20Rajkot%20International%20Airport.pdf"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-rajkot-actual",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://www.aai.aero/sites/default/files/press_release_news/Flights%20operations%20commenced%20from%20Rajkot%20International%20Airport.pdf"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher rights apply; archived for factual research, excluded from MIT license. No general republication permission inferred.",
+        "url": "https://www.airindia.com/in/en/travel-information/airport-information/rajkot.html"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-rajkot-ai",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://www.airindia.com/in/en/travel-information/airport-information/rajkot.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original official publication archived for evidence review. Excluded from repository MIT license; source rights and third-party rights remain applicable. No general redistribution license inferred.",
+        "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VAHS-en-GB.html"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "in-rajkot-aip-2024",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VAHS-en-GB.html"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Source rights remain applicable; original used as research evidence and excluded from repository MIT license. No general reuse permission claimed.",
+        "url": "https://newsroom.airasia.com/news/airasia-operations-in-siem-reap-will-relocate-to-siem-reapangkor-international-airport"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "kh-sai-airasia",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://newsroom.airasia.com/news/airasia-operations-in-siem-reap-will-relocate-to-siem-reapangkor-international-airport"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://enews.vietnamairlines.com/2023/10/vietnam-airlines-operates-at-the-new-airport-in-siem-reap/"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "kh-sai-vn",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://enews.vietnamairlines.com/2023/10/vietnam-airlines-operates-at-the-new-airport-in-siem-reap/"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Source rights retained; evidence archive excluded from MIT license; no broad republication permission inferred.",
+        "url": "https://flights.philippineairlines.com/en-ph/flights-to-legazpi-daraga"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "ph-bicol-current",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://flights.philippineairlines.com/en-ph/flights-to-legazpi-daraga"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Evidence archive excluded from repository MIT license; no license to photographs, charts or trademarks granted. Redistribution scope must be checked before downstream republication.",
+        "url": "https://www.philippineairlines.com/content/dam/palportal/migration/files/pdf/downloadable-forms/domestic%20accrual%20chart%20as%2024%20january%202024.pdf"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "ph-bicol-pal",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://www.philippineairlines.com/content/dam/palportal/migration/files/pdf/downloadable-forms/domestic%20accrual%20chart%20as%2024%20january%202024.pdf"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Evidence archive excluded from repository MIT license; no license to photographs, charts or trademarks granted. Redistribution scope must be checked before downstream republication.",
+        "url": "https://caap.gov.ph/wp-content/uploads/2024/09/Project-Information-Memorandum-for-Bohol-Panglao-International-Airport-Date-Posted-12-September-2024.pdf"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "ph-bohol-caap",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://caap.gov.ph/wp-content/uploads/2024/09/Project-Information-Memorandum-for-Bohol-Panglao-International-Airport-Date-Posted-12-September-2024.pdf"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Source rights remain applicable; original used as research evidence and excluded from repository MIT license. No general reuse permission claimed.",
+        "url": "https://ppdo.bohol.gov.ph/ppdofiles/Profile/SocioEconomicProfile/EconomicDevelopment/TourismProfile2025.pdf"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "ph-bohol-tourism2025",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://ppdo.bohol.gov.ph/ppdofiles/Profile/SocioEconomicProfile/EconomicDevelopment/TourismProfile2025.pdf"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source rights retained. Evidence archive is excluded from the repository MIT license. No blanket downstream republication license inferred.",
+        "url": "https://samoaairways.com/"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "ws-fagalii-airline",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://samoaairways.com/"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://www.mpe.gov.ws/wp-content/uploads/2024/05/QuarterlyReportApr-June2023_.pdf"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "ws-fagalii-government",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://www.mpe.gov.ws/wp-content/uploads/2024/05/QuarterlyReportApr-June2023_.pdf"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://www.samoaairports.com/corporate/history-samoa-airports"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "ws-fagalii-operator",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://www.samoaairports.com/corporate/history-samoa-airports"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original official publication archived for evidence review. Excluded from repository MIT license; source rights and third-party rights remain applicable. No general redistribution license inferred.",
+        "url": "https://www.zacl.co.zm/airport-section/media-centre/press-release-new-simon-mwansa-kapwepwe-international-airpor"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "zm-ndola-actual",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://www.zacl.co.zm/airport-section/media-centre/press-release-new-simon-mwansa-kapwepwe-international-airpor"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original official publication archived for evidence review. Excluded from repository MIT license; source rights and third-party rights remain applicable. No general redistribution license inferred.",
+        "url": "https://www.zacl.co.zm/corporate/airport-services/ground-handling"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "zm-ndola-codes",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://www.zacl.co.zm/corporate/airport-services/ground-handling"
+    },
+    {
+      "accessResult": "Original bytes and extraction hash-verified offline; actual acquisition timestamp remains in source-lock.json.",
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original official publication archived for evidence review. Excluded from repository MIT license; source rights and third-party rights remain applicable. No general redistribution license inferred.",
+        "url": "https://www.zacl.co.zm/airport-section/airports/smkia"
+      },
+      "limitations": [
+        "Publication, document effectiveness, physical events and allocation boundaries are independent.",
+        "One original publication. Mirrors, indexes and repeated issuer statements do not constitute independent corroboration."
+      ],
+      "sourceId": "zm-ndola-history",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Only the exact scoped facts cited in assessments.json."
+      ],
+      "url": "https://www.zacl.co.zm/airport-section/airports/smkia"
+    }
+  ],
+  "statusCounts": {
+    "excluded": 0,
+    "insufficient_evidence": 0,
+    "pending_review": 20,
+    "ready_to_admit": 0
+  }
+}

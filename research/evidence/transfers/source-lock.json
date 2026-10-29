@@ -1,0 +1,613 @@
+{
+  "attempts": [
+    {
+      "accessedAt": "2026-10-29T07:48:53+00:00",
+      "originalSha256": "42a0649aedb9ac903ce35398c294053d8954f4facb9cc62612bf156d15885ff1",
+      "requestedUrl": "https://chinaairports.org.cn/u/cms/www/202306/12170016gkl3.pdf",
+      "sourceId": "p0-cn-quality-2022",
+      "status": "original_hash_verified"
+    },
+    {
+      "accessedAt": "2026-10-29T07:38:39+00:00",
+      "originalSha256": "3b657ba675df9401cdeb001024c647e18a0ba2b560bbda65695050f635a51b92",
+      "requestedUrl": "https://web.archive.org/web/20191120170243id_/https://flights.ch.com/airports/airport-LYG/",
+      "sourceId": "p0-lianyungang-spring-2019-11-20",
+      "status": "original_hash_verified"
+    },
+    {
+      "accessedAt": "2026-10-29T07:38:39+00:00",
+      "originalSha256": "b46a359d592c97d8d85e87a18a502d651fd4082763ee84f3d987ade5144719a3",
+      "requestedUrl": "https://web.archive.org/web/20200921115553id_/https://flights.ch.com/airports/airport-LYG/",
+      "sourceId": "p0-lianyungang-spring-2020-09-21",
+      "status": "original_hash_verified"
+    },
+    {
+      "accessedAt": "2026-10-29T07:41:47+00:00",
+      "originalSha256": "66f4d0817f023cab782d56f6e16d67f911fe099b65e482396a596af35ef8a739",
+      "requestedUrl": "https://web.archive.org/web/20191115131149id_/https://flights.ch.com/airports/airport-YBP/",
+      "sourceId": "p0-yibin-spring-2019-11-15",
+      "status": "original_hash_verified"
+    },
+    {
+      "accessedAt": "2026-10-29T07:41:47+00:00",
+      "originalSha256": "d00603abbdf67083210b9054f48348977257c1cb6b84e92e3448a60e97ddc6cf",
+      "requestedUrl": "https://web.archive.org/web/20191121114129id_/https://flights.ch.com/airports/jianjie-YBP/",
+      "sourceId": "p0-yibin-spring-2019-11-21",
+      "status": "original_hash_verified"
+    },
+    {
+      "accessedAt": "2026-10-29T07:32:45+00:00",
+      "originalSha256": "4fec6c9df532bcb04899122201c5627ed467ff73bdce5a7281d5c0cb1a29beeb",
+      "requestedUrl": "https://web.archive.org/web/20220725040549id_/https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2015-Edition.pdf",
+      "sourceId": "p0-bohol-factbook-2015",
+      "status": "original_hash_verified"
+    },
+    {
+      "accessedAt": "2026-10-29T07:34:05+00:00",
+      "originalSha256": "bb7a45093e069349016b227ac976ae6a14b099daffae54a2c20387d1eb80b694",
+      "requestedUrl": "https://web.archive.org/web/20220725040542id_/https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2016-4.pdf",
+      "sourceId": "p0-bohol-factbook-2017",
+      "status": "original_hash_verified"
+    },
+    {
+      "accessedAt": "2026-10-29T07:23:37+00:00",
+      "originalSha256": "adbdd0aa554f8b3c5c27705be060f5a2f5aec851263770202556fcf44baa6da5",
+      "requestedUrl": "https://newsroom.airasia.com/news/2020/2/24/airasia-resumes-flights-to-ho-chi-minh-city-launches-clark-bohol-route-this-summer",
+      "sourceId": "p0-bohol-airasia-site",
+      "status": "original_hash_verified"
+    },
+    {
+      "accessedAt": "2026-10-29T07:30:15+00:00",
+      "originalSha256": "c4ed4d80b48cc1e5fb614bf08255ca8319e04f2a9124e5f28280321fee599a71",
+      "requestedUrl": "https://newsroom.airasia.com/news/2020/11/18/airasia-celebrates-the-reopening-of-bohol-offers-50-off-on-all-flights-from-mnl-to-tag-this-week",
+      "sourceId": "p0-bohol-airasia-booking",
+      "status": "original_hash_verified"
+    },
+    {
+      "accessedAt": "2026-10-29T07:19:53+00:00",
+      "originalSha256": "62fbfe8866dc74b45145a7c4cf76031d67d6132c8a5b9f0537d95c464bc6d4a2",
+      "requestedUrl": "https://www.csair.com/newh5/cn/service_notice/1fld91cllsvn0.shtml",
+      "sourceId": "p0-lianyungang-csair-transfer",
+      "status": "original_hash_verified"
+    },
+    {
+      "accessedAt": "2026-10-29T07:21:56+00:00",
+      "originalSha256": "5297a5ddc116552ee192da196157d0d34693bcc02b5db19ddb7f9c145638cd6c",
+      "requestedUrl": "https://www.csair.com/newh5/cn/service_notice/1fulnefkl4qoa.shtml",
+      "sourceId": "p0-zhanjiang-csair-transfer",
+      "status": "original_hash_verified"
+    },
+    {
+      "accessedAt": "2026-10-29T07:38:39+00:00",
+      "originalSha256": "f2cee0108e729b77bca2c71cde0063b41021573606f7b66ba6c0551c49d9ce1e",
+      "requestedUrl": "https://www.techoairport.com.kh/news/oneyearjourneytechointernationalairport",
+      "sourceId": "p0-techo-anniversary",
+      "status": "original_hash_verified"
+    },
+    {
+      "accessedAt": "2026-10-29T07:38:39+00:00",
+      "originalSha256": "9d24412bd27aa08ac6b388f3d997f7335cf04b5dd87fa8a080549d06b70dafdf",
+      "requestedUrl": "https://www.ocic.com.kh/projects/techo-international-airport",
+      "sourceId": "p0-techo-owner",
+      "status": "original_hash_verified"
+    },
+    {
+      "accessedAt": "2026-10-29T07:32:07+00:00",
+      "originalSha256": "2eede00804c89c252f2c4c9ec962dba955ebdd7202a929912720bf56d8e08a27",
+      "requestedUrl": "https://agent360.singaporeair.com/content/dam/agent360/web-assets/pdf/local/hk/HKGSQ_Relocation_of_PNH_to_KTI_Airport_SN125.pdf",
+      "sourceId": "pnh-sia-2025",
+      "status": "original_hash_verified"
+    },
+    {
+      "accessedAt": "2026-10-29T00:38:20+00:00",
+      "originalSha256": "58f24675ee738ddf8a9003e3f0b68cea77af0b6e3b754ab6e6ff225be0547f44",
+      "requestedUrl": "https://libportal.jica.go.jp/library/Data/DocforEnvironment/Reports/SoutheastAsia/PhilippinesNBACSEPProject/Phillipine_Bohol%20Airport_DFR_2012.pdf",
+      "sourceId": "ph-bohol-jica",
+      "status": "original_hash_verified"
+    },
+    {
+      "accessedAt": "2026-10-29T07:21:54+00:00",
+      "originalSha256": "4ffddbe5ae8cf24a97fb44ce392d06a9b4b38b37ecb64e3b0aa7ff2b4d91ac37",
+      "requestedUrl": "https://www.boc.cn/bcservice/bc1/201106/P020111212557815165903.pdf",
+      "sourceId": "p0-dragonpass-boc-old",
+      "status": "original_hash_verified"
+    }
+  ],
+  "formatVersion": 1,
+  "sources": [
+    {
+      "accessedAt": "2026-10-29T07:48:53+00:00",
+      "actualEventDate": null,
+      "dataPeriod": [
+        "2022-01-01",
+        "2022-12-31"
+      ],
+      "documentEffectiveDate": null,
+      "extractionTool": "pdftotext-layout",
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalBytes": 1432355,
+      "originalPublicationKey": "https://chinaairports.org.cn/u/cms/www/202306/12170016gkl3.pdf",
+      "originalSha256": "42a0649aedb9ac903ce35398c294053d8954f4facb9cc62612bf156d15885ff1",
+      "publicationDate": "2023-05",
+      "publisher": "中国民用机场协会 / 中国民航科学技术研究院 / 中国民航报社",
+      "retainedPath": "excerpts/p0-cn-quality-2022.json",
+      "retainedSha256": "8e685f4e1f434a1d08fdb24f7b4ecbdff71355aef443304d3f02d6977a82c188",
+      "retrievalUrl": "https://chinaairports.org.cn/u/cms/www/202306/12170016gkl3.pdf",
+      "reusesPublication": false,
+      "rights": {
+        "fullRedistributionPermission": "not_established",
+        "mode": "metadata_and_short_excerpts",
+        "note": "Publisher rights retained; repository MIT license does not cover this work. No full original, image, chart or full extraction redistributed."
+      },
+      "sourceFamily": "china-airports-service-evaluation",
+      "sourceId": "p0-cn-quality-2022",
+      "sourceType": "primary",
+      "textOriginalSha256": "1ecd1f0a1840fc98a6f472d8bb2841936e09bf0c0b67c858136670eed138a249",
+      "title": "2022 年民用机场服务质量评价报告（2023 年 05 月）",
+      "url": "https://chinaairports.org.cn/u/cms/www/202306/12170016gkl3.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:38:39+00:00",
+      "actualEventDate": null,
+      "archiveCaptureDate": "2019-11-20",
+      "archiveRole": "Original carrier HTML bytes preserved by public Internet Archive capture; not an independent mirror publication.",
+      "documentEffectiveDate": null,
+      "extractionTool": "stdlib-HTMLParser-v1",
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalBytes": 98662,
+      "originalPublicationKey": "spring-airport-profile-LYG",
+      "originalSha256": "3b657ba675df9401cdeb001024c647e18a0ba2b560bbda65695050f635a51b92",
+      "publicationDate": null,
+      "publisher": "春秋航空",
+      "retainedPath": "excerpts/p0-lianyungang-spring-2019-11-20.json",
+      "retainedSha256": "4c2c5ec9b823d89c37ad8b63d0fabc68216e9dde3b1d6be018af3962b4c24df6",
+      "retrievalUrl": "https://web.archive.org/web/20191120170243id_/https://flights.ch.com/airports/airport-LYG/",
+      "reusesPublication": false,
+      "rights": {
+        "fullRedistributionPermission": "not_established",
+        "mode": "metadata_and_short_excerpts",
+        "note": "Publisher rights retained; repository MIT license does not cover this work. No full original, image, chart or full extraction redistributed."
+      },
+      "sourceFamily": "spring-airlines",
+      "sourceId": "p0-lianyungang-spring-2019-11-20",
+      "sourceType": "primary",
+      "textOriginalSha256": "727a73a9e74997c7290c32f14b28fbcc79032f1d37c0d9970ddbdba34ab25666",
+      "title": "春秋航空 连云港白塔埠机场 历史网页（捕获 2019-11-20）",
+      "url": "https://flights.ch.com/airports/airport-LYG/"
+    },
+    {
+      "accessedAt": "2026-10-29T07:38:39+00:00",
+      "actualEventDate": null,
+      "archiveCaptureDate": "2020-09-21",
+      "archiveRole": "Original carrier HTML bytes preserved by public Internet Archive capture; not an independent mirror publication.",
+      "documentEffectiveDate": null,
+      "extractionTool": "stdlib-HTMLParser-v1",
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalBytes": 105674,
+      "originalPublicationKey": "spring-airport-profile-LYG",
+      "originalSha256": "b46a359d592c97d8d85e87a18a502d651fd4082763ee84f3d987ade5144719a3",
+      "publicationDate": null,
+      "publisher": "春秋航空",
+      "retainedPath": "excerpts/p0-lianyungang-spring-2020-09-21.json",
+      "retainedSha256": "9d106230d0a5256af4e63abcf3929d8dab98b6c8db21ec6e46c2a852e370bde8",
+      "retrievalUrl": "https://web.archive.org/web/20200921115553id_/https://flights.ch.com/airports/airport-LYG/",
+      "reusesPublication": false,
+      "rights": {
+        "fullRedistributionPermission": "not_established",
+        "mode": "metadata_and_short_excerpts",
+        "note": "Publisher rights retained; repository MIT license does not cover this work. No full original, image, chart or full extraction redistributed."
+      },
+      "sourceFamily": "spring-airlines",
+      "sourceId": "p0-lianyungang-spring-2020-09-21",
+      "sourceType": "primary",
+      "textOriginalSha256": "d48997fe39aec741b16b9f4a094e50642c33ff87cad8fe5e37710aa964254888",
+      "title": "春秋航空 连云港白塔埠机场 历史网页（捕获 2020-09-21）",
+      "url": "https://flights.ch.com/airports/airport-LYG/"
+    },
+    {
+      "accessedAt": "2026-10-29T07:41:47+00:00",
+      "actualEventDate": null,
+      "archiveCaptureDate": "2019-11-15",
+      "archiveRole": "Original carrier HTML bytes preserved by public Internet Archive capture; not an independent mirror publication.",
+      "documentEffectiveDate": null,
+      "extractionTool": "stdlib-HTMLParser-v1",
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalBytes": 96776,
+      "originalPublicationKey": "spring-airport-profile-YBP",
+      "originalSha256": "66f4d0817f023cab782d56f6e16d67f911fe099b65e482396a596af35ef8a739",
+      "publicationDate": null,
+      "publisher": "春秋航空",
+      "retainedPath": "excerpts/p0-yibin-spring-2019-11-15.json",
+      "retainedSha256": "1088d8f7f52c61ab2e2ddbd03f3faad6d953efd72ea605ceb2c17856fc046031",
+      "retrievalUrl": "https://web.archive.org/web/20191115131149id_/https://flights.ch.com/airports/airport-YBP/",
+      "reusesPublication": false,
+      "rights": {
+        "fullRedistributionPermission": "not_established",
+        "mode": "metadata_and_short_excerpts",
+        "note": "Publisher rights retained; repository MIT license does not cover this work. No full original, image, chart or full extraction redistributed."
+      },
+      "sourceFamily": "spring-airlines",
+      "sourceId": "p0-yibin-spring-2019-11-15",
+      "sourceType": "primary",
+      "textOriginalSha256": "2c52fe15660d23ae829915078f9d2b38d3788b6e2ac20bc253d63b6bb6a7512d",
+      "title": "春秋航空 宜宾菜坝机场 历史网页（捕获 2019-11-15）",
+      "url": "https://flights.ch.com/airports/airport-YBP/"
+    },
+    {
+      "accessedAt": "2026-10-29T07:41:47+00:00",
+      "actualEventDate": null,
+      "archiveCaptureDate": "2019-11-21",
+      "archiveRole": "Original carrier HTML bytes preserved by public Internet Archive capture; not an independent mirror publication.",
+      "documentEffectiveDate": null,
+      "extractionTool": "stdlib-HTMLParser-v1",
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalBytes": 99074,
+      "originalPublicationKey": "spring-airport-profile-YBP",
+      "originalSha256": "d00603abbdf67083210b9054f48348977257c1cb6b84e92e3448a60e97ddc6cf",
+      "publicationDate": null,
+      "publisher": "春秋航空",
+      "retainedPath": "excerpts/p0-yibin-spring-2019-11-21.json",
+      "retainedSha256": "3356be6a593031cf32953634b60732eb2ba5a9b7b48b2568e1d0a74033d78079",
+      "retrievalUrl": "https://web.archive.org/web/20191121114129id_/https://flights.ch.com/airports/jianjie-YBP/",
+      "reusesPublication": false,
+      "rights": {
+        "fullRedistributionPermission": "not_established",
+        "mode": "metadata_and_short_excerpts",
+        "note": "Publisher rights retained; repository MIT license does not cover this work. No full original, image, chart or full extraction redistributed."
+      },
+      "sourceFamily": "spring-airlines",
+      "sourceId": "p0-yibin-spring-2019-11-21",
+      "sourceType": "primary",
+      "textOriginalSha256": "22d36d479f42c48d12dacbea97d7570ad632681562c907e808a57f7b6f2bc05b",
+      "title": "春秋航空 宜宾菜坝机场 历史网页（捕获 2019-11-21）",
+      "url": "https://flights.ch.com/airports/jianjie-YBP/"
+    },
+    {
+      "accessedAt": "2026-10-29T07:32:45+00:00",
+      "actualEventDate": null,
+      "archiveCapture": "20220725040549",
+      "dependencies": [
+        "Airline companies: October 2015 flight schedule compilation"
+      ],
+      "documentEffectiveDate": null,
+      "extractionTool": "pdftotext-layout",
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalBytes": 11262497,
+      "originalPublicationKey": "https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2015-Edition.pdf",
+      "originalSha256": "4fec6c9df532bcb04899122201c5627ed467ff73bdce5a7281d5c0cb1a29beeb",
+      "printedEdition": "2015",
+      "publicationDate": null,
+      "publisher": "Provincial Government of Bohol",
+      "retainedPath": "excerpts/p0-bohol-factbook-2015.json",
+      "retainedSha256": "a5cc1a5d937d1a6fb117ed1d9f8bd1037a77ca1073d9724a9c11b327b9204d84",
+      "retrievalUrl": "https://web.archive.org/web/20220725040549id_/https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2015-Edition.pdf",
+      "reusesPublication": false,
+      "rights": {
+        "fullRedistributionPermission": "not_established",
+        "mode": "metadata_and_short_excerpts",
+        "note": "Publisher rights retained; repository MIT license does not cover this work. No full original, image, chart or full extraction redistributed."
+      },
+      "sourceFamily": "bohol-government-airline-compilation",
+      "sourceId": "p0-bohol-factbook-2015",
+      "sourceType": "primary",
+      "tableDataDate": "2015-10",
+      "textOriginalSha256": "e1455ea93c028412166f13e8263209e8e5ca31fafd20e4774715beecf34a4fc8",
+      "title": "Bohol Economic Factbook 2015 Edition（航班表 October 2015）",
+      "url": "https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2015-Edition.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:34:05+00:00",
+      "actualEventDate": null,
+      "archiveCapture": "20220725040542",
+      "dependencies": [
+        "Airline companies: October 2017 flight schedule compilation"
+      ],
+      "documentEffectiveDate": null,
+      "extractionTool": "pdftotext-layout",
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalBytes": 4105148,
+      "originalPublicationKey": "https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2016-4.pdf",
+      "originalSha256": "bb7a45093e069349016b227ac976ae6a14b099daffae54a2c20387d1eb80b694",
+      "printedEdition": "2016",
+      "publicationDate": null,
+      "publisher": "Provincial Government of Bohol",
+      "retainedPath": "excerpts/p0-bohol-factbook-2017.json",
+      "retainedSha256": "51abaf31f7c73a85abc87bd325d641f7f4a64af864868298bf7024dd4722d0f5",
+      "retrievalUrl": "https://web.archive.org/web/20220725040542id_/https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2016-4.pdf",
+      "reusesPublication": false,
+      "rights": {
+        "fullRedistributionPermission": "not_established",
+        "mode": "metadata_and_short_excerpts",
+        "note": "Publisher rights retained; repository MIT license does not cover this work. No full original, image, chart or full extraction redistributed."
+      },
+      "sourceFamily": "bohol-government-airline-compilation",
+      "sourceId": "p0-bohol-factbook-2017",
+      "sourceType": "primary",
+      "tableDataDate": "2017-10",
+      "textOriginalSha256": "89b68b5501e7dac21d20f5f9988b82aacc74e99a087f0a533c74cbc8787801cf",
+      "title": "Bohol Economic Factbook 2016 Edition（航班表 October 2017）",
+      "url": "https://boholinvest.bohol.gov.ph/wp-content/uploads/2021/02/Bohol-Economic-Factbook-2016-4.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:23:37+00:00",
+      "actualEventDate": null,
+      "documentEffectiveDate": null,
+      "extractionTool": "stdlib-HTMLParser-v1",
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalBytes": 159322,
+      "originalPublicationKey": "https://newsroom.airasia.com/news/2020/2/24/airasia-resumes-flights-to-ho-chi-minh-city-launches-clark-bohol-route-this-summer",
+      "originalSha256": "adbdd0aa554f8b3c5c27705be060f5a2f5aec851263770202556fcf44baa6da5",
+      "publicationDate": "2020-02-24",
+      "publisher": "AirAsia",
+      "retainedPath": "excerpts/p0-bohol-airasia-site.json",
+      "retainedSha256": "8eca74cb99fbd121e218dc73c5067f8c3612c7cf24e4d3faadeb230c353625df",
+      "retrievalUrl": "https://newsroom.airasia.com/news/2020/2/24/airasia-resumes-flights-to-ho-chi-minh-city-launches-clark-bohol-route-this-summer",
+      "reusesPublication": false,
+      "rights": {
+        "fullRedistributionPermission": "not_established",
+        "mode": "metadata_and_short_excerpts",
+        "note": "Publisher rights retained; repository MIT license does not cover this work. No full original, image, chart or full extraction redistributed."
+      },
+      "sourceFamily": "airasia",
+      "sourceId": "p0-bohol-airasia-site",
+      "sourceType": "primary",
+      "textOriginalSha256": "c72d414fe336b1c6b4a6529f3af22c6cf8f760c538f487907d7645a89c03fc66",
+      "title": "AirAsia resumes Ho Chi Minh City flights and announces Clark–Bohol route",
+      "url": "https://newsroom.airasia.com/news/2020/2/24/airasia-resumes-flights-to-ho-chi-minh-city-launches-clark-bohol-route-this-summer"
+    },
+    {
+      "accessedAt": "2026-10-29T07:30:15+00:00",
+      "actualEventDate": null,
+      "documentEffectiveDate": null,
+      "extractionTool": "stdlib-HTMLParser-v1",
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalBytes": 152883,
+      "originalPublicationKey": "https://newsroom.airasia.com/news/2020/11/18/airasia-celebrates-the-reopening-of-bohol-offers-50-off-on-all-flights-from-mnl-to-tag-this-week",
+      "originalSha256": "c4ed4d80b48cc1e5fb614bf08255ca8319e04f2a9124e5f28280321fee599a71",
+      "publicationDate": "2020-11-18",
+      "publisher": "AirAsia",
+      "retainedPath": "excerpts/p0-bohol-airasia-booking.json",
+      "retainedSha256": "30a0310b0ac88ad5d78ea4221460bd909e8a769ef14f447efa57918b55106e1b",
+      "retrievalUrl": "https://newsroom.airasia.com/news/2020/11/18/airasia-celebrates-the-reopening-of-bohol-offers-50-off-on-all-flights-from-mnl-to-tag-this-week",
+      "reusesPublication": false,
+      "rights": {
+        "fullRedistributionPermission": "not_established",
+        "mode": "metadata_and_short_excerpts",
+        "note": "Publisher rights retained; repository MIT license does not cover this work. No full original, image, chart or full extraction redistributed."
+      },
+      "sourceFamily": "airasia",
+      "sourceId": "p0-bohol-airasia-booking",
+      "sourceType": "primary",
+      "textOriginalSha256": "17a5609892a1e24d494a0e63407df420b3be16f946463237aa108d478152dd69",
+      "title": "AirAsia celebrates the reopening of Bohol; Manila–TAG booking offer",
+      "url": "https://newsroom.airasia.com/news/2020/11/18/airasia-celebrates-the-reopening-of-bohol-offers-50-off-on-all-flights-from-mnl-to-tag-this-week"
+    },
+    {
+      "accessedAt": "2026-10-29T07:19:53+00:00",
+      "actualEventDate": null,
+      "documentEffectiveDate": null,
+      "extractionTool": "stdlib-HTMLParser-v1",
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalBytes": 4122,
+      "originalPublicationKey": "https://www.csair.com/newh5/cn/service_notice/1fld91cllsvn0.shtml",
+      "originalSha256": "62fbfe8866dc74b45145a7c4cf76031d67d6132c8a5b9f0537d95c464bc6d4a2",
+      "publicationDate": "2021-11-26",
+      "publisher": "中国南方航空",
+      "retainedPath": "excerpts/p0-lianyungang-csair-transfer.json",
+      "retainedSha256": "dc31cdeb89c464ba8d0e720f15aa914ec9581160391c79102f5f202ca31e4cfb",
+      "retrievalUrl": "https://www.csair.com/newh5/cn/service_notice/1fld91cllsvn0.shtml",
+      "reusesPublication": false,
+      "rights": {
+        "fullRedistributionPermission": "not_established",
+        "mode": "metadata_and_short_excerpts",
+        "note": "Publisher rights retained; repository MIT license does not cover this work. No full original, image, chart or full extraction redistributed."
+      },
+      "sourceFamily": "china-southern-airlines",
+      "sourceId": "p0-lianyungang-csair-transfer",
+      "sourceType": "primary",
+      "textOriginalSha256": "700432254eef45aa1b383238eb24f8ad3139c0e99319d18519e050e0f2ec0c0c",
+      "title": "南方航空 lianyungang 转场通知",
+      "url": "https://www.csair.com/newh5/cn/service_notice/1fld91cllsvn0.shtml"
+    },
+    {
+      "accessedAt": "2026-10-29T07:21:56+00:00",
+      "actualEventDate": null,
+      "documentEffectiveDate": null,
+      "extractionTool": "stdlib-HTMLParser-v1",
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalBytes": 3815,
+      "originalPublicationKey": "https://www.csair.com/newh5/cn/service_notice/1fulnefkl4qoa.shtml",
+      "originalSha256": "5297a5ddc116552ee192da196157d0d34693bcc02b5db19ddb7f9c145638cd6c",
+      "publicationDate": "2022-03-21",
+      "publisher": "中国南方航空",
+      "retainedPath": "excerpts/p0-zhanjiang-csair-transfer.json",
+      "retainedSha256": "55e53703204a1cfd1201e8ec277af56c485f7c733ad12d07f5e96ca34fcf7dad",
+      "retrievalUrl": "https://www.csair.com/newh5/cn/service_notice/1fulnefkl4qoa.shtml",
+      "reusesPublication": false,
+      "rights": {
+        "fullRedistributionPermission": "not_established",
+        "mode": "metadata_and_short_excerpts",
+        "note": "Publisher rights retained; repository MIT license does not cover this work. No full original, image, chart or full extraction redistributed."
+      },
+      "sourceFamily": "china-southern-airlines",
+      "sourceId": "p0-zhanjiang-csair-transfer",
+      "sourceType": "primary",
+      "textOriginalSha256": "02232e3bf73b3d183644c958beea567fca93b0da9233740dc0e435c1e8e6da88",
+      "title": "南方航空 zhanjiang 转场通知",
+      "url": "https://www.csair.com/newh5/cn/service_notice/1fulnefkl4qoa.shtml"
+    },
+    {
+      "accessedAt": "2026-10-29T07:38:39+00:00",
+      "actualEventDate": null,
+      "documentEffectiveDate": null,
+      "extractionTool": "stdlib-HTMLParser-v1",
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalBytes": 409162,
+      "originalPublicationKey": "https://www.techoairport.com.kh/news/oneyearjourneytechointernationalairport",
+      "originalSha256": "f2cee0108e729b77bca2c71cde0063b41021573606f7b66ba6c0551c49d9ce1e",
+      "publicationDate": "2026-09-11",
+      "publisher": "Techo International Airport",
+      "retainedPath": "excerpts/p0-techo-anniversary.json",
+      "retainedSha256": "7f8b89cead824e63dca99a05856f60303020f8313134f6819c09174177aaac65",
+      "retrievalUrl": "https://www.techoairport.com.kh/news/oneyearjourneytechointernationalairport",
+      "reusesPublication": false,
+      "rights": {
+        "fullRedistributionPermission": "not_established",
+        "mode": "metadata_and_short_excerpts",
+        "note": "Publisher rights retained; repository MIT license does not cover this work. No full original, image, chart or full extraction redistributed."
+      },
+      "sourceFamily": "techo-operator",
+      "sourceId": "p0-techo-anniversary",
+      "sourceType": "primary",
+      "textOriginalSha256": "34b15931926ec5a5e911a2e0e580de3c184b807a28fdc949d1df9fdfbf9f3f8e",
+      "title": "Celebrating our one-year journey at Techo International Airport",
+      "url": "https://www.techoairport.com.kh/news/oneyearjourneytechointernationalairport"
+    },
+    {
+      "accessedAt": "2026-10-29T07:38:39+00:00",
+      "actualEventDate": null,
+      "dependencies": [
+        "Same airport ownership/operation project as Techo operator"
+      ],
+      "documentEffectiveDate": null,
+      "extractionTool": "stdlib-HTMLParser-v1",
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalBytes": 44903,
+      "originalPublicationKey": "https://www.ocic.com.kh/projects/techo-international-airport",
+      "originalSha256": "9d24412bd27aa08ac6b388f3d997f7335cf04b5dd87fa8a080549d06b70dafdf",
+      "publicationDate": null,
+      "publisher": "OCIC (airport developer / owner)",
+      "retainedPath": "excerpts/p0-techo-owner.json",
+      "retainedSha256": "453dcd65e6f6959ae521f4ecabb89105d7567ba3a0f3b1654607c3635c076884",
+      "retrievalUrl": "https://www.ocic.com.kh/projects/techo-international-airport",
+      "reusesPublication": false,
+      "rights": {
+        "fullRedistributionPermission": "not_established",
+        "mode": "metadata_and_short_excerpts",
+        "note": "Publisher rights retained; repository MIT license does not cover this work. No full original, image, chart or full extraction redistributed."
+      },
+      "sourceFamily": "techo-owner-operator",
+      "sourceId": "p0-techo-owner",
+      "sourceType": "primary",
+      "textOriginalSha256": "f6016142dd8f64513c8a850884f7b2add49d4e4c7f23d8133ef1de5ccad29e60",
+      "title": "Techo International Airport (IATA: KTI, ICAO: VDTI)",
+      "url": "https://www.ocic.com.kh/projects/techo-international-airport"
+    },
+    {
+      "accessedAt": "2026-10-29T07:32:07+00:00",
+      "actualEventDate": null,
+      "documentEffectiveDate": null,
+      "extractionTool": "pdftotext-layout",
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalBytes": 85642,
+      "originalPublicationKey": "https://agent360.singaporeair.com/content/dam/agent360/web-assets/pdf/local/hk/HKGSQ_Relocation_of_PNH_to_KTI_Airport_SN125.pdf",
+      "originalSha256": "2eede00804c89c252f2c4c9ec962dba955ebdd7202a929912720bf56d8e08a27",
+      "publicationDate": "2025-08-26",
+      "publisher": "Singapore Airlines",
+      "retainedPath": "excerpts/pnh-sia-2025.json",
+      "retainedSha256": "430d04ad4f962eeb2e8b615f444a52ce067191bc66cd3219c995c5f6b1eeabe5",
+      "retrievalUrl": "https://agent360.singaporeair.com/content/dam/agent360/web-assets/pdf/local/hk/HKGSQ_Relocation_of_PNH_to_KTI_Airport_SN125.pdf",
+      "reusesPublication": true,
+      "rights": {
+        "fullRedistributionPermission": "not_established",
+        "mode": "metadata_and_short_excerpts",
+        "note": "Publisher rights retained; repository MIT license does not cover this work. No full original, image, chart or full extraction redistributed."
+      },
+      "sourceFamily": "singapore-airlines",
+      "sourceId": "pnh-sia-2025",
+      "sourceType": "primary",
+      "textOriginalSha256": "199fd5d23823eb5735a135839832f0db1e835b37b3eb0c304985c55a04e365f6",
+      "title": "SIA SN125/260825: relocation of PNH to KTI",
+      "url": "https://agent360.singaporeair.com/content/dam/agent360/web-assets/pdf/local/hk/HKGSQ_Relocation_of_PNH_to_KTI_Airport_SN125.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T00:38:20+00:00",
+      "actualEventDate": null,
+      "documentEffectiveDate": null,
+      "extractionTool": "pdftotext-layout",
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalBytes": 29031447,
+      "originalPublicationKey": "https://libportal.jica.go.jp/library/Data/DocforEnvironment/Reports/SoutheastAsia/PhilippinesNBACSEPProject/Phillipine_Bohol%20Airport_DFR_2012.pdf",
+      "originalSha256": "58f24675ee738ddf8a9003e3f0b68cea77af0b6e3b754ab6e6ff225be0547f44",
+      "publicationDate": "2012",
+      "publisher": "JICA / Philippines DOTC",
+      "retainedPath": "excerpts/ph-bohol-jica.json",
+      "retainedSha256": "03cf74ec33b41e7b4e3716a1125c8d7706f9df0601c3ecc982ac3e4a6534edaa",
+      "retrievalUrl": "https://libportal.jica.go.jp/library/Data/DocforEnvironment/Reports/SoutheastAsia/PhilippinesNBACSEPProject/Phillipine_Bohol%20Airport_DFR_2012.pdf",
+      "reusesPublication": true,
+      "rights": {
+        "fullRedistributionPermission": "not_established",
+        "mode": "metadata_and_short_excerpts",
+        "note": "Publisher rights retained; repository MIT license does not cover this work. No full original, image, chart or full extraction redistributed."
+      },
+      "sourceFamily": "jica-dotc",
+      "sourceId": "ph-bohol-jica",
+      "sourceType": "primary",
+      "textOriginalSha256": "25f937a76b39d7cfc0b29ff80c188281537b9b7efc02684e1f718db74074374e",
+      "title": "JICA New Bohol Airport Draft Final Report (2012): existing Tagbilaran ARP",
+      "url": "https://libportal.jica.go.jp/library/Data/DocforEnvironment/Reports/SoutheastAsia/PhilippinesNBACSEPProject/Phillipine_Bohol%20Airport_DFR_2012.pdf"
+    },
+    {
+      "accessedAt": "2026-10-29T07:21:54+00:00",
+      "actualEventDate": null,
+      "dependencies": [
+        "Service-provider guide hosted by bank; not CAA/IATA allocation ledger"
+      ],
+      "documentEffectiveDate": null,
+      "extractionTool": "pdftotext-layout",
+      "limitations": [
+        "Names/codes in one publication do not prove first allocation, withdrawal or uninterrupted validity."
+      ],
+      "originalBytes": 346674,
+      "originalPublicationKey": "https://www.boc.cn/bcservice/bc1/201106/P020111212557815165903.pdf",
+      "originalSha256": "4ffddbe5ae8cf24a97fb44ce392d06a9b4b38b37ecb64e3b0aa7ff2b4d91ac37",
+      "publicationDate": null,
+      "publisher": "DragonPass; hosted by Bank of China",
+      "retainedPath": "excerpts/p0-dragonpass-boc-old.json",
+      "retainedSha256": "956b2f281b68aab7e2d940fb6396c60478105ffbb72f5e3a067177085c52c8c0",
+      "retrievalUrl": "https://www.boc.cn/bcservice/bc1/201106/P020111212557815165903.pdf",
+      "reusesPublication": false,
+      "rights": {
+        "fullRedistributionPermission": "not_established",
+        "mode": "metadata_and_short_excerpts",
+        "note": "Publisher rights retained; repository MIT license does not cover this work. No full original, image, chart or full extraction redistributed."
+      },
+      "sourceFamily": "dragonpass-original-service-guide",
+      "sourceId": "p0-dragonpass-boc-old",
+      "sourceType": "primary",
+      "textOriginalSha256": "14739198a67e088d7cb46153f13836949f360ebc9e8853735f31812285e672e8",
+      "title": "龙腾卡机场指引客户版（出版日未知）",
+      "url": "https://www.boc.cn/bcservice/bc1/201106/P020111212557815165903.pdf"
+    }
+  ]
+}

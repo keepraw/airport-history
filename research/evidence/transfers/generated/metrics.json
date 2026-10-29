@@ -1,0 +1,59 @@
+{
+  "cases": 9,
+  "changedPublishedPendingQueries": 0,
+  "changedPublishedResolvedQueries": 0,
+  "combinedPotentialResolvedQueries": {
+    "IATA": 6703,
+    "ICAO": 14436
+  },
+  "completeSameIataAssociationCandidates": 3,
+  "confirmedConflictDates": 0,
+  "countries": [
+    "CN",
+    "KH",
+    "PH"
+  ],
+  "directBothSidesCandidates": 1,
+  "eventYears": [
+    2015,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2025
+  ],
+  "exactCodeHandoverDates": 0,
+  "exactExecutedEventDates": 5,
+  "focusedPotentialResolvedDates": 0,
+  "formalAdmissions": 0,
+  "formalCounts": [
+    27,
+    43,
+    3,
+    77
+  ],
+  "formalNewResolvedQueries": 0,
+  "formalVersion": "0.8.0",
+  "humanApproved": 0,
+  "incrementalResolvedDates": 0,
+  "lockedComponents": 16,
+  "newAssignments": 5,
+  "newCitedPublications": 12,
+  "newClaimJudgments": 19,
+  "newDatedIataObservations": 12,
+  "newDistinctPhysicalSiteCodeAssociationFacts": 5,
+  "newHistoricalEventsBeyondPriorResearch": 0,
+  "newPhysicalRecords": 2,
+  "newSideDatedIataObservations": 6,
+  "oldSideDatedIataObservations": 6,
+  "partialExecutedEventDates": 4,
+  "pendingRecordReviews": 10,
+  "previousHypotheticalResolvedDatesNowUncertain": 61,
+  "previousStagePotentialResolvedQueries": {
+    "IATA": 6764,
+    "ICAO": 14436
+  },
+  "prioritySameIataCandidates": 8,
+  "supplementedPendingAssignments": 3
+}

@@ -1,0 +1,923 @@
+{
+  "rows": [
+    {
+      "caseKey": "qingdao",
+      "checkedYear": 2021,
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "yantai",
+      "checkedYear": 2015,
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "ankang",
+      "checkedYear": 2020,
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": "2020-09-25",
+      "namespace": "IATA",
+      "reviewer": null
+    },
+    {
+      "caseKey": "yanan",
+      "checkedYear": 2018,
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": "2018-11-08",
+      "namespace": "IATA",
+      "reviewer": null
+    },
+    {
+      "caseKey": "yanan",
+      "checkedYear": 2019,
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": "2018-11-08",
+      "namespace": "IATA",
+      "reviewer": null
+    },
+    {
+      "caseKey": "dazhou",
+      "checkedYear": 2022,
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": "2022-05-19",
+      "namespace": "IATA",
+      "reviewer": null
+    },
+    {
+      "caseKey": "lianyungang",
+      "checkedYear": 2021,
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "IATA",
+      "reviewer": null
+    },
+    {
+      "caseKey": "yibin",
+      "checkedYear": 2019,
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": "2019-12-05",
+      "namespace": "IATA",
+      "reviewer": null
+    },
+    {
+      "caseKey": "yibin",
+      "checkedYear": 2020,
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": "2019-12-05",
+      "namespace": "IATA",
+      "reviewer": null
+    },
+    {
+      "caseKey": "luzhou",
+      "checkedYear": 2018,
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "zhanjiang",
+      "checkedYear": 2022,
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "beijing",
+      "checkedYear": 2019,
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "chengdu",
+      "checkedYear": 2021,
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": "2021-06-27",
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "chengdu",
+      "checkedYear": 2023,
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": "2021-06-27",
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "rizhao",
+      "checkedYear": 2015,
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "shiyan",
+      "checkedYear": 2016,
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "IATA",
+      "reviewer": null
+    },
+    {
+      "caseKey": "jinzhou",
+      "checkedYear": 2015,
+      "country": "CN",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "IATA",
+      "reviewer": null
+    },
+    {
+      "caseKey": "haneda",
+      "checkedYear": 2020,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "narita",
+      "checkedYear": 2015,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "narita",
+      "checkedYear": 2017,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "narita",
+      "checkedYear": 2019,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "narita",
+      "checkedYear": 2020,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "narita",
+      "checkedYear": 2023,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "narita",
+      "checkedYear": 2024,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "kansai",
+      "checkedYear": 2026,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "itami",
+      "checkedYear": 2016,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "itami",
+      "checkedYear": 2018,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "itami",
+      "checkedYear": 2019,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "itami",
+      "checkedYear": 2020,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "kobe",
+      "checkedYear": 2019,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "kobe",
+      "checkedYear": 2022,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "kobe",
+      "checkedYear": 2025,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "kobe",
+      "checkedYear": 2026,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "chubu",
+      "checkedYear": 2019,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "komaki",
+      "checkedYear": 2024,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "komaki",
+      "checkedYear": 2025,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "fukuoka",
+      "checkedYear": 2015,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "fukuoka",
+      "checkedYear": 2020,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "fukuoka",
+      "checkedYear": 2025,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "chitose",
+      "checkedYear": 2019,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "naha",
+      "checkedYear": 2019,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "naha",
+      "checkedYear": 2020,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "shimojishima",
+      "checkedYear": 2019,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "shimojishima",
+      "checkedYear": 2024,
+      "country": "JP",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "incheon",
+      "checkedYear": 2017,
+      "country": "KR",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "incheon",
+      "checkedYear": 2018,
+      "country": "KR",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "incheon",
+      "checkedYear": 2024,
+      "country": "KR",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "gimpo",
+      "checkedYear": 2026,
+      "country": "KR",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "gimhae",
+      "checkedYear": 2017,
+      "country": "KR",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "jeju",
+      "checkedYear": 2026,
+      "country": "KR",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "cheongju",
+      "checkedYear": 2026,
+      "country": "KR",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "muan",
+      "checkedYear": 2026,
+      "country": "KR",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "daegu",
+      "checkedYear": 2020,
+      "country": "KR",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "daegu",
+      "checkedYear": 2026,
+      "country": "KR",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "williston",
+      "checkedYear": 2019,
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "williston",
+      "checkedYear": 2020,
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "laguardia",
+      "checkedYear": 2018,
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "laguardia",
+      "checkedYear": 2022,
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "saltlake",
+      "checkedYear": 2020,
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "saltlake",
+      "checkedYear": 2023,
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "saltlake",
+      "checkedYear": 2024,
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "kansascity",
+      "checkedYear": 2023,
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "neworleans",
+      "checkedYear": 2019,
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "pittsburgh",
+      "checkedYear": 2025,
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "austin",
+      "checkedYear": 2017,
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "austin",
+      "checkedYear": 2026,
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "newark",
+      "checkedYear": 2023,
+      "country": "US",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "heathrow",
+      "checkedYear": 2015,
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "heathrow",
+      "checkedYear": 2026,
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "gatwick",
+      "checkedYear": 2020,
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "gatwick",
+      "checkedYear": 2026,
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "stansted",
+      "checkedYear": 2017,
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "stansted",
+      "checkedYear": 2026,
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "manchester",
+      "checkedYear": 2021,
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "manchester",
+      "checkedYear": 2024,
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "manchester",
+      "checkedYear": 2025,
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "birmingham",
+      "checkedYear": 2026,
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "edinburgh",
+      "checkedYear": 2024,
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "glasgow",
+      "checkedYear": 2015,
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "glasgow",
+      "checkedYear": 2016,
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "bristol",
+      "checkedYear": 2016,
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "bristol",
+      "checkedYear": 2017,
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "bristol",
+      "checkedYear": 2019,
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "doncaster",
+      "checkedYear": 2022,
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "doncaster",
+      "checkedYear": 2026,
+      "country": "GB",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "murcia",
+      "checkedYear": 2019,
+      "country": "ES",
+      "decision": "pending",
+      "eventDate": "2019-01-15",
+      "namespace": "IATA",
+      "reviewer": null
+    },
+    {
+      "caseKey": "murcia",
+      "checkedYear": 2019,
+      "country": "ES",
+      "decision": "pending",
+      "eventDate": "2019-01-15",
+      "namespace": "ICAO",
+      "reviewer": null
+    },
+    {
+      "caseKey": "murcia",
+      "checkedYear": 2026,
+      "country": "ES",
+      "decision": "pending",
+      "eventDate": "2019-01-15",
+      "namespace": "IATA",
+      "reviewer": null
+    },
+    {
+      "caseKey": "murcia",
+      "checkedYear": 2026,
+      "country": "ES",
+      "decision": "pending",
+      "eventDate": "2019-01-15",
+      "namespace": "ICAO",
+      "reviewer": null
+    },
+    {
+      "caseKey": "berlin",
+      "checkedYear": 2020,
+      "country": "DE",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "berlin",
+      "checkedYear": 2021,
+      "country": "DE",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "istanbul",
+      "checkedYear": 2019,
+      "country": "TR",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "narvik",
+      "checkedYear": 2017,
+      "country": "NO",
+      "decision": "pending",
+      "eventDate": "2017-04-01",
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "rygge",
+      "checkedYear": 2016,
+      "country": "NO",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "rygge",
+      "checkedYear": 2017,
+      "country": "NO",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "bodo",
+      "checkedYear": 2024,
+      "country": "NO",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "bodo",
+      "checkedYear": 2026,
+      "country": "NO",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "oslo",
+      "checkedYear": 2017,
+      "country": "NO",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "bergen",
+      "checkedYear": 2017,
+      "country": "NO",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "helsinki",
+      "checkedYear": 2022,
+      "country": "FI",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "orly",
+      "checkedYear": 2019,
+      "country": "FR",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    },
+    {
+      "caseKey": "bergamo",
+      "checkedYear": 2021,
+      "country": "IT",
+      "decision": "pending",
+      "eventDate": null,
+      "namespace": "not_established",
+      "reviewer": null
+    }
+  ],
+  "unit": "One case / explicitly inspected year / adjudicated code namespace. Inspection year is not an event year."
+}
