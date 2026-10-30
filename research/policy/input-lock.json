@@ -251,7 +251,7 @@
     "scripts/evidence/policy_coverage.ts": "4dc3e7d57fba56162e6929d0b62b9379a3a66470d6bd4cae6355444884224fa8",
     "scripts/evidence/policy_gate.py": "c1b50ee0f300b3b519daed1db79dd359f8d997c3eaf83f1d289ef37ee9e4eaee",
     "scripts/evidence/policy_report.py": "afc3c67a66d455f5466ae2cfefc74681ee302330ee8bd96a89b9c9bd271b1a60",
-    "scripts/evidence/policy_review.py": "dc9719df0b4d4066b41ccc7de360ce6016a2d8672a6e1c9f0c675811477ef375",
+    "scripts/evidence/policy_review.py": "43177ae305389e114e3f4eb579dc1ff9998624c9d77edf69c8ad2c700d829a8f",
     "scripts/reference/admissions.py": "e4c368180301c2360426d6eeabb2aefd2d739d63ad8639fda2d599237c0e0b2f",
     "src/evidence.ts": "e455f76f8c379bb52b9328c87b51a9ed03a1fe37146c1426fc9bc7db8e6070ed",
     "src/names.ts": "0ddbb7aa3268eebec58002ef008af265e68330281b9816f7f9dc2c0a7417893e",
@@ -260,5 +260,5 @@
     "src/validate.ts": "10680e15e990bd2e1396434dcabb3b7a22f8ba862222a68d1fd25d1bd9655d06"
   },
   "formatVersion": 1,
-  "reviewedOn": "2026-10-29"
+  "reviewedOn": "2026-10-30"
 }

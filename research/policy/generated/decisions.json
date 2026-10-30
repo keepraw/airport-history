@@ -37,7 +37,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "8747a441e5b818d6daba7bf8489f455a27fc4b1fe406130f817864a2b0770e83",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_e4a0e403-4f25-472c-bac1-b784eba0bcd9"
     ],
@@ -125,6 +125,13 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_insufficient",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -164,7 +171,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "318a49dfaecae08760463df9165e9b56c7736a5d70981894e3eb358a9a4c784c",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_e4a0e403-4f25-472c-bac1-b784eba0bcd9"
     ],
@@ -244,6 +251,14 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "competing_physical_sites",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -285,7 +300,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "151daeab13f80ec02e8791025f7bf8207f80b7f4b1880c1edd52ede11e018377",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_4dc2e0a8-c3ea-42a1-96c7-a268411b7460",
       "apt_78682b36-d300-4f1a-be34-3d6d9614e17e"
@@ -387,6 +402,15 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "competing_physical_sites",
+      "explicit_exception_scope",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -426,7 +450,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "164188c784b19303935ac3595cbad19dbd8ea3dff097d5352974b112f41c7cd9",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_1aa967e1-6a28-4438-bc18-7acb6920c547"
     ],
@@ -506,6 +530,14 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "competing_physical_sites",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -545,7 +577,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "164188c784b19303935ac3595cbad19dbd8ea3dff097d5352974b112f41c7cd9",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_1aa967e1-6a28-4438-bc18-7acb6920c547"
     ],
@@ -624,6 +656,13 @@
     "sample": "unpublished",
     "scheme": "ICAO",
     "sourceIds": [],
+    "triggeredRules": [
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_insufficient",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -663,7 +702,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "39fc069f6faa45c607fcfbda1df82418aab924731e61693c6b3b4ffba712634a",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_37335154-e31b-4bde-9b4a-073dcb4be07d"
     ],
@@ -742,6 +781,13 @@
     "sample": "unpublished",
     "scheme": "ICAO",
     "sourceIds": [],
+    "triggeredRules": [
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_insufficient",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -781,7 +827,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "39fc069f6faa45c607fcfbda1df82418aab924731e61693c6b3b4ffba712634a",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_37335154-e31b-4bde-9b4a-073dcb4be07d"
     ],
@@ -861,6 +907,14 @@
     "sample": "unpublished",
     "scheme": "ICAO",
     "sourceIds": [],
+    "triggeredRules": [
+      "identity_unestablished",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -928,7 +982,7 @@
       }
     ],
     "evidenceSha256": "812a522eb37b056341403da2bb87b4e7d3a5cf456f29e4e06cc437ecbe9bfda1",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_7f9cc70a-c6cc-44a1-b78e-9a817165e1c4"
     ],
@@ -1026,6 +1080,10 @@
       "policy-aip-2026-04-16-vedg",
       "policy-aip-2026-07-09-vedg"
     ],
+    "triggeredRules": [
+      "route_to_medium",
+      "too_few_distinct_originals"
+    ],
     "window": [
       "2026-04-17",
       "2026-07-09"
@@ -1068,7 +1126,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "d51c117a94a47c9ff882d2a92b5621b1b3e8a12baa96a308a4d583d786d04fdb",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_94e4d809-205f-4295-b39e-2b135c722d8f"
     ],
@@ -1148,6 +1206,13 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_insufficient",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -1215,7 +1280,7 @@
       }
     ],
     "evidenceSha256": "0090d91d788e35a9c03b7a7c817c877ac1e97a2fe1c5057c769a1d32472297f7",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_9acf6a6b-6e22-48c6-881c-d602429a9268"
     ],
@@ -1320,6 +1385,9 @@
       "policy-aip-2026-04-16-veho",
       "policy-aip-2026-07-09-veho"
     ],
+    "triggeredRules": [
+      "all_low_risk_predicates_satisfied"
+    ],
     "window": [
       "2026-04-17",
       "2026-07-09"
@@ -1404,7 +1472,7 @@
       }
     ],
     "evidenceSha256": "0031d27754196addf2c2ee1f3ccded7e1c4b5553148873b8502be78f372b4b6f",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_66034969-b902-4ede-8011-cc87a23070b7"
     ],
@@ -1506,6 +1574,11 @@
       "in-aip-12-06-2025-vogb",
       "in-aip-09-07-2026-vogb"
     ],
+    "triggeredRules": [
+      "route_to_medium",
+      "observation_gap_exceeds_low_limit",
+      "window_exceeds_low_limit"
+    ],
     "window": [
       "2024-02-23",
       "2026-07-09"
@@ -1576,7 +1649,7 @@
       }
     ],
     "evidenceSha256": "0bbf0610285f29bf74865515b7023297886c664217c03abf6aea3ce2142f50ed",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_58a2554f-6a9b-4ad7-bc2c-2550ad21b962"
     ],
@@ -1672,6 +1745,9 @@
       "policy-aip-2026-04-16-vokn",
       "policy-aip-2026-07-09-vokn"
     ],
+    "triggeredRules": [
+      "all_low_risk_predicates_satisfied"
+    ],
     "window": [
       "2026-04-17",
       "2026-07-09"
@@ -1756,7 +1832,7 @@
       }
     ],
     "evidenceSha256": "8cf4c5410bb2fc0bb7ce76c5716e27c36c47ceff3395b17c5d8b92b7d6c832e9",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3"
     ],
@@ -1858,6 +1934,11 @@
       "in-aip-12-06-2025-voku",
       "in-aip-09-07-2026-voku"
     ],
+    "triggeredRules": [
+      "route_to_medium",
+      "observation_gap_exceeds_low_limit",
+      "window_exceeds_low_limit"
+    ],
     "window": [
       "2024-02-23",
       "2026-07-09"
@@ -1942,7 +2023,7 @@
       }
     ],
     "evidenceSha256": "c2b75ac123eaeb305e4dc48d537e010048f73a03abab298e011b564ee5a1d8f3",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f"
     ],
@@ -2045,6 +2126,12 @@
       "in-aip-12-06-2025-veki",
       "in-aip-09-07-2026-veki"
     ],
+    "triggeredRules": [
+      "route_to_medium",
+      "observation_gap_exceeds_low_limit",
+      "official_name_changed",
+      "window_exceeds_low_limit"
+    ],
     "window": [
       "2024-02-23",
       "2026-07-09"
@@ -2087,7 +2174,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "621bd73c02ea2677220dc20ae28127bb56dedab6f17f6c955d9cc1ec81611b68",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_bf785771-6524-405a-bd5d-bb3db352e06f"
     ],
@@ -2166,6 +2253,13 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_insufficient",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -2233,7 +2327,7 @@
       }
     ],
     "evidenceSha256": "f8c05eca1f6a91f9bf4d61dd18d2c56b409f345e2ab67b076f2df11987bec6b7",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_d8c584ef-5538-47e0-ab55-ccefd309e6af"
     ],
@@ -2331,6 +2425,10 @@
       "policy-aip-2026-04-16-voga",
       "policy-aip-2026-07-09-voga"
     ],
+    "triggeredRules": [
+      "route_to_medium",
+      "too_few_distinct_originals"
+    ],
     "window": [
       "2026-04-17",
       "2026-07-09"
@@ -2374,7 +2472,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "a2b32fff034ab76d01415bafe2e0f4a93a70534c49542b942a7922217af2428e",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_f50aecf6-9778-4db7-9027-0e751ffab63a"
     ],
@@ -2465,6 +2563,14 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "explicit_exception_scope",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -2506,7 +2612,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "d18161e91d91e3ab762a2270c869a08431fbc1a67e81335f9b8e412caa00d9fc",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_f50aecf6-9778-4db7-9027-0e751ffab63a"
     ],
@@ -2606,6 +2712,14 @@
     "sample": "unpublished",
     "scheme": "ICAO",
     "sourceIds": [],
+    "triggeredRules": [
+      "explicit_exception_scope",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -2646,7 +2760,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "a2b32fff034ab76d01415bafe2e0f4a93a70534c49542b942a7922217af2428e",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12"
     ],
@@ -2737,6 +2851,14 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "explicit_exception_scope",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -2777,7 +2899,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "a10868830fe0e3bda25bba786acf890a46b94f4043fdf591ba12abe3635f9ead",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12"
     ],
@@ -2867,6 +2989,13 @@
     "sample": "published-positive",
     "scheme": "ICAO",
     "sourceIds": [],
+    "triggeredRules": [
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_insufficient",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -2906,7 +3035,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "18533bd4c289eb30d06742aae1c86f02ad4a439a0e252189f5ed683e47c90cbb",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_e171bf4b-8cb3-4fb7-8f17-299a0b35bbeb"
     ],
@@ -2987,6 +3116,14 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "competing_physical_sites",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -3026,7 +3163,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "18533bd4c289eb30d06742aae1c86f02ad4a439a0e252189f5ed683e47c90cbb",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_e171bf4b-8cb3-4fb7-8f17-299a0b35bbeb"
     ],
@@ -3106,6 +3243,13 @@
     "sample": "unpublished",
     "scheme": "ICAO",
     "sourceIds": [],
+    "triggeredRules": [
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_insufficient",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -3187,7 +3331,7 @@
       }
     ],
     "evidenceSha256": "7e382f4a95a066fdca29fa08859458020bd27ab6f47886d8072acedfdeb43a4d",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9"
     ],
@@ -3289,6 +3433,11 @@
       "in-aip-12-06-2025-vepy",
       "in-aip-09-07-2026-vepy"
     ],
+    "triggeredRules": [
+      "route_to_medium",
+      "observation_gap_exceeds_low_limit",
+      "window_exceeds_low_limit"
+    ],
     "window": [
       "2024-02-23",
       "2026-07-09"
@@ -3332,7 +3481,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "fac1b0a67fdab740b474989fb7f3437c9d34621fe49ee9de0f6ca35602510a1e",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_18a8650d-d0cc-4d3b-aef5-48a57d594b9e"
     ],
@@ -3421,6 +3570,14 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "competing_physical_sites",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -3460,7 +3617,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "4d235805002ed047d60876c51cb1ab53d85a4c854b4f1f082af3a2a19d55b015",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_18a8650d-d0cc-4d3b-aef5-48a57d594b9e"
     ],
@@ -3540,6 +3697,14 @@
     "sample": "unpublished",
     "scheme": "ICAO",
     "sourceIds": [],
+    "triggeredRules": [
+      "competing_physical_sites",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -3580,7 +3745,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "9401bb28b6a2250489d99e89391ac0356f6515e8fdd69fab420db38abadea230",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_f239c222-5378-4291-bc8a-7c3ebb0d147f"
     ],
@@ -3669,6 +3834,13 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_insufficient",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -3708,7 +3880,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "21f2c4d573b5c948867e78a865d2c8686429322be3c4f0e78cadb1f7f411f48f",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_f239c222-5378-4291-bc8a-7c3ebb0d147f"
     ],
@@ -3788,6 +3960,13 @@
     "sample": "unpublished",
     "scheme": "ICAO",
     "sourceIds": [],
+    "triggeredRules": [
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_insufficient",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -3827,7 +4006,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "daf3c5580db06b9d69fef9d1f1b19bda40f47610d455346a0ce1b0deccb999bf",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_c2ab102c-fede-4c3e-a351-12468dedaf25"
     ],
@@ -3906,6 +4085,13 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_insufficient",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -3945,7 +4131,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "34bd1afbf848488b813eb01690ba74f01409dfdfb9b7cbe03c0a7e901444c980",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_c2ab102c-fede-4c3e-a351-12468dedaf25"
     ],
@@ -4024,6 +4210,13 @@
     "sample": "unpublished",
     "scheme": "ICAO",
     "sourceIds": [],
+    "triggeredRules": [
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_insufficient",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -4091,7 +4284,7 @@
       }
     ],
     "evidenceSha256": "e6ab58f211f6f69bca3ce8c50ec8d51a7c1e201e269c7005fb987597e035496c",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_fa1bf7a7-a97d-4676-9c9a-7871eda47767"
     ],
@@ -4187,6 +4380,9 @@
       "policy-aip-2026-04-16-vasd",
       "policy-aip-2026-07-09-vasd"
     ],
+    "triggeredRules": [
+      "all_low_risk_predicates_satisfied"
+    ],
     "window": [
       "2026-04-17",
       "2026-07-09"
@@ -4229,7 +4425,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "34fc5352f952a82af7523dbf66d508f9110222064351cac4802195b3b82ea1be",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_0c14aa20-7db5-4fcb-8622-5c38a6ef4a95"
     ],
@@ -4308,6 +4504,13 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_insufficient",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -4347,7 +4550,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "34fc5352f952a82af7523dbf66d508f9110222064351cac4802195b3b82ea1be",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_8067a434-5493-499a-a970-44dd6c2b1b53"
     ],
@@ -4425,6 +4628,13 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_insufficient",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -4506,7 +4716,7 @@
       }
     ],
     "evidenceSha256": "ed79c02d317c63d334e7992eb93373dfca2c71802c42f69bf4bc6995943f5e18",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_9e24d5d7-5e1a-4489-b936-2737c438921e"
     ],
@@ -4608,6 +4818,11 @@
       "in-aip-12-06-2025-vosr",
       "in-aip-09-07-2026-vosr"
     ],
+    "triggeredRules": [
+      "route_to_medium",
+      "observation_gap_exceeds_low_limit",
+      "window_exceeds_low_limit"
+    ],
     "window": [
       "2024-02-23",
       "2026-07-09"
@@ -4650,7 +4865,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "e6ed8028d029e59775cfea9d6327b98a34c0df905350365bb1623977c94b99c1",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_2ae2f4fe-4bea-4b75-8068-fa387b6853a5"
     ],
@@ -4729,6 +4944,13 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_insufficient",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -4768,7 +4990,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "96c24995de09755c3f044431f5f9de1c79b948f96c22d97714eea00f992d6132",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_68a848c7-9db9-4233-b0d9-65eb7ed7407e"
     ],
@@ -4850,6 +5072,14 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "competing_physical_sites",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -4890,7 +5120,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "83fd6a87504f61f764e88da1873ee8ea6a71c906032f87db6de765bf1f3bc83c",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_31b795bf-a43d-461f-8321-cf3f1fed208f"
     ],
@@ -4981,6 +5211,13 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_insufficient",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -5020,7 +5257,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "6abf63a01b541e2e5e143b7cea4e343abda0f504241bc6270cfa96b24721c4bf",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_449cf433-2af1-47be-a67e-d571433415a7"
     ],
@@ -5102,6 +5339,13 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_insufficient",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -5141,7 +5385,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "96c24995de09755c3f044431f5f9de1c79b948f96c22d97714eea00f992d6132",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_309b521b-0137-4c9b-a404-11d7bfc17075"
     ],
@@ -5223,6 +5467,14 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "competing_physical_sites",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -5263,7 +5515,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "97519da1a88db47789b072406ea233b440620c100a1526ed867271b9503d923e",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_64b5eaa6-a984-4816-86d9-d8eb71c91451",
       "apt_6f1a6ff3-98db-4e58-95fc-cc78bd5aa836"
@@ -5357,6 +5609,15 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "competing_physical_sites",
+      "explicit_exception_scope",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -5396,7 +5657,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "96c24995de09755c3f044431f5f9de1c79b948f96c22d97714eea00f992d6132",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_ebdabf02-ae37-4295-9667-39ea914e3c05"
     ],
@@ -5478,6 +5739,14 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "competing_physical_sites",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -5518,7 +5787,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "97519da1a88db47789b072406ea233b440620c100a1526ed867271b9503d923e",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_8354da99-7d18-4329-bf7b-4ed042a4ad72",
       "apt_bbf9f2c1-fc01-4ed7-a4aa-74e6ed8ca45f"
@@ -5612,6 +5881,15 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "competing_physical_sites",
+      "explicit_exception_scope",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -5652,7 +5930,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "401c7d0f1dd84e57a94d87b4e75255b7bfbf0bb7372573e697f935048d6e4e87",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_09d94b3b-c5b4-4796-a1e3-256ba50b29b8",
       "apt_2461a977-184f-445a-9bc2-8d86d26a7521"
@@ -5741,6 +6019,14 @@
     "sample": "unpublished",
     "scheme": "ICAO",
     "sourceIds": [],
+    "triggeredRules": [
+      "competing_physical_sites",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -5782,7 +6068,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "c2553785206405ac2fc03d60a021586f0a55d739138f1978893fd2db6c02792e",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_09d94b3b-c5b4-4796-a1e3-256ba50b29b8",
       "apt_2461a977-184f-445a-9bc2-8d86d26a7521"
@@ -5880,6 +6166,14 @@
     "sample": "unpublished",
     "scheme": "ICAO",
     "sourceIds": [],
+    "triggeredRules": [
+      "competing_physical_sites",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -5922,7 +6216,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "143a5dae39f89296a724950f6816d8569986c01d60ee4b87f62da9e4be1df323",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_661b72ea-f84d-4cec-ae34-fddd5e579b3d"
     ],
@@ -6027,6 +6321,13 @@
     "sample": "unpublished",
     "scheme": "ICAO",
     "sourceIds": [],
+    "triggeredRules": [
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_insufficient",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -6067,7 +6368,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "b9391d7227d3806246e73553abe47a78c82dbd3a794ba13ad1b8cec2342e244a",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_4dc2e0a8-c3ea-42a1-96c7-a268411b7460",
       "apt_78682b36-d300-4f1a-be34-3d6d9614e17e"
@@ -6162,6 +6463,15 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "competing_physical_sites",
+      "explicit_exception_scope",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -6203,7 +6513,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "adf00d1771219bc7bff5a9cc1aecd966dfe5a83633481505da4fa96dd9411e7c",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_64b5eaa6-a984-4816-86d9-d8eb71c91451",
       "apt_6f1a6ff3-98db-4e58-95fc-cc78bd5aa836"
@@ -6305,6 +6615,15 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "competing_physical_sites",
+      "explicit_exception_scope",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -6344,7 +6663,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "cedcf4ff6ed1a2d18a77703f76a628533bd76469223fcb99219068707f8a709c",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_f11bdf7d-d81d-46fc-a94f-8c8c42d4e245"
     ],
@@ -6426,6 +6745,14 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "competing_physical_sites",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -6466,7 +6793,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "2974802baf9420053df7b5fb94827a34fc9beeaf8d749d17f177d69370c2fb24",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_8354da99-7d18-4329-bf7b-4ed042a4ad72",
       "apt_bbf9f2c1-fc01-4ed7-a4aa-74e6ed8ca45f"
@@ -6559,6 +6886,15 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "competing_physical_sites",
+      "explicit_exception_scope",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   },
   {
@@ -6598,7 +6934,7 @@
     "distinctOriginalCount": 0,
     "evidence": [],
     "evidenceSha256": "cedcf4ff6ed1a2d18a77703f76a628533bd76469223fcb99219068707f8a709c",
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "knownSiteIds": [
       "apt_70c6479b-100c-44fe-b9f2-8fd1b608d9bc"
     ],
@@ -6681,6 +7017,14 @@
     "sample": "unpublished",
     "scheme": "IATA",
     "sourceIds": [],
+    "triggeredRules": [
+      "competing_physical_sites",
+      "no_defensible_whole_local_day_window",
+      "outside_automatic_scope",
+      "route_to_high",
+      "too_few_dated_aip_observations",
+      "too_few_distinct_originals"
+    ],
     "window": null
   }
 ]

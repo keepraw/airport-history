@@ -7,9 +7,9 @@
       "schemaVersion": "3.0.0",
       "sha256": "1beec87eac60c8f844a5756073811edadbfb6d4a831fb4f03ce5552796ce539b"
     },
-    "batchSha256": "9beb85b2338173b06b0ba3a156a5fcd0d3064d7eb11ec07cb7d9b63dcdcf4269",
+    "batchSha256": "dab069b2e617e3eeaa727eccf119b2161116e940cf7fe24334bd57ab16347329",
     "formatVersion": 1,
-    "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+    "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
     "policySha256": "3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958",
     "records": [
       {
@@ -77,7 +77,7 @@
           }
         ],
         "evidenceSha256": "812a522eb37b056341403da2bb87b4e7d3a5cf456f29e4e06cc437ecbe9bfda1",
-        "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+        "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
         "knownSiteIds": [
           "apt_7f9cc70a-c6cc-44a1-b78e-9a817165e1c4"
         ],
@@ -175,6 +175,10 @@
           "policy-aip-2026-04-16-vedg",
           "policy-aip-2026-07-09-vedg"
         ],
+        "triggeredRules": [
+          "route_to_medium",
+          "too_few_distinct_originals"
+        ],
         "window": [
           "2026-04-17",
           "2026-07-09"
@@ -245,7 +249,7 @@
           }
         ],
         "evidenceSha256": "f8c05eca1f6a91f9bf4d61dd18d2c56b409f345e2ab67b076f2df11987bec6b7",
-        "inputSha256": "74b8bce71608c970a74f469aeae3dca581d2221280ab372a455ba793c8b79f0e",
+        "inputSha256": "046781ca0cef9dc7ca53510c8c0989ce37dcc419ead9b6057ce3ac5c267e048e",
         "knownSiteIds": [
           "apt_d8c584ef-5538-47e0-ab55-ccefd309e6af"
         ],
@@ -342,6 +346,10 @@
         "sourceIds": [
           "policy-aip-2026-04-16-voga",
           "policy-aip-2026-07-09-voga"
+        ],
+        "triggeredRules": [
+          "route_to_medium",
+          "too_few_distinct_originals"
         ],
         "window": [
           "2026-04-17",

@@ -83,6 +83,14 @@ class PolicyTests(unittest.TestCase):
         f = self.fixture(); f[2][0]['spans'][0]['quote'] = 'Airport opened on 16 April 2026'
         self.assertNotEqual(engine.classify(*f)['risk'], 'low')
 
+    def test_same_edition_alias_cannot_hide_different_originals(self):
+        obs = self.fixture()[2]
+        alias = deepcopy(obs[0]); alias['sourceId'] += '-alias'
+        self.assertEqual(len(engine.deduplicate_observations([*obs, alias])), 2)
+        alias['originalSha256'] = '0'*64
+        with self.assertRaisesRegex(ValueError, 'Conflicting originals'):
+            engine.deduplicate_observations([*obs, alias])
+
     def test_policy_schema_and_hash_fail_closed(self):
         for mutation in ('hash', 'version', 'status', 'threshold', 'unknown', 'unsafe'):
             p = deepcopy(self.inputs[0])
@@ -92,6 +100,7 @@ class PolicyTests(unittest.TestCase):
             elif mutation == 'threshold': p['parameters']['minimumObservations'] = 1
             elif mutation == 'unknown': p['confidence'] = .99
             else: p['parameters']['unknownOuterBoundsRequired'] = False
+            if mutation != 'hash': p['policySha256'] = engine.policy_hash(p)
             with self.subTest(mutation=mutation), self.assertRaises(ValueError): engine.validate_policy(p)
         p = deepcopy(self.inputs[0]); p['status'] = 'disabled'
         engine.validate_policy(p)

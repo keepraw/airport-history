@@ -160,6 +160,17 @@ def arp(text):
             'longitude': (int(d) + int(e)/60 + int(f)/3600) * (-1 if ew == 'W' else 1)}
 
 
+def deduplicate_observations(rows):
+    unique = {}
+    for s in sorted(rows, key=lambda s: s['sourceId']):
+        key = (s['publisher'], s['editionEffectiveDate'], s['originalPublicationKey'])
+        old = unique.get(key)
+        require(old is None or (old['originalSha256'], old['textOriginalSha256']) ==
+                (s['originalSha256'], s['textOriginalSha256']), 'Conflicting originals for one edition observation')
+        if old is None: unique[key] = s
+    return sorted(unique.values(), key=lambda s: (s['editionEffectiveDate'], s['sourceId']))
+
+
 def observations(a, sources):
     rows = []
     for s in sources.values():
@@ -174,8 +185,7 @@ def observations(a, sources):
                 anchor.get('componentEffectiveDate') == s['editionEffectiveDate'], 'Uncontrolled edition anchor')
         rows.append({**s, 'spans': e['spans']})
     # sourceIds repeated through research stages do not multiply observations.
-    return sorted({(s['publisher'], s['editionEffectiveDate'], s['originalPublicationKey']): s
-                   for s in rows}.values(), key=lambda s: (s['editionEffectiveDate'], s['sourceId']))
+    return deduplicate_observations(rows)
 
 
 def classify(a, physical, obs, rivals, reference, policy, safety=None):
@@ -242,7 +252,9 @@ def classify(a, physical, obs, rivals, reference, policy, safety=None):
             high.append('continuity_exceeds_medium_limit')
     # Hard failures never fall through to batch authorization.
     risk = 'high' if high else 'insufficient' if missing else 'medium' if reasons else 'low'
-    return {'risk': risk, 'reasons': sorted(set(high + missing + reasons)), 'window': window,
+    return {'risk': risk, 'reasons': sorted(set(high + missing + reasons)),
+            'triggeredRules': ['all_low_risk_predicates_satisfied'] if risk == 'low' else
+                [f'route_to_{risk}', *sorted(set(high + missing + reasons))], 'window': window,
             'maximumObservedGapDays': gap, 'observationCount': len(obs),
             'distinctOriginalCount': len({s['originalSha256'] for s in obs}),
             'publisherCount': len({s['publisher'] for s in obs})}
@@ -263,6 +275,7 @@ def evaluate():
             'textOriginalSha256', 'sourceFamily', 'contentStatus')} for sid in sorted(set(a['sourceIds'])) if sid in sources]
         if research_evidence and not any(s['sourceFamily'] in p['scope']['sourceFamilies'] for s in research_evidence):
             result['reasons'] = sorted(set(result['reasons']) | {'outside_automatic_scope'})
+            result['triggeredRules'] = sorted(set(result['triggeredRules']) | {'outside_automatic_scope'})
         candidate = deepcopy(a)
         physical = deepcopy(airports.get(a['airportId']))
         if result['window']:
