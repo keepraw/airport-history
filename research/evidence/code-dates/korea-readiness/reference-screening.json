@@ -1,0 +1,374 @@
+{
+  "cityCode": "SEL is an IATA metropolitan row; local reference miss does not prove absence.",
+  "country": "KR",
+  "countryReferenceRowsRead": 1435,
+  "formalIdentityMatches": 0,
+  "manifestSha256": "12b2ba970065b12c793b4d64f8ae25658c703e4d054c24ee6f623d73bf7744f6",
+  "mode": "finite_pinned_reference_lookup_not_historical_proof",
+  "noGlobalQueueScanned": true,
+  "referenceVersion": "1.0.0",
+  "screens": [
+    {
+      "code": "RKSI",
+      "exactCodeCompetingLocationsFound": false,
+      "nearestNamedNonHeliportClassifiedRecords": [
+        {
+          "coordinates": {
+            "latitude": 37.469101,
+            "longitude": 126.450996
+          },
+          "distanceMetres": 1276,
+          "facilityType": "large_airport",
+          "identifiers": {
+            "GPS": "RKSI",
+            "IATA": "ICN",
+            "ICAO": "RKSI",
+            "IDENT": "RKSI",
+            "LOCAL": null
+          },
+          "name": "Incheon International Airport",
+          "referenceId": "ref_c8e3d4c02b3a84b03a90dcde"
+        },
+        {
+          "coordinates": {
+            "latitude": 37.534288,
+            "longitude": 126.690439
+          },
+          "distanceMetres": 23560,
+          "facilityType": "closed",
+          "identifiers": {
+            "GPS": null,
+            "IATA": null,
+            "ICAO": null,
+            "IDENT": "KR-1099",
+            "LOCAL": null
+          },
+          "name": "C 194 Heliport",
+          "referenceId": "ref_e8174d4fe887f47c58c8a925"
+        },
+        {
+          "coordinates": {
+            "latitude": 37.49361,
+            "longitude": 126.71048
+          },
+          "distanceMetres": 24190,
+          "facilityType": "closed",
+          "identifiers": {
+            "GPS": null,
+            "IATA": null,
+            "ICAO": null,
+            "IDENT": "KR-0007",
+            "LOCAL": null
+          },
+          "name": "Camp Market Heliport (H-103)",
+          "referenceId": "ref_e330718a9ab292652962c653"
+        },
+        {
+          "coordinates": {
+            "latitude": 37.474918,
+            "longitude": 126.747272
+          },
+          "distanceMetres": 27226,
+          "facilityType": "small_airport",
+          "identifiers": {
+            "GPS": "RKRB",
+            "IATA": null,
+            "ICAO": null,
+            "IDENT": "RKRB",
+            "LOCAL": "RK53"
+          },
+          "name": "Bucheon (G-103) Airfield",
+          "referenceId": "ref_983261b17f1962cbd5cc24fa"
+        },
+        {
+          "coordinates": {
+            "latitude": 37.524969,
+            "longitude": 126.7907
+          },
+          "distanceMetres": 31782,
+          "facilityType": "closed",
+          "identifiers": {
+            "GPS": null,
+            "IATA": null,
+            "ICAO": null,
+            "IDENT": "KR-1094",
+            "LOCAL": null
+          },
+          "name": "Camp Merser (H 250) Heliport",
+          "referenceId": "ref_099ca58129a9a1945f432e89"
+        },
+        {
+          "coordinates": {
+            "latitude": 37.5583,
+            "longitude": 126.791
+          },
+          "distanceMetres": 32811,
+          "facilityType": "large_airport",
+          "identifiers": {
+            "GPS": "RKSS",
+            "IATA": "GMP",
+            "ICAO": "RKSS",
+            "IDENT": "RKSS",
+            "LOCAL": null
+          },
+          "name": "Seoul Gimpo International Airport",
+          "referenceId": "ref_ff637c6e4b9017ed09555406"
+        },
+        {
+          "coordinates": {
+            "latitude": 37.600539,
+            "longitude": 126.869516
+          },
+          "distanceMetres": 40935,
+          "facilityType": "small_airport",
+          "identifiers": {
+            "GPS": "RKRS",
+            "IATA": null,
+            "ICAO": null,
+            "IDENT": "RKRS",
+            "LOCAL": null
+          },
+          "name": "Susaek (G 113) Airport",
+          "referenceId": "ref_1c0b767e56a7d7148ee12b56"
+        },
+        {
+          "coordinates": {
+            "latitude": 37.525833,
+            "longitude": 126.921944
+          },
+          "distanceMetres": 43171,
+          "facilityType": "closed",
+          "identifiers": {
+            "GPS": null,
+            "IATA": null,
+            "ICAO": null,
+            "IDENT": "KR-0215",
+            "LOCAL": null
+          },
+          "name": "Yeouido Airport",
+          "referenceId": "ref_2bdef14c0f0c923092889d8d"
+        },
+        {
+          "coordinates": {
+            "latitude": 37.525845,
+            "longitude": 126.921995
+          },
+          "distanceMetres": 43175,
+          "facilityType": "closed",
+          "identifiers": {
+            "GPS": null,
+            "IATA": null,
+            "ICAO": null,
+            "IDENT": "KR-1118",
+            "LOCAL": null
+          },
+          "name": "(Duplicate)Yeouido Airport",
+          "referenceId": "ref_e18ef61a3c5cb9a32e30003c"
+        },
+        {
+          "coordinates": {
+            "latitude": 37.763489,
+            "longitude": 126.792548
+          },
+          "distanceMetres": 45706,
+          "facilityType": "small_airport",
+          "identifiers": {
+            "GPS": "RKRP",
+            "IATA": null,
+            "ICAO": null,
+            "IDENT": "RKRP",
+            "LOCAL": "RK45"
+          },
+          "name": "Paju (G-110) Airport",
+          "referenceId": "ref_0d7b280c4ed0aea8ffd690a1"
+        }
+      ],
+      "note": "Facility types are unverified reference classifications: several heliport-named records are typed closed. Yeouido and its duplicate, Susaek/RKRS, Bucheon/RKRB and Seoul/RKSM are not merged with either target.",
+      "sameCodeReferenceIds": [
+        "ref_c8e3d4c02b3a84b03a90dcde"
+      ],
+      "within50kmLocationHypotheses": 397
+    },
+    {
+      "code": "RKSS",
+      "exactCodeCompetingLocationsFound": false,
+      "nearestNamedNonHeliportClassifiedRecords": [
+        {
+          "coordinates": {
+            "latitude": 37.5583,
+            "longitude": 126.791
+          },
+          "distanceMetres": 592,
+          "facilityType": "large_airport",
+          "identifiers": {
+            "GPS": "RKSS",
+            "IATA": "GMP",
+            "ICAO": "RKSS",
+            "IDENT": "RKSS",
+            "LOCAL": null
+          },
+          "name": "Seoul Gimpo International Airport",
+          "referenceId": "ref_ff637c6e4b9017ed09555406"
+        },
+        {
+          "coordinates": {
+            "latitude": 37.524969,
+            "longitude": 126.7907
+          },
+          "distanceMetres": 3606,
+          "facilityType": "closed",
+          "identifiers": {
+            "GPS": null,
+            "IATA": null,
+            "ICAO": null,
+            "IDENT": "KR-1094",
+            "LOCAL": null
+          },
+          "name": "Camp Merser (H 250) Heliport",
+          "referenceId": "ref_099ca58129a9a1945f432e89"
+        },
+        {
+          "coordinates": {
+            "latitude": 37.600539,
+            "longitude": 126.869516
+          },
+          "distanceMetres": 7986,
+          "facilityType": "small_airport",
+          "identifiers": {
+            "GPS": "RKRS",
+            "IATA": null,
+            "ICAO": null,
+            "IDENT": "RKRS",
+            "LOCAL": null
+          },
+          "name": "Susaek (G 113) Airport",
+          "referenceId": "ref_1c0b767e56a7d7148ee12b56"
+        },
+        {
+          "coordinates": {
+            "latitude": 37.534288,
+            "longitude": 126.690439
+          },
+          "distanceMetres": 9769,
+          "facilityType": "closed",
+          "identifiers": {
+            "GPS": null,
+            "IATA": null,
+            "ICAO": null,
+            "IDENT": "KR-1099",
+            "LOCAL": null
+          },
+          "name": "C 194 Heliport",
+          "referenceId": "ref_e8174d4fe887f47c58c8a925"
+        },
+        {
+          "coordinates": {
+            "latitude": 37.474918,
+            "longitude": 126.747272
+          },
+          "distanceMetres": 10140,
+          "facilityType": "small_airport",
+          "identifiers": {
+            "GPS": "RKRB",
+            "IATA": null,
+            "ICAO": null,
+            "IDENT": "RKRB",
+            "LOCAL": "RK53"
+          },
+          "name": "Bucheon (G-103) Airfield",
+          "referenceId": "ref_983261b17f1962cbd5cc24fa"
+        },
+        {
+          "coordinates": {
+            "latitude": 37.49361,
+            "longitude": 126.71048
+          },
+          "distanceMetres": 10416,
+          "facilityType": "closed",
+          "identifiers": {
+            "GPS": null,
+            "IATA": null,
+            "ICAO": null,
+            "IDENT": "KR-0007",
+            "LOCAL": null
+          },
+          "name": "Camp Market Heliport (H-103)",
+          "referenceId": "ref_e330718a9ab292652962c653"
+        },
+        {
+          "coordinates": {
+            "latitude": 37.525833,
+            "longitude": 126.921944
+          },
+          "distanceMetres": 11504,
+          "facilityType": "closed",
+          "identifiers": {
+            "GPS": null,
+            "IATA": null,
+            "ICAO": null,
+            "IDENT": "KR-0215",
+            "LOCAL": null
+          },
+          "name": "Yeouido Airport",
+          "referenceId": "ref_2bdef14c0f0c923092889d8d"
+        },
+        {
+          "coordinates": {
+            "latitude": 37.525845,
+            "longitude": 126.921995
+          },
+          "distanceMetres": 11508,
+          "facilityType": "closed",
+          "identifiers": {
+            "GPS": null,
+            "IATA": null,
+            "ICAO": null,
+            "IDENT": "KR-1118",
+            "LOCAL": null
+          },
+          "name": "(Duplicate)Yeouido Airport",
+          "referenceId": "ref_e18ef61a3c5cb9a32e30003c"
+        },
+        {
+          "coordinates": {
+            "latitude": 37.748564,
+            "longitude": 126.824606
+          },
+          "distanceMetres": 21440,
+          "facilityType": "closed",
+          "identifiers": {
+            "GPS": null,
+            "IATA": null,
+            "ICAO": null,
+            "IDENT": "KR-1104",
+            "LOCAL": null
+          },
+          "name": "H 108 Heliport",
+          "referenceId": "ref_51712a1995560b7d2cb70285"
+        },
+        {
+          "coordinates": {
+            "latitude": 37.763489,
+            "longitude": 126.792548
+          },
+          "distanceMetres": 22971,
+          "facilityType": "small_airport",
+          "identifiers": {
+            "GPS": "RKRP",
+            "IATA": null,
+            "ICAO": null,
+            "IDENT": "RKRP",
+            "LOCAL": "RK45"
+          },
+          "name": "Paju (G-110) Airport",
+          "referenceId": "ref_0d7b280c4ed0aea8ffd690a1"
+        }
+      ],
+      "note": "Facility types are unverified reference classifications: several heliport-named records are typed closed. Yeouido and its duplicate, Susaek/RKRS, Bucheon/RKRB and Seoul/RKSM are not merged with either target.",
+      "sameCodeReferenceIds": [
+        "ref_ff637c6e4b9017ed09555406"
+      ],
+      "within50kmLocationHypotheses": 651
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "authorization": null,
+  "batchSha256": "1bf46a730f0f1f750e3479bdfe032e653b6b2c63e113aa6eae908bff3948722c",
+  "payload": {
+    "approvalScope": "Two physical identities only; no IATA or ICAO dates, no code assignment, no legal-name timeline; future ID allocation requires separate admission PR.",
+    "arpSeparationMetres": 33306,
+    "baselineCommit": "bc27f052cb8c7c2cabb7bc212d5e9170163fcaac",
+    "batchId": "kr-incheon-gimpo-physical-identities-1",
+    "cityCompetition": {
+      "currentIataSeoul": "SEL / Metropolitan Area; not a physical airport",
+      "localMissDoesNotProveAbsence": true,
+      "localReferenceSelResults": 0,
+      "sourceId": "iata-seoul-current"
+    },
+    "dataVersion": "0.10.0",
+    "records": [
+      {
+        "arpDecimal": {
+          "latitude": 37.462500000000006,
+          "longitude": 126.43916666666667
+        },
+        "arpDms": "372745N 1262621E",
+        "candidateKey": "kr-physical-incheon",
+        "competitionScreen": {
+          "allFourCodeLookupsHaveOneMatchingReference": true,
+          "existingFormalIdentityFound": false,
+          "locationIds": [
+            "loc_59ec111bf3dd1ae1cc3014f7"
+          ],
+          "referenceHistoricallyVerified": false,
+          "referenceId": "ref_c8e3d4c02b3a84b03a90dcde"
+        },
+        "futurePermanentIdRecommendation": "After a separately approved identity batch, allocate a new apt_UUID through the existing permanent-ID workflow; never reuse either PR22 simulation ID.",
+        "humanReviewer": null,
+        "independentEvidenceDecision": "separate named physical site supported; owner identity approval remains absent",
+        "independentOfficialLocationSupport": {
+          "distanceFromArpMetres": 1270,
+          "meaning": "Meteorological station coordinates corroborate the named physical vicinity; neither exact ARP nor allocation dates nor source independence from all upstream metadata is inferred.",
+          "sourceId": "noaa-isd",
+          "station": {
+            "BEGIN": "20040706",
+            "CTRY": "KS",
+            "ELEV(M)": "+0007.0",
+            "END": "20250824",
+            "ICAO": "RKSI",
+            "LAT": "+37.469",
+            "LON": "+126.451",
+            "STATE": "",
+            "STATION NAME": "INCHEON INTL",
+            "USAF": "471131",
+            "WBAN": "99999"
+          }
+        },
+        "name": "Incheon International Airport",
+        "observedIcao": "RKSI",
+        "operator": "Incheon International Airport Corporation",
+        "operatorAddress": "272 Gonghang-ro / 446 Je2terminal-daero, Incheon",
+        "proposedPermanentAirportId": null,
+        "sourceHashes": {
+          "iiac-location": "646db5070595137c7915581580eb16befa83df2661d1ea9b98db5266a801befe",
+          "kr-20250501-rksi": "532003effc3d07cb686feac666bddabbf0992aeffae3d4f13a15c78b141bbad7",
+          "kr-rksi-2025-04-16": "94b5f30e3a00ed8895354b02f9dbb82ff0ef597191bbe221a6eded6e5d71bcfb",
+          "kr-rksi-2025-05-14": "02407d6cea977e6752bb37cd4cd30154abee2e045ff8c50f83a143b404eb7398",
+          "noaa-isd": "1994747ab4af1b97e63adb434b4d0d022f2daee76f0c144ea9ab46be2d906604"
+        }
+      },
+      {
+        "arpDecimal": {
+          "latitude": 37.55694444444444,
+          "longitude": 126.7975
+        },
+        "arpDms": "373325N 1264751E",
+        "candidateKey": "kr-physical-gimpo",
+        "competitionScreen": {
+          "allFourCodeLookupsHaveOneMatchingReference": true,
+          "existingFormalIdentityFound": false,
+          "locationIds": [
+            "loc_527bc70f63512f5c9e965db7"
+          ],
+          "referenceHistoricallyVerified": false,
+          "referenceId": "ref_ff637c6e4b9017ed09555406"
+        },
+        "futurePermanentIdRecommendation": "After a separately approved identity batch, allocate a new apt_UUID through the existing permanent-ID workflow; never reuse either PR22 simulation ID.",
+        "humanReviewer": null,
+        "independentEvidenceDecision": "separate named physical site supported; owner identity approval remains absent",
+        "independentOfficialLocationSupport": {
+          "distanceFromArpMetres": 585,
+          "meaning": "Meteorological station coordinates corroborate the named physical vicinity; neither exact ARP nor allocation dates nor source independence from all upstream metadata is inferred.",
+          "sourceId": "noaa-isd",
+          "station": {
+            "BEGIN": "19450930",
+            "CTRY": "KS",
+            "ELEV(M)": "+0017.7",
+            "END": "20250824",
+            "ICAO": "RKSS",
+            "LAT": "+37.558",
+            "LON": "+126.791",
+            "STATE": "",
+            "STATION NAME": "GIMPO",
+            "USAF": "471100",
+            "WBAN": "99999"
+          }
+        },
+        "name": "Gimpo International Airport",
+        "observedIcao": "RKSS",
+        "operator": "Korea Airports Corporation",
+        "operatorAddress": "112 Haneul-gil, Gangseo-gu, Seoul",
+        "proposedPermanentAirportId": null,
+        "sourceHashes": {
+          "kac-gimpo-location": "e15c9eb0dc0a0d3296de3469c52125a52fea33fa527bc86c12c0dae56f994906",
+          "kr-20250501-rkss": "ea406d7aec1e721792781aea0efee639c271fa55d16afd65a3eb0a0b2dd856a3",
+          "kr-rkss-2025-04-16": "7eeb54ff1db617b8418b8f9795b6fd11f1e86164bb7276d7230ff4357fe66d9c",
+          "kr-rkss-2025-05-14": "e0c6d26853365928f6220c726aff16171ce47e1ebf4cf1644508ac5c240e1b83",
+          "noaa-isd": "1994747ab4af1b97e63adb434b4d0d022f2daee76f0c144ea9ab46be2d906604"
+        }
+      }
+    ],
+    "referenceScreeningSha256": "e6d15973c3354243bc7ed8c7fd1218d3ac16ce275671a4d2bcb96e85561b55e3"
+  },
+  "productionBound": false,
+  "status": "prepared_for_owner_identity_review"
+}

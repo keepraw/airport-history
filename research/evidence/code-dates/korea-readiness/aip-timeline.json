@@ -1,0 +1,81 @@
+{
+  "currentObservationDoesNotBridge2025To2026": true,
+  "currentObservationSourceIds": [
+    "kr-rksi-2026",
+    "kr-rkss-2026"
+  ],
+  "editions": [
+    {
+      "ad2SourceIds": [
+        "kr-rksi-2025-04-16",
+        "kr-rkss-2025-04-16"
+      ],
+      "amendment": "3/25",
+      "controlSourceIds": [
+        "kr-history",
+        "kr-20250416-amdt-full"
+      ],
+      "effectiveSeoul": "2025-04-17T01:00:00+09:00",
+      "effectiveUtc": "2025-04-16T16:00:00+00:00",
+      "kind": "AIRAC",
+      "publicationOn": "2025-03-06"
+    },
+    {
+      "ad21Or22Replaced": false,
+      "ad2SourceIds": [
+        "kr-20250501-rksi",
+        "kr-20250501-rkss"
+      ],
+      "amendment": "5/25",
+      "clockResolution": "publication date established by GEN 3.1; no exact UTC clock is asserted",
+      "controlSourceIds": [
+        "kr-history",
+        "kr-20250501-cover",
+        "kr-20250501-amdt-full",
+        "kr-gen31"
+      ],
+      "effectiveInstantUtc": null,
+      "effectiveOn": "2025-05-01",
+      "kind": "ordinary",
+      "publicationOn": "2025-05-01"
+    },
+    {
+      "ad2SourceIds": [
+        "kr-rksi-2025-05-14",
+        "kr-rkss-2025-05-14"
+      ],
+      "amendment": "4/25",
+      "changes": "Incheon de-icing 27 to 33; Gimpo taxilane NX/north apron/taxi routes; first AD page and ARP preserved.",
+      "controlSourceIds": [
+        "kr-history",
+        "kr-20250514-amdt-full"
+      ],
+      "effectiveSeoul": "2025-05-15T01:00:00+09:00",
+      "effectiveUtc": "2025-05-14T16:00:00+00:00",
+      "kind": "AIRAC",
+      "publicationOn": "2025-04-03"
+    }
+  ],
+  "hypothesisLocalWindow": {
+    "daysPerAirport": 27,
+    "from": "2025-04-18",
+    "toExclusive": "2025-05-15"
+  },
+  "identityStatements": [
+    {
+      "arp": "372745N 1262621E",
+      "code": "RKSI",
+      "firstAdPageDate": "2025-02-06",
+      "name": "SEOUL / Incheon INTL"
+    },
+    {
+      "arp": "373325N 1264751E",
+      "code": "RKSS",
+      "firstAdPageDate": "2024-01-11",
+      "name": "SEOUL / Gimpo INTL"
+    }
+  ],
+  "issuerFamilies": 1,
+  "ordinaryEditionIsAdditionalControlNotAnIndependentIssuer": true,
+  "outerAiracGapDays": 28
+}

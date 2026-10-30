@@ -1,0 +1,31 @@
+{
+  "artifactsSha256": {
+    "HANDOFF.zh-CN.md": "fd5144b595a6aded041a962c60dcc1a4c20eb99185cc423c17d714581e3ad769",
+    "README.md": "c34385cd6dcd12531090f191da91bda434a6bc1e335073cc42f3b6def5b0c2c7",
+    "aip-timeline.json": "f22c581f490e185b66e9835d74be81d3b8cd6855af481b94a5d7eb4ff679cd72",
+    "assessment.json": "dc4a5078fcf4c703bd6cb77ae36756873520adc948ad6a27ed9eadafe6c24c43",
+    "authorization-proposal.json": "171029a010acd2e113a9b3cfadbe1cee87f3a28bb64fcae01a7dbab99c3c71f8",
+    "baseline-lock.json": "4b06591dbc9de585017db16237bd92eb7553e58b0fadbf740c7389ec243f016c",
+    "bindings.json": "176c33e65206b7a547350bc50b12ff8bd1a6276aa862589ae12ffbd6eeff085a",
+    "checklist-reconciliation.json": "7a4a822f084fcd44b8cf3ef3eedd7101db143849b905c5ef10d59a29ae749f3d",
+    "citations.json": "ba8af4b21ccb8bee18c9ad168d900f688591e0258ec5d9cfc372868c07d2d74f",
+    "coverage.json": "d980df1d303873ac3eb3dcd6176b8002c1665e3bf4befa2f73d04d4cfe58d495",
+    "evidence-conditions.json": "b20384241a24b657b222d286389ab3fb2266ac748839a1037d90bf8ec0fccd90",
+    "fir-screening.json": "4e200e342db15828b332c0ecfc9fa564e5f6b4682e0569cd9f6a0173e255b4d2",
+    "identity-batch.json": "c8cd4178bc910faf502a2854edd2440da7bd1580c19f0150312c7b5a925282d7",
+    "notam-RKSI.json": "fbb8f5ffa50d6c205213614ba51b605b9d601a2f3033d0d718fec616565890f0",
+    "notam-RKSS.json": "709fd504e971587af95e7754528b7a892f061f43f6d70689062652ad92562e73",
+    "policy.json": "009cfb20c802b14e35d503f0f08ebf8076be13f60bea2ab77f8c7fe151933e85",
+    "publication-crosscheck.json": "53ce75c766e4e5d2c4f210ab3ba04b2865dd735d7beee1a117efec5db67dcc46",
+    "query-controls.json": "28a10f082c978e39cf518b737ae31c5411b120180fb899d4b947325a5e76cdac",
+    "reference-screening.json": "e6d15973c3354243bc7ed8c7fd1218d3ac16ce275671a4d2bcb96e85561b55e3",
+    "source-lock.json": "a77a08caea620a714a154b488683a5233267ffad32bebff371119b5c83f31063"
+  },
+  "implementationSha256": "9d81b4a923d238f4f29dfca4d8083971e56abff2c5f94a8fdb9fc68649e61811",
+  "limits": "Mechanical source-byte/extraction/citation replay, not human review or authorization.",
+  "mode": "local_original_verification",
+  "newCitationsVerified": 24,
+  "originalSources": 98,
+  "reusedCitationsVerified": 133,
+  "sourceBytesActuallyReadForReceipt": true
+}
