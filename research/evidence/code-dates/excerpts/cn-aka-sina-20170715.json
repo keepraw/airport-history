@@ -1,0 +1,32 @@
+{
+  "extractedTextSha256": "7006a2e46ad55fb6a501e706019934ff00dfa043ce57da99fa0d1e9cdd46a68f",
+  "normalizedTextSha256": "dc559f582e00d921a1ae1e98a4483473bce36bc56a8aafd906fe230bbd59480e",
+  "originalSha256": "4c294c99bd488533d56b69af018c157123031e0cfea6ea0c6fa348dfe8076b63",
+  "sourceId": "cn-aka-sina-20170715",
+  "spans": [
+    {
+      "characterEnd": 132,
+      "characterStart": 96,
+      "citationId": "cn-aka-sina-20170715-1",
+      "page": null,
+      "quote": "AN KANG Airport 机场三字码：AKA 机场四字码：ZLAK",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 234,
+      "characterStart": 221,
+      "citationId": "cn-aka-sina-20170715-2",
+      "page": null,
+      "quote": "跑道长1600米，宽30米",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 564,
+      "characterStart": 545,
+      "citationId": "cn-aka-sina-20170715-3",
+      "page": null,
+      "quote": "本数据由去哪儿qunar.com等提供",
+      "representation": "normalized_text"
+    }
+  ]
+}

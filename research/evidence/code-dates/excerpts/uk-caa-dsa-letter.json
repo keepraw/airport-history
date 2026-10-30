@@ -1,0 +1,24 @@
+{
+  "extractedTextSha256": "e0eb065dc4e08e3d0f8e7099c1e4d64ac3fcf1593294d3aeab26d3adf7b81abb",
+  "normalizedTextSha256": "1d75b4f51bcbf0bc3231bb5aea51e612bc271a6d763e9ea5210f3560aa97ab97",
+  "originalSha256": "c036f49df57e48179d1bd46b53fff8cf103fc68580d84b773a844e4236e43705",
+  "sourceId": "uk-caa-dsa-letter",
+  "spans": [
+    {
+      "characterEnd": 122,
+      "characterStart": 106,
+      "citationId": "uk-caa-dsa-letter-1",
+      "page": 1,
+      "quote": "20 December 2022",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 1007,
+      "characterStart": 916,
+      "citationId": "uk-caa-dsa-letter-2",
+      "page": 1,
+      "quote": "voluntarily surrendered its Aerodrome Certificate, taking effect from the 12 December 2022.",
+      "representation": "normalized_text"
+    }
+  ]
+}

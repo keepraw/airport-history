@@ -1,0 +1,32 @@
+{
+  "extractedTextSha256": "815ba7dafc907d9a0b9693e23b63c978d13a2781bcab7bb936f564679c22a7b0",
+  "normalizedTextSha256": "4f68ebbda1ad2cbbeb9cd0ec6bbf8d86d2477577ea680836ebb035ab5f239c68",
+  "originalSha256": "3b136463211a22290e7e4dabc138bda306691fb6e4fe6870f00fa1212e7ddd60",
+  "sourceId": "cn-lyg-sina-20170715",
+  "spans": [
+    {
+      "characterEnd": 148,
+      "characterStart": 100,
+      "citationId": "cn-lyg-sina-20170715-1",
+      "page": null,
+      "quote": "LIANYUNGANG BAITABI Airport 机场三字码：LYG 机场四字码：ZSLG",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 99,
+      "characterStart": 91,
+      "citationId": "cn-lyg-sina-20170715-2",
+      "page": null,
+      "quote": "连云港白塔埠机场",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 1203,
+      "characterStart": 1184,
+      "citationId": "cn-lyg-sina-20170715-3",
+      "page": null,
+      "quote": "本数据由去哪儿qunar.com等提供",
+      "representation": "normalized_text"
+    }
+  ]
+}

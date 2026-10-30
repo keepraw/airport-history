@@ -1,0 +1,2309 @@
+{
+  "attempts": [
+    {
+      "contentType": "application/json",
+      "encoding": "utf-8",
+      "extractedTextSha256": "137090c63f1135d19aa5ef645a1a2fc01634875bdd2e0e89bd5896280d092203",
+      "finalUrl": "https://web.archive.org/cdx/search/cdx?url=skyinfo.news.sina.com.cn%2Fairport%2Fairport.php%3Fdpc%3D1%26three%3DAKA&output=json&filter=statuscode:200&to=20171231&collapse=digest&limit=20",
+      "headers": {},
+      "normalizedTextSha256": "5ffbff71f67128ede276818a309647a91d45fc3895e078fb86ed93d1c327423a",
+      "originalBytes": 1153,
+      "originalSha256": "d9d0479998ed053723a3af149979405dc3e345e88c8ead90def8f1d135df51b9",
+      "requestedUrl": "https://web.archive.org/cdx/search/cdx?url=skyinfo.news.sina.com.cn%2Fairport%2Fairport.php%3Fdpc%3D1%26three%3DAKA&output=json&filter=statuscode:200&to=20171231&collapse=digest&limit=20",
+      "retrievedAt": "2026-10-30T07:18:00.303746+00:00",
+      "sourceId": "cn-aka-cdx-sina",
+      "status": 200,
+      "textCharacters": 1152
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://yinlei.org/x-plane10/doc/ZLAK.pdf",
+      "retrievedAt": "2026-10-30T07:16:26.441369+00:00",
+      "sourceId": "cn-aka-old-ad2-mirror"
+    },
+    {
+      "contentType": "text/html",
+      "encoding": "gb18030",
+      "extractedTextSha256": "7006a2e46ad55fb6a501e706019934ff00dfa043ce57da99fa0d1e9cdd46a68f",
+      "finalUrl": "https://web.archive.org/web/20170715194236id_/http://skyinfo.news.sina.com.cn/airport/airport.php?three=AKA&dpc=1",
+      "headers": {
+        "Memento-Datetime": "Sat, 15 Jul 2017 19:42:36 GMT"
+      },
+      "normalizedTextSha256": "dc559f582e00d921a1ae1e98a4483473bce36bc56a8aafd906fe230bbd59480e",
+      "originalBytes": 64436,
+      "originalSha256": "4c294c99bd488533d56b69af018c157123031e0cfea6ea0c6fa348dfe8076b63",
+      "requestedUrl": "https://web.archive.org/web/20170715194236id_/http://skyinfo.news.sina.com.cn/airport/airport.php?three=AKA&dpc=1",
+      "retrievedAt": "2026-10-30T07:19:03.552293+00:00",
+      "sourceId": "cn-aka-sina-20170715",
+      "status": 200,
+      "textCharacters": 734
+    },
+    {
+      "contentType": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "7495b283c4ab6ca756dc828799e6f43a609cec9b38dbeb78c32a6c2308f66869",
+      "finalUrl": "https://www.sichuanair.com/affiche/415.html",
+      "headers": {},
+      "normalizedTextSha256": "584387f0db29cd53a14b03e347502377be88d7114db7309ce1e7b4b8292b2ab0",
+      "originalBytes": 119211,
+      "originalSha256": "edd26fc088d6f68291c067348036ab3c90350ded1aaf590ae3a3eb9f30ce9e1c",
+      "requestedUrl": "https://www.sichuanair.com/affiche/415.html",
+      "retrievedAt": "2026-10-30T07:18:00.923643+00:00",
+      "sourceId": "cn-dazhou-sichuan-202205",
+      "status": 200,
+      "textCharacters": 13300
+    },
+    {
+      "contentType": "application/json",
+      "encoding": "utf-8",
+      "extractedTextSha256": "f15fca79248a076e810601afb7dc410d3eb8e402f226a5c9f863ca36120b7eb5",
+      "finalUrl": "https://web.archive.org/cdx/search/cdx?url=skyinfo.news.sina.com.cn%2Fairport%2Fairport.php%3Fdpc%3D1%26three%3DENY&output=json&filter=statuscode:200&to=20181107&collapse=digest&limit=20",
+      "headers": {},
+      "normalizedTextSha256": "71307c2e1d2dc970dcf64b7a27689bdbb4490e8ff5072e7dd1b4487de1fd9e40",
+      "originalBytes": 1153,
+      "originalSha256": "2dd2dd38107f9a67750c4f18b7722541c4885587dc53e3422cf993d3ee3dd389",
+      "requestedUrl": "https://web.archive.org/cdx/search/cdx?url=skyinfo.news.sina.com.cn%2Fairport%2Fairport.php%3Fdpc%3D1%26three%3DENY&output=json&filter=statuscode:200&to=20181107&collapse=digest&limit=20",
+      "retrievedAt": "2026-10-30T07:18:00.302559+00:00",
+      "sourceId": "cn-eny-cdx-sina",
+      "status": 200,
+      "textCharacters": 1152
+    },
+    {
+      "contentType": "text/html",
+      "encoding": "utf-8",
+      "extractedTextSha256": "595193982af53448719f93ebdda479cba54c83c2599efc13df03b9189b1d2e73",
+      "finalUrl": "https://global.ceair.com/global/static/Announcement/TravelTips/airportguide/airportinfo/Y_Ariport/",
+      "headers": {
+        "Last-Modified": "Wed, 17 Dec 2025 09:29:29 GMT"
+      },
+      "normalizedTextSha256": "865e4383ba6e161d7dac658c06188b0f9e4e7b56ffc9cebf77557c6cee66194f",
+      "originalBytes": 579452,
+      "originalSha256": "882d51a63ab21fba282772bf5dbd77306047c93bbbb824ae66e438d5dd1a586f",
+      "requestedUrl": "https://global.ceair.com/global/static/Announcement/TravelTips/airportguide/airportinfo/Y_Ariport/",
+      "retrievedAt": "2026-10-30T07:18:00.316062+00:00",
+      "sourceId": "cn-eny-ceair-current",
+      "status": 200,
+      "textCharacters": 35396
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://yinlei.org/x-plane10/doc/ZLYA.pdf",
+      "retrievedAt": "2026-10-30T07:16:26.439882+00:00",
+      "sourceId": "cn-eny-old-ad2-mirror"
+    },
+    {
+      "contentType": "text/html",
+      "encoding": "gb18030",
+      "extractedTextSha256": "95709f6fcd65dfe824b8a0de6ef167f44490db942e6b46f802cf15035e26716d",
+      "finalUrl": "https://web.archive.org/web/20170716002240id_/http://skyinfo.news.sina.com.cn/airport/airport.php?three=ENY&dpc=1",
+      "headers": {
+        "Memento-Datetime": "Sun, 16 Jul 2017 00:22:40 GMT"
+      },
+      "normalizedTextSha256": "72ec8282f431e40fb52c172270f1d15dfb41377e4db2438fde3036ca03656ff4",
+      "originalBytes": 66558,
+      "originalSha256": "764d9424c4faa616ffaa2fbe83bfee8df5af7b2eb513cbdb305fccb1d6e3bd70",
+      "requestedUrl": "https://web.archive.org/web/20170716002240id_/http://skyinfo.news.sina.com.cn/airport/airport.php?three=ENY&dpc=1",
+      "retrievedAt": "2026-10-30T07:19:03.550900+00:00",
+      "sourceId": "cn-eny-sina-20170716",
+      "status": 200,
+      "textCharacters": 1658
+    },
+    {
+      "contentType": "application/json",
+      "encoding": "utf-8",
+      "extractedTextSha256": "0fec40a7a01b1a7ae820fb7c5d1527bcdaaf95a10bbdda0876973fa764f9ca54",
+      "finalUrl": "https://web.archive.org/cdx/search/cdx?url=skyinfo.news.sina.com.cn%2Fairport%2Fairport.php%3Fdpc%3D1%26three%3DLYG&output=json&filter=statuscode:200&to=20211201&collapse=digest&limit=20",
+      "headers": {},
+      "normalizedTextSha256": "263dae831343b09ba487768f9bff4e66edfe7e45c07e02f69df74215199c2179",
+      "originalBytes": 1153,
+      "originalSha256": "869c9501f500cfff8b8ba9cb03b4227b343a2a537eea1443ac33eb800368195d",
+      "requestedUrl": "https://web.archive.org/cdx/search/cdx?url=skyinfo.news.sina.com.cn%2Fairport%2Fairport.php%3Fdpc%3D1%26three%3DLYG&output=json&filter=statuscode:200&to=20211201&collapse=digest&limit=20",
+      "retrievedAt": "2026-10-30T07:18:00.303436+00:00",
+      "sourceId": "cn-lyg-cdx-sina",
+      "status": 200,
+      "textCharacters": 1152
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "1de362a7dcbc782b5e4d1144321a3903118fd49e8d36f905ae942f2a87b3c5ba",
+      "finalUrl": "https://yinlei.org/x-plane10/doc/ZSLG.pdf",
+      "headers": {
+        "Last-Modified": "Fri, 12 Dec 2025 06:33:13 GMT"
+      },
+      "normalizedTextSha256": "846d9845b73bd1756c639f68d96947ba044ab41b255ee1a65e1f4433b8eafab1",
+      "originalBytes": 4416863,
+      "originalSha256": "85d0d58bbf1af2e142e0c74cd91d72b75339b88430ba0d1e2064a2afa692e60a",
+      "requestedUrl": "https://yinlei.org/x-plane10/doc/ZSLG.pdf",
+      "retrievedAt": "2026-10-30T07:16:26.440452+00:00",
+      "sourceId": "cn-lyg-old-ad2-mirror",
+      "status": 200,
+      "textCharacters": 232947
+    },
+    {
+      "contentType": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "c03b3d2a9cf52acc13857d1f87cbb9612eddd9f85bdc2dfa58577bfabdf72257",
+      "finalUrl": "https://www.sichuanair.com/affiche/310.html",
+      "headers": {},
+      "normalizedTextSha256": "2c75e815b1d2ea53ba60b5e88654b415dfe5cc6345c02f8a383d4a48cca6f0f7",
+      "originalBytes": 119203,
+      "originalSha256": "078334a6588ca097d03262759f34be3a85443cbc6fda50ec171ba958375aa130",
+      "requestedUrl": "https://www.sichuanair.com/affiche/310.html",
+      "retrievedAt": "2026-10-30T07:18:00.924168+00:00",
+      "sourceId": "cn-lyg-sichuan-202111",
+      "status": 200,
+      "textCharacters": 13389
+    },
+    {
+      "contentType": "text/html",
+      "encoding": "gb18030",
+      "extractedTextSha256": "815ba7dafc907d9a0b9693e23b63c978d13a2781bcab7bb936f564679c22a7b0",
+      "finalUrl": "https://web.archive.org/web/20170715185337id_/http://skyinfo.news.sina.com.cn/airport/airport.php?three=LYG&dpc=1",
+      "headers": {
+        "Memento-Datetime": "Sat, 15 Jul 2017 18:53:37 GMT"
+      },
+      "normalizedTextSha256": "4f68ebbda1ad2cbbeb9cd0ec6bbf8d86d2477577ea680836ebb035ab5f239c68",
+      "originalBytes": 65887,
+      "originalSha256": "3b136463211a22290e7e4dabc138bda306691fb6e4fe6870f00fa1212e7ddd60",
+      "requestedUrl": "https://web.archive.org/web/20170715185337id_/http://skyinfo.news.sina.com.cn/airport/airport.php?three=LYG&dpc=1",
+      "retrievedAt": "2026-10-30T07:19:03.551714+00:00",
+      "sourceId": "cn-lyg-sina-20170715",
+      "status": 200,
+      "textCharacters": 1373
+    },
+    {
+      "contentType": "application/json",
+      "encoding": "utf-8",
+      "extractedTextSha256": "e970455b0938854100cc0cd812f4898bc5a2ae6bf81b2242283e33526246f6e4",
+      "finalUrl": "https://web.archive.org/cdx/search/cdx?url=skyinfo.news.sina.com.cn/airport/airport.php?dpc=1%26three=LZO&output=json&filter=statuscode:200&to=2018&collapse=digest&limit=10",
+      "headers": {},
+      "normalizedTextSha256": "11d99d660b07d88af455b49664162a0e79f364f2d8d001eb3713d2d3b53dd9fc",
+      "originalBytes": 1153,
+      "originalSha256": "2c674140d0ac745296426bef352158b7c09355e4109608393f911ae3bd86c2a7",
+      "requestedUrl": "https://web.archive.org/cdx/search/cdx?url=skyinfo.news.sina.com.cn/airport/airport.php?dpc=1%26three=LZO&output=json&filter=statuscode:200&to=2018&collapse=digest&limit=10",
+      "retrievedAt": "2026-10-30T07:16:27.168503+00:00",
+      "sourceId": "cn-lzo-cdx-sina",
+      "status": 200,
+      "textCharacters": 1152
+    },
+    {
+      "error": "The read operation timed out",
+      "requestedUrl": "https://web.archive.org/cdx/search/cdx?url=flights.ch.com/airports/*LZO*&output=json&filter=statuscode:200&to=20180909&collapse=digest&limit=20",
+      "retrievedAt": "2026-10-30T07:18:00.310820+00:00",
+      "sourceId": "cn-lzo-cdx-spring-wild"
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://yinlei.org/x-plane10/doc/ZULZ.pdf",
+      "retrievedAt": "2026-10-30T07:16:26.439399+00:00",
+      "sourceId": "cn-lzo-old-ad2-mirror"
+    },
+    {
+      "contentType": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "ae676c48a44fc2b0888a10060afd7a64741feaf859e0d8ddde1d0879f3baa795",
+      "finalUrl": "https://www.sichuanair.com/affiche/affiche.html",
+      "headers": {},
+      "normalizedTextSha256": "2dca8b1a4d34bf309d20dac31900d7b6fdc3aadbd37477fae4294aa75d3cebd3",
+      "originalBytes": 120997,
+      "originalSha256": "c11befbf0622ff4c6555fa5990fa695f332b2aa043f1304828b0e5e34639eeb4",
+      "requestedUrl": "https://www.sichuanair.com/affiche/",
+      "retrievedAt": "2026-10-30T07:19:03.554133+00:00",
+      "sourceId": "cn-lzo-sichuan-search",
+      "status": 200,
+      "textCharacters": 13138
+    },
+    {
+      "contentType": "text/html",
+      "encoding": "gb18030",
+      "extractedTextSha256": "84af192ca632218f54a3430b538262ff78b6888ea9e8c2499ad52bd42a91c1d2",
+      "finalUrl": "https://web.archive.org/web/20170715192100id_/http://skyinfo.news.sina.com.cn/airport/airport.php?three=LZO&dpc=1",
+      "headers": {
+        "Memento-Datetime": "Sat, 15 Jul 2017 19:21:00 GMT"
+      },
+      "normalizedTextSha256": "d0539ae24b322c5071d997d5ee69ca316968b3c6b463d5f56b3f654b6f0eb803",
+      "originalBytes": 66531,
+      "originalSha256": "247b83f61892aa570117ac29954192edc71abc5f4a0cc007803593f904f80f9b",
+      "requestedUrl": "https://web.archive.org/web/20170715192100id_/http://skyinfo.news.sina.com.cn/airport/airport.php?three=LZO&dpc=1",
+      "retrievedAt": "2026-10-30T07:18:00.301828+00:00",
+      "sourceId": "cn-lzo-sina-20170715",
+      "status": 200,
+      "textCharacters": 1932
+    },
+    {
+      "error": "The read operation timed out",
+      "requestedUrl": "https://web.archive.org/cdx/search/cdx?url=flights.springairlines.com/airports/*LZO*&output=json&filter=statuscode:200&to=20180909&collapse=digest&limit=10",
+      "retrievedAt": "2026-10-30T07:19:03.553558+00:00",
+      "sourceId": "cn-lzo-spring-cdx-legacy"
+    },
+    {
+      "contentType": "application/json",
+      "encoding": "utf-8",
+      "extractedTextSha256": "452adfec7f55b106595d9a10727440046235db76a253162bbf391b165d8dde2f",
+      "finalUrl": "https://web.archive.org/cdx/search/cdx?url=skyinfo.news.sina.com.cn%2Fairport%2Fairport.php%3Fdpc%3D1%26three%3DYBP&output=json&filter=statuscode:200&to=20191204&collapse=digest&limit=20",
+      "headers": {},
+      "normalizedTextSha256": "43273d6d9de149e7368a5cc3fbfc2bde6a93bf048351ce6347cc1fec45792391",
+      "originalBytes": 1153,
+      "originalSha256": "f07925166f088e0a9520d8433dc43af18408ebf9ef3f70c87df0eb7ff89a926e",
+      "requestedUrl": "https://web.archive.org/cdx/search/cdx?url=skyinfo.news.sina.com.cn%2Fairport%2Fairport.php%3Fdpc%3D1%26three%3DYBP&output=json&filter=statuscode:200&to=20191204&collapse=digest&limit=20",
+      "retrievedAt": "2026-10-30T07:18:00.303189+00:00",
+      "sourceId": "cn-ybp-cdx-sina",
+      "status": 200,
+      "textCharacters": 1152
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://yinlei.org/x-plane10/doc/ZUYB.pdf",
+      "retrievedAt": "2026-10-30T07:16:26.440934+00:00",
+      "sourceId": "cn-ybp-old-ad2-mirror"
+    },
+    {
+      "contentType": "text/html",
+      "encoding": "gb18030",
+      "extractedTextSha256": "25174213cbd9494b7b6c700ddeadb886b434f926a192cfc289996f5c1d5b08cd",
+      "finalUrl": "https://web.archive.org/web/20170715193107id_/http://skyinfo.news.sina.com.cn/airport/airport.php?three=YBP&dpc=1",
+      "headers": {
+        "Memento-Datetime": "Sat, 15 Jul 2017 19:31:07 GMT"
+      },
+      "normalizedTextSha256": "b837d88b99957f2ae9577807a9807380fe780d5192d07f474db5d2c3ff17987b",
+      "originalBytes": 64397,
+      "originalSha256": "eabb00ceb1321366a2882f8539420b369aa38a5511cccfc9e0f9c81f7336cb54",
+      "requestedUrl": "https://web.archive.org/web/20170715193107id_/http://skyinfo.news.sina.com.cn/airport/airport.php?three=YBP&dpc=1",
+      "retrievedAt": "2026-10-30T07:19:03.552552+00:00",
+      "sourceId": "cn-ybp-sina-20170715",
+      "status": 200,
+      "textCharacters": 638
+    },
+    {
+      "contentType": "application/json",
+      "encoding": "utf-8",
+      "extractedTextSha256": "0d8756a48e6a541043fd0c6713217dfc3844ebf5b52cac1118cb74577b28a772",
+      "finalUrl": "https://web.archive.org/cdx/search/cdx?url=skyinfo.news.sina.com.cn%2Fairport%2Fairport.php%3Fdpc%3D1%26three%3DZHA&output=json&filter=statuscode:200&to=20220323&collapse=digest&limit=20",
+      "headers": {},
+      "normalizedTextSha256": "5689879926d85381b510d83856becb2429aba0845343bb55446d76262b209daa",
+      "originalBytes": 1153,
+      "originalSha256": "394cca8ebce8b70cc7b57da1252aed5c1f6aef0922bd296310c0d8b17b163552",
+      "requestedUrl": "https://web.archive.org/cdx/search/cdx?url=skyinfo.news.sina.com.cn%2Fairport%2Fairport.php%3Fdpc%3D1%26three%3DZHA&output=json&filter=statuscode:200&to=20220323&collapse=digest&limit=20",
+      "retrievedAt": "2026-10-30T07:18:00.304627+00:00",
+      "sourceId": "cn-zha-cdx-sina",
+      "status": 200,
+      "textCharacters": 1152
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "42b5bd9690e63a39f694fcb9a036933df6cc85951a3a6a4cb5b560da61034566",
+      "finalUrl": "https://yinlei.org/x-plane10/doc/ZGZJ.pdf",
+      "headers": {
+        "Last-Modified": "Fri, 12 Dec 2025 06:37:39 GMT"
+      },
+      "normalizedTextSha256": "ce7e2571c3f0963143431b4e572a003493fb3e5196da2e7e7ace0ee7906e3a3c",
+      "originalBytes": 8658177,
+      "originalSha256": "771f1f21382f41c2d0180356d291ddc3e183597ddceda67b8b183cc627760ee5",
+      "requestedUrl": "https://yinlei.org/x-plane10/doc/ZGZJ.pdf",
+      "retrievedAt": "2026-10-30T07:16:26.444352+00:00",
+      "sourceId": "cn-zha-old-ad2-mirror",
+      "status": 200,
+      "textCharacters": 239289
+    },
+    {
+      "contentType": "text/html",
+      "encoding": "utf-8",
+      "extractedTextSha256": "d48399627df37729bce0a7e5b0f42a3e0fbf57459dfd6d8c2a1fe0685d0f298c",
+      "finalUrl": "https://www.caop.org.cn/kaifangkouan/yunshufangshi/kongyunkouan/2019-02-18/36.html",
+      "headers": {
+        "Last-Modified": "Tue, 30 Jun 2026 03:54:02 GMT"
+      },
+      "normalizedTextSha256": "a3fa8676e35569a221da022bff65219a7ca40a337d906a8fe9a32286d4c6347b",
+      "originalBytes": 13160,
+      "originalSha256": "94fe5d25bf8aa00eedc220a007462c723708a1874a4696e0b62a1faf38a8ffcc",
+      "requestedUrl": "https://www.caop.org.cn/kaifangkouan/yunshufangshi/kongyunkouan/2019-02-18/36.html",
+      "retrievedAt": "2026-10-30T07:26:58.880502+00:00",
+      "sourceId": "cn-zha-port-20190218",
+      "status": 200,
+      "textCharacters": 723
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "cbf30e5ec1183b544ab5b8ad2c157d13aa10ea2cfaf872e98c6b1154c8a0eccb",
+      "finalUrl": "https://www.zhanjiang.gov.cn/attachment/0/36/36754/1322188.pdf",
+      "headers": {
+        "Last-Modified": "Tue, 24 Jun 2025 09:17:31 GMT"
+      },
+      "normalizedTextSha256": "fed4c99d7ec777c22dc2728ec9b95b071a05276e0d6fe8265a561c5f708b5f43",
+      "originalBytes": 5746774,
+      "originalSha256": "abcfbd2b1f6bc98202dd78b1897bc5a8b9c2dc16aa843242667ab2a17455b97a",
+      "requestedUrl": "https://www.zhanjiang.gov.cn/attachment/0/36/36754/1322188.pdf",
+      "retrievedAt": "2026-10-30T07:16:26.438347+00:00",
+      "sourceId": "cn-zha-protection-2020",
+      "status": 200,
+      "textCharacters": 123210
+    },
+    {
+      "contentType": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "d9c52ff4400d6865625a3e2a2f6208ca1f156ccd28f89dfaa9b2eaae3de9afb3",
+      "finalUrl": "https://www.zhanjiang.gov.cn/zjsfw/bmdh/zrzyj/zwggk/tzgg/content/post_1395839.html",
+      "headers": {},
+      "normalizedTextSha256": "6aa188b835b7d7c01fff633b64143723228392be25067b759a15891c3d496b62",
+      "originalBytes": 39785,
+      "originalSha256": "e84028093b11a136ab877f799fd18ece95db9f56b7ddb7f68eda98928ba4d75c",
+      "requestedUrl": "https://www.zhanjiang.gov.cn/zjsfw/bmdh/zrzyj/zwggk/tzgg/content/post_1395839.html",
+      "retrievedAt": "2026-10-30T07:22:01.975853+00:00",
+      "sourceId": "cn-zha-protection-notice",
+      "status": 200,
+      "textCharacters": 2364
+    },
+    {
+      "contentType": "text/html",
+      "encoding": "gb18030",
+      "extractedTextSha256": "491b5d1f97aac9e3904df1b427738eb9cc761e539c8e936802d5961cfb2649b1",
+      "finalUrl": "https://web.archive.org/web/20170715174759id_/http://skyinfo.news.sina.com.cn/airport/airport.php?three=ZHA&dpc=1",
+      "headers": {
+        "Memento-Datetime": "Sat, 15 Jul 2017 17:47:59 GMT"
+      },
+      "normalizedTextSha256": "48b599fd15d62a8c9f4c83ba62abc7f1bdb5d485288005187a5fe6ae3eb53909",
+      "originalBytes": 64809,
+      "originalSha256": "2a67a857ae50901ad8494dd7eb0a72bdc4d0802b69389f61dd227aacd7c8491c",
+      "requestedUrl": "https://web.archive.org/web/20170715174759id_/http://skyinfo.news.sina.com.cn/airport/airport.php?three=ZHA&dpc=1",
+      "retrievedAt": "2026-10-30T07:19:03.552900+00:00",
+      "sourceId": "cn-zha-sina-20170715",
+      "status": 200,
+      "textCharacters": 874
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://aip.dfs.de/BasicIFR/2020OCT08/",
+      "retrievedAt": "2026-10-30T07:23:43.101653+00:00",
+      "sourceId": "de-dfs-20201008-index"
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://aip.dfs.de/BasicIFR/2020NOV05/",
+      "retrievedAt": "2026-10-30T07:23:43.102047+00:00",
+      "sourceId": "de-dfs-20201105-index"
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://aip.dfs.de/BasicIFR/68c7dcb93e95b26dd5a4ea0e5bfdcd5e.html",
+      "retrievedAt": "2026-10-30T07:27:51.418237+00:00",
+      "sourceId": "de-dfs-ad-index"
+    },
+    {
+      "contentType": "text/html",
+      "encoding": "utf-8",
+      "extractedTextSha256": "7c15d6d5870602600b3df56c0f555b9e1bca614f0ea4ce50ea558a392ade149c",
+      "finalUrl": "https://aip.dfs.de/BasicIFR/2026OCT29/chapter/7ff963e82459855d134478ddd7ee41db.html",
+      "headers": {
+        "Last-Modified": "Thu, 29 Oct 2026 02:02:37 GMT"
+      },
+      "normalizedTextSha256": "2c90241bba513d2ffc11c0ed9828e1d4b9c7904cf6b9b198c021956a33ffc57d",
+      "originalBytes": 6698,
+      "originalSha256": "b3e79cecc3b91009d29029fe30d6f88dfbbd6202354a585d908c15fad88ee191",
+      "requestedUrl": "https://aip.dfs.de/BasicIFR/",
+      "retrievedAt": "2026-10-30T07:25:44.315036+00:00",
+      "sourceId": "de-dfs-aip-root",
+      "status": 200,
+      "textCharacters": 846
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://aip.dfs.de/js/config.js",
+      "retrievedAt": "2026-10-30T07:33:52.919655+00:00",
+      "sourceId": "de-dfs-config-fixed"
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://aip.dfs.de/js/config.js",
+      "retrievedAt": "2026-10-30T07:29:44.699678+00:00",
+      "sourceId": "de-dfs-config"
+    },
+    {
+      "contentType": "application/json",
+      "encoding": "utf-8",
+      "extractedTextSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "finalUrl": "https://web.archive.org/cdx/search/cdx?url=aip.dfs.de/basicIFR/*EDDT*&output=json&filter=statuscode:200&from=2020&to=2020&collapse=digest&limit=10",
+      "headers": {},
+      "normalizedTextSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "originalBytes": 3,
+      "originalSha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "requestedUrl": "https://web.archive.org/cdx/search/cdx?url=aip.dfs.de/basicIFR/*EDDT*&output=json&filter=statuscode:200&from=2020&to=2020&collapse=digest&limit=10",
+      "retrievedAt": "2026-10-30T07:33:52.923563+00:00",
+      "sourceId": "de-dfs-old-cdx",
+      "status": 200,
+      "textCharacters": 2
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://aip.dfs.de/js/basicAIP.js",
+      "retrievedAt": "2026-10-30T07:29:44.700015+00:00",
+      "sourceId": "de-dfs-script"
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "eee4bbe9ff9ce47080fa2e5f9c27a9b459a89a709200df1f42da8be6cd6a5439",
+      "finalUrl": "https://www.eurocontrol.int/sites/default/files/2021-07/eurocontrol-lssip-2020-germany-level1.pdf",
+      "headers": {
+        "Last-Modified": "Tue, 13 Jul 2021 16:04:52 GMT"
+      },
+      "normalizedTextSha256": "887204ccc7c147191f4d35c6e67b12df8853c56b0847b130a84ff31a6f17ea0b",
+      "originalBytes": 8397716,
+      "originalSha256": "fc40090a3c427b38910c3b8f29cf8a8a4cf15e8de723b172b130b048497452cd",
+      "requestedUrl": "https://www.eurocontrol.int/sites/default/files/2021-07/eurocontrol-lssip-2020-germany-level1.pdf",
+      "retrievedAt": "2026-10-30T07:39:56.463322+00:00",
+      "sourceId": "de-eurocontrol-lssip-2020",
+      "status": 200,
+      "textCharacters": 681907
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://aip.enaire.es/aip/contenido_AMDT/LE_Amdt_A_2018_12_en.pdf",
+      "retrievedAt": "2026-10-30T07:23:43.103333+00:00",
+      "sourceId": "es-airac-2018-12-lower"
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://aip.enaire.es/AIP/contenido_AMDT/LE_Amdt_A_2018_12_en.pdf",
+      "retrievedAt": "2026-10-30T07:22:01.442677+00:00",
+      "sourceId": "es-airac-2018-12"
+    },
+    {
+      "contentType": "text/html",
+      "encoding": "utf-8",
+      "extractedTextSha256": "43a59bba67b6c01015cc216196e6fb5e17397504e7b8630de45399a56e37235c",
+      "finalUrl": "https://aip.enaire.es/AIP/",
+      "headers": {
+        "Last-Modified": "Wed, 14 Oct 2026 05:30:28 GMT"
+      },
+      "normalizedTextSha256": "0657fed6581dc3b8e97c72520514867fdc0dd6768b24509c24d1391c9948482a",
+      "originalBytes": 983031,
+      "originalSha256": "dc6d01d108ef0ea7fefc7063fba8e646313d4ab8a278aaef1ece101b4b5f03cf",
+      "requestedUrl": "https://aip.enaire.es/AIP/",
+      "retrievedAt": "2026-10-30T07:25:44.315564+00:00",
+      "sourceId": "es-enaire-amdt-index",
+      "status": 200,
+      "textCharacters": 64358
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "f33a7108e50c77c1f495c07eac52342331fa9d0df311c8e95958146cf637f142",
+      "finalUrl": "https://www.eurocontrol.int/sites/default/files/publication/files/rais-1.0-wef-03-jan-2019.pdf",
+      "headers": {
+        "Last-Modified": "Mon, 18 Feb 2019 15:19:47 GMT"
+      },
+      "normalizedTextSha256": "c11424b21dd24648e54001368505e063d299d789e08363153c4aa1363449e749",
+      "originalBytes": 9372266,
+      "originalSha256": "955a407edec410743440d610d2c00314f588e69e25c5b4ac8d84c70639467eb6",
+      "requestedUrl": "https://www.eurocontrol.int/sites/default/files/publication/files/rais-1.0-wef-03-jan-2019.pdf",
+      "retrievedAt": "2026-10-30T07:22:01.442969+00:00",
+      "sourceId": "es-eurocontrol-20190103",
+      "status": 200,
+      "textCharacters": 28430448
+    },
+    {
+      "contentType": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "895f8b55cff7117ad44fdea5197c8a3745d5487ec5f680e5793e83ff0ec5dfeb",
+      "finalUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=AKA",
+      "headers": {},
+      "normalizedTextSha256": "9b3e6eef255630b78526bf45637ea35b666808375f3a61aa21daa7bdbdb79dcf",
+      "originalBytes": 111023,
+      "originalSha256": "c3d493f8ad49caad428c43dae62ffa56043fdc661073edcf0486ba09ff3d9f66",
+      "requestedUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=AKA",
+      "retrievedAt": "2026-10-30T07:26:58.526310+00:00",
+      "sourceId": "iata-aka-20261030",
+      "status": 200,
+      "textCharacters": 6702
+    },
+    {
+      "contentType": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "289625e5f3238603e93e9dd20e73d62b076a8a2dbfa6732f2f29be297a5162a4",
+      "finalUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=DAX",
+      "headers": {},
+      "normalizedTextSha256": "cf7121c1b5c4b3ce2348418ff006deb05bde66145aca656e74d31ba844e2b7b1",
+      "originalBytes": 111165,
+      "originalSha256": "6f40a211705186924a9b6de94a7d5f8af6a460394934d95a17f6beafdc8dfa57",
+      "requestedUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=DAX",
+      "retrievedAt": "2026-10-30T07:26:58.704787+00:00",
+      "sourceId": "iata-dax-20261030",
+      "status": 200,
+      "textCharacters": 6725
+    },
+    {
+      "contentType": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "d27c5931a075898e6d77babf51a1ede00647239dc0c7726d65455db8e766a5f8",
+      "finalUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=DZH",
+      "headers": {},
+      "normalizedTextSha256": "ccfa101ef9c77399c5b97cfa4eb15960a757cf3be9ca709a664e8f411d95481a",
+      "originalBytes": 111028,
+      "originalSha256": "619ba1c6342530819e6b309ba051e08157d05e1afda5e4530f1ce40ffb54aa1e",
+      "requestedUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=DZH",
+      "retrievedAt": "2026-10-30T07:26:58.751771+00:00",
+      "sourceId": "iata-dzh-20261030",
+      "status": 200,
+      "textCharacters": 6707
+    },
+    {
+      "contentType": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "03da82777a2be2cfa98ef12f0b7f5c22781a2dde76cca6129766f3d51a8f4f91",
+      "finalUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=ENY",
+      "headers": {},
+      "normalizedTextSha256": "c94d6cf2fead335d42a0f48123d0415fdbe84d9a0a30157a70011b1081d168f8",
+      "originalBytes": 111176,
+      "originalSha256": "9fb077479d20c044294b563c04a58870a22e682a5abb21f0266c328674fba6a8",
+      "requestedUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=ENY",
+      "retrievedAt": "2026-10-30T07:26:57.765626+00:00",
+      "sourceId": "iata-eny-20261030",
+      "status": 200,
+      "textCharacters": 6731
+    },
+    {
+      "contentType": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "fbd3227380d7ae54934881e3fe95b971069f1ea7f04dbfea18230ad811727759",
+      "finalUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=ISN",
+      "headers": {},
+      "normalizedTextSha256": "aaa52cfc009fcd4e5d16c51e54665ef91650439fd16fafbb5024c5b8ee3b35ab",
+      "originalBytes": 110530,
+      "originalSha256": "77dc0f6c9dd8165900f78794db2bed77d88108870ad9679873ad54c980af86e4",
+      "requestedUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=ISN",
+      "retrievedAt": "2026-10-30T07:26:57.762742+00:00",
+      "sourceId": "iata-isn-20261030",
+      "status": 200,
+      "textCharacters": 6659
+    },
+    {
+      "contentType": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "bcbf3aecf70dc0583c12f3e9ef4a016ae7f8f1bb101125ac3ceb937b8370e40d",
+      "finalUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=LYG",
+      "headers": {},
+      "normalizedTextSha256": "6c93b1514197950258b910c6b97459b4c77875f8d945a9e51938f5428154e6b6",
+      "originalBytes": 111031,
+      "originalSha256": "b410ea18d9414d9babeefec7a3ad091e56743e991893393958b20b35d679e0d3",
+      "requestedUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=LYG",
+      "retrievedAt": "2026-10-30T07:26:57.764610+00:00",
+      "sourceId": "iata-lyg-20261030",
+      "status": 200,
+      "textCharacters": 6710
+    },
+    {
+      "contentType": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "353b6b22280561f637400cb28014a17e241a101f75e3c06a6d3c105dc8cdfacc",
+      "finalUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=LZO",
+      "headers": {},
+      "normalizedTextSha256": "abcd64c8a0429c7b1a439e864db54d4a5ed9792f572cfb2907c5eecd1a5bf81f",
+      "originalBytes": 111023,
+      "originalSha256": "cc7584a056564a7b1cbd72a86befb4aa6d5d3b29f262e6df15b91294ade776e4",
+      "requestedUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=LZO",
+      "retrievedAt": "2026-10-30T07:26:57.763901+00:00",
+      "sourceId": "iata-lzo-20261030",
+      "status": 200,
+      "textCharacters": 6702
+    },
+    {
+      "contentType": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "e99ff1837c9166ca31a199dbeb8b73051c4ccd3f89505e1c625582dc3ad0288a",
+      "finalUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=NGO",
+      "headers": {},
+      "normalizedTextSha256": "bb9e7214d402a151fabf6bf590ee00d74b978bd75b90b1e46ee03186d51a9235",
+      "originalBytes": 111183,
+      "originalSha256": "82a1e97a5a784f4857912b52bf08e276037d867fd7d333ad702af711e6a0bd18",
+      "requestedUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=NGO",
+      "retrievedAt": "2026-10-30T07:26:57.764197+00:00",
+      "sourceId": "iata-ngo-20261030",
+      "status": 200,
+      "textCharacters": 6743
+    },
+    {
+      "contentType": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "87f49b32f5dc1698eb5cf7807005fad66e952cf77b70c3a223a57dc351939e09",
+      "finalUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=NKM",
+      "headers": {},
+      "normalizedTextSha256": "52b00f2aed5fc4eda5fb01cace2a4ae771489cb65d2f83e067c433ee0f4cde42",
+      "originalBytes": 111031,
+      "originalSha256": "2058d92e445c677b3a81e73a661ff46867f72b972608d4596d00de092f6b0736",
+      "requestedUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=NKM",
+      "retrievedAt": "2026-10-30T07:26:57.763339+00:00",
+      "sourceId": "iata-nkm-20261030",
+      "status": 200,
+      "textCharacters": 6710
+    },
+    {
+      "contentType": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "4f58cb39ccc61041e4fcb23a0e92bc43f75dbe75ed4a619e62f44cab3e74916b",
+      "finalUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=XWA",
+      "headers": {},
+      "normalizedTextSha256": "e31b90245f2a20d7af9c495aae54de5b9c598a1a7b7071d25e21f32e0d891e09",
+      "originalBytes": 111038,
+      "originalSha256": "bd9124d6c37c3a455669c4880b5e8d251c86b65598326b2de8fd49a133aa2d2f",
+      "requestedUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=XWA",
+      "retrievedAt": "2026-10-30T07:26:57.762129+00:00",
+      "sourceId": "iata-xwa-20261030",
+      "status": 200,
+      "textCharacters": 6717
+    },
+    {
+      "contentType": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "2f5483190dc3b8ca237e1e50651bb4e58dfbaafeac5e85d5087e7ad2c7e399f7",
+      "finalUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=YBP",
+      "headers": {},
+      "normalizedTextSha256": "bf6025376afebdda183f604c546534e5a008aaea26f6f0f508a2e10bd25e1582",
+      "originalBytes": 111032,
+      "originalSha256": "a6023657f0c2770630c03f84010f4364b0348b5ff8098076dc974638e650e269",
+      "requestedUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=YBP",
+      "retrievedAt": "2026-10-30T07:26:57.766311+00:00",
+      "sourceId": "iata-ybp-20261030",
+      "status": 200,
+      "textCharacters": 6711
+    },
+    {
+      "contentType": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "7556400779a7afbab1d46f53d0b081311eecbf10aad30ab11731ed4ec8e22240",
+      "finalUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=ZHA",
+      "headers": {},
+      "normalizedTextSha256": "99c9a814d9622ac58c63abaee6b1af2a2cda9566ecd2e1cb10d28df8c4b852b6",
+      "originalBytes": 111026,
+      "originalSha256": "f6e3dbf5573d58d17e65084735cc6f759e5faf91310012430154fc9c624e15ba",
+      "requestedUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=ZHA",
+      "retrievedAt": "2026-10-30T07:26:58.664173+00:00",
+      "sourceId": "iata-zha-20261030",
+      "status": 200,
+      "textCharacters": 6705
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "1435d94fdcd66e17b9143ebb73fb34cb4f68d4a8021bf099536136a1a30baeec",
+      "finalUrl": "https://www.data.jma.go.jp/suishin/jyouhou/pdf/179.pdf",
+      "headers": {
+        "Last-Modified": "Tue, 25 Feb 2014 11:55:00 GMT"
+      },
+      "normalizedTextSha256": "8c3f02feec8d0e4a8c6d9eac06db1ca825a85b7358f7f66336099ac9e5c1f870",
+      "originalBytes": 11226,
+      "originalSha256": "26b418e86436ffc0600cc367887dd932322eced8f8fbeabbbad73e98ec823889",
+      "requestedUrl": "https://www.data.jma.go.jp/suishin/jyouhou/pdf/179.pdf",
+      "retrievedAt": "2026-10-30T07:23:43.101219+00:00",
+      "sourceId": "jp-jma-rjgg-20041228",
+      "status": 200,
+      "textCharacters": 1826
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "f5060c049a3f684b38df43b91c1278cb56ddabcb7c4edd50a036791c508f9d1c",
+      "finalUrl": "https://www.data.jma.go.jp/suishin/jyouhou/pdf/182.pdf",
+      "headers": {
+        "Last-Modified": "Tue, 25 Feb 2014 11:55:00 GMT"
+      },
+      "normalizedTextSha256": "576b8073ca2fdaca10071d5bd93d9343e049095c3c6cbadbf3f0bd50b52c5d0f",
+      "originalBytes": 106506,
+      "originalSha256": "219a1cc821a53df5dbe4506438a840bc75403a19f6bb85c2b39ecce99b786565",
+      "requestedUrl": "https://www.data.jma.go.jp/suishin/jyouhou/pdf/182.pdf",
+      "retrievedAt": "2026-10-30T07:23:43.100632+00:00",
+      "sourceId": "jp-jma-rjnn-rjna-20050209",
+      "status": 200,
+      "textCharacters": 1087
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "69c9ea66748c505a8e624381bcba4960272a33d0b6e9003230b12192da994127",
+      "finalUrl": "https://www.data.jma.go.jp/suishin/cgi-bin/jyouhou/jyouhou.cgi",
+      "headers": {},
+      "normalizedTextSha256": "cd9b9b5028bf1048469745436f8864047813a8a2bb9cdd2400722f6f8c62f326",
+      "originalBytes": 235585,
+      "originalSha256": "89dd65b5af5bb1dab6df140b1450ebc1260f618adaccb0b34f2fd1581d2f26c1",
+      "requestedUrl": "https://www.data.jma.go.jp/suishin/cgi-bin/jyouhou/jyouhou.cgi",
+      "retrievedAt": "2026-10-30T07:22:01.439805+00:00",
+      "sourceId": "jp-jma-technical-index",
+      "status": 200,
+      "textCharacters": 42300
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://www.cab.mlit.go.jp/tcab/office/nagoya/",
+      "retrievedAt": "2026-10-30T07:25:44.314554+00:00",
+      "sourceId": "jp-nagoya-current-cab"
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "c2ceb6ef7fcd251b839626e1d6ff27b7a6c0b00f75025acd9b6b4a5dbe013c38",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html?ver=2025",
+      "headers": {
+        "Last-Modified": "Thu, 15 Oct 2026 10:18:10 GMT"
+      },
+      "normalizedTextSha256": "1dc0526bc7ec750db13893e8934a86ee138aabb37115e3c0cc7d8c20dadc4c46",
+      "originalBytes": 56657,
+      "originalSha256": "146bf11c681a78562bbafbe922b40af39f797a4c58204383750617f0fa830931",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html?ver=2025",
+      "retrievedAt": "2026-10-30T07:16:26.451617+00:00",
+      "sourceId": "kr-2025-index",
+      "status": 200,
+      "textCharacters": 9934
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "96435d1de06cb7b0b65bfc6f9f4a2a095d6ec6b2e662f226adb38f4452d59b67",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/pdf/AIRAC%20AIP%20AMDT%203_25.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 06 Mar 2025 02:27:41 GMT"
+      },
+      "normalizedTextSha256": "4f2f688e3dc8f9a2200d7bdd0de3311b38bda14384e4838cd8d3268b0cdb0c12",
+      "originalBytes": 10508773,
+      "originalSha256": "72cc9517449a87658d50ae3b3d2a70b377974f23aa3b20caf4a3f5917b9f05df",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/pdf/AIRAC%20AIP%20AMDT%203_25.pdf",
+      "retrievedAt": "2026-10-30T07:29:44.698590+00:00",
+      "sourceId": "kr-20250416-amdt-full",
+      "status": 200,
+      "textCharacters": 408420
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "c3150956e38fa6a0e0a552290b88993cb3accb0ea8ca24882cf17ec6c1e9d893",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/KR-cover-en-GB.html",
+      "headers": {
+        "Last-Modified": "Thu, 03 Apr 2025 05:54:08 GMT"
+      },
+      "normalizedTextSha256": "ea643566a72bcdd7b4246ae748150e4a19299263bd5d8a5c3aba135f62d45079",
+      "originalBytes": 1103,
+      "originalSha256": "940242ceb091afe5f236c377de9da5e2b5366f208109696c87d80428015a38f6",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/KR-cover-en-GB.html",
+      "retrievedAt": "2026-10-30T07:18:01.576737+00:00",
+      "sourceId": "kr-20250416-cover",
+      "status": 200,
+      "textCharacters": 347
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "e55247bae7fe9cd45f46ce59811d54b5f60b4c393c212440b5419bf06ad2c5be",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eAIP/KR-GEN-0.3-en-GB.html",
+      "headers": {
+        "Last-Modified": "Thu, 03 Apr 2025 05:54:06 GMT"
+      },
+      "normalizedTextSha256": "465aa199d0df0fab9076388b4cef226f352b97d2fa5e5af7b9aba2e4dcc86c11",
+      "originalBytes": 64656,
+      "originalSha256": "043f7f7f61f20a9c34defd59a4a2f7310daf9c1a3dabec1072c320bc2795fe5c",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eAIP/KR-GEN-0.3-en-GB.html",
+      "retrievedAt": "2026-10-30T07:22:02.062071+00:00",
+      "sourceId": "kr-20250416-gen03",
+      "status": 200,
+      "textCharacters": 6756
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eSUPs-en-GB.html",
+      "retrievedAt": "2026-10-30T07:19:04.572731+00:00",
+      "sourceId": "kr-20250416-sup-index"
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "ab6d55508a8f2211cb3d2dba9f46715f974b544d9f16cfba1a4d22c34b9ea9c2",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eSUP/KR-eSUPs-en-GB.html",
+      "headers": {
+        "Last-Modified": "Thu, 03 Apr 2025 05:54:07 GMT"
+      },
+      "normalizedTextSha256": "1b7c52bbf1342b4749cbe0613edf4ff9d2530c67a600f61e579425a5e8e29adc",
+      "originalBytes": 37071,
+      "originalSha256": "26ef1b3a2e0d73444aab3b5d9be998a5a87c1c1d33c840447fef6c579233b07e",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eSUP/KR-eSUPs-en-GB.html",
+      "retrievedAt": "2026-10-30T07:31:56.884445+00:00",
+      "sourceId": "kr-20250416-sup-menu",
+      "status": 200,
+      "textCharacters": 5822
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "75e6be16fab39141b85186f8f9efd588eea82a1ef34d203bffc211bffd971764",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/pdf/AIP%20AMDT%205_25.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 30 Apr 2025 01:27:18 GMT"
+      },
+      "normalizedTextSha256": "30abec6ebef189102f45a2cdfa0a027a44f7aaf0c3c1c4c29a30c242cd652da2",
+      "originalBytes": 111077190,
+      "originalSha256": "cd235465debd8ce94b7fffc7d73276af7d12547abe7c16777d199766ed86f3e2",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/pdf/AIP%20AMDT%205_25.pdf",
+      "retrievedAt": "2026-10-30T07:26:58.758638+00:00",
+      "sourceId": "kr-20250501-amdt-full",
+      "status": 200,
+      "textCharacters": 719149
+    },
+    {
+      "contentType": "application/pdf",
+      "error": "oversized",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/pdf/AIP%20AMDT%205_25.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 30 Apr 2025 01:27:18 GMT"
+      },
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/pdf/AIP%20AMDT%205_25.pdf",
+      "retrievedAt": "2026-10-30T07:23:43.102669+00:00",
+      "sourceId": "kr-20250501-amdt-v2",
+      "status": 200
+    },
+    {
+      "contentType": "application/pdf",
+      "error": "oversized",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/pdf/AIP%20AMDT%205_25.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 30 Apr 2025 01:27:18 GMT"
+      },
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/pdf/AIP%20AMDT%205_25.pdf",
+      "retrievedAt": "2026-10-30T07:22:01.976686+00:00",
+      "sourceId": "kr-20250501-amdt",
+      "status": 200
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "570c1a1f5a4c829ddbdd6debc831873a9ae60ee269eae52d35e32e4fa9e1ddf8",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/KR-cover-en-GB.html",
+      "headers": {
+        "Last-Modified": "Wed, 30 Apr 2025 02:27:59 GMT"
+      },
+      "normalizedTextSha256": "57dc05e73beb53676343512d5761478bb9df89b61630f07c56fe1ca72032c1c9",
+      "originalBytes": 1079,
+      "originalSha256": "bf5d0731593d168ae0a65dbd01f4cdf45e7462f6f6712769d22c5aa66e2cd3c3",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/KR-cover-en-GB.html",
+      "retrievedAt": "2026-10-30T07:18:01.300062+00:00",
+      "sourceId": "kr-20250501-cover",
+      "status": 200,
+      "textCharacters": 335
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "fc655d29c67d1b4e13311f94c2f5f5d36b3532407443ff48076a92cf9b43863c",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/eAIP/KR-GEN-0.3-en-GB.html",
+      "headers": {
+        "Last-Modified": "Wed, 30 Apr 2025 02:27:57 GMT"
+      },
+      "normalizedTextSha256": "f35da9030d65ce2a0b99423b5bdb91b482734dd901909efb6d8cdc769a7769d0",
+      "originalBytes": 67334,
+      "originalSha256": "e5b69a2201a501b803c229b25a9709ccd3d3bb4d388e70ec23ac159fce47244c",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/eAIP/KR-GEN-0.3-en-GB.html",
+      "retrievedAt": "2026-10-30T07:22:02.040781+00:00",
+      "sourceId": "kr-20250501-gen03",
+      "status": 200,
+      "textCharacters": 6376
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "8e0f1e7513a811cb3a810abab6054a7893c1ca3e8be056c68f340f90fb938d40",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/index-en-GB.html",
+      "headers": {
+        "Last-Modified": "Wed, 30 Apr 2025 02:27:57 GMT"
+      },
+      "normalizedTextSha256": "8e0f1e7513a811cb3a810abab6054a7893c1ca3e8be056c68f340f90fb938d40",
+      "originalBytes": 2044,
+      "originalSha256": "336d444ab97f8ea8a7c25c2a0d256be32a9131fbcd9975c7af0d1b266300c9e3",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/index-en-GB.html",
+      "retrievedAt": "2026-10-30T07:25:44.312240+00:00",
+      "sourceId": "kr-20250501-index",
+      "status": 200,
+      "textCharacters": 43
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "e02f3ffb3d8c830f381bc81caa56930ca92f000874703f971a1d3683db471d9b",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/eAIP/KR-menu-en-GB.html",
+      "headers": {
+        "Last-Modified": "Wed, 30 Apr 2025 02:27:58 GMT"
+      },
+      "normalizedTextSha256": "578c0ff6166fe758462fac267209d8fe95064e9b6f252c81db03b7a0d0aed8ce",
+      "originalBytes": 198895,
+      "originalSha256": "2f8b2158cb8e42f88247aaecdf6301eda157719272daab6f5af3314b32c5a124",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/eAIP/KR-menu-en-GB.html",
+      "retrievedAt": "2026-10-30T07:29:44.697952+00:00",
+      "sourceId": "kr-20250501-menu",
+      "status": 200,
+      "textCharacters": 23590
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "06c9b745b51d518e9edc5ae5d178469a54f7d8197c62853f6fd544ec2d8980ff",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/eAIP/KR-AD-2.RKSI-en-GB.html",
+      "headers": {
+        "Last-Modified": "Thu, 17 Jul 2025 04:50:47 GMT"
+      },
+      "normalizedTextSha256": "78187c071150f02d3b46bc9a714d7734ac25e807b28665ff035ef35461f4ad35",
+      "originalBytes": 650210,
+      "originalSha256": "532003effc3d07cb686feac666bddabbf0992aeffae3d4f13a15c78b141bbad7",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/eAIP/KR-AD-2.RKSI-en-GB.html",
+      "retrievedAt": "2026-10-30T07:19:03.554612+00:00",
+      "sourceId": "kr-20250501-rksi",
+      "status": 200,
+      "textCharacters": 146586
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "dea754ad32a8454fdd76465817047031b688571eecf96ec1c1bf9ed44e090d13",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/eAIP/KR-AD-2.RKSS-en-GB.html",
+      "headers": {
+        "Last-Modified": "Fri, 09 May 2025 00:30:33 GMT"
+      },
+      "normalizedTextSha256": "3f4033350d49bbb48c5a0854c33614209c102b63bbf32d3db6aa10fe12a55e86",
+      "originalBytes": 310483,
+      "originalSha256": "ea406d7aec1e721792781aea0efee639c271fa55d16afd65a3eb0a0b2dd856a3",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/eAIP/KR-AD-2.RKSS-en-GB.html",
+      "retrievedAt": "2026-10-30T07:19:04.332068+00:00",
+      "sourceId": "kr-20250501-rkss",
+      "status": 200,
+      "textCharacters": 70575
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/eSUPs-en-GB.html",
+      "retrievedAt": "2026-10-30T07:19:04.401254+00:00",
+      "sourceId": "kr-20250501-sup-index"
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "15fbd72e0a164d8c064be7a8200e17255294c2da03dc3e88878eb8a818c856ee",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/eSUP/KR-eSUPs-en-GB.html",
+      "headers": {
+        "Last-Modified": "Wed, 30 Apr 2025 02:27:58 GMT"
+      },
+      "normalizedTextSha256": "17e830b410e646db764ec13e71ae418366dee7738ca5a097062b06db1311aeda",
+      "originalBytes": 35685,
+      "originalSha256": "70c194324facefa249e5314069f0738f0458c878d7b796bb9e2d548bd6b846d8",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/eSUP/KR-eSUPs-en-GB.html",
+      "retrievedAt": "2026-10-30T07:31:56.883831+00:00",
+      "sourceId": "kr-20250501-sup-menu",
+      "status": 200,
+      "textCharacters": 5641
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "8e0f1e7513a811cb3a810abab6054a7893c1ca3e8be056c68f340f90fb938d40",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/toc-frameset-en-GB.html",
+      "headers": {
+        "Last-Modified": "Wed, 30 Apr 2025 02:27:57 GMT"
+      },
+      "normalizedTextSha256": "8e0f1e7513a811cb3a810abab6054a7893c1ca3e8be056c68f340f90fb938d40",
+      "originalBytes": 702,
+      "originalSha256": "4ee81d5096206369316c86e1308baa98f7088184252cfee3c95ecd38f91f7c27",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/toc-frameset-en-GB.html",
+      "retrievedAt": "2026-10-30T07:27:51.415698+00:00",
+      "sourceId": "kr-20250501-toc-frame",
+      "status": 200,
+      "textCharacters": 43
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/toc-en-GB.html",
+      "retrievedAt": "2026-10-30T07:27:51.416612+00:00",
+      "sourceId": "kr-20250501-toc"
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "9f39c53629c978b13d88dd4f7a3efa5c99f266572da62ba62f6fe54da433689b",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/pdf/AIRAC%20AIP%20AMDT%204_25.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 03 Apr 2025 07:33:34 GMT"
+      },
+      "normalizedTextSha256": "f7ef4fcfb835319b30f0037d9494d1fa7b2771e05ee8a0dc2ef3ba8ab7795468",
+      "originalBytes": 10204328,
+      "originalSha256": "332cf468a68f11911875b49f3cdf87b1b785d34c4b02b5341df4a82a511027da",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/pdf/AIRAC%20AIP%20AMDT%204_25.pdf",
+      "retrievedAt": "2026-10-30T07:29:44.698973+00:00",
+      "sourceId": "kr-20250514-amdt-full",
+      "status": 200,
+      "textCharacters": 765081
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "ac441590c1ba40505cb78f02bd480a3ad89104ed04da8e48fd3c1da4e56afa10",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/html/KR-cover-en-GB.html",
+      "headers": {
+        "Last-Modified": "Wed, 30 Apr 2025 03:48:57 GMT"
+      },
+      "normalizedTextSha256": "05cce9f1b139489c631764fdf17298b3009345245059cd85b4c46d75b52d93ef",
+      "originalBytes": 1103,
+      "originalSha256": "7ebc7b806bd41983ac1761fe77c41655d32a9ac71f1665b44b4189bf298d51ea",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/html/KR-cover-en-GB.html",
+      "retrievedAt": "2026-10-30T07:18:01.780247+00:00",
+      "sourceId": "kr-20250514-cover",
+      "status": 200,
+      "textCharacters": 347
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "7b4558003b43e9fb311e4f20516241fd4b47ec719f3454c4ff1bc9024bfb1179",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/html/eAIP/KR-GEN-0.3-en-GB.html",
+      "headers": {
+        "Last-Modified": "Wed, 30 Apr 2025 03:48:55 GMT"
+      },
+      "normalizedTextSha256": "f35da9030d65ce2a0b99423b5bdb91b482734dd901909efb6d8cdc769a7769d0",
+      "originalBytes": 61621,
+      "originalSha256": "4bcb41e7899b4209d140a9f400014daccd93011a5f0612baaf358dbb5d59948c",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/html/eAIP/KR-GEN-0.3-en-GB.html",
+      "retrievedAt": "2026-10-30T07:22:02.202610+00:00",
+      "sourceId": "kr-20250514-gen03",
+      "status": 200,
+      "textCharacters": 6376
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/html/eSUPs-en-GB.html",
+      "retrievedAt": "2026-10-30T07:19:04.625014+00:00",
+      "sourceId": "kr-20250514-sup-index"
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "1f185db9035ca47d43b2109f9bf5976619ea30fe88b3318570fbc7caae6cc39b",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/html/eSUP/KR-eSUPs-en-GB.html",
+      "headers": {
+        "Last-Modified": "Wed, 30 Apr 2025 03:48:56 GMT"
+      },
+      "normalizedTextSha256": "cca89905e4a686d199e8a27d1daac2b3fea09dce580bd0f8b7ada0754c1958ad",
+      "originalBytes": 38553,
+      "originalSha256": "cd630881d17b4b1017adfff8bb60edcb8782735184db1f3ea8dd7768b91fb51f",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/html/eSUP/KR-eSUPs-en-GB.html",
+      "retrievedAt": "2026-10-30T07:31:56.884746+00:00",
+      "sourceId": "kr-20250514-sup-menu",
+      "status": 200,
+      "textCharacters": 5641
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "7c0371e4d9618805bc41b9e682cc4d29dd850749efdfa82e9aab5c03670f15c8",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eAIP/KR-AD-2.RKSI-en-GB.html",
+      "headers": {
+        "Last-Modified": "Thu, 17 Jul 2025 04:50:46 GMT"
+      },
+      "normalizedTextSha256": "28e83f4f95244cbfe38dce2aed3ab91effc0194c4f1e32afb4c6bc36a326d066",
+      "originalBytes": 698100,
+      "originalSha256": "94b5f30e3a00ed8895354b02f9dbb82ff0ef597191bbe221a6eded6e5d71bcfb",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eAIP/KR-AD-2.RKSI-en-GB.html",
+      "retrievedAt": "2026-10-30T07:39:56.464105+00:00",
+      "sourceId": "kr-ad2-rksi-20250416",
+      "status": 200,
+      "textCharacters": 147490
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "fb9f94dd14b36afe095e3c2f0ef81c2c6278a2eca470b8a66ff678c286410419",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/html/eAIP/KR-AD-2.RKSI-en-GB.html",
+      "headers": {
+        "Last-Modified": "Thu, 17 Jul 2025 04:50:46 GMT"
+      },
+      "normalizedTextSha256": "ddaded30896cfe37204aaf98bb74aef6a7fb1ab35c7ef6c097f5bd175a317d1f",
+      "originalBytes": 693374,
+      "originalSha256": "02407d6cea977e6752bb37cd4cd30154abee2e045ff8c50f83a143b404eb7398",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/html/eAIP/KR-AD-2.RKSI-en-GB.html",
+      "retrievedAt": "2026-10-30T07:39:56.465013+00:00",
+      "sourceId": "kr-ad2-rksi-20250514",
+      "status": 200,
+      "textCharacters": 146645
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "1f1ac4880b170f61d11413ae7b2afc232fff45e588d64b96370b0078eb441410",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eAIP/KR-AD-2.RKSS-en-GB.html",
+      "headers": {
+        "Last-Modified": "Mon, 07 Apr 2025 01:29:59 GMT"
+      },
+      "normalizedTextSha256": "08a31cb2a4ea10d22fb1619965d35a7a912bfc2f48a58ac532b6f5458b234f77",
+      "originalBytes": 349546,
+      "originalSha256": "7eeb54ff1db617b8418b8f9795b6fd11f1e86164bb7276d7230ff4357fe66d9c",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eAIP/KR-AD-2.RKSS-en-GB.html",
+      "retrievedAt": "2026-10-30T07:39:56.464562+00:00",
+      "sourceId": "kr-ad2-rkss-20250416",
+      "status": 200,
+      "textCharacters": 70574
+    },
+    {
+      "contentType": "text/html; charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "fd592f7f1180820496363f7e85195926fa9c62f2637e3e37ed8507af4fce2922",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/html/eAIP/KR-AD-2.RKSS-en-GB.html",
+      "headers": {
+        "Last-Modified": "Fri, 09 May 2025 00:30:43 GMT"
+      },
+      "normalizedTextSha256": "8918461b0a96759592df39b6430d5bc42c7b325bb691a09e92b03e4acda2c237",
+      "originalBytes": 343252,
+      "originalSha256": "e0c6d26853365928f6220c726aff16171ce47e1ebf4cf1644508ac5c240e1b83",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/html/eAIP/KR-AD-2.RKSS-en-GB.html",
+      "retrievedAt": "2026-10-30T07:39:56.465356+00:00",
+      "sourceId": "kr-ad2-rkss-20250514",
+      "status": 200,
+      "textCharacters": 70697
+    },
+    {
+      "contentType": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "a4ee91918fef00ca1fe6c09808d9a2575c79961e9726d409befa658cc30551bb",
+      "finalUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=ICN",
+      "headers": {},
+      "normalizedTextSha256": "06698128c93bcfdb9fb2b829b370cf54198999e1c318b7568f407f604158fe45",
+      "originalBytes": 111036,
+      "originalSha256": "bb223cf258955309fba879aca3b10d2e6cfb8973524ed3ec9fa26f12c9530838",
+      "requestedUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=ICN",
+      "retrievedAt": "2026-10-30T07:22:03.060383+00:00",
+      "sourceId": "kr-iata-code-search",
+      "status": 200,
+      "textCharacters": 6715
+    },
+    {
+      "contentType": "text/html; charset=utf-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "4c3fd3275cf88d45bf5885cf7ffa0532fbd0b3835479b9ee91e2cb2326eed4f4",
+      "finalUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=GMP",
+      "headers": {},
+      "normalizedTextSha256": "ddd7d1090364f3dcd6bb97826b20cbd6fe3a23afba8a091a2dd8ee78548bbc98",
+      "originalBytes": 111034,
+      "originalSha256": "f43a7321636182b8a00bfd865b829f4681bb9daeb3f8f2f3ec3e7e93ff5700a9",
+      "requestedUrl": "https://www.iata.org/en/publications/directories/code-search/?airport.search=GMP",
+      "retrievedAt": "2026-10-30T07:25:44.314044+00:00",
+      "sourceId": "kr-iata-gmp",
+      "status": 200,
+      "textCharacters": 6713
+    },
+    {
+      "contentType": "application/json;charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "9ac47e217a09a4f33942b6fb6cd8f15cefd6b849115fc5e247427fc3b9cc51d0",
+      "finalUrl": "https://aim.koca.go.kr/xNotam/searchAllNotam.do?sch_inorout=D&sch_airport=RKSI&sch_from_date=2025-04-16&sch_from_time=0000&sch_to_date=2025-05-15&sch_to_time=2359&sch_select=MAP",
+      "headers": {},
+      "normalizedTextSha256": "9ac47e217a09a4f33942b6fb6cd8f15cefd6b849115fc5e247427fc3b9cc51d0",
+      "originalBytes": 49489,
+      "originalSha256": "35945130163d002e49aff597529d268f7584ae9aefe7f5fb226f8cafc44ff40e",
+      "requestedUrl": "https://aim.koca.go.kr/xNotam/searchAllNotam.do?sch_inorout=D&sch_airport=RKSI&sch_from_date=2025-04-16&sch_from_time=0000&sch_to_date=2025-05-15&sch_to_time=2359&sch_select=MAP",
+      "retrievedAt": "2026-10-30T07:25:44.313082+00:00",
+      "sourceId": "kr-notam-2025-rksi",
+      "status": 200,
+      "textCharacters": 49422
+    },
+    {
+      "contentType": "application/json;charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "6d2bc2d534a9d19fcf38a4859cfe111dea665b05a2098ff50c301ea9e9b32aee",
+      "finalUrl": "https://aim.koca.go.kr/xNotam/searchAllNotam.do?sch_inorout=D&sch_airport=RKSS&sch_from_date=2025-04-16&sch_from_time=0000&sch_to_date=2025-05-15&sch_to_time=2359&sch_select=MAP",
+      "headers": {},
+      "normalizedTextSha256": "6d2bc2d534a9d19fcf38a4859cfe111dea665b05a2098ff50c301ea9e9b32aee",
+      "originalBytes": 37154,
+      "originalSha256": "3713ab30e0239782261f87c81f741e7b31d2577848af002106cd6d7bd8452e55",
+      "requestedUrl": "https://aim.koca.go.kr/xNotam/searchAllNotam.do?sch_inorout=D&sch_airport=RKSS&sch_from_date=2025-04-16&sch_from_time=0000&sch_to_date=2025-05-15&sch_to_time=2359&sch_select=MAP",
+      "retrievedAt": "2026-10-30T07:25:44.313477+00:00",
+      "sourceId": "kr-notam-2025-rkss",
+      "status": 200,
+      "textCharacters": 37114
+    },
+    {
+      "contentType": "application/javascript",
+      "encoding": "utf-8",
+      "extractedTextSha256": "c561e4d1a2074b60464d2c017a18e3c108425f4e0bb0b1b39bcffb3660555300",
+      "finalUrl": "https://aim.koca.go.kr/xNotam/new/js/index.js?ver=202407",
+      "headers": {
+        "Last-Modified": "Thu, 28 May 2026 08:40:31 GMT"
+      },
+      "normalizedTextSha256": "07c906d39b855279167bd37c92a71e65153fa04318c842b65a4ee0547403c7be",
+      "originalBytes": 63684,
+      "originalSha256": "cf0ad9fb647a3255f5844b6a4416d09f2da98da008e928b0cb58934163e03cea",
+      "requestedUrl": "https://aim.koca.go.kr/xNotam/new/js/index.js?ver=202407",
+      "retrievedAt": "2026-10-30T07:22:02.644833+00:00",
+      "sourceId": "kr-notam-js",
+      "status": 200,
+      "textCharacters": 51506
+    },
+    {
+      "contentType": "application/json;charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "3be748cbd8b7857ccc807eaabf4254176259ac12cb7a069bbca5210072e8f007",
+      "finalUrl": "https://aim.koca.go.kr/xNotam/searchAllNotam.do?sch_inorout=D&sch_airport=ZZZZ&sch_from_date=2025-04-16&sch_from_time=0000&sch_to_date=2025-05-15&sch_to_time=2359&sch_select=MAP",
+      "headers": {},
+      "normalizedTextSha256": "3be748cbd8b7857ccc807eaabf4254176259ac12cb7a069bbca5210072e8f007",
+      "originalBytes": 21,
+      "originalSha256": "3be748cbd8b7857ccc807eaabf4254176259ac12cb7a069bbca5210072e8f007",
+      "requestedUrl": "https://aim.koca.go.kr/xNotam/searchAllNotam.do?sch_inorout=D&sch_airport=ZZZZ&sch_from_date=2025-04-16&sch_from_time=0000&sch_to_date=2025-05-15&sch_to_time=2359&sch_select=MAP",
+      "retrievedAt": "2026-10-30T07:31:56.886066+00:00",
+      "sourceId": "kr-notam-negative-control",
+      "status": 200,
+      "textCharacters": 21
+    },
+    {
+      "contentType": "application/json;charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "ffe5719ffbca8f5a0f1b456c6b86096599549081bb0cdf7bb98a4458f23f87b2",
+      "finalUrl": "https://aim.koca.go.kr/xNotam/searchAllNotam.do?sch_inorout=D&sch_airport=RKSI&sch_from_date=2001-01-01&sch_from_time=0000&sch_to_date=2025-05-15&sch_to_time=2359&sch_select=MAP",
+      "headers": {},
+      "normalizedTextSha256": "ffe5719ffbca8f5a0f1b456c6b86096599549081bb0cdf7bb98a4458f23f87b2",
+      "originalBytes": 375201,
+      "originalSha256": "6bba3bf5eaf26b974d47cad11d09494c639d5472fee28875306bf86a6d82d80a",
+      "requestedUrl": "https://aim.koca.go.kr/xNotam/searchAllNotam.do?sch_inorout=D&sch_airport=RKSI&sch_from_date=2001-01-01&sch_from_time=0000&sch_to_date=2025-05-15&sch_to_time=2359&sch_select=MAP",
+      "retrievedAt": "2026-10-30T07:31:56.885165+00:00",
+      "sourceId": "kr-notam-rksi-available",
+      "status": 200,
+      "textCharacters": 373918
+    },
+    {
+      "contentType": "application/json;charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "fe0cd7f90bbec701ae306e3d84449e66ed23059b03e82cfa4744f0227d074798",
+      "finalUrl": "https://aim.koca.go.kr/xNotam/searchAllNotam.do?sch_inorout=D&sch_airport=RKSI&sch_from_date=2024-01-01&sch_from_time=0000&sch_to_date=2025-05-15&sch_to_time=2359&sch_select=MAP",
+      "headers": {},
+      "normalizedTextSha256": "fe0cd7f90bbec701ae306e3d84449e66ed23059b03e82cfa4744f0227d074798",
+      "originalBytes": 337154,
+      "originalSha256": "861dcd56c93ddd558e5b60869f91406540ab7b52d30d585242f2f645200b74f9",
+      "requestedUrl": "https://aim.koca.go.kr/xNotam/searchAllNotam.do?sch_inorout=D&sch_airport=RKSI&sch_from_date=2024-01-01&sch_from_time=0000&sch_to_date=2025-05-15&sch_to_time=2359&sch_select=MAP",
+      "retrievedAt": "2026-10-30T07:27:51.416953+00:00",
+      "sourceId": "kr-notam-rksi-overlap",
+      "status": 200,
+      "textCharacters": 335940
+    },
+    {
+      "contentType": "application/json;charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "d4081ae2d9c00513aee28e92296e3c96a7fa144ca2b8b680ba00b7aa26232626",
+      "finalUrl": "https://aim.koca.go.kr/xNotam/searchAllNotam.do?sch_inorout=D&sch_airport=RKSS&sch_from_date=2001-01-01&sch_from_time=0000&sch_to_date=2025-05-15&sch_to_time=2359&sch_select=MAP",
+      "headers": {},
+      "normalizedTextSha256": "d4081ae2d9c00513aee28e92296e3c96a7fa144ca2b8b680ba00b7aa26232626",
+      "originalBytes": 248493,
+      "originalSha256": "e141cf579a5fa8bfaeed610a2b6474cb772b90df8636ee75d170668fe4be9dd9",
+      "requestedUrl": "https://aim.koca.go.kr/xNotam/searchAllNotam.do?sch_inorout=D&sch_airport=RKSS&sch_from_date=2001-01-01&sch_from_time=0000&sch_to_date=2025-05-15&sch_to_time=2359&sch_select=MAP",
+      "retrievedAt": "2026-10-30T07:31:56.885772+00:00",
+      "sourceId": "kr-notam-rkss-available",
+      "status": 200,
+      "textCharacters": 248054
+    },
+    {
+      "contentType": "application/json;charset=UTF-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "85f1ec45b380661aa5d31ad87a0578794a1ac668ddce7660972e84e99fc85cbd",
+      "finalUrl": "https://aim.koca.go.kr/xNotam/searchAllNotam.do?sch_inorout=D&sch_airport=RKSS&sch_from_date=2024-01-01&sch_from_time=0000&sch_to_date=2025-05-15&sch_to_time=2359&sch_select=MAP",
+      "headers": {},
+      "normalizedTextSha256": "85f1ec45b380661aa5d31ad87a0578794a1ac668ddce7660972e84e99fc85cbd",
+      "originalBytes": 222547,
+      "originalSha256": "d6db0efd504b4af9a1fdf3f90d1e5e296b6e2ab0a40cbee92aff84ecc075cf80",
+      "requestedUrl": "https://aim.koca.go.kr/xNotam/searchAllNotam.do?sch_inorout=D&sch_airport=RKSS&sch_from_date=2024-01-01&sch_from_time=0000&sch_to_date=2025-05-15&sch_to_time=2359&sch_select=MAP",
+      "retrievedAt": "2026-10-30T07:27:51.417568+00:00",
+      "sourceId": "kr-notam-rkss-overlap",
+      "status": 200,
+      "textCharacters": 222158
+    },
+    {
+      "contentType": "text/html;charset=utf-8",
+      "encoding": "utf-8",
+      "extractedTextSha256": "2573bf4aa5e6ac8c4d44f277b4899aff40723cadf1aeb828acf172f7b836cdff",
+      "finalUrl": "https://aim.koca.go.kr/xNotam/index.do?type=search&language=en_US",
+      "headers": {},
+      "normalizedTextSha256": "c307fa359c839250a12a1f389cc2aad0fc1989466166d33be3a8bdb75e69df0f",
+      "originalBytes": 37473,
+      "originalSha256": "4c81d858f2a553c1d02671e9929415931e3ba9867b8eddc50bec71ec18fed21f",
+      "requestedUrl": "https://aim.koca.go.kr/xNotam/index.do?type=search&language=en_US",
+      "retrievedAt": "2026-10-30T07:19:04.846865+00:00",
+      "sourceId": "kr-notam-search",
+      "status": 200,
+      "textCharacters": 2430
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "fe779130dbc58ff2c476517238c3b9d4992689cd7d0e77a2c1571c18c56e799d",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2010-10-07/html/eSUP/KR-eSUP-2010-23-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Tue, 13 Dec 2016 07:11:13 GMT"
+      },
+      "normalizedTextSha256": "98727894552d0d4eaba966da7b8324fbe171d7c61ab68c63ac4ddeaf1bb38fde",
+      "originalBytes": 28600,
+      "originalSha256": "d3706cc48536a48e576fdcaa586cd3980034069b83b9feb648fadc4dee29b837",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2010-10-07/html/eSUP/KR-eSUP-2010-23-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:09.683650+00:00",
+      "sourceId": "kr-sup-2010-23",
+      "status": 200,
+      "textCharacters": 1800
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "223443110a0ba0cd87663d5e56a491aa3c2865632bc38346cb332b376f4313ba",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2023-07-01/html/eSUP/KR-eSUP-2023-11-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 27 Jul 2023 02:28:25 GMT"
+      },
+      "normalizedTextSha256": "e9c0d073bfa6ba092620f2f448b7878286523f8c00addc6f63a28ced395ec6e4",
+      "originalBytes": 4833863,
+      "originalSha256": "d8e3e6d6216341296488ca2e1314b3a7462eeac9fb234e3cf961ac47e569a702",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2023-07-01/html/eSUP/KR-eSUP-2023-11-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:09.412948+00:00",
+      "sourceId": "kr-sup-2023-11",
+      "status": 200,
+      "textCharacters": 35575
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "d8607e752507bc2477fa10ebf6f67036fdcce2af176979d93a686ecd5a23cb71",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2023-03-23-AIRAC/html/eSUP/KR-eSUP-2023-2-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Fri, 10 Feb 2023 00:24:52 GMT"
+      },
+      "normalizedTextSha256": "d8461f8eb61b2b4e7cf88aa71c9fad4f74208d5d366559b5aa4d9773d6265dda",
+      "originalBytes": 65820,
+      "originalSha256": "db33fe9066bc6611120fedeac16ba59218cb1a84cd995977cd483f3b42eaaef1",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2023-03-23-AIRAC/html/eSUP/KR-eSUP-2023-2-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:38:05.921686+00:00",
+      "sourceId": "kr-sup-2023-2-87f85dbb",
+      "status": 200,
+      "textCharacters": 1931
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "c90fef97f54bcc3dc5375541463b3f57583cc15e1884a070899613fa829e5a3a",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2023-02-09/html/eSUP/KR-eSUP-2023-2-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 09 Feb 2023 05:52:39 GMT"
+      },
+      "normalizedTextSha256": "bef31bcbac770b1443422aaecebbb2491bc11791c6b20718f3e692c6b3d72fd9",
+      "originalBytes": 407859,
+      "originalSha256": "67bfd713b7ca15e14a4d4dc9100e2d855da1cb0ea64e16f29439143f3ebcfc43",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2023-02-09/html/eSUP/KR-eSUP-2023-2-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:38:05.921279+00:00",
+      "sourceId": "kr-sup-2023-2-b9c95f36",
+      "status": 200,
+      "textCharacters": 1975
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "d8607e752507bc2477fa10ebf6f67036fdcce2af176979d93a686ecd5a23cb71",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2023-03-23-AIRAC/html/eSUP/KR-eSUP-2023-2-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Fri, 10 Feb 2023 00:24:52 GMT"
+      },
+      "normalizedTextSha256": "d8461f8eb61b2b4e7cf88aa71c9fad4f74208d5d366559b5aa4d9773d6265dda",
+      "originalBytes": 65820,
+      "originalSha256": "db33fe9066bc6611120fedeac16ba59218cb1a84cd995977cd483f3b42eaaef1",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2023-03-23-AIRAC/html/eSUP/KR-eSUP-2023-2-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:09.539593+00:00",
+      "sourceId": "kr-sup-2023-2",
+      "status": 200,
+      "textCharacters": 1931
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "506c3550372be119ceba5d455e4d25a80307adf00938c797b76ad7ec3e2621e6",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2023-06-01/html/eSUP/KR-eSUP-2023-8-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 01 Jun 2023 01:38:17 GMT"
+      },
+      "normalizedTextSha256": "38c6597d2fa5c152978734ec4763efec52140e4ada261c4c742068cf17e94714",
+      "originalBytes": 783201,
+      "originalSha256": "6b88f578fa73ad71537aaf8596d288938dfc187293d0978defa7fda685d7c4a6",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2023-06-01/html/eSUP/KR-eSUP-2023-8-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:09.443148+00:00",
+      "sourceId": "kr-sup-2023-8",
+      "status": 200,
+      "textCharacters": 8660
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "571d3d4b46c666bb4a730ef1afc63e8a09c08a0e5f21fe9773540819893c6b26",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-04-04/html/eSUP/KR-eSUP-2024-17-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 03 Apr 2024 07:43:43 GMT"
+      },
+      "normalizedTextSha256": "c2083b41ca6f2b7707c944410fd5bd676afeb97d51a5479592abf26d69a9816c",
+      "originalBytes": 282610,
+      "originalSha256": "ed1eec5bf0fd88a577e03ae05b9c5bd496511a947426d2699bac6e0b6688252c",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-04-04/html/eSUP/KR-eSUP-2024-17-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:09.228800+00:00",
+      "sourceId": "kr-sup-2024-17",
+      "status": 200,
+      "textCharacters": 3076
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "b7ca8ba9d355a68e5aa7e03755b3e14355fcab1c07caf6faaa0c3fdf45e878a3",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-05-03/html/eSUP/KR-eSUP-2024-19-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 02 May 2024 02:17:07 GMT"
+      },
+      "normalizedTextSha256": "891efcf13db124e62c58e695bba272f24ffaaede7cc8c403c68ad1be9aa3e11e",
+      "originalBytes": 286832,
+      "originalSha256": "ebb35c442e7fe0ee127aea541793b12cd4bb6638710ba9dc67d9bd12a0d440a5",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-05-03/html/eSUP/KR-eSUP-2024-19-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:09.171416+00:00",
+      "sourceId": "kr-sup-2024-19",
+      "status": 200,
+      "textCharacters": 2413
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "bdc213c4dd2b9e4b1ec69e618633db333de8a9de04e0571fcb7e589b4ce91fc9",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-06-01/html/eSUP/KR-eSUP-2024-27-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Tue, 28 May 2024 04:32:28 GMT"
+      },
+      "normalizedTextSha256": "eba87b9be1ca657c9ac4471ee2fd4e76709e95baa7fb1384474aa1378f4a890f",
+      "originalBytes": 270230,
+      "originalSha256": "4a021aaab170232b0ed52ea33f4e41cde2ea9252bb49d2084e03b73f5f2232a7",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-06-01/html/eSUP/KR-eSUP-2024-27-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:09.160796+00:00",
+      "sourceId": "kr-sup-2024-27",
+      "status": 200,
+      "textCharacters": 2089
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "749e1081c7542d1b1adc8ab7bec38f5572f3b018e3ca0d232cad41573f9ce1e6",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-08-22/html/eSUP/KR-eSUP-2024-40-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 21 Aug 2024 06:44:06 GMT"
+      },
+      "normalizedTextSha256": "6ea2b6dc8a74097caa53e6f20f3ea1396a6e1cdc2fb8b3df104931420aa97cf8",
+      "originalBytes": 321647,
+      "originalSha256": "7bfda4e0bd723de2a78114cf163bc14ca29a4fcb29ed338a0ea8345c4988bba2",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-08-22/html/eSUP/KR-eSUP-2024-40-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:09.131741+00:00",
+      "sourceId": "kr-sup-2024-40",
+      "status": 200,
+      "textCharacters": 3468
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "8e3e3aa83a41058aa2f0e65b21ef1a8f2b4e152fd706ac86d0e964f3b8298f6b",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-09-01/html/eSUP/KR-eSUP-2024-41-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 19 Sep 2024 01:50:40 GMT"
+      },
+      "normalizedTextSha256": "8cec92856c4a161ac02e2250d295f28ec770a1a0e179cd829934e79b8f809409",
+      "originalBytes": 287173,
+      "originalSha256": "ebcf6c256a0857f1ba2967503c1fab98756957075d53bfc7f6cc250212cf1cf4",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-09-01/html/eSUP/KR-eSUP-2024-41-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:09.085194+00:00",
+      "sourceId": "kr-sup-2024-41",
+      "status": 200,
+      "textCharacters": 2120
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "e5ceb94d03a014bdf9b9a1e194e14a7d840fcdd12fb77f48e1da1459f0536e00",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-09-19/html/eSUP/KR-eSUP-2024-47-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 19 Sep 2024 02:06:39 GMT"
+      },
+      "normalizedTextSha256": "419b3c202586c564a9f227e9af4f3e4f4d56024711f24d6829518afef9902976",
+      "originalBytes": 260501,
+      "originalSha256": "77fd2f51987d79451094c9755d43102990c6c1da7c1b14dd1f64bc0675285492",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-09-19/html/eSUP/KR-eSUP-2024-47-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:08.889778+00:00",
+      "sourceId": "kr-sup-2024-47",
+      "status": 200,
+      "textCharacters": 1910
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "3b51ef6ec10d16b77bfecb87fd9423ab2d8850cd8aee2910686b8637824b1b6a",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-10-01/html/eSUP/KR-eSUP-2024-48-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 19 Sep 2024 01:50:38 GMT"
+      },
+      "normalizedTextSha256": "a973a8c30810563bb77a388e2b4e4627b846d4ffe13035c7a2439c6ca8714aaf",
+      "originalBytes": 263257,
+      "originalSha256": "2d22cae5020dc56fafbd496251b511c52d5044e4367f824c07348bca1c27be59",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-10-01/html/eSUP/KR-eSUP-2024-48-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:08.866169+00:00",
+      "sourceId": "kr-sup-2024-48",
+      "status": 200,
+      "textCharacters": 1873
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "9d279f4e41ddb0d8da6e25aa132e806be65adeafac5e77c31924fbfeb1a5deb7",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-10-31-AIRAC/html/eSUP/KR-eSUP-2024-56-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 17 Oct 2024 01:00:14 GMT"
+      },
+      "normalizedTextSha256": "5ac92ca33cfd8988f21ae491f2ceb6945fc266bf4ab49a077a9f99c1214f25bb",
+      "originalBytes": 361182,
+      "originalSha256": "fe5288ab19bf5dfb84f5f97ae4b53dbf40270b790f3ab724b43089de0d4cab5f",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-10-31-AIRAC/html/eSUP/KR-eSUP-2024-56-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:08.633326+00:00",
+      "sourceId": "kr-sup-2024-56",
+      "status": 200,
+      "textCharacters": 3691
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "ded1a96f41ff4d9ffadeacca01104a57fb5ea5459a8a41d0f41356f567023283",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-10-06/html/eSUP/KR-eSUP-2024-62-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 17 Oct 2024 01:04:18 GMT"
+      },
+      "normalizedTextSha256": "caf3d6fb081d9d021a0c36a079ef1893fa8588ef89332b651212208420c9a60b",
+      "originalBytes": 160953,
+      "originalSha256": "ddd65f57caf136209da5e141c8aeaa60f951076a0a66c9388b244e23643beb78",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-10-06/html/eSUP/KR-eSUP-2024-62-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:08.603851+00:00",
+      "sourceId": "kr-sup-2024-62",
+      "status": 200,
+      "textCharacters": 1882
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "b68e4146d5ddaaa657ec4b8722e804e78458e314216b30a6abaf2c80e260689d",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-10-17/html/eSUP/KR-eSUP-2024-63-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 16 Oct 2024 05:36:28 GMT"
+      },
+      "normalizedTextSha256": "97699486ad7e5b4b747d5af0cd458ad758149fe7cd0c538cd69986a4afd6190c",
+      "originalBytes": 202403,
+      "originalSha256": "7255e2987f98b2bd37b1c0ef10ca0318032590c3e850c2f842e843d286adeda7",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-10-17/html/eSUP/KR-eSUP-2024-63-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:08.271664+00:00",
+      "sourceId": "kr-sup-2024-63",
+      "status": 200,
+      "textCharacters": 1745
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "00feb7c445def1c6c678dc73a7547107b8d0d949790357241904b519c0573606",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-11-14/html/eSUP/KR-eSUP-2024-66-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 13 Nov 2024 04:51:43 GMT"
+      },
+      "normalizedTextSha256": "073e450f9399f693905781fa1fb11d5ab9d1dc9a9bc00c3d9347eecfcad525b9",
+      "originalBytes": 151939,
+      "originalSha256": "0f0f52cd6e1a406f63f89355a53d1ee0d839676ba2fe13c6b91e2119f870731e",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-11-14/html/eSUP/KR-eSUP-2024-66-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:08.208454+00:00",
+      "sourceId": "kr-sup-2024-66",
+      "status": 200,
+      "textCharacters": 3111
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "15a8653b9589332e65e0465d0b6a4512b381e24bcf2c92896f55c805277579f2",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-11-14/html/eSUP/KR-eSUP-2024-67-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 13 Nov 2024 04:52:19 GMT"
+      },
+      "normalizedTextSha256": "fcaa1edfd611fbe72377288bc0511d80cba034ecdb0b41608b0c42b4837bd88a",
+      "originalBytes": 118263,
+      "originalSha256": "528d5d63cf162013576bec1d0a73d487e151ba7f5321ae23e3f92e2558dea361",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-11-14/html/eSUP/KR-eSUP-2024-67-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:08.155343+00:00",
+      "sourceId": "kr-sup-2024-67",
+      "status": 200,
+      "textCharacters": 2476
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "f4246e9da6d7b625e60520fa73b53366c5cbfabfca1c440c6ae5558828e33c1b",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-11-14/html/eSUP/KR-eSUP-2024-68-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 13 Nov 2024 04:52:53 GMT"
+      },
+      "normalizedTextSha256": "2ec341bd5bc299d6cdce85e23d683daad72d2e936adb3e448b556bba844ef1bc",
+      "originalBytes": 286656,
+      "originalSha256": "9d8ceef88a0719f58ec526da5c0e9c32b604413033a8ab7b4956ab8c2c4cae8f",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-11-14/html/eSUP/KR-eSUP-2024-68-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:07.935075+00:00",
+      "sourceId": "kr-sup-2024-68",
+      "status": 200,
+      "textCharacters": 2759
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "1e5ae9c699d9254383dc8cc10a7fbdc3db0cd7f1b5c461bff33fc2765c11b0ce",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-01-15-AIRAC/html/eSUP/KR-eSUP-2024-69-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 14 Nov 2024 04:02:34 GMT"
+      },
+      "normalizedTextSha256": "5e3f3d2ccab80aa230ee54977d4845eda2dcea3144ab635a94fb09651cd37cd2",
+      "originalBytes": 638214,
+      "originalSha256": "649f08face6e0297196f970461fe457ecce59a6e4ae9569aeb6872d23bedf247",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-01-15-AIRAC/html/eSUP/KR-eSUP-2024-69-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:07.889493+00:00",
+      "sourceId": "kr-sup-2024-69",
+      "status": 200,
+      "textCharacters": 3523
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "14adb74976c7a7f890b23344be140c32ff61ce900a2e52d40a5e4456a61483e5",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-12-15/html/eSUP/KR-eSUP-2024-73-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 12 Dec 2024 05:11:22 GMT"
+      },
+      "normalizedTextSha256": "75c7cdad0cfefe80f397152b564be5f844f889c7bfa9eceada179e10b1c450ca",
+      "originalBytes": 85972,
+      "originalSha256": "c8c36ed8b95b717cd23a6e4179e4aea8142718a1b8c17d8ec8f8b9942876e5aa",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-12-15/html/eSUP/KR-eSUP-2024-73-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:07.769491+00:00",
+      "sourceId": "kr-sup-2024-73",
+      "status": 200,
+      "textCharacters": 7734
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "1447bb7b27eee5a3263c691ca24dc904baff47832459fd0bd7f3d3a014a616c7",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-12-12/html/eSUP/KR-eSUP-2024-75-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 12 Dec 2024 05:12:19 GMT"
+      },
+      "normalizedTextSha256": "a097cd49818fc9fae57115a779c8a38a39bc310dd4ca10453b61251907ea6fe9",
+      "originalBytes": 135172,
+      "originalSha256": "c00b4116749dacc7ca926b12bd0e661dd94595abbcbda5d12331bfd795fd3862",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-12-12/html/eSUP/KR-eSUP-2024-75-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:07.727991+00:00",
+      "sourceId": "kr-sup-2024-75",
+      "status": 200,
+      "textCharacters": 2072
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "43b621db15279e392a5f278cd905d87465693c83484211a0343b68055b4fdd99",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-12-12/html/eSUP/KR-eSUP-2024-76-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 12 Dec 2024 05:12:21 GMT"
+      },
+      "normalizedTextSha256": "3df222ad32209b5cd1c1f433c82e795e5ebdf2d837cbbdefc2f2a33cf81a6d6d",
+      "originalBytes": 274942,
+      "originalSha256": "8f2cd2a19eefa290218685fd1d40f3d5a82696b7b69f9443f5b1a8eb0bb4d159",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-12-12/html/eSUP/KR-eSUP-2024-76-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:07.616643+00:00",
+      "sourceId": "kr-sup-2024-76",
+      "status": 200,
+      "textCharacters": 2550
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "7d0e466ea5c6e813e33990177f91bc8cd190e59bd55ddc34c893937c873448d2",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-01-23-AIRAC/html/eSUP/KR-eSUP-2024-81-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 12 Dec 2024 05:06:57 GMT"
+      },
+      "normalizedTextSha256": "ab18fcfbb3b3daa5db21ab0c085bb652b0689c8adc1409e155228aa97d9235db",
+      "originalBytes": 431854,
+      "originalSha256": "f37dfe0eac70a02f803195f09d6c2bb40c48de87d5a872014fa71f49c8a2cbd9",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-01-23-AIRAC/html/eSUP/KR-eSUP-2024-81-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:07.572701+00:00",
+      "sourceId": "kr-sup-2024-81",
+      "status": 200,
+      "textCharacters": 6775
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "00036eeb065067d3bf47016c1010549d7417b3efbcd46f125e96097853d66db0",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-02-08/html/eSUP/KR-eSUP-2024-9-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Tue, 06 Feb 2024 04:25:09 GMT"
+      },
+      "normalizedTextSha256": "a43411260ca8e8aaba9cf2a7d43e49afbff1e629220e3e3ac8143d74ad7a6dc8",
+      "originalBytes": 447438,
+      "originalSha256": "a24b37a026b7c1a2fb1315d04237f9656eba9d60d02ec973e7c3d9e006e05217",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2024-02-08/html/eSUP/KR-eSUP-2024-9-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:09.404089+00:00",
+      "sourceId": "kr-sup-2024-9",
+      "status": 200,
+      "textCharacters": 2609
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "07454b6a9a36f6f36cebb7bba1ee48b90db2a8a489a6f226ee8d1adae136cdf5",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-01-01/html/eSUP/KR-eSUP-2025-1-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 09 Jan 2025 04:38:46 GMT"
+      },
+      "normalizedTextSha256": "ca21953e54a389e4713c995aeb52ce9ae05a6fbe4806a7e5aa1aa96daf2ed1ac",
+      "originalBytes": 923849,
+      "originalSha256": "298d240f1d57c43616f2231fc7ed3aa38a23b372290d4c52ce0027c633b3126c",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-01-01/html/eSUP/KR-eSUP-2025-1-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:07.446359+00:00",
+      "sourceId": "kr-sup-2025-1",
+      "status": 200,
+      "textCharacters": 6398
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "e6ef4369d70ffece1d39a2030a51e9728afc23ac0f0a71b5f1bfa1009b94df5b",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-03-20-AIRAC/html/eSUP/KR-eSUP-2025-15-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 05 Feb 2025 07:12:42 GMT"
+      },
+      "normalizedTextSha256": "017630999188263020a4db6a392b350f8f8316dc449cfc0553c073120e62e4f3",
+      "originalBytes": 178394,
+      "originalSha256": "cb733eb924b8cfcef6f36f9e14f9e3108f8ffd1ae5fc9823d6d64100f863a06e",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-03-20-AIRAC/html/eSUP/KR-eSUP-2025-15-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:06.147577+00:00",
+      "sourceId": "kr-sup-2025-15",
+      "status": 200,
+      "textCharacters": 1808
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "b834c9ba23d8b9ba7f64dada02d2aae62d4ae6ebe1ac07bf5407f793d9e54e3c",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-03-20-AIRAC/html/eSUP/KR-eSUP-2025-16-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 05 Feb 2025 07:12:42 GMT"
+      },
+      "normalizedTextSha256": "88fcab9a8faa53e75777db09dac84e8193eb5297ebff9897d70f5a1753df9e3e",
+      "originalBytes": 715970,
+      "originalSha256": "1b8b0195fb10da36b0b2530834fe5b6b48b68b3f41ee7fdd940a714b73cf2410",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-03-20-AIRAC/html/eSUP/KR-eSUP-2025-16-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:04.343624+00:00",
+      "sourceId": "kr-sup-2025-16",
+      "status": 200,
+      "textCharacters": 3724
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "ff60162156e45198fe69df16011b5b7542f3b9fa051a0591787c843abf8171a8",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-03-20-AIRAC/html/eSUP/KR-eSUP-2025-17-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 05 Feb 2025 07:12:42 GMT"
+      },
+      "normalizedTextSha256": "892ec9a4aeee54f2e99ce0eed9d98cfdfb0659f6078561e42cd201ca30b06d21",
+      "originalBytes": 435186,
+      "originalSha256": "1a16c7a8d34df4cd34ecff0ad4ef809632780184f9de54067ea0a8864de94f00",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-03-20-AIRAC/html/eSUP/KR-eSUP-2025-17-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:04.338885+00:00",
+      "sourceId": "kr-sup-2025-17",
+      "status": 200,
+      "textCharacters": 6921
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "55aee0d6926befcbb25e4fe23d90c65184781392aeaf897c1b84298b0c107113",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-03-06/html/eSUP/KR-eSUP-2025-18-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 05 Mar 2025 06:30:43 GMT"
+      },
+      "normalizedTextSha256": "09a9b994c67e6dee58430c9f6124865d8563617a043e4d0c6550f494b68b7d7f",
+      "originalBytes": 491813,
+      "originalSha256": "5007d6f3eb77a662097783620ccfcf9a1695a5327152cc190a6de2082ea4477c",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-03-06/html/eSUP/KR-eSUP-2025-18-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:04.337992+00:00",
+      "sourceId": "kr-sup-2025-18",
+      "status": 200,
+      "textCharacters": 2926
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "fb032f9ede1e21c1d306a368ae9a8e6876652bc5193f4c03530135f1f2d6b9ec",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-01-09/html/eSUP/KR-eSUP-2025-2-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 08 Jan 2025 06:23:30 GMT"
+      },
+      "normalizedTextSha256": "22a5eba5182c5895076250a60b6c18b8af29e1e0e02c0f9a700d071f106cb0dd",
+      "originalBytes": 150450,
+      "originalSha256": "0424c3cc289a4fcdcf2cd6102c4e03109e8631f416f69d1f9376a742598be14b",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-01-09/html/eSUP/KR-eSUP-2025-2-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:07.313003+00:00",
+      "sourceId": "kr-sup-2025-2",
+      "status": 200,
+      "textCharacters": 1952
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "66e0e87d462fa63febc8a205cdd904aaeeb889f2269ab3cee386d92a2adea461",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-03-20-AIRAC/html/eSUP/KR-eSUP-2025-23-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 06 Mar 2025 02:18:38 GMT"
+      },
+      "normalizedTextSha256": "9680bda968f5a26c8c74b82a57975de96b7faf4045273faee564cf3d73797efd",
+      "originalBytes": 435401,
+      "originalSha256": "4373978069fe020b9b0126d809dec6a5b8be7853aa7966438ff46010f3eb2bc9",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-03-20-AIRAC/html/eSUP/KR-eSUP-2025-23-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:38:05.920569+00:00",
+      "sourceId": "kr-sup-2025-23-5976bb1e",
+      "status": 200,
+      "textCharacters": 7002
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "66e0e87d462fa63febc8a205cdd904aaeeb889f2269ab3cee386d92a2adea461",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-17-AIRAC/html/eSUP/KR-eSUP-2025-23-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 03 Apr 2025 05:50:58 GMT"
+      },
+      "normalizedTextSha256": "9680bda968f5a26c8c74b82a57975de96b7faf4045273faee564cf3d73797efd",
+      "originalBytes": 435401,
+      "originalSha256": "4373978069fe020b9b0126d809dec6a5b8be7853aa7966438ff46010f3eb2bc9",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-17-AIRAC/html/eSUP/KR-eSUP-2025-23-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:38:05.922577+00:00",
+      "sourceId": "kr-sup-2025-23-7c99eab1",
+      "status": 200,
+      "textCharacters": 7002
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eSUP/KR-eSUP-2025-23-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:33:52.918386+00:00",
+      "sourceId": "kr-sup-2025-23"
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "003e3d40ef9dc614583a5db4109b14897f77c9124d61ee0a71d89a27f274af3e",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-01-09/html/eSUP/KR-eSUP-2025-3-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 08 Jan 2025 06:24:25 GMT"
+      },
+      "normalizedTextSha256": "06bba830c47010b10d1b68407df4dbb065ddb47adbb3f7ffac03444042ef61d4",
+      "originalBytes": 249735,
+      "originalSha256": "ab53305b36e659159c8ed2d5b2b549124f21a71c363388bcc67a1a5a4db7603a",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-01-09/html/eSUP/KR-eSUP-2025-3-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:07.215677+00:00",
+      "sourceId": "kr-sup-2025-3",
+      "status": 200,
+      "textCharacters": 2672
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "835555c0d58d7cf9ee7a4fcd3b4eb49ac04e84ced5d80b172083c4a9c8ec621d",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2022-06-30/html/eSUP/KR-eSUP-2025-33-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 03 Apr 2025 05:50:28 GMT"
+      },
+      "normalizedTextSha256": "4a420d963fbaf6df819d5ce39e8b7ac87a4fec2cff458b2ea59d4084ed707cbd",
+      "originalBytes": 100321,
+      "originalSha256": "5b933b4e5a1e0da56d60ddc031a8c2ada951a734a18ec1890c5574ad2c66ca2c",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2022-06-30/html/eSUP/KR-eSUP-2025-33-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:04.336705+00:00",
+      "sourceId": "kr-sup-2025-33",
+      "status": 200,
+      "textCharacters": 15107
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "7b31dddafae98a9de9c4ccca48aa3bf9248adee8c03aa8bc1191ec37198aa85e",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-01-09/html/eSUP/KR-eSUP-2025-34-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 03 Apr 2025 05:49:59 GMT"
+      },
+      "normalizedTextSha256": "16365f5e2146fab3acf6c655fddedd161786bee6d9b3c435141b7dc34f0281c0",
+      "originalBytes": 279198,
+      "originalSha256": "bac71aa281fed5c637d58d5c172e22926dc22eeb8e096df0e17a30d89700686e",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-01-09/html/eSUP/KR-eSUP-2025-34-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:04.336266+00:00",
+      "sourceId": "kr-sup-2025-34",
+      "status": 200,
+      "textCharacters": 2077
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "309d1f68a04a4602d1b37984e3d06316e6d4fd85b526a17e2134b6f34d62b5e1",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-03/html/eSUP/KR-eSUP-2025-35-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 03 Apr 2025 03:56:14 GMT"
+      },
+      "normalizedTextSha256": "e60829d6157976302edbb29862dc69909db24867f5810cddf61ea815a0dddb9d",
+      "originalBytes": 156545,
+      "originalSha256": "011ddcd6790223f6a15a45841d1483040674e40cf4abb04f0835f5927a3681a7",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-03/html/eSUP/KR-eSUP-2025-35-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:04.335977+00:00",
+      "sourceId": "kr-sup-2025-35",
+      "status": 200,
+      "textCharacters": 2293
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "dfd1a8b14d6f7bac38bbd9652a33f1348ab3ebb2634de196950c0948d483c428",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-02-11/html/eSUP/KR-eSUP-2025-36-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 03 Apr 2025 05:48:45 GMT"
+      },
+      "normalizedTextSha256": "14aa6bc04f4ff3fa91f7d052baed8ed65800f23c217303bff110dc09c526c9ae",
+      "originalBytes": 209283,
+      "originalSha256": "5f40b4067fc111bd126098851e540f2a9594cc9e3a560d1fd7a4d1de33353958",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-02-11/html/eSUP/KR-eSUP-2025-36-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:04.335459+00:00",
+      "sourceId": "kr-sup-2025-36",
+      "status": 200,
+      "textCharacters": 2741
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "f7b3e6bee2936807eecc713cbedd3d8c6cb6a3147309be6f8ee854ad260a88ae",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-15/html/eSUP/KR-eSUP-2025-37-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 03 Apr 2025 05:47:39 GMT"
+      },
+      "normalizedTextSha256": "ac956058ef895301f48eae0d122d8974c1b876866d855adb9038d3609e3202ca",
+      "originalBytes": 286204,
+      "originalSha256": "f1989b89e616b8155c984b3468b0ddbfdcc14eae688f36b6a7a2de8429b14b30",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-15/html/eSUP/KR-eSUP-2025-37-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:04.334819+00:00",
+      "sourceId": "kr-sup-2025-37",
+      "status": 200,
+      "textCharacters": 1758
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "6a27ec7c25956195647bcde380f416122452634401ebf33532ab05e645a822d0",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-15-AIRAC/html/eSUP/KR-eSUP-2025-39-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 03 Apr 2025 05:47:39 GMT"
+      },
+      "normalizedTextSha256": "3e81161d970765c13a860614ccfc96b0b0b5f85767f8d2e4bad39a154f0dd734",
+      "originalBytes": 730534,
+      "originalSha256": "92db7884769e514fcb57fe061aa631cd44230a9672d11505ceab623487357d8b",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-15-AIRAC/html/eSUP/KR-eSUP-2025-39-en-GB.pdf",
+      "retrievedAt": "2026-10-30T10:06:13.547074+00:00",
+      "sourceId": "kr-sup-2025-39-local-folder",
+      "status": 200,
+      "textCharacters": 3729
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/html/eSUP/KR-eSUP-2025-39-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:33:52.918787+00:00",
+      "sourceId": "kr-sup-2025-39"
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "8d76f0de0a2cdd241f323590fd456d2947ad7f04d1593271342939146446fb2a",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-01-11/html/eSUP/KR-eSUP-2025-4-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 09 Jan 2025 04:38:11 GMT"
+      },
+      "normalizedTextSha256": "95dd8b81dffc7ab370163c025b3d2d5a6561d0c5fae0a26c4f675fb4527d2485",
+      "originalBytes": 94429,
+      "originalSha256": "29670e2958caa7a112e7a0020ac93091f38053ca70517af820c547b798349cf9",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-01-11/html/eSUP/KR-eSUP-2025-4-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:07.105984+00:00",
+      "sourceId": "kr-sup-2025-4",
+      "status": 200,
+      "textCharacters": 1934
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "468574fa91132d7480c74994664c129229e4227f32bac46fa33cff41441de9a6",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-15-AIRAC/html/eSUP/KR-eSUP-2025-40-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Thu, 03 Apr 2025 05:47:39 GMT"
+      },
+      "normalizedTextSha256": "a5e24ac325603534d620d8aaeb3eb8cdaa5046a0ed3518e34c76520c09a30a37",
+      "originalBytes": 575833,
+      "originalSha256": "f9c78145b373f2329461521e48fbcb716805f31d1a57011348f5669cb03ed7b4",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-15-AIRAC/html/eSUP/KR-eSUP-2025-40-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:33:52.917956+00:00",
+      "sourceId": "kr-sup-2025-40",
+      "status": 200,
+      "textCharacters": 8390
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "c68581dbc525331565a1d516a138aed1dfd1749e635de2430f0ea434d2e6490a",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-02-11/html/eSUP/KR-eSUP-2025-41-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 30 Apr 2025 04:07:15 GMT"
+      },
+      "normalizedTextSha256": "51be022ee05dde7fc8c936c21b8c900253392f8010a56fb687aef257f3952e29",
+      "originalBytes": 207513,
+      "originalSha256": "1cf575f41986715bf3e13a3aeeb401a13cfa72ad21412f79c940a440f8fda69c",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-02-11/html/eSUP/KR-eSUP-2025-41-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:09.993665+00:00",
+      "sourceId": "kr-sup-2025-41",
+      "status": 200,
+      "textCharacters": 2728
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "1481e8e0cc6248181e35ec7180eb4fb8f3ba154539c765b063b3d67bb1bd6f1e",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/html/eSUP/KR-eSUP-2025-42-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 30 Apr 2025 04:06:58 GMT"
+      },
+      "normalizedTextSha256": "2dac1379da7f0139cc5ee963cb9bcd6085489f7e6c293e211d235d1533910c45",
+      "originalBytes": 614679,
+      "originalSha256": "a6a3eac0f6108349ef18d3c3cd066a9aa1c4c45639e9f47efacfde62831fdb39",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/html/eSUP/KR-eSUP-2025-42-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:38:05.923249+00:00",
+      "sourceId": "kr-sup-2025-42-885cb932",
+      "status": 200,
+      "textCharacters": 2154
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "1481e8e0cc6248181e35ec7180eb4fb8f3ba154539c765b063b3d67bb1bd6f1e",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/eSUP/KR-eSUP-2025-42-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 30 Apr 2025 01:48:43 GMT"
+      },
+      "normalizedTextSha256": "2dac1379da7f0139cc5ee963cb9bcd6085489f7e6c293e211d235d1533910c45",
+      "originalBytes": 614679,
+      "originalSha256": "a6a3eac0f6108349ef18d3c3cd066a9aa1c4c45639e9f47efacfde62831fdb39",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/eSUP/KR-eSUP-2025-42-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:38:05.922084+00:00",
+      "sourceId": "kr-sup-2025-42-eb2c3402",
+      "status": 200,
+      "textCharacters": 2154
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "1481e8e0cc6248181e35ec7180eb4fb8f3ba154539c765b063b3d67bb1bd6f1e",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/eSUP/KR-eSUP-2025-42-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 30 Apr 2025 01:48:43 GMT"
+      },
+      "normalizedTextSha256": "2dac1379da7f0139cc5ee963cb9bcd6085489f7e6c293e211d235d1533910c45",
+      "originalBytes": 614679,
+      "originalSha256": "a6a3eac0f6108349ef18d3c3cd066a9aa1c4c45639e9f47efacfde62831fdb39",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/eSUP/KR-eSUP-2025-42-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:33:52.917276+00:00",
+      "sourceId": "kr-sup-2025-42",
+      "status": 200,
+      "textCharacters": 2154
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "4d2d0d3aebe05882396fd27b98f0685cc325974e9471b9af9250277ea89dac60",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-06-12-AIRAC/html/eSUP/KR-eSUP-2025-43-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 30 Apr 2025 04:05:16 GMT"
+      },
+      "normalizedTextSha256": "9a482c4b0de06120035d71c44c32717d3b40b77ae651afeb89296bb9439a2e83",
+      "originalBytes": 429587,
+      "originalSha256": "7e5ca7cc44b7645a7af541fcf81df35f170e48fb389e65b70bc0f8b553a9a807",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-06-12-AIRAC/html/eSUP/KR-eSUP-2025-43-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:09.909413+00:00",
+      "sourceId": "kr-sup-2025-43",
+      "status": 200,
+      "textCharacters": 3809
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "5202d75c8b2c34c1704b6de1d53bf539e82687137da26bee4b0e4036304ef87d",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-06-12-AIRAC/html/eSUP/KR-eSUP-2025-44-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 30 Apr 2025 04:05:16 GMT"
+      },
+      "normalizedTextSha256": "be18cf6126907e4a09665b72a1e165ebb535f242908d8bf50adc564adcb74c1f",
+      "originalBytes": 679706,
+      "originalSha256": "2949bd27cb7790106c8b3d9dd7403ff3a91e2cee8b86cdf2d49e8e3d55de9516",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-06-12-AIRAC/html/eSUP/KR-eSUP-2025-44-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:09.785350+00:00",
+      "sourceId": "kr-sup-2025-44",
+      "status": 200,
+      "textCharacters": 3682
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "76d51a907e324c32da74c6bef19e4ace47c38e23bd37a99107309d5fc26e1183",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-06-12-AIRAC/html/eSUP/KR-eSUP-2025-45-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 30 Apr 2025 04:05:16 GMT"
+      },
+      "normalizedTextSha256": "24f8db43d9a664bf80216846e0c2849931a84a0b08a353d3283cc60a749a63e2",
+      "originalBytes": 207383,
+      "originalSha256": "2afaed63a2eef598e518c363fff013bfdddadaa2e14edcada7b21e7883cf27f5",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-06-12-AIRAC/html/eSUP/KR-eSUP-2025-45-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:09.699542+00:00",
+      "sourceId": "kr-sup-2025-45",
+      "status": 200,
+      "textCharacters": 2118
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "5e03ac3c2cce933a12b54c9b2a81d870a1fe1de71c50ae6d3a933b65c900a549",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-01-09/html/eSUP/KR-eSUP-2025-5-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 08 Jan 2025 06:26:16 GMT"
+      },
+      "normalizedTextSha256": "699dd2090922f0f31913255d42b81601d9ec4b534691ab9393a2eda474e4c26a",
+      "originalBytes": 294858,
+      "originalSha256": "acbb609ac2e5c7ce7bd636d061e7d10ec0128416b518fbb3178c480d5976c81e",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-01-09/html/eSUP/KR-eSUP-2025-5-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:06.984240+00:00",
+      "sourceId": "kr-sup-2025-5",
+      "status": 200,
+      "textCharacters": 1781
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "8427af56e4f30b47e2b12f6900918186ff175371d715dae62d18fc5fdc6a6b1a",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2022-06-30/html/eSUP/KR-eSUP-2025-6-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 05 Feb 2025 07:16:09 GMT"
+      },
+      "normalizedTextSha256": "e09a5d581899ca3f4a931d0c64d861c832ebde49254869e5f7e00791dfc2499a",
+      "originalBytes": 100473,
+      "originalSha256": "bf6a993420a0446ba8813d37e59b5f42f73caa449db94eec691ac209963e3dfa",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2022-06-30/html/eSUP/KR-eSUP-2025-6-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:06.833616+00:00",
+      "sourceId": "kr-sup-2025-6",
+      "status": 200,
+      "textCharacters": 15104
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "9a606574538907b2e5bbc62d97603666b20a83b3aea7d0371ee0400fbbd9f84d",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-02-11/html/eSUP/KR-eSUP-2025-7-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 05 Feb 2025 07:15:18 GMT"
+      },
+      "normalizedTextSha256": "fad662089d103906cfbf3ac1e8a4be5bee1f629c09f658ef982ca6c604af27b0",
+      "originalBytes": 267580,
+      "originalSha256": "3a211c100cc113fe6e4762dc3e41495a07a9dc51288ed5a415f3f8b042211d4d",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-02-11/html/eSUP/KR-eSUP-2025-7-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:06.789233+00:00",
+      "sourceId": "kr-sup-2025-7",
+      "status": 200,
+      "textCharacters": 2148
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "1d80d8708466b153d57c7a1acb33ad791196c24d17c53776c3ecaabac0aab7b9",
+      "finalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-03-01/html/eSUP/KR-eSUP-2025-8-en-GB.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 05 Feb 2025 07:13:45 GMT"
+      },
+      "normalizedTextSha256": "24467cd64e861ce73b0c01130fea98472952d445a18b1ea380481e17ca390786",
+      "originalBytes": 297492,
+      "originalSha256": "d3ec5b13d1d48d1d21ec8a91a6d56838782418cefb9514b1bf9b082bf38c867e",
+      "requestedUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-03-01/html/eSUP/KR-eSUP-2025-8-en-GB.pdf",
+      "retrievedAt": "2026-10-30T07:36:06.781169+00:00",
+      "sourceId": "kr-sup-2025-8",
+      "status": 200,
+      "textCharacters": 1773
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "e0eb065dc4e08e3d0f8e7099c1e4d64ac3fcf1593294d3aeab26d3adf7b81abb",
+      "finalUrl": "https://airspacechange.caa.co.uk/documents/download/5556",
+      "headers": {
+        "Last-Modified": "Fri, 30 Oct 2026 07:22:02 GMT"
+      },
+      "normalizedTextSha256": "1d75b4f51bcbf0bc3231bb5aea51e612bc271a6d763e9ea5210f3560aa97ab97",
+      "originalBytes": 252199,
+      "originalSha256": "c036f49df57e48179d1bd46b53fff8cf103fc68580d84b773a844e4236e43705",
+      "requestedUrl": "https://airspacechange.caa.co.uk/documents/download/5556",
+      "retrievedAt": "2026-10-30T07:22:01.443193+00:00",
+      "sourceId": "uk-caa-dsa-letter",
+      "status": 200,
+      "textCharacters": 2415
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://www.faa.gov/air_traffic/flight_info/aeronav/aero_data/NASR_Subscription_2019-09-12/",
+      "retrievedAt": "2026-10-30T07:22:01.441139+00:00",
+      "sourceId": "us-nasr-20190912-index"
+    },
+    {
+      "error": "HTTP Error 404: Not Found",
+      "requestedUrl": "https://www.faa.gov/air_traffic/flight_info/aeronav/aero_data/NASR_Subscription_2019-10-10/",
+      "retrievedAt": "2026-10-30T07:22:01.441467+00:00",
+      "sourceId": "us-nasr-20191010-index"
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "4d076a3a22bab7427eb782db6a7a82d8d6be79c8b67cd180b860137b509f1782",
+      "finalUrl": "https://cms3.revize.com/revize/williston/XWA%20Newsletter%20Issue%207.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 31 Mar 2021 16:46:00 GMT"
+      },
+      "normalizedTextSha256": "b0d0b3989052a94f69ea4e91189316f8affc73506fdcb2568ba570b53ace6290",
+      "originalBytes": 702420,
+      "originalSha256": "6365edaa31dcda4ad2032c2851854165e070511efecbb1e1e464e093d7dd8dae",
+      "requestedUrl": "https://cms3.revize.com/revize/williston/XWA%20Newsletter%20Issue%207.pdf",
+      "retrievedAt": "2026-10-30T07:22:01.440778+00:00",
+      "sourceId": "us-williston-newsletter-20190524",
+      "status": 200,
+      "textCharacters": 8357
+    },
+    {
+      "contentType": "application/pdf",
+      "encoding": "utf-8",
+      "extractedTextSha256": "17b30939c3b3d969bbd6b44f49d1884b2befff12c8c3258f2ee8390e38b10f84",
+      "finalUrl": "https://cms3.revize.com/revize/williston/XWA%20Newsletter%20Issue%209.pdf",
+      "headers": {
+        "Last-Modified": "Wed, 31 Mar 2021 16:48:00 GMT"
+      },
+      "normalizedTextSha256": "3370836b729385ab9f1f016bd1b54cb017b2597d23a2f4935c743ad69498611e",
+      "originalBytes": 568410,
+      "originalSha256": "d072dc195f7561967f6223f28e4d49a77176d4aadbb51a05b7c310fe74bf4c53",
+      "requestedUrl": "https://cms3.revize.com/revize/williston/XWA%20Newsletter%20Issue%209.pdf",
+      "retrievedAt": "2026-10-30T07:22:01.440388+00:00",
+      "sourceId": "us-williston-newsletter-20190730",
+      "status": 200,
+      "textCharacters": 5109
+    }
+  ],
+  "limitations": "A failed URL or empty index does not prove historical absence. Oversized responses were rejected and later acquired with a higher explicit local limit where indicated. No credential values are retained."
+}

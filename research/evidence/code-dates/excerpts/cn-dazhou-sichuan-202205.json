@@ -1,0 +1,40 @@
+{
+  "extractedTextSha256": "7495b283c4ab6ca756dc828799e6f43a609cec9b38dbeb78c32a6c2308f66869",
+  "normalizedTextSha256": "584387f0db29cd53a14b03e347502377be88d7114db7309ce1e7b4b8292b2ab0",
+  "originalSha256": "edd26fc088d6f68291c067348036ab3c90350ded1aaf590ae3a3eb9f30ce9e1c",
+  "sourceId": "cn-dazhou-sichuan-202205",
+  "spans": [
+    {
+      "characterEnd": 1054,
+      "characterStart": 1039,
+      "citationId": "cn-dazhou-sichuan-202205-1",
+      "page": null,
+      "quote": "发布时间：2022.05.07",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 1075,
+      "characterStart": 1062,
+      "citationId": "cn-dazhou-sichuan-202205-2",
+      "page": null,
+      "quote": "2022年5月19日零时起",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 1091,
+      "characterStart": 1076,
+      "citationId": "cn-dazhou-sichuan-202205-3",
+      "page": null,
+      "quote": "达州金垭机场（三字代码DZH）",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 1117,
+      "characterStart": 1102,
+      "citationId": "cn-dazhou-sichuan-202205-4",
+      "page": null,
+      "quote": "达州河市机场（三字代码DAX）",
+      "representation": "normalized_text"
+    }
+  ]
+}
