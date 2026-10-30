@@ -1,9 +1,12 @@
 # Evidence policy review, engine 1.0.0
 
-This is an offline, deterministic admission preparation workflow. The policy is
-**draft** and both authorization registries are empty. No new formal fact is
-admitted. Start with [the reproducible Chinese report](generated/审核报告.zh-CN.md)
-and [the exact authorization proposal](generated/authorization-proposal.json).
+This is a deterministic policy admission workflow. The policy is **authorized**
+by the existing [owner grant](https://github.com/keepraw/airport-history/issues/19#issuecomment-6513409968),
+with one production owner authorization and an empty medium-batch registry.
+The first [production admission bundle](../admissions/0.10.0/README.md) is now
+included in the formal 0.10.0 candidate; final merge remains the owner's decision.
+Start with [the reproducible Chinese report](generated/审核报告.zh-CN.md)
+and [the original authorization text and current status](generated/authorization-proposal.json).
 
 `policy.json` defines the versioned evidence predicates and exclusions.
 `policySha256` is SHA-256 of UTF-8 canonical JSON (sorted keys, compact separators,
@@ -77,8 +80,7 @@ records URL, date, original text SHA-256, policy/scope/executor hashes and recor
 posts a comment. A plain JSON claim to be keepraw is not an activation input.
 
 ```sh
-# FUTURE ONLY, after the owner's exact policy grant:
-python3 scripts/evidence/policy_review.py activate --authorization-url OWNER_COMMENT_URL
+# One-time activation is already recorded. Do not activate it again.
 # After data/research advances, prepare a fresh independent formal baseline:
 python3 scripts/evidence/policy_review.py freeze
 pnpm policy:build
@@ -178,5 +180,9 @@ admission CLI and real resolver, then runs the **entire candidate `pnpm check`**
 The original-byte dependency is live locally or explicitly recorded/offline in CI.
 There are no gate, evaluator or resolver mocks. Production rejects this test grant.
 No test-authority switch exists in production CLI arguments or caller JSON.
+When a real candidate already exists, the disposable clone starts from the frozen
+published baseline and replaces only its own bundle with the test-authority output.
+Its formal measurement is regenerated before its complete candidate check.
 No test candidate, grant or activation is committed as real formal data. Both real
-registries and the real draft policy are hashed before/after and remain unchanged.
+registries, the actual policy and real formal candidate are hashed before/after
+and remain unchanged.

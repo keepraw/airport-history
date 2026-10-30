@@ -28,9 +28,9 @@ candidates are mechanically processed into 88,330 relevant review groups and
 explicit excluded/deferred categories. No new upstream history scan is needed.
 See [measured before/after coverage and performance](docs/worldwide-reference-pr11.md).
 
-**Curated scope (0.9.0):** thirty-four physical airports, twenty-eight IATA
-assignments, twenty-one ICAO assignments and three official-name intervals, with
-ninety-five evidence sources. The
+**Curated scope (0.10.0):** thirty-seven physical airports, twenty-eight IATA
+assignments, twenty-four ICAO assignments and three official-name intervals, with
+101 evidence sources. The
 original TAO, IST, HKG and DEN examples are joined by five reviewed ISL, ISB,
 SXF/BER, TSE/NQZ and KIV/RMO events and, in 0.5.0, by ROV/RVI (Rostov-on-Don /
 Platov), YNT (Yantai Laishan / Penglai) and PNH/KTI with VDPP/VDTI (Phnom Penh /
@@ -50,6 +50,10 @@ Version 0.9.0 admits seven approved physical identities and six exact ICAO windo
 (VOSR, VOGB, VEKI, VEPY, VOKU and LELC), adding 4,530 actual resolved code/date
 queries. The new Murcia identity has no assignment; LEMI, RMU and MJV remain
 deferred. See the [0.9.0 authorization and actual coverage](research/admissions/0.9.0/README.md).
+Version 0.10.0 adds the first three records selected through the existing owner-authorized
+AAI ICAO policy: VEHO (Donyi Polo), VASD (Shirdi) and VOKN (Kannur), each certain
+only within `[2026-04-17, 2026-07-09)`. The real formal candidate adds 249 resolved
+code/local-date queries. See the [production admission and measurements](research/admissions/0.10.0/README.md).
 This remains the authoritative curated history layer. The worldwide reference
 lookup above is separate and never returns resolved historical answers. A separate
 [global discovery research layer](research/discovery/README.md) scans pinned
@@ -77,7 +81,7 @@ Initial dependency installation needs network access. All subsequent checks,
 tests, builds and resolution run offline. `pnpm build` writes:
 
 ```text
-dist/v0.9.0/
+dist/v0.10.0/
 ├── airport-history.json
 ├── dataset.schema.json
 ├── manifest.json             # SHA-256 hashes of the five other files
@@ -253,7 +257,23 @@ unique answer and returns `uncertain`. If a reviewed pair also certainly conflic
 on that date, `conflict` takes precedence and includes the other candidates.
 Nonoverlapping historical reuse is accepted normally.
 
-## Format compatibility: 0.9.0
+## Format compatibility: 0.10.0
+
+0.10.0 adds three policy-reviewed physical identities, three bounded ICAO
+assignments and six source records. Schema **3.0.0** and the authorized evaluator,
+admission gates, parsers, resolver and dependency lock are unchanged. All earlier
+records and snapshots are preserved. Package and data versions advance together;
+output is `dist/v0.10.0/`. Names/coordinates remain reference and timezones unknown.
+
+The [existing owner grant](https://github.com/keepraw/airport-history/issues/19#issuecomment-6513409968)
+authorizes policy execution without repeated per-record approval; human final PR
+merge is still required. The original admission CLI replays the exact production
+bundle against frozen 0.9.0. Separate formal measurements reproduce 249 new
+resolved and 12,849 outside-window uncertain queries, with no existing answer or
+conflict changes. Actual local original verification and CI's offline receipt
+replay are documented separately in the [admission record](research/admissions/0.10.0/README.md).
+
+## Format compatibility: 0.9.0 (historical)
 +
 +0.9.0 adds seven explicitly owner-approved physical identities, six ICAO
 +assignments and eighteen scoped source records. Schema **3.0.0**, resolver
@@ -460,11 +480,13 @@ dataset, dossiers, evidence and blocked drafts are preserved.
 
 The [offline policy workflow](research/policy/README.md) evaluates existing
 research candidates against hard evidence predicates, prepares fixed medium-risk
-batches and measures the actual resolver effect. Its initial AAI ICAO policy is
-**draft**: no new policy or batch authorization exists and formal 0.9.0 is unchanged.
+batches and measures the actual resolver effect. Its AAI ICAO policy is
+**authorized** by the [existing owner grant](https://github.com/keepraw/airport-history/issues/19#issuecomment-6513409968).
+The [first production policy admission](research/admissions/0.10.0/README.md) is
+included in the formal 0.10.0 candidate; the medium-batch authorization registry is empty.
 Policy execution records an engine audit with no human reviewer; exact owner
 authorization is validated separately through the existing admission gate.
-Run `pnpm policy:validate` or read the [Chinese dry-run report](research/policy/generated/审核报告.zh-CN.md).
+Run `pnpm policy:validate` or read the [Chinese policy report](research/policy/generated/审核报告.zh-CN.md).
 
 ## License
 

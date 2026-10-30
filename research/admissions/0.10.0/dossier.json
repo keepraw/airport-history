@@ -1,0 +1,194 @@
+[
+  {
+    "boundaryAssessment": "Unknown first/last boundary retained; first and last local observation days excluded.",
+    "continuityAssessment": "Continuity is a bounded policy inference, not daily direct observation.",
+    "decision": "policy_accepted",
+    "evidenceSha256": "0090d91d788e35a9c03b7a7c817c877ac1e97a2fe1c5057c769a1d32472297f7",
+    "inputSha256": "10fcfff3f6f25609e46f4a88386c9d0940478f01f9c5fac2e70a272942520d4e",
+    "observations": [
+      {
+        "basis": "Recorded original/citation verification, replayed offline separately; one issuer.",
+        "claimScope": "Official named physical site, ARP and bounded ICAO observations only.",
+        "independentOriginal": true,
+        "observedOn": "2026-04-16",
+        "sourceFamily": "aai-aip",
+        "sourceId": "policy-aip-2026-04-16-veho"
+      },
+      {
+        "basis": "Recorded original/citation verification, replayed offline separately; one issuer.",
+        "claimScope": "Official named physical site, ARP and bounded ICAO observations only.",
+        "independentOriginal": true,
+        "observedOn": "2026-07-09",
+        "sourceFamily": "aai-aip",
+        "sourceId": "policy-aip-2026-07-09-veho"
+      }
+    ],
+    "policySha256": "3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958",
+    "policyVersion": "1.0.0",
+    "recordId": "apt_9acf6a6b-6e22-48c6-881c-d602429a9268",
+    "reviewMeaning": "Policy execution",
+    "reviewMode": "policy",
+    "reviewedByEngine": "official-aip-bounded-icao",
+    "reviewer": null
+  },
+  {
+    "boundaryAssessment": "Unknown first/last boundary retained; first and last local observation days excluded.",
+    "continuityAssessment": "Continuity is a bounded policy inference, not daily direct observation.",
+    "decision": "policy_accepted",
+    "evidenceSha256": "0090d91d788e35a9c03b7a7c817c877ac1e97a2fe1c5057c769a1d32472297f7",
+    "inputSha256": "10fcfff3f6f25609e46f4a88386c9d0940478f01f9c5fac2e70a272942520d4e",
+    "observations": [
+      {
+        "basis": "Recorded original/citation verification, replayed offline separately; one issuer.",
+        "claimScope": "Official named physical site, ARP and bounded ICAO observations only.",
+        "independentOriginal": true,
+        "observedOn": "2026-04-16",
+        "sourceFamily": "aai-aip",
+        "sourceId": "policy-aip-2026-04-16-veho"
+      },
+      {
+        "basis": "Recorded original/citation verification, replayed offline separately; one issuer.",
+        "claimScope": "Official named physical site, ARP and bounded ICAO observations only.",
+        "independentOriginal": true,
+        "observedOn": "2026-07-09",
+        "sourceFamily": "aai-aip",
+        "sourceId": "policy-aip-2026-07-09-veho"
+      }
+    ],
+    "policySha256": "3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958",
+    "policyVersion": "1.0.0",
+    "recordId": "global-proposal-hollongi-icao-veho",
+    "reviewMeaning": "Policy execution",
+    "reviewMode": "policy",
+    "reviewedByEngine": "official-aip-bounded-icao",
+    "reviewer": null
+  },
+  {
+    "boundaryAssessment": "Unknown first/last boundary retained; first and last local observation days excluded.",
+    "continuityAssessment": "Continuity is a bounded policy inference, not daily direct observation.",
+    "decision": "policy_accepted",
+    "evidenceSha256": "0bbf0610285f29bf74865515b7023297886c664217c03abf6aea3ce2142f50ed",
+    "inputSha256": "10fcfff3f6f25609e46f4a88386c9d0940478f01f9c5fac2e70a272942520d4e",
+    "observations": [
+      {
+        "basis": "Recorded original/citation verification, replayed offline separately; one issuer.",
+        "claimScope": "Official named physical site, ARP and bounded ICAO observations only.",
+        "independentOriginal": true,
+        "observedOn": "2026-04-16",
+        "sourceFamily": "aai-aip",
+        "sourceId": "policy-aip-2026-04-16-vokn"
+      },
+      {
+        "basis": "Recorded original/citation verification, replayed offline separately; one issuer.",
+        "claimScope": "Official named physical site, ARP and bounded ICAO observations only.",
+        "independentOriginal": true,
+        "observedOn": "2026-07-09",
+        "sourceFamily": "aai-aip",
+        "sourceId": "policy-aip-2026-07-09-vokn"
+      }
+    ],
+    "policySha256": "3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958",
+    "policyVersion": "1.0.0",
+    "recordId": "apt_58a2554f-6a9b-4ad7-bc2c-2550ad21b962",
+    "reviewMeaning": "Policy execution",
+    "reviewMode": "policy",
+    "reviewedByEngine": "official-aip-bounded-icao",
+    "reviewer": null
+  },
+  {
+    "boundaryAssessment": "Unknown first/last boundary retained; first and last local observation days excluded.",
+    "continuityAssessment": "Continuity is a bounded policy inference, not daily direct observation.",
+    "decision": "policy_accepted",
+    "evidenceSha256": "0bbf0610285f29bf74865515b7023297886c664217c03abf6aea3ce2142f50ed",
+    "inputSha256": "10fcfff3f6f25609e46f4a88386c9d0940478f01f9c5fac2e70a272942520d4e",
+    "observations": [
+      {
+        "basis": "Recorded original/citation verification, replayed offline separately; one issuer.",
+        "claimScope": "Official named physical site, ARP and bounded ICAO observations only.",
+        "independentOriginal": true,
+        "observedOn": "2026-04-16",
+        "sourceFamily": "aai-aip",
+        "sourceId": "policy-aip-2026-04-16-vokn"
+      },
+      {
+        "basis": "Recorded original/citation verification, replayed offline separately; one issuer.",
+        "claimScope": "Official named physical site, ARP and bounded ICAO observations only.",
+        "independentOriginal": true,
+        "observedOn": "2026-07-09",
+        "sourceFamily": "aai-aip",
+        "sourceId": "policy-aip-2026-07-09-vokn"
+      }
+    ],
+    "policySha256": "3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958",
+    "policyVersion": "1.0.0",
+    "recordId": "global-proposal-kannur-icao-vokn",
+    "reviewMeaning": "Policy execution",
+    "reviewMode": "policy",
+    "reviewedByEngine": "official-aip-bounded-icao",
+    "reviewer": null
+  },
+  {
+    "boundaryAssessment": "Unknown first/last boundary retained; first and last local observation days excluded.",
+    "continuityAssessment": "Continuity is a bounded policy inference, not daily direct observation.",
+    "decision": "policy_accepted",
+    "evidenceSha256": "e6ab58f211f6f69bca3ce8c50ec8d51a7c1e201e269c7005fb987597e035496c",
+    "inputSha256": "10fcfff3f6f25609e46f4a88386c9d0940478f01f9c5fac2e70a272942520d4e",
+    "observations": [
+      {
+        "basis": "Recorded original/citation verification, replayed offline separately; one issuer.",
+        "claimScope": "Official named physical site, ARP and bounded ICAO observations only.",
+        "independentOriginal": true,
+        "observedOn": "2026-04-16",
+        "sourceFamily": "aai-aip",
+        "sourceId": "policy-aip-2026-04-16-vasd"
+      },
+      {
+        "basis": "Recorded original/citation verification, replayed offline separately; one issuer.",
+        "claimScope": "Official named physical site, ARP and bounded ICAO observations only.",
+        "independentOriginal": true,
+        "observedOn": "2026-07-09",
+        "sourceFamily": "aai-aip",
+        "sourceId": "policy-aip-2026-07-09-vasd"
+      }
+    ],
+    "policySha256": "3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958",
+    "policyVersion": "1.0.0",
+    "recordId": "apt_fa1bf7a7-a97d-4676-9c9a-7871eda47767",
+    "reviewMeaning": "Policy execution",
+    "reviewMode": "policy",
+    "reviewedByEngine": "official-aip-bounded-icao",
+    "reviewer": null
+  },
+  {
+    "boundaryAssessment": "Unknown first/last boundary retained; first and last local observation days excluded.",
+    "continuityAssessment": "Continuity is a bounded policy inference, not daily direct observation.",
+    "decision": "policy_accepted",
+    "evidenceSha256": "e6ab58f211f6f69bca3ce8c50ec8d51a7c1e201e269c7005fb987597e035496c",
+    "inputSha256": "10fcfff3f6f25609e46f4a88386c9d0940478f01f9c5fac2e70a272942520d4e",
+    "observations": [
+      {
+        "basis": "Recorded original/citation verification, replayed offline separately; one issuer.",
+        "claimScope": "Official named physical site, ARP and bounded ICAO observations only.",
+        "independentOriginal": true,
+        "observedOn": "2026-04-16",
+        "sourceFamily": "aai-aip",
+        "sourceId": "policy-aip-2026-04-16-vasd"
+      },
+      {
+        "basis": "Recorded original/citation verification, replayed offline separately; one issuer.",
+        "claimScope": "Official named physical site, ARP and bounded ICAO observations only.",
+        "independentOriginal": true,
+        "observedOn": "2026-07-09",
+        "sourceFamily": "aai-aip",
+        "sourceId": "policy-aip-2026-07-09-vasd"
+      }
+    ],
+    "policySha256": "3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958",
+    "policyVersion": "1.0.0",
+    "recordId": "global-proposal-shirdi-icao-vasd",
+    "reviewMeaning": "Policy execution",
+    "reviewMode": "policy",
+    "reviewedByEngine": "official-aip-bounded-icao",
+    "reviewer": null
+  }
+]
