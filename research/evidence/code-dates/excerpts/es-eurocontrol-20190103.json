@@ -1,0 +1,32 @@
+{
+  "extractedTextSha256": "f33a7108e50c77c1f495c07eac52342331fa9d0df311c8e95958146cf637f142",
+  "normalizedTextSha256": "c11424b21dd24648e54001368505e063d299d789e08363153c4aa1363449e749",
+  "originalSha256": "955a407edec410743440d610d2c00314f588e69e25c5b4ac8d84c70639467eb6",
+  "sourceId": "es-eurocontrol-20190103",
+  "spans": [
+    {
+      "characterEnd": 5324,
+      "characterStart": 5302,
+      "citationId": "es-eurocontrol-20190103-1",
+      "page": 6,
+      "quote": "AIRAC AIP AMDT 12/2018",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 5949,
+      "characterStart": 5898,
+      "citationId": "es-eurocontrol-20190103-2",
+      "page": 6,
+      "quote": "To introduce new Public Aerodrome of MURCIA (LEMI);",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 4828,
+      "characterStart": 4802,
+      "citationId": "es-eurocontrol-20190103-3",
+      "page": 5,
+      "quote": "Implementation 03 JAN 2019",
+      "representation": "normalized_text"
+    }
+  ]
+}

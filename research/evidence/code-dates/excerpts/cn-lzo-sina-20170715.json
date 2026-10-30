@@ -1,0 +1,32 @@
+{
+  "extractedTextSha256": "84af192ca632218f54a3430b538262ff78b6888ea9e8c2499ad52bd42a91c1d2",
+  "normalizedTextSha256": "d0539ae24b322c5071d997d5ee69ca316968b3c6b463d5f56b3f654b6f0eb803",
+  "originalSha256": "247b83f61892aa570117ac29954192edc71abc5f4a0cc007803593f904f80f9b",
+  "sourceId": "cn-lzo-sina-20170715",
+  "spans": [
+    {
+      "characterEnd": 131,
+      "characterStart": 96,
+      "citationId": "cn-lzo-sina-20170715-1",
+      "page": null,
+      "quote": "LUZHOU Airport 机场三字码：LZO 机场四字码：ZULZ",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 216,
+      "characterStart": 210,
+      "citationId": "cn-lzo-sina-20170715-2",
+      "page": null,
+      "quote": "泸州蓝田机场",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 1762,
+      "characterStart": 1743,
+      "citationId": "cn-lzo-sina-20170715-3",
+      "page": null,
+      "quote": "本数据由去哪儿qunar.com等提供",
+      "representation": "normalized_text"
+    }
+  ]
+}

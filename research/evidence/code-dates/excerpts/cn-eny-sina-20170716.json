@@ -1,0 +1,32 @@
+{
+  "extractedTextSha256": "95709f6fcd65dfe824b8a0de6ef167f44490db942e6b46f802cf15035e26716d",
+  "normalizedTextSha256": "72ec8282f431e40fb52c172270f1d15dfb41377e4db2438fde3036ca03656ff4",
+  "originalSha256": "764d9424c4faa616ffaa2fbe83bfee8df5af7b2eb513cbdb305fccb1d6e3bd70",
+  "sourceId": "cn-eny-sina-20170716",
+  "spans": [
+    {
+      "characterEnd": 134,
+      "characterStart": 100,
+      "citationId": "cn-eny-sina-20170716-1",
+      "page": null,
+      "quote": "YANAN Airport 机场三字码：ENY 机场四字码：ZLYA",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 99,
+      "characterStart": 91,
+      "citationId": "cn-eny-sina-20170716-2",
+      "page": null,
+      "quote": "延安二十里铺机场",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 1488,
+      "characterStart": 1469,
+      "citationId": "cn-eny-sina-20170716-3",
+      "page": null,
+      "quote": "本数据由去哪儿qunar.com等提供",
+      "representation": "normalized_text"
+    }
+  ]
+}

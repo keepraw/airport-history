@@ -1,0 +1,24 @@
+{
+  "extractedTextSha256": "eee4bbe9ff9ce47080fa2e5f9c27a9b459a89a709200df1f42da8be6cd6a5439",
+  "normalizedTextSha256": "887204ccc7c147191f4d35c6e67b12df8853c56b0847b130a84ff31a6f17ea0b",
+  "originalSha256": "fc40090a3c427b38910c3b8f29cf8a8a4cf15e8de723b172b130b048497452cd",
+  "sourceId": "de-eurocontrol-lssip-2020",
+  "spans": [
+    {
+      "characterEnd": 1243,
+      "characterStart": 1220,
+      "citationId": "de-eurocontrol-lssip-2020-1",
+      "page": 5,
+      "quote": "LSSIP Year 2020 Germany",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 137837,
+      "characterStart": 137788,
+      "citationId": "de-eurocontrol-lssip-2020-2",
+      "page": 106,
+      "quote": "EDDB - Berlin - Brandenburg International Airport",
+      "representation": "normalized_text"
+    }
+  ]
+}

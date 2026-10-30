@@ -1,0 +1,40 @@
+{
+  "extractedTextSha256": "25174213cbd9494b7b6c700ddeadb886b434f926a192cfc289996f5c1d5b08cd",
+  "normalizedTextSha256": "b837d88b99957f2ae9577807a9807380fe780d5192d07f474db5d2c3ff17987b",
+  "originalSha256": "eabb00ceb1321366a2882f8539420b369aa38a5511cccfc9e0f9c81f7336cb54",
+  "sourceId": "cn-ybp-sina-20170715",
+  "spans": [
+    {
+      "characterEnd": 134,
+      "characterStart": 100,
+      "citationId": "cn-ybp-sina-20170715-1",
+      "page": null,
+      "quote": "YIBIN Airport 机场三字码：YBP 机场四字码：ZUYB",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 244,
+      "characterStart": 233,
+      "citationId": "cn-ybp-sina-20170715-2",
+      "page": null,
+      "quote": "宜宾市区—宜宾菜坝机场",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 468,
+      "characterStart": 449,
+      "citationId": "cn-ybp-sina-20170715-3",
+      "page": null,
+      "quote": "本数据由去哪儿qunar.com等提供",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 99,
+      "characterStart": 91,
+      "citationId": "cn-ybp-sina-20170715-4",
+      "page": null,
+      "quote": "宜宾宜宾高坪机场",
+      "representation": "normalized_text"
+    }
+  ]
+}

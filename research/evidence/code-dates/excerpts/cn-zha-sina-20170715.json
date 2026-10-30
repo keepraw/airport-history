@@ -1,0 +1,32 @@
+{
+  "extractedTextSha256": "491b5d1f97aac9e3904df1b427738eb9cc761e539c8e936802d5961cfb2649b1",
+  "normalizedTextSha256": "48b599fd15d62a8c9f4c83ba62abc7f1bdb5d485288005187a5fe6ae3eb53909",
+  "originalSha256": "2a67a857ae50901ad8494dd7eb0a72bdc4d0802b69389f61dd227aacd7c8491c",
+  "sourceId": "cn-zha-sina-20170715",
+  "spans": [
+    {
+      "characterEnd": 135,
+      "characterStart": 96,
+      "citationId": "cn-zha-sina-20170715-1",
+      "page": null,
+      "quote": "ZHANGJIANG Airport 机场三字码：ZHA 机场四字码：ZGZJ",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 177,
+      "characterStart": 171,
+      "citationId": "cn-zha-sina-20170715-2",
+      "page": null,
+      "quote": "原称西厅机场",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 704,
+      "characterStart": 685,
+      "citationId": "cn-zha-sina-20170715-3",
+      "page": null,
+      "quote": "本数据由去哪儿qunar.com等提供",
+      "representation": "normalized_text"
+    }
+  ]
+}

@@ -1,0 +1,1482 @@
+{
+  "baselineCommit": "80df6f95143c33e861b74243637e8e4a7ff92172",
+  "cases": [
+    {
+      "approvedCompleteLocalDateWindow": null,
+      "caseKey": "luzhou",
+      "codeEvidenceInventory": [
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:LZO",
+          "directObservationSourceIds": [
+            "cn-lzo-sina-20170715",
+            "iata-lzo-20261030"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "ICAO:ZULZ",
+          "directObservationSourceIds": [
+            "cn-lzo-sina-20170715"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        }
+      ],
+      "codes": [
+        "IATA:LZO",
+        "ICAO:ZULZ"
+      ],
+      "decision": "pending",
+      "existingPendingSiteIds": {
+        "luzhou-new": "apt_f11bdf7d-d81d-46fc-a94f-8c8c42d4e245",
+        "luzhou-old": "apt_56b57bca-08d5-4b5e-944e-1e9cce968a0a"
+      },
+      "finalWithdrawalOn": null,
+      "findingsZh": [
+        "取得 2017-07-15T19:21:00Z 迁场前网页，明确并列 LZO/ZULZ 与蓝田场名；中国本地捕获日为 2017-07-16。",
+        "IATA 2026-10-30 精确代码行直接返回 Luzhou / YUNLONG / LZO，补到分配机构当前具名新场关联。"
+      ],
+      "firstAllocationOn": null,
+      "formalIdentityAction": "none",
+      "formalNewResolvedQueries": 0,
+      "labelZh": "泸州蓝田／云龙",
+      "limitationsZh": [
+        "新浪注明数据由去哪儿等提供，仍是同一目录家族；原写作日未知。",
+        "迁场前捕获优于 2019 陈旧页，但不证明捕获日整天有效、旧场最后代码使用或 IATA 行政交接。",
+        "新场 ICAO 首期原件仍未取得；不能用未来气象表或当前 IATA 查询反推。"
+      ],
+      "market": "中国大陆",
+      "missingOriginalsZh": [
+        "2018-09 前蓝田 AD 2.1/2.2 原件和有效版次；云龙首期 AIP/AIRAC；IATA 迁转通知。"
+      ],
+      "observations": [
+        {
+          "allocationDateProved": false,
+          "code": "LZO",
+          "evidenceType": "archived_directory_statement",
+          "localObservationDate": "2017-07-16",
+          "namespace": "IATA",
+          "observationInstant": "2017-07-15T19:21:00+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "蓝田",
+          "sourceId": "cn-lzo-sina-20170715",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "ZULZ",
+          "evidenceType": "archived_directory_statement",
+          "localObservationDate": "2017-07-16",
+          "namespace": "ICAO",
+          "observationInstant": "2017-07-15T19:21:00+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "蓝田",
+          "sourceId": "cn-lzo-sina-20170715",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "LZO",
+          "evidenceType": "current_issuing_body_lookup",
+          "localObservationDate": "2026-10-30",
+          "namespace": "IATA",
+          "observationInstant": "2026-10-30T07:26:57.763901+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "云龙",
+          "sourceId": "iata-lzo-20261030",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        }
+      ],
+      "physicalIdentityZh": "蓝田场名及旧跑道描述与云龙具名查询分开；复用原待审两场 ID。",
+      "priorCasePath": "research/evidence/priority-markets/assessments.json",
+      "reviewer": null,
+      "sourceIds": [
+        "cn-lzo-sina-20170715",
+        "iata-lzo-20261030"
+      ],
+      "timezone": "Asia/Shanghai"
+    },
+    {
+      "approvedCompleteLocalDateWindow": null,
+      "caseKey": "lianyungang",
+      "codeEvidenceInventory": [
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:LYG",
+          "directObservationSourceIds": [
+            "cn-lyg-sina-20170715",
+            "iata-lyg-20261030"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "ICAO:ZSLG",
+          "directObservationSourceIds": [
+            "cn-lyg-sina-20170715"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        }
+      ],
+      "codes": [
+        "IATA:LYG",
+        "ICAO:ZSLG"
+      ],
+      "decision": "pending",
+      "existingPendingSiteIds": {
+        "lianyungang-new": "apt_64b5eaa6-a984-4816-86d9-d8eb71c91451",
+        "lianyungang-old": "apt_6f1a6ff3-98db-4e58-95fc-cc78bd5aa836"
+      },
+      "finalWithdrawalOn": null,
+      "findingsZh": [
+        "取得 2017-07-15T18:53:37Z 的白塔埠具名 LYG/ZSLG 目录正文，较既有 2021 URL 关联更直接。",
+        "IATA 当前精确代码行返回 Huaguoshan / LYG；另有 2021-11-23 川航公告预告 12-02 零时转场，但公告未写 LYG。"
+      ],
+      "firstAllocationOn": null,
+      "formalIdentityAction": "none",
+      "formalNewResolvedQueries": 0,
+      "labelZh": "连云港白塔埠／花果山",
+      "limitationsZh": [
+        "航班转场预告不证明实际执行，也不是代码首配通知。",
+        "2017 与当前两个时点不能跨四年空档插值；2021 旧目录快照继续按原结论保留。"
+      ],
+      "market": "中国大陆",
+      "missingOriginalsZh": [
+        "白塔埠最后有效 AD 2、花果山首期受控 AD 2、军民使用边界、IATA 迁转原通知。"
+      ],
+      "observations": [
+        {
+          "allocationDateProved": false,
+          "code": "LYG",
+          "evidenceType": "archived_directory_statement",
+          "localObservationDate": "2017-07-16",
+          "namespace": "IATA",
+          "observationInstant": "2017-07-15T18:53:37+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "白塔埠",
+          "sourceId": "cn-lyg-sina-20170715",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "ZSLG",
+          "evidenceType": "archived_directory_statement",
+          "localObservationDate": "2017-07-16",
+          "namespace": "ICAO",
+          "observationInstant": "2017-07-15T18:53:37+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "白塔埠",
+          "sourceId": "cn-lyg-sina-20170715",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "LYG",
+          "evidenceType": "current_issuing_body_lookup",
+          "localObservationDate": "2026-10-30",
+          "namespace": "IATA",
+          "observationInstant": "2026-10-30T07:26:57.764610+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "花果山",
+          "sourceId": "iata-lyg-20261030",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        }
+      ],
+      "physicalIdentityZh": "目录明确白塔埠军民合用旧场；花果山独立具名。民航迁出不等于军事场址消失。",
+      "priorCasePath": "research/evidence/priority-markets/assessments.json",
+      "reviewer": null,
+      "sourceIds": [
+        "cn-lyg-sina-20170715",
+        "iata-lyg-20261030",
+        "cn-lyg-sichuan-202111"
+      ],
+      "timezone": "Asia/Shanghai"
+    },
+    {
+      "approvedCompleteLocalDateWindow": null,
+      "caseKey": "yanan",
+      "codeEvidenceInventory": [
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:ENY",
+          "directObservationSourceIds": [
+            "cn-eny-sina-20170716",
+            "iata-eny-20261030"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "ICAO:ZLYA",
+          "directObservationSourceIds": [
+            "cn-eny-sina-20170716"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        }
+      ],
+      "codes": [
+        "IATA:ENY",
+        "ICAO:ZLYA"
+      ],
+      "decision": "pending",
+      "existingPendingSiteIds": {
+        "yanan-new": "apt_ebdabf02-ae37-4295-9667-39ea914e3c05",
+        "yanan-old": "apt_8deac363-2415-499d-8308-8f10de2528c8"
+      },
+      "finalWithdrawalOn": null,
+      "findingsZh": [
+        "取得 2017-07-16T00:22:40Z 的二十里铺具名正文及明确 ENY/ZLYA；不再只靠 2019 年页面路由。",
+        "IATA 当前精确代码行返回 Nanniwan / ENY；同一模糊查询还返回 ENI，已排除非 ENY 行。"
+      ],
+      "firstAllocationOn": null,
+      "formalIdentityAction": "none",
+      "formalNewResolvedQueries": 0,
+      "labelZh": "延安二十里铺／南泥湾",
+      "limitationsZh": [
+        "2019 年陈旧捕获继续不能作 2019 有效观察。",
+        "2017 网页发表关联不是官方代码有效起止；2018-11-08 运营事件仍与分配事实分开。"
+      ],
+      "market": "中国大陆",
+      "missingOriginalsZh": [
+        "2018-11-08 前旧场 AD 2、南泥湾初始 AIP、转场 NOTAM、IATA 分配/交接原通知。"
+      ],
+      "observations": [
+        {
+          "allocationDateProved": false,
+          "code": "ENY",
+          "evidenceType": "archived_directory_statement",
+          "localObservationDate": "2017-07-16",
+          "namespace": "IATA",
+          "observationInstant": "2017-07-16T00:22:40+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "二十里铺",
+          "sourceId": "cn-eny-sina-20170716",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "ZLYA",
+          "evidenceType": "archived_directory_statement",
+          "localObservationDate": "2017-07-16",
+          "namespace": "ICAO",
+          "observationInstant": "2017-07-16T00:22:40+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "二十里铺",
+          "sourceId": "cn-eny-sina-20170716",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "ENY",
+          "evidenceType": "current_issuing_body_lookup",
+          "localObservationDate": "2026-10-30",
+          "namespace": "IATA",
+          "observationInstant": "2026-10-30T07:26:57.765626+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "南泥湾",
+          "sourceId": "iata-eny-20261030",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        }
+      ],
+      "physicalIdentityZh": "旧页明确 1980 年迁至东二十里铺及旧跑道，当前 IATA 新场名为 Nanniwan；保留两场 ID。",
+      "priorCasePath": "research/evidence/priority-markets/assessments.json",
+      "reviewer": null,
+      "sourceIds": [
+        "cn-eny-sina-20170716",
+        "iata-eny-20261030"
+      ],
+      "timezone": "Asia/Shanghai"
+    },
+    {
+      "approvedCompleteLocalDateWindow": null,
+      "caseKey": "yibin",
+      "codeEvidenceInventory": [
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:YBP",
+          "directObservationSourceIds": [
+            "cn-ybp-sina-20170715",
+            "iata-ybp-20261030"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "ICAO:ZUYB",
+          "directObservationSourceIds": [
+            "cn-ybp-sina-20170715"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        }
+      ],
+      "codes": [
+        "IATA:YBP",
+        "ICAO:ZUYB"
+      ],
+      "decision": "pending",
+      "existingPendingSiteIds": {
+        "yibin-new": "apt_8354da99-7d18-4329-bf7b-4ed042a4ad72",
+        "yibin-old": "apt_bbf9f2c1-fc01-4ed7-a4aa-74e6ed8ca45f"
+      },
+      "finalWithdrawalOn": null,
+      "findingsZh": [
+        "新增 2017-07-15T19:31:07Z 的明确 YBP/ZUYB 旧目录快照，交通段写菜坝。既有 2019 旧场资料并非本轮首次取得。",
+        "IATA 当前精确代码行返回 Wuliangye Airport / YBP。"
+      ],
+      "firstAllocationOn": null,
+      "formalIdentityAction": "none",
+      "formalNewResolvedQueries": 0,
+      "labelZh": "宜宾菜坝／五粮液",
+      "limitationsZh": [
+        "保留标题冲突，不能把整页机械判作无歧义菜坝代码证明。",
+        "2019-12-05 首航不是 YBP 首配；菜坝民航停航不证明物理/军事场址关闭。"
+      ],
+      "market": "中国大陆",
+      "missingOriginalsZh": [
+        "菜坝最后有效航空公司/AD 2 代码原件、五粮液首期 AD 2、军用与民用状态原决定。"
+      ],
+      "observations": [
+        {
+          "allocationDateProved": false,
+          "code": "YBP",
+          "evidenceType": "archived_directory_statement",
+          "localObservationDate": "2017-07-16",
+          "namespace": "IATA",
+          "observationInstant": "2017-07-15T19:31:07+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "菜坝",
+          "sourceId": "cn-ybp-sina-20170715",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "ZUYB",
+          "evidenceType": "archived_directory_statement",
+          "localObservationDate": "2017-07-16",
+          "namespace": "ICAO",
+          "observationInstant": "2017-07-15T19:31:07+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "菜坝",
+          "sourceId": "cn-ybp-sina-20170715",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "YBP",
+          "evidenceType": "current_issuing_body_lookup",
+          "localObservationDate": "2026-10-30",
+          "namespace": "IATA",
+          "observationInstant": "2026-10-30T07:26:57.766311+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "五粮液",
+          "sourceId": "iata-ybp-20261030",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        }
+      ],
+      "physicalIdentityZh": "原页标题误写“宜宾宜宾高坪机场”，正文/交通为菜坝；错误标题作为真实反证保留，不能直接批准物理身份。",
+      "priorCasePath": "research/evidence/priority-markets/assessments.json",
+      "reviewer": null,
+      "sourceIds": [
+        "cn-ybp-sina-20170715",
+        "iata-ybp-20261030"
+      ],
+      "timezone": "Asia/Shanghai"
+    },
+    {
+      "approvedCompleteLocalDateWindow": null,
+      "caseKey": "ankang",
+      "codeEvidenceInventory": [
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:AKA",
+          "directObservationSourceIds": [
+            "cn-aka-sina-20170715",
+            "iata-aka-20261030"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "ICAO:ZLAK",
+          "directObservationSourceIds": [
+            "cn-aka-sina-20170715"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        }
+      ],
+      "codes": [
+        "IATA:AKA",
+        "ICAO:ZLAK"
+      ],
+      "decision": "pending",
+      "existingPendingSiteIds": {
+        "ankang-new": "apt_68a848c7-9db9-4233-b0d9-65eb7ed7407e",
+        "ankang-old": "apt_0dc2a2f7-1222-46d2-afac-c16cbddb24d6"
+      },
+      "finalWithdrawalOn": null,
+      "findingsZh": [
+        "取得 2017-07-15T19:42:36Z 的 AKA/ZLAK 目录，地点五里镇、旧 1600×30 米跑道；但未明确写“五里铺”。",
+        "IATA 当前精确代码行返回 Fuqiang / AKA；许可 09-18 与首航 09-25 的既有官方证据继续分开。"
+      ],
+      "firstAllocationOn": null,
+      "formalIdentityAction": "none",
+      "formalNewResolvedQueries": 0,
+      "labelZh": "安康五里铺／富强",
+      "limitationsZh": [
+        "旧页还声称每日往返西安，属于可能陈旧运营信息；不能证明 2017 真实航班。",
+        "未取得五里铺具名的行政代码原件；2018 停航后的代码状态仍未知。"
+      ],
+      "market": "中国大陆",
+      "missingOriginalsZh": [
+        "停航前五里铺具名代码/ARP 原件、停航后代码行政状态、富强首期 AIP 与 ICAO 分配文件。"
+      ],
+      "observations": [
+        {
+          "allocationDateProved": false,
+          "code": "AKA",
+          "evidenceType": "archived_directory_statement",
+          "localObservationDate": "2017-07-16",
+          "namespace": "IATA",
+          "observationInstant": "2017-07-15T19:42:36+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "旧安康场址假设",
+          "sourceId": "cn-aka-sina-20170715",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "ZLAK",
+          "evidenceType": "archived_directory_statement",
+          "localObservationDate": "2017-07-16",
+          "namespace": "ICAO",
+          "observationInstant": "2017-07-15T19:42:36+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "旧安康场址假设",
+          "sourceId": "cn-aka-sina-20170715",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "AKA",
+          "evidenceType": "current_issuing_body_lookup",
+          "localObservationDate": "2026-10-30",
+          "namespace": "IATA",
+          "observationInstant": "2026-10-30T07:26:58.526310+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "富强",
+          "sourceId": "iata-aka-20261030",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        }
+      ],
+      "physicalIdentityZh": "旧目录可加强旧场假设，五里镇同地名不足以独立定五里铺/富强。缺旧场正式 ARP。",
+      "priorCasePath": "research/evidence/priority-markets/assessments.json",
+      "reviewer": null,
+      "sourceIds": [
+        "cn-aka-sina-20170715",
+        "iata-aka-20261030"
+      ],
+      "timezone": "Asia/Shanghai"
+    },
+    {
+      "approvedCompleteLocalDateWindow": null,
+      "caseKey": "zhanjiang",
+      "codeEvidenceInventory": [
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:ZHA",
+          "directObservationSourceIds": [
+            "cn-zha-sina-20170715",
+            "iata-zha-20261030"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "ICAO:ZGZJ",
+          "directObservationSourceIds": [
+            "cn-zha-sina-20170715"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        }
+      ],
+      "codes": [
+        "IATA:ZHA",
+        "ICAO:ZGZJ"
+      ],
+      "decision": "pending",
+      "existingPendingSiteIds": {},
+      "finalWithdrawalOn": null,
+      "findingsZh": [
+        "2017-07-15T17:47:59Z 旧页明确 ZHA/ZGZJ、湛江西郊/原称西厅；比此前泛城市页更具体。",
+        "政府 2020-A 净空图引用截至 2020-03-20 的 ZGZJ AD 2.8；口岸协会给出中心 21°13′02″N 110°21′27″E。",
+        "IATA 当前精确代码行明确 Wuchuan / ZHA。"
+      ],
+      "firstAllocationOn": null,
+      "formalIdentityAction": "none",
+      "formalNewResolvedQueries": 0,
+      "labelZh": "湛江旧民航场址／吴川",
+      "limitationsZh": [
+        "仍未取得旧民航正式 AD 2.2 ARP 和场界；物理身份尚不能批准。",
+        "2020 图的数据截止日、2020-07-13 管理公告日期、2025 附件 Last-Modified 均不直接是代码有效日。"
+      ],
+      "market": "中国大陆",
+      "missingOriginalsZh": [
+        "旧民航正式 ARP/场界及专属 ZHA 关联、吴川首期 AD 2、转场代码行政原件。"
+      ],
+      "observations": [
+        {
+          "allocationDateProved": false,
+          "code": "ZHA",
+          "evidenceType": "archived_directory_statement",
+          "localObservationDate": "2017-07-16",
+          "namespace": "IATA",
+          "observationInstant": "2017-07-15T17:47:59+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "旧西厅民航场址假设",
+          "sourceId": "cn-zha-sina-20170715",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "ZGZJ",
+          "evidenceType": "archived_directory_statement",
+          "localObservationDate": "2017-07-16",
+          "namespace": "ICAO",
+          "observationInstant": "2017-07-15T17:47:59+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "旧西厅民航场址假设",
+          "sourceId": "cn-zha-sina-20170715",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "ZHA",
+          "evidenceType": "current_issuing_body_lookup",
+          "localObservationDate": "2026-10-30",
+          "namespace": "IATA",
+          "observationInstant": "2026-10-30T07:26:58.664173+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "吴川",
+          "sourceId": "iata-zha-20261030",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        }
+      ],
+      "physicalIdentityZh": "旧民航候选范围更具体；口岸中心不等于正式 ARP。政府图只保留最小文字引用，不提交整图，也不选择遂溪/坡头军场。",
+      "priorCasePath": "research/evidence/priority-markets/assessments.json",
+      "reviewer": null,
+      "sourceIds": [
+        "cn-zha-sina-20170715",
+        "iata-zha-20261030",
+        "cn-zha-protection-2020",
+        "cn-zha-protection-notice",
+        "cn-zha-port-20190218"
+      ],
+      "timezone": "Asia/Shanghai"
+    },
+    {
+      "approvedCompleteLocalDateWindow": null,
+      "caseKey": "dazhou",
+      "codeEvidenceInventory": [
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:DAX",
+          "directObservationSourceIds": [
+            "iata-dax-20261030"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:DZH",
+          "directObservationSourceIds": [
+            "iata-dzh-20261030"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        }
+      ],
+      "codes": [
+        "IATA:DAX",
+        "IATA:DZH"
+      ],
+      "decision": "pending",
+      "existingPendingSiteIds": {},
+      "finalWithdrawalOn": null,
+      "findingsZh": [
+        "2022-05-07 川航 DAX→DZH 转场公告为既有原件，本轮精确字节复验，不重复归功。",
+        "IATA 当前仍返回 DAX / Heshi，并另列 DZH / Dazhou Jinya；DAX 搜索还命中 PKX，非精确代码行已排除。"
+      ],
+      "firstAllocationOn": null,
+      "formalIdentityAction": "none",
+      "formalNewResolvedQueries": 0,
+      "labelZh": "达州河市／金垭",
+      "limitationsZh": [
+        "当前仍可检索到旧 DAX，直接反对“2022 民航停航必定等于 IATA 撤码”的推断。",
+        "当前字典结果不能保证旧机场运营，不能将预订/航班转场变为首次分配。"
+      ],
+      "market": "中国大陆",
+      "missingOriginalsZh": [
+        "河市最后有效 AD 2、金垭首期 AD 2、DAX/DZH 行政分配/撤销原件。"
+      ],
+      "observations": [
+        {
+          "allocationDateProved": false,
+          "code": "DAX",
+          "evidenceType": "current_issuing_body_lookup",
+          "localObservationDate": "2026-10-30",
+          "namespace": "IATA",
+          "observationInstant": "2026-10-30T07:26:58.704787+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "Heshi",
+          "sourceId": "iata-dax-20261030",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "DZH",
+          "evidenceType": "current_issuing_body_lookup",
+          "localObservationDate": "2026-10-30",
+          "namespace": "IATA",
+          "observationInstant": "2026-10-30T07:26:58.751771+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "Dazhou Jinya",
+          "sourceId": "iata-dzh-20261030",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Shanghai",
+          "validityWindow": null
+        }
+      ],
+      "physicalIdentityZh": "河市与金垭为两个不同代码的独立场址，不是同码迁场。",
+      "priorCasePath": "research/evidence/markets/assessments.json",
+      "reviewer": null,
+      "sourceIds": [
+        "cn-dazhou-sichuan-202205",
+        "iata-dax-20261030",
+        "iata-dzh-20261030"
+      ],
+      "timezone": "Asia/Shanghai"
+    },
+    {
+      "approvedCompleteLocalDateWindow": null,
+      "caseKey": "chubu",
+      "codeEvidenceInventory": [
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:NGO",
+          "directObservationSourceIds": [
+            "iata-ngo-20261030"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "ICAO:RJGG",
+          "directObservationSourceIds": [],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        }
+      ],
+      "codes": [
+        "IATA:NGO",
+        "ICAO:RJGG"
+      ],
+      "decision": "pending",
+      "existingPendingSiteIds": {},
+      "finalWithdrawalOn": null,
+      "findingsZh": [
+        "JMA 第179号原件（2004-12-28）将 RJGG 正规 24 小时气象业务开始定为 2005-02-16 08:30 JST，早于开港。",
+        "原件另分试验数据与 2005-01-20 至02-15 白天的正式观测；不能把试发报当机场开航。",
+        "IATA 当前 NGO 同时返回 Chubu Centrair Intl 和 Metropolitan Area，必须区分机场与城市行。"
+      ],
+      "firstAllocationOn": null,
+      "formalIdentityAction": "none",
+      "formalNewResolvedQueries": 0,
+      "labelZh": "中部 NGO／RJGG",
+      "limitationsZh": [
+        "JMA 日期只证明公告中的气象报文安排，不是 ICAO 行政首配，也不是已执行核验。",
+        "仍未取得 2005 年 NGO/NKM 的 IATA 行政交接通知。"
+      ],
+      "market": "日本",
+      "missingOriginalsZh": [
+        "2005-02 前后 AIS Japan AIP/AIRAC、IATA NGO→NKM/新NGO 分配原件。"
+      ],
+      "observations": [
+        {
+          "allocationDateProved": false,
+          "code": "NGO",
+          "evidenceType": "current_issuing_body_lookup",
+          "localObservationDate": "2026-10-30",
+          "namespace": "IATA",
+          "observationInstant": "2026-10-30T07:26:57.764197+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "Chubu Centrair Intl; airport row only",
+          "sourceId": "iata-ngo-20261030",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Tokyo",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "RJGG",
+          "evidenceType": "announced_meteorological_schedule",
+          "localObservationDate": "2026-10-30",
+          "namespace": "MET",
+          "observationInstant": "2026-10-30T07:23:43.101219+00:00",
+          "publicationOn": "2004-12-28",
+          "siteHypothesis": "中部气象服务",
+          "sourceId": "jp-jma-rjgg-20041228",
+          "sourceStatementOn": "2004-12-28",
+          "timezone": "Asia/Tokyo",
+          "validityWindow": null
+        }
+      ],
+      "physicalIdentityZh": "复用 PR22 中部与县营场独立坐标资料；不合并两场。",
+      "priorCasePath": "research/evidence/priority-markets/assessments.json",
+      "reviewer": null,
+      "sourceIds": [
+        "jp-jma-rjgg-20041228",
+        "iata-ngo-20261030"
+      ],
+      "timezone": "Asia/Tokyo"
+    },
+    {
+      "approvedCompleteLocalDateWindow": null,
+      "caseKey": "komaki",
+      "codeEvidenceInventory": [
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:NKM",
+          "directObservationSourceIds": [
+            "iata-nkm-20261030"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "ICAO:RJNA",
+          "directObservationSourceIds": [],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "ICAO:RJNN",
+          "directObservationSourceIds": [],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        }
+      ],
+      "codes": [
+        "IATA:NKM",
+        "ICAO:RJNA",
+        "ICAO:RJNN"
+      ],
+      "decision": "pending",
+      "existingPendingSiteIds": {},
+      "finalWithdrawalOn": null,
+      "findingsZh": [
+        "JMA 第182号（2005-02-09）明确旧名古屋 RJNN 气象报文于02-16 24:00 JST 结束，RJNA 观测于02-17 00:00 JST 开始。",
+        "当前 IATA 明确 Nagoya (Komaki) / NKM；历史调查必须补入 RJNN，不能把 RJNA 回填到全部旧机场时代。"
+      ],
+      "firstAllocationOn": null,
+      "formalIdentityAction": "none",
+      "formalNewResolvedQueries": 0,
+      "labelZh": "县营名古屋／旧名古屋",
+      "limitationsZh": [
+        "气象报文日期具有明确命名空间；没有据此生成 ICAO 首配/撤销或 IATA 交接记录。"
+      ],
+      "market": "日本",
+      "missingOriginalsZh": [
+        "旧 RJNN 和新 RJNA 历史 AIP、2005 NGO/NKM 正式分配通知及实际执行观察。"
+      ],
+      "observations": [
+        {
+          "allocationDateProved": false,
+          "code": "NKM",
+          "evidenceType": "current_issuing_body_lookup",
+          "localObservationDate": "2026-10-30",
+          "namespace": "IATA",
+          "observationInstant": "2026-10-30T07:26:57.763339+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "Nagoya (Komaki)",
+          "sourceId": "iata-nkm-20261030",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Tokyo",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "RJNN",
+          "evidenceType": "announced_meteorological_schedule",
+          "localObservationDate": "2026-10-30",
+          "namespace": "MET",
+          "observationInstant": "2026-10-30T07:23:43.100632+00:00",
+          "publicationOn": "2005-02-09",
+          "siteHypothesis": "旧名古屋气象服务",
+          "sourceId": "jp-jma-rjnn-rjna-20050209",
+          "sourceStatementOn": "2005-02-09",
+          "timezone": "Asia/Tokyo",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "RJNA",
+          "evidenceType": "announced_meteorological_schedule",
+          "localObservationDate": "2026-10-30",
+          "namespace": "MET",
+          "observationInstant": "2026-10-30T07:23:43.100632+00:00",
+          "publicationOn": "2005-02-09",
+          "siteHypothesis": "县营名古屋观测服务",
+          "sourceId": "jp-jma-rjnn-rjna-20050209",
+          "sourceStatementOn": "2005-02-09",
+          "timezone": "Asia/Tokyo",
+          "validityWindow": null
+        }
+      ],
+      "physicalIdentityZh": "原小牧场址的管理/业务改变与中部新场分开；气象官署变更不证明物理场址新建。",
+      "priorCasePath": "research/evidence/priority-markets/assessments.json",
+      "reviewer": null,
+      "sourceIds": [
+        "jp-jma-rjnn-rjna-20050209",
+        "iata-nkm-20261030"
+      ],
+      "timezone": "Asia/Tokyo"
+    },
+    {
+      "approvedCompleteLocalDateWindow": null,
+      "caseKey": "incheon",
+      "codeEvidenceInventory": [
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "ICAO:RKSI",
+          "directObservationSourceIds": [
+            "kr-20250501-rksi"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:ICN",
+          "directObservationSourceIds": [
+            "kr-iata-code-search"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        }
+      ],
+      "codes": [
+        "ICAO:RKSI",
+        "IATA:ICN"
+      ],
+      "decision": "pending",
+      "existingPendingSiteIds": {},
+      "finalWithdrawalOn": null,
+      "findingsZh": [
+        "在既有 04-16、05-14 原件之间补到05-01 AD 2，代码/名称与 ARP 372745N 1262621E 一致；原两期逐字节复验。",
+        "筛查三期修订原件、三期 GEN0.3/SUP 目录、51 个相关原件链接（49 个不同字节流），以及官方接口1061条返回记录的代码/场址变更线索。",
+        "IATA 当前独立核实 ICN；它不证明2025年的IATA状态。"
+      ],
+      "firstAllocationOn": null,
+      "formalIdentityAction": "none",
+      "formalNewResolvedQueries": 0,
+      "labelZh": "仁川",
+      "limitationsZh": [
+        "原 54 查询窗口仍只是未授权假设；缺独立人工物理复核。",
+        "NOTAM 请求2001年至2025-05，但最早返回2023-10-31；历史完整性、PERM/替代/撤销链仍有缺口。",
+        "两期MOLIT AIP仍是一个发行方；SUP/NOTAM不能另算独立分配机关。"
+      ],
+      "market": "韩国",
+      "missingOriginalsZh": [
+        "官方历史 NOTAM 完整性/存续清单、未结 PERM/替代/撤销链的独立裁定、具名物理身份人工审核；2025 IATA原件。"
+      ],
+      "observations": [
+        {
+          "allocationDateProved": false,
+          "code": "RKSI",
+          "evidenceType": "controlled_aip_component",
+          "localObservationDate": "2026-10-30",
+          "namespace": "ICAO",
+          "observationInstant": "2026-10-30T07:19:03.554612+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "Incheon; ARP 372745N 1262621E",
+          "sourceId": "kr-20250501-rksi",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Seoul",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "ICN",
+          "evidenceType": "current_issuing_body_lookup",
+          "localObservationDate": "2026-10-30",
+          "namespace": "IATA",
+          "observationInstant": "2026-10-30T07:22:03.060383+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "Incheon International",
+          "sourceId": "kr-iata-code-search",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Seoul",
+          "validityWindow": null
+        }
+      ],
+      "physicalIdentityZh": "不同 ARP、不同机场名称及既有独立运营商材料支持两场分离；未伪造独立人工 reviewer。",
+      "priorCasePath": "research/evidence/priority-markets/assessments.json",
+      "reviewer": null,
+      "sourceIds": [
+        "kr-20250501-rksi",
+        "kr-iata-code-search"
+      ],
+      "timezone": "Asia/Seoul"
+    },
+    {
+      "approvedCompleteLocalDateWindow": null,
+      "caseKey": "gimpo",
+      "codeEvidenceInventory": [
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "ICAO:RKSS",
+          "directObservationSourceIds": [
+            "kr-20250501-rkss"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:GMP",
+          "directObservationSourceIds": [
+            "kr-iata-gmp"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        }
+      ],
+      "codes": [
+        "ICAO:RKSS",
+        "IATA:GMP"
+      ],
+      "decision": "pending",
+      "existingPendingSiteIds": {},
+      "finalWithdrawalOn": null,
+      "findingsZh": [
+        "在既有 04-16、05-14 原件之间补到05-01 AD 2，代码/名称与 ARP 373325N 1264751E 一致；原两期逐字节复验。",
+        "筛查三期修订原件、三期 GEN0.3/SUP 目录、51 个相关原件链接（49 个不同字节流），以及官方接口1061条返回记录的代码/场址变更线索。",
+        "IATA 当前独立核实 GMP；它不证明2025年的IATA状态。"
+      ],
+      "firstAllocationOn": null,
+      "formalIdentityAction": "none",
+      "formalNewResolvedQueries": 0,
+      "labelZh": "金浦",
+      "limitationsZh": [
+        "原 54 查询窗口仍只是未授权假设；缺独立人工物理复核。",
+        "NOTAM 请求2001年至2025-05，但最早返回2023-10-31；历史完整性、PERM/替代/撤销链仍有缺口。",
+        "两期MOLIT AIP仍是一个发行方；SUP/NOTAM不能另算独立分配机关。"
+      ],
+      "market": "韩国",
+      "missingOriginalsZh": [
+        "官方历史 NOTAM 完整性/存续清单、未结 PERM/替代/撤销链的独立裁定、具名物理身份人工审核；2025 IATA原件。"
+      ],
+      "observations": [
+        {
+          "allocationDateProved": false,
+          "code": "RKSS",
+          "evidenceType": "controlled_aip_component",
+          "localObservationDate": "2026-10-30",
+          "namespace": "ICAO",
+          "observationInstant": "2026-10-30T07:19:04.332068+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "Gimpo; ARP 373325N 1264751E",
+          "sourceId": "kr-20250501-rkss",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Seoul",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "GMP",
+          "evidenceType": "current_issuing_body_lookup",
+          "localObservationDate": "2026-10-30",
+          "namespace": "IATA",
+          "observationInstant": "2026-10-30T07:25:44.314044+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "Gimpo International",
+          "sourceId": "kr-iata-gmp",
+          "sourceStatementOn": null,
+          "timezone": "Asia/Seoul",
+          "validityWindow": null
+        }
+      ],
+      "physicalIdentityZh": "不同 ARP、不同机场名称及既有独立运营商材料支持两场分离；未伪造独立人工 reviewer。",
+      "priorCasePath": "research/evidence/priority-markets/assessments.json",
+      "reviewer": null,
+      "sourceIds": [
+        "kr-20250501-rkss",
+        "kr-iata-gmp"
+      ],
+      "timezone": "Asia/Seoul"
+    },
+    {
+      "approvedCompleteLocalDateWindow": null,
+      "caseKey": "williston",
+      "codeEvidenceInventory": [
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "FAA:ISN",
+          "directObservationSourceIds": [],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "FAA:XWA",
+          "directObservationSourceIds": [],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "ICAO:KISN",
+          "directObservationSourceIds": [],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "ICAO:KXWA",
+          "directObservationSourceIds": [],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:ISN",
+          "directObservationSourceIds": [],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:XWA",
+          "directObservationSourceIds": [
+            "iata-xwa-20261030"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        }
+      ],
+      "codes": [
+        "FAA:ISN",
+        "FAA:XWA",
+        "ICAO:KISN",
+        "ICAO:KXWA",
+        "IATA:ISN",
+        "IATA:XWA"
+      ],
+      "decision": "pending",
+      "existingPendingSiteIds": {},
+      "finalWithdrawalOn": null,
+      "findingsZh": [
+        "2019-07-30 市机场项目简报明确“Travel Booked as ISN will be valid at XWA”，是迁场前预订系统兼容说明。",
+        "首次在本轮取得 IATA 自身 XWA / Basin International 精确当前查询，独立于 FAA；ISN 当前查询无结果。"
+      ],
+      "firstAllocationOn": null,
+      "formalIdentityAction": "none",
+      "formalNewResolvedQueries": 0,
+      "labelZh": "Williston Sloulin Field／Basin",
+      "limitationsZh": [
+        "预订兼容不是把 ISN 正式分给 Basin；简报不属于 IATA 行政通知。",
+        "当前XWA/ISN查询不能回填2019首配或撤销日；FAA历史NASR尝试404不证明没有档案。"
+      ],
+      "market": "美国",
+      "missingOriginalsZh": [
+        "2019-09/10 有效 FAA 5010/NASR、IATA 2019 专属通知、BTS逐航班执行及机场ID交叉表。"
+      ],
+      "observations": [
+        {
+          "allocationDateProved": false,
+          "code": "XWA",
+          "evidenceType": "current_issuing_body_lookup",
+          "localObservationDate": "2026-10-30",
+          "namespace": "IATA",
+          "observationInstant": "2026-10-30T07:26:57.762129+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "Basin International",
+          "sourceId": "iata-xwa-20261030",
+          "sourceStatementOn": null,
+          "timezone": "America/Chicago",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "ISN",
+          "evidenceType": "dated_booking_system_statement",
+          "localObservationDate": "2026-10-30",
+          "namespace": "BOOKING",
+          "observationInstant": "2026-10-30T07:22:01.440388+00:00",
+          "publicationOn": "2019-07-30",
+          "siteHypothesis": "Reservation compatibility; not a physical-site allocation",
+          "sourceId": "us-williston-newsletter-20190730",
+          "sourceStatementOn": "2019-07-30",
+          "timezone": "America/Chicago",
+          "validityWindow": null
+        },
+        {
+          "allocationDateProved": false,
+          "code": "XWA",
+          "evidenceType": "dated_booking_system_statement",
+          "localObservationDate": "2026-10-30",
+          "namespace": "BOOKING",
+          "observationInstant": "2026-10-30T07:22:01.440388+00:00",
+          "publicationOn": "2019-07-30",
+          "siteHypothesis": "Reservation compatibility; not a physical-site allocation",
+          "sourceId": "us-williston-newsletter-20190730",
+          "sourceStatementOn": "2019-07-30",
+          "timezone": "America/Chicago",
+          "validityWindow": null
+        }
+      ],
+      "physicalIdentityZh": "复用两个正式物理机场 ID；不解除既有 KXWA 审批阻塞。",
+      "priorCasePath": "research/evidence/priority-markets/assessments.json",
+      "reviewer": null,
+      "sourceIds": [
+        "us-williston-newsletter-20190730",
+        "iata-xwa-20261030",
+        "iata-isn-20261030"
+      ],
+      "timezone": "America/Chicago"
+    },
+    {
+      "approvedCompleteLocalDateWindow": null,
+      "caseKey": "doncaster",
+      "codeEvidenceInventory": [
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "ICAO:EGCN",
+          "directObservationSourceIds": [],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:DSA",
+          "directObservationSourceIds": [],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        }
+      ],
+      "codes": [
+        "ICAO:EGCN",
+        "IATA:DSA"
+      ],
+      "decision": "pending",
+      "existingPendingSiteIds": {},
+      "finalWithdrawalOn": null,
+      "findingsZh": [
+        "取得 CAA 2022-12-20 原信：前持证者自愿交回机场证书，2022-12-12 生效；ATS已不再提供，CAA说明通过NOTAM告知。"
+      ],
+      "firstAllocationOn": null,
+      "formalIdentityAction": "none",
+      "formalNewResolvedQueries": 0,
+      "labelZh": "Doncaster Sheffield",
+      "limitationsZh": [
+        "既有2023-01 AIP仍有EGCN页面，与证书已交回并不矛盾；不能据页存在推机场仍有运营许可。",
+        "CAA信未提供相关NOTAM原编号，不证明EGCN撤销或重开已执行。"
+      ],
+      "market": "英国",
+      "missingOriginalsZh": [
+        "2022停航期NOTAM/SUP原件及编号、EGCN删除/保留版次、实际重开认证和执行文件。"
+      ],
+      "observations": [],
+      "physicalIdentityZh": "复用既有同一ARP；证书事件、客运停航和未来重开分别记录。",
+      "priorCasePath": "research/evidence/priority-markets/assessments.json",
+      "reviewer": null,
+      "sourceIds": [
+        "uk-caa-dsa-letter"
+      ],
+      "timezone": "Europe/London"
+    },
+    {
+      "approvedCompleteLocalDateWindow": null,
+      "caseKey": "murcia",
+      "codeEvidenceInventory": [
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "ICAO:LELC",
+          "directObservationSourceIds": [],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "ICAO:LEMI",
+          "directObservationSourceIds": [
+            "es-eurocontrol-20190103"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:MJV",
+          "directObservationSourceIds": [],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:RMU",
+          "directObservationSourceIds": [],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        }
+      ],
+      "codes": [
+        "ICAO:LELC",
+        "ICAO:LEMI",
+        "IATA:MJV",
+        "IATA:RMU"
+      ],
+      "decision": "pending",
+      "existingPendingSiteIds": {},
+      "finalWithdrawalOn": null,
+      "findingsZh": [
+        "取得 EUROCONTROL AIRAC 1901 synopsis，直接指向西班牙 AIRAC AMDT 12/2018，引入 Murcia (LEMI)，实施日2019-01-03。"
+      ],
+      "firstAllocationOn": null,
+      "formalIdentityAction": "none",
+      "formalNewResolvedQueries": 0,
+      "labelZh": "Murcia San Javier／Corvera",
+      "limitationsZh": [
+        "这是受控变更摘要的公告安排；尚未回收到ENAIRE原修订，不证明IATA RMU首配。",
+        "原LEMI/RMU/MJV审批阻塞、历史中间版次缺口继续保留。"
+      ],
+      "market": "欧洲大陆",
+      "missingOriginalsZh": [
+        "ENAIRE AIRAC AMDT12/18原件及2019-01后续AD2、IATA RMU/MJV原通知。"
+      ],
+      "observations": [
+        {
+          "allocationDateProved": false,
+          "code": "LEMI",
+          "evidenceType": "announced_aip_change",
+          "localObservationDate": "2026-10-30",
+          "namespace": "ICAO",
+          "observationInstant": "2026-10-30T07:22:01.442969+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "Announced public aerodrome introduction; implementation unverified",
+          "sourceId": "es-eurocontrol-20190103",
+          "sourceStatementOn": null,
+          "timezone": "Europe/Madrid",
+          "validityWindow": null
+        }
+      ],
+      "physicalIdentityZh": "沿用正式两场ID与PR22独立ARP；San Javier民用转出不等于军场消失。",
+      "priorCasePath": "research/evidence/priority-markets/assessments.json",
+      "reviewer": null,
+      "sourceIds": [
+        "es-eurocontrol-20190103"
+      ],
+      "timezone": "Europe/Madrid"
+    },
+    {
+      "approvedCompleteLocalDateWindow": null,
+      "caseKey": "berlin",
+      "codeEvidenceInventory": [
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "ICAO:EDDT",
+          "directObservationSourceIds": [],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "ICAO:EDDB",
+          "directObservationSourceIds": [
+            "de-eurocontrol-lssip-2020"
+          ],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:TXL",
+          "directObservationSourceIds": [],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:SXF",
+          "directObservationSourceIds": [],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        },
+        {
+          "approvedValidFrom": null,
+          "approvedValidTo": null,
+          "code": "IATA:BER",
+          "directObservationSourceIds": [],
+          "finalWithdrawal": null,
+          "firstAllocation": null
+        }
+      ],
+      "codes": [
+        "ICAO:EDDT",
+        "ICAO:EDDB",
+        "IATA:TXL",
+        "IATA:SXF",
+        "IATA:BER"
+      ],
+      "decision": "pending",
+      "existingPendingSiteIds": {},
+      "finalWithdrawalOn": null,
+      "findingsZh": [
+        "新增 Germany LSSIP 2020 原报告，使用 EDDB / Berlin-Brandenburg 关联，并描述Schönefeld向BER的A-CDM业务转换。"
+      ],
+      "firstAllocationOn": null,
+      "formalIdentityAction": "none",
+      "formalNewResolvedQueries": 0,
+      "labelZh": "Berlin Tegel／Schönefeld／BER",
+      "limitationsZh": [
+        "项目状态日期2020-10-30是A-CDM项目更新，不能当EDDB或BER分配日期。",
+        "未取得新DFS历史AD2，故没有新增可防守代码有效窗口。"
+      ],
+      "market": "欧洲大陆",
+      "missingOriginalsZh": [
+        "DFS历史AD2/场界图、Tegel许可原决定、IATA SXF/BER行政通知。"
+      ],
+      "observations": [
+        {
+          "allocationDateProved": false,
+          "code": "EDDB",
+          "evidenceType": "historical_project_report",
+          "localObservationDate": "2026-10-30",
+          "namespace": "ICAO",
+          "observationInstant": "2026-10-30T07:39:56.463322+00:00",
+          "publicationOn": null,
+          "siteHypothesis": "Berlin-Brandenburg project reporting association; no validity date",
+          "sourceId": "de-eurocontrol-lssip-2020",
+          "sourceStatementOn": null,
+          "timezone": "Europe/Berlin",
+          "validityWindow": null
+        }
+      ],
+      "physicalIdentityZh": "Tegel独立；Schönefeld/BER仍需DFS场界、ARP和跑道关系审核，不因T5名称或业务承接自动合并。",
+      "priorCasePath": "research/evidence/priority-markets/assessments.json",
+      "reviewer": null,
+      "sourceIds": [
+        "de-eurocontrol-lssip-2020"
+      ],
+      "timezone": "Europe/Berlin"
+    }
+  ],
+  "coverage": {
+    "approvedNewWindows": 0,
+    "currentUnauthorizedHypotheticalResolvedQueries": 54,
+    "formalNewResolvedQueries": 0,
+    "hypotheticalIncrement": 0,
+    "previousUnauthorizedHypotheticalResolvedQueries": 54
+  },
+  "dataVersion": "0.10.0",
+  "decision": "pending",
+  "formatVersion": 1,
+  "newMarketAuthorization": null,
+  "productionEligible": false,
+  "reviewer": null,
+  "schemaVersion": "3.0.0"
+}
