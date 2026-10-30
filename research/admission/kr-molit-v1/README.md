@@ -51,7 +51,8 @@ python3 scripts/admission/kr_adapter.py prepare-identities \
 
 Identity preparation fetches the actual repository owner and comment from GitHub,
 checks numeric identity, login, account type, exact comment bytes, issue scope and
-timestamps, then verifies the immutable batch and original evidence. Only then
+timestamps, then verifies the immutable batch, its exact reviewed formal baseline and original evidence.
+A changed database requires renewed physical-site competition review and a new batch approval. Only then
 can it allocate fresh UUIDs and run the existing human identity gate. It emits a
 reviewable proposal in ignored work/, never curated replacements. Separate
 per-record dossiers share the one batch approval and retain independent ARPs.

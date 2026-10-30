@@ -1,16 +1,16 @@
 {
-  "executorSha256": "3d72d046a8ec0d964ceae438c9a7b37fb14478c3e0d52ca295d7a8bebdfaa6e0",
+  "executorSha256": "c523ad9b30480f9316396aaf69bf35e185f7148b5f69f5cb86c4b3cb02c301fd",
   "manifest": {
     "canonicalJsonInputs": {
       "package.json": "dc54eee46ccfc41390cc77eaf02d75bece384e4e605b56db618eb836da29d330"
     },
-    "executorSha256": "3d72d046a8ec0d964ceae438c9a7b37fb14478c3e0d52ca295d7a8bebdfaa6e0",
+    "executorSha256": "c523ad9b30480f9316396aaf69bf35e185f7148b5f69f5cb86c4b3cb02c301fd",
     "files": {
       "pnpm-lock.yaml": "e79aceff64ebcd5fde9a832cd349832cd896337fa6dae352248539a433961163",
       "schema/dataset.schema.json": "30af837f0561e26c965384a7a9c1598406c4580ef55a7eed5d0a99a9a47830f2",
       "schema/evidence-observation.schema.json": "6c7791564396954f1b34b5cc373413da3cb3f1a0b22d6664414e1d4fba04c8d8",
       "schema/reference-record.schema.json": "460c7da3ab479dbc4f9806f00f8cfa1f4788d55144052d71b15bbc9278236ee5",
-      "scripts/admission/kr_adapter.py": "46d1e4a6abb4714df90e465c081f3616639d875e6a94f8db1b002ee0bfabea15",
+      "scripts/admission/kr_adapter.py": "cc7df1eebbb8f08a154f82f264317e4b79e6cdf432f62f9c118e2ead88d259e0",
       "scripts/admission/kr_evidence.py": "6fa95818bc8a8123edb56d9b9d6c27ee7be199f2b2e2d0f8d2a97eeb39e29212",
       "scripts/admission/kr_rehearsal.py": "d22bab824cdfe7ed42b0af6ea0af5e1570cc41c03706c842a1b3fabd8fddd26c",
       "scripts/admission/kr_resolver.ts": "e0808e658580a748aafbb6a24167771185c3932d79210e13c0b1de2c31ed8bb9",
@@ -79,6 +79,6 @@
     "formatVersion": 1
   },
   "policyKey": "kr-molit-bounded-icao@1.0.0",
-  "policySha256": "9b183f6d46804cfac4e75e26bedaba7109ad851a2ce95ac118952da81e4734a8",
+  "policySha256": "fabc0812878daa6b81cb732f757b6cf08a423c3ceb62d9595d7592113573214d",
   "scopeSha256": "1d0a8a5231195cdc96aceeabd9415a8f55f76015b62907cf29f838f5be7e11a6"
 }

@@ -19,7 +19,7 @@ PR24 已合并；[main CI 41106518661](https://github.com/keepraw/airport-histor
   37,736 次正式回归、全部条件候选和相邻日期边界，拒绝既有代码改写或 IATA 扩展。
 - `kr_rehearsal.py`：一次性副本中的真实身份 gate、韩国准备路径和解析器演练；第二个无注入进程必须拒绝测试权限。
 - `kr_verify.py`：905 个基线文件保护、工程回执与逐查询生产阻塞状态检查。
-- 新增 32 个 Python 测试和独立 CI 工作流。保留现有 CI、package.json、印度执行器及授权的全部原始字节。
+- 新增 33 个 Python 测试和独立 CI 工作流。保留现有 CI、package.json、印度执行器及授权的全部原始字节。
 
 本实现没有把韩国 policy_context 送进印度 `validate_admission()`。物理身份准备使用原函数的人工审批路径；
 韩国政策提案使用独立入口，并复用原 Schema、语义和解析器。政策审核不冒充人类逐条阅读。
@@ -31,12 +31,12 @@ PR24 已合并；[main CI 41106518661](https://github.com/keepraw/airport-histor
 
 | 绑定 | SHA-256 |
 |---|---|
-| Policy | `9b183f6d46804cfac4e75e26bedaba7109ad851a2ce95ac118952da81e4734a8` |
+| Policy | `fabc0812878daa6b81cb732f757b6cf08a423c3ceb62d9595d7592113573214d` |
 | Scope | `1d0a8a5231195cdc96aceeabd9415a8f55f76015b62907cf29f838f5be7e11a6` |
-| Executor | `3d72d046a8ec0d964ceae438c9a7b37fb14478c3e0d52ca295d7a8bebdfaa6e0` |
+| Executor | `c523ad9b30480f9316396aaf69bf35e185f7148b5f69f5cb86c4b3cb02c301fd` |
 
 完整清单见 `bindings.json`：69 个逐字节执行/Schema/依赖锁文件，以及完整 package.json 的规范化 JSON。
-Policy 还冻结 97 个证据文件，包含实际引用的旧来源锁、最小引文及原机场账本输入。
+Policy 还冻结 98 个证据文件，包含实际引用的旧来源锁、最小引文及原机场账本输入。
 每一个受绑定文件改变都会使旧 Executor 不匹配；Policy、Scope、永久身份映射也分别绑定。
 PR24 的研究 Policy/Scope/Executor 原值保留，不继承其 Executor，更不继承印度授权。
 
@@ -57,6 +57,7 @@ PR24 的研究 Policy/Scope/Executor 原值保留，不继承其 Executor，更�
 `identity-text` 输出 PR24 已锁定的准确身份审批文本，不代表实际批准。
 `prepare-identities` 必须从真实 GitHub 评论重新取得登录名、用户 ID、账号类型、仓库所有者、评论原文、
 对应 issue/PR 和时间戳，并核对批次哈希与原件，才能新分配 UUID。
+身份批次必须仍与锁定的正式 0.10.0 快照完全相同；数据库变动后须重新审核场址竞争并更新批次批准。
 它输出两个逐记录 dossier 和一个统一批次，通过原有人工身份 admission gate；不会写入正式文件。
 模拟 ID、测试 principal、JSON 中的 `approved=true` 均不能替代此条件。
 
@@ -75,7 +76,7 @@ PR24 的研究 Policy/Scope/Executor 原值保留，不继承其 Executor，更�
 - 原身份人工 gate 通过；条件韩国候选 **54/54 resolved**，前后相邻日额外 resolved **0**。
 - 测试身份、权限和 ID 只在临时副本；实际生产进程拒绝测试权限，提案目录不存在。
 - 9 项隔离负面检查拒绝测试 ID、错误身份、不同场址、冲突 ARP、缺身份批准、缺政策授权及三类绑定漂移。
-- 另有 32 项测试覆盖假作者、错仓库/评论/原文、错误 Scope、IATA、未知修订、PERM/EST、缺前身、
+- 另有 33 项测试覆盖假作者、错仓库/评论/原文、错误 Scope、IATA、未知修订、PERM/EST、缺前身、
   不同原文字节、缺多部分、机场关闭与局部滑行道事件、截断和缺失原件等。
 
 以上采用锁定证据的**离线回放**；注入的证据依赖也明确返回 `originalBytesReadHere=false`。

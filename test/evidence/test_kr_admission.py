@@ -112,6 +112,13 @@ class KoreanAdmissionTests(unittest.TestCase):
         with patch.object(a, 'load', side_effect=lambda p: changed if p.name == 'identity-batch.json' else real(p)), self.assertRaisesRegex(ValueError, 'Invalid identity'):
             a.identity_batch()
 
+    def test_stale_identity_batch_cannot_create_ids_after_formal_data_change(self):
+        data = a.load(a.ROOT / 'test/curated-0.10.0.json')
+        a.identity_baseline(a.identity_batch(), data)
+        data['airports'].append(deepcopy(data['airports'][0]))
+        with self.assertRaisesRegex(ValueError, 'renew physical-site competition'):
+            a.identity_baseline(a.identity_batch(), data)
+
     def test_no_identity_approval_rejects_before_output(self):
         with tempfile.TemporaryDirectory(dir=a.ROOT / 'work') as tmp:
             path = Path(tmp) / 'must-not-exist'

@@ -101,6 +101,12 @@ def identity_text():
     return load(PACKET / 'authorization-proposal.json')['futureIdentityOnlyOwnerText']
 
 
+def identity_baseline(batch, data):
+    reviewed = ROOT / ('test/curated-' + batch['payload']['dataVersion'] + '.json')
+    require(data == load(reviewed),
+            'Identity batch baseline changed; renew physical-site competition review and batch approval')
+
+
 def require_published(data, identities=None):
     """A working-tree identity is not proof of admission to the owner's main branch."""
     commit = github('repos/keepraw/airport-history/branches/main')['commit']['sha']
@@ -248,6 +254,7 @@ def prepare_identities(output, url, version):
     p = policy()
     evaluate(p, originals=True)
     base = load(ROOT / 'data/airports.json')
+    identity_baseline(batch, base)
     require_published(base)
     require(re.fullmatch(r'\d+\.\d+\.\d+', version or '') and version != base['dataVersion'], 'New identity data version required')
     candidate = deepcopy(base)
