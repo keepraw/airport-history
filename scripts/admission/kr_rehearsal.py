@@ -66,10 +66,15 @@ def deny(label, action):
     try: action()
     except ValueError: negative_checks.append(label)
     else: raise AssertionError('Negative admission unexpectedly passed: '+label)
-for label in ('test-permanent-id','wrong-airport-id','different-site','conflicting-arp','missing-identity-approval'):
+for label in ('test-permanent-id','legacy-simulation-id','wrong-airport-id','different-site','conflicting-arp','missing-identity-approval'):
     altered=deepcopy(registry)
     data=deepcopy(identity_candidate)
     if label=='test-permanent-id': altered['identities'][0]['airportId']='simulation-only'
+    elif label=='legacy-simulation-id':
+        legacy=next(d['simulationAirportId'] for d in a.load(a.ROOT/'research/evidence/priority-markets/generated/dry-run.json')['decisions'] if d.get('code')=='RKSI')
+        record=next(r for r in data['airports'] if r['airportId']==altered['identities'][0]['airportId'])
+        record['airportId']=legacy
+        altered['identities'][0].update(airportId=legacy,recordSha256=a.sha(record))
     elif label=='wrong-airport-id': altered['identities'][0]['airportId']=altered['identities'][1]['airportId']
     elif label=='different-site':
         record=next(r for r in data['airports'] if r['airportId']==altered['identities'][0]['airportId'])

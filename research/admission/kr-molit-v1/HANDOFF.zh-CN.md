@@ -31,12 +31,12 @@ PR24 已合并；[main CI 41106518661](https://github.com/keepraw/airport-histor
 
 | 绑定 | SHA-256 |
 |---|---|
-| Policy | `fabc0812878daa6b81cb732f757b6cf08a423c3ceb62d9595d7592113573214d` |
+| Policy | `0d247bbd7eba7fb4a910b8a80e8cafa508c4fd87bf44836777718ff9148f7db5` |
 | Scope | `1d0a8a5231195cdc96aceeabd9415a8f55f76015b62907cf29f838f5be7e11a6` |
-| Executor | `cc31e0106d838835071200e4f376fb9768e3a52beb079523fc213cc73a3aaf9c` |
+| Executor | `3222018573f8204dbed40df839cc64dd1e69e29b490d3fbb2b225bac3f473a6a` |
 
 完整清单见 `bindings.json`：69 个逐字节执行/Schema/依赖锁文件，以及完整 package.json 的规范化 JSON。
-Policy 还冻结 98 个证据文件，包含实际引用的旧来源锁、最小引文及原机场账本输入。
+Policy 还冻结 99 个证据文件，包含实际引用的旧来源锁、最小引文及原机场账本输入。
 每一个受绑定文件改变都会使旧 Executor 不匹配；Policy、Scope、永久身份映射也分别绑定。
 PR24 的研究 Policy/Scope/Executor 原值保留，不继承其 Executor，更不继承印度授权。
 
@@ -60,6 +60,7 @@ PR24 的研究 Policy/Scope/Executor 原值保留，不继承其 Executor，更�
 身份批次必须仍与锁定的正式 0.10.0 快照完全相同；数据库变动后须重新审核场址竞争并更新批次批准。
 它输出两个逐记录 dossier 和一个统一批次，通过原有人工身份 admission gate；不会写入正式文件。
 模拟 ID、测试 principal、JSON 中的 `approved=true` 均不能替代此条件。
+两枚旧韩国 simulationAirportId 以 SHA-256 拒绝清单永久排除；即使格式为合法 UUID v4、登记和场址字段均匹配，也不能转成正式身份。公开新增材料不复制这些测试 UUID。
 
 `policy-text`、`record-policy` 是独立的韩国政策入口：必须先存在已正式批准的两个永久身份；
 政策文本绑定精确 Policy/Scope/Executor 与身份映射哈希。
@@ -76,7 +77,7 @@ PR24 的研究 Policy/Scope/Executor 原值保留，不继承其 Executor，更�
 - 原身份人工 gate 通过；条件韩国候选 **54/54 resolved**，前后相邻日额外 resolved **0**。
 - 嵌套子进程用 Python `-I` 隔离父演练的测试 bootstrap；临时 bundle 的缺失文档按原状保护；只排除独立挂载的 node_modules 路径，其他符号链接仍拒绝；真实 905 文件保护不变。
 - 测试身份、权限和 ID 只在临时副本；实际生产进程拒绝测试权限，提案目录不存在。
-- 9 项隔离负面检查拒绝测试 ID、错误身份、不同场址、冲突 ARP、缺身份批准、缺政策授权及三类绑定漂移。
+- 10 项隔离负面检查拒绝测试 ID、错误身份、不同场址、冲突 ARP、缺身份批准、缺政策授权及三类绑定漂移。
 - 另有 34 项测试覆盖假作者、错仓库/评论/原文、错误 Scope、IATA、未知修订、PERM/EST、缺前身、
   不同原文字节、缺多部分、机场关闭与局部滑行道事件、截断和缺失原件等。
 

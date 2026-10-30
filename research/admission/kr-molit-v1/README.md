@@ -59,6 +59,8 @@ A changed database requires renewed physical-site competition review and a new b
 can it allocate fresh UUIDs and run the existing human identity gate. It emits a
 reviewable proposal in ignored work/, never curated replacements. Separate
 per-record dossiers share the one batch approval and retain independent ARPs.
+The two legacy Korean simulation UUIDs are explicitly rejected by hashes, even
+when their UUID format, site and registry hashes would otherwise match.
 
 After a separate identity admission PR has been reviewed and manually merged,
 its exact records and approval metadata can populate identities.json. Existing

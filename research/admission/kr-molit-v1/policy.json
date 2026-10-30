@@ -96,6 +96,7 @@
     "research/evidence/priority-markets/excerpts/kr-rkss-2025-04-16.json": "adea4136d23a433c1a9bfd4621b29c4f6b6c7fa9bbae6350bd38e8fbf1c8d2b4",
     "research/evidence/priority-markets/excerpts/kr-rkss-2025-05-14.json": "88e5601b3390430f2ac288520b417f65f9d42903e01da38cf1f8393fb1da09b5",
     "research/evidence/priority-markets/excerpts/kr-rkss-2026.json": "3dd8f96391d769553408372457ea3667c07738959cb50ca44f5bff4fef96d8e9",
+    "research/evidence/priority-markets/generated/dry-run.json": "eae4423a9268b313888c834d5c26819a7c492ad3ad7e6b8c31134a79fc50cc21",
     "research/evidence/priority-markets/source-lock.json": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437",
     "test/curated-0.10.0.json": "2268bdd3426e0d459b7b46d1214b165e3ab90f3526d4f2528f60238f4ee94b13"
   },
@@ -112,6 +113,10 @@
   ],
   "maximumAiracGapDays": 28,
   "policyKey": "kr-molit-bounded-icao@1.0.0",
+  "rejectedResearchIdentitySha256": [
+    "c6cc519bfafb1fcbb577aad93d5ae9ebcce050a62104522a4ecc6dabec79d233",
+    "d028ac2744291abf48e78448119215e3f07bd8ded21337ecacd48fbc95e0cbef"
+  ],
   "requirements": {
     "airportSeries": [
       "A",

@@ -108,6 +108,10 @@ class KoreanAdmissionTests(unittest.TestCase):
         b = a.identity_batch()
         self.assertEqual('1bf46a730f0f1f750e3479bdfe032e653b6b2c63e113aa6eae908bff3948722c', b['batchSha256'])
         self.assertTrue(all(r['proposedPermanentAirportId'] is None for r in b['payload']['records']))
+        old = a.load(a.ROOT / 'research/evidence/priority-markets/generated/dry-run.json')['decisions']
+        for record in old:
+            if record.get('code') in ('RKSI', 'RKSS'):
+                self.assertIn(a.sha(record['simulationAirportId']), self.p['rejectedResearchIdentitySha256'])
         changed = deepcopy(b)
         changed['payload']['records'][0]['arpDms'] = b['payload']['records'][1]['arpDms']
         real = a.load
@@ -304,7 +308,7 @@ class KoreanAdmissionTests(unittest.TestCase):
         self.assertTrue(report['productionRejectedTestAuthority'])
         self.assertTrue(report['realFilesUnchanged'])
         self.assertFalse(report['originalBytesReadHere'])
-        self.assertEqual(9, len(report['isolatedNegativeChecks']))
+        self.assertEqual(10, len(report['isolatedNegativeChecks']))
 
     def test_nested_rehearsal_ignores_inherited_python_test_bootstrap_and_missing_bundle_readme(self):
         missing = a.ROOT / 'research/admissions/0.10.0/README.md'

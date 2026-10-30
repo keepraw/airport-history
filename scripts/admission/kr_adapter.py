@@ -134,6 +134,8 @@ def physical_identities(p, data, *, fresh=True):
         entries = [r for r in registry['identities'] if r['candidateKey'] == site['candidateKey']]
         require(len(entries) == 1, 'Ambiguous/wrong physical identity')
         entry = entries[0]
+        require(sha(entry['airportId']) not in p['rejectedResearchIdentitySha256'],
+                'Research simulation identity can never become a permanent identity')
         require(entry['batchSha256'] == batch['batchSha256'] and re.fullmatch(
             r'apt_[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}', entry['airportId']),
             'Unapproved/non-permanent airport ID')
@@ -270,6 +272,7 @@ def prepare_identities(output, url, version):
     for r in batch['payload']['records']:
         require(not any(a['coordinates']['value'] == r['arpDecimal'] for a in base['airports']), 'Possible existing physical site')
         aid = 'apt_' + str(uuid.uuid4())  # Only after live owner approval, never a simulation ID.
+        require(sha(aid) not in p['rejectedResearchIdentitySha256'], 'Research simulation UUID collision')
         sids = sorted(r['sourceHashes'])
         record = {'airportId': aid, 'name': {'value': r['name'], 'status': 'reference', 'sourceIds': sids,
                    'note': 'Physical-site display name; no legal-name timeline.'},
