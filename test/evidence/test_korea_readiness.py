@@ -1,8 +1,12 @@
 """Fail-closed regressions for real Korean NOTAM/date counterexamples."""
 import copy
+import json
 from pathlib import Path
+import shutil
 import sys
+import tempfile
 import unittest
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / 'scripts/evidence'))
 import korea_readiness as kr
@@ -22,6 +26,26 @@ def notice(number='A0001/25', kind='N', target=None, end='2505010000', estimated
 
 
 class KoreaReadinessTests(unittest.TestCase):
+    def test_package_reformat_preserves_binding_but_changed_values_invalidate_it(self):
+        expected = kr.bindings()
+        (kr.ROOT / 'work').mkdir(exist_ok=True)
+        with tempfile.TemporaryDirectory(dir=kr.ROOT / 'work') as tmp:
+            root = Path(tmp)
+            for name in [*expected['executorFiles'], 'package.json']:
+                target = root / name
+                target.parent.mkdir(parents=True, exist_ok=True)
+                shutil.copy2(kr.ROOT / name, target)
+            base = root / kr.BASE.relative_to(kr.ROOT)
+            base.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(kr.BASE / 'policy.json', base / 'policy.json')
+            with patch.object(kr, 'ROOT', root), patch.object(kr, 'BASE', base):
+                package = kr.load(root / 'package.json')
+                (root / 'package.json').write_text(json.dumps(package, sort_keys=True, indent=2) + '\n')
+                self.assertEqual(expected, kr.bindings())
+                package['engines']['node'] = '^25.0.0'
+                (root / 'package.json').write_text(json.dumps(package, sort_keys=True, indent=2) + '\n')
+                self.assertNotEqual(expected['executorSha256'], kr.bindings()['executorSha256'])
+
     def test_research_policy_rejects_grants_and_expanded_scope(self):
         original = kr.load(kr.BASE / 'policy.json')
         for field, value in [('authorization', {'owner': 'keepraw'}), ('productionBound', True), ('status', 'authorized')]:

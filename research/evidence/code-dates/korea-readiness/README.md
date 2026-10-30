@@ -54,7 +54,7 @@ ordinary editions, reconciled official NOTAM snapshots and existing approved
 permanent physical IDs. The old 56-day proposal has not been validated. The old
 `0.1.0-draft` and every Indian byte remain unchanged. The new fingerprints bind a
 **research** verifier and resolver, not a production Korean admission executor.
-Identity approval and a separately reviewed Korean production adapter remain
+The executor manifest binds script/schema/dependency-lock bytes and every package.json value in canonical JSON; package key order is not execution semantics. Identity approval and a separately reviewed Korean production adapter remain
 required; the packet is **not ready for production owner authorization**.
 
 The [authorization proposal](authorization-proposal.json) therefore has a null

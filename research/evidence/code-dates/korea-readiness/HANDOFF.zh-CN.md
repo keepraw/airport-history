@@ -85,7 +85,7 @@ RAIM 各 28 条，另外包括跑道/滑行道/机坪、设备、临时障碍与
 
 逐日覆盖全部 54 个候选日，另检查 04-16、04-17、首日04-18、04-30、普通版05-01、末日前一天05-14、末日05-15及05-16。
 正式四码目前没有身份/分配，仍 not_found；不把它们写成项目已经 uncertain 或 resolved。
-IATA ICN/GMP 在条件模拟中也没有获批。37,736 次查询中，pending 模拟新增 uncertain 18,868；条件模拟新增 uncertain 18,814、resolved 54；两者新增 conflict 均为 0。这些数量仅对应披露的日期扫描，不能与旧版本不同日期集的 uncertain 数量直接比较。见 `coverage.json`。
+IATA ICN/GMP 在条件模拟中也没有获批。37,736 次查询中，pending 模拟新增 uncertain 18,868；条件模拟新增 uncertain 18,814、resolved 54；两者新增 conflict 均为 0。这些数量只对应披露的日期扫描，不能与旧版本不同日期集的 uncertain 数量直接比较。见 `coverage.json`。
 
 ## 7. 能否进入一次性生产 owner authorization
 
@@ -116,10 +116,10 @@ IATA ICN/GMP 在条件模拟中也没有获批。37,736 次查询中，pending �
 
 - Policy：`786483f733ce4be1e3538790739690483fbb6c84fcd06983b996b9eaad8d6379`
 - Scope：`b009c27e5fdd4761d5b593b0ae33cd77706a73b34ecb49b79535fda3808fcdde`
-- Executor：`7e91dab79b5b6d5727224ff3fafdebba5b5bcd5e46f727bff8159cdf71f74d74`
+- Executor：`cab2f8c5a97a8c1db6915f1cff0c48563b199dbbbbd582e19a9f43a0b9a8d2ae`
 
 JSON 以 UTF-8、键排序、紧凑分隔、不转义 Unicode 计算；Policy 只排除 lifecycle status；Scope 单独计算；
-Executor 对完整研究文件清单的同一规范表示计算。未来生产实现必须重新绑定新哈希，不能继承这些研究哈希或任何印度授权。
+Executor 对 formatVersion=1 的清单计算，包含逐字节脚本/schema/依赖锁哈希和完整 package.json 规范化 JSON 哈希；键顺序变化不改变 package 语义绑定。未来生产实现必须重新绑定新哈希，不能继承这些研究哈希或任何印度授权。
 旧 0.1.0-draft 的 Policy、Scope、Executor 原值及字节全部保留。
 
 ## 10. 最关键的阻塞原件或实现是什么

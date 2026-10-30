@@ -195,13 +195,19 @@ def bindings():
              'scripts/reference/admissions.py', 'scripts/reference/common.py', 'scripts/discovery/review.py',
              'src/resolve.ts', 'src/types.ts', 'src/validate.ts', 'src/time.ts', 'src/evidence.ts',
              'schema/dataset.schema.json',
-             'package.json', 'pnpm-lock.yaml']
+             'pnpm-lock.yaml']
     files = {p: sha((ROOT / p).read_bytes()) for p in paths}
+    # The existing admission rehearsal rewrites package.json key order while
+    # preparing its disposable candidate. Bind every package value canonically;
+    # executable source, schema and dependency-lock bytes remain exact hashes.
+    canonical_json = {'package.json': sha(canonical(load(ROOT / 'package.json')))}
+    manifest = {'formatVersion': 1, 'files': files, 'canonicalJsonInputs': canonical_json}
     policy = load(BASE / 'policy.json')
     return {'policyId': policy['policyId'], 'version': policy['version'],
             'policySha256': sha(canonical({k: v for k, v in policy.items() if k != 'status'})),
             'scopeSha256': sha(canonical(policy['scope'])), 'executorFiles': files,
-            'executorSha256': sha(canonical(files)), 'status': 'draft',
+            'canonicalJsonInputs': canonical_json, 'executorManifestFormatVersion': 1,
+            'executorSha256': sha(canonical(manifest)), 'status': 'draft',
             'authorization': None, 'productionBound': False,
             'meaning': 'Research evaluator fingerprint only. No Korean production adapter, activation or admission authority.'}
 

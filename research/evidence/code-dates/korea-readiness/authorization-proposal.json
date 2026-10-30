@@ -17,14 +17,16 @@
   "reason": "These are research fingerprints. A production Korean executor/admission adapter is absent, and neither permanent physical identity exists. Do not treat this proposal or merging the research PR as an activation.",
   "researchBindings": {
     "authorization": null,
+    "canonicalJsonInputs": {
+      "package.json": "dc54eee46ccfc41390cc77eaf02d75bece384e4e605b56db618eb836da29d330"
+    },
     "executorFiles": {
-      "package.json": "281d07823131af6ea4bdaadfe1671a407f2691f642407282c400a851690961c8",
       "pnpm-lock.yaml": "e79aceff64ebcd5fde9a832cd349832cd896337fa6dae352248539a433961163",
       "schema/dataset.schema.json": "30af837f0561e26c965384a7a9c1598406c4580ef55a7eed5d0a99a9a47830f2",
       "scripts/discovery/review.py": "b6540d6cff18a3bdd0e8ef06a743defbeb9436cf620437d419036fde1ae2a92d",
       "scripts/evidence/code_dates.py": "efb95d9da566b1eb2baebf9677702348358f2c2e66d7774ae83122855b13c1dd",
       "scripts/evidence/global_batch.py": "14ecb7dba7bcf78e53d83718912b91a0dd0b670e2c5508629cc1e088e2856ad6",
-      "scripts/evidence/korea_readiness.py": "c992e9b9edb83636f7ecd9993a681ef77fc3febea71bcf8ce2a48ff7f33943b0",
+      "scripts/evidence/korea_readiness.py": "9d81b4a923d238f4f29dfca4d8083971e56abff2c5f94a8fdb9fc68649e61811",
       "scripts/evidence/korea_readiness_coverage.ts": "d34315088bee9c865a82f3d5d9fb811f4676e55a161f2f075baf12cf3d454c18",
       "scripts/reference/admissions.py": "c7774e86708ff169ee5a8f006c7528d44850ef932cd5ecc913375aa5002e9992",
       "scripts/reference/common.py": "abaa48d37d4087b9bd4223e1ecf659fcc323addce570cee1d5348cbfac78ac46",
@@ -34,7 +36,8 @@
       "src/types.ts": "b06991be4f63e066b9d3614484ac68ded48d641e3d42b4ed59dafd8706a93e03",
       "src/validate.ts": "10680e15e990bd2e1396434dcabb3b7a22f8ba862222a68d1fd25d1bd9655d06"
     },
-    "executorSha256": "7e91dab79b5b6d5727224ff3fafdebba5b5bcd5e46f727bff8159cdf71f74d74",
+    "executorManifestFormatVersion": 1,
+    "executorSha256": "cab2f8c5a97a8c1db6915f1cff0c48563b199dbbbbd582e19a9f43a0b9a8d2ae",
     "meaning": "Research evaluator fingerprint only. No Korean production adapter, activation or admission authority.",
     "policyId": "kr-molit-bounded-icao",
     "policySha256": "786483f733ce4be1e3538790739690483fbb6c84fcd06983b996b9eaad8d6379",
