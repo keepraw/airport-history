@@ -1,0 +1,416 @@
+{
+  "meaning": "Recovery attempt only. Exact-original means locally recovered matching bytes; unavailable/drifted components cannot be replaced by the PR24 receipt. No full original is published.",
+  "observedOn": "2026-10-30",
+  "sources": [
+    {
+      "sourceId": "kr-20250416-amdt-full",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-20250416-gen03",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-20250416-sup-menu",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-20250501-amdt-full",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-20250501-cover",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-20250501-gen03",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-20250501-rksi",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-20250501-rkss",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-20250501-sup-menu",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-20250514-amdt-full",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-20250514-gen03",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-20250514-sup-menu",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-notam-2025-rksi",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-notam-2025-rkss",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-notam-negative-control",
+      "state": "exact-original"
+    },
+    {
+      "actualSha256": "533fd3d6189fec2c45c84ab184373e0ac354a71ada19744b43dac5c3a5db8ea3",
+      "expectedSha256": "6bba3bf5eaf26b974d47cad11d09494c639d5472fee28875306bf86a6d82d80a",
+      "sourceId": "kr-notam-rksi-available",
+      "state": "byte-drift"
+    },
+    {
+      "sourceId": "kr-notam-rkss-available",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2010-23",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2023-11",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2023-2",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2023-2-b9c95f36",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2023-8",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2024-17",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2024-19",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2024-27",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2024-40",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2024-41",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2024-47",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2024-48",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2024-56",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2024-62",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2024-63",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2024-66",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2024-67",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2024-68",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2024-69",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2024-73",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2024-75",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2024-76",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2024-81",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2024-9",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-1",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-15",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-16",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-17",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-18",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-2",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-23-5976bb1e",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-3",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-33",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-34",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-35",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-36",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-37",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-39-local-folder",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-4",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-40",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-41",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-42",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-43",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-44",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-45",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-5",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-6",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-7",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-sup-2025-8",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-history",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-rksi-2025-04-16",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-rksi-2025-05-14",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-rksi-2026",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-rkss-2025-04-16",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-rkss-2025-05-14",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-rkss-2026",
+      "state": "exact-original"
+    },
+    {
+      "actualSha256": "ee057e6c2e595c86a009ff9df87e8365411f9286310c4c8382c9dcfce7088e7a",
+      "expectedSha256": "974439212250bad240bddf43a5ccf765e130bc9390728beb40182357e41fdb39",
+      "sourceId": "notam-ui",
+      "state": "byte-drift"
+    },
+    {
+      "sourceId": "notam-js",
+      "state": "exact-original"
+    },
+    {
+      "actualSha256": "114d6634d6d0626905be53835cfb26ef95865f09eebe7638d8c256406f31c732",
+      "expectedSha256": "f3c3a4bada3c797a36c118efbce1c7da2d712eff3742fbc44eeab31ba3941683",
+      "sourceId": "notam-valid-ui",
+      "state": "byte-drift"
+    },
+    {
+      "sourceId": "noaa-isd",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-gen01",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "kr-gen31",
+      "state": "exact-original"
+    },
+    {
+      "actualSha256": "e015e626ff750d052cd4f6e2106dd4c9ce8c263361a4f201fa6674c8b9f16ad1",
+      "expectedSha256": "37204b62b0c689afbf1f8d20c1d2b1d4ce2125d8296500f320893e5f20b7912d",
+      "sourceId": "notam-all-rksi",
+      "state": "byte-drift"
+    },
+    {
+      "sourceId": "notam-all-rkss",
+      "state": "exact-original"
+    },
+    {
+      "actualSha256": "1c5e0fe2fef68597379395ac04b60e753b885a2a2cd4f02f019bb8140d602964",
+      "expectedSha256": "939ff4d7f7357bfb1f53af81a53c9a4745d675e743cae502c9ed2c011aea49cc",
+      "sourceId": "notam-all-rkrr",
+      "state": "byte-drift"
+    },
+    {
+      "sourceId": "notam-day-rksi",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "notam-day-rkss",
+      "state": "exact-original"
+    },
+    {
+      "actualSha256": "9fffe8abce802082bc8d7a955dec95a729ab3c828860f425ff58757aafcd2748",
+      "expectedSha256": "5aa0024a4fbc9a891b2a3145b307c415bc6ec27f73d07a7c284efefe05a130a2",
+      "sourceId": "notam-fir-early",
+      "state": "byte-drift"
+    },
+    {
+      "sourceId": "notam-fir-2024h1",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "notam-fir-2024h2",
+      "state": "exact-original"
+    },
+    {
+      "sourceId": "notam-fir-2025",
+      "state": "exact-original"
+    },
+    {
+      "errorType": "TimeoutError",
+      "sourceId": "checklist-z0471-25",
+      "state": "unavailable"
+    },
+    {
+      "sourceId": "checklist-g0684-25",
+      "state": "exact-original"
+    },
+    {
+      "errorType": "TimeoutError",
+      "sourceId": "checklist-a0478-25",
+      "state": "unavailable"
+    },
+    {
+      "sourceId": "checklist-g0304-25",
+      "state": "exact-original"
+    },
+    {
+      "errorType": "TimeoutError",
+      "sourceId": "checklist-z0384-25",
+      "state": "unavailable"
+    },
+    {
+      "errorType": "TimeoutError",
+      "sourceId": "checklist-a0351-25",
+      "state": "unavailable"
+    },
+    {
+      "errorType": "HTTPError",
+      "sourceId": "iiac-location",
+      "state": "unavailable"
+    },
+    {
+      "sourceId": "kac-gimpo-location",
+      "state": "exact-original"
+    },
+    {
+      "errorType": "HTTPError",
+      "sourceId": "iata-seoul-current",
+      "state": "unavailable"
+    },
+    {
+      "sourceId": "notam-fir-followup",
+      "state": "exact-original"
+    }
+  ]
+}

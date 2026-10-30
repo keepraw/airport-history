@@ -1,0 +1,305 @@
+{
+  "bindings": {
+    "executorSha256": "3d72d046a8ec0d964ceae438c9a7b37fb14478c3e0d52ca295d7a8bebdfaa6e0",
+    "policyKey": "kr-molit-bounded-icao@1.0.0",
+    "policySha256": "9b183f6d46804cfac4e75e26bedaba7109ad851a2ce95ac118952da81e4734a8",
+    "scopeSha256": "1d0a8a5231195cdc96aceeabd9415a8f55f76015b62907cf29f838f5be7e11a6"
+  },
+  "boundaryExtraResolved": 0,
+  "conditionalResolved": 54,
+  "formalChangedAnswers": 0,
+  "formalKoreanIdentitiesCreated": 0,
+  "formalNewResolved": 0,
+  "formalRegressionQueries": 37736,
+  "freshNetworkAcquisition": false,
+  "identityAdmissionGate": "original-human-validate_admission",
+  "isolatedNegativeChecks": [
+    "test-permanent-id",
+    "wrong-airport-id",
+    "different-site",
+    "conflicting-arp",
+    "missing-identity-approval",
+    "missing-policy-authorization",
+    "changed-policySha256",
+    "changed-scopeSha256",
+    "changed-executorSha256"
+  ],
+  "mode": "isolated-offline-locked-evidence-replay",
+  "originalBytesReadHere": false,
+  "outcomes": [
+    {
+      "code": "RKSI",
+      "date": "2025-04-18",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-19",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-20",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-21",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-22",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-23",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-24",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-25",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-26",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-27",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-28",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-29",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-30",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-01",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-02",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-03",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-04",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-05",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-06",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-07",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-08",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-09",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-10",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-11",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-12",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-13",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-14",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-18",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-19",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-20",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-21",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-22",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-23",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-24",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-25",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-26",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-27",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-28",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-29",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-30",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-01",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-02",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-03",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-04",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-05",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-06",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-07",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-08",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-09",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-10",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-11",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-12",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-13",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-14",
+      "status": "resolved"
+    }
+  ],
+  "productionRejectedTestAuthority": true,
+  "realFilesUnchanged": true,
+  "realKoreanAuthorizationsCreated": 0,
+  "testOnly": true
+}
