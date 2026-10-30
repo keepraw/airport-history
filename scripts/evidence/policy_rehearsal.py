@@ -38,6 +38,13 @@ def rehearsal(*, live=False, full=True):
             require(not (ROOT / p).is_symlink(), 'No symlinked input in rehearsal')
             (root / p).parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(ROOT / p, root / p)
+        # Start the disposable test lifecycle independently of the real owner grant.
+        # Only this temporary clone receives a draft and an empty test registry.
+        test_policy = load(root / 'research/policy/policy.json')
+        test_policy['status'] = 'draft'
+        write_json(root / 'research/policy/policy.json', test_policy)
+        write_json(root / 'research/policy/authorizations.json', {'formatVersion': 1, 'authorizations': []})
+        write_json(root / 'research/policy/batch-authorizations.json', {'formatVersion': 1, 'authorizations': []})
         subprocess.run(['git', 'update-ref', 'refs/remotes/origin/main', lock['baseline']['baseCommit']], cwd=root, check=True)
         (root / 'node_modules').symlink_to(ROOT / 'node_modules', target_is_directory=True)
         private = root / 'work'; private.mkdir(exist_ok=True)
