@@ -5,6 +5,7 @@ import sys
 
 from policy_review import DIRECTORY, inputs, load, sha, digest, require, write_json
 from policy_gate import grant_text, batch_grant_text
+from policy_executor import fingerprint
 
 
 def artifacts():
@@ -22,6 +23,7 @@ def artifacts():
     original_count = sum(bool(d['researchEvidence']) for d in candidates)
     rows = ['# 可规模化证据审核：真实候选试运行', '',
         f"政策 `{p['policyId']}@{p['policyVersion']}`，SHA-256 `{p['policySha256']}`。当前状态 `{p['status']}`，没有新增政策或批次授权。", '',
+        f"执行器 SHA-256 `{fingerprint()['executorSha256']}`。授权同时绑定规则与执行器；判定代码、门禁、证据解析、Schema、解析器或锁定依赖变化，均不能沿用旧执行器授权。", '',
         f"基线：正式 {lock['baseline']['dataVersion']} / Schema {lock['baseline']['schemaVersion']}；main `{lock['baseline']['baseCommit']}`；数据 SHA-256 `{lock['baseline']['sha256']}`。",
         '新批次独立锁定最新正式快照；旧研究流水线继续使用原 0.7.0 / 0.8.0 基线。未扫描来源变化、未重建全球研究队列。', '',
         f"试运行全部 {len(candidates)} 条去重后的未入库代码候选；{original_count} 条具有既有原件来源哈希记录。另有六条 0.9.0 人工批准代码作为正向回归；七项对应物理身份继续由现有正式 admission replay 保护。",
@@ -58,7 +60,7 @@ def artifacts():
         f"中风险独立模拟：若精确批次获批，新增 {medium['transitions'].get('not_found->resolved', 0)} 个 resolved；不得计入低风险自动收益。",
         f"保护检查共 {coverage['codeQueries']} 次代码查询、{coverage['nameQueries']} 次既有机场名称查询；枚举 2015-01-01 至 2026-10-29，并增加 {coverage['additionalBoundaryDates']} 个所有数据边界及相邻日。",
         f"已发布 resolved 变化 {coverage['changedPublishedResolved']}；既有完整代码答案变化 {coverage['changedExistingAnswers']}；新增／移除 conflict 为 {coverage['newConflicts']}/{coverage['removedConflicts']}。不承诺无限日期穷举，区间边界及相邻日另行覆盖。",
-        '模拟数据中的 verified 仅用于真实解析器测量，不能作为授权输入。正式执行会重新计算、验证 owner 授权、重放原件、调用原 admission gate 和相同解析器保护检查；CLI 只输出 work/ 中的待提交包。', '',
+        '模拟数据中的 verified 仅用于真实解析器测量，不能作为授权输入。正式准备必须实际读取私有原件并复核哈希、提取和引用，随后生成入库包；正式 PR 的 CI 从冻结旧基线调用原 admission CLI，离线校验原件复核收据，明确不声称本进程取得原件。CLI 只输出 work/ 中的待提交包。', '',
         '## 拒绝条件统计', '', '| 触发原因 | 未入库记录数 |', '| --- | ---: |']
     rows += [f'| `{key}` | {value} |' for key, value in sorted(summary['refusalRules'].items(), key=lambda kv: (-kv[1], kv[0]))]
     rows += ['', '一个记录可以触发多个原因。大量 outside-scope 或未受控 AIP 观察意味着不符合这项政策，不能推导为该机场没有权威历史证据。优先补充缺失的有日期 AIP 版次、准确代码／场址引用与版次锚点；迁场案例仍需人工裁决。', '',
@@ -72,9 +74,20 @@ def artifacts():
     for b in batches:
         rows += [f"中风险固定批次 `{b['batchSha256']}`，包含 {len(b['records'])} 条代码和对应物理身份；独立授权文本：", '', '```text', batch_grant_text(b), '```', '']
     rows += ['完整逐记录理由、原始提案阻塞、证据哈希及精确候选见 decisions.json；正式数据、Schema、0.7.0/0.8.0/0.9.0 快照及 Keepraw-Fly 未修改。', '']
+    rehearsal_path = directory / 'rehearsal-live.json'
+    if rehearsal_path.exists():
+        r = load(rehearsal_path)
+        rows += ['## 工程修复与隔离端到端演练', '',
+            '冻结旧基线来自已发布 main 的 0.9.0，并核对对应 Git 提交和不可变快照。候选正式数据库在隔离副本中更新为 0.10.0，原 admission CLI 不再把候选当旧基线；旧记录完整保留。',
+            f"测试主体为 `{r['authority']['login']}` / ID {r['authority']['githubUserId']}，并非 keepraw。测试授权仅写入随即销毁的隔离副本；生产授权校验拒绝该测试授权：{r['productionRejectedTestGrant']}。",
+            f"VEHO、VASD、VOKN：新增 {r['addedAirports']} 个物理身份、{r['addedAssignments']} 条代码、{r['addedSources']} 个来源；候选 SHA-256 `{r['candidateSha256']}`。",
+            f"本地演练读取实际私有原件：{r['originalBytesRecheckedHere']}；覆盖 {r['originalSourceCount']} 个必要原件组件；原 CLI 通过：{r['originalAdmissionCliPassed']}；候选完整 pnpm check 通过：{r['fullCandidatePnpmCheckPassed']}。",
+            'GitHub CI 另行重建该隔离授权和正式候选并执行完整 pnpm check，使用的是已记录原件复核收据的离线回放；普通 CI 不宣称重新取得原件。可手动运行独立原件网络复核工作流，实际下载后逐字节比对；不会上传完整原件或提取。',
+            '工程修复没有改变证据阈值、112 天限制或适用范围。真实 policy.json 仍为 draft，两个真实授权登记为空；没有正式自动入库。', '']
     proposal = {'formatVersion': 1, 'status': 'proposed_not_authorized',
         'policyId': p['policyId'], 'policyVersion': p['policyVersion'], 'policySha256': p['policySha256'],
         'scopeSha256': sha(p['scope']), 'scope': p['scope'], 'parameters': p['parameters'],
+        'executor': fingerprint(), 'authorizationBinding': ['policySha256', 'scopeSha256', 'executorSha256'],
         'authorizationText': grant_text(p), 'mediumBatchAuthorizationTexts': [batch_grant_text(b) for b in batches]}
     return '\n'.join(rows), proposal
 

@@ -1,0 +1,27 @@
+name: Explicit private original verification
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  acquire-and-verify-originals:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.14.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Actually fetch and replay private original bytes (fail on unavailable or changed sources)
+        run: python3 scripts/evidence/policy_originals.py verify --fetch
+      - name: Compare independently reproduced verification records
+        run: git diff --exit-code -- research/policy/verification
+      - name: Remove private originals; never cache or upload them
+        if: always()
+        run: rm -rf work/policy-originals

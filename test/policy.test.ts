@@ -6,12 +6,13 @@ import { assertDataset } from "../src/validate.ts";
 import { measure } from "../scripts/evidence/policy_coverage.ts";
 
 const read = (path: string): Dataset => JSON.parse(readFileSync(path, "utf8"));
-const base = read("data/airports.json");
+const lock = JSON.parse(readFileSync("research/policy/input-lock.json", "utf8"));
+const base = read(lock.baseline.path);
 const simulation = read("research/policy/generated/simulation-data.json");
 const pending = read("research/policy/generated/pending-data.json");
 
 describe("real policy resolver scopes", () => {
-  it("keeps formal 0.9.0 and Schema 3.0.0, with pending candidates separate", () => {
+  it("uses frozen 0.9.0 and Schema 3.0.0, with pending candidates separate", () => {
     expect(base.dataVersion).toBe("0.9.0");
     expect(base.schemaVersion).toBe("3.0.0");
     assertDataset(simulation); assertDataset(pending);

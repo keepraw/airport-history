@@ -6,7 +6,8 @@ import { validateDataset } from "../src/validate.ts";
 import type { Dataset } from "../src/types.ts";
 
 const read = (path: string) => JSON.parse(readFileSync(new URL(path, import.meta.url), "utf8"));
-const data: Dataset = read("../data/airports.json");
+const data: Dataset = read("./curated-0.9.0.json");
+const current: Dataset = read("../data/airports.json");
 const old: Dataset = read("./curated-0.8.0.json");
 const approval = read("../research/admissions/0.9.0/approval.json");
 
@@ -15,6 +16,8 @@ describe("formal 0.9.0 admission", () => {
     expect(data).toEqual(read("./curated-0.9.0.json"));
     for (const collection of ["airports", "assignments", "sources", "names"] as const)
       expect(data[collection].slice(0, old[collection].length)).toEqual(old[collection]);
+    for (const collection of ["airports", "assignments", "sources", "names"] as const)
+      expect(current[collection].slice(0, data[collection].length)).toEqual(data[collection]);
     expect(data.assignments.slice(old.assignments.length).map(a => a.code)).toEqual(["VOSR", "VOGB", "VEKI", "VEPY", "VOKU", "LELC"]);
     for (const p of approval.approvedPhysicalAirports) {
       const { scope: _scope, ...record } = p.exactAuthorization;
@@ -44,7 +47,7 @@ describe("formal 0.9.0 admission", () => {
 
   it("binds the actual measured formal gains and full benchmark to the admitted bytes", () => {
     const coverage = read("../research/admissions/0.9.0/coverage.json");
-    expect(coverage.formalDatasetSha256).toBe(createHash("sha256").update(readFileSync(new URL("../data/airports.json", import.meta.url))).digest("hex"));
+    expect(coverage.formalDatasetSha256).toBe(createHash("sha256").update(readFileSync(new URL("./curated-0.9.0.json", import.meta.url))).digest("hex"));
     expect(coverage.netNewResolved).toBe(4530);
     expect(coverage.newOutsideWindowUncertain).toBe(21390);
     expect(coverage.rows.map((r: { resolvedQueries: number }) => r.resolvedQueries)).toEqual([867, 867, 867, 867, 867, 195]);

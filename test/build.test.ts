@@ -4,11 +4,13 @@ import { readFile, readdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { expect, it } from "vitest";
 import { assertDataset } from "../src/validate.ts";
+import { loadDataset } from "../scripts/load.ts";
 import { resolveAirport, resolveAirportName } from "../src/index.ts";
 it("builds identical bytes twice and ships a parseable, independently checked artifact", async () => {
   const root = fileURLToPath(new URL("../", import.meta.url));
   const build = fileURLToPath(new URL("../scripts/build.ts", import.meta.url));
-  const dist = new URL("../dist/v0.9.0/", import.meta.url);
+  const formal = await loadDataset();
+  const dist = new URL(`../dist/v${formal.dataVersion}/`, import.meta.url);
   const run = (tz: string) =>
     execFileSync(process.execPath, [build], {
       cwd: root,
@@ -35,7 +37,7 @@ it("builds identical bytes twice and ships a parseable, independently checked ar
     files: Record<string, string>;
   };
   expect(manifest.schemaVersion).toBe("3.0.0");
-  expect(manifest.dataVersion).toBe("0.9.0");
+  expect(manifest.dataVersion).toBe(formal.dataVersion);
   const license = await readFile(
     new URL("../LICENSE", import.meta.url),
     "utf8",
@@ -54,10 +56,10 @@ it("builds identical bytes twice and ships a parseable, independently checked ar
   assertDataset(dataset);
   expect(dataset.schemaVersion).toBe(manifest.schemaVersion);
   expect(dataset.dataVersion).toBe(manifest.dataVersion);
-  expect(dataset.airports).toHaveLength(34);
-  expect(dataset.assignments).toHaveLength(49);
-  expect(dataset.sources).toHaveLength(95);
-  expect(dataset.names).toHaveLength(3);
+  expect(dataset.airports).toHaveLength(formal.airports.length);
+  expect(dataset.assignments).toHaveLength(formal.assignments.length);
+  expect(dataset.sources).toHaveLength(formal.sources.length);
+  expect(dataset.names).toHaveLength(formal.names.length);
   expect(dataset.names.map((n) => n.nameId)).toEqual(
     dataset.names.map((n) => n.nameId).sort(),
   );

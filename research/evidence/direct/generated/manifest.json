@@ -13,8 +13,8 @@
   },
   "formatVersion": 1,
   "inputs": {
-    "reference/generated/manifest.json": "2b11a8fe38b39bfff535bf4191b8a66bb9a66d0581f13cc5d3665ca459d8dd28",
-    "reference/triage/manifest.json": "2fccb803d8d157f3221b9a8c163258a3461522332f7b1f182738b8aada32c631",
+    "reference/generated/manifest.json": "12b2ba970065b12c793b4d64f8ae25658c703e4d054c24ee6f623d73bf7744f6",
+    "reference/triage/manifest.json": "769ce7663267cc565ad4d4249349b38c1c786606e5131275101add414c8c80af",
     "research/evidence/direct/assessments.json": "15ba07be3ea5e6654df8c9aec7e6056a37376cbb2723eb346f867515757f10eb",
     "research/evidence/direct/catalog.json": "b89ec7656610ed9ac35f1ed4469b718498602ee799be600a364ec11999c2084c",
     "research/evidence/direct/inputs/airspace-2007.pdf.gz": "ef50c29dc3b559e0d6800e042f6ab25ca1a24ab919f3431634c5d0e6a6ac04df",
@@ -54,7 +54,7 @@
     "scripts/evidence/direct.py": "60c477b505a371389ffc63fe7dc2b8a65269ac437a00f1e85c100fb59f393b81",
     "scripts/evidence/fetch.py": "2928a776ca9c0b20f1d55af455e774acaf4a5ae1f5f516daf519826e5d9b8a57",
     "scripts/evidence/pipeline.py": "b0a139b8fc71554b90bd3d88f99401c683fd517d6b4965b6ed9019380b8a6b16",
-    "scripts/reference/admissions.py": "e4c368180301c2360426d6eeabb2aefd2d739d63ad8639fda2d599237c0e0b2f",
+    "scripts/reference/admissions.py": "c7774e86708ff169ee5a8f006c7528d44850ef932cd5ecc913375aa5002e9992",
     "test/curated-0.7.0.json": "31c5735b333881d7afdd527fe4af1db8e28413d5bba114fbf88a4aad0809cff7"
   },
   "sourceDirectory": "research/evidence/direct",

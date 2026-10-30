@@ -1,0 +1,45 @@
+{
+  "addedAirports": 3,
+  "addedAssignments": 3,
+  "addedSources": 6,
+  "authority": {
+    "githubUserId": 0,
+    "login": "policy-rehearsal"
+  },
+  "baseline": {
+    "baseCommit": "78bbd33211ecbfcc1cc73e956e13674295e44ce8",
+    "dataVersion": "0.9.0",
+    "path": "test/curated-0.9.0.json",
+    "schemaVersion": "3.0.0",
+    "sha256": "1beec87eac60c8f844a5756073811edadbfb6d4a831fb4f03ce5552796ce539b"
+  },
+  "candidateSha256": "2268bdd3426e0d459b7b46d1214b165e3ab90f3526d4f2528f60238f4ee94b13",
+  "candidateVersion": "0.10.0",
+  "changedPublishedResolved": 0,
+  "codes": [
+    "VASD",
+    "VEHO",
+    "VOKN"
+  ],
+  "executorSha256": "2415279526ff8c0eaf9ee1b3ee5afca8bde26e95bfac2c98930212f9f7992a3f",
+  "formatVersion": 1,
+  "fullCandidatePnpmCheckPassed": true,
+  "newConflicts": 0,
+  "offlineReceiptReplay": false,
+  "originalAdmissionCliPassed": true,
+  "originalBytesRecheckedHere": true,
+  "originalSourceCount": 6,
+  "originalVerificationSha256": "aece5ba3ec5b15cf2ea9072496b1d46fd5a90430eb3e2548403e0ff06119ed3d",
+  "policySha256": "3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958",
+  "productionRejectedTestGrant": true,
+  "realFormalAndAuthorizationFilesUnchanged": true,
+  "removedConflicts": 0,
+  "resolverTransitions": {
+    "not_found->not_found": 14201,
+    "not_found->resolved": 249,
+    "not_found->uncertain": 12849,
+    "resolved->resolved": 89189,
+    "uncertain->uncertain": 71250
+  },
+  "testOnly": true
+}

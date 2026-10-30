@@ -111,17 +111,21 @@ def validate():
         checked(ROOT / path, sha)
     for path, sha in manifest['reviewFiles'].items():
         checked(REVIEW / path, sha)
-    checked(ROOT / 'data/airports.json', manifest['formalDatasetSha256'])
-    require((ROOT / 'data/airports.json').read_bytes() == (ROOT / 'test/curated-0.9.0.json').read_bytes(), 'Formal data differs from reviewed 0.9.0')
-    counts = validate_records(load(ROOT / 'data/airports.json'), load(REVIEW / 'approval.json'), load(REVIEW / 'dossier.json'),
+    frozen_path = ROOT / 'test/curated-0.9.0.json'
+    checked(frozen_path, manifest['formalDatasetSha256'])
+    frozen, current = load(frozen_path), load(ROOT / 'data/airports.json')
+    for collection, key in [('airports', 'airportId'), ('assignments', 'assignmentId'), ('names', 'nameId'), ('sources', 'sourceId')]:
+        actual = {r[key]: r for r in current[collection]}
+        require(all(actual.get(r[key]) == r for r in frozen[collection]), 'Released 0.9.0 record changed')
+    counts = validate_records(frozen, load(REVIEW / 'approval.json'), load(REVIEW / 'dossier.json'),
                              load(REVIEW / 'source-review.json'), [load(p) for p in sorted((REVIEW / 'batches').glob('*.json'))])
     (ROOT / 'work').mkdir(exist_ok=True)
     with tempfile.TemporaryDirectory(dir=ROOT / 'work') as tmp:
         output = Path(tmp) / 'validated.json'
         subprocess.run(['python3', str(ROOT / 'scripts/evidence/review.py'), 'validate', '--base-dataset', str(BASELINE),
-                        '--batches', str(REVIEW / 'batches'), '--dataset', str(ROOT / 'data/airports.json'),
+                        '--batches', str(REVIEW / 'batches'), '--dataset', str(frozen_path),
                         '--dossier', str(REVIEW / 'dossier.json'), '--output', str(output)], cwd=ROOT, check=True)
-        require(load(output) == load(ROOT / 'data/airports.json'), 'Admission replay differs from formal data')
+        require(load(output) == frozen, 'Admission replay differs from frozen released data')
     print('Validated user-approved actual 0.9.0 through original admission gate: ' + json.dumps(counts, sort_keys=True))
 
 

@@ -18,6 +18,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / 'scripts/reference'))
 from common import canonical, digest, read_jsonl, write_json
 from query import lookup
+from policy_executor import fingerprint
 
 DIRECTORY = ROOT / 'research/policy'
 ENGINE = '1.0.0'
@@ -90,6 +91,7 @@ def inputs():
     for path, expected in lock['files'].items():
         require(digest(ROOT / path) == expected, f'Changed pinned input: {path}')
     base = pinned(lock['baseline']['path'], lock['baseline']['sha256'])
+    validate_baseline(lock['baseline'])
     require(base['dataVersion'] == lock['baseline']['dataVersion'] and
             base['schemaVersion'] == policy['scope']['schemaVersion'], 'Incompatible baseline')
     sources, dossiers, records, airports = {}, {}, {}, {}
@@ -136,6 +138,16 @@ def inputs():
         if any(x['recordId'] == a['assignmentId'] for x in selection['assignments']):
             records[a['assignmentId']] = a
     return policy, lock, base, records, airports, dossiers, sources, competitors
+
+
+def validate_baseline(baseline):
+    """A candidate cannot declare itself its own previously published baseline."""
+    require(baseline['path'] == f"test/curated-{baseline['dataVersion']}.json", 'Noncanonical frozen baseline')
+    published = subprocess.check_output(['git', 'show', baseline['baseCommit'] + ':data/airports.json'], cwd=ROOT)
+    require(hashlib.sha256(published).hexdigest() == baseline['sha256'], 'Baseline differs from published commit')
+    require(subprocess.run(['git', 'merge-base', '--is-ancestor', baseline['baseCommit'], 'origin/main'],
+                          cwd=ROOT, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).returncode == 0,
+            'Baseline commit is not in published main history')
 
 
 def citation(s):
@@ -262,6 +274,7 @@ def classify(a, physical, obs, rivals, reference, policy, safety=None):
 
 def evaluate():
     p, lock, base, records, airports, dossiers, sources, competitors = inputs()
+    executor = fingerprint()['executorSha256']
     screens = load(DIRECTORY / 'screening.json')
     require(screens['reviewer'] is None and screens['screenedBy'] == 'Codex', 'Screening is not human approval')
     decisions = []
@@ -290,6 +303,7 @@ def evaluate():
                           'sample': 'published-positive' if rid in admitted else 'unpublished',
                           **result, 'reviewMode': 'policy_dry_run', 'reviewer': None, 'authorizationSource': None,
                           'policyId': p['policyId'], 'policyVersion': p['policyVersion'], 'policySha256': p['policySha256'],
+                          'executorSha256': executor,
                           'baseline': lock['baseline'], 'inputSha256': sha(lock),
                           'evidenceSha256': sha({'observations': obs, 'researchEvidence': research_evidence}),
                           'sourceIds': [s['sourceId'] for s in obs], 'researchEvidence': research_evidence,
@@ -366,18 +380,10 @@ def build(output):
 
 
 def replay_originals():
-    from global_batch import extract
-    _, _, _, _, _, _, sources, _ = inputs()
-    for s in load(DIRECTORY / 'source-lock.json')['sources']:
-        raw = ROOT / s['privateOriginalPath']
-        require(digest(raw) == s['originalSha256'], 'Original replay hash mismatch')
-        text = extract(raw.read_bytes())
-        require(hashlib.sha256(text.encode()).hexdigest() == s['textOriginalSha256'], 'Original extraction mismatch')
-        normalized = ' '.join(text.split())
-        for q in citation(sources[s['sourceId']])['spans']:
-            target = raw.read_bytes().decode('utf-8') if q['kind'] == 'raw_html' else normalized
-            require(target[q['characterStart']:q['characterEnd']] == q['quote'], 'Original citation replay mismatch')
-    print('Replayed every policy original, extraction and exact citation; no human reading asserted.')
+    from policy_originals import verify_originals
+    result = verify_originals(evaluate())
+    print(f"Privately replayed {len(result['sources'])} required originals, extractions and exact citations.")
+    return result
 
 
 def freeze_inputs():
@@ -385,6 +391,10 @@ def freeze_inputs():
     base = load(ROOT / 'data/airports.json')
     path = f"test/curated-{base['dataVersion']}.json"
     require((ROOT / path).read_bytes() == (ROOT / 'data/airports.json').read_bytes(), 'Unpublished formal baseline')
+    commit = subprocess.check_output(['git', 'rev-parse', 'origin/main'], cwd=ROOT, text=True).strip()
+    baseline = {'path': path, 'sha256': digest(ROOT / path), 'dataVersion': base['dataVersion'],
+                'schemaVersion': base['schemaVersion'], 'baseCommit': commit}
+    validate_baseline(baseline)
     files = [DIRECTORY / name for name in ('source-lock.json', 'screening.json')]
     files += list((DIRECTORY / 'excerpts').glob('*.json'))
     files += [ROOT / 'research/evidence/first-admission/selection.json',
@@ -399,11 +409,11 @@ def freeze_inputs():
     files += [ROOT / p for p in ('schema/dataset.schema.json', 'scripts/reference/admissions.py',
         'scripts/evidence/policy_review.py', 'scripts/evidence/policy_gate.py', 'scripts/evidence/policy_coverage.ts',
         'scripts/evidence/policy_report.py', 'src/resolve.ts', 'src/names.ts', 'src/evidence.ts', 'src/time.ts', 'src/validate.ts')]
+    from policy_executor import FILES
+    files += [ROOT / p for p in FILES]
     files += [ROOT / f'research/evidence/global/generated/batches/global-evidence-proposal-{n}.json' for n in (1, 2)]
     write_json(DIRECTORY / 'input-lock.json', {'formatVersion': 1,
-        'baseline': {'path': path, 'sha256': digest(ROOT / path), 'dataVersion': base['dataVersion'],
-            'schemaVersion': base['schemaVersion'],
-            'baseCommit': subprocess.check_output(['git', 'rev-parse', 'origin/main'], cwd=ROOT, text=True).strip()},
+        'baseline': baseline,
         'reviewedOn': date.today().isoformat(),
         'files': {str(f.relative_to(ROOT)): digest(f) for f in sorted(set(files))}})
 

@@ -1,4 +1,6 @@
 import { describe, expect, it } from "vitest";
+import { readFileSync } from "node:fs";
+import type { Dataset } from "../src/types.ts";
 import { loadDataset } from "../scripts/load.ts";
 import { resolveAirport } from "../src/index.ts";
 import initialIds from "./identities.json" with { type: "json" };
@@ -48,7 +50,8 @@ describe("batch 1 historical identity and coordinates", () => {
 
   it("adds five permanent identities without replacing the original eight", () => {
     // Later expansions add identities; the original and batch-1 mappings stay unchanged.
-    expect(data.airports).toHaveLength(34);
+    const frozen: Dataset = JSON.parse(readFileSync(new URL("./curated-0.9.0.json", import.meta.url), "utf8"));
+    expect(data.airports.slice(0, frozen.airports.length)).toEqual(frozen.airports);
     const allIds = [...Object.values(initialIds), ...Object.values(batchIds)];
     expect(new Set(allIds.map((i) => i.airportId)).size).toBe(13);
     for (const identity of allIds) {

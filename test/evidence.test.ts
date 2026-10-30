@@ -1,12 +1,16 @@
 import { expect, it } from "vitest";
+import { readFileSync } from "node:fs";
+import type { Dataset } from "../src/types.ts";
 import { loadDataset } from "../scripts/load.ts";
 import { resolveAirport } from "../src/index.ts";
 import { validateDataset } from "../src/validate.ts";
 
 const data = await loadDataset();
 
-it("classifies all forty-nine curated intervals as reviewed continuity inferences", () => {
-  expect(data.assignments.map((a) => a.assignmentId).sort()).toEqual([
+it("preserves forty-nine released intervals and checks current continuity inferences", () => {
+  const frozen: Dataset = JSON.parse(readFileSync(new URL("./curated-0.9.0.json", import.meta.url), "utf8"));
+  expect(data.assignments.slice(0, frozen.assignments.length)).toEqual(frozen.assignments);
+  expect(frozen.assignments.map((a) => a.assignmentId).sort()).toEqual([
     "global-proposal-kalaburagi-icao-vogb",
     "global-proposal-kurnool-icao-voku",
     "global-proposal-kushinagar-icao-veki",

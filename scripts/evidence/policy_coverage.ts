@@ -72,14 +72,17 @@ export function measure(base: Dataset, candidate: Dataset) {
 
 if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const command = process.argv[2];
-  const base = read<Dataset>(join(ROOT, "data/airports.json"));
+  const lock = read<{ baseline: { path: string; sha256: string } }>(join(ROOT, "research/policy/input-lock.json"));
+  const basePath = join(ROOT, lock.baseline.path);
+  if (hash(basePath) !== lock.baseline.sha256) throw new Error("Frozen policy baseline changed");
+  const base = read<Dataset>(basePath);
   const candidatePath = command === "gate" ? process.argv[3]! : join(DIR, "simulation-data.json");
   const coverage = { ...measure(base, read<Dataset>(candidatePath)),
-    baselineFileSha256: hash(join(ROOT, "data/airports.json")), candidateFileSha256: hash(candidatePath) };
+    baselineFileSha256: hash(basePath), candidateFileSha256: hash(candidatePath) };
   if (command !== "gate") {
     const mediumPath = join(DIR, "medium-simulation-data.json");
     const medium = { ...measure(base, read<Dataset>(mediumPath)),
-      baselineFileSha256: hash(join(ROOT, "data/airports.json")), candidateFileSha256: hash(mediumPath) };
+      baselineFileSha256: hash(basePath), candidateFileSha256: hash(mediumPath) };
     if (command === "build") writeFileSync(join(DIR, "medium-coverage.json"), json(medium));
     else if (command === "validate" && readFileSync(join(DIR, "medium-coverage.json"), "utf8") !== json(medium))
       throw new Error("Stale medium resolver measurements");

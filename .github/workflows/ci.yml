@@ -39,3 +39,21 @@ jobs:
       - run: pnpm evidence:history
       - run: pnpm test:evidence
       - run: pnpm build
+  policy-admission-rehearsal:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.14.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - name: Ensure original PDF extraction is available
+        run: command -v pdftotext || (sudo apt-get update && sudo apt-get install -y poppler-utils)
+      - run: pnpm install --frozen-lockfile
+      - name: Isolated test-authority admission and full candidate CI (offline receipt replay)
+        run: pnpm policy:rehearse

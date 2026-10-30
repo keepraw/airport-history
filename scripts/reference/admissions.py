@@ -159,7 +159,8 @@ def main():
     admit.add_argument('--dossier', type=Path, required=True)
     admit.add_argument('--output', type=Path, required=True)
     admit.add_argument('--base-dataset', type=Path,
-                       help='Replay against an immutable reviewed 0.7.0 or 0.8.0 snapshot; default: current formal data')
+                       help='Replay against an immutable published snapshot; policy replay selects its frozen baseline')
+    admit.add_argument('--policy-context', type=Path, help='Exact authorized policy receipt, including original-verification record')
     args = parser.parse_args()
     if args.command == 'prepare':
         if args.output.exists() and any(args.output.iterdir()):
@@ -183,10 +184,18 @@ def main():
         print(f'Prepared {count} pending-review batches; no historical facts admitted.')
     else:
         base_path = ROOT / 'data/airports.json'
-        if args.base_dataset is not None:
+        if args.policy_context is not None:
+            sys.path.insert(0, str(ROOT / 'scripts/evidence'))
+            from policy_review import inputs
+            pinned_base = ROOT / inputs()[1]['baseline']['path']
+            if args.base_dataset is not None and args.base_dataset.resolve() != pinned_base.resolve():
+                raise ValueError('Policy replay requires its frozen published baseline')
+            base_path = pinned_base
+        elif args.base_dataset is not None:
             baselines = {
                 research_baseline_path().resolve(): '31c5735b333881d7afdd527fe4af1db8e28413d5bba114fbf88a4aad0809cff7',
                 (ROOT / 'test/curated-0.8.0.json').resolve(): 'b7880507c50cf8f993c98b3ec66f34e6433c452d7637eea7c6bfe61edbf166a3',
+                (ROOT / 'test/curated-0.9.0.json').resolve(): '1beec87eac60c8f844a5756073811edadbfb6d4a831fb4f03ce5552796ce539b',
             }
             base_path = args.base_dataset.resolve()
             if base_path not in baselines:
@@ -198,7 +207,8 @@ def main():
         existing = [json.loads(p.read_text()) for p in sorted((ROOT / 'research/discovery/batches').glob('*.json'))]
         validate_batch_series([*existing, *batches])
         dossier = json.loads(args.dossier.read_text())
-        counts = validate_admission(base, proposed, batches, dossier)
+        context = json.loads(args.policy_context.read_text()) if args.policy_context else None
+        counts = validate_admission(base, proposed, batches, dossier, policy_context=context)
         # Use the SAME schema and semantic gate as the historical dataset, including
         # overlap/evidence checks. Output is a proposal; never overwrite curated data.
         validation = '''import {readFileSync} from "node:fs";

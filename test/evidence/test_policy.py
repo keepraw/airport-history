@@ -17,10 +17,20 @@ sys.path.insert(0, str(ROOT / 'scripts/evidence'))
 sys.path.insert(0, str(ROOT / 'scripts/reference'))
 import policy_review as engine
 import policy_gate as gate
+import policy_executor as executor
+import policy_originals as originals
+from policy_originals import validate_offline
 from admissions import validate_admission
 
 
 class PolicyTests(unittest.TestCase):
+    def setUp(self):
+        self.saved_authority, self.saved_reader = gate.AUTHORITY, gate.read_owner_comment
+        gate.AUTHORITY, gate.read_owner_comment = gate.PRODUCTION_AUTHORITY, gate.PRODUCTION_COMMENT_READER
+
+    def tearDown(self):
+        gate.AUTHORITY, gate.read_owner_comment = self.saved_authority, self.saved_reader
+
     @classmethod
     def setUpClass(cls):
         cls.inputs = engine.inputs()
@@ -109,7 +119,9 @@ class PolicyTests(unittest.TestCase):
     def test_draft_cannot_emit_admission_and_cannot_impersonate_owner(self):
         with tempfile.TemporaryDirectory() as tmp:
             output = Path(tmp) / 'proposal'
-            with self.assertRaisesRegex(ValueError, 'not authorized'): gate.admit(output)
+            draft = deepcopy(self.inputs[0]); draft['status'] = 'draft'
+            with patch.object(gate, 'inputs', return_value=(draft, *self.inputs[1:])):
+                with self.assertRaisesRegex(ValueError, 'not authorized'): gate.admit(output)
             self.assertFalse(output.exists())
         data = engine.proposed_dataset(self.decisions, verified=True)
         batches, dossier = gate.packet(self.decisions, data)
@@ -122,6 +134,7 @@ class PolicyTests(unittest.TestCase):
         policy = deepcopy(self.inputs[0]); policy['status'] = 'authorized'
         text = gate.grant_text(policy)
         grant = {'policyId': policy['policyId'], 'policyVersion': policy['policyVersion'],
+            'executorSha256': executor.fingerprint()['executorSha256'], 'authorityKind': 'github-owner',
             'policySha256': policy['policySha256'], 'scopeSha256': engine.sha(policy['scope']),
             'state': 'authorized', 'authorizedBy': {'login': 'keepraw', 'githubUserId': 49091395},
             'authorizationText': text, 'authorizationTextSha256': hashlib.sha256(text.encode()).hexdigest(),
@@ -137,7 +150,8 @@ class PolicyTests(unittest.TestCase):
                 grant['authorizedBy'][key] = old
             data = engine.proposed_dataset(self.decisions, verified=True)
             batches, dossier = gate.packet(self.decisions, data)
-            context = gate.receipt(self.decisions, data, batches, dossier, grant)
+            proof = engine.load(engine.DIRECTORY / 'verification/low.json')
+            context = gate.receipt(self.decisions, data, batches, dossier, grant, original_verification=proof)
             with patch.object(gate, 'inputs', return_value=(policy, *self.inputs[1:])), patch.object(gate, 'replay_originals'):
                 self.assertEqual(validate_admission(self.inputs[2], data, batches, dossier, policy_context=context),
                                  {'airports': 3, 'assignments': 3, 'names': 0, 'sources': 6})
@@ -169,6 +183,7 @@ class PolicyTests(unittest.TestCase):
         with self.assertRaises(ValueError): gate.batch_authorization(batch)
         text = gate.batch_grant_text(batch)
         grant = {'state': 'authorized', 'batchSha256': batch['batchSha256'],
+                 'executorSha256': executor.fingerprint()['executorSha256'], 'authorityKind': 'github-owner',
                  'authorizedBy': {'login': 'keepraw', 'githubUserId': 49091395},
                  'authorizationText': text, 'authorizationTextSha256': hashlib.sha256(text.encode()).hexdigest(),
                  'authorizationSource': 'https://github.com/keepraw/airport-history/issues/1#issuecomment-1',
@@ -180,7 +195,8 @@ class PolicyTests(unittest.TestCase):
             ds = batch['records']
             data = engine.proposed_dataset(ds, verified=True, risks=('medium',), reviewed_on=grant['approvedOn'])
             batches, dossier = gate.packet(ds, data, mode='batch', reviewed_on=grant['approvedOn'])
-            context = gate.receipt(ds, data, batches, dossier, grant, mode='batch', batch_sha=batch['batchSha256'])
+            proof = engine.load(engine.DIRECTORY / 'verification/medium.json')
+            context = gate.receipt(ds, data, batches, dossier, grant, mode='batch', batch_sha=batch['batchSha256'], original_verification=proof)
             with patch.object(gate, 'replay_originals'):
                 self.assertEqual(validate_admission(self.inputs[2], data, batches, dossier, policy_context=context),
                                  {'airports': 2, 'assignments': 2, 'names': 0, 'sources': 4})
@@ -193,6 +209,11 @@ class PolicyTests(unittest.TestCase):
 
     def test_activation_requires_remote_exact_owner_and_no_writes_on_rejection(self):
         policy = self.inputs[0]
+        draft = deepcopy(policy); draft['status'] = 'draft'
+        self.enterContext(patch.object(gate, 'inputs', return_value=(draft, *self.inputs[1:])))
+        real_load = gate.load
+        self.enterContext(patch.object(gate, 'load', side_effect=lambda p:
+            {'formatVersion': 1, 'authorizations': []} if p.name == 'authorizations.json' else real_load(p)))
         url = 'https://github.com/keepraw/airport-history/issues/1#issuecomment-1'
         comment = {'html_url': url, 'user': {'login': 'keepraw', 'id': 49091395},
                    'body': gate.grant_text(policy), 'created_at': '2026-10-29T00:00:00Z'}
@@ -213,8 +234,49 @@ class PolicyTests(unittest.TestCase):
         source = engine.load(engine.DIRECTORY / 'source-lock.json')['sources'][0]
         with self.assertRaisesRegex(ValueError, 'Changed pinned input'):
             engine.pinned('research/policy/' + source['excerptPath'], '0'*64)
-        with patch.object(engine, 'digest', return_value='0'*64):
-            with self.assertRaises(ValueError): engine.replay_originals()
+        with tempfile.TemporaryDirectory(dir=ROOT / 'work') as tmp:
+            corrupt = Path(tmp) / 'changed-original.html'; corrupt.write_bytes(b'corrupted original')
+            altered = {**source, 'privateOriginalPath': str(corrupt.relative_to(ROOT))}
+            with patch.object(originals, 'required_sources', return_value=[altered]):
+                with self.assertRaisesRegex(ValueError, 'Original replay hash mismatch'):
+                    originals.verify_originals([])
+
+    def test_candidate_cannot_declare_itself_the_published_baseline(self):
+        old = deepcopy(self.inputs[1]['baseline'])
+        engine.validate_baseline(old)
+        current_candidate = engine.proposed_dataset(self.decisions, verified=True)
+        old.update(dataVersion=current_candidate['dataVersion'],
+                   path=f"test/curated-{current_candidate['dataVersion']}.json", sha256=engine.sha(current_candidate))
+        with self.assertRaisesRegex(ValueError, 'Baseline differs from published commit'):
+            engine.validate_baseline(old)
+
+    def test_executor_bytes_change_requires_new_authorization(self):
+        grant = {'executorSha256': executor.fingerprint()['executorSha256']}
+        executor.require_binding(grant)
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            for p in executor.FILES:
+                target = root / p; target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_bytes((ROOT / p).read_bytes())
+            # Same policy JSON/version; changed decision implementation must still invalidate the grant.
+            target = root / 'scripts/evidence/policy_review.py'
+            target.write_text(target.read_text().replace("risk = 'high' if high", "risk = 'low' if high"))
+            with patch.object(executor, 'ROOT', root):
+                self.assertNotEqual(executor.fingerprint()['executorSha256'], grant['executorSha256'])
+                with self.assertRaisesRegex(ValueError, 'new explicit authorization'): executor.require_binding(grant)
+        with self.assertRaises(ValueError): executor.require_binding({})
+
+    def test_offline_receipt_replay_is_explicit_and_bound_to_all_inputs(self):
+        selected = [d for d in self.decisions if d['sample'] == 'unpublished' and d['risk'] == 'low']
+        proof = engine.load(engine.DIRECTORY / 'verification/low.json')
+        result = validate_offline(proof, selected)
+        self.assertFalse(result['originalBytesObtainedHere'])
+        for key in ('executorSha256', 'inputSha256', 'baselineSha256'):
+            changed = deepcopy(proof); changed[key] = '0'*64
+            with self.assertRaises(ValueError): validate_offline(changed, selected)
+        changed = deepcopy(proof); changed['sources'].pop()
+        with self.assertRaises(ValueError): validate_offline(changed, selected)
+        with self.assertRaises(ValueError): validate_offline(None, selected)
 
 
 if __name__ == '__main__': unittest.main()
