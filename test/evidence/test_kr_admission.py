@@ -4,6 +4,7 @@ import base64
 import datetime as dt
 import hashlib
 import json
+import os
 from pathlib import Path
 import shutil
 import sys
@@ -303,6 +304,18 @@ class KoreanAdmissionTests(unittest.TestCase):
         self.assertTrue(report['realFilesUnchanged'])
         self.assertFalse(report['originalBytesReadHere'])
         self.assertEqual(9, len(report['isolatedNegativeChecks']))
+
+    def test_nested_rehearsal_ignores_inherited_python_test_bootstrap_and_missing_bundle_readme(self):
+        missing = a.ROOT / 'research/admissions/0.10.0/README.md'
+        actual_exists = Path.exists
+        with tempfile.TemporaryDirectory(dir=a.ROOT / 'work') as tmp:
+            bootstrap = Path(tmp)
+            (bootstrap / 'sitecustomize.py').write_text("raise RuntimeError('Parent test authority must not enter child')\n")
+            with patch.dict(os.environ, {'PYTHONPATH': str(bootstrap), 'AIRPORT_POLICY_REHEARSAL_ACTIVE': '1'}), \
+                 patch.object(Path, 'exists', lambda path: False if path == missing else actual_exists(path)):
+                result = rehearse()
+        self.assertEqual(54, result['conditionalResolved'])
+        self.assertTrue(result['productionRejectedTestAuthority'])
 
 
 if __name__ == '__main__':

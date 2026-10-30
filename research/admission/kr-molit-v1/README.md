@@ -28,7 +28,9 @@ python3 scripts/evidence/korea_readiness.py rights
 identity admission function, the independent Korean adapter, the real schema and
 `resolveAirport()`. A distinct test principal and offline evidence dependency are
 injected only in that process. A second production process rejects those test
-credentials. The public receipt contains query results and no test identities or
+credentials. Isolated Python child processes ignore inherited PYTHONPATH test
+bootstraps; outer disposable bundle changes are preserved without weakening the
+real 905-file baseline validator. The public receipt contains query results and no test identities or
 authorization records. Ordinary CI replays locked evidence **offline**; it does
 not claim original acquisition.
 

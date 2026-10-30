@@ -11,12 +11,19 @@ from kr_adapter import ROOT, DIRECTORY, load, write, require
 
 def rehearse():
     protected = load(DIRECTORY / 'protected-baseline.json')
-    before = {p: (ROOT / p).read_bytes() for p in protected}
+    def existing_bytes(path):
+        return path.read_bytes() if path.exists() else None
+    # The parent Indian rehearsal legitimately replaces its disposable bundle.
+    # Preserve that copy's actual state; kr_verify separately enforces every real
+    # baseline file. Missing generated documentation is not production authority.
+    before = {p: existing_bytes(ROOT / p) for p in protected}
     with tempfile.TemporaryDirectory(prefix='kr-isolated-', dir=ROOT / 'work') as tmp:
         root = Path(tmp) / 'repo'
         paths = subprocess.check_output(['git', 'ls-files', '--cached', '--others', '--exclude-standard', '-z'], cwd=ROOT).decode().split('\0')
         for name in filter(None, paths):
             source = ROOT / name
+            if not source.exists():
+                continue  # Tracked artifacts removed only in an outer disposable rehearsal.
             require(not source.is_symlink(), 'Symlink in rehearsal source')
             target = root / name
             target.parent.mkdir(parents=True, exist_ok=True)
@@ -90,15 +97,16 @@ assert report['formalChangedAnswers']==report['formalNewResolved']==report['boun
 report['isolatedNegativeChecks']=negative_checks
 a.write(Path('work/report.json'),report)
 '''
-        completed = subprocess.run(['python3', '-c', program], cwd=root, capture_output=True, text=True)
+        completed = subprocess.run(['python3', '-I', '-c', program], cwd=root, capture_output=True, text=True)
         require(completed.returncode == 0, 'Isolated rehearsal failed: ' + completed.stderr[-5000:])
         # No dependency injection in this second process: real authority must reject the fixture.
-        rejected = subprocess.run(['python3', 'scripts/admission/kr_adapter.py', 'admit', '--data-version', '0.10.2',
+        production = "import sys; sys.path.insert(0, 'scripts/admission'); import kr_adapter; kr_adapter.main()"
+        rejected = subprocess.run(['python3', '-I', '-c', production, 'admit', '--data-version', '0.10.2',
                                    '--output', 'work/production-must-reject'], cwd=root, capture_output=True, text=True)
         require(rejected.returncode != 0 and 'Invalid physical identity approval' in rejected.stderr and
                 not (root / 'work/production-must-reject').exists(), 'Production accepted test identity/authorization')
         report = load(root / 'work/report.json')
-    require(all((ROOT / p).read_bytes() == raw for p, raw in before.items()), 'Rehearsal changed real baseline')
+    require(all(existing_bytes(ROOT / p) == raw for p, raw in before.items()), 'Rehearsal changed real baseline')
     return {**report, 'testOnly': True, 'mode': 'isolated-offline-locked-evidence-replay',
             'productionRejectedTestAuthority': True, 'realFilesUnchanged': True,
             'originalBytesReadHere': False, 'freshNetworkAcquisition': False,
