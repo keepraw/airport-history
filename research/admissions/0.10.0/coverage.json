@@ -1,0 +1,389 @@
+{
+  "transitions": {
+    "uncertain->uncertain": 71250,
+    "resolved->resolved": 89189,
+    "not_found->not_found": 14201,
+    "not_found->uncertain": 12849,
+    "not_found->resolved": 249
+  },
+  "byCode": {
+    "IATA:TAO": {
+      "uncertain->uncertain": 645,
+      "resolved->resolved": 3721
+    },
+    "IATA:IST": {
+      "uncertain->uncertain": 228,
+      "resolved->resolved": 4138
+    },
+    "IATA:HKG": {
+      "uncertain->uncertain": 11,
+      "resolved->resolved": 4355
+    },
+    "IATA:DEN": {
+      "uncertain->uncertain": 8,
+      "resolved->resolved": 4358
+    },
+    "ICAO:VHHH": {
+      "uncertain->uncertain": 11,
+      "resolved->resolved": 4355
+    },
+    "IATA:ISL": {
+      "uncertain->uncertain": 1452,
+      "resolved->resolved": 2914
+    },
+    "IATA:ISB": {
+      "uncertain->uncertain": 574,
+      "resolved->resolved": 3792
+    },
+    "IATA:SXF": {
+      "uncertain->uncertain": 1993,
+      "resolved->resolved": 177,
+      "not_found->not_found": 2196
+    },
+    "IATA:BER": {
+      "not_found->not_found": 2169,
+      "uncertain->uncertain": 7,
+      "resolved->resolved": 2190
+    },
+    "IATA:TSE": {
+      "uncertain->uncertain": 1969,
+      "resolved->resolved": 62,
+      "not_found->not_found": 2335
+    },
+    "IATA:NQZ": {
+      "not_found->not_found": 2030,
+      "uncertain->uncertain": 7,
+      "resolved->resolved": 2329
+    },
+    "IATA:KIV": {
+      "uncertain->uncertain": 3321,
+      "resolved->resolved": 29,
+      "not_found->not_found": 1016
+    },
+    "IATA:RMO": {
+      "not_found->not_found": 3349,
+      "uncertain->uncertain": 7,
+      "resolved->resolved": 1010
+    },
+    "IATA:ROV": {
+      "uncertain->uncertain": 496,
+      "resolved->resolved": 3870
+    },
+    "IATA:RVI": {
+      "not_found->not_found": 1106,
+      "uncertain->uncertain": 3260
+    },
+    "IATA:YNT": {
+      "uncertain->uncertain": 198,
+      "resolved->resolved": 4168
+    },
+    "IATA:PNH": {
+      "uncertain->uncertain": 435,
+      "resolved->resolved": 3931
+    },
+    "ICAO:VDPP": {
+      "uncertain->uncertain": 454,
+      "resolved->resolved": 3912
+    },
+    "IATA:KTI": {
+      "uncertain->uncertain": 3956,
+      "resolved->resolved": 410
+    },
+    "ICAO:VDTI": {
+      "uncertain->uncertain": 3950,
+      "resolved->resolved": 416
+    },
+    "IATA:DKR": {
+      "uncertain->uncertain": 3283,
+      "resolved->resolved": 1083
+    },
+    "IATA:DSS": {
+      "uncertain->uncertain": 1107,
+      "resolved->resolved": 3259
+    },
+    "ICAO:GOOY": {
+      "uncertain->uncertain": 39,
+      "resolved->resolved": 4327
+    },
+    "ICAO:GOBD": {
+      "uncertain->uncertain": 1122,
+      "resolved->resolved": 3244
+    },
+    "IATA:AAP": {
+      "uncertain->uncertain": 1744,
+      "resolved->resolved": 2622
+    },
+    "ICAO:OPRN": {
+      "uncertain->uncertain": 2677,
+      "resolved->resolved": 1689
+    },
+    "ICAO:OPIS": {
+      "uncertain->uncertain": 955,
+      "resolved->resolved": 3411
+    },
+    "ICAO:LTBA": {
+      "uncertain->uncertain": 36,
+      "resolved->resolved": 4330
+    },
+    "ICAO:LTFM": {
+      "uncertain->uncertain": 1431,
+      "resolved->resolved": 2935
+    },
+    "ICAO:EDDB": {
+      "uncertain->uncertain": 606,
+      "resolved->resolved": 3760
+    },
+    "ICAO:UACC": {
+      "uncertain->uncertain": 537,
+      "resolved->resolved": 3829
+    },
+    "ICAO:KPFN": {
+      "uncertain->uncertain": 4363,
+      "resolved->resolved": 3
+    },
+    "ICAO:KECP": {
+      "uncertain->uncertain": 4354,
+      "resolved->resolved": 12
+    },
+    "ICAO:KISN": {
+      "uncertain->uncertain": 4348,
+      "resolved->resolved": 18
+    },
+    "ICAO:VOSR": {
+      "uncertain->uncertain": 3499,
+      "resolved->resolved": 867
+    },
+    "ICAO:VOGB": {
+      "uncertain->uncertain": 3499,
+      "resolved->resolved": 867
+    },
+    "ICAO:VEKI": {
+      "uncertain->uncertain": 3499,
+      "resolved->resolved": 867
+    },
+    "ICAO:VEPY": {
+      "uncertain->uncertain": 3499,
+      "resolved->resolved": 867
+    },
+    "ICAO:VOKU": {
+      "uncertain->uncertain": 3499,
+      "resolved->resolved": 867
+    },
+    "ICAO:LELC": {
+      "uncertain->uncertain": 4171,
+      "resolved->resolved": 195
+    },
+    "ICAO:VEHO": {
+      "not_found->uncertain": 4283,
+      "not_found->resolved": 83
+    },
+    "ICAO:VOKN": {
+      "not_found->uncertain": 4283,
+      "not_found->resolved": 83
+    },
+    "ICAO:VASD": {
+      "not_found->uncertain": 4283,
+      "not_found->resolved": 83
+    }
+  },
+  "changedPublishedResolved": 0,
+  "changedExistingAnswers": 0,
+  "newConflicts": 0,
+  "removedConflicts": 0,
+  "codeQueries": 187738,
+  "nameQueries": 148444,
+  "localDates": 4366,
+  "interval": [
+    "2015-01-01",
+    "2026-10-29"
+  ],
+  "additionalBoundaryDates": 46,
+  "mode": "formal_policy_admission",
+  "authorization": "https://github.com/keepraw/airport-history/issues/19#issuecomment-6513409968",
+  "measurement": "Production resolver on the exact formal 0.10.0 candidate, replayable from its immutable snapshot.",
+  "baselineFileSha256": "1beec87eac60c8f844a5756073811edadbfb6d4a831fb4f03ce5552796ce539b",
+  "candidateFileSha256": "2268bdd3426e0d459b7b46d1214b165e3ab90f3526d4f2528f60238f4ee94b13",
+  "snapshot": "test/curated-0.10.0.json",
+  "baseCommit": "458078b5a6662f9cdbe3f778d04dfeec959686cd",
+  "policySha256": "3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958",
+  "executorSha256": "2415279526ff8c0eaf9ee1b3ee5afca8bde26e95bfac2c98930212f9f7992a3f",
+  "resolverSha256": "af9631a3c270a2ca71606a75cf7830d9f7e711bab431a919fa5be615f26ec5b0",
+  "schemaVersion": "3.0.0",
+  "dataVersion": "0.10.0",
+  "beforeCounts": {
+    "airports": 34,
+    "assignments": 49,
+    "sources": 95,
+    "names": 3
+  },
+  "afterCounts": {
+    "airports": 37,
+    "assignments": 52,
+    "sources": 101,
+    "names": 3
+  },
+  "rows": [
+    {
+      "assignmentId": "global-proposal-hollongi-icao-veho",
+      "code": "VEHO",
+      "scheme": "ICAO",
+      "airportId": "apt_9acf6a6b-6e22-48c6-881c-d602429a9268",
+      "certainWindow": [
+        "2026-04-17",
+        "2026-07-09"
+      ],
+      "boundaries": [
+        {
+          "localDate": "2026-04-15",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2026-04-16",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2026-04-17",
+          "status": "resolved",
+          "airportId": "apt_9acf6a6b-6e22-48c6-881c-d602429a9268"
+        },
+        {
+          "localDate": "2026-04-18",
+          "status": "resolved",
+          "airportId": "apt_9acf6a6b-6e22-48c6-881c-d602429a9268"
+        },
+        {
+          "localDate": "2026-07-07",
+          "status": "resolved",
+          "airportId": "apt_9acf6a6b-6e22-48c6-881c-d602429a9268"
+        },
+        {
+          "localDate": "2026-07-08",
+          "status": "resolved",
+          "airportId": "apt_9acf6a6b-6e22-48c6-881c-d602429a9268"
+        },
+        {
+          "localDate": "2026-07-09",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2026-07-10",
+          "status": "uncertain",
+          "airportId": null
+        }
+      ],
+      "newResolved": 83,
+      "newUncertain": 4283
+    },
+    {
+      "assignmentId": "global-proposal-kannur-icao-vokn",
+      "code": "VOKN",
+      "scheme": "ICAO",
+      "airportId": "apt_58a2554f-6a9b-4ad7-bc2c-2550ad21b962",
+      "certainWindow": [
+        "2026-04-17",
+        "2026-07-09"
+      ],
+      "boundaries": [
+        {
+          "localDate": "2026-04-15",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2026-04-16",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2026-04-17",
+          "status": "resolved",
+          "airportId": "apt_58a2554f-6a9b-4ad7-bc2c-2550ad21b962"
+        },
+        {
+          "localDate": "2026-04-18",
+          "status": "resolved",
+          "airportId": "apt_58a2554f-6a9b-4ad7-bc2c-2550ad21b962"
+        },
+        {
+          "localDate": "2026-07-07",
+          "status": "resolved",
+          "airportId": "apt_58a2554f-6a9b-4ad7-bc2c-2550ad21b962"
+        },
+        {
+          "localDate": "2026-07-08",
+          "status": "resolved",
+          "airportId": "apt_58a2554f-6a9b-4ad7-bc2c-2550ad21b962"
+        },
+        {
+          "localDate": "2026-07-09",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2026-07-10",
+          "status": "uncertain",
+          "airportId": null
+        }
+      ],
+      "newResolved": 83,
+      "newUncertain": 4283
+    },
+    {
+      "assignmentId": "global-proposal-shirdi-icao-vasd",
+      "code": "VASD",
+      "scheme": "ICAO",
+      "airportId": "apt_fa1bf7a7-a97d-4676-9c9a-7871eda47767",
+      "certainWindow": [
+        "2026-04-17",
+        "2026-07-09"
+      ],
+      "boundaries": [
+        {
+          "localDate": "2026-04-15",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2026-04-16",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2026-04-17",
+          "status": "resolved",
+          "airportId": "apt_fa1bf7a7-a97d-4676-9c9a-7871eda47767"
+        },
+        {
+          "localDate": "2026-04-18",
+          "status": "resolved",
+          "airportId": "apt_fa1bf7a7-a97d-4676-9c9a-7871eda47767"
+        },
+        {
+          "localDate": "2026-07-07",
+          "status": "resolved",
+          "airportId": "apt_fa1bf7a7-a97d-4676-9c9a-7871eda47767"
+        },
+        {
+          "localDate": "2026-07-08",
+          "status": "resolved",
+          "airportId": "apt_fa1bf7a7-a97d-4676-9c9a-7871eda47767"
+        },
+        {
+          "localDate": "2026-07-09",
+          "status": "uncertain",
+          "airportId": null
+        },
+        {
+          "localDate": "2026-07-10",
+          "status": "uncertain",
+          "airportId": null
+        }
+      ],
+      "newResolved": 83,
+      "newUncertain": 4283
+    }
+  ]
+}

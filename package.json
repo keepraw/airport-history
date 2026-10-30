@@ -1,6 +1,6 @@
 {
   "name": "@keepraw/airport-history",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "private": true,
   "description": "Historical airport identities, locations, code assignments, and official names.",
   "type": "module",
@@ -39,7 +39,7 @@
     "test:evidence": "python3 -m unittest discover -s test/evidence -v",
     "compat:fly": "python3 scripts/compat/run-fly.py",
     "evidence:direct": "python3 scripts/evidence/direct.py",
-    "validate:admission": "python3 scripts/evidence/admitted.py && python3 scripts/evidence/admitted_090.py && node scripts/evidence/admission_090_coverage.ts validate && python3 scripts/evidence/policy_formal.py",
+    "validate:admission": "python3 scripts/evidence/admitted.py && python3 scripts/evidence/admitted_090.py && node scripts/evidence/admission_090_coverage.ts validate && python3 scripts/evidence/policy_formal.py && node scripts/evidence/admission_0100_coverage.ts validate",
     "evidence:global": "python3 scripts/evidence/global_batch.py",
     "evidence:markets": "python3 scripts/evidence/market_batch.py",
     "evidence:transfers": "python3 scripts/evidence/transfer_batch.py",

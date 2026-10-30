@@ -1,0 +1,78 @@
+{
+  "baselineSha256": "1beec87eac60c8f844a5756073811edadbfb6d4a831fb4f03ce5552796ce539b",
+  "executorSha256": "2415279526ff8c0eaf9ee1b3ee5afca8bde26e95bfac2c98930212f9f7992a3f",
+  "formatVersion": 1,
+  "inputSha256": "10fcfff3f6f25609e46f4a88386c9d0940478f01f9c5fac2e70a272942520d4e",
+  "meaning": "Recorded private byte/hash/extraction/citation verification; offline replay does not reacquire bytes.",
+  "policySha256": "3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958",
+  "recordedBy": "policy-originals-cli",
+  "sources": [
+    {
+      "checkedCitationCount": 4,
+      "checkedCitationSha256": "46ca7e5c5c4a800bab3fa1232af84a4a01ed80e2a34d2dadcc6273b35a5e1ba6",
+      "editionEffectiveDate": "2026-04-16",
+      "excerptSha256": "bddf1def3b28d8392ef4190b9b8fb220616454b9ca2dc5086529976b465c7878",
+      "originalPublicationKey": "aai-aip:2026-04-16",
+      "originalSha256": "7be647e3e44f030bdcbf7e65b41808a4628f5b0030e3f867ab4c8819183fab19",
+      "sourceId": "policy-aip-2026-04-16-vasd",
+      "textOriginalSha256": "431f3b7f59ccdb88dd915676835446c2168b667f5c857020dcf73bac2eca7fa9",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/16-04-2026/eAIP/IN-AD%202.1VASD-en-GB.html"
+    },
+    {
+      "checkedCitationCount": 4,
+      "checkedCitationSha256": "95d02b5913e492f995f744250a9430027e80d38f827779449abdf0912f5a6efa",
+      "editionEffectiveDate": "2026-04-16",
+      "excerptSha256": "bf8931def30bfb2e10676d971dbe06bb6eae343914354056bcae9e1eefc2e8fb",
+      "originalPublicationKey": "aai-aip:2026-04-16",
+      "originalSha256": "f54b0171460a248b0ec3c6a394505e0be62da8805a567ca55487bfbc685d3f1b",
+      "sourceId": "policy-aip-2026-04-16-veho",
+      "textOriginalSha256": "d5e3d79a65c896f97f364fc0d7cbfec48790819196da40c24aa7fd4c46923ab9",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/16-04-2026/eAIP/IN-AD%202.1VEHO-en-GB.html"
+    },
+    {
+      "checkedCitationCount": 4,
+      "checkedCitationSha256": "0758429a7883e96f107dfa5914bf214506538357a184b8ed10e18f498031ca94",
+      "editionEffectiveDate": "2026-04-16",
+      "excerptSha256": "5d3de7b0e924dd78a42fff41866a15a75dbb89e9db0a157af7c392f498d6f72b",
+      "originalPublicationKey": "aai-aip:2026-04-16",
+      "originalSha256": "8a146fc6e2b61227df8abaa2b41d3a06c2dd941ee74a3160e83b7d46651d3c8e",
+      "sourceId": "policy-aip-2026-04-16-vokn",
+      "textOriginalSha256": "7f8ad135a81cfc51dfd5b8c5dbcef5f3909db0a18b7b549bca3c8f86c29f158a",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/16-04-2026/eAIP/IN-AD%202.1VOKN-en-GB.html"
+    },
+    {
+      "checkedCitationCount": 4,
+      "checkedCitationSha256": "a41e09f12d5a2c79a06c5283ed9b4657333ddb157927d62fc61d5c8de0dcb17f",
+      "editionEffectiveDate": "2026-07-09",
+      "excerptSha256": "9170dd6aaada7ba3060a4e62f7f268a0627d03f9c02a89138c46a3f7c226e155",
+      "originalPublicationKey": "aai-aip:2026-07-09",
+      "originalSha256": "5cd3fb0fc845c6e934f4cac2286425582b911b3c86449f3001acc0cdd9f38f58",
+      "sourceId": "policy-aip-2026-07-09-vasd",
+      "textOriginalSha256": "01dae72e6de158632876c0443acf4266bd84a8b8c162633d05bc31d14b9523b5",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VASD-en-GB.html"
+    },
+    {
+      "checkedCitationCount": 4,
+      "checkedCitationSha256": "d69fa407c1183814a5856616bbd724a076b05ac48d282ba452978f3bcbbd1600",
+      "editionEffectiveDate": "2026-07-09",
+      "excerptSha256": "ce548532810feb279a3dabb43b82d104014e802ca1fa61a0717b27c1bc984e50",
+      "originalPublicationKey": "aai-aip:2026-07-09",
+      "originalSha256": "0b8f5af25cd6d0daf6eac094d147ca6f1df99a4f9760677266743790dbdaa7c1",
+      "sourceId": "policy-aip-2026-07-09-veho",
+      "textOriginalSha256": "f0d270495558ec5f863c0306be4a1a09ac41e9c7990d5388eec41448996660e2",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEHO-en-GB.html"
+    },
+    {
+      "checkedCitationCount": 4,
+      "checkedCitationSha256": "09b648d710b00a7420aa263cdfb438235a7fe9397f5371c0579cdcb3faf5a84d",
+      "editionEffectiveDate": "2026-07-09",
+      "excerptSha256": "64454fb9cecb080b90c4dfb59e09c7a186fe80cd7c63d46fa982ecaaa24991d6",
+      "originalPublicationKey": "aai-aip:2026-07-09",
+      "originalSha256": "b9d89bf196066ed029b57a0e8fa92f39434d2722d2a0e3863e635f1908165dd6",
+      "sourceId": "policy-aip-2026-07-09-vokn",
+      "textOriginalSha256": "ad193f478a40a55ae9d0fdeb822df6d1abc874caeb3bae0c7984ba61d0ba0e42",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOKN-en-GB.html"
+    }
+  ],
+  "verificationMode": "private_original_replay"
+}

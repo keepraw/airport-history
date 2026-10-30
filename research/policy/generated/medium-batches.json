@@ -1,22 +1,22 @@
 [
   {
     "baseline": {
-      "baseCommit": "cb73d43ed2ab210eacc0e369a410bc322f42f361",
+      "baseCommit": "458078b5a6662f9cdbe3f778d04dfeec959686cd",
       "dataVersion": "0.9.0",
       "path": "test/curated-0.9.0.json",
       "schemaVersion": "3.0.0",
       "sha256": "1beec87eac60c8f844a5756073811edadbfb6d4a831fb4f03ce5552796ce539b"
     },
-    "batchSha256": "f59417e07f2d3b39d14dfa1c21271bce3506babaa96755bf00a7dde7a5906516",
+    "batchSha256": "6803d904ea82c9d99bdad7b8b32d1a4793ec7a10b5f999513cb0142ef9827717",
     "formatVersion": 1,
-    "inputSha256": "6f97832224cf74ecddd44392b30392785effaa547e3b235804cc88eea82d8984",
+    "inputSha256": "10fcfff3f6f25609e46f4a88386c9d0940478f01f9c5fac2e70a272942520d4e",
     "policySha256": "3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958",
     "records": [
       {
         "airportId": "apt_7f9cc70a-c6cc-44a1-b78e-9a817165e1c4",
         "authorizationSource": null,
         "baseline": {
-          "baseCommit": "cb73d43ed2ab210eacc0e369a410bc322f42f361",
+          "baseCommit": "458078b5a6662f9cdbe3f778d04dfeec959686cd",
           "dataVersion": "0.9.0",
           "path": "test/curated-0.9.0.json",
           "schemaVersion": "3.0.0",
@@ -78,7 +78,7 @@
         ],
         "evidenceSha256": "812a522eb37b056341403da2bb87b4e7d3a5cf456f29e4e06cc437ecbe9bfda1",
         "executorSha256": "2415279526ff8c0eaf9ee1b3ee5afca8bde26e95bfac2c98930212f9f7992a3f",
-        "inputSha256": "6f97832224cf74ecddd44392b30392785effaa547e3b235804cc88eea82d8984",
+        "inputSha256": "10fcfff3f6f25609e46f4a88386c9d0940478f01f9c5fac2e70a272942520d4e",
         "knownSiteIds": [
           "apt_7f9cc70a-c6cc-44a1-b78e-9a817165e1c4"
         ],
@@ -189,7 +189,7 @@
         "airportId": "apt_d8c584ef-5538-47e0-ab55-ccefd309e6af",
         "authorizationSource": null,
         "baseline": {
-          "baseCommit": "cb73d43ed2ab210eacc0e369a410bc322f42f361",
+          "baseCommit": "458078b5a6662f9cdbe3f778d04dfeec959686cd",
           "dataVersion": "0.9.0",
           "path": "test/curated-0.9.0.json",
           "schemaVersion": "3.0.0",
@@ -251,7 +251,7 @@
         ],
         "evidenceSha256": "f8c05eca1f6a91f9bf4d61dd18d2c56b409f345e2ab67b076f2df11987bec6b7",
         "executorSha256": "2415279526ff8c0eaf9ee1b3ee5afca8bde26e95bfac2c98930212f9f7992a3f",
-        "inputSha256": "6f97832224cf74ecddd44392b30392785effaa547e3b235804cc88eea82d8984",
+        "inputSha256": "10fcfff3f6f25609e46f4a88386c9d0940478f01f9c5fac2e70a272942520d4e",
         "knownSiteIds": [
           "apt_d8c584ef-5538-47e0-ab55-ccefd309e6af"
         ],

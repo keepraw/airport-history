@@ -46,6 +46,12 @@ def rehearsal(*, live=False, full=True):
         write_json(root / 'research/policy/authorizations.json', {'formatVersion': 1, 'authorizations': []})
         write_json(root / 'research/policy/batch-authorizations.json', {'formatVersion': 1, 'authorizations': []})
         subprocess.run(['git', 'update-ref', 'refs/remotes/origin/main', lock['baseline']['baseCommit']], cwd=root, check=True)
+        # A real admission may already be present in the checkout. Rehearse from
+        # the independently frozen published baseline, only in this disposable clone.
+        shutil.copy2(root / lock['baseline']['path'], root / 'data/airports.json')
+        test_package = load(root / 'package.json')
+        test_package['version'] = lock['baseline']['dataVersion']
+        write_json(root / 'package.json', test_package)
         (root / 'node_modules').symlink_to(ROOT / 'node_modules', target_is_directory=True)
         private = root / 'work'; private.mkdir(exist_ok=True)
         if live:
@@ -113,9 +119,13 @@ if os.environ.get('AIRPORT_POLICY_REHEARSAL_ORIGINALS') == 'offline':
         package = load(root / 'package.json'); package['version'] = candidate['dataVersion']
         write_json(root / 'package.json', package)
         bundle = root / 'research/admissions' / candidate['dataVersion']
+        if bundle.exists():
+            shutil.rmtree(bundle)  # Replace only the disposable clone's production bundle.
         shutil.copytree(private / 'admission-bundle', bundle)
+        shutil.copy2(private / 'admission-bundle/proposed-data.json', root / f"test/curated-{candidate['dataVersion']}.json")
         run(['python3', 'scripts/evidence/policy_formal.py'])
         run(['pnpm', 'policy:build'])
+        run(['node', 'scripts/evidence/admission_0100_coverage.ts', 'build'])
         if full: run(['pnpm', 'check'])
         coverage = load(root / 'research/policy/generated/coverage.json')
         require(coverage['candidateFileSha256'] == digest(root / 'data/airports.json'),
