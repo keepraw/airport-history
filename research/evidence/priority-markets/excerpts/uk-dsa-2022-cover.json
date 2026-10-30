@@ -1,0 +1,32 @@
+{
+  "extractedTextSha256": "945c3fbc7a4ddbfb3b4c5b0f1a78698b90f8d3f630f411028ffb618a8c94be99",
+  "normalizedTextSha256": "6a7b0e09f2bdea10818ae32c5f9f1b866032120d3910487830430cb0c2bd1ebd",
+  "originalSha256": "f779ed4d96f7f9cdb49ad5a5e04799e328816b35f4175f1b3973988d7d9ef7af",
+  "sourceId": "uk-dsa-2022-cover",
+  "spans": [
+    {
+      "characterEnd": 44,
+      "characterStart": 8,
+      "citationId": "uk-dsa-2022-cover-q1",
+      "page": null,
+      "quote": "Consult Notam for Latest Information",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 124,
+      "characterStart": 97,
+      "citationId": "uk-dsa-2022-cover-q2",
+      "page": null,
+      "quote": "Effective date: 03 NOV 2022",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 154,
+      "characterStart": 125,
+      "citationId": "uk-dsa-2022-cover-q3",
+      "page": null,
+      "quote": "Publication date: 22 SEP 2022",
+      "representation": "normalized_text"
+    }
+  ]
+}

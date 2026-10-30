@@ -1,0 +1,24 @@
+{
+  "extractedTextSha256": "369d406ce9a84a69ec3366e8afcc5c1cf3a4ddfc9c39847ccfdc70d128072ad0",
+  "normalizedTextSha256": "d40b390a33775501b05a7d96970631a4e440ce03cf93525983332d779f71fdb6",
+  "originalSha256": "f3eaa977d9654fb4d6e7f551f279b37aeb6daadfc9f55bd358e3dc4109a1a904",
+  "sourceId": "cn-zha-detail-20191113",
+  "spans": [
+    {
+      "characterEnd": 415,
+      "characterStart": 400,
+      "citationId": "cn-zha-detail-20191113-q1",
+      "page": null,
+      "quote": "湛江机场是一座位于湛江的机场。",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 27123,
+      "characterStart": 27068,
+      "citationId": "cn-zha-detail-20191113-q2",
+      "page": null,
+      "quote": "<a href=\"https://flights.ch.com/airports/ZHA/\">湛江机场</a>",
+      "representation": "decoded_html"
+    }
+  ]
+}

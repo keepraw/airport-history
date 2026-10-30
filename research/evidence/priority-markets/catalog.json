@@ -1,0 +1,237 @@
+{
+  "formatVersion": 1,
+  "sources": [
+    {
+      "publisher": "CAAC",
+      "retrievalUrl": "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/201511/P020151103346926804323.pdf",
+      "role": "regulatory_station_list",
+      "sourceId": "cn-met-2009",
+      "title": "AP-117-TM-01R2: airport weather exchange identifiers",
+      "url": "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/201511/P020151103346926804323.pdf"
+    },
+    {
+      "publisher": "CAAC",
+      "retrievalUrl": "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202609/P020260917608044021612.pdf",
+      "role": "regulatory_station_list",
+      "sourceId": "cn-met-2026",
+      "title": "AP-117-TM-2026-01: named airport weather exchange identifiers",
+      "url": "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202609/P020260917608044021612.pdf"
+    },
+    {
+      "publisher": "Spring Airlines",
+      "retrievalUrl": "https://web.archive.org/web/20210301192413id_/https://flights.ch.com/airports/airport-LYG/",
+      "role": "carrier_directory",
+      "sourceId": "cn-lyg-20210301",
+      "title": "Spring Airlines historical Baitabu airport directory",
+      "url": "https://flights.ch.com/airports/airport-LYG/"
+    },
+    {
+      "publisher": "Spring Airlines",
+      "retrievalUrl": "https://web.archive.org/web/20210922044651id_/https://flights.ch.com/airports/airport-LYG/",
+      "role": "carrier_directory",
+      "sourceId": "cn-lyg-20210922",
+      "title": "Spring Airlines historical Baitabu airport directory",
+      "url": "https://flights.ch.com/airports/airport-LYG/"
+    },
+    {
+      "publisher": "Spring Airlines",
+      "retrievalUrl": "https://web.archive.org/web/20191117045813id_/https://flights.ch.com/airports/jianjie-LZO/",
+      "role": "carrier_directory",
+      "sourceId": "cn-lzo-detail-20191117",
+      "title": "Spring Airlines: Lantian IATA/ICAO description",
+      "url": "https://flights.ch.com/airports/jianjie-LZO/"
+    },
+    {
+      "publisher": "Spring Airlines",
+      "retrievalUrl": "https://web.archive.org/web/20191114085251id_/https://flights.ch.com/airports/jianjie-ENY/",
+      "role": "carrier_directory",
+      "sourceId": "cn-eny-detail-20191114",
+      "title": "Spring Airlines: old Ershilipu description retained after replacement",
+      "url": "https://flights.ch.com/airports/jianjie-ENY/"
+    },
+    {
+      "publisher": "Spring Airlines",
+      "retrievalUrl": "https://web.archive.org/web/20191113120645id_/https://flights.ch.com/airports/jianjie-ZHA/",
+      "role": "carrier_directory",
+      "sourceId": "cn-zha-detail-20191113",
+      "title": "Spring Airlines: geographically unspecific Zhanjiang directory",
+      "url": "https://flights.ch.com/airports/jianjie-ZHA/"
+    },
+    {
+      "publisher": "CAAC Northwest",
+      "retrievalUrl": "https://www.caac.gov.cn/local/XBGLJ/XB_XWZX/XB_DQYW/202009/t20200924_204628.html",
+      "role": "licensing_notice",
+      "sourceId": "cn-ankang-license",
+      "title": "CAAC Northwest: Fuqiang aerodrome use licence",
+      "url": "https://www.caac.gov.cn/local/XBGLJ/XB_XWZX/XB_DQYW/202009/t20200924_204628.html"
+    },
+    {
+      "publisher": "CAAC Northwest",
+      "retrievalUrl": "https://www.caac.gov.cn/local/XBGLJ/XB_XWZX/XB_DQYW/202009/t20200927_204657.html",
+      "role": "executed_service_event",
+      "sourceId": "cn-ankang-executed",
+      "title": "CAAC Northwest: first commercial arrival at Fuqiang",
+      "url": "https://www.caac.gov.cn/local/XBGLJ/XB_XWZX/XB_DQYW/202009/t20200927_204657.html"
+    },
+    {
+      "publisher": "Central Japan International Airport Co.",
+      "retrievalUrl": "https://www.centrair.jp/corporate/operation/outline.html",
+      "role": "operator_profile",
+      "sourceId": "jp-centrair-outline",
+      "title": "Centrair airport outline: typed codes and physical position",
+      "url": "https://www.centrair.jp/corporate/operation/outline.html"
+    },
+    {
+      "publisher": "Nagoya Airport Terminal Building Co.",
+      "retrievalUrl": "https://nagoya-airport.jp/facilities/outline.html",
+      "role": "operator_profile",
+      "sourceId": "jp-nagoya-outline",
+      "title": "Prefectural Nagoya airport: physical reference point",
+      "url": "https://nagoya-airport.jp/facilities/outline.html"
+    },
+    {
+      "publisher": "Central Japan International Airport Co.",
+      "retrievalUrl": "https://www.centrair.jp/assets/doc/corporate/information/2005.pdf",
+      "role": "operator_history",
+      "sourceId": "jp-centrair-2005",
+      "title": "Centrair official 2005 chronology",
+      "url": "https://www.centrair.jp/assets/doc/corporate/information/2005.pdf"
+    },
+    {
+      "publisher": "MOLIT Office of Civil Aviation",
+      "retrievalUrl": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html?ver=2025",
+      "role": "aip_issue_index",
+      "sourceId": "kr-history",
+      "title": "MOLIT AIM: controlled AIRAC publication and effective-date index",
+      "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html?ver=2025"
+    },
+    {
+      "publisher": "MOLIT Office of Civil Aviation",
+      "retrievalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eAIP/KR-AD-2.RKSI-en-GB.html",
+      "role": "aip_ad2",
+      "sourceId": "kr-rksi-2025-04-16",
+      "title": "Korea AIP AD 2 RKSI / 2025-04-16",
+      "url": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eAIP/KR-AD-2.RKSI-en-GB.html"
+    },
+    {
+      "publisher": "MOLIT Office of Civil Aviation",
+      "retrievalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/html/eAIP/KR-AD-2.RKSI-en-GB.html",
+      "role": "aip_ad2",
+      "sourceId": "kr-rksi-2025-05-14",
+      "title": "Korea AIP AD 2 RKSI / 2025-05-14",
+      "url": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/html/eAIP/KR-AD-2.RKSI-en-GB.html"
+    },
+    {
+      "publisher": "MOLIT Office of Civil Aviation",
+      "retrievalUrl": "https://aim.koca.go.kr/eaipPub/Package/2026-10-28-AIRAC/html/eAIP/KR-AD-2.RKSI-en-GB.html",
+      "role": "aip_ad2",
+      "sourceId": "kr-rksi-2026",
+      "title": "Korea AIP AD 2 RKSI / 2026-10-28",
+      "url": "https://aim.koca.go.kr/eaipPub/Package/2026-10-28-AIRAC/html/eAIP/KR-AD-2.RKSI-en-GB.html"
+    },
+    {
+      "publisher": "MOLIT Office of Civil Aviation",
+      "retrievalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eAIP/KR-AD-2.RKSS-en-GB.html",
+      "role": "aip_ad2",
+      "sourceId": "kr-rkss-2025-04-16",
+      "title": "Korea AIP AD 2 RKSS / 2025-04-16",
+      "url": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eAIP/KR-AD-2.RKSS-en-GB.html"
+    },
+    {
+      "publisher": "MOLIT Office of Civil Aviation",
+      "retrievalUrl": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/html/eAIP/KR-AD-2.RKSS-en-GB.html",
+      "role": "aip_ad2",
+      "sourceId": "kr-rkss-2025-05-14",
+      "title": "Korea AIP AD 2 RKSS / 2025-05-14",
+      "url": "https://aim.koca.go.kr/eaipPub/Package/2025-05-14-AIRAC/html/eAIP/KR-AD-2.RKSS-en-GB.html"
+    },
+    {
+      "publisher": "MOLIT Office of Civil Aviation",
+      "retrievalUrl": "https://aim.koca.go.kr/eaipPub/Package/2026-10-28-AIRAC/html/eAIP/KR-AD-2.RKSS-en-GB.html",
+      "role": "aip_ad2",
+      "sourceId": "kr-rkss-2026",
+      "title": "Korea AIP AD 2 RKSS / 2026-10-28",
+      "url": "https://aim.koca.go.kr/eaipPub/Package/2026-10-28-AIRAC/html/eAIP/KR-AD-2.RKSS-en-GB.html"
+    },
+    {
+      "publisher": "FAA",
+      "retrievalUrl": "https://www.faa.gov/documentLibrary/media/Order/2023-12-18_Order_JO_7350.9GG_Location_Identifiers_FOR_DIR_SIG.pdf",
+      "role": "identifier_regulation",
+      "sourceId": "us-order-2023",
+      "title": "FAA JO 7350.9GG (effective 2024-01-25): identifier semantics",
+      "url": "https://www.faa.gov/documentLibrary/media/Order/2023-12-18_Order_JO_7350.9GG_Location_Identifiers_FOR_DIR_SIG.pdf"
+    },
+    {
+      "publisher": "UK CAA / NATS AIS",
+      "retrievalUrl": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2022-11-03-AIRAC/html/eAIP/EG-AD-2.EGCN-en-GB.html",
+      "role": "aip_ad2",
+      "sourceId": "uk-dsa-2022",
+      "title": "UK AIP AD 2 EGCN / 2022-11-03",
+      "url": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2022-11-03-AIRAC/html/eAIP/EG-AD-2.EGCN-en-GB.html"
+    },
+    {
+      "publisher": "UK CAA / NATS AIS",
+      "retrievalUrl": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2022-11-03-AIRAC/html/EG-cover-en-GB.html",
+      "role": "aip_issue_index",
+      "sourceId": "uk-dsa-2022-cover",
+      "title": "UK AIP controlled cover / 2022-11-03",
+      "url": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2022-11-03-AIRAC/html/EG-cover-en-GB.html"
+    },
+    {
+      "publisher": "UK CAA / NATS AIS",
+      "retrievalUrl": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2023-01-26-AIRAC/html/eAIP/EG-AD-2.EGCN-en-GB.html",
+      "role": "aip_ad2",
+      "sourceId": "uk-dsa-2023",
+      "title": "UK AIP AD 2 EGCN / 2023-01-26",
+      "url": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2023-01-26-AIRAC/html/eAIP/EG-AD-2.EGCN-en-GB.html"
+    },
+    {
+      "publisher": "UK CAA / NATS AIS",
+      "retrievalUrl": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2023-01-26-AIRAC/html/EG-cover-en-GB.html",
+      "role": "aip_issue_index",
+      "sourceId": "uk-dsa-2023-cover",
+      "title": "UK AIP controlled cover / 2023-01-26",
+      "url": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2023-01-26-AIRAC/html/EG-cover-en-GB.html"
+    },
+    {
+      "publisher": "ENAIRE AIS",
+      "retrievalUrl": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LEMI/LE_AD_2_LEMI_en.pdf",
+      "role": "aip_ad2",
+      "sourceId": "es-murcia-ad2",
+      "title": "ENAIRE AIP AD 2 LEMI: named physical aerodrome and ARP",
+      "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LEMI/LE_AD_2_LEMI_en.pdf"
+    },
+    {
+      "publisher": "ENAIRE AIS",
+      "retrievalUrl": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LELC/LE_AD_2_LELC_en.pdf",
+      "role": "aip_ad2",
+      "sourceId": "es-old-ad2",
+      "title": "ENAIRE AIP AD 2 LELC: distinct San Javier ARP and military administration",
+      "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LELC/LE_AD_2_LELC_en.pdf"
+    },
+    {
+      "publisher": "ENAIRE AIS",
+      "retrievalUrl": "https://aip.enaire.es/AIP/contenido_AIP/AD/LE_AD_1_3_en.html",
+      "role": "aip_aerodrome_index",
+      "sourceId": "es-ad-index",
+      "title": "ENAIRE AIP AD 1.3: distinct Murcia IATA/ICAO associations",
+      "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/LE_AD_1_3_en.html"
+    },
+    {
+      "publisher": "Flughafen Berlin Brandenburg GmbH",
+      "retrievalUrl": "https://corporate.berlin-airport.de/en/company-media/history/berlin-brandenburg-airport.html",
+      "role": "operator_history",
+      "sourceId": "de-ber-history",
+      "title": "FBB: 2020 booking-code change and BER terminal integration",
+      "url": "https://corporate.berlin-airport.de/en/company-media/history/berlin-brandenburg-airport.html"
+    },
+    {
+      "publisher": "Flughafen Berlin Brandenburg GmbH",
+      "retrievalUrl": "https://corporate.berlin-airport.de/en/company-media/history/berlin-tegel-airport.html",
+      "role": "operator_history",
+      "sourceId": "de-tegel-history",
+      "title": "FBB: Tegel last flight and later operating-permit termination",
+      "url": "https://corporate.berlin-airport.de/en/company-media/history/berlin-tegel-airport.html"
+    }
+  ]
+}

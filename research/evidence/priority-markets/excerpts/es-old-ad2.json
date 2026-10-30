@@ -1,0 +1,40 @@
+{
+  "extractedTextSha256": "f83f3261bc25057334c6b2482366d7f3a7b6104c7cf8d8b00c1c9776236d68e4",
+  "normalizedTextSha256": "ca28b4da27e0887ae1ac44b3d77452d9ab9b692dca8b30f99a39831b9f93ccc6",
+  "originalSha256": "2bd2cd7ccaff84df3b0f2b01247378a100b8879d540e0b46deeac74ba6a422b6",
+  "sourceId": "es-old-ad2",
+  "spans": [
+    {
+      "characterEnd": 32,
+      "characterStart": 23,
+      "citationId": "es-old-ad2-q1",
+      "page": 1,
+      "quote": "16-APR-26",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 137,
+      "characterStart": 113,
+      "citationId": "es-old-ad2-q2",
+      "page": 1,
+      "quote": "LELC - MURCIA/San Javier",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 220,
+      "characterStart": 199,
+      "citationId": "es-old-ad2-q3",
+      "page": 1,
+      "quote": "ARP 374630N 0004845W.",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 538,
+      "characterStart": 501,
+      "citationId": "es-old-ad2-q4",
+      "page": 1,
+      "quote": "MIL: Ejército del Aire y del Espacio.",
+      "representation": "normalized_text"
+    }
+  ]
+}

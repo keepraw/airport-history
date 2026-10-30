@@ -1,0 +1,23 @@
+{
+  "authorizedNewMarketPolicies": 0,
+  "casesByMarket": {
+    "中国大陆": 6,
+    "日本": 2,
+    "欧洲大陆": 2,
+    "美国": 1,
+    "英国": 1,
+    "韩国": 2
+  },
+  "dataVersion": "0.10.0",
+  "distinctOriginalByteStreams": 29,
+  "dryRunRequests": 22,
+  "followedUpCases": 14,
+  "newFormalResolvedQueries": 0,
+  "notReinvestigatedUnits": 46,
+  "offlineVerification": "Retained citations and frozen inputs only; this build did not reacquire originals.",
+  "previousSurveyUnits": 60,
+  "publisherFamilies": 9,
+  "schemaVersion": "3.0.0",
+  "shortCitations": 78,
+  "sourceComponents": 29
+}
