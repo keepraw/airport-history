@@ -1,0 +1,35 @@
+{
+  "originalSha256": "5cd3fb0fc845c6e934f4cac2286425582b911b3c86449f3001acc0cdd9f38f58",
+  "sourceId": "policy-aip-2026-07-09-vasd",
+  "spans": [
+    {
+      "characterEnd": 111,
+      "characterStart": 82,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "VASD - SHIRDI AIRPORT, SHIRDI"
+    },
+    {
+      "characterEnd": 240,
+      "characterStart": 173,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "Aerodrome reference point coordinates and its site 194127N 0742218E"
+    },
+    {
+      "characterEnd": 705,
+      "characterStart": 661,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='DC.date' content='28 MAY 2026'/>"
+    },
+    {
+      "characterEnd": 765,
+      "characterStart": 707,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='EM.effectiveDateStart' content='09 JUL 2026'/>"
+    }
+  ],
+  "textOriginalSha256": "01dae72e6de158632876c0443acf4266bd84a8b8c162633d05bc31d14b9523b5"
+}

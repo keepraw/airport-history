@@ -1,0 +1,31 @@
+{
+  "authorized": false,
+  "baseline": {
+    "baseCommit": "78bbd33211ecbfcc1cc73e956e13674295e44ce8",
+    "dataVersion": "0.9.0",
+    "path": "test/curated-0.9.0.json",
+    "schemaVersion": "3.0.0",
+    "sha256": "1beec87eac60c8f844a5756073811edadbfb6d4a831fb4f03ce5552796ce539b"
+  },
+  "counts": {
+    "high": 22,
+    "insufficient": 16,
+    "low": 3,
+    "medium": 2
+  },
+  "mode": "dry_run",
+  "policySha256": "3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958",
+  "positiveCounts": {
+    "insufficient": 1,
+    "medium": 5
+  },
+  "refusalRules": {
+    "competing_physical_sites": 18,
+    "explicit_exception_scope": 9,
+    "identity_unestablished": 1,
+    "no_defensible_whole_local_day_window": 38,
+    "outside_automatic_scope": 38,
+    "too_few_dated_aip_observations": 38,
+    "too_few_distinct_originals": 40
+  }
+}

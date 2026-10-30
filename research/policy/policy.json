@@ -1,0 +1,53 @@
+{
+  "engineVersion": "1.0.0",
+  "formatVersion": 1,
+  "mandatoryEscalation": [
+    "competing_physical_sites",
+    "identity_unestablished",
+    "material_conflict",
+    "opening_date_substitution",
+    "published_record_change",
+    "unknown_conflict"
+  ],
+  "parameters": {
+    "arpToleranceDegrees": 1e-08,
+    "excludeFirstObservationLocalDay": true,
+    "excludeLastObservationLocalDay": true,
+    "maximumEventsPerBatch": 20,
+    "maximumGapDays": 112,
+    "maximumWindowDays": 112,
+    "mediumMaximumGapDays": 868,
+    "mediumMaximumWindowDays": 1096,
+    "minimumDistinctOriginals": 2,
+    "minimumObservations": 2,
+    "requireEditionAnchor": true,
+    "requireOriginalReplayForAdmission": true,
+    "requireStableOfficialNameAndArp": true,
+    "unknownOuterBoundsRequired": true
+  },
+  "policyId": "official-aip-bounded-icao",
+  "policySha256": "3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958",
+  "policyVersion": "1.0.0",
+  "scope": {
+    "claims": [
+      "physicalIdentityReference",
+      "boundedCodeContinuity"
+    ],
+    "excludedCodes": [
+      "LEMI",
+      "RMU",
+      "MJV",
+      "TAG",
+      "LYG",
+      "YBP"
+    ],
+    "publisher": "Airports Authority of India",
+    "schemaVersion": "3.0.0",
+    "scheme": "ICAO",
+    "sourceFamilies": [
+      "aai-aip"
+    ],
+    "urlPrefix": "https://aim-india.aai.aero/eAIP_Archive/"
+  },
+  "status": "draft"
+}

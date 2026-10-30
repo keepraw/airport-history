@@ -71,13 +71,18 @@ def packets(groups, reviewed_on, base_commit, maximum_events=20):
         yield packet(chunk, batch_number + 1)
 
 
-def validate_admission(base, proposed, batches, dossier):
+def validate_admission(base, proposed, batches, dossier, *, policy_context=None):
     """Validate the review/evidence gate before writing a reviewable proposed dataset.
 
-    This cannot determine whether a publication truly supports a claim. Human
-    claim review remains explicit, recorded, and necessary; no directory auto-admission.
+    Human review is the default. A policy receipt must pass the separate owner
+    authorization and deterministic re-evaluation gate before it can replace it.
     """
     validate_batch_series(batches)
+    policy_ids = set()
+    if policy_context is not None:
+        sys.path.insert(0, str(ROOT / 'scripts/evidence'))
+        from policy_gate import validate_context
+        policy_ids = validate_context(base, proposed, batches, dossier, policy_context)
     if proposed['schemaVersion'] != base['schemaVersion']:
         raise ValueError('Bulk admissions cannot change the historical schema')
     if proposed['dataVersion'] == base['dataVersion']:
@@ -105,7 +110,12 @@ def validate_admission(base, proposed, batches, dossier):
     for collection in ('airports', 'assignments', 'names'):
         for record_id, record in additions[collection].items():
             entry = next((d for d in dossier if d['recordId'] == record_id), None)
-            if entry is None or entry.get('decision') != 'accepted' or not entry.get('reviewer'):
+            if entry and entry.get('reviewMode') in ('policy', 'batch'):
+                mode = entry['reviewMode']
+                if (record_id not in policy_ids or entry.get('decision') != mode + '_accepted' or
+                        entry.get('reviewer') != (None if mode == 'policy' else 'keepraw')):
+                    raise ValueError('Admission lacks valid policy authorization')
+            elif entry is None or entry.get('decision') != 'accepted' or not entry.get('reviewer'):
                 raise ValueError('Admission lacks explicit human claim review')
             event = next(e for e in ready if record_id in sum((e[k] for k in ('admittedAirportIds', 'admittedAssignmentIds', 'admittedNameIds')), []))
             claim = 'physicalIdentity' if collection == 'airports' else 'historicalNames' if collection == 'names' else record['scheme'].lower()

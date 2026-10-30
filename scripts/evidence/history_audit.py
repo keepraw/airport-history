@@ -179,8 +179,8 @@ def verify(root=ROOT, audit=None, head='HEAD'):
     base_blobs = {oid for oid, _ in tree(root, base)}
     # Public locks cover full originals acquired after the 92-pair audit too.
     # No private cache is read, and source/hash values are never modified here.
-    for scope in ('global', 'markets', 'transfers'):
-        path = Path(root) / 'research/evidence' / scope / 'source-lock.json'
+    for scope in ('evidence/global', 'evidence/markets', 'evidence/transfers', 'evidence/first-admission', 'policy'):
+        path = Path(root) / 'research' / scope / 'source-lock.json'
         if path.exists():
             for source in json.loads(path.read_text())['sources']:
                 content_hashes.update(source[k] for k in ('originalSha256', 'textOriginalSha256'))

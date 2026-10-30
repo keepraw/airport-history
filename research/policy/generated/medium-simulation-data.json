@@ -1,0 +1,3936 @@
+{
+  "airports": [
+    {
+      "airportId": "apt_f470ecb5-c6dc-4516-a233-37302da2115b",
+      "coordinates": {
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 36.265837,
+          "longitude": 120.37459
+        }
+      },
+      "externalIds": {
+        "ourAirports": "27224"
+      },
+      "name": {
+        "note": "Canonical display label; not an assertion of the legal name on every historical date.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": "Qingdao Liuting International Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset.",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "status": "reference",
+        "value": "Asia/Shanghai"
+      }
+    },
+    {
+      "airportId": "apt_6729d2b2-4b79-48c8-9c42-0d4eeba121b8",
+      "coordinates": {
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 36.361953,
+          "longitude": 120.088171
+        }
+      },
+      "externalIds": {
+        "ourAirports": "342096"
+      },
+      "name": {
+        "note": "Canonical display label; not an assertion of the legal name on every historical date.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": "Qingdao Jiaodong International Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset.",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "status": "reference",
+        "value": "Asia/Shanghai"
+      }
+    },
+    {
+      "airportId": "apt_d8f290d3-11cc-4441-af6d-f4dd52d3b8dc",
+      "coordinates": {
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 40.971913,
+          "longitude": 28.823714
+        }
+      },
+      "externalIds": {
+        "ourAirports": "4528"
+      },
+      "name": {
+        "note": "Canonical display label; not an assertion of the legal name on every historical date.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": "İstanbul Atatürk Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset.",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "status": "reference",
+        "value": "Europe/Istanbul"
+      }
+    },
+    {
+      "airportId": "apt_92a92544-1808-487a-85e0-0fa995e1de82",
+      "coordinates": {
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 41.274874,
+          "longitude": 28.732136
+        }
+      },
+      "externalIds": {
+        "ourAirports": "317457"
+      },
+      "name": {
+        "note": "Canonical display label; not an assertion of the legal name on every historical date.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": "İstanbul Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset.",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "status": "reference",
+        "value": "Europe/Istanbul"
+      }
+    },
+    {
+      "airportId": "apt_86460159-a072-4a18-afcc-ab376cda7047",
+      "coordinates": {
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 22.320304,
+          "longitude": 114.198074
+        }
+      },
+      "externalIds": {
+        "ourAirports": "28112"
+      },
+      "name": {
+        "note": "Canonical display label; not an assertion of the legal name on every historical date.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": "Hong Kong International Airport Kai Tak"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset.",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "status": "reference",
+        "value": "Asia/Hong_Kong"
+      }
+    },
+    {
+      "airportId": "apt_8d89722f-007c-4eb4-aaa0-ec1c61007a09",
+      "coordinates": {
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 22.31184,
+          "longitude": 113.914862
+        }
+      },
+      "externalIds": {
+        "ourAirports": "26535"
+      },
+      "name": {
+        "note": "Canonical display label; not an assertion of the legal name on every historical date.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": "Hong Kong International Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset.",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "status": "reference",
+        "value": "Asia/Hong_Kong"
+      }
+    },
+    {
+      "airportId": "apt_ce3d25d8-99db-48ae-b824-33cea4de0919",
+      "coordinates": {
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 39.774200439453,
+          "longitude": -104.87899780273
+        }
+      },
+      "externalIds": {
+        "ourAirports": "28113"
+      },
+      "name": {
+        "note": "Canonical display label; not an assertion of the legal name on every historical date.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": "Denver Stapleton International Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset.",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "status": "reference",
+        "value": "America/Denver"
+      }
+    },
+    {
+      "airportId": "apt_67f7542e-c336-4ba7-b23a-beaf1b4c1e38",
+      "coordinates": {
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 39.860027,
+          "longitude": -104.673792
+        }
+      },
+      "externalIds": {
+        "ourAirports": "3486"
+      },
+      "name": {
+        "note": "Canonical display label; not an assertion of the legal name on every historical date.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": "Denver International Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset.",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "status": "reference",
+        "value": "America/Denver"
+      }
+    },
+    {
+      "airportId": "apt_d28173b7-5c8b-4012-8eed-18f96c13a0ce",
+      "coordinates": {
+        "note": "WGS84 site reference coordinates from the fixed OurAirports row, not a surveyed historical aerodrome reference point.",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 33.616699,
+          "longitude": 73.099197
+        }
+      },
+      "externalIds": {
+        "ourAirports": "5274"
+      },
+      "name": {
+        "note": "Canonical display label from the fixed reference row; not a historical-name timeline. A civil-service closure or later rename does not erase this identity.",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "status": "reference",
+        "value": "PAF Base Nur Khan (Benazir Bhutto International Airport)"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping; consumers must apply timezone rules for historical instants, not a fixed UTC offset.",
+        "sourceIds": [
+          "tzdb-batch1-2025b"
+        ],
+        "status": "reference",
+        "value": "Asia/Karachi"
+      }
+    },
+    {
+      "airportId": "apt_896e8191-7c0b-4a94-bc14-9dcd7e35feac",
+      "coordinates": {
+        "note": "WGS84 site reference coordinates from the fixed OurAirports row, not a surveyed historical aerodrome reference point.",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 33.549,
+          "longitude": 72.82566
+        }
+      },
+      "externalIds": {
+        "ourAirports": "333692"
+      },
+      "name": {
+        "note": "Canonical display label from the fixed reference row; not a historical-name timeline. A civil-service closure or later rename does not erase this identity.",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "status": "reference",
+        "value": "Islamabad International Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping; consumers must apply timezone rules for historical instants, not a fixed UTC offset.",
+        "sourceIds": [
+          "tzdb-batch1-2025b"
+        ],
+        "status": "reference",
+        "value": "Asia/Karachi"
+      }
+    },
+    {
+      "airportId": "apt_f642eef8-1864-43c4-8944-47aaa7ac35ce",
+      "coordinates": {
+        "note": "WGS84 site reference coordinates from the fixed OurAirports row, not a surveyed historical aerodrome reference point. Current expanded-airfield reference position, not the historical SXF terminal location. This is one continuing airfield; terminal changes do not create physical identities.",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 52.361738,
+          "longitude": 13.502341
+        }
+      },
+      "externalIds": {
+        "ourAirports": "301881"
+      },
+      "name": {
+        "note": "Canonical display label from the fixed reference row; not a historical-name timeline. A civil-service closure or later rename does not erase this identity.",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "status": "reference",
+        "value": "Berlin Brandenburg Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping; consumers must apply timezone rules for historical instants, not a fixed UTC offset.",
+        "sourceIds": [
+          "tzdb-batch1-2025b"
+        ],
+        "status": "reference",
+        "value": "Europe/Berlin"
+      }
+    },
+    {
+      "airportId": "apt_99f19660-7609-49c5-b221-ed4a37046566",
+      "coordinates": {
+        "note": "WGS84 site reference coordinates from the fixed OurAirports row, not a surveyed historical aerodrome reference point.",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 51.027035,
+          "longitude": 71.467094
+        }
+      },
+      "externalIds": {
+        "ourAirports": "6423"
+      },
+      "name": {
+        "note": "Canonical display label from the fixed reference row; not a historical-name timeline. A civil-service closure or later rename does not erase this identity.",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "status": "reference",
+        "value": "Nursultan Nazarbayev International Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping; consumers must apply timezone rules for historical instants, not a fixed UTC offset.",
+        "sourceIds": [
+          "tzdb-batch1-2025b"
+        ],
+        "status": "reference",
+        "value": "Asia/Almaty"
+      }
+    },
+    {
+      "airportId": "apt_7a7e34d3-dbfa-4cce-ad24-818709177bfd",
+      "coordinates": {
+        "note": "WGS84 site reference coordinates from the fixed OurAirports row, not a surveyed historical aerodrome reference point.",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 46.92774,
+          "longitude": 28.931704
+        }
+      },
+      "externalIds": {
+        "ourAirports": "4571"
+      },
+      "name": {
+        "note": "Canonical display label from the fixed reference row; not a historical-name timeline. A civil-service closure or later rename does not erase this identity.",
+        "sourceIds": [
+          "ourairports-batch1-20261025"
+        ],
+        "status": "reference",
+        "value": "Chişinău International Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping; consumers must apply timezone rules for historical instants, not a fixed UTC offset.",
+        "sourceIds": [
+          "tzdb-batch1-2025b"
+        ],
+        "status": "reference",
+        "value": "Europe/Chisinau"
+      }
+    },
+    {
+      "airportId": "apt_0fd3915b-6dd8-4391-a840-9992db9683cf",
+      "coordinates": {
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified.",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 47.258203,
+          "longitude": 39.8181
+        }
+      },
+      "externalIds": {
+        "ourAirports": "6518"
+      },
+      "name": {
+        "note": "Canonical display label; not an assertion of the legal name on every historical date.",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "status": "reference",
+        "value": "Rostov-on-Don Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset.",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "status": "reference",
+        "value": "Europe/Moscow"
+      }
+    },
+    {
+      "airportId": "apt_4c75d2ab-29db-4593-8b78-6104b8bdb720",
+      "coordinates": {
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified.",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 47.493888,
+          "longitude": 39.924722
+        }
+      },
+      "externalIds": {
+        "ourAirports": "326363"
+      },
+      "name": {
+        "note": "Canonical display label; not an assertion of the legal name on every historical date.",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "status": "reference",
+        "value": "Platov International Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset.",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "status": "reference",
+        "value": "Europe/Moscow"
+      }
+    },
+    {
+      "airportId": "apt_7923bd7d-2855-4d5f-b979-63a5380cd3da",
+      "coordinates": {
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified.",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 37.396825,
+          "longitude": 121.369571
+        }
+      },
+      "externalIds": {
+        "ourAirports": "27227"
+      },
+      "name": {
+        "note": "Canonical display label; not an assertion of the legal name on every historical date.",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "status": "reference",
+        "value": "Yantai Laishan Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset.",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "status": "reference",
+        "value": "Asia/Shanghai"
+      }
+    },
+    {
+      "airportId": "apt_0f0ebbe2-ce55-4b70-8d22-c760fe94777e",
+      "coordinates": {
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified.",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 37.659724,
+          "longitude": 120.978124
+        }
+      },
+      "externalIds": {
+        "ourAirports": "332096"
+      },
+      "name": {
+        "note": "Canonical display label; not an assertion of the legal name on every historical date.",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "status": "reference",
+        "value": "Yantai Penglai International Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset.",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "status": "reference",
+        "value": "Asia/Shanghai"
+      }
+    },
+    {
+      "airportId": "apt_dafb3e33-c7ed-431a-b8e8-22eecf543107",
+      "coordinates": {
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified.",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 11.547155,
+          "longitude": 104.844699
+        }
+      },
+      "externalIds": {
+        "ourAirports": "26475"
+      },
+      "name": {
+        "note": "Canonical display label; not an assertion of the legal name on every historical date.",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "status": "reference",
+        "value": "Phnom Penh International Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset.",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "status": "reference",
+        "value": "Asia/Bangkok"
+      }
+    },
+    {
+      "airportId": "apt_b97de260-274b-4cfd-b56e-5f035c6a7768",
+      "coordinates": {
+        "note": "WGS84 reference position from the identified physical-site row; historical reference-point precision is unverified.",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 11.359987,
+          "longitude": 104.921272
+        }
+      },
+      "externalIds": {
+        "ourAirports": "342098"
+      },
+      "name": {
+        "note": "Canonical display label; not an assertion of the legal name on every historical date.",
+        "sourceIds": [
+          "ourairports-pr8-20261025"
+        ],
+        "status": "reference",
+        "value": "Techo International Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset.",
+        "sourceIds": [
+          "tzdb-2025b"
+        ],
+        "status": "reference",
+        "value": "Asia/Bangkok"
+      }
+    },
+    {
+      "airportId": "apt_7b4e284f-4573-4de6-bdc1-75805dec20d4",
+      "coordinates": {
+        "note": "WGS84 reference position only, not a surveyed historical airport reference point.",
+        "sourceIds": [
+          "ourairports-pr9-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 14.742337,
+          "longitude": -17.479222
+        }
+      },
+      "externalIds": {
+        "ourAirports": "3125"
+      },
+      "name": {
+        "note": "Reference display label; historical official-name evidence is independent.",
+        "sourceIds": [
+          "ourairports-pr9-20261025"
+        ],
+        "status": "reference",
+        "value": "Léopold Sédar Senghor International Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset.",
+        "sourceIds": [
+          "tzdb-pr9-2025b"
+        ],
+        "status": "reference",
+        "value": "Africa/Dakar"
+      }
+    },
+    {
+      "airportId": "apt_ced7c7a9-5d08-4d0f-84d7-e0d432a78096",
+      "coordinates": {
+        "note": "WGS84 reference position only, not a surveyed historical airport reference point.",
+        "sourceIds": [
+          "ourairports-pr9-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 14.670878,
+          "longitude": -17.072829
+        }
+      },
+      "externalIds": {
+        "ourAirports": "325736"
+      },
+      "name": {
+        "note": "Reference display label; historical official-name evidence is independent.",
+        "sourceIds": [
+          "ourairports-pr9-20261025"
+        ],
+        "status": "reference",
+        "value": "Blaise Diagne International Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset.",
+        "sourceIds": [
+          "tzdb-pr9-2025b"
+        ],
+        "status": "reference",
+        "value": "Africa/Dakar"
+      }
+    },
+    {
+      "airportId": "apt_80ab4c35-b89f-40af-a368-bc71b3716d5a",
+      "coordinates": {
+        "note": "WGS84 reference position only, not a surveyed historical airport reference point.",
+        "sourceIds": [
+          "ourairports-pr9-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": -0.374478,
+          "longitude": 117.250128
+        }
+      },
+      "externalIds": {
+        "ourAirports": "26763"
+      },
+      "name": {
+        "note": "Reference display label; historical official-name evidence is independent.",
+        "sourceIds": [
+          "ourairports-pr9-20261025"
+        ],
+        "status": "reference",
+        "value": "Aji Pangeran Tumenggung Pranoto International Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset.",
+        "sourceIds": [
+          "tzdb-pr9-2025b"
+        ],
+        "status": "reference",
+        "value": "Asia/Makassar"
+      }
+    },
+    {
+      "airportId": "apt_967383b9-116c-4c3b-a8fb-c67515a3eb83",
+      "coordinates": {
+        "note": "WGS84 reference position only, not a surveyed historical airport reference point.",
+        "sourceIds": [
+          "mwgg-temindung-reference"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": -0.4845309854,
+          "longitude": 117.1569976807
+        }
+      },
+      "externalIds": {},
+      "name": {
+        "note": "Reference display label; historical official-name evidence is independent.",
+        "sourceIds": [
+          "mwgg-temindung-reference"
+        ],
+        "status": "reference",
+        "value": "Temindung Airport"
+      },
+      "timezone": {
+        "note": "Geographical IANA zone mapping, not a fixed historical UTC offset.",
+        "sourceIds": [
+          "tzdb-pr9-2025b"
+        ],
+        "status": "reference",
+        "value": "Asia/Makassar"
+      }
+    },
+    {
+      "airportId": "apt_d3a329f9-73d0-43f5-90c2-0ba0a0a2e5be",
+      "coordinates": {
+        "note": "User-approved distinct physical-site identity and FAA reference position only; not a historical runway footprint or operational interval.",
+        "sourceIds": [
+          "airspace-2007"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 30.21222222222222,
+          "longitude": -85.68277777777779
+        }
+      },
+      "externalIds": {
+        "ourAirports": "3769"
+      },
+      "name": {
+        "note": "Display label only; no historical official-name interval proposed.",
+        "sourceIds": [
+          "airspace-2007"
+        ],
+        "status": "reference",
+        "value": "Panama City-Bay County International Airport"
+      },
+      "timezone": {
+        "note": "Unknown; no timezone claim was authorized or established.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_74a05fd5-53fa-40f8-a3a6-de8cfd7d5e99",
+      "coordinates": {
+        "note": "User-approved distinct physical-site identity and FAA reference position only; not a historical runway footprint or operational interval.",
+        "sourceIds": [
+          "airspace-2014"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 30.35777777777778,
+          "longitude": -85.79888888888888
+        }
+      },
+      "externalIds": {
+        "ourAirports": "46530"
+      },
+      "name": {
+        "note": "Display label only; no historical official-name interval proposed.",
+        "sourceIds": [
+          "airspace-2014"
+        ],
+        "status": "reference",
+        "value": "Northwest Florida Beaches International Airport"
+      },
+      "timezone": {
+        "note": "Unknown; no timezone claim was authorized or established.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_ba1f9f8c-1849-4092-9e91-d641bddb6bc6",
+      "coordinates": {
+        "note": "User-approved distinct physical-site identity and FAA reference position only; not a historical runway footprint or operational interval.",
+        "sourceIds": [
+          "fr-2020-09591"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 48.17805555555555,
+          "longitude": -103.64222222222223
+        }
+      },
+      "externalIds": {
+        "ourAirports": "20188"
+      },
+      "name": {
+        "note": "Display label only; no historical official-name interval proposed.",
+        "sourceIds": [
+          "fr-2020-09591"
+        ],
+        "status": "reference",
+        "value": "Sloulin Field International Airport"
+      },
+      "timezone": {
+        "note": "Unknown; no timezone claim was authorized or established.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_661b72ea-f84d-4cec-ae34-fddd5e579b3d",
+      "coordinates": {
+        "note": "User-approved distinct physical-site identity and FAA reference position only; not a historical runway footprint or operational interval.",
+        "sourceIds": [
+          "fr-2020-09591"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 48.26083333333333,
+          "longitude": -103.75111111111111
+        }
+      },
+      "externalIds": {
+        "ourAirports": "324440"
+      },
+      "name": {
+        "note": "Display label only; no historical official-name interval proposed.",
+        "sourceIds": [
+          "fr-2020-09591"
+        ],
+        "status": "reference",
+        "value": "Williston Basin International Airport"
+      },
+      "timezone": {
+        "note": "Unknown; no timezone claim was authorized or established.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e",
+      "coordinates": {
+        "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+        "sourceIds": [
+          "in-aip-22-02-2024-vosr",
+          "in-aip-12-06-2025-vosr",
+          "in-aip-09-07-2026-vosr"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 16.00333333,
+          "longitude": 73.53277778
+        }
+      },
+      "externalIds": {
+        "ourAirports": "331218"
+      },
+      "name": {
+        "note": "Display label only; no official-name timeline is asserted.",
+        "sourceIds": [
+          "in-aip-22-02-2024-vosr",
+          "in-aip-12-06-2025-vosr",
+          "in-aip-09-07-2026-vosr"
+        ],
+        "status": "reference",
+        "value": "Sindhudurg Airport"
+      },
+      "timezone": {
+        "note": "No historical IANA timezone claim.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7",
+      "coordinates": {
+        "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+        "sourceIds": [
+          "in-aip-22-02-2024-vogb",
+          "in-aip-12-06-2025-vogb",
+          "in-aip-09-07-2026-vogb"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 17.30972222,
+          "longitude": 76.95722222
+        }
+      },
+      "externalIds": {
+        "ourAirports": "506610"
+      },
+      "name": {
+        "note": "Display label only; no official-name timeline is asserted.",
+        "sourceIds": [
+          "in-aip-22-02-2024-vogb",
+          "in-aip-12-06-2025-vogb",
+          "in-aip-09-07-2026-vogb"
+        ],
+        "status": "reference",
+        "value": "Kalaburagi Airport"
+      },
+      "timezone": {
+        "note": "No historical IANA timezone claim.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f",
+      "coordinates": {
+        "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+        "sourceIds": [
+          "in-aip-22-02-2024-veki",
+          "in-aip-12-06-2025-veki",
+          "in-aip-09-07-2026-veki"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 26.77277778,
+          "longitude": 83.89527778
+        }
+      },
+      "externalIds": {
+        "ourAirports": "350147"
+      },
+      "name": {
+        "note": "Display label only; no official-name timeline is asserted.",
+        "sourceIds": [
+          "in-aip-22-02-2024-veki",
+          "in-aip-12-06-2025-veki",
+          "in-aip-09-07-2026-veki"
+        ],
+        "status": "reference",
+        "value": "Kushinagar International Airport"
+      },
+      "timezone": {
+        "note": "No historical IANA timezone claim.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9",
+      "coordinates": {
+        "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+        "sourceIds": [
+          "in-aip-22-02-2024-vepy",
+          "in-aip-12-06-2025-vepy",
+          "in-aip-09-07-2026-vepy"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 27.22583333,
+          "longitude": 88.58583333
+        }
+      },
+      "externalIds": {
+        "ourAirports": "44362"
+      },
+      "name": {
+        "note": "Display label only; no official-name timeline is asserted.",
+        "sourceIds": [
+          "in-aip-22-02-2024-vepy",
+          "in-aip-12-06-2025-vepy",
+          "in-aip-09-07-2026-vepy"
+        ],
+        "status": "reference",
+        "value": "Pakyong Airport"
+      },
+      "timezone": {
+        "note": "No historical IANA timezone claim.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3",
+      "coordinates": {
+        "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+        "sourceIds": [
+          "in-aip-22-02-2024-voku",
+          "in-aip-12-06-2025-voku",
+          "in-aip-09-07-2026-voku"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 15.71472222,
+          "longitude": 78.16305556
+        }
+      },
+      "externalIds": {
+        "ourAirports": "340146"
+      },
+      "name": {
+        "note": "Display label only; no official-name timeline is asserted.",
+        "sourceIds": [
+          "in-aip-22-02-2024-voku",
+          "in-aip-12-06-2025-voku",
+          "in-aip-09-07-2026-voku"
+        ],
+        "status": "reference",
+        "value": "Kurnool Airport"
+      },
+      "timezone": {
+        "note": "No historical IANA timezone claim.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+      "coordinates": {
+        "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+        "sourceIds": [
+          "es-murcia-aip"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 37.80305556,
+          "longitude": -1.12472222
+        }
+      },
+      "externalIds": {
+        "ourAirports": "308134"
+      },
+      "name": {
+        "note": "Display label only; no official-name timeline is asserted.",
+        "sourceIds": [
+          "es-murcia-aip"
+        ],
+        "status": "reference",
+        "value": "Region of Murcia International Airport"
+      },
+      "timezone": {
+        "note": "No historical IANA timezone claim.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+      "coordinates": {
+        "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+        "sourceIds": [
+          "es-sanjavier-aip"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 37.775,
+          "longitude": -0.8125
+        }
+      },
+      "externalIds": {
+        "ourAirports": "4017"
+      },
+      "name": {
+        "note": "Display label only; no official-name timeline is asserted.",
+        "sourceIds": [
+          "es-sanjavier-aip"
+        ],
+        "status": "reference",
+        "value": "San Javier Airport"
+      },
+      "timezone": {
+        "note": "No historical IANA timezone claim.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_7f9cc70a-c6cc-44a1-b78e-9a817165e1c4",
+      "coordinates": {
+        "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+        "sourceIds": [
+          "policy-aip-2026-04-16-vedg",
+          "policy-aip-2026-07-09-vedg"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 23.62444444,
+          "longitude": 87.2425
+        }
+      },
+      "externalIds": {
+        "ourAirports": "317982"
+      },
+      "name": {
+        "note": "Display label only; no official-name timeline is asserted.",
+        "sourceIds": [
+          "policy-aip-2026-04-16-vedg",
+          "policy-aip-2026-07-09-vedg"
+        ],
+        "status": "reference",
+        "value": "Kazi Nazrul Islam Airport"
+      },
+      "timezone": {
+        "note": "No historical IANA timezone claim.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_d8c584ef-5538-47e0-ab55-ccefd309e6af",
+      "coordinates": {
+        "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+        "sourceIds": [
+          "policy-aip-2026-04-16-voga",
+          "policy-aip-2026-07-09-voga"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 15.7425,
+          "longitude": 73.86694444
+        }
+      },
+      "externalIds": {
+        "ourAirports": "342094"
+      },
+      "name": {
+        "note": "Display label only; no official-name timeline is asserted.",
+        "sourceIds": [
+          "policy-aip-2026-04-16-voga",
+          "policy-aip-2026-07-09-voga"
+        ],
+        "status": "reference",
+        "value": "Manohar International Airport"
+      },
+      "timezone": {
+        "note": "No historical IANA timezone claim.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "airportId": "apt_f470ecb5-c6dc-4516-a233-37302da2115b",
+      "assignmentId": "iata-tao-liuting",
+      "code": "TAO",
+      "evidenceType": "continuity_inference",
+      "note": "Original assignment date remains unknown; latest start is only an evidence bound. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "tao-earlier",
+        "tao-code",
+        "tao-transfer"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2016-08-17",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2021-08-12",
+        "latest": "2021-08-12",
+        "precision": "exact"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_6729d2b2-4b79-48c8-9c42-0d4eeba121b8",
+      "assignmentId": "iata-tao-jiaodong",
+      "code": "TAO",
+      "evidenceType": "continuity_inference",
+      "note": "Transfer establishes the start, not the airport inauguration. The open end is not guaranteed future validity. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "tao-earlier",
+        "tao-code",
+        "tao-transfer",
+        "ourairports-20261025"
+      ],
+      "validFrom": {
+        "earliest": "2021-08-12",
+        "latest": "2021-08-12",
+        "precision": "exact"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_d8f290d3-11cc-4441-af6d-f4dd52d3b8dc",
+      "assignmentId": "iata-ist-ataturk",
+      "code": "IST",
+      "evidenceType": "continuity_inference",
+      "note": "Original assignment date remains unknown; latest start is only an evidence bound. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "ist-earlier",
+        "ist-transfer"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2015-06-26",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2019-04-06",
+        "latest": "2019-04-07",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_92a92544-1808-487a-85e0-0fa995e1de82",
+      "assignmentId": "iata-ist-istanbul",
+      "code": "IST",
+      "evidenceType": "continuity_inference",
+      "note": "Transfer establishes the start, not the airport inauguration. The open end is not guaranteed future validity. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "ist-earlier",
+        "ist-transfer",
+        "ourairports-20261025"
+      ],
+      "validFrom": {
+        "earliest": "2019-04-06",
+        "latest": "2019-04-07",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_86460159-a072-4a18-afcc-ab376cda7047",
+      "assignmentId": "iata-hkg-kai-tak",
+      "code": "HKG",
+      "evidenceType": "continuity_inference",
+      "note": "Original assignment date remains unknown; latest start is only an evidence bound. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "hkg-earlier",
+        "hkg-code",
+        "hkg-transfer"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "1993-11-05",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "1998-07-06",
+        "latest": "1998-07-07",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_8d89722f-007c-4eb4-aaa0-ec1c61007a09",
+      "assignmentId": "iata-hkg-chek-lap-kok",
+      "code": "HKG",
+      "evidenceType": "continuity_inference",
+      "note": "Transfer establishes the start, not the airport inauguration. The open end is not guaranteed future validity. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "hkg-earlier",
+        "hkg-code",
+        "hkg-transfer",
+        "ourairports-20261025"
+      ],
+      "validFrom": {
+        "earliest": "1998-07-06",
+        "latest": "1998-07-07",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_ce3d25d8-99db-48ae-b824-33cea4de0919",
+      "assignmentId": "iata-den-stapleton",
+      "code": "DEN",
+      "evidenceType": "continuity_inference",
+      "note": "Original assignment date remains unknown; latest start is only an evidence bound. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "den-earlier",
+        "den-code",
+        "den-transfer"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "1989-12-31",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "1995-02-28",
+        "latest": "1995-03-01",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_67f7542e-c336-4ba7-b23a-beaf1b4c1e38",
+      "assignmentId": "iata-den-denver",
+      "code": "DEN",
+      "evidenceType": "continuity_inference",
+      "note": "Transfer establishes the start, not the airport inauguration. The open end is not guaranteed future validity. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "den-earlier",
+        "den-code",
+        "den-transfer",
+        "ourairports-20261025"
+      ],
+      "validFrom": {
+        "earliest": "1995-02-28",
+        "latest": "1995-03-01",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_86460159-a072-4a18-afcc-ab376cda7047",
+      "assignmentId": "icao-vhhh-kai-tak",
+      "code": "VHHH",
+      "evidenceType": "continuity_inference",
+      "note": "Original assignment date remains unknown; latest start is only an evidence bound. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "hkg-earlier",
+        "hkg-code",
+        "hkg-transfer"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "1993-11-05",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "1998-07-06",
+        "latest": "1998-07-07",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_8d89722f-007c-4eb4-aaa0-ec1c61007a09",
+      "assignmentId": "icao-vhhh-chek-lap-kok",
+      "code": "VHHH",
+      "evidenceType": "continuity_inference",
+      "note": "Transfer establishes the start, not the airport inauguration. The open end is not guaranteed future validity. Continuity between the cited code observation and transfer/current corroboration is a reviewed historical inference, not daily observations or an official IATA allocation ledger.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "hkg-earlier",
+        "hkg-code",
+        "hkg-transfer",
+        "ourairports-20261025"
+      ],
+      "validFrom": {
+        "earliest": "1998-07-06",
+        "latest": "1998-07-07",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_92a92544-1808-487a-85e0-0fa995e1de82",
+      "assignmentId": "iata-isl-istanbul",
+      "code": "ISL",
+      "evidenceType": "continuity_inference",
+      "note": "New Istanbul Airport used ISL by the dated October 31 flight, before adopting IST. First ISL allocation date remains unknown; the October 29 inauguration is not used as allocation. ISL moved to Ataturk on April 6, within the day. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "isl-earlier",
+        "ist-transfer"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2018-11-01",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2019-04-06",
+        "latest": "2019-04-07",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_d8f290d3-11cc-4441-af6d-f4dd52d3b8dc",
+      "assignmentId": "iata-isl-ataturk",
+      "code": "ISL",
+      "evidenceType": "continuity_inference",
+      "note": "ISL arrived at Ataturk in the inverse exchange with IST; preserve the existing Ataturk physical identity despite the passenger-service move. Day-only April 6 is uncertain. Current code observation supports continuity only before 2026-10-25, not future validity or a claim that passenger service continues. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "ist-transfer",
+        "ourairports-20261025"
+      ],
+      "validFrom": {
+        "earliest": "2019-04-06",
+        "latest": "2019-04-07",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_d28173b7-5c8b-4012-8eed-18f96c13a0ce",
+      "assignmentId": "iata-isb-benazir-bhutto",
+      "code": "ISB",
+      "evidenceType": "continuity_inference",
+      "note": "Unknown original ISB allocation is bounded by the 2016 airline observation. Explicit code-transfer evidence establishes May 2018 only. Flight operations moved May 3, but no precise IATA transfer day is inferred. The old airfield remains a separate military/general-aviation site without current ISB. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "isb-earlier",
+        "isb-code-transfer",
+        "isb-operational-plan",
+        "isb-operations"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2016-05-07",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2018-05-01",
+        "latest": "2018-06-01",
+        "precision": "month"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_896e8191-7c0b-4a94-bc14-9dcd7e35feac",
+      "assignmentId": "iata-isb-islamabad",
+      "code": "ISB",
+      "evidenceType": "continuity_inference",
+      "note": "ISB transferred to a geographically separate new airport during May 2018. Every date in that month, including May 3, remains uncertain. OPIS is a distinct ICAO code, not an inherited OPRN assignment; neither ICAO allocation is added. Continuity is checked only before 2026-10-25. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "isb-earlier",
+        "isb-code-transfer",
+        "isb-operational-plan",
+        "isb-operations",
+        "ourairports-batch1-20261025"
+      ],
+      "validFrom": {
+        "earliest": "2018-05-01",
+        "latest": "2018-06-01",
+        "precision": "month"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_f642eef8-1864-43c4-8944-47aaa7ac35ce",
+      "assignmentId": "iata-sxf-schonefeld-brandenburg",
+      "code": "SXF",
+      "evidenceType": "continuity_inference",
+      "note": "First allocation remains unknown; latest start is only a dated observation bound. The continuing Schonefeld airfield expanded into Brandenburg; old facilities became T5. October 25 airport-code change is separate from October 31 T1 opening. Pre-2020 BER metropolitan/city-code use is outside the airport namespace; no airport assignment is created for it. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "ber-coordination",
+        "ber-code-change"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2020-05-01",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2020-10-25",
+        "latest": "2020-10-26",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_f642eef8-1864-43c4-8944-47aaa7ac35ce",
+      "assignmentId": "iata-ber-schonefeld-brandenburg",
+      "code": "BER",
+      "evidenceType": "continuity_inference",
+      "note": "The continuing Schonefeld airfield expanded into Brandenburg; old facilities became T5. October 25 airport-code change is separate from October 31 T1 opening. Pre-2020 BER metropolitan/city-code use is outside the airport namespace; no airport assignment is created for it. Date-only change-day queries remain uncertain. The open end does not guarantee validity on or after 2026-10-25. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "ber-coordination",
+        "ber-code-change",
+        "ourairports-batch1-20261025"
+      ],
+      "validFrom": {
+        "earliest": "2020-10-25",
+        "latest": "2020-10-26",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_99f19660-7609-49c5-b221-ed4a37046566",
+      "assignmentId": "iata-tse-astana",
+      "code": "TSE",
+      "evidenceType": "continuity_inference",
+      "note": "First allocation remains unknown; latest start is only a dated observation bound. Same physical Astana airport. June 8 code change is separate from April 6 IATA decision and earlier airport/city renames. Exact local change instant is unproved. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "nqz-code-change",
+        "nqz-implementation"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2020-04-07",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2020-06-08",
+        "latest": "2020-06-09",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_99f19660-7609-49c5-b221-ed4a37046566",
+      "assignmentId": "iata-nqz-astana",
+      "code": "NQZ",
+      "evidenceType": "continuity_inference",
+      "note": "Same physical Astana airport. June 8 code change is separate from April 6 IATA decision and earlier airport/city renames. Exact local change instant is unproved. Date-only change-day queries remain uncertain. The open end does not guarantee validity on or after 2026-10-25. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "nqz-code-change",
+        "nqz-implementation",
+        "ourairports-batch1-20261025"
+      ],
+      "validFrom": {
+        "earliest": "2020-06-08",
+        "latest": "2020-06-09",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_7a7e34d3-dbfa-4cce-ad24-818709177bfd",
+      "assignmentId": "iata-kiv-chisinau",
+      "code": "KIV",
+      "evidenceType": "continuity_inference",
+      "note": "First allocation remains unknown; latest start is only a dated observation bound. Same physical Chisinau airport. Secondary announcement and implementation reports support January 18, without an allocation instant. Old tickets retaining KIV do not establish a continuing airport assignment; no other KIV reuse is asserted. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "rmo-announcement",
+        "rmo-implementation"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2023-12-20",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2024-01-18",
+        "latest": "2024-01-19",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_7a7e34d3-dbfa-4cce-ad24-818709177bfd",
+      "assignmentId": "iata-rmo-chisinau",
+      "code": "RMO",
+      "evidenceType": "continuity_inference",
+      "note": "Same physical Chisinau airport. Secondary announcement and implementation reports support January 18, without an allocation instant. Old tickets retaining KIV do not establish a continuing airport assignment; no other KIV reuse is asserted. Date-only change-day queries remain uncertain. The open end does not guarantee validity on or after 2026-10-25. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "rmo-announcement",
+        "rmo-implementation",
+        "ourairports-batch1-20261025"
+      ],
+      "validFrom": {
+        "earliest": "2024-01-18",
+        "latest": "2024-01-19",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_0fd3915b-6dd8-4391-a840-9992db9683cf",
+      "assignmentId": "iata-rov-rostov-on-don",
+      "code": "ROV",
+      "evidenceType": "continuity_inference",
+      "note": "Old Rostov-on-Don airport (URRR in reference data). First allocation unknown; latest start is the 2016-03-19 airline observation. ROV passed to the separate new Platov airport on 2017-11-27 per Aeroflot citing an IATA notice; the time of day is unknown, so the whole day is uncertain. The 2017-12-07 passenger transfer and the 2018-03-01 legal closure are later, separate events. An unverified fan-site claim that the code was received on 2017-11-24 is treated as a notification date and recorded in docs/curated-admissions-pr8.md. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "rov-flydubai-2016",
+        "rov-aeroflot-2017",
+        "rov-gov-order-2434r"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2016-03-20",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2017-11-27",
+        "latest": "2017-11-28",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-27"
+    },
+    {
+      "airportId": "apt_4c75d2ab-29db-4593-8b78-6104b8bdb720",
+      "assignmentId": "iata-rov-platov",
+      "code": "ROV",
+      "evidenceType": "continuity_inference",
+      "note": "Platov inherits ROV on 2017-11-27 (day precision), ten days before its first passengers on 2017-12-07; opening is not the code boundary. The open end is not guaranteed future validity. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "rov-aeroflot-2017",
+        "rov-gov-order-2434r",
+        "ourairports-pr8-20261025"
+      ],
+      "validFrom": {
+        "earliest": "2017-11-27",
+        "latest": "2017-11-28",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-27"
+    },
+    {
+      "airportId": "apt_0fd3915b-6dd8-4391-a840-9992db9683cf",
+      "assignmentId": "iata-rvi-rostov-on-don",
+      "code": "RVI",
+      "evidenceType": "continuity_inference",
+      "note": "Temporary code for the old airport from 2017-11-27; in use on that day for SU flights. No RVI withdrawal record was found: passenger closure on 2017-12-07 and legal closure on 2018-03-01 do not withdraw a code, so the end has no latest bound and later RVI queries remain uncertain rather than inventing a withdrawal date. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "rov-aeroflot-2017",
+        "rov-gov-order-2434r"
+      ],
+      "validFrom": {
+        "earliest": "2017-11-27",
+        "latest": "2017-11-28",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2017-11-28",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-27"
+    },
+    {
+      "airportId": "apt_7923bd7d-2855-4d5f-b979-63a5380cd3da",
+      "assignmentId": "iata-ynt-laishan",
+      "code": "YNT",
+      "evidenceType": "continuity_inference",
+      "note": "Old Yantai Laishan airport. First allocation unknown; the 2014-11-10 report observes YNT as Laishan's current code. IATA had approved YNT for Penglai and planned a coordinate update from 2014-12-11, but no implementation record was found; the latest end is the 2015-05-28 00:00 civil closure of Laishan. Every date from 2014-11-10 to 2015-05-27 is therefore uncertain; neither the planned date nor the opening is asserted as the switch. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "ynt-dzwww-2014",
+        "ynt-spring-2015"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2014-11-11",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2014-11-10",
+        "latest": "2015-05-28",
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-27"
+    },
+    {
+      "airportId": "apt_0f0ebbe2-ce55-4b70-8d22-c760fe94777e",
+      "assignmentId": "iata-ynt-penglai",
+      "code": "YNT",
+      "evidenceType": "continuity_inference",
+      "note": "Separate Penglai site, 57 km by road from Laishan. Start bounded by the reported IATA approval (not before the 2014-11-10 observation of YNT at Laishan) and by the complete civil transfer at 2015-05-28 00:00; current AIP and snapshot corroborate continuity. ZSYT is not admitted: no changeover record exists between the 2013 Laishan chart and the 2025 Penglai AIP. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "ynt-dzwww-2014",
+        "ynt-spring-2015",
+        "ynt-aip-zsyt-2025",
+        "ourairports-pr8-20261025"
+      ],
+      "validFrom": {
+        "earliest": "2014-11-10",
+        "latest": "2015-05-28",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-27"
+    },
+    {
+      "airportId": "apt_dafb3e33-c7ed-431a-b8e8-22eecf543107",
+      "assignmentId": "iata-pnh-pochentong",
+      "code": "PNH",
+      "evidenceType": "continuity_inference",
+      "note": "Old Phnom Penh (Pochentong) airport. First allocation unknown; latest start is a 2008-12-31 reference-dated observation. Airline operations under PNH continued through 2025-09-08 and moved to KTI at 00:01 local on 2025-09-09. No decision to withdraw or reuse PNH was found, so the end has no latest bound; later PNH queries stay uncertain. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "pnh-airportal-2008",
+        "pnh-sia-2025",
+        "kti-vna-2025"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2009-01-01",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2025-09-09",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-27"
+    },
+    {
+      "airportId": "apt_dafb3e33-c7ed-431a-b8e8-22eecf543107",
+      "assignmentId": "icao-vdpp-pochentong",
+      "code": "VDPP",
+      "evidenceType": "continuity_inference",
+      "note": "First allocation unknown; latest start is the ICAO regional table dated 2014-04-25. Cambodia stated the aerodrome officially closes at 1700 UTC on 2025-09-08; aerodrome closure is not an indicator withdrawal, so the end has no latest bound. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "vdpp-icao-fasid-2014",
+        "vdti-icao-wp25"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2014-04-26",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2025-09-08",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-27"
+    },
+    {
+      "airportId": "apt_b97de260-274b-4cfd-b56e-5f035c6a7768",
+      "assignmentId": "iata-kti-techo",
+      "code": "KTI",
+      "evidenceType": "continuity_inference",
+      "note": "Techo, a greenfield site separate from Pochentong and from Kratie. The IATA allocation date is unknown, so the start has no earliest bound. Schedules filed under KTI by 2025-07-22 were for travel from 2025-09-09 and show booking availability, not flights operated at Techo under KTI; they are not used as a flight-date boundary. Carriers moved operations at 00:01 local on 2025-09-09, so that whole local date stays uncertain and the latest start is 2025-09-10. KTI was previously associated with Kratie according to a Cambodian embassy notice, but no dated Kratie observation is admitted, so no Kratie assignment or reassignment boundary is asserted. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "kti-aeroroutes-2025",
+        "kti-vna-2025",
+        "pnh-sia-2025",
+        "ourairports-pr8-20261025"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2025-09-10",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-27"
+    },
+    {
+      "airportId": "apt_b97de260-274b-4cfd-b56e-5f035c6a7768",
+      "assignmentId": "icao-vdti-techo",
+      "code": "VDTI",
+      "evidenceType": "continuity_inference",
+      "note": "ICAO indicator issued before operation (date unknown); published AIP operation from 0000 UTC 2025-09-04. The AIP effective date is distinct from the 2025-09-09 airline move and from any IATA date. The continuous interval between observations is a reviewed continuity inference, not an official allocation ledger or daily verification.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "vdti-icao-wp25",
+        "vdti-aip-amdt-0925",
+        "ourairports-pr8-20261025"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2025-09-04",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-27"
+    },
+    {
+      "airportId": "apt_7b4e284f-4573-4de6-bdc1-75805dec20d4",
+      "assignmentId": "iata-dkr-yoff",
+      "code": "DKR",
+      "evidenceType": "continuity_inference",
+      "note": "Actual 2013-03-29 DKR flight at Yoff bounds unknown allocation. IATA announces withdrawal for 2017-12-07 and SAA describes old DKR during that transition. Later directories retain DKR, so implementation/reinstatement is unresolved: no latest-end bound and no certified DKR interval after 2017-12-06. DKR is never assigned to Diass here; city coding is separate. The whole interval is a reviewed continuity inference between observations, not daily direct verification or an allocation ledger.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "dakar-bea-2013",
+        "dakar-iata-2017",
+        "dakar-saa-2017",
+        "ourairports-pr9-20261025"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2013-03-30",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2017-12-07",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    },
+    {
+      "airportId": "apt_ced7c7a9-5d08-4d0f-84d7-e0d432a78096",
+      "assignmentId": "iata-dss-diass",
+      "code": "DSS",
+      "evidenceType": "continuity_inference",
+      "note": "IATA explicitly confirms DSS already assigned to Blaise Diagne on 2017-11-21; latest start is the following whole local date. Original allocation remains unknown. This pre-opening bound is administrative allocation evidence, not a booking observation, flight schedule or claim of pre-opening passenger operations. The whole interval is a reviewed continuity inference between observations, not daily direct verification or an allocation ledger.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "dakar-iata-2017",
+        "dakar-saa-2017",
+        "ourairports-pr9-20261025"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2017-11-22",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    },
+    {
+      "airportId": "apt_7b4e284f-4573-4de6-bdc1-75805dec20d4",
+      "assignmentId": "icao-gooy-yoff",
+      "code": "GOOY",
+      "evidenceType": "continuity_inference",
+      "note": "Actual 2013-03-29 flight observes GOOY at Yoff; current AIP retains GOOY under military administration. No ICAO withdrawal is inferred from passenger relocation or the IATA DKR notice. The whole interval is a reviewed continuity inference between observations, not daily direct verification or an allocation ledger.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "dakar-bea-2013",
+        "gooy-aip-2026",
+        "ourairports-pr9-20261025"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2013-03-30",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    },
+    {
+      "airportId": "apt_ced7c7a9-5d08-4d0f-84d7-e0d432a78096",
+      "assignmentId": "icao-gobd-diass",
+      "code": "GOBD",
+      "evidenceType": "continuity_inference",
+      "note": "GOBD charts effective 2017-12-07 0000 UTC establish the AIP state by that local date (Dakar UTC+0), not original indicator issue. October 12 publication does not bound allocation; the start remains open to the past. The whole interval is a reviewed continuity inference between observations, not daily direct verification or an allocation ledger.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "gobd-aip-sup-2017",
+        "gobd-aip-2026",
+        "ourairports-pr9-20261025"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2017-12-07",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    },
+    {
+      "airportId": "apt_80ab4c35-b89f-40af-a368-bc71b3716d5a",
+      "assignmentId": "iata-aap-pranoto",
+      "code": "AAP",
+      "evidenceType": "continuity_inference",
+      "note": "Actual operational AAP observation on 2019-08-20 bounds latest start to 2019-08-21. May 2018 opening, October 2018 inauguration and prospective schedules are not code bounds. Earlier AAP at Andrau Airpark is outside admitted coverage; earlier dates remain uncertain. SRI withdrawal and WALS reuse are not certified. The whole interval is a reviewed continuity inference between observations, not daily direct verification or an allocation ledger.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "aap-weather-2019",
+        "aap-dgca-2026",
+        "ourairports-pr9-20261025"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2019-08-21",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    },
+    {
+      "airportId": "apt_d28173b7-5c8b-4012-8eed-18f96c13a0ce",
+      "assignmentId": "icao-oprn-chaklala",
+      "code": "OPRN",
+      "evidenceType": "continuity_inference",
+      "note": "Observed on 2016-08-08 at the old Chaklala site; AIP AD 2 OPRN-1 dated 2021-03-25 still identifies the same runway after civil operations moved to OPIS. Coverage ends conservatively at that last observation (exclusive), not an asserted withdrawal. The fixed directory has OPRN only in gps_code, with blank icao_code; it does not extend ICAO coverage. No OPRN transfer to the new airport or new entity for military use. The whole interval is a reviewed continuity inference between dated observations, not daily direct verification, a first-allocation date, or proof that flights operated on every resolved date.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "oprn-bea-2016",
+        "oprn-aip-2021"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2016-08-09",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2021-03-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    },
+    {
+      "airportId": "apt_896e8191-7c0b-4a94-bc14-9dcd7e35feac",
+      "assignmentId": "icao-opis-islamabad",
+      "code": "OPIS",
+      "evidenceType": "continuity_inference",
+      "note": "Unknown original allocation; administrative AIP designation at the new site is documented effective 2017-06-22 0001 UTC (0501 local), hence the next whole-local-date latest-start bound. Commissioning was expressly deferred to a NOTAM; this does not establish flights in 2017 or use the 2018 opening as an ICAO transfer. OPRN belongs to the separate old site. Continued OPIS is corroborated by official 2026 AIP and the unchanged fixed evidence horizon. The whole interval is a reviewed continuity inference between dated observations, not daily direct verification, a first-allocation date, or proof that flights operated on every resolved date.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "opis-aip-2017",
+        "opis-aip-2026",
+        "ourairports-batch1-20261025"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2017-06-23",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    },
+    {
+      "airportId": "apt_d8f290d3-11cc-4441-af6d-f4dd52d3b8dc",
+      "assignmentId": "icao-ltba-ataturk",
+      "code": "LTBA",
+      "evidenceType": "continuity_inference",
+      "note": "Actual 2011-10-15 France-local flight record identifies departure LTBA at Ataturk. No departure time is given; a conservative additional local-day rollover yields latest start 2011-10-17. The 2026 AD 2 entry retains LTBA at Ataturk after the IATA IST/ISL exchange. Neither that passenger move nor changes in civil operations transfer LTBA to the new site. The whole interval is a reviewed continuity inference between dated observations, not daily direct verification, a first-allocation date, or proof that flights operated on every resolved date.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "ltba-bea-2011",
+        "ltba-aip-2026",
+        "ourairports-20261025"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2011-10-17",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    },
+    {
+      "airportId": "apt_92a92544-1808-487a-85e0-0fa995e1de82",
+      "assignmentId": "icao-ltfm-istanbul",
+      "code": "LTFM",
+      "evidenceType": "continuity_inference",
+      "note": "Unknown original allocation; SUP 04/18 documents administrative LTFM designation effective 2018-10-11, with no effective instant proved, so the conservative latest start is October 12. Its procedures and airport commissioning remained conditional on service/NOTAM; resolution before service identifies the designated site, not an operated flight. Actual LTFM departure is separately observed in the 2019-12-31 occurrence record. No ICAO transfer from LTBA or backdating from the IATA IST change is asserted. The whole interval is a reviewed continuity inference between dated observations, not daily direct verification, a first-allocation date, or proof that flights operated on every resolved date.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "ltfm-aip-sup-2018",
+        "ltfm-bea-2019",
+        "ltfm-aip-2026",
+        "ourairports-20261025"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2018-10-12",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    },
+    {
+      "airportId": "apt_f642eef8-1864-43c4-8944-47aaa7ac35ce",
+      "assignmentId": "icao-eddb-berlin",
+      "code": "EDDB",
+      "evidenceType": "continuity_inference",
+      "note": "Actual 2016-07-08 flight identifies EDDB at Schonefeld. The existing Fluko evidence establishes Brandenburg as an extension of the same airside infrastructure; operator manual retains EDDB at Brandenburg. One continuous assignment to the existing physical ID across the 2020 SXF/BER change, T5 incorporation and T1 opening. No duplicate airport entity or invented ICAO transfer date. The whole interval is a reviewed continuity inference between dated observations, not daily direct verification, a first-allocation date, or proof that flights operated on every resolved date.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "eddb-bea-2016",
+        "ber-coordination",
+        "ber-code-change",
+        "eddb-manual-2026",
+        "ourairports-batch1-20261025"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2016-07-09",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    },
+    {
+      "airportId": "apt_99f19660-7609-49c5-b221-ed4a37046566",
+      "assignmentId": "icao-uacc-astana",
+      "code": "UACC",
+      "evidenceType": "continuity_inference",
+      "note": "ANAC reconstructs actual 2016-04-29 UACC arrival/departure at Astana. Its log-table time standard is absent: allowing a local-day rollover at historical UTC+6 gives conservative latest start 2016-05-01. BEA confirms a local-dated 2018 landing; official 2026 AIP retains UACC on the same runway/site after TSE/NQZ. Renaming the city or airport and changing IATA code do not create another physical identity or a UACC transfer. The whole interval is a reviewed continuity inference between dated observations, not daily direct verification, a first-allocation date, or proof that flights operated on every resolved date.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "uacc-anac-2016",
+        "uacc-bea-2018",
+        "uacc-aip-2026",
+        "nqz-code-change",
+        "ourairports-batch1-20261025"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2016-05-01",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    },
+    {
+      "airportId": "apt_d3a329f9-73d0-43f5-90c2-0ba0a0a2e5be",
+      "assignmentId": "proposal-icao-pfn",
+      "code": "KPFN",
+      "evidenceType": "continuity_inference",
+      "note": "User-approved certain coverage [2009-05-08, 2010-04-28). FAA 2009 airport row and scoped K-prefix rule, followed by the printed numeric issue date of NWS TIN10-18, support a reviewed continuity inference. The prior May 2010 tail is not accepted. First allocation and withdrawal remain unknown; the forecast service/closure dates are not allocation boundaries.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "faa-2009",
+        "nws-panama"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2009-05-08",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2010-04-28",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    },
+    {
+      "airportId": "apt_74a05fd5-53fa-40f8-a3a6-de8cfd7d5e99",
+      "assignmentId": "proposal-icao-ecp",
+      "code": "KECP",
+      "evidenceType": "continuity_inference",
+      "note": "User-approved certain coverage [2010-05-24, 2014-07-24). Continuity is inferred between the NWS KECP association and the FAA 2014 ECP airport row under the contiguous-US K-prefix rule, with FAA replacement-site context. This is not an exact opening, initial allocation or withdrawal interval.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "faa-2014",
+        "fr-2011-12359",
+        "nws-panama"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2010-05-24",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2014-07-24",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    },
+    {
+      "airportId": "apt_ba1f9f8c-1849-4092-9e91-d641bddb6bc6",
+      "assignmentId": "proposal-icao-isn",
+      "code": "KISN",
+      "evidenceType": "continuity_inference",
+      "note": "User-approved certain coverage [2009-05-08, 2014-07-24). Continuity is inferred between the 2009 and 2014 FAA ISN airport rows under their scoped K-prefix rules. These editions share the FAA register lineage. No 2014-2019 bridge or allocation/withdrawal date is asserted.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "faa-2009",
+        "faa-2014"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2009-05-08",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2014-07-24",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    },
+    {
+      "airportId": "apt_9e24d5d7-5e1a-4489-b936-2737c438921e",
+      "assignmentId": "global-proposal-sindhudurg-icao-vosr",
+      "code": "VOSR",
+      "evidenceType": "continuity_inference",
+      "note": "Explicit owner-approved bounded continuity inference; unknown first allocation and final withdrawal retained. Exact authorization: research/admissions/0.9.0/approval.json#global-proposal-sindhudurg-icao-vosr",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "in-aip-22-02-2024-vosr",
+        "in-aip-12-06-2025-vosr",
+        "in-aip-09-07-2026-vosr"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2024-02-23",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-29"
+    },
+    {
+      "airportId": "apt_66034969-b902-4ede-8011-cc87a23070b7",
+      "assignmentId": "global-proposal-kalaburagi-icao-vogb",
+      "code": "VOGB",
+      "evidenceType": "continuity_inference",
+      "note": "Explicit owner-approved bounded continuity inference; unknown first allocation and final withdrawal retained. Exact authorization: research/admissions/0.9.0/approval.json#global-proposal-kalaburagi-icao-vogb",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "in-aip-22-02-2024-vogb",
+        "in-aip-12-06-2025-vogb",
+        "in-aip-09-07-2026-vogb"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2024-02-23",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-29"
+    },
+    {
+      "airportId": "apt_0342f79b-a035-43b6-88bf-52b9a5e9622f",
+      "assignmentId": "global-proposal-kushinagar-icao-veki",
+      "code": "VEKI",
+      "evidenceType": "continuity_inference",
+      "note": "Explicit owner-approved bounded continuity inference; unknown first allocation and final withdrawal retained. Exact authorization: research/admissions/0.9.0/approval.json#global-proposal-kushinagar-icao-veki",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "in-aip-22-02-2024-veki",
+        "in-aip-12-06-2025-veki",
+        "in-aip-09-07-2026-veki"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2024-02-23",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-29"
+    },
+    {
+      "airportId": "apt_162c7dfd-e70b-48c7-bbe5-282ede0a5cc9",
+      "assignmentId": "global-proposal-pakyong-icao-vepy",
+      "code": "VEPY",
+      "evidenceType": "continuity_inference",
+      "note": "Explicit owner-approved bounded continuity inference; unknown first allocation and final withdrawal retained. Exact authorization: research/admissions/0.9.0/approval.json#global-proposal-pakyong-icao-vepy",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "in-aip-22-02-2024-vepy",
+        "in-aip-12-06-2025-vepy",
+        "in-aip-09-07-2026-vepy"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2024-02-23",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-29"
+    },
+    {
+      "airportId": "apt_5d260013-75b3-4ec4-8915-7c5ff2a47fc3",
+      "assignmentId": "global-proposal-kurnool-icao-voku",
+      "code": "VOKU",
+      "evidenceType": "continuity_inference",
+      "note": "Explicit owner-approved bounded continuity inference; unknown first allocation and final withdrawal retained. Exact authorization: research/admissions/0.9.0/approval.json#global-proposal-kurnool-icao-voku",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "in-aip-22-02-2024-voku",
+        "in-aip-12-06-2025-voku",
+        "in-aip-09-07-2026-voku"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2024-02-23",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-29"
+    },
+    {
+      "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+      "assignmentId": "global-proposal-murcia-old-icao-lelc",
+      "code": "LELC",
+      "evidenceType": "continuity_inference",
+      "note": "Explicit owner-approved bounded continuity inference; unknown first allocation and final withdrawal retained. Exact authorization: research/admissions/0.9.0/approval.json#global-proposal-murcia-old-icao-lelc",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "es-sanjavier-aip",
+        "es-murcia-index-current"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2026-04-17",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-29",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-29"
+    },
+    {
+      "airportId": "apt_7f9cc70a-c6cc-44a1-b78e-9a817165e1c4",
+      "assignmentId": "global-proposal-durgapur-icao-vedg",
+      "code": "VEDG",
+      "evidenceType": "continuity_inference",
+      "note": "Bounded whole-local-date policy inference; unknown outer bounds. Policy audit is external to Schema 3.0.0.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "policy-aip-2026-04-16-vedg",
+        "policy-aip-2026-07-09-vedg"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2026-04-17",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-29"
+    },
+    {
+      "airportId": "apt_d8c584ef-5538-47e0-ab55-ccefd309e6af",
+      "assignmentId": "global-proposal-mopa-icao-voga",
+      "code": "VOGA",
+      "evidenceType": "continuity_inference",
+      "note": "Bounded whole-local-date policy inference; unknown outer bounds. Policy audit is external to Schema 3.0.0.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "policy-aip-2026-04-16-voga",
+        "policy-aip-2026-07-09-voga"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2026-04-17",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-29"
+    }
+  ],
+  "dataVersion": "0.10.0",
+  "names": [
+    {
+      "airportId": "apt_99f19660-7609-49c5-b221-ed4a37046566",
+      "evidenceType": "continuity_inference",
+      "kind": "official",
+      "language": "ru",
+      "name": "Международный аэропорт Астана",
+      "nameId": "name-astana-before-2017",
+      "note": "Canonical Russian official airport name in the original 2017 decision. Continuity from the 2006 observation to the renaming is a reviewed inference. Original naming date remains unknown; dates before 2006-11-21 are uncertain. June 21 is the first-publication effective day; whole-day resolution remains conservative because no midnight instant is established. City renames and IATA code changes do not create name intervals.",
+      "sourceIds": [
+        "astana-name-observation-2006",
+        "astana-name-original-2017",
+        "astana-name-publication"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2006-11-21",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2017-06-21",
+        "latest": "2017-06-22",
+        "precision": "day"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_99f19660-7609-49c5-b221-ed4a37046566",
+      "evidenceType": "continuity_inference",
+      "kind": "official",
+      "language": "ru",
+      "name": "Международный аэропорт Нурсултан Назарбаев",
+      "nameId": "name-astana-nazarbayev-2017",
+      "note": "Canonical Russian official airport name from the original renaming, with later aviation-administration use and the fixed current-directory label corroborating continuation. The whole interval is a reviewed continuity inference, not direct evidence for every day. Known effective day is 2017-06-21, not signing day 2017-06-20 or the 2020 IATA code change. The 2020 corporate wording amendment, city renames and English translations are not additional airport renames. On or after the fixed 2026-10-25 evidence horizon the result is uncertain.",
+      "sourceIds": [
+        "astana-name-original-2017",
+        "astana-name-publication",
+        "nqz-code-change",
+        "nqz-implementation",
+        "ourairports-batch1-20261025"
+      ],
+      "validFrom": {
+        "earliest": "2017-06-21",
+        "latest": "2017-06-22",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-26"
+    },
+    {
+      "airportId": "apt_80ab4c35-b89f-40af-a368-bc71b3716d5a",
+      "evidenceType": "continuity_inference",
+      "kind": "official",
+      "language": "id",
+      "name": "Bandar Udara Aji Pangeran Tumenggung Pranoto",
+      "nameId": "name-pranoto-kp676-2017",
+      "note": "Canonical Indonesian airport name, from operative clauses First/Third of KP 676/2017, effective on determination 2017-07-27. Day precision preserves whole-date uncertainty; later publication and administrative deadline are distinct. This names the new site before opening, not Temindung or an IATA code. Continued authority use supports a reviewed continuity inference to the fixed evidence horizon; translations and the International display suffix are not admitted official name intervals.",
+      "sourceIds": [
+        "aap-name-kp676-2017",
+        "aap-dgca-2026"
+      ],
+      "validFrom": {
+        "earliest": "2017-07-27",
+        "latest": "2017-07-28",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": "2026-10-25",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-10-28"
+    }
+  ],
+  "schemaVersion": "3.0.0",
+  "sources": [
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "note": "OurAirports explicitly releases its data to the public domain. Preserve that designation, not an invented CC0 license.",
+        "url": "https://ourairports.com/data/"
+      },
+      "note": "Only eight rows used. Names and coordinates are reference attributes, not historical aerodrome reference points. Current codes corroborate continuing assignments; they cannot establish a historical transfer by themselves.",
+      "sourceId": "ourairports-20261025",
+      "sourceType": "secondary",
+      "title": "OurAirports airport snapshot d97df1673cc5ba61a09b17ab5936091a669a04ca",
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/d97df1673cc5ba61a09b17ab5936091a669a04ca/airports.csv",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "note": "zone1970.tab is public domain under the tzdb LICENSE; no BSD code is copied.",
+        "url": "https://data.iana.org/time-zones/tzdb-2025b/LICENSE"
+      },
+      "note": "Selected Beijing Time, Hong Kong, Istanbul and Denver geographical zone identifiers. These are reference mappings; no UTC offset is stored or calculated.",
+      "sourceId": "tzdb-2025b",
+      "sourceType": "primary",
+      "title": "IANA tzdb 2025b zone1970.tab",
+      "url": "https://data.iana.org/time-zones/tzdb-2025b/zone1970.tab",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it.",
+        "url": null
+      },
+      "note": "Reports Jiaodong began operation and Liuting closed simultaneously at local midnight on 2021-08-12.",
+      "sourceId": "tao-transfer",
+      "sourceType": "secondary",
+      "title": "Xinhua: Qingdao Jiaodong transfer completed",
+      "url": "https://www.xinhuanet.com/2021-08/12/c_1127752897.htm",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it.",
+        "url": null
+      },
+      "note": "Reports IATA approval on 2019-03-21: Jiaodong inherits Liuting TAO from the announced opening midnight. Approval date is not the effective transfer date.",
+      "sourceId": "tao-code",
+      "sourceType": "secondary",
+      "title": "Qingdao News: IATA approval to retain TAO",
+      "url": "https://news.qingdaonews.com/qingdao/2019-03/22/content_20304508.htm",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it.",
+        "url": null
+      },
+      "note": "2021-04-30 notice explicitly refers to TAO procedures announced 2016-08-16. Combined with the Liuting/Jiaodong transfer sources, establishes code use before 2017, not first assignment.",
+      "sourceId": "tao-earlier",
+      "sourceType": "primary",
+      "title": "ANA Cargo: TAO cargo procedures",
+      "url": "https://www.anacargo.jp/en/news/210430_E.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it.",
+        "url": null
+      },
+      "note": "Airline retrospective explicitly records IST/ISL exchange on 2019-04-06 at 02:59. Stored at day precision because the API accepts dates, not flight times. The new airport opening in 2018 is not the IST transfer date.",
+      "sourceId": "ist-transfer",
+      "sourceType": "primary",
+      "title": "Turkish Airlines: Mega move",
+      "url": "https://blog.turkishairlines.com/en/mega-move-the-story-of-turkish-airlines-great-migration/",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it.",
+        "url": null
+      },
+      "note": "2015-06-25 announcement names Ataturk as the existing hub and IST in the route schedule. This is an upper bound on first assignment; the advertised 2016 route opening is not the code start.",
+      "sourceId": "ist-earlier",
+      "sourceType": "primary",
+      "title": "Turkish Airlines Atlanta announcement distributed by Golin",
+      "url": "https://www.prweb.com/releases/turkish_airlines_united_states_expansion_continues_with_the_launch_of_nonstop_service_from_atlanta_to_istanbul_in_2016/prweb12812248.htm",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it.",
+        "url": null
+      },
+      "note": "Kai Tak closed early on 1998-07-06; Chek Lap Kok commercial service began a few hours later. Do not equate runway closure, first landing and code reassignment instants.",
+      "sourceId": "hkg-transfer",
+      "sourceType": "primary",
+      "title": "Hong Kong Yearbook 1998: Civil Aviation",
+      "url": "https://www.yearbook.gov.hk/1998/ewww/14/1413/middle-middle.htm",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "CC0-1.0",
+        "note": "Structured main-namespace data is CC0; no Wikipedia prose or media is copied.",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Licensing"
+      },
+      "note": "Structured HKG and VHHH statements have end-time 1998-07-06. Secondary evidence corroborated with the government transfer history. Live entity accessed on the recorded date; not claimed to be revision-pinned.",
+      "sourceId": "hkg-code",
+      "sourceType": "secondary",
+      "title": "Wikidata Q673202: Kai Tak",
+      "url": "https://www.wikidata.org/wiki/Q673202",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it.",
+        "url": null
+      },
+      "note": "Specialist accident record identifies Hong Kong-Kai Tak (HKG/VHHH) on 1993-11-04 and cites the completed CAD investigation. Retrieved directly via the legacy record URL redirect. This bounds the unknown first assignments; it is not the airport opening date.",
+      "sourceId": "hkg-earlier",
+      "sourceType": "secondary",
+      "title": "Aviation Safety Network: China Airlines 605, 1993-11-04",
+      "url": "https://aviation-safety.net/asndb/325140",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-US-Government-Work",
+        "note": "Federal report used for factual verification. No report text, third-party graphics or tables are redistributed.",
+        "url": "https://www.gao.gov/about/contact-us/copyright"
+      },
+      "note": "Retrospective GAO report confirms new Denver airport opened for business on 1995-02-28. No precise code-switch time is established here.",
+      "sourceId": "den-transfer",
+      "sourceType": "primary",
+      "title": "US GAO: Denver International Airport financial issues",
+      "url": "https://www.govinfo.gov/content/pkg/GAOREPORTS-AIMD-95-230/html/GAOREPORTS-AIMD-95-230.htm",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "CC0-1.0",
+        "note": "Structured main-namespace data is CC0; no Wikipedia prose or media is copied.",
+        "url": "https://www.wikidata.org/wiki/Wikidata:Licensing"
+      },
+      "note": "Structured DEN and KDEN end-time statements give 1995-02-28; checked together with the GAO report, the historical TRB code reference and current OurAirports successor record.",
+      "sourceId": "den-code",
+      "sourceType": "secondary",
+      "title": "Wikidata Q1436575: Stapleton",
+      "url": "https://www.wikidata.org/w/index.php?title=Q1436575&oldid=2473577165",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open license established. Cite factual evidence only; do not redistribute source text or relicense it.",
+        "url": null
+      },
+      "note": "Table 3 explicitly maps DEN to Denver Stapleton for historical FAA traffic figures. Use publication-year end as a conservative latest bound on first assignment, not a fabricated 1929 IATA start.",
+      "sourceId": "den-earlier",
+      "sourceType": "secondary",
+      "title": "TRB Transportation Research Record 1218 (1989), Table 3",
+      "url": "https://onlinepubs.trb.org/Onlinepubs/trr/1989/1218/1218-001.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "note": "OurAirports releases its data to the public domain. Only the five identified reference rows are used for this batch; no member comments are copied.",
+        "url": "https://ourairports.com/data/"
+      },
+      "note": "Individually inspected numeric rows 5274 (old Islamabad/PAF Base Nur Khan), 333692 (new Islamabad), 301881 (Berlin Brandenburg), 6423 (Astana) and 4571 (Chisinau). Names and coordinates are reference attributes. Current ISB, BER, NQZ and RMO corroborate continuity only to the fixed 2026-10-25 horizon. Old Islamabad has no current IATA code; this does not erase its identity. Berlin row 2209 is a separate upstream Schonefeld terminal-area record, not a second physical airfield in this dataset; see docs/batch-1-evidence.md.",
+      "sourceId": "ourairports-batch1-20261025",
+      "sourceType": "secondary",
+      "title": "OurAirports fixed snapshot: five batch-1 physical-site reference rows",
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/d97df1673cc5ba61a09b17ab5936091a669a04ca/airports.csv",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "note": "The tzdb license places zone1970.tab in the public domain; the listed BSD exceptions do not apply to this file.",
+        "url": "https://data.iana.org/time-zones/tzdb-2025b/LICENSE"
+      },
+      "note": "Asia/Karachi for both Islamabad sites, Europe/Berlin for the continuing Schonefeld/Brandenburg site, Asia/Almaty for Astana (most of Kazakhstan) and Europe/Chisinau. Geographical mappings, not historical fixed offsets or airport-code evidence.",
+      "sourceId": "tzdb-batch1-2025b",
+      "sourceType": "primary",
+      "title": "IANA tzdb 2025b zone1970.tab: four additional geographical zone mappings",
+      "url": "https://data.iana.org/time-zones/tzdb-2025b/zone1970.tab",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "The receiving airport operator explicitly identifies the 2018-10-31 flight from the new Istanbul Airport as ISL-ECN. This bounds the unknown first ISL assignment at that site by 2018-11-01; neither inauguration on October 29 nor this observation is asserted as first allocation.",
+      "sourceId": "isl-earlier",
+      "sourceType": "primary",
+      "title": "Ercan Airport operator: TK978 from Istanbul Airport, 2018-10-31",
+      "url": "https://www.ercanhavalimani.aero/en/news/kktc-iin-nemli-gn",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Page 1, dated 2016-05-06, explicitly uses Islamabad (ISB) for the then-operating airport. Latest-start bound is 2016-05-07; actual original allocation remains unknown. The airline PDF was inspected, not redistributed.",
+      "sourceId": "isb-earlier",
+      "sourceType": "primary",
+      "title": "Pakistan International Airlines flight operations safety circular, 2016-05-06",
+      "url": "https://crewserver1.piac.com.pk/Documents/Circular/FLT_OPS_-_SAFETY_-_3_-_Fri_May_06_2016_356.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Explicitly states that international scheduled services moved to new Islamabad in May 2018 and the IATA code ISB transferred. Gives no allocation day or instant. Also states the old airport remains open. The shared code-transfer boundary is therefore month precision, 2018-05-01 through 2018-06-01; May 3 flight operations do not refine it.",
+      "sourceId": "isb-code-transfer",
+      "sourceType": "secondary",
+      "title": "Helis: Benazir Bhutto / Islamabad Chaklala airport history",
+      "url": "https://www.helis.com/database/gps/OPRN/",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Government reports operational readiness of the new greenfield airport and scheduled operation from May 3. This establishes a separate physical site and a planned flight-operating date, not an IATA transfer boundary or completed opening.",
+      "sourceId": "isb-operational-plan",
+      "sourceType": "primary",
+      "title": "Pakistan Press Information Department PR No.159, 2018-04-18",
+      "url": "https://pid.gov.pk/site/press_detail/8275",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Thailand tourism authority reports THAI operating at the new airport from 2018-05-03 and closure of the predecessor for international services. Secondary reporting of another operator, despite the government publisher. It does not state an ISB allocation day or closure of the military airfield.",
+      "sourceId": "isb-operations",
+      "sourceType": "secondary",
+      "title": "TAT Newsroom: THAI shifts to new Islamabad airport, 2018-05-04",
+      "url": "https://www.tatnews.org/2018/05/thai-shifts-to-serve-pakistans-newly-opened-islamabad-international-airport/",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Airport-authored announcement on its Routes profile, posted 2020-10-27, describes replacement of SXF by BER for the October 25 winter schedule, with existing Schonefeld facilities continuing as T5. It is first-party code-change evidence hosted on a third-party platform. No midnight instant is asserted; day precision is retained.",
+      "sourceId": "ber-code-change",
+      "sourceType": "primary",
+      "title": "Berlin Brandenburg Airport: SXF becomes BER / Schonefeld is now Terminal 5",
+      "url": "https://www.routesonline.com/airports/2515/berlin-brandenburg-airport/news/294598/sxf-becomes-ber-schonefeld-airport-is-now-ber-terminal-5/",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Page 1 describes BER as an extension of the current SXF airside infrastructure and explicitly says SXF is renamed BER on 2020-10-25, before the October 31 opening. The document is dated April 30 on page 5, not May 6 from its filename. It observes existing SXF by April 30, giving latest-start bound 2020-05-01. The PDF is not redistributed.",
+      "sourceId": "ber-coordination",
+      "sourceType": "primary",
+      "title": "Fluko: Berlin W20/S21 airport slot coordination, dated 2020-04-30",
+      "url": "https://fluko.org/wp-content/uploads/2020/05/BER-Information-on-Airport-Slot-Coordination-W20-S21-20200506.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Dated 2020-04-06. Explicitly distinguishes the IATA decision of April 6 from application of TSE to NQZ on 2020-06-08. Existing TSE observation bounds the unknown original start by 2020-04-07. Code change at the same airport, not a physical relocation or the airport/city renaming date; no midnight instant proved.",
+      "sourceId": "nqz-code-change",
+      "sourceType": "primary",
+      "title": "Aviation Administration of Kazakhstan: airport TSE to NQZ code decision",
+      "url": "https://caa.gov.kz/ru/blog/post/kod-aeroporta-g-nur-sultan-izmenen",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Dated 2020-06-07, reiterates application of NQZ from June 8 to reservation systems, boarding passes, baggage tags and displays. Corroborates the effective date independently of the 2019 policy decision; current OurAirports NQZ observation supports inferred continuation.",
+      "sourceId": "nqz-implementation",
+      "sourceType": "primary",
+      "title": "Aviation Administration of Kazakhstan: NQZ on the flight map",
+      "url": "https://caa.gov.kz/ru/blog/post/nqz-novoe-imya-na-karte-poletov",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Reports the minister announcing IATA code KIV replacement by RMO effective 2024-01-18 at the same airport. Existing KIV observation bounds its unknown first allocation by 2023-12-20. Government-owned reporting is secondary for the allocation claim; it is not the original IATA notice.",
+      "sourceId": "rmo-announcement",
+      "sourceType": "secondary",
+      "title": "Radio Moldova: KIV retires, Chisinau embraces RMO, 2023-12-19",
+      "url": "https://radiomoldova.md/p/27139/",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Contemporaneous 2024-01-18 report says the airport now uses RMO rather than KIV and old-code tickets remain usable. Corroborates actual implementation and predecessor code retirement at this site. No exact change time, global KIV reuse survey or complete allocation ledger is established.",
+      "sourceId": "rmo-implementation",
+      "sourceType": "secondary",
+      "title": "Radio Moldova: KIV replaced by RMO from 2024-01-18",
+      "url": "https://www.radiomoldova.md/p/28718/attention-travelers-abbreviation-kiv-is-replaced-by-rmo-on-flight-charts-starting-today",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Original official newspaper reproduction, second resolution on page 1. Adopted 2017-06-20; renames the airport itself from Международный аэропорт Астана to Международный аэропорт Нурсултан Назарбаев. Clause 2 makes first official publication the effective day. This original text avoids conflating the later 2020 corporate-name amendment with a second airport rename. No exact local-midnight instant is stated.",
+      "sourceId": "astana-name-original-2017",
+      "sourceType": "primary",
+      "title": "Kazakhstan Government Resolution No. 381: original airport renaming text (2017)",
+      "url": "https://kazpravda.kz/uploads/redactors/files/5949db169808b1498012438.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Official metadata lists first newspaper publication on 2017-06-21: Kazakhstanskaya Pravda No. 117 (28496) and Egemen Qazaqstan No. 117 (29098). Combined with original clause 2, this establishes June 21 as the effective day, not the June 20 adoption date. The July 20 printing of the collected acts is later, not first publication. The consolidated text was amended on 2020-07-10 for the joint-stock company; not evidence of a new airport name.",
+      "sourceId": "astana-name-publication",
+      "sourceType": "primary",
+      "title": "Adilet official publication metadata for Resolution No. 381",
+      "url": "https://old.adilet.zan.kz/rus/docs/P1700000381/info",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Dated 2006-11-20, the airport development plan repeatedly identifies Международный аэропорт Астана and its existing airfield infrastructure. This is an earlier name observation, not an original naming decision. The latest-start bound is the following civil day; no founding, city-renaming or corporate incorporation date is substituted for the unknown airport-name start.",
+      "sourceId": "astana-name-observation-2006",
+      "sourceType": "primary",
+      "title": "Kazakhstan Government Resolution No. 1095: Astana airport development plan",
+      "url": "https://old.adilet.zan.kz/rus/docs/P060001095_",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-27",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "note": "OurAirports releases its data to the public domain. Only the six identified reference rows are used; no member comments are copied.",
+        "url": "https://ourairports.com/data/"
+      },
+      "note": "Same pinned revision as the existing OurAirports sources. Rows 6518 (old Rostov-on-Don), 326363 (Platov), 27227 (Yantai Laishan), 332096 (Yantai Penglai), 26475 (Phnom Penh/Pochentong) and 342098 (Techo) were read from the repository-held parsed inventory of this exact revision (research/discovery/generated/ourairports.entities.jsonl.gz, presentAtTarget), not re-downloaded. Names and coordinates are reference attributes. Current ROV/URRP, YNT/ZSYT, KTI/VDTI codes corroborate continuity only to the fixed 2026-10-25 horizon; old-site rows carry no current IATA code, which does not end or erase their identities or prove withdrawal.",
+      "sourceId": "ourairports-pr8-20261025",
+      "sourceType": "secondary",
+      "title": "OurAirports fixed snapshot: six PR #8 physical-site reference rows",
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/d97df1673cc5ba61a09b17ab5936091a669a04ca/airports.csv",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-27",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Airline statement of 2016-03-19 describes FZ 981 bound for \"Rostov on Don (ROV)\", which crashed on landing at the old Rostov-on-Don airport. A dated ROV observation for the old site; bounds its unknown first allocation by 2016-03-20. Not an allocation record.",
+      "sourceId": "rov-flydubai-2016",
+      "sourceType": "primary",
+      "title": "flydubai statements relating to FZ 981",
+      "url": "https://news.flydubai.com/flydubai-statements-relating-to-fz-981",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-27",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Third-party republication of an Aeroflot agency notice dated 2017-11-27: from 27.11.2017 Platov is assigned ROV, previously belonging to old Rostov-on-Don, and old Rostov-on-Don is assigned temporary RVI; SU flights still operate to RVI until a later transfer date. It cites an attached IATA notice that is not reproduced and was not retrieved. Day-level code-change evidence; no time of day, no RVI end.",
+      "sourceId": "rov-aeroflot-2017",
+      "sourceType": "primary",
+      "title": "Aeroflot agency notice: new Rostov-on-Don airport from 2017-11-27 (republished)",
+      "url": "https://aviakassir.info/news/airlines/2963-su-aeroflot-otkrytie-novogo-mezhdunarodnogo-aeroporta-v-g-rostov-na-donu-s-27-11-2017.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-27",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Opens international airport Rostov-on-Don (Platov) and closes the separate civil aerodrome Rostov-on-Don; effective 2017-11-27 except closure and federal-list removal, effective 2018-03-01. Establishes the two physical airports and legal civil closure; contains no IATA or ICAO code and is not a code-withdrawal record. Read through a text reader (https endpoint unreachable from the workspace).",
+      "sourceId": "rov-gov-order-2434r",
+      "sourceType": "primary",
+      "title": "Government of the Russian Federation order No. 2434-r of 2017-11-04",
+      "url": "http://static.government.ru/media/files/AGCgTsVRezAjhuNIkq7gYA7VIWOLGnWM.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-27",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Report of 2014-11-10 quoting IATA Beijing staff: Yantai applied in September 2014 for the new Penglai airport to use YNT, the code currently used by Laishan, and was approved; IATA planned to prompt the coordinate change from December 11. Airlines had not yet been notified. Approval and plan are not an implementation record; the planned opening slipped to 2015.",
+      "sourceId": "ynt-dzwww-2014",
+      "sourceType": "secondary",
+      "title": "Dazhong Yantai: new Penglai airport retains YNT",
+      "url": "https://yantai.dzwww.com/xinwen/ytxw/ytsh/201411/t20141110_11338121.htm",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-27",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Airline notice dated 2015-05-13: Penglai to enter use at 2015-05-28 00:00 with old Laishan fully closed; all Spring Yantai flights move; 57 km between airports. Operational transfer evidence only; it states no code.",
+      "sourceId": "ynt-spring-2015",
+      "sourceType": "primary",
+      "title": "Spring Airlines notice on the opening of Yantai Penglai International Airport",
+      "url": "https://www.ch.com/news/33497b984fc54d96927e965b33fa9a1e.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-27",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Third-party copy of the CAAC AIP aerodrome section headed ZSYT/YNT YANTAI/Penglai, effective 2025-10-01. Current-state corroboration of YNT at Penglai; dates neither the YNT nor the ZSYT changeover.",
+      "sourceId": "ynt-aip-zsyt-2025",
+      "sourceType": "primary",
+      "title": "AIP China aerodrome section ZSYT/YNT YANTAI/Penglai (EFF2510011600), third-party mirror",
+      "url": "https://yinlei.org/x-plane10/doc/ZSYT.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-27",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Korean government aviation portal sheet for Pochentong Airport, codes PNH / VDPP, reference date 2008-12-31. Compiled observation; bounds the unknown first PNH allocation by 2009-01-01. Not an allocation record.",
+      "sourceId": "pnh-airportal-2008",
+      "sourceType": "secondary",
+      "title": "Korea Airportal: Pochentong Airport (PNH/VDPP) information sheet",
+      "url": "https://www.airportal.go.kr/file/htmlOpen/upload/airport/PNH.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-27",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "ICAO regional table dated 25/4/2014 lists PHNOM PENH with location indicator VDPP. Bounds the unknown first VDPP allocation by 2014-04-26. Read through a text reader (workspace download returned HTTP 403).",
+      "sourceId": "vdpp-icao-fasid-2014",
+      "sourceType": "primary",
+      "title": "ICAO ASIA/PAC FASID Table MET 1A (25/4/2014)",
+      "url": "https://www.icao.int/sites/default/files/APAC/Documents/edocs/FASID/tmet1a.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-27",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Airline circular issued 2025-08-26 identifies old PNH and new KTI and moves own services from 2025-09-09. Inspected in the global-1 review (content_inspected on 2026-10-27); a fresh workspace download on 2026-10-27 hit an HTTP/2 error. Not a PNH withdrawal record.",
+      "sourceId": "pnh-sia-2025",
+      "sourceType": "primary",
+      "title": "Singapore Airlines circular: relocation of PNH to KTI airport",
+      "url": "https://agent360.singaporeair.com/content/dam/agent360/web-assets/pdf/local/hk/HKGSQ_Relocation_of_PNH_to_KTI_Airport_SN125.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-27",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Airline release of 2025-08-19: under a Cambodian civil aviation directive, operations move from Phnom Penh International (PNH) to Techo International (KTI) at 00:01 on 2025-09-09. Carrier implementation evidence, not IATA allocation.",
+      "sourceId": "kti-vna-2025",
+      "sourceType": "primary",
+      "title": "Vietnam Airlines: relocation of operations to Techo International Airport (KTI)",
+      "url": "https://www.vietnamairlines.com/us/en/vietnam-airlines/press-room/press-release/2025/0819-VNA-chuyen-doi-san-bay-khai-thac-Campuchia",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-27",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Trade report published 2025-07-22: airlines filing schedules under IATA code KTI for the new Phnom Penh airport for travel from 09SEP25, replacing PNH. Shows KTI was usable in reservation systems before opening; it is not evidence of KTI flights operated at Techo before 2025-09-09 and does not set the assignment's latest start.",
+      "sourceId": "kti-aeroroutes-2025",
+      "sourceType": "secondary",
+      "title": "AeroRoutes: Phnom Penh Krong Ta Khmau (KTI) schedule filings",
+      "url": "https://www.aeroroutes.com/eng/250721-ktisep25",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-27",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Cambodia states VDTI was received from ICAO and published in the Cambodia AIP; Techo operates from 0000 UTC 2025-09-04 and Phnom Penh VDPP officially closes at 1700 UTC 2025-09-08. No IATA content. Read through a text reader (workspace download returned HTTP 403).",
+      "sourceId": "vdti-icao-wp25",
+      "sourceType": "primary",
+      "title": "ICAO APAC MET SG/29 WP/25 presented by Cambodia",
+      "url": "https://www.icao.int/sites/default/files/APAC/Meetings/2025/2025%20MET%20SG29/3-Working%20Papers/WP25-AI.5-KHM-VDTI-ROBEX-INTEGRATION-Rev.1.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-27",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained; only a link and independently written factual annotations are included, not source prose, images or tables.",
+        "url": null
+      },
+      "note": "Third-party copy of Cambodia Air Traffic Services AIP pages dated 04 SEP 25, titled VDTI - TECHO INTERNATIONAL AIRPORT. Corroborates the 2025-09-04 AIP effective state. No IATA code.",
+      "sourceId": "vdti-aip-amdt-0925",
+      "sourceType": "primary",
+      "title": "Cambodia AIP AD 2 VDTI, AIRAC AMDT 09/25 (copy hosted by OPSGROUP)",
+      "url": "https://ops.group/blog/wp-content/uploads/2025/08/VDTI-AIP.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "note": "OurAirports declares its data public domain. Only the identified factual reference attributes are extracted.",
+        "url": "https://ourairports.com/data/"
+      },
+      "note": "Rows 3125 (Yoff), 325736 (Diass), 26763 (Sungai Siring) supply reference labels, positions and external IDs; DSS and AAP corroborate continuing code use. Row 26763 was repurposed from Temindung: it identifies only the new site here. DKR remains in the snapshot despite the 2017 withdrawal notice; this is a conflict to investigate, not proof of uninterrupted DKR continuation or reinstatement.",
+      "sourceId": "ourairports-pr9-20261025",
+      "sourceType": "secondary",
+      "title": "OurAirports fixed snapshot: three PR #9 physical-site reference rows",
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/d97df1673cc5ba61a09b17ab5936091a669a04ca/airports.csv",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "MIT",
+        "note": "Copyright (c) 2014 mwgg. MIT notice retained in research/discovery/licenses/mwgg-MIT.txt and THIRD_PARTY_NOTICES.md; this extract is not relicensed as CC0.",
+        "url": "https://github.com/mwgg/Airports/blob/6dbaa83ab5efd193aa6d70f4f5bb1eb93ee821f8/LICENSE"
+      },
+      "note": "WALS row names Temindung at -0.4845309854, 117.1569976807, geographically distinct from Sungai Siring. This stale pre-correction row supplies reference attributes only. Its SRI/WALS fields and commit date are not historical code-effective boundaries. No OurAirports ID is attached to the old site.",
+      "sourceId": "mwgg-temindung-reference",
+      "sourceType": "secondary",
+      "title": "mwgg fixed pre-correction WALS record: Temindung reference position",
+      "url": "https://raw.githubusercontent.com/mwgg/Airports/6dbaa83ab5efd193aa6d70f4f5bb1eb93ee821f8/airports.json",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "note": "IANA tzdb is public domain except identified third-party material; only zone identifiers are used.",
+        "url": "https://data.iana.org/time-zones/tzdb-2025b/LICENSE"
+      },
+      "note": "The SN and ID entries in zone.tab support geographical mappings Africa/Dakar and Asia/Makassar. Reference geographical mappings only, not historical fixed UTC offsets.",
+      "sourceId": "tzdb-pr9-2025b",
+      "sourceType": "primary",
+      "title": "IANA tzdb 2025b geographical zone mappings for Dakar and Samarinda",
+      "url": "https://data.iana.org/time-zones/tzdb-2025b/zone.tab",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed.",
+        "url": null
+      },
+      "note": "IRBA appendix Table 2 records actual 2013-03-29 arrival and departure at Leopold-Sedar-Senghor, explicitly DKR / GOOY. Dated actual-flight code observation, not original allocation. Latest-start bound is 2013-03-30.",
+      "sourceId": "dakar-bea-2013",
+      "sourceType": "primary",
+      "title": "BEA SX-BHS investigation: actual Dakar flight on 2013-03-29, appendix IRBA",
+      "url": "https://bea.aero/fileadmin/documents/docspa/2013/sx-s130329/pdf/sx-s130329_06.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed.",
+        "url": null
+      },
+      "note": "IATA Coding Administration explicitly confirms DSS already assigned to Blaise Diagne on 2017-11-21, before opening. Announces DKR airport-code withdrawal and city listing changes for 2017-12-07. DSS is not a transfer of DKR. Original DSS allocation date unknown. Prospective DKR withdrawal conflicts with later directories; no latest end is certified. City codes are outside this schema. This is an allocation confirmation, not future-flight booking evidence.",
+      "sourceId": "dakar-iata-2017",
+      "sourceType": "primary",
+      "title": "IATA Special Industry Notification, 2017-11-21: DKR city and airport changes (Sabre-hosted copy)",
+      "url": "https://www.hanjinsabre.com/CommonFiles/BoardUpLoadFiles/AirLineNews/58199/SpecialNotif_NOV_21_DKR%20%28002%29.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed.",
+        "url": null
+      },
+      "note": "Reused global-1 dakar-saa evidence: old DKR and new DSS are separate sites; SAA announces its first new-airport arrival for 2017-12-08. Original access and limitations remain in global-1. SAA schedule publication and first scheduled arrival do not date DSS allocation or prove DKR withdrawal.",
+      "sourceId": "dakar-saa-2017",
+      "sourceType": "primary",
+      "title": "SAA release reproduced by AVIATOR, 2017-12-07",
+      "url": "https://aviator.aero/press/south-african-airways-advises-of-dakar-airport-change",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed.",
+        "url": null
+      },
+      "note": "Title and charts explicitly identify Blaise Diagne Diass as GOBD; page 1 makes charts effective 2017-12-07 0000 UTC. Third-party reproduction inspected, not the retired origin PDF. 2017-10-12 publication is not code start. Original indicator issue unknown; effective AIP state bounds latest start, not exact allocation.",
+      "sourceId": "gobd-aip-sup-2017",
+      "sourceType": "primary",
+      "title": "ASECNA AIRAC AIP SUP 100/A/17GO: GOBD charts effective 2017-12-07 (Scribd copy)",
+      "url": "https://fr.scribd.com/document/691144013/AIRAC-AIP-SUP-N-100-A-17GO-12-OCTOBER-2017",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed.",
+        "url": null
+      },
+      "note": "Current AIP AD 2.1 explicitly identifies GOOY at Yoff, with military administration and prior-permission operations. Confirms continued ICAO identity; passenger relocation did not withdraw GOOY. No IATA field.",
+      "sourceId": "gooy-aip-2026",
+      "sourceType": "primary",
+      "title": "ASECNA eAIP Senegal AD 2 GOOY: Dakar / Leopold Sedar Senghor",
+      "url": "https://aim.asecna.aero/html/eAIP/FR-_13AD-2.GOOY-fr-FR.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed.",
+        "url": null
+      },
+      "note": "Current AIP AD 2.1 explicitly identifies GOBD at Diass, separately from GOOY. Corroborates continuing ICAO use. No IATA allocation date.",
+      "sourceId": "gobd-aip-2026",
+      "sourceType": "primary",
+      "title": "ASECNA eAIP Senegal AD 2 GOBD: Blaise Diagne Dakar Diass",
+      "url": "https://aim.asecna.aero/html/eAIP/FR-_13AD-2.GOBD-fr-FR.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed.",
+        "url": null
+      },
+      "note": "Authority identifies AAP / WALS and Aji Pangeran Tumenggung Pranoto at Sungai Siring; links to the airport operator. Current observation only. Residual Temindung contact address does not merge the physical sites or date WALS reuse.",
+      "sourceId": "aap-dgca-2026",
+      "sourceType": "primary",
+      "title": "DGCA Indonesia: Aji Pangeran Tumenggung Pranoto airport profile",
+      "url": "https://hubud.dephub.go.id/bandara/45",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed.",
+        "url": null
+      },
+      "note": "Operator, linked by DGCA, states Pranoto replaced Temindung: old closure 2018-05-23, new operation 2018-05-24; October inauguration is separate. Retrospective physical history; these dates do not allocate AAP, withdraw SRI or transfer WALS.",
+      "sourceId": "aap-operator-history",
+      "sourceType": "primary",
+      "title": "APT Pranoto operator: physical replacement history",
+      "url": "https://www.aptpairport.id/profile",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed.",
+        "url": null
+      },
+      "note": "Dated 2019-08-20 report identifies Samarinda (AAP), Pranoto and actual flight disruptions, including GA580, JT666 and ID6671. Contemporaneous operational code observation quoting airport operations staff. Not booking availability or original allocation. Latest start 2019-08-21; earlier operation/name dates do not prove code use.",
+      "sourceId": "aap-weather-2019",
+      "sourceType": "secondary",
+      "title": "Merdeka: actual AAP diversions and delays on 2019-08-20",
+      "url": "https://www.merdeka.com/peristiwa/empat-penerbangan-ke-samarinda-dialihkan-ke-balikpapan-akibat-cuaca-buruk.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "Publisher rights retained. Only links and original factual annotations are distributed; no source article, PDF, image or table is redistributed.",
+        "url": null
+      },
+      "note": "Linked original four-page decree: operative First clause names the new Samarinda airport Aji Pangeran Tumenggung Pranoto; Third clause effective on determination, 2017-07-27. Original PDF inspected via the authority link. Page publication 2017-09-20 and six-month administrative implementation deadline are not name boundaries. No time of day, so July 27 remains uncertain. No IATA/ICAO allocation content.",
+      "sourceId": "aap-name-kp676-2017",
+      "sourceType": "primary",
+      "title": "Indonesia Transport Minister Decision KP 676/2017: Pranoto official airport name",
+      "url": "https://hubud.kemenhub.go.id/regulasi/cari/2389",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed.",
+        "url": null
+      },
+      "note": "Pakistan CAA occurrence notification held by BEA. Local date 2016-08-08, last departure OPRN (ISB), Islamabad/Chaklala; departure and runway-30 return identify the old site. Observes actual use, not original allocation. Later BEA pages with stale OPRN/ISB labels are not used to extend this interval.",
+      "sourceId": "oprn-bea-2016",
+      "sourceType": "primary",
+      "title": "BEA2016-0485: AP-BLA departure and return at Islamabad, 2016-08-08",
+      "url": "https://bea.aero/en/investigation-reports/notified-events/detail/serious-incident-to-the-airbus-a320-200-registered-ap-bla-operated-by-pakistan-international-airlines-on-08-08-2016-at-islamabad-investigation-led-by-caa---pakistan/",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed.",
+        "url": null
+      },
+      "note": "Original CAA AIP content inspected in a publicly readable third-party reproduction, not an origin-hosted authenticated copy. AD 2.1 explicitly identifies OPRN; AD 2.2 places it at 333700.36N 0730555.46E on runway 30/12, under joint PAF/CAA administration. This is the old Chaklala site after the civil move, not OPIS. Page date 2021-03-25 is the last admitted observation, not withdrawal. No extension from the fixed directory GPS-only field. Reproduction includes other chart vintages; only this dated AIP page supports the endpoint.",
+      "sourceId": "oprn-aip-2021",
+      "sourceType": "primary",
+      "title": "Pakistan AIP AD 2 OPRN-1, AIRAC AMDT 01/21, 25 MAR 2021 (reproduction)",
+      "url": "https://www.scribd.com/document/896418285/RNLNSW4",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed.",
+        "url": null
+      },
+      "note": "Original CAA supplement S-12 to S-14/17 PDF inspected in a third-party attachment. S-12/17 page 1 makes the AIP data effective 2017-06-22 0001 UTC, while paragraph 7 reserves commissioning for a later NOTAM. Appendix A-1 AD 2.1 identifies OPIS and AD 2.2 gives 333256.70N 0724932.34E, the separate new Islamabad site. Supports published administrative designation by that effective date, not flights, first allocation, or the 2018 passenger move. Pakistan is UTC+5: latest-start bound is the next whole local date, June 23. Origin-hosted historical PDF was not retrieved.",
+      "sourceId": "opis-aip-2017",
+      "sourceType": "primary",
+      "title": "Pakistan AIRAC AIP SUP S-12/17, published 27 APR 2017, effective 22 JUN 2017 (reproduction)",
+      "url": "https://gateway.x-plane.com/bug_reports/attachments/20946",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed.",
+        "url": null
+      },
+      "note": "Official amendment cover, effective 2026-06-11, explicitly updates aerodrome data for Islamabad International Airport (OPIS). Corroborates continued designation of the new airport; the 2017 supplement supplies its physical coordinates. Does not date first allocation. Continuation to the unchanged 2026-10-25 exclusive horizon is inferred with the existing fixed directory snapshot.",
+      "sourceId": "opis-aip-2026",
+      "sourceType": "primary",
+      "title": "Pakistan Airports Authority eAIP amendment 02/26, effective 11 JUN 2026",
+      "url": "https://paawebadmin.paa.gov.pk/media/eaip/02-26/eAIP/main.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed.",
+        "url": null
+      },
+      "note": "BEA closed investigation: actual Air France Istanbul-to-Paris flight, occurrence local date 2011-10-15 in France, last departure LTBA (IST), Istanbul/Ataturk. Original allocation unknown. Departure time is absent and Istanbul was one hour ahead of France; use 2011-10-17 as a conservative whole-local-date latest-start bound, rather than asserting the departure local day or allocation day.",
+      "sourceId": "ltba-bea-2011",
+      "sourceType": "primary",
+      "title": "BEA f-xi111015: F-GKXI flight from Istanbul Ataturk, 2011-10-15",
+      "url": "https://bea.aero/en/investigation-reports/notified-events/detail/mouvements-daileron-de-profondeur-droit-non-commandes-en-tangage-en-croisiere/",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed.",
+        "url": null
+      },
+      "note": "AD 2.1 explicitly identifies LTBA as Istanbul/Ataturk; AD 2.2 places the reference point at 405834N 0284851E on TWY D. Page 1 date is 2026-03-19; a stray 2016 amendment label in the PDF wrapper is not the date of this entry. Confirms retention at the old site after the IST passenger-code exchange. Neither civilian passenger relocation nor a runway/operating change withdraws the indicator.",
+      "sourceId": "ltba-aip-2026",
+      "sourceType": "primary",
+      "title": "DHMI AIP Turkiye AD 2 LTBA-1, 19 MAR 2026",
+      "url": "https://www.dhmi.gov.tr/AIPDocuments/LT_AD_2_LTBA_en.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed.",
+        "url": null
+      },
+      "note": "Original DHMI supplement inspected in a publicly readable third-party reproduction; origin PDF was not retrieved. Cover explicitly designates Istanbul New Airport (LTFM), effective 2018-10-11, and amends its AD 2 procedures while separately retaining LTBA procedures. Paragraphs 2-3 defer use of procedures to airport service and a later commissioning NOTAM. This is administrative AIP designation, not observed flights, an allocation ledger, or a claim of airport service on October 11. With no effective instant proved, latest start is conservatively October 12. Current official AD 2 coordinates and the later actual flight independently identify the new physical site.",
+      "sourceId": "ltfm-aip-sup-2018",
+      "sourceType": "primary",
+      "title": "DHMI AIRAC AIP SUP 04/18, published 11 SEP 2018, effective 11 OCT 2018 (reproduction)",
+      "url": "https://www.scribd.com/document/421103799/LT-Sup-2018-04-en",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed.",
+        "url": null
+      },
+      "note": "Occurrence notification held by BEA explicitly lists last departure Turkey (LTFM (IST): Istanbul/Havalimani) for the actual 2019-12-31 Port Harcourt landing excursion. This is an operational observation distinct from the preparatory 2018 AIP and the 2019 IATA exchange. The page heading says BFU/Germany, but its responsible-entity and summary fields say Nigeria/AIB; do not treat the heading as investigative provenance or infer a precise Turkish departure day.",
+      "sourceId": "ltfm-bea-2019",
+      "sourceType": "primary",
+      "title": "BEA2020-0011: TC-LOL actual flight from Istanbul to Port Harcourt, 2019-12-31",
+      "url": "https://bea.aero/en/investigation-reports/notified-events/detail/serious-incident-to-the-airbus-a330-registered-tc-lol-operated-by-turkish-airlines-on-31-12-2019-at-port-harcourt-nigeria-investigation-led-by-bfu---germany/",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed.",
+        "url": null
+      },
+      "note": "AD 2.1 explicitly identifies LTFM as Istanbul Airport; AD 2.2 gives 411631N 0284507E, west of RWY 18/36, at Arnavutkoy. Distinct from LTBA at Ataturk. This 2026-03-19 page corroborates continued assignment, not original allocation or an ICAO transfer from Ataturk.",
+      "sourceId": "ltfm-aip-2026",
+      "sourceType": "primary",
+      "title": "DHMI AIP Turkiye AD 2 LTFM-1, 19 MAR 2026",
+      "url": "https://www.dhmi.gov.tr/AIPDocuments/LT_AD_2_LTFM_en.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed.",
+        "url": null
+      },
+      "note": "German BFU occurrence notification held by BEA: local date 2016-07-08, actual Condor flight, last departure EDDB (SXF): Berlin-Schonefeld. France and Berlin share the local civil date offset. Supports latest start 2016-07-09, not first allocation. The existing Fluko infrastructure-extension evidence links this site to the curated Brandenburg identity.",
+      "sourceId": "eddb-bea-2016",
+      "sourceType": "primary",
+      "title": "BEA2016-0398: D-AICF departure from Berlin Schonefeld, 2016-07-08",
+      "url": "https://bea.aero/en/investigation-reports/notified-events/detail/serious-incident-to-the-airbus-a320-registered-d-aicf-operated-by-condor-flugdienst-gmbh-on-08-07-16-en-route-investigation-led-by-bfu---germany/",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed.",
+        "url": null
+      },
+      "note": "Airport operator original manual, cover version 10.8 effective 2026-04-01. Section 1.1 on page 5 explicitly associates Berlin Brandenburg with AIP Germany AD 2 EDDB; section 2.1.4 also references its A-CDM procedure. Current retained indicator at the same expanded physical airport. The revision-history dates do not establish earlier indicator allocation. The DFS October 2026 entry was located, but its page image was not retrieved and is not formal evidence here.",
+      "sourceId": "eddb-manual-2026",
+      "sourceType": "primary",
+      "title": "Berlin Brandenburg Aerodrome Manual EDDB A.8, version 10.8, effective 01 APR 2026",
+      "url": "https://corporate.berlin-airport.de/content/dam/corporate/en/geschaeftspartner/ordnungen-antraege/flugplatzhandbuch/eddb-a8-en.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed.",
+        "url": null
+      },
+      "note": "Original authority case record, pages 1-2: reconstructed actual PR-OMX journey from authenticated logbooks, not a schedule. Table and narrative identify EPWA-UACC (Astana, Kazakhstan)-ZWWW on 2016-04-29. Publication/decision is in 2019, not the code observation date. No time standard is given for the journey table: allow an extra local-day rollover at historical Astana UTC+6 and use 2016-05-01 latest start. The later local-dated BEA landing and official AIP independently confirm UACC is the aerodrome indicator, not an ACC/FIR or GPS identifier.",
+      "sourceId": "uacc-anac-2016",
+      "sourceType": "primary",
+      "title": "ANAC Parecer 501/2019, process 00058.522585/2017-13: actual April 2016 flight legs",
+      "url": "https://www.anac.gov.br/acesso-a-informacao/junta-recursal/decisoes-monocraticas/2019/maio/00058-522585-2017-13/@@display-file/dlb_arquivo/SEI_00058.522585_2017_13.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed.",
+        "url": null
+      },
+      "note": "Kazakhstan authority occurrence notification held by BEA: local date 2018-05-22, location AD Astana, actual runway excursion during landing, destination UACC (TSE): Astana. Independent operational confirmation before the TSE/NQZ IATA change. Not a first-allocation record.",
+      "sourceId": "uacc-bea-2018",
+      "sourceType": "primary",
+      "title": "BEA2018-0361: P4-KBB landing at Astana, 2018-05-22",
+      "url": "https://bea.aero/en/investigation-reports/notified-events/detail/serious-incident-to-the-airbus-a320-registered-p4-kbb-and-operated-by-air-astana-on-22-05-2018-at-astana-investigation-led-by-aaid---kazakhstan/",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution license established. Publisher rights retained. Only a link and independently written factual annotations are included; source text, charts and tables are not redistributed.",
+        "url": null
+      },
+      "note": "Official effective edition 2026-10-01, not the future October 29 edition. AD 2.1 identifies UACC-Astana; AD 2.2 gives 510121N 0712758E, center of runway, and Nursultan Nazarbayev International Airport administration with NQZ SITA address. Same runway/site as the curated TSE/NQZ airport. Proves this edition state only, not original allocation. A guessed 2019 edition returned a soft 404 and is not used.",
+      "sourceId": "uacc-aip-2026",
+      "sourceType": "primary",
+      "title": "Kazaeronavigatsia eAIP AD 2 UACC, edition effective 01 OCT 2026",
+      "url": "https://www.ans.kz/AIP/eAIP/2026-10-01-AIRAC/html/eAIP/UA-AD-2.UACC-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "note": "Content checked by Codex against the hash-locked original; accepted claim scope authorized by keepraw on 2026-10-28. Supports: PFN and ISN airport identifier rows; section 1-4-1 contiguous-US international indicator rule. Limits: Directory date is an observation, not first allocation. PFN navaid/ILS rows are not airport evidence. See research/admissions/0.8.0/source-review.json. No claim that the user personally read this publication.",
+      "sourceId": "faa-2009",
+      "sourceType": "primary",
+      "title": "JO 7350.8G Location Identifiers",
+      "url": "https://www.faa.gov/documentLibrary/media/Order/Basic7350.8G.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "note": "Content checked by Codex against the hash-locked original; accepted claim scope authorized by keepraw on 2026-10-28. Supports: ECP and ISN airport identifier rows; section 1-4-1 contiguous-US international indicator rule. Limits: Same FAA register lineage as 2009. No daily-use proof, endpoint withdrawal, IATA assignment or KXWA allocation. See research/admissions/0.8.0/source-review.json. No claim that the user personally read this publication.",
+      "sourceId": "faa-2014",
+      "sourceType": "primary",
+      "title": "JO 7350.9 Location Identifiers",
+      "url": "https://www.faa.gov/documentLibrary/media/Order/LID_7-24-14.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "note": "Content checked by Codex against the hash-locked original; accepted claim scope authorized by keepraw on 2026-10-28. Supports: Named Panama City-Bay County airport reference position. Limits: Airspace/reference position only; no operational or ICAO allocation boundary. See research/admissions/0.8.0/source-review.json. No claim that the user personally read this publication.",
+      "sourceId": "airspace-2007",
+      "sourceType": "primary",
+      "title": "JO 7400.9R Airspace Designations and Reporting Points",
+      "url": "https://www.faa.gov/documentLibrary/media/Order/ND/7400.9R.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "note": "Content checked by Codex against the hash-locked original; accepted claim scope authorized by keepraw on 2026-10-28. Supports: Replacement Northwest Florida-Panama City airport reference position, linked to the Beaches display identity by the replacement-site materials. Limits: Edition is dated 2014-08-06, effective 2014-09-15, and compiles in-effect or pending airspace. No historical official-name interval or exact positional guarantee. See research/admissions/0.8.0/source-review.json. No claim that the user personally read this publication.",
+      "sourceId": "airspace-2014",
+      "sourceType": "primary",
+      "title": "JO 7400.9Y Airspace Designations and Reporting Points",
+      "url": "https://www.faa.gov/documentlibrary/media/order/jo_7400.9y.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "note": "Content checked by Codex against the hash-locked original; accepted claim scope authorized by keepraw on 2026-10-28. Supports: Printed numeric 2010-04-28 notice associates KPFN with the former airport and KECP with the replacement. Limits: Printed weekday conflicts with numeric issue date and is not silently corrected. TAF starts 2010-05-23 0000 UTC; projected May 22 closure/next-day transfer are not executed-operation or code-allocation proof. See research/admissions/0.8.0/source-review.json. No claim that the user personally read this publication.",
+      "sourceId": "nws-panama",
+      "sourceType": "primary",
+      "title": "NWS TIN 10-18 Panama City replacement",
+      "url": "https://www.weather.gov/media/notification/tins/tin10-18taf_kecp.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "note": "Content checked by Codex against the hash-locked original; accepted claim scope authorized by keepraw on 2026-10-28. Supports: Original FAA narrative links PFN and the ECP replacement site; supports the cross-publication physical identity binding. Limits: Published 2011-05-19; the retrospective May 2010 operation statement is context only. No opening/closing event date is admitted. See research/admissions/0.8.0/source-review.json. No claim that the user personally read this publication.",
+      "sourceId": "fr-2011-12359",
+      "sourceType": "primary",
+      "title": "FAA Federal Register 2011-12359: Panama City relocation record of decision",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2011-05-19/html/2011-12359.htm",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-28",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "note": "Content checked by Codex against the hash-locked original; accepted claim scope authorized by keepraw on 2026-10-28. Supports: Named Sloulin Field and Williston Basin reference coordinates, distinct sites, and an administrative coordinate revision. Limits: Published 2020-05-06; airspace action effective 2020-07-16 0901 UTC. Neither date is an airport closure/code withdrawal date; no KXWA interval supported. See research/admissions/0.8.0/source-review.json. No claim that the user personally read this publication.",
+      "sourceId": "fr-2020-09591",
+      "sourceType": "primary",
+      "title": "FAA Federal Register 2020-09591: Revocation and Amendment of Class E Airspace Williston",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2020-05-06/pdf/2020-09591.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source terms apply. Excluded from repository MIT license. No onward license to embedded maps or third-party charts granted.",
+        "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LEMI/LE_AD_2_LEMI_en.pdf"
+      },
+      "note": "Scoped content check and explicit owner claim authorization in research/admissions/0.9.0/source-review.json. Same-issuer editions are temporal observations, not independent publishing organizations; no first allocation or withdrawal proved.",
+      "sourceId": "es-murcia-aip",
+      "sourceType": "primary",
+      "title": "Spain AIP Murcia LEMI aerodrome data",
+      "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LEMI/LE_AD_2_LEMI_en.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Quotation-Only",
+        "note": "No full HTML/PDF or full text is committed. Original publisher rights remain; minimal attributed quotations/factual rows retained solely for critical verification. Fetch original separately to verify its original SHA-256. No charts, photographs, or commercial code ledger redistributed.",
+        "url": "https://aip.enaire.es/aip/contenido_AIP/AD/LE_AD_1_3_en.html"
+      },
+      "note": "Scoped content check and explicit owner claim authorization in research/admissions/0.9.0/source-review.json. Same-issuer editions are temporal observations, not independent publishing organizations; no first allocation or withdrawal proved.",
+      "sourceId": "es-murcia-index-current",
+      "sourceType": "primary",
+      "title": "Current AD 1.3 code and aerodrome index observed 29 October 2026",
+      "url": "https://aip.enaire.es/aip/contenido_AIP/AD/LE_AD_1_3_en.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source terms apply. Excluded from repository MIT license. No onward license to embedded maps or third-party charts granted.",
+        "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LELC/LE_AD_2_LELC_en.pdf"
+      },
+      "note": "Scoped content check and explicit owner claim authorization in research/admissions/0.9.0/source-review.json. Same-issuer editions are temporal observations, not independent publishing organizations; no first allocation or withdrawal proved.",
+      "sourceId": "es-sanjavier-aip",
+      "sourceType": "primary",
+      "title": "Spain AIP San Javier LELC aerodrome data",
+      "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LELC/LE_AD_2_LELC_en.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Scoped content check and explicit owner claim authorization in research/admissions/0.9.0/source-review.json. Same-issuer editions are temporal observations, not independent publishing organizations; no first allocation or withdrawal proved.",
+      "sourceId": "in-aip-09-07-2026-veki",
+      "sourceType": "primary",
+      "title": "AIP India 09-07-2026 AD2 VEKI",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEKI-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Scoped content check and explicit owner claim authorization in research/admissions/0.9.0/source-review.json. Same-issuer editions are temporal observations, not independent publishing organizations; no first allocation or withdrawal proved.",
+      "sourceId": "in-aip-09-07-2026-vepy",
+      "sourceType": "primary",
+      "title": "AIP India 09-07-2026 AD2 VEPY",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEPY-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Scoped content check and explicit owner claim authorization in research/admissions/0.9.0/source-review.json. Same-issuer editions are temporal observations, not independent publishing organizations; no first allocation or withdrawal proved.",
+      "sourceId": "in-aip-09-07-2026-vogb",
+      "sourceType": "primary",
+      "title": "AIP India 09-07-2026 AD2 VOGB",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOGB-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Scoped content check and explicit owner claim authorization in research/admissions/0.9.0/source-review.json. Same-issuer editions are temporal observations, not independent publishing organizations; no first allocation or withdrawal proved.",
+      "sourceId": "in-aip-09-07-2026-voku",
+      "sourceType": "primary",
+      "title": "AIP India 09-07-2026 AD2 VOKU",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOKU-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Scoped content check and explicit owner claim authorization in research/admissions/0.9.0/source-review.json. Same-issuer editions are temporal observations, not independent publishing organizations; no first allocation or withdrawal proved.",
+      "sourceId": "in-aip-09-07-2026-vosr",
+      "sourceType": "primary",
+      "title": "AIP India 09-07-2026 AD2 VOSR",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOSR-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Publisher rights retained; only factual references and necessary short citations. No full-original, chart, map or photo redistribution permission established.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Scoped content check and explicit owner claim authorization in research/admissions/0.9.0/source-review.json. Same-issuer editions are temporal observations, not independent publishing organizations; no first allocation or withdrawal proved.",
+      "sourceId": "in-aip-12-06-2025-veki",
+      "sourceType": "primary",
+      "title": "India AIP 2025-06-12 aerodrome data VEKI",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/12-06-2025/eAIP/IN-AD%202.1VEKI-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Publisher rights retained; only factual references and necessary short citations. No full-original, chart, map or photo redistribution permission established.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Scoped content check and explicit owner claim authorization in research/admissions/0.9.0/source-review.json. Same-issuer editions are temporal observations, not independent publishing organizations; no first allocation or withdrawal proved.",
+      "sourceId": "in-aip-12-06-2025-vepy",
+      "sourceType": "primary",
+      "title": "India AIP 2025-06-12 aerodrome data VEPY",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/12-06-2025/eAIP/IN-AD%202.1VEPY-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Publisher rights retained; only factual references and necessary short citations. No full-original, chart, map or photo redistribution permission established.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Scoped content check and explicit owner claim authorization in research/admissions/0.9.0/source-review.json. Same-issuer editions are temporal observations, not independent publishing organizations; no first allocation or withdrawal proved.",
+      "sourceId": "in-aip-12-06-2025-vogb",
+      "sourceType": "primary",
+      "title": "India AIP 2025-06-12 aerodrome data VOGB",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/12-06-2025/eAIP/IN-AD%202.1VOGB-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Publisher rights retained; only factual references and necessary short citations. No full-original, chart, map or photo redistribution permission established.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Scoped content check and explicit owner claim authorization in research/admissions/0.9.0/source-review.json. Same-issuer editions are temporal observations, not independent publishing organizations; no first allocation or withdrawal proved.",
+      "sourceId": "in-aip-12-06-2025-voku",
+      "sourceType": "primary",
+      "title": "India AIP 2025-06-12 aerodrome data VOKU",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/12-06-2025/eAIP/IN-AD%202.1VOKU-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Publisher rights retained; only factual references and necessary short citations. No full-original, chart, map or photo redistribution permission established.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Scoped content check and explicit owner claim authorization in research/admissions/0.9.0/source-review.json. Same-issuer editions are temporal observations, not independent publishing organizations; no first allocation or withdrawal proved.",
+      "sourceId": "in-aip-12-06-2025-vosr",
+      "sourceType": "primary",
+      "title": "India AIP 2025-06-12 aerodrome data VOSR",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/12-06-2025/eAIP/IN-AD%202.1VOSR-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Scoped content check and explicit owner claim authorization in research/admissions/0.9.0/source-review.json. Same-issuer editions are temporal observations, not independent publishing organizations; no first allocation or withdrawal proved.",
+      "sourceId": "in-aip-22-02-2024-veki",
+      "sourceType": "primary",
+      "title": "AIP India 22-02-2024 AD2 VEKI",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VEKI-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Scoped content check and explicit owner claim authorization in research/admissions/0.9.0/source-review.json. Same-issuer editions are temporal observations, not independent publishing organizations; no first allocation or withdrawal proved.",
+      "sourceId": "in-aip-22-02-2024-vepy",
+      "sourceType": "primary",
+      "title": "AIP India 22-02-2024 AD2 VEPY",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VEPY-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Scoped content check and explicit owner claim authorization in research/admissions/0.9.0/source-review.json. Same-issuer editions are temporal observations, not independent publishing organizations; no first allocation or withdrawal proved.",
+      "sourceId": "in-aip-22-02-2024-vogb",
+      "sourceType": "primary",
+      "title": "AIP India 22-02-2024 AD2 VOGB",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOGB-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution and applicable terms. Not licensed as MIT; no linked charts collected.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Scoped content check and explicit owner claim authorization in research/admissions/0.9.0/source-review.json. Same-issuer editions are temporal observations, not independent publishing organizations; no first allocation or withdrawal proved.",
+      "sourceId": "in-aip-22-02-2024-voku",
+      "sourceType": "primary",
+      "title": "AIP India 22-02-2024 AD2 VOKU",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOKU-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI original aeronautical text; source terms retained, attribution required. No permission to redistribute linked third-party charts is inferred.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Scoped content check and explicit owner claim authorization in research/admissions/0.9.0/source-review.json. Same-issuer editions are temporal observations, not independent publishing organizations; no first allocation or withdrawal proved.",
+      "sourceId": "in-aip-22-02-2024-vosr",
+      "sourceType": "primary",
+      "title": "AIP India 22-02-2024 AD2 VOSR",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOSR-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or full extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Same AAI issuer; dated editions are temporal observations. Original hashes and citations in policy lock.",
+      "sourceId": "policy-aip-2026-04-16-vedg",
+      "sourceType": "primary",
+      "title": "India AIP 2026-04-16 AD2 VEDG",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/16-04-2026/eAIP/IN-AD%202.1VEDG-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or full extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Same AAI issuer; dated editions are temporal observations. Original hashes and citations in policy lock.",
+      "sourceId": "policy-aip-2026-07-09-vedg",
+      "sourceType": "primary",
+      "title": "India AIP 2026-07-09 AD2 VEDG",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEDG-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or full extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Same AAI issuer; dated editions are temporal observations. Original hashes and citations in policy lock.",
+      "sourceId": "policy-aip-2026-04-16-voga",
+      "sourceType": "primary",
+      "title": "India AIP 2026-04-16 AD2 VOGA",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/16-04-2026/eAIP/IN-AD%202.1VOGA-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-29",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or full extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Same AAI issuer; dated editions are temporal observations. Original hashes and citations in policy lock.",
+      "sourceId": "policy-aip-2026-07-09-voga",
+      "sourceType": "primary",
+      "title": "India AIP 2026-07-09 AD2 VOGA",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOGA-en-GB.html",
+      "verificationStatus": "verified"
+    }
+  ]
+}

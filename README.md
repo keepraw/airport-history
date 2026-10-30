@@ -456,6 +456,16 @@ now admits only the seven records documented in the [0.8.0 admission](research/a
 KXWA, KSGU, KDXZ and Cleveland intervals remain unadmitted; the original pending
 dataset, dossiers, evidence and blocked drafts are preserved.
 
+## Versioned evidence policy review
+
+The [offline policy workflow](research/policy/README.md) evaluates existing
+research candidates against hard evidence predicates, prepares fixed medium-risk
+batches and measures the actual resolver effect. Its initial AAI ICAO policy is
+**draft**: no new policy or batch authorization exists and formal 0.9.0 is unchanged.
+Policy execution records an engine audit with no human reviewer; exact owner
+authorization is validated separately through the existing admission gate.
+Run `pnpm policy:validate` or read the [Chinese dry-run report](research/policy/generated/审核报告.zh-CN.md).
+
 ## License
 
 Code and documentation: [MIT](LICENSE). Original dataset arrangement, IDs and
