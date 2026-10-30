@@ -1,0 +1,221 @@
+{
+  "citations": [
+    {
+      "characterEnd": 2208,
+      "characterStart": 2168,
+      "citationId": "issue-date-semantics",
+      "page": null,
+      "quote": "항공고시보 검색(전체) 메뉴에서는 항공고시보 발행일 기준으로 검색됩니다.",
+      "representation": "normalized_text",
+      "sourceId": "notam-ui"
+    },
+    {
+      "characterEnd": 3866,
+      "characterStart": 3636,
+      "citationId": "ordinary-publication-date",
+      "page": null,
+      "quote": "regular AIP Amendment (AIP AMDT), issued in accordance with the established regular interval (ref. GEN 0.1) and identified by a light blue cover sheet, incorporates permanent changes into the AIP on the indicated publication date;",
+      "representation": "normalized_text",
+      "sourceId": "kr-gen31"
+    },
+    {
+      "characterEnd": 9615,
+      "characterStart": 9558,
+      "citationId": "monthly-official-checklists",
+      "page": null,
+      "quote": "A checklist of valid NOTAM is issued monthly via the AFS.",
+      "representation": "normalized_text",
+      "sourceId": "kr-gen31"
+    },
+    {
+      "characterEnd": 7686,
+      "characterStart": 7557,
+      "citationId": "series-a-scope",
+      "page": null,
+      "quote": "Series A. NOTAM contains information concerned with international airports including air navigation and communication facilities.",
+      "representation": "normalized_text",
+      "sourceId": "kr-gen31"
+    },
+    {
+      "characterEnd": 5653,
+      "characterStart": 5607,
+      "citationId": "iiac-t1-location",
+      "page": null,
+      "quote": "272 Gonghang-ro, Yeongjong-gu, Incheon (23358)",
+      "representation": "normalized_text",
+      "sourceId": "iiac-location"
+    },
+    {
+      "characterEnd": 5748,
+      "characterStart": 5696,
+      "citationId": "iiac-t2-location",
+      "page": null,
+      "quote": "446 Je2terminal-daero, Yeongjong-gu, Incheon (23358)",
+      "representation": "normalized_text",
+      "sourceId": "iiac-location"
+    },
+    {
+      "characterEnd": 1841,
+      "characterStart": 1806,
+      "citationId": "kac-gimpo-location",
+      "page": null,
+      "quote": "김포공항은 서울시 강서구 하늘길 112(공항동)에 위치해 있다.",
+      "representation": "normalized_text",
+      "sourceId": "kac-gimpo-location"
+    },
+    {
+      "characterEnd": 5477,
+      "characterStart": 5450,
+      "citationId": "iata-city-not-airport",
+      "page": null,
+      "quote": "Seoul Metropolitan Area SEL",
+      "representation": "normalized_text",
+      "sourceId": "iata-seoul-current"
+    },
+    {
+      "characterEnd": 985867,
+      "characterStart": 985775,
+      "citationId": "noaa-rkss",
+      "page": null,
+      "quote": "\"471100\",\"99999\",\"GIMPO\",\"KS\",\"\",\"RKSS\",\"+37.558\",\"+126.791\",\"+0017.7\",\"19450930\",\"20250824\"",
+      "representation": "normalized_text",
+      "sourceId": "noaa-isd"
+    },
+    {
+      "characterEnd": 986663,
+      "characterStart": 986564,
+      "citationId": "noaa-rksi",
+      "page": null,
+      "quote": "\"471131\",\"99999\",\"INCHEON INTL\",\"KS\",\"\",\"RKSI\",\"+37.469\",\"+126.451\",\"+0007.0\",\"20040706\",\"20250824\"",
+      "representation": "normalized_text",
+      "sourceId": "noaa-isd"
+    },
+    {
+      "characterEnd": 1359,
+      "characterStart": 1301,
+      "citationId": "kr-sup-2010-23-supersession",
+      "page": 1,
+      "quote": "AIP Supplement 4/10 dated 25 MAR 2010 is hereby superseded",
+      "representation": "normalized_text",
+      "sourceId": "kr-sup-2010-23"
+    },
+    {
+      "characterEnd": 1259,
+      "characterStart": 1220,
+      "citationId": "kr-sup-2023-2-supersession",
+      "page": 1,
+      "quote": "AIRAC AIP SUP 7/15 is hereby superseded",
+      "representation": "normalized_text",
+      "sourceId": "kr-sup-2023-2"
+    },
+    {
+      "characterEnd": 4452,
+      "characterStart": 4419,
+      "citationId": "kr-sup-2023-8-supersession",
+      "page": 2,
+      "quote": "AIP SUP 3/23 is hereby superseded",
+      "representation": "normalized_text",
+      "sourceId": "kr-sup-2023-8"
+    },
+    {
+      "characterEnd": 4844,
+      "characterStart": 4810,
+      "citationId": "kr-sup-2024-73-supersession",
+      "page": 3,
+      "quote": "AIP SUP 21/23 is hereby superseded",
+      "representation": "normalized_text",
+      "sourceId": "kr-sup-2024-73"
+    },
+    {
+      "characterEnd": 2034,
+      "characterStart": 1994,
+      "citationId": "kr-sup-2025-16-supersession",
+      "page": 1,
+      "quote": "AIRAC AIP SUP 69/24 is hereby superseded",
+      "representation": "normalized_text",
+      "sourceId": "kr-sup-2025-16"
+    },
+    {
+      "characterEnd": 3752,
+      "characterStart": 3712,
+      "citationId": "kr-sup-2025-17-supersession",
+      "page": 2,
+      "quote": "AIRAC AIP SUP 81/24 is hereby superseded",
+      "representation": "normalized_text",
+      "sourceId": "kr-sup-2025-17"
+    },
+    {
+      "characterEnd": 3786,
+      "characterStart": 3746,
+      "citationId": "kr-sup-2025-23-5976bb1e-supersession",
+      "page": 2,
+      "quote": "AIRAC AIP SUP 17/25 is hereby superseded",
+      "representation": "normalized_text",
+      "sourceId": "kr-sup-2025-23-5976bb1e"
+    },
+    {
+      "characterEnd": 1355,
+      "characterStart": 1321,
+      "citationId": "kr-sup-2025-3-supersession",
+      "page": 1,
+      "quote": "AIP SUP 26/24 is hereby superseded",
+      "representation": "normalized_text",
+      "sourceId": "kr-sup-2025-3"
+    },
+    {
+      "characterEnd": 13482,
+      "characterStart": 13449,
+      "citationId": "kr-sup-2025-33-supersession",
+      "page": 5,
+      "quote": "AIP SUP 6/25 is hereby superseded",
+      "representation": "normalized_text",
+      "sourceId": "kr-sup-2025-33"
+    },
+    {
+      "characterEnd": 1143,
+      "characterStart": 1110,
+      "citationId": "kr-sup-2025-34-supersession",
+      "page": 1,
+      "quote": "AIP SUP 2/25 is hereby superseded",
+      "representation": "normalized_text",
+      "sourceId": "kr-sup-2025-34"
+    },
+    {
+      "characterEnd": 1492,
+      "characterStart": 1459,
+      "citationId": "kr-sup-2025-36-supersession",
+      "page": 1,
+      "quote": "AIP SUP 7/25 is hereby superseded",
+      "representation": "normalized_text",
+      "sourceId": "kr-sup-2025-36"
+    },
+    {
+      "characterEnd": 2039,
+      "characterStart": 1999,
+      "citationId": "kr-sup-2025-39-local-folder-supersession",
+      "page": 1,
+      "quote": "AIRAC AIP SUP 16/25 is hereby superseded",
+      "representation": "normalized_text",
+      "sourceId": "kr-sup-2025-39-local-folder"
+    },
+    {
+      "characterEnd": 1520,
+      "characterStart": 1486,
+      "citationId": "kr-sup-2025-41-supersession",
+      "page": 1,
+      "quote": "AIP SUP 36/25 is hereby superseded",
+      "representation": "normalized_text",
+      "sourceId": "kr-sup-2025-41"
+    },
+    {
+      "characterEnd": 13480,
+      "characterStart": 13446,
+      "citationId": "kr-sup-2025-6-supersession",
+      "page": 5,
+      "quote": "AIP SUP 74/24 is hereby superseded",
+      "representation": "normalized_text",
+      "sourceId": "kr-sup-2025-6"
+    }
+  ],
+  "mode": "minimal_attributed_citations"
+}

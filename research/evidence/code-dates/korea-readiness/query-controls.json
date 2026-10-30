@@ -1,0 +1,33 @@
+{
+  "issueDayControls": [
+    {
+      "returned": 2,
+      "sourceId": "notam-day-rksi",
+      "total": 2
+    },
+    {
+      "returned": 2,
+      "sourceId": "notam-day-rkss",
+      "total": 2
+    }
+  ],
+  "originalReacquisitionLimits": {
+    "action": "Preserve all PR23 locks/receipts. Reuse only matching historical primary bytes; current operator/IATA evidence is separately acquired and must not replace an old fingerprint.",
+    "koreanHistoricalPrimaryOriginalsMatched": 73,
+    "oldKoreanCurrentIataByteHashesChanged": 2,
+    "operatorIiacByteHashChanged": true
+  },
+  "plainLanguagePdfAttempt": {
+    "guessedSeq546": "POST 503; GET 405. Neither failure establishes absence.",
+    "guessedSeq552ActualTitle": "01 OCT 2022, Series A; rejected as a 2025 snapshot.",
+    "latestIndexObservation": "The public list endpoint returned only APR 2026 documents. It supplies no historical completeness guarantee."
+  },
+  "replacementQueriesComplete": true,
+  "truncatedFirControl": {
+    "originalSha256": "939ff4d7f7357bfb1f53af81a53c9a4745d675e743cae502c9ed2c011aea49cc",
+    "responseCompleteRelativeToTotal": false,
+    "returnedRows": 9999,
+    "serverTotal": 30787,
+    "sourceId": "notam-all-rkrr"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "mode": "actual_resolveAirport_in_memory_only",
+  "publishedSha256": "2268bdd3426e0d459b7b46d1214b165e3ab90f3526d4f2528f60238f4ee94b13",
+  "formalSha256": "2268bdd3426e0d459b7b46d1214b165e3ab90f3526d4f2528f60238f4ee94b13",
+  "policyFileSha256": "009cfb20c802b14e35d503f0f08ebf8076be13f60bea2ab77f8c7fe151933e85",
+  "identityBatchFileSha256": "c8cd4178bc910faf502a2854edd2440da7bd1580c19f0150312c7b5a925282d7",
+  "formalRegressionQueries": 37736,
+  "formalNewResolved": 0,
+  "formalChangedAnswers": 0,
+  "formalNewConflicts": 0,
+  "gatedTransitions": {
+    "not_found->uncertain": 18868,
+    "not_found->not_found": 18868
+  },
+  "conditionalTransitions": {
+    "not_found->uncertain": 18814,
+    "not_found->resolved": 54,
+    "not_found->not_found": 18868
+  },
+  "boundaries": [
+    {
+      "code": "RKSI",
+      "dates": [
+        {
+          "date": "2025-04-16",
+          "formal": "not_found",
+          "gated": "uncertain",
+          "conditional": "uncertain"
+        },
+        {
+          "date": "2025-04-17",
+          "formal": "not_found",
+          "gated": "uncertain",
+          "conditional": "uncertain"
+        },
+        {
+          "date": "2025-04-18",
+          "formal": "not_found",
+          "gated": "uncertain",
+          "conditional": "resolved"
+        },
+        {
+          "date": "2025-04-30",
+          "formal": "not_found",
+          "gated": "uncertain",
+          "conditional": "resolved"
+        },
+        {
+          "date": "2025-05-01",
+          "formal": "not_found",
+          "gated": "uncertain",
+          "conditional": "resolved"
+        },
+        {
+          "date": "2025-05-14",
+          "formal": "not_found",
+          "gated": "uncertain",
+          "conditional": "resolved"
+        },
+        {
+          "date": "2025-05-15",
+          "formal": "not_found",
+          "gated": "uncertain",
+          "conditional": "uncertain"
+        },
+        {
+          "date": "2025-05-16",
+          "formal": "not_found",
+          "gated": "uncertain",
+          "conditional": "uncertain"
+        }
+      ]
+    },
+    {
+      "code": "RKSS",
+      "dates": [
+        {
+          "date": "2025-04-16",
+          "formal": "not_found",
+          "gated": "uncertain",
+          "conditional": "uncertain"
+        },
+        {
+          "date": "2025-04-17",
+          "formal": "not_found",
+          "gated": "uncertain",
+          "conditional": "uncertain"
+        },
+        {
+          "date": "2025-04-18",
+          "formal": "not_found",
+          "gated": "uncertain",
+          "conditional": "resolved"
+        },
+        {
+          "date": "2025-04-30",
+          "formal": "not_found",
+          "gated": "uncertain",
+          "conditional": "resolved"
+        },
+        {
+          "date": "2025-05-01",
+          "formal": "not_found",
+          "gated": "uncertain",
+          "conditional": "resolved"
+        },
+        {
+          "date": "2025-05-14",
+          "formal": "not_found",
+          "gated": "uncertain",
+          "conditional": "resolved"
+        },
+        {
+          "date": "2025-05-15",
+          "formal": "not_found",
+          "gated": "uncertain",
+          "conditional": "uncertain"
+        },
+        {
+          "date": "2025-05-16",
+          "formal": "not_found",
+          "gated": "uncertain",
+          "conditional": "uncertain"
+        }
+      ]
+    }
+  ],
+  "conditionalResolved": 54,
+  "gatedResolved": 0,
+  "formalAirportIdsCreated": 0,
+  "productionEligible": false,
+  "limits": "Current formal data have no Korean identities or assignments. Pending and conditional simulations do not establish authorization or historical truth; date sweep is disclosed, not global coverage."
+}

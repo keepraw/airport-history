@@ -1,0 +1,538 @@
+{
+  "archiveCompleteSince2001": false,
+  "boundedAirportReconciliationPassed": true,
+  "checklists": [
+    {
+      "airportOutstandingNotices": [
+        {
+          "fullTextSha256": "60080c218d5db5f68d32b6465d716759e6d687efcb8ab5c619648e076a7e224e",
+          "location": "RKSS",
+          "notamNo": "Z0468/25",
+          "serverRecordId": "14261177"
+        },
+        {
+          "fullTextSha256": "28f52731c788bf0137e9f3970c8b84cba06234d7c0f7c29f9517f06b287cebcf",
+          "location": "RKSS",
+          "notamNo": "Z0397/25",
+          "serverRecordId": "14161254"
+        },
+        {
+          "fullTextSha256": "03247e1ee57cf46ffe81764e4c0c3f3af7de51361041297efd567f18f113069c",
+          "location": "RKSI",
+          "notamNo": "Z0396/25",
+          "serverRecordId": "14161249"
+        },
+        {
+          "fullTextSha256": "1c44823bb9502ffe178dfd40a06cf9a241d091866ba3516ae23cd50f92219f30",
+          "location": "RKSS",
+          "notamNo": "Z0394/25",
+          "serverRecordId": "14161233"
+        },
+        {
+          "fullTextSha256": "44925f48278525a39fe43dff524ccf1697eb090c758925ebe0f5eb5ddc74178b",
+          "location": "RKSI",
+          "notamNo": "Z0393/25",
+          "serverRecordId": "14161231"
+        }
+      ],
+      "allListedNumbersRecovered": true,
+      "checklist": {
+        "aircraftReferenceCodeOnly": false,
+        "b": {
+          "asiaSeoul": "2025-05-01T09:00:00+09:00",
+          "raw": "2505010000",
+          "utc": "2025-05-01T00:00:00+00:00"
+        },
+        "c": {
+          "asiaSeoul": "2025-06-02T00:00:00+09:00",
+          "raw": "2506011500",
+          "utc": "2025-06-01T15:00:00+00:00"
+        },
+        "estimatedEnd": true,
+        "explicitAirportMentions": [],
+        "fullTextSha256": "e9798e4fb7c4bb61ebb1fd681f561c7b3b206f424aa82c35196ae1d30c39dcba",
+        "identityChangeSignal": false,
+        "issued": {
+          "asiaSeoul": "2025-05-01T09:02:00+09:00",
+          "raw": "2505010002",
+          "utc": "2025-05-01T00:02:00+00:00"
+        },
+        "jsonPointer": "/DATA/353",
+        "location": "RKRR",
+        "notamNo": "Z0471/25",
+        "noticeType": "R",
+        "publicationReferences": [],
+        "qcode": "QKKKK",
+        "replacesOrCancels": "Z0384/25",
+        "seriesBaseNo": "Z0471/25",
+        "serverRecordId": "14269845",
+        "sourceId": "notam-fir-2025"
+      },
+      "lifecycleExpectedNumbers": [
+        "Z0393/25",
+        "Z0394/25",
+        "Z0396/25",
+        "Z0397/25",
+        "Z0468/25"
+      ],
+      "listedNoticeNumbers": [
+        "Z0338/25",
+        "Z0340/25",
+        "Z0393/25",
+        "Z0394/25",
+        "Z0395/25",
+        "Z0396/25",
+        "Z0397/25",
+        "Z0428/25",
+        "Z0429/25",
+        "Z0468/25",
+        "Z0469/25",
+        "Z0470/25"
+      ],
+      "lookupSourceId": "checklist-z0471-25",
+      "meaning": "Outstanding notice includes future B; not every listed event is effective at the snapshot.",
+      "missingFromChecklist": [],
+      "missingFromLedger": [],
+      "snapshot": {
+        "asiaSeoul": "2025-05-01T09:00:00+09:00",
+        "raw": "2505010000",
+        "utc": "2025-05-01T00:00:00+00:00"
+      }
+    },
+    {
+      "airportOutstandingNotices": [
+        {
+          "fullTextSha256": "6170d8b371511b54f1170a0234aff77694dc680fe9d550d0cfcd22207b3d5032",
+          "location": "RKSI",
+          "notamNo": "G0680/25",
+          "serverRecordId": "14264439"
+        },
+        {
+          "fullTextSha256": "1e28d9ce840e5d6d3b3d133729b90b01991c1fd42116b3709c71ab77e98e92c8",
+          "location": "RKSS",
+          "notamNo": "G0676/25",
+          "serverRecordId": "14264427"
+        }
+      ],
+      "allListedNumbersRecovered": true,
+      "checklist": {
+        "aircraftReferenceCodeOnly": false,
+        "b": {
+          "asiaSeoul": "2025-05-01T09:00:00+09:00",
+          "raw": "2505010000",
+          "utc": "2025-05-01T00:00:00+00:00"
+        },
+        "c": {
+          "asiaSeoul": "2025-06-02T00:00:00+09:00",
+          "raw": "2506011500",
+          "utc": "2025-06-01T15:00:00+00:00"
+        },
+        "estimatedEnd": true,
+        "explicitAirportMentions": [],
+        "fullTextSha256": "397054aeed70cf12b914620ce501b5b0fd978f4a3de86e9d1a147c5c343fb958",
+        "identityChangeSignal": false,
+        "issued": {
+          "asiaSeoul": "2025-05-01T09:01:00+09:00",
+          "raw": "2505010001",
+          "utc": "2025-05-01T00:01:00+00:00"
+        },
+        "jsonPointer": "/DATA/356",
+        "location": "RKRR",
+        "notamNo": "G0684/25",
+        "noticeType": "R",
+        "publicationReferences": [],
+        "qcode": "QKKKK",
+        "replacesOrCancels": "G0304/25",
+        "seriesBaseNo": "G0684/25",
+        "serverRecordId": "14269842",
+        "sourceId": "notam-fir-2025"
+      },
+      "lifecycleExpectedNumbers": [
+        "G0676/25",
+        "G0680/25"
+      ],
+      "listedNoticeNumbers": [
+        "G0676/25",
+        "G0677/25",
+        "G0678/25",
+        "G0679/25",
+        "G0680/25",
+        "G0681/25",
+        "G0682/25",
+        "G0683/25"
+      ],
+      "lookupSourceId": "checklist-g0684-25",
+      "meaning": "Outstanding notice includes future B; not every listed event is effective at the snapshot.",
+      "missingFromChecklist": [],
+      "missingFromLedger": [],
+      "snapshot": {
+        "asiaSeoul": "2025-05-01T09:00:00+09:00",
+        "raw": "2505010000",
+        "utc": "2025-05-01T00:00:00+00:00"
+      }
+    },
+    {
+      "airportOutstandingNotices": [
+        {
+          "fullTextSha256": "3d95ace680cbd65a914ecef953cd3bd3ae06bcb6dbf9983f1683968535863a6f",
+          "location": "RKSI",
+          "notamNo": "A0476/25",
+          "serverRecordId": "14264829"
+        },
+        {
+          "fullTextSha256": "861300e0eada4a889adcf93d8b8b83794eff3fe9ea3cc43442962781f5d628ca",
+          "location": "RKSI",
+          "notamNo": "A0475/25",
+          "serverRecordId": "14264812"
+        },
+        {
+          "fullTextSha256": "32d730bf026c697a2b4c33b0c42f438065fc238b620a378a2720705295274a87",
+          "location": "RKSI",
+          "notamNo": "A0474/25",
+          "serverRecordId": "14264571"
+        }
+      ],
+      "allListedNumbersRecovered": true,
+      "checklist": {
+        "aircraftReferenceCodeOnly": false,
+        "b": {
+          "asiaSeoul": "2025-05-01T09:00:00+09:00",
+          "raw": "2505010000",
+          "utc": "2025-05-01T00:00:00+00:00"
+        },
+        "c": {
+          "asiaSeoul": "2025-06-02T00:00:00+09:00",
+          "raw": "2506011500",
+          "utc": "2025-06-01T15:00:00+00:00"
+        },
+        "estimatedEnd": true,
+        "explicitAirportMentions": [],
+        "fullTextSha256": "f96f36f1d19defb4ace8b92f14d626e01d6289736bfb2151c346177ddf46fc74",
+        "identityChangeSignal": false,
+        "issued": {
+          "asiaSeoul": "2025-05-01T09:00:00+09:00",
+          "raw": "2505010000",
+          "utc": "2025-05-01T00:00:00+00:00"
+        },
+        "jsonPointer": "/DATA/357",
+        "location": "RKRR",
+        "notamNo": "A0478/25",
+        "noticeType": "R",
+        "publicationReferences": [],
+        "qcode": "QKKKK",
+        "replacesOrCancels": "A0351/25",
+        "seriesBaseNo": "A0478/25",
+        "serverRecordId": "14269789",
+        "sourceId": "notam-fir-2025"
+      },
+      "lifecycleExpectedNumbers": [
+        "A0474/25",
+        "A0475/25",
+        "A0476/25"
+      ],
+      "listedNoticeNumbers": [
+        "A0232/25",
+        "A0277/25",
+        "A0403/25",
+        "A0404/25",
+        "A0433/25",
+        "A0435/25",
+        "A0443/25",
+        "A0455/25",
+        "A0462/25",
+        "A0468/25",
+        "A0474/25",
+        "A0475/25",
+        "A0476/25",
+        "A0477/25"
+      ],
+      "lookupSourceId": "checklist-a0478-25",
+      "meaning": "Outstanding notice includes future B; not every listed event is effective at the snapshot.",
+      "missingFromChecklist": [],
+      "missingFromLedger": [],
+      "snapshot": {
+        "asiaSeoul": "2025-05-01T09:00:00+09:00",
+        "raw": "2505010000",
+        "utc": "2025-05-01T00:00:00+00:00"
+      }
+    },
+    {
+      "airportOutstandingNotices": [
+        {
+          "fullTextSha256": "c2e5c4eab733e5c9444ced8b242289e52dbd65eb94e77c66790c33b52efbc6d5",
+          "location": "RKSI",
+          "notamNo": "G0300/25",
+          "serverRecordId": "14145596"
+        },
+        {
+          "fullTextSha256": "8ff46422a4356afbf6a90c7c93c9c5248f8c7fe37eea13f07b83c4592c4d04b0",
+          "location": "RKSS",
+          "notamNo": "G0298/25",
+          "serverRecordId": "14145585"
+        }
+      ],
+      "allListedNumbersRecovered": true,
+      "checklist": {
+        "aircraftReferenceCodeOnly": false,
+        "b": {
+          "asiaSeoul": "2025-04-01T09:03:00+09:00",
+          "raw": "2504010003",
+          "utc": "2025-04-01T00:03:00+00:00"
+        },
+        "c": {
+          "asiaSeoul": "2025-05-02T00:00:00+09:00",
+          "raw": "2505011500",
+          "utc": "2025-05-01T15:00:00+00:00"
+        },
+        "estimatedEnd": true,
+        "explicitAirportMentions": [],
+        "fullTextSha256": "9deb9b650f6b24a23cd2d227b13fedfc00f846e8cb03abf12efb37173c8a2199",
+        "identityChangeSignal": false,
+        "issued": {
+          "asiaSeoul": "2025-04-01T09:07:00+09:00",
+          "raw": "2504010007",
+          "utc": "2025-04-01T00:07:00+00:00"
+        },
+        "jsonPointer": "/DATA/1103",
+        "location": "RKRR",
+        "notamNo": "G0304/25",
+        "noticeType": "R",
+        "publicationReferences": [],
+        "qcode": "QKKKK",
+        "replacesOrCancels": "G0128/25",
+        "seriesBaseNo": "G0304/25",
+        "serverRecordId": "14150393",
+        "sourceId": "notam-fir-2025"
+      },
+      "lifecycleExpectedNumbers": [
+        "G0298/25",
+        "G0300/25"
+      ],
+      "listedNoticeNumbers": [
+        "G0298/25",
+        "G0300/25",
+        "G0302/25",
+        "G0303/25"
+      ],
+      "lookupSourceId": "checklist-g0304-25",
+      "meaning": "Outstanding notice includes future B; not every listed event is effective at the snapshot.",
+      "missingFromChecklist": [],
+      "missingFromLedger": [],
+      "snapshot": {
+        "asiaSeoul": "2025-04-01T09:03:00+09:00",
+        "raw": "2504010003",
+        "utc": "2025-04-01T00:03:00+00:00"
+      }
+    },
+    {
+      "airportOutstandingNotices": [
+        {
+          "fullTextSha256": "a4ab2327ee83b2f0f1c19de7544cb82bad3090fd611688868187481f74f1d9bd",
+          "location": "RKSS",
+          "notamNo": "Z0349/25",
+          "serverRecordId": "14100018"
+        },
+        {
+          "fullTextSha256": "d47a837929f0945e042813007bded1251f2e475bcd2db66185f4c3346ba59872",
+          "location": "RKSS",
+          "notamNo": "Z0307/25",
+          "serverRecordId": "14047678"
+        },
+        {
+          "fullTextSha256": "95607e394ec563d9ba8636b978c25662e0bb1a9dbdb325e670af767ff2c4a567",
+          "location": "RKSS",
+          "notamNo": "Z0208/25",
+          "serverRecordId": "13935813"
+        },
+        {
+          "fullTextSha256": "bfeb4262df5135e168ab816a292de18bce63d89d07dcacce46c8e71f4773603b",
+          "location": "RKSI",
+          "notamNo": "Z0206/25",
+          "serverRecordId": "13935807"
+        },
+        {
+          "fullTextSha256": "786f209289f1fea088eb669fa5d30e378751129f54ea23533545d5d76cbe520d",
+          "location": "RKSI",
+          "notamNo": "Z0193/25",
+          "serverRecordId": "13922297"
+        },
+        {
+          "fullTextSha256": "118d6a60b21517857c97bb007241b5e46fa0db362baec370ee1902edfb83d4bb",
+          "location": "RKSI",
+          "notamNo": "Z0191/25",
+          "serverRecordId": "13922236"
+        }
+      ],
+      "allListedNumbersRecovered": true,
+      "checklist": {
+        "aircraftReferenceCodeOnly": false,
+        "b": {
+          "asiaSeoul": "2025-04-01T09:04:00+09:00",
+          "raw": "2504010004",
+          "utc": "2025-04-01T00:04:00+00:00"
+        },
+        "c": {
+          "asiaSeoul": "2025-05-02T00:00:00+09:00",
+          "raw": "2505011500",
+          "utc": "2025-05-01T15:00:00+00:00"
+        },
+        "estimatedEnd": true,
+        "explicitAirportMentions": [],
+        "fullTextSha256": "5c60a2809d2b689840910b407079da3ce47ebc6c2a3698cd3818f60168782e5b",
+        "identityChangeSignal": false,
+        "issued": {
+          "asiaSeoul": "2025-04-01T09:07:00+09:00",
+          "raw": "2504010007",
+          "utc": "2025-04-01T00:07:00+00:00"
+        },
+        "jsonPointer": "/DATA/1104",
+        "location": "RKRR",
+        "notamNo": "Z0384/25",
+        "noticeType": "R",
+        "publicationReferences": [],
+        "qcode": "QKKKK",
+        "replacesOrCancels": "Z0273/25",
+        "seriesBaseNo": "Z0384/25",
+        "serverRecordId": "14150396",
+        "sourceId": "notam-fir-2025"
+      },
+      "lifecycleExpectedNumbers": [
+        "Z0191/25",
+        "Z0193/25",
+        "Z0206/25",
+        "Z0208/25",
+        "Z0307/25",
+        "Z0349/25"
+      ],
+      "listedNoticeNumbers": [
+        "Z0191/25",
+        "Z0192/25",
+        "Z0193/25",
+        "Z0206/25",
+        "Z0208/25",
+        "Z0304/25",
+        "Z0305/25",
+        "Z0307/25",
+        "Z0308/25",
+        "Z0309/25",
+        "Z0310/25",
+        "Z0313/25",
+        "Z0314/25",
+        "Z0315/25",
+        "Z0316/25",
+        "Z0318/25",
+        "Z0320/25",
+        "Z0322/25",
+        "Z0338/25",
+        "Z0340/25",
+        "Z0349/25",
+        "Z0376/25",
+        "Z0383/25"
+      ],
+      "lookupSourceId": "checklist-z0384-25",
+      "meaning": "Outstanding notice includes future B; not every listed event is effective at the snapshot.",
+      "missingFromChecklist": [],
+      "missingFromLedger": [],
+      "snapshot": {
+        "asiaSeoul": "2025-04-01T09:04:00+09:00",
+        "raw": "2504010004",
+        "utc": "2025-04-01T00:04:00+00:00"
+      }
+    },
+    {
+      "airportOutstandingNotices": [
+        {
+          "fullTextSha256": "342220006abffad1944a20887fe6e7712ce15d5b41a939d81a7f403833c45e5a",
+          "location": "RKSI",
+          "notamNo": "A0335/25",
+          "serverRecordId": "14131675"
+        },
+        {
+          "fullTextSha256": "0f93480da4a72beae0c89514c916cb8b6e6c005df30fa86e82c9afadc39bbdfa",
+          "location": "RKSI",
+          "notamNo": "A0293/25",
+          "serverRecordId": "14075675"
+        }
+      ],
+      "allListedNumbersRecovered": true,
+      "checklist": {
+        "aircraftReferenceCodeOnly": false,
+        "b": {
+          "asiaSeoul": "2025-04-01T09:01:00+09:00",
+          "raw": "2504010001",
+          "utc": "2025-04-01T00:01:00+00:00"
+        },
+        "c": {
+          "asiaSeoul": "2025-05-02T00:00:00+09:00",
+          "raw": "2505011500",
+          "utc": "2025-05-01T15:00:00+00:00"
+        },
+        "estimatedEnd": true,
+        "explicitAirportMentions": [],
+        "fullTextSha256": "c5019bc2798b8d4ff8fa4c551f55b46df3b3ece38f34ef627854b699e1ace6b5",
+        "identityChangeSignal": false,
+        "issued": {
+          "asiaSeoul": "2025-04-01T09:04:00+09:00",
+          "raw": "2504010004",
+          "utc": "2025-04-01T00:04:00+00:00"
+        },
+        "jsonPointer": "/DATA/1108",
+        "location": "RKRR",
+        "notamNo": "A0351/25",
+        "noticeType": "R",
+        "publicationReferences": [],
+        "qcode": "QKKKK",
+        "replacesOrCancels": "A0246/25",
+        "seriesBaseNo": "A0351/25",
+        "serverRecordId": "14150341",
+        "sourceId": "notam-fir-2025"
+      },
+      "lifecycleExpectedNumbers": [
+        "A0293/25",
+        "A0335/25"
+      ],
+      "listedNoticeNumbers": [
+        "A0068/25",
+        "A0123/25",
+        "A0164/25",
+        "A0223/25",
+        "A0232/25",
+        "A0233/25",
+        "A0277/25",
+        "A0289/25",
+        "A0293/25",
+        "A0333/25",
+        "A0335/25",
+        "A0342/25",
+        "A0344/25",
+        "A0349/25"
+      ],
+      "lookupSourceId": "checklist-a0351-25",
+      "meaning": "Outstanding notice includes future B; not every listed event is effective at the snapshot.",
+      "missingFromChecklist": [],
+      "missingFromLedger": [],
+      "snapshot": {
+        "asiaSeoul": "2025-04-01T09:01:00+09:00",
+        "raw": "2504010001",
+        "utc": "2025-04-01T00:01:00+00:00"
+      }
+    }
+  ],
+  "officialSource": "MOLIT/International NOTAM Office; AFS QKKKK messages recovered from official history",
+  "plainLanguageHistoricalPdfObtained": false,
+  "publisherFamilies": 1,
+  "remainingLimits": [
+    "Publisher snapshots are independently queried official records of the same issuer, not independent publishers.",
+    "This is bounded A/G/Z reconciliation, not an all-history archive-completeness certificate.",
+    "Current valid-NOTAM menu is not a historical as-of-time query."
+  ],
+  "series": [
+    "A",
+    "G",
+    "Z"
+  ],
+  "snapshots": [
+    "2025-04-01T00:00:00+00:00",
+    "2025-05-01T00:00:00+00:00"
+  ]
+}

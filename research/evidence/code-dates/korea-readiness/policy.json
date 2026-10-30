@@ -1,0 +1,71 @@
+{
+  "authorization": null,
+  "authorizationInheritance": false,
+  "evidencePredicates": {
+    "airportSeries": [
+      "A",
+      "G",
+      "Z"
+    ],
+    "allListedNumbersMustBeRecoveredAndReconciled": true,
+    "approvedPermanentPhysicalIdsMustAlreadyExist": true,
+    "maxBatchAssignments": 2,
+    "maxOuterAiracGapDays": 28,
+    "officialOutstandingNotamSnapshotsRequired": [
+      "2025-04-01",
+      "2025-05-01"
+    ],
+    "ordinaryEditionUnknownClockCannotSetWindowEdge": true,
+    "ordinaryInterveningEditionsRequired": true,
+    "originalHashesAndCitationsReverifiedBeforeEachBatch": true,
+    "relevantUnknownLifecycleAllowed": 0,
+    "replacementCancellationPermAndEstimatedEndsMustBeAdjudicated": true,
+    "sameAirportSpecificNameAndArpAllEditions": true,
+    "sharedFirAndSupAmendmentReviewRequired": true,
+    "twoAdjacentControlledAiracAnchors": true
+  },
+  "manualEscalation": [
+    "competing physical site or changed ARP",
+    "airport identifier/name/identity change",
+    "unresolved missing notice, EST or PERM chain",
+    "missing or contradictory official outstanding-notice snapshot",
+    "relocation, whole-airport closure or explicit conflict",
+    "changed original, rule, scope or executable fingerprint",
+    "published correction or any IATA request"
+  ],
+  "output": "Research evidence-readiness only. Production executor/activation/admission adapter is not implemented.",
+  "ownerApprovalAndFinalMergeRequired": true,
+  "policyId": "kr-molit-bounded-icao",
+  "productionBound": false,
+  "scope": {
+    "codes": [
+      "RKSI",
+      "RKSS"
+    ],
+    "country": "KR",
+    "issuerFamily": "KR-MOLIT-AIP",
+    "namespace": "ICAO",
+    "newIataAssignments": false,
+    "newPhysicalIdentities": false,
+    "originalHosts": [
+      "aim.koca.go.kr"
+    ],
+    "publishedCorrections": false,
+    "window": {
+      "from": "2025-04-18",
+      "timezone": "Asia/Seoul",
+      "toExclusive": "2025-05-15"
+    }
+  },
+  "sourceSet": [
+    "source-lock.json",
+    "aip-timeline.json",
+    "checklist-reconciliation.json",
+    "publication-crosscheck.json",
+    "notam-RKSI.json",
+    "notam-RKSS.json",
+    "fir-screening.json"
+  ],
+  "status": "draft",
+  "version": "0.2.0-draft"
+}

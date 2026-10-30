@@ -1,0 +1,935 @@
+{
+  "chains": [
+    {
+      "from": "AIP SUP 7/25",
+      "sourceId": "kr-sup-2025-36",
+      "to": "AIP SUP 36/25"
+    },
+    {
+      "from": "AIP SUP 36/25",
+      "sourceId": "kr-sup-2025-41",
+      "to": "AIP SUP 41/25"
+    },
+    {
+      "from": "AIP SUP 6/25",
+      "sourceId": "kr-sup-2025-33",
+      "to": "AIP SUP 33/25"
+    },
+    {
+      "from": "AIRAC AIP SUP 81/24",
+      "sourceId": "kr-sup-2025-17",
+      "to": "AIRAC AIP SUP 17/25"
+    },
+    {
+      "from": "AIRAC AIP SUP 17/25",
+      "sourceId": "kr-sup-2025-23-5976bb1e",
+      "to": "AIRAC AIP SUP 23/25"
+    }
+  ],
+  "distinctByteStreams": 49,
+  "ordinaryVsAiracNumbersMustRemainDistinct": true,
+  "selectedUrls": 51,
+  "supplementOriginals": [
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [
+        "AIP Supplement 4/10 dated 25 MAR 2010 is hereby superseded"
+      ],
+      "originalSha256": "d3706cc48536a48e576fdcaa586cd3980034069b83b9feb648fadc4dee29b837",
+      "scopeCodes": [],
+      "sourceId": "kr-sup-2010-23",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2010-23",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "enroute_or_permission"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "d8e3e6d6216341296488ca2e1314b3a7462eeac9fb234e3cf961ac47e569a702",
+      "scopeCodes": [],
+      "sourceId": "kr-sup-2023-11",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2023-11",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "enroute_or_permission"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [
+        "AIRAC AIP SUP 7/15 is hereby superseded"
+      ],
+      "originalSha256": "db33fe9066bc6611120fedeac16ba59218cb1a84cd995977cd483f3b42eaaef1",
+      "scopeCodes": [
+        "RKSI",
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2023-2",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2023-2",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "enroute_or_permission"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "67bfd713b7ca15e14a4d4dc9100e2d855da1cb0ea64e16f29439143f3ebcfc43",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2023-2-b9c95f36",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2023-2-b9c95f36",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [
+        "AIP SUP 3/23 is hereby superseded"
+      ],
+      "originalSha256": "6b88f578fa73ad71537aaf8596d288938dfc187293d0978defa7fda685d7c4a6",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2023-8",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2023-8",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "ed1eec5bf0fd88a577e03ae05b9c5bd496511a947426d2699bac6e0b6688252c",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2024-17",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2024-17",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "ebb35c442e7fe0ee127aea541793b12cd4bb6638710ba9dc67d9bd12a0d440a5",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2024-19",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2024-19",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "4a021aaab170232b0ed52ea33f4e41cde2ea9252bb49d2084e03b73f5f2232a7",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2024-27",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2024-27",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "7bfda4e0bd723de2a78114cf163bc14ca29a4fcb29ed338a0ea8345c4988bba2",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2024-40",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2024-40",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "ebcf6c256a0857f1ba2967503c1fab98756957075d53bfc7f6cc250212cf1cf4",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2024-41",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2024-41",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "77fd2f51987d79451094c9755d43102990c6c1da7c1b14dd1f64bc0675285492",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2024-47",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2024-47",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "2d22cae5020dc56fafbd496251b511c52d5044e4367f824c07348bca1c27be59",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2024-48",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2024-48",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "fe5288ab19bf5dfb84f5f97ae4b53dbf40270b790f3ab724b43089de0d4cab5f",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2024-56",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2024-56",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "equipment_unserviceability"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "ddd65f57caf136209da5e141c8aeaa60f951076a0a66c9388b244e23643beb78",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2024-62",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2024-62",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "7255e2987f98b2bd37b1c0ef10ca0318032590c3e850c2f842e843d286adeda7",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2024-63",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2024-63",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "0f0f52cd6e1a406f63f89355a53d1ee0d839676ba2fe13c6b91e2119f870731e",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2024-66",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2024-66",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "528d5d63cf162013576bec1d0a73d487e151ba7f5321ae23e3f92e2558dea361",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2024-67",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2024-67",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "9d8ceef88a0719f58ec526da5c0e9c32b604413033a8ab7b4956ab8c2c4cae8f",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2024-68",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2024-68",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "649f08face6e0297196f970461fe457ecce59a6e4ae9569aeb6872d23bedf247",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2024-69",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2024-69",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "movement_area_restriction"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [
+        "AIP SUP 21/23 is hereby superseded"
+      ],
+      "originalSha256": "c8c36ed8b95b717cd23a6e4179e4aea8142718a1b8c17d8ec8f8b9942876e5aa",
+      "scopeCodes": [
+        "RKSI",
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2024-73",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2024-73",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "trial_or_separation_procedure"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "c00b4116749dacc7ca926b12bd0e661dd94595abbcbda5d12331bfd795fd3862",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2024-75",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2024-75",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "8f2cd2a19eefa290218685fd1d40f3d5a82696b7b69f9443f5b1a8eb0bb4d159",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2024-76",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2024-76",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "f37dfe0eac70a02f803195f09d6c2bb40c48de87d5a872014fa71f49c8a2cbd9",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2024-81",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2024-81",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "movement_area_restriction"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "a24b37a026b7c1a2fb1315d04237f9656eba9d60d02ec973e7c3d9e006e05217",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2024-9",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2024-9",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "298d240f1d57c43616f2231fc7ed3aa38a23b372290d4c52ce0027c633b3126c",
+      "scopeCodes": [],
+      "sourceId": "kr-sup-2025-1",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-1",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "enroute_or_permission"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "cb733eb924b8cfcef6f36f9e14f9e3108f8ffd1ae5fc9823d6d64100f863a06e",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2025-15",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-15",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle",
+        "movement_area_restriction"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [
+        "AIRAC AIP SUP 69/24 is hereby superseded"
+      ],
+      "originalSha256": "1b8b0195fb10da36b0b2530834fe5b6b48b68b3f41ee7fdd940a714b73cf2410",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2025-16",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-16",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "movement_area_restriction",
+        "equipment_unserviceability"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [
+        "AIRAC AIP SUP 81/24 is hereby superseded"
+      ],
+      "originalSha256": "1a16c7a8d34df4cd34ecff0ad4ef809632780184f9de54067ea0a8864de94f00",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2025-17",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-17",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "movement_area_restriction"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "5007d6f3eb77a662097783620ccfcf9a1695a5327152cc190a6de2082ea4477c",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2025-18",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-18",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "0424c3cc289a4fcdcf2cd6102c4e03109e8631f416f69d1f9376a742598be14b",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2025-2",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-2",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [
+        "AIRAC AIP SUP 17/25 is hereby superseded"
+      ],
+      "originalSha256": "4373978069fe020b9b0126d809dec6a5b8be7853aa7966438ff46010f3eb2bc9",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2025-23-5976bb1e",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-23-5976bb1e",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "movement_area_restriction"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [
+        "AIP SUP 26/24 is hereby superseded"
+      ],
+      "originalSha256": "ab53305b36e659159c8ed2d5b2b549124f21a71c363388bcc67a1a5a4db7603a",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2025-3",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-3",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "movement_area_restriction"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [
+        "AIP SUP 6/25 is hereby superseded"
+      ],
+      "originalSha256": "5b933b4e5a1e0da56d60ddc031a8c2ada951a734a18ec1890c5574ad2c66ca2c",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2025-33",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-33",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "trial_or_separation_procedure"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [
+        "AIP SUP 2/25 is hereby superseded"
+      ],
+      "originalSha256": "bac71aa281fed5c637d58d5c172e22926dc22eeb8e096df0e17a30d89700686e",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2025-34",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-34",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "011ddcd6790223f6a15a45841d1483040674e40cf4abb04f0835f5927a3681a7",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2025-35",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-35",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [
+        "AIP SUP 7/25 is hereby superseded"
+      ],
+      "originalSha256": "5f40b4067fc111bd126098851e540f2a9594cc9e3a560d1fd7a4d1de33353958",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2025-36",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-36",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle",
+        "movement_area_restriction"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "f1989b89e616b8155c984b3468b0ddbfdcc14eae688f36b6a7a2de8429b14b30",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2025-37",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-37",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [
+        "AIRAC AIP SUP 16/25 is hereby superseded"
+      ],
+      "originalSha256": "92db7884769e514fcb57fe061aa631cd44230a9672d11505ceab623487357d8b",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2025-39-local-folder",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-39-local-folder",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "movement_area_restriction",
+        "equipment_unserviceability"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "29670e2958caa7a112e7a0020ac93091f38053ca70517af820c547b798349cf9",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2025-4",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-4",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "f9c78145b373f2329461521e48fbcb716805f31d1a57011348f5669cb03ed7b4",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2025-40",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-40",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "movement_area_restriction"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [
+        "AIP SUP 36/25 is hereby superseded"
+      ],
+      "originalSha256": "1cf575f41986715bf3e13a3aeeb401a13cfa72ad21412f79c940a440f8fda69c",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2025-41",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-41",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle",
+        "movement_area_restriction"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "a6a3eac0f6108349ef18d3c3cd066a9aa1c4c45639e9f47efacfde62831fdb39",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2025-42",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-42",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "7e5ca7cc44b7645a7af541fcf81df35f170e48fb389e65b70bc0f8b553a9a807",
+      "scopeCodes": [
+        "RKSI",
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2025-43",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-43",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "equipment_unserviceability"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "2949bd27cb7790106c8b3d9dd7403ff3a91e2cee8b86cdf2d49e8e3d55de9516",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2025-44",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-44",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "movement_area_restriction",
+        "equipment_unserviceability"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "2afaed63a2eef598e518c363fff013bfdddadaa2e14edcada7b21e7883cf27f5",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2025-45",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-45",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "movement_area_restriction"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "acbb609ac2e5c7ce7bd636d061e7d10ec0128416b518fbb3178c480d5976c81e",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2025-5",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-5",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [
+        "AIP SUP 74/24 is hereby superseded"
+      ],
+      "originalSha256": "bf6a993420a0446ba8813d37e59b5f42f73caa449db94eec691ac209963e3dfa",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2025-6",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-6",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "trial_or_separation_procedure"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "3a211c100cc113fe6e4762dc3e41495a07a9dc51288ed5a415f3f8b042211d4d",
+      "scopeCodes": [
+        "RKSI"
+      ],
+      "sourceId": "kr-sup-2025-7",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-7",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle",
+        "movement_area_restriction"
+      ]
+    },
+    {
+      "codeOrArpChangeEstablished": false,
+      "disposition": "operational_or_obstacle_or_procedure; retain underlying validity tables and NOTAM amendments",
+      "explicitSupersessionStatements": [],
+      "originalSha256": "d3ec5b13d1d48d1d21ec8a91a6d56838782418cefb9514b1bf9b082bf38c867e",
+      "scopeCodes": [
+        "RKSS"
+      ],
+      "sourceId": "kr-sup-2025-8",
+      "sourceLockReference": {
+        "sourceId": "kr-sup-2025-8",
+        "sourceLockPath": "research/evidence/code-dates/source-lock.json"
+      },
+      "subjects": [
+        "temporary_obstacle"
+      ]
+    }
+  ],
+  "windowRelations": [
+    {
+      "notamNos": [
+        "A0399/25",
+        "A0476/25"
+      ],
+      "relation": "Local cargo-apron reopening amends parts of SUP; no airport closure or code change.",
+      "sourceIds": [
+        "kr-sup-2025-36",
+        "kr-sup-2025-41"
+      ]
+    },
+    {
+      "endUtc": "2025-05-14T16:00:00+00:00",
+      "relation": "Gimpo operational restrictions persist through the final full local date.",
+      "sourceIds": [
+        "kr-sup-2025-23-5976bb1e"
+      ]
+    },
+    {
+      "effectiveUtc": "2025-05-14T16:00:00+00:00",
+      "relation": "Begins one hour after the candidate ends (00:00 KST); do not use local folder names as UTC anchors.",
+      "sourceIds": [
+        "kr-sup-2025-39-local-folder",
+        "kr-sup-2025-40"
+      ]
+    },
+    {
+      "relation": "June 2025 effectiveness; not part of the April/May candidate.",
+      "sourceIds": [
+        "kr-sup-2025-43",
+        "kr-sup-2025-44",
+        "kr-sup-2025-45"
+      ]
+    }
+  ]
+}

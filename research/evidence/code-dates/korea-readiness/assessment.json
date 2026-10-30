@@ -1,0 +1,29 @@
+{
+  "aipObservationChain": "Three controlled editions support the unchanged named ARPs; ordinary 5/25 effective on publication date, exact clock unproved.",
+  "authorizationRequestIssued": false,
+  "existingDraftUntouched": true,
+  "formalDataChanged": false,
+  "identityBatchReadyForReview": true,
+  "indiaPolicyChanged": false,
+  "minimalGateExtension": "Add a separately versioned Korea-only adapter and authority registry binding this namespace/scope and all parsers. Require existing formally admitted physical IDs. An identity-only batch approval must be ingested via the original human identity workflow; do not let a policy grant synthesize IDs or bypass immutable-fact/schema/source gates.",
+  "mode": "research_readiness_not_authorization",
+  "newDraftVersion": "0.2.0-draft",
+  "notamBoundedAssessment": "Returned airport chains and official A/G/Z outstanding snapshots reconcile; no relevant unknown airport lifecycle. Shared FIR scope and remaining limitations are disclosed separately.",
+  "old56DayParameterSupported": false,
+  "ownerProductionAuthorizationReady": false,
+  "physicalIdentityEvidence": "Both airports independently corroborated; one immutable two-record owner review batch prepared, no IDs allocated.",
+  "productionBlockers": [
+    "No approved permanent physical ID exists for either airport; the unified identity batch has no owner approval.",
+    "The existing production admission engine is AAI-specific. kr_airac_v1 is research-only and requires exactly two AD observations; it cannot safely ingest the new three-edition/NOTAM predicates.",
+    "A separately implemented and reviewed production Korean adapter, owner-authority verification, complete executable manifest and original-byte gate replay are required. Current hashes cover research execution only."
+  ],
+  "productionDecision": "no_go",
+  "remainingOriginalLimits": [
+    "No all-history completeness attestation since 2001 is obtained. Official April/May outstanding snapshots support this bounded period only.",
+    "Historical plain-language monthly PDFs for April/May 2025 were not obtained. Their official AFS QKKKK checklist counterparts were recovered and reconciled.",
+    "Ordinary 5/25 exact effective clock remains unknown; it does not determine the outer window.",
+    "Current IATA lookups and NOAA station BEGIN/END are not historical allocation boundaries."
+  ],
+  "why28": "Only adjacent 28-day AIRAC anchors were tested; no historical evidence supports generalizing to two cycles or India 112 days.",
+  "windowDecision": "Retain [2025-04-18, 2025-05-15) as a defensible conditional 27-day hypothesis per airport; no approval."
+}
