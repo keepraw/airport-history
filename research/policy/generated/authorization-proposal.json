@@ -4,6 +4,7 @@
     "scopeSha256",
     "executorSha256"
   ],
+  "authorizationSource": "https://github.com/keepraw/airport-history/issues/19#issuecomment-6513409968",
   "authorizationText": "Authorize policy official-aip-bounded-icao@1.0.0 sha256:3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958 scope-sha256:6242a7bfaa66700aefc925bc8a3532f9ad62ca81334b156509835616419d1cb3 executor-sha256:2415279526ff8c0eaf9ee1b3ee5afca8bde26e95bfac2c98930212f9f7992a3f. Allow future low-risk records in this exact scope to be policy-reviewed and proposed in PRs. Human merge required.",
   "executor": {
     "executorSha256": "2415279526ff8c0eaf9ee1b3ee5afca8bde26e95bfac2c98930212f9f7992a3f",
@@ -33,7 +34,7 @@
   },
   "formatVersion": 1,
   "mediumBatchAuthorizationTexts": [
-    "Authorize batch sha256:3477c3a4598319b9f5010d68ff5a2dd8531fe03ab75dd70e8df91d99620fb42f baseline-sha256:1beec87eac60c8f844a5756073811edadbfb6d4a831fb4f03ce5552796ce539b. Executor sha256:2415279526ff8c0eaf9ee1b3ee5afca8bde26e95bfac2c98930212f9f7992a3f. Accept only this exact medium-risk record list and its stated residual risks. Human merge required."
+    "Authorize batch sha256:f59417e07f2d3b39d14dfa1c21271bce3506babaa96755bf00a7dde7a5906516 baseline-sha256:1beec87eac60c8f844a5756073811edadbfb6d4a831fb4f03ce5552796ce539b. Executor sha256:2415279526ff8c0eaf9ee1b3ee5afca8bde26e95bfac2c98930212f9f7992a3f. Accept only this exact medium-risk record list and its stated residual risks. Human merge required."
   ],
   "parameters": {
     "arpToleranceDegrees": 1e-08,
@@ -76,5 +77,5 @@
     "urlPrefix": "https://aim-india.aai.aero/eAIP_Archive/"
   },
   "scopeSha256": "6242a7bfaa66700aefc925bc8a3532f9ad62ca81334b156509835616419d1cb3",
-  "status": "proposed_not_authorized"
+  "status": "authorized"
 }

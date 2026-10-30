@@ -6,6 +6,7 @@ Independent private-original replay is a separate explicit acquisition check.
 from copy import deepcopy
 import hashlib
 import json
+import shutil
 import sys
 import tempfile
 from pathlib import Path
@@ -19,6 +20,7 @@ import policy_review as engine
 import policy_gate as gate
 import policy_executor as executor
 import policy_originals as originals
+import policy_report as report
 from policy_originals import validate_offline
 from admissions import validate_admission
 
@@ -57,6 +59,97 @@ class PolicyTests(unittest.TestCase):
         self.assertEqual(len(positive), 6)
         self.assertEqual(sum(d['risk'] == 'medium' for d in positive), 5)
         self.assertEqual(next(d for d in positive if d['code'] == 'LELC')['risk'], 'insufficient')
+
+    def test_report_rebuild_after_draft_to_authorized_preserves_exact_grant(self):
+        paths = [engine.DIRECTORY / name for name in
+                 ('policy.json', 'authorizations.json', 'batch-authorizations.json')]
+        before = {p: p.read_bytes() for p in paths}
+        registered = engine.load(paths[1])
+        self.assertEqual(len(registered['authorizations']), 1)
+        real_load = report.load
+        rendered = {}
+        for status in ('draft', 'authorized'):
+            policy = deepcopy(self.inputs[0]); policy['status'] = status
+            registry = registered if status == 'authorized' else {'formatVersion': 1, 'authorizations': []}
+            staged_load = lambda p: registry if p == paths[1] else real_load(p)
+            with patch.object(report, 'inputs', return_value=(policy, *self.inputs[1:])), \
+                 patch.object(report, 'load', side_effect=staged_load), \
+                 patch.object(gate, 'load', side_effect=staged_load), \
+                 patch.object(gate, 'AUTHORITY', self.saved_authority):
+                rendered[status] = report.artifacts()
+            text, _ = rendered[status]
+            self.assertIn(f'当前状态 `{status}`', text)
+            self.assertIn(f"有效 owner 政策授权 {len(registry['authorizations'])} 条，批次授权登记 0 条", text)
+            self.assertEqual(rendered[status][1]['status'],
+                             'authorized' if status == 'authorized' else 'proposed_not_authorized')
+        authorized_text, _ = rendered['authorized']
+        self.assertIn(registered['authorizations'][0]['authorizationSource'], authorized_text)
+        self.assertNotIn('真实 policy.json 仍为 draft', authorized_text)
+        self.assertNotIn('没有新增政策或批次授权', authorized_text)
+        for key in ('authorizationText', 'policySha256', 'scopeSha256', 'executor'):
+            self.assertEqual(rendered['draft'][1][key], rendered['authorized'][1][key])
+        with tempfile.TemporaryDirectory() as tmp:
+            directory = Path(tmp)
+            shutil.copytree(engine.DIRECTORY / 'generated', directory / 'generated')
+            with patch.object(report, 'DIRECTORY', directory):
+                with patch.object(report, 'artifacts', return_value=rendered['draft']):
+                    report.main('build'); report.main('validate')
+                with patch.object(report, 'artifacts', return_value=rendered['authorized']):
+                    with self.assertRaisesRegex(ValueError, 'Stale policy report/proposal'):
+                        report.main('validate')
+                    report.main('build'); report.main('validate')
+                    first = {p.name: p.read_bytes() for p in (directory / 'generated').iterdir()}
+                    report.main('build'); report.main('validate')
+                    self.assertEqual(first, {p.name: p.read_bytes() for p in (directory / 'generated').iterdir()})
+        self.assertEqual(before, {p: p.read_bytes() for p in paths})
+
+    def test_report_authorized_state_requires_a_valid_unique_registry(self):
+        policy = deepcopy(self.inputs[0]); policy['status'] = 'authorized'
+        registry_path = engine.DIRECTORY / 'authorizations.json'
+        registered = engine.load(registry_path)
+        real_load = report.load
+        for mutation in ('missing', 'duplicate', 'principal', 'text', 'executor'):
+            registry = deepcopy(registered)
+            if mutation == 'missing': registry['authorizations'] = []
+            elif mutation == 'duplicate': registry['authorizations'] *= 2
+            elif mutation == 'principal': registry['authorizations'][0]['authorizedBy']['githubUserId'] = -1
+            elif mutation == 'text': registry['authorizations'][0]['authorizationText'] += ' broaden scope'
+            else: registry['authorizations'][0]['executorSha256'] = '0'*64
+            staged_load = lambda p: registry if p == registry_path else real_load(p)
+            with self.subTest(mutation=mutation), \
+                 patch.object(report, 'load', side_effect=staged_load), \
+                 patch.object(gate, 'load', side_effect=staged_load), \
+                 patch.object(gate, 'AUTHORITY', self.saved_authority), \
+                 self.assertRaises(ValueError):
+                report.lifecycle_state(policy)
+
+    def test_report_counts_only_policy_bundle_facts_present_in_formal_data(self):
+        policy = deepcopy(self.inputs[0]); policy['status'] = 'authorized'
+        base = self.inputs[2]
+        candidate = engine.proposed_dataset(self.decisions, verified=True)
+        added = candidate['assignments'][-1]
+        dossier = [{'recordId': added['assignmentId'], 'reviewMode': 'policy', 'reviewer': None}]
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            bundle = root / 'research/admissions' / candidate['dataVersion']
+            engine.write_json(bundle / 'proposed-data.json', candidate)
+            engine.write_json(bundle / 'dossier.json', dossier)
+            receipt = {'policyId': policy['policyId'], 'policyVersion': policy['policyVersion'],
+                       'reviewMode': 'policy', 'datasetSha256': engine.sha(candidate),
+                       'dossierSha256': engine.sha(dossier)}
+            engine.write_json(bundle / 'policy-receipt.json', receipt)
+            with patch.object(report, 'ROOT', root), patch.object(gate, 'AUTHORITY', self.saved_authority):
+                engine.write_json(root / 'data/airports.json', base)
+                self.assertEqual(report.lifecycle_state(policy)[3], [])
+                engine.write_json(root / 'data/airports.json', candidate)
+                self.assertEqual(report.lifecycle_state(policy)[3], [candidate['dataVersion']])
+                altered = deepcopy(candidate); altered['assignments'][-1]['note'] += ' changed'
+                engine.write_json(root / 'data/airports.json', altered)
+                self.assertEqual(report.lifecycle_state(policy)[3], [])
+                receipt['dossierSha256'] = '0'*64
+                engine.write_json(bundle / 'policy-receipt.json', receipt)
+                with self.assertRaisesRegex(ValueError, 'Invalid recorded policy admission bundle'):
+                    report.lifecycle_state(policy)
 
     def test_exact_local_window_and_boundary_limits(self):
         f = self.fixture()
