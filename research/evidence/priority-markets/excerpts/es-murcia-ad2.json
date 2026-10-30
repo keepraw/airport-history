@@ -1,0 +1,32 @@
+{
+  "extractedTextSha256": "54d2e70af2ab53979034f9ddab8f4ddffae249556aa24fcf985cd6666b476575",
+  "normalizedTextSha256": "813c4c2a6c6e6670a9537d75353b96c3eef152fd0e8b247988579ef336773111",
+  "originalSha256": "b816f988a33b2bde62e68b297239ff4b8999483a892df7ff774c1bf60987fa4d",
+  "sourceId": "es-murcia-ad2",
+  "spans": [
+    {
+      "characterEnd": 36,
+      "characterStart": 23,
+      "citationId": "es-murcia-ad2-q1",
+      "page": 1,
+      "quote": "WEF 11-JUN-26",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 163,
+      "characterStart": 116,
+      "citationId": "es-murcia-ad2-q2",
+      "page": 1,
+      "quote": "LEMI - MURCIA/Aeropuerto de la Región de Murcia",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 246,
+      "characterStart": 225,
+      "citationId": "es-murcia-ad2-q3",
+      "page": 1,
+      "quote": "ARP 374811N 0010729W.",
+      "representation": "normalized_text"
+    }
+  ]
+}

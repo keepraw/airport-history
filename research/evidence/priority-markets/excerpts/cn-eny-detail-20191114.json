@@ -1,0 +1,24 @@
+{
+  "extractedTextSha256": "284f03f91248a49ee324dd72eb1833526309f6d646156af2710bbd90eff669ea",
+  "normalizedTextSha256": "762b7910a68642d6afb061fbfdf63d9ed630d456637c4c2511002709fc47da4c",
+  "originalSha256": "34e99aa27684c517deb6e5d7f74396b97d54ff06746eff146d26ae0d5f239b04",
+  "sourceId": "cn-eny-detail-20191114",
+  "spans": [
+    {
+      "characterEnd": 431,
+      "characterStart": 409,
+      "citationId": "cn-eny-detail-20191114-q1",
+      "page": null,
+      "quote": "延安二十里铺机场原为民航西北管理局直属航站。",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 27149,
+      "characterStart": 27094,
+      "citationId": "cn-eny-detail-20191114-q2",
+      "page": null,
+      "quote": "<a href=\"https://flights.ch.com/airports/ENY/\">延安机场</a>",
+      "representation": "decoded_html"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "cn-site-code-association": {
+    "adapter": "cn_association_v1",
+    "authorization": null,
+    "executorFiles": {
+      "scripts/evidence/priority_market_coverage.ts": "bf443d2b471a53e8876d92e9fdaa725b98e7335ed2db1970e8b9577c3fe5f4d6",
+      "scripts/evidence/priority_markets.py": "bfe349d9461d8276fd432b27a71243acb9a604f3666011d6c565484c0f03f4e8"
+    },
+    "executorSha256": "5c4e232c9a5156a1a49cf0373f4193958ca78b87dd9799d8c7847077f8d0ab5c",
+    "policySha256": "58ad21bbfb3a388bd3c74a90747f4fd8760e4833ad1c78248d70c825926d8ee0",
+    "productionBound": false,
+    "scopeSha256": "e7c24106567251892afe5c0d1f059ec73753e9ec6ee68a7583d84038177e84e9",
+    "status": "draft"
+  },
+  "de-operator-event": {
+    "adapter": "de_operator_v1",
+    "authorization": null,
+    "executorFiles": {
+      "scripts/evidence/priority_market_coverage.ts": "bf443d2b471a53e8876d92e9fdaa725b98e7335ed2db1970e8b9577c3fe5f4d6",
+      "scripts/evidence/priority_markets.py": "bfe349d9461d8276fd432b27a71243acb9a604f3666011d6c565484c0f03f4e8"
+    },
+    "executorSha256": "5c4e232c9a5156a1a49cf0373f4193958ca78b87dd9799d8c7847077f8d0ab5c",
+    "policySha256": "60f1d05e21817d62139e77a3f2324056550cbef22b7a546c5503ab7b02d98219",
+    "productionBound": false,
+    "scopeSha256": "ed439185fa7442d6f94421a35bf609ac0342e5c76e4112472fa740dea3f508c3",
+    "status": "draft"
+  },
+  "es-enaire-bounded-icao": {
+    "adapter": "es_enaire_v1",
+    "authorization": null,
+    "executorFiles": {
+      "scripts/evidence/priority_market_coverage.ts": "bf443d2b471a53e8876d92e9fdaa725b98e7335ed2db1970e8b9577c3fe5f4d6",
+      "scripts/evidence/priority_markets.py": "bfe349d9461d8276fd432b27a71243acb9a604f3666011d6c565484c0f03f4e8"
+    },
+    "executorSha256": "5c4e232c9a5156a1a49cf0373f4193958ca78b87dd9799d8c7847077f8d0ab5c",
+    "policySha256": "e28d89abf5b75da55b72d12ee1c323ddd8a0b1995bdb122684fdf82f7618c089",
+    "productionBound": false,
+    "scopeSha256": "497c84751cda80b254e3986feda2d40922f2cccae315a3dcadcecab85e71dca6",
+    "status": "draft"
+  },
+  "jp-operator-code-site": {
+    "adapter": "jp_operator_v1",
+    "authorization": null,
+    "executorFiles": {
+      "scripts/evidence/priority_market_coverage.ts": "bf443d2b471a53e8876d92e9fdaa725b98e7335ed2db1970e8b9577c3fe5f4d6",
+      "scripts/evidence/priority_markets.py": "bfe349d9461d8276fd432b27a71243acb9a604f3666011d6c565484c0f03f4e8"
+    },
+    "executorSha256": "5c4e232c9a5156a1a49cf0373f4193958ca78b87dd9799d8c7847077f8d0ab5c",
+    "policySha256": "3a206c1024d941db204008b42ec72b9eec895744c5c1343df7837d57884003e7",
+    "productionBound": false,
+    "scopeSha256": "045a571e36c01441cff54a5d6e7d9f407629d4fb26d53d794703b9d25031929c",
+    "status": "draft"
+  },
+  "kr-molit-bounded-icao": {
+    "adapter": "kr_airac_v1",
+    "authorization": null,
+    "executorFiles": {
+      "scripts/evidence/priority_market_coverage.ts": "bf443d2b471a53e8876d92e9fdaa725b98e7335ed2db1970e8b9577c3fe5f4d6",
+      "scripts/evidence/priority_markets.py": "bfe349d9461d8276fd432b27a71243acb9a604f3666011d6c565484c0f03f4e8"
+    },
+    "executorSha256": "5c4e232c9a5156a1a49cf0373f4193958ca78b87dd9799d8c7847077f8d0ab5c",
+    "policySha256": "3c012b62768fb4de9cfdd927c884f19a40913c719aee91365272dca6742a218f",
+    "productionBound": false,
+    "scopeSha256": "e854e54bf4d61556fd01492da9f60b6bd7eaef9bf030313a40feca6239a50e20",
+    "status": "draft"
+  },
+  "uk-nats-bounded-icao": {
+    "adapter": "uk_nats_v1",
+    "authorization": null,
+    "executorFiles": {
+      "scripts/evidence/priority_market_coverage.ts": "bf443d2b471a53e8876d92e9fdaa725b98e7335ed2db1970e8b9577c3fe5f4d6",
+      "scripts/evidence/priority_markets.py": "bfe349d9461d8276fd432b27a71243acb9a604f3666011d6c565484c0f03f4e8"
+    },
+    "executorSha256": "5c4e232c9a5156a1a49cf0373f4193958ca78b87dd9799d8c7847077f8d0ab5c",
+    "policySha256": "1977a94e83069d755cdc6f7c234b49748737bd0c535e033e0fbd1e629aa07e56",
+    "productionBound": false,
+    "scopeSha256": "f1522bccd87d703cc04dda9f5018a1b9ef8c77805677dec625d5325fa5fdb3c2",
+    "status": "draft"
+  },
+  "us-faa-typed-identifier": {
+    "adapter": "us_faa_v1",
+    "authorization": null,
+    "executorFiles": {
+      "scripts/evidence/priority_market_coverage.ts": "bf443d2b471a53e8876d92e9fdaa725b98e7335ed2db1970e8b9577c3fe5f4d6",
+      "scripts/evidence/priority_markets.py": "bfe349d9461d8276fd432b27a71243acb9a604f3666011d6c565484c0f03f4e8"
+    },
+    "executorSha256": "5c4e232c9a5156a1a49cf0373f4193958ca78b87dd9799d8c7847077f8d0ab5c",
+    "policySha256": "b30a6a4993acc388d462db96a4992c51c06a6002f162ddc3f41d84d96587da08",
+    "productionBound": false,
+    "scopeSha256": "419305393e4b3a1f6694c655246ec338468449848e1a632fb4757e7a1deab5a9",
+    "status": "draft"
+  }
+}

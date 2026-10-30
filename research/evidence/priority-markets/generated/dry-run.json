@@ -1,0 +1,408 @@
+{
+  "decisions": [
+    {
+      "adapter": "cn_association_v1",
+      "authorization": null,
+      "caseKey": "luzhou",
+      "policyId": "cn-site-code-association",
+      "productionEligible": false,
+      "reasons": [
+        "no_date_validity_from_directory_or_capture"
+      ],
+      "reviewer": null,
+      "sampleId": "cn-lzo-old-association",
+      "sourceIds": [
+        "cn-lzo-detail-20191117"
+      ],
+      "status": "association_only"
+    },
+    {
+      "adapter": "cn_association_v1",
+      "authorization": null,
+      "caseKey": "luzhou",
+      "policyId": "cn-site-code-association",
+      "productionEligible": false,
+      "reasons": [
+        "missing_named_site_or_administrative_date_original"
+      ],
+      "reviewer": null,
+      "sampleId": "cn-lzo-capture-as-validity",
+      "sourceIds": [
+        "cn-lzo-detail-20191117"
+      ],
+      "status": "hold"
+    },
+    {
+      "adapter": "cn_association_v1",
+      "authorization": null,
+      "caseKey": "lianyungang",
+      "policyId": "cn-site-code-association",
+      "productionEligible": false,
+      "reasons": [
+        "no_date_validity_from_directory_or_capture"
+      ],
+      "reviewer": null,
+      "sampleId": "cn-lyg-old-association",
+      "sourceIds": [
+        "cn-lyg-20210922"
+      ],
+      "status": "association_only"
+    },
+    {
+      "adapter": "cn_association_v1",
+      "authorization": null,
+      "caseKey": "zhanjiang",
+      "policyId": "cn-site-code-association",
+      "productionEligible": false,
+      "reasons": [
+        "missing_named_site_or_administrative_date_original"
+      ],
+      "reviewer": null,
+      "sampleId": "cn-zha-unlocated",
+      "sourceIds": [
+        "cn-zha-detail-20191113"
+      ],
+      "status": "hold"
+    },
+    {
+      "adapter": "cn_association_v1",
+      "authorization": null,
+      "caseKey": "yibin",
+      "policyId": "cn-site-code-association",
+      "productionEligible": false,
+      "reasons": [
+        "future_effective_publication"
+      ],
+      "reviewer": null,
+      "sampleId": "cn-future-meteorology",
+      "sourceIds": [
+        "cn-met-2026"
+      ],
+      "status": "hold"
+    },
+    {
+      "adapter": "cn_association_v1",
+      "authorization": null,
+      "caseKey": "ankang",
+      "policyId": "cn-site-code-association",
+      "productionEligible": false,
+      "reasons": [
+        "missing_named_site_or_administrative_date_original"
+      ],
+      "reviewer": null,
+      "sampleId": "cn-city-only-old-met",
+      "sourceIds": [
+        "cn-met-2009"
+      ],
+      "status": "hold"
+    },
+    {
+      "adapter": "jp_operator_v1",
+      "authorization": null,
+      "caseKey": "chubu",
+      "policyId": "jp-operator-code-site",
+      "productionEligible": false,
+      "reasons": [
+        "undated_operator_profile_no_historical_interpolation"
+      ],
+      "reviewer": null,
+      "sampleId": "jp-ngo-typed-pair",
+      "sourceIds": [
+        "jp-centrair-outline"
+      ],
+      "status": "association_only"
+    },
+    {
+      "adapter": "jp_operator_v1",
+      "authorization": null,
+      "caseKey": "chubu",
+      "policyId": "jp-operator-code-site",
+      "productionEligible": false,
+      "reasons": [
+        "opening_or_physical_profile_is_not_code_allocation"
+      ],
+      "reviewer": null,
+      "sampleId": "jp-opening-as-allocation",
+      "sourceIds": [
+        "jp-centrair-2005"
+      ],
+      "status": "hold"
+    },
+    {
+      "adapter": "jp_operator_v1",
+      "authorization": null,
+      "caseKey": "komaki",
+      "policyId": "jp-operator-code-site",
+      "productionEligible": false,
+      "reasons": [
+        "opening_or_physical_profile_is_not_code_allocation"
+      ],
+      "reviewer": null,
+      "sampleId": "jp-nkm-missing-code",
+      "sourceIds": [
+        "jp-nagoya-outline"
+      ],
+      "status": "hold"
+    },
+    {
+      "adapter": "kr_airac_v1",
+      "arp": "372745N 1262621E",
+      "authorization": null,
+      "caseKey": "incheon",
+      "code": "RKSI",
+      "distinctEditionOriginals": 2,
+      "independentIssuers": 1,
+      "label": "Incheon International Airport",
+      "namespace": "ICAO",
+      "observationGapDays": 28.0,
+      "policyId": "kr-molit-bounded-icao",
+      "productionEligible": false,
+      "proposedWindow": {
+        "from": "2025-04-18",
+        "toExclusive": "2025-05-15",
+        "wholeLocalDates": 27
+      },
+      "reasons": [
+        "draft_not_authorized",
+        "physical_identity_review_pending",
+        "intervening_amendment_and_notam_screening_pending"
+      ],
+      "reviewer": null,
+      "sampleId": "kr-rksi-pair",
+      "simulationAirportId": "apt_40df8480-128d-4f4f-8aad-fd8b04506590",
+      "sourceIds": [
+        "kr-rksi-2025-04-16",
+        "kr-rksi-2025-05-14",
+        "kr-history"
+      ],
+      "status": "draft_window",
+      "timezoneCalculation": "Asia/Seoul; 16:00 UTC = 01:00 next Korean date; exclude both partial edge dates"
+    },
+    {
+      "adapter": "kr_airac_v1",
+      "authorization": null,
+      "caseKey": "incheon",
+      "policyId": "kr-molit-bounded-icao",
+      "productionEligible": false,
+      "reasons": [
+        "publication_or_utc_effective_anchor_missing",
+        "observation_gap_exceeds_independent_korean_draft_limit"
+      ],
+      "reviewer": null,
+      "sampleId": "kr-rksi-long-gap",
+      "sourceIds": [
+        "kr-rksi-2025-04-16",
+        "kr-rksi-2026",
+        "kr-history"
+      ],
+      "status": "hold"
+    },
+    {
+      "adapter": "kr_airac_v1",
+      "arp": "373325N 1264751E",
+      "authorization": null,
+      "caseKey": "gimpo",
+      "code": "RKSS",
+      "distinctEditionOriginals": 2,
+      "independentIssuers": 1,
+      "label": "Gimpo International Airport",
+      "namespace": "ICAO",
+      "observationGapDays": 28.0,
+      "policyId": "kr-molit-bounded-icao",
+      "productionEligible": false,
+      "proposedWindow": {
+        "from": "2025-04-18",
+        "toExclusive": "2025-05-15",
+        "wholeLocalDates": 27
+      },
+      "reasons": [
+        "draft_not_authorized",
+        "physical_identity_review_pending",
+        "intervening_amendment_and_notam_screening_pending"
+      ],
+      "reviewer": null,
+      "sampleId": "kr-rkss-pair",
+      "simulationAirportId": "apt_9d03ac66-9295-4570-ae61-0f7163b34f2e",
+      "sourceIds": [
+        "kr-rkss-2025-04-16",
+        "kr-rkss-2025-05-14",
+        "kr-history"
+      ],
+      "status": "draft_window",
+      "timezoneCalculation": "Asia/Seoul; 16:00 UTC = 01:00 next Korean date; exclude both partial edge dates"
+    },
+    {
+      "adapter": "kr_airac_v1",
+      "authorization": null,
+      "caseKey": "gimpo",
+      "policyId": "kr-molit-bounded-icao",
+      "productionEligible": false,
+      "reasons": [
+        "publication_or_utc_effective_anchor_missing",
+        "observation_gap_exceeds_independent_korean_draft_limit"
+      ],
+      "reviewer": null,
+      "sampleId": "kr-rkss-long-gap",
+      "sourceIds": [
+        "kr-rkss-2025-04-16",
+        "kr-rkss-2026",
+        "kr-history"
+      ],
+      "status": "hold"
+    },
+    {
+      "adapter": "kr_airac_v1",
+      "authorization": null,
+      "caseKey": "incheon",
+      "policyId": "kr-molit-bounded-icao",
+      "productionEligible": false,
+      "reasons": [
+        "source_or_code_outside_draft_case_scope"
+      ],
+      "reviewer": null,
+      "sampleId": "kr-mixed-physical-sites",
+      "sourceIds": [
+        "kr-rksi-2025-04-16",
+        "kr-rkss-2025-05-14",
+        "kr-history"
+      ],
+      "status": "hold"
+    },
+    {
+      "adapter": "us_faa_v1",
+      "authorization": null,
+      "caseKey": "williston",
+      "policyId": "us-faa-typed-identifier",
+      "productionEligible": false,
+      "reasons": [
+        "faa_identifier_is_not_iata_assignment"
+      ],
+      "reviewer": null,
+      "sampleId": "us-faa-to-iata",
+      "sourceIds": [
+        "us-order-2023"
+      ],
+      "status": "hold"
+    },
+    {
+      "adapter": "us_faa_v1",
+      "authorization": null,
+      "caseKey": "williston",
+      "policyId": "us-faa-typed-identifier",
+      "productionEligible": false,
+      "reasons": [
+        "national_rule_not_airport_specific_assignment"
+      ],
+      "reviewer": null,
+      "sampleId": "us-faa-namespace-rule",
+      "sourceIds": [
+        "us-order-2023"
+      ],
+      "status": "typed_rule_only"
+    },
+    {
+      "adapter": "uk_nats_v1",
+      "authorization": null,
+      "caseKey": "doncaster",
+      "policyId": "uk-nats-bounded-icao",
+      "productionEligible": false,
+      "reasons": [
+        "airport_page_exists_after_service_stop_without_proving_service_or_withdrawal"
+      ],
+      "reviewer": null,
+      "sampleId": "uk-egcn-two-editions",
+      "sourceIds": [
+        "uk-dsa-2022",
+        "uk-dsa-2023"
+      ],
+      "status": "association_only"
+    },
+    {
+      "adapter": "uk_nats_v1",
+      "authorization": null,
+      "caseKey": "doncaster",
+      "policyId": "uk-nats-bounded-icao",
+      "productionEligible": false,
+      "reasons": [
+        "documented_service_stop_requires_notam_and_licence_review_before_interpolation"
+      ],
+      "reviewer": null,
+      "sampleId": "uk-closure-interpolation",
+      "sourceIds": [
+        "uk-dsa-2022",
+        "uk-dsa-2023"
+      ],
+      "status": "hold"
+    },
+    {
+      "adapter": "es_enaire_v1",
+      "authorization": null,
+      "caseKey": "murcia",
+      "policyId": "es-enaire-bounded-icao",
+      "productionEligible": false,
+      "reasons": [
+        "distinct_physical_sites_current_associations_only"
+      ],
+      "reviewer": null,
+      "sampleId": "es-murcia-distinct-pair",
+      "sourceIds": [
+        "es-murcia-ad2",
+        "es-old-ad2",
+        "es-ad-index"
+      ],
+      "status": "association_only"
+    },
+    {
+      "adapter": "es_enaire_v1",
+      "authorization": null,
+      "caseKey": "murcia",
+      "policyId": "es-enaire-bounded-icao",
+      "productionEligible": false,
+      "reasons": [
+        "page_revision_plus_current_index_is_not_two_historical_edition_observations"
+      ],
+      "reviewer": null,
+      "sampleId": "es-page-revision-as-window",
+      "sourceIds": [
+        "es-murcia-ad2",
+        "es-ad-index"
+      ],
+      "status": "hold"
+    },
+    {
+      "adapter": "de_operator_v1",
+      "authorization": null,
+      "caseKey": "berlin",
+      "policyId": "de-operator-event",
+      "productionEligible": false,
+      "reasons": [
+        "booking_service_and_permit_events_are_not_administrative_code_withdrawal"
+      ],
+      "reviewer": null,
+      "sampleId": "de-booking-change",
+      "sourceIds": [
+        "de-ber-history",
+        "de-tegel-history"
+      ],
+      "status": "event_only"
+    },
+    {
+      "adapter": "de_operator_v1",
+      "authorization": null,
+      "caseKey": "berlin",
+      "policyId": "de-operator-event",
+      "productionEligible": false,
+      "reasons": [
+        "service_stop_does_not_prove_code_withdrawal"
+      ],
+      "reviewer": null,
+      "sampleId": "de-service-stop-as-withdrawal",
+      "sourceIds": [
+        "de-tegel-history"
+      ],
+      "status": "hold"
+    }
+  ],
+  "mode": "unauthorized_dry_run",
+  "productionEligibleRecords": 0
+}

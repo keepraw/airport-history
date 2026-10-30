@@ -1,0 +1,32 @@
+{
+  "extractedTextSha256": "d756b74cc88472fd9856d79932fc88031a8589d6ef4e5adf6fca48beb86f1442",
+  "normalizedTextSha256": "f3c63e67966dd7e8b8f1e015087f782128623b03dc16c039b867b98be32dd3ae",
+  "originalSha256": "52a2822966a047378828681bf03247fe98d89e999acb888b9e59c6d73a7ee838",
+  "sourceId": "jp-centrair-outline",
+  "spans": [
+    {
+      "characterEnd": 668,
+      "characterStart": 657,
+      "citationId": "jp-centrair-outline-q1",
+      "page": null,
+      "quote": "空港名称 中部国際空港",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 729,
+      "characterStart": 708,
+      "citationId": "jp-centrair-outline-q2",
+      "page": null,
+      "quote": "IATA/ICAOコード NGO/RJGG",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 757,
+      "characterStart": 730,
+      "citationId": "jp-centrair-outline-q3",
+      "page": null,
+      "quote": "空港位置 34.51.30N / 136.48.19E",
+      "representation": "normalized_text"
+    }
+  ]
+}

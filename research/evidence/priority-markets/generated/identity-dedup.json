@@ -1,0 +1,95 @@
+{
+  "basis": "actual published 0.10.0 dataset and pre-existing research IDs",
+  "newPermanentPhysicalIdsAllocated": 0,
+  "pendingChinaSiteIds": {
+    "ankang": {
+      "ankang-new": "apt_68a848c7-9db9-4233-b0d9-65eb7ed7407e",
+      "ankang-old": "apt_0dc2a2f7-1222-46d2-afac-c16cbddb24d6"
+    },
+    "lianyungang": {
+      "lianyungang-new": "apt_64b5eaa6-a984-4816-86d9-d8eb71c91451",
+      "lianyungang-old": "apt_6f1a6ff3-98db-4e58-95fc-cc78bd5aa836"
+    },
+    "luzhou": {
+      "luzhou-new": "apt_f11bdf7d-d81d-46fc-a94f-8c8c42d4e245",
+      "luzhou-old": "apt_56b57bca-08d5-4b5e-944e-1e9cce968a0a"
+    },
+    "yanan": {
+      "yanan-new": "apt_ebdabf02-ae37-4295-9667-39ea914e3c05",
+      "yanan-old": "apt_8deac363-2415-499d-8308-8f10de2528c8"
+    },
+    "yibin": {
+      "yibin-new": "apt_8354da99-7d18-4329-bf7b-4ed042a4ad72",
+      "yibin-old": "apt_bbf9f2c1-fc01-4ed7-a4aa-74e6ed8ca45f"
+    },
+    "zhanjiang": {}
+  },
+  "rows": [
+    {
+      "action": "preserve all IDs; no new identity and no merge",
+      "caseKey": "qingdao",
+      "formalAirports": [
+        {
+          "airportId": "apt_f470ecb5-c6dc-4516-a233-37302da2115b",
+          "name": "Qingdao Liuting International Airport"
+        },
+        {
+          "airportId": "apt_6729d2b2-4b79-48c8-9c42-0d4eeba121b8",
+          "name": "Qingdao Jiaodong International Airport"
+        }
+      ]
+    },
+    {
+      "action": "preserve all IDs; no new identity and no merge",
+      "caseKey": "yantai",
+      "formalAirports": [
+        {
+          "airportId": "apt_7923bd7d-2855-4d5f-b979-63a5380cd3da",
+          "name": "Yantai Laishan Airport"
+        },
+        {
+          "airportId": "apt_0f0ebbe2-ce55-4b70-8d22-c760fe94777e",
+          "name": "Yantai Penglai International Airport"
+        }
+      ]
+    },
+    {
+      "action": "preserve all IDs; no new identity and no merge",
+      "caseKey": "williston",
+      "formalAirports": [
+        {
+          "airportId": "apt_ba1f9f8c-1849-4092-9e91-d641bddb6bc6",
+          "name": "Sloulin Field International Airport"
+        },
+        {
+          "airportId": "apt_661b72ea-f84d-4cec-ae34-fddd5e579b3d",
+          "name": "Williston Basin International Airport"
+        }
+      ]
+    },
+    {
+      "action": "preserve all IDs; no new identity and no merge",
+      "caseKey": "murcia",
+      "formalAirports": [
+        {
+          "airportId": "apt_f50aecf6-9778-4db7-9027-0e751ffab63a",
+          "name": "Region of Murcia International Airport"
+        },
+        {
+          "airportId": "apt_a456f7d0-80f7-48b2-81b0-0d762d5d4b12",
+          "name": "San Javier Airport"
+        }
+      ]
+    },
+    {
+      "action": "preserve all IDs; no new identity and no merge",
+      "caseKey": "berlin",
+      "formalAirports": [
+        {
+          "airportId": "apt_f642eef8-1864-43c4-8944-47aaa7ac35ce",
+          "name": "Berlin Brandenburg Airport"
+        }
+      ]
+    }
+  ]
+}

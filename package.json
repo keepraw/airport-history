@@ -15,6 +15,7 @@
     "test": "vitest run",
     "build": "node scripts/build.ts",
     "check": "pnpm typecheck && pnpm validate:data && pnpm validate:admission && pnpm test && pnpm test:research && pnpm research:validate && pnpm reference:validate && pnpm test:reference && pnpm evidence:validate && pnpm evidence:global validate && pnpm evidence:markets validate && pnpm evidence:transfers validate && pnpm evidence:first-admission validate && pnpm policy:validate && pnpm evidence:history && pnpm test:evidence && pnpm build",
+    "evidence:priority-markets": "python3 scripts/evidence/priority_markets.py",
     "policy:build": "python3 scripts/evidence/policy_review.py build && node scripts/evidence/policy_coverage.ts build && python3 scripts/evidence/policy_report.py build",
     "policy:validate": "python3 scripts/evidence/policy_review.py validate && python3 scripts/evidence/policy_originals.py offline && node scripts/evidence/policy_coverage.ts validate && python3 scripts/evidence/policy_report.py validate",
     "policy:originals": "python3 scripts/evidence/policy_originals.py verify",

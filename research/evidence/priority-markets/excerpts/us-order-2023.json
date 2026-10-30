@@ -1,0 +1,40 @@
+{
+  "extractedTextSha256": "3c6855a92494748f44995057fc95a7f02316118de1d01ccc2a5e9af09cbd74e2",
+  "normalizedTextSha256": "1adc59e0e4074f3b0dfc9a4d0a8b3ac431d9b188dd42b959b7bfe1c961f758d0",
+  "originalSha256": "98b00d028e10f5920c485cc5f8ac94227f323954a4ec57c803ce24d0d6999efb",
+  "sourceId": "us-order-2023",
+  "spans": [
+    {
+      "characterEnd": 141,
+      "characterStart": 116,
+      "citationId": "us-order-2023-q1",
+      "page": 1,
+      "quote": "Effective date: 1/25/2024",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 10329,
+      "characterStart": 10194,
+      "citationId": "us-order-2023-q2",
+      "page": 6,
+      "quote": "Location identifiers are not interchangeable and non-transferrable from one airport location to another even within the same community.",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 11589,
+      "characterStart": 11443,
+      "citationId": "us-order-2023-q3",
+      "page": 6,
+      "quote": "Airport Location Identifiers are not associated with IATA codes and such requests to match Location Identification with IATA codes will be denied.",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 29353,
+      "characterStart": 29238,
+      "citationId": "us-order-2023-q4",
+      "page": 17,
+      "quote": "The location indicator for airports in the contiguous United States is the three-letter identifier preceded by “K”.",
+      "representation": "normalized_text"
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "formatVersion": 1,
+  "samples": [
+    {
+      "caseKey": "luzhou",
+      "code": "LZO",
+      "expected": "association_only",
+      "namespace": "IATA",
+      "policyId": "cn-site-code-association",
+      "request": "association",
+      "sampleId": "cn-lzo-old-association",
+      "siteToken": "泸州蓝田机场",
+      "sourceIds": [
+        "cn-lzo-detail-20191117"
+      ]
+    },
+    {
+      "caseKey": "luzhou",
+      "code": "LZO",
+      "expected": "hold",
+      "namespace": "IATA",
+      "policyId": "cn-site-code-association",
+      "request": "date_window",
+      "sampleId": "cn-lzo-capture-as-validity",
+      "sourceIds": [
+        "cn-lzo-detail-20191117"
+      ]
+    },
+    {
+      "caseKey": "lianyungang",
+      "code": "LYG",
+      "expected": "association_only",
+      "namespace": "IATA",
+      "policyId": "cn-site-code-association",
+      "request": "association",
+      "sampleId": "cn-lyg-old-association",
+      "siteToken": "连云港白塔埠机场",
+      "sourceIds": [
+        "cn-lyg-20210922"
+      ]
+    },
+    {
+      "caseKey": "zhanjiang",
+      "code": "ZHA",
+      "expected": "hold",
+      "namespace": "IATA",
+      "policyId": "cn-site-code-association",
+      "request": "association",
+      "sampleId": "cn-zha-unlocated",
+      "siteToken": "吴川",
+      "sourceIds": [
+        "cn-zha-detail-20191113"
+      ]
+    },
+    {
+      "caseKey": "yibin",
+      "code": "ZUYB",
+      "expected": "hold",
+      "namespace": "ICAO",
+      "policyId": "cn-site-code-association",
+      "request": "date_window",
+      "sampleId": "cn-future-meteorology",
+      "sourceIds": [
+        "cn-met-2026"
+      ]
+    },
+    {
+      "caseKey": "ankang",
+      "code": "ZLAK",
+      "expected": "hold",
+      "namespace": "ICAO",
+      "policyId": "cn-site-code-association",
+      "request": "date_window",
+      "sampleId": "cn-city-only-old-met",
+      "sourceIds": [
+        "cn-met-2009"
+      ]
+    },
+    {
+      "caseKey": "chubu",
+      "code": "RJGG",
+      "expected": "association_only",
+      "namespace": "ICAO",
+      "policyId": "jp-operator-code-site",
+      "request": "association",
+      "sampleId": "jp-ngo-typed-pair",
+      "siteToken": "中部国際空港",
+      "sourceIds": [
+        "jp-centrair-outline"
+      ]
+    },
+    {
+      "caseKey": "chubu",
+      "code": "NGO",
+      "expected": "hold",
+      "namespace": "IATA",
+      "policyId": "jp-operator-code-site",
+      "request": "date_window",
+      "sampleId": "jp-opening-as-allocation",
+      "sourceIds": [
+        "jp-centrair-2005"
+      ]
+    },
+    {
+      "caseKey": "komaki",
+      "code": "NKM",
+      "expected": "hold",
+      "namespace": "IATA",
+      "policyId": "jp-operator-code-site",
+      "request": "association",
+      "sampleId": "jp-nkm-missing-code",
+      "siteToken": "名古屋",
+      "sourceIds": [
+        "jp-nagoya-outline"
+      ]
+    },
+    {
+      "arp": "372745N 1262621E",
+      "caseKey": "incheon",
+      "code": "RKSI",
+      "expected": "draft_window",
+      "label": "Incheon International Airport",
+      "namespace": "ICAO",
+      "policyId": "kr-molit-bounded-icao",
+      "request": "bounded_icao",
+      "sampleId": "kr-rksi-pair",
+      "screeningStatus": "not_completed",
+      "simulationAirportId": "apt_40df8480-128d-4f4f-8aad-fd8b04506590",
+      "sourceIds": [
+        "kr-rksi-2025-04-16",
+        "kr-rksi-2025-05-14",
+        "kr-history"
+      ],
+      "timezoneForDateCalculation": "Asia/Seoul"
+    },
+    {
+      "arp": "372745N 1262621E",
+      "caseKey": "incheon",
+      "code": "RKSI",
+      "expected": "hold",
+      "namespace": "ICAO",
+      "policyId": "kr-molit-bounded-icao",
+      "request": "bounded_icao",
+      "sampleId": "kr-rksi-long-gap",
+      "sourceIds": [
+        "kr-rksi-2025-04-16",
+        "kr-rksi-2026",
+        "kr-history"
+      ]
+    },
+    {
+      "arp": "373325N 1264751E",
+      "caseKey": "gimpo",
+      "code": "RKSS",
+      "expected": "draft_window",
+      "label": "Gimpo International Airport",
+      "namespace": "ICAO",
+      "policyId": "kr-molit-bounded-icao",
+      "request": "bounded_icao",
+      "sampleId": "kr-rkss-pair",
+      "screeningStatus": "not_completed",
+      "simulationAirportId": "apt_9d03ac66-9295-4570-ae61-0f7163b34f2e",
+      "sourceIds": [
+        "kr-rkss-2025-04-16",
+        "kr-rkss-2025-05-14",
+        "kr-history"
+      ],
+      "timezoneForDateCalculation": "Asia/Seoul"
+    },
+    {
+      "arp": "373325N 1264751E",
+      "caseKey": "gimpo",
+      "code": "RKSS",
+      "expected": "hold",
+      "namespace": "ICAO",
+      "policyId": "kr-molit-bounded-icao",
+      "request": "bounded_icao",
+      "sampleId": "kr-rkss-long-gap",
+      "sourceIds": [
+        "kr-rkss-2025-04-16",
+        "kr-rkss-2026",
+        "kr-history"
+      ]
+    },
+    {
+      "arp": "372745N 1262621E",
+      "caseKey": "incheon",
+      "code": "RKSI",
+      "expected": "hold",
+      "namespace": "ICAO",
+      "policyId": "kr-molit-bounded-icao",
+      "request": "bounded_icao",
+      "sampleId": "kr-mixed-physical-sites",
+      "sourceIds": [
+        "kr-rksi-2025-04-16",
+        "kr-rkss-2025-05-14",
+        "kr-history"
+      ]
+    },
+    {
+      "caseKey": "williston",
+      "code": "XWA",
+      "expected": "hold",
+      "namespace": "IATA",
+      "policyId": "us-faa-typed-identifier",
+      "request": "iata_allocation",
+      "sampleId": "us-faa-to-iata",
+      "sourceIds": [
+        "us-order-2023"
+      ]
+    },
+    {
+      "caseKey": "williston",
+      "code": "XWA",
+      "expected": "typed_rule_only",
+      "namespace": "FAA",
+      "policyId": "us-faa-typed-identifier",
+      "request": "identifier_semantics",
+      "sampleId": "us-faa-namespace-rule",
+      "sourceIds": [
+        "us-order-2023"
+      ]
+    },
+    {
+      "caseKey": "doncaster",
+      "code": "EGCN",
+      "expected": "association_only",
+      "namespace": "ICAO",
+      "policyId": "uk-nats-bounded-icao",
+      "request": "association",
+      "sampleId": "uk-egcn-two-editions",
+      "sourceIds": [
+        "uk-dsa-2022",
+        "uk-dsa-2023"
+      ]
+    },
+    {
+      "caseKey": "doncaster",
+      "code": "EGCN",
+      "expected": "hold",
+      "namespace": "ICAO",
+      "policyId": "uk-nats-bounded-icao",
+      "request": "bounded_icao",
+      "sampleId": "uk-closure-interpolation",
+      "sourceIds": [
+        "uk-dsa-2022",
+        "uk-dsa-2023"
+      ]
+    },
+    {
+      "caseKey": "murcia",
+      "code": "LEMI",
+      "expected": "association_only",
+      "namespace": "ICAO",
+      "policyId": "es-enaire-bounded-icao",
+      "request": "association",
+      "sampleId": "es-murcia-distinct-pair",
+      "sourceIds": [
+        "es-murcia-ad2",
+        "es-old-ad2",
+        "es-ad-index"
+      ]
+    },
+    {
+      "caseKey": "murcia",
+      "code": "LEMI",
+      "expected": "hold",
+      "namespace": "ICAO",
+      "policyId": "es-enaire-bounded-icao",
+      "request": "bounded_icao",
+      "sampleId": "es-page-revision-as-window",
+      "sourceIds": [
+        "es-murcia-ad2",
+        "es-ad-index"
+      ]
+    },
+    {
+      "caseKey": "berlin",
+      "expected": "event_only",
+      "policyId": "de-operator-event",
+      "request": "event",
+      "sampleId": "de-booking-change",
+      "sourceIds": [
+        "de-ber-history",
+        "de-tegel-history"
+      ]
+    },
+    {
+      "caseKey": "berlin",
+      "code": "TXL",
+      "expected": "hold",
+      "namespace": "IATA",
+      "policyId": "de-operator-event",
+      "request": "date_window",
+      "sampleId": "de-service-stop-as-withdrawal",
+      "sourceIds": [
+        "de-tegel-history"
+      ]
+    }
+  ]
+}

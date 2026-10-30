@@ -1,0 +1,24 @@
+{
+  "extractedTextSha256": "cb137e2e9c9f3169a2c0a7a52604fdda90ba6d8a99df8cc5c5fcd988c4a9643c",
+  "normalizedTextSha256": "bc50f6abc6ab7c5d8ab096665ec491b91b265ead8ca520e9f6a0bcfe1775fcc9",
+  "originalSha256": "190ff4328ab0d122a344df17faf026279b2444ec8276b056921859830f57665c",
+  "sourceId": "de-ber-history",
+  "spans": [
+    {
+      "characterEnd": 28134,
+      "characterStart": 27977,
+      "citationId": "de-ber-history-q1",
+      "page": null,
+      "quote": "In the night from 24 to 25 October, the previous three-letter code \"SXF\" of Schoenefeld Airport was replaced by the code \"BER\" in the flight booking systems.",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 28226,
+      "characterStart": 28135,
+      "citationId": "de-ber-history-q2",
+      "page": null,
+      "quote": "The existing facilities at Schönefeld Airport will continue to operate as BER's Terminal 5.",
+      "representation": "normalized_text"
+    }
+  ]
+}

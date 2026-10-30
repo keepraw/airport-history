@@ -1,0 +1,24 @@
+{
+  "extractedTextSha256": "fb03179757cbf25ea80d3fb3c81f0cd9d9a15a22e053aac2aa9ed02fb984c253",
+  "normalizedTextSha256": "c9ef4b8e13ccd08df62fb06d8966bb1b9b7b437eb25486e5f66138951b298dcb",
+  "originalSha256": "79c8a1be3aff2cd1da2d9adae91c0ca96d33fed7bbdafe555b845ac5ef9f5c96",
+  "sourceId": "de-tegel-history",
+  "spans": [
+    {
+      "characterEnd": 3320,
+      "characterStart": 3212,
+      "citationId": "de-tegel-history-q1",
+      "page": null,
+      "quote": "On 4 May 2021, midnight, the operating permit for TXL ends, Tegel Airport is no longer a commercial airport.",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 3605,
+      "characterStart": 3502,
+      "citationId": "de-tegel-history-q2",
+      "page": null,
+      "quote": "Air traffic at Tegel ended on 8 November 2020 with the last take-off of an Air France aircraft to Paris",
+      "representation": "normalized_text"
+    }
+  ]
+}

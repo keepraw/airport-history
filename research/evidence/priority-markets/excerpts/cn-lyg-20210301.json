@@ -1,0 +1,24 @@
+{
+  "extractedTextSha256": "9e4de819a363f90cb1a8c180d3013942287f3b721e9178b99793b09b8b50b8d7",
+  "normalizedTextSha256": "90f2aa7f0f4d6191532b12ff59eae9d895884704d07336d7ab6141b18e0b9169",
+  "originalSha256": "0033fd325fdec9034dbea8f09645f94ad5a93b3ae09a34e98b17880543fa99e4",
+  "sourceId": "cn-lyg-20210301",
+  "spans": [
+    {
+      "characterEnd": 459,
+      "characterStart": 422,
+      "citationId": "cn-lyg-20210301-q1",
+      "page": null,
+      "quote": "连云港白塔埠机场为军民合用机场，占地5平方公里，位于连云港市西25公里处。",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 28151,
+      "characterStart": 28095,
+      "citationId": "cn-lyg-20210301-q2",
+      "page": null,
+      "quote": "<a href=\"https://flights.ch.com/airports/LYG/\">连云港机场</a>",
+      "representation": "decoded_html"
+    }
+  ]
+}

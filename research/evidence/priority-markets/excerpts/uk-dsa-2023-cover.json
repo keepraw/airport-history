@@ -1,0 +1,32 @@
+{
+  "extractedTextSha256": "644ed189fd66cbc4ed1af3d914edcc2028e268894c3048cd1fe5411556f1ec2c",
+  "normalizedTextSha256": "e0923208253ac67063cae24af4aa519729fd0bacd5c7bb045f9f2898aa3844bf",
+  "originalSha256": "c5df250ca7398d792dd8437a58dd6641616b14e9fb99e9093aa6cbbb5680c866",
+  "sourceId": "uk-dsa-2023-cover",
+  "spans": [
+    {
+      "characterEnd": 44,
+      "characterStart": 8,
+      "citationId": "uk-dsa-2023-cover-q1",
+      "page": null,
+      "quote": "Consult Notam for Latest Information",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 124,
+      "characterStart": 97,
+      "citationId": "uk-dsa-2023-cover-q2",
+      "page": null,
+      "quote": "Effective date: 26 JAN 2023",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 154,
+      "characterStart": 125,
+      "citationId": "uk-dsa-2023-cover-q3",
+      "page": null,
+      "quote": "Publication date: 15 DEC 2022",
+      "representation": "normalized_text"
+    }
+  ]
+}

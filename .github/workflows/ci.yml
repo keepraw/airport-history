@@ -34,6 +34,7 @@ jobs:
       - run: pnpm evidence:global validate
       - run: pnpm evidence:markets validate
       - run: pnpm evidence:transfers validate
+      - run: pnpm evidence:priority-markets validate
       - run: pnpm evidence:first-admission validate
       - run: pnpm policy:validate
       - run: pnpm evidence:history

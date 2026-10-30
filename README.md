@@ -61,6 +61,13 @@ source histories and tracks coverage and unverified candidates. No server,
 UI or Keepraw-Fly integration is included. This is not a
 navigation or operational flight-planning dataset.
 
+The [priority-market follow-up](research/evidence/priority-markets/README.md)
+continues 14 existing China, Japan, Korea, US, UK and continental-European cases.
+It preserves the published 0.10.0 dataset, adds original-source research and
+seven independently scoped **draft** policy adapters, and measures actual formal
+answers separately from unauthorized resolver hypotheses. No new market grant
+or production admission is included.
+
 ## Run
 
 Use Node.js 24 and pnpm 10.14.0 (the package manager is pinned in `package.json`).

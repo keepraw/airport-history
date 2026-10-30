@@ -1,0 +1,597 @@
+{
+  "authorizationRequestIssued": false,
+  "definitions": [
+    {
+      "authorization": null,
+      "evidenceConditions": [
+        "Exact airport-specific code/name/ARP evidence; city-only and route-only references cannot set dates.",
+        "Lock original bytes, extraction, precise minimal citations and controlled edition anchor separately.",
+        "Different source components/captures of one publication do not count as independent issuers.",
+        "No future effective evidence, first-allocation inference, open-ended extrapolation, or service-date substitution.",
+        "A bounded-window proposal requires a separate physical identity review and intervening amendment/NOTAM screening."
+      ],
+      "executor": {
+        "adapter": "cn_association_v1",
+        "path": "scripts/evidence/priority_markets.py",
+        "productionBound": false,
+        "sha256": "5c4e232c9a5156a1a49cf0373f4193958ca78b87dd9799d8c7847077f8d0ab5c"
+      },
+      "futureAuthorizationParameters": {
+        "closureOrRelocationWithinWindow": "hold_for_human",
+        "executorSha256": "generated/draft-bindings.json:cn-site-code-association.executorSha256",
+        "firstAllocationOrWithdrawalClaims": false,
+        "humanFinalMerge": true,
+        "maxBatchRecords": 10,
+        "mustReacquireOriginals": true,
+        "policySha256": "generated/draft-bindings.json:cn-site-code-association.policySha256",
+        "principal": "keepraw / 49091395",
+        "requireIndependentPhysicalIdentityReview": true,
+        "scopeSha256": "generated/draft-bindings.json:cn-site-code-association.scopeSha256",
+        "unresolvedContradiction": "hold_for_human"
+      },
+      "output": "association_only",
+      "policyId": "cn-site-code-association",
+      "proposedMaxObservationGapDays": null,
+      "readiness": "association_research_only",
+      "scope": {
+        "allowedOriginalHosts": [
+          "flights.ch.com",
+          "www.caac.gov.cn"
+        ],
+        "allowedPublisherFamilies": [
+          "CAAC",
+          "spring-airport-directory"
+        ],
+        "caseKeys": [
+          "lianyungang",
+          "yibin",
+          "luzhou",
+          "yanan",
+          "ankang",
+          "zhanjiang"
+        ],
+        "codesByCase": {
+          "ankang": [
+            "IATA:AKA",
+            "ICAO:ZLAK"
+          ],
+          "lianyungang": [
+            "IATA:LYG",
+            "ICAO:ZSLG"
+          ],
+          "luzhou": [
+            "IATA:LZO",
+            "ICAO:ZULZ"
+          ],
+          "yanan": [
+            "IATA:ENY",
+            "ICAO:ZLYA"
+          ],
+          "yibin": [
+            "IATA:YBP",
+            "ICAO:ZUYB"
+          ],
+          "zhanjiang": [
+            "IATA:ZHA",
+            "ICAO:ZGZJ"
+          ]
+        },
+        "countries": [
+          "CN"
+        ],
+        "namespaces": [
+          "IATA",
+          "ICAO"
+        ],
+        "newIataAdmission": false,
+        "newPhysicalIdentityAdmission": false,
+        "publishedCorrections": false,
+        "sourceRoles": [
+          "carrier_directory",
+          "regulatory_station_list"
+        ],
+        "sourcesByCase": {
+          "ankang": [
+            "cn-ankang-license",
+            "cn-ankang-executed",
+            "cn-met-2009",
+            "cn-met-2026"
+          ],
+          "lianyungang": [
+            "cn-lyg-20210301",
+            "cn-lyg-20210922",
+            "cn-met-2009",
+            "cn-met-2026"
+          ],
+          "luzhou": [
+            "cn-lzo-detail-20191117",
+            "cn-met-2009",
+            "cn-met-2026"
+          ],
+          "yanan": [
+            "cn-eny-detail-20191114",
+            "cn-met-2009",
+            "cn-met-2026"
+          ],
+          "yibin": [
+            "cn-met-2009",
+            "cn-met-2026"
+          ],
+          "zhanjiang": [
+            "cn-zha-detail-20191113",
+            "cn-met-2009",
+            "cn-met-2026"
+          ]
+        }
+      },
+      "status": "draft",
+      "version": "0.1.0-draft"
+    },
+    {
+      "authorization": null,
+      "evidenceConditions": [
+        "Exact airport-specific code/name/ARP evidence; city-only and route-only references cannot set dates.",
+        "Lock original bytes, extraction, precise minimal citations and controlled edition anchor separately.",
+        "Different source components/captures of one publication do not count as independent issuers.",
+        "No future effective evidence, first-allocation inference, open-ended extrapolation, or service-date substitution.",
+        "A bounded-window proposal requires a separate physical identity review and intervening amendment/NOTAM screening."
+      ],
+      "executor": {
+        "adapter": "jp_operator_v1",
+        "path": "scripts/evidence/priority_markets.py",
+        "productionBound": false,
+        "sha256": "5c4e232c9a5156a1a49cf0373f4193958ca78b87dd9799d8c7847077f8d0ab5c"
+      },
+      "futureAuthorizationParameters": {
+        "closureOrRelocationWithinWindow": "hold_for_human",
+        "executorSha256": "generated/draft-bindings.json:jp-operator-code-site.executorSha256",
+        "firstAllocationOrWithdrawalClaims": false,
+        "humanFinalMerge": true,
+        "maxBatchRecords": 10,
+        "mustReacquireOriginals": true,
+        "policySha256": "generated/draft-bindings.json:jp-operator-code-site.policySha256",
+        "principal": "keepraw / 49091395",
+        "requireIndependentPhysicalIdentityReview": true,
+        "scopeSha256": "generated/draft-bindings.json:jp-operator-code-site.scopeSha256",
+        "unresolvedContradiction": "hold_for_human"
+      },
+      "output": "association_only",
+      "policyId": "jp-operator-code-site",
+      "proposedMaxObservationGapDays": null,
+      "readiness": "needs_historical_aip",
+      "scope": {
+        "allowedOriginalHosts": [
+          "nagoya-airport.jp",
+          "www.centrair.jp"
+        ],
+        "allowedPublisherFamilies": [
+          "Central Japan International Airport Co.",
+          "Nagoya Airport Terminal Building Co."
+        ],
+        "caseKeys": [
+          "chubu",
+          "komaki"
+        ],
+        "codesByCase": {
+          "chubu": [
+            "IATA:NGO",
+            "ICAO:RJGG"
+          ],
+          "komaki": [
+            "IATA:NKM",
+            "ICAO:RJNA"
+          ]
+        },
+        "countries": [
+          "JP"
+        ],
+        "namespaces": [
+          "IATA",
+          "ICAO"
+        ],
+        "newIataAdmission": false,
+        "newPhysicalIdentityAdmission": false,
+        "publishedCorrections": false,
+        "sourceRoles": [
+          "operator_profile",
+          "operator_history"
+        ],
+        "sourcesByCase": {
+          "chubu": [
+            "jp-centrair-outline",
+            "jp-centrair-2005",
+            "jp-nagoya-outline"
+          ],
+          "komaki": [
+            "jp-nagoya-outline",
+            "jp-centrair-2005"
+          ]
+        }
+      },
+      "status": "draft",
+      "version": "0.1.0-draft"
+    },
+    {
+      "authorization": null,
+      "evidenceConditions": [
+        "Exact airport-specific code/name/ARP evidence; city-only and route-only references cannot set dates.",
+        "Lock original bytes, extraction, precise minimal citations and controlled edition anchor separately.",
+        "Different source components/captures of one publication do not count as independent issuers.",
+        "No future effective evidence, first-allocation inference, open-ended extrapolation, or service-date substitution.",
+        "A bounded-window proposal requires a separate physical identity review and intervening amendment/NOTAM screening."
+      ],
+      "executor": {
+        "adapter": "kr_airac_v1",
+        "path": "scripts/evidence/priority_markets.py",
+        "productionBound": false,
+        "sha256": "5c4e232c9a5156a1a49cf0373f4193958ca78b87dd9799d8c7847077f8d0ab5c"
+      },
+      "futureAuthorizationParameters": {
+        "closureOrRelocationWithinWindow": "hold_for_human",
+        "executorSha256": "generated/draft-bindings.json:kr-molit-bounded-icao.executorSha256",
+        "firstAllocationOrWithdrawalClaims": false,
+        "humanFinalMerge": true,
+        "maxBatchRecords": 10,
+        "mustReacquireOriginals": true,
+        "policySha256": "generated/draft-bindings.json:kr-molit-bounded-icao.policySha256",
+        "principal": "keepraw / 49091395",
+        "requireIndependentPhysicalIdentityReview": true,
+        "scopeSha256": "generated/draft-bindings.json:kr-molit-bounded-icao.scopeSha256",
+        "unresolvedContradiction": "hold_for_human"
+      },
+      "output": "bounded_icao_hypothesis",
+      "policyId": "kr-molit-bounded-icao",
+      "proposedMaxObservationGapDays": 56,
+      "readiness": "best_bounded_window_candidate_pending_screening",
+      "scope": {
+        "allowedOriginalHosts": [
+          "aim.koca.go.kr"
+        ],
+        "allowedPublisherFamilies": [
+          "KR-MOLIT-AIP"
+        ],
+        "caseKeys": [
+          "incheon",
+          "gimpo"
+        ],
+        "codesByCase": {
+          "gimpo": [
+            "IATA:GMP",
+            "ICAO:RKSS"
+          ],
+          "incheon": [
+            "IATA:ICN",
+            "ICAO:RKSI"
+          ]
+        },
+        "countries": [
+          "KR"
+        ],
+        "namespaces": [
+          "ICAO"
+        ],
+        "newIataAdmission": false,
+        "newPhysicalIdentityAdmission": false,
+        "publishedCorrections": false,
+        "sourceRoles": [
+          "aip_ad2",
+          "aip_issue_index"
+        ],
+        "sourcesByCase": {
+          "gimpo": [
+            "kr-history",
+            "kr-rkss-2025-04-16",
+            "kr-rkss-2025-05-14",
+            "kr-rkss-2026"
+          ],
+          "incheon": [
+            "kr-history",
+            "kr-rksi-2025-04-16",
+            "kr-rksi-2025-05-14",
+            "kr-rksi-2026"
+          ]
+        }
+      },
+      "status": "draft",
+      "version": "0.1.0-draft"
+    },
+    {
+      "authorization": null,
+      "evidenceConditions": [
+        "Exact airport-specific code/name/ARP evidence; city-only and route-only references cannot set dates.",
+        "Lock original bytes, extraction, precise minimal citations and controlled edition anchor separately.",
+        "Different source components/captures of one publication do not count as independent issuers.",
+        "No future effective evidence, first-allocation inference, open-ended extrapolation, or service-date substitution.",
+        "A bounded-window proposal requires a separate physical identity review and intervening amendment/NOTAM screening."
+      ],
+      "executor": {
+        "adapter": "us_faa_v1",
+        "path": "scripts/evidence/priority_markets.py",
+        "productionBound": false,
+        "sha256": "5c4e232c9a5156a1a49cf0373f4193958ca78b87dd9799d8c7847077f8d0ab5c"
+      },
+      "futureAuthorizationParameters": {
+        "closureOrRelocationWithinWindow": "hold_for_human",
+        "executorSha256": "generated/draft-bindings.json:us-faa-typed-identifier.executorSha256",
+        "firstAllocationOrWithdrawalClaims": false,
+        "humanFinalMerge": true,
+        "maxBatchRecords": 10,
+        "mustReacquireOriginals": true,
+        "policySha256": "generated/draft-bindings.json:us-faa-typed-identifier.policySha256",
+        "principal": "keepraw / 49091395",
+        "requireIndependentPhysicalIdentityReview": true,
+        "scopeSha256": "generated/draft-bindings.json:us-faa-typed-identifier.scopeSha256",
+        "unresolvedContradiction": "hold_for_human"
+      },
+      "output": "typed_faa_semantics_only",
+      "policyId": "us-faa-typed-identifier",
+      "proposedMaxObservationGapDays": null,
+      "readiness": "needs_airport_master_editions",
+      "scope": {
+        "allowedOriginalHosts": [
+          "www.faa.gov"
+        ],
+        "allowedPublisherFamilies": [
+          "FAA"
+        ],
+        "caseKeys": [
+          "williston"
+        ],
+        "codesByCase": {
+          "williston": [
+            "FAA:ISN",
+            "FAA:XWA",
+            "ICAO:KISN",
+            "ICAO:KXWA",
+            "IATA:ISN",
+            "IATA:XWA"
+          ]
+        },
+        "countries": [
+          "US"
+        ],
+        "namespaces": [
+          "FAA",
+          "ICAO"
+        ],
+        "newIataAdmission": false,
+        "newPhysicalIdentityAdmission": false,
+        "publishedCorrections": false,
+        "sourceRoles": [
+          "identifier_regulation"
+        ],
+        "sourcesByCase": {
+          "williston": [
+            "us-order-2023"
+          ]
+        }
+      },
+      "status": "draft",
+      "version": "0.1.0-draft"
+    },
+    {
+      "authorization": null,
+      "evidenceConditions": [
+        "Exact airport-specific code/name/ARP evidence; city-only and route-only references cannot set dates.",
+        "Lock original bytes, extraction, precise minimal citations and controlled edition anchor separately.",
+        "Different source components/captures of one publication do not count as independent issuers.",
+        "No future effective evidence, first-allocation inference, open-ended extrapolation, or service-date substitution.",
+        "A bounded-window proposal requires a separate physical identity review and intervening amendment/NOTAM screening."
+      ],
+      "executor": {
+        "adapter": "uk_nats_v1",
+        "path": "scripts/evidence/priority_markets.py",
+        "productionBound": false,
+        "sha256": "5c4e232c9a5156a1a49cf0373f4193958ca78b87dd9799d8c7847077f8d0ab5c"
+      },
+      "futureAuthorizationParameters": {
+        "closureOrRelocationWithinWindow": "hold_for_human",
+        "executorSha256": "generated/draft-bindings.json:uk-nats-bounded-icao.executorSha256",
+        "firstAllocationOrWithdrawalClaims": false,
+        "humanFinalMerge": true,
+        "maxBatchRecords": 10,
+        "mustReacquireOriginals": true,
+        "policySha256": "generated/draft-bindings.json:uk-nats-bounded-icao.policySha256",
+        "principal": "keepraw / 49091395",
+        "requireIndependentPhysicalIdentityReview": true,
+        "scopeSha256": "generated/draft-bindings.json:uk-nats-bounded-icao.scopeSha256",
+        "unresolvedContradiction": "hold_for_human"
+      },
+      "output": "bounded_icao_hypothesis",
+      "policyId": "uk-nats-bounded-icao",
+      "proposedMaxObservationGapDays": 56,
+      "readiness": "closure_case_held_pending_notam",
+      "scope": {
+        "allowedOriginalHosts": [
+          "www.aurora.nats.co.uk"
+        ],
+        "allowedPublisherFamilies": [
+          "UK-AIP-NATS"
+        ],
+        "caseKeys": [
+          "doncaster"
+        ],
+        "codesByCase": {
+          "doncaster": [
+            "ICAO:EGCN",
+            "IATA:DSA"
+          ]
+        },
+        "countries": [
+          "GB"
+        ],
+        "namespaces": [
+          "ICAO"
+        ],
+        "newIataAdmission": false,
+        "newPhysicalIdentityAdmission": false,
+        "publishedCorrections": false,
+        "sourceRoles": [
+          "aip_ad2",
+          "aip_issue_index"
+        ],
+        "sourcesByCase": {
+          "doncaster": [
+            "uk-dsa-2022",
+            "uk-dsa-2023",
+            "uk-dsa-2022-cover",
+            "uk-dsa-2023-cover"
+          ]
+        }
+      },
+      "status": "draft",
+      "version": "0.1.0-draft"
+    },
+    {
+      "authorization": null,
+      "evidenceConditions": [
+        "Exact airport-specific code/name/ARP evidence; city-only and route-only references cannot set dates.",
+        "Lock original bytes, extraction, precise minimal citations and controlled edition anchor separately.",
+        "Different source components/captures of one publication do not count as independent issuers.",
+        "No future effective evidence, first-allocation inference, open-ended extrapolation, or service-date substitution.",
+        "A bounded-window proposal requires a separate physical identity review and intervening amendment/NOTAM screening."
+      ],
+      "executor": {
+        "adapter": "es_enaire_v1",
+        "path": "scripts/evidence/priority_markets.py",
+        "productionBound": false,
+        "sha256": "5c4e232c9a5156a1a49cf0373f4193958ca78b87dd9799d8c7847077f8d0ab5c"
+      },
+      "futureAuthorizationParameters": {
+        "closureOrRelocationWithinWindow": "hold_for_human",
+        "executorSha256": "generated/draft-bindings.json:es-enaire-bounded-icao.executorSha256",
+        "firstAllocationOrWithdrawalClaims": false,
+        "humanFinalMerge": true,
+        "maxBatchRecords": 10,
+        "mustReacquireOriginals": true,
+        "policySha256": "generated/draft-bindings.json:es-enaire-bounded-icao.policySha256",
+        "principal": "keepraw / 49091395",
+        "requireIndependentPhysicalIdentityReview": true,
+        "scopeSha256": "generated/draft-bindings.json:es-enaire-bounded-icao.scopeSha256",
+        "unresolvedContradiction": "hold_for_human"
+      },
+      "output": "bounded_icao_hypothesis",
+      "policyId": "es-enaire-bounded-icao",
+      "proposedMaxObservationGapDays": 56,
+      "readiness": "needs_controlled_historical_pair",
+      "scope": {
+        "allowedOriginalHosts": [
+          "aip.enaire.es"
+        ],
+        "allowedPublisherFamilies": [
+          "ES-ENAIRE-AIP"
+        ],
+        "caseKeys": [
+          "murcia"
+        ],
+        "codesByCase": {
+          "murcia": [
+            "ICAO:LELC",
+            "ICAO:LEMI",
+            "IATA:MJV",
+            "IATA:RMU"
+          ]
+        },
+        "countries": [
+          "ES"
+        ],
+        "namespaces": [
+          "ICAO"
+        ],
+        "newIataAdmission": false,
+        "newPhysicalIdentityAdmission": false,
+        "publishedCorrections": false,
+        "sourceRoles": [
+          "aip_ad2",
+          "aip_aerodrome_index"
+        ],
+        "sourcesByCase": {
+          "murcia": [
+            "es-old-ad2",
+            "es-murcia-ad2",
+            "es-ad-index"
+          ]
+        }
+      },
+      "status": "draft",
+      "version": "0.1.0-draft"
+    },
+    {
+      "authorization": null,
+      "evidenceConditions": [
+        "Exact airport-specific code/name/ARP evidence; city-only and route-only references cannot set dates.",
+        "Lock original bytes, extraction, precise minimal citations and controlled edition anchor separately.",
+        "Different source components/captures of one publication do not count as independent issuers.",
+        "No future effective evidence, first-allocation inference, open-ended extrapolation, or service-date substitution.",
+        "A bounded-window proposal requires a separate physical identity review and intervening amendment/NOTAM screening."
+      ],
+      "executor": {
+        "adapter": "de_operator_v1",
+        "path": "scripts/evidence/priority_markets.py",
+        "productionBound": false,
+        "sha256": "5c4e232c9a5156a1a49cf0373f4193958ca78b87dd9799d8c7847077f8d0ab5c"
+      },
+      "futureAuthorizationParameters": {
+        "closureOrRelocationWithinWindow": "hold_for_human",
+        "executorSha256": "generated/draft-bindings.json:de-operator-event.executorSha256",
+        "firstAllocationOrWithdrawalClaims": false,
+        "humanFinalMerge": true,
+        "maxBatchRecords": 10,
+        "mustReacquireOriginals": true,
+        "policySha256": "generated/draft-bindings.json:de-operator-event.policySha256",
+        "principal": "keepraw / 49091395",
+        "requireIndependentPhysicalIdentityReview": true,
+        "scopeSha256": "generated/draft-bindings.json:de-operator-event.scopeSha256",
+        "unresolvedContradiction": "hold_for_human"
+      },
+      "output": "event_only",
+      "policyId": "de-operator-event",
+      "proposedMaxObservationGapDays": null,
+      "readiness": "needs_dfs_originals",
+      "scope": {
+        "allowedOriginalHosts": [
+          "corporate.berlin-airport.de"
+        ],
+        "allowedPublisherFamilies": [
+          "DE-FBB"
+        ],
+        "caseKeys": [
+          "berlin"
+        ],
+        "codesByCase": {
+          "berlin": [
+            "IATA:TXL",
+            "IATA:SXF",
+            "IATA:BER",
+            "ICAO:EDDT",
+            "ICAO:EDDB"
+          ]
+        },
+        "countries": [
+          "DE"
+        ],
+        "namespaces": [
+          "IATA",
+          "ICAO"
+        ],
+        "newIataAdmission": false,
+        "newPhysicalIdentityAdmission": false,
+        "publishedCorrections": false,
+        "sourceRoles": [
+          "operator_history"
+        ],
+        "sourcesByCase": {
+          "berlin": [
+            "de-ber-history",
+            "de-tegel-history"
+          ]
+        }
+      },
+      "status": "draft",
+      "version": "0.1.0-draft"
+    }
+  ],
+  "formatVersion": 1,
+  "productionAuthorizationInherited": false,
+  "status": "draft"
+}

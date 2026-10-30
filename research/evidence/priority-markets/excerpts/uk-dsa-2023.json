@@ -1,0 +1,32 @@
+{
+  "extractedTextSha256": "3c38a0903b1020a6a0e4561c1c09e93d2e364d247cdd0606382925d389aab4b3",
+  "normalizedTextSha256": "b4cfd1f9cef9411d76d255f843b9cc36760618989feb9ebdc205a290c4784b67",
+  "originalSha256": "5c8362d2f12842bda7c4ac198173dc82b8a35fffe0bc4b803a7f65c48afbc7a9",
+  "sourceId": "uk-dsa-2023",
+  "spans": [
+    {
+      "characterEnd": 48,
+      "characterStart": 22,
+      "citationId": "uk-dsa-2023-q1",
+      "page": null,
+      "quote": "EGCN — DONCASTER SHEFFIELD",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 230,
+      "characterStart": 218,
+      "citationId": "uk-dsa-2023-q2",
+      "page": null,
+      "quote": "Lat: 532831N",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 263,
+      "characterStart": 249,
+      "citationId": "uk-dsa-2023-q3",
+      "page": null,
+      "quote": "Long: 0010015W",
+      "representation": "normalized_text"
+    }
+  ]
+}
