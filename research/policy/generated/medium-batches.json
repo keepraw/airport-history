@@ -1,0 +1,364 @@
+[
+  {
+    "baseline": {
+      "baseCommit": "78bbd33211ecbfcc1cc73e956e13674295e44ce8",
+      "dataVersion": "0.9.0",
+      "path": "test/curated-0.9.0.json",
+      "schemaVersion": "3.0.0",
+      "sha256": "1beec87eac60c8f844a5756073811edadbfb6d4a831fb4f03ce5552796ce539b"
+    },
+    "batchSha256": "3477c3a4598319b9f5010d68ff5a2dd8531fe03ab75dd70e8df91d99620fb42f",
+    "formatVersion": 1,
+    "inputSha256": "5f6e7ed5d69d029858720d3a2c5dacb4145b8f94af4cb1480f205f25152aeca2",
+    "policySha256": "3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958",
+    "records": [
+      {
+        "airportId": "apt_7f9cc70a-c6cc-44a1-b78e-9a817165e1c4",
+        "authorizationSource": null,
+        "baseline": {
+          "baseCommit": "78bbd33211ecbfcc1cc73e956e13674295e44ce8",
+          "dataVersion": "0.9.0",
+          "path": "test/curated-0.9.0.json",
+          "schemaVersion": "3.0.0",
+          "sha256": "1beec87eac60c8f844a5756073811edadbfb6d4a831fb4f03ce5552796ce539b"
+        },
+        "candidateRecord": {
+          "airportId": "apt_7f9cc70a-c6cc-44a1-b78e-9a817165e1c4",
+          "assignmentId": "global-proposal-durgapur-icao-vedg",
+          "code": "VEDG",
+          "evidenceType": "continuity_inference",
+          "note": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. Certain coverage excludes the uncertain first observation/implementation local day and stops before the last observation day; no instantaneous observation is treated as a whole local day. Proposed interpolation only between the cited same-site code observations. Human acceptance is required; same-issuer editions share publication lineage. No extrapolation beyond the stated certain window.",
+          "scheme": "ICAO",
+          "sourceIds": [
+            "policy-aip-2026-04-16-vedg",
+            "policy-aip-2026-07-09-vedg"
+          ],
+          "validFrom": {
+            "earliest": null,
+            "latest": "2026-04-17",
+            "precision": "unknown"
+          },
+          "validTo": {
+            "earliest": "2026-07-09",
+            "latest": null,
+            "precision": "unknown"
+          },
+          "verificationStatus": "pending",
+          "verifiedOn": null
+        },
+        "code": "VEDG",
+        "distinctOriginalCount": 1,
+        "evidence": [
+          {
+            "componentEffectiveDate": "2025-10-02",
+            "editionAnchorSourceId": "policy-aip-2026-04-16-veho",
+            "editionEffectiveDate": "2026-04-16",
+            "excerptSha256": "41391d149cd52df0bef1d3330bc53d37855c17579abb6dca5178abdafb3d0c23",
+            "originalPublicationKey": "aai-aip:2026-04-16",
+            "originalSha256": "c5280e347506c97836f65ce565416be5b15acb16d29dfd16a7542338d3dd5d1d",
+            "publicationDate": "2025-08-21",
+            "publisher": "Airports Authority of India",
+            "sourceId": "policy-aip-2026-04-16-vedg",
+            "textOriginalSha256": "6528b745454b1d04675b89fd36c3a72388b4f71e296fa1f0e28d412bc24b951b",
+            "url": "https://aim-india.aai.aero/eAIP_Archive/16-04-2026/eAIP/IN-AD%202.1VEDG-en-GB.html"
+          },
+          {
+            "componentEffectiveDate": "2025-10-02",
+            "editionAnchorSourceId": "policy-aip-2026-07-09-veho",
+            "editionEffectiveDate": "2026-07-09",
+            "excerptSha256": "f41b2184c7807d961d590ddf36217b375c04aa608d5647af700237e3f4190d49",
+            "originalPublicationKey": "aai-aip:2026-07-09",
+            "originalSha256": "c5280e347506c97836f65ce565416be5b15acb16d29dfd16a7542338d3dd5d1d",
+            "publicationDate": "2025-08-21",
+            "publisher": "Airports Authority of India",
+            "sourceId": "policy-aip-2026-07-09-vedg",
+            "textOriginalSha256": "6528b745454b1d04675b89fd36c3a72388b4f71e296fa1f0e28d412bc24b951b",
+            "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEDG-en-GB.html"
+          }
+        ],
+        "evidenceSha256": "812a522eb37b056341403da2bb87b4e7d3a5cf456f29e4e06cc437ecbe9bfda1",
+        "executorSha256": "2415279526ff8c0eaf9ee1b3ee5afca8bde26e95bfac2c98930212f9f7992a3f",
+        "inputSha256": "5f6e7ed5d69d029858720d3a2c5dacb4145b8f94af4cb1480f205f25152aeca2",
+        "knownSiteIds": [
+          "apt_7f9cc70a-c6cc-44a1-b78e-9a817165e1c4"
+        ],
+        "maximumObservedGapDays": 84,
+        "observationCount": 2,
+        "physicalAirport": {
+          "airportId": "apt_7f9cc70a-c6cc-44a1-b78e-9a817165e1c4",
+          "coordinates": {
+            "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+            "sourceIds": [
+              "policy-aip-2026-04-16-vedg",
+              "policy-aip-2026-07-09-vedg"
+            ],
+            "status": "reference",
+            "value": {
+              "latitude": 23.62444444,
+              "longitude": 87.2425
+            }
+          },
+          "externalIds": {
+            "ourAirports": "317982"
+          },
+          "name": {
+            "note": "Display label only; no official-name timeline is asserted.",
+            "sourceIds": [
+              "policy-aip-2026-04-16-vedg",
+              "policy-aip-2026-07-09-vedg"
+            ],
+            "status": "reference",
+            "value": "Kazi Nazrul Islam Airport"
+          },
+          "timezone": {
+            "note": "No historical IANA timezone claim.",
+            "sourceIds": [],
+            "status": "unknown",
+            "value": null
+          }
+        },
+        "policyId": "official-aip-bounded-icao",
+        "policySha256": "3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958",
+        "policyVersion": "1.0.0",
+        "publisherCount": 1,
+        "reasons": [
+          "too_few_distinct_originals"
+        ],
+        "recordId": "global-proposal-durgapur-icao-vedg",
+        "referenceScreen": {
+          "possibleLocationCount": 1,
+          "status": "reference_only",
+          "totalMatches": 1
+        },
+        "researchBlockers": [],
+        "researchEvidence": [
+          {
+            "contentStatus": "original",
+            "originalSha256": "c5280e347506c97836f65ce565416be5b15acb16d29dfd16a7542338d3dd5d1d",
+            "sourceFamily": "aai-aip",
+            "sourceId": "in-aip-09-07-2026-vedg",
+            "textOriginalSha256": "6528b745454b1d04675b89fd36c3a72388b4f71e296fa1f0e28d412bc24b951b",
+            "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEDG-en-GB.html"
+          },
+          {
+            "contentStatus": "original",
+            "originalSha256": "ae9d1df87457d565ec0768ee755cfcf8000934e991474cd57e90919877968d7a",
+            "sourceFamily": "aai-aip",
+            "sourceId": "in-aip-22-02-2024-vedg",
+            "textOriginalSha256": "dc6be05f350779acb6eb7fb26d2473d462d825e9e691b6d9b7ba71f98591a093",
+            "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VEDG-en-GB.html"
+          },
+          {
+            "contentStatus": "original",
+            "originalSha256": "6a06169e9b29f5efa8a82d4ba3e989a771bdf5b6349ea5e8ac86a40ae41fe853",
+            "sourceFamily": "India Ministry of Civil Aviation / PIB",
+            "sourceId": "in-greenfield-projects",
+            "textOriginalSha256": "030079e20bff06392911932e5cdc4dcb6f92c798beb0ad973c44f44641af45f0",
+            "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/jun/doc2025611568101.pdf"
+          }
+        ],
+        "researchSourceIds": [
+          "in-aip-09-07-2026-vedg",
+          "in-aip-22-02-2024-vedg",
+          "in-greenfield-projects"
+        ],
+        "residualRisks": [
+          "Continuity is a bounded policy inference, not daily direct observation.",
+          "Conflict screening covers locked research/reference evidence only; no all-history absence claim.",
+          "First allocation, final withdrawal, timezone and official-name timeline remain unknown."
+        ],
+        "reviewMode": "policy_dry_run",
+        "reviewer": null,
+        "risk": "medium",
+        "sample": "unpublished",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "policy-aip-2026-04-16-vedg",
+          "policy-aip-2026-07-09-vedg"
+        ],
+        "triggeredRules": [
+          "route_to_medium",
+          "too_few_distinct_originals"
+        ],
+        "window": [
+          "2026-04-17",
+          "2026-07-09"
+        ]
+      },
+      {
+        "airportId": "apt_d8c584ef-5538-47e0-ab55-ccefd309e6af",
+        "authorizationSource": null,
+        "baseline": {
+          "baseCommit": "78bbd33211ecbfcc1cc73e956e13674295e44ce8",
+          "dataVersion": "0.9.0",
+          "path": "test/curated-0.9.0.json",
+          "schemaVersion": "3.0.0",
+          "sha256": "1beec87eac60c8f844a5756073811edadbfb6d4a831fb4f03ce5552796ce539b"
+        },
+        "candidateRecord": {
+          "airportId": "apt_d8c584ef-5538-47e0-ab55-ccefd309e6af",
+          "assignmentId": "global-proposal-mopa-icao-voga",
+          "code": "VOGA",
+          "evidenceType": "continuity_inference",
+          "note": "Observation bounds only. Unknown first allocation and final withdrawal stay open; neither an airport opening nor an edition date is silently substituted for allocation. Certain coverage excludes the uncertain first observation/implementation local day and stops before the last observation day; no instantaneous observation is treated as a whole local day. Proposed interpolation only between the cited same-site code observations. Human acceptance is required; same-issuer editions share publication lineage. No extrapolation beyond the stated certain window.",
+          "scheme": "ICAO",
+          "sourceIds": [
+            "policy-aip-2026-04-16-voga",
+            "policy-aip-2026-07-09-voga"
+          ],
+          "validFrom": {
+            "earliest": null,
+            "latest": "2026-04-17",
+            "precision": "unknown"
+          },
+          "validTo": {
+            "earliest": "2026-07-09",
+            "latest": null,
+            "precision": "unknown"
+          },
+          "verificationStatus": "pending",
+          "verifiedOn": null
+        },
+        "code": "VOGA",
+        "distinctOriginalCount": 1,
+        "evidence": [
+          {
+            "componentEffectiveDate": "2026-01-22",
+            "editionAnchorSourceId": "policy-aip-2026-04-16-veho",
+            "editionEffectiveDate": "2026-04-16",
+            "excerptSha256": "4075609c5aa3e1a46ef1b2bccaff1e27920dd777979ac2b25ce052293f93b263",
+            "originalPublicationKey": "aai-aip:2026-04-16",
+            "originalSha256": "26e4a6d5b270fad6b70880259b82a7341122758d236a1d7ad812369386be2163",
+            "publicationDate": "2025-12-11",
+            "publisher": "Airports Authority of India",
+            "sourceId": "policy-aip-2026-04-16-voga",
+            "textOriginalSha256": "7562fd89d4c2414f813139735be790403e84c2d8c00860a172c10d202fcbaf16",
+            "url": "https://aim-india.aai.aero/eAIP_Archive/16-04-2026/eAIP/IN-AD%202.1VOGA-en-GB.html"
+          },
+          {
+            "componentEffectiveDate": "2026-01-22",
+            "editionAnchorSourceId": "policy-aip-2026-07-09-veho",
+            "editionEffectiveDate": "2026-07-09",
+            "excerptSha256": "ed9058cb21fc8282cabfebc92d77ee65254dd8e64e86aff51591059fe69b511b",
+            "originalPublicationKey": "aai-aip:2026-07-09",
+            "originalSha256": "26e4a6d5b270fad6b70880259b82a7341122758d236a1d7ad812369386be2163",
+            "publicationDate": "2025-12-11",
+            "publisher": "Airports Authority of India",
+            "sourceId": "policy-aip-2026-07-09-voga",
+            "textOriginalSha256": "7562fd89d4c2414f813139735be790403e84c2d8c00860a172c10d202fcbaf16",
+            "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOGA-en-GB.html"
+          }
+        ],
+        "evidenceSha256": "f8c05eca1f6a91f9bf4d61dd18d2c56b409f345e2ab67b076f2df11987bec6b7",
+        "executorSha256": "2415279526ff8c0eaf9ee1b3ee5afca8bde26e95bfac2c98930212f9f7992a3f",
+        "inputSha256": "5f6e7ed5d69d029858720d3a2c5dacb4145b8f94af4cb1480f205f25152aeca2",
+        "knownSiteIds": [
+          "apt_d8c584ef-5538-47e0-ab55-ccefd309e6af"
+        ],
+        "maximumObservedGapDays": 84,
+        "observationCount": 2,
+        "physicalAirport": {
+          "airportId": "apt_d8c584ef-5538-47e0-ab55-ccefd309e6af",
+          "coordinates": {
+            "note": "Reference point only, not a runway footprint or an identity inferred from coordinate displacement. Named original airport/location is matched explicitly to this external site hypothesis. This is a pending physical identity judgment, not an automatic merge by name, code or distance.",
+            "sourceIds": [
+              "policy-aip-2026-04-16-voga",
+              "policy-aip-2026-07-09-voga"
+            ],
+            "status": "reference",
+            "value": {
+              "latitude": 15.7425,
+              "longitude": 73.86694444
+            }
+          },
+          "externalIds": {
+            "ourAirports": "342094"
+          },
+          "name": {
+            "note": "Display label only; no official-name timeline is asserted.",
+            "sourceIds": [
+              "policy-aip-2026-04-16-voga",
+              "policy-aip-2026-07-09-voga"
+            ],
+            "status": "reference",
+            "value": "Manohar International Airport"
+          },
+          "timezone": {
+            "note": "No historical IANA timezone claim.",
+            "sourceIds": [],
+            "status": "unknown",
+            "value": null
+          }
+        },
+        "policyId": "official-aip-bounded-icao",
+        "policySha256": "3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958",
+        "policyVersion": "1.0.0",
+        "publisherCount": 1,
+        "reasons": [
+          "too_few_distinct_originals"
+        ],
+        "recordId": "global-proposal-mopa-icao-voga",
+        "referenceScreen": {
+          "possibleLocationCount": 1,
+          "status": "reference_only",
+          "totalMatches": 1
+        },
+        "researchBlockers": [],
+        "researchEvidence": [
+          {
+            "contentStatus": "original",
+            "originalSha256": "26e4a6d5b270fad6b70880259b82a7341122758d236a1d7ad812369386be2163",
+            "sourceFamily": "aai-aip",
+            "sourceId": "in-aip-09-07-2026-voga",
+            "textOriginalSha256": "7562fd89d4c2414f813139735be790403e84c2d8c00860a172c10d202fcbaf16",
+            "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOGA-en-GB.html"
+          },
+          {
+            "contentStatus": "original",
+            "originalSha256": "ef0994c58ea65dfdad34786342e2b361a1a082a562a8f373773cca6d6f94beba",
+            "sourceFamily": "aai-aip",
+            "sourceId": "in-aip-22-02-2024-voga",
+            "textOriginalSha256": "e677e7f0c815869591ebfc41e39da8031bf57e11fccfdb9da4fed6a719d1793d",
+            "url": "https://aim-india.aai.aero/eAIP_Archive/22-02-2024/eAIP/IN-AD%202.1VOGA-en-GB.html"
+          },
+          {
+            "contentStatus": "original",
+            "originalSha256": "6a06169e9b29f5efa8a82d4ba3e989a771bdf5b6349ea5e8ac86a40ae41fe853",
+            "sourceFamily": "India Ministry of Civil Aviation / PIB",
+            "sourceId": "in-greenfield-projects",
+            "textOriginalSha256": "030079e20bff06392911932e5cdc4dcb6f92c798beb0ad973c44f44641af45f0",
+            "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/jun/doc2025611568101.pdf"
+          }
+        ],
+        "researchSourceIds": [
+          "in-aip-09-07-2026-voga",
+          "in-aip-22-02-2024-voga",
+          "in-greenfield-projects"
+        ],
+        "residualRisks": [
+          "Continuity is a bounded policy inference, not daily direct observation.",
+          "Conflict screening covers locked research/reference evidence only; no all-history absence claim.",
+          "First allocation, final withdrawal, timezone and official-name timeline remain unknown."
+        ],
+        "reviewMode": "policy_dry_run",
+        "reviewer": null,
+        "risk": "medium",
+        "sample": "unpublished",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "policy-aip-2026-04-16-voga",
+          "policy-aip-2026-07-09-voga"
+        ],
+        "triggeredRules": [
+          "route_to_medium",
+          "too_few_distinct_originals"
+        ],
+        "window": [
+          "2026-04-17",
+          "2026-07-09"
+        ]
+      }
+    ],
+    "risk": "medium"
+  }
+]

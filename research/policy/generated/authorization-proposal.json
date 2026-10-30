@@ -1,0 +1,80 @@
+{
+  "authorizationBinding": [
+    "policySha256",
+    "scopeSha256",
+    "executorSha256"
+  ],
+  "authorizationText": "Authorize policy official-aip-bounded-icao@1.0.0 sha256:3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958 scope-sha256:6242a7bfaa66700aefc925bc8a3532f9ad62ca81334b156509835616419d1cb3 executor-sha256:2415279526ff8c0eaf9ee1b3ee5afca8bde26e95bfac2c98930212f9f7992a3f. Allow future low-risk records in this exact scope to be policy-reviewed and proposed in PRs. Human merge required.",
+  "executor": {
+    "executorSha256": "2415279526ff8c0eaf9ee1b3ee5afca8bde26e95bfac2c98930212f9f7992a3f",
+    "files": {
+      "pnpm-lock.yaml": "e79aceff64ebcd5fde9a832cd349832cd896337fa6dae352248539a433961163",
+      "schema/dataset.schema.json": "30af837f0561e26c965384a7a9c1598406c4580ef55a7eed5d0a99a9a47830f2",
+      "scripts/discovery/review.py": "b6540d6cff18a3bdd0e8ef06a743defbeb9436cf620437d419036fde1ae2a92d",
+      "scripts/evidence/global_batch.py": "14ecb7dba7bcf78e53d83718912b91a0dd0b670e2c5508629cc1e088e2856ad6",
+      "scripts/evidence/policy_coverage.ts": "f32208e5e45ac7519ae51fdea710f4c897f1f4a171f62a2a1fcd905d4d97c13a",
+      "scripts/evidence/policy_executor.py": "1c7b610eb72315b7bdabba29b70d482423a1ef2d2a351cfbaa123ccc4f277508",
+      "scripts/evidence/policy_formal.py": "6a14b210bffd2fa782ab89fe08bd3dac647bd23a1216a4907988302f89df4218",
+      "scripts/evidence/policy_gate.py": "549caae6b4f5a7813b92f05c447b88e61372255773252f50d7a103c952919bfc",
+      "scripts/evidence/policy_originals.py": "63dc8c80624ecef3754ebf6cda9a5bd060ebae44203785ae2696ca9ac542c7a2",
+      "scripts/evidence/policy_review.py": "78cdd142487adf99da45fff391228fc9cda924d0408a745e13a525c7319971d6",
+      "scripts/evidence/review.py": "b57bb5a666abb5e9affe9e60f72ee6c37e3f6d9efaa6dfb66d088783ccf35afc",
+      "scripts/reference/admissions.py": "c7774e86708ff169ee5a8f006c7528d44850ef932cd5ecc913375aa5002e9992",
+      "scripts/reference/common.py": "abaa48d37d4087b9bd4223e1ecf659fcc323addce570cee1d5348cbfac78ac46",
+      "scripts/reference/query.py": "c1cc45bb5bf250c08dbe76f57296b6ca2ad6c18921862ae078339c81b57d2fa2",
+      "src/evidence.ts": "e455f76f8c379bb52b9328c87b51a9ed03a1fe37146c1426fc9bc7db8e6070ed",
+      "src/names.ts": "0ddbb7aa3268eebec58002ef008af265e68330281b9816f7f9dc2c0a7417893e",
+      "src/resolve.ts": "af9631a3c270a2ca71606a75cf7830d9f7e711bab431a919fa5be615f26ec5b0",
+      "src/time.ts": "865c62ab547f294ced584592dfc3af8dfb0c6f627ca552c254bcfffd4002e4e5",
+      "src/types.ts": "b06991be4f63e066b9d3614484ac68ded48d641e3d42b4ed59dafd8706a93e03",
+      "src/validate.ts": "10680e15e990bd2e1396434dcabb3b7a22f8ba862222a68d1fd25d1bd9655d06"
+    },
+    "formatVersion": 1
+  },
+  "formatVersion": 1,
+  "mediumBatchAuthorizationTexts": [
+    "Authorize batch sha256:3477c3a4598319b9f5010d68ff5a2dd8531fe03ab75dd70e8df91d99620fb42f baseline-sha256:1beec87eac60c8f844a5756073811edadbfb6d4a831fb4f03ce5552796ce539b. Executor sha256:2415279526ff8c0eaf9ee1b3ee5afca8bde26e95bfac2c98930212f9f7992a3f. Accept only this exact medium-risk record list and its stated residual risks. Human merge required."
+  ],
+  "parameters": {
+    "arpToleranceDegrees": 1e-08,
+    "excludeFirstObservationLocalDay": true,
+    "excludeLastObservationLocalDay": true,
+    "maximumEventsPerBatch": 20,
+    "maximumGapDays": 112,
+    "maximumWindowDays": 112,
+    "mediumMaximumGapDays": 868,
+    "mediumMaximumWindowDays": 1096,
+    "minimumDistinctOriginals": 2,
+    "minimumObservations": 2,
+    "requireEditionAnchor": true,
+    "requireOriginalReplayForAdmission": true,
+    "requireStableOfficialNameAndArp": true,
+    "unknownOuterBoundsRequired": true
+  },
+  "policyId": "official-aip-bounded-icao",
+  "policySha256": "3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958",
+  "policyVersion": "1.0.0",
+  "scope": {
+    "claims": [
+      "physicalIdentityReference",
+      "boundedCodeContinuity"
+    ],
+    "excludedCodes": [
+      "LEMI",
+      "RMU",
+      "MJV",
+      "TAG",
+      "LYG",
+      "YBP"
+    ],
+    "publisher": "Airports Authority of India",
+    "schemaVersion": "3.0.0",
+    "scheme": "ICAO",
+    "sourceFamilies": [
+      "aai-aip"
+    ],
+    "urlPrefix": "https://aim-india.aai.aero/eAIP_Archive/"
+  },
+  "scopeSha256": "6242a7bfaa66700aefc925bc8a3532f9ad62ca81334b156509835616419d1cb3",
+  "status": "proposed_not_authorized"
+}

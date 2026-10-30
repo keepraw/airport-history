@@ -1,0 +1,35 @@
+{
+  "originalSha256": "26e4a6d5b270fad6b70880259b82a7341122758d236a1d7ad812369386be2163",
+  "sourceId": "policy-aip-2026-04-16-voga",
+  "spans": [
+    {
+      "characterEnd": 129,
+      "characterStart": 82,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "VOGA - MANOHAR INTERNATIONAL AIRPORT, MOPA, GOA"
+    },
+    {
+      "characterEnd": 258,
+      "characterStart": 191,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "Aerodrome reference point coordinates and its site 154433N 0735201E"
+    },
+    {
+      "characterEnd": 705,
+      "characterStart": 661,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='DC.date' content='11 DEC 2025'/>"
+    },
+    {
+      "characterEnd": 765,
+      "characterStart": 707,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='EM.effectiveDateStart' content='22 JAN 2026'/>"
+    }
+  ],
+  "textOriginalSha256": "7562fd89d4c2414f813139735be790403e84c2d8c00860a172c10d202fcbaf16"
+}

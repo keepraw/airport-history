@@ -1,0 +1,35 @@
+{
+  "originalSha256": "f54b0171460a248b0ec3c6a394505e0be62da8805a567ca55487bfbc685d3f1b",
+  "sourceId": "policy-aip-2026-04-16-veho",
+  "spans": [
+    {
+      "characterEnd": 117,
+      "characterStart": 82,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "VEHO - DONYI POLO AIRPORT, ITANAGAR"
+    },
+    {
+      "characterEnd": 246,
+      "characterStart": 179,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "Aerodrome reference point coordinates and its site 265811N 0933836E"
+    },
+    {
+      "characterEnd": 705,
+      "characterStart": 661,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='DC.date' content='05 MAR 2026'/>"
+    },
+    {
+      "characterEnd": 765,
+      "characterStart": 707,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='EM.effectiveDateStart' content='16 APR 2026'/>"
+    }
+  ],
+  "textOriginalSha256": "d5e3d79a65c896f97f364fc0d7cbfec48790819196da40c24aa7fd4c46923ab9"
+}

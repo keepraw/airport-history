@@ -19,3 +19,7 @@ creating a commit. Both must match the identity above; environment variables can
 override Git configuration. Check the resulting commit with
 `git log -1 --format=fuller` before pushing. Do not inherit the execution
 environment's global identity or add an unrelated co-author trailer.
+
+Exception: normal GitHub Merge Pull Request merge commits may use GitHub/web-flow
+as committer. This does not relax ordinary development commit identity, and does
+not authorize automatic merges or rewriting earlier merge commits.

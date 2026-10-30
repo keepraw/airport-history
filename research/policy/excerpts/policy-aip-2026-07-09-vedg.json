@@ -1,0 +1,35 @@
+{
+  "originalSha256": "c5280e347506c97836f65ce565416be5b15acb16d29dfd16a7542338d3dd5d1d",
+  "sourceId": "policy-aip-2026-07-09-vedg",
+  "spans": [
+    {
+      "characterEnd": 115,
+      "characterStart": 82,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "VEDG - DURGAPUR AIRPORT, DURGAPUR"
+    },
+    {
+      "characterEnd": 244,
+      "characterStart": 177,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "Aerodrome reference point coordinates and its site 233728N 0871433E"
+    },
+    {
+      "characterEnd": 705,
+      "characterStart": 661,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='DC.date' content='21 AUG 2025'/>"
+    },
+    {
+      "characterEnd": 765,
+      "characterStart": 707,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='EM.effectiveDateStart' content='02 OCT 2025'/>"
+    }
+  ],
+  "textOriginalSha256": "6528b745454b1d04675b89fd36c3a72388b4f71e296fa1f0e28d412bc24b951b"
+}

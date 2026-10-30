@@ -1,0 +1,201 @@
+{
+  "transitions": {
+    "uncertain->uncertain": 71250,
+    "resolved->resolved": 89189,
+    "not_found->not_found": 14201,
+    "not_found->uncertain": 8566,
+    "not_found->resolved": 166
+  },
+  "byCode": {
+    "IATA:TAO": {
+      "uncertain->uncertain": 645,
+      "resolved->resolved": 3721
+    },
+    "IATA:IST": {
+      "uncertain->uncertain": 228,
+      "resolved->resolved": 4138
+    },
+    "IATA:HKG": {
+      "uncertain->uncertain": 11,
+      "resolved->resolved": 4355
+    },
+    "IATA:DEN": {
+      "uncertain->uncertain": 8,
+      "resolved->resolved": 4358
+    },
+    "ICAO:VHHH": {
+      "uncertain->uncertain": 11,
+      "resolved->resolved": 4355
+    },
+    "IATA:ISL": {
+      "uncertain->uncertain": 1452,
+      "resolved->resolved": 2914
+    },
+    "IATA:ISB": {
+      "uncertain->uncertain": 574,
+      "resolved->resolved": 3792
+    },
+    "IATA:SXF": {
+      "uncertain->uncertain": 1993,
+      "resolved->resolved": 177,
+      "not_found->not_found": 2196
+    },
+    "IATA:BER": {
+      "not_found->not_found": 2169,
+      "uncertain->uncertain": 7,
+      "resolved->resolved": 2190
+    },
+    "IATA:TSE": {
+      "uncertain->uncertain": 1969,
+      "resolved->resolved": 62,
+      "not_found->not_found": 2335
+    },
+    "IATA:NQZ": {
+      "not_found->not_found": 2030,
+      "uncertain->uncertain": 7,
+      "resolved->resolved": 2329
+    },
+    "IATA:KIV": {
+      "uncertain->uncertain": 3321,
+      "resolved->resolved": 29,
+      "not_found->not_found": 1016
+    },
+    "IATA:RMO": {
+      "not_found->not_found": 3349,
+      "uncertain->uncertain": 7,
+      "resolved->resolved": 1010
+    },
+    "IATA:ROV": {
+      "uncertain->uncertain": 496,
+      "resolved->resolved": 3870
+    },
+    "IATA:RVI": {
+      "not_found->not_found": 1106,
+      "uncertain->uncertain": 3260
+    },
+    "IATA:YNT": {
+      "uncertain->uncertain": 198,
+      "resolved->resolved": 4168
+    },
+    "IATA:PNH": {
+      "uncertain->uncertain": 435,
+      "resolved->resolved": 3931
+    },
+    "ICAO:VDPP": {
+      "uncertain->uncertain": 454,
+      "resolved->resolved": 3912
+    },
+    "IATA:KTI": {
+      "uncertain->uncertain": 3956,
+      "resolved->resolved": 410
+    },
+    "ICAO:VDTI": {
+      "uncertain->uncertain": 3950,
+      "resolved->resolved": 416
+    },
+    "IATA:DKR": {
+      "uncertain->uncertain": 3283,
+      "resolved->resolved": 1083
+    },
+    "IATA:DSS": {
+      "uncertain->uncertain": 1107,
+      "resolved->resolved": 3259
+    },
+    "ICAO:GOOY": {
+      "uncertain->uncertain": 39,
+      "resolved->resolved": 4327
+    },
+    "ICAO:GOBD": {
+      "uncertain->uncertain": 1122,
+      "resolved->resolved": 3244
+    },
+    "IATA:AAP": {
+      "uncertain->uncertain": 1744,
+      "resolved->resolved": 2622
+    },
+    "ICAO:OPRN": {
+      "uncertain->uncertain": 2677,
+      "resolved->resolved": 1689
+    },
+    "ICAO:OPIS": {
+      "uncertain->uncertain": 955,
+      "resolved->resolved": 3411
+    },
+    "ICAO:LTBA": {
+      "uncertain->uncertain": 36,
+      "resolved->resolved": 4330
+    },
+    "ICAO:LTFM": {
+      "uncertain->uncertain": 1431,
+      "resolved->resolved": 2935
+    },
+    "ICAO:EDDB": {
+      "uncertain->uncertain": 606,
+      "resolved->resolved": 3760
+    },
+    "ICAO:UACC": {
+      "uncertain->uncertain": 537,
+      "resolved->resolved": 3829
+    },
+    "ICAO:KPFN": {
+      "uncertain->uncertain": 4363,
+      "resolved->resolved": 3
+    },
+    "ICAO:KECP": {
+      "uncertain->uncertain": 4354,
+      "resolved->resolved": 12
+    },
+    "ICAO:KISN": {
+      "uncertain->uncertain": 4348,
+      "resolved->resolved": 18
+    },
+    "ICAO:VOSR": {
+      "uncertain->uncertain": 3499,
+      "resolved->resolved": 867
+    },
+    "ICAO:VOGB": {
+      "uncertain->uncertain": 3499,
+      "resolved->resolved": 867
+    },
+    "ICAO:VEKI": {
+      "uncertain->uncertain": 3499,
+      "resolved->resolved": 867
+    },
+    "ICAO:VEPY": {
+      "uncertain->uncertain": 3499,
+      "resolved->resolved": 867
+    },
+    "ICAO:VOKU": {
+      "uncertain->uncertain": 3499,
+      "resolved->resolved": 867
+    },
+    "ICAO:LELC": {
+      "uncertain->uncertain": 4171,
+      "resolved->resolved": 195
+    },
+    "ICAO:VEDG": {
+      "not_found->uncertain": 4283,
+      "not_found->resolved": 83
+    },
+    "ICAO:VOGA": {
+      "not_found->uncertain": 4283,
+      "not_found->resolved": 83
+    }
+  },
+  "changedPublishedResolved": 0,
+  "changedExistingAnswers": 0,
+  "newConflicts": 0,
+  "removedConflicts": 0,
+  "codeQueries": 183372,
+  "nameQueries": 148444,
+  "localDates": 4366,
+  "interval": [
+    "2015-01-01",
+    "2026-10-29"
+  ],
+  "additionalBoundaryDates": 46,
+  "mode": "simulation_only",
+  "authorization": null,
+  "baselineFileSha256": "1beec87eac60c8f844a5756073811edadbfb6d4a831fb4f03ce5552796ce539b",
+  "candidateFileSha256": "af02779da9c63c832e5357b4c6b30a8802f1fa10358fb28f263eb1be8b929504"
+}

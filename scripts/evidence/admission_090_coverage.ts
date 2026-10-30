@@ -18,7 +18,8 @@ const shift = (d: string, n: number) => date(Date.parse(d) + n * DAY);
 const answer = ({ dataVersion: _version, ...result }: Resolution) => result;
 
 export function measureFormalAdmission() {
-  const base: Dataset = read("test/curated-0.8.0.json"), data: Dataset = read("data/airports.json");
+  // Replay the immutable admission itself; a later formal candidate is gated separately.
+  const base: Dataset = read("test/curated-0.8.0.json"), data: Dataset = read("test/curated-0.9.0.json");
   const approval = read(`${DIRECTORY}/approval.json`);
   if (hash("test/curated-0.8.0.json") !== approval.baseSha256 || data.dataVersion !== "0.9.0")
     throw new Error("Unexpected formal admission baseline/version");
@@ -91,7 +92,7 @@ export function measureFormalAdmission() {
       throw new Error("Deferred code changed");
   }
   return { measurement: "Actual production resolveAirport() against formal data/airports.json; no hypothetical accepted dataset",
-    baseCommit: approval.baseCommit, baseDatasetSha256: hash("test/curated-0.8.0.json"), formalDatasetSha256: hash("data/airports.json"),
+    baseCommit: approval.baseCommit, baseDatasetSha256: hash("test/curated-0.8.0.json"), formalDatasetSha256: hash("test/curated-0.9.0.json"),
     resolverSha256: hash("src/resolve.ts"), schemaVersion: data.schemaVersion, dataVersion: data.dataVersion,
     period: [START, END], unit: "Unique (scheme, code, whole local date); end of benchmark inclusive",
     beforeCounts: { airports: base.airports.length, assignments: base.assignments.length, names: base.names.length, sources: base.sources.length },

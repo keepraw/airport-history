@@ -11,7 +11,7 @@ import admitted_090 as admission
 class Admission090Tests(unittest.TestCase):
     def fixture(self):
         review = admission.REVIEW
-        return [admission.load(ROOT / 'data/airports.json'), admission.load(review / 'approval.json'),
+        return [admission.load(ROOT / 'test/curated-0.9.0.json'), admission.load(review / 'approval.json'),
                 admission.load(review / 'dossier.json'), admission.load(review / 'source-review.json'),
                 [admission.load(p) for p in sorted((review / 'batches').glob('*.json'))]]
 

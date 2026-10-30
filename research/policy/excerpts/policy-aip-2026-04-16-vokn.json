@@ -1,0 +1,35 @@
+{
+  "originalSha256": "8a146fc6e2b61227df8abaa2b41d3a06c2dd941ee74a3160e83b7d46651d3c8e",
+  "sourceId": "policy-aip-2026-04-16-vokn",
+  "spans": [
+    {
+      "characterEnd": 136,
+      "characterStart": 82,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "VOKN - KANNUR INTERNATIONAL AIRPORT, MATTANNUR, KANNUR"
+    },
+    {
+      "characterEnd": 265,
+      "characterStart": 198,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "Aerodrome reference point coordinates and its site 115457N 0753245E"
+    },
+    {
+      "characterEnd": 705,
+      "characterStart": 661,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='DC.date' content='05 MAR 2026'/>"
+    },
+    {
+      "characterEnd": 765,
+      "characterStart": 707,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='EM.effectiveDateStart' content='16 APR 2026'/>"
+    }
+  ],
+  "textOriginalSha256": "7f8ad135a81cfc51dfd5b8c5dbcef5f3909db0a18b7b549bca3c8f86c29f158a"
+}
