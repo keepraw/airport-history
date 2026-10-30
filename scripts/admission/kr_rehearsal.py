@@ -21,10 +21,12 @@ def rehearse():
         root = Path(tmp) / 'repo'
         paths = subprocess.check_output(['git', 'ls-files', '--cached', '--others', '--exclude-standard', '-z'], cwd=ROOT).decode().split('\0')
         for name in filter(None, paths):
+            if name == 'node_modules' or name.startswith('node_modules/'):
+                continue  # An outer rehearsal's runtime symlink is not a repository input.
             source = ROOT / name
+            require(not source.is_symlink(), 'Symlink in rehearsal source')
             if not source.exists():
                 continue  # Tracked artifacts removed only in an outer disposable rehearsal.
-            require(not source.is_symlink(), 'Symlink in rehearsal source')
             target = root / name
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copy2(source, target)

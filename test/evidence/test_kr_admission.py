@@ -16,6 +16,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[2] / 'scripts/admission'
 import kr_adapter as a
 import kr_evidence as e
 from kr_rehearsal import rehearse
+import kr_rehearsal as rehearsal_module
 
 
 def notice(number='A0001/25', kind='N', target='', end='2505010000', estimated=False, start='2504180000'):
@@ -308,11 +309,18 @@ class KoreanAdmissionTests(unittest.TestCase):
     def test_nested_rehearsal_ignores_inherited_python_test_bootstrap_and_missing_bundle_readme(self):
         missing = a.ROOT / 'research/admissions/0.10.0/README.md'
         actual_exists = Path.exists
+        actual_git = rehearsal_module.subprocess.check_output
+        def parent_runtime_link(args, *positional, **kwargs):
+            output = actual_git(args, *positional, **kwargs)
+            if args[:2] == ['git', 'ls-files']:
+                output += b'node_modules\0'
+            return output
         with tempfile.TemporaryDirectory(dir=a.ROOT / 'work') as tmp:
             bootstrap = Path(tmp)
             (bootstrap / 'sitecustomize.py').write_text("raise RuntimeError('Parent test authority must not enter child')\n")
             with patch.dict(os.environ, {'PYTHONPATH': str(bootstrap), 'AIRPORT_POLICY_REHEARSAL_ACTIVE': '1'}), \
-                 patch.object(Path, 'exists', lambda path: False if path == missing else actual_exists(path)):
+                 patch.object(Path, 'exists', lambda path: False if path == missing else actual_exists(path)), \
+                 patch.object(rehearsal_module.subprocess, 'check_output', side_effect=parent_runtime_link):
                 result = rehearse()
         self.assertEqual(54, result['conditionalResolved'])
         self.assertTrue(result['productionRejectedTestAuthority'])

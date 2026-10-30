@@ -30,7 +30,8 @@ identity admission function, the independent Korean adapter, the real schema and
 injected only in that process. A second production process rejects those test
 credentials. Isolated Python child processes ignore inherited PYTHONPATH test
 bootstraps; outer disposable bundle changes are preserved without weakening the
-real 905-file baseline validator. The public receipt contains query results and no test identities or
+real 905-file baseline validator. Dependency mounts are excluded before copying;
+all other symlink inputs, including dangling links, remain rejected. The public receipt contains query results and no test identities or
 authorization records. Ordinary CI replays locked evidence **offline**; it does
 not claim original acquisition.
 
