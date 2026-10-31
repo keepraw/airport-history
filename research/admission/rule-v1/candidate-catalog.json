@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "aipName": "SEOUL / Incheon INTL",
+      "arpDms": "372745N 1262621E",
+      "candidateKey": "kr-physical-incheon",
+      "editionSources": {
+        "3/25": "kr-rksi-2025-04-16",
+        "4/25": "kr-rksi-2025-05-14"
+      },
+      "independent": {
+        "addressTokens": [
+          "47, Gonghang-ro 424beon-gil",
+          "Incheon"
+        ],
+        "aipAddressTokens": [
+          "47, Gonghang-ro 424beon-gil",
+          "Incheon"
+        ],
+        "facilityKey": "https://www.airport.kr/co_en/4385/subview.do",
+        "siteNameToken": "Incheon International Airport",
+        "sourceId": "iiac-location"
+      },
+      "name": "Incheon International Airport",
+      "observedCode": "RKSI",
+      "riskSourceIds": [
+        "kr-rksi-2025-04-16",
+        "kr-rksi-2025-05-14",
+        "kr-20250501-rksi"
+      ]
+    },
+    {
+      "aipName": "SEOUL / GIMPO International",
+      "arpDms": "373325N 1264751E",
+      "candidateKey": "kr-physical-gimpo",
+      "editionSources": {
+        "3/25": "kr-rkss-2025-04-16",
+        "4/25": "kr-rkss-2025-05-14"
+      },
+      "independent": {
+        "addressTokens": [
+          "하늘길 112",
+          "강서구"
+        ],
+        "aipAddressTokens": [
+          "Haneul-gil",
+          "Gangseo-gu",
+          "Seoul"
+        ],
+        "facilityKey": "https://www.airport.co.kr/gimpo/cms/frCon/index.do?MENU_ID=2020",
+        "siteNameToken": "김포공항",
+        "sourceId": "kac-gimpo-location"
+      },
+      "name": "Gimpo International Airport",
+      "observedCode": "RKSS",
+      "riskSourceIds": [
+        "kr-rkss-2025-04-16",
+        "kr-rkss-2025-05-14",
+        "kr-20250501-rkss"
+      ]
+    }
+  ],
+  "country": "KR",
+  "formatVersion": 1,
+  "issuerFamily": "KR-MOLIT-AIP",
+  "meaning": "Evidence discovery seeds only; no IDs, authority, or airport-specific rule exceptions."
+}

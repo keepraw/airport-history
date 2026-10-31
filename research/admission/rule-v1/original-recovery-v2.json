@@ -1,0 +1,156 @@
+{
+  "acquiredOriginalComponents": 160,
+  "evidenceVersionSha256": "9f56d40d56ed86b55e7776e105fbbc9727eb43c6aaa9bb1df84692f34475b952",
+  "exactLegacyComponentsInCurrentVersion": 83,
+  "factBlockersResolvedAmongTwelve": 12,
+  "formatVersion": 2,
+  "historicalWindow": {
+    "from": "2025-04-18",
+    "timezone": "Asia/Seoul",
+    "toExclusive": "2025-05-15"
+  },
+  "logicalSourceComponents": 98,
+  "oldExactBytesRestoredAmongTwelve": 0,
+  "oldTwelve": [
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 51,
+      "historicalWindow": {
+        "from": "2025-04-18",
+        "timezone": "Asia/Seoul",
+        "toExclusive": "2025-05-15"
+      },
+      "noticesParsed": 633,
+      "replacementKind": "reobtained-official-evidence",
+      "sourceId": "kr-notam-rksi-available",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 1,
+      "exactOriginal": false,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "replacementKind": "reobtained-official-evidence",
+      "sourceId": "notam-ui",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": false,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "replacementKind": "reobtained-official-evidence",
+      "sourceId": "notam-valid-ui",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 51,
+      "historicalWindow": {
+        "from": "2025-04-18",
+        "timezone": "Asia/Seoul",
+        "toExclusive": "2025-05-15"
+      },
+      "noticesParsed": 1622,
+      "replacementKind": "reobtained-official-evidence",
+      "sourceId": "notam-all-rksi",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": null,
+      "noticesParsed": 9999,
+      "replacementKind": "reobtained-official-evidence",
+      "sourceId": "notam-all-rkrr",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": null,
+      "noticesParsed": 1385,
+      "replacementKind": "reobtained-official-evidence",
+      "sourceId": "notam-fir-early",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": {
+        "from": "2025-04-18",
+        "timezone": "Asia/Seoul",
+        "toExclusive": "2025-05-15"
+      },
+      "noticesParsed": 12,
+      "replacementKind": "derived-official-notam-set",
+      "sourceId": "checklist-z0471-25",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": {
+        "from": "2025-04-18",
+        "timezone": "Asia/Seoul",
+        "toExclusive": "2025-05-15"
+      },
+      "noticesParsed": 14,
+      "replacementKind": "derived-official-notam-set",
+      "sourceId": "checklist-a0478-25",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": {
+        "from": "2025-04-18",
+        "timezone": "Asia/Seoul",
+        "toExclusive": "2025-05-15"
+      },
+      "noticesParsed": 23,
+      "replacementKind": "derived-official-notam-set",
+      "sourceId": "checklist-z0384-25",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": {
+        "from": "2025-04-18",
+        "timezone": "Asia/Seoul",
+        "toExclusive": "2025-05-15"
+      },
+      "noticesParsed": 14,
+      "replacementKind": "derived-official-notam-set",
+      "sourceId": "checklist-a0351-25",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 2,
+      "exactOriginal": false,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "replacementKind": "reobtained-official-evidence",
+      "sourceId": "iiac-location",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 1,
+      "exactOriginal": false,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "replacementKind": "reobtained-official-evidence",
+      "sourceId": "iata-seoul-current",
+      "state": "facts-revalidated"
+    }
+  ],
+  "previousRecoveryInventorySha256": "1d31556c7f0dd0b9ef6526aa7a1a9ebaba29b15a4d4885b71ad46e6327346310",
+  "rawNoticesParsedByBoundedCodeReplay": 19639,
+  "remainingNecessaryFactBlockers": 0,
+  "scope": "Version 2 fact replay passed for the bounded window. This does not repair v1 byte pins, revive its grants, or prove all-history completeness. The truncated all-FIR diagnostic response is not historical coverage proof; complete split segments and six official checklists are required."
+}

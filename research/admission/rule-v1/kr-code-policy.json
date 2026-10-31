@@ -1,0 +1,37 @@
+{
+  "authorizationTerms": "Permit bounded ICAO code candidate review only after independent physical identity admission by the exact identity rule. Recompute original AIP, NOTAM, SUP and checklist facts for the exact window. New evidence versions need fresh fact replay; mutation under an old hash rejects. No inherited v1/Indian grant, IATA, new identity creation, expanded dates, published corrections, test authority or direct main writes. Batch candidate PR only; human merge required.",
+  "formatVersion": 1,
+  "inheritsAuthorization": false,
+  "policyKey": "kr-molit-bounded-icao@2.0.0-draft",
+  "requirements": {
+    "allOriginalVersionsReplayed": true,
+    "frozenLegacyCommit": "a852596869d7ae157ef53fdf236ffbdaff5508c8",
+    "frozenLegacyEvidencePredicates": "research/admission/kr-molit-v1/policy.json",
+    "identityRuleKey": "official-aip-stable-physical-identity@0.1.0-draft",
+    "maximumAiracGapDays": 28,
+    "noUnknownRelevantNoticeLifecycle": true,
+    "officialOutstandingSnapshots": [
+      "2025-04-01",
+      "2025-05-01"
+    ],
+    "reproveChangedEvidencePerFact": true
+  },
+  "scope": {
+    "codes": [
+      "RKSI",
+      "RKSS"
+    ],
+    "country": "KR",
+    "issuerFamily": "KR-MOLIT-AIP",
+    "namespace": "ICAO",
+    "newIataAssignments": false,
+    "newPhysicalIdentities": false,
+    "publishedCorrections": false,
+    "window": {
+      "from": "2025-04-18",
+      "timezone": "Asia/Seoul",
+      "toExclusive": "2025-05-15"
+    }
+  },
+  "supersedesForNewBatches": "kr-molit-bounded-icao@1.0.0"
+}

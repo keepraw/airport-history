@@ -1,0 +1,27 @@
+name: Versioned formal release validation
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+  issues: read
+  pull-requests: read
+jobs:
+  versioned-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.14.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: python3 admission/v1/release_ci.py
+        env:
+          GH_TOKEN: ${{ github.token }}
