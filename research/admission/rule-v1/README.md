@@ -100,3 +100,48 @@ It never rewrites a historical grant to pretend a changed executor is unchanged.
 Keep the CAS in persistent private storage, or reacquire and revalidate a qualified
 new version before each production batch. A missing required original stays a
 blocker regardless of recorded offline receipts.
+
+
+## Pending identity provenance revalidation (PR29)
+
+The two previously generated Korean UUIDs remain **pending**, not formally
+admitted. `pending-provenance.json` preserves both original production bundles,
+the original credential history and the recovery archive digest. It is metadata
+only and is an explicit signed executor input; it is not an airport allowlist.
+
+The transition verifies the recovery archive and current CAS, then runs the
+unchanged original executor in its exact published Git tree, with live original
+Owner-comment reads and full original replay. Current classification and site/ARP
+competition must pass independently. A missing ledger blocks UUID minting for
+these known sites. Old credential fields and historical attestations are retained.
+A new provenance attestation can be appended only after the current independent
+Owner grant is verified. Public offline CI checks metadata and resolver scope;
+it cannot claim private-original replay or issue an attestation.
+
+The required private archive is copied, without replacing the original, to:
+`work/rule-admission/provenance/04d33b3e7b63b96568c68b9871488dafac8084fd2cc5dac6554f15cd40334aec.tar.gz`.
+Its SHA-256 must match that filename. Preserve the original recovery package,
+pending ledger and CAS; no external private persistence is configured.
+
+Read-only review before new authorization:
+
+```sh
+python3 admission/v1/provenance.py review \
+  --registry work/rule-admission/pending-identities.json \
+  --manifest work/rule-admission/versions/1beda6e9d01d8490dceb8a0fff183e9d6863111d4d0593a8b1db20e40c10de6f.json \
+  --output work/provenance-review.json
+```
+
+This reports preserved pending IDs and fresh classifications, with zero new
+attestations and zero formal identities. After both new ordinary Owner comments
+are supplied, use the unchanged `authorize.py record` flow (identity first, then
+`kr-code --registry`), update the canonical registry, and complete live integrity
+CI before human merge. The regular `release.py prepare/validate` and publisher
+then enforce the same provenance path; no separate approval or test-authority
+production flag exists. Regenerate the release bundle under the new executor;
+do not relabel the old bundle or edit its hashes.
+
+The publisher retains the frozen 0.10.0 research metadata checks while auditing
+the candidate's real Git directory/index and full reachable history. Versioned
+original hashes are collected from the index and history, so removing or changing
+working-tree metadata cannot hide a full newly acquired NOTAM response.

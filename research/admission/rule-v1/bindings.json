@@ -4,22 +4,24 @@
     "canonicalJsonInputs": {
       "package.json": "0992ebe84b92e7e946bdb852b7598fe43f062709d4d8f367f697d398e75d0b30"
     },
-    "executorSha256": "ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42",
+    "executorSha256": "4c8843632a49a9e3904ead0d9bc0ab306c835c7bed907402841e3aa88628fc47",
     "files": {
       "admission/v1/authorize.py": "8ed7bf3bcf7afd215555f3f1f305241b57ea0b0455ab8a1a5d21760ed02c03cc",
       "admission/v1/batch.py": "6c4974c6094d8e54f0613ffef102c9019dad38c08eb565dbc8f0cdadb6a2bcbf",
       "admission/v1/evidence.py": "89a58e9e8e2ad6626e6d8d563482192e049d3ce8c5649d1dc99cea59d052af2d",
-      "admission/v1/identity.py": "8e5ab28741c709527fa1f384dcf5a0aca1fd4a76152d1d6149450cdb605d7f7f",
+      "admission/v1/identity.py": "eaf01fb07f6c4e43cd6bcc17acf6b11cd599918c11ebb8affaed17f3035aaeca",
       "admission/v1/korean.py": "2ef1a7e80ecd5a105d5bf126e2809a5bd3022eb77d6abefce5625bff1af3ebdd",
-      "admission/v1/publish.py": "a04b945bd65739169cbcd32fc1f44c37d9966c06fe68dec826a4b3a091428436",
+      "admission/v1/provenance.py": "37b3ad5c02cf8736d3c52d798565b70c5622ad4a8321b95f9e3099c374188621",
+      "admission/v1/publish.py": "9c7360d4a41c8ebce6331c1c05501f81bc96ee3df5c0fc77da3562205d754891",
       "admission/v1/recover.py": "edff044ff7e6ad208a8358a9adc23386d92d6f59c2762b035f345a848f6d1c97",
       "admission/v1/release-ci.yml": "7109a81462d26186fb41b04cf88cdbc3da495dd3906add8e90c8c916decf170b",
-      "admission/v1/release.py": "583db4ecaca16eb99cf4f4c37d6f3fd30c605ef7e0bb2b9fc7863dcd8e4305f3",
-      "admission/v1/release_ci.py": "2524d831c59862ead3a54419601688fb7e5281f37573c2f6693850a64387c4ea",
+      "admission/v1/release.py": "4e70333c292b1c877eeb7c3e9247187b57aa73945335069212a5977cab14b568",
+      "admission/v1/release_ci.py": "6c8872d4d7a9fa6629bbbf883fa36d4e494870ddfb95145d396c253c35549081",
       "admission/v1/runtime.py": "7c0f31cdebc50e23a5994a52d0ac660e0a2526f1d5b16224ee869a044fa5a4f4",
       "pnpm-lock.yaml": "e79aceff64ebcd5fde9a832cd349832cd896337fa6dae352248539a433961163",
       "research/admission/kr-molit-v1/policy.json": "42052081318d08c96e56c6d37a2848ea34c22acc0fddae76386e8027d4fb70ab",
-      "research/admission/rule-v1/executor-inputs.json": "b8507774d952be42450bccba59e525dd6eb567662f6c8ea40a4fd217c0caea60",
+      "research/admission/rule-v1/executor-inputs.json": "691d62e91013c09991b8439da1250c2c54dae465956d9dc45c1d2a0f55685fdc",
+      "research/admission/rule-v1/pending-provenance.json": "78a6a16bcb2b31c690268881ad0d5a13d92c4857d65dcf9b4c302e70cfd6c3e6",
       "research/evidence/code-dates/excerpts/kr-20250416-amdt-full.json": "6fbdd99ae7142b3ad7ebd3565de7ecff4505c6fc5b6b94df34228d11569e08e4",
       "research/evidence/code-dates/excerpts/kr-20250416-gen03.json": "18029012009cb9aa6abf97d52ded3400246e00f08dea829203ae8755c67b8a11",
       "research/evidence/code-dates/excerpts/kr-20250416-sup-menu.json": "ae8a39aae002a034862653b48e62f88bc1e320c66d8f87ce99a030967820e8b0",
@@ -195,13 +197,13 @@
   },
   "policies": {
     "kr-molit-bounded-icao@2.0.0-draft": {
-      "executorSha256": "ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42",
+      "executorSha256": "4c8843632a49a9e3904ead0d9bc0ab306c835c7bed907402841e3aa88628fc47",
       "policyKey": "kr-molit-bounded-icao@2.0.0-draft",
       "policySha256": "13e49ee7eec3a9bfc11db72e870d028647000829954015f93175fc0661666211",
       "scopeSha256": "ca29502a69df9e8283fbdfddd0022be6988054336caacdb57f1b2076b555e413"
     },
     "official-aip-stable-physical-identity@0.1.0-draft": {
-      "executorSha256": "ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42",
+      "executorSha256": "4c8843632a49a9e3904ead0d9bc0ab306c835c7bed907402841e3aa88628fc47",
       "policyKey": "official-aip-stable-physical-identity@0.1.0-draft",
       "policySha256": "7eadcab59d93a2f33c9e9237ad2dc2e258e129f4995bbf60cba35c26d6fe65ae",
       "scopeSha256": "597ddbc5afeb66df29bf7dcb405846e9ac912ae4bfa93bfd2b71c24a6c8b4e65"

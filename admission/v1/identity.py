@@ -246,13 +246,8 @@ def queue(results, previous=()):
     return sorted(entries.values(), key=lambda r: r['taskId'])
 
 
-def allocate(candidates, p, grants, evidence, store, inventory, registry):
-    grant = authorize(p, grants)  # No UUID, output, or registry mutation before live authorization.
-    checked_bindings(p)
-    require(registry['formatVersion'] == 1, 'Unsupported permanent site registry')
-    output = deepcopy(registry)
-    require(len({r['siteKey'] for r in output['identities']}) == len(output['identities']) and
-            len({r['airportId'] for r in output['identities']}) == len(output['identities']), 'Duplicate registry identity')
+
+def classify_batch(candidates, p, evidence, store, inventory):
     results = [classify(c, p, evidence, store, inventory) for c in candidates]
     # Check the entire batch BEFORE the first allocation. Encounter order must
     # never let one side of a competing-site pair slip through.
@@ -267,6 +262,20 @@ def allocate(candidates, p, grants, evidence, store, inventory, registry):
                 for result in (left, right):
                     result['classification'] = MANUAL
                     result['reasons'].append('batch_competing_physical_site')
+    return results
+
+
+def allocate(candidates, p, grants, evidence, store, inventory, registry):
+    grant = authorize(p, grants)  # No UUID, output, or registry mutation before live authorization.
+    checked_bindings(p)
+    require(registry['formatVersion'] == 1, 'Unsupported permanent site registry')
+    output = deepcopy(registry)
+    require(len({r['siteKey'] for r in output['identities']}) == len(output['identities']) and
+            len({r['airportId'] for r in output['identities']}) == len(output['identities']), 'Duplicate registry identity')
+    results = classify_batch(candidates, p, evidence, store, inventory)
+    # Legacy credentials are verified before the first UUID allocation.
+    from provenance import revalidate_registry
+    output = revalidate_registry(output, candidates, p, grants, evidence, store, inventory)
     accepted = []
     current_inventory = deepcopy(inventory)
     for candidate, result in zip(candidates, results):
@@ -291,7 +300,8 @@ def allocate(candidates, p, grants, evidence, store, inventory, registry):
                 else:
                     attestation = {'candidateSha256': sha(candidate), 'evidenceVersionSha256': sha(evidence),
                                    'bindings': checked_bindings(p), 'authorizationSha256': sha(grant)}
-                    if attestation not in entry.setdefault('revalidations', []):
+                    if not any(all(a.get(k) == v for k, v in attestation.items())
+                               for a in entry.setdefault('revalidations', [])):
                         entry['revalidations'].append(attestation)
                 accepted.append({'candidate': candidate, 'identity': entry, 'decision': result})
     return {'registry': output, 'accepted': accepted, 'decisions': results, 'exceptions': queue(results)}
