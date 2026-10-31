@@ -1,0 +1,691 @@
+{
+  "bindings": {
+    "executorSha256": "3222018573f8204dbed40df839cc64dd1e69e29b490d3fbb2b225bac3f473a6a",
+    "policyKey": "kr-molit-bounded-icao@1.0.0",
+    "policySha256": "0d247bbd7eba7fb4a910b8a80e8cafa508c4fd87bf44836777718ff9148f7db5",
+    "scopeSha256": "1d0a8a5231195cdc96aceeabd9415a8f55f76015b62907cf29f838f5be7e11a6"
+  },
+  "candidateQueries": [
+    {
+      "code": "RKSI",
+      "date": "2025-04-18",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-19",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-20",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-21",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-22",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-23",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-24",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-25",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-26",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-27",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-28",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-29",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-04-30",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-01",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-02",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-03",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-04",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-05",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-06",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-07",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-08",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-09",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-10",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-11",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-12",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-13",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSI",
+      "date": "2025-05-14",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-18",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-19",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-20",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-21",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-22",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-23",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-24",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-25",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-26",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-27",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-28",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-29",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-04-30",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-01",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-02",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-03",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-04",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-05",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-06",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-07",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-08",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-09",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-10",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-11",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-12",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-13",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    },
+    {
+      "code": "RKSS",
+      "date": "2025-05-14",
+      "isolationStatus": "resolved",
+      "productionBlockers": [
+        "identity_approval_and_formal_admission_pending",
+        "real_owner_policy_authorization_pending",
+        "exact_original_replay_blocked"
+      ],
+      "productionStatus": "blocked",
+      "status": "resolved"
+    }
+  ],
+  "conditionalResolved": 54,
+  "dataVersion": "0.10.0",
+  "engineering": "implemented_offline_verified_original_replay_blocked",
+  "engineeringReady": false,
+  "formalNewResolved": 0,
+  "formalPromotionIntegration": "separate future identity/data admission PR and versioned formal replay required",
+  "formalRegressionQueries": 37736,
+  "formallyAdmittedKoreanIdentities": 0,
+  "formatVersion": 1,
+  "identityApproval": "pending",
+  "identityBatchSha256": "1bf46a730f0f1f750e3479bdfe032e653b6b2c63e113aa6eae908bff3948722c",
+  "offlineReplayIsNotFreshAcquisition": true,
+  "originalReplayBlockedSources": [
+    "kr-notam-rksi-available",
+    "notam-ui",
+    "notam-valid-ui",
+    "notam-all-rksi",
+    "notam-all-rkrr",
+    "notam-fir-early",
+    "checklist-z0471-25",
+    "checklist-a0478-25",
+    "checklist-z0384-25",
+    "checklist-a0351-25",
+    "iiac-location",
+    "iata-seoul-current"
+  ],
+  "policyAuthorization": "pending",
+  "policyKey": "kr-molit-bounded-icao@1.0.0",
+  "production": "inactive",
+  "realKoreanAuthorizations": 0,
+  "safeIdentityApprovalEntry": "prepare-identities",
+  "safePolicyAuthorizationEntry": "record-policy",
+  "schemaVersion": "3.0.0"
+}

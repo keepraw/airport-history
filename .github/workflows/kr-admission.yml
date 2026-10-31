@@ -1,0 +1,28 @@
+name: Korean admission adapter
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  inactive-adapter:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.14.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - name: Verify protected baseline, bindings and offline readiness receipt
+        run: python3 scripts/admission/kr_verify.py validate
+      - name: Real disposable identity and policy rehearsal (offline evidence; test authority only)
+        run: python3 scripts/admission/kr_rehearsal.py
+      - name: Reachable history and restricted original audit
+        run: python3 scripts/evidence/korea_readiness.py rights
