@@ -1,10 +1,12 @@
-name: Rule-based identity admission (inactive)
+name: Rule-based identity admission
 on:
   pull_request:
   push:
     branches: [main]
 permissions:
   contents: read
+  issues: read
+  pull-requests: read
 jobs:
   isolated-rule-engine:
     runs-on: ubuntu-latest
@@ -22,6 +24,10 @@ jobs:
       - run: pnpm install --frozen-lockfile
       - name: Immutable legacy baselines and explicit v2 executor bindings
         run: python3 admission/v1/verify.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Rule registration negative authority tests
+        run: python3 admission/v1/test_registration.py
       - name: Synthetic offline E2E and negative authority/identity/evidence tests
         run: python3 admission/v1/test_engine.py
       - name: Reachable history rights audit (no private originals available)

@@ -1,4 +1,45 @@
 {
-  "authorizations": [],
+  "authorizations": [
+    {
+      "approval": {
+        "body": "Authorize rule official-aip-stable-physical-identity@0.1.0-draft policy-sha256:7eadcab59d93a2f33c9e9237ad2dc2e258e129f4995bbf60cba35c26d6fe65ae scope-sha256:597ddbc5afeb66df29bf7dcb405846e9ac912ae4bfa93bfd2b71c24a6c8b4e65 executor-sha256:ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42. Permit automatic physical-site UUID allocation for all future qualifying low-risk airports in this country/issuer scope, without per-airport approval. Require original replay, independent operator site/address evidence, complete edition and competition checks. No code/name validity, relocation, correction, test authority, or direct main writes. Candidate PR only; human merge required.",
+        "created_at": "2026-10-31T05:59:37Z",
+        "html_url": "https://github.com/keepraw/airport-history/issues/27#issuecomment-6539831536",
+        "kind": "github-owner",
+        "principal": {
+          "id": 49091395,
+          "login": "keepraw"
+        },
+        "updated_at": "2026-10-31T05:59:37Z"
+      },
+      "bindings": {
+        "executorSha256": "ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42",
+        "policyKey": "official-aip-stable-physical-identity@0.1.0-draft",
+        "policySha256": "7eadcab59d93a2f33c9e9237ad2dc2e258e129f4995bbf60cba35c26d6fe65ae",
+        "scopeSha256": "597ddbc5afeb66df29bf7dcb405846e9ac912ae4bfa93bfd2b71c24a6c8b4e65"
+      },
+      "policyKey": "official-aip-stable-physical-identity@0.1.0-draft"
+    },
+    {
+      "approval": {
+        "body": "Authorize rule kr-molit-bounded-icao@2.0.0-draft policy-sha256:13e49ee7eec3a9bfc11db72e870d028647000829954015f93175fc0661666211 scope-sha256:ca29502a69df9e8283fbdfddd0022be6988054336caacdb57f1b2076b555e413 executor-sha256:ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42. Permit bounded ICAO code candidate review only after independent physical identity admission by the exact identity rule. Recompute original AIP, NOTAM, SUP and checklist facts for the exact window. New evidence versions need fresh fact replay; mutation under an old hash rejects. No inherited v1/Indian grant, IATA, new identity creation, expanded dates, published corrections, test authority or direct main writes. Batch candidate PR only; human merge required.",
+        "created_at": "2026-10-31T05:59:45Z",
+        "html_url": "https://github.com/keepraw/airport-history/issues/27#issuecomment-6539832668",
+        "kind": "github-owner",
+        "principal": {
+          "id": 49091395,
+          "login": "keepraw"
+        },
+        "updated_at": "2026-10-31T05:59:45Z"
+      },
+      "bindings": {
+        "executorSha256": "ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42",
+        "policyKey": "kr-molit-bounded-icao@2.0.0-draft",
+        "policySha256": "13e49ee7eec3a9bfc11db72e870d028647000829954015f93175fc0661666211",
+        "scopeSha256": "ca29502a69df9e8283fbdfddd0022be6988054336caacdb57f1b2076b555e413"
+      },
+      "policyKey": "kr-molit-bounded-icao@2.0.0-draft"
+    }
+  ],
   "formatVersion": 1
 }
