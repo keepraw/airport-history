@@ -5,6 +5,7 @@
   "policyKey": "kr-molit-bounded-icao@2.0.0-draft",
   "requirements": {
     "allOriginalVersionsReplayed": true,
+    "frozenLegacyCommit": "a852596869d7ae157ef53fdf236ffbdaff5508c8",
     "frozenLegacyEvidencePredicates": "research/admission/kr-molit-v1/policy.json",
     "identityRuleKey": "official-aip-stable-physical-identity@0.1.0-draft",
     "maximumAiracGapDays": 28,

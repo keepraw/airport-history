@@ -38,7 +38,7 @@ The code rule is independently authorized and remains bounded to RKSI/RKSS and
 cannot establish code validity. The code bridge uses the preserved PR25 finite
 predicates and additionally re-evaluates all necessary current-version originals,
 historical notice graphs, official outstanding sets, SUP, AIP and local dates.
-It does not inherit v1 or Indian grants.
+It does not inherit v1 or Indian grants. The read-only legacy predicates execute in their exact frozen Git tree, including its original package semantics; current release versions never rewrite old research fingerprints. After-merge repetition with a new package version and a cleared graph cache returns NO_CHANGES.
 
 The v2 executor manifest is an explicit transitive file closure, including its
 own input list, release pipeline and CI template. Adding an unrelated country

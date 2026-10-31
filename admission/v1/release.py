@@ -102,6 +102,24 @@ def gate(base, candidate, code_evidence):
         return load(path)
 
 
+def already_covered(base, accepted, code_evidence):
+    """An already merged batch is a no-op, not a new identity/data proposal."""
+    formal_ids = {a['airportId'] for a in base['airports']}
+    by_code = {a['candidate']['observedCode']: a for a in accepted}
+    if not accepted or any(a['identity']['airportId'] not in formal_ids for a in accepted):
+        return False
+    if set(by_code) != {c['code'] for c in code_evidence['candidates']}:
+        return False
+    for row in code_evidence['candidates']:
+        matches = [a for a in base['assignments'] if a['scheme'] == 'ICAO' and a['code'] == row['code']]
+        if not (len(matches) == 1 and matches[0]['airportId'] == by_code[row['code']]['identity']['airportId'] and
+                matches[0]['verificationStatus'] == 'verified' and
+                matches[0]['validFrom']['latest'] == row['window']['from'] and
+                matches[0]['validTo']['earliest'] == row['window']['toExclusive']):
+            return False
+    return True
+
+
 def _prepare(evidence, store, grants, next_version, output, *, candidates=None):
     output = private_path(output, new=True)
     ip, cp = policy('identity'), policy('kr-code')
@@ -134,6 +152,10 @@ def _prepare(evidence, store, grants, next_version, output, *, candidates=None):
     write(pending_exceptions, queue(admitted['decisions'], load(pending_exceptions) if pending_exceptions.exists() else []))
     accepted = admitted['accepted']
     require(accepted, 'No AUTO_ELIGIBLE physical identities; inspect the exception queue')
+    if already_covered(base, accepted, code_evidence):
+        return {'formatVersion': 2, 'status': 'NO_CHANGES', 'originalBytesReadHere': code_evidence['originalBytesReadHere'],
+                'formalRecordsWritten': 0, 'newPermanentIds': 0, 'newPullRequests': 0,
+                'retainedIdentityCount': len(accepted), 'evidenceVersionSha256': sha(evidence)}
     day = dt.datetime.now(dt.timezone.utc).date().isoformat()
     identity_data = materialize(base, accepted, evidence, next_version, day)
     identity_measurement = gate(base, identity_data, {'candidates': [], 'daysPerAirport': 0})

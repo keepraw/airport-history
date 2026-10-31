@@ -152,6 +152,20 @@ class RuleEngineTests(unittest.TestCase):
         item['editionControl']['intermediateEditions'] = []
         self.assertEqual(identity.INSUFFICIENT, self.classify(item)['classification'])
 
+    def test_observation_clock_or_edition_cannot_be_detached_from_original(self):
+        for value in ('2025-04-16T15:00:00+00:00', '2025-04-17T16:00:00+00:00'):
+            item = deepcopy(self.candidates[0])
+            item['observations'][0]['effectiveUtc'] = value
+            item['editionControl']['fromUtc'] = value
+            self.assertEqual(identity.INSUFFICIENT, self.classify(item)['classification'])
+        item = deepcopy(self.candidates[0])
+        item['observations'][0]['sourceId'] = item['observations'][1]['sourceId']
+        self.assertEqual(identity.INSUFFICIENT, self.classify(item)['classification'])
+        packet = deepcopy(self.packet)
+        entry = next(s for s in packet['sources'] if s['sourceId'] == self.candidates[0]['observations'][0]['sourceId'])
+        entry['finalUrl'] = entry['url'].replace('2025-04-16', '2025-05-14')
+        self.assertEqual(identity.INSUFFICIENT, self.classify(packet=packet)['classification'])
+
     def test_same_upstream_is_not_independent(self):
         p = deepcopy(self.ip)
         p['independentSourceProfiles'][0]['upstreamFamilies'].append('KR-MOLIT-AIP')
@@ -222,13 +236,20 @@ class RuleEngineTests(unittest.TestCase):
         def provide(sid, packet, store, hosts):
             if sid.startswith('synthetic-'):
                 n = int(sid.split('-')[-1])
-                return f'ZZ{n:02d} Synthetic Airfield {n} 360000N {120+n:03d}0000E Street {n} Seoul', {'url': f'https://www.airport.kr/synthetic-{n}'}
+                code = 'ZZ' + chr(65+n) + 'X'
+                if sid.startswith('synthetic-aip-'):
+                    index = int(sid.split('-')[-2])
+                    date = ['2025-04-16', '2025-05-14'][index]
+                    url = f'https://aim.koca.go.kr/eaipPub/Package/{date}-AIRAC/html/eAIP/KR-AD-2.{code}-en-GB.html'
+                else:
+                    url = f'https://www.airport.kr/synthetic-{n}'
+                return f'{code} Synthetic Airfield {n} 360000N {120+n:03d}0000E Street {n} Seoul', {'url': url, 'observedAt': '2026-10-30T00:00:00+00:00'}
             return originals(sid, packet, store, hosts)
         for n in range(8):
             item = deepcopy(self.candidates[0])
-            item.update(candidateKey=f'synthetic-candidate-{n}', observedCode=f'ZZ{n:02d}')
-            for observation in item['observations']:
-                observation.update(sourceId=f'synthetic-aip-{n}', aipName=f'Synthetic Airfield {n}', arpDms=f'360000N {120+n:03d}0000E')
+            item.update(candidateKey=f'synthetic-candidate-{n}', observedCode='ZZ' + chr(65+n) + 'X')
+            for index, observation in enumerate(item['observations']):
+                observation.update(sourceId=f'synthetic-aip-{index}-{n}', aipName=f'Synthetic Airfield {n}', arpDms=f'360000N {120+n:03d}0000E')
             item['independent'] = {'facilityKey': f'https://www.airport.kr/synthetic-{n}', 'sourceId': f'synthetic-operator-{n}',
                                   'addressTokens': [f'Street {n}'], 'aipAddressTokens': [f'Street {n}', 'Seoul'], 'siteNameToken': f'Synthetic Airfield {n}'}
             candidates.append(item)

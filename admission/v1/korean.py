@@ -2,11 +2,42 @@
 import datetime as dt
 import json
 from copy import deepcopy
+import io
+import re
+import subprocess
+import tarfile
+import tempfile
+from pathlib import Path
 
-from runtime import ROOT, authorize, checked_bindings, load, require, sha
+from runtime import ROOT, authorize, checked_bindings, load, policy, require, sha
 from evidence import LOCK, Store, WINDOW, old, replay, revalidate_source
 
 _REPLAY_CACHE = {}
+_METADATA_CACHE = {}
+
+
+def locked_metadata():
+    """Replay the old predicates in their real frozen tree, including package semantics.
+
+    New data/package versions may not rewrite the PR24/25 research fingerprint.
+    This subprocess provides facts only; none of its grants or identity approval
+    state can authorize v2 admission.
+    """
+    commit = policy('kr-code')['requirements']['frozenLegacyCommit']
+    require(re.fullmatch('[0-9a-f]{40}', commit), 'Exact frozen legacy commit required')
+    if commit in _METADATA_CACHE:
+        return deepcopy(_METADATA_CACHE[commit])
+    (ROOT / 'work').mkdir(exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix='legacy-kr-metadata-', dir=ROOT / 'work') as tmp:
+        root = Path(tmp)
+        archive = subprocess.check_output(['git', 'archive', '--format=tar', commit], cwd=ROOT)
+        with tarfile.open(fileobj=io.BytesIO(archive)) as tar:
+            tar.extractall(root, filter='data')
+        program = "import sys,json;sys.path.insert(0,'scripts/admission');import kr_adapter as a;import kr_evidence as e;print(json.dumps(e.evaluate(a.policy())))"
+        result = json.loads(subprocess.check_output(['python3', '-I', '-c', program], cwd=root, text=True))
+    require(result['originalBytesReadHere'] is False, 'Frozen metadata must not claim current original replay')
+    _METADATA_CACHE[commit] = deepcopy(result)
+    return result
 
 
 def evaluate(evidence, store):
@@ -18,7 +49,7 @@ def evaluate(evidence, store):
     key = sha(evidence)
     if key in _REPLAY_CACHE:
         return deepcopy(_REPLAY_CACHE[key])
-    result = old.evaluate(load(ROOT / 'research/admission/kr-molit-v1/policy.json'))
+    result = locked_metadata()
     assessments = [revalidate_source(entry, raw[entry['sourceId']]) for entry in evidence['sources']]
     fresh = {}
     notice_count = 0

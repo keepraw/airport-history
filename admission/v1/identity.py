@@ -122,10 +122,19 @@ def classify(candidate, p, evidence, store, inventory):
         names = {o['aipName'] for o in observations}
         if len(names) != 1:
             reasons.append('name_conflict')
-        for observation in observations:
+        adapter = p['controlledAipAdapter']
+        for observation, effective in zip(observations, times):
             if metres(point, arp(observation['arpDms'])) > rules['maximumArpMovementMetres']:
                 reasons.append('relocation_or_changed_arp')
-            text, _ = original(observation['sourceId'], evidence, store, scope['aipHosts'])
+            text, source = original(observation['sourceId'], evidence, store, scope['aipHosts'])
+            edition = re.fullmatch(adapter['urlPattern'], source['url'])
+            final_edition = re.fullmatch(adapter['urlPattern'], source.get('finalUrl', source['url']))
+            require(edition and final_edition and edition.groupdict() == final_edition.groupdict() and
+                    edition['edition'] == effective.date().isoformat() and
+                    edition['code'] == candidate.get('observedCode') and
+                    effective.strftime('%H:%M:%S') == adapter['effectiveClockUtc'] and
+                    dt.datetime.fromisoformat(source['observedAt']) >= effective,
+                    'AIP original/edition/effective-time association unproved')
             reported = re.search(r'ARP coordinates and site at AD\s+(\d{6}[NS] \d{7}[EW])', text)
             if reported and reported[1] != observation['arpDms']:
                 reasons.append('conflicting_original_arp')
@@ -143,6 +152,12 @@ def classify(candidate, p, evidence, store, inventory):
             text, _ = original(control['sourceId'], evidence, store, scope['aipHosts'])
             require(control['tokens'] and all(token in text for token in control['tokens']), 'Unreproduced edition control')
         index_text, _ = original(controls['index']['sourceId'], evidence, store, scope['aipHosts'])
+        anchor_pattern = r'(\d{2} [A-Z]{3} \d{4})\s*(\d{2} [A-Z]{3} \d{4})\s*AIRAC AIP AMDT \d+/\d+\s*\(WEF (\d{4}) UTC (\d{2} [A-Z]{3} \d{4})\)'
+        anchors = {(dt.datetime.strptime(effective, '%d %b %Y').date().isoformat(), clock)
+                   for effective, published, clock, stated in re.findall(anchor_pattern, index_text)
+                   if effective == stated}
+        require(all((time.date().isoformat(), time.strftime('%H%M')) in anchors for time in (times[0], times[-1])),
+                'Official AIRAC index does not establish both observation instants')
         pattern = r'(\d{2} [A-Z]{3} \d{4})\s*(\d{2} [A-Z]{3} \d{4})\s*((?:AIRAC )?AIP AMDT \d+/\d+)'
         parsed = []
         for effective, published, edition in re.findall(pattern, index_text):

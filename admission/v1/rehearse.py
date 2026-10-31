@@ -22,7 +22,7 @@ def fixture(root):
                 ' '.join(support['addressTokens'] + support['aipAddressTokens']) + ' ' + support['siteNameToken'])
         for sid in [*row['editionSources'].values(), support['sourceId']]:
             raw_by_id[sid] = text.encode()
-    raw_by_id['kr-history'] = b'SYNTHETIC 16 APR 202506 MAR 2025AIRAC AIP AMDT 3/25 01 MAY 202501 MAY 2025AIP AMDT 5/25 14 MAY 202503 APR 2025AIRAC AIP AMDT 4/25'
+    raw_by_id['kr-history'] = b'SYNTHETIC 16 APR 202506 MAR 2025AIRAC AIP AMDT 3/25 (WEF 1600 UTC 16 APR 2025) 01 MAY 202501 MAY 2025AIP AMDT 5/25 14 MAY 202503 APR 2025AIRAC AIP AMDT 4/25 (WEF 1600 UTC 14 MAY 2025)'
     raw_by_id['kr-20250501-amdt-full'] = b'SYNTHETIC TEST FIXTURE AIP AMDT 5/25 1 MAY 2025'
     store = Store(root / 'work/rule-admission/cas')
     entries = []
@@ -102,7 +102,7 @@ if not real_bytes:
     # The live-original run exercises risk_screen without this replacement.
     identity.risk_screen=lambda *args: []
     def offline(evidence,store):
-        result=kr_evidence.evaluate(r.legacy.policy())
+        result=korean.locked_metadata()
         return {**result,'evidenceVersionSha256':r.sha(evidence),'legacyAuthorizationInherited':False}
     korean.evaluate=offline
 grants={'formatVersion':1,'authorizations':[{'policyKey':r.policy(k)['policyKey'],
@@ -126,13 +126,24 @@ first_ids=[v['airportId'] for v in r.load(Path('work/first/identities.json'))['i
 second_ids=[v['airportId'] for v in r.load(Path('work/second/identities.json'))['identities']]
 assert first_ids==second_ids and len(set(first_ids))==2
 release.validate(Path('work/second'))
+# Simulate that the reviewed batch has been merged, only inside this disposable
+# published-main fixture. Daily repetition must not propose another data release.
+r.write(r.ROOT/'data/airports.json',r.load(Path('work/second/proposed-data.json')))
+r.write(r.PUBLIC/'identities.json',r.load(Path('work/second/identities.json')))
+package=r.load(r.ROOT/'package.json')
+package['version']='0.10.1'
+r.write(r.ROOT/'package.json',package)
+korean._REPLAY_CACHE.clear()  # A fresh daily execution cannot rely on the earlier package version's cache.
+no_changes=release.prepare(packet,Store(),grants,'0.10.2',Path('work/after-merge'))
+assert no_changes['status']=='NO_CHANGES' and no_changes['newPermanentIds']==no_changes['newPullRequests']==0
+assert not Path('work/after-merge').exists()
 # A clean production process receives the actual serialized fixture grants.
 r.write(Path('work/test-grants.json'),grants)
 result={'testOnly':True,'mode':'real-official-originals-test-authority' if real_bytes else 'synthetic-offline-test-authority',
     'originalBytesReadHere':real_bytes,'freshNetworkAcquisition':False,'productionSuccess':False,
     'classificationCounts':{'AUTO_ELIGIBLE':2},'conditionalResolved':54,'formalRegressionQueries':37736,
     'formalChangedAnswers':0,'boundaryExtraResolved':0,'distinctPhysicalSites':True,
-    'repeatBatchReusesIds':True,'identitySchemaStagePassed':True,'codeStagePassed':True,
+    'repeatBatchReusesIds':True,'repeatAfterMergeIsNoOp':True,'identitySchemaStagePassed':True,'codeStagePassed':True,
     'bundleRevalidationPassed':True,'realResolveAirportUsed':True,
     'productionPrPlanPreparedInIsolation':real_bytes,'publicPrCreated':False,
     'formalKoreanIdentitiesCreated':0,'realAuthorizationsCreated':0}
