@@ -91,6 +91,7 @@ def child():
     import evidence as ev
     import identity
     import korean
+    import publish
     import release
     packet = provenance.origin_metadata()
     original = deepcopy(r.load(r.PRIVATE / 'pending-identities.json'))
@@ -145,12 +146,19 @@ def child():
             assert provenance.extend_identity(old, new) == new
         return registry
 
-    def merge(bundle):
-        r.write(r.ROOT / 'data/airports.json', r.load(bundle / 'proposed-data.json'))
-        r.write(r.PUBLIC / 'identities.json', r.load(bundle / 'identities.json'))
-        package = r.load(r.ROOT / 'package.json')
-        package['version'] = r.load(bundle / 'proposed-data.json')['dataVersion']
-        r.write(r.ROOT / 'package.json', package)
+    def candidate_plan(bundle):
+        output = r.ROOT / ('work/plan-' + bundle.name)
+        result = publish.plan(bundle, output)
+        assert result['humanMergeRequired'] and not result['autoMerge'] and not result['simulation']
+        return output
+
+    def merge(bundle, prepared):
+        # Preserve the same metadata release archive and CI routing as a real
+        # reviewed candidate merge, including its historical authorization file.
+        for name, value in r.load(prepared / 'changes.json').items():
+            r.write(r.ROOT / name, value)
+        for name in ('ci.yml', 'kr-admission.yml', 'rule-admission.yml'):
+            shutil.copy2(prepared / 'ci.yml', r.ROOT / '.github/workflows' / name)
         freeze('test: simulate a reviewed data merge')
         korean._REPLAY_CACHE.clear()
 
@@ -164,10 +172,11 @@ def child():
         first = r.ROOT / 'work/migration-first'
         release.prepare(evidence, store, grants, '0.10.1', first)
         assert release.validate(first)['productionValidationPassed']
+        first_plan = candidate_plan(first)
         initial = retained()
         assert all(e['revalidations'][-1]['kind'] == provenance.KIND for e in initial['identities'])
         stages.append('A: original archive/executor/live Owner and new isolated grant verified; UUIDs retained')
-        merge(first)
+        merge(first, first_plan)
         assert release.prepare(evidence, store, grants, '0.10.2', r.ROOT / 'work/migration-noop1')['status'] == 'NO_CHANGES'
         retained()
         stages.append('B: merged RKSI/RKSS repeat returns NO_CHANGES')
@@ -207,13 +216,14 @@ def child():
         third = r.ROOT / 'work/migration-next-batch'
         release.prepare(evidence, store, grants, '0.10.2', third)
         assert release.validate(third)['productionValidationPassed']
+        next_plan = candidate_plan(third)
         next_registry = retained()
         assert len(next_registry['identities']) == 4
         assert len({e['airportId'] for e in next_registry['identities']}) == 4
         assert all(e['revalidations'][:len(old['revalidations'])] == old['revalidations']
                    for old, e in zip(initial['identities'], next_registry['identities']))
-        stages.append('C: changed inventory, batch allocation and candidate validation passed')
-        merge(third)
+        stages.append('C: changed inventory, batch allocation, candidate validation and publisher plan passed')
+        merge(third, next_plan)
         assert release.prepare(evidence, store, grants, '0.10.3', r.ROOT / 'work/migration-noop2')['status'] == 'NO_CHANGES'
         assert [e['airportId'] for e in retained()['identities']] == [e['airportId'] for e in next_registry['identities']]
         stages.append('D: second merge repeat returns NO_CHANGES; all UUIDs retained')
