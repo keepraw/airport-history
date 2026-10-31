@@ -191,6 +191,12 @@ class RuleEngineTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Synthetic originals'):
             evidence.replay(self.packet, self.store)
 
+    def test_production_rejects_unpublished_or_dirty_competition_inputs(self):
+        with patch.object(release.subprocess, 'check_output', return_value='different-head\n'), self.assertRaisesRegex(ValueError, 'published main checkout'):
+            release.published_checkout('expected-main')
+        with patch.object(release.subprocess, 'check_output', side_effect=['expected-main\n', ' M reference/generated/records.0.jsonl.gz\n']), self.assertRaisesRegex(ValueError, 'dirty or unreviewed'):
+            release.published_checkout('expected-main')
+
     def test_pending_github_batch_registry_is_reused_across_workers(self):
         ledger = self.allocate()['registry']
         prs = [{'head': {'ref': 'data/rule-admission-synthetic-test', 'sha': 'a' * 40,

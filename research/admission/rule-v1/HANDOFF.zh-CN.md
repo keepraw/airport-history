@@ -23,8 +23,8 @@
 
 | 规则 | Policy | Scope | Executor |
 | --- | --- | --- | --- |
-| `official-aip-stable-physical-identity@0.1.0-draft` | `1de275a7baeb1b1216190d7f5e1b2b09ebe7449e5a117ad1f98af9247efd80ee` | `597ddbc5afeb66df29bf7dcb405846e9ac912ae4bfa93bfd2b71c24a6c8b4e65` | `78d250aa23292eb9ab4d9bc39cc9aa9acb6a2369ab8890a759de4ea6e21dc7af` |
-| `kr-molit-bounded-icao@2.0.0-draft` | `37e01b54bcf28f4d25a5e49b04f5905d3b107de132e4d4b5d9da062ba7024350` | `ca29502a69df9e8283fbdfddd0022be6988054336caacdb57f1b2076b555e413` | `78d250aa23292eb9ab4d9bc39cc9aa9acb6a2369ab8890a759de4ea6e21dc7af` |
+| `official-aip-stable-physical-identity@0.1.0-draft` | `1de275a7baeb1b1216190d7f5e1b2b09ebe7449e5a117ad1f98af9247efd80ee` | `597ddbc5afeb66df29bf7dcb405846e9ac912ae4bfa93bfd2b71c24a6c8b4e65` | `ec8ad19d6739cc5900eb2753e54c43ea0c37d06a428971651d061269f2664619` |
+| `kr-molit-bounded-icao@2.0.0-draft` | `37e01b54bcf28f4d25a5e49b04f5905d3b107de132e4d4b5d9da062ba7024350` | `ca29502a69df9e8283fbdfddd0022be6988054336caacdb57f1b2076b555e413` | `ec8ad19d6739cc5900eb2753e54c43ea0c37d06a428971651d061269f2664619` |
 
 新 Manifest 版本 2 绑定 181 个显式文件。仅 `package.json#/version` 为规则明确允许增加的发布变量，其余 package 值完整绑定；数据版本增长不会重新解释旧 Executor。任意旧内容地址下的原件变更仍失败。合法的新证据版本必须生成新哈希、重新证明事实、重算窗口并绑定新 bundle；它不是一次隐含扩权。
 
@@ -80,12 +80,14 @@ python3 admission/v1/publish.py submit --bundle work/<new-bundle> --output work/
 
 `submit` 用真实评论再鉴权、重读私有原件、验证 main lease、在临时 Git 分支生成一个批量候选提交、运行 staged 版权审计和版本化发行检查，最后创建待人工合并 PR。它没有合并、auto-merge、Tag 或 Release 路径。规则文本和登记机制独立于候选身份，不需要逐机场审批。提交传输本轮未向 GitHub 发送正式数据：隔离验收到实际 PR plan 为止。
 
+生产 prepare/plan 还要求 HEAD 精确等于已发布 main，且所有非 ignored 文件均无本地修改或未审查新增；参考库/历史场址资料不能通过修改本地工作树绕过竞争审查。私有 work/ 原件与候选输出不受此门禁妨碍。
+
 未来正式候选 PR 会随数据提交审查过的 CI 路由模板，避免旧验证器在新工作树误套旧哈希。旧 `pnpm check` 在各自冻结历史树执行；新 bundle 独立检验扩展，历史链可递归重放。公开 CI 没有私有 CAS，只报告结构、来源关联、不可变关系和真实解析器的离线验证范围；发布准备/提交必须另行完成私有原件重放。
 
 ## 已完成的验证
 
 - 完整 `pnpm check`：437 TypeScript、50 discovery、15 reference、146 evidence，合计 648 项通过。
-- 新引擎 21 项测试通过；含 8 个合成机场、缺身份/代码授权、精确 Policy/Scope/Executor 改动、原件篡改/缺失、独立性、完整修订、批内/历史/待审竞争、跨工作区待审登记读取、异常去重和完整离线隔离链。
+- 新引擎 22 项测试通过；含 8 个合成机场、缺身份/代码授权、精确 Policy/Scope/Executor 改动、原件篡改/缺失、独立性、完整修订、批内/历史/待审竞争、跨工作区待审登记读取、异常去重和完整离线隔离链。
 - 实际印度 `pnpm policy:rehearse` 通过，含完整候选 `pnpm check`；仍明确是离线原件回执回放。
 - 韩国旧路径仍通过；新真实原件隔离链通过，54 条条件结果、37,736 正式查询不变、额外边界 0、测试授权被正式进程拒绝。
 - 新版全部 98 组件事实原件重放通过；源码、登记、数据和三个证据元数据版本可独立校验。

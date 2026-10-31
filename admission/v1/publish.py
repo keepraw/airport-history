@@ -8,10 +8,12 @@ import tempfile
 
 from runtime import ROOT, PUBLIC, PRIVATE, load, require, sha, write, private_path
 from release import validate
+import release
 
 
 def plan(bundle, output):
     bundle = Path(bundle)
+    release.published_checkout(load(bundle / 'receipt.json')['baselineCommit'])
     proof = validate(bundle)  # Fresh raw replay and live Owner authentication, always.
     require(proof['productionValidationPassed'] and load(bundle / 'receipt.json')['originalBytesReadHere'],
             'Full original replay required before PR preparation')

@@ -15,6 +15,13 @@ from batch import inventory, discover
 import korean
 
 
+def published_checkout(commit):
+    require(subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip() == commit,
+            'Production preparation requires the exact published main checkout')
+    require(not subprocess.check_output(['git', 'status', '--porcelain', '--untracked-files=all'], cwd=ROOT, text=True).strip(),
+            'Production inputs are dirty or unreviewed; use a clean published main checkout')
+
+
 def pending_from_github():
     """Read all owner-repository pending batch ledgers before allocating UUIDs."""
     result = []
@@ -103,6 +110,7 @@ def _prepare(evidence, store, grants, next_version, output, *, candidates=None):
     base = load(ROOT / 'data/airports.json')
     version(next_version, base['dataVersion'])
     baseline_commit = legacy.require_published(base)
+    published_checkout(baseline_commit)
     registry = load(PUBLIC / 'identities.json')
     pending = PRIVATE / 'pending-identities.json'
     pending_entries = pending_from_github() + (load(pending)['identities'] if pending.exists() else [])

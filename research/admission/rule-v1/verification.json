@@ -1,13 +1,13 @@
 {
   "bindings": [
     {
-      "executorSha256": "78d250aa23292eb9ab4d9bc39cc9aa9acb6a2369ab8890a759de4ea6e21dc7af",
+      "executorSha256": "ec8ad19d6739cc5900eb2753e54c43ea0c37d06a428971651d061269f2664619",
       "policyKey": "official-aip-stable-physical-identity@0.1.0-draft",
       "policySha256": "1de275a7baeb1b1216190d7f5e1b2b09ebe7449e5a117ad1f98af9247efd80ee",
       "scopeSha256": "597ddbc5afeb66df29bf7dcb405846e9ac912ae4bfa93bfd2b71c24a6c8b4e65"
     },
     {
-      "executorSha256": "78d250aa23292eb9ab4d9bc39cc9aa9acb6a2369ab8890a759de4ea6e21dc7af",
+      "executorSha256": "ec8ad19d6739cc5900eb2753e54c43ea0c37d06a428971651d061269f2664619",
       "policyKey": "kr-molit-bounded-icao@2.0.0-draft",
       "policySha256": "37e01b54bcf28f4d25a5e49b04f5905d3b107de132e4d4b5d9da062ba7024350",
       "scopeSha256": "ca29502a69df9e8283fbdfddd0022be6988054336caacdb57f1b2076b555e413"
@@ -52,7 +52,7 @@
   },
   "offlineCi": {
     "claimsFreshOriginalReplay": false,
-    "newTestsPassed": 21,
+    "newTestsPassed": 22,
     "privateOriginalsAvailable": false,
     "syntheticBatchAirports": 8
   },

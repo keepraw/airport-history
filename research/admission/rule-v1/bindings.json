@@ -4,17 +4,17 @@
     "canonicalJsonInputs": {
       "package.json": "0992ebe84b92e7e946bdb852b7598fe43f062709d4d8f367f697d398e75d0b30"
     },
-    "executorSha256": "78d250aa23292eb9ab4d9bc39cc9aa9acb6a2369ab8890a759de4ea6e21dc7af",
+    "executorSha256": "ec8ad19d6739cc5900eb2753e54c43ea0c37d06a428971651d061269f2664619",
     "files": {
       "admission/v1/authorize.py": "8ed7bf3bcf7afd215555f3f1f305241b57ea0b0455ab8a1a5d21760ed02c03cc",
       "admission/v1/batch.py": "6c4974c6094d8e54f0613ffef102c9019dad38c08eb565dbc8f0cdadb6a2bcbf",
       "admission/v1/evidence.py": "89a58e9e8e2ad6626e6d8d563482192e049d3ce8c5649d1dc99cea59d052af2d",
       "admission/v1/identity.py": "75830b6abd1a64bc90759da71a8875e6de1c8afd6abe6fdfb014f55b6d59d13a",
       "admission/v1/korean.py": "ceb5dc06b8ba0101a5bfb9daf5c4126428b0ddcaf3c3126864ab0e09faa1cbc2",
-      "admission/v1/publish.py": "07f04a9cbf15044d96eef34187b863bfdd3ff218e360adbb008bb92a50553e14",
+      "admission/v1/publish.py": "a04b945bd65739169cbcd32fc1f44c37d9966c06fe68dec826a4b3a091428436",
       "admission/v1/recover.py": "edff044ff7e6ad208a8358a9adc23386d92d6f59c2762b035f345a848f6d1c97",
-      "admission/v1/release-ci.yml": "6ca14841f4f0623252d0ff59c01210d6a39e6715e57e14a99d84a50691e3b62a",
-      "admission/v1/release.py": "1704e858dc03ff592bb2685829babc9a5ba58ce4fa8bc35c12a1c6adb96e2e78",
+      "admission/v1/release-ci.yml": "7109a81462d26186fb41b04cf88cdbc3da495dd3906add8e90c8c916decf170b",
+      "admission/v1/release.py": "169d53e4ccceb4966bf3252706bd039d94ed6a4c4d946fffe7fc8f75474a2150",
       "admission/v1/release_ci.py": "2524d831c59862ead3a54419601688fb7e5281f37573c2f6693850a64387c4ea",
       "admission/v1/runtime.py": "7c0f31cdebc50e23a5994a52d0ac660e0a2526f1d5b16224ee869a044fa5a4f4",
       "pnpm-lock.yaml": "e79aceff64ebcd5fde9a832cd349832cd896337fa6dae352248539a433961163",
@@ -195,13 +195,13 @@
   },
   "policies": {
     "kr-molit-bounded-icao@2.0.0-draft": {
-      "executorSha256": "78d250aa23292eb9ab4d9bc39cc9aa9acb6a2369ab8890a759de4ea6e21dc7af",
+      "executorSha256": "ec8ad19d6739cc5900eb2753e54c43ea0c37d06a428971651d061269f2664619",
       "policyKey": "kr-molit-bounded-icao@2.0.0-draft",
       "policySha256": "37e01b54bcf28f4d25a5e49b04f5905d3b107de132e4d4b5d9da062ba7024350",
       "scopeSha256": "ca29502a69df9e8283fbdfddd0022be6988054336caacdb57f1b2076b555e413"
     },
     "official-aip-stable-physical-identity@0.1.0-draft": {
-      "executorSha256": "78d250aa23292eb9ab4d9bc39cc9aa9acb6a2369ab8890a759de4ea6e21dc7af",
+      "executorSha256": "ec8ad19d6739cc5900eb2753e54c43ea0c37d06a428971651d061269f2664619",
       "policyKey": "official-aip-stable-physical-identity@0.1.0-draft",
       "policySha256": "1de275a7baeb1b1216190d7f5e1b2b09ebe7449e5a117ad1f98af9247efd80ee",
       "scopeSha256": "597ddbc5afeb66df29bf7dcb405846e9ac912ae4bfa93bfd2b71c24a6c8b4e65"

@@ -89,7 +89,7 @@ disposable checkout and proves that a clean production reader rejects its grants
 admission. The final bundle includes its frozen baseline commit, independent
 grants, exact identity/evidence/bundle hashes, decisions, sources and exceptions.
 `publish.py plan` produces reviewable changes; `submit` uses a stable batch branch,
-checks main has not advanced, audits and validates the candidate, commits with the
+requires a clean published main checkout, checks main has not advanced, audits and validates the candidate, commits with the
 owner's identity, and opens one PR. It contains no merge, auto-merge, tag, or
 release operation. This release exercised real-original PR preparation only in
 isolation; it did not submit a formal data PR with test authority.

@@ -92,6 +92,7 @@ def reader(url, expected):
 r.legacy.read_owner_comment=reader
 r.legacy.require_published=lambda base,identities=None:'a852596869d7ae157ef53fdf236ffbdaff5508c8'
 release.pending_from_github=lambda: []  # No network/pending production PR reads inside this disposable authority fixture.
+release.published_checkout=lambda commit: None  # Same isolated published-main dependency, never a production CLI switch.
 packet=r.load(Path('work/evidence.json'))
 real_bytes=not packet.get('simulation',False)
 if not real_bytes:

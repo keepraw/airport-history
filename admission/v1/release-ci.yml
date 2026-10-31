@@ -5,6 +5,8 @@ on:
     branches: [main]
 permissions:
   contents: read
+  issues: read
+  pull-requests: read
 jobs:
   versioned-release:
     runs-on: ubuntu-latest
