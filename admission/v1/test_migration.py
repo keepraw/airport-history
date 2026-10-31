@@ -114,7 +114,7 @@ def child():
         manifest = r.fingerprint()
         r.write(r.PUBLIC / 'bindings.json', {'manifest': manifest, 'policies': {
             r.policy(k)['policyKey']: r.bindings(r.policy(k)) for k in ('identity', 'kr-code')}})
-        git('add', '-u')
+        git('add', '--all')  # Include new public release metadata; work/ and CAS stay ignored.
         git('commit', '--quiet', '--allow-empty', '-m', message)
         assert git('log', '-1', '--format=%an <%ae>%n%cn <%ce>').splitlines() == [
             'keepraw <49091395+keepraw@users.noreply.github.com>'] * 2
