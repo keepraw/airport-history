@@ -5,6 +5,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import publish
@@ -51,10 +52,18 @@ class CandidateRightsTests(unittest.TestCase):
             publish.audit_candidate_rights(self.checkout)
 
     def test_old_authorization_binding_rejects_the_changed_publisher(self):
-        with self.assertRaisesRegex(ValueError, 'Executor changed'):
-            runtime.checked_bindings(runtime.policy('identity'))
-        with self.assertRaisesRegex(ValueError, 'Executor changed'):
-            runtime.checked_bindings(runtime.policy('kr-code'))
+        # Read the actual pre-repair binding, so this regression remains valid
+        # after a separately approved executor is registered in a later change.
+        old = json.loads(subprocess.check_output([
+            'git', 'show', '86b094df59f7654ffd1511bc16186f8a4cc35c9d:'
+            'research/admission/rule-v1/bindings.json'], cwd=runtime.ROOT, text=True))
+        original_load = runtime.load
+        def frozen_binding(path):
+            return old if Path(path) == runtime.PUBLIC / 'bindings.json' else original_load(path)
+        with patch.object(runtime, 'load', side_effect=frozen_binding):
+            for kind in ('identity', 'kr-code'):
+                with self.assertRaisesRegex(ValueError, 'Executor changed'):
+                    runtime.checked_bindings(runtime.policy(kind))
 
 
 if __name__ == '__main__':

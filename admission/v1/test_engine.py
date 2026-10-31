@@ -16,6 +16,7 @@ import evidence as evidence
 import batch as batch
 import release as release
 import rehearse as rehearsal
+from test_publish_rights import CandidateRightsTests
 
 
 def reader(url, text):
