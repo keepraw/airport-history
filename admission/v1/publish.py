@@ -10,7 +10,7 @@ import subprocess
 import tempfile
 import tarfile
 
-from runtime import ROOT, PUBLIC, PRIVATE, load, require, sha, write, private_path, policy
+from runtime import ROOT, PUBLIC, PRIVATE, load, require, sha, write, private_path, policy, git_environment
 from release import validate
 import release
 
@@ -59,14 +59,12 @@ def audit_candidate_rights(checkout):
     require(git_dir.is_dir() and not git_dir.is_symlink() and
             (git_dir / 'index').is_file() and not (git_dir / 'index').is_symlink(),
             'Candidate clone must have its own real Git directory and index')
-    context_keys = {'GIT_DIR', 'GIT_WORK_TREE', 'GIT_INDEX_FILE', 'GIT_COMMON_DIR',
-                    'GIT_OBJECT_DIRECTORY', 'GIT_ALTERNATE_OBJECT_DIRECTORIES',
-                    'GIT_SHALLOW_FILE', 'GIT_NAMESPACE', 'GIT_REPLACE_REF_BASE',
-                    'GIT_CONFIG_COUNT', 'GIT_CONFIG_PARAMETERS'}
-    base_env = {k: v for k, v in os.environ.items() if k not in context_keys}
+    base_env = git_environment()
 
     commit = policy('kr-code')['requirements']['frozenLegacyCommit']
-    archive = subprocess.check_output(['git', 'archive', '--format=tar', commit], cwd=ROOT)
+    archive = subprocess.check_output(['git', '--no-replace-objects', 'archive', '--format=tar', commit],
+                                      cwd=ROOT, env=base_env)
+    (ROOT / 'work').mkdir(exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='rights-baseline-', dir=ROOT / 'work') as tmp:
         frozen = Path(tmp)
         with tarfile.open(fileobj=io.BytesIO(archive)) as tar:
@@ -123,8 +121,8 @@ def audit_candidate_rights(checkout):
     staged = set(git('diff', '--cached', '--name-only', '--diff-filter=ACMR', '-z').split(b'\0'))
     for info, path in [*rows, *(r for r in index if r[1] in staged)]:
         oid = info.decode().split()[2]
+        require(not audit.PRIVATE_PATH.match(path.decode()), 'Private acquisition path in candidate')
         if oid not in base_blobs and oid not in checked:
-            require(not audit.PRIVATE_PATH.match(path.decode()), 'Private acquisition path in candidate')
             audit.check_payload(git('cat-file', 'blob', oid), blocked, commits | locators, hashes)
             checked.add(oid)
     result.update(versionedOriginalHashesChecked=len(hashes), versionedPayloadBlobsChecked=len(checked))

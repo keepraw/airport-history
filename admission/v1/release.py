@@ -8,7 +8,7 @@ import subprocess
 import tempfile
 import base64
 
-from runtime import ROOT, PUBLIC, PRIVATE, authorize, checked_bindings, legacy, load, policy, require, sha, version, private_path, write
+from runtime import ROOT, PUBLIC, PRIVATE, authorize, checked_bindings, legacy, load, policy, require, sha, version, private_path, write, git_environment
 from evidence import Store
 from identity import allocate, classify, classify_batch, queue, AUTO
 from batch import inventory, discover
@@ -108,7 +108,7 @@ def already_covered(base, accepted, code_evidence):
     by_code = {a['candidate']['observedCode']: a for a in accepted}
     if not accepted or any(a['identity']['airportId'] not in formal_ids for a in accepted):
         return False
-    if set(by_code) != {c['code'] for c in code_evidence['candidates']}:
+    if not {c['code'] for c in code_evidence['candidates']} <= set(by_code):
         return False
     for row in code_evidence['candidates']:
         matches = [a for a in base['assignments'] if a['scheme'] == 'ICAO' and a['code'] == row['code']]
@@ -134,13 +134,11 @@ def _prepare(evidence, store, grants, next_version, output, *, candidates=None):
     pending_entries = pending_from_github() + (load(pending)['identities'] if pending.exists() else [])
     if pending_entries:
         for entry in pending_entries:
-            if entry['bindings'] != checked_bindings(ip) or entry['authorizationSha256'] != sha(identity_grant):
-                from provenance import origin_for
-                origin_for(entry)  # Provisional merge only; allocate replays both authorities and originals.
-
             existing = next((r for r in registry['identities'] if r['siteKey'] == entry['siteKey']), None)
             if existing is not None:
                 require(existing['airportId'] == entry['airportId'], 'Competing pending UUIDs for one physical site')
+                from provenance import extend_identity
+                registry['identities'][registry['identities'].index(existing)] = extend_identity(existing, entry)
             else:
                 registry['identities'].append(entry)
     # Include an already prepared batch's registry by publishing it in the
@@ -156,6 +154,7 @@ def _prepare(evidence, store, grants, next_version, output, *, candidates=None):
     accepted = admitted['accepted']
     require(accepted, 'No AUTO_ELIGIBLE physical identities; inspect the exception queue')
     if already_covered(base, accepted, code_evidence):
+        write(pending, admitted['registry'])
         return {'formatVersion': 2, 'status': 'NO_CHANGES', 'originalBytesReadHere': code_evidence['originalBytesReadHere'],
                 'formalRecordsWritten': 0, 'newPermanentIds': 0, 'newPullRequests': 0,
                 'retainedIdentityCount': len(accepted), 'evidenceVersionSha256': sha(evidence)}
@@ -205,7 +204,8 @@ def validate(bundle, store=None, *, originals=True):
     base, candidate = load(bundle / 'baseline.json'), load(bundle / 'proposed-data.json')
     require(sha(base) == receipt['baselineSha256'] and sha(candidate) == receipt['candidateSha256'], 'Bundle data detached')
     # Prove the archived baseline against Git, never a mutable working-tree baseline.
-    raw = subprocess.check_output(['git', 'show', receipt['baselineCommit'] + ':data/airports.json'], cwd=ROOT)
+    raw = subprocess.check_output(['git', '--no-replace-objects', 'show', receipt['baselineCommit'] + ':data/airports.json'],
+                                  cwd=ROOT, env=git_environment())
     require(__import__('json').loads(raw) == base, 'Baseline is not the recorded published commit')
     version(candidate['dataVersion'], base['dataVersion'])
     ip, cp = policy('identity'), policy('kr-code')
@@ -226,8 +226,10 @@ def validate(bundle, store=None, *, originals=True):
         return {'mode': 'offline-structure-and-resolver', 'originalBytesReadHere': False,
                 'productionValidationPassed': False, 'resolver': measurement}
     store = store or Store()
-    require(load(PUBLIC / 'identities.json') == {'formatVersion': 1, 'identities': []} or
-            all(r in registry['identities'] for r in load(PUBLIC / 'identities.json')['identities']), 'Published identities lost')
+    from provenance import extend_identity
+    for published in load(PUBLIC / 'identities.json')['identities']:
+        match = next((e for e in registry['identities'] if e['airportId'] == published['airportId']), None)
+        require(match is not None and extend_identity(published, match) == match, 'Published identities lost')
     baseline_registry = load(bundle / 'baseline-identities.json') if (bundle / 'baseline-identities.json').exists() else {'formatVersion': 1, 'identities': []}
     competition = inventory(base, baseline_registry)
     require(sha(competition) == receipt['competitionInventorySha256'], 'Competition inventory changed; regenerate bundle')

@@ -274,8 +274,9 @@ def allocate(candidates, p, grants, evidence, store, inventory, registry):
             len({r['airportId'] for r in output['identities']}) == len(output['identities']), 'Duplicate registry identity')
     results = classify_batch(candidates, p, evidence, store, inventory)
     # Legacy credentials are verified before the first UUID allocation.
-    from provenance import revalidate_registry
+    from provenance import revalidate_registry, context
     output = revalidate_registry(output, candidates, p, grants, evidence, store, inventory)
+    issuance_context = context(candidates, p, grant, evidence, inventory, results)
     accepted = []
     current_inventory = deepcopy(inventory)
     for candidate, result in zip(candidates, results):
@@ -293,15 +294,10 @@ def allocate(candidates, p, grants, evidence, store, inventory, registry):
                 entry = prior or {'siteKey': result['siteKey'], 'airportId': 'apt_' + str(uuid.uuid4()),
                     'coordinates': result['coordinates'], 'policyKey': p['policyKey'], 'bindings': checked_bindings(p),
                     'authorizationSha256': sha(grant), 'candidateSha256': sha(candidate),
-                    'evidenceVersionSha256': sha(evidence), 'sourceIds': sorted({o['sourceId'] for o in candidate['observations']} | {candidate['independent']['sourceId']})}
+                    'evidenceVersionSha256': sha(evidence), 'sourceIds': sorted({o['sourceId'] for o in candidate['observations']} | {candidate['independent']['sourceId']}),
+                    'provenanceContext': deepcopy(issuance_context)}
                 if prior is None:
                     output['identities'].append(entry)
                     current_inventory.append({**entry, 'codes': [], 'status': 'pending'})
-                else:
-                    attestation = {'candidateSha256': sha(candidate), 'evidenceVersionSha256': sha(evidence),
-                                   'bindings': checked_bindings(p), 'authorizationSha256': sha(grant)}
-                    if not any(all(a.get(k) == v for k, v in attestation.items())
-                               for a in entry.setdefault('revalidations', [])):
-                        entry['revalidations'].append(attestation)
                 accepted.append({'candidate': candidate, 'identity': entry, 'decision': result})
     return {'registry': output, 'accepted': accepted, 'decisions': results, 'exceptions': queue(results)}

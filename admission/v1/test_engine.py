@@ -38,18 +38,17 @@ class RuleEngineTests(unittest.TestCase):
         cls.registry = {'formatVersion': 1, 'identities': []}
         cls.inventory = batch.inventory(cls.base, cls.registry)
         cls.candidates = batch.discover(cls.inventory)
+        for candidate in cls.candidates:
+            candidate['candidateKey'] = 'synthetic-' + candidate['candidateKey']
+            candidate['independent']['facilityKey'] += '?isolated-synthetic-fixture=1'
 
     @classmethod
     def tearDownClass(cls):
         cls.tmp.cleanup()
 
     def setUp(self):
-        # This class exercises unrelated synthetic allocations in isolation.
-        # Real preserved IDs are tested by ProvenanceTests and live read-only replay.
-        self.origins = patch.object(provenance, 'origin_metadata', return_value={
-            'originPendingRegistry': {'identities': []}, 'bundles': [{'files': {'candidates.json': []}}]})
-        self.origins.start()
-        self.addCleanup(self.origins.stop)
+        # Fresh synthetic sites have distinct facility keys. The real retained
+        # origin envelope is always present, including in these unit tests.
         self.ip, self.cp = r.policy('identity'), r.policy('kr-code')
         self.grants = {'formatVersion': 1, 'authorizations': [
             {'policyKey': p['policyKey'], 'bindings': r.checked_bindings(p),
@@ -61,6 +60,10 @@ class RuleEngineTests(unittest.TestCase):
         self.risk.start()
         self.addCleanup(self.reader.stop)
         self.addCleanup(self.risk.stop)
+        # These are synthetic allocation unit tests. Historical frozen-executor
+        # replay with retained production origins is test_migration.py's scope.
+        replay = patch.object(provenance, 'replay_context', side_effect=lambda ctx, *args, **kwargs: ctx['decisions'])
+        replay.start(); self.addCleanup(replay.stop)
 
     def classify(self, candidate=None, inventory=None, packet=None, policy=None):
         return identity.classify(candidate or self.candidates[0], policy or self.ip,
@@ -213,6 +216,26 @@ class RuleEngineTests(unittest.TestCase):
     def test_synthetic_evidence_version_rejected_by_production_original_replay(self):
         with self.assertRaisesRegex(ValueError, 'Synthetic originals'):
             evidence.replay(self.packet, self.store)
+
+    def test_additional_identity_sources_cannot_replace_locked_code_sources_or_expand_hosts(self):
+        packet = deepcopy(self.packet)
+        packet.pop('simulation')
+        for source in packet['sources']:
+            source['kind'] = 'reobtained-official-evidence'
+            locked = next(s for s in r.load(evidence.LOCK)['sources'] if s['sourceId'] == source['sourceId'])
+            source['url'] = source['finalUrl'] = locked['url']
+        raw = b'SYNTHETIC additional identity-only original'
+        source = {'sourceId': 'synthetic-new-identity', 'url': 'https://www.airport.kr/synthetic-test',
+            'finalUrl': 'https://www.airport.kr/synthetic-test', 'observedAt': '2026-10-30T00:00:00+00:00',
+            'originalSha256': self.store.put(raw), 'originalBytes': len(raw), 'kind': 'reobtained-official-evidence'}
+        packet['sources'].append(source)
+        self.assertEqual(raw, evidence.replay(packet, self.store)[source['sourceId']])
+        without_required = deepcopy(packet); without_required['sources'].pop(0)
+        with self.assertRaisesRegex(ValueError, 'Incomplete evidence'):
+            evidence.replay(without_required, self.store)
+        source['url'] = source['finalUrl'] = 'https://unqualified.example/synthetic-test'
+        with self.assertRaisesRegex(ValueError, 'Unqualified additional'):
+            evidence.replay(packet, self.store)
 
     def test_production_rejects_unpublished_or_dirty_competition_inputs(self):
         with patch.object(release.subprocess, 'check_output', return_value='different-head\n'), self.assertRaisesRegex(ValueError, 'published main checkout'):

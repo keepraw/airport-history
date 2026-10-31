@@ -11,11 +11,22 @@ from runtime import ROOT, PUBLIC, PRIVATE, digest, load, require, write
 from evidence import Store
 
 
+def synthetic_catalog(catalog):
+    """Give fresh-allocation fixtures their own sites, never retained real sites."""
+    catalog = deepcopy(catalog)
+    for row in catalog['candidates']:
+        if not row['candidateKey'].startswith('synthetic-'):
+            row['candidateKey'] = 'synthetic-' + row['candidateKey']
+            row['independent']['facilityKey'] += '?isolated-synthetic-fixture=1'
+    return catalog
+
+
 def fixture(root):
     """Synthetic bytes only for public/offline CI, never original recovery."""
     packet = load(ROOT / 'research/evidence/code-dates/korea-readiness/source-lock.json')
     raw_by_id = {}
-    catalog = load(PUBLIC / 'candidate-catalog.json')
+    catalog = synthetic_catalog(load(PUBLIC / 'candidate-catalog.json'))
+    operator_urls = {row['independent']['sourceId']: row['independent']['facilityKey'] for row in catalog['candidates']}
     for row in catalog['candidates']:
         support = row['independent']
         text = ('SYNTHETIC TEST FIXTURE ' + row['observedCode'] + ' ' + row['aipName'] + ' ' + row['arpDms'] + ' ' + row['name'] + ' ' +
@@ -28,7 +39,8 @@ def fixture(root):
     entries = []
     for source in packet['sources']:
         raw = raw_by_id.get(source['sourceId'], b'SYNTHETIC TEST FIXTURE: no original aviation claim')
-        entries.append({'sourceId': source['sourceId'], 'url': source['url'], 'finalUrl': source['url'],
+        url = operator_urls.get(source['sourceId'], source['url'])
+        entries.append({'sourceId': source['sourceId'], 'url': url, 'finalUrl': url,
             'observedAt': '2026-10-30T00:00:00+00:00', 'originalSha256': store.put(raw), 'originalBytes': len(raw),
             'previousOriginalSha256': source['originalSha256'], 'kind': 'isolated-synthetic-fixture'})
     from evidence import LOCK, WINDOW
@@ -37,6 +49,11 @@ def fixture(root):
 
 
 def rehearse(manifest=None):
+    if manifest:
+        # Retained-credential testing must use the mandatory archive/CAS replay;
+        # it cannot be represented by the fresh synthetic allocation harness.
+        from test_migration import run_isolated
+        return run_isolated(manifest)
     protected = load(PUBLIC / 'protected-baseline.json')
     before = {p: digest((ROOT / p).read_bytes()) for p in protected}
     (ROOT / 'work').mkdir(exist_ok=True)
@@ -55,25 +72,9 @@ def rehearse(manifest=None):
             shutil.copy2(path, target)
         (root / 'node_modules').symlink_to(ROOT / 'node_modules', target_is_directory=True)
         (root / 'work').mkdir(exist_ok=True)
-        # Store's root validation deliberately applies to the child, not the
-        # parent. Copy checked raw objects without mounting a writable parent CAS.
-        if manifest:
-            packet = load(manifest)
-            parent_store = Store()
-            for entry in packet['sources']:
-                for obj in entry.get('components', [entry]):
-                    if 'originalSha256' not in obj: continue
-                    raw = parent_store.read(obj['originalSha256'])
-                    key = obj['originalSha256']
-                    target = root / 'work/rule-admission/cas/sha256' / key[:2] / key[2:]
-                    target.parent.mkdir(parents=True, exist_ok=True)
-                    target.write_bytes(raw)
-            write(root / 'work/evidence.json', packet)
-        else:
-            # Generate the fixture inside the disposable root so Store still
-            # enforces its real per-checkout private-path boundary.
-            program = "import sys;sys.path.insert(0,'admission/v1');import rehearse;from runtime import ROOT,write;write(ROOT/'work/evidence.json',rehearse.fixture(ROOT))"
-            subprocess.run(['python3', '-I', '-c', program], cwd=root, check=True)
+        # Generate synthetic originals inside the disposable Store boundary.
+        program = "import sys;sys.path.insert(0,'admission/v1');import rehearse;from runtime import ROOT,PUBLIC,load,write;write(PUBLIC/'candidate-catalog.json',rehearse.synthetic_catalog(load(PUBLIC/'candidate-catalog.json')));write(ROOT/'work/evidence.json',rehearse.fixture(ROOT))"
+        subprocess.run(['python3', '-I', '-c', program], cwd=root, check=True)
         program = r'''
 import sys
 from pathlib import Path
@@ -94,14 +95,16 @@ r.legacy.read_owner_comment=reader
 r.legacy.require_published=lambda base,identities=None:'a852596869d7ae157ef53fdf236ffbdaff5508c8'
 release.pending_from_github=lambda: []  # No network/pending production PR reads inside this disposable authority fixture.
 release.published_checkout=lambda commit: None  # Same isolated published-main dependency, never a production CLI switch.
-provenance.origin_metadata=lambda: {'originPendingRegistry':{'identities':[]},'bundles':[{'files':{'candidates.json':[]}}]}
+# This harness covers fresh synthetic allocations. Retained-credential migration
+# is exercised separately by test_migration.py with mandatory real origin replay.
+provenance.replay_context=lambda ctx,*args,**kwargs:ctx['decisions']
 packet=r.load(Path('work/evidence.json'))
 real_bytes=not packet.get('simulation',False)
 if not real_bytes:
     import kr_evidence
     import identity
-    # Only the unavailable external risk-original provider is synthetic in CI.
-    # The live-original run exercises risk_screen without this replacement.
+    # Synthetic-only harness. test_migration.py runs the actual risk provider
+    # and all retained original-executor paths without these substitutions.
     identity.risk_screen=lambda *args: []
     def offline(evidence,store):
         result=korean.locked_metadata()

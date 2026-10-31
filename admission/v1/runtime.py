@@ -1,6 +1,7 @@
 """Versioned admission runtime. No discovery globs in an authorization binding."""
 import hashlib
 import json
+import os
 from pathlib import Path
 import re
 import sys
@@ -10,6 +11,12 @@ PUBLIC = ROOT / 'research/admission/rule-v1'
 PRIVATE = ROOT / 'work/rule-admission'
 sys.path.insert(0, str(ROOT / 'scripts/admission'))
 import kr_adapter as legacy
+
+
+def git_environment():
+    """Local frozen-object reads must not inherit another repository or replace refs."""
+    return {**{k: v for k, v in os.environ.items() if not k.startswith('GIT_')},
+            'GIT_NO_REPLACE_OBJECTS': '1'}
 
 
 def require(value, message):

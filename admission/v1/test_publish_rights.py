@@ -88,6 +88,61 @@ class CandidateRightsTests(unittest.TestCase):
             with self.assertRaises(subprocess.CalledProcessError):
                 publish.audit_candidate_rights(self.checkout)
 
+    def git(self, *args):
+        return subprocess.check_output(['git', *args], cwd=self.checkout, text=True)
+
+    def private_copy(self, source):
+        target = self.checkout / 'research/evidence/global/inputs/reused-blob.txt'
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(source.read_bytes())
+        self.git('add', '--force', str(target.relative_to(self.checkout)))
+        return target
+
+    def commit_fixture(self):
+        for key, value in [('user.name', 'keepraw'), ('user.email', '49091395+keepraw@users.noreply.github.com'),
+                           ('user.useConfigOnly', 'true')]:
+            self.git('config', '--local', key, value)
+        self.git('commit', '--quiet', '-m', 'test: synthetic rights history')
+
+    def test_same_blob_at_public_and_private_paths(self):
+        normal = self.checkout / 'a-normal.txt'
+        normal.write_text('synthetic harmless blob\n')
+        self.git('add', 'a-normal.txt')
+        self.private_copy(normal)
+        with self.assertRaisesRegex(ValueError, 'Private acquisition path'):
+            publish.audit_candidate_rights(self.checkout)
+
+    def test_baseline_blob_reused_at_new_private_path(self):
+        self.private_copy(self.checkout / 'LICENSE')
+        with self.assertRaisesRegex(ValueError, 'Private acquisition path'):
+            publish.audit_candidate_rights(self.checkout)
+
+    def test_private_path_moved_then_deleted_is_still_checked_in_full_history(self):
+        private = self.private_copy(self.checkout / 'LICENSE')
+        self.commit_fixture()
+        self.git('mv', str(private.relative_to(self.checkout)), 'moved-normal.txt')
+        self.commit_fixture()
+        self.git('rm', 'moved-normal.txt')
+        self.commit_fixture()
+        with self.assertRaises((ValueError, subprocess.CalledProcessError)):
+            publish.audit_candidate_rights(self.checkout)
+
+    def test_frozen_archive_ignores_all_foreign_git_context(self):
+        foreign = {'GIT_DIR': '/nonexistent/foreign', 'GIT_WORK_TREE': '/nonexistent/tree',
+                   'GIT_INDEX_FILE': '/nonexistent/index', 'GIT_COMMON_DIR': '/nonexistent/common',
+                   'GIT_CONFIG_COUNT': '1', 'GIT_CONFIG_KEY_0': 'core.bare', 'GIT_CONFIG_VALUE_0': 'true',
+                   'GIT_OBJECT_DIRECTORY': '/nonexistent/objects', 'GIT_REPLACE_REF_BASE': 'refs/foreign/'}
+        with patch.dict(os.environ, foreign):
+            result = publish.audit_candidate_rights(self.checkout)
+        self.assertEqual(0, result['restrictedReachableBlobs'])
+
+    def test_frozen_baseline_and_history_ignore_replace_refs(self):
+        commit = runtime.policy('kr-code')['requirements']['frozenLegacyCommit']
+        self.git('replace', commit, 'HEAD')
+        with patch.object(publish, 'ROOT', self.checkout):
+            result = publish.audit_candidate_rights(self.checkout)
+        self.assertEqual(0, result['restrictedReachableBlobs'])
+
     def test_staged_symlink_is_rejected(self):
         path = self.checkout / 'original-link'
         path.symlink_to('work/private-original')

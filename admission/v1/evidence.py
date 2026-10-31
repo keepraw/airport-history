@@ -117,16 +117,27 @@ def replay(packet, store):
     require(packet['formatVersion'] == 2 and packet['sourceLockSha256'] == digest(LOCK.read_bytes()) and
             packet['windowToReevaluate'] == WINDOW, 'Wrong evidence lineage/window')
     sources = load(LOCK)['sources']
-    require(len(packet['sources']) == len(sources) and
-            {s['sourceId'] for s in packet['sources']} == {s['sourceId'] for s in sources}, 'Incomplete evidence version')
+    require(len({s['sourceId'] for s in packet['sources']}) == len(packet['sources']) and
+            {s['sourceId'] for s in sources} <= {s['sourceId'] for s in packet['sources']}, 'Incomplete evidence version')
     raw = {}
     for entry in packet['sources']:
         require(entry['kind'] in ('locked-original', 'reobtained-official-evidence', 'derived-official-notam-set'),
                 'Untrusted original provenance kind')
         require('originalSha256' in entry or entry.get('kind') == 'derived-official-notam-set', 'Necessary original unavailable: ' + entry['sourceId'])
-        source = next(s for s in sources if s['sourceId'] == entry['sourceId'])
-        require(entry['url'] == source['url'] and entry['previousOriginalSha256'] == source['originalSha256'] and
-                urlparse(entry.get('finalUrl', entry['url'])).hostname == urlparse(source['url']).hostname, 'Detached source provenance')
+        source = next((s for s in sources if s['sourceId'] == entry['sourceId']), None)
+        if source is not None:
+            require(entry['url'] == source['url'] and entry['previousOriginalSha256'] == source['originalSha256'] and
+                    urlparse(entry.get('finalUrl', entry['url'])).hostname == urlparse(source['url']).hostname, 'Detached source provenance')
+        else:
+            # New identity observations are evidence inputs, never extensions of
+            # the finite Korean code rule or replacements for its locked sources.
+            from runtime import policy
+            identity_policy = policy('identity')
+            hosts = set(identity_policy['scope']['aipHosts']) | {p['host'] for p in identity_policy['independentSourceProfiles']}
+            require(entry['kind'] != 'derived-official-notam-set' and urlparse(entry['url']).scheme == 'https' and
+                    urlparse(entry['url']).hostname in hosts and
+                    urlparse(entry.get('finalUrl', entry['url'])).hostname == urlparse(entry['url']).hostname,
+                    'Unqualified additional identity source')
         observed = dt.datetime.fromisoformat(entry['observedAt'])
         require(observed.utcoffset() is not None and observed <= dt.datetime.now(dt.timezone.utc), 'Invalid observation clock')
         data = source_data(entry, store)
@@ -147,7 +158,9 @@ def source_data(entry, store):
                 urlparse(component['finalUrl']).hostname == 'aim.koca.go.kr', 'Unavailable/unofficial component original')
         observed = dt.datetime.fromisoformat(component['observedAt'])
         require(observed.utcoffset() is not None and observed <= dt.datetime.now(dt.timezone.utc), 'Invalid component observation')
-        obj = json.loads(store.read(component['originalSha256']))
+        raw = store.read(component['originalSha256'])
+        require(len(raw) == component['originalBytes'], 'Component original size mismatch')
+        obj = json.loads(raw)
         requested = parse_qs(urlparse(component['url']).query)['sch_notam_no'][0]
         require(obj['Total'] == len(obj['DATA']) and obj['DATA'] and
                 all(item['NOTAM_NO'] == requested for item in obj['DATA']), 'Incomplete single-notice recovery')
@@ -176,7 +189,10 @@ def required_notices(sid):
 def revalidate_source(entry, data):
     """Reprove only explicit facts. A present API response is never an archive snapshot."""
     sid = entry['sourceId']
-    source = next(s for s in load(LOCK)['sources'] if s['sourceId'] == sid)
+    source = next((s for s in load(LOCK)['sources'] if s['sourceId'] == sid), None)
+    if source is None:
+        return {'state': 'identity-original-only', 'historicalWindow': None,
+                'meaning': 'No code conclusion; named-site facts require the independent identity classifier.'}
     normalized = ' '.join(extract(data).split())
     citations = [c for c in load(old.PACKET / 'citations.json')['citations'] if c['sourceId'] == sid]
     checked = 0

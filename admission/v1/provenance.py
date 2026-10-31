@@ -1,4 +1,4 @@
-"""Revalidate the preserved, unmerged production identities without reminting IDs.
+"""Replay complete identity provenance across evidence and executor generations.
 
 The origin envelope is an explicit executor input. It contains metadata only.
 The unchanged origin executor verifies its own bundles, live grants and originals
@@ -15,11 +15,12 @@ import subprocess
 import tarfile
 import tempfile
 
-from runtime import ROOT, PUBLIC, PRIVATE, authorize, bindings, checked_bindings, load, policy, private_path, require, sha, write
+from runtime import ROOT, PUBLIC, PRIVATE, authorize, bindings, checked_bindings, load, policy, private_path, require, sha, write, git_environment
 from evidence import Store
 
 ANCHOR = PUBLIC / 'pending-provenance.json'
-KIND = 'pending-identity-revalidation@1'
+LEGACY_KIND = 'pending-identity-revalidation@1'
+KIND = 'identity-provenance-chain@2'
 
 
 def origin_metadata():
@@ -28,7 +29,7 @@ def origin_metadata():
     require(re.fullmatch('[0-9a-f]{40}', packet['originCommit']) and
             all(re.fullmatch('[0-9a-f]{64}', packet[k]) for k in ('originExecutorSha256', 'recoveryArchiveSha256')),
             'Invalid immutable origin address')
-    subprocess.run(['git', '--no-replace-objects', 'merge-base', '--is-ancestor', packet['originCommit'], 'HEAD'], cwd=ROOT, check=True)
+    subprocess.run(['git', '--no-replace-objects', 'merge-base', '--is-ancestor', packet['originCommit'], 'HEAD'], cwd=ROOT, env=git_environment(), check=True)
     originals = packet['originPendingRegistry']['identities']
     require(len({r['airportId'] for r in originals}) == len(originals) ==
             len({r['siteKey'] for r in originals}), 'Duplicate origin identity')
@@ -80,6 +81,15 @@ def ensure_preserved_ids(registry, candidates, packet):
         origin_for(matches[0], packet)
 
 
+def extend_identity(first, second):
+    """Merge a pending/published ledger only by extending an identical prefix."""
+    require({k: v for k, v in first.items() if k != 'revalidations'} ==
+            {k: v for k, v in second.items() if k != 'revalidations'}, 'Original identity credential changed')
+    a, b = first.get('revalidations', []), second.get('revalidations', [])
+    require(a[:len(b)] == b or b[:len(a)] == a, 'Divergent historical identity attestations')
+    return deepcopy(second if len(b) > len(a) else first)
+
+
 def verify_old(packet, store):
     """No cached receipt, test transport or new code executes as old authority."""
     archive = private_path(PRIVATE / 'provenance' / (packet['recoveryArchiveSha256'] + '.tar.gz'))
@@ -117,11 +127,7 @@ def verify_old(packet, store):
     require(found == set(expected) and checked_metadata == {'ledger', *packet['bundles'][0]['files']},
             'Incomplete recovery archive')
     PRIVATE.mkdir(parents=True, exist_ok=True)
-    context_keys = {'GIT_DIR', 'GIT_WORK_TREE', 'GIT_INDEX_FILE', 'GIT_COMMON_DIR', 'GIT_OBJECT_DIRECTORY',
-                    'GIT_ALTERNATE_OBJECT_DIRECTORIES', 'GIT_SHALLOW_FILE', 'GIT_NAMESPACE', 'GIT_REPLACE_REF_BASE',
-                    'GIT_CONFIG_COUNT', 'GIT_CONFIG_PARAMETERS'}
-    env = {k: v for k, v in os.environ.items() if k not in context_keys}
-    env['GIT_NO_REPLACE_OBJECTS'] = '1'
+    env = git_environment()
     with tempfile.TemporaryDirectory(prefix='origin-replay-', dir=PRIVATE) as tmp:
         frozen = Path(tmp) / 'repo'
         subprocess.run(['git', 'clone', '--quiet', '--shared', '--no-checkout', str(ROOT), str(frozen)], env=env, check=True)
@@ -153,97 +159,241 @@ print(json.dumps({'oldExecutorSha256':r.fingerprint()['executorSha256'],'bundles
             packet['originExecutorSha256'], str(len(packet['bundles']))], cwd=frozen, env=env, text=True))
 
 
-def transition_context(candidate, evidence, competition_sha, packet):
+def git(*args):
+    return subprocess.check_output(['git', '--no-replace-objects', *args], cwd=ROOT,
+                                   env=git_environment(), text=True)
+
+
+def context(candidate_batch, p, grant, evidence, competition, decisions):
+    """Metadata only. Every original remains addressed in the private CAS."""
+    return {'executorCommit': git('rev-parse', 'HEAD').strip(), 'policy': deepcopy(p),
+            'grant': deepcopy(grant), 'candidates': deepcopy(candidate_batch),
+            'evidence': deepcopy(evidence), 'competition': deepcopy(competition),
+            'decisions': deepcopy(decisions)}
+
+
+def proof_fields(candidate, evidence, binding, grant):
+    return {'candidateSha256': sha(candidate), 'evidenceVersionSha256': sha(evidence),
+            'bindings': binding, 'authorizationSha256': sha(grant)}
+
+
+def validate_context(ctx, binding, authorization_sha):
+    require(set(ctx) == {'executorCommit', 'policy', 'grant', 'candidates', 'evidence', 'competition', 'decisions'},
+            'Incomplete historical provenance context')
+    require(re.fullmatch('[0-9a-f]{40}', ctx['executorCommit']) and
+            ctx['grant']['bindings'] == binding and sha(ctx['grant']) == authorization_sha and
+            binding['policyKey'] == ctx['policy']['policyKey'] and
+            binding['policySha256'] == sha(ctx['policy']) and binding['scopeSha256'] == sha(ctx['policy']['scope']),
+            'Historical authorization/context binding mismatch')
+    git('merge-base', '--is-ancestor', ctx['executorCommit'], 'HEAD')
+    require(len(ctx['candidates']) == len(ctx['decisions']) and all(
+        d['candidateSha256'] == sha(c) and d['evidenceVersionSha256'] == sha(ctx['evidence']) and
+        d['policyKey'] == binding['policyKey'] and c['competitionInventorySha256'] == sha(ctx['competition'])
+        for c, d in zip(ctx['candidates'], ctx['decisions'])), 'Detached historical decisions')
+
+
+def replay_context(ctx, store, *, originals=True):
+    """Authenticate with the generation's own code and grant, never today's grant.
+
+    No receipt substitutes for an original read. Offline callers still execute
+    the old binding and live-comment checks but explicitly cannot issue proofs.
+    """
+    PRIVATE.mkdir(parents=True, exist_ok=True)
+    env = git_environment()
+    with tempfile.TemporaryDirectory(prefix='generation-replay-', dir=PRIVATE) as tmp:
+        frozen = Path(tmp) / 'repo'
+        subprocess.run(['git', 'clone', '--quiet', '--shared', '--no-checkout', str(ROOT), str(frozen)], env=env, check=True)
+        subprocess.run(['git', 'checkout', '--quiet', '--detach', ctx['executorCommit']], cwd=frozen, env=env, check=True)
+        if originals:
+            for entry in ctx['evidence']['sources']:
+                for obj in entry.get('components', [entry]):
+                    key = obj['originalSha256']
+                    raw = store.read(key)
+                    require(len(raw) == obj['originalBytes'], 'Historical original size mismatch')
+                    target = frozen / 'work/rule-admission/cas/sha256' / key[:2] / key[2:]
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    if not target.exists():
+                        with os.fdopen(os.open(target, os.O_CREAT | os.O_EXCL | os.O_WRONLY, 0o600), 'wb') as stream:
+                            stream.write(raw)
+        write(frozen / 'work/context.json', ctx)
+        program = """import sys,json
+sys.path.insert(0,'admission/v1')
+import runtime as r
+c=r.load('work/context.json')
+p=c['policy']
+assert p==r.policy('identity')
+r.authorize(p,{'formatVersion':1,'authorizations':[c['grant']]})
+from batch import inventory
+ledger={'formatVersion':1,'identities':[{'airportId':i['inventoryId'],
+    'siteKey':i['siteKey'],'coordinates':i['coordinates']} for i in c['competition']
+    if i['status'] in ('formal','pending') and i.get('siteKey')]}
+assert inventory(r.load(r.ROOT/'data/airports.json'),ledger)==c['competition'], 'Historical competition differs from frozen baseline'
+if sys.argv[1]=='originals':
+    from evidence import Store,replay
+    from identity import classify_batch
+    store=Store()
+    replay(c['evidence'],store)
+    decisions=classify_batch(c['candidates'],p,c['evidence'],store,c['competition'])
+    assert decisions==c['decisions'], 'Historical original replay differs'
+else:
+    decisions=c['decisions']
+print(json.dumps(decisions))
+"""
+        return json.loads(subprocess.check_output(['python3', '-I', '-c', program,
+            'originals' if originals else 'offline'], cwd=frozen, env=env, text=True))
+
+
+def historical_context(previous, packet):
+    """Recover pre-chain contexts and grants from retained bundles / Git history.
+
+    Grant hashes are addresses, not authority. replay_context always authenticates
+    the recovered record through that historical executor's real Owner reader.
+    """
     from batch import inventory
-    for bundle in packet['bundles']:
+    def retained_bundles():
+        yield from packet['bundles']
+        # Later published pre-chain bundles may have left the worktree. Read
+        # history lazily so known origin contexts need no archive-wide scan.
+        seen = set()
+        for commit in git('log', '--format=%H', 'HEAD', '--', 'research/admissions').splitlines():
+            for name in git('ls-tree', '-r', '--name-only', commit, 'research/admissions').splitlines():
+                if not name.endswith('/rule-v1/receipt.json'):
+                    continue
+                oid = git('rev-parse', commit + ':' + name).strip()
+                if oid in seen:
+                    continue
+                seen.add(oid)
+                prefix = name[:-len('receipt.json')]
+                names = ('receipt.json', 'candidates.json', 'evidence-version.json', 'baseline.json',
+                         'baseline-identities.json', 'authorizations.json')
+                files = {n: json.loads(git('show', commit + ':' + prefix + n)) for n in names}
+                yield {'files': files, 'bundleSha256': sha(files)}
+    for bundle in retained_bundles():
         files = bundle['files']
-        if (any(sha(c) == sha(candidate) for c in files['candidates.json']) and
-                sha(files['evidence-version.json']) == sha(evidence) and
-                sha(inventory(files['baseline.json'], files['baseline-identities.json'])) == competition_sha):
-            return bundle
-    raise ValueError('Origin transition context changed; preserve the UUID and revalidate the evidence')
+        if sha(files['evidence-version.json']) != previous['evidenceVersionSha256'] or not any(
+                sha(c) == previous['candidateSha256'] for c in files['candidates.json']):
+            continue
+        grants = list(files['authorizations.json']['authorizations'])
+        commits = [files['receipt.json']['baselineCommit'], packet['originCommit'], *git('log', '--format=%H', 'HEAD', '--',
+            'research/admission/rule-v1/authorizations.json', 'research/admission/rule-v1/bindings.json').splitlines()]
+        for commit in dict.fromkeys(commits):
+            registry = json.loads(git('show', commit + ':research/admission/rule-v1/authorizations.json'))
+            grants.extend(registry['authorizations'])
+            frozen_bindings = json.loads(git('show', commit + ':research/admission/rule-v1/bindings.json'))
+            grant = next((g for g in grants if sha(g) == previous['authorizationSha256'] and
+                          g['bindings'] == previous['bindings']), None)
+            if grant is None or frozen_bindings['policies'].get(grant['policyKey']) != previous['bindings']:
+                continue
+            historical_policy = json.loads(git('show', commit + ':research/admission/rule-v1/identity-policy.json'))
+            return {'executorCommit': commit, 'policy': historical_policy, 'grant': grant,
+                'candidates': files['candidates.json'], 'evidence': files['evidence-version.json'],
+                'competition': inventory(files['baseline.json'], files['baseline-identities.json']),
+                'decisions': files['receipt.json']['decisions']}
+    raise ValueError('Missing historical provenance context/grant; restore retained bundles, never remint')
 
 
-def expected_attestation(entry, candidate, decision, p, grant, evidence, competition_sha, packet):
+def matching_decision(entry, ctx, candidate_sha):
+    matches = [(c, d) for c, d in zip(ctx['candidates'], ctx['decisions']) if sha(c) == candidate_sha]
+    require(len(matches) == 1, 'Historical candidate missing or ambiguous')
+    candidate, decision = matches[0]
+    require(decision['classification'] == 'AUTO_ELIGIBLE' and decision['siteKey'] == entry['siteKey'] and
+            decision['coordinates'] == entry['coordinates'], 'Historical physical identity revalidation blocked')
+    return candidate, decision
+
+
+def attestation(entry, candidate, decision, ctx):
+    previous = entry.get('revalidations', [])
+    return {**proof_fields(candidate, ctx['evidence'], ctx['grant']['bindings'], ctx['grant']),
+        'kind': KIND, 'airportId': entry['airportId'], 'siteKey': entry['siteKey'],
+        'previousProvenanceSha256': sha(previous[-1]) if previous else sha({k: v for k, v in entry.items() if k != 'revalidations'}),
+        'generation': len(previous) + 1, 'context': deepcopy(ctx), 'decisionSha256': sha(decision)}
+
+
+def legacy_expected(entry, previous, ctx, packet):
+    candidate, decision = matching_decision(entry, ctx, previous['candidateSha256'])
+    fields = proof_fields(candidate, ctx['evidence'], ctx['grant']['bindings'], ctx['grant'])
+    if previous.get('kind') != LEGACY_KIND:
+        return fields
     origin = origin_for(entry, packet)
-    old_candidate = next(c for c in packet['bundles'][0]['files']['candidates.json']
-                         if sha(c) == origin['candidateSha256'])
-    require(decision['classification'] == 'AUTO_ELIGIBLE', 'Pending identity is no longer AUTO_ELIGIBLE')
-    require(candidate['candidateKey'] == old_candidate['candidateKey'] and
-            decision['siteKey'] == origin['siteKey'] and decision['coordinates'] == origin['coordinates'],
-            'Pending identity candidate/site/ARP changed; no replacement UUID may be minted')
-    context = transition_context(candidate, evidence, competition_sha, packet)
-    return {'originReviewBundleSha256': context['bundleSha256'], 'kind': KIND, 'airportId': origin['airportId'], 'siteKey': origin['siteKey'],
-        'candidateSha256': sha(candidate), 'evidenceVersionSha256': sha(evidence),
-        'bindings': checked_bindings(p), 'authorizationSha256': sha(grant),
-        'classification': decision['classification'], 'decisionSha256': sha(decision),
-        'competitionInventorySha256': competition_sha,
+    bundle = next((b for b in packet['bundles'] if b['bundleSha256'] == previous.get('originReviewBundleSha256')), None)
+    require(bundle is not None and any(sha(c) == sha(candidate) for c in bundle['files']['candidates.json']) and
+            sha(bundle['files']['evidence-version.json']) == sha(ctx['evidence']), 'Unknown historical revalidation context')
+    return {**fields, 'originReviewBundleSha256': bundle['bundleSha256'], 'kind': LEGACY_KIND,
+        'airportId': origin['airportId'], 'siteKey': origin['siteKey'], 'classification': decision['classification'],
+        'decisionSha256': sha(decision), 'competitionInventorySha256': sha(ctx['competition']),
         'originCommit': packet['originCommit'], 'originExecutorSha256': packet['originExecutorSha256'],
         'originCredentialSha256': sha(origin), 'originBundleSha256': packet['bundles'][0]['bundleSha256'],
         'originArchiveSha256': packet['recoveryArchiveSha256'], 'originEnvelopeSha256': sha(packet)}
 
 
 def revalidate_registry(registry, candidates, p, grants, evidence, store, competition, *, append=True, metadata_decisions=None):
-    grant = authorize(p, grants)  # A new attestation always requires live current authority.
+    grant = authorize(p, grants)  # Every generation needs its own live current authorization.
     current = checked_bindings(p)
     packet = origin_metadata()
     ensure_preserved_ids(registry, candidates, packet)
-    legacy = [e for e in registry['identities'] if e['bindings'] != current or e['authorizationSha256'] != sha(grant)]
-    if not legacy:
-        return deepcopy(registry)
-    if metadata_decisions is None:
-        verify_old(packet, store)
-        from identity import classify_batch
-        decisions = classify_batch(candidates, p, evidence, store, competition)
-    else:
-        require(not append, 'Metadata-only provenance cannot issue attestations')
-        require(len(candidates) == len(metadata_decisions), 'Incomplete offline identity decisions')
-        decisions = metadata_decisions
-    require(len(decisions) == len(candidates) and all(
-        d['candidateSha256'] == sha(c) and d['evidenceVersionSha256'] == sha(evidence) and
-        d['policyKey'] == p['policyKey'] for c, d in zip(candidates, decisions)), 'Detached current identity decisions')
+    require(metadata_decisions is None or not append, 'Metadata-only provenance cannot issue attestations')
+    from identity import classify_batch
+    decisions = (classify_batch(candidates, p, evidence, store, competition)
+                 if metadata_decisions is None else metadata_decisions)
+    ctx = context(candidates, p, grant, evidence, competition, decisions)
+    validate_context(ctx, current, sha(grant))
     output = deepcopy(registry)
+    replayed = set()
+    origins = {r['airportId'] for r in packet['originPendingRegistry']['identities']}
+    if any(e['airportId'] in origins for e in registry['identities']) and metadata_decisions is None:
+        verify_old(packet, store)  # Always replay the original credentials, including after formal admission.
+    def verify_generation(historical, binding, grant_sha):
+        validate_context(historical, binding, grant_sha)
+        key = sha(historical)
+        if key not in replayed:
+            replayed.add(key)
+            require(replay_context(historical, store, originals=metadata_decisions is None) == historical['decisions'],
+                    'Historical replay differs from provenance')
     for entry in output['identities']:
-        if entry['bindings'] == current and entry['authorizationSha256'] == sha(grant):
-            continue
-        origin = origin_for(entry, packet)
-        old_candidate = next(c for c in packet['bundles'][0]['files']['candidates.json'] if sha(c) == origin['candidateSha256'])
-        matches = [(c, d) for c, d in zip(candidates, decisions) if c['candidateKey'] == old_candidate['candidateKey']]
-        require(len(matches) == 1, 'Preserved pending identity candidate missing or ambiguous; allocation blocked')
-        candidate, decision = matches[0]
-        require(decision['classification'] == 'AUTO_ELIGIBLE' and
-                decision['siteKey'] == origin['siteKey'] and decision['coordinates'] == origin['coordinates'],
-                'Current pending physical identity revalidation blocked')
-        original_history = origin.get('revalidations', [])
-        rich = []
-        current_proof = {'candidateSha256': sha(candidate), 'evidenceVersionSha256': sha(evidence),
-                         'bindings': current, 'authorizationSha256': sha(grant)}
-        for previous in entry.get('revalidations', [])[len(original_history):]:
-            if previous.get('kind') != KIND:
-                require(previous == current_proof, 'Foreign or changed provenance attestation')
-                continue
-            context = next((b for b in packet['bundles'] if b['bundleSha256'] == previous.get('originReviewBundleSha256')), None)
-            require(context is not None, 'Unknown historical revalidation context')
-            files = context['files']
-            historical = next((c for c in files['candidates.json'] if sha(c) == previous.get('candidateSha256')), None)
-            require(historical is not None, 'Historical revalidation candidate changed')
-            from batch import inventory
-            historical_inventory = inventory(files['baseline.json'], files['baseline-identities.json'])
-            if metadata_decisions is None:
-                from identity import classify_batch
-                old_decisions = classify_batch(files['candidates.json'], p, files['evidence-version.json'], store, historical_inventory)
+        history = entry.get('revalidations', [])
+        if entry['airportId'] in origins:
+            origin = origin_for(entry, packet)
+            inherited = len(origin.get('revalidations', []))
+        else:
+            root_context = entry.get('provenanceContext')
+            require(root_context is not None, 'Identity has no verified production origin; UUID allocation blocked')
+            verify_generation(root_context, entry['bindings'], entry['authorizationSha256'])
+            candidate, _ = matching_decision(entry, root_context, entry['candidateSha256'])
+            require(proof_fields(candidate, root_context['evidence'], entry['bindings'], root_context['grant']) ==
+                    {k: entry[k] for k in ('candidateSha256', 'evidenceVersionSha256', 'bindings', 'authorizationSha256')},
+                    'Original identity credential changed')
+            inherited = 0
+        prefix = {**entry, 'revalidations': history[:inherited]}
+        chain_started = False
+        for previous in history[inherited:]:
+            if previous.get('kind') == KIND:
+                chain_started = True
+                historical = previous['context']
+                verify_generation(historical, previous['bindings'], previous['authorizationSha256'])
+                candidate, decision = matching_decision(entry, historical, previous['candidateSha256'])
+                require(previous == attestation(prefix, candidate, decision, historical), 'Foreign or changed provenance attestation')
             else:
-                old_decisions = files['receipt.json']['decisions']
-            historical_decision = next(d for d in old_decisions if d['candidateSha256'] == sha(historical))
-            expected = expected_attestation(entry, historical, historical_decision, p, grant,
-                files['evidence-version.json'], sha(historical_inventory), packet)
-            require(previous == expected, 'Foreign or changed provenance attestation')
-            rich.append(previous)
-        require(len(rich) <= 1, 'Duplicate current provenance credential')
-        if not rich:
-            require(append, 'Missing current provenance revalidation attestation')
-            entry.setdefault('revalidations', []).append(expected_attestation(
-                entry, candidate, decision, p, grant, evidence, sha(competition), packet))
+                require(not chain_started, 'Unlinked provenance after chain generation')
+                historical = historical_context(previous, packet)
+                verify_generation(historical, previous['bindings'], previous['authorizationSha256'])
+                require(previous == legacy_expected(entry, previous, historical, packet), 'Foreign or changed provenance attestation')
+            prefix['revalidations'].append(previous)
+        matches = [(c, d) for c, d in zip(candidates, decisions) if d['siteKey'] == entry['siteKey']]
+        if not matches:
+            require(any(i.get('inventoryId') == entry['airportId'] and i.get('status') == 'formal' for i in competition),
+                    'Preserved pending identity candidate missing or ambiguous; allocation blocked')
+            continue
+        require(len(matches) == 1, 'Current identity candidate ambiguous')
+        candidate, decision = matches[0]
+        require(decision['classification'] == 'AUTO_ELIGIBLE' and decision['coordinates'] == entry['coordinates'],
+                'Current pending physical identity revalidation blocked')
+        fields = proof_fields(candidate, evidence, current, grant)
+        latest = history[-1] if history else entry
+        if all(latest.get(k) == v for k, v in fields.items()) and (
+                latest.get('kind') == KIND or not history and entry.get('provenanceContext')):
+            continue
+        require(append, 'Missing current provenance revalidation attestation')
+        entry.setdefault('revalidations', []).append(attestation(entry, candidate, decision, ctx))
     return output
 
 
