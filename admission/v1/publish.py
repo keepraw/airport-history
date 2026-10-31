@@ -1,12 +1,15 @@
 """One batched candidate PR under a main lease; no merge/tag/release operation."""
 import argparse
+import io
+import os
 import json
 from pathlib import Path
 import shutil
 import subprocess
 import tempfile
+import tarfile
 
-from runtime import ROOT, PUBLIC, PRIVATE, load, require, sha, write, private_path
+from runtime import ROOT, PUBLIC, PRIVATE, load, require, sha, write, private_path, policy
 from release import validate
 import release
 
@@ -42,6 +45,30 @@ def plan(bundle, output):
     return result
 
 
+
+def audit_candidate_rights(checkout):
+    """Use frozen research metadata while auditing the candidate's real Git index.
+
+    The legacy rights command also checks its 0.10.0 working-tree baseline.
+    Keep that metadata check intact; its Git reads must still inspect the new
+    candidate's complete ancestry and staged bytes, never the baseline index.
+    """
+    checkout = Path(checkout).resolve()
+    git_dir = Path(subprocess.check_output(
+        ['git', 'rev-parse', '--absolute-git-dir'], cwd=checkout, text=True).strip())
+    commit = policy('kr-code')['requirements']['frozenLegacyCommit']
+    archive = subprocess.check_output(['git', 'archive', '--format=tar', commit], cwd=ROOT)
+    with tempfile.TemporaryDirectory(prefix='rights-baseline-', dir=ROOT / 'work') as tmp:
+        frozen = Path(tmp)
+        with tarfile.open(fileobj=io.BytesIO(archive)) as tar:
+            tar.extractall(frozen, filter='data')
+        env = {**os.environ, 'GIT_DIR': str(git_dir), 'GIT_WORK_TREE': str(frozen),
+               'GIT_INDEX_FILE': str(git_dir / 'index')}
+        return json.loads(subprocess.check_output(
+            ['python3', 'scripts/evidence/korea_readiness.py', 'rights'],
+            cwd=frozen, env=env, text=True))
+
+
 def submit(bundle, output):
     prepared = plan(bundle, output)
     require(subprocess.check_output(['git', 'ls-remote', 'origin', 'refs/heads/main'], cwd=ROOT, text=True).split()[0] ==
@@ -74,7 +101,7 @@ def submit(bundle, output):
             ident = subprocess.check_output(['git', 'var', kind], cwd=checkout, text=True)
             require(ident.startswith('keepraw <49091395+keepraw@users.noreply.github.com> '), 'Wrong commit identity')
         subprocess.run(['git', 'add', 'data', 'package.json', 'research/admissions', 'research/admission/rule-v1/identities.json', '.github/workflows'], cwd=checkout, check=True)
-        subprocess.run(['python3', 'scripts/evidence/korea_readiness.py', 'rights'], cwd=checkout, check=True)
+        print(json.dumps(audit_candidate_rights(checkout), sort_keys=True))
         subprocess.run(['python3', 'admission/v1/release_ci.py'], cwd=checkout, check=True)
         subprocess.run(['git', 'commit', '-m', prepared['title']], cwd=checkout, check=True)
         ident = subprocess.check_output(['git', 'log', '-1', '--format=%an <%ae>%n%cn <%ce>'], cwd=checkout, text=True).splitlines()
