@@ -134,6 +134,16 @@ class RuleEngineTests(unittest.TestCase):
         self.assertEqual([r['airportId'] for r in first['registry']['identities']], [r['airportId'] for r in second['registry']['identities']])
         self.assertEqual(2, len({r['airportId'] for r in second['registry']['identities']}))
 
+    def test_new_root_credential_source_and_policy_fields_are_immutable(self):
+        registry = self.allocate()['registry']
+        for field, value in [('sourceIds', []), ('policyKey', 'foreign-rule')]:
+            changed = deepcopy(registry)
+            changed['identities'][0][field] = value
+            with self.subTest(field=field), patch.object(identity.uuid, 'uuid4') as generate, \
+                    self.assertRaisesRegex(ValueError, 'Original identity credential changed'):
+                self.allocate(registry=changed)
+            generate.assert_not_called()
+
     def test_same_code_at_different_sites_is_manual_and_not_merged(self):
         row = deepcopy(self.candidates[1])
         row['observedCode'] = self.candidates[0]['observedCode']

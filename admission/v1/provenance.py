@@ -358,9 +358,12 @@ def revalidate_registry(registry, candidates, p, grants, evidence, store, compet
             root_context = entry.get('provenanceContext')
             require(root_context is not None, 'Identity has no verified production origin; UUID allocation blocked')
             verify_generation(root_context, entry['bindings'], entry['authorizationSha256'])
-            candidate, _ = matching_decision(entry, root_context, entry['candidateSha256'])
-            require(proof_fields(candidate, root_context['evidence'], entry['bindings'], root_context['grant']) ==
-                    {k: entry[k] for k in ('candidateSha256', 'evidenceVersionSha256', 'bindings', 'authorizationSha256')},
+            candidate, decision = matching_decision(entry, root_context, entry['candidateSha256'])
+            expected_root = {**proof_fields(candidate, root_context['evidence'], entry['bindings'], root_context['grant']),
+                'siteKey': decision['siteKey'], 'airportId': entry['airportId'], 'coordinates': decision['coordinates'],
+                'policyKey': root_context['policy']['policyKey'], 'provenanceContext': root_context,
+                'sourceIds': sorted({o['sourceId'] for o in candidate['observations']} | {candidate['independent']['sourceId']})}
+            require({k: v for k, v in entry.items() if k != 'revalidations'} == expected_root,
                     'Original identity credential changed')
             inherited = 0
         prefix = {**entry, 'revalidations': history[:inherited]}
