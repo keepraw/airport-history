@@ -1,0 +1,60 @@
+{
+  "addressAliases": {
+    "Gangseo-gu": [
+      "강서구"
+    ],
+    "Haneul-gil": [
+      "하늘길"
+    ],
+    "Seoul": [
+      "서울시"
+    ]
+  },
+  "authorizationTerms": "Permit automatic physical-site UUID allocation for all future qualifying low-risk airports in this country/issuer scope, without per-airport approval. Require original replay, independent operator site/address evidence, complete edition and competition checks. No code/name validity, relocation, correction, test authority, or direct main writes. Candidate PR only; human merge required.",
+  "formatVersion": 1,
+  "independentSourceProfiles": [
+    {
+      "factOrigin": "operator-own-facility-address",
+      "host": "www.airport.kr",
+      "lineageReview": "IIAC publishes its own airport/terminal addresses as asset operator. AIP pages are not counted as independent of MOLIT. No copied AIP coordinates relied upon.",
+      "upstreamFamilies": [
+        "KR-IIAC-ASSET"
+      ]
+    },
+    {
+      "factOrigin": "operator-own-facility-address",
+      "host": "www.airport.co.kr",
+      "lineageReview": "KAC publishes its own Gimpo facility location and contact address. Only operator site/address corroboration is used, not inherited aeronautical data.",
+      "upstreamFamilies": [
+        "KR-KAC-ASSET"
+      ]
+    }
+  ],
+  "policyKey": "official-aip-stable-physical-identity@0.1.0-draft",
+  "rules": {
+    "allIntermediateEditionsRequired": true,
+    "duplicateSearchRadiusMetres": 100,
+    "independentLocationBasis": "Named operator-owned facility address linked to AIP street and locality. No exact independent ARP claim.",
+    "maximumArpMovementMetres": 30,
+    "maximumObservationGapDays": 28,
+    "mergeIsHumanOnly": true,
+    "minimumObservations": 2,
+    "observationTimezone": "Asia/Seoul",
+    "referenceVicinityMetres": 2000
+  },
+  "scope": {
+    "aipHosts": [
+      "aim.koca.go.kr"
+    ],
+    "airportAllowlist": null,
+    "codeValidity": false,
+    "countries": [
+      "KR"
+    ],
+    "issuerFamilies": [
+      "KR-MOLIT-AIP"
+    ],
+    "newPhysicalIdentities": true,
+    "publishedCorrections": false
+  }
+}

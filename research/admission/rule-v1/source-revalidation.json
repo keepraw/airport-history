@@ -1,0 +1,917 @@
+{
+  "evidenceVersionSha256": "9f56d40d56ed86b55e7776e105fbbc9727eb43c6aaa9bb1df84692f34475b952",
+  "formatVersion": 2,
+  "fullHistoricalReplayPassed": false,
+  "originalBytesReadHere": true,
+  "sources": [
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-20250416-amdt-full",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-20250416-gen03",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-20250416-sup-menu",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-20250501-amdt-full",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-20250501-cover",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-20250501-gen03",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-20250501-rksi",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-20250501-rkss",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-20250501-sup-menu",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-20250514-amdt-full",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-20250514-gen03",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-20250514-sup-menu",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": null,
+      "noticesParsed": 90,
+      "sourceId": "kr-notam-2025-rksi",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": null,
+      "noticesParsed": 68,
+      "sourceId": "kr-notam-2025-rkss",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": null,
+      "noticesParsed": 0,
+      "sourceId": "kr-notam-negative-control",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 51,
+      "historicalWindow": {
+        "from": "2025-04-18",
+        "timezone": "Asia/Seoul",
+        "toExclusive": "2025-05-15"
+      },
+      "noticesParsed": 633,
+      "sourceId": "kr-notam-rksi-available",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 34,
+      "historicalWindow": {
+        "from": "2025-04-18",
+        "timezone": "Asia/Seoul",
+        "toExclusive": "2025-05-15"
+      },
+      "noticesParsed": 420,
+      "sourceId": "kr-notam-rkss-available",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 1,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2010-23",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2023-11",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 1,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2023-2",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2023-2-b9c95f36",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 1,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2023-8",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2024-17",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2024-19",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2024-27",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2024-40",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2024-41",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2024-47",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2024-48",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2024-56",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2024-62",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2024-63",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2024-66",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2024-67",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2024-68",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2024-69",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 1,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2024-73",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2024-75",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2024-76",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2024-81",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2024-9",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-1",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-15",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 1,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-16",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 1,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-17",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-18",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-2",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 1,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-23-5976bb1e",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 1,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-3",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 1,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-33",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 1,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-34",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-35",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 1,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-36",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-37",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 1,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-39-local-folder",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-4",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-40",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 1,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-41",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-42",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-43",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-44",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-45",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-5",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 1,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-6",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-7",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-sup-2025-8",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-history",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-rksi-2025-04-16",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-rksi-2025-05-14",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-rksi-2026",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-rkss-2025-04-16",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-rkss-2025-05-14",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-rkss-2026",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 1,
+      "exactOriginal": false,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "notam-ui",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "notam-js",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": false,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "notam-valid-ui",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 2,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "noaa-isd",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 0,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-gen01",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 3,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kr-gen31",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 51,
+      "historicalWindow": {
+        "from": "2025-04-18",
+        "timezone": "Asia/Seoul",
+        "toExclusive": "2025-05-15"
+      },
+      "noticesParsed": 1622,
+      "sourceId": "notam-all-rksi",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 34,
+      "historicalWindow": {
+        "from": "2025-04-18",
+        "timezone": "Asia/Seoul",
+        "toExclusive": "2025-05-15"
+      },
+      "noticesParsed": 1342,
+      "sourceId": "notam-all-rkss",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": null,
+      "noticesParsed": 9999,
+      "sourceId": "notam-all-rkrr",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": null,
+      "noticesParsed": 2,
+      "sourceId": "notam-day-rksi",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": null,
+      "noticesParsed": 2,
+      "sourceId": "notam-day-rkss",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": null,
+      "noticesParsed": 1385,
+      "sourceId": "notam-fir-early",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": null,
+      "noticesParsed": 4913,
+      "sourceId": "notam-fir-2024h1",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 1,
+      "historicalWindow": {
+        "from": "2025-04-18",
+        "timezone": "Asia/Seoul",
+        "toExclusive": "2025-05-15"
+      },
+      "noticesParsed": 5769,
+      "sourceId": "notam-fir-2024h2",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 831,
+      "historicalWindow": {
+        "from": "2025-04-18",
+        "timezone": "Asia/Seoul",
+        "toExclusive": "2025-05-15"
+      },
+      "noticesParsed": 3151,
+      "sourceId": "notam-fir-2025",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": {
+        "from": "2025-04-18",
+        "timezone": "Asia/Seoul",
+        "toExclusive": "2025-05-15"
+      },
+      "noticesParsed": 12,
+      "sourceId": "checklist-z0471-25",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": {
+        "from": "2025-04-18",
+        "timezone": "Asia/Seoul",
+        "toExclusive": "2025-05-15"
+      },
+      "noticesParsed": 8,
+      "sourceId": "checklist-g0684-25",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": {
+        "from": "2025-04-18",
+        "timezone": "Asia/Seoul",
+        "toExclusive": "2025-05-15"
+      },
+      "noticesParsed": 14,
+      "sourceId": "checklist-a0478-25",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": {
+        "from": "2025-04-18",
+        "timezone": "Asia/Seoul",
+        "toExclusive": "2025-05-15"
+      },
+      "noticesParsed": 4,
+      "sourceId": "checklist-g0304-25",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": {
+        "from": "2025-04-18",
+        "timezone": "Asia/Seoul",
+        "toExclusive": "2025-05-15"
+      },
+      "noticesParsed": 23,
+      "sourceId": "checklist-z0384-25",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": {
+        "from": "2025-04-18",
+        "timezone": "Asia/Seoul",
+        "toExclusive": "2025-05-15"
+      },
+      "noticesParsed": 14,
+      "sourceId": "checklist-a0351-25",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 2,
+      "exactOriginal": false,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "iiac-location",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 1,
+      "exactOriginal": true,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "kac-gimpo-location",
+      "state": "facts-revalidated"
+    },
+    {
+      "citationsReproved": 1,
+      "exactOriginal": false,
+      "historicalWindow": null,
+      "meaning": "Only cited facts revalidated; current site/UI/city pages do not prove historical allocation.",
+      "normalizedTextMatches": true,
+      "sourceId": "iata-seoul-current",
+      "state": "facts-revalidated"
+    },
+    {
+      "currentResponseIsHistoricalSnapshot": false,
+      "historicalNoticesReproved": 0,
+      "historicalWindow": null,
+      "noticesParsed": 1457,
+      "sourceId": "notam-fir-followup",
+      "state": "facts-revalidated"
+    }
+  ]
+}

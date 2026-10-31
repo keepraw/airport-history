@@ -1,0 +1,60 @@
+{
+  "bindings": [
+    {
+      "executorSha256": "78d250aa23292eb9ab4d9bc39cc9aa9acb6a2369ab8890a759de4ea6e21dc7af",
+      "policyKey": "official-aip-stable-physical-identity@0.1.0-draft",
+      "policySha256": "1de275a7baeb1b1216190d7f5e1b2b09ebe7449e5a117ad1f98af9247efd80ee",
+      "scopeSha256": "597ddbc5afeb66df29bf7dcb405846e9ac912ae4bfa93bfd2b71c24a6c8b4e65"
+    },
+    {
+      "executorSha256": "78d250aa23292eb9ab4d9bc39cc9aa9acb6a2369ab8890a759de4ea6e21dc7af",
+      "policyKey": "kr-molit-bounded-icao@2.0.0-draft",
+      "policySha256": "37e01b54bcf28f4d25a5e49b04f5905d3b107de132e4d4b5d9da062ba7024350",
+      "scopeSha256": "ca29502a69df9e8283fbdfddd0022be6988054336caacdb57f1b2076b555e413"
+    }
+  ],
+  "formatVersion": 1,
+  "legacyValidation": {
+    "discoveryTests": 50,
+    "evidenceTests": 146,
+    "fullPnpmCheckPassed": true,
+    "indianFullCandidateCheckPassed": true,
+    "indianRehearsalOriginalBytesRead": false,
+    "indianRehearsalPassed": true,
+    "referenceTests": 15,
+    "typescriptTests": 437
+  },
+  "liveIsolation": {
+    "boundaryExtraResolved": 0,
+    "bundleRevalidationPassed": true,
+    "classificationCounts": {
+      "AUTO_ELIGIBLE": 2
+    },
+    "codeStagePassed": true,
+    "conditionalResolved": 54,
+    "distinctPhysicalSites": true,
+    "formalChangedAnswers": 0,
+    "formalKoreanIdentitiesCreated": 0,
+    "formalRegressionQueries": 37736,
+    "freshNetworkAcquisition": false,
+    "identitySchemaStagePassed": true,
+    "mode": "real-official-originals-test-authority",
+    "originalBytesReadHere": true,
+    "productionPrPlanPreparedInIsolation": true,
+    "productionRejectedTestAuthority": true,
+    "productionSuccess": false,
+    "protectedBaselineFilesUnchanged": 923,
+    "publicPrCreated": false,
+    "realAuthorizationsCreated": 0,
+    "realResolveAirportUsed": true,
+    "repeatBatchReusesIds": true,
+    "testOnly": true
+  },
+  "offlineCi": {
+    "claimsFreshOriginalReplay": false,
+    "newTestsPassed": 21,
+    "privateOriginalsAvailable": false,
+    "syntheticBatchAirports": 8
+  },
+  "rightsAudit": "Run on staged files and committed reachable history before push; no originals included."
+}
