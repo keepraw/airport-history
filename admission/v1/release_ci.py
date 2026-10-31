@@ -25,6 +25,10 @@ def main():
     receipt = load(bundle / 'receipt.json')
     require(load(bundle / 'proposed-data.json') == current and
             load(ROOT / 'package.json')['version'] == current['dataVersion'], 'Published release detached from bundle/package')
+    # The current candidate's index and complete history must be audited too;
+    # frozen legacy checks alone do not inspect new candidate-only payloads.
+    from publish import audit_candidate_rights
+    print(__import__('json').dumps(audit_candidate_rights(ROOT), sort_keys=True))
     # Neither country's historical executor/grant is rewritten. Run it with the
     # exact historical tree on which its authorization was actually valid.
     with tempfile.TemporaryDirectory(prefix='legacy-release-', dir=ROOT / 'work') as tmp:

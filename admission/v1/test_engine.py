@@ -16,6 +16,9 @@ import evidence as evidence
 import batch as batch
 import release as release
 import rehearse as rehearsal
+import provenance
+from test_publish_rights import CandidateRightsTests
+from test_provenance import ProvenanceTests, RecoveryBoundaryTests
 
 
 def reader(url, text):
@@ -41,6 +44,12 @@ class RuleEngineTests(unittest.TestCase):
         cls.tmp.cleanup()
 
     def setUp(self):
+        # This class exercises unrelated synthetic allocations in isolation.
+        # Real preserved IDs are tested by ProvenanceTests and live read-only replay.
+        self.origins = patch.object(provenance, 'origin_metadata', return_value={
+            'originPendingRegistry': {'identities': []}, 'bundles': [{'files': {'candidates.json': []}}]})
+        self.origins.start()
+        self.addCleanup(self.origins.stop)
         self.ip, self.cp = r.policy('identity'), r.policy('kr-code')
         self.grants = {'formatVersion': 1, 'authorizations': [
             {'policyKey': p['policyKey'], 'bindings': r.checked_bindings(p),
