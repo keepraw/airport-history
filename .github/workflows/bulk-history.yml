@@ -1,0 +1,75 @@
+name: Worldwide historical code bulk ingestion
+
+on:
+  pull_request:
+    paths:
+      - 'bulk/worldwide.py'
+      - 'test/reference/test_bulk_history.py'
+      - 'docs/worldwide-bulk-history.md'
+      - '.github/workflows/bulk-history.yml'
+      - 'reference/generated/**'
+      - 'reference/triage/**'
+      - 'research/discovery/generated/**'
+      - 'data/airports.json'
+  push:
+    branches: [main]
+    paths:
+      - 'bulk/worldwide.py'
+      - 'test/reference/test_bulk_history.py'
+      - 'docs/worldwide-bulk-history.md'
+      - '.github/workflows/bulk-history.yml'
+      - 'reference/generated/**'
+      - 'reference/triage/**'
+      - 'research/discovery/generated/**'
+      - 'data/airports.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  materialize-worldwide:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Bulk indexing and safety regressions
+        run: python3 -m unittest discover -s test/reference -p test_bulk_history.py -v
+      - name: Index every pinned worldwide site and historic transition
+        run: |
+          mkdir -p work
+          python3 bulk/worldwide.py build --output work/history-index.sqlite | tee work/history-import.json
+      - name: Exercise real historical and ambiguous code lookups
+        run: |
+          python3 bulk/worldwide.py lookup --code TAO --date 2018-01-01 --limit 3 > work/tao-example.json
+          python3 bulk/worldwide.py lookup --code KTI --date 2020-01-01 --limit 3 > work/kti-example.json
+          python3 - <<'PY'
+          import json
+          with open('work/tao-example.json') as f:
+              result = json.load(f)
+          assert result['status'] == 'resolved' and result['resolvedAirportId'], result
+          with open('work/kti-example.json') as f:
+              result = json.load(f)
+          assert result['status'] != 'resolved', result
+          with open('work/history-import.json') as f:
+              report = json.load(f)
+          assert report['metrics']['referenceRecords'] == 86950, report['metrics']
+          assert report['metrics']['indexedEventGroups'] == 88330, report['metrics']
+          print(report['metrics'])
+          PY
+      - name: Compress materialized database
+        run: gzip -n -c work/history-index.sqlite > work/history-index.sqlite.gz
+      - name: Preserve complete import as CI artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: worldwide-historical-code-index
+          path: |
+            work/history-index.sqlite.gz
+            work/history-import.json
+            work/tao-example.json
+            work/kti-example.json
+          retention-days: 30
+          if-no-files-found: error
