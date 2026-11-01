@@ -234,8 +234,12 @@ def build(output, reference_dir=OUTPUT, triage_dir=TRIAGE, discovery_dir=DISCOVE
             _leads(db,Path(triage_dir),Path(discovery_dir),candidate_files,stats)
             db.execute('INSERT INTO metadata VALUES (?,?)',('formatVersion','1.0.0'))
             db.execute('INSERT INTO metadata VALUES (?,?)',('curatedDataVersion',curated['dataVersion']))
+            source_roots = {Path(reference_dir).resolve(): 'reference',
+                            Path(triage_dir).resolve(): 'triage',
+                            Path(discovery_dir).resolve(): 'discovery'}
             db.execute('INSERT INTO metadata VALUES (?,?)',('inputs',canonical({
-                str(folder / name): sha for folder,name,sha in inputs})))
+                source_roots[Path(folder).resolve()] + '/' + name: sha
+                for folder,name,sha in inputs})))
             db.execute('INSERT INTO metadata VALUES (?,?)',('curatedSha256',digest(curated_path)))
             db.commit()
             if db.execute('PRAGMA integrity_check').fetchone()[0] != 'ok':

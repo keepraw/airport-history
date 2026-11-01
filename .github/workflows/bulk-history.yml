@@ -11,6 +11,17 @@ on:
       - 'reference/triage/**'
       - 'research/discovery/generated/**'
       - 'data/airports.json'
+  push:
+    branches: [main]
+    paths:
+      - 'bulk/worldwide.py'
+      - 'test/reference/test_bulk_history.py'
+      - 'docs/worldwide-bulk-history.md'
+      - '.github/workflows/bulk-history.yml'
+      - 'reference/generated/**'
+      - 'reference/triage/**'
+      - 'research/discovery/generated/**'
+      - 'data/airports.json'
   workflow_dispatch:
 
 permissions:

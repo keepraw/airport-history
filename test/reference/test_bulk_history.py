@@ -1,6 +1,7 @@
 """Bulk ingestion tests: no airport allowlist, no invented effective dates."""
 import gzip
 import json
+import shutil
 from pathlib import Path
 import sys
 import tempfile
@@ -133,6 +134,14 @@ class WorldBulkHistoryTests(unittest.TestCase):
     def test_full_rebuild_reproducible_and_invalid_date_fails(self):
         a=self.build()['databaseSha256']
         self.assertEqual(a,self.build()['databaseSha256'])
+        # Input roots must not leak host-specific absolute paths into the DB.
+        with tempfile.TemporaryDirectory() as moved:
+            moved = Path(moved)
+            dirs = [shutil.copytree(p,moved/p.name) for p in (self.ref,self.triage,self.discovery)]
+            target = moved/'curated.json'
+            shutil.copy2(self.curated,target)
+            remote = build(moved/'replica.sqlite',*dirs,target,strict=True)
+            self.assertEqual(a,remote['databaseSha256'])
         with self.assertRaises(ValueError):lookup(self.db,'TAO',at='2020-02-30')
         with self.assertRaises(ValueError):lookup(self.db,'TAO',at='2020-1-1')
         with self.assertRaises(ValueError):lookup(self.db,'tao',limit=0)
