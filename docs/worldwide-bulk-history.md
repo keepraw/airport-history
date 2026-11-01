@@ -47,6 +47,10 @@ or crossed physical sites. IATA, ICAO, GPS, LOCAL and IDENT stay distinct.
 Directory/country/city-code changes are never auto-promoted to `resolved`.
 Uncertain source observations are still searchable by any historical date,
 with that limitation explicit in the response, rather than dropped entirely.
+The `possibleSites` result groups all matching location candidates (with counts,
+coordinates, source revision horizon and ambiguity markers) so that a code with
+many repeated observations presents distinct old/new sites without pagination
+hiding them behind duplicate rows.
 
 The pipeline has no airport-count or country-count cap, no repeated Owner approval
 cycle, no new `apt_` allocation and no dependency on PR #29's private provenance

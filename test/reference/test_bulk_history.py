@@ -116,6 +116,8 @@ class WorldBulkHistoryTests(unittest.TestCase):
         rep=lookup(self.db,'KTI',at='2020-01-01')
         self.assertEqual(rep['status'],'historical_observations_only')
         self.assertEqual(rep['referenceObservationCount'],2)
+        self.assertEqual(rep['possibleSiteCount'],2)
+        self.assertEqual({x['name'] for x in rep['possibleSites']},{'Old Site','New Site'})
         self.assertIsNone(rep['resolvedAirportId'])
 
     def test_historical_repurposed_code_links_only_changed_site(self):

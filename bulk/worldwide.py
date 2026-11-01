@@ -294,6 +294,19 @@ def lookup(database,code,scheme='IATA',at=None,limit=50,offset=0):
                 formal.append(item)
         count = conn.execute('''SELECT COUNT(*) FROM reference_observations
                                 WHERE scheme=? AND code=?''',(scheme,code)).fetchone()[0]
+        site_count = conn.execute('''SELECT COUNT(DISTINCT site_id) FROM reference_observations
+                                     WHERE scheme=? AND code=?''',(scheme,code)).fetchone()[0]
+        site_candidates = [dict(r) for r in conn.execute('''
+             SELECT s.site_id, s.airport_id, s.reference_id, s.name, s.country,
+                    s.latitude, s.longitude, s.identity_status,
+                    COUNT(*) AS observation_count,
+                    MAX(o.ambiguous_location) AS ambiguous_location,
+                    MIN(o.revision_observed_at) AS first_revision_observed_at,
+                    MAX(o.revision_observed_at) AS last_revision_observed_at
+             FROM reference_observations o JOIN sites s ON s.site_id=o.site_id
+             WHERE o.scheme=? AND o.code=? GROUP BY s.site_id
+             ORDER BY s.name, s.site_id LIMIT ? OFFSET ?''',
+             (scheme,code,limit,offset))]
         refs = [dict(r) for r in conn.execute('''
              SELECT o.*, s.name, s.country, s.latitude, s.longitude, s.identity_status
              FROM reference_observations o JOIN sites s ON s.site_id=o.site_id
@@ -321,6 +334,7 @@ def lookup(database,code,scheme='IATA',at=None,limit=50,offset=0):
         return {'query':{'scheme':scheme,'code':code,'date':at,'limit':limit,'offset':offset},
                 'status':status,'resolvedAirportId':next(iter(certain)) if status=='resolved' else None,
                 'formalAssignments':formal,'referenceObservationCount':count,
+                'possibleSiteCount':site_count,'possibleSites':site_candidates,
                 'referenceObservations':refs,'transitionLeadGroupCount':lead_count,
                 'transitionLeadGroups':leads,
                 'timestampMeaning':'Directory revision timestamps are observations, never official code effective dates.',
