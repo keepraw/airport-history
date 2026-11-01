@@ -14,6 +14,8 @@ import re
 import sqlite3
 import tempfile
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts/reference'))
 from common import ROOT, OUTPUT, DISCOVERY, canonical, checked, digest, read_jsonl, stable_id
 
 TRIAGE = ROOT / 'reference/triage'

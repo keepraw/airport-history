@@ -7,8 +7,9 @@ import tempfile
 import unittest
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[2] / 'scripts/reference'))
+sys.path.insert(0,str(Path(__file__).resolve().parents[2] / 'bulk'))
 from common import canonical, digest, stable_id
-from bulk_history import build, lookup, _relation, _code
+from worldwide import build, lookup, _relation, _code
 
 
 def write_gz(path, rows):

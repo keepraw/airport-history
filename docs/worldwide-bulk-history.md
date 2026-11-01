@@ -8,11 +8,11 @@ formal physical-site/code assignments. Sources are pinned; no network request,
 owner signature, country-specific code change or manual per-airport step is made.
 
 ```sh
-python3 scripts/reference/bulk_history.py build --output work/history-index.sqlite
-python3 scripts/reference/bulk_history.py lookup --code TAO --date 2018-01-01
-python3 scripts/reference/bulk_history.py lookup --code LZO --date 2017-01-01
-python3 scripts/reference/bulk_history.py lookup --code KTI --date 2020-01-01
-python3 scripts/reference/bulk_history.py lookup --code RKSI --scheme ICAO --date 2025-05-01
+python3 bulk/worldwide.py build --output work/history-index.sqlite
+python3 bulk/worldwide.py lookup --code TAO --date 2018-01-01
+python3 bulk/worldwide.py lookup --code LZO --date 2017-01-01
+python3 bulk/worldwide.py lookup --code KTI --date 2020-01-01
+python3 bulk/worldwide.py lookup --code RKSI --scheme ICAO --date 2025-05-01
 ```
 
 The **Worldwide historical code bulk ingestion** GitHub Actions job executes

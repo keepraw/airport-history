@@ -3,7 +3,7 @@ name: Worldwide historical code bulk ingestion
 on:
   pull_request:
     paths:
-      - 'scripts/reference/bulk_history.py'
+      - 'bulk/worldwide.py'
       - 'test/reference/test_bulk_history.py'
       - 'docs/worldwide-bulk-history.md'
       - '.github/workflows/bulk-history.yml'
@@ -30,11 +30,11 @@ jobs:
       - name: Index every pinned worldwide site and historic transition
         run: |
           mkdir -p work
-          python3 scripts/reference/bulk_history.py build --output work/history-index.sqlite | tee work/history-import.json
+          python3 bulk/worldwide.py build --output work/history-index.sqlite | tee work/history-import.json
       - name: Exercise real historical and ambiguous code lookups
         run: |
-          python3 scripts/reference/bulk_history.py lookup --code TAO --date 2018-01-01 --limit 3 > work/tao-example.json
-          python3 scripts/reference/bulk_history.py lookup --code KTI --date 2020-01-01 --limit 3 > work/kti-example.json
+          python3 bulk/worldwide.py lookup --code TAO --date 2018-01-01 --limit 3 > work/tao-example.json
+          python3 bulk/worldwide.py lookup --code KTI --date 2020-01-01 --limit 3 > work/kti-example.json
           python3 - <<'PY'
           import json
           with open('work/tao-example.json') as f:
