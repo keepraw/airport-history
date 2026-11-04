@@ -1,0 +1,52 @@
+name: Human admission v1 route E2E
+# Runs the complete release-CI route (python3 admission/human-v1/human.py ci) on a
+# fictional release in a disposable clone, whenever the Human v1 router changes.
+on:
+  pull_request:
+    paths:
+      - 'admission/human-v1/**'
+      - 'test/evidence/test_human_admission.py'
+      - 'test/evidence/human_admission_route_e2e.py'
+      - '.github/workflows/human-admission*.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'admission/human-v1/**'
+      - 'test/evidence/test_human_admission.py'
+      - 'test/evidence/human_admission_route_e2e.py'
+      - '.github/workflows/human-admission*.yml'
+permissions:
+  contents: read
+  issues: read
+  pull-requests: read
+jobs:
+  route-e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      matrix:
+        scenario: [pull_request, push]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.14.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+      - name: Ensure original PDF extraction is available
+        run: command -v pdftotext || (sudo apt-get update && sudo apt-get install -y poppler-utils)
+      - run: pnpm install --frozen-lockfile
+      - name: Full human.py ci route on a fictional release (${{ matrix.scenario }})
+        run: python3 test/evidence/human_admission_route_e2e.py --scenario ${{ matrix.scenario }} --report route-e2e-${{ matrix.scenario }}.json
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: route-e2e-${{ matrix.scenario }}
+          path: route-e2e-${{ matrix.scenario }}.json

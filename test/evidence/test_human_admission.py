@@ -266,51 +266,74 @@ class FakeGitHub:
                 'created_at': '2026-11-04T01:00:00Z', 'updated_at': '2026-11-04T01:00:00Z'}
 
 
+def git(root, *args):
+    return subprocess.check_output(['git', *args], cwd=root, text=True).strip()
+
+
+def make_env(cls):
+    """A disposable clone whose origin is a local bare repository standing in for GitHub main."""
+    (ROOT / 'work').mkdir(exist_ok=True)
+    cls.tmp = tempfile.TemporaryDirectory(prefix='human-v1-test-', dir=ROOT / 'work')
+    cls.root = root = Path(cls.tmp.name) / 'repo'
+    subprocess.run(['git', 'clone', '-q', '--no-hardlinks', str(ROOT), str(root)], check=True)
+    head = git(ROOT, 'rev-parse', 'HEAD')
+    subprocess.run(['git', 'checkout', '-q', head], cwd=root, check=True)
+    # Test the working-tree Human v1 code (identical to HEAD in CI).
+    shutil.rmtree(root / 'admission/human-v1', ignore_errors=True)
+    shutil.copytree(ROOT / 'admission/human-v1', root / 'admission/human-v1', ignore=shutil.ignore_patterns('__pycache__'))
+    shutil.copyfile(ROOT / '.github/workflows/human-admission.yml', root / '.github/workflows/human-admission.yml')
+    base_version = json.loads((root / 'data/airports.json').read_text())['dataVersion']
+    # A disposable tree whose data was reset below an existing human release (e.g. an
+    # isolated policy rehearsal) must not see that later release as a competing batch.
+    for later in (root / 'research/admissions').glob('*/human-v1'):
+        if tuple(map(int, later.parent.name.split('.'))) > tuple(map(int, base_version.split('.'))):
+            shutil.rmtree(later)
+    for k, v in (('user.name', 'keepraw'), ('user.email', '49091395+keepraw@users.noreply.github.com')):
+        subprocess.run(['git', 'config', '--local', k, v], cwd=root, check=True)
+    for args in (['add', '-A'], ['commit', '-q', '--allow-empty', '-m', 'test base']):
+        subprocess.run(['git', *args], cwd=root, check=True)
+    cls.base = git(root, 'rev-parse', 'HEAD')
+    cls.origin = Path(cls.tmp.name) / 'origin.git'
+    subprocess.run(['git', 'init', '-q', '--bare', str(cls.origin)], check=True)
+    subprocess.run(['git', 'remote', 'set-url', 'origin', str(cls.origin)], cwd=root, check=True)
+    subprocess.run(['git', 'push', '-q', 'origin', cls.base + ':refs/heads/main'], cwd=root, check=True)
+    subprocess.run(['git', 'fetch', '-q', 'origin', '+refs/heads/main:refs/remotes/origin/main'], cwd=root, check=True)
+    (root / 'node_modules').symlink_to(ROOT / 'node_modules', target_is_directory=True)
+    with (root / '.git/info/exclude').open('a') as exclude:
+        exclude.write('\nnode_modules\n')
+    cls.core = load_core(root)
+    cls.cli = load_cli(root, cls.core)
+    configure(base_version)
+    cls.spec = localized_spec(cls.core)
+    (root / 'work').mkdir(exist_ok=True)
+    cls.spec_path = root / 'work/spec.json'
+    cls.spec_path.write_text(json.dumps(cls.spec))
+    files = originals(cls.core)
+    cls.fetch = staticmethod(lambda url: files[url])
+    cls.bundle = cls.cli.prepare(cls.spec_path, cls.base)
+    cls.cli.verify_originals(ns['version'], cls.fetch)
+    cls.manifest, cls.result = cls.cli.build(ns['version'])
+    cls.text = cls.core.approval_text(cls.manifest)
+    cls.cli.record_approval(ns['version'], APPROVAL_URL, FakeGitHub(cls.text))
+    cls.snapshot = {p: p.read_bytes() for p in cls.bundle.rglob('*') if p.is_file()}
+
+
+def set_main(cls, commit):
+    """Move the stand-in GitHub main and the clone's view of it."""
+    subprocess.run(['git', 'push', '-q', '--force', 'origin', commit + ':refs/heads/main'], cwd=cls.root, check=True)
+    subprocess.run(['git', 'fetch', '-q', 'origin', '+refs/heads/main:refs/remotes/origin/main'], cwd=cls.root, check=True)
+
+
+def side_commit(cls, parent, message):
+    """An unrelated main commit (no data change) on top of ``parent``."""
+    tree = git(cls.root, 'rev-parse', parent + '^{tree}')
+    return git(cls.root, 'commit-tree', tree, '-p', parent, '-m', message)
+
+
 class HumanAdmissionTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        (ROOT / 'work').mkdir(exist_ok=True)
-        cls.tmp = tempfile.TemporaryDirectory(prefix='human-v1-test-', dir=ROOT / 'work')
-        cls.root = root = Path(cls.tmp.name) / 'repo'
-        subprocess.run(['git', 'clone', '-q', '--no-hardlinks', str(ROOT), str(root)], check=True)
-        head = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
-        subprocess.run(['git', 'checkout', '-q', head], cwd=root, check=True)
-        # Test the working-tree Human v1 code (identical to HEAD in CI).
-        shutil.rmtree(root / 'admission/human-v1', ignore_errors=True)
-        shutil.copytree(ROOT / 'admission/human-v1', root / 'admission/human-v1',
-                        ignore=shutil.ignore_patterns('__pycache__'))
-        shutil.copyfile(ROOT / '.github/workflows/human-admission.yml', root / '.github/workflows/human-admission.yml')
-        base_version = json.loads((root / 'data/airports.json').read_text())['dataVersion']
-        # A disposable tree whose data was reset below an existing human release (e.g. an
-        # isolated policy rehearsal) must not see that later release as a competing batch.
-        for later in (root / 'research/admissions').glob('*/human-v1'):
-            if tuple(map(int, later.parent.name.split('.'))) > tuple(map(int, base_version.split('.'))):
-                shutil.rmtree(later)
-        for args in (['add', '-A'], ['-c', 'user.name=keepraw', '-c', 'user.email=49091395+keepraw@users.noreply.github.com',
-                                       'commit', '-q', '--allow-empty', '-m', 'test base']):
-            subprocess.run(['git', *args], cwd=root, check=True)
-        cls.base = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=root, text=True).strip()
-        subprocess.run(['git', 'update-ref', 'refs/remotes/origin/main', cls.base], cwd=root, check=True)
-        for k, v in (('user.name', 'keepraw'), ('user.email', '49091395+keepraw@users.noreply.github.com')):
-            subprocess.run(['git', 'config', '--local', k, v], cwd=root, check=True)
-        (root / 'node_modules').symlink_to(ROOT / 'node_modules', target_is_directory=True)
-        with (root / '.git/info/exclude').open('a') as exclude:
-            exclude.write('\nnode_modules\n')
-        cls.core = load_core(root)
-        cls.cli = load_cli(root, cls.core)
-        configure(json.loads((root / 'data/airports.json').read_text())['dataVersion'])
-        cls.spec = localized_spec(cls.core)
-        (root / 'work').mkdir(exist_ok=True)
-        cls.spec_path = root / 'work/spec.json'
-        cls.spec_path.write_text(json.dumps(cls.spec))
-        files = originals(cls.core)
-        cls.fetch = staticmethod(lambda url: files[url])
-        cls.bundle = cls.cli.prepare(cls.spec_path, cls.base)
-        cls.cli.verify_originals(ns['version'], cls.fetch)
-        cls.manifest, cls.result = cls.cli.build(ns['version'])
-        cls.text = cls.core.approval_text(cls.manifest)
-        cls.cli.record_approval(ns['version'], APPROVAL_URL, FakeGitHub(cls.text))
-        cls.snapshot = {p: p.read_bytes() for p in cls.bundle.rglob('*') if p.is_file()}
+        make_env(cls)
 
     @classmethod
     def tearDownClass(cls):
@@ -478,6 +501,7 @@ class HumanAdmissionTest(unittest.TestCase):
                      self.root / 'work/o', self.fetch)
         # A receipt for another lock does not count either.
         self.refused('missing, stale', self.core.check_receipt, b['original-verification'], lock)
+        self.refused('missing, stale', self.core.check_receipt, None, lock)
 
     def test_12_unproven_time_range(self):
         base, b, records, sources = self.inputs()
@@ -528,6 +552,87 @@ class HumanAdmissionTest(unittest.TestCase):
         finally:
             path.write_bytes(original)
 
+    # ------------------------------------------------- baseline freshness --
+    def test_16_main_unchanged_passes(self):
+        self.assertEqual(self.core.require_fresh(self.cli.load(self.bundle / 'manifest.json')['baseCommit'], self.root),
+                         self.base)
+        self.assertIsNotNone(self.validate()['approval'])
+
+    def test_17_main_advanced_voids_pending_batch(self):
+        set_main(self, side_commit(self, self.base, 'unrelated main change'))
+        try:
+            for step in (lambda: self.cli.verify_originals(ns['version'], self.fetch), lambda: self.cli.build(ns['version']),
+                         lambda: self.cli.record_approval(ns['version'], APPROVAL_URL, FakeGitHub(self.text)),
+                         lambda: self.cli.submit(ns['version']), self.validate):
+                self.refused('Published main advanced', step)
+            self.assertTrue((self.bundle / 'approval.json').exists())  # refused before touching the bundle
+            self.refused('prepared on the current published main', self.cli.prepare, self.spec_path, self.base)
+        finally:
+            set_main(self, self.base)
+
+    # ------------------------------------------ original-verification receipt --
+    def receipt_mutations(self):
+        def verified_at(r):
+            r['verifiedAt'] = '2026-01-02T03:04:05+00:00'
+
+        def byte_count(r):
+            r['sources'][0]['bytes'] += 1
+
+        def extractor(r):
+            r['sources'][0]['extractor'] = 'pdftotext-layout' if r['sources'][0]['extractor'] != 'pdftotext-layout' else 'utf8-text'
+
+        def drop(r):
+            r['sources'].pop()
+
+        return {'verifiedAt': verified_at, 'bytes': byte_count, 'extractor': extractor, 'drop-source': drop}
+
+    def test_18_receipt_edits_void_approval(self):
+        path = self.bundle / 'original-verification.json'
+        original = json.loads(path.read_text())
+        self.assertIn('original-verification-sha256:' + self.core.sha(original), self.text)
+        lock = json.loads((self.bundle / 'evidence-lock.json').read_text())
+        for name, mutate in self.receipt_mutations().items():
+            with self.subTest(name):
+                receipt = copy.deepcopy(original)
+                mutate(receipt)
+                path.write_text(json.dumps(receipt))
+                self.refused('Bundle file changed after build: originalVerificationSha256', self.validate)
+                if name in ('extractor', 'drop-source'):  # detached from the lock: refused on its own too
+                    self.refused('Receipt', self.core.check_receipt, receipt, lock)
+        path.write_text(json.dumps(original))
+        for value in (0, '12', True):  # bytes must be a positive integer
+            receipt = copy.deepcopy(original)
+            receipt['sources'][0]['bytes'] = value
+            self.refused('Receipt detached', self.core.check_receipt, receipt, lock)
+        for bad in ({**original, 'extra': 1}, {k: v for k, v in original.items() if k != 'note'}):
+            self.refused('missing, stale', self.core.check_receipt, bad, lock)
+
+    def test_19_replaced_receipt_for_same_lock_voids_approval(self):
+        import time
+        old_receipt = json.loads((self.bundle / 'original-verification.json').read_text())
+        time.sleep(1.1)  # a later live verification of the very same lock
+        other = self.core.verify_originals(json.loads((self.bundle / 'evidence-lock.json').read_text()),
+                                           json.loads((self.bundle / 'records.json').read_text())['records'],
+                                           self.root / 'work/o2', self.fetch)
+        self.assertEqual(other['evidenceLockSha256'], old_receipt['evidenceLockSha256'])
+        self.assertNotEqual(self.core.sha(other), self.core.sha(old_receipt))
+        (self.bundle / 'original-verification.json').write_text(json.dumps(other))
+        self.refused('Bundle file changed after build: originalVerificationSha256', self.validate)
+
+    def test_20_reverification_requires_rebuild_and_new_approval(self):
+        import time
+        time.sleep(1.1)
+        self.cli.verify_originals(ns['version'], self.fetch)
+        for gone in ('approval.json', 'manifest.json', 'approval-text.txt'):
+            self.assertFalse((self.bundle / gone).exists(), gone)
+        manifest, _ = self.cli.build(ns['version'])
+        new_text = self.core.approval_text(manifest)
+        self.assertNotEqual(manifest['originalVerificationSha256'], self.manifest['originalVerificationSha256'])
+        self.assertNotEqual(new_text, self.text)
+        self.refused('does not exactly match', self.cli.record_approval, ns['version'], APPROVAL_URL, FakeGitHub(self.text))
+        self.cli.record_approval(ns['version'], APPROVAL_URL, FakeGitHub(new_text))
+        self.assertIsNotNone(self.validate(FakeGitHub(new_text))['approval'])
+
     def test_wildcard_and_country_wide_specs_refused(self):
         s = copy.deepcopy(self.spec)
         s['batchId'] = 'approve-all-1'
@@ -548,6 +653,189 @@ class HumanAdmissionTest(unittest.TestCase):
         source = (self.root / 'admission/human-v1/human.py').read_text()
         for word in ('--skip', '--offline-approval', '--no-verify', '--force', '--test', 'fixture'):
             self.assertNotIn(word, source)
+
+class Recorder:
+    """Records the router's command groups instead of executing them (the full run is the route E2E)."""
+    def __init__(self, nested=None):
+        self.groups, self.nested = [], nested
+
+    def __call__(self, commands, cwd):
+        self.groups.append((Path(cwd), list(commands)))
+        if self.nested and commands == ['python3 admission/human-v1/human.py ci']:
+            self.nested(Path(cwd))
+
+
+class HumanReleaseLineageTest(unittest.TestCase):
+    """Data PR CI, main push CI and recursive replay against a stand-in GitHub main."""
+
+    @classmethod
+    def setUpClass(cls):
+        make_env(cls)
+        cls.version = ns['version']
+        original = cls.core.github
+        cls.core.github = FakeGitHub(cls.text)
+        try:
+            cls.branch = cls.cli.submit(cls.version)
+        finally:
+            cls.core.github = original
+        cls.data = git(cls.root, 'rev-parse', 'HEAD')
+        tree = git(cls.root, 'rev-parse', cls.data + '^{tree}')
+        # GitHub's pull_request checkout: a test merge whose first parent is the main tip.
+        cls.merge = git(cls.root, 'commit-tree', tree, '-p', cls.base, '-p', cls.data, '-m', 'Merge data PR')
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.tmp.cleanup()
+
+    def setUp(self):
+        set_main(self, self.base)
+
+    def at(self, commit):
+        subprocess.run(['git', 'checkout', '-q', '--detach', '--force', commit], cwd=self.root, check=True)
+
+    def lineage(self):
+        return self.core.check_release_lineage(json.loads((self.core.bundle_dir(self.version, self.root) / 'manifest.json').read_text()),
+                                               self.root)
+
+    def refused(self, message, fn, *args):
+        with self.assertRaises(self.core.AdmissionError) as ctx:
+            fn(*args)
+        self.assertIn(message, str(ctx.exception))
+
+    def test_a_pr_ci_on_current_main(self):
+        self.at(self.merge)
+        self.assertEqual(self.lineage()['publishingCommit'], self.merge)
+        self.at(self.data)  # the data branch itself
+        self.assertEqual(self.lineage()['publishingCommit'], self.data)
+
+    def test_b_old_pr_rerun_after_main_advanced(self):
+        advanced = side_commit(self, self.base, 'unrelated main change')
+        set_main(self, advanced)
+        self.at(self.merge)  # a re-run keeps the original test-merge SHA
+        self.refused('Published main advanced', self.lineage)
+        tree = git(self.root, 'rev-parse', self.data + '^{tree}')
+        fresh_merge = git(self.root, 'commit-tree', tree, '-p', advanced, '-p', self.data, '-m', 'Merge on new main')
+        self.at(fresh_merge)
+        self.refused('Published main advanced', self.lineage)
+
+    def test_c_main_push_after_merge(self):
+        tree = git(self.root, 'rev-parse', self.data + '^{tree}')
+        squash = git(self.root, 'commit-tree', tree, '-p', self.base, '-m', 'Squash data PR')
+        later = side_commit(self, self.merge, 'later unrelated main commit')
+        for head, publisher in ((self.merge, self.merge), (squash, squash), (self.data, self.data), (later, self.merge)):
+            set_main(self, head)
+            self.at(head)
+            result = self.lineage()
+            self.assertEqual((result['publishingCommit'], result['baseCommit']), (publisher, self.base))
+        advanced = side_commit(self, self.base, 'unrelated main change')
+        bad = git(self.root, 'commit-tree', tree, '-p', advanced, '-p', self.data, '-m', 'Merged onto a newer main')
+        set_main(self, bad)
+        self.at(bad)
+        self.refused('not on its approved base', self.lineage)
+
+    def run_ci(self, recorder, text):
+        original_run, original_github = self.core.run_all, self.core.github
+        self.core.run_all, self.core.github = recorder, FakeGitHub(text)
+        try:
+            self.core.ci()
+        finally:
+            self.core.run_all, self.core.github = original_run, original_github
+
+    def check_routes(self, groups, frozen_legacy=True, current_root=None):
+        (frozen_cwd, frozen), (current_cwd, current) = groups
+        current_root = current_root or self.root
+        self.assertNotEqual(frozen_cwd, current_root)
+        self.assertEqual(current_cwd, current_root)
+        legacy = self.core.LEGACY_CURRENT_COMMANDS
+        if frozen_legacy:
+            self.assertEqual(sorted(frozen), sorted(legacy))  # every legacy check, unchanged, in the frozen tree
+            for pinned in self.core.DATA_PINNED:
+                self.assertIn(pinned, frozen)
+        for pinned in self.core.DATA_PINNED:
+            self.assertNotIn(pinned, current)
+        for command in legacy:
+            expected = self.core.CURRENT_REPLACEMENTS.get(command, [] if command in self.core.DATA_PINNED else [command])
+            for e in expected:
+                self.assertIn(e, current)
+        return frozen, current
+
+    def test_d_ci_routes_pinned_checks_to_frozen_tree(self):
+        set_main(self, self.merge)
+        self.at(self.merge)
+        recorder = Recorder()
+        self.run_ci(recorder, self.text)
+        self.check_routes(recorder.groups)
+
+    def test_e_stale_batch_after_first_merge(self):
+        """Two batches prepared on one main: once the first is merged the other cannot proceed."""
+        set_main(self, self.merge)
+        self.at(self.base)  # the second branch still sits on the old main with its approved bundle
+        stale = self.core.bundle_dir(self.version, self.root)
+        for p, data in self.snapshot.items():
+            p.parent.mkdir(parents=True, exist_ok=True)
+            p.write_bytes(data)
+        snapshot = {p: p.read_bytes() for p in stale.rglob('*') if p.is_file()}
+        self.assertTrue((stale / 'approval.json').exists())
+        self.refused('Published main advanced', self.core.validate_bundle, stale)
+        self.refused('Published main advanced', self.cli.submit, self.version)
+        for p, data in snapshot.items():  # the CLI refused before touching anything
+            self.assertEqual(p.read_bytes(), data)
+        subprocess.run(['git', 'clean', '-qfd', str(stale)], cwd=self.root, check=True)
+        # Re-preparing the same permanent IDs on the new main is refused.
+        self.at(self.merge)
+        spec = copy.deepcopy(self.spec)
+        spec['targetDataVersion'], spec['batchId'] = ns['after'], spec['batchId'] + '-again'
+        path = self.root / 'work/spec-again.json'
+        path.write_text(json.dumps(spec))
+        self.refused('Permanent identifier reused across batches', self.cli.prepare, path)
+
+    def test_z_recursive_replay_of_earlier_human_release(self):
+        """A second human release replays the first one recursively in its frozen tree."""
+        set_main(self, self.merge)
+        self.at(self.merge)
+        first_text, first_version = self.text, self.version
+        configure(first_version)
+        spec2 = localized_spec(self.core)
+        path = self.root / 'work/spec-2.json'
+        path.write_text(json.dumps(spec2))
+        files = originals(self.core)
+        self.cli.prepare(path)
+        self.cli.verify_originals(ns['version'], lambda url: files[url])
+        manifest2, _ = self.cli.build(ns['version'])
+        text2 = self.core.approval_text(manifest2)
+        self.cli.record_approval(ns['version'], APPROVAL_URL, FakeGitHub(text2))
+        original = self.core.github
+        self.core.github = FakeGitHub(text2)
+        try:
+            self.cli.submit(ns['version'])
+        finally:
+            self.core.github = original
+        data2 = git(self.root, 'rev-parse', 'HEAD')
+        tree2 = git(self.root, 'rev-parse', data2 + '^{tree}')
+        merge2 = git(self.root, 'commit-tree', tree2, '-p', self.merge, '-p', data2, '-m', 'Merge second data PR')
+        set_main(self, merge2)
+        self.at(merge2)
+        nested_groups = []
+
+        nested_roots = []
+
+        def nested(frozen_root):
+            nested_roots.append(frozen_root)
+            inner = load_core(frozen_root)
+            inner_recorder = Recorder()
+            inner.run_all, inner.github = inner_recorder, FakeGitHub(first_text)
+            inner.ci()  # the earlier release's own router, on its own frozen tree, with its own approval
+            nested_groups.extend(inner_recorder.groups)
+            self.assertEqual(inner.load(frozen_root / 'data/airports.json')['dataVersion'], first_version)
+
+        recorder = Recorder(nested)
+        self.run_ci(recorder, text2)
+        self.assertEqual(recorder.groups[0][1], ['python3 admission/human-v1/human.py ci'])
+        self.assertEqual(len(nested_roots), 1)
+        self.assertEqual(nested_groups[1][0], nested_roots[0])
+        self.check_routes(nested_groups, current_root=nested_roots[0])  # the first release: full legacy replay in its own frozen tree
+        (_, current) = recorder.groups[1]
+        self.assertEqual(current, nested_groups[1][1])
 
 
 if __name__ == '__main__':

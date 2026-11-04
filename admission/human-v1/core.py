@@ -135,17 +135,90 @@ def executor(root=ROOT):
 
 # ---------------------------------------------------------------- baseline --
 
+def current_main(root=ROOT, refresh=False):
+    """The published main commit. ``refresh`` first fetches it from origin (local CLI steps)."""
+    if refresh and subprocess.run(['git', 'remote', 'get-url', 'origin'], cwd=root, capture_output=True).returncode == 0:
+        fetched = subprocess.run(['git', 'fetch', '--quiet', 'origin', '+refs/heads/main:refs/remotes/origin/main'],
+                                 cwd=root, capture_output=True, text=True)
+        require(fetched.returncode == 0, 'Cannot confirm the current published main: ' + fetched.stderr.strip()[-300:])
+    main = subprocess.run(['git', 'rev-parse', '--verify', '--quiet', 'origin/main^{commit}'], cwd=root,
+                          capture_output=True, text=True).stdout.strip()
+    require(main, 'Published main (origin/main) unavailable')
+    return main
+
+
+def require_fresh(base_commit, root=ROOT, refresh=True):
+    """A pending batch must sit exactly on the current published main.
+
+    If main advanced, the candidate, original verification and Owner approval
+    are all stale: prepare, verify-originals and build again on the new main
+    and obtain a new Owner approval.
+    """
+    main = current_main(root, refresh)
+    require(base_commit == main, 'Published main advanced from %s to %s since this batch was prepared: prepare, '
+            'verify-originals and build again on the new main and obtain a new Owner approval'
+            % (base_commit[:12], main[:12]))
+    return main
+
+
+def data_version_at(commit, root=ROOT):
+    try:
+        return json.loads(subprocess.check_output(['git', 'show', commit + ':data/airports.json'], cwd=root,
+                                                  stderr=subprocess.DEVNULL))['dataVersion']
+    except subprocess.CalledProcessError:
+        return None
+
+
+def publishing_commit(version, head='HEAD', root=ROOT):
+    """First commit on HEAD's first-parent chain whose data is ``version``, and its first parent.
+
+    On a pull_request checkout HEAD is GitHub's test merge (first parent: the
+    current main tip); on a main push it is main itself. Either way the
+    first-parent chain is main's own history plus, at most, the PR merge.
+    """
+    chain = git('rev-list', '--first-parent', head, cwd=root).split()
+    require(chain and data_version_at(chain[0], root) == version, 'HEAD does not carry dataVersion ' + version)
+    for index, commit in enumerate(chain):
+        parent = chain[index + 1] if index + 1 < len(chain) else None
+        if parent is None or data_version_at(parent, root) != version:
+            return commit, parent
+    raise AdmissionError('unreachable')
+
+
+def check_release_lineage(manifest, root=ROOT):
+    """The release must be published directly on its approved base, never on a stale or rebased one.
+
+    * Pending (main does not carry the release yet, i.e. the data PR's CI): the
+      current main must still be exactly the approved base.
+    * Published or pending: the first commit on HEAD's first-parent chain that
+      carries the release must have the approved base as its first parent. This
+      holds for a merge commit, a squash and a single-commit rebase made while
+      main == base, and for every later main commit. It fails for an old PR re-run
+      after main advanced, and for a merge on top of a newer main.
+    """
+    version, base = manifest['targetDataVersion'], manifest['baseCommit']
+    main = current_main(root)
+    if data_version_at(main, root) != version:
+        require(main == base, 'Published main advanced from %s to %s after this batch was approved: rebuild on the new '
+                'main and obtain a new Owner approval' % (base[:12], main[:12]))
+    else:
+        require(subprocess.run(['git', 'merge-base', '--is-ancestor', main, 'HEAD'], cwd=root).returncode == 0,
+                'HEAD does not contain the current published main')
+    publisher, parent = publishing_commit(version, 'HEAD', root)
+    require(parent == base, 'Release %s was published by %s on parent %s, not on its approved base %s'
+            % (version, publisher[:12], (parent or 'none')[:12], base[:12]))
+    return {'publishingCommit': publisher, 'baseCommit': base, 'currentMain': main}
+
+
 def published_baseline(base_commit, root=ROOT):
-    """The base must be a published main commit whose data equals its immutable snapshot."""
+    """The base must be a published main commit whose data equals its immutable snapshot.
+
+    Ancestry (not equality) is checked here so historical releases replay; the
+    freshness of a pending batch is ``require_fresh`` and, in CI,
+    ``check_release_lineage``.
+    """
     require(re.fullmatch(r'[0-9a-f]{40}', base_commit or ''), 'Full base commit SHA required')
-    main = None
-    for ref in ('origin/main', 'main'):
-        try:
-            main = git('rev-parse', '--verify', '--quiet', ref, cwd=root)
-            break
-        except subprocess.CalledProcessError:
-            continue
-    require(main, 'Published main history unavailable')
+    main = current_main(root)
     require(subprocess.run(['git', 'merge-base', '--is-ancestor', base_commit, main], cwd=root,
                            stderr=subprocess.DEVNULL).returncode == 0,
             'Base commit is not part of published main history')
@@ -334,16 +407,38 @@ def verify_originals(lock, records, workdir, fetcher=None):
             'note': 'Originals and full extractions stay in ignored work/; only hashes and short citations are committed.'}
 
 
+RECEIPT_KEYS = {'format', 'mode', 'evidenceLockSha256', 'verifiedAt', 'sources', 'originalsCommitted', 'note'}
+RECEIPT_SOURCE_KEYS = {'sourceId', 'originalSha256', 'textSha256', 'extractor', 'citationsVerified', 'bytes'}
+
+
 def check_receipt(receipt, lock):
-    require(receipt.get('format') == FORMAT and receipt.get('mode') == 'live-acquisition' and
-            receipt.get('evidenceLockSha256') == sha(lock) and receipt.get('originalsCommitted') is False,
+    """The complete original-verification receipt must match the lock exactly.
+
+    Its full hash is also bound into the manifest (``originalVerificationSha256``)
+    and so into the Owner approval text: any re-verification, edit or replacement
+    of the receipt voids the approval.
+    """
+    require(isinstance(receipt, dict) and set(receipt) == RECEIPT_KEYS and receipt.get('format') == FORMAT and
+            receipt.get('mode') == 'live-acquisition' and receipt.get('evidenceLockSha256') == sha(lock) and
+            receipt.get('originalsCommitted') is False and isinstance(receipt.get('note'), str),
             'Original-verification receipt is missing, stale or not a live acquisition')
+    try:
+        verified = dt.datetime.fromisoformat(receipt['verifiedAt'])
+    except (TypeError, ValueError):
+        raise AdmissionError('Original-verification receipt has no valid verifiedAt')
+    require(verified.tzinfo is not None and verified <= dt.datetime.now(dt.timezone.utc),
+            'Original-verification receipt verifiedAt must be a past UTC time')
+    require(isinstance(receipt['sources'], list), 'Original-verification receipt lacks its source list')
     by_id = {s['sourceId']: s for s in lock['sources']}
-    require(sorted(by_id) == [r['sourceId'] for r in receipt['sources']], 'Receipt does not cover every locked source')
+    listed = [r.get('sourceId') if isinstance(r, dict) else None for r in receipt['sources']]
+    require(listed == sorted(by_id), 'Receipt does not cover every locked source exactly once, in order')
     for r in receipt['sources']:
         s = by_id[r['sourceId']]
+        require(set(r) == RECEIPT_SOURCE_KEYS, 'Receipt source entry has missing or extra fields: ' + r['sourceId'])
         require(r['originalSha256'] == s['originalSha256'] and r['textSha256'] == s['textSha256'] and
-                r['citationsVerified'] == len(s['citations']), 'Receipt detached from evidence lock')
+                r['extractor'] == s['extractor'] and r['citationsVerified'] == len(s['citations']) and
+                isinstance(r['bytes'], int) and not isinstance(r['bytes'], bool) and r['bytes'] > 0,
+                'Receipt detached from evidence lock: ' + r['sourceId'])
 
 
 # ------------------------------------------------------------------- gate ---
@@ -446,6 +541,7 @@ def gate(base, candidate, records, batches, dossier, sources):
     require(new_sources <= used, 'Unused formal source in batch')
     check_dates(records, dossier, sources)
     check_fields(records, dossier)
+    (ROOT / 'work').mkdir(exist_ok=True)  # ignored; absent in a fresh CI checkout and in frozen trees
     with tempfile.TemporaryDirectory(dir=ROOT / 'work') as tmp:
         bp, cp = Path(tmp) / 'base.json', Path(tmp) / 'candidate.json'
         bp.write_text(json.dumps(base))
@@ -476,7 +572,7 @@ def gate(base, candidate, records, batches, dossier, sources):
 
 # --------------------------------------------------------------- manifest ---
 
-def manifest_for(bundle, spec_meta, baseline, candidate, records, lock, batches, dossier, excluded, coverage):
+def manifest_for(bundle, spec_meta, baseline, candidate, records, lock, batches, dossier, excluded, coverage, receipt):
     return {
         'format': FORMAT, 'batchId': spec_meta['batchId'], 'reviewedOn': spec_meta['reviewedOn'],
         'baseCommit': baseline['baseCommit'], 'baseDataVersion': baseline['baseDataVersion'],
@@ -485,6 +581,7 @@ def manifest_for(bundle, spec_meta, baseline, candidate, records, lock, batches,
         'recordsSha256': sha(records), 'evidenceLockSha256': sha(lock),
         'reviewBatchesSha256': sha(batches), 'dossierSha256': sha(dossier), 'excludedSha256': sha(excluded),
         'coverageSha256': sha(coverage), 'executorSha256': executor()['executorSha256'],
+        'originalVerificationSha256': sha(receipt),
         'counts': {c: sum(r['collection'] == c for r in records) for c in COLLECTIONS},
         'recordIds': {c: [r['id'] for r in records if r['collection'] == c] for c in COLLECTIONS},
         'excludedIds': sorted(e['recordId'] for e in excluded),
@@ -499,6 +596,7 @@ def approval_text(manifest):
         'base-commit:%s base-data:%s sha256:%s' % (m['baseCommit'], m['baseDataVersion'], m['baseDataSha256']),
         'candidate:%s sha256:%s' % (m['targetDataVersion'], m['candidateSha256']),
         'records-sha256:%s evidence-lock-sha256:%s' % (m['recordsSha256'], m['evidenceLockSha256']),
+        'original-verification-sha256:%s' % m['originalVerificationSha256'],
         'executor-sha256:%s' % m['executorSha256'],
     ]
     for c in ('airports', 'assignments', 'names', 'sources'):
@@ -558,12 +656,16 @@ def load_bundle(bundle):
     return out
 
 
-def validate_bundle(bundle, *, reader=None, require_approval=True, root=ROOT):
+def validate_bundle(bundle, *, reader=None, require_approval=True, root=ROOT, fresh=True):
+    """Re-run every check. ``fresh``: the batch must sit on the current main (all pre-merge steps);
+    CI instead checks the release lineage (``check_release_lineage``)."""
     b = load_bundle(bundle)
     m, records = b['manifest'], b['records']['records']
     require(m.get('format') == FORMAT, 'Not a human-v1 bundle')
     require(bundle.parent.name == m['targetDataVersion'], 'Bundle directory does not match target dataVersion')
     baseline, base = published_baseline(m['baseCommit'], root)
+    if fresh:
+        require_fresh(m['baseCommit'], root, refresh=False)
     for key in ('baseDataVersion', 'baseSnapshot', 'baseDataSha256'):
         require(m[key] == baseline[key], 'Base main or base data hash changed')
     require((root / baseline['baseSnapshot']).read_bytes() == subprocess.check_output(
@@ -572,13 +674,13 @@ def validate_bundle(bundle, *, reader=None, require_approval=True, root=ROOT):
     check_single_active(m['targetDataVersion'], m['baseDataVersion'], records, root)
     hashes = {'candidateSha256': b['proposed-data'], 'recordsSha256': records, 'evidenceLockSha256': b['evidence-lock'],
               'reviewBatchesSha256': b['batches'], 'dossierSha256': b['dossier'], 'excludedSha256': b['excluded'],
-              'coverageSha256': b['coverage']}
+              'coverageSha256': b['coverage'], 'originalVerificationSha256': b['original-verification']}
     for key, value in hashes.items():
         require(m[key] == sha(value), 'Bundle file changed after build: ' + key)
     require(m['recordIds'] == {c: [r['id'] for r in records if r['collection'] == c] for c in COLLECTIONS},
             'Manifest record list differs from records')
     sources = validate_evidence_lock(b['evidence-lock'], records)
-    check_receipt(b['original-verification'] or {}, b['evidence-lock'])
+    check_receipt(b['original-verification'], b['evidence-lock'])
     excluded = {e['recordId'] for e in b['excluded']}
     candidate_ids = {r[f] for c, f in COLLECTIONS.items() for r in b['proposed-data'][c]}
     require(not (excluded & candidate_ids), 'Excluded candidate entered formal data')
@@ -675,8 +777,12 @@ def ci():
         print('No human-v1 release at dataVersion %s; the legacy workflows own CI unchanged. '
               'Human-v1 entry checked executor %s.' % (current['dataVersion'], executor()['executorSha256']))
         return
-    proof = validate_bundle(bundle)
+    proof = validate_bundle(bundle, fresh=False)
     m = proof['manifest']
+    lineage = check_release_lineage(m)
+    print('Release lineage: %s published by %s on approved base %s (current main %s).'
+          % (m['targetDataVersion'], lineage['publishingCommit'][:12], m['baseCommit'][:12], lineage['currentMain'][:12]),
+          flush=True)
     require(load(bundle / 'proposed-data.json') == current, 'Published data detached from its approved candidate')
     require((ROOT / ('test/curated-%s.json' % m['targetDataVersion'])).read_bytes() ==
             (ROOT / 'data/airports.json').read_bytes(), 'Immutable snapshot of this release missing or different')

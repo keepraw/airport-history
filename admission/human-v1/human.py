@@ -20,7 +20,9 @@ from core import ROOT, WORK, AdmissionError, bundle_dir, dump, load, require, sh
 def prepare(spec_path, base_commit=None):
     spec = load(spec_path)
     core.validate_spec(spec)
-    base_commit = base_commit or core.git('rev-parse', 'origin/main')
+    main = core.current_main(ROOT, refresh=True)
+    base_commit = base_commit or main
+    require(base_commit == main, 'A batch is prepared on the current published main %s only' % main[:12])
     baseline, base = core.published_baseline(base_commit)
     require((ROOT / 'data/airports.json').read_bytes() ==
             subprocess.check_output(['git', 'show', base_commit + ':data/airports.json'], cwd=ROOT),
@@ -48,7 +50,12 @@ def prepare(spec_path, base_commit=None):
 def verify_originals(version, fetcher=None):
     bundle = bundle_dir(version)
     lock, records = load(bundle / 'evidence-lock.json'), load(bundle / 'records.json')['records']
-    receipt = core.verify_originals(lock, records, WORK / load(bundle / 'prepare.json')['batchId'] / 'originals', fetcher)
+    meta = load(bundle / 'prepare.json')
+    core.require_fresh(meta['baseCommit'])
+    receipt = core.verify_originals(lock, records, WORK / meta['batchId'] / 'originals', fetcher)
+    for stale in ('manifest.json', 'approval-text.txt', 'approval.json'):
+        if (bundle / stale).exists():
+            (bundle / stale).unlink()  # a new receipt voids the build and any approval bound to the old one
     dump(bundle / 'original-verification.json', receipt)
     return receipt
 
@@ -56,18 +63,20 @@ def verify_originals(version, fetcher=None):
 def build(version):
     bundle = bundle_dir(version)
     meta = load(bundle / 'prepare.json')
+    core.require_fresh(meta['baseCommit'])
     baseline, base = core.published_baseline(meta['baseCommit'])
     records = load(bundle / 'records.json')['records']
     lock, dossier, excluded = load(bundle / 'evidence-lock.json'), load(bundle / 'dossier.json'), load(bundle / 'excluded.json')
     batches = [load(p) for p in sorted((bundle / 'batches').glob('*.json'))]
     sources = core.validate_evidence_lock(lock, records)
-    core.check_receipt(load(bundle / 'original-verification.json') if (bundle / 'original-verification.json').exists() else {},
-                       lock)
+    receipt = load(bundle / 'original-verification.json') if (bundle / 'original-verification.json').exists() else None
+    core.check_receipt(receipt, lock)
     candidate = core.build_candidate(base, records, version)
     result = core.gate(base, candidate, records, batches, dossier, sources)
     dump(bundle / 'proposed-data.json', candidate)
     dump(bundle / 'coverage.json', result['coverage'])
-    manifest = core.manifest_for(bundle, meta, baseline, candidate, records, lock, batches, dossier, excluded, result['coverage'])
+    manifest = core.manifest_for(bundle, meta, baseline, candidate, records, lock, batches, dossier, excluded, result['coverage'],
+                                  receipt)
     dump(bundle / 'manifest.json', manifest)
     (bundle / 'approval-text.txt').write_text(core.approval_text(manifest) + '\n')
     stale = bundle / 'approval.json'
@@ -79,6 +88,7 @@ def build(version):
 def record_approval(version, url, reader=None):
     bundle = bundle_dir(version)
     manifest = load(bundle / 'manifest.json')
+    core.require_fresh(manifest['baseCommit'])
     core.validate_bundle(bundle, reader=reader, require_approval=False)
     text = core.approval_text(manifest)
     comment = core.read_owner_comment(url, text, reader)
@@ -94,11 +104,14 @@ def record_approval(version, url, reader=None):
 
 def submit(version, create_pr=True):
     bundle = bundle_dir(version)
+    meta = load(bundle / 'manifest.json')
+    core.require_fresh(meta['baseCommit'])
     proof = core.validate_bundle(bundle)
     m = proof['manifest']
     candidate = load(bundle / 'proposed-data.json')
-    require(core.git('rev-parse', 'HEAD') == m['baseCommit'] or subprocess.run(
-        ['git', 'merge-base', '--is-ancestor', m['baseCommit'], 'HEAD'], cwd=ROOT).returncode == 0, 'HEAD is not on the base')
+    require(core.git('rev-parse', 'HEAD') == m['baseCommit'],
+            'HEAD must be exactly the approved base (current main) %s; the formal data commit is created directly on it'
+            % m['baseCommit'][:12])
     prefix = str(bundle.relative_to(ROOT)) + '/'
     dirty = [line[3:] for line in core.git('status', '--porcelain', '--untracked-files=all').splitlines()]
     require(all(path.startswith(prefix) for path in dirty), 'Only this batch bundle may be uncommitted when submitting')
@@ -158,6 +171,7 @@ def main(argv=None):
         elif args.command == 'record-approval':
             print(json.dumps(record_approval(args.version, args.url)['comment'], indent=2))
         elif args.command == 'validate':
+            core.current_main(ROOT, refresh=True)
             proof = core.validate_bundle(bundle_dir(args.version))
             print(json.dumps({'batchId': proof['manifest']['batchId'], 'coverage': proof['gate']['coverage'],
                               'approval': proof['approval'], 'originals': proof['originals']}, indent=2))

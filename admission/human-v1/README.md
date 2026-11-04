@@ -45,7 +45,42 @@ main commit, base data version and SHA-256 (equal to its immutable
 record's exact content), evidence-lock SHA-256, review batches, dossier,
 excluded list, resolver differential and the executor SHA-256 (all Human v1
 files plus every reused gate). The approval text lists every record ID and the
-excluded IDs and repeats the hashes. Rebuilding deletes any recorded approval.
+excluded IDs and repeats the hashes, including the SHA-256 of the complete
+`original-verification.json` receipt. Rebuilding deletes any recorded approval;
+re-verifying originals deletes the manifest, approval text and approval, so a new
+build and a new Owner comment are required. An edited or replaced receipt no
+longer matches `originalVerificationSha256` and voids the approval.
+
+## Base freshness
+
+A batch is prepared only on the current published `origin/main` (fetched).
+`verify-originals`, `build`, `record-approval`, `validate` and `submit` refuse as
+soon as main has advanced: prepare, verify and build again on the new main and
+obtain a new Owner approval. `submit` creates the formal data commit directly on
+the approved base (HEAD must equal it).
+
+In CI (`check_release_lineage`): while main does not yet carry the release
+(the data PR), `origin/main` must still equal the approved base, so an old PR
+re-run after main advanced fails. On every run the first commit on HEAD's
+first-parent chain that carries the release must have the approved base as its
+first parent: a merge commit, a squash or a one-commit rebase made while main was
+the base all pass, later main commits pass, a merge onto a newer main fails.
+Historical releases keep replaying because the base itself is only checked for
+ancestry of main.
+
+## Concurrent batches: what is and is not guaranteed
+
+`check_single_active` sees only bundles in the checkout. Two branches can each
+prepare a batch on the same main. What stops the second one is base freshness:
+after the first merges, the second's CI, `validate` and `submit` refuse, and
+re-preparing on the new main runs every gate against the new data (reused
+permanent IDs and conflicting code windows are refused). This is enforced only by
+CI and the CLI. On 2026-11-04 `main` had no branch protection and no rulesets
+(GitHub API, admin read), so nothing forces CI to be green, or re-run, at merge
+time: a stale PR merged on an old green check would be caught by the main push CI
+only after it landed. Real global exclusivity needs the Owner to require the
+`human-admission` check with "require branches to be up to date" (or a merge
+queue), or to re-run CI immediately before merging.
 
 `record-approval` and every `validate`/CI run fetch the real comment and require
 author `keepraw` (GitHub user ID 49091395), the exact text, this repository and
