@@ -716,6 +716,7 @@ DATA_PINNED = {
     'python3 scripts/admission/kr_rehearsal.py': 'Korean fingerprints include data/airports.json',
     'python3 admission/v1/verify.py': 'rule-v1 verify hard-codes dataVersion 0.10.0 and its counts',
     'python3 admission/v1/test_engine.py': 'rule-v1 rehearsal requires its own increasing dataVersion over 0.10.0',
+    'python3 scripts/evidence/korea_readiness.py rights': 'its priority-markets entry check pins the 0.10.0 data/airports.json bytes and version; the full ancestry/blob audit runs below via rights.py',
 }
 CURRENT_REPLACEMENTS = {
     'pnpm validate:admission': ['python3 scripts/evidence/admitted.py', 'python3 scripts/evidence/admitted_090.py',
@@ -724,6 +725,7 @@ CURRENT_REPLACEMENTS = {
     'pnpm test': ['npx vitest run --exclude test/names.test.ts --exclude test/pr9-admissions.test.ts '
                   '--exclude test/validate.test.ts'],
     'pnpm test:evidence': ['python3 admission/human-v1/evidence_tests.py'],
+    'python3 scripts/evidence/korea_readiness.py rights': ['python3 admission/human-v1/rights.py'],
 }
 
 

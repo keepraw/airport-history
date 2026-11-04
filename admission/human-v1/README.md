@@ -115,6 +115,13 @@ offline and says so.
   they were authorized for), then run every legacy step that does not pin the
   0.10.0 bytes in the current tree. The data-pinned steps are listed with
   reasons in `core.DATA_PINNED`.
+* `korea_readiness.py rights` reaches the 0.10.0 priority-markets lock indirectly
+  (`priority_markets.rights_audit()` -> `verify()`), so it is data-pinned too and
+  runs unchanged in the frozen tree. In the current tree `rights.py` runs the same
+  unmodified Korean, code-dates and priority-markets audits over all of HEAD; only
+  that one entry check is narrowed: every other file in the priority-markets
+  baseline lock must match byte for byte, and `data/airports.json` plus the version
+  must equal the approved bundle. No hash, lock or authorization is changed.
 
 `submit` removes `ci.yml`, `kr-admission.yml` and `rule-admission.yml` in the data
 PR because their steps then run inside the router. See the Owner decisions in

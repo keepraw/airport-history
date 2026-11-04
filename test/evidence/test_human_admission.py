@@ -811,6 +811,66 @@ class HumanReleaseLineageTest(unittest.TestCase):
         path.write_text(json.dumps(spec))
         self.refused('Permanent identifier reused across batches', self.cli.prepare, path)
 
+    def test_f_rights_audit_runs_for_real_on_the_release_tree(self):
+        """Regression (route-e2e on ad15f0a): the legacy rights command reaches the 0.10.0
+        priority-markets lock indirectly, so it is frozen-only; the current-tree replacement
+        runs the same unmodified audits and still rejects every tampering it guards."""
+        set_main(self, self.merge)
+        self.at(self.merge)
+        legacy = 'python3 scripts/evidence/korea_readiness.py rights'
+        self.assertIn(legacy, self.core.DATA_PINNED)
+        self.assertEqual(self.core.CURRENT_REPLACEMENTS[legacy], ['python3 admission/human-v1/rights.py'])
+
+        def run(command):
+            return subprocess.run(command, shell=True, cwd=self.root, capture_output=True, text=True)
+
+        old = run(legacy)
+        self.assertNotEqual(old.returncode, 0)
+        self.assertIn('Protected baseline changed: data/airports.json', old.stderr)
+        ok = run('python3 admission/human-v1/rights.py')
+        self.assertEqual(ok.returncode, 0, ok.stderr)
+        result = json.loads(ok.stdout.strip().splitlines()[-1])
+        self.assertEqual(result['restrictedReachableBlobs'], 0)
+        self.assertGreater(result['koreaNewReachableBlobsChecked'], 0)
+        self.assertGreater(result['newMarketHistoricalBlobsChecked'], 0)
+        self.assertFalse(result['fullOriginalsAndExtractionsAdded'])
+
+        def tampered(path, change, message):
+            target = self.root / path
+            raw = target.read_bytes()
+            try:
+                target.write_bytes(change(raw))
+                bad = run('python3 admission/human-v1/rights.py')
+                self.assertNotEqual(bad.returncode, 0)
+                self.assertIn(message, bad.stderr)
+            finally:
+                target.write_bytes(raw)
+
+        def drop_airport(raw):
+            data = json.loads(raw)
+            data['airports'] = data['airports'][:-1]
+            return (json.dumps(data, indent=2) + '\n').encode()
+
+        def bump(raw):
+            data = json.loads(raw)
+            data['version'] = data['version'] + '-x'
+            return (json.dumps(data, indent=2) + '\n').encode()
+
+        tampered('pnpm-lock.yaml', lambda raw: raw + b'\n', 'Protected baseline changed: pnpm-lock.yaml')
+        tampered('data/airports.json', drop_airport, 'Published data detached from its approved candidate')
+        tampered('package.json', bump, 'package.json version detached from data')
+        private = self.root / 'work/private-original.raw'
+        private.parent.mkdir(exist_ok=True)
+        private.write_bytes(b'restricted original bytes')
+        try:
+            subprocess.run(['git', 'add', '-f', str(private)], cwd=self.root, check=True)
+            bad = run('python3 admission/human-v1/rights.py')
+            self.assertNotEqual(bad.returncode, 0)
+            self.assertIn('Private acquisition cache staged', bad.stderr)
+        finally:
+            subprocess.run(['git', 'rm', '-q', '--cached', '-f', str(private)], cwd=self.root, check=True)
+            private.unlink()
+
     def test_z_recursive_replay_of_earlier_human_release(self):
         """A second human release replays the first one recursively in its frozen tree."""
         set_main(self, self.merge)
