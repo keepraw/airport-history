@@ -733,38 +733,60 @@ class HumanReleaseLineageTest(unittest.TestCase):
         self.at(bad)
         self.refused('not on its approved base', self.lineage)
 
-    def run_ci(self, recorder, text):
-        original_run, original_github = self.core.run_all, self.core.github
-        self.core.run_all, self.core.github = recorder, FakeGitHub(text)
-        try:
-            self.core.ci()
-        finally:
-            self.core.run_all, self.core.github = original_run, original_github
+    RECURSE = ['python3 admission/human-v1/human.py ci']
 
-    def check_routes(self, groups, frozen_legacy=True, current_root=None):
-        (frozen_cwd, frozen), (current_cwd, current) = groups
-        current_root = current_root or self.root
-        self.assertNotEqual(frozen_cwd, current_root)
-        self.assertEqual(current_cwd, current_root)
+    def route(self, core, text):
+        """Run ``core.ci()`` with commands recorded, following recursive replays of earlier human releases.
+
+        Returns one (root, dataVersion, groups) level per release, newest first, down to the
+        frozen tree that is not a human release and so runs the legacy list. Each earlier
+        release is checked by its own router with its own approval text (simulated here).
+        """
+        levels = []
+
+        def nested(frozen_root):
+            inner = load_core(frozen_root)
+            version = inner.load(frozen_root / 'data/airports.json')['dataVersion']
+            manifest = inner.load(inner.bundle_dir(version, frozen_root) / 'manifest.json')
+            levels.extend(self.route(inner, inner.approval_text(manifest)))
+
+        recorder = Recorder(nested)
+        original_run, original_github = core.run_all, core.github
+        core.run_all, core.github = recorder, FakeGitHub(text)
+        try:
+            core.ci()
+        finally:
+            core.run_all, core.github = original_run, original_github
+        version = core.load(core.ROOT / 'data/airports.json')['dataVersion']
+        return [(core.ROOT, version, recorder.groups)] + levels
+
+    def check_levels(self, levels):
         legacy = self.core.LEGACY_CURRENT_COMMANDS
-        if frozen_legacy:
-            self.assertEqual(sorted(frozen), sorted(legacy))  # every legacy check, unchanged, in the frozen tree
+        self.assertGreaterEqual(len(levels), 1)
+        for index, (root, _, groups) in enumerate(levels):
+            (frozen_cwd, frozen), (current_cwd, current) = groups
+            self.assertNotEqual(frozen_cwd, root)
+            self.assertEqual(current_cwd, root)
+            if index + 1 < len(levels):
+                self.assertEqual(frozen, self.RECURSE)  # an earlier human release: its own router replays it
+                self.assertEqual(levels[index + 1][0], frozen_cwd)
+            else:
+                self.assertEqual(sorted(frozen), sorted(legacy))  # every legacy check, unchanged, in the frozen tree
+                for pinned in self.core.DATA_PINNED:
+                    self.assertIn(pinned, frozen)
             for pinned in self.core.DATA_PINNED:
-                self.assertIn(pinned, frozen)
-        for pinned in self.core.DATA_PINNED:
-            self.assertNotIn(pinned, current)
-        for command in legacy:
-            expected = self.core.CURRENT_REPLACEMENTS.get(command, [] if command in self.core.DATA_PINNED else [command])
-            for e in expected:
-                self.assertIn(e, current)
-        return frozen, current
+                self.assertNotIn(pinned, current)
+            expected = [e for c in dict.fromkeys(legacy)
+                        for e in self.core.CURRENT_REPLACEMENTS.get(c, [] if c in self.core.DATA_PINNED else [c])]
+            self.assertEqual(current, expected)
 
     def test_d_ci_routes_pinned_checks_to_frozen_tree(self):
         set_main(self, self.merge)
         self.at(self.merge)
-        recorder = Recorder()
-        self.run_ci(recorder, self.text)
-        self.check_routes(recorder.groups)
+        levels = self.route(self.core, self.text)
+        self.assertEqual(levels[0][1], self.version)
+        # The starting tree may itself already carry earlier human releases (e.g. on a later main).
+        self.check_levels(levels)
 
     def test_e_stale_batch_after_first_merge(self):
         """Two batches prepared on one main: once the first is merged the other cannot proceed."""
@@ -815,27 +837,9 @@ class HumanReleaseLineageTest(unittest.TestCase):
         merge2 = git(self.root, 'commit-tree', tree2, '-p', self.merge, '-p', data2, '-m', 'Merge second data PR')
         set_main(self, merge2)
         self.at(merge2)
-        nested_groups = []
-
-        nested_roots = []
-
-        def nested(frozen_root):
-            nested_roots.append(frozen_root)
-            inner = load_core(frozen_root)
-            inner_recorder = Recorder()
-            inner.run_all, inner.github = inner_recorder, FakeGitHub(first_text)
-            inner.ci()  # the earlier release's own router, on its own frozen tree, with its own approval
-            nested_groups.extend(inner_recorder.groups)
-            self.assertEqual(inner.load(frozen_root / 'data/airports.json')['dataVersion'], first_version)
-
-        recorder = Recorder(nested)
-        self.run_ci(recorder, text2)
-        self.assertEqual(recorder.groups[0][1], ['python3 admission/human-v1/human.py ci'])
-        self.assertEqual(len(nested_roots), 1)
-        self.assertEqual(nested_groups[1][0], nested_roots[0])
-        self.check_routes(nested_groups, current_root=nested_roots[0])  # the first release: full legacy replay in its own frozen tree
-        (_, current) = recorder.groups[1]
-        self.assertEqual(current, nested_groups[1][1])
+        levels = self.route(self.core, text2)
+        self.assertEqual([v for _, v, _ in levels[:2]], [ns['version'], first_version])
+        self.check_levels(levels)  # second release -> first release (recursively) -> ... -> legacy frozen tree
 
 
 if __name__ == '__main__':
