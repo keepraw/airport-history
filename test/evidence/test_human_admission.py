@@ -323,6 +323,9 @@ def make_env(cls):
         manifest = json.loads((prior.parent / 'manifest.json').read_text())
         PRIOR_APPROVALS[json.loads(prior.read_text())['comment']['html_url']] = cls.core.approval_text(manifest)
     configure(base_version)
+    # The starting tree may itself be a human release (e.g. inside route E2E).
+    # Verify its entire history before adding this test's releases.
+    cls.legacy_anchor, cls.prior_releases = cls.core.verify_earlier_releases(cls.base, FakeGitHub(''))
     cls.url = APPROVAL_URL
     cls.spec = localized_spec(cls.core)
     (root / 'work').mkdir(exist_ok=True)
@@ -678,8 +681,11 @@ class Recorder:
     """Records the router's command groups instead of executing them (the full run is the route E2E)."""
     def __init__(self):
         self.groups = []
+        self.frozen_commits = set()
 
     def __call__(self, commands, cwd, label='current'):
+        if label == 'frozen':
+            self.frozen_commits.add(git(cwd, 'rev-parse', 'HEAD'))
         self.groups.append((Path(cwd), label, list(commands)))
 
 
@@ -760,9 +766,10 @@ class HumanReleaseLineageTest(unittest.TestCase):
             core.ci()
         finally:
             core.run_all, core.github = original_run, original_github
+        self.assertEqual(recorder.frozen_commits, {self.legacy_anchor})
         return recorder.groups
 
-    def check_route(self, groups, anchor_version):
+    def check_route(self, groups):
         core, legacy = self.core, self.core.LEGACY_CURRENT_COMMANDS
         frozen = [c for cwd, label, cmds in groups if label == 'frozen' for c in cmds]
         current = [c for cwd, label, cmds in groups if label == 'current' for c in cmds]
@@ -798,8 +805,7 @@ class HumanReleaseLineageTest(unittest.TestCase):
     def test_d_ci_routes_pinned_checks_to_frozen_tree(self):
         set_main(self, self.merge)
         self.at(self.merge)
-        base_version = json.loads(git(self.root, 'show', self.base + ':data/airports.json'))['dataVersion']
-        self.check_route(self.route(self.core, self.text), base_version)
+        self.check_route(self.route(self.core, self.text))
 
     def test_d2_ci_preflight_fails_fast(self):
         """Release-compatibility errors stop the router before any command runs."""
@@ -917,7 +923,6 @@ class HumanReleaseLineageTest(unittest.TestCase):
         set_main(self, self.merge)
         self.at(self.merge)
         first_text, first_version = self.text, self.version
-        base_version = json.loads(git(self.root, 'show', self.base + ':data/airports.json'))['dataVersion']
         first_url = self.url
         configure(first_version)
         second_url = APPROVAL_URL
@@ -942,23 +947,30 @@ class HumanReleaseLineageTest(unittest.TestCase):
         set_main(self, merge2)
         self.at(merge2)
         anchor, earlier = self.core.verify_earlier_releases(self.merge, FakeGitHub(text2, others={first_url: first_text, second_url: text2}))
-        self.assertEqual(anchor, self.base)
+        self.assertEqual(anchor, self.legacy_anchor)
         self.assertEqual([(e['dataVersion'], e['publishingCommit'], e['baseCommit']) for e in earlier],
-                         [(first_version, self.merge, self.base)])
-        self.check_route(self.route(self.core, text2, {first_url: first_text}), base_version)
+                         [(first_version, self.merge, self.base)] +
+                         [(e['dataVersion'], e['publishingCommit'], e['baseCommit']) for e in self.prior_releases])
+        self.check_route(self.route(self.core, text2, {first_url: first_text}))
 
-        # The first release's Owner comment edited or revoked later: refused before any command runs.
-        self.refused('Owner approval edited, revoked or fabricated', self.core.verify_earlier_releases, self.merge,
-                     FakeGitHub(text2, others={first_url: first_text + ' (edited)', second_url: text2}))
-        # The first release's bundle or snapshot edited after it was published: refused.
-        for rel in ('research/admissions/%s/human-v1/records.json' % first_version, 'test/curated-%s.json' % first_version):
-            target = self.root / rel
-            raw = target.read_bytes()
-            target.write_bytes(raw.replace(b'"', b'"', 1) + b'\n')
-            subprocess.run(['git', 'commit', '-q', '-am', 'edit an earlier release'], cwd=self.root, check=True)
-            self.refused('after release' if 'admissions' in rel else 'Immutable snapshot of release',
-                         self.core.verify_earlier_releases, self.merge, FakeGitHub(text2, others={first_url: first_text, second_url: text2}))
-            self.at(merge2)
+        # Every earlier release, including those in the starting tree, remains protected.
+        approvals = {**PRIOR_APPROVALS, first_url: first_text, second_url: text2}
+        for release in earlier:
+            version = release['dataVersion']
+            with self.subTest(version=version):
+                bundle = self.core.bundle_dir(version, self.root)
+                url = json.loads((bundle / 'approval.json').read_text())['comment']['html_url']
+                self.refused('Owner approval edited, revoked or fabricated', self.core.verify_earlier_releases, self.merge,
+                             FakeGitHub(text2, others={**approvals, url: approvals[url] + ' (edited)'}))
+                for rel in ('research/admissions/%s/human-v1/records.json' % version, 'test/curated-%s.json' % version):
+                    target = self.root / rel
+                    target.write_bytes(target.read_bytes() + b'\n')
+                    subprocess.run(['git', 'commit', '-q', '-am', 'edit an earlier release'], cwd=self.root, check=True)
+                    try:
+                        self.refused('after release' if 'admissions' in rel else 'Immutable snapshot of release',
+                                     self.core.verify_earlier_releases, self.merge, FakeGitHub(text2, others=approvals))
+                    finally:
+                        self.at(merge2)
 
 
 if __name__ == '__main__':
