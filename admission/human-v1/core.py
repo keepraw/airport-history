@@ -760,8 +760,12 @@ def frozen_tree(commit, tmp):
         tar.extractall(root, filter='data')
     (root / 'node_modules').symlink_to(ROOT / 'node_modules', target_is_directory=True)
     subprocess.run(['git', 'init', '-q'], cwd=root, check=True)
+    # .gitignore's 'node_modules/' matches directories only; git sees this symlink as a
+    # file, and policy_rehearsal refuses symlinked inputs. Exclude it locally.
+    with (root / '.git/info/exclude').open('a') as exclude:
+        exclude.write('\nnode_modules\n')
     subprocess.run(['git', 'fetch', '--quiet', str(ROOT), commit, '+refs/heads/main:refs/remotes/origin/main'],
-                   cwd=root, check=False)
+                   cwd=root, check=False, stderr=subprocess.DEVNULL)  # optional: a checkout may have no local main
     subprocess.run(['git', 'fetch', '--quiet', str(ROOT), commit], cwd=root, check=True)
     subprocess.run(['git', 'reset', '--quiet', commit], cwd=root, check=True)
     subprocess.run(['git', 'update-ref', 'refs/remotes/origin/main', commit], cwd=root, check=True)
