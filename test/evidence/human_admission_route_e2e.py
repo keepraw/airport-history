@@ -131,6 +131,7 @@ def main():
           r['currentRan'] == core.phases(r['currentExpected'])[0] + core.phases(r['currentExpected'])[1] and
           all(e['exitCode'] == 0 for e in executed if not e['planned']) and
           (args.scenario == 'push' or not any(e['planned'] for e in executed)))
+    route_main = fixture.git(root, 'rev-parse', 'origin/main')
     if ok and args.scenario == 'push':
         mode['run'] = 'none'  # the gates below concern publishing relationships, all decided before any command
         main_route = len(executed)
@@ -151,6 +152,7 @@ def main():
     if args.scenario == 'push' and ok:
         del executed[main_route:]  # the accepted gates' own (all planned) routes are summarized in gates
     final = report('passed' if ok else 'failed', final['error'])
+    final['origin_main'] = route_main  # the route's own main, not the last gate's
     args.report.write_text(json.dumps(final, indent=2))
     print(json.dumps({k: final[k] for k in ('scenario', 'status', 'base', 'head', 'origin_main', 'dataVersion', 'totals')}, indent=2))
     print(json.dumps({k: v for k, v in final['routing'].items()}, indent=2))

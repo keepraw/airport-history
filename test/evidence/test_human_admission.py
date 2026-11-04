@@ -18,8 +18,17 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 REVIEWED_ON = '2026-11-04'
 VERSION = '0.11.0'
-APPROVAL_URL = 'https://github.com/keepraw/airport-history/issues/999#issuecomment-123456789'
-APPROVAL_URL_2 = 'https://github.com/keepraw/airport-history/issues/999#issuecomment-123456790'
+
+
+def approval_url(version):
+    """One fictional Owner comment per release version, so a test run inside a tree that already
+    carries a human release never answers that release's approval with this batch's text."""
+    return 'https://github.com/keepraw/airport-history/issues/999#issuecomment-%d' % (
+        100000000 + int(''.join('%03d' % int(p) for p in version.split('.'))))
+
+
+APPROVAL_URL = approval_url('0.11.0')  # set per batch by configure()
+PRIOR_APPROVALS = {}  # comment URL -> text of human releases already in the starting tree (make_env)
 
 A1, A2, B1, C1 = ('apt_00000000-0000-4000-8000-0000000000a1', 'apt_00000000-0000-4000-8000-0000000000a2',
                   'apt_00000000-0000-4000-8000-0000000000b1', 'apt_00000000-0000-4000-8000-0000000000c1')
@@ -102,7 +111,9 @@ def L(value):
 
 
 def configure(base_version):
+    global APPROVAL_URL
     major, minor, _ = map(int, base_version.split('.'))
+    APPROVAL_URL = approval_url('%d.%d.0' % (major, minor + 1))
     ns.update(minor=minor, shift=2 * (minor - 10), base=base_version, version='%d.%d.0' % (major, minor + 1),
               after='%d.%d.0' % (major, minor + 2))
     ids.update({k: L(v) for k, v in (('A1', A1), ('A2', A2), ('B1', B1), ('C1', C1))})
@@ -259,7 +270,7 @@ class FakeGitHub:
     def __init__(self, body, login='keepraw', user_id=49091395, others=None):
         self.body, self.login, self.user_id = body, login, user_id
         # Further approval comments (earlier releases): comment URL -> body.
-        self.comments = {APPROVAL_URL: body, **(others or {})}
+        self.comments = {**PRIOR_APPROVALS, APPROVAL_URL: body, **(others or {})}
 
     def __call__(self, path):
         if path == 'repos/keepraw/airport-history':
@@ -307,7 +318,12 @@ def make_env(cls):
         exclude.write('\nnode_modules\n')
     cls.core = load_core(root)
     cls.cli = load_cli(root, cls.core)
+    PRIOR_APPROVALS.clear()
+    for prior in (root / 'research/admissions').glob('*/human-v1/approval.json'):
+        manifest = json.loads((prior.parent / 'manifest.json').read_text())
+        PRIOR_APPROVALS[json.loads(prior.read_text())['comment']['html_url']] = cls.core.approval_text(manifest)
     configure(base_version)
+    cls.url = APPROVAL_URL
     cls.spec = localized_spec(cls.core)
     (root / 'work').mkdir(exist_ok=True)
     cls.spec_path = root / 'work/spec.json'
@@ -806,9 +822,11 @@ class HumanReleaseLineageTest(unittest.TestCase):
         raw = package.read_bytes()
         try:
             package.write_text(json.dumps({**json.loads(raw), 'version': '0.0.1'}))
+            self.refused('M package.json', self.core.ci)  # uncommitted: the clean-tree check stops it first
+            subprocess.run(['git', 'commit', '-q', '-am', 'detach package.json version'], cwd=self.root, check=True)
             self.refused('package.json version detached from data', self.core.ci)
         finally:
-            package.write_bytes(raw)
+            self.at(self.merge)
 
     def test_e_stale_batch_after_first_merge(self):
         """Two batches prepared on one main: once the first is merged the other cannot proceed."""
@@ -900,7 +918,9 @@ class HumanReleaseLineageTest(unittest.TestCase):
         self.at(self.merge)
         first_text, first_version = self.text, self.version
         base_version = json.loads(git(self.root, 'show', self.base + ':data/airports.json'))['dataVersion']
+        first_url = self.url
         configure(first_version)
+        second_url = APPROVAL_URL
         spec2 = localized_spec(self.core)
         path = self.root / 'work/spec-2.json'
         path.write_text(json.dumps(spec2))
@@ -909,9 +929,9 @@ class HumanReleaseLineageTest(unittest.TestCase):
         self.cli.verify_originals(ns['version'], lambda url: files[url])
         manifest2, _ = self.cli.build(ns['version'])
         text2 = self.core.approval_text(manifest2)
-        self.cli.record_approval(ns['version'], APPROVAL_URL_2, FakeGitHub(text2, others={APPROVAL_URL_2: text2}))
+        self.cli.record_approval(ns['version'], second_url, FakeGitHub(text2))
         original = self.core.github
-        self.core.github = FakeGitHub(first_text, others={APPROVAL_URL_2: text2})
+        self.core.github = FakeGitHub(text2, others={first_url: first_text, second_url: text2})
         try:
             self.cli.submit(ns['version'])
         finally:
@@ -921,15 +941,15 @@ class HumanReleaseLineageTest(unittest.TestCase):
         merge2 = git(self.root, 'commit-tree', tree2, '-p', self.merge, '-p', data2, '-m', 'Merge second data PR')
         set_main(self, merge2)
         self.at(merge2)
-        anchor, earlier = self.core.verify_earlier_releases(self.merge, FakeGitHub(first_text, others={APPROVAL_URL_2: text2}))
+        anchor, earlier = self.core.verify_earlier_releases(self.merge, FakeGitHub(text2, others={first_url: first_text, second_url: text2}))
         self.assertEqual(anchor, self.base)
         self.assertEqual([(e['dataVersion'], e['publishingCommit'], e['baseCommit']) for e in earlier],
                          [(first_version, self.merge, self.base)])
-        self.check_route(self.route(self.core, first_text, {APPROVAL_URL_2: text2}), base_version)
+        self.check_route(self.route(self.core, text2, {first_url: first_text}), base_version)
 
         # The first release's Owner comment edited or revoked later: refused before any command runs.
-        self.refused('Approval text does not exactly match', self.core.verify_earlier_releases, self.merge,
-                     FakeGitHub(first_text + ' (edited)', others={APPROVAL_URL_2: text2}))
+        self.refused('Owner approval edited, revoked or fabricated', self.core.verify_earlier_releases, self.merge,
+                     FakeGitHub(text2, others={first_url: first_text + ' (edited)', second_url: text2}))
         # The first release's bundle or snapshot edited after it was published: refused.
         for rel in ('research/admissions/%s/human-v1/records.json' % first_version, 'test/curated-%s.json' % first_version):
             target = self.root / rel
@@ -937,7 +957,7 @@ class HumanReleaseLineageTest(unittest.TestCase):
             target.write_bytes(raw.replace(b'"', b'"', 1) + b'\n')
             subprocess.run(['git', 'commit', '-q', '-am', 'edit an earlier release'], cwd=self.root, check=True)
             self.refused('after release' if 'admissions' in rel else 'Immutable snapshot of release',
-                         self.core.verify_earlier_releases, self.merge, FakeGitHub(first_text, others={APPROVAL_URL_2: text2}))
+                         self.core.verify_earlier_releases, self.merge, FakeGitHub(text2, others={first_url: first_text, second_url: text2}))
             self.at(merge2)
 
 

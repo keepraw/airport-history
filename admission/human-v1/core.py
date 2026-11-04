@@ -897,11 +897,19 @@ def verify_earlier_releases(base_commit, reader=None, root=ROOT):
         require(m['baseDataSha256'] == sha_bytes(_show(m['baseCommit'], 'data/airports.json', root)),
                 'Release %s base data hash changed' % version)
         check_receipt(b['original-verification'], b['evidence-lock'])
-        recorded, text = b['approval'], approval_text(m)
-        require(recorded and recorded.get('manifestSha256') == sha(m) and
-                recorded.get('approvalTextSha256') == sha_bytes(text.encode()),
-                'Release %s approval is bound to a different manifest/text' % version)
-        require(read_owner_comment(recorded['comment']['html_url'], text, reader) == recorded['comment'],
+        # The approval text is taken from the recorded hash, not regenerated, so a later
+        # change of approval_text() can never invalidate (or forge) an earlier release.
+        recorded = b['approval']
+        require(recorded and recorded.get('manifestSha256') == sha(m) and recorded.get('comment'),
+                'Release %s approval is bound to a different manifest' % version)
+        url = recorded['comment']['html_url']
+        match = re.fullmatch(r'https://github\.com/keepraw/airport-history/(?:issues|pull)/\d+#issuecomment-(\d+)', url or '')
+        require(match, 'Release %s approval URL is not a keepraw/airport-history comment' % version)
+        body = (reader or github)('repos/%s/issues/comments/%s' % (REPOSITORY, match[1]))['body'].replace('\r\n', '\n').strip()
+        require(sha_bytes(body.encode()) == recorded.get('approvalTextSha256') == recorded['comment'].get('bodySha256'),
+                'Release %s Owner approval edited, revoked or fabricated' % version)
+        require('manifest-sha256:%s' % sha(m) in body.splitlines(), 'Release %s approval text names another manifest' % version)
+        require(read_owner_comment(url, body, reader) == recorded['comment'],
                 'Release %s Owner approval edited, revoked or fabricated' % version)
         publisher, parent = publishing_commit(version, commit, root)
         require(parent == m['baseCommit'], 'Release %s was not published on its approved base' % version)
@@ -924,6 +932,7 @@ def ci():
         return
     del TIMINGS[:]
     # -- preflight: everything here takes seconds ---------------------------------
+    require_clean_tree(ROOT, 'Release')
     require(load(bundle / 'proposed-data.json') == current, 'Published data detached from its approved candidate')
     require(load(ROOT / 'package.json')['version'] == current['dataVersion'], 'package.json version detached from data')
     require((ROOT / ('test/curated-%s.json' % current['dataVersion'])).read_bytes() ==
@@ -936,7 +945,6 @@ def ci():
           flush=True)
     anchor, earlier = verify_earlier_releases(m['baseCommit'])
     frozen_cmds, current_cmds = route_plan(LEGACY_CURRENT_COMMANDS)
-    require_clean_tree(ROOT, 'Release')
     WORK.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='frozen-', dir=WORK) as tmp:
         root = frozen_tree(anchor, tmp)
