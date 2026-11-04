@@ -1,0 +1,331 @@
+{
+  "formal": {
+    "dataVersion": "0.10.0",
+    "unchanged": true,
+    "counts": {
+      "airports": 37,
+      "assignments": 52,
+      "sources": 101,
+      "names": 3
+    },
+    "newResolved": 0,
+    "newUncertain": 0,
+    "newConflicts": 0,
+    "changedPublishedAnswers": 0
+  },
+  "proposalSimulation": {
+    "meaning": "NOT formal coverage. Production resolveAirport() over formal 0.10.0 plus the unapproved proposal records only.",
+    "authorization": null,
+    "transitions": {
+      "uncertain->uncertain": 84819,
+      "resolved->resolved": 89501,
+      "not_found->not_found": 14278,
+      "not_found->uncertain": 267,
+      "not_found->resolved": 26049
+    },
+    "codeQueries": 214914,
+    "nameQueries": 162282,
+    "localDates": 4386,
+    "interval": [
+      "2015-01-01",
+      "2026-10-29"
+    ],
+    "changedPublishedResolved": 0,
+    "changedExistingAnswers": 0,
+    "newConflicts": 0,
+    "removedConflicts": 0,
+    "rows": [
+      {
+        "assignmentId": "b5-proposal-hal-icao-vobg",
+        "scheme": "ICAO",
+        "code": "VOBG",
+        "airportId": "apt_ab3830d2-4506-46d5-8ff9-c2d5f46ce268",
+        "certainWindow": [
+          "2012-04-02",
+          "2026-10-29"
+        ],
+        "boundaryProbes": [
+          {
+            "localDate": "2012-04-01",
+            "status": "uncertain",
+            "airportId": null
+          },
+          {
+            "localDate": "2012-04-02",
+            "status": "resolved",
+            "airportId": "apt_ab3830d2-4506-46d5-8ff9-c2d5f46ce268"
+          },
+          {
+            "localDate": "2026-10-28",
+            "status": "resolved",
+            "airportId": "apt_ab3830d2-4506-46d5-8ff9-c2d5f46ce268"
+          },
+          {
+            "localDate": "2026-10-29",
+            "status": "uncertain",
+            "airportId": null
+          }
+        ],
+        "transitions": {
+          "not_found->uncertain": 52,
+          "not_found->resolved": 4334
+        }
+      },
+      {
+        "assignmentId": "b5-proposal-kempegowda-icao-vobl",
+        "scheme": "ICAO",
+        "code": "VOBL",
+        "airportId": "apt_bf9260e8-2d9b-413b-81d9-c6842d53cbf7",
+        "certainWindow": [
+          "2012-04-02",
+          "2026-10-29"
+        ],
+        "boundaryProbes": [
+          {
+            "localDate": "2012-04-01",
+            "status": "uncertain",
+            "airportId": null
+          },
+          {
+            "localDate": "2012-04-02",
+            "status": "resolved",
+            "airportId": "apt_bf9260e8-2d9b-413b-81d9-c6842d53cbf7"
+          },
+          {
+            "localDate": "2026-10-28",
+            "status": "resolved",
+            "airportId": "apt_bf9260e8-2d9b-413b-81d9-c6842d53cbf7"
+          },
+          {
+            "localDate": "2026-10-29",
+            "status": "uncertain",
+            "airportId": null
+          }
+        ],
+        "transitions": {
+          "not_found->uncertain": 52,
+          "not_found->resolved": 4334
+        }
+      },
+      {
+        "assignmentId": "b5-proposal-begumpet-icao-vohy",
+        "scheme": "ICAO",
+        "code": "VOHY",
+        "airportId": "apt_125efbbe-f098-4d6d-87f7-2f4e218466f0",
+        "certainWindow": [
+          "2012-04-02",
+          "2026-10-29"
+        ],
+        "boundaryProbes": [
+          {
+            "localDate": "2012-04-01",
+            "status": "uncertain",
+            "airportId": null
+          },
+          {
+            "localDate": "2012-04-02",
+            "status": "resolved",
+            "airportId": "apt_125efbbe-f098-4d6d-87f7-2f4e218466f0"
+          },
+          {
+            "localDate": "2026-10-28",
+            "status": "resolved",
+            "airportId": "apt_125efbbe-f098-4d6d-87f7-2f4e218466f0"
+          },
+          {
+            "localDate": "2026-10-29",
+            "status": "uncertain",
+            "airportId": null
+          }
+        ],
+        "transitions": {
+          "not_found->uncertain": 52,
+          "not_found->resolved": 4334
+        }
+      },
+      {
+        "assignmentId": "b5-proposal-rgia-icao-vohs",
+        "scheme": "ICAO",
+        "code": "VOHS",
+        "airportId": "apt_83b86260-3e11-4527-8893-455b48b72ae8",
+        "certainWindow": [
+          "2012-04-02",
+          "2026-10-29"
+        ],
+        "boundaryProbes": [
+          {
+            "localDate": "2012-04-01",
+            "status": "uncertain",
+            "airportId": null
+          },
+          {
+            "localDate": "2012-04-02",
+            "status": "resolved",
+            "airportId": "apt_83b86260-3e11-4527-8893-455b48b72ae8"
+          },
+          {
+            "localDate": "2026-10-28",
+            "status": "resolved",
+            "airportId": "apt_83b86260-3e11-4527-8893-455b48b72ae8"
+          },
+          {
+            "localDate": "2026-10-29",
+            "status": "uncertain",
+            "airportId": null
+          }
+        ],
+        "transitions": {
+          "not_found->uncertain": 52,
+          "not_found->resolved": 4334
+        }
+      },
+      {
+        "assignmentId": "b5-proposal-hal-iata-blr",
+        "scheme": "IATA",
+        "code": "BLR",
+        "airportId": "apt_ab3830d2-4506-46d5-8ff9-c2d5f46ce268",
+        "certainWindow": [
+          "2004-07-05",
+          "2004-07-06"
+        ],
+        "boundaryProbes": [
+          {
+            "localDate": "2004-07-04",
+            "status": "uncertain",
+            "airportId": null
+          },
+          {
+            "localDate": "2004-07-05",
+            "status": "uncertain",
+            "airportId": null
+          },
+          {
+            "localDate": "2004-07-05",
+            "status": "uncertain",
+            "airportId": null
+          },
+          {
+            "localDate": "2004-07-06",
+            "status": "uncertain",
+            "airportId": null
+          }
+        ],
+        "transitions": {
+          "not_found->uncertain": 31,
+          "not_found->resolved": 4355
+        }
+      },
+      {
+        "assignmentId": "b5-proposal-kempegowda-iata-blr",
+        "scheme": "IATA",
+        "code": "BLR",
+        "airportId": "apt_bf9260e8-2d9b-413b-81d9-c6842d53cbf7",
+        "certainWindow": [
+          "2008-05-25",
+          "2026-11-03"
+        ],
+        "boundaryProbes": [
+          {
+            "localDate": "2008-05-24",
+            "status": "uncertain",
+            "airportId": null
+          },
+          {
+            "localDate": "2008-05-25",
+            "status": "resolved",
+            "airportId": "apt_bf9260e8-2d9b-413b-81d9-c6842d53cbf7"
+          },
+          {
+            "localDate": "2026-11-02",
+            "status": "resolved",
+            "airportId": "apt_bf9260e8-2d9b-413b-81d9-c6842d53cbf7"
+          },
+          {
+            "localDate": "2026-11-03",
+            "status": "uncertain",
+            "airportId": null
+          }
+        ],
+        "transitions": {
+          "not_found->uncertain": 31,
+          "not_found->resolved": 4355
+        }
+      },
+      {
+        "assignmentId": "b5-proposal-begumpet-iata-hyd",
+        "scheme": "IATA",
+        "code": "HYD",
+        "airportId": "apt_125efbbe-f098-4d6d-87f7-2f4e218466f0",
+        "certainWindow": [
+          "2008-03-10",
+          "2008-03-11"
+        ],
+        "boundaryProbes": [
+          {
+            "localDate": "2008-03-09",
+            "status": "uncertain",
+            "airportId": null
+          },
+          {
+            "localDate": "2008-03-10",
+            "status": "uncertain",
+            "airportId": null
+          },
+          {
+            "localDate": "2008-03-10",
+            "status": "uncertain",
+            "airportId": null
+          },
+          {
+            "localDate": "2008-03-11",
+            "status": "uncertain",
+            "airportId": null
+          }
+        ],
+        "transitions": {
+          "not_found->uncertain": 28,
+          "not_found->resolved": 4358
+        }
+      },
+      {
+        "assignmentId": "b5-proposal-rgia-iata-hyd",
+        "scheme": "IATA",
+        "code": "HYD",
+        "airportId": "apt_83b86260-3e11-4527-8893-455b48b72ae8",
+        "certainWindow": [
+          "2008-03-24",
+          "2026-11-03"
+        ],
+        "boundaryProbes": [
+          {
+            "localDate": "2008-03-23",
+            "status": "uncertain",
+            "airportId": null
+          },
+          {
+            "localDate": "2008-03-24",
+            "status": "resolved",
+            "airportId": "apt_83b86260-3e11-4527-8893-455b48b72ae8"
+          },
+          {
+            "localDate": "2026-11-02",
+            "status": "resolved",
+            "airportId": "apt_83b86260-3e11-4527-8893-455b48b72ae8"
+          },
+          {
+            "localDate": "2026-11-03",
+            "status": "uncertain",
+            "airportId": null
+          }
+        ],
+        "transitions": {
+          "not_found->uncertain": 28,
+          "not_found->resolved": 4358
+        }
+      }
+    ]
+  },
+  "resolverSha256": "af9631a3c270a2ca71606a75cf7830d9f7e711bab431a919fa5be615f26ec5b0",
+  "formalSha256": "2268bdd3426e0d459b7b46d1214b165e3ab90f3526d4f2528f60238f4ee94b13",
+  "proposalsSha256": "315e05b8009bd9efe04acae2dcc54c782c9b9f5d0dc8c940bd2ed07e81be6f84"
+}

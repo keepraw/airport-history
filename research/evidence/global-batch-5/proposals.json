@@ -1,0 +1,497 @@
+{
+  "airports": [
+    {
+      "airportId": "apt_ab3830d2-4506-46d5-8ff9-c2d5f46ce268",
+      "coordinates": {
+        "note": "Reference point from the OurAirports snapshot row matched to the named AAI aerodrome; not an AIP ARP claim.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 12.95,
+          "longitude": 77.668198
+        }
+      },
+      "externalIds": {
+        "ourAirports": "26603"
+      },
+      "name": {
+        "note": "Display label only; no official-name timeline asserted.",
+        "sourceIds": [
+          "b5-in-aip-2012-ad13",
+          "b5-in-aip-2026-vobg"
+        ],
+        "status": "reference",
+        "value": "HAL Airport"
+      },
+      "timezone": {
+        "note": "No historical IANA timezone claim.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_bf9260e8-2d9b-413b-81d9-c6842d53cbf7",
+      "coordinates": {
+        "note": "Reference point from the OurAirports snapshot row matched to the named AAI aerodrome; not an AIP ARP claim.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 13.1979,
+          "longitude": 77.706299
+        }
+      },
+      "externalIds": {
+        "ourAirports": "35145"
+      },
+      "name": {
+        "note": "Display label only; no official-name timeline asserted.",
+        "sourceIds": [
+          "b5-in-aip-2012-ad13",
+          "b5-in-aip-2026-vobl"
+        ],
+        "status": "reference",
+        "value": "Kempegowda International Airport Bengaluru"
+      },
+      "timezone": {
+        "note": "No historical IANA timezone claim.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_125efbbe-f098-4d6d-87f7-2f4e218466f0",
+      "coordinates": {
+        "note": "Reference point from the OurAirports snapshot row matched to the named AAI aerodrome; not an AIP ARP claim.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 17.4531,
+          "longitude": 78.467598
+        }
+      },
+      "externalIds": {
+        "ourAirports": "26615"
+      },
+      "name": {
+        "note": "Display label only; no official-name timeline asserted.",
+        "sourceIds": [
+          "b5-in-aip-2012-ad13",
+          "b5-in-aip-2026-vohy"
+        ],
+        "status": "reference",
+        "value": "Begumpet Airport"
+      },
+      "timezone": {
+        "note": "No historical IANA timezone claim.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_83b86260-3e11-4527-8893-455b48b72ae8",
+      "coordinates": {
+        "note": "Reference point from the OurAirports snapshot row matched to the named AAI aerodrome; not an AIP ARP claim.",
+        "sourceIds": [
+          "ourairports-20261025"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 17.231318,
+          "longitude": 78.429855
+        }
+      },
+      "externalIds": {
+        "ourAirports": "35141"
+      },
+      "name": {
+        "note": "Display label only; no official-name timeline asserted.",
+        "sourceIds": [
+          "b5-in-aip-2012-ad13",
+          "b5-in-aip-2026-vohs"
+        ],
+        "status": "reference",
+        "value": "Rajiv Gandhi International Airport"
+      },
+      "timezone": {
+        "note": "No historical IANA timezone claim.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "airportId": "apt_ab3830d2-4506-46d5-8ff9-c2d5f46ce268",
+      "assignmentId": "b5-proposal-hal-icao-vobg",
+      "code": "VOBG",
+      "evidenceType": "continuity_inference",
+      "note": "PROPOSAL ONLY, not authorized. Long-gap continuity between two AAI AIP editions (2012-04-01 and AMDT 10-26 effective 2026-10-29); first allocation and withdrawal unknown.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "b5-in-aip-2012-ad13",
+        "b5-in-aip-2026-vobg"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2012-04-02",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-29",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "airportId": "apt_bf9260e8-2d9b-413b-81d9-c6842d53cbf7",
+      "assignmentId": "b5-proposal-kempegowda-icao-vobl",
+      "code": "VOBL",
+      "evidenceType": "continuity_inference",
+      "note": "PROPOSAL ONLY, not authorized. Long-gap continuity between two AAI AIP editions (2012-04-01 and AMDT 10-26 effective 2026-10-29); first allocation and withdrawal unknown.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "b5-in-aip-2012-ad13",
+        "b5-in-aip-2012-ad15",
+        "b5-in-aip-2026-vobl"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2012-04-02",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-29",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "airportId": "apt_125efbbe-f098-4d6d-87f7-2f4e218466f0",
+      "assignmentId": "b5-proposal-begumpet-icao-vohy",
+      "code": "VOHY",
+      "evidenceType": "continuity_inference",
+      "note": "PROPOSAL ONLY, not authorized. Long-gap continuity between two AAI AIP editions (2012-04-01 and AMDT 10-26 effective 2026-10-29); first allocation and withdrawal unknown.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "b5-in-aip-2012-ad13",
+        "b5-in-aip-2012-ad15",
+        "b5-in-aip-2026-vohy"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2012-04-02",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-29",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "airportId": "apt_83b86260-3e11-4527-8893-455b48b72ae8",
+      "assignmentId": "b5-proposal-rgia-icao-vohs",
+      "code": "VOHS",
+      "evidenceType": "continuity_inference",
+      "note": "PROPOSAL ONLY, not authorized. Long-gap continuity between two AAI AIP editions (2012-04-01 and AMDT 10-26 effective 2026-10-29); first allocation and withdrawal unknown.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "b5-in-aip-2012-ad13",
+        "b5-in-aip-2012-ad15",
+        "b5-in-aip-2026-vohs"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2012-04-02",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-10-29",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "airportId": "apt_ab3830d2-4506-46d5-8ff9-c2d5f46ce268",
+      "assignmentId": "b5-proposal-hal-iata-blr",
+      "code": "BLR",
+      "evidenceType": "continuity_inference",
+      "note": "PROPOSAL ONLY, not authorized. Concession 2004 names BLR as the existing airport code; transfer by S.O.1170(E) 00:01 2008-05-23, amended to 2008-05-24 (secondary).",
+      "scheme": "IATA",
+      "sourceIds": [
+        "b5-in-moca-bial-2004",
+        "b5-in-thesis-2016"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2004-07-05",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2004-07-06",
+        "latest": "2008-05-25",
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "airportId": "apt_bf9260e8-2d9b-413b-81d9-c6842d53cbf7",
+      "assignmentId": "b5-proposal-kempegowda-iata-blr",
+      "code": "BLR",
+      "evidenceType": "continuity_inference",
+      "note": "PROPOSAL ONLY, not authorized. Transfer bounded by the notifications; continuity to the 2026-11-03 IATA lookup is inferred.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "b5-in-moca-bial-2004",
+        "b5-in-thesis-2016",
+        "b5-iata-blr-20261103"
+      ],
+      "validFrom": {
+        "earliest": "2004-07-05",
+        "latest": "2008-05-25",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-11-03",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "airportId": "apt_125efbbe-f098-4d6d-87f7-2f4e218466f0",
+      "assignmentId": "b5-proposal-begumpet-iata-hyd",
+      "code": "HYD",
+      "evidenceType": "continuity_inference",
+      "note": "PROPOSAL ONLY, not authorized. S.O.470(E) of 2008-03-10 names HYD as the existing airport code; final transfer 00:01 2008-03-23 (transcribed).",
+      "scheme": "IATA",
+      "sourceIds": [
+        "b5-in-so470e-2008",
+        "b5-in-thesis-2016"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2008-03-10",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2008-03-11",
+        "latest": "2008-03-24",
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-11-03"
+    },
+    {
+      "airportId": "apt_83b86260-3e11-4527-8893-455b48b72ae8",
+      "assignmentId": "b5-proposal-rgia-iata-hyd",
+      "code": "HYD",
+      "evidenceType": "continuity_inference",
+      "note": "PROPOSAL ONLY, not authorized. Transfer bounded by the notifications; continuity to the 2026-11-03 IATA lookup is inferred.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "b5-in-so470e-2008",
+        "b5-in-thesis-2016",
+        "b5-iata-hyd-20261103"
+      ],
+      "validFrom": {
+        "earliest": "2008-03-10",
+        "latest": "2008-03-24",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-11-03",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-11-03"
+    }
+  ],
+  "authorization": null,
+  "cases": [
+    "in-bengaluru",
+    "in-hyderabad"
+  ],
+  "formal": false,
+  "formatVersion": 1,
+  "meaning": "Exact candidate records an owner could approve record-by-record under the 0.9.0 human-review precedent. Not admitted; IDs are proposal IDs and are not reserved permanent identities.",
+  "names": [],
+  "sources": [
+    {
+      "accessedOn": "2026-11-03",
+      "license": {
+        "id": "LicenseRef-IATA-Terms",
+        "note": "IATA reference data terms apply; single current lookup cited, not redistributed.",
+        "url": "https://www.iata.org/en/terms/"
+      },
+      "note": "PROPOSAL ONLY (global batch 5). Original sha256 49c994bea25427373d1d54e3f45c633b8d92a7b3fd1e1b9adbc9afcdbbb8e367. observation date only (current directory). Current only; no history or allocation date.",
+      "sourceId": "b5-iata-blr-20261103",
+      "sourceType": "primary",
+      "title": "IATA airport code search: BLR",
+      "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=BLR",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-03",
+      "license": {
+        "id": "LicenseRef-IATA-Terms",
+        "note": "IATA reference data terms apply; single current lookup cited, not redistributed.",
+        "url": "https://www.iata.org/en/terms/"
+      },
+      "note": "PROPOSAL ONLY (global batch 5). Original sha256 67e9730ef9581841d4a0e5c3ea1058cad834128cf9d44303af2bc573734e9fb6. observation date only (current directory). Current only; no history or allocation date.",
+      "sourceId": "b5-iata-hyd-20261103",
+      "sourceType": "primary",
+      "title": "IATA airport code search: HYD",
+      "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=HYD",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-03",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution. Not licensed as MIT.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "PROPOSAL ONLY (global batch 5). Original sha256 c0dcd7075f6347dfaa4716d24a80771dbf68f92dd50e55cdf302b0ba196ed9df. AIP edition effective date. Index row only; not an allocation date. One issuer edition.",
+      "sourceId": "b5-in-aip-2012-ad13",
+      "sourceType": "primary",
+      "title": "eAIP India 01-04-2012, AD 1.3 Index to aerodromes",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/01-04-2012/eaip/PUB/2012-04-01/html/eAIP/EC-AD-1.3-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-03",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution. Not licensed as MIT.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "PROPOSAL ONLY (global batch 5). Original sha256 23997a2527c7b8975c71a0c361119058bb8ceaf5f7ea9e6505d2a70f8be2001c. AIP edition effective date; licence issue dates are separate facts. Licence dates are not ICAO assignment dates. Same issuer family as AD 1.3.",
+      "sourceId": "b5-in-aip-2012-ad15",
+      "sourceType": "primary",
+      "title": "eAIP India 01-04-2012, AD 1.5 Status of aerodrome licensing",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/01-04-2012/eaip/PUB/2012-04-01/html/eAIP/EC-AD-1.5-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-03",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution. Not licensed as MIT.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "PROPOSAL ONLY (global batch 5). Original sha256 351ed6295d2db1065a200717dc1bdb59c0c789192343c1434a0a789420c95873. AMDT effective 2026-10-29; page dated 01 OCT 2026. No IATA code on page.",
+      "sourceId": "b5-in-aip-2026-vobg",
+      "sourceType": "primary",
+      "title": "eAIP India AMDT 10-26, AD 2 VOBG",
+      "url": "https://aim-india.aai.aero/eaip/eaip-v2-10-2026/pdf/eAIP/AD%202.1VOBG.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-03",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution. Not licensed as MIT.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "PROPOSAL ONLY (global batch 5). Original sha256 04cdb88682944feb1d43ddf495c9a4c4c15b3b26baf78202d0fb3fc5713e4f1b. AMDT publication 2026-09-17, effective 2026-10-29; page dated 23 JAN 2025. No IATA code on page.",
+      "sourceId": "b5-in-aip-2026-vobl",
+      "sourceType": "primary",
+      "title": "eAIP India AMDT 10-26 (effective 2026-10-29), AD 2 VOBL",
+      "url": "https://aim-india.aai.aero/eaip/eaip-v2-10-2026/pdf/eAIP/AD%202.1VOBL.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-03",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution. Not licensed as MIT.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "PROPOSAL ONLY (global batch 5). Original sha256 d06204362ebe3838c023bf29db2c13d19028f4e55f648ce5ba5ce745b869e426. AMDT effective 2026-10-29; page dated 12 JUN 2025. No IATA code on page.",
+      "sourceId": "b5-in-aip-2026-vohs",
+      "sourceType": "primary",
+      "title": "eAIP India AMDT 10-26, AD 2 VOHS",
+      "url": "https://aim-india.aai.aero/eaip/eaip-v2-10-2026/pdf/eAIP/AD%202.1VOHS.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-03",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "Original aeronautical text; retain AAI attribution. Not licensed as MIT.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "PROPOSAL ONLY (global batch 5). Original sha256 178740db2ff15f91ffc5725ca693e67e1534796313ee84764f969647624bbabf. AMDT effective 2026-10-29; page dated 02 OCT 2025. No IATA code on page.",
+      "sourceId": "b5-in-aip-2026-vohy",
+      "sourceType": "primary",
+      "title": "eAIP India AMDT 10-26, AD 2 VOHY",
+      "url": "https://aim-india.aai.aero/eaip/eaip-v2-10-2026/pdf/eAIP/AD%202.1VOHY.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-03",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "Government agreement; only links, hashes and short factual citations are used.",
+        "url": null
+      },
+      "note": "PROPOSAL ONLY (global batch 5). Original sha256 e846909e63142f7f11226e2adef709da5e6a1f2e3169c4790d42d7e7522027e3. agreement signature date; an obligation, not an effective transfer. No transfer date.",
+      "sourceId": "b5-in-moca-bial-2004",
+      "sourceType": "primary",
+      "title": "MoCA–BIAL Concession Agreement, 2004-07-05",
+      "url": "https://www.civilaviation.gov.in/sites/default/files/2023-02/moca_000743.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-03",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "Government notification; only links, hashes and short factual citations are used.",
+        "url": null
+      },
+      "note": "PROPOSAL ONLY (global batch 5). Original sha256 915839a2fa4608bdc21cfe6cbe0a639b6ca2267f0d64503d954ae2996fa8b25b. notification date; stated effect 00:01 on 2008-03-16, later superseded. Image-only scan; quote read from the page image. Effect date superseded by S.O.504(E) and a later notification effective 00:01 2008-03-23 whose original was not obtained.",
+      "sourceId": "b5-in-so470e-2008",
+      "sourceType": "primary",
+      "title": "S.O. 470(E), closure of Begumpet airport, dated 2008-03-10",
+      "url": "https://www.aai.aero/en/system/files/resources/Closure_Of_Begumpet_Airport_2008.pdf",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-03",
+      "license": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "Thesis rights reserved by author/publisher; short factual citation only.",
+        "url": null
+      },
+      "note": "PROPOSAL ONLY (global batch 5). Original sha256 d2c7f591327c40cec0bba338b449d914ee9073c57de3d149b8f355a8e2760db1. thesis publication; quotes 2008 notifications. Secondary transcription; original Gazette scans not obtained. BLR effect later moved to 00:01 2008-05-24 per a reproduced MoCA notice (secondary). Secondary transcription; content located in the fetched original.",
+      "sourceId": "b5-in-thesis-2016",
+      "sourceType": "secondary",
+      "title": "Thesis chapter 3.1.1 quoting Indian Gazette notifications",
+      "url": "https://scholarlypublications.universiteitleiden.nl/download/1887/44409/4",
+      "verificationStatus": "verified"
+    }
+  ],
+  "status": "awaiting_owner_exact_approval"
+}

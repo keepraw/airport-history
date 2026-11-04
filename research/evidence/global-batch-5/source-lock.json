@@ -1,0 +1,500 @@
+{
+  "formatVersion": 1,
+  "sources": {
+    "b5-cn-icao-2010-zppp": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "Wujiaba": true
+      },
+      "contentType": "application/pdf",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "9166b996ba53f133fd0341b341032bd36850e3dbf74b323f51521316a6d2718b",
+      "observedAtUtc": "2026-11-03T02:40:45Z",
+      "originalBytes": 226990,
+      "originalSha256": "e8d428a9a9d0f4003ae001afeaeeb0377138d075b8f18828599abbd45eb91946",
+      "textCharacters": 13809,
+      "url": "https://www.icao.int/sites/default/files/sp-files/APAC/Documents/Meetings/2010/cnsmet_sg14/WP27.pdf"
+    },
+    "b5-cn-kmg-notice-2012": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "长水": true
+      },
+      "contentType": "text/html",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "abf1eb57ea89f610a916603d5dc4714430186758ffdd652b8698e7fef776b179",
+      "observedAtUtc": "2026-11-03T02:40:43Z",
+      "originalBytes": 13040,
+      "originalSha256": "c1bbdc368bab38ffb08316a06c393648ee81d4b8d49e930a55f2aaf6508b95d3",
+      "textCharacters": 742,
+      "url": "https://km.ynairport.com/notice/682.jhtml"
+    },
+    "b5-cn-wuz-caac-2018": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "梧州": true
+      },
+      "contentType": "text/html",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "5bc253858e10afe23d53609fcd871050f0c28026d16e6b6676bfed72b035b7c7",
+      "observedAtUtc": "2026-11-03T02:40:46Z",
+      "originalBytes": 58777,
+      "originalSha256": "03a4da1c0909ce275a608f54b0e5441bd6549ce231157acc3898c3ee9ef7f9a9",
+      "textCharacters": 3758,
+      "url": "https://www.caac.gov.cn/XXGK/XXGK/TJSJ/201903/t20190305_194972.html"
+    },
+    "b5-de-dfs-eddm-2026": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "EDDM": true
+      },
+      "contentType": "text/html",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "ea7897605fb6a1148ba8ce0eb914625bde134f28f09d943b3ecdd82288f1c5d2",
+      "observedAtUtc": "2026-11-03T02:40:32Z",
+      "originalBytes": 166768,
+      "originalSha256": "77dd5081d60d1cc8fba2bc63dc27cfb3af514068de38ff11f1b2672d1e837b57",
+      "textCharacters": 713,
+      "url": "https://aip.dfs.de/BasicIFR/2026OCT29/pages/5CF4B5CC14435D431509C4188A8F206F.html"
+    },
+    "b5-de-fmg-chronology": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "Riem": true
+      },
+      "contentType": "application/pdf",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "5f5e65f0a7d89491a04665eb7e2283f90f30b5575efd4998d649cc9cf742c9d6",
+      "observedAtUtc": "2026-11-03T02:40:33Z",
+      "originalBytes": 67449,
+      "originalSha256": "88b6d7eab41d8cc3a465cc528db724b43bab4127fd7c63936cf409d521ef78ea",
+      "textCharacters": 14601,
+      "url": "https://www.munich-airport.de/_b/0000000000000013477455bb627a4adf/ereignisse-aus-der-muenchner-flughafengeschichte.pdf"
+    },
+    "b5-iata-blr-20261103": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "Kempegowda Intl BLR": true
+      },
+      "contentType": "text/html",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "7d5a9cb56e7d9d1cb6be94b6df57ceee3cb2667bba322fabfd8b0118f76d5611",
+      "observedAtUtc": "2026-11-03T02:40:27Z",
+      "originalBytes": 111065,
+      "originalSha256": "49c994bea25427373d1d54e3f45c633b8d92a7b3fd1e1b9adbc9afcdbbb8e367",
+      "textCharacters": 6739,
+      "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=BLR"
+    },
+    "b5-iata-hyd-20261103": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "Rajiv Gandhi Int'l HYD": true
+      },
+      "contentType": "text/html",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "761f0245425e4983ca06a601083ba4edfe6dab9db82d031f8c204f165ee924be",
+      "observedAtUtc": "2026-11-03T02:40:26Z",
+      "originalBytes": 111224,
+      "originalSha256": "67e9730ef9581841d4a0e5c3ea1058cad834128cf9d44303af2bc573734e9fb6",
+      "textCharacters": 6774,
+      "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=HYD"
+    },
+    "b5-in-aip-2012-ad13": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "BANGALORE INTERNATIONAL AIRPORT / VOBL": true,
+        "BEGUMPET, HYDERABAD / VOHY": true,
+        "HAL AIRPORT BANGLORE / VOBG": true
+      },
+      "contentType": "text/html",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "65531d90dfbb428429d1b3ff767394dd8e37ef4c62b27728280544f3fc558517",
+      "observedAtUtc": "2026-11-03T02:39:57Z",
+      "originalBytes": 38846,
+      "originalSha256": "c0dcd7075f6347dfaa4716d24a80771dbf68f92dd50e55cdf302b0ba196ed9df",
+      "textCharacters": 2707,
+      "url": "https://aim-india.aai.aero/eAIP_Archive/01-04-2012/eaip/PUB/2012-04-01/html/eAIP/EC-AD-1.3-en-GB.html"
+    },
+    "b5-in-aip-2012-ad15": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "Bangalore International Airport VOBL 15.05.2008": true,
+        "Begumpet Airport, Hyderabad VOHY 16.04.2007": true,
+        "Rajiv Gandhi International Airport, Shamshabad VOHS 04.03.2008": true
+      },
+      "contentType": "text/html",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "d30bc898308bffbc730af570738f8e1e9f2bc86d4868ca630f8fba6b376c072d",
+      "observedAtUtc": "2026-11-03T02:39:59Z",
+      "originalBytes": 41204,
+      "originalSha256": "23997a2527c7b8975c71a0c361119058bb8ceaf5f7ea9e6505d2a70f8be2001c",
+      "textCharacters": 3421,
+      "url": "https://aim-india.aai.aero/eAIP_Archive/01-04-2012/eaip/PUB/2012-04-01/html/eAIP/EC-AD-1.5-en-GB.html"
+    },
+    "b5-in-aip-2026-vobg": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "VOBG": true
+      },
+      "contentType": "application/pdf",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "0ab6a9c9c797a809a5f41bf4fea9dbd5c58b1ed1c6a7d2a367a0b0b9a14601c1",
+      "observedAtUtc": "2026-11-03T02:40:06Z",
+      "originalBytes": 797317,
+      "originalSha256": "351ed6295d2db1065a200717dc1bdb59c0c789192343c1434a0a789420c95873",
+      "textCharacters": 41300,
+      "url": "https://aim-india.aai.aero/eaip/eaip-v2-10-2026/pdf/eAIP/AD%202.1VOBG.pdf"
+    },
+    "b5-in-aip-2026-vobl": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "VOBL": true
+      },
+      "contentType": "application/pdf",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "75ab6c99fe4b5bc5114c831b8577c32d4e66f9924a5ed1780a06a3abca0b50d7",
+      "observedAtUtc": "2026-11-03T02:40:02Z",
+      "originalBytes": 1141382,
+      "originalSha256": "04cdb88682944feb1d43ddf495c9a4c4c15b3b26baf78202d0fb3fc5713e4f1b",
+      "textCharacters": 117591,
+      "url": "https://aim-india.aai.aero/eaip/eaip-v2-10-2026/pdf/eAIP/AD%202.1VOBL.pdf"
+    },
+    "b5-in-aip-2026-vohs": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "VOHS": true
+      },
+      "contentType": "application/pdf",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "aa6b91a952fa16f7dc46f8830929cc37994772e7dfe3658d8f5a2b926f31e473",
+      "observedAtUtc": "2026-11-03T02:40:10Z",
+      "originalBytes": 1225147,
+      "originalSha256": "d06204362ebe3838c023bf29db2c13d19028f4e55f648ce5ba5ce745b869e426",
+      "textCharacters": 142033,
+      "url": "https://aim-india.aai.aero/eaip/eaip-v2-10-2026/pdf/eAIP/AD%202.1VOHS.pdf"
+    },
+    "b5-in-aip-2026-vohy": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "VOHY": true
+      },
+      "contentType": "application/pdf",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "136696c7e61cc547a24ae1e080ae95fa2d95d49075ed8cc7753dab7c473390a8",
+      "observedAtUtc": "2026-11-03T02:40:14Z",
+      "originalBytes": 2232134,
+      "originalSha256": "178740db2ff15f91ffc5725ca693e67e1534796313ee84764f969647624bbabf",
+      "textCharacters": 82350,
+      "url": "https://aim-india.aai.aero/eaip/eaip-v2-10-2026/pdf/eAIP/AD%202.1VOHY.pdf"
+    },
+    "b5-in-moca-bial-2004": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "international code (BLR)": true
+      },
+      "contentType": "application/pdf",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "43e2a4b4203f61cc68e7ee15cdf09b7529d63477ae07685b5afd87ac16f0eeda",
+      "observedAtUtc": "2026-11-03T02:40:25Z",
+      "originalBytes": 391825,
+      "originalSha256": "e846909e63142f7f11226e2adef709da5e6a1f2e3169c4790d42d7e7522027e3",
+      "textCharacters": 179034,
+      "url": "https://www.civilaviation.gov.in/sites/default/files/2023-02/moca_000743.pdf"
+    },
+    "b5-in-so470e-2008": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {},
+      "contentType": "application/pdf",
+      "httpStatus": 200,
+      "imageOnly": true,
+      "normalizedTextSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "observedAtUtc": "2026-11-03T02:41:20Z",
+      "originalBytes": 111325,
+      "originalSha256": "915839a2fa4608bdc21cfe6cbe0a639b6ca2267f0d64503d954ae2996fa8b25b",
+      "textCharacters": 0,
+      "url": "https://www.aai.aero/en/system/files/resources/Closure_Of_Begumpet_Airport_2008.pdf"
+    },
+    "b5-in-thesis-2016": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "is hereby transferred to the Bangalore International Airport": true
+      },
+      "contentType": "binary/octet-stream",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "c54b2930b92f8467cf76795c49a7f3e3db56baf58179aa8c6ebc46acac74c870",
+      "observedAtUtc": "2026-11-03T02:40:23Z",
+      "originalBytes": 625344,
+      "originalSha256": "d2c7f591327c40cec0bba338b449d914ee9073c57de3d149b8f355a8e2760db1",
+      "textCharacters": 67237,
+      "url": "https://scholarlypublications.universiteitleiden.nl/download/1887/44409/4"
+    },
+    "b5-jp-jma-179": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "RJGG": true
+      },
+      "contentType": "application/pdf",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "8c3f02feec8d0e4a8c6d9eac06db1ca825a85b7358f7f66336099ac9e5c1f870",
+      "observedAtUtc": "2026-11-03T02:40:34Z",
+      "originalBytes": 11226,
+      "originalSha256": "26b418e86436ffc0600cc367887dd932322eced8f8fbeabbbad73e98ec823889",
+      "textCharacters": 1289,
+      "url": "https://www.data.jma.go.jp/suishin/jyouhou/pdf/179.pdf"
+    },
+    "b5-jp-jma-182": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "RJNA": true,
+        "RJNN": true
+      },
+      "contentType": "application/pdf",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "576b8073ca2fdaca10071d5bd93d9343e049095c3c6cbadbf3f0bd50b52c5d0f",
+      "observedAtUtc": "2026-11-03T02:40:34Z",
+      "originalBytes": 106506,
+      "originalSha256": "219a1cc821a53df5dbe4506438a840bc75403a19f6bb85c2b39ecce99b786565",
+      "textCharacters": 786,
+      "url": "https://www.data.jma.go.jp/suishin/jyouhou/pdf/182.pdf"
+    },
+    "b5-jp-jma-20220209": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "ROIG": true
+      },
+      "contentType": "application/pdf",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "6e1507c8ed7209fb60b5efa100435a614f03de1ce3136c7a41743cc4307f2910",
+      "observedAtUtc": "2026-11-03T02:40:35Z",
+      "originalBytes": 57782,
+      "originalSha256": "577fa2403fc62ef91a26ab89361a4e2182ca95cec9a5a2c2f78821bbb27da745",
+      "textCharacters": 983,
+      "url": "https://www.data.jma.go.jp/suishin/oshirase/pdf/20220209.pdf"
+    },
+    "b5-jp-jma-284": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "ROIG": true
+      },
+      "contentType": "application/pdf",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "1bda4095b8cfedec769c993feec8ff1179d42db165bb9bef4d8105eef5fc4ec4",
+      "observedAtUtc": "2026-11-03T02:40:35Z",
+      "originalBytes": 9485,
+      "originalSha256": "9f75dadb6fc79b947248e3fff4949985c8bb831cbede77f290aca4cbac059085",
+      "textCharacters": 1128,
+      "url": "https://www.data.jma.go.jp/suishin/jyouhou/pdf/284.pdf"
+    },
+    "b5-jp-okinawa-opening": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "新石垣空港の供用開始日が": true
+      },
+      "contentType": "text/html",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "9d5a719ccf32b2048d4596534c29bab45dfbf7075eda69ccaad267c696cd4b0b",
+      "observedAtUtc": "2026-11-03T02:41:23Z",
+      "originalBytes": 24463,
+      "originalSha256": "33bbaa454650a7e2db07a5563617ba36b5a3aaf6f5ed852fcadbc556aad5a906",
+      "textCharacters": 636,
+      "url": "https://www.pref.okinawa.jp/shin-ishigaki"
+    },
+    "b5-kr-aim-history-2025": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "2025-04-16": true
+      },
+      "contentType": "text/html",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "8ef8872071424f9db88760d8672425825fc335ef8d477ecd0d1c5f1afd822f0d",
+      "observedAtUtc": "2026-11-03T02:42:51Z",
+      "originalBytes": 56087,
+      "originalSha256": "03ccbba027b1d7f1fe4ba18fd9e636ff7ed4976a96a01fd3a761c85a1752f8ce",
+      "textCharacters": 10053,
+      "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html?ver=2025"
+    },
+    "b5-kr-rksi-20250416": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "RKSI": true
+      },
+      "contentType": "text/html",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "1d87cd3dde4540a987938625c22b847b7acee924ad3c52363856c5fae54ddc65",
+      "observedAtUtc": "2026-11-03T02:42:52Z",
+      "originalBytes": 698100,
+      "originalSha256": "94b5f30e3a00ed8895354b02f9dbb82ff0ef597191bbe221a6eded6e5d71bcfb",
+      "textCharacters": 147473,
+      "url": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eAIP/KR-AD-2.RKSI-en-GB.html"
+    },
+    "b5-kr-rkss-20250416": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "RKSS": true
+      },
+      "contentType": "text/html",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "f6f32f22b06392c93e7ff1cc695191b3df7b31a5f066122697248fa0f8ae9b9e",
+      "observedAtUtc": "2026-11-03T02:42:57Z",
+      "originalBytes": 349546,
+      "originalSha256": "7eeb54ff1db617b8418b8f9795b6fd11f1e86164bb7276d7230ff4357fe66d9c",
+      "textCharacters": 70557,
+      "url": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eAIP/KR-AD-2.RKSS-en-GB.html"
+    },
+    "b5-my-aip-wmkk-2026": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "WMKK": true
+      },
+      "contentType": "text/html",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "e81fd4f9ce57758b3472afd5910fe0d52ed5e28ba7c6eca2dc309ed3a84865c5",
+      "observedAtUtc": "2026-11-03T02:40:41Z",
+      "originalBytes": 701418,
+      "originalSha256": "df389b67b601e70cf4532fc772c3b5818799dc1cfc210aee6531c665b5d73664",
+      "textCharacters": 191938,
+      "url": "https://aip.caam.gov.my/aip/eAIP/2026-10-29-AIRAC/html/eAIP/WM-AD-2.WMKK-en-MS.html"
+    },
+    "b5-th-aip-vtbs-2026": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "VTBS": true
+      },
+      "contentType": "text/html",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "58fc1ef1516f5a84beab33642e8a1cd4f13a50a6b717bf668eb6c5035785df7f",
+      "observedAtUtc": "2026-11-03T02:40:38Z",
+      "originalBytes": 801935,
+      "originalSha256": "93ecc3c786ca1185b9fbe17d83737c3e3f92ee4a2a5a2e69838f85525d8610f3",
+      "textCharacters": 229463,
+      "url": "https://aip.caat.or.th/2026-10-29-AIRAC/html/eAIP/VT-AD-2.VTBS-en-GB.html"
+    },
+    "b5-th-aot-2q06": {
+      "accessResult": "failed",
+      "error": "HTTP 202 with empty body",
+      "observedAtUtc": "2026-11-03T02:41:24Z",
+      "url": "https://investor.airportthai.co.th/misc/OppDay_2Q06.pdf"
+    },
+    "b5-th-aot-fy06": {
+      "accessResult": "failed",
+      "error": "HTTP 202 with empty body",
+      "observedAtUtc": "2026-11-03T02:41:25Z",
+      "url": "https://investor.airportthai.co.th/misc/FY06%20Presentation.pdf"
+    },
+    "b5-us-austin-library": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "On May 22, 1999, Mueller had its last day of operation": true
+      },
+      "contentType": "application/pdf",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "269566a435ab167cd20b0753b4cd23ac6ce559204d613883106c453007c9c09c",
+      "observedAtUtc": "2026-11-03T02:40:30Z",
+      "originalBytes": 540097,
+      "originalSha256": "61d0b956ce961b9b5ec6e98e0d7295a9fc8b6c28f8c267ae396bb18a49b9c130",
+      "textCharacters": 51528,
+      "url": "https://library.austintexas.gov/library/2022-04/Aviation_Subject_Guide.pdf"
+    },
+    "b5-us-dtpp-2611": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "AUSTIN-BERGSTROM INTL": true
+      },
+      "contentType": "text/xml",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "cf852577ede372a24375b6245e6df2c762bb5168f49d4c72613ecd9eca182339",
+      "observedAtUtc": "2026-11-03T02:41:22Z",
+      "originalBytes": 16261176,
+      "originalSha256": "35e554ff386032ac024dd2643d1bc287a4fafb1d1436006b0da6dbd70c81f99f",
+      "textCharacters": 1537213,
+      "url": "https://aeronav.faa.gov/d-tpp/2611/xml_data/d-TPP_Metafile.xml"
+    },
+    "b5-us-fr-1995-aus": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "Robert Mueller Municipal Airport's (AUS)": true
+      },
+      "contentType": "text/html",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "d8ebb6d8123f592d16fcfe180096d1e0649ab4c3ad930fb91cd1141d1259d436",
+      "observedAtUtc": "2026-11-03T02:40:28Z",
+      "originalBytes": 9877,
+      "originalSha256": "b816a180c799a3d7d449f69dc1af396bd3e912b5776f8a17a42a7810e0611fcc",
+      "textCharacters": 8910,
+      "url": "https://www.govinfo.gov/content/pkg/FR-1995-03-14/html/95-6275.htm"
+    },
+    "b5-us-fr-1998-bsm": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "BSM": true
+      },
+      "contentType": "text/html",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "43cef4904c87aba7623fdf1ff605a34932e241c6c10fa8a06dd20da8361922aa",
+      "observedAtUtc": "2026-11-03T02:40:29Z",
+      "originalBytes": 21852,
+      "originalSha256": "de04858660946b1136030c6c10b0285fa90684d8836c11adf3399e62f94636f9",
+      "textCharacters": 21193,
+      "url": "https://www.govinfo.gov/content/pkg/FR-1998-07-30/html/98-20342.htm"
+    },
+    "b5-us-fr-1999-aus": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "Austin-Bergstrom International Airport, TX": true
+      },
+      "contentType": "text/html",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "3f2665279adea6da6432d09415464daa9c85a327fa6d814c2c575546584c6c96",
+      "observedAtUtc": "2026-11-03T02:40:29Z",
+      "originalBytes": 19672,
+      "originalSha256": "2bbf2ac732390546aa64d4867d798ee98fcff0aa1e8372ce0ddb656a1ca08c91",
+      "textCharacters": 19147,
+      "url": "https://www.govinfo.gov/content/pkg/FR-1999-02-11/html/99-3359.htm"
+    },
+    "b5-us-fr-1999-delay": {
+      "accessResult": "content_inspected",
+      "anchorsLocated": {
+        "May 23, 1999": true
+      },
+      "contentType": "text/html",
+      "httpStatus": 200,
+      "imageOnly": false,
+      "normalizedTextSha256": "6668663a8a371a2802ffc950d7704b9581ce1fdf9718d59a4fe1ff247667476e",
+      "observedAtUtc": "2026-11-03T02:40:29Z",
+      "originalBytes": 3172,
+      "originalSha256": "210e16763e7760d7641838f8a26fa667f29c442ca35b607a941db10d335854d1",
+      "textCharacters": 3011,
+      "url": "https://www.govinfo.gov/content/pkg/FR-1999-04-30/html/99-10964.htm"
+    }
+  }
+}

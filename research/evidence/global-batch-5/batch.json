@@ -1,0 +1,1314 @@
+{
+  "baseCommit": "19b7b1decfe2b43916fd4607b049ebb79293ae77",
+  "batchId": "global-batch-5",
+  "events": [
+    {
+      "caseKey": "kr-incheon",
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "No closure or replacement event.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-kr-rksi-20250416"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Only the authorized 27 local days; no assignment start/end.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "b5-kr-aim-history-2025",
+            "b5-kr-rksi-20250416"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "No dated name interval.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-kr-rksi-20250416"
+          ]
+        },
+        "iata": {
+          "conclusion": "Not in scope of any authorized rule; no IATA claim.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-kr-aim-history-2025"
+          ]
+        },
+        "icao": {
+          "conclusion": "RKSI named in 2025-04-16 and 2025-05-14 AD 2; registered kr-molit-bounded-icao@2.0.0 window [2025-04-18, 2025-05-15).",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-kr-aim-history-2025",
+            "b5-kr-rksi-20250416"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Single stable site in controlled MOLIT AD 2; eligible under the registered identity rule.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-kr-aim-history-2025",
+            "b5-kr-rksi-20250416"
+          ]
+        }
+      },
+      "conflicts": [],
+      "dates": {
+        "iataAssignmentDate": {
+          "basis": "not established",
+          "value": null
+        },
+        "icaoAssignmentDate": {
+          "basis": "Original allocation unknown; AIRAC effective 16:00 UTC is publication control, not assignment.",
+          "value": null
+        },
+        "openingDate": {
+          "basis": "not established",
+          "value": null
+        },
+        "passengerServiceEndDate": {
+          "basis": "not established",
+          "value": null
+        },
+        "physicalClosureDate": {
+          "basis": "not established",
+          "value": null
+        }
+      },
+      "eventGroupIds": [
+        "dup_29c64282ac0b47d8fe08e6a6",
+        "lead_d3714337bdff68bc1dd62c94"
+      ],
+      "eventKind": "known_identity_without_validity",
+      "evidenceGaps": [
+        "The authorized rule-v1 executor (ad99fa4f…) rejected the 2026-11-03 production run: re-obtained kr-history index bytes changed (146bf11c… → 03ccbba0…) and the executor has no fact-specific replacement contract for that source.",
+        "Fixing it changes a bound executor input and requires the owner to re-authorize both rules; not done here."
+      ],
+      "formalAdmission": {
+        "airports": [],
+        "assignments": [],
+        "names": []
+      },
+      "label": "Incheon RKSI",
+      "market": "KR",
+      "nextAction": "Owner decision: approve an executor revision with a replacement contract for the living history index (re-authorize identity + kr-code rules), then rerun admission/v1 release prepare/publish.",
+      "ownerApprovalProposal": null,
+      "screening": {
+        "boundsObtainable": "bounded 27-day AIRAC window only",
+        "codeReuse": false,
+        "expectedIata": 0,
+        "expectedIcao": 1,
+        "expectedIdentities": 1,
+        "expectedResolvedQueries": 27,
+        "originalAllocationEvidence": "no",
+        "siteConfidence": "high"
+      },
+      "status": "insufficient_evidence"
+    },
+    {
+      "caseKey": "kr-gimpo",
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "No closure or replacement event.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-kr-rkss-20250416"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Only the authorized 27 local days; no assignment start/end.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "b5-kr-aim-history-2025",
+            "b5-kr-rkss-20250416"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "No dated name interval.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-kr-rkss-20250416"
+          ]
+        },
+        "iata": {
+          "conclusion": "Not in scope of any authorized rule; no IATA claim.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-kr-aim-history-2025"
+          ]
+        },
+        "icao": {
+          "conclusion": "RKSS named in 2025-04-16 and 2025-05-14 AD 2; registered kr-molit-bounded-icao@2.0.0 window [2025-04-18, 2025-05-15).",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-kr-aim-history-2025",
+            "b5-kr-rkss-20250416"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Single stable site in controlled MOLIT AD 2; eligible under the registered identity rule.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-kr-aim-history-2025",
+            "b5-kr-rkss-20250416"
+          ]
+        }
+      },
+      "conflicts": [],
+      "dates": {
+        "iataAssignmentDate": {
+          "basis": "not established",
+          "value": null
+        },
+        "icaoAssignmentDate": {
+          "basis": "Original allocation unknown; AIRAC effective 16:00 UTC is publication control, not assignment.",
+          "value": null
+        },
+        "openingDate": {
+          "basis": "not established",
+          "value": null
+        },
+        "passengerServiceEndDate": {
+          "basis": "not established",
+          "value": null
+        },
+        "physicalClosureDate": {
+          "basis": "not established",
+          "value": null
+        }
+      },
+      "eventGroupIds": [
+        "dup_87db80245374d3fd65d0e6fd",
+        "lead_16dffa965e4b364d3bcb9f3a",
+        "lead_6a08597ae34cf03879f43804"
+      ],
+      "eventKind": "known_identity_without_validity",
+      "evidenceGaps": [
+        "The authorized rule-v1 executor (ad99fa4f…) rejected the 2026-11-03 production run: re-obtained kr-history index bytes changed (146bf11c… → 03ccbba0…) and the executor has no fact-specific replacement contract for that source.",
+        "Fixing it changes a bound executor input and requires the owner to re-authorize both rules; not done here."
+      ],
+      "formalAdmission": {
+        "airports": [],
+        "assignments": [],
+        "names": []
+      },
+      "label": "Gimpo RKSS",
+      "market": "KR",
+      "nextAction": "Owner decision: approve an executor revision with a replacement contract for the living history index (re-authorize identity + kr-code rules), then rerun admission/v1 release prepare/publish.",
+      "ownerApprovalProposal": null,
+      "screening": {
+        "boundsObtainable": "bounded 27-day AIRAC window only",
+        "codeReuse": false,
+        "expectedIata": 0,
+        "expectedIcao": 1,
+        "expectedIdentities": 1,
+        "expectedResolvedQueries": 27,
+        "originalAllocationEvidence": "no",
+        "siteConfidence": "high"
+      },
+      "status": "insufficient_evidence"
+    },
+    {
+      "caseKey": "jp-ishigaki",
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "Old airport abolished simultaneously with opening (prefectural record, month precision).",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-jp-okinawa-opening"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Opening 2013-03-07 is not a code date; old/new ROIG split would rely on the opening as an inferred boundary.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "b5-jp-jma-284",
+            "b5-jp-jma-20220209",
+            "b5-jp-okinawa-opening"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Renamed 新石垣空港→石垣空港 2025 (prefectural 2025-08-07); not admitted.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-jp-okinawa-opening"
+          ]
+        },
+        "iata": {
+          "conclusion": "No dated primary ISG observation before 2013; current IATA only.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-jp-okinawa-opening"
+          ]
+        },
+        "icao": {
+          "conclusion": "ROIG observed at old site (JMA 2008) and at new site (JMA 2022): same ICAO across two physical sites.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-jp-jma-284",
+            "b5-jp-jma-20220209"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Prefecture and JMA describe a new airport replacing the city-site airport on 2013-03-07; separate sites. Old ARP only secondary.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-jp-jma-284",
+            "b5-jp-jma-20220209",
+            "b5-jp-okinawa-opening"
+          ]
+        }
+      },
+      "conflicts": [],
+      "dates": {
+        "iataAssignmentDate": {
+          "basis": "not established",
+          "value": null
+        },
+        "icaoAssignmentDate": {
+          "basis": "not established",
+          "value": null
+        },
+        "openingDate": {
+          "basis": "Okinawa Prefecture 2012-12-19 announcement",
+          "value": "2013-03-07"
+        },
+        "passengerServiceEndDate": {
+          "basis": "last evening flights; press (secondary)",
+          "value": "2013-03-06"
+        },
+        "physicalClosureDate": {
+          "basis": "prefectural record, month only",
+          "value": "2013-03"
+        }
+      },
+      "eventGroupIds": [
+        "lead_1e09eaf399a4b5838a2aebcf",
+        "lead_3415cd10b6b44b3b089e77c5",
+        "lead_f898cb04a4112b970edaeb78"
+      ],
+      "eventKind": "relocation_same_iata_same_icao",
+      "evidenceGaps": [
+        "No AIP/AIC/NOTAM showing ROIG designation moving with the opening; AIS Japan needs registration.",
+        "No dated primary ISG at the old site.",
+        "Old site ARP only from secondary sources."
+      ],
+      "formalAdmission": {
+        "airports": [],
+        "assignments": [],
+        "names": []
+      },
+      "label": "Ishigaki old city site → New Ishigaki (ISG/ROIG)",
+      "market": "JP",
+      "nextAction": "Obtain AIS Japan AIP/AIC for March 2013 (ROIG) and a dated pre-2013 airline/MLIT ISG observation.",
+      "ownerApprovalProposal": null,
+      "screening": {
+        "boundsObtainable": "ICAO via JMA notices 2008 and 2022",
+        "codeReuse": true,
+        "expectedIata": 2,
+        "expectedIcao": 2,
+        "expectedIdentities": 2,
+        "expectedResolvedQueries": "up to ~8,600 if bounded",
+        "originalAllocationEvidence": "no",
+        "siteConfidence": "medium (old ARP secondary only)"
+      },
+      "status": "insufficient_evidence"
+    },
+    {
+      "caseKey": "jp-nagoya",
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "Old national Nagoya Airport abolished 2005-02-17; same field reopens as prefectural airfield.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-jp-jma-179",
+            "b5-jp-jma-182"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "2005-02-17 is a weather-message switch; strong but not an AIP designation date.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "b5-jp-jma-179",
+            "b5-jp-jma-182"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "No dated name intervals.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-jp-jma-179",
+            "b5-jp-jma-182"
+          ]
+        },
+        "iata": {
+          "conclusion": "NGO moved to Chubu and Komaki became NKM per current directories only; no dated primary NGO-at-Komaki observation.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-jp-jma-179",
+            "b5-jp-jma-182"
+          ]
+        },
+        "icao": {
+          "conclusion": "JMA No.182: RJNN messages end 2005-02-16 24:00 JST, RJNA from 2005-02-17 00:00 JST at Komaki; JMA No.179 associates RJGG with Chubu from 2005-02-17.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-jp-jma-179",
+            "b5-jp-jma-182"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Chubu (Tokoname) and Komaki are distinct sites; Komaki continues as prefectural Nagoya Airfield.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-jp-jma-179",
+            "b5-jp-jma-182"
+          ]
+        }
+      },
+      "conflicts": [
+        "Same ICAO family (RJNN) retired, not reused; IATA NGO reused across sites without primary dating."
+      ],
+      "dates": {
+        "iataAssignmentDate": {
+          "basis": "not established",
+          "value": null
+        },
+        "icaoAssignmentDate": {
+          "basis": "RJNA weather messages start (JMA No.182); not AIP",
+          "value": "2005-02-17"
+        },
+        "openingDate": {
+          "basis": "JMA No.179",
+          "value": "2005-02-17"
+        },
+        "passengerServiceEndDate": {
+          "basis": "last international departure (JAL release, primary, no codes)",
+          "value": "2005-02-16"
+        },
+        "physicalClosureDate": {
+          "basis": "Komaki not closed",
+          "value": null
+        }
+      },
+      "eventGroupIds": [
+        "dup_082eee1b546da42520a438e4",
+        "lead_a7805ed228b9e79cec6d7108",
+        "dup_f35707c6038ba7db0cef2b6e",
+        "lead_77671ed0783e4a553385953a",
+        "lead_f4c7e7d303888103b468adc8"
+      ],
+      "eventKind": "relocation_iata_reuse_icao_change",
+      "evidenceGaps": [
+        "No primary current AIP access (AIS Japan registration); only secondary AirBinder.",
+        "No dated IATA NGO→Chubu / NKM notice."
+      ],
+      "formalAdmission": {
+        "airports": [],
+        "assignments": [],
+        "names": []
+      },
+      "label": "Komaki (NGO/RJNN) → Chubu (NGO/RJGG); Komaki becomes NKM/RJNA",
+      "market": "JP",
+      "nextAction": "Obtain AIS Japan AIP AD 2 RJGG/RJNA pages (or AIC 2005) to anchor current and 2005 observations.",
+      "ownerApprovalProposal": null,
+      "screening": {
+        "boundsObtainable": "ICAO switch 2005-02-17 (JMA)",
+        "codeReuse": true,
+        "expectedIata": 3,
+        "expectedIcao": 3,
+        "expectedIdentities": 2,
+        "expectedResolvedQueries": "~8,600 if current AIP primary obtained",
+        "originalAllocationEvidence": "no",
+        "siteConfidence": "high"
+      },
+      "status": "pending_review"
+    },
+    {
+      "caseKey": "de-munich",
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "Riem licence end only from a non-operator archive (August 1992).",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-de-fmg-chronology"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Operator times (last Riem departure before 23:00 1992-05-16; first landing 04:55 1992-05-17) are operational, not code dates.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "b5-de-dfs-eddm-2026",
+            "b5-de-fmg-chronology"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Not reviewed.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-de-dfs-eddm-2026",
+            "b5-de-fmg-chronology"
+          ]
+        },
+        "iata": {
+          "conclusion": "MUC only inside the SITA address in AIP; no dated IATA observation.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-de-dfs-eddm-2026"
+          ]
+        },
+        "icao": {
+          "conclusion": "EDDM current for the new site; no primary EDDM-at-Riem observation.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-de-dfs-eddm-2026"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Distinct sites ~25 km apart; operator chronology documents the overnight move.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-de-dfs-eddm-2026",
+            "b5-de-fmg-chronology"
+          ]
+        }
+      },
+      "conflicts": [],
+      "dates": {
+        "iataAssignmentDate": {
+          "basis": "not established",
+          "value": null
+        },
+        "icaoAssignmentDate": {
+          "basis": "not established",
+          "value": null
+        },
+        "openingDate": {
+          "basis": "first landing 04:55 (FMG)",
+          "value": "1992-05-17"
+        },
+        "passengerServiceEndDate": {
+          "basis": "last departure shortly before 23:00 (FMG)",
+          "value": "1992-05-16"
+        },
+        "physicalClosureDate": {
+          "basis": "licence end 1992-08 from secondary only",
+          "value": null
+        }
+      },
+      "eventGroupIds": [
+        "dup_9587398766d8b4a241137dcc",
+        "lead_19e67092b553da33f5e96d0c",
+        "lead_ee61f6f8f6290e46dd362f62"
+      ],
+      "eventKind": "relocation_same_iata_same_icao",
+      "evidenceGaps": [
+        "No pre-1992 primary MUC/EDDM at Riem.",
+        "Only one current DFS edition captured; a ≤2015 DFS AD 2 EDDM page is needed for a continuity window."
+      ],
+      "formalAdmission": {
+        "airports": [],
+        "assignments": [],
+        "names": []
+      },
+      "label": "Munich-Riem → Munich (Erding/Freising) MUC/EDDM",
+      "market": "DE",
+      "nextAction": "Obtain a dated pre-1992 ICAO Doc 7910/DFS AIP and a ≤2015 DFS AD 2 EDDM edition.",
+      "ownerApprovalProposal": null,
+      "screening": {
+        "boundsObtainable": "move night 1992-05-16/17 (operator)",
+        "codeReuse": true,
+        "expectedIata": 2,
+        "expectedIcao": 2,
+        "expectedIdentities": 2,
+        "expectedResolvedQueries": "~4,300 per code if a ≤2015 primary observation is found",
+        "originalAllocationEvidence": "no",
+        "siteConfidence": "high for new, secondary for Riem"
+      },
+      "status": "insufficient_evidence"
+    },
+    {
+      "caseKey": "us-austin",
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "Mueller last operating day 1999-05-22; Bergstrom opened 1999-05-23.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-us-austin-library",
+            "b5-us-fr-1999-delay"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Identifier change bounded between FR documents of 1998-07-30 and 1999-02-11; operational switch 1999-05-23 (rule effect 0601 UTC).",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "b5-us-fr-1995-aus",
+            "b5-us-fr-1998-bsm",
+            "b5-us-fr-1999-aus",
+            "b5-us-fr-1999-delay",
+            "b5-us-dtpp-2611",
+            "b5-us-austin-library"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Not reviewed.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-us-austin-library"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only FAA location identifiers (AUS at Mueller 1995; BSM then AUS at Bergstrom). FAA LID is not an IATA record.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-us-fr-1995-aus",
+            "b5-us-fr-1998-bsm",
+            "b5-us-fr-1999-aus"
+          ]
+        },
+        "icao": {
+          "conclusion": "Current KAUS for Bergstrom (d-TPP 2611); KBSM→KAUS switch only in a contemporaneous non-official message.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-us-dtpp-2611"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "FAA rules give separate coordinates; Bergstrom 5 miles south of Mueller.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-us-fr-1999-aus",
+            "b5-us-fr-1998-bsm"
+          ]
+        }
+      },
+      "conflicts": [
+        "FAA rule lists AUS at Bergstrom (1999-02) before Mueller closed (1999-05-22): prospective identifier vs operating code."
+      ],
+      "dates": {
+        "iataAssignmentDate": {
+          "basis": "FAA LID AUS listed for Bergstrom by 1999-02-11; IATA date unknown",
+          "value": null
+        },
+        "icaoAssignmentDate": {
+          "basis": "unknown",
+          "value": null
+        },
+        "openingDate": {
+          "basis": "64 FR 23184; city guide",
+          "value": "1999-05-23"
+        },
+        "passengerServiceEndDate": {
+          "basis": "Austin History Center",
+          "value": "1999-05-22"
+        },
+        "physicalClosureDate": {
+          "basis": "last aircraft departure (TTI, secondary)",
+          "value": "1999-06-24"
+        }
+      },
+      "eventGroupIds": [
+        "lead_7e6f86f679857158217d2aa4",
+        "dup_a797ea41b884fed08363bae6",
+        "lead_077317f42443e11a3ea8083e",
+        "lead_74f5e5f1877bb23413b76ad0"
+      ],
+      "eventKind": "relocation_identifier_reuse",
+      "evidenceGaps": [
+        "Policy question: may FAA LIDs evidence IATA/ICAO codes? Previous research (Williston) kept them distinct.",
+        "No dated IATA source for either site; no primary KBSM→KAUS record."
+      ],
+      "formalAdmission": {
+        "airports": [],
+        "assignments": [],
+        "names": []
+      },
+      "label": "Mueller (AUS) → Austin-Bergstrom (BSM→AUS, KBSM→KAUS)",
+      "market": "US",
+      "nextAction": "Owner decision on FAA-identifier evidence semantics; otherwise obtain historical NFDC/ICAO Doc 7910 rows.",
+      "ownerApprovalProposal": null,
+      "screening": {
+        "boundsObtainable": "FAA identifier BSM (1998-07) → AUS (1999-02 rule); opening 1999-05-23",
+        "codeReuse": true,
+        "expectedIata": 2,
+        "expectedIcao": 2,
+        "expectedIdentities": 2,
+        "expectedResolvedQueries": "~8,600 if FAA identifier accepted as IATA/ICAO evidence",
+        "originalAllocationEvidence": "no",
+        "siteConfidence": "high (FR coordinates both sites)"
+      },
+      "status": "pending_review"
+    },
+    {
+      "caseKey": "th-bangkok",
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "Don Mueang never closed; domestic reopening 2007-03-25 (press).",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-th-aot-fy06"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Cut-over 2006-09-28 (operational); DMK from 2007-03-25 only in press.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "b5-th-aot-fy06"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Not reviewed.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-th-aip-vtbs-2026"
+          ]
+        },
+        "iata": {
+          "conclusion": "AOT decks label BKK=Don Muang (early 2006) and BKK=Suvarnabhumi (FY2006); re-acquisition this run returned HTTP 202 empty, so no locked original.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-th-aot-2q06",
+            "b5-th-aot-fy06"
+          ]
+        },
+        "icao": {
+          "conclusion": "VTBS current; VTBS effective date not established.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-th-aip-vtbs-2026"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Distinct airports; both current in AIP Thailand.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-th-aip-vtbs-2026"
+          ]
+        }
+      },
+      "conflicts": [],
+      "dates": {
+        "iataAssignmentDate": {
+          "basis": "not established",
+          "value": null
+        },
+        "icaoAssignmentDate": {
+          "basis": "not established",
+          "value": null
+        },
+        "openingDate": {
+          "basis": "full opening (AOT/THAI)",
+          "value": "2006-09-28"
+        },
+        "passengerServiceEndDate": {
+          "basis": "last evening departures; reopened 2007-03-25",
+          "value": "2006-09-27"
+        },
+        "physicalClosureDate": {
+          "basis": "not closed",
+          "value": null
+        }
+      },
+      "eventGroupIds": [
+        "dup_ca364189332cf51af863cfff",
+        "lead_62705ecba96eee1665d8d957",
+        "dup_71f71f16d251a077e7100958",
+        "lead_f353796cfa8096963962ee39"
+      ],
+      "eventKind": "relocation_iata_reuse",
+      "evidenceGaps": [
+        "AOT originals not re-acquirable (bot challenge, HTTP 202).",
+        "No IATA/DCA notice; DMK date only press.",
+        "2006 DCA document naming VTBS not obtained (>10 MB mirror)."
+      ],
+      "formalAdmission": {
+        "airports": [],
+        "assignments": [],
+        "names": []
+      },
+      "label": "Don Mueang (BKK) → Suvarnabhumi (BKK); Don Mueang becomes DMK",
+      "market": "TH",
+      "nextAction": "Re-acquire AOT decks through a browser session; obtain DCA/CAAT 2006 AIP SUP for VTBS.",
+      "ownerApprovalProposal": null,
+      "screening": {
+        "boundsObtainable": "operator decks around 2006",
+        "codeReuse": true,
+        "expectedIata": 3,
+        "expectedIcao": 2,
+        "expectedIdentities": 2,
+        "expectedResolvedQueries": "~4,300 per code if dated",
+        "originalAllocationEvidence": "no",
+        "siteConfidence": "high"
+      },
+      "status": "insufficient_evidence"
+    },
+    {
+      "caseKey": "my-kualalumpur",
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "Subang not closed; domestic traffic stayed.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-my-aip-wmkk-2026"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "1998-06-30 07:00 opening (Bernama, secondary).",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "b5-my-aip-wmkk-2026"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Not reviewed.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-my-aip-wmkk-2026"
+          ]
+        },
+        "iata": {
+          "conclusion": "Current regulator glossary pairs KUL/KLIA, SZB/Subang; no pre-1998 primary.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-my-aip-wmkk-2026"
+          ]
+        },
+        "icao": {
+          "conclusion": "WMKK current for KLIA; WMKK-at-Subang only secondary.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-my-aip-wmkk-2026"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Distinct sites, both in current AIP Malaysia.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-my-aip-wmkk-2026"
+          ]
+        }
+      },
+      "conflicts": [],
+      "dates": {
+        "iataAssignmentDate": {
+          "basis": "not established",
+          "value": null
+        },
+        "icaoAssignmentDate": {
+          "basis": "not established",
+          "value": null
+        },
+        "openingDate": {
+          "basis": "07:00 (Bernama, secondary)",
+          "value": "1998-06-30"
+        },
+        "passengerServiceEndDate": {
+          "basis": "Subang kept domestic service",
+          "value": null
+        },
+        "physicalClosureDate": {
+          "basis": "not established",
+          "value": null
+        }
+      },
+      "eventGroupIds": [
+        "dup_b687c20f3ddcc7c202947ebd",
+        "lead_92b77f31d9eece228867891c",
+        "dup_91752720ed2465e260d1f22f",
+        "lead_4009fc77b20c6dd1f14e568a"
+      ],
+      "eventKind": "relocation_same_iata_same_icao",
+      "evidenceGaps": [
+        "No primary pre-1998 KUL/WMKK at Subang.",
+        "No dated SZB/WMSA assignment.",
+        "Only one current AIP edition."
+      ],
+      "formalAdmission": {
+        "airports": [],
+        "assignments": [],
+        "names": []
+      },
+      "label": "Subang (KUL/WMKK) → KLIA (KUL/WMKK); Subang becomes SZB/WMSA",
+      "market": "MY",
+      "nextAction": "Obtain DCA Malaysia 1998 AIP SUP/AIC and a ≤2015 AIP Malaysia edition.",
+      "ownerApprovalProposal": null,
+      "screening": {
+        "boundsObtainable": "1998-06-30 cut-over (press)",
+        "codeReuse": true,
+        "expectedIata": 2,
+        "expectedIcao": 4,
+        "expectedIdentities": 2,
+        "expectedResolvedQueries": "~8,600 if dated",
+        "originalAllocationEvidence": "no",
+        "siteConfidence": "high"
+      },
+      "status": "insufficient_evidence"
+    },
+    {
+      "caseKey": "in-bengaluru",
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "HAL ceased scheduled commercial service but remains an aerodrome (VOBG).",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-in-aip-2026-vobg"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Continuity across a 14.6-year gap between two AIP editions is an inference outside the AAI policy's 112-day budget.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "b5-in-moca-bial-2004",
+            "b5-in-thesis-2016",
+            "b5-in-aip-2012-ad13",
+            "b5-in-aip-2012-ad15",
+            "b5-in-aip-2026-vobl",
+            "b5-in-aip-2026-vobg",
+            "b5-iata-blr-20261103"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Renaming to Kempegowda not admitted.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-in-aip-2026-vobl"
+          ]
+        },
+        "iata": {
+          "conclusion": "Concession 2004: BLR is the existing (HAL) code, to be transferred; S.O.1170(E) transfers BLR from 00:01 2008-05-23 (transcribed), amended to 2008-05-24 (secondary); IATA today: BLR = Kempegowda.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "b5-in-moca-bial-2004",
+            "b5-in-thesis-2016",
+            "b5-iata-blr-20261103"
+          ]
+        },
+        "icao": {
+          "conclusion": "VOBL and VOBG both observed in AIP 2012-04-01 and AMDT 10-26 (2026-10-29); no ICAO reuse.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-in-aip-2012-ad13",
+            "b5-in-aip-2026-vobl",
+            "b5-in-aip-2026-vobg"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "HAL (VOBG) and Bangalore International (VOBL) listed as separate aerodromes in AAI AIP 2012 and 2026.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-in-aip-2012-ad13",
+            "b5-in-aip-2026-vobl",
+            "b5-in-aip-2026-vobg"
+          ]
+        }
+      },
+      "conflicts": [
+        "Effective time 00:01 2008-05-23 (S.O.1170(E)) vs 00:01 2008-05-24 (amendment, secondary)."
+      ],
+      "dates": {
+        "iataAssignmentDate": {
+          "basis": "transfer by notification; original Gazette scan not obtained",
+          "value": "2008-05-24"
+        },
+        "icaoAssignmentDate": {
+          "basis": "unknown; VOBL in use by licence 2008-05-15",
+          "value": null
+        },
+        "openingDate": {
+          "basis": "00:01 local, per amended MoCA notice (secondary); licence 2008-05-15",
+          "value": "2008-05-24"
+        },
+        "passengerServiceEndDate": {
+          "basis": "HAL departures up to 23:59 (secondary)",
+          "value": "2008-05-23"
+        },
+        "physicalClosureDate": {
+          "basis": "HAL not closed",
+          "value": null
+        }
+      },
+      "eventGroupIds": [
+        "dup_9edc4f76014e9ce4bd6dd03d",
+        "lead_9b1d8f4030881e8e0696fc40",
+        "dup_ce3a8a984a0738318d411ceb",
+        "lead_033dedd98ce2d07c44172ed1",
+        "lead_2f85419346eb11aa4a5eff00",
+        "lead_7b94ac475f184a4b361afb6c"
+      ],
+      "eventKind": "relocation_iata_reuse_distinct_icao",
+      "evidenceGaps": [
+        "Original Gazette S.O.1170(E) and its amendment not obtained (thesis transcription only).",
+        "Long-gap ICAO continuity needs explicit owner acceptance or intermediate AIP editions.",
+        "No authorized publication route for non-policy records (see README)."
+      ],
+      "formalAdmission": {
+        "airports": [],
+        "assignments": [],
+        "names": []
+      },
+      "label": "HAL (BLR/VOBG) → Kempegowda (BLR/VOBL)",
+      "market": "IN",
+      "nextAction": "Owner exact approval of the proposal records, or obtain intermediate AAI AIP editions and the Gazette scans; then a reviewed release route.",
+      "ownerApprovalProposal": "in-bengaluru",
+      "screening": {
+        "boundsObtainable": "yes",
+        "codeReuse": true,
+        "expectedIata": 2,
+        "expectedIcao": 2,
+        "expectedIdentities": 2,
+        "expectedResolvedQueries": 13023,
+        "originalAllocationEvidence": "government notification (secondary transcription)",
+        "siteConfidence": "high"
+      },
+      "status": "pending_review"
+    },
+    {
+      "caseKey": "in-hyderabad",
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "Begumpet closed to scheduled commercial flights, not physically; current directory shows it later as BPM (unverified).",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-in-so470e-2008",
+            "b5-in-aip-2026-vohy"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Long-gap continuity between AIP editions is an inference; HYD start at RGIA bounded by the final notification.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "b5-in-so470e-2008",
+            "b5-in-thesis-2016",
+            "b5-in-aip-2012-ad13",
+            "b5-in-aip-2012-ad15",
+            "b5-in-aip-2026-vohs",
+            "b5-in-aip-2026-vohy",
+            "b5-iata-hyd-20261103"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "AIP 2026 names Begumpet 'HYDERABAD INTERNATIONAL AIRPORT'; no name interval admitted.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-in-aip-2026-vohy"
+          ]
+        },
+        "iata": {
+          "conclusion": "S.O.470(E) of 2008-03-10 (primary scan) transfers code HYD of the existing airport to RGIA; final effect 00:01 2008-03-23 (transcribed); IATA today: HYD = Rajiv Gandhi Int'l.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "b5-in-so470e-2008",
+            "b5-in-thesis-2016",
+            "b5-iata-hyd-20261103"
+          ]
+        },
+        "icao": {
+          "conclusion": "VOHY and VOHS both observed in AIP 2012-04-01 and AMDT 10-26; no ICAO reuse.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-in-aip-2012-ad13",
+            "b5-in-aip-2026-vohs",
+            "b5-in-aip-2026-vohy"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Begumpet (VOHY) and Rajiv Gandhi International (VOHS) are separate aerodromes in AAI AIP 2012 and 2026.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-in-aip-2012-ad13",
+            "b5-in-aip-2026-vohs",
+            "b5-in-aip-2026-vohy"
+          ]
+        }
+      },
+      "conflicts": [
+        "S.O.470(E) effect 2008-03-16 superseded by S.O.504(E) and a 2008-03-20 notification (effect 2008-03-23)."
+      ],
+      "dates": {
+        "iataAssignmentDate": {
+          "basis": "transfer by notification; superseded 2008-03-16 date in S.O.470(E)",
+          "value": "2008-03-23"
+        },
+        "icaoAssignmentDate": {
+          "basis": "unknown; VOHS licence 2008-03-04",
+          "value": null
+        },
+        "openingDate": {
+          "basis": "00:01 per final notification (transcribed); inauguration 2008-03-14 is ceremonial",
+          "value": "2008-03-23"
+        },
+        "passengerServiceEndDate": {
+          "basis": "last departure ~00:25 (press, conflicting)",
+          "value": "2008-03-23"
+        },
+        "physicalClosureDate": {
+          "basis": "Begumpet not closed",
+          "value": null
+        }
+      },
+      "eventGroupIds": [
+        "dup_944bff545aa065e1c017eeec",
+        "lead_eaa5bc774c65a68c5447bfc0",
+        "dup_37ed1f26e067495d6ffd4be2",
+        "lead_34d7d9f1186a7ff0290a7ac7"
+      ],
+      "eventKind": "relocation_iata_reuse_distinct_icao",
+      "evidenceGaps": [
+        "Final notification original not obtained.",
+        "Long-gap ICAO continuity needs owner acceptance.",
+        "Begumpet BPM assignment date unknown."
+      ],
+      "formalAdmission": {
+        "airports": [],
+        "assignments": [],
+        "names": []
+      },
+      "label": "Begumpet (HYD/VOHY) → Shamshabad (HYD/VOHS)",
+      "market": "IN",
+      "nextAction": "Owner exact approval of the proposal records, or obtain intermediate AAI AIP editions and the final Gazette scan.",
+      "ownerApprovalProposal": "in-hyderabad",
+      "screening": {
+        "boundsObtainable": "yes",
+        "codeReuse": true,
+        "expectedIata": 2,
+        "expectedIcao": 2,
+        "expectedIdentities": 2,
+        "expectedResolvedQueries": 13026,
+        "originalAllocationEvidence": "government notification scan (primary) + final notification (secondary transcription)",
+        "siteConfidence": "high"
+      },
+      "status": "pending_review"
+    },
+    {
+      "caseKey": "cn-kunming",
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "Wujiaba ceased simultaneously (press of official briefing).",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-cn-kmg-notice-2012"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Last Wujiaba movements 2012-06-27 22:00/23:00; Changshui from 2012-06-28 08:00 (operator).",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "b5-cn-kmg-notice-2012"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Not reviewed.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-cn-kmg-notice-2012",
+            "b5-cn-icao-2010-zppp"
+          ]
+        },
+        "iata": {
+          "conclusion": "KMG at Wujiaba only in a coordinator database (2010); after only route lists without site.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-cn-kmg-notice-2012",
+            "b5-cn-icao-2010-zppp"
+          ]
+        },
+        "icao": {
+          "conclusion": "ZPPP = KUNMING/Wujiaba (ICAO 2010 paper); ZPPP at Changshui only in ICAO ANP 2023 and a mirrored NAIP page; same ICAO reused across sites.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-cn-icao-2010-zppp"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Operator notice: Wujiaba closes and Changshui opens at the cut-over; separate sites.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "b5-cn-kmg-notice-2012",
+            "b5-cn-icao-2010-zppp"
+          ]
+        }
+      },
+      "conflicts": [],
+      "dates": {
+        "iataAssignmentDate": {
+          "basis": "not established",
+          "value": null
+        },
+        "icaoAssignmentDate": {
+          "basis": "not established",
+          "value": null
+        },
+        "openingDate": {
+          "basis": "08:00 (operator, Xinhua)",
+          "value": "2012-06-28"
+        },
+        "passengerServiceEndDate": {
+          "basis": "no landings after 22:00, departures after 23:00",
+          "value": "2012-06-27"
+        },
+        "physicalClosureDate": {
+          "basis": "not found",
+          "value": null
+        }
+      },
+      "eventGroupIds": [
+        "dup_a70fcd3f03834db946f0a8c0",
+        "lead_425f5527c7ef8444e4a5f5d9",
+        "lead_bc3be4116a36f9f5a8c4c27d"
+      ],
+      "eventKind": "relocation_same_iata_same_icao",
+      "evidenceGaps": [
+        "Official CAAC eAIP unreachable; NAIP only via mirror.",
+        "No transfer-day statement that KMG/ZPPP continued.",
+        "ICAO ANP 2026 still lists Wujiaba (stale table)."
+      ],
+      "formalAdmission": {
+        "airports": [],
+        "assignments": [],
+        "names": []
+      },
+      "label": "Wujiaba → Changshui (KMG/ZPPP)",
+      "market": "CN",
+      "nextAction": "Obtain CAAC NAIP ZPPP pages from the official eAIP (pre-2015 and current).",
+      "ownerApprovalProposal": null,
+      "screening": {
+        "boundsObtainable": "cut-over 2012-06-27/28 (operator)",
+        "codeReuse": true,
+        "expectedIata": 2,
+        "expectedIcao": 2,
+        "expectedIdentities": 2,
+        "expectedResolvedQueries": "~8,600 if a primary post-2012 code page is obtained",
+        "originalAllocationEvidence": "no",
+        "siteConfidence": "high"
+      },
+      "status": "insufficient_evidence"
+    },
+    {
+      "caseKey": "cn-wuzhou",
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "Changzhoudao stopped 2017 (CAAC page now 404).",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-cn-wuz-caac-2018"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Passenger service gap from 2017 to 2019-01-23 cannot be bridged.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "b5-cn-wuz-caac-2018"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Not reviewed.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-cn-wuz-caac-2018"
+          ]
+        },
+        "iata": {
+          "conclusion": "WUZ in CAAC route lists 2015/2016 (old) and airline fares 2022 (new); not locked here.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-cn-wuz-caac-2018"
+          ]
+        },
+        "icao": {
+          "conclusion": "ZGWZ only in an undated operator page.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-cn-wuz-caac-2018"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "CAAC treats Xijiang (formerly Changzhoudao) as one certified entry; physical sites differ.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "b5-cn-wuz-caac-2018"
+          ]
+        }
+      },
+      "conflicts": [],
+      "dates": {
+        "iataAssignmentDate": {
+          "basis": "not established",
+          "value": null
+        },
+        "icaoAssignmentDate": {
+          "basis": "not established",
+          "value": null
+        },
+        "openingDate": {
+          "basis": "first flight KN5731 (CAAC News)",
+          "value": "2019-01-23"
+        },
+        "passengerServiceEndDate": {
+          "basis": "CAAC Central South page, now offline",
+          "value": "2017"
+        },
+        "physicalClosureDate": {
+          "basis": "not established",
+          "value": null
+        }
+      },
+      "eventGroupIds": [
+        "lead_3a4bf1d5767e965493f67b61",
+        "lead_18368f6ec60dd61cf6a3c4af",
+        "lead_2448bee7cd3326cd17cb343f",
+        "lead_a9445d2ca7a0e05fec2c1bd5",
+        "lead_d9aa9d094284e66f71829267"
+      ],
+      "eventKind": "relocation_same_iata",
+      "evidenceGaps": [
+        "Old/new sites conflated by CAAC statistics.",
+        "No dated ZGWZ.",
+        "Service gap blocks continuity."
+      ],
+      "formalAdmission": {
+        "airports": [],
+        "assignments": [],
+        "names": []
+      },
+      "label": "Changzhoudao → Xijiang (WUZ/ZGWZ)",
+      "market": "CN",
+      "nextAction": "Obtain CAAC Central South licence/closure notices and dated route filings.",
+      "ownerApprovalProposal": null,
+      "screening": {
+        "boundsObtainable": "service gap 2017–2019",
+        "codeReuse": true,
+        "expectedIata": 2,
+        "expectedIcao": 1,
+        "expectedIdentities": 2,
+        "expectedResolvedQueries": "limited (domestic, no AIP)",
+        "originalAllocationEvidence": "no",
+        "siteConfidence": "medium"
+      },
+      "status": "insufficient_evidence"
+    }
+  ],
+  "formatVersion": 1,
+  "reviewedOn": "2026-11-03",
+  "selection": {
+    "eventCount": 12,
+    "maximumEvents": 12,
+    "policy": "Screened existing triage event groups and the 493 geographically distinct code-reuse leads for priority markets; chose cases with expected formal gain and obtainable official originals. No discovery scan, bulk rebuild or new candidate mapping in protected review files.",
+    "screenedNotSelected": [
+      {
+        "label": "Padang PDG (Tabing→Minangkabau)",
+        "reason": "ICAO WIPT→WIEE 2015-03-05 is the only self-dated change, but read only via a mirror; lower priority than selected SEA cases."
+      },
+      {
+        "label": "Guangzhou CAN/ZGGG 2004",
+        "reason": "No dated primary CAN before 2004; AIP only via mirrors."
+      },
+      {
+        "label": "Dalian DLC / Xiamen XMN",
+        "reason": "Replacement airports not yet open; no executed transfer."
+      },
+      {
+        "label": "LYG/YBP/LZO/ENY/JNG/ZHA",
+        "reason": "Investigated in PR #15/#22 with persistent IATA date gaps; no new originals identified."
+      }
+    ]
+  }
+}

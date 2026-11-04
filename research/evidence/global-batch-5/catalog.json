@@ -1,0 +1,522 @@
+{
+  "formatVersion": 1,
+  "batchId": "global-batch-5",
+  "reviewedOn": "2026-11-03",
+  "note": "Each source lists only a short anchor used to re-locate the cited fact in the private original. Originals are kept in ignored work/ and are never committed.",
+  "sources": [
+    {
+      "sourceId": "b5-in-aip-2012-ad13",
+      "family": "IN-AAI-AIP",
+      "type": "primary",
+      "publisher": "Airports Authority of India (AIS)",
+      "title": "eAIP India 01-04-2012, AD 1.3 Index to aerodromes",
+      "publicationDate": "2012-04-01",
+      "dateMeaning": "AIP edition effective date",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/01-04-2012/eaip/PUB/2012-04-01/html/eAIP/EC-AD-1.3-en-GB.html",
+      "anchors": [
+        "HAL AIRPORT BANGLORE / VOBG",
+        "BEGUMPET, HYDERABAD / VOHY",
+        "BANGALORE INTERNATIONAL AIRPORT / VOBL"
+      ],
+      "supports": "Dated official ICAO location indicator observations for HAL (VOBG), Begumpet (VOHY) and Bangalore International (VOBL) as separate aerodromes in one edition.",
+      "limitations": "Index row only; not an allocation date. One issuer edition."
+    },
+    {
+      "sourceId": "b5-in-aip-2012-ad15",
+      "family": "IN-AAI-AIP",
+      "type": "primary",
+      "publisher": "Airports Authority of India (AIS)",
+      "title": "eAIP India 01-04-2012, AD 1.5 Status of aerodrome licensing",
+      "publicationDate": "2012-04-01",
+      "dateMeaning": "AIP edition effective date; licence issue dates are separate facts",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/01-04-2012/eaip/PUB/2012-04-01/html/eAIP/EC-AD-1.5-en-GB.html",
+      "anchors": [
+        "Bangalore International Airport VOBL 15.05.2008",
+        "Rajiv Gandhi International Airport, Shamshabad VOHS 04.03.2008",
+        "Begumpet Airport, Hyderabad VOHY 16.04.2007"
+      ],
+      "supports": "VOBL licence 2008-05-15, VOHS licence 2008-03-04, VOHY licence 2007-04-16 as published in the 2012 edition.",
+      "limitations": "Licence dates are not ICAO assignment dates. Same issuer family as AD 1.3."
+    },
+    {
+      "sourceId": "b5-in-aip-2026-vobl",
+      "family": "IN-AAI-AIP",
+      "type": "primary",
+      "publisher": "Airports Authority of India (AIS)",
+      "title": "eAIP India AMDT 10-26 (effective 2026-10-29), AD 2 VOBL",
+      "publicationDate": "2026-09-17",
+      "dateMeaning": "AMDT publication 2026-09-17, effective 2026-10-29; page dated 23 JAN 2025",
+      "url": "https://aim-india.aai.aero/eaip/eaip-v2-10-2026/pdf/eAIP/AD%202.1VOBL.pdf",
+      "anchors": [
+        "VOBL"
+      ],
+      "supports": "Current official VOBL entry for Kempegowda International Airport, Bengaluru.",
+      "limitations": "No IATA code on page."
+    },
+    {
+      "sourceId": "b5-in-aip-2026-vobg",
+      "family": "IN-AAI-AIP",
+      "type": "primary",
+      "publisher": "Airports Authority of India (AIS)",
+      "title": "eAIP India AMDT 10-26, AD 2 VOBG",
+      "publicationDate": "2026-09-17",
+      "dateMeaning": "AMDT effective 2026-10-29; page dated 01 OCT 2026",
+      "url": "https://aim-india.aai.aero/eaip/eaip-v2-10-2026/pdf/eAIP/AD%202.1VOBG.pdf",
+      "anchors": [
+        "VOBG"
+      ],
+      "supports": "HAL Airport retained as a separate aerodrome under VOBG.",
+      "limitations": "No IATA code on page."
+    },
+    {
+      "sourceId": "b5-in-aip-2026-vohs",
+      "family": "IN-AAI-AIP",
+      "type": "primary",
+      "publisher": "Airports Authority of India (AIS)",
+      "title": "eAIP India AMDT 10-26, AD 2 VOHS",
+      "publicationDate": "2026-09-17",
+      "dateMeaning": "AMDT effective 2026-10-29; page dated 12 JUN 2025",
+      "url": "https://aim-india.aai.aero/eaip/eaip-v2-10-2026/pdf/eAIP/AD%202.1VOHS.pdf",
+      "anchors": [
+        "VOHS"
+      ],
+      "supports": "Current official VOHS entry for Rajiv Gandhi International, Shamshabad.",
+      "limitations": "No IATA code on page."
+    },
+    {
+      "sourceId": "b5-in-aip-2026-vohy",
+      "family": "IN-AAI-AIP",
+      "type": "primary",
+      "publisher": "Airports Authority of India (AIS)",
+      "title": "eAIP India AMDT 10-26, AD 2 VOHY",
+      "publicationDate": "2026-09-17",
+      "dateMeaning": "AMDT effective 2026-10-29; page dated 02 OCT 2025",
+      "url": "https://aim-india.aai.aero/eaip/eaip-v2-10-2026/pdf/eAIP/AD%202.1VOHY.pdf",
+      "anchors": [
+        "VOHY"
+      ],
+      "supports": "Begumpet retained as a separate aerodrome under VOHY.",
+      "limitations": "No IATA code on page."
+    },
+    {
+      "sourceId": "b5-in-so470e-2008",
+      "family": "IN-MOCA-GAZETTE",
+      "type": "primary",
+      "publisher": "Ministry of Civil Aviation (scan hosted by AAI)",
+      "title": "S.O. 470(E), closure of Begumpet airport, dated 2008-03-10",
+      "publicationDate": "2008-03-10",
+      "dateMeaning": "notification date; stated effect 00:01 on 2008-03-16, later superseded",
+      "url": "https://www.aai.aero/en/system/files/resources/Closure_Of_Begumpet_Airport_2008.pdf",
+      "anchors": [],
+      "imageOnly": true,
+      "supports": "Government notification that IATA code HYD of the existing airport is transferred to Rajiv Gandhi International Airport; also a dated observation of HYD at Begumpet.",
+      "limitations": "Image-only scan; quote read from the page image. Effect date superseded by S.O.504(E) and a later notification effective 00:01 2008-03-23 whose original was not obtained."
+    },
+    {
+      "sourceId": "b5-in-thesis-2016",
+      "family": "LEIDEN-THESIS",
+      "type": "secondary",
+      "publisher": "Leiden University (PhD thesis, George 2016)",
+      "title": "Thesis chapter 3.1.1 quoting Indian Gazette notifications",
+      "publicationDate": "2016",
+      "dateMeaning": "thesis publication; quotes 2008 notifications",
+      "url": "https://scholarlypublications.universiteitleiden.nl/download/1887/44409/4",
+      "anchors": [
+        "is hereby transferred to the Bangalore International Airport"
+      ],
+      "supports": "Verbatim quotation of S.O.1170(E) (BLR transferred from HAL, effect 00:01 2008-05-23) and the final Hyderabad notification (HYD transferred, effect 00:01 2008-03-23).",
+      "limitations": "Secondary transcription; original Gazette scans not obtained. BLR effect later moved to 00:01 2008-05-24 per a reproduced MoCA notice (secondary)."
+    },
+    {
+      "sourceId": "b5-in-moca-bial-2004",
+      "family": "IN-MOCA",
+      "type": "primary",
+      "publisher": "Ministry of Civil Aviation",
+      "title": "MoCA–BIAL Concession Agreement, 2004-07-05",
+      "publicationDate": "2004-07-05",
+      "dateMeaning": "agreement signature date; an obligation, not an effective transfer",
+      "url": "https://www.civilaviation.gov.in/sites/default/files/2023-02/moca_000743.pdf",
+      "anchors": [
+        "international code (BLR)"
+      ],
+      "supports": "Dated primary observation that BLR denoted the existing (HAL) airport and was to be transferred to the new airport.",
+      "limitations": "No transfer date."
+    },
+    {
+      "sourceId": "b5-iata-hyd-20261103",
+      "family": "IATA-CODE-SEARCH",
+      "type": "primary",
+      "publisher": "IATA",
+      "title": "IATA airport code search: HYD",
+      "publicationDate": "2026-11-03",
+      "dateMeaning": "observation date only (current directory)",
+      "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=HYD",
+      "anchors": [
+        "Rajiv Gandhi Int'l HYD"
+      ],
+      "supports": "Current IATA observation: HYD = Hyderabad Rajiv Gandhi Int'l.",
+      "limitations": "Current only; no history or allocation date."
+    },
+    {
+      "sourceId": "b5-iata-blr-20261103",
+      "family": "IATA-CODE-SEARCH",
+      "type": "primary",
+      "publisher": "IATA",
+      "title": "IATA airport code search: BLR",
+      "publicationDate": "2026-11-03",
+      "dateMeaning": "observation date only (current directory)",
+      "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=BLR",
+      "anchors": [
+        "Kempegowda Intl BLR"
+      ],
+      "supports": "Current IATA observation: BLR = Bengaluru Kempegowda Intl.",
+      "limitations": "Current only; no history or allocation date."
+    },
+    {
+      "sourceId": "b5-us-fr-1995-aus",
+      "family": "US-FEDERAL-REGISTER",
+      "type": "primary",
+      "publisher": "FAA / Federal Register",
+      "title": "60 FR 13747, PFC notice, Robert Mueller Municipal Airport",
+      "publicationDate": "1995-03-14",
+      "dateMeaning": "publication date",
+      "url": "https://www.govinfo.gov/content/pkg/FR-1995-03-14/html/95-6275.htm",
+      "anchors": [
+        "Robert Mueller Municipal Airport's (AUS)"
+      ],
+      "supports": "Dated observation of identifier AUS at Mueller.",
+      "limitations": "FAA/PFC usage of the location identifier; not an IATA allocation record."
+    },
+    {
+      "sourceId": "b5-us-fr-1998-bsm",
+      "family": "US-FEDERAL-REGISTER",
+      "type": "primary",
+      "publisher": "FAA / Federal Register",
+      "title": "63 FR 40668, proposed rule listing Austin-Bergstrom as BSM",
+      "publicationDate": "1998-07-30",
+      "dateMeaning": "publication date (signed 1998-07-24)",
+      "url": "https://www.govinfo.gov/content/pkg/FR-1998-07-30/html/98-20342.htm",
+      "anchors": [
+        "BSM"
+      ],
+      "supports": "Before opening, the Bergstrom site was identified as BSM.",
+      "limitations": "FAA identifier, not IATA."
+    },
+    {
+      "sourceId": "b5-us-fr-1999-aus",
+      "family": "US-FEDERAL-REGISTER",
+      "type": "primary",
+      "publisher": "FAA / Federal Register",
+      "title": "64 FR 6793, final rule listing Austin-Bergstrom as AUS",
+      "publicationDate": "1999-02-11",
+      "dateMeaning": "publication date (signed 1999-02-04); rule effect later delayed",
+      "url": "https://www.govinfo.gov/content/pkg/FR-1999-02-11/html/99-3359.htm",
+      "anchors": [
+        "Austin-Bergstrom International Airport, TX"
+      ],
+      "supports": "FAA lists the Bergstrom site with AUS and removes Mueller from the airspace rule.",
+      "limitations": "Prospective rule text; identifier usage, not allocation."
+    },
+    {
+      "sourceId": "b5-us-fr-1999-delay",
+      "family": "US-FEDERAL-REGISTER",
+      "type": "primary",
+      "publisher": "FAA / Federal Register",
+      "title": "64 FR 23184, delay of effective date to 0601 UTC 1999-05-23",
+      "publicationDate": "1999-04-30",
+      "dateMeaning": "publication date; airspace effect 0601 UTC 1999-05-23",
+      "url": "https://www.govinfo.gov/content/pkg/FR-1999-04-30/html/99-10964.htm",
+      "anchors": [
+        "May 23, 1999"
+      ],
+      "supports": "Official opening of Austin-Bergstrom delayed until 1999-05-23.",
+      "limitations": "Airspace date, not code date."
+    },
+    {
+      "sourceId": "b5-us-dtpp-2611",
+      "family": "US-FAA-AIS",
+      "type": "primary",
+      "publisher": "FAA Aeronautical Information Services",
+      "title": "d-TPP metafile cycle 2611",
+      "publicationDate": "2026-10-29",
+      "dateMeaning": "cycle effective 0901Z 2026-10-29 to 2026-11-26",
+      "url": "https://aeronav.faa.gov/d-tpp/2611/xml_data/d-TPP_Metafile.xml",
+      "anchors": [
+        "AUSTIN-BERGSTROM INTL"
+      ],
+      "supports": "Current FAA apt_ident AUS and icao_ident KAUS for Austin-Bergstrom.",
+      "limitations": "FAA identifier field is not an IATA record."
+    },
+    {
+      "sourceId": "b5-us-austin-library",
+      "family": "US-CITY-AUSTIN",
+      "type": "primary",
+      "publisher": "Austin Public Library, Austin History Center",
+      "title": "Aviation subject guide",
+      "publicationDate": "2022-04",
+      "dateMeaning": "guide publication",
+      "url": "https://library.austintexas.gov/library/2022-04/Aviation_Subject_Guide.pdf",
+      "anchors": [
+        "On May 22, 1999, Mueller had its last day of operation"
+      ],
+      "supports": "Mueller last day 1999-05-22; Bergstrom opened next day.",
+      "limitations": "Municipal retrospective guide; no codes."
+    },
+    {
+      "sourceId": "b5-de-dfs-eddm-2026",
+      "family": "DE-DFS-AIP",
+      "type": "primary",
+      "publisher": "DFS Deutsche Flugsicherung",
+      "title": "AIP Germany AD 2 EDDM 1-1 (page 03 SEP 2026, edition effective 2026-10-29)",
+      "publicationDate": "2026-09-03",
+      "dateMeaning": "page date; edition effective 2026-10-29",
+      "url": "https://aip.dfs.de/BasicIFR/2026OCT29/pages/5CF4B5CC14435D431509C4188A8F206F.html",
+      "anchors": [
+        "EDDM"
+      ],
+      "supports": "Current EDDM for the Erding/Freising site with its ARP.",
+      "limitations": "Rendered page image; no pre-1992 coverage; IATA appears only inside a SITA address."
+    },
+    {
+      "sourceId": "b5-de-fmg-chronology",
+      "family": "DE-FMG",
+      "type": "primary",
+      "publisher": "Flughafen München GmbH",
+      "title": "Ereignisse aus der Münchner Flughafengeschichte (PDF)",
+      "publicationDate": null,
+      "dateMeaning": "undated operator chronology",
+      "url": "https://www.munich-airport.de/_b/0000000000000013477455bb627a4adf/ereignisse-aus-der-muenchner-flughafengeschichte.pdf",
+      "anchors": [
+        "Riem"
+      ],
+      "supports": "Last Riem departure shortly before 23:00 on 1992-05-16; first landing at the new site 04:55 on 1992-05-17.",
+      "limitations": "No codes; undated retrospective."
+    },
+    {
+      "sourceId": "b5-jp-jma-179",
+      "family": "JP-JMA",
+      "type": "primary",
+      "publisher": "Japan Meteorological Agency",
+      "title": "Technical note No.179 (2004-12-28): Chubu RJGG service start",
+      "publicationDate": "2004-12-28",
+      "dateMeaning": "notice date; airport service 2005-02-17",
+      "url": "https://www.data.jma.go.jp/suishin/jyouhou/pdf/179.pdf",
+      "anchors": [
+        "RJGG"
+      ],
+      "supports": "Dated pre-opening association of RJGG with Chubu Centrair.",
+      "limitations": "Meteorological notice, not AIP designation."
+    },
+    {
+      "sourceId": "b5-jp-jma-182",
+      "family": "JP-JMA",
+      "type": "primary",
+      "publisher": "Japan Meteorological Agency",
+      "title": "Technical note No.182 (2005-02-09): RJNN to RJNA",
+      "publicationDate": "2005-02-09",
+      "dateMeaning": "notice date; RJNN messages end 2005-02-16 24:00 JST, RJNA start 2005-02-17 00:00 JST",
+      "url": "https://www.data.jma.go.jp/suishin/jyouhou/pdf/182.pdf",
+      "anchors": [
+        "RJNN",
+        "RJNA"
+      ],
+      "supports": "Same-site ICAO indicator change at Komaki from RJNN to RJNA at the 2005-02-17 airport reclassification.",
+      "limitations": "Weather-message switch date, not AIP/AIRAC designation."
+    },
+    {
+      "sourceId": "b5-jp-jma-284",
+      "family": "JP-JMA",
+      "type": "primary",
+      "publisher": "Japan Meteorological Agency",
+      "title": "Technical note No.284 (2008-06-17): forecasts incl. ROIG",
+      "publicationDate": "2008-06-17",
+      "dateMeaning": "notice date",
+      "url": "https://www.data.jma.go.jp/suishin/jyouhou/pdf/284.pdf",
+      "anchors": [
+        "ROIG"
+      ],
+      "supports": "ROIG observed for the old (city-site) Ishigaki airport in 2008.",
+      "limitations": "Meteorological notice."
+    },
+    {
+      "sourceId": "b5-jp-jma-20220209",
+      "family": "JP-JMA",
+      "type": "primary",
+      "publisher": "Japan Meteorological Agency",
+      "title": "Notice 2022-02-09 naming New Ishigaki Airport (ROIG)",
+      "publicationDate": "2022-02-09",
+      "dateMeaning": "notice date",
+      "url": "https://www.data.jma.go.jp/suishin/oshirase/pdf/20220209.pdf",
+      "anchors": [
+        "ROIG"
+      ],
+      "supports": "ROIG observed for the new Ishigaki site in 2022.",
+      "limitations": "Meteorological notice."
+    },
+    {
+      "sourceId": "b5-jp-okinawa-opening",
+      "family": "JP-OKINAWA-PREF",
+      "type": "primary",
+      "publisher": "Okinawa Prefecture",
+      "title": "New Ishigaki Airport page (entry 2012-12-19)",
+      "publicationDate": "2012-12-19",
+      "dateMeaning": "announcement of opening date 2013-03-07",
+      "url": "https://www.pref.okinawa.jp/shin-ishigaki",
+      "anchors": [
+        "新石垣空港の供用開始日が"
+      ],
+      "supports": "New Ishigaki Airport service start formally fixed for 2013-03-07.",
+      "limitations": "No codes; opening date is not a code date."
+    },
+    {
+      "sourceId": "b5-th-aot-2q06",
+      "family": "TH-AOT",
+      "type": "primary",
+      "publisher": "Airports of Thailand PCL",
+      "title": "Opportunity Day deck, 2Q FY2006",
+      "publicationDate": "2006",
+      "dateMeaning": "deck covering Jan–Mar 2006; exact publication date unknown",
+      "url": "https://investor.airportthai.co.th/misc/OppDay_2Q06.pdf",
+      "anchors": [
+        "Bangkok International Airport"
+      ],
+      "supports": "Before the move, operator label BKK = Bangkok International Airport (Don Muang).",
+      "limitations": "Investor presentation; publication day unknown."
+    },
+    {
+      "sourceId": "b5-th-aot-fy06",
+      "family": "TH-AOT",
+      "type": "primary",
+      "publisher": "Airports of Thailand PCL",
+      "title": "FY2006 results presentation",
+      "publicationDate": "2006",
+      "dateMeaning": "about December 2006; exact date unknown",
+      "url": "https://investor.airportthai.co.th/misc/FY06%20Presentation.pdf",
+      "anchors": [
+        "Suvarnabhumi"
+      ],
+      "supports": "After the move, operator uses BKK = Suvarnabhumi and DMK = Don Muang; Suvarnabhumi started operating 2006-09-28.",
+      "limitations": "Applies DMK retrospectively to FY2005 rows; not an allocation notice."
+    },
+    {
+      "sourceId": "b5-th-aip-vtbs-2026",
+      "family": "TH-CAAT-AIP",
+      "type": "primary",
+      "publisher": "CAAT",
+      "title": "AIP Thailand AIRAC 2026-10-29 AD 2 VTBS",
+      "publicationDate": "2026-10-29",
+      "dateMeaning": "AIRAC effective date",
+      "url": "https://aip.caat.or.th/2026-10-29-AIRAC/html/eAIP/VT-AD-2.VTBS-en-GB.html",
+      "anchors": [
+        "VTBS"
+      ],
+      "supports": "Current VTBS for Suvarnabhumi.",
+      "limitations": "No IATA codes; no 2006 edition obtained."
+    },
+    {
+      "sourceId": "b5-my-aip-wmkk-2026",
+      "family": "MY-CAAM-AIP",
+      "type": "primary",
+      "publisher": "CAAM",
+      "title": "AIP Malaysia AIRAC 2026-10-29 AD 2 WMKK",
+      "publicationDate": "2026-10-29",
+      "dateMeaning": "AIRAC effective date",
+      "url": "https://aip.caam.gov.my/aip/eAIP/2026-10-29-AIRAC/html/eAIP/WM-AD-2.WMKK-en-MS.html",
+      "anchors": [
+        "WMKK"
+      ],
+      "supports": "Current WMKK for KLIA (Sepang).",
+      "limitations": "No pre-1998 primary evidence for WMKK at Subang."
+    },
+    {
+      "sourceId": "b5-cn-kmg-notice-2012",
+      "family": "CN-YNAIRPORT",
+      "type": "primary",
+      "publisher": "Yunnan Airport Group",
+      "title": "Kunming transfer notice (2012-06-18)",
+      "publicationDate": "2012-06-18",
+      "dateMeaning": "notice date; last Wujiaba movements 2012-06-27 22:00/23:00, Changshui from 2012-06-28 08:00",
+      "url": "https://km.ynairport.com/notice/682.jhtml",
+      "anchors": [
+        "长水"
+      ],
+      "supports": "Operator-announced cut-over times.",
+      "limitations": "No codes in notice."
+    },
+    {
+      "sourceId": "b5-cn-icao-2010-zppp",
+      "family": "ICAO-APAC",
+      "type": "primary",
+      "publisher": "ICAO Asia/Pacific",
+      "title": "CNS/MET SG/14 WP/27 (2010-07-19)",
+      "publicationDate": "2010-07-19",
+      "dateMeaning": "meeting paper date",
+      "url": "https://www.icao.int/sites/default/files/sp-files/APAC/Documents/Meetings/2010/cnsmet_sg14/WP27.pdf",
+      "anchors": [
+        "Wujiaba"
+      ],
+      "supports": "ZPPP associated with KUNMING/Wujiaba in 2010.",
+      "limitations": "Regional planning table, not AIP."
+    },
+    {
+      "sourceId": "b5-cn-wuz-caac-2018",
+      "family": "CN-CAAC",
+      "type": "primary",
+      "publisher": "CAAC",
+      "title": "2018 airport production statistics bulletin",
+      "publicationDate": "2019-03-05",
+      "dateMeaning": "bulletin publication",
+      "url": "https://www.caac.gov.cn/XXGK/XXGK/TJSJ/201903/t20190305_194972.html",
+      "anchors": [
+        "梧州"
+      ],
+      "supports": "CAAC records Wuzhou Xijiang (formerly Changzhoudao) as one continuous certified airport entry.",
+      "limitations": "Statistics entry; no codes."
+    },
+    {
+      "sourceId": "b5-kr-aim-history-2025",
+      "family": "KR-MOLIT-AIP",
+      "type": "primary",
+      "publisher": "MOLIT / Korea Office of Civil Aviation AIM",
+      "title": "eAIP package history index (?ver=2025), re-obtained 2026-11-03",
+      "publicationDate": null,
+      "dateMeaning": "living index; capture date only",
+      "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html?ver=2025",
+      "anchors": [
+        "2025-04-16"
+      ],
+      "supports": "Lists controlled AIRAC packages. Its bytes differ from the PR #23 locked original (146bf11c…), so the authorized rule-v1 executor rejects the evidence version.",
+      "limitations": "Index only; no airport facts. The changed bytes block the authorized Korean executor without a replacement contract."
+    },
+    {
+      "sourceId": "b5-kr-rksi-20250416",
+      "family": "KR-MOLIT-AIP",
+      "type": "primary",
+      "publisher": "MOLIT AIM",
+      "title": "AIP Korea AIRAC 2025-04-16 AD 2 RKSI",
+      "publicationDate": "2025-04-16",
+      "dateMeaning": "AIRAC package date; effective 16:00 UTC (next local day 01:00 KST)",
+      "url": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eAIP/KR-AD-2.RKSI-en-GB.html",
+      "anchors": [
+        "RKSI"
+      ],
+      "supports": "Dated RKSI observation for Incheon.",
+      "limitations": "Same issuer as the 2025-05-14 edition; not independent."
+    },
+    {
+      "sourceId": "b5-kr-rkss-20250416",
+      "family": "KR-MOLIT-AIP",
+      "type": "primary",
+      "publisher": "MOLIT AIM",
+      "title": "AIP Korea AIRAC 2025-04-16 AD 2 RKSS",
+      "publicationDate": "2025-04-16",
+      "dateMeaning": "AIRAC package date; effective 16:00 UTC",
+      "url": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eAIP/KR-AD-2.RKSS-en-GB.html",
+      "anchors": [
+        "RKSS"
+      ],
+      "supports": "Dated RKSS observation for Gimpo.",
+      "limitations": "Same issuer family."
+    }
+  ]
+}
