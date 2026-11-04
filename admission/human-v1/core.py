@@ -609,7 +609,7 @@ DATA_PINNED = {
     'pnpm evidence:priority-markets validate': 'priority-markets baseline lock pins data/airports.json bytes',
     'pnpm policy:validate': 'policy report pins the 0.9.0/0.10.0 simulation inputs',
     'pnpm test': 'three vitest files assert exact boundary counts of the published data; all others run below',
-    'pnpm test:evidence': 'two Korean tests pin research fingerprints that include data/airports.json; all others run below',
+    'pnpm test:evidence': 'two Korean tests pin research fingerprints that include data/airports.json and the Global Batch 5 research validator asserts data 0.10.0; all others run below',
     'python3 scripts/admission/kr_verify.py validate': 'Korean protected baseline pins data/airports.json',
     'python3 scripts/admission/kr_rehearsal.py': 'Korean fingerprints include data/airports.json',
     'python3 admission/v1/verify.py': 'rule-v1 verify hard-codes dataVersion 0.10.0 and its counts',

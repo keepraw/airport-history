@@ -1,4 +1,4 @@
-"""Run every test/evidence test except the two that pin the frozen 0.10.0 bytes.
+"""Run every test/evidence test except the three that pin the frozen 0.10.0 bytes.
 
 Those two run unchanged in the frozen published tree (see core.DATA_PINNED).
 """
@@ -10,6 +10,8 @@ ROOT = Path(__file__).resolve().parents[2]
 FROZEN_ONLY = {
     'test_kr_admission.KoreanAdmissionTests',
     'test_korea_readiness.KoreaReadinessTests.test_corpus_receipt_replays_offline_without_claiming_fresh_sources',
+    # The Global Batch 5 research validator asserts formal data is still exactly 0.10.0.
+    'test_global_batch_5.GlobalBatchFiveTests.test_offline_validation_and_resolver_replay',
 }
 
 

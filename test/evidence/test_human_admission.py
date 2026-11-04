@@ -505,13 +505,13 @@ class HumanAdmissionTest(unittest.TestCase):
             self.refused('Another human admission batch is active', self.validate)
         finally:
             shutil.rmtree(other.parent)
-        published = self.root / ('research/admissions/%s/human-v1' % ns['base'])
+        published = self.root / 'research/admissions/0.0.1/human-v1'  # an earlier, published version
         published.mkdir(parents=True)
         try:
             (published / 'records.json').write_text(json.dumps({'records': [{'collection': 'airports', 'id': ids['A1'], 'record': {}}]}))
             self.refused('Permanent identifier reused across batches', self.validate)
         finally:
-            shutil.rmtree(published)
+            shutil.rmtree(published.parent)
 
     def test_15_executor_changed_after_approval(self):
         path = self.root / 'admission/human-v1/core.py'
