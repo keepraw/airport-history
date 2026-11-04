@@ -280,6 +280,12 @@ class HumanAdmissionTest(unittest.TestCase):
         shutil.copytree(ROOT / 'admission/human-v1', root / 'admission/human-v1',
                         ignore=shutil.ignore_patterns('__pycache__'))
         shutil.copyfile(ROOT / '.github/workflows/human-admission.yml', root / '.github/workflows/human-admission.yml')
+        base_version = json.loads((root / 'data/airports.json').read_text())['dataVersion']
+        # A disposable tree whose data was reset below an existing human release (e.g. an
+        # isolated policy rehearsal) must not see that later release as a competing batch.
+        for later in (root / 'research/admissions').glob('*/human-v1'):
+            if tuple(map(int, later.parent.name.split('.'))) > tuple(map(int, base_version.split('.'))):
+                shutil.rmtree(later)
         for args in (['add', '-A'], ['-c', 'user.name=keepraw', '-c', 'user.email=49091395+keepraw@users.noreply.github.com',
                                        'commit', '-q', '--allow-empty', '-m', 'test base']):
             subprocess.run(['git', *args], cwd=root, check=True)
