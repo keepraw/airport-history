@@ -107,14 +107,36 @@ offline and says so.
 `.github/workflows/human-admission.yml` runs `human.py ci`:
 
 * No human release at the current `dataVersion`: no-op, the legacy workflows run unchanged.
-* A human release: validate the bundle (approval re-read live), require
-  `data/airports.json` = approved candidate = `test/curated-<version>.json` and
-  `package.json` version, then replay **every** legacy workflow step unchanged in
-  the frozen base tree (`git archive` of the base commit, so AAI `policy_formal`,
-  `policy:validate`, Korean adapter, rule engine and all tests run on the bytes
-  they were authorized for), then run every legacy step that does not pin the
-  0.10.0 bytes in the current tree. The data-pinned steps are listed with
-  reasons in `core.DATA_PINNED`.
+* A human release, in this order:
+  1. **Preflight (seconds, before any command):** data = approved candidate =
+     `test/curated-<version>.json`, `package.json` version; full bundle validation
+     with the Owner approval re-read live; release lineage; every earlier human
+     release verified (below); the routing plan (each legacy check routed to exactly
+     one tree, data-pinned ones never on the release tree); no untracked file or
+     tracked symlink in the release tree or the frozen tree.
+  2. **Quick checks** of the frozen tree, then of the release tree, rights audits first.
+  3. **Heavy checks** last: frozen data-pinned evidence tests, then
+     `evidence_tests.py` and `pnpm policy:rehearse` on the release tree.
+
+  Every command prints `[tree i/n]`, a heartbeat each minute while it runs and its
+  duration; the router ends with a timing line.
+
+* **Frozen tree = the legacy anchor only.** The newest published main commit that is
+  not a human release (`git archive`, so AAI `policy_formal`, Korean and rule-v1
+  checks run on the bytes they were authorized for). It runs only the checks in
+  `core.DATA_PINNED`, unchanged (for `pnpm test:evidence`, exactly the data-pinned
+  tests: `evidence_tests.py --frozen-only`). Every other legacy check runs once, on
+  the release tree, as itself or via `core.CURRENT_REPLACEMENTS`. Those checks
+  already passed on the anchor's bytes when it was published as main.
+* **Earlier human releases are verified, not replayed.** `verify_earlier_releases`
+  walks back from the base: the release's bundle directory and
+  `test/curated-<v>.json` in HEAD are the exact git objects published with it;
+  every bundle file hashes to its manifest; the candidate equals the data published
+  at that commit; the original-verification receipt is bound to the lock; the
+  recorded approval is bound to the manifest and text, and the live Owner comment
+  still matches; the release sits directly on its approved base. That is O(1) git
+  and API work per release, so CI time no longer grows with the number of releases:
+  the heavy work is one frozen pinned replay plus one release-tree run.
 * `korea_readiness.py rights` reaches the 0.10.0 priority-markets lock indirectly
   (`priority_markets.rights_audit()` -> `verify()`), so it is data-pinned too and
   runs unchanged in the frozen tree. In the current tree `rights.py` runs the same
@@ -122,6 +144,13 @@ offline and says so.
   that one entry check is narrowed: every other file in the priority-markets
   baseline lock must match byte for byte, and `data/airports.json` plus the version
   must equal the approved bundle. No hash, lock or authorization is changed.
+
+`.github/workflows/human-admission-route-e2e.yml` runs the route on a fictional
+release whenever the router changes: `pull_request` executes every command for
+real; `push` (main == merge) executes the quick ones, records the heavy ones as
+planned, and checks the publishing relationships (squash and later main commit
+accepted; an old PR re-run after main advanced and a merge onto a newer main
+refused before any command).
 
 `submit` removes `ci.yml`, `kr-admission.yml` and `rule-admission.yml` in the data
 PR because their steps then run inside the router. See the Owner decisions in

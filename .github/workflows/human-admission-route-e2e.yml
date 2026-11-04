@@ -22,7 +22,7 @@ permissions:
 jobs:
   route-e2e:
     runs-on: ubuntu-latest
-    timeout-minutes: 180
+    timeout-minutes: 90
     strategy:
       fail-fast: false
       matrix:
@@ -41,7 +41,7 @@ jobs:
       - name: Ensure original PDF extraction is available
         run: command -v pdftotext || (sudo apt-get update && sudo apt-get install -y poppler-utils)
       - run: pnpm install --frozen-lockfile
-      - name: Full human.py ci route on a fictional release (${{ matrix.scenario }})
+      - name: human.py ci route on a fictional release (${{ matrix.scenario }}; pull_request executes every command)
         run: python3 test/evidence/human_admission_route_e2e.py --scenario ${{ matrix.scenario }} --report route-e2e-${{ matrix.scenario }}.json
         env:
           GH_TOKEN: ${{ github.token }}

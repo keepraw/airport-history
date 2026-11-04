@@ -26,6 +26,8 @@ import subprocess
 import sys
 import tarfile
 import tempfile
+import threading
+import time
 import urllib.request
 from pathlib import Path
 
@@ -747,12 +749,65 @@ def workflow_commands(root):
     return commands
 
 
-def run_all(commands, cwd):
-    env = dict(os.environ)
-    for command in commands:
-        print('::group::' + command, flush=True)
-        subprocess.run(command, shell=True, cwd=cwd, check=True, env=env)
-        print('::endgroup::', flush=True)
+# The frozen tree replays only the data-pinned checks: everything else runs on the
+# release tree itself (or via its replacement), so each legacy check runs exactly once.
+# test:evidence is pinned only for the FROZEN_ONLY tests of evidence_tests.py; the
+# frozen tree runs exactly those, the current tree all the others.
+FROZEN_EVIDENCE = 'python3 %s --frozen-only' % (HERE / 'evidence_tests.py')
+FROZEN_REPLACEMENTS = {'pnpm test:evidence': [FROZEN_EVIDENCE]}
+# Long commands run after every quick check of both trees has passed.
+HEAVY = {'pnpm policy:rehearse', 'python3 admission/human-v1/evidence_tests.py', FROZEN_EVIDENCE}
+# Release-compatibility checks that fail in seconds: run before anything else.
+FIRST = ('python3 scripts/evidence/korea_readiness.py rights', 'python3 admission/human-v1/rights.py')
+HEARTBEAT_SECONDS = 60
+TIMINGS = []
+
+
+def route_plan(legacy):
+    """(frozen, current): every legacy check routed to exactly one tree, data-pinned ones frozen-only."""
+    frozen, current = [], []
+    for command in dict.fromkeys(legacy):
+        if command in DATA_PINNED:
+            frozen.extend(FROZEN_REPLACEMENTS.get(command, [command]))
+        current.extend(CURRENT_REPLACEMENTS.get(command, [] if command in DATA_PINNED else [command]))
+    for command in set(legacy):
+        require(command in DATA_PINNED or command in current or command in CURRENT_REPLACEMENTS,
+                'Legacy check not routed to any tree: ' + command)
+    require(not set(DATA_PINNED) & set(current), 'Data-pinned check routed to the current tree')
+    return frozen, current
+
+
+def phases(commands):
+    """Quick commands first (release-compatibility checks at the very front), heavy ones last; order otherwise kept."""
+    quick = [c for c in commands if c not in HEAVY]
+    quick = [c for c in quick if c in FIRST] + [c for c in quick if c not in FIRST]
+    return quick, [c for c in commands if c in HEAVY]
+
+
+def execute(command, cwd):
+    subprocess.run(command, shell=True, cwd=cwd, check=True, env=dict(os.environ))
+
+
+def run_all(commands, cwd, label='current'):
+    for index, command in enumerate(commands, 1):
+        started = time.monotonic()
+        print('::group::[%s %d/%d] %s' % (label, index, len(commands), command), flush=True)
+        done = threading.Event()
+
+        def heartbeat():
+            while not done.wait(HEARTBEAT_SECONDS):
+                print('[human-v1] still running [%s] %s: %dm%02ds' % ((label, command) + divmod(int(time.monotonic() - started), 60)),
+                      flush=True)
+        thread = threading.Thread(target=heartbeat, daemon=True)
+        thread.start()
+        try:
+            execute(command, cwd)
+        finally:
+            done.set()
+            seconds = time.monotonic() - started
+            TIMINGS.append((label, command, round(seconds, 1)))
+            print('::endgroup::', flush=True)
+            print('[human-v1] [%s] %s: %.1fs' % (label, command, seconds), flush=True)
 
 
 def frozen_tree(commit, tmp):
@@ -774,7 +829,91 @@ def frozen_tree(commit, tmp):
     return root
 
 
+def require_clean_tree(root, what):
+    """Untracked inputs (a stray symlink, a generated file) fail here in seconds, not after a 15-minute rehearsal."""
+    status = subprocess.run(['git', 'status', '--porcelain', '--untracked-files=all'], cwd=root, capture_output=True,
+                            text=True, check=True).stdout.strip()
+    require(not status, '%s tree has untracked or modified files: %s' % (what, status[:300]))
+    links = [p for p in subprocess.check_output(['git', 'ls-files', '-s'], cwd=root, text=True).splitlines()
+             if p.startswith('120000 ')]
+    require(not links, '%s tree tracks symlinks: %s' % (what, links[:3]))
+
+
+def _show(commit, path, root=ROOT):
+    return subprocess.check_output(['git', 'show', '%s:%s' % (commit, path)], cwd=root)
+
+
+def _object(commit, path, root=ROOT):
+    return subprocess.run(['git', 'rev-parse', '--verify', '--quiet', '%s:%s' % (commit, path)], cwd=root,
+                          capture_output=True, text=True).stdout.strip()
+
+
+def verify_earlier_releases(base_commit, reader=None, root=ROOT):
+    """Walk back through every earlier human release without re-running its CI.
+
+    Each earlier release already passed the full release CI when it was published,
+    on bytes that are immutable by commit SHA. Here we prove those bytes are still
+    what was approved and published, in O(1) work per release:
+
+    * its bundle directory and ``test/curated-<v>.json`` in HEAD are the exact git
+      objects published with it (no later edit, deletion or substitution);
+    * every bundle file still hashes to its manifest, the candidate equals the data
+      published at that commit and its immutable snapshot;
+    * the recorded Owner approval is bound to that manifest and its text, and the
+      live GitHub comment still matches it (not edited, revoked or fabricated);
+    * the release was published directly on its approved base (release lineage).
+
+    Returns the first commit that is not a human release (the legacy anchor, whose
+    data-pinned checks are replayed frozen) and the releases checked, newest first.
+    """
+    checked, commit = [], base_commit
+    while True:
+        version = data_version_at(commit, root)
+        require(version, 'No formal data at %s' % commit[:12])
+        bundle_path = 'research/admissions/%s/human-v1' % version
+        published = _object(commit, bundle_path, root)
+        if not published:
+            return commit, checked
+        started = time.monotonic()
+        snapshot = 'test/curated-%s.json' % version
+        require(_object('HEAD', bundle_path, root) == published, 'Published human-v1 bundle %s changed after release' % version)
+        require(_object('HEAD', snapshot, root) == _object(commit, snapshot, root) == _object(commit, 'data/airports.json', root),
+                'Immutable snapshot of release %s missing or different' % version)
+        with tempfile.TemporaryDirectory(prefix='release-') as tmp:
+            archive = subprocess.check_output(['git', 'archive', commit, bundle_path], cwd=root)
+            with tarfile.open(fileobj=io.BytesIO(archive)) as tar:
+                tar.extractall(tmp, filter='data')
+            b = load_bundle(Path(tmp) / bundle_path)
+        m = b['manifest']
+        require(m.get('format') == FORMAT and m['targetDataVersion'] == version, 'Release %s manifest is not its own' % version)
+        hashes = {'candidateSha256': b['proposed-data'], 'recordsSha256': b['records']['records'],
+                  'evidenceLockSha256': b['evidence-lock'], 'reviewBatchesSha256': b['batches'], 'dossierSha256': b['dossier'],
+                  'excludedSha256': b['excluded'], 'coverageSha256': b['coverage'],
+                  'originalVerificationSha256': b['original-verification']}
+        for key, value in hashes.items():
+            require(m[key] == sha(value), 'Release %s bundle file changed: %s' % (version, key))
+        require(b['proposed-data'] == json.loads(_show(commit, 'data/airports.json', root)),
+                'Release %s published data detached from its approved candidate' % version)
+        require(m['baseDataSha256'] == sha_bytes(_show(m['baseCommit'], 'data/airports.json', root)),
+                'Release %s base data hash changed' % version)
+        check_receipt(b['original-verification'], b['evidence-lock'])
+        recorded, text = b['approval'], approval_text(m)
+        require(recorded and recorded.get('manifestSha256') == sha(m) and
+                recorded.get('approvalTextSha256') == sha_bytes(text.encode()),
+                'Release %s approval is bound to a different manifest/text' % version)
+        require(read_owner_comment(recorded['comment']['html_url'], text, reader) == recorded['comment'],
+                'Release %s Owner approval edited, revoked or fabricated' % version)
+        publisher, parent = publishing_commit(version, commit, root)
+        require(parent == m['baseCommit'], 'Release %s was not published on its approved base' % version)
+        checked.append({'dataVersion': version, 'publishingCommit': publisher, 'baseCommit': m['baseCommit'],
+                        'seconds': round(time.monotonic() - started, 2)})
+        print('[human-v1] earlier release %s verified (published by %s on %s, approval re-read live) in %.2fs'
+              % (version, publisher[:12], m['baseCommit'][:12], checked[-1]['seconds']), flush=True)
+        commit = m['baseCommit']
+
+
 def ci():
+    started = time.monotonic()
     current = load(ROOT / 'data/airports.json')
     bundle = bundle_dir(current['dataVersion'])
     if not bundle.exists():
@@ -783,34 +922,43 @@ def ci():
         print('No human-v1 release at dataVersion %s; the legacy workflows own CI unchanged. '
               'Human-v1 entry checked executor %s.' % (current['dataVersion'], executor()['executorSha256']))
         return
+    del TIMINGS[:]
+    # -- preflight: everything here takes seconds ---------------------------------
+    require(load(bundle / 'proposed-data.json') == current, 'Published data detached from its approved candidate')
+    require(load(ROOT / 'package.json')['version'] == current['dataVersion'], 'package.json version detached from data')
+    require((ROOT / ('test/curated-%s.json' % current['dataVersion'])).read_bytes() ==
+            (ROOT / 'data/airports.json').read_bytes(), 'Immutable snapshot of this release missing or different')
     proof = validate_bundle(bundle, fresh=False)
     m = proof['manifest']
     lineage = check_release_lineage(m)
     print('Release lineage: %s published by %s on approved base %s (current main %s).'
           % (m['targetDataVersion'], lineage['publishingCommit'][:12], m['baseCommit'][:12], lineage['currentMain'][:12]),
           flush=True)
-    require(load(bundle / 'proposed-data.json') == current, 'Published data detached from its approved candidate')
-    require((ROOT / ('test/curated-%s.json' % m['targetDataVersion'])).read_bytes() ==
-            (ROOT / 'data/airports.json').read_bytes(), 'Immutable snapshot of this release missing or different')
-    require(load(ROOT / 'package.json')['version'] == current['dataVersion'], 'package.json version detached from data')
+    anchor, earlier = verify_earlier_releases(m['baseCommit'])
+    frozen_cmds, current_cmds = route_plan(LEGACY_CURRENT_COMMANDS)
+    require_clean_tree(ROOT, 'Release')
     WORK.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='frozen-', dir=WORK) as tmp:
-        root = frozen_tree(m['baseCommit'], tmp)
-        frozen_version = load(root / 'data/airports.json')['dataVersion']
-        if (root / 'admission/human-v1/human.py').exists() and bundle_dir(frozen_version, root).exists():
-            run_all(['python3 admission/human-v1/human.py ci'], root)  # recursive replay of an earlier human release
-        else:
-            legacy = workflow_commands(root)
-            require(sorted(legacy) == sorted(LEGACY_CURRENT_COMMANDS),
-                    'Frozen legacy workflows differ from the declared legacy check list')
-            run_all(legacy, root)
-    commands = []
-    for command in dict.fromkeys(LEGACY_CURRENT_COMMANDS):
-        commands.extend(CURRENT_REPLACEMENTS.get(command, [] if command in DATA_PINNED else [command]))
-    run_all(commands, ROOT)
+        root = frozen_tree(anchor, tmp)
+        legacy = workflow_commands(root)
+        require(sorted(legacy) == sorted(LEGACY_CURRENT_COMMANDS),
+                'Frozen legacy workflows differ from the declared legacy check list')
+        require_clean_tree(root, 'Frozen')
+        frozen_quick, frozen_heavy = phases(frozen_cmds)
+        current_quick, current_heavy = phases(current_cmds)
+        print('[human-v1] preflight passed in %.1fs: %d earlier human release(s) verified without replay; legacy anchor %s; '
+              'plan frozen %d quick + %d heavy, current %d quick + %d heavy'
+              % (time.monotonic() - started, len(earlier), anchor[:12], len(frozen_quick), len(frozen_heavy),
+                 len(current_quick), len(current_heavy)), flush=True)
+        for commands, cwd, label in ((frozen_quick, root, 'frozen'), (current_quick, ROOT, 'current'),
+                                     (frozen_heavy, root, 'frozen'), (current_heavy, ROOT, 'current')):
+            if commands:
+                run_all(commands, cwd, label)
+    print('[human-v1] timings: ' + '; '.join('%s %s %.1fs' % t for t in TIMINGS), flush=True)
     print('Human-v1 release %s validated: Owner approval re-read live, offline original-verification receipt replayed '
-          '(no original bytes on CI), frozen %s legacy CI replayed unchanged, current-tree checks passed.'
-          % (m['targetDataVersion'], m['baseCommit'][:12]))
+          '(no original bytes on CI), %d earlier human release(s) verified immutable and approved, data-pinned legacy '
+          'checks replayed unchanged in frozen %s, every other check on the release tree (%.0fs).'
+          % (m['targetDataVersion'], len(earlier), anchor[:12], time.monotonic() - started))
 
 
 # The full legacy command list at the time Human v1 was introduced (main 5c54ab3).

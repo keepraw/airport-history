@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[2]
 REVIEWED_ON = '2026-11-04'
 VERSION = '0.11.0'
 APPROVAL_URL = 'https://github.com/keepraw/airport-history/issues/999#issuecomment-123456789'
+APPROVAL_URL_2 = 'https://github.com/keepraw/airport-history/issues/999#issuecomment-123456790'
 
 A1, A2, B1, C1 = ('apt_00000000-0000-4000-8000-0000000000a1', 'apt_00000000-0000-4000-8000-0000000000a2',
                   'apt_00000000-0000-4000-8000-0000000000b1', 'apt_00000000-0000-4000-8000-0000000000c1')
@@ -255,15 +256,18 @@ def spec(core):
 
 
 class FakeGitHub:
-    def __init__(self, body, login='keepraw', user_id=49091395):
+    def __init__(self, body, login='keepraw', user_id=49091395, others=None):
         self.body, self.login, self.user_id = body, login, user_id
+        # Further approval comments (earlier releases): comment URL -> body.
+        self.comments = {APPROVAL_URL: body, **(others or {})}
 
     def __call__(self, path):
         if path == 'repos/keepraw/airport-history':
             return {'owner': {'login': 'keepraw', 'id': 49091395}}
-        return {'html_url': APPROVAL_URL, 'issue_url': 'https://api.github.com/repos/keepraw/airport-history/issues/999',
-                'user': {'login': self.login, 'id': self.user_id, 'type': 'User'}, 'body': self.body,
-                'created_at': '2026-11-04T01:00:00Z', 'updated_at': '2026-11-04T01:00:00Z'}
+        url = next((u for u in self.comments if path.endswith('/comments/' + u.rsplit('-', 1)[1])), APPROVAL_URL)
+        return {'html_url': url, 'issue_url': 'https://api.github.com/repos/keepraw/airport-history/issues/999',
+                'user': {'login': self.login, 'id': self.user_id, 'type': 'User'}, 'body': self.comments[url],
+                'created_at': '2026-11-04T09:00:00Z', 'updated_at': '2026-11-04T09:00:00Z'}
 
 
 def git(root, *args):
@@ -656,13 +660,11 @@ class HumanAdmissionTest(unittest.TestCase):
 
 class Recorder:
     """Records the router's command groups instead of executing them (the full run is the route E2E)."""
-    def __init__(self, nested=None):
-        self.groups, self.nested = [], nested
+    def __init__(self):
+        self.groups = []
 
-    def __call__(self, commands, cwd):
-        self.groups.append((Path(cwd), list(commands)))
-        if self.nested and commands == ['python3 admission/human-v1/human.py ci']:
-            self.nested(Path(cwd))
+    def __call__(self, commands, cwd, label='current'):
+        self.groups.append((Path(cwd), label, list(commands)))
 
 
 class HumanReleaseLineageTest(unittest.TestCase):
@@ -733,60 +735,80 @@ class HumanReleaseLineageTest(unittest.TestCase):
         self.at(bad)
         self.refused('not on its approved base', self.lineage)
 
-    RECURSE = ['python3 admission/human-v1/human.py ci']
-
-    def route(self, core, text):
-        """Run ``core.ci()`` with commands recorded, following recursive replays of earlier human releases.
-
-        Returns one (root, dataVersion, groups) level per release, newest first, down to the
-        frozen tree that is not a human release and so runs the legacy list. Each earlier
-        release is checked by its own router with its own approval text (simulated here).
-        """
-        levels = []
-
-        def nested(frozen_root):
-            inner = load_core(frozen_root)
-            version = inner.load(frozen_root / 'data/airports.json')['dataVersion']
-            manifest = inner.load(inner.bundle_dir(version, frozen_root) / 'manifest.json')
-            levels.extend(self.route(inner, inner.approval_text(manifest)))
-
-        recorder = Recorder(nested)
+    def route(self, core, text, others=None):
+        """Run ``core.ci()`` with every command group recorded instead of executed (the full run is the route E2E)."""
+        recorder = Recorder()
         original_run, original_github = core.run_all, core.github
-        core.run_all, core.github = recorder, FakeGitHub(text)
+        core.run_all, core.github = recorder, FakeGitHub(text, others=others)
         try:
             core.ci()
         finally:
             core.run_all, core.github = original_run, original_github
-        version = core.load(core.ROOT / 'data/airports.json')['dataVersion']
-        return [(core.ROOT, version, recorder.groups)] + levels
+        return recorder.groups
 
-    def check_levels(self, levels):
-        legacy = self.core.LEGACY_CURRENT_COMMANDS
-        self.assertGreaterEqual(len(levels), 1)
-        for index, (root, _, groups) in enumerate(levels):
-            (frozen_cwd, frozen), (current_cwd, current) = groups
-            self.assertNotEqual(frozen_cwd, root)
-            self.assertEqual(current_cwd, root)
-            if index + 1 < len(levels):
-                self.assertEqual(frozen, self.RECURSE)  # an earlier human release: its own router replays it
-                self.assertEqual(levels[index + 1][0], frozen_cwd)
+    def check_route(self, groups, anchor_version):
+        core, legacy = self.core, self.core.LEGACY_CURRENT_COMMANDS
+        frozen = [c for cwd, label, cmds in groups if label == 'frozen' for c in cmds]
+        current = [c for cwd, label, cmds in groups if label == 'current' for c in cmds]
+        self.assertEqual({cwd for cwd, label, _ in groups if label == 'current'}, {core.ROOT})
+        frozen_roots = {cwd for cwd, label, _ in groups if label == 'frozen'}
+        self.assertEqual(len(frozen_roots), 1)  # one frozen tree: the legacy anchor, never a chain of replays
+        self.assertNotIn(core.ROOT, frozen_roots)
+        expected_frozen, expected_current = core.route_plan(legacy)
+        self.assertEqual(sorted(frozen), sorted(expected_frozen))
+        self.assertEqual(sorted(current), sorted(expected_current))
+        self.assertEqual(len(frozen), len(set(frozen)))  # nothing runs twice in a tree
+        self.assertEqual(len(current), len(set(current)))
+        # Data-pinned checks: frozen only; the others: on the release tree (or by their declared replacement).
+        for command in set(legacy):
+            if command in core.DATA_PINNED:
+                self.assertTrue(set(core.FROZEN_REPLACEMENTS.get(command, [command])) <= set(frozen), command)
+                self.assertNotIn(command, current)
             else:
-                self.assertEqual(sorted(frozen), sorted(legacy))  # every legacy check, unchanged, in the frozen tree
-                for pinned in self.core.DATA_PINNED:
-                    self.assertIn(pinned, frozen)
-            for pinned in self.core.DATA_PINNED:
-                self.assertNotIn(pinned, current)
-            expected = [e for c in dict.fromkeys(legacy)
-                        for e in self.core.CURRENT_REPLACEMENTS.get(c, [] if c in self.core.DATA_PINNED else [c])]
-            self.assertEqual(current, expected)
+                self.assertNotIn(command, frozen)
+            self.assertTrue(set(core.CURRENT_REPLACEMENTS.get(command, [] if command in core.DATA_PINNED else [command]))
+                            <= set(current), command)
+        self.assertIn('python3 admission/human-v1/evidence_tests.py', current)
+        self.assertIn(core.FROZEN_EVIDENCE, frozen)
+        self.assertNotIn('pnpm test:evidence', frozen)
+        self.assertNotIn('python3 admission/human-v1/human.py ci', frozen + current)  # no recursive replay
+        # Order: every quick group of both trees before any heavy command; rights audits first.
+        labels = [(label, any(c in core.HEAVY for c in cmds)) for _, label, cmds in groups]
+        self.assertEqual(labels, [('frozen', False), ('current', False), ('frozen', True), ('current', True)])
+        self.assertEqual(groups[0][2][0], 'python3 scripts/evidence/korea_readiness.py rights')
+        self.assertEqual(groups[1][2][0], 'python3 admission/human-v1/rights.py')
+        self.assertTrue(all(c in core.HEAVY for _, _, cmds in groups[2:] for c in cmds))
 
     def test_d_ci_routes_pinned_checks_to_frozen_tree(self):
         set_main(self, self.merge)
         self.at(self.merge)
-        levels = self.route(self.core, self.text)
-        self.assertEqual(levels[0][1], self.version)
-        # The starting tree may itself already carry earlier human releases (e.g. on a later main).
-        self.check_levels(levels)
+        base_version = json.loads(git(self.root, 'show', self.base + ':data/airports.json'))['dataVersion']
+        self.check_route(self.route(self.core, self.text), base_version)
+
+    def test_d2_ci_preflight_fails_fast(self):
+        """Release-compatibility errors stop the router before any command runs."""
+        set_main(self, self.merge)
+        self.at(self.merge)
+        stray = self.root / 'scripts/stray-untracked-input.json'
+        stray.write_text('{}')
+        try:
+            recorder = Recorder()
+            original_run, original_github = self.core.run_all, self.core.github
+            self.core.run_all, self.core.github = recorder, FakeGitHub(self.text)
+            try:
+                self.refused('Release tree has untracked or modified files', self.core.ci)
+            finally:
+                self.core.run_all, self.core.github = original_run, original_github
+            self.assertEqual(recorder.groups, [])
+        finally:
+            stray.unlink()
+        package = self.root / 'package.json'
+        raw = package.read_bytes()
+        try:
+            package.write_text(json.dumps({**json.loads(raw), 'version': '0.0.1'}))
+            self.refused('package.json version detached from data', self.core.ci)
+        finally:
+            package.write_bytes(raw)
 
     def test_e_stale_batch_after_first_merge(self):
         """Two batches prepared on one main: once the first is merged the other cannot proceed."""
@@ -871,11 +893,13 @@ class HumanReleaseLineageTest(unittest.TestCase):
             subprocess.run(['git', 'rm', '-q', '--cached', '-f', str(private)], cwd=self.root, check=True)
             private.unlink()
 
-    def test_z_recursive_replay_of_earlier_human_release(self):
-        """A second human release replays the first one recursively in its frozen tree."""
+    def test_z_second_release_verifies_the_first_without_replaying_it(self):
+        """A second human release checks the first one's bundle, snapshot, approval and lineage, and replays
+        only the legacy anchor's data-pinned checks: no recursive CI, no growth with the number of releases."""
         set_main(self, self.merge)
         self.at(self.merge)
         first_text, first_version = self.text, self.version
+        base_version = json.loads(git(self.root, 'show', self.base + ':data/airports.json'))['dataVersion']
         configure(first_version)
         spec2 = localized_spec(self.core)
         path = self.root / 'work/spec-2.json'
@@ -885,9 +909,9 @@ class HumanReleaseLineageTest(unittest.TestCase):
         self.cli.verify_originals(ns['version'], lambda url: files[url])
         manifest2, _ = self.cli.build(ns['version'])
         text2 = self.core.approval_text(manifest2)
-        self.cli.record_approval(ns['version'], APPROVAL_URL, FakeGitHub(text2))
+        self.cli.record_approval(ns['version'], APPROVAL_URL_2, FakeGitHub(text2, others={APPROVAL_URL_2: text2}))
         original = self.core.github
-        self.core.github = FakeGitHub(text2)
+        self.core.github = FakeGitHub(first_text, others={APPROVAL_URL_2: text2})
         try:
             self.cli.submit(ns['version'])
         finally:
@@ -897,9 +921,24 @@ class HumanReleaseLineageTest(unittest.TestCase):
         merge2 = git(self.root, 'commit-tree', tree2, '-p', self.merge, '-p', data2, '-m', 'Merge second data PR')
         set_main(self, merge2)
         self.at(merge2)
-        levels = self.route(self.core, text2)
-        self.assertEqual([v for _, v, _ in levels[:2]], [ns['version'], first_version])
-        self.check_levels(levels)  # second release -> first release (recursively) -> ... -> legacy frozen tree
+        anchor, earlier = self.core.verify_earlier_releases(self.merge, FakeGitHub(first_text, others={APPROVAL_URL_2: text2}))
+        self.assertEqual(anchor, self.base)
+        self.assertEqual([(e['dataVersion'], e['publishingCommit'], e['baseCommit']) for e in earlier],
+                         [(first_version, self.merge, self.base)])
+        self.check_route(self.route(self.core, first_text, {APPROVAL_URL_2: text2}), base_version)
+
+        # The first release's Owner comment edited or revoked later: refused before any command runs.
+        self.refused('Approval text does not exactly match', self.core.verify_earlier_releases, self.merge,
+                     FakeGitHub(first_text + ' (edited)', others={APPROVAL_URL_2: text2}))
+        # The first release's bundle or snapshot edited after it was published: refused.
+        for rel in ('research/admissions/%s/human-v1/records.json' % first_version, 'test/curated-%s.json' % first_version):
+            target = self.root / rel
+            raw = target.read_bytes()
+            target.write_bytes(raw.replace(b'"', b'"', 1) + b'\n')
+            subprocess.run(['git', 'commit', '-q', '-am', 'edit an earlier release'], cwd=self.root, check=True)
+            self.refused('after release' if 'admissions' in rel else 'Immutable snapshot of release',
+                         self.core.verify_earlier_releases, self.merge, FakeGitHub(first_text, others={APPROVAL_URL_2: text2}))
+            self.at(merge2)
 
 
 if __name__ == '__main__':
