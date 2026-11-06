@@ -13,6 +13,7 @@ import tempfile
 ROOT = Path(__file__).resolve().parents[2]
 BASE = '1e35d424a42377ea80c5c4ab53e1ee3d492b5acf'
 COMMANDS = {
+    'aai-validate': ['pnpm', 'policy:validate'],
     'aai-rehearsal': ['python3', 'scripts/evidence/policy_rehearsal.py'],
     'evidence-tests': ['python3', '-m', 'unittest', 'discover', '-s', 'test/evidence', '-v'],
     'kr-verify': ['python3', 'scripts/admission/kr_verify.py', 'validate'],
