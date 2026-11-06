@@ -1,0 +1,246 @@
+{
+  "baseCommit": "5c54ab3e861a43d49cdadb27715e42b88f1630ec",
+  "derivedSnapshotScope": {
+    "newCases": [
+      "hefei"
+    ],
+    "originalInvestigationUnits": 60,
+    "priorCases": 66,
+    "totalCases": 67,
+    "worldwideRescanPerformed": false
+  },
+  "files": {
+    "data/airports.json": {
+      "bytes": 190972,
+      "sha256": "2268bdd3426e0d459b7b46d1214b165e3ab90f3526d4f2528f60238f4ee94b13"
+    },
+    "reference/generated/records.0.jsonl.gz": {
+      "bytes": 1044494,
+      "sha256": "20408e2bd7fa1ec8147150acc5aeebdb63831755214401946160a7b92690bf99"
+    },
+    "reference/generated/records.1.jsonl.gz": {
+      "bytes": 1040769,
+      "sha256": "7639f1b483c833bb19607f9067a5ae7d651be86e82d76a746d9b2b40cb963a10"
+    },
+    "reference/generated/records.2.jsonl.gz": {
+      "bytes": 1039212,
+      "sha256": "c7e2362f3af1ecd0887b2fe877f6aa2f834858cd5d0662e6f9c3b88fa650d403"
+    },
+    "reference/generated/records.3.jsonl.gz": {
+      "bytes": 1031079,
+      "sha256": "80ee620904e0add57248bd319e6aac0e0be578d0325edd41cda1a32d2130fd64"
+    },
+    "reference/generated/records.4.jsonl.gz": {
+      "bytes": 1046759,
+      "sha256": "ab58993840b8147ae4a85a869b54a0d67ea7382d017695995a414a212724c980"
+    },
+    "reference/generated/records.5.jsonl.gz": {
+      "bytes": 1056587,
+      "sha256": "31331da7743edc29c1d1b198241e70a272dacebc90c6e0222e257a3b75b19d83"
+    },
+    "reference/generated/records.6.jsonl.gz": {
+      "bytes": 1018027,
+      "sha256": "1bbfcac18912fbd648230dfd8fff953bc4f4219ce0ae163dfb745c8b6c6551d2"
+    },
+    "reference/generated/records.7.jsonl.gz": {
+      "bytes": 1042707,
+      "sha256": "6ab9bd33ffe23dd7f0cb6628d020fa677a1342a7d83137b41c10ad46281436f2"
+    },
+    "reference/generated/records.8.jsonl.gz": {
+      "bytes": 1063031,
+      "sha256": "e2b265b8e2fb2e0cea5287952c147ad7b2e5f49959ab2dfc66089f5496dde3a6"
+    },
+    "reference/generated/records.9.jsonl.gz": {
+      "bytes": 1016462,
+      "sha256": "02ef00eb8fba59f4700288576a6354a695ef3ab858438ae71fa15e132699b30f"
+    },
+    "reference/generated/records.a.jsonl.gz": {
+      "bytes": 1060135,
+      "sha256": "4cb57f0130d2da8bf00d6984ca830a87198415cd0fc4021b962645981851f20c"
+    },
+    "reference/generated/records.b.jsonl.gz": {
+      "bytes": 1036847,
+      "sha256": "71a564d273d9cae922c5c4a69ae3c31fa9e847eb0479982bf0d4ca2299b76e44"
+    },
+    "reference/generated/records.c.jsonl.gz": {
+      "bytes": 1060490,
+      "sha256": "12805e2fe82f24c05b6562530f25983f7e17ce7ec107305f404d43d7f8be76f7"
+    },
+    "reference/generated/records.d.jsonl.gz": {
+      "bytes": 1037422,
+      "sha256": "df8e4ee23d07954d8b842d10e87ae59c24ce5dcd991caa862b5ec85c9357a464"
+    },
+    "reference/generated/records.e.jsonl.gz": {
+      "bytes": 1029307,
+      "sha256": "5d678ba1341da5c4d5ab829a3343767df95992f5b999e86a834baf10a5173008"
+    },
+    "reference/generated/records.f.jsonl.gz": {
+      "bytes": 1037659,
+      "sha256": "1645b2df761f58ec10c9907efea2eed55f7cd5eff3012dba0e7eb79f8ce54395"
+    },
+    "reference/triage/code-reuse-leads.jsonl.gz": {
+      "bytes": 32266,
+      "sha256": "eafa926f6eef2c8eb94fcab93a74207131f49f14c7ab606eb0eb4f0b7be6cbe2"
+    },
+    "research/admission/rule-v1/authorizations.json": {
+      "bytes": 3108,
+      "sha256": "e23674ffba709170b152fb336f77d89bb33808e74dce7457191bdd45a88fa8ff"
+    },
+    "research/admission/rule-v1/candidate-catalog.json": {
+      "bytes": 1886,
+      "sha256": "6b2461c775f7459d838c01874116df44d6df3207b44976c816d4e3b0179e2e6d"
+    },
+    "research/admission/rule-v1/evidence-versions/31accd9933089603ee6aecc0af62eed5c77d132fdb8c3fcb2fcded4d68f27988.json": {
+      "bytes": 149005,
+      "sha256": "5c2f8e35820223f5379db588e23898f05b0f5799ef4576a210d80e5daee8d4a5"
+    },
+    "research/admission/rule-v1/evidence-versions/52a878092e9c496c0d5e1ba456025599b175c4f748bf7dd82a1f523b91829939.json": {
+      "bytes": 78172,
+      "sha256": "10a0925e95b849abfaff06d2393b6f0dca93db3b28d526b758bb1f5c68ab8d0f"
+    },
+    "research/admission/rule-v1/evidence-versions/9f56d40d56ed86b55e7776e105fbbc9727eb43c6aaa9bb1df84692f34475b952.json": {
+      "bytes": 149370,
+      "sha256": "be6ac6163f0b3ee6cf810634e29eb0845f4d559317a0c1c9d8a35f29904e7bf0"
+    },
+    "research/admission/rule-v1/identity-policy.json": {
+      "bytes": 2475,
+      "sha256": "470ffce23a8f3944a837ef93e37e136a10ebf98036edf49212da884645c384e1"
+    },
+    "research/admission/rule-v1/kr-code-policy.json": {
+      "bytes": 1529,
+      "sha256": "6d0d2e73235b5afae64b607b3020adef651126d8114e0bdb64657b009cc00af0"
+    },
+    "research/evidence/code-dates/assessments.json": {
+      "bytes": 53782,
+      "sha256": "92293e06a71866965a8e8c1a834ed069d86dc9b0bb14994b70513d591aa18b97"
+    },
+    "research/evidence/code-dates/korea-readiness/identity-batch.json": {
+      "bytes": 5694,
+      "sha256": "c8cd4178bc910faf502a2854edd2440da7bd1580c19f0150312c7b5a925282d7"
+    },
+    "research/evidence/code-dates/korea-readiness/source-lock.json": {
+      "bytes": 79926,
+      "sha256": "a77a08caea620a714a154b488683a5233267ffad32bebff371119b5c83f31063"
+    },
+    "research/evidence/code-dates/source-lock.json": {
+      "bytes": 183609,
+      "sha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc"
+    },
+    "research/evidence/direct/assessments.json": {
+      "bytes": 28406,
+      "sha256": "15ba07be3ea5e6654df8c9aec7e6056a37376cbb2723eb346f867515757f10eb"
+    },
+    "research/evidence/direct/catalog.json": {
+      "bytes": 16853,
+      "sha256": "b89ec7656610ed9ac35f1ed4469b718498602ee799be600a364ec11999c2084c"
+    },
+    "research/evidence/direct/generated/blocked-record-drafts.json": {
+      "bytes": 16747,
+      "sha256": "d83578cc1987984e2c2c40bf64e894c714e42d74e6c4f050a788b30fca3e12fa"
+    },
+    "research/evidence/direct/generated/proposed-data.json": {
+      "bytes": 157051,
+      "sha256": "83ec2f278f5ef5af8432c76d919012bd9a0f907322e818c181e059c8efe13df6"
+    },
+    "research/evidence/direct/source-lock.json": {
+      "bytes": 38264,
+      "sha256": "d054af9e1a37816207393e8768e5780ff12d3f5b4ef9e30348dbcacfca75431d"
+    },
+    "research/evidence/global-batch-5/batch.json": {
+      "bytes": 45806,
+      "sha256": "c26c15e1503aa18225db40fabf5a8276fc5a8cc9ea037c1618923eba29e5db17"
+    },
+    "research/evidence/global-batch-5/catalog.json": {
+      "bytes": 22361,
+      "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d"
+    },
+    "research/evidence/global-batch-5/source-lock.json": {
+      "bytes": 20619,
+      "sha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f"
+    },
+    "research/evidence/global/assessments.json": {
+      "bytes": 186492,
+      "sha256": "c4dd9d49edae494f0f5ad8a7d7becd0c4549203fb5be4065e6d92ded6e3c2b1a"
+    },
+    "research/evidence/global/catalog.json": {
+      "bytes": 86859,
+      "sha256": "48b3b3055cae32f63a8007b424e1647092dc13526540781ecc25de3d0e94486e"
+    },
+    "research/evidence/global/generated/proposed-data.json": {
+      "bytes": 262426,
+      "sha256": "5c4fc8fb01bc3a938f3bcbfcacdd2e539eadc5ba8c6e09b99d2b303abe620f13"
+    },
+    "research/evidence/global/source-lock.json": {
+      "bytes": 314780,
+      "sha256": "7edaecaa997d2cc932e5fd4e4961600cbfa40228749f404981ebc10693ad8185"
+    },
+    "research/evidence/markets/assessments.json": {
+      "bytes": 148138,
+      "sha256": "84eabd6e9fbcbf07af94df2173abb0769f7850311b9aaf5e0a5ea4a623d9c3c9"
+    },
+    "research/evidence/markets/catalog.json": {
+      "bytes": 28525,
+      "sha256": "51a7ababa049ed680a7ffb48cabeb0d1c79bef69daa6173547b984dbb341a7ab"
+    },
+    "research/evidence/markets/generated/proposed-data.json": {
+      "bytes": 334695,
+      "sha256": "053baaab66c06fe9322617cc05cc39d28f8faa10533fb9b88d919b7bf545d792"
+    },
+    "research/evidence/markets/source-lock.json": {
+      "bytes": 111867,
+      "sha256": "6bb9d3b8ed594064c78db6e9bd4844fd3ede49e091c51e055bf6956b3974932f"
+    },
+    "research/evidence/priority-markets/assessments.json": {
+      "bytes": 22720,
+      "sha256": "ab5dd14167550aa3c233d1bc22d0b379b9fd17042d88a94f9b3c80d42da42b2b"
+    },
+    "research/evidence/priority-markets/catalog.json": {
+      "bytes": 11430,
+      "sha256": "00cd5da944ed41b11b9796609ee61f68e51c25acd6c5464976c8ae42f3300de0"
+    },
+    "research/evidence/priority-markets/source-lock.json": {
+      "bytes": 42905,
+      "sha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437"
+    },
+    "research/evidence/transfers/assessments.json": {
+      "bytes": 65448,
+      "sha256": "4301b5e5f12a61be76babbd630ea9ed3c17d1d2be809272e54a03c2c92df95ee"
+    },
+    "research/evidence/transfers/catalog.json": {
+      "bytes": 21785,
+      "sha256": "a76f5a66eebfdebb2101d01e3dae6039e9587c1ae432a5a57d503c343e89fc21"
+    },
+    "research/evidence/transfers/generated/proposed-data.json": {
+      "bytes": 353644,
+      "sha256": "4e751f4be06773f21ded56c28b9f9c1d3abb5b2a3de2172a74c901f9977f6747"
+    },
+    "research/evidence/transfers/source-lock.json": {
+      "bytes": 33475,
+      "sha256": "13a52012ad1fbb75229247595eda490625dd2fbe0ff9a191886d2e1d77403d86"
+    }
+  },
+  "newEvidenceReferences": {
+    "meaning": "Parent writes the new public source lock. No private work path or original bytes are retained in this public snapshot.",
+    "path": "research/evidence/priority-market-batch-6/source-lock.json",
+    "sources": [
+      {
+        "extractedTextSha256": "dc8263425978ccf5a11200995d574e99af368ba7121b19a9a4e343ce50cde7d6",
+        "normalizedTextSha256": "e328fb07aec228f72aa2e2d5304aeb4e2c4fef816728e05ad52fb56d91636f6a",
+        "originalSha256": "7d224fac9cd39d41808d9b5e8a205ad70a11cbd92973e3e41d756a27141168ee",
+        "sourceId": "pm6-cn-hefei-transfer-2013"
+      },
+      {
+        "extractedTextSha256": "2c733b656820e22bf2c74cbe53c3ca267f30c609e1acf56e07b3ddba9d6a7e84",
+        "normalizedTextSha256": "61b3788a4fa20136afe9c147255a2a2d320db8bbdae39b7452cf66f425d34e09",
+        "originalSha256": "80420ff44426adac42f30e613f18684925f5c5e61589a97c479fc3b429b48717",
+        "sourceId": "pm6-cn-hefei-project-2007"
+      },
+      {
+        "extractedTextSha256": "18cf49931f982c07ee659c10d5144c978b827fe6f25e755935c7fd27394a33fa",
+        "normalizedTextSha256": "290d487bab18bcd83ac56d6dca4202c555bd4ff7c0441bfee6995912512fb3ab",
+        "originalSha256": "f95e3e0fddb8e70a188002303f5eeeeadff31d72b1119c69af2f2eb74504dfa9",
+        "sourceId": "pm6-cn-ceair-stations-2026"
+      }
+    ]
+  }
+}

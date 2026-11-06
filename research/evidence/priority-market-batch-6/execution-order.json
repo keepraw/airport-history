@@ -1,0 +1,49 @@
+{
+  "marketOrder": [
+    "中国",
+    "韩国",
+    "日本",
+    "美国",
+    "欧洲"
+  ],
+  "actualAcquisitionOrderVerified": true,
+  "basis": "Actual recorded original-acquisition timestamps; subsequent offline consolidation, independent replay and authorization checks are not new market research.",
+  "markets": [
+    {
+      "market": "中国",
+      "firstRecordedAcquisitionUtc": "2026-11-06T02:38:00.380254+00:00",
+      "lastRecordedAcquisitionUtc": "2026-11-06T02:45:01.210539+00:00",
+      "attemptRowsWithTimestamp": 57,
+      "researchedCases": 14
+    },
+    {
+      "market": "韩国",
+      "firstRecordedAcquisitionUtc": "2026-11-06T02:45:38.909558+00:00",
+      "lastRecordedAcquisitionUtc": "2026-11-06T02:49:10.475847+00:00",
+      "attemptRowsWithTimestamp": 170,
+      "researchedCases": 4
+    },
+    {
+      "market": "日本",
+      "firstRecordedAcquisitionUtc": "2026-11-06T06:19:06+00:00",
+      "lastRecordedAcquisitionUtc": "2026-11-06T06:20:48+00:00",
+      "attemptRowsWithTimestamp": 18,
+      "researchedCases": 4
+    },
+    {
+      "market": "美国",
+      "firstRecordedAcquisitionUtc": "2026-11-06T06:22:39+00:00",
+      "lastRecordedAcquisitionUtc": "2026-11-06T06:26:43+00:00",
+      "attemptRowsWithTimestamp": 24,
+      "researchedCases": 4
+    },
+    {
+      "market": "欧洲",
+      "firstRecordedAcquisitionUtc": "2026-11-06T06:30:21+00:00",
+      "lastRecordedAcquisitionUtc": "2026-11-06T12:06:26+00:00",
+      "attemptRowsWithTimestamp": 21,
+      "researchedCases": 5
+    }
+  ],
+  "newIndependentInvestigationsOutsidePriorityMarkets": 0
+}

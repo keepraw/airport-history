@@ -1,0 +1,13 @@
+{
+  "files": {
+    "audit.json": "27d19d96d10b45af826f59e4c07ca7442f0cc2bcb3b97c82c1974122bf699d0b",
+    "authorizations.json": "e23674ffba709170b152fb336f77d89bb33808e74dce7457191bdd45a88fa8ff",
+    "candidates.json": "ab088acba36d850771f1f5f326c32415a78cc9eb8122665474baad203ad5ed14",
+    "evidence-version.json": "b612722cfe91ae58520afd78863d7289365c9a437324f1ccc478233c3c7667f2",
+    "identities.json": "c80e47febd57c9f0fef3eb510f0a47743999fa3fd675e1384e0cda308fa1d2ac",
+    "pending-identities.json": "c80e47febd57c9f0fef3eb510f0a47743999fa3fd675e1384e0cda308fa1d2ac",
+    "proposed-data.json": "9d219d802a6cc8037cfca4993db2661d37dc3d26556b3e728a3be4699a7bf2ab",
+    "schema-and-production-resolver.json": "9cb8933da0cf6c4f19a219f66bcffeb7a6071502cc0eacf5f1b37f0e46e61391"
+  },
+  "hashConvention": "SHA-256 of exact file bytes. Existing audit candidate/baseline/registry hashes use the unchanged runtime.sha canonical-JSON convention."
+}

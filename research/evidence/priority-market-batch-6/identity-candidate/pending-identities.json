@@ -1,0 +1,51 @@
+{
+  "formatVersion": 1,
+  "identities": [
+    {
+      "airportId": "apt_9afce57f-b42f-445f-85e2-5987e4f7db20",
+      "authorizationSha256": "3ee47d07f8fe019719eeaf9983939451974a5745d5b868d4afa9c8ed35710ad2",
+      "bindings": {
+        "executorSha256": "ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42",
+        "policyKey": "official-aip-stable-physical-identity@0.1.0-draft",
+        "policySha256": "7eadcab59d93a2f33c9e9237ad2dc2e258e129f4995bbf60cba35c26d6fe65ae",
+        "scopeSha256": "597ddbc5afeb66df29bf7dcb405846e9ac912ae4bfa93bfd2b71c24a6c8b4e65"
+      },
+      "candidateSha256": "b6417aa8daa8bd2c29fc1faf9ea98fb630884cf344a6a21f8aa9240a2da8f3db",
+      "coordinates": {
+        "latitude": 37.462500000000006,
+        "longitude": 126.43916666666667
+      },
+      "evidenceVersionSha256": "a7e3fc3727d76f8605921aba01c7f6bcb7e76e69e03319ac27a8474ad82acc10",
+      "policyKey": "official-aip-stable-physical-identity@0.1.0-draft",
+      "siteKey": "site_408473139d9717f8133835758738e80557474051d6b39ada24c0a77bfb557659",
+      "sourceIds": [
+        "iiac-location",
+        "kr-rksi-2025-04-16",
+        "kr-rksi-2025-05-14"
+      ]
+    },
+    {
+      "airportId": "apt_2caa4ef2-6d58-434b-8de7-f5a33fa4b186",
+      "authorizationSha256": "3ee47d07f8fe019719eeaf9983939451974a5745d5b868d4afa9c8ed35710ad2",
+      "bindings": {
+        "executorSha256": "ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42",
+        "policyKey": "official-aip-stable-physical-identity@0.1.0-draft",
+        "policySha256": "7eadcab59d93a2f33c9e9237ad2dc2e258e129f4995bbf60cba35c26d6fe65ae",
+        "scopeSha256": "597ddbc5afeb66df29bf7dcb405846e9ac912ae4bfa93bfd2b71c24a6c8b4e65"
+      },
+      "candidateSha256": "7dca5b7a440cbd628a1f2f79d09b5d3502f81d1ccbf55d7e1bb48b6d5ab151cc",
+      "coordinates": {
+        "latitude": 37.55694444444444,
+        "longitude": 126.7975
+      },
+      "evidenceVersionSha256": "a7e3fc3727d76f8605921aba01c7f6bcb7e76e69e03319ac27a8474ad82acc10",
+      "policyKey": "official-aip-stable-physical-identity@0.1.0-draft",
+      "siteKey": "site_cb748851aaf7afc97c4460f50634256707f4de7330ba25dbd2253f44f4ee001f",
+      "sourceIds": [
+        "kac-gimpo-location",
+        "kr-rkss-2025-04-16",
+        "kr-rkss-2025-05-14"
+      ]
+    }
+  ]
+}

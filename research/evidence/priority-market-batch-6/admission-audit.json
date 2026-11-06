@@ -1,0 +1,418 @@
+{
+  "existingRuleAudit": {
+    "aaiAuthorization": {
+      "executorMatches": true,
+      "principal": "keepraw",
+      "principalId": 49091395,
+      "scope": {
+        "claims": [
+          "physicalIdentityReference",
+          "boundedCodeContinuity"
+        ],
+        "excludedCodes": [
+          "LEMI",
+          "RMU",
+          "MJV",
+          "TAG",
+          "LYG",
+          "YBP"
+        ],
+        "publisher": "Airports Authority of India",
+        "schemaVersion": "3.0.0",
+        "scheme": "ICAO",
+        "sourceFamilies": [
+          "aai-aip"
+        ],
+        "urlPrefix": "https://aim-india.aai.aero/eAIP_Archive/"
+      },
+      "source": "https://github.com/keepraw/airport-history/issues/19#issuecomment-6513409968",
+      "textMatches": true
+    },
+    "aaiExecutor": "2415279526ff8c0eaf9ee1b3ee5afca8bde26e95bfac2c98930212f9f7992a3f",
+    "auditedAtUtc": "2026-11-06T02:39:21.104184+00:00",
+    "existingExecutableRouteConstraints": [
+      {
+        "finding": "Automatic review requires policy_context accepted by policy_gate.validate_context; otherwise explicit human claim review is required. Do not fabricate reviewer=keepraw.",
+        "path": "scripts/reference/admissions.py",
+        "symbol": "validate_admission"
+      },
+      {
+        "finding": "Current supported policy scope hardcodes AAI archive/ICAO; cannot feed China or other official issuers into it with a changed country label.",
+        "path": "scripts/evidence/policy_review.py",
+        "symbol": "validate_policy"
+      },
+      {
+        "finding": "New formal dataVersion requires the existing policy-specific proposed-data/policy-receipt/original-verification bundle; no generic priority-market automatic source-rule receipt is implemented.",
+        "path": "scripts/evidence/policy_formal.py",
+        "symbol": "validate"
+      },
+      {
+        "finding": "Calls Korean complete code-evidence evaluation before identity allocation; currently the production release CLI has no identity-only mode. This does not revoke identity authority, but can obstruct its separate publication.",
+        "path": "admission/v1/release.py",
+        "symbol": "_prepare"
+      },
+      {
+        "finding": "kr-history is an actual edition-control original for both identity candidates; must reproduce official closed edition list, not replace by caller assertion.",
+        "path": "admission/v1/batch.py",
+        "symbol": "discover"
+      },
+      {
+        "finding": "Changed raw hash is allowed only if normalized text or specific cited facts are reproduced. A source with no replacement contract and both changed bytes/text must fail; no historical conclusion inheritance.",
+        "path": "admission/v1/evidence.py",
+        "symbol": "revalidate_source"
+      }
+    ],
+    "formalRecordsEligibleWithoutFurtherEvidence": [],
+    "head": "5c54ab3e861a43d49cdadb27715e42b88f1630ec",
+    "inputFilesSha256": {
+      "admission/v1/batch.py": "6c4974c6094d8e54f0613ffef102c9019dad38c08eb565dbc8f0cdadb6a2bcbf",
+      "admission/v1/evidence.py": "89a58e9e8e2ad6626e6d8d563482192e049d3ce8c5649d1dc99cea59d052af2d",
+      "admission/v1/release.py": "583db4ecaca16eb99cf4f4c37d6f3fd30c605ef7e0bb2b9fc7863dcd8e4305f3",
+      "admission/v1/runtime.py": "7c0f31cdebc50e23a5994a52d0ac660e0a2526f1d5b16224ee869a044fa5a4f4",
+      "research/admission/rule-v1/authorizations.json": "e23674ffba709170b152fb336f77d89bb33808e74dce7457191bdd45a88fa8ff",
+      "research/admission/rule-v1/bindings.json": "e64d384e74f6ca74a5c45c3db4b2af97c3514b3f23c1f2e35ea4bb2102fa373e",
+      "research/admission/rule-v1/identity-policy.json": "470ffce23a8f3944a837ef93e37e136a10ebf98036edf49212da884645c384e1",
+      "research/admission/rule-v1/kr-code-policy.json": "6d0d2e73235b5afae64b607b3020adef651126d8114e0bdb64657b009cc00af0",
+      "research/policy/authorizations.json": "94b166846f9789a1dc389d7bc98b6f3eb0153226c355e7ea2fabdba19cb4a6d0",
+      "research/policy/policy.json": "f327a2551c12d213a54bd3fc17a8ae3a659fec59c4c3062415a672b77d87df53",
+      "scripts/evidence/policy_formal.py": "6a14b210bffd2fa782ab89fe08bd3dac647bd23a1216a4907988302f89df4218",
+      "scripts/reference/admissions.py": "c7774e86708ff169ee5a8f006c7528d44850ef932cd5ecc913375aa5002e9992"
+    },
+    "koreanExecutor": "ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42",
+    "minimalReusableSourceRuleProposal": {
+      "markets": [
+        {
+          "candidateClaims": [
+            "physicalIdentity",
+            "boundedIcaoObservation",
+            "iataAssignmentOnlyWhenExplicitlyProved"
+          ],
+          "exclusions": [
+            "City-only four-letter tables",
+            "Meteorological designation as ICAO allocation",
+            "Opening/licence/capture dates as allocation",
+            "Military/civil site collapse"
+          ],
+          "issuerScopes": [
+            "CAAC AIP/AIRAC",
+            "CAAC regional administration original documents",
+            "Named airport operator original site/transfer records",
+            "Government official gazettes and relocation decisions"
+          ],
+          "market": "CN",
+          "missingBeforeActivation": "Source-by-source permitted use and exact original/date evidence contracts; project-level standing policy, not per-airport signature."
+        },
+        {
+          "existingRulesUnchanged": true,
+          "market": "KR",
+          "newRuleNeededFor": "IATA, other code windows, relocation/correction claims outside current signed scope; do not widen current grants.",
+          "reuseExisting": true
+        },
+        {
+          "exclusions": [
+            "JMA meteorological message code transition as AIP allocation",
+            "Opening date as NGO/NKM/ISG allocation"
+          ],
+          "issuerScopes": [
+            "MLIT/AIS Japan historical controlled AIP/AIRAC",
+            "Official gazette",
+            "Prefecture and airport operator own site records"
+          ],
+          "market": "JP",
+          "missingBeforeActivation": "Controlled historical editions or explicit allocation notices and per-source rights."
+        },
+        {
+          "exclusions": [
+            "Bare FAA LID as IATA",
+            "K+identifier outside explicitly proved continental-US airport rule",
+            "Airspace effective date as first allocation"
+          ],
+          "issuerScopes": [
+            "FAA NASR effective cycles",
+            "FAA Form5010 airport rows",
+            "FAA JO7350.9 historical airport/identifier rows and namespace definitions",
+            "Federal Register physical site/administrative facts",
+            "IATA original allocation notice where permitted"
+          ],
+          "market": "US",
+          "missingBeforeActivation": "Explicit namespace-conversion predicate if used, independent site facts, historical cycles and permitted reuse."
+        },
+        {
+          "countryProfilesRequired": true,
+          "exclusions": [
+            "Shared Europe-wide continuity budget",
+            "AIP listing as proof of commercial operation",
+            "Last flight/licence termination as code withdrawal"
+          ],
+          "issuerScopes": [
+            "Country-specific AIS/AIP/AIRAC",
+            "National CAA",
+            "Operator own historical facility records",
+            "Official gazettes"
+          ],
+          "market": "EU",
+          "missingBeforeActivation": "Each publisher/country edition clock, access/rights terms, relevant notice coverage and claim-specific evidence."
+        }
+      ],
+      "shared": {
+        "acceptOnly": "All objective predicates pass for the exact claim; otherwise retain candidate with reason codes; reviewer remains null for machine review.",
+        "appliesPerAirport": false,
+        "authorization": null,
+        "fields": [
+          "country",
+          "issuerFamily",
+          "originalHosts",
+          "claimType",
+          "namespace",
+          "documentEdition",
+          "factOrigin",
+          "originalSha256",
+          "normalizedTextSha256",
+          "citationPosition",
+          "rightsAndPermittedUse",
+          "effectiveDateBasis",
+          "uncertaintyBounds"
+        ],
+        "productionEligible": false,
+        "requiredConditions": [
+          "Official original and claimed facts independently re-extracted, hash-bound and located.",
+          "Actual physical site supported independently of code/name/proximity; reuse published airportId where appropriate.",
+          "Code namespaces are explicitly evidenced, never inferred from city/FAA LID/meteorology codes.",
+          "Non-null interval boundaries cite actual effective/in-force evidence; unknown allocation/withdrawal remain unknown.",
+          "Distinct-original/issuer lineage recorded separately; mirrors and repeated editions do not multiply independent issuers.",
+          "Source-specific rights permit claimed factual extraction/minimal citations; full originals remain private.",
+          "All applicable formal/pending/historical site and assignment conflict checks pass; no automatic published correction.",
+          "Current production resolver, schema, immutable formal-history and deterministic generation checks pass."
+        ],
+        "requiresNewExecutor": false,
+        "status": "proposal-only"
+      }
+    },
+    "originalReplayPerformed": false,
+    "originalReplayReason": "China-first research order; this audit only inspects existing source metadata and verifies current rule bindings/live grants.",
+    "potentialWithinExistingRules": [
+      {
+        "codePolicy": "kr-molit-bounded-icao@2.0.0-draft",
+        "codes": [
+          "RKSI",
+          "RKSS"
+        ],
+        "identityPolicy": "official-aip-stable-physical-identity@0.1.0-draft",
+        "identityScope": "Qualifying KR/MOLIT sites, two controlled observations <=28 days, operator-own named site/address corroboration, all intermediate editions and competition/notice checks; no relocation/correction/code validity authority.",
+        "market": "KR",
+        "physicalCandidates": [
+          "kr-physical-incheon",
+          "kr-physical-gimpo"
+        ],
+        "productionStatus": "Requires real full-original and historical-notice replay, independent AUTO_ELIGIBLE identity, existing release/resolver gates; no successful replay claimed by this audit.",
+        "scheme": "ICAO",
+        "window": {
+          "from": "2025-04-18",
+          "timezone": "Asia/Seoul",
+          "toExclusive": "2025-05-15"
+        }
+      }
+    ],
+    "priorityMarketDecisions": [
+      {
+        "canUseExistingAutomaticRule": false,
+        "continueResearch": true,
+        "market": "CN",
+        "why": [
+          "No China source/physical-identity/IATA/ICAO automatic policy is registered.",
+          "AAI excludedCodes explicitly includes LYG/YBP in addition to its AAI-only issuer/source restriction.",
+          "Historical human approvals are fixed record scopes, not reusable authorization."
+        ]
+      },
+      {
+        "canUseExistingAutomaticRule": true,
+        "currentFormalIdentityRegistryEmpty": true,
+        "market": "KR",
+        "newCodeOrWindowExpansionAllowed": false,
+        "newIataAssignmentsAllowed": false,
+        "qualifier": "Only exact registered rule scopes and matching executor above; records remain unadmitted until actual originals and risk predicates pass."
+      },
+      {
+        "canUseExistingAutomaticRule": false,
+        "continueResearch": true,
+        "market": "JP",
+        "why": [
+          "Japan priority-markets adapter is a research-only draft; no automatic production grant.",
+          "Operator chronology and JMA weather identifiers alone do not prove historical AIP designation/IATA allocation."
+        ]
+      },
+      {
+        "canUseExistingAutomaticRule": false,
+        "continueResearch": true,
+        "market": "US",
+        "why": [
+          "US FAA typed-identifier adapter is research-only and unregistered for production.",
+          "0.8.0 manual approval is exact prior records; KXWA, KSGU and AUS histories do not inherit it.",
+          "FAA LID, ICAO and IATA require separately scoped evidence."
+        ]
+      },
+      {
+        "canUseExistingAutomaticRule": false,
+        "continueResearch": true,
+        "market": "EU",
+        "why": [
+          "NATS/ENAIRE/DFS and other European issuer source scopes are not globally authorized.",
+          "LEMI/RMU/MJV are explicit AAI exception codes; signed AAI authority cannot authorize Spanish records.",
+          "0.9.0 LELC approval is a fixed window, not permission for other codes, dates or countries."
+        ]
+      }
+    ],
+    "rules": [
+      {
+        "checkedBindings": {
+          "executorSha256": "ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42",
+          "policyKey": "official-aip-stable-physical-identity@0.1.0-draft",
+          "policySha256": "7eadcab59d93a2f33c9e9237ad2dc2e258e129f4995bbf60cba35c26d6fe65ae",
+          "scopeSha256": "597ddbc5afeb66df29bf7dcb405846e9ac912ae4bfa93bfd2b71c24a6c8b4e65"
+        },
+        "checkedBindingsPassed": true,
+        "currentBindings": {
+          "executorSha256": "ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42",
+          "policyKey": "official-aip-stable-physical-identity@0.1.0-draft",
+          "policySha256": "7eadcab59d93a2f33c9e9237ad2dc2e258e129f4995bbf60cba35c26d6fe65ae",
+          "scopeSha256": "597ddbc5afeb66df29bf7dcb405846e9ac912ae4bfa93bfd2b71c24a6c8b4e65"
+        },
+        "kind": "identity",
+        "liveAuthorizationPassed": true,
+        "policyKey": "official-aip-stable-physical-identity@0.1.0-draft",
+        "registeredBindings": [
+          {
+            "executorSha256": "ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42",
+            "policyKey": "official-aip-stable-physical-identity@0.1.0-draft",
+            "policySha256": "7eadcab59d93a2f33c9e9237ad2dc2e258e129f4995bbf60cba35c26d6fe65ae",
+            "scopeSha256": "597ddbc5afeb66df29bf7dcb405846e9ac912ae4bfa93bfd2b71c24a6c8b4e65"
+          }
+        ],
+        "scope": {
+          "aipHosts": [
+            "aim.koca.go.kr"
+          ],
+          "airportAllowlist": null,
+          "codeValidity": false,
+          "countries": [
+            "KR"
+          ],
+          "issuerFamilies": [
+            "KR-MOLIT-AIP"
+          ],
+          "newPhysicalIdentities": true,
+          "publishedCorrections": false
+        }
+      },
+      {
+        "checkedBindings": {
+          "executorSha256": "ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42",
+          "policyKey": "kr-molit-bounded-icao@2.0.0-draft",
+          "policySha256": "13e49ee7eec3a9bfc11db72e870d028647000829954015f93175fc0661666211",
+          "scopeSha256": "ca29502a69df9e8283fbdfddd0022be6988054336caacdb57f1b2076b555e413"
+        },
+        "checkedBindingsPassed": true,
+        "currentBindings": {
+          "executorSha256": "ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42",
+          "policyKey": "kr-molit-bounded-icao@2.0.0-draft",
+          "policySha256": "13e49ee7eec3a9bfc11db72e870d028647000829954015f93175fc0661666211",
+          "scopeSha256": "ca29502a69df9e8283fbdfddd0022be6988054336caacdb57f1b2076b555e413"
+        },
+        "kind": "kr-code",
+        "liveAuthorizationPassed": true,
+        "policyKey": "kr-molit-bounded-icao@2.0.0-draft",
+        "registeredBindings": [
+          {
+            "executorSha256": "ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42",
+            "policyKey": "kr-molit-bounded-icao@2.0.0-draft",
+            "policySha256": "13e49ee7eec3a9bfc11db72e870d028647000829954015f93175fc0661666211",
+            "scopeSha256": "ca29502a69df9e8283fbdfddd0022be6988054336caacdb57f1b2076b555e413"
+          }
+        ],
+        "scope": {
+          "codes": [
+            "RKSI",
+            "RKSS"
+          ],
+          "country": "KR",
+          "issuerFamily": "KR-MOLIT-AIP",
+          "namespace": "ICAO",
+          "newIataAssignments": false,
+          "newPhysicalIdentities": false,
+          "publishedCorrections": false,
+          "window": {
+            "from": "2025-04-18",
+            "timezone": "Asia/Seoul",
+            "toExclusive": "2025-05-15"
+          }
+        }
+      }
+    ]
+  },
+  "koreanFullGate": {
+    "allLogicalOriginalBytesReplayed": true,
+    "completeReleaseBundle": false,
+    "durablePendingLedger": "work/rule-admission/pending-identities.json",
+    "durablePendingLedgerSha256": "c60d704e6d0fdc17560e854f4cc49c77d2023ca93730f216507c2e04e026c16b",
+    "fullCodeReplay": {
+      "errorType": "ValueError",
+      "passed": false,
+      "reason": "Changed original lacks a fact-specific replacement contract: kr-history"
+    },
+    "identityAllocationUsedRealUuidV4": true,
+    "identityRequiredPredicatesPassed": true,
+    "normalUnchangedReleaseProbe": {
+      "attemptedAtUtc": "2026-11-06T06:23:56.996318+00:00",
+      "bundleCreated": false,
+      "checkoutCommit": "5c54ab3e861a43d49cdadb27715e42b88f1630ec",
+      "checkoutPristine": true,
+      "completedAtUtc": "2026-11-06T06:24:32.036983+00:00",
+      "entryPoint": "unchanged admission/v1/release.py CLI prepare",
+      "evidenceVersionSha256": "a7e3fc3727d76f8605921aba01c7f6bcb7e76e69e03319ac27a8474ad82acc10",
+      "isolatedCheckout": "work/korea-current/clean-main",
+      "isolatedPendingIdentitiesSha256After": "c60d704e6d0fdc17560e854f4cc49c77d2023ca93730f216507c2e04e026c16b",
+      "newUuidAllocated": false,
+      "originalCasAccess": "Hardlinks to immutable verified private CAS; no original downloaded",
+      "passed": false,
+      "pendingIdentitiesCopied": 2,
+      "pendingIdentitiesSha256Before": "c60d704e6d0fdc17560e854f4cc49c77d2023ca93730f216507c2e04e026c16b",
+      "processExitCode": 1,
+      "productionValidationPassed": false,
+      "reason": "ValueError: Changed original lacks a fact-specific replacement contract: kr-history",
+      "releaseReceiptCreated": false,
+      "rootPendingIdentitiesSha256After": "c60d704e6d0fdc17560e854f4cc49c77d2023ca93730f216507c2e04e026c16b"
+    },
+    "productionValidationPassed": false,
+    "releaseReceiptCreated": false,
+    "schemaAndProductionResolver": {
+      "boundaryExtraResolved": 0,
+      "conditionalResolved": 0,
+      "formalChangedAnswers": 0,
+      "formalNewResolved": 0,
+      "formalRegressionQueries": 37736,
+      "outcomes": []
+    }
+  },
+  "meaning": "Evidence acquisition and scoped identity eligibility do not create a new market grant or complete release receipt.",
+  "normalReleaseCleanMainProbe": {
+    "attemptedAtUtc": "2026-11-06T06:23:56.996318+00:00",
+    "bundleCreated": false,
+    "checkoutCommit": "5c54ab3e861a43d49cdadb27715e42b88f1630ec",
+    "checkoutPristine": true,
+    "completedAtUtc": "2026-11-06T06:24:32.036983+00:00",
+    "entryPoint": "unchanged admission/v1/release.py CLI prepare",
+    "evidenceVersionSha256": "a7e3fc3727d76f8605921aba01c7f6bcb7e76e69e03319ac27a8474ad82acc10",
+    "isolatedCheckout": "work/korea-current/clean-main",
+    "isolatedPendingIdentitiesSha256After": "c60d704e6d0fdc17560e854f4cc49c77d2023ca93730f216507c2e04e026c16b",
+    "newUuidAllocated": false,
+    "originalCasAccess": "Hardlinks to immutable verified private CAS; no original downloaded",
+    "passed": false,
+    "pendingIdentitiesCopied": 2,
+    "pendingIdentitiesSha256Before": "c60d704e6d0fdc17560e854f4cc49c77d2023ca93730f216507c2e04e026c16b",
+    "processExitCode": 1,
+    "productionValidationPassed": false,
+    "reason": "ValueError: Changed original lacks a fact-specific replacement contract: kr-history",
+    "releaseReceiptCreated": false,
+    "rootPendingIdentitiesSha256After": "c60d704e6d0fdc17560e854f4cc49c77d2023ca93730f216507c2e04e026c16b"
+  }
+}
