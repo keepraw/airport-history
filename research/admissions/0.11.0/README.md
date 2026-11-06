@@ -42,3 +42,5 @@ pnpm build
 ```
 
 The eight China negative tests reject altered published records, unsupported code intervals, changed original hashes, inactive AIP families, missing execution evidence, substituted coordinates and fabricated human reviewers. PR #29/#32 and Keepraw-Fly are untouched. No merge, auto-merge or Release is requested.
+
+Legacy Korean research additionally binds all package values. The existing Korean/rule and AAI rehearsal checks therefore run against the exact prior main in an isolated checkout after rejecting changes to every pre-existing script, test, schema and research file. Current schema/admission, TypeScript tests, source hashes, new China negative tests, resolver differential and history audit still run on the new dataset. This preserves old authorization scope rather than updating its fingerprints to authorize China. CI command entry points change; no timeout or executor changes.

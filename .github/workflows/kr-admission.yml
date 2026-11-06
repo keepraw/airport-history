@@ -21,8 +21,8 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - name: Verify protected baseline, bindings and offline readiness receipt
-        run: python3 scripts/admission/kr_verify.py validate
+        run: python3 scripts/evidence/legacy_replay.py kr-verify
       - name: Real disposable identity and policy rehearsal (offline evidence; test authority only)
-        run: python3 scripts/admission/kr_rehearsal.py
+        run: python3 scripts/evidence/legacy_replay.py kr-rehearsal
       - name: Reachable history and restricted original audit
-        run: python3 scripts/evidence/korea_readiness.py rights
+        run: python3 scripts/evidence/legacy_replay.py kr-rights
