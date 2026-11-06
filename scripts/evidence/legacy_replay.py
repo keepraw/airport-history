@@ -43,6 +43,9 @@ def main():
         subprocess.run(['git', 'update-ref', 'refs/remotes/origin/main', BASE], cwd=tmp, check=True)
         Path(tmp, 'work').mkdir(exist_ok=True)
         Path(tmp, 'node_modules').symlink_to(ROOT / 'node_modules', target_is_directory=True)
+        # Directory-only .gitignore patterns do not cover the dependency symlink.
+        with Path(tmp, '.git/info/exclude').open('a') as exclude:
+            exclude.write('\n/node_modules\n')
         subprocess.run(args, cwd=tmp, check=True)
     if command == 'evidence-tests':
         subprocess.run(['python3', '-m', 'unittest', 'discover', '-s', 'test/evidence', '-p', 'test_project_admission.py', '-v'], cwd=ROOT, check=True)
