@@ -1,0 +1,2004 @@
+{
+  "cases": [
+    {
+      "caseId": "ankang",
+      "confirmedDates": [],
+      "findings": [
+        {
+          "citations": [
+            "cn-aka-mee-2014-q1"
+          ],
+          "fact": "Official2014MEEapproval explicitlydatesoldairportcivilstoppageto2010,refiningtheprior2018suspensionlabel."
+        },
+        {
+          "citations": [
+            "cn-aka-mayor-2016-q1"
+          ],
+          "fact": "Deputymayor2016interview independentlycorroborates2010civilstoppageandsaysflighttrainingschoolstillflying; physicalairfieldclosurecannotbeinferred."
+        },
+        {
+          "citations": [
+            "cn-aka-continued-2018-q1"
+          ],
+          "fact": "CAAC2018regionalstatistics saysAnkangcontinuedtosuspend; notnew2018start."
+        }
+      ],
+      "market": "中国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "No official historical AIP/AD2/ARP page with authenticated custody and applicable effective date acquired.",
+        "No official code reallocation/withdrawal notice proves exact IATA/ICAO cutover; opening/trial-flight/licence/protection/publication dates cannot substitute.",
+        "No China-wide project source/rights authorization established; retain candidates, no admission by AAI/Korea grants.",
+        "Exactdayof2010civilstoppageunknown; codewithdrawalwhileflightschoolactiveunknown."
+      ],
+      "sourceIds": [
+        "cn-aka-continued-2018",
+        "cn-aka-mayor-2016",
+        "cn-aka-mee-2014"
+      ]
+    },
+    {
+      "caseId": "beijing",
+      "confirmedDates": [],
+      "findings": [
+        {
+          "conclusions": [
+            "2019-05-13 CAAC称大兴PKX/ZBAD已经获得各自机构批复；这是开航前的代码批复状态，不提供首配生效时刻。"
+          ],
+          "doesNotSupport": [
+            "不证明2019-05-13为分配生效日或全天有效",
+            "不证明南苑NAY代码撤销或首都PEK关闭"
+          ],
+          "sourceId": "pm6-cn-daxing-trial-2019"
+        },
+        {
+          "conclusions": [
+            "东航自有升舱服务机场清单给出HFE与合肥新桥的当次具名关联；原件URL中的2026/5/31不被当作出版或生效日期。"
+          ],
+          "doesNotSupport": [
+            "不证明HFE首配、2013交接日或连续性"
+          ],
+          "sourceId": "pm6-cn-ceair-stations-2026"
+        }
+      ],
+      "market": "中国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [],
+      "sourceIds": [
+        "cn-add-daxing-code-20190513",
+        "cn-add-daxing-summary-2020",
+        "pm6-cn-ceair-stations-2026",
+        "pm6-cn-daxing-trial-2019"
+      ]
+    },
+    {
+      "caseId": "chengdu",
+      "confirmedDates": [],
+      "findings": [
+        {
+          "conclusions": [
+            "记者于2020-01-20称查询IATA官网见TFU；属于二手的当日查询报道，不能认作IATA分配原通知。该页面带预览不可公开转发提示，公共包只留元数据和事实限制，不留正文摘引。"
+          ],
+          "doesNotSupport": [
+            "不能把记者查询日当作TFU首配生效日期",
+            "政府媒体并不使其成为IATA发行原件"
+          ],
+          "sourceId": "pm6-cn-tianfu-code-report-2020"
+        },
+        {
+          "conclusions": [
+            "机场运营方互通指南分别要求旅客在天府和双流之间地面交通中转，支持两处独立场址。代码仅出现在图像中、未由文本提取重现，本轮不据此添加代码事实；上传路径不作生效日期。"
+          ],
+          "doesNotSupport": [
+            "不证明CTU转移到天府",
+            "不证明任何首次分配或撤销日期"
+          ],
+          "sourceId": "pm6-cn-chengdu-dual-airport-2024"
+        },
+        {
+          "conclusions": [
+            "东航自有升舱服务机场清单给出HFE与合肥新桥的当次具名关联；原件URL中的2026/5/31不被当作出版或生效日期。"
+          ],
+          "doesNotSupport": [
+            "不证明HFE首配、2013交接日或连续性"
+          ],
+          "sourceId": "pm6-cn-ceair-stations-2026"
+        }
+      ],
+      "market": "中国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [],
+      "sourceIds": [
+        "pm6-cn-ceair-stations-2026",
+        "pm6-cn-chengdu-dual-airport-2024",
+        "pm6-cn-tianfu-code-report-2020"
+      ]
+    },
+    {
+      "caseId": "hefei",
+      "confirmedDates": [
+        {
+          "codeEffectiveDate": false,
+          "date": "2013-05-30",
+          "kind": "new_airport_commissioning",
+          "precision": "exact_local_midnight"
+        }
+      ],
+      "findings": [
+        {
+          "conclusions": [
+            "CAAC安徽监管局原文确认2013-05-30零时新桥启用及骆岗完成转场。两场物理身份必须区分，但原文没有写HFE/ZSOF，不据此设置代码交接日期。"
+          ],
+          "doesNotSupport": [
+            "不支持IATA/ICAO代码交接边界",
+            "不证明旧场所有军事或非运输运行终止"
+          ],
+          "sourceId": "pm6-cn-hefei-transfer-2013"
+        },
+        {
+          "conclusions": [
+            "建设项目正式公告明确骆岗迁建至新桥的项目关系，规划批复日期不是新场投运或代码分配日期。"
+          ],
+          "doesNotSupport": [
+            "2007-10-15建设项目批复不是代码分配日期"
+          ],
+          "sourceId": "pm6-cn-hefei-project-2007"
+        },
+        {
+          "conclusions": [
+            "东航自有升舱服务机场清单给出HFE与合肥新桥的当次具名关联；原件URL中的2026/5/31不被当作出版或生效日期。"
+          ],
+          "doesNotSupport": [
+            "不证明HFE首配、2013交接日或连续性"
+          ],
+          "sourceId": "pm6-cn-ceair-stations-2026"
+        }
+      ],
+      "market": "中国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [],
+      "sourceIds": [
+        "pm6-cn-ceair-stations-2026",
+        "pm6-cn-hefei-project-2007",
+        "pm6-cn-hefei-transfer-2013"
+      ]
+    },
+    {
+      "caseId": "jinzhou",
+      "confirmedDates": [
+        {
+          "codeEffectiveDate": false,
+          "date": "2015-12-10",
+          "kind": "service_opening",
+          "precision": "day"
+        }
+      ],
+      "findings": [
+        {
+          "conclusions": [
+            "CAAC地区局原件回顾确认锦州湾2015-12-10开航并颁发使用许可证，细化此前只确认2015迁建的事实。"
+          ],
+          "doesNotSupport": [
+            "未写JNZ或ZYJZ，不能据开航日设代码边界",
+            "不证明小岭子物理关闭或军事运行终止"
+          ],
+          "sourceId": "pm6-cn-jinzhou-open-2015"
+        },
+        {
+          "conclusions": [
+            "当前CAAC目录标题为锦州湾，但其2015-09-23页面日期早于已确认开航。空白目录不能作该日已运行或代码分配观察。"
+          ],
+          "doesNotSupport": [
+            "页面时间不等于标题内容的历史有效时间",
+            "未取得场址或代码实体内容"
+          ],
+          "sourceId": "pm6-cn-jinzhou-profile"
+        },
+        {
+          "conclusions": [
+            "辽宁生态环境部门发布的项目环评把锦州湾定位于何屯盐场；跑道参考点明确采用北京54坐标系，不能直接写入WGS84正式坐标。雷达塔坐标也不是机场ARP。"
+          ],
+          "doesNotSupport": [
+            "不支持WGS84机场ARP",
+            "不支持JNZ/ZYJZ分配或交接日期"
+          ],
+          "sourceId": "pm6-cn-jinzhou-radar-2023"
+        }
+      ],
+      "market": "中国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [],
+      "sourceIds": [
+        "cn-add-jinzhou-opening20151210",
+        "pm6-cn-jinzhou-open-2015",
+        "pm6-cn-jinzhou-profile",
+        "pm6-cn-jinzhou-radar-2023"
+      ]
+    },
+    {
+      "caseId": "kunming",
+      "confirmedDates": [],
+      "findings": [
+        {
+          "code": "KMG",
+          "kind": "dated-IATA-site-observation",
+          "note": "Official carrier current-file reproduction of printed2017document.2017postingdate is not allocationdate; dynamicURL content provenance prior to retrieval not independently archived.",
+          "observedDocumentDate": "2017-01-24",
+          "physicalName": "昆明长水国际机场",
+          "sourceIds": [
+            "cn-kmg-csair-cargo-2017"
+          ]
+        },
+        {
+          "code": "KMG",
+          "kind": "undated-IATA-site-observation",
+          "note": "Current association only; URL2026/5/31 not treated as effective/publicationdate.",
+          "physicalName": "昆明长水国际机场",
+          "sourceIds": [
+            "cn-kmg-ceair-upgrade-2026"
+          ]
+        },
+        {
+          "code": null,
+          "kind": "historical-licence-site",
+          "licenceIssueDate": "2008-05-04",
+          "physicalName": "昆明巫家坝国际机场",
+          "sourceIds": [
+            "cn-wuz-caac-licences-2007"
+          ]
+        },
+        {
+          "conclusions": [
+            "东航自有升舱服务机场清单给出HFE与合肥新桥的当次具名关联；原件URL中的2026/5/31不被当作出版或生效日期。"
+          ],
+          "doesNotSupport": [
+            "不证明HFE首配、2013交接日或连续性"
+          ],
+          "sourceId": "pm6-cn-ceair-stations-2026"
+        }
+      ],
+      "market": "中国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "Authenticated old/new official AD2 or AIRAC/supplement with ARP, effective date and ICAO/IATA correspondence.",
+        "Primary explicit KMG/ZPPP continuation/transfer at2012-06-28 boundary; opening and first/lastflight alone cannot supplycodeeffective.",
+        "Rights/source allowance applicable to China and historical-date precision rule."
+      ],
+      "sourceIds": [
+        "cn-kmg-caac-slots-2019",
+        "cn-kmg-ceair-upgrade-2026",
+        "cn-kmg-csair-cargo-2017",
+        "cn-wuz-caac-licences-2007",
+        "pm6-cn-ceair-stations-2026"
+      ]
+    },
+    {
+      "caseId": "lianyungang",
+      "confirmedDates": [],
+      "findings": [
+        {
+          "citations": [
+            "cn-lyg-mee-2019-q1"
+          ],
+          "fact": "2019MEEadministrative approval locates proposedHuaguoshan atHongheVillage XiaoyiTown GuanyunCounty,21km fromcity."
+        },
+        {
+          "citations": [
+            "cn-lyg-both-sites-2020-q1",
+            "cn-lyg-protection-2020-q1"
+          ],
+          "fact": "2020jointmunicipal administrative mechanism explicitly namesBaitabu andHuaguoshan separately; control authority stillusesBaitabu contacts, so administrativecontactisnotcurrentphysicalARP."
+        }
+      ],
+      "market": "中国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "No official historical AIP/AD2/ARP page with authenticated custody and applicable effective date acquired.",
+        "No official code reallocation/withdrawal notice proves exact IATA/ICAO cutover; opening/trial-flight/licence/protection/publication dates cannot substitute.",
+        "No China-wide project source/rights authorization established; retain candidates, no admission by AAI/Korea grants."
+      ],
+      "sourceIds": [
+        "cn-lyg-both-sites-2020",
+        "cn-lyg-mee-2019",
+        "cn-lyg-protection-2020"
+      ]
+    },
+    {
+      "caseId": "luzhou",
+      "confirmedDates": [],
+      "findings": [
+        {
+          "citations": [
+            "cn-lzo-mee-2014-q1",
+            "cn-lzo-mee-2014-q2"
+          ],
+          "fact": "MEE2014approval distinguishesexistingairport5.1km southwest fromnewYunlong/Shidongsite17km fromcity."
+        }
+      ],
+      "market": "中国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "No official historical AIP/AD2/ARP page with authenticated custody and applicable effective date acquired.",
+        "No official code reallocation/withdrawal notice proves exact IATA/ICAO cutover; opening/trial-flight/licence/protection/publication dates cannot substitute.",
+        "No China-wide project source/rights authorization established; retain candidates, no admission by AAI/Korea grants.",
+        "EIA PDF indexedinsearch returnedHTTP200soft404inactualfetch; retainfailure,nevercitecachedexcerptasacquiredoriginal."
+      ],
+      "sourceIds": [
+        "cn-lzo-eia-2013",
+        "cn-lzo-mee-2014"
+      ]
+    },
+    {
+      "caseId": "rizhao",
+      "confirmedDates": [],
+      "findings": [
+        {
+          "meaning": "AD2 neighbor table explicitly names 日照/山字河 and gives an ARP; this is not a code assignment source. AOPA-hosted operator document, not a CAAC AIP original.",
+          "sourceId": "cn-add-rizhao-lanshan-ad2-20200506",
+          "type": "physical_airport_ARP",
+          "value": {
+            "elevationM": 50,
+            "latitude": 35.40555555555555,
+            "longitude": 119.3236111111111,
+            "rawCoordinate": "N352420E1191925",
+            "runwayM": "2600×45"
+          }
+        }
+      ],
+      "market": "中国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "Acquire IATA allocation/confirmation original or approved custodian reproduction for RIZ, including temporal semantics",
+        "Acquire ATMB approval original for ZSRZ; 2015-04-29 remains encyclopedia-only discovery claim",
+        "Acquire historical source-code-to-physical-site correspondence with issue/effective date",
+        "Obtain applicable China source/rights authorization; no AAI or Korea grant applies"
+      ],
+      "sourceIds": [
+        "cn-add-rizhao-lanshan-ad2-20200506",
+        "cn-add-rizhao-operator",
+        "cn-add-rizhao-yearbook2016"
+      ]
+    },
+    {
+      "caseId": "shiyan",
+      "confirmedDates": [],
+      "findings": [
+        {
+          "meaning": "Jingmen/Zhanghe AD2 neighbor row identifies Shiyan/Wudangshan ARP, not WDS/ZHSY allocation.",
+          "sourceId": "cn-add-aopa-jingmen-ad2-20240422",
+          "type": "physical_airport_ARP",
+          "value": {
+            "elevationM": 325,
+            "latitude": 32.593333333333334,
+            "longitude": 110.90611111111112,
+            "rawCoordinate": "N323536E1105422",
+            "runwayM": "2600×45"
+          }
+        },
+        {
+          "date": "2016-01-29",
+          "meaning": "CAAC Central/Southern regulator issued airport operating licence; distinct from airport-code assignment.",
+          "precision": "day",
+          "sourceId": "cn-add-shiyan-caac-licence",
+          "type": "operating_licence_issuance"
+        },
+        {
+          "date": "2016-02-05",
+          "meaning": "Operator states actual opening; do not reuse as code effective date.",
+          "precision": "day",
+          "sourceId": "cn-add-shiyan-basic",
+          "type": "opening"
+        }
+      ],
+      "market": "中国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "Acquire IATA WDS approval original and actual effective-date semantics",
+        "Acquire ATMB ZHSY approval original and effective-date semantics",
+        "Acquire official historical airport-specific code/name/site record rather than joining unrelated code lists and ARP tables",
+        "Obtain applicable China source/rights authorization"
+      ],
+      "sourceIds": [
+        "cn-add-aopa-jingmen-ad2-20240422",
+        "cn-add-china-wds-index",
+        "cn-add-shiyan-basic",
+        "cn-add-shiyan-caac-licence",
+        "cn-add-wds-code-chinanet20150707"
+      ]
+    },
+    {
+      "caseId": "wuzhou",
+      "confirmedDates": [],
+      "findings": [
+        {
+          "kind": "physical-relocation-corroboration",
+          "newRunwayMetres": 2600,
+          "note": "Regulator explicitly describes relocation/newairport; does not supplyold/newARP.",
+          "oldRunwayMetres": 1800,
+          "physicalSites": [
+            "梧州长洲岛机场",
+            "梧州西江机场"
+          ],
+          "sourceIds": [
+            "cn-wuz-caac-assets-2007",
+            "cn-wuz-caac-license-prep-2018"
+          ]
+        },
+        {
+          "code": "WUZ",
+          "kind": "dated-IATA-name-reference",
+          "note": "2022reporting reference, CAACstatsderived; not full2022assignmentwindow.",
+          "physicalName": "梧州/西江",
+          "publicationDate": "2023-02-23",
+          "referenceYear": "2022",
+          "sourceIds": [
+            "cn-wuz-gdee-exceptional-2022"
+          ]
+        },
+        {
+          "kind": "licensing-site-contrast",
+          "newInventoryAsOf": "2025-12-31",
+          "note": "Old3C licenceinventory versus2007industryarticle4Cscalestandard conflict recorded; do not usecategoryasuniqueidentityalone.",
+          "oldLicenseIssueDate": "2007-10-30",
+          "sourceIds": [
+            "cn-wuz-caac-licences-2007",
+            "cn-wuz-caac-licences-2026"
+          ]
+        },
+        {
+          "code": "ZGWZ",
+          "documentDate": "2009-05-14",
+          "kind": "code-city-station-reference",
+          "note": "Wuzhoucitystationonly; doesnotexplicitlynameChangzhoudao or ARP.",
+          "sourceIds": [
+            "cn-wuz-caac-met-exchange-2011"
+          ]
+        },
+        {
+          "kind": "transport-suspension-and-resumption",
+          "note": "Transportflights only; no physicalclosure or codewithdrawal inferred.",
+          "resumedDate": "2007-06-18",
+          "sourceIds": [
+            "cn-wuz-caac-assets-2007",
+            "cn-wuz-caac-profile-2007"
+          ],
+          "suspendedFromMonth": "2002-05"
+        }
+      ],
+      "market": "中国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "Authenticated old/new official AD2 with ARP and code/site correspondence, especiallyZGWZ.",
+        "Actualoldterminalcommercialserviceend and physicalclosure records; establish any2017–2019gapwithoutbridging.",
+        "Official aeronautical publication/licence administrative original for newsite with effective semantics.",
+        "Primary WUZ/ZGWZ old-to-newcodecontinuation/transfer or independently dated bounds.",
+        "Chinaapplicablesourceauthorization; no AAI/KRextension."
+      ],
+      "sourceIds": [
+        "cn-wuz-caac-assets-2007",
+        "cn-wuz-caac-licences-2007",
+        "cn-wuz-caac-licences-2026",
+        "cn-wuz-caac-license-prep-2018",
+        "cn-wuz-caac-met-exchange-2011",
+        "cn-wuz-caac-profile-2007",
+        "cn-wuz-ceair-terminal-current",
+        "cn-wuz-gdee-exceptional-2022",
+        "cn-wuz-gdee-guide-landing-2023",
+        "cn-wuz-operator-about",
+        "cn-wuz-operator-information-vendor"
+      ]
+    },
+    {
+      "caseId": "yanan",
+      "confirmedDates": [],
+      "findings": [
+        {
+          "citations": [
+            "cn-eny-old-site-2018-q1"
+          ],
+          "fact": "CAAC2018preopeningtrial-flight original sayscivilYananstationmovedfromDongguan toErshilipu in1981. ThisintroducesearlierthirdsitewithoutprovingENY/ZLYAassignmentthere."
+        },
+        {
+          "citations": [
+            "cn-eny-old-site-2018-q2"
+          ],
+          "fact": "Nanniwan isnew4Ccivil/militarysite13km southofcity onmountaintop; trialflight2018-09-05isnotallocationeffective date."
+        }
+      ],
+      "market": "中国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "No official historical AIP/AD2/ARP page with authenticated custody and applicable effective date acquired.",
+        "No official code reallocation/withdrawal notice proves exact IATA/ICAO cutover; opening/trial-flight/licence/protection/publication dates cannot substitute.",
+        "No China-wide project source/rights authorization established; retain candidates, no admission by AAI/Korea grants.",
+        "NeedDongguanphysicalidentityandindependenthistoricalcodecorrespondencebeforeextendingpre1981resolution."
+      ],
+      "sourceIds": [
+        "cn-eny-old-site-2018",
+        "cn-eny-operator-profile"
+      ]
+    },
+    {
+      "caseId": "yibin",
+      "confirmedDates": [],
+      "findings": [
+        {
+          "citations": [
+            "cn-ybp-mee-2014-q1",
+            "cn-ybp-mee-2014-q2"
+          ],
+          "fact": "MEE2014approval distinguishesexistingCaibaTown7km northwest andproposedZongchangTown11km fromcity."
+        },
+        {
+          "citations": [
+            "cn-ybp-eia-2013-q1"
+          ],
+          "fact": "Actual2013commissionedEIApublicPDF givesproposedsite1.5km west ofZongchangseat,~420m altitude; extractedcoordinate tablesarerelativeX/Y(m),notgeodeticARP."
+        }
+      ],
+      "market": "中国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "No official historical AIP/AD2/ARP page with authenticated custody and applicable effective date acquired.",
+        "No official code reallocation/withdrawal notice proves exact IATA/ICAO cutover; opening/trial-flight/licence/protection/publication dates cannot substitute.",
+        "No China-wide project source/rights authorization established; retain candidates, no admission by AAI/Korea grants."
+      ],
+      "sourceIds": [
+        "cn-ybp-eia-2013",
+        "cn-ybp-mee-2014"
+      ]
+    },
+    {
+      "caseId": "zhanjiang",
+      "confirmedDates": [],
+      "findings": [
+        {
+          "citations": [
+            "cn-zha-protection-order-2022-q1",
+            "cn-zha-protection-rule-2025-q1"
+          ],
+          "fact": "Municipal2022-03-22protectionorderandundatedattachedversionprovideadministrativecorrespondencewithWuchuan; do not establishcodeassignmentorARP."
+        }
+      ],
+      "market": "中国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "No official historical AIP/AD2/ARP page with authenticated custody and applicable effective date acquired.",
+        "No official code reallocation/withdrawal notice proves exact IATA/ICAO cutover; opening/trial-flight/licence/protection/publication dates cannot substitute.",
+        "No China-wide project source/rights authorization established; retain candidates, no admission by AAI/Korea grants.",
+        "CommissionedwateracceptancePDFwithpotentialnewsitecoordinatesreturned503; officialoperatorprocurement503; noraworiginalsupportssearchcoordinatequote."
+      ],
+      "sourceIds": [
+        "cn-zha-operator-procurement-2020",
+        "cn-zha-protection-order-2022",
+        "cn-zha-protection-rule-2025",
+        "cn-zha-water-acceptance-2025"
+      ]
+    },
+    {
+      "admissionAssessment": "research candidate only; current Daegu may be evaluated under the country/issuer-wide identity grant once all existing predicates are proven. The prospective site remains unverified and no future airportId or code interval is inferred.",
+      "caseId": "daegu",
+      "confirmedDates": [
+        {
+          "date": "2030",
+          "fact": "Government policy target for new airport opening",
+          "meaning": "Prospective target stated 2024-03-04, not actual opening, code assignment or closure",
+          "precision": "year",
+          "sourceIds": [
+            "kr-daegu-policy-20240304"
+          ]
+        },
+        {
+          "earliest": "2016",
+          "fact": "Provincial poster project period",
+          "latest": "2030",
+          "meaning": "Planned project period observed in current HTML image alt; not actual transfer interval",
+          "precision": "year",
+          "sourceIds": [
+            "kr-daegu-new-project-profile"
+          ]
+        },
+        {
+          "date": "2003-11-25",
+          "fact": "Daegu certification",
+          "meaning": "Aerodrome certification, not code allocation",
+          "precision": "day",
+          "sourceIds": [
+            "kr-aip-20230727-licensing"
+          ]
+        }
+      ],
+      "findings": [
+        "2024 policy describes moving both K2 military airport and Daegu civil airport to a new site.",
+        "The 2025 controlled AIP observation locates existing RKTN at 35°53′39″N128°39′32″E.",
+        "The acquired sources provide no actual opening, closure, ICAO transfer or historical IATA assignment dates for the future site."
+      ],
+      "identityCandidate": null,
+      "market": "韩国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 35.89416666666666,
+            "longitude": 128.6588888888889,
+            "raw": "355339N 1283932E"
+          },
+          "icaoObservation": "RKTN",
+          "label": "Current Daegu airport",
+          "sourceIds": [
+            "kr-rktn-20250416-site"
+          ]
+        },
+        {
+          "coordinates": null,
+          "label": "Proposed Daegu Gyeongbuk airport",
+          "locationLead": "Gunwi/Uiseong area from2024 policy report",
+          "sourceIds": [
+            "kr-daegu-policy-20240304",
+            "kr-daegu-new-project-profile"
+          ]
+        }
+      ],
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "Definitive future site ARP/current executed status",
+        "Original transfer/closure/opening documents when executed",
+        "Historical IATA assignment evidence and any future ICAO assignment notice",
+        "For current Daegu, complete the required pair of controlled AIP physical-site/ARP observations; this supplementary set contains one AD2 edition, and the certification table is not a second ARP observation.",
+        "For current Daegu, join the AIP site/address to an independent official operator source under the airport.kr or airport.co.kr profile.",
+        "Prove all existing identity predicates, including full edition controls, source/use conditions, stable-site criteria, low-risk classification, competition/duplicate checks and provenance. The observed military-base status and planned relocation require explicit risk assessment.",
+        "For the prospective site, prove the same physical-site predicates using executed/current evidence when available; a policy target supplies no controlled ARP observation or executed transfer.",
+        "No applicable current code grant for RKTN or the prospective Daegu site; both remain outside the exact RKSI/RKSS finite-window grant."
+      ],
+      "sourceIds": [
+        "kr-aip-20230727-licensing",
+        "kr-daegu-new-project-profile",
+        "kr-daegu-policy-20240304",
+        "kr-rktn-20250416-site"
+      ],
+      "unknownDates": []
+    },
+    {
+      "admissionAssessment": null,
+      "caseId": "gimpo",
+      "confirmedDates": [
+        {
+          "aipName": "SEOUL / GIMPO International",
+          "arpDms": "373325N 1264751E",
+          "effectiveUtc": "2025-04-16T16:00:00+00:00",
+          "sourceId": "kr-rkss-2025-04-16"
+        },
+        {
+          "aipName": "SEOUL / GIMPO International",
+          "arpDms": "373325N 1264751E",
+          "effectiveUtc": "2025-05-14T16:00:00+00:00",
+          "sourceId": "kr-rkss-2025-05-14"
+        }
+      ],
+      "findings": [],
+      "identityCandidate": {
+        "airportId": "apt_2caa4ef2-6d58-434b-8de7-f5a33fa4b186",
+        "candidateStatus": "UNPUBLISHED_IDENTITY_ONLY",
+        "classification": "AUTO_ELIGIBLE",
+        "identityPredicates": {
+          "competitionInventoryOriginalSha256": "d0d572c809f87b6cf256826b6402dc89cdf9e4eb817e6466ab811ba6b606e964",
+          "completeAirportPhysicalRiskNotamCoverage": true,
+          "controlledObservations": 2,
+          "independentOperatorOwnAddress": true,
+          "intermediateEditions": [
+            "AIP AMDT 5/25"
+          ],
+          "lowRiskClassification": true,
+          "originalNameArpAndStreetAddressJoin": true,
+          "outerGapDays": 28
+        },
+        "identitySources": [
+          "kac-gimpo-location",
+          "kr-rkss-2025-04-16",
+          "kr-rkss-2025-05-14"
+        ]
+      },
+      "market": "韩国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "physicalSites": [],
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "Full bounded ICAO replay blocked by changed kr-history lacking fact-specific replacement contract.",
+        "IATA independent historical assignment/effective bounds are not established.",
+        "Early ICAO history and business-transfer boundaries remain research candidates."
+      ],
+      "sourceIds": [
+        "checklist-a0351-25",
+        "checklist-a0351-25/A0068/25",
+        "checklist-a0351-25/A0123/25",
+        "checklist-a0351-25/A0164/25",
+        "checklist-a0351-25/A0223/25",
+        "checklist-a0351-25/A0232/25",
+        "checklist-a0351-25/A0233/25",
+        "checklist-a0351-25/A0277/25",
+        "checklist-a0351-25/A0289/25",
+        "checklist-a0351-25/A0293/25",
+        "checklist-a0351-25/A0333/25",
+        "checklist-a0351-25/A0335/25",
+        "checklist-a0351-25/A0342/25",
+        "checklist-a0351-25/A0344/25",
+        "checklist-a0351-25/A0349/25",
+        "checklist-a0478-25",
+        "checklist-a0478-25/A0232/25",
+        "checklist-a0478-25/A0277/25",
+        "checklist-a0478-25/A0403/25",
+        "checklist-a0478-25/A0404/25",
+        "checklist-a0478-25/A0433/25",
+        "checklist-a0478-25/A0435/25",
+        "checklist-a0478-25/A0443/25",
+        "checklist-a0478-25/A0455/25",
+        "checklist-a0478-25/A0462/25",
+        "checklist-a0478-25/A0468/25",
+        "checklist-a0478-25/A0474/25",
+        "checklist-a0478-25/A0475/25",
+        "checklist-a0478-25/A0476/25",
+        "checklist-a0478-25/A0477/25",
+        "checklist-g0304-25",
+        "checklist-g0684-25",
+        "checklist-z0384-25",
+        "checklist-z0384-25/Z0191/25",
+        "checklist-z0384-25/Z0192/25",
+        "checklist-z0384-25/Z0193/25",
+        "checklist-z0384-25/Z0206/25",
+        "checklist-z0384-25/Z0208/25",
+        "checklist-z0384-25/Z0304/25",
+        "checklist-z0384-25/Z0305/25",
+        "checklist-z0384-25/Z0307/25",
+        "checklist-z0384-25/Z0308/25",
+        "checklist-z0384-25/Z0309/25",
+        "checklist-z0384-25/Z0310/25",
+        "checklist-z0384-25/Z0313/25",
+        "checklist-z0384-25/Z0314/25",
+        "checklist-z0384-25/Z0315/25",
+        "checklist-z0384-25/Z0316/25",
+        "checklist-z0384-25/Z0318/25",
+        "checklist-z0384-25/Z0320/25",
+        "checklist-z0384-25/Z0322/25",
+        "checklist-z0384-25/Z0338/25",
+        "checklist-z0384-25/Z0340/25",
+        "checklist-z0384-25/Z0349/25",
+        "checklist-z0384-25/Z0376/25",
+        "checklist-z0384-25/Z0383/25",
+        "checklist-z0471-25",
+        "checklist-z0471-25/Z0338/25",
+        "checklist-z0471-25/Z0340/25",
+        "checklist-z0471-25/Z0393/25",
+        "checklist-z0471-25/Z0394/25",
+        "checklist-z0471-25/Z0395/25",
+        "checklist-z0471-25/Z0396/25",
+        "checklist-z0471-25/Z0397/25",
+        "checklist-z0471-25/Z0428/25",
+        "checklist-z0471-25/Z0429/25",
+        "checklist-z0471-25/Z0468/25",
+        "checklist-z0471-25/Z0469/25",
+        "checklist-z0471-25/Z0470/25",
+        "iata-seoul-current",
+        "kac-gimpo-location",
+        "kr-20250416-amdt-full",
+        "kr-20250416-gen03",
+        "kr-20250416-sup-menu",
+        "kr-20250501-amdt-full",
+        "kr-20250501-cover",
+        "kr-20250501-gen03",
+        "kr-20250501-rkss",
+        "kr-20250501-sup-menu",
+        "kr-20250514-amdt-full",
+        "kr-20250514-gen03",
+        "kr-20250514-sup-menu",
+        "kr-gen01",
+        "kr-gen31",
+        "kr-history",
+        "kr-notam-2025-rkss",
+        "kr-notam-negative-control",
+        "kr-notam-rkss-available",
+        "kr-rkss-2025-04-16",
+        "kr-rkss-2025-05-14",
+        "kr-rkss-2026",
+        "kr-sup-2010-23",
+        "kr-sup-2023-11",
+        "kr-sup-2023-2",
+        "kr-sup-2023-2-b9c95f36",
+        "kr-sup-2023-8",
+        "kr-sup-2024-17",
+        "kr-sup-2024-19",
+        "kr-sup-2024-27",
+        "kr-sup-2024-40",
+        "kr-sup-2024-41",
+        "kr-sup-2024-47",
+        "kr-sup-2024-48",
+        "kr-sup-2024-56",
+        "kr-sup-2024-62",
+        "kr-sup-2024-63",
+        "kr-sup-2024-66",
+        "kr-sup-2024-67",
+        "kr-sup-2024-68",
+        "kr-sup-2024-69",
+        "kr-sup-2024-73",
+        "kr-sup-2024-75",
+        "kr-sup-2024-76",
+        "kr-sup-2024-81",
+        "kr-sup-2024-9",
+        "kr-sup-2025-1",
+        "kr-sup-2025-15",
+        "kr-sup-2025-16",
+        "kr-sup-2025-17",
+        "kr-sup-2025-18",
+        "kr-sup-2025-2",
+        "kr-sup-2025-23-5976bb1e",
+        "kr-sup-2025-3",
+        "kr-sup-2025-33",
+        "kr-sup-2025-34",
+        "kr-sup-2025-35",
+        "kr-sup-2025-36",
+        "kr-sup-2025-37",
+        "kr-sup-2025-39-local-folder",
+        "kr-sup-2025-4",
+        "kr-sup-2025-40",
+        "kr-sup-2025-41",
+        "kr-sup-2025-42",
+        "kr-sup-2025-43",
+        "kr-sup-2025-44",
+        "kr-sup-2025-45",
+        "kr-sup-2025-5",
+        "kr-sup-2025-6",
+        "kr-sup-2025-7",
+        "kr-sup-2025-8",
+        "noaa-isd",
+        "notam-all-rkrr",
+        "notam-all-rkss",
+        "notam-day-rkss",
+        "notam-fir-2024h1",
+        "notam-fir-2024h2",
+        "notam-fir-2025",
+        "notam-fir-early",
+        "notam-fir-followup",
+        "notam-js",
+        "notam-ui",
+        "notam-valid-ui"
+      ],
+      "unknownDates": []
+    },
+    {
+      "admissionAssessment": "new research lead only; distinct old physical identity not yet verified. Country/issuer-wide identity authority does not waive evidence, stability, risk or competition predicates.",
+      "caseId": "gwangju-1964",
+      "confirmedDates": [
+        {
+          "date": "1964",
+          "evidenceStatus": "secondary chronology; original relocation record absent",
+          "fact": "Move from earlier Gwangju location to current site",
+          "precision": "year",
+          "sourceIds": [
+            "kr-gwangju-airportal-2022-factbook"
+          ]
+        }
+      ],
+      "findings": [
+        "Factbook identifies an earlier physical location and a 1964 move, which requires separate historical physical-site investigation.",
+        "No ARP for the earlier site or historical code continuity is established."
+      ],
+      "identityCandidate": null,
+      "market": "韩国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "physicalSites": [
+        {
+          "coordinates": null,
+          "label": "Earlier Gwangju training-base site",
+          "locationLead": "Hak-dong, Dong-gu, Gwangju"
+        },
+        {
+          "coordinates": {
+            "latitude": 35.12638888888889,
+            "longitude": 126.80888888888889,
+            "raw": "350735N 1264832E"
+          },
+          "label": "Current Gwangju site",
+          "locationLead": "Sinchon-dong, Gwangsan-gu; currentAIPARP separately observed"
+        }
+      ],
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "Original 1964 relocation record and old-site location/ARP",
+        "Historic IATA/ICAO assignment evidence at each site",
+        "For the earlier physical site, satisfy the existing controlled-observation, independent operator address-join, edition-control, stable-site, low-risk, competition/duplicate and provenance predicates; none is supplied by a secondary relocation chronology alone.",
+        "No applicable current code grant for the earlier Gwangju physical site."
+      ],
+      "sourceIds": [
+        "kr-gwangju-airportal-2022-factbook"
+      ],
+      "unknownDates": []
+    },
+    {
+      "admissionAssessment": null,
+      "caseId": "incheon",
+      "confirmedDates": [
+        {
+          "aipName": "SEOUL / Incheon INTL",
+          "arpDms": "372745N 1262621E",
+          "effectiveUtc": "2025-04-16T16:00:00+00:00",
+          "sourceId": "kr-rksi-2025-04-16"
+        },
+        {
+          "aipName": "SEOUL / Incheon INTL",
+          "arpDms": "372745N 1262621E",
+          "effectiveUtc": "2025-05-14T16:00:00+00:00",
+          "sourceId": "kr-rksi-2025-05-14"
+        }
+      ],
+      "findings": [],
+      "identityCandidate": {
+        "airportId": "apt_9afce57f-b42f-445f-85e2-5987e4f7db20",
+        "candidateStatus": "UNPUBLISHED_IDENTITY_ONLY",
+        "classification": "AUTO_ELIGIBLE",
+        "identityPredicates": {
+          "competitionInventoryOriginalSha256": "d0d572c809f87b6cf256826b6402dc89cdf9e4eb817e6466ab811ba6b606e964",
+          "completeAirportPhysicalRiskNotamCoverage": true,
+          "controlledObservations": 2,
+          "independentOperatorOwnAddress": true,
+          "intermediateEditions": [
+            "AIP AMDT 5/25"
+          ],
+          "lowRiskClassification": true,
+          "originalNameArpAndStreetAddressJoin": true,
+          "outerGapDays": 28
+        },
+        "identitySources": [
+          "iiac-location",
+          "kr-rksi-2025-04-16",
+          "kr-rksi-2025-05-14"
+        ]
+      },
+      "market": "韩国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "physicalSites": [],
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "Full bounded ICAO replay blocked by changed kr-history lacking fact-specific replacement contract.",
+        "IATA independent historical assignment/effective bounds are not established.",
+        "Early ICAO history and business-transfer boundaries remain research candidates."
+      ],
+      "sourceIds": [
+        "checklist-a0351-25",
+        "checklist-a0351-25/A0068/25",
+        "checklist-a0351-25/A0123/25",
+        "checklist-a0351-25/A0164/25",
+        "checklist-a0351-25/A0223/25",
+        "checklist-a0351-25/A0232/25",
+        "checklist-a0351-25/A0233/25",
+        "checklist-a0351-25/A0277/25",
+        "checklist-a0351-25/A0289/25",
+        "checklist-a0351-25/A0293/25",
+        "checklist-a0351-25/A0333/25",
+        "checklist-a0351-25/A0335/25",
+        "checklist-a0351-25/A0342/25",
+        "checklist-a0351-25/A0344/25",
+        "checklist-a0351-25/A0349/25",
+        "checklist-a0478-25",
+        "checklist-a0478-25/A0232/25",
+        "checklist-a0478-25/A0277/25",
+        "checklist-a0478-25/A0403/25",
+        "checklist-a0478-25/A0404/25",
+        "checklist-a0478-25/A0433/25",
+        "checklist-a0478-25/A0435/25",
+        "checklist-a0478-25/A0443/25",
+        "checklist-a0478-25/A0455/25",
+        "checklist-a0478-25/A0462/25",
+        "checklist-a0478-25/A0468/25",
+        "checklist-a0478-25/A0474/25",
+        "checklist-a0478-25/A0475/25",
+        "checklist-a0478-25/A0476/25",
+        "checklist-a0478-25/A0477/25",
+        "checklist-g0304-25",
+        "checklist-g0684-25",
+        "checklist-z0384-25",
+        "checklist-z0384-25/Z0191/25",
+        "checklist-z0384-25/Z0192/25",
+        "checklist-z0384-25/Z0193/25",
+        "checklist-z0384-25/Z0206/25",
+        "checklist-z0384-25/Z0208/25",
+        "checklist-z0384-25/Z0304/25",
+        "checklist-z0384-25/Z0305/25",
+        "checklist-z0384-25/Z0307/25",
+        "checklist-z0384-25/Z0308/25",
+        "checklist-z0384-25/Z0309/25",
+        "checklist-z0384-25/Z0310/25",
+        "checklist-z0384-25/Z0313/25",
+        "checklist-z0384-25/Z0314/25",
+        "checklist-z0384-25/Z0315/25",
+        "checklist-z0384-25/Z0316/25",
+        "checklist-z0384-25/Z0318/25",
+        "checklist-z0384-25/Z0320/25",
+        "checklist-z0384-25/Z0322/25",
+        "checklist-z0384-25/Z0338/25",
+        "checklist-z0384-25/Z0340/25",
+        "checklist-z0384-25/Z0349/25",
+        "checklist-z0384-25/Z0376/25",
+        "checklist-z0384-25/Z0383/25",
+        "checklist-z0471-25",
+        "checklist-z0471-25/Z0338/25",
+        "checklist-z0471-25/Z0340/25",
+        "checklist-z0471-25/Z0393/25",
+        "checklist-z0471-25/Z0394/25",
+        "checklist-z0471-25/Z0395/25",
+        "checklist-z0471-25/Z0396/25",
+        "checklist-z0471-25/Z0397/25",
+        "checklist-z0471-25/Z0428/25",
+        "checklist-z0471-25/Z0429/25",
+        "checklist-z0471-25/Z0468/25",
+        "checklist-z0471-25/Z0469/25",
+        "checklist-z0471-25/Z0470/25",
+        "iata-seoul-current",
+        "iiac-location",
+        "kr-20250416-amdt-full",
+        "kr-20250416-gen03",
+        "kr-20250416-sup-menu",
+        "kr-20250501-amdt-full",
+        "kr-20250501-cover",
+        "kr-20250501-gen03",
+        "kr-20250501-rksi",
+        "kr-20250501-sup-menu",
+        "kr-20250514-amdt-full",
+        "kr-20250514-gen03",
+        "kr-20250514-sup-menu",
+        "kr-gen01",
+        "kr-gen31",
+        "kr-history",
+        "kr-notam-2025-rksi",
+        "kr-notam-negative-control",
+        "kr-notam-rksi-available",
+        "kr-rksi-2025-04-16",
+        "kr-rksi-2025-05-14",
+        "kr-rksi-2026",
+        "kr-sup-2010-23",
+        "kr-sup-2023-11",
+        "kr-sup-2023-2",
+        "kr-sup-2023-2-b9c95f36",
+        "kr-sup-2023-8",
+        "kr-sup-2024-17",
+        "kr-sup-2024-19",
+        "kr-sup-2024-27",
+        "kr-sup-2024-40",
+        "kr-sup-2024-41",
+        "kr-sup-2024-47",
+        "kr-sup-2024-48",
+        "kr-sup-2024-56",
+        "kr-sup-2024-62",
+        "kr-sup-2024-63",
+        "kr-sup-2024-66",
+        "kr-sup-2024-67",
+        "kr-sup-2024-68",
+        "kr-sup-2024-69",
+        "kr-sup-2024-73",
+        "kr-sup-2024-75",
+        "kr-sup-2024-76",
+        "kr-sup-2024-81",
+        "kr-sup-2024-9",
+        "kr-sup-2025-1",
+        "kr-sup-2025-15",
+        "kr-sup-2025-16",
+        "kr-sup-2025-17",
+        "kr-sup-2025-18",
+        "kr-sup-2025-2",
+        "kr-sup-2025-23-5976bb1e",
+        "kr-sup-2025-3",
+        "kr-sup-2025-33",
+        "kr-sup-2025-34",
+        "kr-sup-2025-35",
+        "kr-sup-2025-36",
+        "kr-sup-2025-37",
+        "kr-sup-2025-39-local-folder",
+        "kr-sup-2025-4",
+        "kr-sup-2025-40",
+        "kr-sup-2025-41",
+        "kr-sup-2025-42",
+        "kr-sup-2025-43",
+        "kr-sup-2025-44",
+        "kr-sup-2025-45",
+        "kr-sup-2025-5",
+        "kr-sup-2025-6",
+        "kr-sup-2025-7",
+        "kr-sup-2025-8",
+        "noaa-isd",
+        "notam-all-rkrr",
+        "notam-all-rksi",
+        "notam-day-rksi",
+        "notam-fir-2024h1",
+        "notam-fir-2024h2",
+        "notam-fir-2025",
+        "notam-fir-early",
+        "notam-fir-followup",
+        "notam-js",
+        "notam-ui",
+        "notam-valid-ui"
+      ],
+      "unknownDates": []
+    },
+    {
+      "admissionAssessment": "research candidate only; current Muan and Gwangju physical sites may qualify under the country/issuer-wide identity grant after every existing predicate is proven. This supplementary set does not establish AUTO_ELIGIBLE; no UUID or formal identity generated.",
+      "caseId": "muan",
+      "confirmedDates": [
+        {
+          "date": "2007-11",
+          "fact": "Muan opening",
+          "meaning": "Opening, not code effective date",
+          "precision": "month",
+          "sourceIds": [
+            "kr-muan-ksp-2012-policy",
+            "kr-gwangju-airportal-2022-factbook"
+          ],
+          "support": "Government-commissioned KSP retrospective; secondary factbook further states 2007-11-08"
+        },
+        {
+          "candidateExactDate": "2008-05-27",
+          "candidateExactDateEvidenceStatus": "secondary only; original transfer order or operational notice absent",
+          "date": "2008",
+          "fact": "International routes/functions transferred from Gwangju to Muan",
+          "meaning": "International service transfer, not all airport operations or physical closure",
+          "precision": "year",
+          "sourceIds": [
+            "kr-muan-ksp-2012-policy",
+            "kr-gwangju-airportal-2022-factbook"
+          ],
+          "support": "KSP retrospective corroborates year; CAPA-derived factbook further states 2008-05-27"
+        },
+        {
+          "date": "2007-11-07",
+          "fact": "Muan certification",
+          "meaning": "Aerodrome certification, not code effective date",
+          "precision": "day",
+          "sourceIds": [
+            "kr-aip-20230727-licensing"
+          ]
+        }
+      ],
+      "findings": [
+        "Muan and Gwangju have different ARPs, named separately in the controlled AIP package; one airport identity must not combine these sites.",
+        "Gwangju2025 AIP observation names Domestic and military-base use. This does not establish continuous commercial operation.",
+        "Planned 2021 closure in 2022 factbook must remain a plan; no executed closure evidence is provided.",
+        "Current distinct ICAO observations do not establish shared code reuse or a historical IATA assignment interval."
+      ],
+      "identityCandidate": null,
+      "market": "韩国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 34.99138888888889,
+            "longitude": 126.38277777777778,
+            "raw": "345929N 1262258E"
+          },
+          "icaoObservation": "RKJB",
+          "label": "Muan",
+          "sourceIds": [
+            "kr-rkjb-20250416-site"
+          ]
+        },
+        {
+          "coordinates": {
+            "latitude": 35.12638888888889,
+            "longitude": 126.80888888888889,
+            "raw": "350735N 1264832E"
+          },
+          "iataSecondaryObservation": "KWJ",
+          "icaoObservation": "RKJJ",
+          "label": "Gwangju current site",
+          "sourceIds": [
+            "kr-rkjj-20250416-site",
+            "kr-gwangju-airportal-2022-factbook"
+          ]
+        }
+      ],
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "Original 2007 opening/transition notice and 2008 international transfer notice",
+        "Independent historical IATA assignment evidence for Muan and Gwangju",
+        "AIP history establishing first/last code effective bounds",
+        "For each current site, complete the required pair of controlled AIP physical-site/ARP observations; this supplementary set contains only one AD2 edition per site, and the certification table is not a second ARP observation.",
+        "For each current site, join the AIP site/address to an independent official operator source under the airport.kr or airport.co.kr profile.",
+        "Prove all existing identity predicates: complete edition-control evidence, source/use conditions, stable-site criteria, low-risk classification, competition/duplicate checks and required provenance. Military-base and service-transfer/relocation clues require explicit risk assessment.",
+        "No applicable current code grant for RKJB/RKJJ; code admission remains outside the exact RKSI/RKSS finite-window grant."
+      ],
+      "sourceIds": [
+        "kr-aip-20230727-licensing",
+        "kr-gwangju-airportal-2022-factbook",
+        "kr-muan-gwangju-ministry-20071101",
+        "kr-muan-ksp-2012-policy",
+        "kr-rkjb-20250416-site",
+        "kr-rkjj-20250416-site"
+      ],
+      "unknownDates": []
+    },
+    {
+      "admissionAssessment": null,
+      "caseId": "ishigaki",
+      "confirmedDates": [
+        {
+          "date": "2013-03-07",
+          "kind": "old_airport_service_abolition",
+          "precision": "day",
+          "sourceIds": [
+            "jp-ishigaki-2016-brochure",
+            "jp-ishigaki-2024-brochure"
+          ]
+        },
+        {
+          "date": "2013-03-07",
+          "kind": "new_airport_service_start_or_opening",
+          "precision": "day",
+          "sourceIds": [
+            "jp-ishigaki-2016-brochure",
+            "jp-ishigaki-2024-brochure",
+            "jp-ishigaki-mlit-20130403"
+          ]
+        },
+        {
+          "date": "2016-03",
+          "kind": "prefectural_directory_edition_observing_new_field_ISG_ROIG",
+          "precision": "month",
+          "sourceIds": [
+            "jp-ishigaki-brochure-index",
+            "jp-okinawa-2016-codes"
+          ]
+        }
+      ],
+      "findings": [
+        "2016 Okinawa official brochure explicitly names New Ishigaki and labels ROIG as ICAO and ISG as IATA; it is a dated prefectural directory observation, not an IATA issuing-body allocation notice.",
+        "Okinawa official 2016 and 2024 brochure histories separately record old Ishigaki service abolition and New Ishigaki service commencement on 2013-03-07. Those operational dates do not by themselves date either code transfer.",
+        "Legacy Okinawa official new-airport plan and the visually verified brochure reference-point table both give 24°23′47″N 124°14′42″E. JMA independently identifies ROIG, reference point24°23.7′N124°14.7′E, and explicit relocation from the old southern-island field.",
+        "The MLIT photogrammetric base map gives old-Ishigaki coarse24°20′N124°11′E geography. This is not a certified historical ARP; PDF embedded creation2011-04-08 is not an independently confirmed publication date.",
+        "Existing b5-jp-jma-284, b5-jp-jma-20220209 and b5-jp-okinawa-opening evidence must be reused. JMA code usages remain meteorological observations, separately classified from the newly typed prefectural ICAO/IATA table."
+      ],
+      "identityCandidate": null,
+      "market": "日本",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "physicalSites": [],
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "Historical2013 AIS Japan AIP/AIC/AIRAC or equivalent administrative designation original",
+        "Independent IATA issuer allocation history",
+        "Applicable Japanese source-use/admission policy; source access alone grants no production authorization",
+        "Manual brochure transcript is explicitly partial; original PDF and render hashes must accompany review"
+      ],
+      "sourceIds": [
+        "jp-ishigaki-2016-brochure",
+        "jp-ishigaki-2024-brochure",
+        "jp-ishigaki-brochure-index",
+        "jp-ishigaki-jma-site",
+        "jp-ishigaki-mlit-20130403",
+        "jp-ishigaki-mlit-old-coordinates",
+        "jp-ishigaki-new-plan",
+        "jp-ishigaki-old-overview",
+        "jp-mlit-ais-swim-end-20260127",
+        "jp-ndl-aip-holdings-guide",
+        "jp-okinawa-2016-codes",
+        "jp-swim-aip-download-description",
+        "jp-swim-aip-download-guide"
+      ],
+      "unknownDates": [
+        "ROIG formal transfer effective boundary2013; old-field last AIP and new-field first AIP",
+        "ISG formal transfer effective boundary and dated old-field typed IATA observation",
+        "historical old-field certified ARP"
+      ]
+    },
+    {
+      "admissionAssessment": null,
+      "caseId": "kitakyushu",
+      "confirmedDates": [
+        {
+          "date": "2006-03-15",
+          "kind": "old_airport_closure",
+          "precision": "day",
+          "sourceIds": [
+            "jp-kitakyushu-mlit-fukuoka"
+          ]
+        },
+        {
+          "date": "2006-03-16",
+          "kind": "new_airport_opening",
+          "precision": "day",
+          "sourceIds": [
+            "jp-kitakyushu-mlit-fukuoka"
+          ]
+        }
+      ],
+      "findings": [
+        "Fukuoka Prefecture presentation hosted in the official MLIT airport-operations review archive describes physically different mountain-enclosed1600m old field and reclaimed offshore2500m new field. It records old-field closure2006-03-15 and new-field opening2006-03-16.",
+        "Airport terminal-operator2007 history original acquired, but image-only automated extraction is empty; excluded from machine factual citations. No code assignment inferred from opening or closure."
+      ],
+      "identityCandidate": null,
+      "market": "日本",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "physicalSites": [],
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "Map to existing priority/global reuse candidate before counting as unified backlog case",
+        "Historical2006 AIP/AIRAC and IATA administrative records",
+        "Applicable Japanese source-use/admission policy"
+      ],
+      "sourceIds": [
+        "jp-kitakyushu-mlit-fukuoka",
+        "jp-mlit-ais-swim-end-20260127",
+        "jp-swim-aip-download-description",
+        "jp-swim-aip-download-guide"
+      ],
+      "unknownDates": [
+        "KKJ IATA old/new allocation intervals",
+        "RJFR ICAO old/new allocation intervals",
+        "Independent old/new historical ARPs and AIP transition",
+        "Original publication date of MLIT-hosted Fukuoka presentation"
+      ]
+    },
+    {
+      "admissionAssessment": null,
+      "caseId": "nagoya-transfer",
+      "confirmedDates": [
+        {
+          "administrativeAllocationDateProved": false,
+          "code": "NGO",
+          "kind": "operator_reported_iata_three_letter_transfer",
+          "precision": "minute",
+          "sourceId": "jp-centrair-early-chronology",
+          "timezoneContext": "Asia/Tokyo (local Japanese operator chronology; timezone not printed on quote)",
+          "value": "2005-02-17T00:00:00"
+        },
+        {
+          "administrativeAllocationDateProved": false,
+          "kind": "prospective_permission_date",
+          "precision": "day",
+          "sourceId": "jp-mlit-nagoya-establishment-20040831",
+          "value": "2004-09-01"
+        },
+        {
+          "administrativeAllocationDateProved": false,
+          "kind": "airport_opening",
+          "precision": "day",
+          "sourceId": "jp-centrair-early-chronology",
+          "value": "2005-02-17"
+        }
+      ],
+      "findings": [
+        "New operator chronology explicitly reports NGO transferred from Nagoya Airport to Centrair at2005-02-17 00:00. It materially narrows operator-reported transfer timing, while IATA administrative effective boundary and initial NKM assignment remain unproved.",
+        "MLIT2004 establishment notice names public Nagoya Airfield, Aichi administrator,196ha and2740m runway; prospective service start is the day former Nagoya Airport service is abolished. Legal permission announced for2004-09-01 differs from2005 opening and code dates.",
+        "Current Nagoya operator FAQ explicitly distinguishes Komaki-area field from Centrair in Tokoname and names NKM vs NGO; it does not date NKM first assignment.",
+        "Prior JMA179/182 and airport profiles are reused; weather-service dates remain MET namespace observations, not ICAO allocation dates. Prior global-batch5 nominal ICAO assignmentDate2005-02-17 must not be accepted as administrative evidence.",
+        "AIS Japan entry still403; official2026 MLIT notice identifies migration to SWIM and end of remaining AIS functions after2026-03-10. Public SWIM service documentation acquired; service eligibility requires a SWIM account. No account registration or restricted AIP content acquisition attempted.",
+        "Official NDL catalog narrows missing2005 AIP source to miniature AMDT316(20Jan),317(17Feb),318(17Mar),callZ5-257; holdings guide also identifies looseleafDK227-G1 and2009–2019 AMDT/SUP/AIC electronicYH267-157. Catalogs do not prove any code row."
+      ],
+      "identityCandidate": null,
+      "market": "日本",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "physicalSites": [],
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "Obtain actual 2005 AIP AD/AMDT317 with316/318 context from official SWIM if archived or NDL holdings/reproduction route; no contents presumed from catalog.",
+        "Obtain IATA allocation notice or acceptable primary administrative history for NGO/NKM.",
+        "Reconcile controlled AIP/ARP with already-locked operator positions.",
+        "Apply future project-level Japan source/claim rule only if valid; no current production grant; do not inherit Korea or AAI authorization."
+      ],
+      "sourceIds": [
+        "jp-centrair-early-chronology",
+        "jp-mlit-ais-swim-end-20260127",
+        "jp-mlit-nagoya-establishment-20040831",
+        "jp-ndl-aip-amdt-small-catalog",
+        "jp-ndl-aip-holdings-guide",
+        "jp-nkm-operator-faq-code-site",
+        "jp-swim-aip-download-description",
+        "jp-swim-aip-download-guide"
+      ],
+      "unknownDates": [
+        "IATA-issued NGO end/start administrative allocation boundary across Komaki and Centrair.",
+        "NKM initial assignment effective date.",
+        "Aerodrome ICAO RJNN withdrawal/RJNA and RJGG designation effective dates (weather-message switch is separate).",
+        "Complete historical validity intervals and intervening AIP/NOTAM change screening."
+      ]
+    },
+    {
+      "admissionAssessment": null,
+      "caseId": "shimojishima",
+      "confirmedDates": [
+        {
+          "date": "2016-03",
+          "kind": "prefectural_directory_edition_observing_Shimojishima_RORS_SHI",
+          "precision": "month",
+          "sourceIds": [
+            "jp-okinawa-2016-codes",
+            "jp-ishigaki-brochure-index"
+          ]
+        }
+      ],
+      "findings": [
+        "Limited follow-up of existing markets caseKey shimojishima: Okinawa Prefecture March2016 official directory explicitly gives Shimojishima/RORS/SHI in columns labelled ICAO and IATA. This supplies a dated official directory observation at the long-existing airfield before the2019 passenger-terminal opening.",
+        "No physical relocation inferred from2019 passenger-terminal facilities or2024 business-aviation terminal; reuse existing markets findings and original sources. Prefectural directory observation does not prove original issuer allocation dates."
+      ],
+      "identityCandidate": null,
+      "market": "日本",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "physicalSites": [],
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "Reuse original markets case shimojishima identity research; no new airportId proposal based on terminal construction",
+        "Issuer-controlled historical allocation evidence if production code intervals requested",
+        "Applicable Japanese source-use/admission policy"
+      ],
+      "sourceIds": [
+        "jp-ishigaki-brochure-index",
+        "jp-okinawa-2016-codes"
+      ],
+      "unknownDates": [
+        "SHI IATA and RORS ICAO first-allocation dates and full validity intervals",
+        "Certified ARP corroboration within this limited follow-up"
+      ]
+    },
+    {
+      "admissionAssessment": null,
+      "caseId": "austin",
+      "confirmedDates": [
+        {
+          "date": "1999-05",
+          "meaning": "NOAA weather-call-letter KBSM→KAUS at Bergstrom; previous KAUS at otherAustinphysicalsite; not a code-allocation boundary",
+          "precision": "month"
+        },
+        {
+          "date": "1999-05-23",
+          "meaning": "Operator retrospective opening of Austin-Bergstrom; physical event, not allocation date",
+          "precision": "day"
+        },
+        {
+          "date": "2007-03-15",
+          "meaning": "FAAJO7350.7Z effective-edition observation of Bergstrom FAAidentifierAUS, with scopedKprefixrule",
+          "precision": "day"
+        },
+        {
+          "date": "2023-02-04",
+          "meaning": "Incident date referred to in IATA article naming Austin-Bergstrom(AUS); not codeeffective date",
+          "precision": "day"
+        }
+      ],
+      "findings": [
+        "Reused existing FR1995 Mueller AUS, FR1998 Bergstrom BSM, FR1999 prospective Bergstrom AUS and delay; current d-TPP2611 KAUS; existing CityLibrary Mueller last day1999-05-22. New originals do not replace or reinterpret those dates as code boundaries.",
+        "New NOAA MDL original explicitly documents KBSM→KAUS at Bergstrom in May1999 and says previous KAUS belonged to AustinCityAirport at a different physical site. This narrows weather-call-letter transition to month precision; authenticated airport-code allocation remains absent.",
+        "FAA2005 technical model row names Mueller with exactKAUS and30.2986,-97.7017, but stale model baseline prevents treating2005 publication as airport/code-valid observation.",
+        "FAAJO7350.7Z effective2007-03-15 explicitly binds AUS to Austin-Bergstrom, distinct from BSM at ILSRWY35L and BASEOPS. Its contiguousUS airport rule supports scoped KAUS interpretation, not IATA.",
+        "New operator history confirms Mueller closure May1999 and newBergstrom opened1999-05-23 on formerBergstrombase. New IATA original itself names Austin-Bergstrom(AUS) for a2023-02-04 incident reference; it is not a1999 IATA transfer notification."
+      ],
+      "identityCandidate": null,
+      "market": "美国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "physicalSites": [],
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "Obtain authenticated contemporaneous1999FAA NFDD/NASR/5010 or locationidentifier effective editions aroundMay1999 with physicalsitebindings.",
+        "Obtain formalIATA datedtransfer notice or historicalcodeledger for AUS at bothsites.",
+        "Review source-rights and admission scope; noexisting human authorization covers newUSsources.",
+        "Do not promote a weather-call-letter month, airspace effective time, operator opening date or a stale model table into exact airportcode boundaries.",
+        "No US source/claim automatic-admission authorization is established. All new claims remain candidate only; do not inherit another market’s approval."
+      ],
+      "sourceIds": [
+        "us-current-austin-iata-sirm30",
+        "us-current-austin-noaa-obs-legacy-failed",
+        "us-current-austin-noaa-obs-mos",
+        "us-current-austin-noaa-obs-vlab-failed",
+        "us-current-austin-operator-history",
+        "us-current-austin-sage-2005",
+        "us-current-faa-lid-2007"
+      ],
+      "unknownDates": [
+        "Authenticated last airportICAO KAUS assignment atMueller, firstKAUS assignment atBergstrom and fullKBSM airportinterval.",
+        "Exact IATA AUS Mueller withdrawal and Bergstrom firstassignment/transfer.",
+        "Exact FAA AUS/BSM assignment change in contemporaneous NFDD or1999NASR/5010 ledger."
+      ]
+    },
+    {
+      "admissionAssessment": null,
+      "caseId": "neworleans",
+      "confirmedDates": [
+        {
+          "date": "2019-11-06",
+          "meaning": "Operator-confirmed new terminal opening on existing airport property; not physical-airport relocation or code-allocation date",
+          "precision": "day"
+        }
+      ],
+      "findings": [
+        "New airport-operator original explicitly describes replacement of the old terminal/apron/roadways on the north side of the same airport property, opened2019-11-06. Reuse existing MSY history; this is no new physical airport identity.",
+        "New official FAA Pilot Handbook explicitly names Louis Armstrong New Orleans International Airport(KMSY), two existing runways and a new passenger terminal on the north side of the airport. This directly corroborates the same-airfield interpretation and direct KMSY airport-name binding.",
+        "The2019 terminal event must not produce a relocation, code transfer, duplicate identity or artificial validity boundary. Handbook retrieval/publication metadata does not establish a historic KMSY first-allocation date."
+      ],
+      "identityCandidate": null,
+      "market": "美国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "physicalSites": [],
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "Exclude this terminal-only lead from new-physical-identity/relocation production counts.",
+        "Only pursue separate historic code or site questions if an additional real event is identified.",
+        "No US source/claim automatic-admission authorization is established. All new claims remain candidate only; do not inherit another market’s approval."
+      ],
+      "sourceIds": [
+        "us-faa-msy-pilot-handbook",
+        "us-msy-new-terminal"
+      ],
+      "unknownDates": [
+        "Historic first/last IATA MSY and ICAO KMSY allocation boundaries remain outside evidence from the terminal project.",
+        "FAA handbook exact publication/effective date is not displayed in retained PDF."
+      ]
+    },
+    {
+      "admissionAssessment": null,
+      "caseId": "st-george",
+      "confirmedDates": [
+        {
+          "date": "2007-03-15",
+          "meaning": "FAAJO7350.7Z effective-edition airportSGU observation",
+          "precision": "day"
+        },
+        {
+          "date": "2011-06-30",
+          "meaning": "FAAJO7350.8P effective-edition airportDXZ observation",
+          "precision": "day"
+        },
+        {
+          "date": "2011-10-20",
+          "meaning": "FAAJO7350.8R effective-edition airportDXZ observation;SGU independently on ILS row",
+          "precision": "day"
+        },
+        {
+          "date": "2012-02-09",
+          "meaning": "FAAJO7350.8S effective-edition airportSGU observation",
+          "precision": "day"
+        }
+      ],
+      "findings": [
+        "Reuse existing official Federal Register distinct-site coordinates and NOAA NWS notices; dates for airport operations, FAA decommissioning and weather dissemination remain separate.",
+        "New FAAJO7350.7Z effective2007-03-15 has old-site airportSGU. New JO7350.8P effective2011-06-30 and8R effective2011-10-20 have airportDXZ. JO8R separately lists ILS/DME RWY19SGU, demonstrating that a navaid/ILS row cannot supply an airportSGU observation.",
+        "New FAAJO7350.8S cover actually states effective2012-02-09 and lists airportSGU. Together these contemporaneous editions fill part of the missing FAA identifier sequenceSGU→DXZ→SGU without treating the January airport move as a direct KSGU transfer.",
+        "No accessible2011 d-TPP edition1112/1113 was found: original FAA query pages say the cycle number does not exist; XML returned404. The FAA contiguous-US airport rule is present in official directories, but any KDXZ/KSGU interpretation is a documented derived association, not direct historic allocation evidence."
+      ],
+      "identityCandidate": null,
+      "market": "美国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "physicalSites": [],
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "Acquire authenticated FAA2010/2011 airport master or allocation/withdrawal record, bound to physical coordinates.",
+        "Preserve former-site/replacement-site candidates and temporaryDXZ phase; do not close the prior KSGU ambiguity from weather dates.",
+        "Acquire independently dated IATA site-specific material.",
+        "No US source/claim automatic-admission authorization is established. All new claims remain candidate only; do not inherit another market’s approval."
+      ],
+      "sourceIds": [
+        "us-current-faa-lid-2007",
+        "us-faa-dtpp-1112-dxz",
+        "us-faa-dtpp-1112-sgu",
+        "us-faa-dtpp-1113-sgu",
+        "us-faa-jo7350-8p-20110630",
+        "us-faa-jo7350-8r-20111020",
+        "us-faa-jo7350-8s-20120209"
+      ],
+      "unknownDates": [
+        "FAA DXZ airport identifier initial/withdrawal instants and exact SGU restoration.",
+        "Authenticated airport ICAO KDXZ interval and both KSGU assignment/withdrawal boundaries.",
+        "IATA SGU physical-site allocation/transfer validity.",
+        "Exact scope/timing reconciliation of January2011 TAF start, operational opening and FAA former-airport decommissioning."
+      ]
+    },
+    {
+      "admissionAssessment": null,
+      "caseId": "williston",
+      "confirmedDates": [
+        {
+          "date": "2007-03-15",
+          "meaning": "New FAAJO7350.7Z effective-edition observation of Sloulin airportISN; no withdrawal inference",
+          "precision": "day"
+        },
+        {
+          "date": "2019-06-20",
+          "meaning": "JO7350.9R effective edition already lists both ISN Sloulin and XWA Basin",
+          "precision": "day"
+        },
+        {
+          "date": "2019-09-12",
+          "meaning": "d-TPP1910 edition beginning0901Z; direct ICAO-labelled KISN Sloulin observation, not assignment date",
+          "precision": "day"
+        },
+        {
+          "date": "2019-10-10",
+          "meaning": "d-TPP1911 edition beginning0901Z; direct ICAO-labelled KXWA Basin and retained KISN Sloulin observations, not switch instant",
+          "precision": "day"
+        }
+      ],
+      "findings": [
+        "Reuse the two existing formal Sloulin/Basin physical identities; new records do not mint identities. Existing Federal Register originals give different named-site coordinates and replacement chronology.",
+        "New FAA d-TPP historical index1910 directly labels the scheme Ident(ICAO) and binds Sloulin Field ISN(KISN) to procedure edition1910. New index1911 directly binds Williston Basin XWA(KXWA), avoiding a derived K-prefix claim.",
+        "Important retention conflict: the original1911 index still lists Sloulin ISN(KISN) after the closure event. Therefore index presence must not be turned into a code-valid-through bound or daily operational proof.",
+        "New JO7350.9R effective2019-06-20 and JO7350.9S effective2019-10-10 both contain Sloulin airportISN and Basin airportXWA. XWA administrative designation precedes opening; edition2019-10-10 does not prove ISN withdrawal. JO9S additionally distinguishes airportXWA from RCO/VORISN.",
+        "Original NASR2019-09-12/2019-10-10 edition URLs, old diagram PDFs and XML archives returned404. The government-filed IATA-labelled XWA application returned403; search snippets are excluded. Existing IATA20261030 source rows and city20190730 ticket-transition newsletter are reused, not redownloaded or converted to historic allocation dates."
+      ],
+      "identityCandidate": null,
+      "market": "美国",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "physicalSites": [],
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "Obtain accessible authenticated NASR/5010/NFDD or airport indicator allocation/withdrawal originals for the2019 boundary.",
+        "Obtain independent historic IATA code-assignment/withdrawal original, and resolve retained Sloulin index semantics before proposing certain intervals.",
+        "No US source/claim automatic-admission authorization is established. All new claims remain candidate only; do not inherit another market’s approval."
+      ],
+      "sourceIds": [
+        "us-current-faa-lid-2007",
+        "us-dot-xwa-iata-2020-application",
+        "us-dtpp-1910-xml",
+        "us-dtpp-1911-xml",
+        "us-faa-dtpp-1910-williston",
+        "us-faa-dtpp-1910-xwa-early",
+        "us-faa-dtpp-1911-isn-retention",
+        "us-faa-dtpp-1911-williston",
+        "us-faa-jo7350-9r-20190620",
+        "us-faa-jo7350-9s-20191010",
+        "us-faa-nasr-20190912-index",
+        "us-faa-nasr-20191010-index",
+        "us-faa-slo-diagram-1910",
+        "us-faa-xwa-diagram-1911"
+      ],
+      "unknownDates": [
+        "Exact FAA airport identifier ISN withdrawal and XWA initial assignment.",
+        "Exact airport ICAO KISN withdrawal and KXWA initial allocation; simultaneous stale/prospective published rows prevent inferring these from edition dates.",
+        "Historical IATA ISN/XWA validity bounds and any exact transfer instruction; current IATA associations alone do not establish2019 bounds."
+      ]
+    },
+    {
+      "admissionAssessment": null,
+      "caseId": "berlin",
+      "confirmedDates": [
+        {
+          "date": "2020-11-04",
+          "kind": "BER_south_runway_commissioning",
+          "notCodeEffectiveDate": true,
+          "sourceId": "eu-de-berlin-former-airports"
+        },
+        {
+          "date": "2020-11-08",
+          "kind": "Tegel_flight_operations_ceased_as_described_by_Senate",
+          "notCodeEffectiveDate": true,
+          "sourceId": "eu-de-berlin-former-airports"
+        },
+        {
+          "date": "2021-05-05",
+          "kind": "Tegel_permit_revocation_and_release_effective_from",
+          "notCodeEffectiveDate": true,
+          "sourceId": "eu-de-berlin-former-airports"
+        }
+      ],
+      "findings": [
+        "新增并重放柏林州交通主管部门原文：Tegel 的运营许可撤销及规划用途解除以 BER 两条跑道投用后六个月为条件，BER 南跑道于 2020-11-04 投用，相关法律效果自 2021-05-05 起生效。",
+        "同一主管部门另说 Tegel 的 Flugbetrieb 随 2020-11-08 的最后一班 Air France 航班停止。这里记录该来源所述的机场飞行业务停止，不能扩展为任何飞机的绝对最后起降。业务停止与次年法律闭场是两个事件。",
+        "既有 FBB 原文将许可结束写为 2021-05-04 午夜，继续按该原文单独归因；此处州政府的 2021-05-05 起生效描述为相邻日期边界，不将差一天的表面表述改写为两个不同许可事件。",
+        "州政府明确 BER 为原 Berlin-Schönefeld(SXF) 扩建形成；Tegel(TXL) 始终作为独立场址。该叙述不单独裁定 Schönefeld/BER 永久物理身份的合并范围，也不是 SXF→BER 或 TXL/EDDT 代码有效日原件。",
+        "所请求的 Tegel 法律意见 PDF 返回429错误 HTML，已保留失败记录；不能声称取得法律意见正文。"
+      ],
+      "identityCandidate": null,
+      "market": "欧洲",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "physicalSites": [],
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "取得 DFS 迁改前后 AD2、ARP、场界与跑道范围，维持 Tegel 与 Schönefeld/BER 物理身份区分。",
+        "核对 IATA SXF/BER/TXL 行政通知和许可撤销原决定。",
+        "保留既有 FBB 精确午夜措辞，不将转载新闻日期当代码变更日期。"
+      ],
+      "sourceIds": [
+        "eu-de-berlin-former-airports",
+        "eu-de-tegel-legal-opinion"
+      ],
+      "unknownDates": [
+        "TXL、EDDT 的正式撤销／最后有效日期。",
+        "SXF、BER、EDDB 在改建及更名期间的正式行政代码边界。",
+        "Tegel 最后飞机移动的绝对时间；未用末班 Air France 叙述证明。"
+      ]
+    },
+    {
+      "admissionAssessment": null,
+      "caseId": "doncaster",
+      "confirmedDates": [
+        {
+          "date": "2022-11-18T15:00:00Z",
+          "kind": "planned_operations_and_ATS_suspension",
+          "notCodeEffectiveDate": true,
+          "sourceId": "eu-uk-dsa-caa-202211"
+        },
+        {
+          "date": "2022-12-02",
+          "kind": "aerodrome_closed_since",
+          "notCodeEffectiveDate": true,
+          "sourceId": "eu-uk-dsa-sup-2024-017"
+        },
+        {
+          "date": "2024-02-08",
+          "kind": "AIP_SUP_017_2024_effective",
+          "notCodeEffectiveDate": true,
+          "sourceId": "eu-uk-dsa-sup-2024-017"
+        },
+        {
+          "date": "2025-08-07",
+          "kind": "controlled_AIP_edition_observes_EGCN_and_ARP",
+          "notCodeEffectiveDate": true,
+          "sourceId": "eu-uk-dsa-202508-ad2"
+        },
+        {
+          "date": "2025-07-24",
+          "kind": "AIRAC_09_2025_publication",
+          "notCodeEffectiveDate": true,
+          "sourceId": "eu-uk-dsa-202509-airac-cover"
+        },
+        {
+          "date": "2025-09-04",
+          "kind": "AIRAC_09_2025_index_airspace_removals_effective",
+          "notCodeEffectiveDate": true,
+          "sourceId": "eu-uk-dsa-202509-airac-cover"
+        }
+      ],
+      "findings": [
+        "复用并重放 CAA/NATS 原件。CAA 2022 年会议材料拟在 2022-11-18 15:00 UTC 暂停运营及 ATS，并曾计划 AIRAC05/2023 删除；这是拟实施时间，不应当作最终实施证明。",
+        "受控 SUP017/2024 的生效日为 2024-02-08，正文追述 aerodrome 因交回许可证及撤回 ATS 自 2022-12-02 关闭。原文没有单列许可证交回手续的精确生效时间，不将关闭日自动等同于交回日。",
+        "2025-08-07 AIRAC 历史 AD2 仍明确 EGCN—DONCASTER SHEFFIELD，ARP 为 53°28′31″N 001°00′15″W（02/20 跑道中点）。这证明该受控版本保留标识与场址，不能用其残留服务条目推定机场在 2025 年运营。",
+        "CAA 后续流程文件拟在 AIRAC09/2025 实施删除；2025-09-04 生效、2025-07-24 发布的受控封面实际列出 Doncaster 在 AD0.1、AD1.3、AD1.5 及相关空域/程序中的删除。AIP/空域出版删除不等于 IATA DSA 或 ICAO EGCN 行政撤销。"
+      ],
+      "identityCandidate": null,
+      "market": "欧洲",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "physicalSites": [],
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "取得实际关闭期 NOTAM、许可证交回决定及独立 IATA 行政原件；以历史 AD2/ARP 固定物理身份。",
+        "AICY113/2025 与部分封面历史 URL 请求失败，不能冒充已读原件。",
+        "逐来源权限尚未建立完整转载许可，仅保留必要短引文。"
+      ],
+      "sourceIds": [
+        "eu-uk-dsa-202508-ad2",
+        "eu-uk-dsa-202509-airac-cover",
+        "eu-uk-dsa-202509-cover",
+        "eu-uk-dsa-aic-2025-113",
+        "eu-uk-dsa-aic-archive-html",
+        "eu-uk-dsa-caa-202211",
+        "eu-uk-dsa-caa-2025-7602",
+        "eu-uk-dsa-sup-2024-017"
+      ],
+      "unknownDates": [
+        "DSA 首配／撤销有效日；EGCN 初始分配及行政撤销有效日。",
+        "2022-11-18 拟暂停、2022-12-02 关闭、许可证交回手续及末次商业飞行之间的精确事件关系；缺历史 NOTAM／许可证原决定。"
+      ]
+    },
+    {
+      "admissionAssessment": null,
+      "caseId": "munich",
+      "confirmedDates": [
+        {
+          "date": "1992-05-17",
+          "kind": "new_Munich_site_first_landing_0455_operator_local_clock_unspecified_zone",
+          "notCodeEffectiveDate": true,
+          "sourceId": "eu-de-fmg-chronology"
+        },
+        {
+          "date": "1992-05-16",
+          "kind": "Riem_last_departure_shortly_before_2300_inferred_previous_night",
+          "notCodeEffectiveDate": true,
+          "precision": "inferred_from_overnight_context",
+          "sourceId": "eu-de-fmg-chronology"
+        },
+        {
+          "date": "2025-03-13",
+          "kind": "technical_forecast_document_date",
+          "notCodeEffectiveDate": true,
+          "sourceId": "eu-de-muc-noise-data"
+        }
+      ],
+      "findings": [
+        "既有 PR31 机场运营商年表的本地原始 PDF 已不存在，仅有摘要及哈希，故重新取得同一官方原件后以现有 global_batch.py 重放；原始 SHA256 与旧记录一致，为同一原件而非新的独立印证。",
+        "运营商年表的 1992-05-17 条目描述 Riem 场至新址约30公里的夜间搬迁：Riem 末班起飞接近23:00，新址首降04:55，随后05:59首起飞。按通宵上下文将 Riem 末班归到 05-16 为日期推断，原文未单列16日日期，也未指明时区；不转写UTC。",
+        "这补强两处物理场址及运营切换，年表不含 MUC/EDDM 代码，不能据开航日期推导代码转移生效。",
+        "2025-03-13 运营商技术报告的 EDDM 表述位于2033预测机场基础设施语境；只作技术来源及范围说明，不用其预测图或当前代码倒填1992年的分配。"
+      ],
+      "identityCandidate": null,
+      "market": "欧洲",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "physicalSites": [],
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "取得迁场前后 DFS AIP 或历史 ICAO Doc7910 的代码—ARP 对及 IATA 转移通知。",
+        "旧 Riem 与新址永久机场身份依不同坐标分别核验，不因承接同名运营商而合并。",
+        "年表与技术报告同属运营商来源链，不计为两个独立的历史代码分配证据。"
+      ],
+      "sourceIds": [
+        "eu-de-fmg-chronology",
+        "eu-de-muc-noise-data"
+      ],
+      "unknownDates": [
+        "MUC/EDDM 在 Riem 的具名历史分配及旧场最后有效日。",
+        "新场 MUC/EDDM 首期正式分配／转移生效日。",
+        "Riem 许可证到期的正式原始决定，不能用二手1992年8月说法替代。"
+      ]
+    },
+    {
+      "admissionAssessment": null,
+      "caseId": "murcia",
+      "confirmedDates": [
+        {
+          "date": "2019-01-15",
+          "dateType": "commercial_service_opening",
+          "notCodeEffectiveDate": true,
+          "physicalAirport": "Región de Murcia / Corvera",
+          "precision": "day",
+          "sourceIds": [
+            "es-murcia-aena-20190115"
+          ]
+        },
+        {
+          "date": "2019-01-14",
+          "dateType": "last_commercial_service_day_inferred_from_operator_monthly_statistics",
+          "limitation": "Operator says San Javier traffic was in first 14 days; does not establish last individual flight or military aerodrome closure.",
+          "notCodeEffectiveDate": true,
+          "physicalAirport": "Murcia-San Javier",
+          "precision": "day",
+          "sourceIds": [
+            "es-murcia-aena-20190712"
+          ]
+        },
+        {
+          "date": "2019-08-01",
+          "dateType": "publication_observation_of_RMU_LEMI_and_MJV_LELC",
+          "limitation": "Publication observation only, not allocation start/end.",
+          "notCodeEffectiveDate": true,
+          "precision": "day",
+          "sourceIds": [
+            "es-murcia-parliament-2019"
+          ]
+        }
+      ],
+      "findings": [
+        "2019-01-15 is an executed commercial-service opening at the new Región de Murcia/Corvera airport: Aena reported the first Ryanair arrival at 10:25 on that day.",
+        "Aena's 2019-07-12 retrospective separates 21,559 Murcia-San Javier passengers in the first 14 days of January from the new airport beginning service on January 15. This is a commercial-service boundary, not closure of the military aerodrome.",
+        "The 2019-08-01 parliamentary publication explicitly associates the new airport with IATA RMU / ICAO LEMI and San Javier with MJV / LELC. The two physical airports have different code pairs; this is a replacement case, not evidence that MJV or LELC transferred to Corvera.",
+        "The parliamentary text is an explanatory statement in a non-law proposition, not an IATA/ICAO allocation instrument. It confirms a dated observation of code-to-name pairs but gives no assignment effective date.",
+        "All three saved ENAIRE 2018-12 URL attempts are HTTP 404 IIS pages; none is an AD 2, AIRAC cover, login-protected original, or historical code evidence. They were replayed and rejected. No current AIP date was substituted for a 2018/2019 assignment boundary."
+      ],
+      "identityCandidate": null,
+      "market": "欧洲",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "physicalSites": [],
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "Obtain authentic historical ENAIRE AIRAC amendment/AD 2 pages spanning the service transfer; compare their edition/effective dates and ARPs.",
+        "Obtain an assigning-authority or equally explicit historical IATA allocation source for RMU and MJV; service opening must not become code start.",
+        "Establish source-use scope and satisfy the existing formal admission conditions; no new executor, policy authorization, or formal promotion is included."
+      ],
+      "sourceIds": [
+        "es-enaire-airac-2018-12",
+        "es-enaire-airac-2018-12-gen04",
+        "es-enaire-airac-2018-12-lemi",
+        "es-murcia-aena-20190115",
+        "es-murcia-aena-20190712",
+        "es-murcia-parliament-2019"
+      ],
+      "unknownDates": [
+        "Exact first allocation and effective dates of RMU and LEMI at Corvera.",
+        "Exact final civil-use/withdrawal or continuing military-use boundaries for MJV and LELC at San Javier.",
+        "Historical last pre-transfer AD 2 LELC and first effective AD 2 LEMI revision dates; no 2018 historical original acquired."
+      ]
+    },
+    {
+      "admissionAssessment": null,
+      "caseId": "narvik",
+      "confirmedDates": [
+        {
+          "date": "2017-03-31",
+          "dateKind": "airport_operation_end",
+          "event": "Narvik Framnes airport closure",
+          "notCodeEffectiveDate": true,
+          "precision": "day",
+          "sourceId": "eu-no-narvik-meld2017"
+        },
+        {
+          "date": "2017-04-05",
+          "dateKind": "publication_date",
+          "event": "Meld. St.30 issued",
+          "notCodeEffectiveDate": true,
+          "precision": "day",
+          "sourceId": "eu-no-narvik-meld2017"
+        },
+        {
+          "date": "2016-12-01",
+          "dateKind": "planned_approval_expiry",
+          "event": "technical/operational approval expiry described in 2012 plan; any later extension unverified",
+          "notCodeEffectiveDate": true,
+          "precision": "day",
+          "sourceId": "eu-no-narvik-prop2012"
+        }
+      ],
+      "findings": [
+        "Historical Ministry report issued 2017-04-05 states Narvik lufthamn, Framnes was closed 2017-03-31 (PDF p.13). This confirms an airport closure fact; it does not prove NVK or ENNK allocation cancellation on that date.",
+        "The 2012 proposition is the contemporaneous plan: closure tied to Hålogaland bridge completion, or no later than the Narvik–Bodø public-service route contract expiry on 2017-03-31 if approval could be extended. It also describes then-current technical/operational approval as valid to 2016-12-01. These are planned/approval dates, not actual code expiry. The later 2017 report confirms the realised closure separately.",
+        "Narvik Framnes and Harstad/Narvik Evenes are distinct named facilities in the 2012 original. A regional service substitution must not become a physical-airport merger or code transfer.",
+        "PDF two-column layout interleaves an unrelated heading into the p.13 sentence; two exact short spans are cited rather than silently repairing extracted text."
+      ],
+      "identityCandidate": null,
+      "market": "欧洲",
+      "meaning": "Scoped new research or existing-rule identity candidate; never counted as a published historical answer.",
+      "physicalSites": [],
+      "productionEligible": false,
+      "publishedFormalRecordsAdded": 0,
+      "remainingConditions": [
+        "Obtain historical pre-closure AD 2/GEN with ENNK and ARP to bind the physical facility and code observation to a controlled version.",
+        "Obtain authenticated IATA allocation/cancellation notice for NVK and ICAO amendment/deletion boundary; closure day is not a substitute.",
+        "Acquire official last active / first deleted AIRAC plus intervening NOTAM before claiming any precise code interval.",
+        "Keep source rights review and formal admission requirements; these publications establish closure history, not a complete formal assignment."
+      ],
+      "sourceIds": [
+        "eu-no-narvik-meld2017",
+        "eu-no-narvik-prop2012",
+        "eu-no-narvik-sup-2017-attempt"
+      ],
+      "unknownDates": [
+        "NVK IATA assignment start/end and cancellation effective date",
+        "ENNK ICAO assignment start/end and cancellation effective date",
+        "Actual technical/operational licence extension and final expiry; source only establishes the 2012 scheduled expiry",
+        "Last operating NOTAM/AIP status and first AIRAC edition deleting ENNK"
+      ]
+    }
+  ],
+  "formalDataWritten": false,
+  "formatVersion": 1,
+  "marketOrder": [
+    "中国",
+    "韩国",
+    "日本",
+    "美国",
+    "欧洲"
+  ]
+}

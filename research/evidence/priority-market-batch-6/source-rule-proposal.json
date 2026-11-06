@@ -1,0 +1,267 @@
+{
+  "authorization": null,
+  "decisionModel": {
+    "allApplicablePredicatesPass": "candidate_for_formal_data_under_effective_project_policy",
+    "anyMissingOrFailedPredicate": "retain_candidate_with_reason_codes",
+    "identityAndCode": "evaluate_independently",
+    "ownerPerAirportOrPerBatchCommentRequired": false,
+    "reviewerForMachineReview": null
+  },
+  "formatVersion": 1,
+  "meaning": "One reusable project-level source/claim rule proposal. These machine-readable predicates are not an activated production evaluator or a new Executor. Existing grants are preserved in their own exact scope.",
+  "productionBound": false,
+  "profiles": [
+    {
+      "authorization": null,
+      "candidateClaims": [
+        "physicalIdentity",
+        "explicitCodeTransfer",
+        "boundedCodeContinuityWithControlledEditions"
+      ],
+      "countries": [
+        "CN"
+      ],
+      "currentActivation": "not_authorized",
+      "evidenceFromThisRun": [
+        "MEE old/new-site decisions; CAAC Ankang2010 and Yanan1981 site history",
+        "Code-specific Daxing confirmations retain March5/6 discrepancy"
+      ],
+      "exclusions": [
+        "meteorological_codes_as_allocation",
+        "city_only_code_rows",
+        "opening_or_licence_as_code_effective",
+        "civil_military_site_collapse"
+      ],
+      "issuerFamilies": [
+        "CAAC-AIP-AIRAC",
+        "CAAC-regional-originals",
+        "named-airport-operator",
+        "government-gazette-relocation-decisions"
+      ],
+      "market": "中国",
+      "missingBeforeAutomaticAdmission": [
+        "Applicable project-level source/claim scope and precise rights profiles",
+        "Original code-specific temporal evidence for each proposed interval"
+      ],
+      "productionBound": false
+    },
+    {
+      "authorization": null,
+      "candidateClaims": [
+        "identityWithinExistingGrant",
+        "boundedIcaoOnlyWithinExistingExactWindow"
+      ],
+      "countries": [
+        "KR"
+      ],
+      "currentActivation": "existing_precise_rules_only",
+      "exclusions": [
+        "IATA_inherited_from_ICAO",
+        "new_executor_inherits_old_grant",
+        "expanded_code_or_date_scope",
+        "identity_means_code_admission"
+      ],
+      "existingRules": [
+        "official-aip-stable-physical-identity@0.1.0-draft",
+        "kr-molit-bounded-icao@2.0.0-draft"
+      ],
+      "issuerFamilies": [
+        "KR-MOLIT-AIP",
+        "KR-IIAC-ASSET",
+        "KR-KAC-ASSET"
+      ],
+      "market": "韩国",
+      "missingBeforeAutomaticAdmission": [
+        "Normal complete release still rejects changed kr-history without a fact-specific replacement contract; no bypass suggested."
+      ],
+      "productionBound": false
+    },
+    {
+      "authorization": null,
+      "candidateClaims": [
+        "physicalIdentity",
+        "explicitOperationalCodeTransfer",
+        "controlledHistoricalCodeObservation"
+      ],
+      "countries": [
+        "JP"
+      ],
+      "currentActivation": "not_authorized",
+      "exclusions": [
+        "SWIM_access_document_is_historical_AIP",
+        "airport_opening_alone_as_code_effective",
+        "weather_station_cutover_as_airport_allocation"
+      ],
+      "issuerFamilies": [
+        "MLIT-JCAB-SWIM",
+        "MLIT-historical-notices",
+        "airport-operator-own-history",
+        "prefecture-airport-records"
+      ],
+      "market": "日本",
+      "missingBeforeAutomaticAdmission": [
+        "Project-level scope for these specific source/claim roles",
+        "Underlying 2005 controlled AIP issues and independent administrative code evidence where required"
+      ],
+      "productionBound": false,
+      "rightsEvidence": [
+        "jp-swim-aip-download-description"
+      ],
+      "rightsLimit": "Apply the actual service/content-specific reuse conditions, third-party exceptions and any chart-law/operational-label obligations; public service descriptions do not establish possession of historical AIP contents."
+    },
+    {
+      "authorization": null,
+      "candidateClaims": [
+        "physicalIdentity",
+        "explicitlyTypedIcaoObservation",
+        "codeTransferWhenDirectlyProved"
+      ],
+      "countries": [
+        "US"
+      ],
+      "currentActivation": "not_authorized",
+      "exclusions": [
+        "FAA_LID_is_IATA",
+        "universal_K_prefix_conversion",
+        "weather_identifier_is_airport_allocation",
+        "new_airport_opening_retires_old_code",
+        "stale_model_input_is_in_force_record"
+      ],
+      "issuerFamilies": [
+        "FAA-NASR-5010",
+        "FAA-JO-7350-historical",
+        "FAA-dTPP",
+        "Federal-Register",
+        "NOAA-NWS",
+        "airport-operator-own-records"
+      ],
+      "market": "美国",
+      "missingBeforeAutomaticAdmission": [
+        "Project-level source/claim scope",
+        "Actual effective airport-specific records and complete identity/boundary proof"
+      ],
+      "productionBound": false,
+      "rightsLimit": "Federal government text scope must be established for each work; third-party attachments and operator content do not inherit that status."
+    },
+    {
+      "authorization": null,
+      "candidateClaims": [
+        "physicalIdentity",
+        "controlledCodeObservation",
+        "explicitAdministrativeChange"
+      ],
+      "countries": [
+        "GB",
+        "DE",
+        "ES",
+        "NO",
+        "FR",
+        "IT",
+        "FI",
+        "SE",
+        "DK",
+        "IS",
+        "BE",
+        "CH",
+        "CZ",
+        "GR",
+        "IE",
+        "PL",
+        "PT",
+        "TR"
+      ],
+      "currentActivation": "not_authorized",
+      "exclusions": [
+        "one_country_continuity_rule_for_Europe",
+        "last_passenger_flight_is_physical_closure",
+        "licence_end_is_code_withdrawal",
+        "AIP_entry_means_commercial_operations"
+      ],
+      "issuerFamiliesByCountry": {
+        "DE": [
+          "DFS",
+          "Berlin-government",
+          "airport-operator-own-history"
+        ],
+        "ES": [
+          "ENAIRE",
+          "AENA",
+          "official-gazette"
+        ],
+        "GB": [
+          "CAA",
+          "NATS-AIS"
+        ],
+        "NO": [
+          "Avinor",
+          "national-AIS"
+        ]
+      },
+      "market": "欧洲",
+      "missingBeforeAutomaticAdmission": [
+        "Separate per-country issuer/content/use profiles and temporal evidence budgets",
+        "Original historical code-change/cancellation records, distinct from service/licence dates"
+      ],
+      "productionBound": false
+    }
+  ],
+  "proposalSha256": "dc434b076aafef06271cd0917ab44477ff0356c41347b2119d70d6a1a604dd42",
+  "requirements": {
+    "codeInterval": {
+      "all": [
+        "each_nonnull_boundary_has_claim_specific_basis",
+        "date_kind_not_opening_publication_capture_git_or_licence",
+        "local_calendar_and_time_precision_explicit",
+        "unknown_outer_bounds_retained",
+        "continuity_budget_specific_to_issuer",
+        "applicable_intermediate_edition_and_notice_checks_complete"
+      ]
+    },
+    "formalIntegrity": {
+      "all": [
+        "schema_and_identity_uniqueness_pass",
+        "no_unhandled_iata_or_icao_conflict",
+        "published_records_preserved",
+        "actual_production_resolver_differential_pass",
+        "deterministic_generation_pass"
+      ]
+    },
+    "independenceAndRights": {
+      "all": [
+        "original_publication_keys_deduplicated",
+        "upstream_fact_lineage_recorded",
+        "source_specific_use_permission_satisfies_claim",
+        "third_party_exclusions_respected",
+        "no_full_originals_or_extractions_committed_without_permission"
+      ]
+    },
+    "originals": {
+      "all": [
+        "original_bytes_read_and_sha256_replayed",
+        "independent_extraction_and_normalized_hashes_match",
+        "citations_located_in_declared_representation",
+        "no_soft404_or_login_substitution"
+      ]
+    },
+    "physicalIdentity": {
+      "all": [
+        "named_physical_site_established",
+        "independent_site_or_address_support",
+        "published_and_pending_ids_reused",
+        "whole_batch_competition_checked",
+        "no_name_code_proximity_only_merge"
+      ]
+    },
+    "scope": {
+      "all": [
+        "country_matches_profile",
+        "issuer_family_matches_profile",
+        "original_host_and_custody_match",
+        "claim_type_allowed",
+        "namespace_explicitly_proved",
+        "project_policy_active_for_claim"
+      ]
+    }
+  },
+  "status": "proposal-only"
+}

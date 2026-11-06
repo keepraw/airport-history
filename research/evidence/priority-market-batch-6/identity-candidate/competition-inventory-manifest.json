@@ -1,0 +1,11 @@
+{
+  "baseDataset": "test/curated-0.10.0.json",
+  "baselineCommit": "5c54ab3e861a43d49cdadb27715e42b88f1630ec",
+  "canonicalJsonSha256": "d0d572c809f87b6cf256826b6402dc89cdf9e4eb817e6466ab811ba6b606e964",
+  "formatVersion": 1,
+  "meaning": "All formal and pinned Korean historical/reference competition was actually screened. The unchanged indexed inputs already exist in the repository; their 1,498-row projection is not duplicated here.",
+  "recordCount": 1498,
+  "referenceInputs": "reference/generated/records.*.jsonl.gz, hashes in ../input-lock.json",
+  "registry": "research/admission/rule-v1/identities.json at the baseline commit; no pending entries existed before this allocation",
+  "reproduceWithUnchangedFunction": "admission/v1/batch.py:inventory"
+}
