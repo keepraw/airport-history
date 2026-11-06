@@ -35,10 +35,12 @@ def main():
         if (ROOT / path).read_bytes() != expected:
             raise ValueError('Legacy input changed; archival replay cannot validate it: ' + path)
     (ROOT / 'work').mkdir(exist_ok=True)
+    subprocess.run(['git', 'merge-base', '--is-ancestor', BASE, 'origin/main'], cwd=ROOT, check=True)
     with tempfile.TemporaryDirectory(prefix='legacy-replay-', dir=ROOT / 'work') as tmp:
         # A real repository is required by baseline/ancestry tests and authorization checks.
         subprocess.run(['git', 'clone', '--quiet', '--shared', str(ROOT), tmp], check=True)
         subprocess.run(['git', 'checkout', '--quiet', '--detach', BASE], cwd=tmp, check=True)
+        subprocess.run(['git', 'update-ref', 'refs/remotes/origin/main', BASE], cwd=tmp, check=True)
         Path(tmp, 'work').mkdir(exist_ok=True)
         Path(tmp, 'node_modules').symlink_to(ROOT / 'node_modules', target_is_directory=True)
         subprocess.run(args, cwd=tmp, check=True)
