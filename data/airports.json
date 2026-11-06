@@ -1216,6 +1216,204 @@
         "status": "unknown",
         "value": null
       }
+    },
+    {
+      "airportId": "apt_6f1a6ff3-98db-4e58-95fc-cc78bd5aa836",
+      "coordinates": {
+        "note": "Numerical position is from pinned OurAirports record 35312; the official administrative citation independently identifies the named site/project geography. It is not an official or historical ARP. The site is kept distinct from its relocation counterpart.",
+        "sourceIds": [
+          "cn-lyg-both-sites-2020",
+          "cn-batch7-ourairports-reference"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 34.571302,
+          "longitude": 118.873143
+        }
+      },
+      "externalIds": {
+        "ourAirports": "35312"
+      },
+      "name": {
+        "note": "Canonical reference display label from pinned OurAirports record 35312; official documentary label and location are retained in the admission dossier. This is not a historical legal-name interval or evidence of current military/civil operating status.",
+        "sourceIds": [
+          "cn-batch7-ourairports-reference",
+          "cn-lyg-both-sites-2020"
+        ],
+        "status": "reference",
+        "value": "Baitabu Air Base"
+      },
+      "timezone": {
+        "status": "unknown",
+        "value": null,
+        "sourceIds": [],
+        "note": "No timezone determination admitted in this identity batch."
+      }
+    },
+    {
+      "airportId": "apt_64b5eaa6-a984-4816-86d9-d8eb71c91451",
+      "coordinates": {
+        "note": "Numerical position is from pinned OurAirports record 44167; the official administrative citation independently identifies the named site/project geography. It is not an official or historical ARP. The site is kept distinct from its relocation counterpart.",
+        "sourceIds": [
+          "cn-lyg-mee-2019",
+          "cn-batch7-ourairports-reference"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 34.41406,
+          "longitude": 119.17899
+        }
+      },
+      "externalIds": {
+        "ourAirports": "44167"
+      },
+      "name": {
+        "note": "Canonical reference display label from pinned OurAirports record 44167; official documentary label and location are retained in the admission dossier. This is not a historical legal-name interval or evidence of current military/civil operating status.",
+        "sourceIds": [
+          "cn-batch7-ourairports-reference",
+          "cn-lyg-mee-2019"
+        ],
+        "status": "reference",
+        "value": "Lianyungang Huaguoshan International Airport"
+      },
+      "timezone": {
+        "status": "unknown",
+        "value": null,
+        "sourceIds": [],
+        "note": "No timezone determination admitted in this identity batch."
+      }
+    },
+    {
+      "airportId": "apt_56b57bca-08d5-4b5e-944e-1e9cce968a0a",
+      "coordinates": {
+        "note": "Numerical position is from pinned OurAirports record 35313; the official administrative citation independently identifies the named site/project geography. It is not an official or historical ARP. The site is kept distinct from its relocation counterpart.",
+        "sourceIds": [
+          "cn-lzo-mee-2014",
+          "cn-batch7-ourairports-reference"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 28.852577,
+          "longitude": 105.392579
+        }
+      },
+      "externalIds": {
+        "ourAirports": "35313"
+      },
+      "name": {
+        "note": "Canonical reference display label from pinned OurAirports record 35313; official documentary label and location are retained in the admission dossier. This is not a historical legal-name interval or evidence of current military/civil operating status.",
+        "sourceIds": [
+          "cn-batch7-ourairports-reference",
+          "cn-lzo-mee-2014"
+        ],
+        "status": "reference",
+        "value": "Luzhou Lantian Airport"
+      },
+      "timezone": {
+        "status": "unknown",
+        "value": null,
+        "sourceIds": [],
+        "note": "No timezone determination admitted in this identity batch."
+      }
+    },
+    {
+      "airportId": "apt_f11bdf7d-d81d-46fc-a94f-8c8c42d4e245",
+      "coordinates": {
+        "note": "Numerical position is from pinned OurAirports record 336114; the official administrative citation independently identifies the named site/project geography. It is not an official or historical ARP. The site is kept distinct from its relocation counterpart.",
+        "sourceIds": [
+          "cn-lzo-mee-2014",
+          "cn-batch7-ourairports-reference"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 29.030357,
+          "longitude": 105.468407
+        }
+      },
+      "externalIds": {
+        "ourAirports": "336114"
+      },
+      "name": {
+        "note": "Canonical reference display label from pinned OurAirports record 336114; official documentary label and location are retained in the admission dossier. This is not a historical legal-name interval or evidence of current military/civil operating status.",
+        "sourceIds": [
+          "cn-batch7-ourairports-reference",
+          "cn-lzo-mee-2014"
+        ],
+        "status": "reference",
+        "value": "Luzhou Yunlong Airport"
+      },
+      "timezone": {
+        "status": "unknown",
+        "value": null,
+        "sourceIds": [],
+        "note": "No timezone determination admitted in this identity batch."
+      }
+    },
+    {
+      "airportId": "apt_bbf9f2c1-fc01-4ed7-a4aa-74e6ed8ca45f",
+      "coordinates": {
+        "note": "Numerical position is from pinned OurAirports record 300456; the official administrative citation independently identifies the named site/project geography. It is not an official or historical ARP. The site is kept distinct from its relocation counterpart.",
+        "sourceIds": [
+          "cn-ybp-mee-2014",
+          "cn-batch7-ourairports-reference"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 28.800556,
+          "longitude": 104.545
+        }
+      },
+      "externalIds": {
+        "ourAirports": "300456"
+      },
+      "name": {
+        "note": "Canonical reference display label from pinned OurAirports record 300456; official documentary label and location are retained in the admission dossier. This is not a historical legal-name interval or evidence of current military/civil operating status.",
+        "sourceIds": [
+          "cn-batch7-ourairports-reference",
+          "cn-ybp-mee-2014"
+        ],
+        "status": "reference",
+        "value": "Yibin Caiba Airport"
+      },
+      "timezone": {
+        "status": "unknown",
+        "value": null,
+        "sourceIds": [],
+        "note": "No timezone determination admitted in this identity batch."
+      }
+    },
+    {
+      "airportId": "apt_8354da99-7d18-4329-bf7b-4ed042a4ad72",
+      "coordinates": {
+        "note": "Numerical position is from pinned OurAirports record 336111; the official administrative citation independently identifies the named site/project geography. It is not an official or historical ARP. The site is kept distinct from its relocation counterpart.",
+        "sourceIds": [
+          "cn-ybp-mee-2014",
+          "cn-batch7-ourairports-reference"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 28.858431,
+          "longitude": 104.526157
+        }
+      },
+      "externalIds": {
+        "ourAirports": "336111"
+      },
+      "name": {
+        "note": "Canonical reference display label from pinned OurAirports record 336111; official documentary label and location are retained in the admission dossier. This is not a historical legal-name interval or evidence of current military/civil operating status.",
+        "sourceIds": [
+          "cn-batch7-ourairports-reference",
+          "cn-ybp-mee-2014"
+        ],
+        "status": "reference",
+        "value": "Yibin Wuliangye Airport"
+      },
+      "timezone": {
+        "status": "unknown",
+        "value": null,
+        "sourceIds": [],
+        "note": "No timezone determination admitted in this identity batch."
+      }
     }
   ],
   "assignments": [
@@ -2519,7 +2717,7 @@
       "verifiedOn": "2026-10-30"
     }
   ],
-  "dataVersion": "0.10.0",
+  "dataVersion": "0.11.0",
   "names": [
     {
       "airportId": "apt_99f19660-7609-49c5-b221-ed4a37046566",
@@ -4015,6 +4213,76 @@
       "sourceType": "primary",
       "title": "India AIP 2026-07-09 AD2 VASD",
       "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VASD-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-06",
+      "license": {
+        "id": "LicenseRef-PRC-Official-Administrative-Documents",
+        "note": "PRC Copyright Law Article 5(1): this official administrative decision/notice is classified as outside copyright subject matter. Only attributed factual identity/location statements and provenance are retained; this is not a licence for website content, commissioned EIA reports, AIP charts, photographs or third-party attachments.",
+        "url": "https://www.gov.cn/guoqing/2021-10/29/content_5647633.htm"
+      },
+      "note": "Official administrative document; physical identity/location only. Original SHA-256 78ed8194ae71bf9dc45e2df8dadff0d9796e24f4c9ecf4430d1e75c3a0a880f4; bounded citations and recorded verification reused from PR #33 at research/evidence/priority-market-batch-6/source-lock.json. No original reacquired, no full extraction redistributed; document/signature dates are not airport opening, closure or code effective dates.",
+      "sourceId": "cn-lyg-both-sites-2020",
+      "sourceType": "primary",
+      "title": "Lianyungang municipal joint airport clearance-protection mechanism (2020-02-25)",
+      "url": "https://www.lyg.gov.cn/zglygzfmhwz/szfbgswj1/content/89a86e48-47a7-4067-9f88-65b0cc1d04e8.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-06",
+      "license": {
+        "id": "LicenseRef-PRC-Official-Administrative-Documents",
+        "note": "PRC Copyright Law Article 5(1): this official administrative decision/notice is classified as outside copyright subject matter. Only attributed factual identity/location statements and provenance are retained; this is not a licence for website content, commissioned EIA reports, AIP charts, photographs or third-party attachments.",
+        "url": "https://www.gov.cn/guoqing/2021-10/29/content_5647633.htm"
+      },
+      "note": "Official administrative document; physical identity/location only. Original SHA-256 649d10bdd1a5ab56dfe1c5a17bea4d160a53de55afc3632d33b2dfc9b1a61e3c; bounded citations and recorded verification reused from PR #33 at research/evidence/priority-market-batch-6/source-lock.json. No original reacquired, no full extraction redistributed; document/signature dates are not airport opening, closure or code effective dates.",
+      "sourceId": "cn-lyg-mee-2019",
+      "sourceType": "primary",
+      "title": "MEE approval for Lianyungang airport relocation environmental impact report (2019)",
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk11/201901/t20190121_690274.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-06",
+      "license": {
+        "id": "LicenseRef-PRC-Official-Administrative-Documents",
+        "note": "PRC Copyright Law Article 5(1): this official administrative decision/notice is classified as outside copyright subject matter. Only attributed factual identity/location statements and provenance are retained; this is not a licence for website content, commissioned EIA reports, AIP charts, photographs or third-party attachments.",
+        "url": "https://www.gov.cn/guoqing/2021-10/29/content_5647633.htm"
+      },
+      "note": "Official administrative document; physical identity/location only. Original SHA-256 7d527877a517984a62e7212c3c39d8f84ec8865a84a0d64fc0f46621742e6c4e; bounded citations and recorded verification reused from PR #33 at research/evidence/priority-market-batch-6/source-lock.json. No original reacquired, no full extraction redistributed; document/signature dates are not airport opening, closure or code effective dates.",
+      "sourceId": "cn-lzo-mee-2014",
+      "sourceType": "primary",
+      "title": "MEP approval for Luzhou airport relocation environmental impact report (2014-03-28)",
+      "url": "https://www.mee.gov.cn/gkml/sthjbgw/spwj1/201404/t20140403_270104.htm",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-06",
+      "license": {
+        "id": "LicenseRef-PRC-Official-Administrative-Documents",
+        "note": "PRC Copyright Law Article 5(1): this official administrative decision/notice is classified as outside copyright subject matter. Only attributed factual identity/location statements and provenance are retained; this is not a licence for website content, commissioned EIA reports, AIP charts, photographs or third-party attachments.",
+        "url": "https://www.gov.cn/guoqing/2021-10/29/content_5647633.htm"
+      },
+      "note": "Official administrative document; physical identity/location only. Original SHA-256 9112b84c3ec896ad5b0f32961fc2cc939acb4bccf24510ca451074f1e51c83e7; bounded citations and recorded verification reused from PR #33 at research/evidence/priority-market-batch-6/source-lock.json. No original reacquired, no full extraction redistributed; document/signature dates are not airport opening, closure or code effective dates.",
+      "sourceId": "cn-ybp-mee-2014",
+      "sourceType": "primary",
+      "title": "MEP approval for Yibin airport relocation environmental impact report (2014-03-28)",
+      "url": "https://www.mee.gov.cn/gkml/sthjbgw/spwj1/201404/t20140403_270103.htm",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-10-26",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "note": "OurAirports explicitly places its airport data in the public domain; no invented CC0 licence. Only six physical-site reference rows are used.",
+        "url": "https://ourairports.com/data/"
+      },
+      "note": "Hash-checked pinned CSV SHA-256 27c6500d0a742edece15c5aaf960e08c01df0d4356c5c86255897b5d3749ad3b, reused offline from reference/inputs/ourairports.csv.gz. Numerical positions and English display labels are reference attributes, not official ARPs, historical legal names, code assignments or operational-status evidence.",
+      "sourceId": "cn-batch7-ourairports-reference",
+      "sourceType": "secondary",
+      "title": "OurAirports physical-site reference rows, snapshot d97df1673cc5ba61a09b17ab5936091a669a04ca",
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/d97df1673cc5ba61a09b17ab5936091a669a04ca/airports.csv",
       "verificationStatus": "verified"
     }
   ]

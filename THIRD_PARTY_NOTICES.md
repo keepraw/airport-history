@@ -136,3 +136,15 @@ source links, provenance hashes, necessary short factual citations and original
 annotations are included. AAI/ENAIRE publications are not relicensed under the
 project's CC0 data dedication or MIT code license. See the exact URLs, terms and
 scoped content checks in [source-review.json](research/admissions/0.9.0/source-review.json).
+
+## 0.11.0 China physical identities
+
+Four official administrative approvals/notices from MEE and Lianyungang identify
+six distinct physical sites. Their administrative-document scope is assessed under
+PRC Copyright Law Article 5(1), with the official statutory source and bounded
+quotation in [rights-basis.json](research/admissions/0.11.0/rights-basis.json).
+This does not license entire government websites, EIA annexes, AIP charts, images
+or third-party publications. Only factual annotations and source metadata are added;
+previous short quotations and original-verification receipts are referenced in place.
+The separately scoped OurAirports source preserves its public-domain designation
+and provides reference names/positions only. It supplies no historical code dates.

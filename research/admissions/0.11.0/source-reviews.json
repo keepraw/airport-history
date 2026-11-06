@@ -1,0 +1,105 @@
+[
+  {
+    "citationIds": [
+      "cn-lyg-both-sites-2020-q1"
+    ],
+    "documentClass": "government-notice",
+    "limitations": [
+      "No IATA or ICAO allocation, first/last effective date, continuous code validity or physical closure is asserted.",
+      "Project geography describes the proposed site at the administrative document date; executed airport existence is separately cross-checked against prior evidence and the pinned reference snapshot."
+    ],
+    "lockPath": "research/evidence/priority-market-batch-6/source-lock.json",
+    "lockSourceId": "cn-lyg-both-sites-2020",
+    "observedOn": "2020-02-25",
+    "originalSha256": "78ed8194ae71bf9dc45e2df8dadff0d9796e24f4c9ecf4430d1e75c3a0a880f4",
+    "policyFamily": "CN-GOV-ADMIN",
+    "rightsBasis": "PRC-Copyright-Law-Article-5",
+    "rightsBasisUrl": "https://www.gov.cn/guoqing/2021-10/29/content_5647633.htm",
+    "sourceId": "cn-lyg-both-sites-2020",
+    "supportedFacts": [
+      "Named physical airport site and/or explicit project geography only."
+    ]
+  },
+  {
+    "citationIds": [
+      "cn-lyg-mee-2019-q1"
+    ],
+    "documentClass": "administrative-decision",
+    "limitations": [
+      "No IATA or ICAO allocation, first/last effective date, continuous code validity or physical closure is asserted.",
+      "Project geography describes the proposed site at the administrative document date; executed airport existence is separately cross-checked against prior evidence and the pinned reference snapshot."
+    ],
+    "lockPath": "research/evidence/priority-market-batch-6/source-lock.json",
+    "lockSourceId": "cn-lyg-mee-2019",
+    "observedOn": "2019-01-16",
+    "originalSha256": "649d10bdd1a5ab56dfe1c5a17bea4d160a53de55afc3632d33b2dfc9b1a61e3c",
+    "policyFamily": "CN-GOV-ADMIN",
+    "rightsBasis": "PRC-Copyright-Law-Article-5",
+    "rightsBasisUrl": "https://www.gov.cn/guoqing/2021-10/29/content_5647633.htm",
+    "sourceId": "cn-lyg-mee-2019",
+    "supportedFacts": [
+      "Named physical airport site and/or explicit project geography only."
+    ]
+  },
+  {
+    "citationIds": [
+      "cn-lzo-mee-2014-q1",
+      "cn-lzo-mee-2014-q2"
+    ],
+    "documentClass": "administrative-decision",
+    "limitations": [
+      "No IATA or ICAO allocation, first/last effective date, continuous code validity or physical closure is asserted.",
+      "Project geography describes the proposed site at the administrative document date; executed airport existence is separately cross-checked against prior evidence and the pinned reference snapshot."
+    ],
+    "lockPath": "research/evidence/priority-market-batch-6/source-lock.json",
+    "lockSourceId": "cn-lzo-mee-2014",
+    "observedOn": "2014-03-28",
+    "originalSha256": "7d527877a517984a62e7212c3c39d8f84ec8865a84a0d64fc0f46621742e6c4e",
+    "policyFamily": "CN-GOV-ADMIN",
+    "rightsBasis": "PRC-Copyright-Law-Article-5",
+    "rightsBasisUrl": "https://www.gov.cn/guoqing/2021-10/29/content_5647633.htm",
+    "sourceId": "cn-lzo-mee-2014",
+    "supportedFacts": [
+      "Named physical airport site and/or explicit project geography only."
+    ]
+  },
+  {
+    "citationIds": [
+      "cn-ybp-mee-2014-q1",
+      "cn-ybp-mee-2014-q2"
+    ],
+    "documentClass": "administrative-decision",
+    "limitations": [
+      "No IATA or ICAO allocation, first/last effective date, continuous code validity or physical closure is asserted.",
+      "Project geography describes the proposed site at the administrative document date; executed airport existence is separately cross-checked against prior evidence and the pinned reference snapshot."
+    ],
+    "lockPath": "research/evidence/priority-market-batch-6/source-lock.json",
+    "lockSourceId": "cn-ybp-mee-2014",
+    "observedOn": "2014-03-28",
+    "originalSha256": "9112b84c3ec896ad5b0f32961fc2cc939acb4bccf24510ca451074f1e51c83e7",
+    "policyFamily": "CN-GOV-ADMIN",
+    "rightsBasis": "PRC-Copyright-Law-Article-5",
+    "rightsBasisUrl": "https://www.gov.cn/guoqing/2021-10/29/content_5647633.htm",
+    "sourceId": "cn-ybp-mee-2014",
+    "supportedFacts": [
+      "Named physical airport site and/or explicit project geography only."
+    ]
+  },
+  {
+    "citationIds": [],
+    "documentClass": "reference-directory",
+    "limitations": [
+      "Secondary reference only; does not prove historical code allocations, legal names or exact ARPs."
+    ],
+    "lockPath": "reference/source-lock.json",
+    "lockSourceId": "ourairports",
+    "observedOn": "2026-10-26",
+    "policyFamily": "PUBLIC-DOMAIN-REFERENCE",
+    "rightsBasis": "Public-Domain",
+    "rightsBasisUrl": "https://ourairports.com/data/",
+    "sourceId": "cn-batch7-ourairports-reference",
+    "supportedFacts": [
+      "Six identified physical-site reference rows: names, coordinates and external record IDs."
+    ]
+  }
+]

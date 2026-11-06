@@ -1,0 +1,134 @@
+{
+  "activatedClaims": [
+    "physicalIdentity"
+  ],
+  "authorization": {
+    "instruction": "用户本轮任务授权 AI 按照这些项目原则自主开展研究、核验和准入，不要求逐机场审批。",
+    "kind": "explicit-user-task",
+    "meaning": "Project-level machine admission is authorized by the current task; no per-airport owner review, GitHub grant, or third-party licence is asserted.",
+    "recordedBy": "Codex",
+    "reviewer": null,
+    "source": "Keepraw Airport History — China Batch 7, user instruction 2026-11-06"
+  },
+  "baseline": {
+    "baseCommit": "1e35d424a42377ea80c5c4ab53e1ee3d492b5acf",
+    "dataVersion": "0.10.0",
+    "path": "test/curated-0.10.0.json",
+    "schemaVersion": "3.0.0",
+    "sha256": "2268bdd3426e0d459b7b46d1214b165e3ab90f3526d4f2528f60238f4ee94b13"
+  },
+  "countries": [
+    "CN"
+  ],
+  "exclusions": [
+    "meteorological_code_as_icao",
+    "airline_directory_as_iata_allocation",
+    "opening_or_licence_as_code_effective",
+    "capture_date_as_historical_effective",
+    "same_code_or_city_as_site_identity",
+    "AAI_or_KR_authority_inheritance"
+  ],
+  "families": {
+    "CN-CAAC-AIP": {
+      "active": false,
+      "claims": [
+        "physicalIdentity",
+        "icao"
+      ],
+      "iataFromIcao": false,
+      "maximumObservationGapDays": 28,
+      "requirements": [
+        "source-specific lawful access and reuse basis",
+        "controlled dated original AD 2 and effective-edition index",
+        "all intermediate editions and relevant notices reconciled"
+      ]
+    },
+    "CN-CAAC-REGIONAL": {
+      "active": true,
+      "claims": [
+        "physicalIdentity",
+        "administrativeEvent"
+      ],
+      "documentClasses": [
+        "administrative-decision",
+        "government-notice"
+      ],
+      "hosts": [
+        "www.caac.gov.cn"
+      ],
+      "rightsBasis": "PRC-Copyright-Law-Article-5"
+    },
+    "CN-EXPLICIT-CODE-ALLOCATION": {
+      "active": false,
+      "claims": [
+        "iata",
+        "icao"
+      ],
+      "requirements": [
+        "explicit namespace and physical-site attribution",
+        "code-specific effective boundary; allocation approval date alone is insufficient",
+        "source-specific use rights and contradiction screening"
+      ]
+    },
+    "CN-GOV-ADMIN": {
+      "active": true,
+      "claims": [
+        "physicalIdentity",
+        "administrativeEvent"
+      ],
+      "documentClasses": [
+        "administrative-decision",
+        "government-notice"
+      ],
+      "hostsSuffix": ".gov.cn",
+      "limitations": [
+        "No commissioned EIA annex, chart, photograph or full website copyright licence is included.",
+        "Project approval establishes a located project; execution must be independently checked before treating it as the later operating physical airport.",
+        "No opening, licence or administrative date establishes a code-effective boundary."
+      ],
+      "rightsBasis": "PRC-Copyright-Law-Article-5"
+    },
+    "PUBLIC-DOMAIN-REFERENCE": {
+      "active": true,
+      "claims": [
+        "referenceCoordinates",
+        "referenceName"
+      ],
+      "documentClasses": [
+        "reference-directory"
+      ],
+      "inputPath": "reference/inputs/ourairports.csv.gz",
+      "lockPath": "reference/source-lock.json",
+      "rightsBasis": "Public-Domain"
+    }
+  },
+  "formatVersion": 1,
+  "identity": {
+    "coordinateStatus": "reference",
+    "duplicateRadiusMetres": 100,
+    "existingAirportIdsMustBeReused": true,
+    "referenceNameIsNotHistoricalName": true,
+    "timezoneStatus": "unknown"
+  },
+  "policyKey": "official-source-claims@1.0.0",
+  "researchInputs": {
+    "reference/source-lock.json": "33b9a7b4ce39bbe5b59dae30f16ca51776cd654c61432cb6d10d03240dce5646",
+    "research/evidence/priority-market-batch-6/original-verification.json": "bc22292fa5d7f9ef7b5d32f234e03a4c76dc6893176db98095a256785890bfab",
+    "research/evidence/priority-market-batch-6/source-lock.json": "3fae88d999f564f21cbd1f55a88909ff8b0f31532a6383eb21452c85260ad461",
+    "research/evidence/markets/excerpts/cn-stat-2021.json": "1a3999149a676cc844f158414d2e750c8f6d38d5316b0fffe87c99ad93f59a58",
+    "research/evidence/markets/excerpts/cn-luzhou-operator.json": "1ed973bbc286857a16013aadc93e19e6c59f9ba126e93a0398b69cf0006fe147",
+    "research/evidence/markets/excerpts/cn-stat-2019.json": "4cfab603b3fbcccaf155c0e0580cbbce6ce09a009aa012eb1267ed3d64250281",
+    "research/evidence/markets/excerpts/cn-yibin-operation.json": "0fe28899c9f9a59453644aa661c7f52b92e6f57d8180613d79535aba5fffceca",
+    "research/admissions/0.11.0/rights-basis.json": "373ff28426b0a16a70ed34b59971a65b847e2e88094727b8b3b28441dba7604c"
+  },
+  "retention": {
+    "allowed": [
+      "factual_metadata",
+      "hashes",
+      "necessary_short_citations"
+    ],
+    "blanketWebsiteLicence": false,
+    "completeExtractions": false,
+    "fullOriginals": false
+  }
+}

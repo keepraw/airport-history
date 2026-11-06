@@ -1,0 +1,419 @@
+{
+  "formatVersion": 1,
+  "reviewedOn": "2026-11-06",
+  "scope": "Targeted reused-code evidence review, China Batch 7",
+  "newOfficialOriginalsAcquired": 0,
+  "readyIataIntervals": 0,
+  "readyIcaoIntervals": 0,
+  "meaning": "Do not promote approval, licence, administrative relocation or publication/capture dates to code-validity bounds. No formal data or source rules changed by this report.",
+  "reusedEvidence": [
+    {
+      "sourceId": "pm6-cn-daxing-trial-2019",
+      "title": "大兴机场真机验证及已获代码批复",
+      "url": "https://www.caac.gov.cn/PHONE/XWZX/MHYW/201905/t20190513_196141.html",
+      "publisher": "CAAC",
+      "publicationDate": "2019-05-13",
+      "documentDate": null,
+      "originalSha256": "5ff1058791e0225a6d6cdbc847e671d2112b3ad5b18d75080fd6956eccac4a70",
+      "citations": [
+        {
+          "characterEnd": 1277,
+          "characterStart": 1266,
+          "citationId": "pm6-cn-daxing-trial-2019-1",
+          "page": null,
+          "quote": "具体为PKX、ZBAD",
+          "quoteSha256": "cdd73149c7d2eac0c0e2e3e8325ed4212f8fbcb9a3215cf29dc2a7e49daf57f1",
+          "representation": "normalized_text"
+        }
+      ],
+      "knownDates": [
+        {
+          "codeEffectiveDate": false,
+          "date": "2019-05-13",
+          "dateKind": "webpage_publication"
+        }
+      ],
+      "dateMeaning": "News-page publication date, not code effectiveness.",
+      "factLineage": "CAAC trial-flight news; canonical original for cn-add-daxing-code-20190513",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Only metadata, original-content hashes and minimal citations retained; full originals/extractions stay ignored work/. No new source-family authorization inferred.",
+        "publicRetention": "metadata-and-minimal-citations"
+      }
+    },
+    {
+      "sourceId": "cn-add-daxing-summary-2020",
+      "title": "北京大兴国际机场建设及运营工作总结",
+      "url": "https://www.caac.gov.cn/PHONE/SJ_IPHONE/JCS_IP/YWLJ_JCS/ZCFB_JCS/202010/P020201023304513393692.pdf",
+      "publisher": "CAAC / 北京大兴国际机场建设运营协调机构",
+      "publicationDate": null,
+      "documentDate": "2020-09-25",
+      "originalSha256": "13e7bd0eacf001549a0bbc3ac77144bc67af93edf0171e1528507779e973f050",
+      "citations": [
+        {
+          "characterEnd": 22032,
+          "characterStart": 21956,
+          "citationId": "cn-add-daxing-summary-2020-q1",
+          "page": 39,
+          "quote": "2018 年 10 月 12 日、 2019 年 3 月 5 日，民航局空管局、国际航协（IATA）分别确认大兴机场 四字码 ZBAD、三字码 PKX。",
+          "quoteSha256": "991ef4dc9109ecfac9e51da099e8eba18c836f156f258b3c5e4d66bf6a56046c",
+          "representation": "normalized_text"
+        },
+        {
+          "characterEnd": 83568,
+          "characterStart": 83533,
+          "citationId": "cn-add-daxing-summary-2020-q2",
+          "page": 129,
+          "quote": "3 月 6 日，北京大兴国际机场的 IATA 代码正式确定为 PKX。",
+          "quoteSha256": "14912e5ca4e4fc04641e8feb2e707a24bfa84dbf2fa4a56df74492afde2dc165",
+          "representation": "normalized_text"
+        }
+      ],
+      "knownDates": [
+        {
+          "codeEffectiveDate": false,
+          "date": "2020-09-25",
+          "dateKind": "report_cover"
+        },
+        {
+          "codeEffectiveDate": false,
+          "date": "2018-10-12",
+          "dateKind": "retrospective_ZBAD_confirmation_claim"
+        },
+        {
+          "codeEffectiveDate": false,
+          "date": "2019-03-05",
+          "dateKind": "retrospective_PKX_confirmation_claim_physical_page39"
+        },
+        {
+          "codeEffectiveDate": false,
+          "date": "2019-03-06",
+          "dateKind": "retrospective_PKX_determination_claim_physical_page129"
+        }
+      ],
+      "dateMeaning": "Printed report cover date2020-09-25on physicalp2; public webpage posting date not authenticated. Internal confirmation claims forPKXconflict03-05/03-06and do not establish exact allocation effectiveness.",
+      "factLineage": "Single retrospectively compiled institutional report",
+      "rights": "No explicit reusable/open-data licence observed; public access is not authorization for redistribution or formal admission. No China source grant inferred from AAI/Korea."
+    },
+    {
+      "sourceId": "cn-add-shiyan-caac-licence",
+      "title": "中南局颁发十堰武当山机场使用许可证",
+      "url": "https://www.caac.gov.cn/XWZX/DFDT/201602/t20160202_27886.html",
+      "publisher": "CAAC 中南地区管理局",
+      "publicationDate": "2016-02-02",
+      "documentDate": null,
+      "originalSha256": "8ae42fd7b5b78d050edb29e6b0eaabaf2a104fcd04a3b64372ab3f9bc2f42a49",
+      "citations": [
+        {
+          "characterEnd": 513,
+          "characterStart": 473,
+          "citationId": "cn-add-shiyan-caac-licence-q1",
+          "page": null,
+          "quote": "1月29日，中南局颁发了十堰武当山机场使用许可证，中南辖区颁证运输机场达32个。",
+          "quoteSha256": "a5c064a861967218fef6a16df64b0b6721565543c5516f821cabf3c805040437",
+          "representation": "normalized_text"
+        }
+      ],
+      "knownDates": [
+        {
+          "codeEffectiveDate": false,
+          "date": "2016-02-02",
+          "dateKind": "webpage_publication"
+        },
+        {
+          "codeEffectiveDate": false,
+          "date": "2016-01-29",
+          "dateKind": "operating_licence_issuance"
+        }
+      ],
+      "dateMeaning": "News-page publication date, not code effectiveness.",
+      "factLineage": "Regulator operating-licence issuance account",
+      "rights": "No explicit reusable/open-data licence observed; public access is not authorization for redistribution or formal admission. No China source grant inferred from AAI/Korea."
+    },
+    {
+      "sourceId": "cn-add-aopa-jingmen-ad2-20240422",
+      "title": "荆门/漳河 AD2：主要邻近机场",
+      "url": "https://oss.ga.aopa.org.cn/other_info/20240422/171376100588282.pdf",
+      "publisher": "中国航空器拥有者及驾驶员协会托管；资料编制/管理单位湖北中航通用机场管理有限公司",
+      "publicationDate": null,
+      "documentDate": null,
+      "originalSha256": "0d2c4af54ae81ddd8506c9441f2751515543a3f8e738df8f2b7f3fad52755d4f",
+      "citations": [
+        {
+          "characterEnd": 7169,
+          "characterStart": 7113,
+          "citationId": "cn-add-aopa-jingmen-ad2-20240422-q1",
+          "page": 8,
+          "quote": "十堰/武当山 331 209 N323536E1105422 325 2600×45 65/R/B/W/T 水泥",
+          "quoteSha256": "024376a06b179420cd5181eeaccc8c540ec775fdd051958742a0ae1065769265",
+          "representation": "normalized_text"
+        }
+      ],
+      "knownDates": [],
+      "dateMeaning": "no printed publication/effective date; URL20240422 is storage path",
+      "factLineage": "Jingmen/Zhanghe operator AD2.20, neighboring Shiyan/Wudangshan row",
+      "rights": "No explicit reusable/open-data licence observed; public access is not authorization for redistribution or formal admission. No China source grant inferred from AAI/Korea."
+    },
+    {
+      "sourceId": "cn-kmg-csair-cargo-2017",
+      "title": "南航定期航线危险品运输站点清单 No.2017001",
+      "url": "https://cargo.csair.com/order/fileDownload?identifier=inventoryFile.pdf",
+      "publisher": "China Southern Airlines",
+      "publicationDate": "2017-01-24",
+      "documentDate": null,
+      "originalSha256": "2a69d24ca9f07aabc1b7f151a1d56bc2e9102751087ca8cbb71e16fd0c528e26",
+      "citations": [
+        {
+          "characterEnd": 21,
+          "characterStart": 0,
+          "citationId": "cn-kmg-csair-cargo-2017-q1",
+          "page": null,
+          "quote": "发布日期 Posted：2017-1-24",
+          "quoteSha256": "18f4fcc98e4b01c71ea8b8c3670b2aa825938e24825c3b2fa35f92ecacdf269e",
+          "representation": "normalized_text"
+        },
+        {
+          "characterEnd": 9529,
+          "characterStart": 9495,
+          "citationId": "cn-kmg-csair-cargo-2017-q2",
+          "page": 8,
+          "quote": "昆明长水 分）。 云南空港物流有限公司 22 Kunming KMG",
+          "quoteSha256": "037ceabf0ac79efd33762aac258d5c654b50ca7b08c83ea2deed0d664b708783",
+          "representation": "normalized_text"
+        }
+      ],
+      "knownDates": [
+        {
+          "codeEffectiveDate": false,
+          "date": "2017-01-24",
+          "dateKind": "printed_posting_date"
+        }
+      ],
+      "dateMeaning": "printed Posted date appears on every physical page, not code-effective date",
+      "factLineage": "Own carrier dangerous-goods station inventory No.2017001",
+      "rights": {
+        "access": "public URL acquired",
+        "handling": "Originals/full extraction kept only ignored work/; potential tracked output limited metadata, hashes, minimal citations and research facts; no formal promotion.",
+        "licence": "No open redistribution or derivative-database licence verified; CAAC/Guangdong pages show copyright claims. Public accessibility alone is not permission.",
+        "projectSourceGrant": "none identified for China; AAI/KR grants do not apply"
+      }
+    },
+    {
+      "sourceId": "cn-kmg-ceair-upgrade-2026",
+      "title": "支持升舱站点名单",
+      "url": "https://ecresource.ceair.com/oss-addservices/addserviceadmin/2026/5/31/d81f4b6c0e74431fba260034e0aaa024.pdf",
+      "publisher": "China Eastern Airlines",
+      "publicationDate": null,
+      "documentDate": null,
+      "originalSha256": "f95e3e0fddb8e70a188002303f5eeeeadff31d72b1119c69af2f2eb74504dfa9",
+      "citations": [
+        {
+          "characterEnd": 118,
+          "characterStart": 104,
+          "citationId": "cn-kmg-ceair-upgrade-2026-q1",
+          "page": 1,
+          "quote": "6 KMG 昆明长水国际机场",
+          "quoteSha256": "b44f491f4abad75bc0f2685b72fe2406d34e194579729d131198cf3a68fd75b3",
+          "representation": "normalized_text"
+        }
+      ],
+      "knownDates": [],
+      "dateMeaning": "no printed date; URL2026/5/31 is storage path and cannot establish publication or effectiveness",
+      "factLineage": "Own carrier upgrade service station list; same original as pm6-cn-ceair-stations-2026",
+      "rights": {
+        "access": "public URL acquired",
+        "handling": "Originals/full extraction kept only ignored work/; potential tracked output limited metadata, hashes, minimal citations and research facts; no formal promotion.",
+        "licence": "No open redistribution or derivative-database licence verified; CAAC/Guangdong pages show copyright claims. Public accessibility alone is not permission.",
+        "projectSourceGrant": "none identified for China; AAI/KR grants do not apply"
+      }
+    },
+    {
+      "sourceId": "pm6-cn-ceair-stations-2026",
+      "title": "东航支持升舱站点名单（单次观察，非分配通知）",
+      "url": "https://ecresource.ceair.com/oss-addservices/addserviceadmin/2026/5/31/d81f4b6c0e74431fba260034e0aaa024.pdf",
+      "publisher": "China Eastern Airlines",
+      "publicationDate": null,
+      "documentDate": null,
+      "originalSha256": "f95e3e0fddb8e70a188002303f5eeeeadff31d72b1119c69af2f2eb74504dfa9",
+      "citations": [
+        {
+          "characterEnd": 244,
+          "characterStart": 232,
+          "citationId": "pm6-cn-ceair-stations-2026-1",
+          "page": 1,
+          "quote": "HFE 合肥新桥国际机场",
+          "quoteSha256": "050b913719193015282d033180d65a222df791475e2f386180ad0ed5af3da787",
+          "representation": "normalized_text"
+        }
+      ],
+      "knownDates": [],
+      "dateMeaning": "no printed date; URL2026/5/31 storage path not publication or effectiveness",
+      "factLineage": "Own carrier upgrade station list; canonical original for cn-kmg-ceair-upgrade-2026",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Only metadata, original-content hashes and minimal citations retained; full originals/extractions stay ignored work/. No new source-family authorization inferred.",
+        "publicRetention": "metadata-and-minimal-citations"
+      }
+    },
+    {
+      "sourceId": "pm6-cn-hefei-transfer-2013",
+      "title": "安徽监管局全力推进合肥新桥机场转场监管工作",
+      "url": "https://www.caac.gov.cn/XWZX/DFDT/201305/t20130531_21821.html",
+      "publisher": "CAAC Anhui Safety Supervision Bureau",
+      "publicationDate": "2013-05-31",
+      "documentDate": null,
+      "originalSha256": "7d224fac9cd39d41808d9b5e8a205ad70a11cbd92973e3e41d756a27141168ee",
+      "citations": [
+        {
+          "characterEnd": 501,
+          "characterStart": 481,
+          "citationId": "pm6-cn-hefei-transfer-2013-1",
+          "page": null,
+          "quote": "5月30日零时，合肥新桥国际机场正式启用",
+          "quoteSha256": "82ce23ec3d5fd3d08259df82191c6fdee22e7ba8ce5e6d4321899efc667b01ad",
+          "representation": "normalized_text"
+        }
+      ],
+      "knownDates": [
+        {
+          "codeEffectiveDate": false,
+          "date": "2013-05-31",
+          "dateKind": "webpage_publication"
+        },
+        {
+          "codeEffectiveDate": false,
+          "date": "2013-05-30",
+          "dateKind": "executed_commissioning_at_local_midnight"
+        }
+      ],
+      "dateMeaning": "News-page publication date, not code effectiveness.",
+      "factLineage": "Regulator account of completed Luogang→Xinqiao relocation",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Only metadata, original-content hashes and minimal citations retained; full originals/extractions stay ignored work/. No new source-family authorization inferred.",
+        "publicRetention": "metadata-and-minimal-citations"
+      }
+    },
+    {
+      "accessedAt": "2026-10-29T05:33:13+00:00",
+      "dateNote": "2023 edition reporting appendix for 2022 flights, containing both former DAX and replacement DZH. Not a current-allocation snapshot.",
+      "documentEffectiveDate": null,
+      "encoding": "utf-8",
+      "excerptPath": "excerpts/cn-regional-iata.json",
+      "excerptSha256": "ceac75975f38293abdb12055e7d5bb0822aa824c10be2b997b2d4a1ca3bf1bce",
+      "originalBytes": 2378026,
+      "originalPublicationKey": "https://gdee.gd.gov.cn/attachment/0/515/515612/4130544.pdf",
+      "originalSha256": "7373887c2088e077f9e1b718033d57b663334cf12381c11efe763bc7c78033b4",
+      "publicationDate": null,
+      "publicationYear": 2023,
+      "publisher": "Guangdong Department of Ecology and Environment",
+      "retrievalUrl": "https://gdee.gd.gov.cn/attachment/0/515/515612/4130544.pdf",
+      "rights": {
+        "mode": "metadata_and_short_excerpts",
+        "note": "No full HTML/PDF or full text is committed. Original publisher rights remain; minimal attributed quotations/factual rows retained solely for critical verification. Fetch original separately to verify its original SHA-256. No charts, photographs, or commercial code ledger redistributed.",
+        "permissionForFullRedistribution": "not_established"
+      },
+      "sourceFamily": "Guangdong Department of Ecology and Environment",
+      "sourceId": "cn-regional-iata",
+      "sourceType": "primary",
+      "textOriginalSha256": "c74cd8558147718a0551d02941ea7b71f21150886c9dbf9231bc1e05b69cfd74",
+      "title": "2023 carbon reporting guide airport IATA appendix",
+      "url": "https://gdee.gd.gov.cn/attachment/0/515/515612/4130544.pdf",
+      "boundedQuote": "十堰/武当山 WDS",
+      "physicalPage": 178
+    }
+  ],
+  "decisions": [
+    {
+      "caseKey": "beijing-daxing",
+      "directCodeEvidence": {
+        "IATA": "PKX approval status",
+        "ICAO": "ZBAD approval status"
+      },
+      "knownDates": [
+        {
+          "date": "2019-05-13",
+          "kind": "official webpage publication reports approvals already received"
+        },
+        {
+          "date": "2018-10-12",
+          "kind": "retrospective ATMB ZBAD confirmation claim"
+        },
+        {
+          "date": "2019-03-05",
+          "kind": "retrospective PKX confirmation physical p39"
+        },
+        {
+          "date": "2019-03-06",
+          "kind": "conflicting retrospective PKX determination physical p129"
+        }
+      ],
+      "admission": "identity may be independently admissible; code interval retained candidate",
+      "missing": "Original IATA/ATMB allocation instrument or controlled AD2 plus edition/effective-date index; preserve the report internal March5/6 disagreement",
+      "nextAction": "Seek exact IATA or ATMB publication number and original allocation effective-date clause; do not keep retrying the same CAAC2019 news or reinterpret2019 opening as code effectiveness"
+    },
+    {
+      "caseKey": "shiyan",
+      "directCodeEvidence": {
+        "IATA": "Official reporting appendix explicitly labels WDS, temporal semantics inadequate",
+        "ICAO": null
+      },
+      "knownDates": [
+        {
+          "date": "2016-01-29",
+          "kind": "operating licence issuance, not code effective"
+        },
+        {
+          "date": "2016-02-02",
+          "kind": "licence news publication"
+        }
+      ],
+      "physicalSiteObservation": {
+        "arp": "N323536E1105422",
+        "latitude": 32.593333333333334,
+        "longitude": 110.90611111111112,
+        "scope": "Jingmen/Zhanghe operator neighbor table via AOPA, not CAAC AD2 custody"
+      },
+      "admission": "identity may be independently admissible; code intervals retained candidate",
+      "missing": "Original WDS assignment/approval and ZHSY ATMB record; actual effective dates or controlled code-specific edition pair",
+      "nextAction": "Use official airport/CAAC records targeted by instrument number; the China.org.cn WDS article is already verified soft404 and cannot support facts"
+    },
+    {
+      "caseKey": "kunming",
+      "directCodeEvidence": {
+        "IATA": "Dated 2017-01-24 airline own dangerous-goods station list binds KMG to Changshui; undated2026 upload path is not publication date",
+        "ICAO": "2011 weather-exchange code list cannot establish ICAO allocation"
+      },
+      "admission": "No new code interval recommended",
+      "missing": "Old Wujia AD2 last effective edition and Changshui first code-specific controlled edition; bounded continuity observations with usable temporal semantics",
+      "nextAction": "Do not convert the2012 operating licence/airport opening into code effective date or bridge2017→2026 without continuity rule"
+    },
+    {
+      "caseKey": "hefei",
+      "directCodeEvidence": {
+        "IATA": "Current airline station row HFE→Xinqiao is undated observation",
+        "ICAO": null
+      },
+      "knownDates": [
+        {
+          "date": "2013-05-30",
+          "kind": "00:00 transfer and Xinqiao operational opening"
+        }
+      ],
+      "admission": "Identity can be considered separately; code interval retained candidate",
+      "missing": "Luogang last and Xinqiao first controlled HFE/ZSOF observations or direct code transfer notice",
+      "nextAction": "Do not interpret administrative midnight transfer alone as code transfer effectiveness"
+    }
+  ],
+  "targetedDiscoveryLimits": [
+    "Google search returned JavaScript redirect without source records.",
+    "Baidu returned safety verification; Sogou returned CAPTCHA. Neither was bypassed.",
+    "Bing RSS returned unrelated results for all three narrow queries and was not treated as evidence."
+  ],
+  "queriesAttempted": [
+    "site:caac.gov.cn 大兴 ZBAD 生效",
+    "site:gov.cn 武当山机场 WDS 代码",
+    "site:gov.cn 武当山 ZHSY 代码 批复",
+    "十堰 武当山机场 WDS 代码 批复"
+  ]
+}

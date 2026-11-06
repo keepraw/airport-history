@@ -1,0 +1,68 @@
+{
+  "formatVersion": 1,
+  "meaning": "Checks locked metadata/citations and prior original verification receipts. No original bytes newly downloaded or reread in this batch; prior successful acquisition is not described as a new verification.",
+  "mode": "offline-reuse-of-prior-recorded-original-verification",
+  "priorVerificationPath": "research/evidence/priority-market-batch-6/original-verification.json",
+  "priorVerificationSha256": "bc22292fa5d7f9ef7b5d32f234e03a4c76dc6893176db98095a256785890bfab",
+  "reference": {
+    "csvSha256": "27c6500d0a742edece15c5aaf960e08c01df0d4356c5c86255897b5d3749ad3b",
+    "lockPath": "reference/source-lock.json",
+    "lockSha256": "33b9a7b4ce39bbe5b59dae30f16ca51776cd654c61432cb6d10d03240dce5646",
+    "rows": [
+      "35312",
+      "44167",
+      "35313",
+      "336114",
+      "300456",
+      "336111"
+    ]
+  },
+  "sourceLockPath": "research/evidence/priority-market-batch-6/source-lock.json",
+  "sourceLockSha256": "3fae88d999f564f21cbd1f55a88909ff8b0f31532a6383eb21452c85260ad461",
+  "sources": [
+    {
+      "automatedTextCitationsReplayed": 1,
+      "citationsBound": 1,
+      "decodedHtmlAttributeCitationsReplayed": 0,
+      "extractedTextSha256": "976db76f91a40075aa297b92143eca57b08376c5b0450cfd8a01529c2c82e9f6",
+      "normalizedTextSha256": "bc3c6e6258c4e10a1173542a601dfd555417cfe202483ff8a938442eb2581fa9",
+      "originalBytesReadHere": true,
+      "originalSha256": "78ed8194ae71bf9dc45e2df8dadff0d9796e24f4c9ecf4430d1e75c3a0a880f4",
+      "sourceId": "cn-lyg-both-sites-2020",
+      "visualCitationsBoundToInspectedPage": 0
+    },
+    {
+      "automatedTextCitationsReplayed": 1,
+      "citationsBound": 1,
+      "decodedHtmlAttributeCitationsReplayed": 0,
+      "extractedTextSha256": "6fc54d4af6815b546501e150c1a4325a4ed8a7a8a1e004699a97d7e3d804c057",
+      "normalizedTextSha256": "3134079b6c115392834594d2c70a9b51e1d3cfa0843c6021646f73592acfde9e",
+      "originalBytesReadHere": true,
+      "originalSha256": "649d10bdd1a5ab56dfe1c5a17bea4d160a53de55afc3632d33b2dfc9b1a61e3c",
+      "sourceId": "cn-lyg-mee-2019",
+      "visualCitationsBoundToInspectedPage": 0
+    },
+    {
+      "automatedTextCitationsReplayed": 2,
+      "citationsBound": 2,
+      "decodedHtmlAttributeCitationsReplayed": 0,
+      "extractedTextSha256": "8181d8cc7f80bde5b287211b3c14a3479a5629bbfbaf0cd52878d955dabb5620",
+      "normalizedTextSha256": "7a92f745af64e2a9437e32d5f2dfd142f98673342348ec0e939f251c4c5e0339",
+      "originalBytesReadHere": true,
+      "originalSha256": "7d527877a517984a62e7212c3c39d8f84ec8865a84a0d64fc0f46621742e6c4e",
+      "sourceId": "cn-lzo-mee-2014",
+      "visualCitationsBoundToInspectedPage": 0
+    },
+    {
+      "automatedTextCitationsReplayed": 2,
+      "citationsBound": 2,
+      "decodedHtmlAttributeCitationsReplayed": 0,
+      "extractedTextSha256": "a6bac37c25c10b7427fedbbcd167dd705b2b967201b74de1c18c9dd96ace180b",
+      "normalizedTextSha256": "594845ff83fd141518fb485d24577efabb8f50ec8ad34f79444a23b7c4087f59",
+      "originalBytesReadHere": true,
+      "originalSha256": "9112b84c3ec896ad5b0f32961fc2cc939acb4bccf24510ca451074f1e51c83e7",
+      "sourceId": "cn-ybp-mee-2014",
+      "visualCitationsBoundToInspectedPage": 0
+    }
+  ]
+}

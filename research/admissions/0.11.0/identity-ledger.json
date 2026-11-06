@@ -1,0 +1,151 @@
+{
+  "baselineCommit": "1e35d424a42377ea80c5c4ab53e1ee3d492b5acf",
+  "formatVersion": 1,
+  "identities": [
+    {
+      "airportId": "apt_6f1a6ff3-98db-4e58-95fc-cc78bd5aa836",
+      "assignmentIdsAdded": [],
+      "candidateExistingSitesWithin10Km": [],
+      "caseId": "lianyungang",
+      "formalExistingCrosswalk": null,
+      "locationCitationId": "cn-lyg-both-sites-2020-q1",
+      "name": "Baitabu Air Base",
+      "nameIdsAdded": [],
+      "newUuidAllocated": false,
+      "officialDocumentaryLabel": "连云港白塔埠机场",
+      "originalProposalId": "apt_6f1a6ff3-98db-4e58-95fc-cc78bd5aa836",
+      "pendingCodeSearchSeeds": [
+        "IATA:LYG",
+        "ICAO:ZSLG"
+      ],
+      "primaryNumericARP": false,
+      "referencePosition": {
+        "latitude": 34.571302,
+        "longitude": 118.873143
+      },
+      "referenceRecordId": "35312",
+      "siteKey": "lianyungang-old"
+    },
+    {
+      "airportId": "apt_64b5eaa6-a984-4816-86d9-d8eb71c91451",
+      "assignmentIdsAdded": [],
+      "candidateExistingSitesWithin10Km": [],
+      "caseId": "lianyungang",
+      "formalExistingCrosswalk": null,
+      "locationCitationId": "cn-lyg-mee-2019-q1",
+      "name": "Lianyungang Huaguoshan International Airport",
+      "nameIdsAdded": [],
+      "newUuidAllocated": false,
+      "officialDocumentaryLabel": "连云港花果山机场",
+      "originalProposalId": "apt_64b5eaa6-a984-4816-86d9-d8eb71c91451",
+      "pendingCodeSearchSeeds": [
+        "IATA:LYG",
+        "ICAO:ZSLG"
+      ],
+      "primaryNumericARP": false,
+      "referencePosition": {
+        "latitude": 34.41406,
+        "longitude": 119.17899
+      },
+      "referenceRecordId": "44167",
+      "siteKey": "lianyungang-new"
+    },
+    {
+      "airportId": "apt_56b57bca-08d5-4b5e-944e-1e9cce968a0a",
+      "assignmentIdsAdded": [],
+      "candidateExistingSitesWithin10Km": [],
+      "caseId": "luzhou",
+      "formalExistingCrosswalk": null,
+      "locationCitationId": "cn-lzo-mee-2014-q1",
+      "name": "Luzhou Lantian Airport",
+      "nameIdsAdded": [],
+      "newUuidAllocated": false,
+      "officialDocumentaryLabel": "泸州机场",
+      "originalProposalId": "apt_56b57bca-08d5-4b5e-944e-1e9cce968a0a",
+      "pendingCodeSearchSeeds": [
+        "IATA:LZO",
+        "ICAO:ZULZ"
+      ],
+      "primaryNumericARP": false,
+      "referencePosition": {
+        "latitude": 28.852577,
+        "longitude": 105.392579
+      },
+      "referenceRecordId": "35313",
+      "siteKey": "luzhou-old"
+    },
+    {
+      "airportId": "apt_f11bdf7d-d81d-46fc-a94f-8c8c42d4e245",
+      "assignmentIdsAdded": [],
+      "candidateExistingSitesWithin10Km": [],
+      "caseId": "luzhou",
+      "formalExistingCrosswalk": null,
+      "locationCitationId": "cn-lzo-mee-2014-q2",
+      "name": "Luzhou Yunlong Airport",
+      "nameIdsAdded": [],
+      "newUuidAllocated": false,
+      "officialDocumentaryLabel": "泸州机场迁建工程",
+      "originalProposalId": "apt_f11bdf7d-d81d-46fc-a94f-8c8c42d4e245",
+      "pendingCodeSearchSeeds": [
+        "IATA:LZO",
+        "ICAO:ZULZ"
+      ],
+      "primaryNumericARP": false,
+      "referencePosition": {
+        "latitude": 29.030357,
+        "longitude": 105.468407
+      },
+      "referenceRecordId": "336114",
+      "siteKey": "luzhou-new"
+    },
+    {
+      "airportId": "apt_bbf9f2c1-fc01-4ed7-a4aa-74e6ed8ca45f",
+      "assignmentIdsAdded": [],
+      "candidateExistingSitesWithin10Km": [],
+      "caseId": "yibin",
+      "formalExistingCrosswalk": null,
+      "locationCitationId": "cn-ybp-mee-2014-q1",
+      "name": "Yibin Caiba Airport",
+      "nameIdsAdded": [],
+      "newUuidAllocated": false,
+      "officialDocumentaryLabel": "宜宾机场",
+      "originalProposalId": "apt_bbf9f2c1-fc01-4ed7-a4aa-74e6ed8ca45f",
+      "pendingCodeSearchSeeds": [
+        "IATA:YBP",
+        "ICAO:ZUYB"
+      ],
+      "primaryNumericARP": false,
+      "referencePosition": {
+        "latitude": 28.800556,
+        "longitude": 104.545
+      },
+      "referenceRecordId": "300456",
+      "siteKey": "yibin-old"
+    },
+    {
+      "airportId": "apt_8354da99-7d18-4329-bf7b-4ed042a4ad72",
+      "assignmentIdsAdded": [],
+      "candidateExistingSitesWithin10Km": [],
+      "caseId": "yibin",
+      "formalExistingCrosswalk": null,
+      "locationCitationId": "cn-ybp-mee-2014-q2",
+      "name": "Yibin Wuliangye Airport",
+      "nameIdsAdded": [],
+      "newUuidAllocated": false,
+      "officialDocumentaryLabel": "宜宾机场迁建工程",
+      "originalProposalId": "apt_8354da99-7d18-4329-bf7b-4ed042a4ad72",
+      "pendingCodeSearchSeeds": [
+        "IATA:YBP",
+        "ICAO:ZUYB"
+      ],
+      "primaryNumericARP": false,
+      "referencePosition": {
+        "latitude": 28.858431,
+        "longitude": 104.526157
+      },
+      "referenceRecordId": "336111",
+      "siteKey": "yibin-new"
+    }
+  ],
+  "meaning": "First formal promotion of six existing proposal UUIDs, no replacement UUID allocated; all prior proposals remain historically immutable research artifacts."
+}

@@ -1,0 +1,20 @@
+{
+  "formatVersion": 1,
+  "title": "中华人民共和国著作权法 — Article 5 scope",
+  "url": "https://www.gov.cn/guoqing/2021-10/29/content_5647633.htm",
+  "publisher": "中国政府网; text attributed to 中国人大网",
+  "publicationDate": "2021-10-29",
+  "accessedAt": "2026-11-06T13:36:48.604942+00:00",
+  "httpStatus": 200,
+  "originalSha256": "1b77ff9031c099463c9dcd2f8b8f91ccc4e07c6406381cd11b04edc24426d83c",
+  "extractedTextSha256": "3434c2623cf2625e90fdfe8ff01d9ad1c93bdc29946f86c893e4aa13c08dc5ba",
+  "extraction": "scripts/evidence/global_batch.py:extract",
+  "citation": {
+    "representation": "extracted_text",
+    "characterStart": 1091,
+    "characterEnd": 1184,
+    "quote": "第五条 本法不适用于：\n（一）法律、法规，国家机关的决议、决定、命令和其他具有立法、行政、司法性质的文件，及其官方正式译文；\n（二）单纯事实消息；\n（三）历法、通用数表、通用表格和公式。"
+  },
+  "application": "Source-by-source classification of named official administrative approvals only. This is a statutory subject-matter exclusion, not a blanket open licence for government websites, AIP publications, charts, photographs, operator articles or embedded third-party works.",
+  "publicPayload": "This metadata and the bounded Article 5 quotation; no full HTML or complete text extraction committed."
+}
