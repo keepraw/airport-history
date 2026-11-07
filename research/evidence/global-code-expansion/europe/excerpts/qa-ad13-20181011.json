@@ -1,0 +1,24 @@
+{
+  "sourceId": "qa-ad13-20181011",
+  "originalSha256": "ed9d68a3b76c554e69c664b92a1a04db0b639a9653595b366b16fe1dbe9da9ab",
+  "extractedTextSha256": "a3b92ca9dce44ccf9df435af024bc6fc7180fb3e8349f75a13b8c972cc82d62f",
+  "normalizedTextSha256": "1e4e102cd6c137bb59b7309dfc96aefc90a99f83dbebbc9fe273959ed78e116c",
+  "spans": [
+    {
+      "representation": "normalized_text",
+      "characterStart": 453,
+      "characterEnd": 476,
+      "quote": "DOHA INTERNATIONAL OTBD",
+      "quoteSha256": "ebec7f35f8ae122303b2f195c0b29f95702f3ea037c20fec773f174cbef714b2"
+    },
+    {
+      "representation": "normalized_text",
+      "characterStart": 523,
+      "characterEnd": 547,
+      "quote": "HAMAD INTERNATIONAL OTHH",
+      "quoteSha256": "92132f91e4bc513402948d2db901149c3ad95b1aad826b695ed55fe0ef99b2f1"
+    }
+  ],
+  "quoteScope": "Minimal factual code/name/date anchors only; full original and complete extraction remain ignored work/.",
+  "dateNature": "AIP package effective observation; does not establish allocation/withdrawal dates"
+}

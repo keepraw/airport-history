@@ -1,0 +1,38 @@
+{
+  "sourceId": "uk-nats-ad13-20221103",
+  "originalSha256": "b07d1208861ff33720036c8dd38d2735db558393dbff6b6583bc141a97a8e823",
+  "extractedTextSha256": "05b0df7c1a3c5b69adc4d4b31ef1a59db19a172745e85ad3bcc809df7a49aacd",
+  "normalizedTextSha256": "58e0401701bc9db39d81a10ebb1b4b664ca444596446356365aa22ea805b8c12",
+  "spans": [
+    {
+      "representation": "normalized_text",
+      "characterStart": 2398,
+      "characterEnd": 2406,
+      "quote": "COVENTRY",
+      "quoteSha256": "efb6c217d189a76bbe02863c804e2e3a29f770eff0c858b71265f5aab3f03c02"
+    },
+    {
+      "representation": "normalized_text",
+      "characterStart": 2427,
+      "characterEnd": 2431,
+      "quote": "EGBE",
+      "quoteSha256": "93603872c8ab7a8461bde12d9223f160ecac06ea06103eab321ab2e5721042d7"
+    },
+    {
+      "representation": "normalized_text",
+      "characterStart": 16583,
+      "characterEnd": 16593,
+      "quote": "NOTTINGHAM",
+      "quoteSha256": "1b3e8cf1ae7810985cc21987ad4b56c79bf35c42cde1063af6b9bacc535a9b98"
+    },
+    {
+      "representation": "normalized_text",
+      "characterStart": 16614,
+      "characterEnd": 16618,
+      "quote": "EGBN",
+      "quoteSha256": "46e354c04873ce7854be744cb5eec11bc7967568a491bb090608e9eeca321735"
+    }
+  ],
+  "quoteScope": "Minimal factual code/name/date anchors only; full original and complete extraction remain ignored work/.",
+  "dateNature": "AIP package effective observation; does not establish allocation/withdrawal dates"
+}

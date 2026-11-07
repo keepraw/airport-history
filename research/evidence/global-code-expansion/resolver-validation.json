@@ -1,0 +1,23 @@
+{
+  "boundaryDailyCrosschecks": {
+    "cases": 400,
+    "mismatches": []
+  },
+  "fixtureKinds": [
+    "previouslyResolvedOneSitePlusNewSecond",
+    "twoEntirelyNewSites",
+    "contiguousUncertaintySplitBySameSiteAssignment",
+    "existingAssignmentSemanticChange",
+    "pendingCandidatePreserved",
+    "candidateReviewedConflictBlockedBeforeMeasurement"
+  ],
+  "formatVersion": 1,
+  "meaning": "Deterministic400synthetic boundary fixtures compared the exact partition comparator against daily production resolveAirport calls. Fixtures are validation only and are never published as airport data.",
+  "scope": {
+    "from": "2020-01-01",
+    "toExclusive": "2020-01-21",
+    "unit": "scheme+code+local Gregorian day"
+  },
+  "source": "scripts/evidence/global_code_coverage.ts",
+  "sourceSha256": "9da10e43c0fa2d19a1d6a7387a27fa00c7b0e7381f095096e761e4fff07b727f"
+}

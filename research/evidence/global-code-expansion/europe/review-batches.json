@@ -1,0 +1,51 @@
+{
+  "formatVersion": 1,
+  "batches": [
+    {
+      "batchId": "worldwide-europe-1",
+      "eventGroupIds": [
+        "lead_112c34034dd4e11bb3ad3ffa",
+        "lead_5435d53927e52def66f2cd4a",
+        "lead_6a1c7c90a62bbe5f92863737",
+        "lead_a7a28326868cf4c08cae8b1e",
+        "dup_cdf336afa578e242566cb2fc",
+        "lead_4db9fe79750c89e72fe9090a",
+        "lead_3af61bb5d76c256421355a59",
+        "dup_d017f33dfdaf1a055fcf536e",
+        "lead_63733ec78caca303d45e9a47",
+        "lead_deec67ab38bd8f6fcd6a191c",
+        "lead_a5cceef42d82e2b4df7cdfe9",
+        "dup_4a4a177df596784e36c89fa7",
+        "dup_537489a7957162a4e48f1d41",
+        "dup_63e538cc862ba693a3eedd6d",
+        "lead_05d2f77a08aedbf520c780e6",
+        "lead_05d4dbd8f1344479c3d9cae4",
+        "lead_08430e1557d83404a4027a44",
+        "lead_16143f9495a47fb4c6d8c459",
+        "lead_1d15ddf06701d61c513ae02a",
+        "lead_38fcbb99cfa7b2e457aa9f3c"
+      ],
+      "maximumEvents": 20
+    },
+    {
+      "batchId": "worldwide-europe-2",
+      "eventGroupIds": [
+        "lead_3e6b74ea8e570042583bc831",
+        "lead_3fdeae19cef5a209b7d042d0",
+        "lead_4a8c092b3a9e280393d36ca0",
+        "lead_5a57390fb9887cf1ca30be4e",
+        "lead_b1a856576135737af35617ce",
+        "dup_9587398766d8b4a241137dcc",
+        "dup_cac762f68477060f12f5362a",
+        "dup_18d1f3570fd480ee1dc58afd",
+        "dup_5c819a661040eb0011dc6f88",
+        "lead_387a9e39fa7ca44825f74ac7",
+        "dup_1653af0a886f31dc7d293e35",
+        "dup_f54baac8013d3a7eb7b68afd",
+        "lead_8ac0188c916e961ba6af4977",
+        "lead_44eb038101149ba29b640d00"
+      ],
+      "maximumEvents": 20
+    }
+  ]
+}

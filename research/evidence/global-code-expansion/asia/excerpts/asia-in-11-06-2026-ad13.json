@@ -1,0 +1,28 @@
+{
+  "originalSha256": "44cd3d10b0a3c6fc988836bea17be45fcb1df469856ce036f744444db2716821",
+  "sourceId": "asia-in-11-06-2026-ad13",
+  "spans": [
+    {
+      "characterEnd": 37,
+      "characterStart": 11,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "AD 1.3 INDEX TO AERODROMES"
+    },
+    {
+      "characterEnd": 705,
+      "characterStart": 661,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='DC.date' content='30 APR 2026'/>"
+    },
+    {
+      "characterEnd": 765,
+      "characterStart": 707,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='EM.effectiveDateStart' content='11 JUN 2026'/>"
+    }
+  ],
+  "textOriginalSha256": "e77daad35bd0ffcf1bc18c474f34d825378da7537325cfd5ee99e4365bf75e6a"
+}

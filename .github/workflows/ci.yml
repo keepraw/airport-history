@@ -23,6 +23,12 @@ jobs:
         run: command -v pdftotext || (sudo apt-get update && sudo apt-get install -y poppler-utils)
       - run: pnpm install --frozen-lockfile
       - run: pnpm typecheck
+      - name: Reproduce complete global candidate ranking
+        run: python3 scripts/evidence/global_code_screen.py --check
+      - name: Audit global evidence, source use and research queue
+        run: python3 scripts/evidence/global_code_audit.py --check
+      - name: Replay global code/date resolver differentials
+        run: node scripts/evidence/global_code_coverage.ts validate
       - run: pnpm validate:data
       - run: pnpm validate:admission
       - run: pnpm test

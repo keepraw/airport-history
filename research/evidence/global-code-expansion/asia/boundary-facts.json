@@ -1,0 +1,38 @@
+{
+  "facts": [
+    {
+      "airport": "Manas International Airport",
+      "boundary": {
+        "earliest": "2025-08-09",
+        "latest": "2025-08-10",
+        "precision": "day"
+      },
+      "continuousIntervalSupported": false,
+      "country": "KG",
+      "eventGroupId": "lead_7ba04008c5f8ec6958131f81",
+      "factId": "asia-manas-iata-announced-change-20250809",
+      "limitations": [
+        "Mirror custody; issuing-host authenticity and notification lifecycle not independently established.",
+        "Prospective operator announcement is not by itself proof of actual implementation.",
+        "Secondary11August reports are not substituted for explicit9August code effect.",
+        "No global source-family code authority or full redistribution permission inferred.",
+        "No ICAO boundary follows from this IATA-only notification."
+      ],
+      "nature": "code_specific_announced_effective_boundary",
+      "newCode": "BSZ",
+      "nextAction": "Acquire issuer-host notification or competent authority original and confirm supersession/implementation under proposed source-family rule.",
+      "oldCode": "FRU",
+      "scheme": "IATA",
+      "sourceDocumentDate": "2025-05-09",
+      "sourceDocumentDateNature": "Date printed on mirrored IATA notification, not retrieval time or airport opening",
+      "sourceIds": [
+        "asia-kg-operator-code-notice",
+        "asia-kg-iata-notice-mirror"
+      ],
+      "timezone": "not established by the notice; no whole cutover day resolved",
+      "verificationStatus": "pending"
+    }
+  ],
+  "formatVersion": 1,
+  "proposalOnly": true
+}

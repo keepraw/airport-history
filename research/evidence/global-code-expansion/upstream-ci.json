@@ -1,0 +1,124 @@
+{
+  "formatVersion": 1,
+  "source": "GitHub latest workflow attempt read through connector",
+  "runs": [
+    {
+      "repo": "keepraw/airport-history",
+      "run": 42338940155,
+      "commit": "7d21ff6762e1569faa1be19c8203e577420cd1f2",
+      "url": "https://github.com/keepraw/airport-history/actions/runs/42338940155",
+      "jobs": [
+        {
+          "name": "policy-admission-rehearsal",
+          "status": "completed",
+          "conclusion": "success",
+          "id": 128302087601
+        },
+        {
+          "name": "check",
+          "status": "completed",
+          "conclusion": "success",
+          "id": 128302087771
+        }
+      ]
+    },
+    {
+      "repo": "keepraw/Keepraw-Fly",
+      "run": 42341741636,
+      "commit": "b01526a747789d79aa4bbdde90b8f38ba3023b1a",
+      "url": "https://github.com/keepraw/Keepraw-Fly/actions/runs/42341741636",
+      "jobs": [
+        {
+          "name": "checks",
+          "status": "completed",
+          "conclusion": "success",
+          "id": 128310708421
+        },
+        {
+          "name": "airport-history",
+          "status": "completed",
+          "conclusion": "success",
+          "id": 128310708643
+        },
+        {
+          "name": "chromium (3)",
+          "status": "completed",
+          "conclusion": "success",
+          "id": 128310708655
+        },
+        {
+          "name": "chromium (2)",
+          "status": "completed",
+          "conclusion": "success",
+          "id": 128310708666
+        },
+        {
+          "name": "csp (firefox)",
+          "status": "completed",
+          "conclusion": "success",
+          "id": 128310708669
+        },
+        {
+          "name": "cross-browser (webkit, 2)",
+          "status": "completed",
+          "conclusion": "success",
+          "id": 128310708681
+        },
+        {
+          "name": "csp (webkit)",
+          "status": "completed",
+          "conclusion": "success",
+          "id": 128310708689
+        },
+        {
+          "name": "csp (chromium)",
+          "status": "completed",
+          "conclusion": "success",
+          "id": 128310708692
+        },
+        {
+          "name": "chromium (5)",
+          "status": "completed",
+          "conclusion": "success",
+          "id": 128310708721
+        },
+        {
+          "name": "cross-browser (firefox, 1)",
+          "status": "completed",
+          "conclusion": "success",
+          "id": 128310708733
+        },
+        {
+          "name": "chromium (4)",
+          "status": "completed",
+          "conclusion": "success",
+          "id": 128310708775
+        },
+        {
+          "name": "chromium (1)",
+          "status": "completed",
+          "conclusion": "success",
+          "id": 128310708794
+        },
+        {
+          "name": "chromium (6)",
+          "status": "completed",
+          "conclusion": "success",
+          "id": 128310708812
+        },
+        {
+          "name": "verify",
+          "status": "completed",
+          "conclusion": "success",
+          "id": 128313647126
+        },
+        {
+          "name": "deploy",
+          "status": "completed",
+          "conclusion": "skipped",
+          "id": 128313662205
+        }
+      ]
+    }
+  ]
+}

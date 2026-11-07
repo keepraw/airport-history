@@ -1,0 +1,489 @@
+{
+  "formatVersion": 1,
+  "observations": [
+    {
+      "observationId": "uk-nats-ad13-20221103-EGBE",
+      "sourceId": "uk-nats-ad13-20221103",
+      "scheme": "ICAO",
+      "code": "EGBE",
+      "physicalSite": "Coventry",
+      "citation": "AD1.3 row Coventry",
+      "shortAnchor": "COVENTRY EGBE",
+      "date": "2022-11-03",
+      "dateNature": "controlled_package_effective_observation",
+      "supports": "code-to-named-site observation",
+      "limitation": "No IATA code or allocation boundary; package control reused from locked cover",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "uk-nats-ad13-20221103-EGBN",
+      "sourceId": "uk-nats-ad13-20221103",
+      "scheme": "ICAO",
+      "code": "EGBN",
+      "physicalSite": "Nottingham",
+      "citation": "AD1.3 row Nottingham",
+      "shortAnchor": "NOTTINGHAM EGBN",
+      "date": "2022-11-03",
+      "dateNature": "controlled_package_effective_observation",
+      "supports": "code-to-named-site observation",
+      "limitation": "No IATA code or allocation boundary",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "tr-dhmi-ad13-LTBA",
+      "sourceId": "tr-dhmi-ad13",
+      "scheme": "ICAO",
+      "code": "LTBA",
+      "physicalSite": "Istanbul Ataturk",
+      "citation": "AD1.3 page1",
+      "shortAnchor": "İSTANBUL / Atatürk - LTBA",
+      "date": "2026-04-16",
+      "dateNature": "document_page_date",
+      "supports": "code-to-named-site observation",
+      "limitation": "Current PDF includes a page date; no controlled whole-edition validity interval",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "tr-dhmi-ad13-LTFM",
+      "sourceId": "tr-dhmi-ad13",
+      "scheme": "ICAO",
+      "code": "LTFM",
+      "physicalSite": "Istanbul new airport",
+      "citation": "AD1.3 page1",
+      "shortAnchor": "İSTANBUL / İstanbul - LTFM",
+      "date": "2026-04-16",
+      "dateNature": "document_page_date",
+      "supports": "code-to-named-site observation",
+      "limitation": "No ICAO allocation date and no IATA effective date",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "tr-dhmi-ad13-LTCH",
+      "sourceId": "tr-dhmi-ad13",
+      "scheme": "ICAO",
+      "code": "LTCH",
+      "physicalSite": "Sanliurfa old airport",
+      "citation": "AD1.3 page2",
+      "shortAnchor": "ŞANLIURFA - LTCH NOT IN USE",
+      "date": "2026-04-16",
+      "dateNature": "document_page_date",
+      "supports": "code-to-named-site observation",
+      "limitation": "Not in use does not mean ICAO withdrawal; no start date",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "tr-dhmi-ltdb-LTDB",
+      "sourceId": "tr-dhmi-ltdb",
+      "scheme": "ICAO",
+      "code": "LTDB",
+      "physicalSite": "Cukurova",
+      "citation": "AD2.1 and AD2.2 page1",
+      "shortAnchor": "LTDB - ÇUKUROVA; 365330N-0350416E",
+      "date": "2026-03-19",
+      "dateNature": "document_page_date",
+      "supports": "code-to-named-site observation",
+      "limitation": "Named ARP binding only; does not date initial code assignment",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "om-ad13-20250515-OODQ",
+      "sourceId": "om-ad13-20250515",
+      "scheme": "ICAO",
+      "code": "OODQ",
+      "physicalSite": "Duqm",
+      "citation": "AD1.3 Duqm row",
+      "shortAnchor": "DUQM/Duqm OODQ",
+      "date": "2025-05-15",
+      "dateNature": "package_label_effective_observation",
+      "supports": "code-to-named-site observation",
+      "limitation": "OOJA separately listed; neither JNJ transfer nor ICAO allocation date proven",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "om-ad13-20250515-OOJA",
+      "sourceId": "om-ad13-20250515",
+      "scheme": "ICAO",
+      "code": "OOJA",
+      "physicalSite": "Jaaluni",
+      "citation": "AD1.3 Jaaluni row",
+      "shortAnchor": "JA’ALUNI/Ja’aluni OOJA",
+      "date": "2025-05-15",
+      "dateNature": "package_label_effective_observation",
+      "supports": "code-to-named-site observation",
+      "limitation": "Same issuer edition; not independent confirmation",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "om-ad13-20250515-OOSH",
+      "sourceId": "om-ad13-20250515",
+      "scheme": "ICAO",
+      "code": "OOSH",
+      "physicalSite": "Suhar",
+      "citation": "AD1.3 Suhar row",
+      "shortAnchor": "SUHAR/Suhar OOSH",
+      "date": "2025-05-15",
+      "dateNature": "package_label_effective_observation",
+      "supports": "code-to-named-site observation",
+      "limitation": "No IATA code or allocation boundary",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "qa-ad13-2014-OTBD",
+      "sourceId": "qa-ad13-2014",
+      "scheme": "ICAO",
+      "code": "OTBD",
+      "physicalSite": "Doha old airport",
+      "citation": "AD1.3 Doha row",
+      "shortAnchor": "DOHA INTERNATIONAL OTBD",
+      "date": null,
+      "dateNature": "archive_label_2014_exact_effective_unknown",
+      "supports": "code-to-named-site observation",
+      "limitation": "The AIRAC04-14 URL is not by itself an exact effective date",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "qa-ad13-2014-OTHH",
+      "sourceId": "qa-ad13-2014",
+      "scheme": "ICAO",
+      "code": "OTHH",
+      "physicalSite": "Hamad new airport",
+      "citation": "AD1.3 Hamad row",
+      "shortAnchor": "HAMAD INTERNATIONAL OTHH",
+      "date": null,
+      "dateNature": "archive_label_2014_exact_effective_unknown",
+      "supports": "code-to-named-site observation",
+      "limitation": "No DOH IATA allocation date",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "qa-ad13-20181011-OTBD",
+      "sourceId": "qa-ad13-20181011",
+      "scheme": "ICAO",
+      "code": "OTBD",
+      "physicalSite": "Doha old airport",
+      "citation": "AD1.3 Doha row",
+      "shortAnchor": "DOHA INTERNATIONAL OTBD",
+      "date": "2018-10-11",
+      "dateNature": "package_label_effective_observation",
+      "supports": "code-to-named-site observation",
+      "limitation": "The continuing ICAO entry prevents assuming civil flight transfer withdrew OTBD",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "qa-ad13-20181011-OTHH",
+      "sourceId": "qa-ad13-20181011",
+      "scheme": "ICAO",
+      "code": "OTHH",
+      "physicalSite": "Hamad new airport",
+      "citation": "AD1.3 Hamad row",
+      "shortAnchor": "HAMAD INTERNATIONAL OTHH",
+      "date": "2018-10-11",
+      "dateNature": "package_label_effective_observation",
+      "supports": "code-to-named-site observation",
+      "limitation": "Same QCAA source family as2014; no bridging continuity",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "fi-efhf-20240613-EFHF",
+      "sourceId": "fi-efhf-20240613",
+      "scheme": "ICAO",
+      "code": "EFHF",
+      "physicalSite": "Helsinki Malmi",
+      "citation": "AD2.1 and AD2.2",
+      "shortAnchor": "EFHF - HELSINKI-MALMI; 601514N 0250239E",
+      "date": "2024-06-13",
+      "dateNature": "package_label_effective_observation",
+      "supports": "code-to-named-site observation",
+      "limitation": "Physical/civil closure date does not imply code withdrawal; no HEM evidence",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "ir-ais-oitu-OITU",
+      "sourceId": "ir-ais-oitu",
+      "scheme": "ICAO",
+      "code": "OITU",
+      "physicalSite": "Maku National",
+      "citation": "AD2.1-2.2 first page",
+      "shortAnchor": "OITU - MAKU / National; 391133N 0445531E",
+      "date": "2022-12-01",
+      "dateNature": "page_explicit_WEF_observation",
+      "supports": "code-to-named-site observation",
+      "limitation": "No IMQ IATA date; do not call the indexed coordinate edit relocation",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "ir-ais-oibp-OIBP",
+      "sourceId": "ir-ais-oibp",
+      "scheme": "ICAO",
+      "code": "OIBP",
+      "physicalSite": "Persian Gulf PSEEZ",
+      "citation": "AD2.1-2.2 first page",
+      "shortAnchor": "OIBP – PARS SPECIAL ENERGY ECONOMY ZONE; 272246N 0524416E",
+      "date": "2025-04-17",
+      "dateNature": "page_explicit_WEF_observation",
+      "supports": "code-to-named-site observation",
+      "limitation": "Does not establish YEH/PGU transfer or historical OIBI relationship",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "tr-dhmi-ad13-LTFO",
+      "sourceId": "tr-dhmi-ad13",
+      "scheme": "ICAO",
+      "code": "LTFO",
+      "physicalSite": "Rize-Artvin",
+      "citation": "AD1.3 page2",
+      "shortAnchor": "RİZE-ARTVİN - LTFO",
+      "date": "2026-04-16",
+      "dateNature": "document_page_date",
+      "supports": "code-to-named-site observation",
+      "limitation": "No RZV IATA allocation date; one official observation is not a continuous historical interval",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "pt-nav-gen24-LPAR",
+      "sourceId": "pt-nav-gen24",
+      "scheme": "ICAO",
+      "code": "LPAR",
+      "physicalSite": "Alverca",
+      "citation": "GEN2.4 ENCODE and DECODE rows",
+      "shortAnchor": "ALVERCA LPAR",
+      "date": "2026-10-01",
+      "dateNature": "section_explicit_effective_observation",
+      "supports": "code-to-named-site observation",
+      "limitation": "Military AD2 and older controlled revisions not obtained; no AVR IATA boundary",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "no-avinor-offshore-ENQO",
+      "sourceId": "no-avinor-offshore",
+      "scheme": "ICAO",
+      "code": "ENQO",
+      "physicalSite": "Oseberg South platform",
+      "citation": "Offshore Destinations table row112",
+      "shortAnchor": "ENQO Oseberg Sør",
+      "date": "2026-10-26",
+      "dateNature": "web_document_last_update_not_code_effective",
+      "supports": "code-to-named-site observation",
+      "limitation": "Three-character1QO is not an admitted IATA allocation and directory swaps remain unresolved",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "no-avinor-offshore-ENQE",
+      "sourceId": "no-avinor-offshore",
+      "scheme": "ICAO",
+      "code": "ENQE",
+      "physicalSite": "Oseberg East platform",
+      "citation": "Offshore Destinations table row114",
+      "shortAnchor": "ENQE Oseberg Øst",
+      "date": "2026-10-26",
+      "dateNature": "web_document_last_update_not_code_effective",
+      "supports": "code-to-named-site observation",
+      "limitation": "Separate platform from South; current row does not establish historical assignment chronology",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "observationId": "se-lfv-amdt-20261029-ESKS",
+      "sourceId": "se-lfv-amdt-20261029",
+      "scheme": "ICAO",
+      "code": "ESKS",
+      "physicalSite": "Salen Scandinavian Mountains",
+      "citation": "AIP amendment current-page checklist",
+      "shortAnchor": "SÄLEN/SCANDINAVIAN MOUNTAINS ESKS",
+      "date": "2026-10-29",
+      "dateNature": "controlled_amendment_checklist_observation",
+      "supports": "code-to-named-site observation",
+      "limitation": "Checklist names the airport and indicator; full historical establishment AD2 original and SCR IATA date remain missing",
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    }
+  ],
+  "note": "Observation dates are retained separately from unknown code boundaries. Source family is publisher lineage, not URL count."
+}

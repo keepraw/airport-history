@@ -1,0 +1,1147 @@
+{
+  "formatVersion": 1,
+  "inputs": {
+    "reference/generated/manifest.json": {
+      "bytes": 10443,
+      "sha256": "12b2ba970065b12c793b4d64f8ae25658c703e4d054c24ee6f623d73bf7744f6"
+    },
+    "reference/generated/records.0.jsonl.gz": {
+      "bytes": 1044494,
+      "sha256": "20408e2bd7fa1ec8147150acc5aeebdb63831755214401946160a7b92690bf99"
+    },
+    "reference/generated/records.1.jsonl.gz": {
+      "bytes": 1040769,
+      "sha256": "7639f1b483c833bb19607f9067a5ae7d651be86e82d76a746d9b2b40cb963a10"
+    },
+    "reference/generated/records.2.jsonl.gz": {
+      "bytes": 1039212,
+      "sha256": "c7e2362f3af1ecd0887b2fe877f6aa2f834858cd5d0662e6f9c3b88fa650d403"
+    },
+    "reference/generated/records.3.jsonl.gz": {
+      "bytes": 1031079,
+      "sha256": "80ee620904e0add57248bd319e6aac0e0be578d0325edd41cda1a32d2130fd64"
+    },
+    "reference/generated/records.4.jsonl.gz": {
+      "bytes": 1046759,
+      "sha256": "ab58993840b8147ae4a85a869b54a0d67ea7382d017695995a414a212724c980"
+    },
+    "reference/generated/records.5.jsonl.gz": {
+      "bytes": 1056587,
+      "sha256": "31331da7743edc29c1d1b198241e70a272dacebc90c6e0222e257a3b75b19d83"
+    },
+    "reference/generated/records.6.jsonl.gz": {
+      "bytes": 1018027,
+      "sha256": "1bbfcac18912fbd648230dfd8fff953bc4f4219ce0ae163dfb745c8b6c6551d2"
+    },
+    "reference/generated/records.7.jsonl.gz": {
+      "bytes": 1042707,
+      "sha256": "6ab9bd33ffe23dd7f0cb6628d020fa677a1342a7d83137b41c10ad46281436f2"
+    },
+    "reference/generated/records.8.jsonl.gz": {
+      "bytes": 1063031,
+      "sha256": "e2b265b8e2fb2e0cea5287952c147ad7b2e5f49959ab2dfc66089f5496dde3a6"
+    },
+    "reference/generated/records.9.jsonl.gz": {
+      "bytes": 1016462,
+      "sha256": "02ef00eb8fba59f4700288576a6354a695ef3ab858438ae71fa15e132699b30f"
+    },
+    "reference/generated/records.a.jsonl.gz": {
+      "bytes": 1060135,
+      "sha256": "4cb57f0130d2da8bf00d6984ca830a87198415cd0fc4021b962645981851f20c"
+    },
+    "reference/generated/records.b.jsonl.gz": {
+      "bytes": 1036847,
+      "sha256": "71a564d273d9cae922c5c4a69ae3c31fa9e847eb0479982bf0d4ca2299b76e44"
+    },
+    "reference/generated/records.c.jsonl.gz": {
+      "bytes": 1060490,
+      "sha256": "12805e2fe82f24c05b6562530f25983f7e17ce7ec107305f404d43d7f8be76f7"
+    },
+    "reference/generated/records.d.jsonl.gz": {
+      "bytes": 1037422,
+      "sha256": "df8e4ee23d07954d8b842d10e87ae59c24ce5dcd991caa862b5ec85c9357a464"
+    },
+    "reference/generated/records.e.jsonl.gz": {
+      "bytes": 1029307,
+      "sha256": "5d678ba1341da5c4d5ab829a3343767df95992f5b999e86a834baf10a5173008"
+    },
+    "reference/generated/records.f.jsonl.gz": {
+      "bytes": 1037659,
+      "sha256": "1645b2df761f58ec10c9907efea2eed55f7cd5eff3012dba0e7eb79f8ce54395"
+    },
+    "reference/triage/code-reuse-leads.jsonl.gz": {
+      "bytes": 32266,
+      "sha256": "eafa926f6eef2c8eb94fcab93a74207131f49f14c7ab606eb0eb4f0b7be6cbe2"
+    },
+    "reference/triage/groups.jsonl.gz": {
+      "bytes": 8029206,
+      "sha256": "8445391e7846efacb39ace5ba82131b1cc5759bf8e8cdaa0ff85767f363dd8c2"
+    },
+    "reference/triage/metrics.json": {
+      "bytes": 935,
+      "sha256": "4d535c42f9ee87e1f88b774c5ec4fe200ebcffbd0e4801b3bad1d79deb119ed7"
+    },
+    "research/admissions/0.11.0/batches/china-physical-identities-1.json": {
+      "bytes": 29183,
+      "sha256": "d37be83e07c7ac6b8fba69b620f0c7a60e14bea2cdbd0baa2a7e53935cad492a"
+    },
+    "research/admissions/0.11.0/code-gaps.json": {
+      "bytes": 19815,
+      "sha256": "548f698f98117a23eef3df1464c480c59ee6203d8f67147ecb7229659885425e"
+    },
+    "research/admissions/0.11.0/coverage.json": {
+      "bytes": 8762,
+      "sha256": "57fd922cc2a3d808894c04bf2ac49c9a79fd2a054bfe2720000fb10999d4eb3c"
+    },
+    "research/admissions/0.11.0/dossier.json": {
+      "bytes": 21979,
+      "sha256": "94f8e6f7c68a5386ac910784823c5b7de840041829622a8e55d3c30c8d3c16bf"
+    },
+    "research/admissions/0.11.0/identity-ledger.json": {
+      "bytes": 5010,
+      "sha256": "3a9041d55682ef45c7817a17e5e6015ce2e6c6894c527e688e07de9d1d060632"
+    },
+    "research/admissions/0.11.0/original-verification.json": {
+      "bytes": 3221,
+      "sha256": "cf791d833bf156a6668b89d27d425476dca2c0e68d6156891851074d71b37ec1"
+    },
+    "research/admissions/0.11.0/policy-receipt.json": {
+      "bytes": 2021,
+      "sha256": "39e7b470a68f6dc13bd1e77759a36b35dcd79611a1cc2119f3edf1f2a85915c5"
+    },
+    "research/admissions/0.11.0/proposed-data.json": {
+      "bytes": 205274,
+      "sha256": "151d63469f96833b4be54f942940a39df24f485c81e18998053d1dc72f93f778"
+    },
+    "research/admissions/0.11.0/readiness.json": {
+      "bytes": 54797,
+      "sha256": "b6bc1dddf7faadeb91a32c14ebab49e94772270e6946f06f6cb7bc54aa7838b3"
+    },
+    "research/admissions/0.11.0/rights-basis.json": {
+      "bytes": 1399,
+      "sha256": "373ff28426b0a16a70ed34b59971a65b847e2e88094727b8b3b28441dba7604c"
+    },
+    "research/admissions/0.11.0/source-reviews.json": {
+      "bytes": 4772,
+      "sha256": "78659e2052a52df8db2f6e6ef4d04542a3dc23641b56f5057e2a97c0b00beb2f"
+    },
+    "research/discovery/batches/global-1.json": {
+      "bytes": 152171,
+      "sha256": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094"
+    },
+    "research/discovery/batches/global-2.json": {
+      "bytes": 99585,
+      "sha256": "b1cddfb6b7827896cbb87b9fdfaea3547afa4e366d5d4b913d10f6418b99f065"
+    },
+    "research/discovery/batches/global-3.json": {
+      "bytes": 31252,
+      "sha256": "6b272f267fba3b79c5a9e3ffa4412a96064a2d2c2e650fdc4a457ef6aeda3032"
+    },
+    "research/discovery/batches/global-4.json": {
+      "bytes": 50025,
+      "sha256": "fb897a9848dcfbd5c9cc482392c40851d8a4826caa8ae3ee4f341ccaf7e0e625"
+    },
+    "research/discovery/generated/airport-codes-initial.candidates.0.jsonl.gz": {
+      "bytes": 436635,
+      "sha256": "14e3f907ed29b2885a350f79ab59e24805a39a3b139f3cbf8c02e9011f4738be"
+    },
+    "research/discovery/generated/airport-codes-initial.candidates.1.jsonl.gz": {
+      "bytes": 425321,
+      "sha256": "d5245d95463bf4a18b967c0058d1690cf6c4389121d3c31756d009a8f2b57ba5"
+    },
+    "research/discovery/generated/airport-codes-initial.candidates.2.jsonl.gz": {
+      "bytes": 429713,
+      "sha256": "99d711c6884d71318e6715d91d8db21cb0d22a37ec14a0e42a1490904f873706"
+    },
+    "research/discovery/generated/airport-codes-initial.candidates.3.jsonl.gz": {
+      "bytes": 434476,
+      "sha256": "aa52fc1a24b98d0edcb8d3f1ce25cd2ee6dc880ab39ba0067e28fc4617e12ec5"
+    },
+    "research/discovery/generated/airport-codes-initial.candidates.4.jsonl.gz": {
+      "bytes": 433319,
+      "sha256": "60aa2e80db4eb6ac4097e34a783058ebb5a3e974b57c7afdc37e4dd51ab788b2"
+    },
+    "research/discovery/generated/airport-codes-initial.candidates.5.jsonl.gz": {
+      "bytes": 433181,
+      "sha256": "04bdff17c6424e5bb606a40e3aa5e2aa52c570d998494e4a39b84780bb723620"
+    },
+    "research/discovery/generated/airport-codes-initial.candidates.6.jsonl.gz": {
+      "bytes": 428683,
+      "sha256": "fb92431010a6e5e9a6cf556ad47fbd23af41af187ccb6faf3759f72458be1042"
+    },
+    "research/discovery/generated/airport-codes-initial.candidates.7.jsonl.gz": {
+      "bytes": 428459,
+      "sha256": "5d37ecc374e89dc96b536e14559b0f3bb89312b27da964eeb316c2e78d11f166"
+    },
+    "research/discovery/generated/airport-codes-initial.candidates.8.jsonl.gz": {
+      "bytes": 432817,
+      "sha256": "4a44a80e457958a62987eecef1039e641e62cf54ff566d5d0bb4350bf016a975"
+    },
+    "research/discovery/generated/airport-codes-initial.candidates.9.jsonl.gz": {
+      "bytes": 422697,
+      "sha256": "bbf0c8883ddb82e4da91c76cc19eb40b2ed947a53c92651931af8b3e48fa13ea"
+    },
+    "research/discovery/generated/airport-codes-initial.candidates.a.jsonl.gz": {
+      "bytes": 430462,
+      "sha256": "847c5530ef91110e1557501553c70d54729043107a4c1056c3181a3495113470"
+    },
+    "research/discovery/generated/airport-codes-initial.candidates.b.jsonl.gz": {
+      "bytes": 433922,
+      "sha256": "5853cae708f1678ac38f68d3cb6f970d82c30d48a927f2d00984f4230f8dc18c"
+    },
+    "research/discovery/generated/airport-codes-initial.candidates.c.jsonl.gz": {
+      "bytes": 439334,
+      "sha256": "924753b594f2933a81429066370ff264a15ef8df0c78f0f4c35fab4c9be6706a"
+    },
+    "research/discovery/generated/airport-codes-initial.candidates.d.jsonl.gz": {
+      "bytes": 443835,
+      "sha256": "297c0f5d3e8e49835c3334420dbbaa1c3abb3d97660282e10419c60d8c9f3065"
+    },
+    "research/discovery/generated/airport-codes-initial.candidates.e.jsonl.gz": {
+      "bytes": 437646,
+      "sha256": "a814b197fe7e895e4ce2f4d48b75bec5455adebc0a3af3e8922ff4e9e8d65d31"
+    },
+    "research/discovery/generated/airport-codes-initial.candidates.f.jsonl.gz": {
+      "bytes": 430565,
+      "sha256": "6088b4ffb309a457693c174017a4f7ce3f7b21abbe83a96d842f924a371feb69"
+    },
+    "research/discovery/generated/airport-codes-legacy.candidates.0.jsonl.gz": {
+      "bytes": 3404,
+      "sha256": "e79b3725d252b135babab59fc00786cc2a58d7a4ef9e9b1ada231860c6d3de67"
+    },
+    "research/discovery/generated/airport-codes-legacy.candidates.1.jsonl.gz": {
+      "bytes": 4013,
+      "sha256": "26bb3ec9f21c4fed22ad8c49f81aeb9d7c5b6c3efec1597497b894f60469dd28"
+    },
+    "research/discovery/generated/airport-codes-legacy.candidates.2.jsonl.gz": {
+      "bytes": 2978,
+      "sha256": "c07e3e0538c4b36c305a1c37882954138b424adc3b95ffc5bbf338e3701fa2bd"
+    },
+    "research/discovery/generated/airport-codes-legacy.candidates.3.jsonl.gz": {
+      "bytes": 3209,
+      "sha256": "9ba2a0e6bddd32631b49333bd43578b9868e37f74eb38f7cd9079fd1fae2ea10"
+    },
+    "research/discovery/generated/airport-codes-legacy.candidates.4.jsonl.gz": {
+      "bytes": 3054,
+      "sha256": "7756cfde6f48e49b16c8787ae170f3443cad57ebba43bb4cb0b17549eb2a8c62"
+    },
+    "research/discovery/generated/airport-codes-legacy.candidates.5.jsonl.gz": {
+      "bytes": 3236,
+      "sha256": "78c8f32c113fd3bc6eb272a56f1853f9f0ffb21cc94b9e8423f7c365a4cc00a9"
+    },
+    "research/discovery/generated/airport-codes-legacy.candidates.6.jsonl.gz": {
+      "bytes": 2729,
+      "sha256": "312026692c5480aa15df84195fd4ff3dda7f81439c250e1943ad39c6e34b71d9"
+    },
+    "research/discovery/generated/airport-codes-legacy.candidates.7.jsonl.gz": {
+      "bytes": 3855,
+      "sha256": "2693542affcb8084a830195928e06e36e8f45ad0c6e15a99d3f51bb31cbb4dfd"
+    },
+    "research/discovery/generated/airport-codes-legacy.candidates.8.jsonl.gz": {
+      "bytes": 3608,
+      "sha256": "fb2f2197e03b1bbbeabf89e675eec371db8f31753d811fd4a17034c9ddf30ab5"
+    },
+    "research/discovery/generated/airport-codes-legacy.candidates.9.jsonl.gz": {
+      "bytes": 4280,
+      "sha256": "cea2e0e574055aba2082782bf89b29052274527efee90847c5d695da041dcb37"
+    },
+    "research/discovery/generated/airport-codes-legacy.candidates.a.jsonl.gz": {
+      "bytes": 3771,
+      "sha256": "e01ff0bfee6157390d82751b858f3eed5ef7bcee86432750376edeb9ac938f94"
+    },
+    "research/discovery/generated/airport-codes-legacy.candidates.b.jsonl.gz": {
+      "bytes": 3341,
+      "sha256": "942ec5a73a44e4d0e44b4f7343900aaac42e2a4e95c8780b1bdd8aac0415abc0"
+    },
+    "research/discovery/generated/airport-codes-legacy.candidates.c.jsonl.gz": {
+      "bytes": 4019,
+      "sha256": "c76b754dfdcdb79616e34f06bd39d59218e3fc4a05fa5f680b0115ce9b4ba337"
+    },
+    "research/discovery/generated/airport-codes-legacy.candidates.d.jsonl.gz": {
+      "bytes": 2812,
+      "sha256": "4d42b6185ffc1bf467352ed104d5aed7bfeb4ddf981498943d86b832c96813e3"
+    },
+    "research/discovery/generated/airport-codes-legacy.candidates.e.jsonl.gz": {
+      "bytes": 2925,
+      "sha256": "ad920d7ab92255e2cd4b22e8200a96d42b3f995536451a04c6b038673954c226"
+    },
+    "research/discovery/generated/airport-codes-legacy.candidates.f.jsonl.gz": {
+      "bytes": 3638,
+      "sha256": "bdff6da660c62a3b78878fa1203745049f57259207bc5abd41ed0b872200e2c0"
+    },
+    "research/discovery/generated/airport-codes-raw.candidates.0.jsonl.gz": {
+      "bytes": 1394640,
+      "sha256": "bee1ae7332fced02b1f890741cf65d89b51e12aa7438edec39e1e705907a8b53"
+    },
+    "research/discovery/generated/airport-codes-raw.candidates.1.jsonl.gz": {
+      "bytes": 1333822,
+      "sha256": "cf7bc3197293b76bef7f23215383cd44559faf9b696aa1f4a368f9cde794d9c2"
+    },
+    "research/discovery/generated/airport-codes-raw.candidates.2.jsonl.gz": {
+      "bytes": 1392565,
+      "sha256": "afbf32fd67a53eb8cef52b0c1fd86e500875dd75e5c36f8a793d1982553e8246"
+    },
+    "research/discovery/generated/airport-codes-raw.candidates.3.jsonl.gz": {
+      "bytes": 1354880,
+      "sha256": "12f215656bd7fd9491e03068ef727bba8380c0993ed0e93d4eaa6c338ce0cb48"
+    },
+    "research/discovery/generated/airport-codes-raw.candidates.4.jsonl.gz": {
+      "bytes": 1363959,
+      "sha256": "749f47e16f7b1a0c714c9ebf7d8aedeeae44db048e381e4214efe84d9cedf9e5"
+    },
+    "research/discovery/generated/airport-codes-raw.candidates.5.jsonl.gz": {
+      "bytes": 1373459,
+      "sha256": "ee98e3221f9cd7b1c5f4cd67902f956918ba7cd1e6acf0aa16e773f26d5cbcfa"
+    },
+    "research/discovery/generated/airport-codes-raw.candidates.6.jsonl.gz": {
+      "bytes": 1373212,
+      "sha256": "f8f73eac46c4de2f58a847b9c46e034b81eb7f94742b2caa6782bc8a155f22be"
+    },
+    "research/discovery/generated/airport-codes-raw.candidates.7.jsonl.gz": {
+      "bytes": 1365766,
+      "sha256": "4a771c296c2e7b95239525888d40085b8085cc15a805177b9ff05815d9e46675"
+    },
+    "research/discovery/generated/airport-codes-raw.candidates.8.jsonl.gz": {
+      "bytes": 1380888,
+      "sha256": "c463ee29989573f5ff91e32381e0a64756fe5778b3d8a0b83d3d41739666a3e0"
+    },
+    "research/discovery/generated/airport-codes-raw.candidates.9.jsonl.gz": {
+      "bytes": 1375959,
+      "sha256": "c6bfb4eb174ed35112006277ea1bf38e4f2021a206c03df007424dd78da51d94"
+    },
+    "research/discovery/generated/airport-codes-raw.candidates.a.jsonl.gz": {
+      "bytes": 1389169,
+      "sha256": "36106617cd128a1661f5fff95aec8cbe6ac6102b6947157202c45e09ee83e99f"
+    },
+    "research/discovery/generated/airport-codes-raw.candidates.b.jsonl.gz": {
+      "bytes": 1360838,
+      "sha256": "30fa21edae8c461cdc80d1d073b0982ff82c713ffd391ee12fc61aea35a827b1"
+    },
+    "research/discovery/generated/airport-codes-raw.candidates.c.jsonl.gz": {
+      "bytes": 1386553,
+      "sha256": "99fce3258c89ae1c5905d954186b00304f8b36fd0714635d8aaf02fa272b7b65"
+    },
+    "research/discovery/generated/airport-codes-raw.candidates.d.jsonl.gz": {
+      "bytes": 1359929,
+      "sha256": "58bfc7ec8ce5bfb7f4e06e98e07721cc73b98d345fd8d03bd3a9aed964844acb"
+    },
+    "research/discovery/generated/airport-codes-raw.candidates.e.jsonl.gz": {
+      "bytes": 1339391,
+      "sha256": "0355e00a4868545d0ec4c08d5c38fd38cc4ddcbd851154c6bc5ac33fb67d9627"
+    },
+    "research/discovery/generated/airport-codes-raw.candidates.f.jsonl.gz": {
+      "bytes": 1351253,
+      "sha256": "d71764a1a2d089e28fc773c5f4855c5d26a1bbd4624b612948fb1cd2f57912b8"
+    },
+    "research/discovery/generated/airport-codes.candidates.0.jsonl.gz": {
+      "bytes": 4055616,
+      "sha256": "d6fd656b6f0ac5ec5586f0a6f334e1cb0eeb92bfc8b8bd22e3fb0185978df9aa"
+    },
+    "research/discovery/generated/airport-codes.candidates.1.jsonl.gz": {
+      "bytes": 4098744,
+      "sha256": "4d7e0ce9c38010d7f7451913234d4ab948920b9f984087812fc3fd40cef8428f"
+    },
+    "research/discovery/generated/airport-codes.candidates.2.jsonl.gz": {
+      "bytes": 4062263,
+      "sha256": "3378ba328d988add317ba47c3396becfb7db8492ae9d7642a5198a0ec3b86c1f"
+    },
+    "research/discovery/generated/airport-codes.candidates.3.jsonl.gz": {
+      "bytes": 4069083,
+      "sha256": "7115ac95d01985f8d0ffcbcb600dd860acb66abab7a029d180f23ed76c69aba9"
+    },
+    "research/discovery/generated/airport-codes.candidates.4.jsonl.gz": {
+      "bytes": 4074692,
+      "sha256": "696e4352d97e8ade049f0d3322eb185788ccf38ca7b0c3709b32a297536fc8c3"
+    },
+    "research/discovery/generated/airport-codes.candidates.5.jsonl.gz": {
+      "bytes": 4085373,
+      "sha256": "db52c8d20122172bcdd9745082efb4bc2a703be63e7d3ce3519ada1126cab415"
+    },
+    "research/discovery/generated/airport-codes.candidates.6.jsonl.gz": {
+      "bytes": 4080796,
+      "sha256": "fb247cdea82cdfd864e0e1bbe5fda7bddc67b4a33719e3a6339d8e14c260df44"
+    },
+    "research/discovery/generated/airport-codes.candidates.7.jsonl.gz": {
+      "bytes": 4080324,
+      "sha256": "e1040d1369574422acb12383e02a5372e6382e933bb355e592e8a302c25a96da"
+    },
+    "research/discovery/generated/airport-codes.candidates.8.jsonl.gz": {
+      "bytes": 4076548,
+      "sha256": "8a448b31ea944fd6a0338a5c50072efc1360fa6161a3f57015bfbe1f9c153880"
+    },
+    "research/discovery/generated/airport-codes.candidates.9.jsonl.gz": {
+      "bytes": 4111648,
+      "sha256": "91f368652f791ae5bbe4fd1fc43cee077fa1348644b3b6a567b76ef8f6f3f4bb"
+    },
+    "research/discovery/generated/airport-codes.candidates.a.jsonl.gz": {
+      "bytes": 4145543,
+      "sha256": "8ae79403856eafcb09752a3e4c16cdef80b9223843ea147546342c94e8f06405"
+    },
+    "research/discovery/generated/airport-codes.candidates.b.jsonl.gz": {
+      "bytes": 4075794,
+      "sha256": "8027fd30f0151ced06039c9b0add63d07f22da7d02058f55eb13f77ead2da97b"
+    },
+    "research/discovery/generated/airport-codes.candidates.c.jsonl.gz": {
+      "bytes": 4049212,
+      "sha256": "adbf4f25641c72f29c56b69f46c9a2dd460b2adeba372881b81a4cbc47e037f7"
+    },
+    "research/discovery/generated/airport-codes.candidates.d.jsonl.gz": {
+      "bytes": 4072388,
+      "sha256": "aa2832655f882deb1b40b8e80a9e16fc51c3f88317d65b21e4017db35af2eb65"
+    },
+    "research/discovery/generated/airport-codes.candidates.e.jsonl.gz": {
+      "bytes": 4106192,
+      "sha256": "f1f7a621ce3fe83d02a8ae4e2546377e5e51613e1e02f3a323c9e40c10676e60"
+    },
+    "research/discovery/generated/airport-codes.candidates.f.jsonl.gz": {
+      "bytes": 4059301,
+      "sha256": "e02862b210e1f360bfca29158177653cb205c0a9fb1ab1531e155f50f115694f"
+    },
+    "research/discovery/generated/airportsdata.candidates.0.jsonl.gz": {
+      "bytes": 839263,
+      "sha256": "e77cc83604a450f4329d4ac660aa45f77ca7ec65493291f899c184474f611237"
+    },
+    "research/discovery/generated/airportsdata.candidates.1.jsonl.gz": {
+      "bytes": 843211,
+      "sha256": "17e7e851aa07869d0656d4a3c35f1ccae712c46c885cd6e47c9f4c36b6c42cb1"
+    },
+    "research/discovery/generated/airportsdata.candidates.2.jsonl.gz": {
+      "bytes": 829354,
+      "sha256": "f0c5487c21e1b97ced714ae9ddc6adaecf56d6d15ebbe56cd7e44d3d989e53f9"
+    },
+    "research/discovery/generated/airportsdata.candidates.3.jsonl.gz": {
+      "bytes": 838299,
+      "sha256": "db0a492b1037bf428c586ec62b7917ca286865d223a1da387929789349d68e43"
+    },
+    "research/discovery/generated/airportsdata.candidates.4.jsonl.gz": {
+      "bytes": 829543,
+      "sha256": "01d4db3b91d955abb5416ab0b5150e9c33cdcc42962157f802c385ebe539076f"
+    },
+    "research/discovery/generated/airportsdata.candidates.5.jsonl.gz": {
+      "bytes": 840789,
+      "sha256": "6f328715581d2b318dda330c07fcac76aba65c477759b781e952c3c4cb395626"
+    },
+    "research/discovery/generated/airportsdata.candidates.6.jsonl.gz": {
+      "bytes": 852398,
+      "sha256": "12e5b4a59f97d06567a60b955f05e08338d7351681dc5323c067f220f7c4eab8"
+    },
+    "research/discovery/generated/airportsdata.candidates.7.jsonl.gz": {
+      "bytes": 834311,
+      "sha256": "cb3a5a04ea14959de24068decb3e17db1de9b347a663bcbd084339b880619d0c"
+    },
+    "research/discovery/generated/airportsdata.candidates.8.jsonl.gz": {
+      "bytes": 849537,
+      "sha256": "6ea0ddc35d54aa7bb3d262f2d099b6f522204ac5e4712bd5331e76452b8347e2"
+    },
+    "research/discovery/generated/airportsdata.candidates.9.jsonl.gz": {
+      "bytes": 833795,
+      "sha256": "2c1a78e47c4ce062437e9835d4257bed83ca1835a9ad43227af50382582b5644"
+    },
+    "research/discovery/generated/airportsdata.candidates.a.jsonl.gz": {
+      "bytes": 836401,
+      "sha256": "40689d53295f19a3455a8c51b8d616afec91eab2c02239eedbb4b4a9df75a8a8"
+    },
+    "research/discovery/generated/airportsdata.candidates.b.jsonl.gz": {
+      "bytes": 828558,
+      "sha256": "0ee549ff1246aef897252625753eac3566d01003b0112eac2f342efd4053bb36"
+    },
+    "research/discovery/generated/airportsdata.candidates.c.jsonl.gz": {
+      "bytes": 830725,
+      "sha256": "ddf8a73724703a3d2a35f7bf254d8d69250f08d5a301bea58e0cf8ffcf072cc8"
+    },
+    "research/discovery/generated/airportsdata.candidates.d.jsonl.gz": {
+      "bytes": 834296,
+      "sha256": "88cf7c9d9e6796d96062306b59716576bcbbb293cd3301757abc87ea5712d973"
+    },
+    "research/discovery/generated/airportsdata.candidates.e.jsonl.gz": {
+      "bytes": 830780,
+      "sha256": "7f5439ad34799fe151a01d0889f69c15113b158b146d6f399a1d395377ecbc09"
+    },
+    "research/discovery/generated/airportsdata.candidates.f.jsonl.gz": {
+      "bytes": 837097,
+      "sha256": "57585d6ed30924444bf1b1c42eefa59ae9dcdc43c1e8592975e3cb030537cb0a"
+    },
+    "research/discovery/generated/code-links.candidates.jsonl.gz": {
+      "bytes": 636926,
+      "sha256": "0fd4b78a0e8ff28f7334f5283ea5b793de68cb1285c833f7da9136193e54e254"
+    },
+    "research/discovery/generated/cross-source-code-index.jsonl.gz": {
+      "bytes": 2506618,
+      "sha256": "e9e638858c0b3696b8fa6e701f4d74233b4d6aa8a11fadfce07e13fbf17abadd"
+    },
+    "research/discovery/generated/legacy-links.jsonl.gz": {
+      "bytes": 15006,
+      "sha256": "0a56880a38431d03fb6b364f0efcd526365105df1993da78d5fb011de432316c"
+    },
+    "research/discovery/generated/manifest.json": {
+      "bytes": 26199,
+      "sha256": "b588949a16ada7ae787f0a40286288d3f2fccbcce1e4fe62d6113c71792659d7"
+    },
+    "research/discovery/generated/mwgg.candidates.0.jsonl.gz": {
+      "bytes": 433385,
+      "sha256": "548568b87b7960aaa8202469ab5f5a82c6d6432684e9981291bd8aadb4de44f5"
+    },
+    "research/discovery/generated/mwgg.candidates.1.jsonl.gz": {
+      "bytes": 433734,
+      "sha256": "a9074e676e459cff2dfdafc3e1277680a752b09a83f7238f7d74741169f1c9d6"
+    },
+    "research/discovery/generated/mwgg.candidates.2.jsonl.gz": {
+      "bytes": 443906,
+      "sha256": "9dbd9e4258f0d18e7421f07e8972f1883e6d61da4dc36c0b8bb3f658ea559e44"
+    },
+    "research/discovery/generated/mwgg.candidates.3.jsonl.gz": {
+      "bytes": 440744,
+      "sha256": "8c5a2e4f317dc530340fde4d6c3bee2f1f86a0d23a2e0913c2867ba8fc92176b"
+    },
+    "research/discovery/generated/mwgg.candidates.4.jsonl.gz": {
+      "bytes": 434702,
+      "sha256": "4dc3f85bef047a59fe85bfee2a5cb2d25c1c90ab30ba0021ad9d2756f353b426"
+    },
+    "research/discovery/generated/mwgg.candidates.5.jsonl.gz": {
+      "bytes": 452738,
+      "sha256": "a1d6bb09aba2455a18936cab45c9a00ca40e1d613251696aba043366520b0fb5"
+    },
+    "research/discovery/generated/mwgg.candidates.6.jsonl.gz": {
+      "bytes": 434874,
+      "sha256": "f306d2294beb3b15cf28702c0b55ce59e996669c44f3750328f16f52a627163c"
+    },
+    "research/discovery/generated/mwgg.candidates.7.jsonl.gz": {
+      "bytes": 429983,
+      "sha256": "f0daa99c0d9b1058a71e8247bfdf2f04b7b2280c88f34d535af6614fe12091b9"
+    },
+    "research/discovery/generated/mwgg.candidates.8.jsonl.gz": {
+      "bytes": 428101,
+      "sha256": "6952e9313a9b3e9df2454b66cc72dfffc215a5a20e568d25c3222ce663843c8f"
+    },
+    "research/discovery/generated/mwgg.candidates.9.jsonl.gz": {
+      "bytes": 440866,
+      "sha256": "febae0ff03e04c02a5d5b35fd4fb1dec9316d57238306d338b143a1cafa6601b"
+    },
+    "research/discovery/generated/mwgg.candidates.a.jsonl.gz": {
+      "bytes": 427770,
+      "sha256": "1f4f8ca99d5fb43b0ef8e5786ee363da4955e909c519908531cda75799ea8bad"
+    },
+    "research/discovery/generated/mwgg.candidates.b.jsonl.gz": {
+      "bytes": 443488,
+      "sha256": "72dfca9eb524819bd159cd3a251eb9373e369c0ed6a3ceaa8007f8d8e6451491"
+    },
+    "research/discovery/generated/mwgg.candidates.c.jsonl.gz": {
+      "bytes": 436928,
+      "sha256": "e91504acbb642eff9a1de9c5b9a17039118b9366d8e8f123665634e7b9e469c6"
+    },
+    "research/discovery/generated/mwgg.candidates.d.jsonl.gz": {
+      "bytes": 437994,
+      "sha256": "819c5a37acee911b0469b5c9451869dc3a6ad74cfa6ac3f71215f7425e403d63"
+    },
+    "research/discovery/generated/mwgg.candidates.e.jsonl.gz": {
+      "bytes": 450908,
+      "sha256": "030112aafc3789adec7fe0d998c23bf22e83510ff7c2ac2e814c9cb1c59291f4"
+    },
+    "research/discovery/generated/mwgg.candidates.f.jsonl.gz": {
+      "bytes": 431130,
+      "sha256": "7ecb44c0a6536f0d01d04f5cda482ea9dea2e9418011548252d94c800c5130e9"
+    },
+    "research/discovery/generated/ourairports.candidates.0.jsonl.gz": {
+      "bytes": 2981157,
+      "sha256": "8f4bb0275f16150307d16832d4b96c53926087a07397e1b57e196a7533954eb0"
+    },
+    "research/discovery/generated/ourairports.candidates.1.jsonl.gz": {
+      "bytes": 2998774,
+      "sha256": "814777cdfee83ed7f9193175ffd95ebb917531041b25af48f3df352e8df46f30"
+    },
+    "research/discovery/generated/ourairports.candidates.2.jsonl.gz": {
+      "bytes": 3022545,
+      "sha256": "6cfea771c725953adf577b97c2da51b48b6fae2e18392564d13345e29a92b21e"
+    },
+    "research/discovery/generated/ourairports.candidates.3.jsonl.gz": {
+      "bytes": 3017360,
+      "sha256": "b869c154c2fe9e7ee2f46e40f8783a9ae92ab048a70a38d9ee12ee1a11cc5081"
+    },
+    "research/discovery/generated/ourairports.candidates.4.jsonl.gz": {
+      "bytes": 3025844,
+      "sha256": "d4d799e0c6e045546ee0801d7f5ada16c6058b18508c8d9cb05943592636b184"
+    },
+    "research/discovery/generated/ourairports.candidates.5.jsonl.gz": {
+      "bytes": 2992493,
+      "sha256": "b4a880ad255e66efbd38f407985e01ae8127bdd281431769df829ca7222468f3"
+    },
+    "research/discovery/generated/ourairports.candidates.6.jsonl.gz": {
+      "bytes": 2968429,
+      "sha256": "dcef365e57c3f3e35c9e6f179657d97da19a8097c49d9780a230c34771776279"
+    },
+    "research/discovery/generated/ourairports.candidates.7.jsonl.gz": {
+      "bytes": 3002921,
+      "sha256": "d94f53bcbfc18f2775e40e124f9fee5039530f2ffebefbaf5bbf40ae54cb75f7"
+    },
+    "research/discovery/generated/ourairports.candidates.8.jsonl.gz": {
+      "bytes": 2984775,
+      "sha256": "877f6d20ba902b033bf2cd747c39d107947937d5eb3fdad33c875c6f8441321d"
+    },
+    "research/discovery/generated/ourairports.candidates.9.jsonl.gz": {
+      "bytes": 2988756,
+      "sha256": "f1f7214a01d406ee0d2b9e4307de329670e8cc01ad293a3ed023b4a1ebf94e02"
+    },
+    "research/discovery/generated/ourairports.candidates.a.jsonl.gz": {
+      "bytes": 2970274,
+      "sha256": "cbbd117cf8acc65975426f6a5248fbdc52340a56431da731f7a2da19ee6c1e65"
+    },
+    "research/discovery/generated/ourairports.candidates.b.jsonl.gz": {
+      "bytes": 3077417,
+      "sha256": "002bef24d4c9c68c8e4d2aaa9e02e285c84554c1b52bf375635f0cddd5528fe9"
+    },
+    "research/discovery/generated/ourairports.candidates.c.jsonl.gz": {
+      "bytes": 3023159,
+      "sha256": "1e928e1526ee6a1158936f45cafaa2619203e339b1ae83b0e02b99778ae51851"
+    },
+    "research/discovery/generated/ourairports.candidates.d.jsonl.gz": {
+      "bytes": 3005108,
+      "sha256": "36247734e4e85fedd0481b40ebb4625d535c67e2ace20b2e467865548250c7b9"
+    },
+    "research/discovery/generated/ourairports.candidates.e.jsonl.gz": {
+      "bytes": 3024743,
+      "sha256": "ecdf97a3b25272832bb0c413ad1dc6e2294474732edc3dff96aaed8d28a9af00"
+    },
+    "research/discovery/generated/ourairports.candidates.f.jsonl.gz": {
+      "bytes": 3023480,
+      "sha256": "a683f66b6aecbc7333e8534307cc8781cf36fe23df5a51360d9f606bf08724ab"
+    },
+    "research/discovery/generated/summary.json": {
+      "bytes": 837979,
+      "sha256": "af06f6a7a02aaed0f39036a485043d3982da2c138bb02ae3db5aea8881f4cb0f"
+    },
+    "research/discovery/reviews.json": {
+      "bytes": 21198,
+      "sha256": "353bdf3f269312255f0bcdcc9a49ff7099019060754c391689359955c65d8814"
+    },
+    "research/discovery/sources.json": {
+      "bytes": 3294,
+      "sha256": "8a8c9775b2049e4ecf2f6a2f3b7bb8c5cff9b7bc3dbd4a28b8c4643eca7cd9c2"
+    },
+    "research/evidence/global-batch-5/batch.json": {
+      "bytes": 45806,
+      "sha256": "c26c15e1503aa18225db40fabf5a8276fc5a8cc9ea037c1618923eba29e5db17"
+    },
+    "research/evidence/global-batch-5/catalog.json": {
+      "bytes": 22361,
+      "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d"
+    },
+    "research/evidence/global-batch-5/coverage.json": {
+      "bytes": 9162,
+      "sha256": "a23adf9bdef981fc6b31a1a3a5a47f61506207d80bd20ed206e1b35f70dc2b60"
+    },
+    "research/evidence/global-batch-5/proposals.json": {
+      "bytes": 19218,
+      "sha256": "315e05b8009bd9efe04acae2dcc54c782c9b9f5d0dc8c940bd2ed07e81be6f84"
+    },
+    "research/evidence/global-batch-5/source-lock.json": {
+      "bytes": 20619,
+      "sha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f"
+    },
+    "research/evidence/priority-market-batch-6/admission-audit.json": {
+      "bytes": 19762,
+      "sha256": "77fb858f73f4a8515d068a857ea96f8268a3d482a573333fcb4d634146856569"
+    },
+    "research/evidence/priority-market-batch-6/backlog.json": {
+      "bytes": 594859,
+      "sha256": "23e8582d01e3d859006cb8b963e3a448435c7b8b4d41feca1ac7cd36e826af3b"
+    },
+    "research/evidence/priority-market-batch-6/execution-order.json": {
+      "bytes": 1591,
+      "sha256": "a9b61c542603414da054ea1e58dbf3eca42420b0b153bf98d178aa9645371c2f"
+    },
+    "research/evidence/priority-market-batch-6/existing-fact-index.json": {
+      "bytes": 50099,
+      "sha256": "839abaac0ce684a0f5653607ca999734e8170991b8f6253a2a12144a3defb5a0"
+    },
+    "research/evidence/priority-market-batch-6/existing-source-metadata.json": {
+      "bytes": 425644,
+      "sha256": "af760917a4a463bc9d815ee1bc0155a93ada9f5d277ab7096de05f0def453d13"
+    },
+    "research/evidence/priority-market-batch-6/formal-resolver-diff.json": {
+      "bytes": 11498,
+      "sha256": "3f14ac554bbf9836e63c30cae28fc85ad6c3e44eb227ea4e98e51a4534f302ca"
+    },
+    "research/evidence/priority-market-batch-6/identity-candidate/artifact-byte-hashes.json": {
+      "bytes": 943,
+      "sha256": "0a644c7688ba3dc78fce1ed45645107143ba0768c2405c23110bd6bcc4bf1cea"
+    },
+    "research/evidence/priority-market-batch-6/identity-candidate/audit.json": {
+      "bytes": 5852,
+      "sha256": "27d19d96d10b45af826f59e4c07ca7442f0cc2bcb3b97c82c1974122bf699d0b"
+    },
+    "research/evidence/priority-market-batch-6/identity-candidate/authorizations.json": {
+      "bytes": 3108,
+      "sha256": "e23674ffba709170b152fb336f77d89bb33808e74dce7457191bdd45a88fa8ff"
+    },
+    "research/evidence/priority-market-batch-6/identity-candidate/candidates.json": {
+      "bytes": 3603,
+      "sha256": "ab088acba36d850771f1f5f326c32415a78cc9eb8122665474baad203ad5ed14"
+    },
+    "research/evidence/priority-market-batch-6/identity-candidate/competition-inventory-manifest.json": {
+      "bytes": 762,
+      "sha256": "2b9b91d18851e4c1458c73caf1e72d0aac5acf9f4588cec2ae75eb6aa5ff264d"
+    },
+    "research/evidence/priority-market-batch-6/identity-candidate/evidence-version.json": {
+      "bytes": 145465,
+      "sha256": "b612722cfe91ae58520afd78863d7289365c9a437324f1ccc478233c3c7667f2"
+    },
+    "research/evidence/priority-market-batch-6/identity-candidate/identities.json": {
+      "bytes": 2303,
+      "sha256": "c80e47febd57c9f0fef3eb510f0a47743999fa3fd675e1384e0cda308fa1d2ac"
+    },
+    "research/evidence/priority-market-batch-6/identity-candidate/pending-identities.json": {
+      "bytes": 2303,
+      "sha256": "c80e47febd57c9f0fef3eb510f0a47743999fa3fd675e1384e0cda308fa1d2ac"
+    },
+    "research/evidence/priority-market-batch-6/identity-candidate/proposed-data.json": {
+      "bytes": 197671,
+      "sha256": "9d219d802a6cc8037cfca4993db2661d37dc3d26556b3e728a3be4699a7bf2ab"
+    },
+    "research/evidence/priority-market-batch-6/identity-candidate/schema-and-production-resolver.json": {
+      "bytes": 170,
+      "sha256": "9cb8933da0cf6c4f19a219f66bcffeb7a6071502cc0eacf5f1b37f0e46e61391"
+    },
+    "research/evidence/priority-market-batch-6/input-lock.json": {
+      "bytes": 10462,
+      "sha256": "10643f6530396c0799490b40d6736b326952218700fea832d1c21aff658e88e9"
+    },
+    "research/evidence/priority-market-batch-6/manifest.json": {
+      "bytes": 3040,
+      "sha256": "044947c89077cd5954bfc04d80f3ab55a21c05d892ecdc6b1af8e7cc30ffb75f"
+    },
+    "research/evidence/priority-market-batch-6/new-findings.json": {
+      "bytes": 91614,
+      "sha256": "5a04ed2325898995a88390cdd94e2bc850dbe95fe744240c5bcd75790b7844bd"
+    },
+    "research/evidence/priority-market-batch-6/original-verification.json": {
+      "bytes": 139996,
+      "sha256": "bc22292fa5d7f9ef7b5d32f234e03a4c76dc6893176db98095a256785890bfab"
+    },
+    "research/evidence/priority-market-batch-6/priority-code-reuse-leads.json": {
+      "bytes": 277773,
+      "sha256": "665861103ab8a1dcef4e5d899e6191d6cb094ec8e161ff7c00f199d6a60eb0e8"
+    },
+    "research/evidence/priority-market-batch-6/research-batches.json": {
+      "bytes": 3287,
+      "sha256": "603f5e30195d92724d61cec683d7989a902cd3b70e8fdd68204926e3bbe3a47d"
+    },
+    "research/evidence/priority-market-batch-6/rights-audit.json": {
+      "bytes": 466,
+      "sha256": "d4c6287fe811bc9c5ab620bbdd1c2b17a5761ba9683ec39546b82082ff6afff6"
+    },
+    "research/evidence/priority-market-batch-6/source-lock.json": {
+      "bytes": 859031,
+      "sha256": "3fae88d999f564f21cbd1f55a88909ff8b0f31532a6383eb21452c85260ad461"
+    },
+    "research/evidence/priority-market-batch-6/source-rule-proposal.json": {
+      "bytes": 8473,
+      "sha256": "8bfcbbb5b97a02a1706ca15b4b0fa5fa6301b756813f1c7d102a317717e82ec6"
+    },
+    "research/evidence/priority-market-batch-6/unit-crosswalk.json": {
+      "bytes": 10918,
+      "sha256": "772ec84cce4ace4f739952ee06e9f4ee8d0de10e130320b5b30d1efffa2d7cff"
+    },
+    "research/evidence/priority-market-batch-6/validation.json": {
+      "bytes": 1907,
+      "sha256": "49c8ab22f084249e0b81c18ca0b52946a47726820a8f85bb1a30559c3106bc8e"
+    },
+    "research/evidence/priority-markets/assessments.json": {
+      "bytes": 22720,
+      "sha256": "ab5dd14167550aa3c233d1bc22d0b379b9fd17042d88a94f9b3c80d42da42b2b"
+    },
+    "research/evidence/priority-markets/baseline-lock.json": {
+      "bytes": 38471,
+      "sha256": "9ae2d17d8b593ef04eaf90290256d2f7fd1294b7b1e66c4068bf932f68ef3a8d"
+    },
+    "research/evidence/priority-markets/catalog.json": {
+      "bytes": 11430,
+      "sha256": "00cd5da944ed41b11b9796609ee61f68e51c25acd6c5464976c8ae42f3300de0"
+    },
+    "research/evidence/priority-markets/discovery-log.json": {
+      "bytes": 49516,
+      "sha256": "126e6b89d88b0afa5b1c70b7b294e6c531ebb73bb9f9098652e425695ecd7d3d"
+    },
+    "research/evidence/priority-markets/draft-policies.json": {
+      "bytes": 20714,
+      "sha256": "cc13a1329f37bb0fa5c9370eb24139cf62e4f4b2b1a8aa2a006d5162b0bffa1c"
+    },
+    "research/evidence/priority-markets/excerpts/cn-ankang-executed.json": {
+      "bytes": 707,
+      "sha256": "4969922a634e7287cf4daed4643808690ae47b9a656ea85d60cff0ab471109f8"
+    },
+    "research/evidence/priority-markets/excerpts/cn-ankang-license.json": {
+      "bytes": 615,
+      "sha256": "aa204adaaed5234413255351155df3505334e238cdd052740278351221dd8b05"
+    },
+    "research/evidence/priority-markets/excerpts/cn-eny-detail-20191114.json": {
+      "bytes": 865,
+      "sha256": "e6b66f74f9e964595a8151f3b64bb70abc1870920101e1dd2c98fed959e27868"
+    },
+    "research/evidence/priority-markets/excerpts/cn-lyg-20210301.json": {
+      "bytes": 886,
+      "sha256": "320ae7ae555e7a12c3ad56fd25307462f2cce58819c36ecc6e18104f13b45948"
+    },
+    "research/evidence/priority-markets/excerpts/cn-lyg-20210922.json": {
+      "bytes": 886,
+      "sha256": "d59db66f6fa6616442f7c3d6fec3dd9c054c3f2891e2b9a74645511ab60545ee"
+    },
+    "research/evidence/priority-markets/excerpts/cn-lzo-detail-20191117.json": {
+      "bytes": 628,
+      "sha256": "1a3b56d2c3af76d0965c729047a46553efd11eaa58f07559b9a36d91ad571c90"
+    },
+    "research/evidence/priority-markets/excerpts/cn-met-2009.json": {
+      "bytes": 2239,
+      "sha256": "807db191728f455a08b351838fbde7d500b49568e64007d6882ebb41b024cdf2"
+    },
+    "research/evidence/priority-markets/excerpts/cn-met-2026.json": {
+      "bytes": 2034,
+      "sha256": "da93cb5528e03108ebc6b1c2d5bd0665cf6d89e159e32b739fe435db802c46e5"
+    },
+    "research/evidence/priority-markets/excerpts/cn-zha-detail-20191113.json": {
+      "bytes": 844,
+      "sha256": "4872ca376dc200d195e75cdcc84ee41fbe601fa7ce7da0befc4738889021a4f4"
+    },
+    "research/evidence/priority-markets/excerpts/de-ber-history.json": {
+      "bytes": 970,
+      "sha256": "f75a492aea978ae30c6e553e480cd710e0736428088283027c059d9fa6c3273b"
+    },
+    "research/evidence/priority-markets/excerpts/de-tegel-history.json": {
+      "bytes": 930,
+      "sha256": "96011033cf8e083ddbe458c763bcb1ddd5e82bef8f677d35f5407a7dc35fa256"
+    },
+    "research/evidence/priority-markets/excerpts/es-ad-index.json": {
+      "bytes": 788,
+      "sha256": "f518a13975a86da2a57bdb6dc80d8dd100db507f32110f93449a303d42f604cf"
+    },
+    "research/evidence/priority-markets/excerpts/es-murcia-ad2.json": {
+      "bytes": 967,
+      "sha256": "ab42706b024c1977082dec954394115657504ac182493b9e409837f8a2d66367"
+    },
+    "research/evidence/priority-markets/excerpts/es-old-ad2.json": {
+      "bytes": 1149,
+      "sha256": "07e05bea86098c7ecd520eeacbb926b212d1911ca06d3a2eb6cb752f57a6d525"
+    },
+    "research/evidence/priority-markets/excerpts/jp-centrair-2005.json": {
+      "bytes": 785,
+      "sha256": "20b405aa9ae08576d6303ad03d408f4c4014169178f10f7256e7966bccd15cd1"
+    },
+    "research/evidence/priority-markets/excerpts/jp-centrair-outline.json": {
+      "bytes": 1013,
+      "sha256": "e6a57501cce7c7bcfdc6d76b85ef3788adc2e91020aceadb77b28224c9d69388"
+    },
+    "research/evidence/priority-markets/excerpts/jp-nagoya-outline.json": {
+      "bytes": 835,
+      "sha256": "588da7d0fa183f56c3fba2a119d95db0991abc0163b226c656f07dc1d1f38c0a"
+    },
+    "research/evidence/priority-markets/excerpts/kr-history.json": {
+      "bytes": 837,
+      "sha256": "1fdc979fa4694f5d32a8e5a3f6c40cdb0e98770528fb9827603b3a0e24261ae3"
+    },
+    "research/evidence/priority-markets/excerpts/kr-rksi-2025-04-16.json": {
+      "bytes": 795,
+      "sha256": "b5c62fa49878f018c5419ab705e81ea42df7d1cd2f797d9732a6baff6761d33f"
+    },
+    "research/evidence/priority-markets/excerpts/kr-rksi-2025-05-14.json": {
+      "bytes": 795,
+      "sha256": "e29fbe567ab6bc7b36afcf746431b82c446a766bdf88ffb026fdbea761998acb"
+    },
+    "research/evidence/priority-markets/excerpts/kr-rksi-2026.json": {
+      "bytes": 777,
+      "sha256": "d3f2d2c85a42714de316cbaba228ec87abfe7dc3e2facc0eeb9ba073265ec5dc"
+    },
+    "research/evidence/priority-markets/excerpts/kr-rkss-2025-04-16.json": {
+      "bytes": 801,
+      "sha256": "adea4136d23a433c1a9bfd4621b29c4f6b6c7fa9bbae6350bd38e8fbf1c8d2b4"
+    },
+    "research/evidence/priority-markets/excerpts/kr-rkss-2025-05-14.json": {
+      "bytes": 801,
+      "sha256": "88e5601b3390430f2ac288520b417f65f9d42903e01da38cf1f8393fb1da09b5"
+    },
+    "research/evidence/priority-markets/excerpts/kr-rkss-2026.json": {
+      "bytes": 783,
+      "sha256": "3dd8f96391d769553408372457ea3667c07738959cb50ca44f5bff4fef96d8e9"
+    },
+    "research/evidence/priority-markets/excerpts/uk-dsa-2022-cover.json": {
+      "bytes": 1000,
+      "sha256": "45b091fc21d51ccd5d27f2b3f1e380597c129c91e732c00eb35301fcc2ff2023"
+    },
+    "research/evidence/priority-markets/excerpts/uk-dsa-2022.json": {
+      "bytes": 940,
+      "sha256": "ea3b65ec53728afadc83ad76f19955a89878beb0964907b2aae3878ebdbf2abd"
+    },
+    "research/evidence/priority-markets/excerpts/uk-dsa-2023-cover.json": {
+      "bytes": 1000,
+      "sha256": "634670b521de0bc126d1e32481f7c7b94d534efe18fabc315ac5ec81e9cbb49d"
+    },
+    "research/evidence/priority-markets/excerpts/uk-dsa-2023.json": {
+      "bytes": 940,
+      "sha256": "f48b20e793a4e7c3cf8ee789f3d160407aa5b7e0236368cbf3e3f03d964ec2dd"
+    },
+    "research/evidence/priority-markets/excerpts/us-order-2023.json": {
+      "bytes": 1512,
+      "sha256": "16a86830d4cf77570e41475a2063bbcbe73bfc96e7b90068ea5a69c2625e891c"
+    },
+    "research/evidence/priority-markets/generated/coverage.json": {
+      "bytes": 12533,
+      "sha256": "bc17075f0aa7ee297bc771ccf6773fc656021ce26a28a39dd40e94c83708746f"
+    },
+    "research/evidence/priority-markets/generated/draft-bindings.json": {
+      "bytes": 4725,
+      "sha256": "642eea1ecfc1a47683d9356c340e48cedeffc7476d6e7ab99c5a39618a21290a"
+    },
+    "research/evidence/priority-markets/generated/dry-run.json": {
+      "bytes": 11151,
+      "sha256": "eae4423a9268b313888c834d5c26819a7c492ad3ad7e6b8c31134a79fc50cc21"
+    },
+    "research/evidence/priority-markets/generated/identity-dedup.json": {
+      "bytes": 2914,
+      "sha256": "9e3882f87fde61ed069365689d7514e7b22503da4772e8c659b9e4b55275426c"
+    },
+    "research/evidence/priority-markets/generated/summary.json": {
+      "bytes": 600,
+      "sha256": "0cf680276ff02a7994b1ca910709331f0c6025057bb701c4aaa514aa05d4a139"
+    },
+    "research/evidence/priority-markets/original-verification.json": {
+      "bytes": 12523,
+      "sha256": "011216f1632e31cfccca54bd4557200346d25a9f3dab67f9d04a4f1e8347aafc"
+    },
+    "research/evidence/priority-markets/samples.json": {
+      "bytes": 7626,
+      "sha256": "435915a9d1d690a5d46eb58ff7e24a9547002aa79bade874a2dd4b4f27fc0605"
+    },
+    "research/evidence/priority-markets/source-lock.json": {
+      "bytes": 42905,
+      "sha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437"
+    },
+    "scripts/evidence/global_code_screen.py": {
+      "bytes": 34226,
+      "sha256": "e3d6d999d7de4a277e85ad9a65c3f53cd3b2c2078655695fb0654ed669d8c9c2"
+    },
+    "test/curated-0.11.0.json": {
+      "bytes": 205274,
+      "sha256": "151d63469f96833b4be54f942940a39df24f485c81e18998053d1dc72f93f778"
+    }
+  },
+  "outputs": {
+    "high-value-queue.jsonl.gz": {
+      "bytes": 532217,
+      "sha256": "2ca7cbba3afda33b234244d9416c2a1af36a7a91c36c1126b831de6eb2666c8d"
+    },
+    "queue-americas-africa-oceania-other.json": {
+      "bytes": 818163,
+      "sha256": "fb217460436798b71ab44b25442d5ef1008030a2b8c374462b678b235a454226"
+    },
+    "queue-asia.json": {
+      "bytes": 879035,
+      "sha256": "c3d960562c582926c2d131ff0a86f9fafe20e73abbb794af30d169a1513d9ba6"
+    },
+    "queue-europe-middle-east.json": {
+      "bytes": 792597,
+      "sha256": "ef80d9f53b5beb0c927a0127c2207f8d2c20ab99f9f6dc628c38591473a0caf0"
+    },
+    "ranked-code-links.jsonl.gz": {
+      "bytes": 231664,
+      "sha256": "fb8b9b1c4b313f4d801e9e529cfa4707f8bab48a363aae211f1baafe141f9fda"
+    },
+    "ranked-events.000.jsonl.gz": {
+      "bytes": 613823,
+      "sha256": "6452cb2e4a6bb174a7da7e039fbee984a79475f33876b9141c3c0ad5587c5643"
+    },
+    "ranked-events.001.jsonl.gz": {
+      "bytes": 434689,
+      "sha256": "bd9aa0d4b6ece83abbae2c0fcefc132ff953331231e88d08aea638421f9e47d8"
+    },
+    "ranked-events.002.jsonl.gz": {
+      "bytes": 450865,
+      "sha256": "e050d9b40964d5384a115bd09d199c87de1b22be2af4ea30f4c80929e0aae3c6"
+    },
+    "ranked-events.003.jsonl.gz": {
+      "bytes": 411965,
+      "sha256": "9968284df0296a4b8880c42375cf9eb39f032a8489f4d797423a2d6f9e93b436"
+    },
+    "ranked-events.004.jsonl.gz": {
+      "bytes": 437083,
+      "sha256": "a3dc957757359963e3025b3d192538518f0623f3548f071a13fa2b2ed947f644"
+    },
+    "ranked-events.005.jsonl.gz": {
+      "bytes": 413652,
+      "sha256": "2b7a3a2828684bf81e5fd1133db4d9832872e257499d426610af9f59d8b619ab"
+    },
+    "ranked-events.006.jsonl.gz": {
+      "bytes": 405523,
+      "sha256": "819c3f3f3f081240b6eca62958ba7f4252e2965ed78066febf1c11b5e0f1ed39"
+    },
+    "ranked-events.007.jsonl.gz": {
+      "bytes": 412484,
+      "sha256": "51725cb741c0303ff7ed2c08b60d627bef16e06e2fe1ae66b2ee9973068e18f7"
+    },
+    "ranked-events.008.jsonl.gz": {
+      "bytes": 432425,
+      "sha256": "22a3acae35306389e9269be95d13df580916b36d45d42b66fda2a03cc54d5d1f"
+    },
+    "ranked-events.009.jsonl.gz": {
+      "bytes": 429741,
+      "sha256": "460f0b8ccc3fe43d8a33f2b28ea6ded7161552d0b517425493c96c22c3741bff"
+    },
+    "ranked-events.010.jsonl.gz": {
+      "bytes": 429757,
+      "sha256": "a99e23cda9dda3070e99164644269460936e1e8f7ce93ce2ca2d5cdc2567e7fd"
+    },
+    "ranked-events.011.jsonl.gz": {
+      "bytes": 325478,
+      "sha256": "e966e2c54c4c94f3cb169eab34a65f023569c3d90db6711e3910b7d3309b18a6"
+    },
+    "ranked-events.012.jsonl.gz": {
+      "bytes": 300427,
+      "sha256": "a46516e7656de4d8e4f6d5e94329c84040e61112eaca43bcd432c5c95dc7446a"
+    },
+    "ranked-events.013.jsonl.gz": {
+      "bytes": 298394,
+      "sha256": "52d51e7e5eb904747f7a4ea8dbed791e34356af03bbc27be8bb5332bf9e4bc38"
+    },
+    "ranked-events.014.jsonl.gz": {
+      "bytes": 298908,
+      "sha256": "bb5a4aff4ac15da4a064c25b39f7bda05ce7deafef1f2d78cce4b8845bcf8a0b"
+    },
+    "ranked-events.015.jsonl.gz": {
+      "bytes": 297865,
+      "sha256": "c2d0b419c171c6d3b833f3f2f10052489f0b1e47c159d51c591747616b4500c0"
+    },
+    "ranked-events.016.jsonl.gz": {
+      "bytes": 302367,
+      "sha256": "768c201d6f61474fb1d856a30a8bb379f4d9934af3d6f729b802895d78e7e0a2"
+    },
+    "ranked-events.017.jsonl.gz": {
+      "bytes": 300506,
+      "sha256": "5d62b218d45ba220a14c2347c4941dc862ae0ec1ce38fdb5efd75f69f8b335f7"
+    },
+    "ranked-events.018.jsonl.gz": {
+      "bytes": 303206,
+      "sha256": "4607b1ccbc52c315aa517d631fcc24d8ea535b8547ecf2d50f806c73ab23b839"
+    },
+    "ranked-events.019.jsonl.gz": {
+      "bytes": 375279,
+      "sha256": "98192dd38e0feb03aedcc6366fc240492b2ba5a1ae74573d52bdda1042533dd1"
+    },
+    "ranked-events.020.jsonl.gz": {
+      "bytes": 519947,
+      "sha256": "fe0eda211dc2f4e0ce575db0c597231a4da61314cde5f60423733a063cb5f6d9"
+    },
+    "ranked-events.021.jsonl.gz": {
+      "bytes": 510808,
+      "sha256": "5b70c909593c88675279f0ffdb5abb2e924c63fa4298cc772c89284a84a93589"
+    },
+    "ranked-events.022.jsonl.gz": {
+      "bytes": 499219,
+      "sha256": "9ab911af5187bb4abb9b46092474415124fb1d695e5d6255a8f81429b308c4ca"
+    },
+    "ranked-events.023.jsonl.gz": {
+      "bytes": 494673,
+      "sha256": "51011c1e7823352272cb304607255391be72e9da0e44cf582e61700a13c93605"
+    },
+    "ranked-events.024.jsonl.gz": {
+      "bytes": 490762,
+      "sha256": "bbf50b49d078b67009b32903d468c427e325e94596027f36566d51da01d54b26"
+    },
+    "ranked-events.025.jsonl.gz": {
+      "bytes": 494610,
+      "sha256": "d1bce48affb914f76694699fa1f7f7a2f7f627a9832f87b2c1bc5bfd7a3212ac"
+    },
+    "ranked-events.026.jsonl.gz": {
+      "bytes": 435689,
+      "sha256": "4d37c8a30d2504b74879212302d07a4eb9716d1e7b6d2038b1dae5be8eda55f3"
+    },
+    "ranked-events.027.jsonl.gz": {
+      "bytes": 431162,
+      "sha256": "a351b322226f12a6440c861a16533f1b372eefcc539e165069f44aef63788b59"
+    },
+    "ranked-events.028.jsonl.gz": {
+      "bytes": 428073,
+      "sha256": "da4e965ecc01dbe0aa09ffb4ff0078c646ad69af871d869e8144d2a1970cfbfe"
+    },
+    "ranked-events.029.jsonl.gz": {
+      "bytes": 431700,
+      "sha256": "7d74f30814b689fb35690108bcc0ecaefe7058efce9a6736b72fb07b47d71837"
+    },
+    "ranked-events.030.jsonl.gz": {
+      "bytes": 427399,
+      "sha256": "2a0765156aa136dd9550e3ed94f8fd15472172f1d86d04c28e6c59063d34e44e"
+    },
+    "ranked-events.031.jsonl.gz": {
+      "bytes": 425221,
+      "sha256": "6f3e8e8708df25c5df766aea84a2c4858a5845ddf00669c6fa7adde104163414"
+    },
+    "ranked-events.032.jsonl.gz": {
+      "bytes": 431692,
+      "sha256": "59246a3d4ac176956c5d53134667a402ddad0a7b15b68e8536551b5da1cb4b33"
+    },
+    "ranked-events.033.jsonl.gz": {
+      "bytes": 430828,
+      "sha256": "f9c7d6cdc6e98f88753328a73e80e093675864f9f571626695f86b6ee792993f"
+    },
+    "ranked-events.034.jsonl.gz": {
+      "bytes": 427257,
+      "sha256": "496f5375e1fffcb5f4cedfa794376ff95b3152bfdf4cee86c74204c657f3a627"
+    },
+    "ranked-events.035.jsonl.gz": {
+      "bytes": 428407,
+      "sha256": "a4b3fd51e0f4781046b95e1350c7c44690e9558f96b87228a6772aa53815acb7"
+    },
+    "ranked-events.036.jsonl.gz": {
+      "bytes": 431749,
+      "sha256": "19dafe668b0dd78065fcbe9a76b264fcd26ad4386cf508b73c0191de968694fd"
+    },
+    "ranked-events.037.jsonl.gz": {
+      "bytes": 432086,
+      "sha256": "0d41aed14dd6955fb7529893ff849e78339b21e9fd1e7a75911217aa76ca1c7c"
+    },
+    "ranked-events.038.jsonl.gz": {
+      "bytes": 430811,
+      "sha256": "149cb4bdc338247882f0e8a431066db218e34bd610f61f47a12a5854e3087a55"
+    },
+    "ranked-events.039.jsonl.gz": {
+      "bytes": 423590,
+      "sha256": "83f36944907ad4ce7b2781d208f0589258c894d638e3e4e87e1c5b8fa0b9119a"
+    },
+    "ranked-events.040.jsonl.gz": {
+      "bytes": 434775,
+      "sha256": "89290b88774d57cbd9a0c34e342dd3d20f44e21936954615542927d162f01657"
+    },
+    "ranked-events.041.jsonl.gz": {
+      "bytes": 430284,
+      "sha256": "391a494e664822a2f0c852f4175e00c9467b2379e0ba07f323ab15df7b3d6b0f"
+    },
+    "ranked-events.042.jsonl.gz": {
+      "bytes": 433844,
+      "sha256": "54bb4d6d7c3400bc6b1afa2f5aba3e22bd1fc6367f6b4738d43e2609dd9000ed"
+    },
+    "ranked-events.043.jsonl.gz": {
+      "bytes": 434795,
+      "sha256": "644f422494584199886921aa7dfb099b06cec05fec1ff9957785d598e9a87555"
+    },
+    "ranked-events.044.jsonl.gz": {
+      "bytes": 428228,
+      "sha256": "40ba8a62d7ab26d60b5539d313739a741d942d3419cd6ee61221f0e4048bc3c4"
+    },
+    "ranked-events.045.jsonl.gz": {
+      "bytes": 431881,
+      "sha256": "9530061999392ac486c8dc104dd6a3b3e82d8655695e66bb150359a7f5bc4baf"
+    },
+    "ranked-events.046.jsonl.gz": {
+      "bytes": 21212,
+      "sha256": "1d4386bfa3ac1e1934905fff3da78fa94d3d3ccbbfb86306f6a2fa1f72d25fe2"
+    },
+    "ranked-events.manifest.json": {
+      "bytes": 17966,
+      "sha256": "d9d3f8754c8f62c6e9457dbef4713d104739301794a76cc2f06a3ad1a380d7b5"
+    },
+    "ranked-reuse-leads.jsonl.gz": {
+      "bytes": 60729,
+      "sha256": "ab96efc36a94b44db5058abfb696ee70cb4ef79f25fd38a962a7309038563c73"
+    },
+    "screening-summary.json": {
+      "bytes": 6115,
+      "sha256": "d3caf237b5887e9ae65a3f165354cc72abbcef04ada8c146c666aa415d2aa2b8"
+    }
+  }
+}

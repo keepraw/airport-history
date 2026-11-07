@@ -1,0 +1,274 @@
+{
+  "formatVersion": 1,
+  "sources": [
+    {
+      "sourceId": "global-code-expansion-us-pbi-name-faq",
+      "title": "Palm Beach County Department of Airports: name-change FAQ (updated2026-08-20)",
+      "url": "https://flydjt.org/about/name-change-faqs/",
+      "accessedOn": "2026-11-07",
+      "verificationStatus": "pending",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-PalmBeachCounty-RightsReserved",
+        "url": "https://flydjt.org/about/name-change-faqs/",
+        "note": "Factual metadata only; full originals/extractions retained in ignored work. No third-party redistribution licence or project admission grant inferred."
+      },
+      "note": "Operator reports independent ICAO and IATA code change days; unknown outer boundaries. Only factual notes and two short heading anchors retained."
+    },
+    {
+      "sourceId": "global-code-expansion-us-pbc-airports",
+      "title": "Palm Beach County Department of Airports administration page",
+      "url": "https://discover.pbc.gov/airports/Pages/default.aspx",
+      "accessedOn": "2026-11-07",
+      "verificationStatus": "pending",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-PalmBeachCounty-RightsReserved",
+        "url": "https://discover.pbc.gov/airports/Pages/default.aspx",
+        "note": "Factual metadata only; full originals/extractions retained in ignored work. No third-party redistribution licence or project admission grant inferred."
+      },
+      "note": "Establishes operator publishing authority and links to the airport site; no independent allocation chronology."
+    },
+    {
+      "sourceId": "global-code-expansion-us-faa-dtpp-2611",
+      "title": "FAA d-TPP metafile cycle2611",
+      "url": "https://aeronav.faa.gov/d-tpp/2611/xml_data/d-TPP_Metafile.xml",
+      "accessedOn": "2026-11-07",
+      "verificationStatus": "pending",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "url": "https://aeronav.faa.gov/d-tpp/2611/xml_data/d-TPP_Metafile.xml",
+        "note": "Factual metadata only; full originals/extractions retained in ignored work. No third-party redistribution licence or project admission grant inferred."
+      },
+      "note": "Reuse prior b5-us-dtpp-2611 lock; duplicate retrieval audited separately. ICAO-labelled current edition observation, not a code allocation or withdrawal record."
+    },
+    {
+      "sourceId": "global-code-expansion-us-faa-djt-diagram-2611",
+      "title": "FAA airport diagram AL-449, cycle2611",
+      "url": "https://aeronav.faa.gov/d-tpp/2611/00449AD.PDF",
+      "accessedOn": "2026-11-07",
+      "verificationStatus": "pending",
+      "sourceType": "primary",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "url": "https://aeronav.faa.gov/d-tpp/2611/00449AD.PDF",
+        "note": "Factual metadata only; full originals/extractions retained in ignored work. No third-party redistribution licence or project admission grant inferred."
+      },
+      "note": "Named physical airfield corroboration only; no chart reproduced, no IATA meaning inferred from FAA LID."
+    }
+  ],
+  "airports": [
+    {
+      "airportId": "apt_eb176a20-e0e3-438d-a330-a7b81185232d",
+      "name": {
+        "value": "West Palm Beach physical airport (PBI/DJT)",
+        "status": "reference",
+        "sourceIds": [
+          "global-code-expansion-us-faa-djt-diagram-2611",
+          "global-code-expansion-us-pbc-airports"
+        ],
+        "note": "Compatibility label; legal-name history not admitted."
+      },
+      "coordinates": {
+        "value": {
+          "latitude": 26.683201,
+          "longitude": -80.095596
+        },
+        "status": "reference",
+        "sourceIds": [
+          "global-code-expansion-us-faa-djt-diagram-2611"
+        ],
+        "note": "Existing reference coordinates, visually/geographically consistent with FAA chart axes; not extracted historical ARP or surveyed fact."
+      },
+      "timezone": {
+        "value": null,
+        "status": "unknown",
+        "sourceIds": [],
+        "note": "No timezone claim introduced."
+      },
+      "externalIds": {
+        "ourAirports": "3766"
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "assignmentId": "proposal-pbi-iata-pbi",
+      "scheme": "IATA",
+      "code": "PBI",
+      "airportId": "apt_eb176a20-e0e3-438d-a330-a7b81185232d",
+      "validFrom": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-08-18",
+        "latest": "2026-08-19",
+        "precision": "day"
+      },
+      "verificationStatus": "pending",
+      "verifiedOn": null,
+      "evidenceType": "primary_direct",
+      "sourceIds": [
+        "global-code-expansion-us-pbi-name-faq"
+      ],
+      "note": "Boundary-only proposal. FAQ distinguishes namespace cutover days but does not establish the whole historical interval. Unknown outer boundary retained. No daily continuity or operational-date substitution."
+    },
+    {
+      "assignmentId": "proposal-pbi-iata-djt",
+      "scheme": "IATA",
+      "code": "DJT",
+      "airportId": "apt_eb176a20-e0e3-438d-a330-a7b81185232d",
+      "validFrom": {
+        "earliest": "2026-08-18",
+        "latest": "2026-08-19",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "pending",
+      "verifiedOn": null,
+      "evidenceType": "primary_direct",
+      "sourceIds": [
+        "global-code-expansion-us-pbi-name-faq"
+      ],
+      "note": "Boundary-only proposal. FAQ distinguishes namespace cutover days but does not establish the whole historical interval. Unknown outer boundary retained. No daily continuity or operational-date substitution."
+    },
+    {
+      "assignmentId": "proposal-pbi-icao-kpbi",
+      "scheme": "ICAO",
+      "code": "KPBI",
+      "airportId": "apt_eb176a20-e0e3-438d-a330-a7b81185232d",
+      "validFrom": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": "2026-07-10",
+        "precision": "day"
+      },
+      "verificationStatus": "pending",
+      "verifiedOn": null,
+      "evidenceType": "primary_direct",
+      "sourceIds": [
+        "global-code-expansion-us-pbi-name-faq"
+      ],
+      "note": "Boundary-only proposal. FAQ distinguishes namespace cutover days but does not establish the whole historical interval. Unknown outer boundary retained. No daily continuity or operational-date substitution."
+    },
+    {
+      "assignmentId": "proposal-pbi-icao-kdjt",
+      "scheme": "ICAO",
+      "code": "KDJT",
+      "airportId": "apt_eb176a20-e0e3-438d-a330-a7b81185232d",
+      "validFrom": {
+        "earliest": "2026-07-09",
+        "latest": "2026-07-10",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "pending",
+      "verifiedOn": null,
+      "evidenceType": "primary_direct",
+      "sourceIds": [
+        "global-code-expansion-us-pbi-name-faq"
+      ],
+      "note": "Boundary-only proposal. FAQ distinguishes namespace cutover days but does not establish the whole historical interval. Unknown outer boundary retained. No daily continuity or operational-date substitution."
+    }
+  ],
+  "claims": [
+    {
+      "eventGroupId": "dup_053fff021fcc335a906d311d",
+      "assignmentId": "proposal-pbi-iata-pbi",
+      "temporalEvidenceStatus": "explicit_change_day_unknown_outer_boundary",
+      "authorizationStatus": "source_family_code_authority_missing",
+      "conditionalReviewEligible": false,
+      "wholeWindowSupported": false,
+      "boundaryFacts": {
+        "kind": "code_change_day",
+        "date": "2026-08-18",
+        "precision": "day",
+        "timeOfDay": null
+      },
+      "remainingGaps": [
+        "Consolidated source-family admission authorization and claim-specific rights assessment.",
+        "Authenticated IATA notification or FAA code allocation record to establish full interval and resolve outer bounds."
+      ]
+    },
+    {
+      "eventGroupId": "dup_053fff021fcc335a906d311d",
+      "assignmentId": "proposal-pbi-iata-djt",
+      "temporalEvidenceStatus": "explicit_change_day_unknown_outer_boundary",
+      "authorizationStatus": "source_family_code_authority_missing",
+      "conditionalReviewEligible": false,
+      "wholeWindowSupported": false,
+      "boundaryFacts": {
+        "kind": "code_change_day",
+        "date": "2026-08-18",
+        "precision": "day",
+        "timeOfDay": null
+      },
+      "remainingGaps": [
+        "Consolidated source-family admission authorization and claim-specific rights assessment.",
+        "Authenticated IATA notification or FAA code allocation record to establish full interval and resolve outer bounds."
+      ]
+    },
+    {
+      "eventGroupId": "dup_053fff021fcc335a906d311d",
+      "assignmentId": "proposal-pbi-icao-kpbi",
+      "temporalEvidenceStatus": "explicit_change_day_unknown_outer_boundary",
+      "authorizationStatus": "source_family_code_authority_missing",
+      "conditionalReviewEligible": false,
+      "wholeWindowSupported": false,
+      "boundaryFacts": {
+        "kind": "code_change_day",
+        "date": "2026-07-09",
+        "precision": "day",
+        "timeOfDay": null
+      },
+      "remainingGaps": [
+        "Consolidated source-family admission authorization and claim-specific rights assessment.",
+        "Authenticated IATA notification or FAA code allocation record to establish full interval and resolve outer bounds."
+      ]
+    },
+    {
+      "eventGroupId": "dup_053fff021fcc335a906d311d",
+      "assignmentId": "proposal-pbi-icao-kdjt",
+      "temporalEvidenceStatus": "explicit_change_day_unknown_outer_boundary",
+      "authorizationStatus": "source_family_code_authority_missing",
+      "conditionalReviewEligible": false,
+      "wholeWindowSupported": false,
+      "boundaryFacts": {
+        "kind": "code_change_day",
+        "date": "2026-07-09",
+        "precision": "day",
+        "timeOfDay": null
+      },
+      "remainingGaps": [
+        "Consolidated source-family admission authorization and claim-specific rights assessment.",
+        "Authenticated IATA notification or FAA code allocation record to establish full interval and resolve outer bounds."
+      ]
+    }
+  ],
+  "assessedCodes": {
+    "IATA": [
+      "PBI",
+      "DJT"
+    ],
+    "ICAO": [
+      "KPBI",
+      "KDJT"
+    ]
+  },
+  "formalAdmission": false
+}

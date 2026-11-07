@@ -1,0 +1,423 @@
+{
+  "boundaryFacts": [
+    {
+      "continuousIntervalProven": false,
+      "date": "2026-07-09",
+      "dateNature": "Operator explicitly reported namespace-specific code change day; clock unknown.",
+      "newCode": "KDJT",
+      "oldCode": "KPBI",
+      "physicalSite": "Same West Palm Beach airfield",
+      "scheme": "ICAO",
+      "sourceId": "global-code-expansion-us-pbi-name-faq"
+    },
+    {
+      "continuousIntervalProven": false,
+      "date": "2026-08-18",
+      "dateNature": "Operator reports IATA notification and namespace-specific change day; clock unknown.",
+      "newCode": "DJT",
+      "oldCode": "PBI",
+      "physicalSite": "Same West Palm Beach airfield",
+      "scheme": "IATA",
+      "sourceId": "global-code-expansion-us-pbi-name-faq"
+    }
+  ],
+  "formatVersion": 1,
+  "observations": [
+    {
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "citation": "Named aerodrome row/component heading and effective metadata; see minimal source anchors.",
+      "code": "DIFK",
+      "date": "2025-02-20",
+      "dateNature": "aip_component_effective_observation",
+      "limitation": "Discrete code-to-site observation only; no continuous historical validity interval or allocation/withdrawal date follows.",
+      "observationId": "global-code-expansion-asecna-ci-ad13-sites-difk",
+      "physicalSite": "Ferkessédougou",
+      "scheme": "ICAO",
+      "sourceId": "global-code-expansion-asecna-ci-ad13-sites",
+      "supports": "Code/name/site observation within the stated source scope.",
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "citation": "Named aerodrome row/component heading and effective metadata; see minimal source anchors.",
+      "code": "DISG",
+      "date": "2025-02-20",
+      "dateNature": "aip_component_effective_observation",
+      "limitation": "Discrete code-to-site observation only; no continuous historical validity interval or allocation/withdrawal date follows.",
+      "observationId": "global-code-expansion-asecna-ci-ad13-sites-disg",
+      "physicalSite": "Séguéla",
+      "scheme": "ICAO",
+      "sourceId": "global-code-expansion-asecna-ci-ad13-sites",
+      "supports": "Code/name/site observation within the stated source scope.",
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "citation": "Named aerodrome row/component heading and effective metadata; see minimal source anchors.",
+      "code": "FCOB",
+      "date": "2025-05-15",
+      "dateNature": "aip_component_effective_observation",
+      "limitation": "Discrete code-to-site observation only; no continuous historical validity interval or allocation/withdrawal date follows.",
+      "observationId": "global-code-expansion-asecna-cg-ad13-sites-fcob",
+      "physicalSite": "Boundji",
+      "scheme": "ICAO",
+      "sourceId": "global-code-expansion-asecna-cg-ad13-sites",
+      "supports": "Code/name/site observation within the stated source scope.",
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "citation": "Named aerodrome row/component heading and effective metadata; see minimal source anchors.",
+      "code": "FOOE",
+      "date": "2026-08-06",
+      "dateNature": "aip_component_effective_observation",
+      "limitation": "Discrete code-to-site observation only; no continuous historical validity interval or allocation/withdrawal date follows.",
+      "observationId": "global-code-expansion-asecna-ga-ad13-sites-fooe",
+      "physicalSite": "Mekambo",
+      "scheme": "ICAO",
+      "sourceId": "global-code-expansion-asecna-ga-ad13-sites",
+      "supports": "Code/name/site observation within the stated source scope.",
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "citation": "Named aerodrome row/component heading and effective metadata; see minimal source anchors.",
+      "code": "GOGK",
+      "date": "2026-05-14",
+      "dateNature": "aip_component_effective_observation",
+      "limitation": "Discrete code-to-site observation only; no continuous historical validity interval or allocation/withdrawal date follows.",
+      "observationId": "global-code-expansion-asecna-sn-ad13-sites-gogk",
+      "physicalSite": "Kolda / Sare Bidji",
+      "scheme": "ICAO",
+      "sourceId": "global-code-expansion-asecna-sn-ad13-sites",
+      "supports": "Code/name/site observation within the stated source scope.",
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "citation": "Named aerodrome row/component heading and effective metadata; see minimal source anchors.",
+      "code": "GAKO",
+      "date": "2026-04-16",
+      "dateNature": "aip_component_effective_observation",
+      "limitation": "Discrete code-to-site observation only; no continuous historical validity interval or allocation/withdrawal date follows.",
+      "observationId": "global-code-expansion-asecna-ml-ad13-sites-gako",
+      "physicalSite": "Koutiala",
+      "scheme": "ICAO",
+      "sourceId": "global-code-expansion-asecna-ml-ad13-sites",
+      "supports": "Code/name/site observation within the stated source scope.",
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "citation": "Named aerodrome row/component heading and effective metadata; see minimal source anchors.",
+      "code": "GASO",
+      "date": "2025-04-17",
+      "dateNature": "aip_component_effective_observation",
+      "limitation": "Discrete code-to-site observation only; no continuous historical validity interval or allocation/withdrawal date follows.",
+      "observationId": "global-code-expansion-asecna-ml-gaso-ad2-gaso",
+      "physicalSite": "Sikasso / Dignangan",
+      "scheme": "ICAO",
+      "sourceId": "global-code-expansion-asecna-ml-gaso-ad2",
+      "supports": "Code/name/site observation within the stated source scope.",
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "citation": "Named aerodrome row/component heading and effective metadata; see minimal source anchors.",
+      "code": "GASO",
+      "date": "2020-05-21",
+      "dateNature": "aip_component_effective_observation",
+      "limitation": "Discrete code-to-site observation only; no continuous historical validity interval or allocation/withdrawal date follows.",
+      "observationId": "global-code-expansion-asecna-ml-gen24-gaso",
+      "physicalSite": "Sikasso / Dignangan",
+      "scheme": "ICAO",
+      "sourceId": "global-code-expansion-asecna-ml-gen24",
+      "supports": "Code/name/site observation within the stated source scope.",
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "citation": "Named aerodrome row/component heading and effective metadata; see minimal source anchors.",
+      "code": "FAOR",
+      "date": "2021-07-15",
+      "dateNature": "aip_component_effective_observation",
+      "limitation": "Discrete code-to-site observation only; no continuous historical validity interval or allocation/withdrawal date follows.",
+      "observationId": "global-code-expansion-za-atns-faor-20210715-faor",
+      "physicalSite": "OR Tambo International",
+      "scheme": "ICAO",
+      "sourceId": "global-code-expansion-za-atns-faor-20210715",
+      "supports": "Code/name/site observation within the stated source scope.",
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "citation": "AISWEB ROTAER aerodrome name/code/coordinate row; version label retained separately.",
+      "code": "SSCN",
+      "date": null,
+      "dateNature": "current_page_observation_without_proven_validity",
+      "limitation": "Discrete code-to-site observation only; no continuous historical validity interval or allocation/withdrawal date follows.",
+      "observationId": "global-code-expansion-br-decea-sscn-sscn",
+      "physicalSite": "Canela",
+      "scheme": "ICAO",
+      "sourceId": "global-code-expansion-br-decea-sscn",
+      "supports": "Code/name/site observation within the stated source scope.",
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "citation": "AISWEB ROTAER aerodrome name/code/coordinate row; version label retained separately.",
+      "code": "SSGY",
+      "date": null,
+      "dateNature": "current_page_observation_without_proven_validity",
+      "limitation": "Discrete code-to-site observation only; no continuous historical validity interval or allocation/withdrawal date follows.",
+      "observationId": "global-code-expansion-br-decea-ssgy-ssgy",
+      "physicalSite": "Guaíra",
+      "scheme": "ICAO",
+      "sourceId": "global-code-expansion-br-decea-ssgy",
+      "supports": "Code/name/site observation within the stated source scope.",
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "citation": "AISWEB ROTAER aerodrome name/code/coordinate row; version label retained separately.",
+      "code": "SBPG",
+      "date": null,
+      "dateNature": "current_page_observation_without_proven_validity",
+      "limitation": "Discrete code-to-site observation only; no continuous historical validity interval or allocation/withdrawal date follows.",
+      "observationId": "global-code-expansion-br-decea-sbpg-sbpg",
+      "physicalSite": "Ponta Grossa",
+      "scheme": "ICAO",
+      "sourceId": "global-code-expansion-br-decea-sbpg",
+      "supports": "Code/name/site observation within the stated source scope.",
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "citation": "Operator aerodrome data explicitly labels IATA and ICAO namespaces.",
+      "code": "SVD",
+      "date": null,
+      "dateNature": "current_page_observation_without_proven_validity",
+      "limitation": "Discrete code-to-site observation only; no continuous historical validity interval or allocation/withdrawal date follows.",
+      "observationId": "global-code-expansion-vc-argyle-operator-svd",
+      "physicalSite": "Argyle",
+      "scheme": "IATA",
+      "sourceId": "global-code-expansion-vc-argyle-operator",
+      "supports": "Code/name/site observation within the stated source scope.",
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "citation": "Operator aerodrome data explicitly labels IATA and ICAO namespaces.",
+      "code": "TVSA",
+      "date": null,
+      "dateNature": "current_page_observation_without_proven_validity",
+      "limitation": "Discrete code-to-site observation only; no continuous historical validity interval or allocation/withdrawal date follows.",
+      "observationId": "global-code-expansion-vc-argyle-operator-tvsa",
+      "physicalSite": "Argyle",
+      "scheme": "ICAO",
+      "sourceId": "global-code-expansion-vc-argyle-operator",
+      "supports": "Code/name/site observation within the stated source scope.",
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "citation": "Raw XML: digital_tpp/state_code/city_name/airport_name[@apt_ident=\"DJT\"]/@icao_ident",
+      "code": "KDJT",
+      "date": "2026-10-29",
+      "dateNature": "controlled_faa_cycle_effective_observation",
+      "limitation": "FAA XML explicitly labels ICAO KDJT; apt_ident DJT is FAA LID and not IATA evidence. Edition validity0901Z Oct29–Nov26 does not alone clear superseding NOTAM or prove first allocation.",
+      "observationId": "global-code-expansion-us-faa-dtpp-2611-kdjt",
+      "physicalSite": "West Palm Beach physical airport",
+      "scheme": "ICAO",
+      "sourceId": "global-code-expansion-us-faa-dtpp-2611",
+      "supports": "Code/name/site observation within the stated source scope.",
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "citation": "FAA MOS2020 document header identifies Newtok PAEW and text describes Mertarvik relocation.",
+      "code": "PAEW",
+      "date": "2020",
+      "dateNature": "technical_project_identifier_observation",
+      "limitation": "Project LOC ID and ICAO-labelled field are not actual reassignment/commissioning effective dates. No IATA WWT inference.",
+      "observationId": "global-code-expansion-us-alaska-mertarvik-relocation-paew",
+      "physicalSite": "Newtok / Mertarvik relocation project",
+      "scheme": "ICAO",
+      "sourceId": "global-code-expansion-us-alaska-mertarvik-relocation",
+      "supports": "Code/name/site observation within the stated source scope.",
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "citation": "NAVCANADA operational closure notice names CYKZ and0901UTC2023-11-30.",
+      "code": "CYKZ",
+      "date": "2023-11-30",
+      "dateNature": "operational_closure_notice_named_icao_observation",
+      "limitation": "Closure/cessation and procedure effectiveness are distinct from code withdrawal; no IATA YKZ termination asserted.",
+      "observationId": "global-code-expansion-ca-buttonville-notice-2023-cykz",
+      "physicalSite": "Toronto / Buttonville Municipal",
+      "scheme": "ICAO",
+      "sourceId": "global-code-expansion-ca-buttonville-notice-2023",
+      "supports": "Code/name/site observation within the stated source scope.",
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    },
+    {
+      "allocationBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "citation": "NAVCANADA closure/airspace notice identifies CYZD.",
+      "code": "CYZD",
+      "date": "2024-05-16",
+      "dateNature": "dated_operational_notice",
+      "limitation": "Named airfield/procedure notice date, not independent ICAO or IATA withdrawal time.",
+      "observationId": "global-code-expansion-ca-downsview-notice-2024-cyzd",
+      "physicalSite": "Downsview",
+      "scheme": "ICAO",
+      "sourceId": "global-code-expansion-ca-downsview-notice-2024",
+      "supports": "Code/name/site observation within the stated source scope.",
+      "withdrawalBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      }
+    }
+  ]
+}

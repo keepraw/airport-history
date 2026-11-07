@@ -1,0 +1,1856 @@
+{
+  "formatVersion": 1,
+  "reuseOnly": true,
+  "sources": [
+    {
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": null,
+      "note": "Historical batch receipt does not retain all extraction hashes; missing values are not reconstructed.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "f66d3ee5b404ddead6b40102b6932fd2b94202f6dd23d1bf24a53fb89041f070",
+      "publisher": "aviation authority directory",
+      "reuseMode": "offline_prior_batch_access_receipt_and_factual_review_no_redownload",
+      "rights": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed.",
+        "url": null
+      },
+      "sourceFamily": null,
+      "sourceId": "aap-directory",
+      "sourceLockPath": "research/discovery/batches/global-1.json",
+      "sourceLockSha256": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094",
+      "sourceRecordSha256": "9377c6a0b6e3dc50d5bfc0b872290eb1ecaecc0765891e3e9ef04d385baab258",
+      "sourceType": "primary",
+      "url": "https://hubud.dephub.go.id/bandara/45"
+    },
+    {
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": null,
+      "note": "Historical batch receipt does not retain all extraction hashes; missing values are not reconstructed.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "7af0afaeed81c155f60591c49dfd10c01bad3410d2dfc6e86e417b3af852a153",
+      "publisher": "transport ministry",
+      "reuseMode": "offline_prior_batch_access_receipt_and_factual_review_no_redownload",
+      "rights": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed.",
+        "url": null
+      },
+      "sourceFamily": null,
+      "sourceId": "aap-ministry",
+      "sourceLockPath": "research/discovery/batches/global-1.json",
+      "sourceLockSha256": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094",
+      "sourceRecordSha256": "5d0a37d746fadd106f1d61980720fdc902da1ac15e3ee82e79501e021d9df6df",
+      "sourceType": "primary",
+      "url": "https://dephub.go.id/post/read/tiga-maskapai-segera-isi-rute-penerbangan-dari-dan-ke-samarinda?language=id"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-cn-icao-2010-zppp"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "9166b996ba53f133fd0341b341032bd36850e3dbf74b323f51521316a6d2718b",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "e8d428a9a9d0f4003ae001afeaeeb0377138d075b8f18828599abbd45eb91946",
+      "publisher": "ICAO Asia/Pacific",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "ICAO-APAC",
+      "sourceId": "b5-cn-icao-2010-zppp",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "5221c1ffcd8bd4cba38880874d400229ba892892546e4e3afb9be698e1df6842",
+      "sourceType": "primary",
+      "url": "https://www.icao.int/sites/default/files/sp-files/APAC/Documents/Meetings/2010/cnsmet_sg14/WP27.pdf"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-cn-kmg-notice-2012"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "abf1eb57ea89f610a916603d5dc4714430186758ffdd652b8698e7fef776b179",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "c1bbdc368bab38ffb08316a06c393648ee81d4b8d49e930a55f2aaf6508b95d3",
+      "publisher": "Yunnan Airport Group",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "CN-YNAIRPORT",
+      "sourceId": "b5-cn-kmg-notice-2012",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "76d3f0189973b5f69c92ffeaf0fca427290142765e9fa1f11052e5939f49610b",
+      "sourceType": "primary",
+      "url": "https://km.ynairport.com/notice/682.jhtml"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-iata-blr-20261103"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "7d5a9cb56e7d9d1cb6be94b6df57ceee3cb2667bba322fabfd8b0118f76d5611",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "49c994bea25427373d1d54e3f45c633b8d92a7b3fd1e1b9adbc9afcdbbb8e367",
+      "publisher": "IATA",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "IATA-CODE-SEARCH",
+      "sourceId": "b5-iata-blr-20261103",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "0e0b366235526a8ed246dae80a6d8b8b45bd5417bb0c0e7e0118607c8b2d02a8",
+      "sourceType": "primary",
+      "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=BLR"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-iata-hyd-20261103"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "761f0245425e4983ca06a601083ba4edfe6dab9db82d031f8c204f165ee924be",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "67e9730ef9581841d4a0e5c3ea1058cad834128cf9d44303af2bc573734e9fb6",
+      "publisher": "IATA",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "IATA-CODE-SEARCH",
+      "sourceId": "b5-iata-hyd-20261103",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "3d806c054d83acf36c2d5c6f4ff3770507e063c0e60991fe42a8451d908194a4",
+      "sourceType": "primary",
+      "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=HYD"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-in-aip-2012-ad13"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "65531d90dfbb428429d1b3ff767394dd8e37ef4c62b27728280544f3fc558517",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "c0dcd7075f6347dfaa4716d24a80771dbf68f92dd50e55cdf302b0ba196ed9df",
+      "publisher": "Airports Authority of India (AIS)",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "IN-AAI-AIP",
+      "sourceId": "b5-in-aip-2012-ad13",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "8ff0a3969ff304e73c986c9011a016f29dd906b1ebf236e53769d4cf79f7c605",
+      "sourceType": "primary",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/01-04-2012/eaip/PUB/2012-04-01/html/eAIP/EC-AD-1.3-en-GB.html"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-in-aip-2012-ad15"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "d30bc898308bffbc730af570738f8e1e9f2bc86d4868ca630f8fba6b376c072d",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "23997a2527c7b8975c71a0c361119058bb8ceaf5f7ea9e6505d2a70f8be2001c",
+      "publisher": "Airports Authority of India (AIS)",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "IN-AAI-AIP",
+      "sourceId": "b5-in-aip-2012-ad15",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "c925252f10be766d0d93364b1fec281945434d8cd872ca97434f97420e7fba9f",
+      "sourceType": "primary",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/01-04-2012/eaip/PUB/2012-04-01/html/eAIP/EC-AD-1.5-en-GB.html"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-in-aip-2026-vobg"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "0ab6a9c9c797a809a5f41bf4fea9dbd5c58b1ed1c6a7d2a367a0b0b9a14601c1",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "351ed6295d2db1065a200717dc1bdb59c0c789192343c1434a0a789420c95873",
+      "publisher": "Airports Authority of India (AIS)",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "IN-AAI-AIP",
+      "sourceId": "b5-in-aip-2026-vobg",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "96d08b5842c99c76889d9d358e383975cfcf2ad81491e447d9af53dbc91ffa96",
+      "sourceType": "primary",
+      "url": "https://aim-india.aai.aero/eaip/eaip-v2-10-2026/pdf/eAIP/AD%202.1VOBG.pdf"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-in-aip-2026-vobl"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "75ab6c99fe4b5bc5114c831b8577c32d4e66f9924a5ed1780a06a3abca0b50d7",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "04cdb88682944feb1d43ddf495c9a4c4c15b3b26baf78202d0fb3fc5713e4f1b",
+      "publisher": "Airports Authority of India (AIS)",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "IN-AAI-AIP",
+      "sourceId": "b5-in-aip-2026-vobl",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "3aaab161586478697860df046794dc3c0eecd1a1bcb312ff81a84d010b2e93cc",
+      "sourceType": "primary",
+      "url": "https://aim-india.aai.aero/eaip/eaip-v2-10-2026/pdf/eAIP/AD%202.1VOBL.pdf"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-in-aip-2026-vohs"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "aa6b91a952fa16f7dc46f8830929cc37994772e7dfe3658d8f5a2b926f31e473",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "d06204362ebe3838c023bf29db2c13d19028f4e55f648ce5ba5ce745b869e426",
+      "publisher": "Airports Authority of India (AIS)",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "IN-AAI-AIP",
+      "sourceId": "b5-in-aip-2026-vohs",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "a6262838223926bd35a6d4fac38bbbd182c754e638462236decac0282f91ebef",
+      "sourceType": "primary",
+      "url": "https://aim-india.aai.aero/eaip/eaip-v2-10-2026/pdf/eAIP/AD%202.1VOHS.pdf"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-in-aip-2026-vohy"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "136696c7e61cc547a24ae1e080ae95fa2d95d49075ed8cc7753dab7c473390a8",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "178740db2ff15f91ffc5725ca693e67e1534796313ee84764f969647624bbabf",
+      "publisher": "Airports Authority of India (AIS)",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "IN-AAI-AIP",
+      "sourceId": "b5-in-aip-2026-vohy",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "4d17a7fa0b06ffaa810f4c2b263e1883c2aa6255025406547a4e9191f74e9b34",
+      "sourceType": "primary",
+      "url": "https://aim-india.aai.aero/eaip/eaip-v2-10-2026/pdf/eAIP/AD%202.1VOHY.pdf"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-in-moca-bial-2004"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "43e2a4b4203f61cc68e7ee15cdf09b7529d63477ae07685b5afd87ac16f0eeda",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "e846909e63142f7f11226e2adef709da5e6a1f2e3169c4790d42d7e7522027e3",
+      "publisher": "Ministry of Civil Aviation",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "IN-MOCA",
+      "sourceId": "b5-in-moca-bial-2004",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "d9ea95a57714a9b085b99b6ef2cd4ae05ae8658ade9ebfad7b37e69c4b98cb39",
+      "sourceType": "primary",
+      "url": "https://www.civilaviation.gov.in/sites/default/files/2023-02/moca_000743.pdf"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-in-so470e-2008"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "915839a2fa4608bdc21cfe6cbe0a639b6ca2267f0d64503d954ae2996fa8b25b",
+      "publisher": "Ministry of Civil Aviation (scan hosted by AAI)",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "IN-MOCA-GAZETTE",
+      "sourceId": "b5-in-so470e-2008",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "69739230331b40502de20a5490e52bf1594feb44e8986baeb9f4cec734a04130",
+      "sourceType": "primary",
+      "url": "https://www.aai.aero/en/system/files/resources/Closure_Of_Begumpet_Airport_2008.pdf"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-in-thesis-2016"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "c54b2930b92f8467cf76795c49a7f3e3db56baf58179aa8c6ebc46acac74c870",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "d2c7f591327c40cec0bba338b449d914ee9073c57de3d149b8f355a8e2760db1",
+      "publisher": "Leiden University (PhD thesis, George 2016)",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "LEIDEN-THESIS",
+      "sourceId": "b5-in-thesis-2016",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "dc55f0971214268f7e260e14e624ffb8809d6e8b4b841038a63f6dd5bc61911d",
+      "sourceType": "secondary",
+      "url": "https://scholarlypublications.universiteitleiden.nl/download/1887/44409/4"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-jp-jma-179"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "8c3f02feec8d0e4a8c6d9eac06db1ca825a85b7358f7f66336099ac9e5c1f870",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "26b418e86436ffc0600cc367887dd932322eced8f8fbeabbbad73e98ec823889",
+      "publisher": "Japan Meteorological Agency",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "JP-JMA",
+      "sourceId": "b5-jp-jma-179",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "9c3debf40aede90829ec9f04197e65c23b0ca92042677e6f95a6c39354be2e5f",
+      "sourceType": "primary",
+      "url": "https://www.data.jma.go.jp/suishin/jyouhou/pdf/179.pdf"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-jp-jma-182"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "576b8073ca2fdaca10071d5bd93d9343e049095c3c6cbadbf3f0bd50b52c5d0f",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "219a1cc821a53df5dbe4506438a840bc75403a19f6bb85c2b39ecce99b786565",
+      "publisher": "Japan Meteorological Agency",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "JP-JMA",
+      "sourceId": "b5-jp-jma-182",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "ac0754d7380edec726584e6968ff7591fa920218f6c34c967e44b5c3fa148d38",
+      "sourceType": "primary",
+      "url": "https://www.data.jma.go.jp/suishin/jyouhou/pdf/182.pdf"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-jp-jma-20220209"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "6e1507c8ed7209fb60b5efa100435a614f03de1ce3136c7a41743cc4307f2910",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "577fa2403fc62ef91a26ab89361a4e2182ca95cec9a5a2c2f78821bbb27da745",
+      "publisher": "Japan Meteorological Agency",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "JP-JMA",
+      "sourceId": "b5-jp-jma-20220209",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "4a0013825fbec4f7138b140bea8d56a546338174dfdb3d55c50e1961bd6a668f",
+      "sourceType": "primary",
+      "url": "https://www.data.jma.go.jp/suishin/oshirase/pdf/20220209.pdf"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-jp-jma-284"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "1bda4095b8cfedec769c993feec8ff1179d42db165bb9bef4d8105eef5fc4ec4",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "9f75dadb6fc79b947248e3fff4949985c8bb831cbede77f290aca4cbac059085",
+      "publisher": "Japan Meteorological Agency",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "JP-JMA",
+      "sourceId": "b5-jp-jma-284",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "825a40473ea6ad29a93aebab44246882aee36220042bc5f1c1453e1500a6a0e2",
+      "sourceType": "primary",
+      "url": "https://www.data.jma.go.jp/suishin/jyouhou/pdf/284.pdf"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-jp-okinawa-opening"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "9d5a719ccf32b2048d4596534c29bab45dfbf7075eda69ccaad267c696cd4b0b",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "33bbaa454650a7e2db07a5563617ba36b5a3aaf6f5ed852fcadbc556aad5a906",
+      "publisher": "Okinawa Prefecture",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "JP-OKINAWA-PREF",
+      "sourceId": "b5-jp-okinawa-opening",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "cc8a49da4d400a5c230a7e51f83bb8b7a220bcfb51220667c89c94ed29c47081",
+      "sourceType": "primary",
+      "url": "https://www.pref.okinawa.jp/shin-ishigaki"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-kr-aim-history-2025"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "8ef8872071424f9db88760d8672425825fc335ef8d477ecd0d1c5f1afd822f0d",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "03ccbba027b1d7f1fe4ba18fd9e636ff7ed4976a96a01fd3a761c85a1752f8ce",
+      "publisher": "MOLIT / Korea Office of Civil Aviation AIM",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "KR-MOLIT-AIP",
+      "sourceId": "b5-kr-aim-history-2025",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "e79021b5ed0a6176b8dcdaa75dda655907a9aaa912d85edd3fc2285f49306d7d",
+      "sourceType": "primary",
+      "url": "https://aim.koca.go.kr/eaipPub/Package/history-en-GB.html?ver=2025"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-kr-rksi-20250416"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "1d87cd3dde4540a987938625c22b847b7acee924ad3c52363856c5fae54ddc65",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "94b5f30e3a00ed8895354b02f9dbb82ff0ef597191bbe221a6eded6e5d71bcfb",
+      "publisher": "MOLIT AIM",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "KR-MOLIT-AIP",
+      "sourceId": "b5-kr-rksi-20250416",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "02665f03476809a4398cbc9ce36d0b3e06d48c2fefa18f8342aac5f24beb9f1c",
+      "sourceType": "primary",
+      "url": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eAIP/KR-AD-2.RKSI-en-GB.html"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-kr-rkss-20250416"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "f6f32f22b06392c93e7ff1cc695191b3df7b31a5f066122697248fa0f8ae9b9e",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "7eeb54ff1db617b8418b8f9795b6fd11f1e86164bb7276d7230ff4357fe66d9c",
+      "publisher": "MOLIT AIM",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "KR-MOLIT-AIP",
+      "sourceId": "b5-kr-rkss-20250416",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "3b1870d55dccf54603df79ed12d8b00119cddbcafc8e819808c8012ca65ace32",
+      "sourceType": "primary",
+      "url": "https://aim.koca.go.kr/eaipPub/Package/2025-04-16-AIRAC/html/eAIP/KR-AD-2.RKSS-en-GB.html"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-th-aip-vtbs-2026"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "58fc1ef1516f5a84beab33642e8a1cd4f13a50a6b717bf668eb6c5035785df7f",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "93ecc3c786ca1185b9fbe17d83737c3e3f92ee4a2a5a2e69838f85525d8610f3",
+      "publisher": "CAAT",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "TH-CAAT-AIP",
+      "sourceId": "b5-th-aip-vtbs-2026",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "7b3147af38f5c7b8d7bdcab4c65e0bf28723dd68e34b1efcd8e23a20946050b9",
+      "sourceType": "primary",
+      "url": "https://aip.caat.or.th/2026-10-29-AIRAC/html/eAIP/VT-AD-2.VTBS-en-GB.html"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-th-aot-2q06"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": null,
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": null,
+      "publisher": "Airports of Thailand PCL",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "TH-AOT",
+      "sourceId": "b5-th-aot-2q06",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "1876f377d848cf49f152579d116f90c7f0f085f67dc188d6bad7b69d1474e984",
+      "sourceType": "primary",
+      "url": "https://investor.airportthai.co.th/misc/OppDay_2Q06.pdf"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global-batch-5/catalog.json",
+        "sha256": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+        "sourceId": "b5-th-aot-fy06"
+      },
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": null,
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": null,
+      "publisher": "Airports of Thailand PCL",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "note": "Reuse is confined to existing factual notes, metadata and minimum citations; underlying rights unchanged."
+      },
+      "sourceFamily": "TH-AOT",
+      "sourceId": "b5-th-aot-fy06",
+      "sourceLockPath": "research/evidence/global-batch-5/source-lock.json",
+      "sourceLockSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "sourceRecordSha256": "6e2ea8a115194a249b273bb62d089890b9cb3b2f4bf8f6401bbaaa19e32794c7",
+      "sourceType": "primary",
+      "url": "https://investor.airportthai.co.th/misc/FY06%20Presentation.pdf"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/cn-aka-sina-20170715.json",
+        "sha256": "d7253cbc78658f94ba8703a0768090524c92282bfe752de099d6114261ade80d"
+      },
+      "extractedTextSha256": "7006a2e46ad55fb6a501e706019934ff00dfa043ce57da99fa0d1e9cdd46a68f",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "dc559f582e00d921a1ae1e98a4483473bce36bc56a8aafd906fe230bbd59480e",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "4c294c99bd488533d56b69af018c157123031e0cfea6ea0c6fa348dfe8076b63",
+      "publisher": "Sina Aviation; underlying data credited to Qunar and others",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "Sina-Qunar-airport-directory",
+      "sourceId": "cn-aka-sina-20170715",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "978cf061ead682cdd19ee81323868ae37273112b0929888df8e9df74fd562436",
+      "sourceType": null,
+      "url": "http://skyinfo.news.sina.com.cn/airport/airport.php?three=AKA&dpc=1"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/priority-markets/catalog.json",
+        "sha256": "00cd5da944ed41b11b9796609ee61f68e51c25acd6c5464976c8ae42f3300de0",
+        "sourceId": "cn-ankang-executed"
+      },
+      "citationReference": {
+        "path": "research/evidence/priority-markets/excerpts/cn-ankang-executed.json",
+        "sha256": "4969922a634e7287cf4daed4643808690ae47b9a656ea85d60cff0ab471109f8"
+      },
+      "extractedTextSha256": "b5aaf8632f4a46f59a8ddaedb0d235463cee2e8024ef57158f154172e8b04009",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "8485a89130ae1672fdd21bf71ca809d3addfc91d4a04214a6b8252d7d0150e11",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "45ca1cfa2658b99cedcbae6cb971d91fc86e892c27b25d2f132dc38170773cc1",
+      "publisher": "CAAC Northwest",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only attributed factual text is quoted. No complete HTML/PDF, extraction, chart, photograph, annex, or code ledger is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "CAAC",
+      "sourceId": "cn-ankang-executed",
+      "sourceLockPath": "research/evidence/priority-markets/source-lock.json",
+      "sourceLockSha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437",
+      "sourceRecordSha256": "67d7b8af49c778bc721b703ce00b421a2f7e555209a36b1ca7e5f064942d8f97",
+      "sourceType": null,
+      "url": "https://www.caac.gov.cn/local/XBGLJ/XB_XWZX/XB_DQYW/202009/t20200927_204657.html"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/priority-markets/catalog.json",
+        "sha256": "00cd5da944ed41b11b9796609ee61f68e51c25acd6c5464976c8ae42f3300de0",
+        "sourceId": "cn-ankang-license"
+      },
+      "citationReference": {
+        "path": "research/evidence/priority-markets/excerpts/cn-ankang-license.json",
+        "sha256": "aa204adaaed5234413255351155df3505334e238cdd052740278351221dd8b05"
+      },
+      "extractedTextSha256": "9930f44dcc7d1a474e950587b9da90bfa8f085eb85cc61a147115e84f2a32f84",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "99a76b7f651bb69599d3b268285f9b1b176e27dcabf389c348334927493aba9a",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "c3b6a2ca3ba2b65f3a5c61bdfc01c9a89cb590beb7288c3711ea74136b4bdade",
+      "publisher": "CAAC Northwest",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only attributed factual text is quoted. No complete HTML/PDF, extraction, chart, photograph, annex, or code ledger is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "CAAC",
+      "sourceId": "cn-ankang-license",
+      "sourceLockPath": "research/evidence/priority-markets/source-lock.json",
+      "sourceLockSha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437",
+      "sourceRecordSha256": "a979113ae347725ea56ff7070b4b62b70ad02ca53af6eef99b6106ca69f1aae6",
+      "sourceType": null,
+      "url": "https://www.caac.gov.cn/local/XBGLJ/XB_XWZX/XB_DQYW/202009/t20200924_204628.html"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/priority-markets/catalog.json",
+        "sha256": "00cd5da944ed41b11b9796609ee61f68e51c25acd6c5464976c8ae42f3300de0",
+        "sourceId": "cn-eny-detail-20191114"
+      },
+      "citationReference": {
+        "path": "research/evidence/priority-markets/excerpts/cn-eny-detail-20191114.json",
+        "sha256": "e6b66f74f9e964595a8151f3b64bb70abc1870920101e1dd2c98fed959e27868"
+      },
+      "extractedTextSha256": "284f03f91248a49ee324dd72eb1833526309f6d646156af2710bbd90eff669ea",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "762b7910a68642d6afb061fbfdf63d9ed630d456637c4c2511002709fc47da4c",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "34e99aa27684c517deb6e5d7f74396b97d54ff06746eff146d26ae0d5f239b04",
+      "publisher": "Spring Airlines",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only attributed factual text is quoted. No complete HTML/PDF, extraction, chart, photograph, annex, or code ledger is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "spring-airport-directory",
+      "sourceId": "cn-eny-detail-20191114",
+      "sourceLockPath": "research/evidence/priority-markets/source-lock.json",
+      "sourceLockSha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437",
+      "sourceRecordSha256": "232aea457f2e1f6865f21e2baf757e32ec0ceef61ff3519946bb97673fcbc20b",
+      "sourceType": null,
+      "url": "https://flights.ch.com/airports/jianjie-ENY/"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/cn-eny-sina-20170716.json",
+        "sha256": "477813c6473762066f230f4a0ff61ecf2b5fb039aa52fb964f42b40efa962e5a"
+      },
+      "extractedTextSha256": "95709f6fcd65dfe824b8a0de6ef167f44490db942e6b46f802cf15035e26716d",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "72ec8282f431e40fb52c172270f1d15dfb41377e4db2438fde3036ca03656ff4",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "764d9424c4faa616ffaa2fbe83bfee8df5af7b2eb513cbdb305fccb1d6e3bd70",
+      "publisher": "Sina Aviation; underlying data credited to Qunar and others",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "Sina-Qunar-airport-directory",
+      "sourceId": "cn-eny-sina-20170716",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "99dc80fcea328c54c4e2ab159d983a6dbe88dc68fb78bf349738da5d1886761c",
+      "sourceType": null,
+      "url": "http://skyinfo.news.sina.com.cn/airport/airport.php?three=ENY&dpc=1"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/priority-markets/catalog.json",
+        "sha256": "00cd5da944ed41b11b9796609ee61f68e51c25acd6c5464976c8ae42f3300de0",
+        "sourceId": "cn-lyg-20210301"
+      },
+      "citationReference": {
+        "path": "research/evidence/priority-markets/excerpts/cn-lyg-20210301.json",
+        "sha256": "320ae7ae555e7a12c3ad56fd25307462f2cce58819c36ecc6e18104f13b45948"
+      },
+      "extractedTextSha256": "9e4de819a363f90cb1a8c180d3013942287f3b721e9178b99793b09b8b50b8d7",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "90f2aa7f0f4d6191532b12ff59eae9d895884704d07336d7ab6141b18e0b9169",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "0033fd325fdec9034dbea8f09645f94ad5a93b3ae09a34e98b17880543fa99e4",
+      "publisher": "Spring Airlines",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only attributed factual text is quoted. No complete HTML/PDF, extraction, chart, photograph, annex, or code ledger is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "spring-airport-directory",
+      "sourceId": "cn-lyg-20210301",
+      "sourceLockPath": "research/evidence/priority-markets/source-lock.json",
+      "sourceLockSha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437",
+      "sourceRecordSha256": "b2dbde50adc9217cf67a622a69791f3686dd3b1d33799ddfc533a568c57ea77a",
+      "sourceType": null,
+      "url": "https://flights.ch.com/airports/airport-LYG/"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/priority-markets/catalog.json",
+        "sha256": "00cd5da944ed41b11b9796609ee61f68e51c25acd6c5464976c8ae42f3300de0",
+        "sourceId": "cn-lyg-20210922"
+      },
+      "citationReference": {
+        "path": "research/evidence/priority-markets/excerpts/cn-lyg-20210922.json",
+        "sha256": "d59db66f6fa6616442f7c3d6fec3dd9c054c3f2891e2b9a74645511ab60545ee"
+      },
+      "extractedTextSha256": "4d4dc69adbcee7d339172db5efab213b77d9f5294bb855ab18f84736a93a24f4",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "fcc67339099436ee382132e380d3000d35fbb5d053e8d534c28ef229357a9463",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "c73ed986e27f989080ce97891cbb7b20552cc5edd869a41a66047ab7f34c3346",
+      "publisher": "Spring Airlines",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only attributed factual text is quoted. No complete HTML/PDF, extraction, chart, photograph, annex, or code ledger is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "spring-airport-directory",
+      "sourceId": "cn-lyg-20210922",
+      "sourceLockPath": "research/evidence/priority-markets/source-lock.json",
+      "sourceLockSha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437",
+      "sourceRecordSha256": "dc47786954822610d15f8858b8452ebaa8ba9a74a790b5589449212ed6e333fb",
+      "sourceType": null,
+      "url": "https://flights.ch.com/airports/airport-LYG/"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/cn-lyg-sichuan-202111.json",
+        "sha256": "c10c2950bb098f86df3c0518f6199420681895dc97cdb5c63416b4a1a608bd73"
+      },
+      "extractedTextSha256": "c03b3d2a9cf52acc13857d1f87cbb9612eddd9f85bdc2dfa58577bfabdf72257",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "2c75e815b1d2ea53ba60b5e88654b415dfe5cc6345c02f8a383d4a48cca6f0f7",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "078334a6588ca097d03262759f34be3a85443cbc6fda50ec171ba958375aa130",
+      "publisher": "Sichuan Airlines",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "Sichuan-Airlines",
+      "sourceId": "cn-lyg-sichuan-202111",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "87b9c080e1361029dc6191b1ab38c22c02bd419a69abc072e64963bd5b3e159c",
+      "sourceType": null,
+      "url": "https://www.sichuanair.com/affiche/310.html"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/cn-lyg-sina-20170715.json",
+        "sha256": "af00fa7077930cde02dd2d836fbffa4f5f12b8a2a98dc8716d941b5421668359"
+      },
+      "extractedTextSha256": "815ba7dafc907d9a0b9693e23b63c978d13a2781bcab7bb936f564679c22a7b0",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "4f68ebbda1ad2cbbeb9cd0ec6bbf8d86d2477577ea680836ebb035ab5f239c68",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "3b136463211a22290e7e4dabc138bda306691fb6e4fe6870f00fa1212e7ddd60",
+      "publisher": "Sina Aviation; underlying data credited to Qunar and others",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "Sina-Qunar-airport-directory",
+      "sourceId": "cn-lyg-sina-20170715",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "7727a5451924e0d9d46fbf80252a9e3e2a99e8b2f32a5c7ee7cdd7f2cf461a7b",
+      "sourceType": null,
+      "url": "http://skyinfo.news.sina.com.cn/airport/airport.php?three=LYG&dpc=1"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/priority-markets/catalog.json",
+        "sha256": "00cd5da944ed41b11b9796609ee61f68e51c25acd6c5464976c8ae42f3300de0",
+        "sourceId": "cn-lzo-detail-20191117"
+      },
+      "citationReference": {
+        "path": "research/evidence/priority-markets/excerpts/cn-lzo-detail-20191117.json",
+        "sha256": "1a3b56d2c3af76d0965c729047a46553efd11eaa58f07559b9a36d91ad571c90"
+      },
+      "extractedTextSha256": "c320bf5b683187e6a0addfa4e72cadb7dd3ca887dc3dcd3aa9cbf2ba6deba966",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "b3da10f2eded10ba4d9dc293ee82d93bd143c9fdebdd67e5fc7ba50c183acd8c",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "c3f9a01986fb9a193ad9e183e3711f11e09138c24de929cf5a034e1bf0e19032",
+      "publisher": "Spring Airlines",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only attributed factual text is quoted. No complete HTML/PDF, extraction, chart, photograph, annex, or code ledger is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "spring-airport-directory",
+      "sourceId": "cn-lzo-detail-20191117",
+      "sourceLockPath": "research/evidence/priority-markets/source-lock.json",
+      "sourceLockSha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437",
+      "sourceRecordSha256": "864d039ba3961660074d9ce2a9df3125a9277b85a59b3f2cce89a880014ffc0b",
+      "sourceType": null,
+      "url": "https://flights.ch.com/airports/jianjie-LZO/"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/cn-lzo-sina-20170715.json",
+        "sha256": "7ff17962b2953455d78b509d724b3b70ee6f372ae09ed7c0948da30fcbe3d688"
+      },
+      "extractedTextSha256": "84af192ca632218f54a3430b538262ff78b6888ea9e8c2499ad52bd42a91c1d2",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "d0539ae24b322c5071d997d5ee69ca316968b3c6b463d5f56b3f654b6f0eb803",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "247b83f61892aa570117ac29954192edc71abc5f4a0cc007803593f904f80f9b",
+      "publisher": "Sina Aviation; underlying data credited to Qunar and others",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "Sina-Qunar-airport-directory",
+      "sourceId": "cn-lzo-sina-20170715",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "7fe94e698db1e8f22fe1d8034d1b32ec0b5f1423f2e154924403dc9408c4d686",
+      "sourceType": null,
+      "url": "http://skyinfo.news.sina.com.cn/airport/airport.php?three=LZO&dpc=1"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/priority-markets/catalog.json",
+        "sha256": "00cd5da944ed41b11b9796609ee61f68e51c25acd6c5464976c8ae42f3300de0",
+        "sourceId": "cn-met-2009"
+      },
+      "citationReference": {
+        "path": "research/evidence/priority-markets/excerpts/cn-met-2009.json",
+        "sha256": "807db191728f455a08b351838fbde7d500b49568e64007d6882ebb41b024cdf2"
+      },
+      "extractedTextSha256": "c7f084b1a7bb7c135e82dff709fd49a1edd2d2afd097a61b39ab07fb9f3d13f7",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "9e3eb36085847b53d26353e4da523e15aeac36a2525bbc179f01e980393eb74a",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "0fdc915db4772a03365f7fa4d86d99a641da5d90eae95ed141562786757ec459",
+      "publisher": "CAAC",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only attributed factual text is quoted. No complete HTML/PDF, extraction, chart, photograph, annex, or code ledger is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "CAAC",
+      "sourceId": "cn-met-2009",
+      "sourceLockPath": "research/evidence/priority-markets/source-lock.json",
+      "sourceLockSha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437",
+      "sourceRecordSha256": "5638a7a89c61b09077757a00b1c41018d81894507c4d875343a9fcc3544cb571",
+      "sourceType": null,
+      "url": "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/201511/P020151103346926804323.pdf"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/priority-markets/catalog.json",
+        "sha256": "00cd5da944ed41b11b9796609ee61f68e51c25acd6c5464976c8ae42f3300de0",
+        "sourceId": "cn-met-2026"
+      },
+      "citationReference": {
+        "path": "research/evidence/priority-markets/excerpts/cn-met-2026.json",
+        "sha256": "da93cb5528e03108ebc6b1c2d5bd0665cf6d89e159e32b739fe435db802c46e5"
+      },
+      "extractedTextSha256": "adb1fa507420aac2ec7e82316910de27d8de7f663b1cf7cff4db3835117c5df6",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "136c6aed4f1e5e94995b6d6162deb18b57c7c17f845e03b2a0d44e6ee1ac2979",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "74c367a788db681bf939aea6ab3269a5396c39dbb4b04618f1aa36e89b835edc",
+      "publisher": "CAAC",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only attributed factual text is quoted. No complete HTML/PDF, extraction, chart, photograph, annex, or code ledger is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "CAAC",
+      "sourceId": "cn-met-2026",
+      "sourceLockPath": "research/evidence/priority-markets/source-lock.json",
+      "sourceLockSha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437",
+      "sourceRecordSha256": "a35751003f96f982fc2c4ff53c4c253127d0846b49ec36791fc050c1ece0e078",
+      "sourceType": null,
+      "url": "https://www.caac.gov.cn/XXGK/XXGK/GFXWJ/202609/P020260917608044021612.pdf"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/cn-ybp-sina-20170715.json",
+        "sha256": "80ebc723145b12f3e59964d52e72541b2e69d61efc0358abd19e179745dae9c1"
+      },
+      "extractedTextSha256": "25174213cbd9494b7b6c700ddeadb886b434f926a192cfc289996f5c1d5b08cd",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "b837d88b99957f2ae9577807a9807380fe780d5192d07f474db5d2c3ff17987b",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "eabb00ceb1321366a2882f8539420b369aa38a5511cccfc9e0f9c81f7336cb54",
+      "publisher": "Sina Aviation; underlying data credited to Qunar and others",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "Sina-Qunar-airport-directory",
+      "sourceId": "cn-ybp-sina-20170715",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "31e7300e94f5c16fc1f7d00670fc92f355048b208b29a19e7016a615a6c64cad",
+      "sourceType": null,
+      "url": "http://skyinfo.news.sina.com.cn/airport/airport.php?three=YBP&dpc=1"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/priority-markets/catalog.json",
+        "sha256": "00cd5da944ed41b11b9796609ee61f68e51c25acd6c5464976c8ae42f3300de0",
+        "sourceId": "cn-zha-detail-20191113"
+      },
+      "citationReference": {
+        "path": "research/evidence/priority-markets/excerpts/cn-zha-detail-20191113.json",
+        "sha256": "4872ca376dc200d195e75cdcc84ee41fbe601fa7ce7da0befc4738889021a4f4"
+      },
+      "extractedTextSha256": "369d406ce9a84a69ec3366e8afcc5c1cf3a4ddfc9c39847ccfdc70d128072ad0",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "d40b390a33775501b05a7d96970631a4e440ce03cf93525983332d779f71fdb6",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "f3eaa977d9654fb4d6e7f551f279b37aeb6daadfc9f55bd358e3dc4109a1a904",
+      "publisher": "Spring Airlines",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only attributed factual text is quoted. No complete HTML/PDF, extraction, chart, photograph, annex, or code ledger is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "spring-airport-directory",
+      "sourceId": "cn-zha-detail-20191113",
+      "sourceLockPath": "research/evidence/priority-markets/source-lock.json",
+      "sourceLockSha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437",
+      "sourceRecordSha256": "b07acdf3b450ab10e115f108b5c3f8d0ee14c29a0bbac65b012605addc80428f",
+      "sourceType": null,
+      "url": "https://flights.ch.com/airports/jianjie-ZHA/"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/cn-zha-port-20190218.json",
+        "sha256": "1857ae0d95a303a79e8471616b577a241d2548e5151089bd07c31f8442057d45"
+      },
+      "extractedTextSha256": "d48399627df37729bce0a7e5b0f42a3e0fbf57459dfd6d8c2a1fe0685d0f298c",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "a3fa8676e35569a221da022bff65219a7ca40a337d906a8fe9a32286d4c6347b",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "94fe5d25bf8aa00eedc220a007462c723708a1874a4696e0b62a1faf38a8ffcc",
+      "publisher": "China Association of Port-of-Entry",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "CAOP",
+      "sourceId": "cn-zha-port-20190218",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "3e8e32404b7f06ed459d7d8469a61064b122dfde0cc5e052c7a1a004e4a75ac7",
+      "sourceType": null,
+      "url": "https://www.caop.org.cn/kaifangkouan/yunshufangshi/kongyunkouan/2019-02-18/36.html"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/cn-zha-protection-2020.json",
+        "sha256": "abe794268e3bf797364ad7ec0ad8107745c7980accd0efb2576137922f6b8488"
+      },
+      "extractedTextSha256": "cbf30e5ec1183b544ab5b8ad2c157d13aa10ea2cfaf872e98c6b1154c8a0eccb",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "fed4c99d7ec777c22dc2728ec9b95b071a05276e0d6fe8265a561c5f708b5f43",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "abcfbd2b1f6bc98202dd78b1897bc5a8b9c2dc16aa843242667ab2a17455b97a",
+      "publisher": "Zhanjiang municipal government",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "Zhanjiang-government",
+      "sourceId": "cn-zha-protection-2020",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "f0db9de1f6e84bacb383e8fe851318fd4c32ea0713986f2dadc520ff1c72c1f9",
+      "sourceType": null,
+      "url": "https://www.zhanjiang.gov.cn/attachment/0/36/36754/1322188.pdf"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/cn-zha-protection-notice.json",
+        "sha256": "4efd3e84bffa3829b1cfbd6c15eeda584495273ce1a685867cac13276c572b1b"
+      },
+      "extractedTextSha256": "d9c52ff4400d6865625a3e2a2f6208ca1f156ccd28f89dfaa9b2eaae3de9afb3",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "6aa188b835b7d7c01fff633b64143723228392be25067b759a15891c3d496b62",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "e84028093b11a136ab877f799fd18ece95db9f56b7ddb7f68eda98928ba4d75c",
+      "publisher": "Zhanjiang municipal government",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "Zhanjiang-government",
+      "sourceId": "cn-zha-protection-notice",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "9f0cde309a54f4db0ba5ba8ba116644d26ab3efb78b77a81b75d2021a4460a36",
+      "sourceType": null,
+      "url": "https://www.zhanjiang.gov.cn/zjsfw/bmdh/zrzyj/zwggk/tzgg/content/post_1395839.html"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/cn-zha-sina-20170715.json",
+        "sha256": "a90e8f2bd7af1db8db741ba4a6b0d4e8a8a8e3ebcc82b2b63851c8f638f19ca5"
+      },
+      "extractedTextSha256": "491b5d1f97aac9e3904df1b427738eb9cc761e539c8e936802d5961cfb2649b1",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "48b599fd15d62a8c9f4c83ba62abc7f1bdb5d485288005187a5fe6ae3eb53909",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "2a67a857ae50901ad8494dd7eb0a72bdc4d0802b69389f61dd227aacd7c8491c",
+      "publisher": "Sina Aviation; underlying data credited to Qunar and others",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "Sina-Qunar-airport-directory",
+      "sourceId": "cn-zha-sina-20170715",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "10105cd0d1157f9a041a0a4b8b52bc09331108934b74f0092cb6ebf82c8abb2a",
+      "sourceType": null,
+      "url": "http://skyinfo.news.sina.com.cn/airport/airport.php?three=ZHA&dpc=1"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/iata-aka-20261030.json",
+        "sha256": "fb41d3f48b0e48abd907a22a38db4fdcb3570a8bd311c0f113dc7c11cd36299c"
+      },
+      "extractedTextSha256": "895f8b55cff7117ad44fdea5197c8a3745d5487ec5f680e5793e83ff0ec5dfeb",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "9b3e6eef255630b78526bf45637ea35b666808375f3a61aa21daa7bdbdb79dcf",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "c3d493f8ad49caad428c43dae62ffa56043fdc661073edcf0486ba09ff3d9f66",
+      "publisher": "International Air Transport Association",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "IATA",
+      "sourceId": "iata-aka-20261030",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "00c5c6a85f844c9ee79a8a0ba343252b08ad51142aabd94995f5eeed40f8460e",
+      "sourceType": null,
+      "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=AKA"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/iata-eny-20261030.json",
+        "sha256": "c19ae24e7ad8fffcae77308daea5776c7883b82edd9b80cbdc7e0b28807615e8"
+      },
+      "extractedTextSha256": "03da82777a2be2cfa98ef12f0b7f5c22781a2dde76cca6129766f3d51a8f4f91",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "c94d6cf2fead335d42a0f48123d0415fdbe84d9a0a30157a70011b1081d168f8",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "9fb077479d20c044294b563c04a58870a22e682a5abb21f0266c328674fba6a8",
+      "publisher": "International Air Transport Association",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "IATA",
+      "sourceId": "iata-eny-20261030",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "5531561dd4739f349cb99eb6c827bb449590f1dc3c8c480195b40e549e0e642e",
+      "sourceType": null,
+      "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=ENY"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/iata-lyg-20261030.json",
+        "sha256": "e966beff556121e4d66d2ac7a9091d4c96c22a2a2a992eadb052eadeddbaddb3"
+      },
+      "extractedTextSha256": "bcbf3aecf70dc0583c12f3e9ef4a016ae7f8f1bb101125ac3ceb937b8370e40d",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "6c93b1514197950258b910c6b97459b4c77875f8d945a9e51938f5428154e6b6",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "b410ea18d9414d9babeefec7a3ad091e56743e991893393958b20b35d679e0d3",
+      "publisher": "International Air Transport Association",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "IATA",
+      "sourceId": "iata-lyg-20261030",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "02bf5c0170485073a92c69a658040f5efce096fa7fb9db70f8cee1d838255b4e",
+      "sourceType": null,
+      "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=LYG"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/iata-lzo-20261030.json",
+        "sha256": "2ea875903c936e678f2d8e06c5d31178bebfea2946520e1cf7b9a8bc924ee0ac"
+      },
+      "extractedTextSha256": "353b6b22280561f637400cb28014a17e241a101f75e3c06a6d3c105dc8cdfacc",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "abcd64c8a0429c7b1a439e864db54d4a5ed9792f572cfb2907c5eecd1a5bf81f",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "cc7584a056564a7b1cbd72a86befb4aa6d5d3b29f262e6df15b91294ade776e4",
+      "publisher": "International Air Transport Association",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "IATA",
+      "sourceId": "iata-lzo-20261030",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "f836cbdcbaaaa69e75f77dc92c0853d37c6610d6ef3e7a1c8b8c1c96d4bc80bc",
+      "sourceType": null,
+      "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=LZO"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/iata-ngo-20261030.json",
+        "sha256": "318bea702759f89292984e4dba7082ae05e454ef638cdb237d798490f100c72d"
+      },
+      "extractedTextSha256": "e99ff1837c9166ca31a199dbeb8b73051c4ccd3f89505e1c625582dc3ad0288a",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "bb9e7214d402a151fabf6bf590ee00d74b978bd75b90b1e46ee03186d51a9235",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "82a1e97a5a784f4857912b52bf08e276037d867fd7d333ad702af711e6a0bd18",
+      "publisher": "International Air Transport Association",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "IATA",
+      "sourceId": "iata-ngo-20261030",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "8122f4e6418ac787a1d0e45c64d79d0ac52a8d8a576e347ec937e6f0cd79565b",
+      "sourceType": null,
+      "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=NGO"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/iata-nkm-20261030.json",
+        "sha256": "c26e7eaebe4282256631b106d3d629baebde9d4653982c43c01ab41b89021fb0"
+      },
+      "extractedTextSha256": "87f49b32f5dc1698eb5cf7807005fad66e952cf77b70c3a223a57dc351939e09",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "52b00f2aed5fc4eda5fb01cace2a4ae771489cb65d2f83e067c433ee0f4cde42",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "2058d92e445c677b3a81e73a661ff46867f72b972608d4596d00de092f6b0736",
+      "publisher": "International Air Transport Association",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "IATA",
+      "sourceId": "iata-nkm-20261030",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "1af2849836e75d0e6a701bf174a3f6fa64cb575495b3aaf1dc44b2d1be744621",
+      "sourceType": null,
+      "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=NKM"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/iata-ybp-20261030.json",
+        "sha256": "ed82183344d3482170b9220c0f2a2dbb55b9a035cfc220ef31a51c895b53ecea"
+      },
+      "extractedTextSha256": "2f5483190dc3b8ca237e1e50651bb4e58dfbaafeac5e85d5087e7ad2c7e399f7",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "bf6025376afebdda183f604c546534e5a008aaea26f6f0f508a2e10bd25e1582",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "a6023657f0c2770630c03f84010f4364b0348b5ff8098076dc974638e650e269",
+      "publisher": "International Air Transport Association",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "IATA",
+      "sourceId": "iata-ybp-20261030",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "0a46a8fed473c2046e9162d8810be86a84ee6a55bf1a994c919decc129620f69",
+      "sourceType": null,
+      "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=YBP"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/iata-zha-20261030.json",
+        "sha256": "fd15b9a497c148ee9b1b4bd9ba06a296e10ec51545752ad782a913bec1aaa2d8"
+      },
+      "extractedTextSha256": "7556400779a7afbab1d46f53d0b081311eecbf10aad30ab11731ed4ec8e22240",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "99c9a814d9622ac58c63abaee6b1af2a2cda9566ecd2e1cb10d28df8c4b852b6",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "f6e3dbf5573d58d17e65084735cc6f759e5faf91310012430154fc9c624e15ba",
+      "publisher": "International Air Transport Association",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "IATA",
+      "sourceId": "iata-zha-20261030",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "9b2afc0662cf9f9b2e5ff9b42d18944a727faa04c1282d667e68a49cbac55025",
+      "sourceType": null,
+      "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=ZHA"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global/catalog.json",
+        "sha256": "48b3b3055cae32f63a8007b424e1647092dc13526540781ecc25de3d0e94486e",
+        "sourceId": "id-yogyakarta-airasia"
+      },
+      "citationReference": {
+        "path": "research/evidence/global/excerpts/id-yogyakarta-airasia.json",
+        "sha256": "b0e0052f91bb589f15220545266e47d1c6853431ab81270e24f2049b2c3a6fb9"
+      },
+      "extractedTextSha256": "5af29fc2e40844f2e2f0763aa1fe893e850d156ea52d1e9479f45aa55cd948f5",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": null,
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "2a46e56dc73036e075291d197e5b4bd07e835934bbb0d647fdb82f2859879db0",
+      "publisher": "AirAsia Indonesia",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Evidence archive excluded from repository MIT license; no license to photographs, charts or trademarks granted. Redistribution scope must be checked before downstream republication.",
+        "url": "https://newsroom.airasia.com/news/2020/3/19/airasia-to-move-its-operations-in-yogyakarta-to-yogyakarta-international-airport-kulon-progo-starting-29-march-2020"
+      },
+      "sourceFamily": "AirAsia Indonesia",
+      "sourceId": "id-yogyakarta-airasia",
+      "sourceLockPath": "research/evidence/global/source-lock.json",
+      "sourceLockSha256": "7edaecaa997d2cc932e5fd4e4961600cbfa40228749f404981ebc10693ad8185",
+      "sourceRecordSha256": "9faa5b14d3828078dcc7dd9e9b849bb622006bac747b2313d22519b27cf5acbf",
+      "sourceType": "primary",
+      "url": "https://newsroom.airasia.com/news/2020/3/19/airasia-to-move-its-operations-in-yogyakarta-to-yogyakarta-international-airport-kulon-progo-starting-29-march-2020"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/jp-jma-rjgg-20041228.json",
+        "sha256": "2b6e3c26eb40a352ac199177b977c7a0d96b8a268255f49d2c71016d2817c2ef"
+      },
+      "extractedTextSha256": "1435d94fdcd66e17b9143ebb73fb34cb4f68d4a8021bf099536136a1a30baeec",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "8c3f02feec8d0e4a8c6d9eac06db1ca825a85b7358f7f66336099ac9e5c1f870",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "26b418e86436ffc0600cc367887dd932322eced8f8fbeabbbad73e98ec823889",
+      "publisher": "Japan Meteorological Agency",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "JMA",
+      "sourceId": "jp-jma-rjgg-20041228",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "23c96466175dcfba6b28646d87d3636327c2ff056b57af975ec6592f558d0d96",
+      "sourceType": null,
+      "url": "https://www.data.jma.go.jp/suishin/jyouhou/pdf/179.pdf"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/jp-jma-rjnn-rjna-20050209.json",
+        "sha256": "a7335afa66bf99d861b3a2db769b41aa8a907bf51500833b72c25bb093150f2f"
+      },
+      "extractedTextSha256": "f5060c049a3f684b38df43b91c1278cb56ddabcb7c4edd50a036791c508f9d1c",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "576b8073ca2fdaca10071d5bd93d9343e049095c3c6cbadbf3f0bd50b52c5d0f",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "219a1cc821a53df5dbe4506438a840bc75403a19f6bb85c2b39ecce99b786565",
+      "publisher": "Japan Meteorological Agency",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "JMA",
+      "sourceId": "jp-jma-rjnn-rjna-20050209",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "6f51fcc6cef417558dc5548db75f0e625c4bd608de0ea7b426158624b8a2c40f",
+      "sourceType": null,
+      "url": "https://www.data.jma.go.jp/suishin/jyouhou/pdf/182.pdf"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/kr-20250501-rksi.json",
+        "sha256": "ce2e510c5dc0eb6452032db2903ed082a8b8c02a0a932ebad4f0b3047012fe7f"
+      },
+      "extractedTextSha256": "06c9b745b51d518e9edc5ae5d178469a54f7d8197c62853f6fd544ec2d8980ff",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "78187c071150f02d3b46bc9a714d7734ac25e807b28665ff035ef35461f4ad35",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "532003effc3d07cb686feac666bddabbf0992aeffae3d4f13a15c78b141bbad7",
+      "publisher": "Office of Civil Aviation, MOLIT",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "KR-MOLIT-AIP",
+      "sourceId": "kr-20250501-rksi",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "b6b6aa82b714f6879113c44a5cc629b6626fa0563d0070833417db6eed5cc4a3",
+      "sourceType": null,
+      "url": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/eAIP/KR-AD-2.RKSI-en-GB.html"
+    },
+    {
+      "extractedTextSha256": "06c9b745b51d518e9edc5ae5d178469a54f7d8197c62853f6fd544ec2d8980ff",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "78187c071150f02d3b46bc9a714d7734ac25e807b28665ff035ef35461f4ad35",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "532003effc3d07cb686feac666bddabbf0992aeffae3d4f13a15c78b141bbad7",
+      "publisher": "MOLIT AIM",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": "metadata_and_minimal_citations_only",
+      "sourceFamily": null,
+      "sourceId": "kr-20250501-rksi",
+      "sourceLockPath": "research/evidence/priority-market-batch-6/source-lock.json",
+      "sourceLockSha256": "3fae88d999f564f21cbd1f55a88909ff8b0f31532a6383eb21452c85260ad461",
+      "sourceRecordSha256": "6783d67d2c217d0a20b37380b8e1e77395a0a104379dcfc812122c7075311f43",
+      "sourceType": "unclassified_research_source",
+      "url": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/eAIP/KR-AD-2.RKSI-en-GB.html"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/kr-20250501-rkss.json",
+        "sha256": "b79811e7f948a852bb27c6fd88da6477a4cda21c2984d194a42adb149f742398"
+      },
+      "extractedTextSha256": "dea754ad32a8454fdd76465817047031b688571eecf96ec1c1bf9ed44e090d13",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "3f4033350d49bbb48c5a0854c33614209c102b63bbf32d3db6aa10fe12a55e86",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "ea406d7aec1e721792781aea0efee639c271fa55d16afd65a3eb0a0b2dd856a3",
+      "publisher": "Office of Civil Aviation, MOLIT",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "KR-MOLIT-AIP",
+      "sourceId": "kr-20250501-rkss",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "56e75e486354943452ec3c2898dbf683b4858580d3de76506f8fa8e756aa951e",
+      "sourceType": null,
+      "url": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/eAIP/KR-AD-2.RKSS-en-GB.html"
+    },
+    {
+      "extractedTextSha256": "dea754ad32a8454fdd76465817047031b688571eecf96ec1c1bf9ed44e090d13",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "3f4033350d49bbb48c5a0854c33614209c102b63bbf32d3db6aa10fe12a55e86",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "ea406d7aec1e721792781aea0efee639c271fa55d16afd65a3eb0a0b2dd856a3",
+      "publisher": "MOLIT AIM",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": "metadata_and_minimal_citations_only",
+      "sourceFamily": null,
+      "sourceId": "kr-20250501-rkss",
+      "sourceLockPath": "research/evidence/priority-market-batch-6/source-lock.json",
+      "sourceLockSha256": "3fae88d999f564f21cbd1f55a88909ff8b0f31532a6383eb21452c85260ad461",
+      "sourceRecordSha256": "931eb8e7d68bb53bc1f5417ccc4a83a7d0ac6c1a5d937005af50fbbff618524e",
+      "sourceType": "unclassified_research_source",
+      "url": "https://aim.koca.go.kr/eaipPub/Package/2025-05-01/html/eAIP/KR-AD-2.RKSS-en-GB.html"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/kr-iata-code-search.json",
+        "sha256": "7f5011c43dfccfc7f4463a0d05ef3dfae333b8321a88317a2c1350aba63cc983"
+      },
+      "extractedTextSha256": "a4ee91918fef00ca1fe6c09808d9a2575c79961e9726d409befa658cc30551bb",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "06698128c93bcfdb9fb2b829b370cf54198999e1c318b7568f407f604158fe45",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "bb223cf258955309fba879aca3b10d2e6cfb8973524ed3ec9fa26f12c9530838",
+      "publisher": "International Air Transport Association",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "IATA",
+      "sourceId": "kr-iata-code-search",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "c99065f733e9e2f669d36d6e2395bb4b559261643826fe827a8694e5313f9a3f",
+      "sourceType": null,
+      "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=ICN"
+    },
+    {
+      "citationReference": {
+        "path": "research/evidence/code-dates/excerpts/kr-iata-gmp.json",
+        "sha256": "b4ec52daf1ce22dd4262c82016b74d5bfead75220b7ed939159282aa2e4d8fdc"
+      },
+      "extractedTextSha256": "4c3fd3275cf88d45bf5885cf7ffa0532fbd0b3835479b9ee91e2cb2326eed4f4",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": "ddd7d1090364f3dcd6bb97826b20cbd6fe3a23afba8a091a2dd8ee78548bbc98",
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "f43a7321636182b8a00bfd865b829f4681bb9daeb3f8f2f3ec3e7e93ff5700a9",
+      "publisher": "International Air Transport Association",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "assessment": "Only minimal attributed factual spans and provenance metadata. No full response, full extraction, diagram, photograph, commercial ledger, or complete NOTAM text is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      },
+      "sourceFamily": "IATA",
+      "sourceId": "kr-iata-gmp",
+      "sourceLockPath": "research/evidence/code-dates/source-lock.json",
+      "sourceLockSha256": "ffdb2519b1a8477b84ba717cc1a9721958f11540fa113384d9b02da1739c6efc",
+      "sourceRecordSha256": "bc521d4d9b7be9323bd3e888c0aef751fe025709240b01011ed7b5829f5692ed",
+      "sourceType": null,
+      "url": "https://www.iata.org/en/publications/directories/code-search/?airport.search=GMP"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global/catalog.json",
+        "sha256": "48b3b3055cae32f63a8007b424e1647092dc13526540781ecc25de3d0e94486e",
+        "sourceId": "ph-bicol-current"
+      },
+      "citationReference": {
+        "path": "research/evidence/global/excerpts/ph-bicol-current.json",
+        "sha256": "82855562d43836955cb54c0c83c0a953b2fd5e596f58888d730f3e0039093ce4"
+      },
+      "extractedTextSha256": "ee58519e5e6ff340c7bea365959130d95ff79dedc1f9111f5d5a0da42ebccf3d",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": null,
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "7ab4b3da4953c4c833c5ede076c824877240ed52e3cd53f62909c3a61da48df3",
+      "publisher": "Philippine Airlines",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Source rights retained; evidence archive excluded from MIT license; no broad republication permission inferred.",
+        "url": "https://flights.philippineairlines.com/en-ph/flights-to-legazpi-daraga"
+      },
+      "sourceFamily": "Philippine Airlines",
+      "sourceId": "ph-bicol-current",
+      "sourceLockPath": "research/evidence/global/source-lock.json",
+      "sourceLockSha256": "7edaecaa997d2cc932e5fd4e4961600cbfa40228749f404981ebc10693ad8185",
+      "sourceRecordSha256": "e401d4066644528f4b2c669db3296ddfb3b87c99a7778878ed8cd4d87b246948",
+      "sourceType": "primary",
+      "url": "https://flights.philippineairlines.com/en-ph/flights-to-legazpi-daraga"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global/catalog.json",
+        "sha256": "48b3b3055cae32f63a8007b424e1647092dc13526540781ecc25de3d0e94486e",
+        "sourceId": "ph-bicol-pal"
+      },
+      "citationReference": {
+        "path": "research/evidence/global/excerpts/ph-bicol-pal.json",
+        "sha256": "1bbe3f8d252fba2cf6c06c048891375b5d2a291dbb6bcbb9444f067470e3235a"
+      },
+      "extractedTextSha256": "9bb280830d9332d2668e3c5cb259afbfe14af5da15d944f7927de50c30159334",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": null,
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "3b5a1de7a6b8285e6fa9e02f29f566c3ca53a25046a4982bd1a53fce1a7bc28d",
+      "publisher": "Philippine Airlines",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Evidence archive excluded from repository MIT license; no license to photographs, charts or trademarks granted. Redistribution scope must be checked before downstream republication.",
+        "url": "https://www.philippineairlines.com/content/dam/palportal/migration/files/pdf/downloadable-forms/domestic%20accrual%20chart%20as%2024%20january%202024.pdf"
+      },
+      "sourceFamily": "Philippine Airlines",
+      "sourceId": "ph-bicol-pal",
+      "sourceLockPath": "research/evidence/global/source-lock.json",
+      "sourceLockSha256": "7edaecaa997d2cc932e5fd4e4961600cbfa40228749f404981ebc10693ad8185",
+      "sourceRecordSha256": "4b16ca0c6c083283a75cb13541e22442e403df7710bdfcc9eee3e41ca27f43b8",
+      "sourceType": "primary",
+      "url": "https://www.philippineairlines.com/content/dam/palportal/migration/files/pdf/downloadable-forms/domestic%20accrual%20chart%20as%2024%20january%202024.pdf"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global/catalog.json",
+        "sha256": "48b3b3055cae32f63a8007b424e1647092dc13526540781ecc25de3d0e94486e",
+        "sourceId": "pk-gwadar-executed"
+      },
+      "citationReference": {
+        "path": "research/evidence/global/excerpts/pk-gwadar-executed.json",
+        "sha256": "0cfd335cefe22d0db4e56c3eead7a2ae74210c699a6b2210946e98d8391495ea"
+      },
+      "extractedTextSha256": "67f01866b5b16ffd52a2cfcc13bffc4506a4fa4f106b7a178c70c25b07d44b35",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": null,
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "3c2bbb18e5a5d85dd3b232825b71fd8e66ce8b2fc377b9a740cc0ee1b3b9f30f",
+      "publisher": "Pakistan Broadcasting Corporation",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original source rights apply. Research evidence excluded from repository MIT license; no blanket onward republication permission inferred.",
+        "url": "https://www.radio.gov.pk/20-01-2025/new-gwadar-intl-airport-fully-operationalized"
+      },
+      "sourceFamily": "Pakistan Broadcasting Corporation",
+      "sourceId": "pk-gwadar-executed",
+      "sourceLockPath": "research/evidence/global/source-lock.json",
+      "sourceLockSha256": "7edaecaa997d2cc932e5fd4e4961600cbfa40228749f404981ebc10693ad8185",
+      "sourceRecordSha256": "7185b8bc1263fbbf80395db3d71bffdd83b9f48d93436ee21fa8cc9959ed21aa",
+      "sourceType": "primary",
+      "url": "https://www.radio.gov.pk/20-01-2025/new-gwadar-intl-airport-fully-operationalized"
+    },
+    {
+      "catalogReference": {
+        "path": "research/evidence/global/catalog.json",
+        "sha256": "48b3b3055cae32f63a8007b424e1647092dc13526540781ecc25de3d0e94486e",
+        "sourceId": "pk-gwadar-notam"
+      },
+      "citationReference": {
+        "path": "research/evidence/global/excerpts/pk-gwadar-notam.json",
+        "sha256": "aba4ab5511ae65cffe81cc2cf16a6cb64ca987beb56f53f4c7fd60ed00c0c742"
+      },
+      "extractedTextSha256": "fcd4a4a0a7265c59b0be38e052687352232f1d991a1b36b16b397952233269aa",
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": null,
+      "note": "Null historical hash fields mean not recorded in the existing receipt; no new verification is fabricated.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "5b9b25693b8e32cd7ffc4750b0363433ebeae33627d8761035b1cfaa05815ca9",
+      "publisher": "Pakistan Airports Authority",
+      "reuseMode": "offline_original_receipt_and_citation_review_no_redownload",
+      "rights": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original official publication archived for evidence review. Excluded from repository MIT license; source rights and third-party rights remain applicable. No general redistribution license inferred.",
+        "url": "https://paawebadmin.paa.gov.pk/media/w0wfyvxu/a-summ-june-2025.pdf"
+      },
+      "sourceFamily": "Pakistan Airports Authority",
+      "sourceId": "pk-gwadar-notam",
+      "sourceLockPath": "research/evidence/global/source-lock.json",
+      "sourceLockSha256": "7edaecaa997d2cc932e5fd4e4961600cbfa40228749f404981ebc10693ad8185",
+      "sourceRecordSha256": "b6a4ed5aaf5689c94549b98ddc1bd48d48f80b0fbaaf9e80ab3bb292067239a0",
+      "sourceType": "primary",
+      "url": "https://paawebadmin.paa.gov.pk/media/w0wfyvxu/a-summ-june-2025.pdf"
+    },
+    {
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": null,
+      "note": "Historical batch receipt does not retain all extraction hashes; missing values are not reconstructed.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "0411e9e4c1c0b34fd6e02ccba2ccf0210382eb833190cfa3f2a07aea3cff455a",
+      "publisher": "community directory",
+      "reuseMode": "offline_prior_batch_access_receipt_and_factual_review_no_redownload",
+      "rights": {
+        "id": "LicenseRef-Public-Domain",
+        "note": "OurAirports releases airport data to the public domain. Only factual facility/edit observations are used; this does not relicense website UI, photographs or map tiles. Derived Git observations retain the licenses in sources.json and THIRD_PARTY_NOTICES.md.",
+        "url": "https://ourairports.com/data/"
+      },
+      "sourceFamily": null,
+      "sourceId": "swn-dir",
+      "sourceLockPath": "research/discovery/batches/global-1.json",
+      "sourceLockSha256": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094",
+      "sourceRecordSha256": "95c20ccd7bee9a1e0a87f82629ca35b3ccce524bf5dcc442e78a9d2f3e6d7638",
+      "sourceType": "secondary",
+      "url": "https://ourairports.com/airports/PK-0052/"
+    },
+    {
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": null,
+      "note": "Historical batch receipt does not retain all extraction hashes; missing values are not reconstructed.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": null,
+      "publisher": "compiled directory",
+      "reuseMode": "offline_prior_batch_access_receipt_and_factual_review_no_redownload",
+      "rights": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed.",
+        "url": null
+      },
+      "sourceFamily": null,
+      "sourceId": "swn-guide",
+      "sourceLockPath": "research/discovery/batches/global-1.json",
+      "sourceLockSha256": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094",
+      "sourceRecordSha256": "a1f8aa5225444b310669b0a55973a1889d12033507ee1b9603f2a026e0845720",
+      "sourceType": "secondary",
+      "url": "https://airportguide.com/airport/info/SWN"
+    },
+    {
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": null,
+      "note": "Historical batch receipt does not retain all extraction hashes; missing values are not reconstructed.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "ad79ec34864e14133a13fc46c3066d3c4f8bfd4af73e1db16d26115f140153d1",
+      "publisher": "aviation authority AIP archive",
+      "reuseMode": "offline_prior_batch_access_receipt_and_factual_review_no_redownload",
+      "rights": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed.",
+        "url": null
+      },
+      "sourceFamily": null,
+      "sourceId": "utr-aip",
+      "sourceLockPath": "research/discovery/batches/global-1.json",
+      "sourceLockSha256": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094",
+      "sourceRecordSha256": "eb025ee95730d5e07cb95efdd977f6d345af0013a51ef3cf975252a15139353c",
+      "sourceType": "primary",
+      "url": "https://www.caat.or.th/wp-content/uploads/2017/03/AD1.3-Index-to-aerodromes-and-heliports4.pdf"
+    },
+    {
+      "extractedTextSha256": null,
+      "independence": "One issuer/underlying original; mirrors, directory syndication, repeated citations or editions do not establish independent publisher corroboration.",
+      "normalizedTextSha256": null,
+      "note": "Historical batch receipt does not retain all extraction hashes; missing values are not reconstructed.",
+      "originalBytesReplayedHere": false,
+      "originalSha256": "998b6d897b4c120bfecee671bd0a3c4ed18e90f1e237a24461ba742f3142003c",
+      "publisher": "specialist historical review",
+      "reuseMode": "offline_prior_batch_access_receipt_and_factual_review_no_redownload",
+      "rights": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed.",
+        "url": null
+      },
+      "sourceFamily": null,
+      "sourceId": "utr-history",
+      "sourceLockPath": "research/discovery/batches/global-1.json",
+      "sourceLockSha256": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094",
+      "sourceRecordSha256": "3b60fed062e18cb3d588a2654010b2d456f0d6356d2c7028cc0bd9cc650f0352",
+      "sourceType": "secondary",
+      "url": "https://www.ww2norththailand.com/other/uttaradit-area-air-facilities-review-1953-onwards/"
+    }
+  ]
+}

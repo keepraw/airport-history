@@ -1,0 +1,2582 @@
+{
+  "cases": [
+    {
+      "candidateIds": [
+        "cand_3aba472425775e4a29a4d63b"
+      ],
+      "caseId": "asia-samarinda",
+      "codeLinkedCandidateIds": [
+        "cand_21e0626340e1bcce514d63be",
+        "cand_3aba472425775e4a29a4d63b",
+        "cand_64a61bd05320b19626bf299d",
+        "cand_89dd28c58223431798ea9175",
+        "cand_97983a23640b2f0e411481de",
+        "cand_c11145709bc5e217561de7fa",
+        "cand_f6293d43d1afe49dded7470c"
+      ],
+      "codes": [
+        "IATA:AAP",
+        "IATA:SRI",
+        "ICAO:WALS"
+      ],
+      "country": "ID",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "lead_6bcca26bcab4ed6357e66192",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "复用已正式存在的 Pranoto AAP 和交通部替代资料；本次 AIM 请求403，交通部页面虽返回200却是拒绝页面。SRI/WALS 目录复用与美国 Andrau 的 AAP 线索仍须分别核实。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 1,
+      "label": "Aji Pangeran Tumenggung Pranoto International Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [
+        {
+          "accessResult": "retrieval_failed",
+          "failure": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+          "httpStatus": null,
+          "sourceId": "asia-id-aim"
+        },
+        {
+          "accessResult": "access_rejected_page",
+          "failure": "HTTP200 body explicitly Request Rejected; no airport content acquired",
+          "httpStatus": 200,
+          "sourceId": "asia-id-samarinda"
+        }
+      ],
+      "newSourceIds": [
+        "asia-id-aim",
+        "asia-id-samarinda"
+      ],
+      "nextAction": "取得 Temindung/Pranoto 的受控 AD 2、AIRAC 与 IATA SRI/AAP 迁转原件；既有正式 AAP 不重复计算。",
+      "physicalSiteReviewUnits": [
+        "Temindung Airport",
+        "Aji Pangeran Tumenggung Pranoto Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": -0.374478,
+            "longitude": 117.250128
+          },
+          "locationId": "loc_e6cd9b8b5c1fb9f60dc1f809",
+          "name": "Aji Pangeran Tumenggung Pranoto International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_8b51974531dd5a0ba7dfb474"
+        },
+        {
+          "coordinates": {
+            "latitude": -0.484530985355,
+            "longitude": 117.156997681
+          },
+          "locationId": "loc_267a784c7522f37931bf6b71",
+          "name": "Aji Pangeran Tumenggung Pranoto International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_8b51974531dd5a0ba7dfb474"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "global-1-aap",
+          "path": "research/discovery/batches/global-1.json",
+          "sha256": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094",
+          "sourceIds": [
+            "aap-directory",
+            "aap-ministry"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [
+        "dup_9c261f8a847cf939ec46b793",
+        "lead_1d6827327ebe31717f448eb2",
+        "lead_319431f3ee2849e406d9d13e",
+        "lead_d99f289a6422a1cb7bd9bd9d"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_cc192ba0a4e5d39ebced344f",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [
+        "aap-directory",
+        "aap-ministry"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "icao_and_old_iata_transition_missing"
+    },
+    {
+      "candidateIds": [
+        "cand_ee28c2f36941d4b62ff604b2"
+      ],
+      "caseId": "asia-lianyungang",
+      "codeLinkedCandidateIds": [
+        "cand_01d3a202a81b8ab3fa085a97",
+        "cand_184ccced9056bb68a8773087",
+        "cand_3225d519191dc560d16ec445",
+        "cand_340a2f63c1abfd5524e6ffba",
+        "cand_50ae164a72cfa486ae1523bd",
+        "cand_627b941a438ab9423f498df6",
+        "cand_6317de2e34da963e87f3fcf6",
+        "cand_9c21c7890f38b287e06649c2",
+        "cand_ac625cb608cbdd0b8e4a7918",
+        "cand_c0fd8cc77f37a1962f6e2724",
+        "cand_ee28c2f36941d4b62ff604b2"
+      ],
+      "codes": [
+        "IATA:LYG",
+        "ICAO:ZSLG"
+      ],
+      "country": "CN",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "lead_870f817db8ab946ef63545ea",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "复用 Baitabu 与 Huaguoshan 两个物理机场的行政及运行资料和0.11.0身份成果。旧目录与当前 IATA 查询分别关联旧场和新场，但抓取日、网页日期及航班迁场日均不能替代代码生效日。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 2,
+      "label": "Lianyungang Huaguoshan International Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [],
+      "newSourceIds": [],
+      "nextAction": "取得最后一期 Baitabu、第一期 Huaguoshan 的受控 AD 2、AIRAC 及 IATA 迁转原件；代码准入授权另行提出。",
+      "physicalSiteReviewUnits": [
+        "Lianyungang Baitabu Airport",
+        "Lianyungang Huaguoshan Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 34.41406,
+            "longitude": 119.17899
+          },
+          "locationId": "loc_0bd13546000771478c1082ca",
+          "name": "Lianyungang Huaguoshan International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_5da6aee19b94160b183603f8"
+        },
+        {
+          "coordinates": {
+            "latitude": 34.5713996887207,
+            "longitude": 118.875
+          },
+          "locationId": "loc_2ec7022914e51607d323bf43",
+          "name": "Lianyungang Huaguoshan International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_5da6aee19b94160b183603f8"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "lianyungang",
+          "path": "research/evidence/code-dates/assessments.json",
+          "sha256": "92293e06a71866965a8e8c1a834ed069d86dc9b0bb14994b70513d591aa18b97",
+          "sourceIds": [
+            "cn-lyg-sichuan-202111",
+            "cn-lyg-sina-20170715",
+            "iata-lyg-20261030"
+          ]
+        },
+        {
+          "caseKey": "lianyungang",
+          "path": "research/evidence/priority-markets/assessments.json",
+          "sha256": "ab5dd14167550aa3c233d1bc22d0b379b9fd17042d88a94f9b3c80d42da42b2b",
+          "sourceIds": [
+            "cn-lyg-20210301",
+            "cn-lyg-20210922",
+            "cn-met-2009",
+            "cn-met-2026"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [
+        "dup_972c00ed303b4aac84ede817",
+        "lead_0be4227cfae7eb88e6605a1d",
+        "lead_450115e9f40ce30ed5ffb45a",
+        "lead_85a6839716260034c00cfcf5",
+        "lead_8b01b51779e50d951f0abe74",
+        "lead_d88c0525da9e2abd01a55882",
+        "lead_e6a62f812a89b442d8a0d15b",
+        "lead_ee65630634e75cfe45f21110"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_77b275e68cf1e78f92e47535",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [
+        "cn-lyg-20210301",
+        "cn-lyg-20210922",
+        "cn-lyg-sichuan-202111",
+        "cn-lyg-sina-20170715",
+        "cn-met-2009",
+        "cn-met-2026",
+        "iata-lyg-20261030"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "code_boundary_and_family_authority_missing"
+    },
+    {
+      "candidateIds": [
+        "cand_7c7e49cc4bff8eff387e6c44",
+        "cand_ec671992f93700beb8d14848"
+      ],
+      "caseId": "asia-uttaradit",
+      "codeLinkedCandidateIds": [
+        "cand_01b5c2cbce7c66da40d3cfa1",
+        "cand_1fae656dad1c89cb14dcfc3d",
+        "cand_7c7e49cc4bff8eff387e6c44",
+        "cand_7e206df89c4873e33591d7f7",
+        "cand_956c837fba2f47d6e362ed9f",
+        "cand_ec671992f93700beb8d14848"
+      ],
+      "codes": [
+        "IATA:UTR",
+        "ICAO:VTPU"
+      ],
+      "country": "TH",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "dup_7964d158462eebfaaf00e9ce",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "复用早期 CAAT 索引中的 Uttaradit/VTPU；本次2026年索引未发现该代码或名称，AD 2 路径404。目录缺席或404都不能证明撤销或关闭；VTUD 属于 Udon Thani。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 3,
+      "label": "Uttaradit Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [
+        {
+          "accessResult": "retrieval_failed",
+          "failure": "HTTPError: HTTP Error 404: Not Found",
+          "httpStatus": null,
+          "sourceId": "asia-th-vtpu-2026"
+        },
+        {
+          "accessResult": "content_inspected",
+          "failure": null,
+          "httpStatus": 200,
+          "sourceId": "asia-th-ad13-2026"
+        }
+      ],
+      "newSourceIds": [
+        "asia-th-vtpu-2026",
+        "asia-th-ad13-2026"
+      ],
+      "nextAction": "取得 CAAT 关闭机场登记、VTPU 撤销通知及历史 ARP，研究1953年机场与后续坐标是否同一物理场址。",
+      "physicalSiteReviewUnits": [
+        "Uttaradit Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 17.67371,
+            "longitude": 100.235267
+          },
+          "locationId": "loc_31266144493858988cf6f288",
+          "name": "Uttaradit Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_794a26d9400ddfa9ac2aacca"
+        },
+        {
+          "coordinates": {
+            "latitude": 17.617000579833984,
+            "longitude": 100.0999984741211
+          },
+          "locationId": "loc_7fe657f10208e20b3c0645ee",
+          "name": "Uttaradit Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_794a26d9400ddfa9ac2aacca"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "global-1-utr",
+          "path": "research/discovery/batches/global-1.json",
+          "sha256": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094",
+          "sourceIds": [
+            "utr-aip",
+            "utr-history"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [
+        "dup_5698ac4e948b04a52569b51f",
+        "lead_90b9b94ec2aaa423e4225f3f"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_0f466fbe314784f719ed3045",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [
+        "utr-aip",
+        "utr-history"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "withdrawal_and_site_continuity_missing"
+    },
+    {
+      "candidateIds": [
+        "cand_f1f9c300393b86f0e1ffa40e"
+      ],
+      "caseId": "asia-techo",
+      "codeLinkedCandidateIds": [
+        "cand_07e7841b60ed95dfef0851b9",
+        "cand_0d1dad498d1e3f01ded26587",
+        "cand_114591687c4009f898c54234",
+        "cand_3a63cc6b3ae172f0301e6281",
+        "cand_4f72e2c09dca5b51015e5883",
+        "cand_f1f9c300393b86f0e1ffa40e",
+        "cand_fd2a5e00b9b3f58536c0433e"
+      ],
+      "codes": [
+        "IATA:KTI",
+        "ICAO:VDTI"
+      ],
+      "country": "KH",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "lead_9b847503867af7db8db74a56",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "新取得的运营商2025-10-20文章明确使用 Techo International Airport（KTI），并追述2025-09-09开始运行及替代 Phnom Penh 旧机场。运行日期不同于 KTI 分配生效；资料没有证明 Kratie 旧 KTI 分配及终止。已有正式 KTI 不重复计算。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 5,
+      "label": "Techo International Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [
+        {
+          "accessResult": "content_inspected",
+          "failure": null,
+          "httpStatus": 200,
+          "sourceId": "asia-kh-techo-inauguration"
+        }
+      ],
+      "newSourceIds": [
+        "asia-kh-techo-inauguration"
+      ],
+      "nextAction": "取得 VDTI 受控 AD 2 和 IATA KTI 分配或迁转原件；独立核实 Kratie 的旧代码事实。",
+      "physicalSiteReviewUnits": [
+        "Phnom Penh International Airport",
+        "Techo International Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 11.359987,
+            "longitude": 104.921272
+          },
+          "locationId": "loc_975a4fc3572300771051b0dd",
+          "name": "Techo International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_afcc2be0fd925a9b54b48b08"
+        }
+      ],
+      "priorAssessmentRefs": [],
+      "relatedEventGroupIds": [
+        "lead_1642e332ce4832d0bfe1175a",
+        "lead_23f53e4af39b19ab5b6c82a4",
+        "lead_781baa5141fab7a356a1f563",
+        "lead_948cebcd4a2b75fd70fe1b1d",
+        "lead_b632eb50be12802582859426",
+        "lead_c1ae0f2a3c6344c92a277cc9"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_53fd05c26513252a31493d08",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "physical_replacement_and_code_observation_only"
+    },
+    {
+      "candidateIds": [
+        "cand_4dcfc97a3b1cdde3f29fe114"
+      ],
+      "caseId": "asia-manas",
+      "codeLinkedCandidateIds": [
+        "cand_16dd9d35129e298bb1155b35",
+        "cand_4dcfc97a3b1cdde3f29fe114",
+        "cand_6e5013af0953f7c3f0ede9b3",
+        "cand_b93ab1be7518b1e458efd296",
+        "cand_deece7de8a8c7b0098bd5c5e",
+        "cand_f05a123a517bcb2c4b54bfaa"
+      ],
+      "codes": [
+        "IATA:BSZ",
+        "IATA:FRU",
+        "ICAO:UCFM"
+      ],
+      "country": "KG",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "lead_7ba04008c5f8ec6958131f81",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "新取得的运营商公告明确写出 Manas 的 IATA FRU 改为 BSZ，拟于2025-08-09生效。另取得带有 IATA 名称和编码经理署名、落款2025-05-09的通知 PDF，列出相同日期；但文件来自 AKI 第三方镜像，发行机构原站真实性、后续替代与实际执行尚未独立核验。二手报道的8月11日不替代通知的8月9日。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 10,
+      "label": "Manas International Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [
+        {
+          "accessResult": "content_inspected",
+          "failure": null,
+          "httpStatus": 200,
+          "sourceId": "asia-kg-operator-code-notice"
+        },
+        {
+          "accessResult": "content_inspected",
+          "failure": null,
+          "httpStatus": 200,
+          "sourceId": "asia-kg-iata-notice-mirror"
+        }
+      ],
+      "newSourceIds": [
+        "asia-kg-operator-code-notice",
+        "asia-kg-iata-notice-mirror"
+      ],
+      "nextAction": "取得 IATA 发行机构原件或主管机关通知，核对取消、替代与执行；不据此推断 ICAO UCFM 或旧起点、新终点及连续有效期。",
+      "physicalSiteReviewUnits": [
+        "Manas International Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 43.061298,
+            "longitude": 74.4776
+          },
+          "locationId": "loc_777f211c0d662f26430703bd",
+          "name": "Manas International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_d894179fbc758faa9cf6d87c"
+        }
+      ],
+      "priorAssessmentRefs": [],
+      "relatedEventGroupIds": [
+        "lead_03ab5b97744741ffff3e5ee1",
+        "lead_4151d03fece305fd433981fc",
+        "lead_bf3b3063fef981f91a373915",
+        "lead_df645dd40115d73851f0c4aa",
+        "lead_f7a7242a7aaf7d0d633e9bea"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_af11605677ac16fc22a88217",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "direct_iata_boundary_pending_authentication"
+    },
+    {
+      "candidateIds": [
+        "cand_163d9acb5b2a14750ebba1f5",
+        "cand_9283d05a333eebf82e7fbfb9"
+      ],
+      "caseId": "asia-gwadar",
+      "codeLinkedCandidateIds": [
+        "cand_04a305850200b84bf649e811",
+        "cand_07fbc4e7c4eeeae64a259306",
+        "cand_147dfd1d285cebc51ed56d11",
+        "cand_163d9acb5b2a14750ebba1f5",
+        "cand_167a028aad882ebd00f84029",
+        "cand_440bcd544aa5654672d18569",
+        "cand_54a58062818166f23086082e",
+        "cand_65555b99dd2338f35e46308e",
+        "cand_8680b2f706bc14e2126ed577",
+        "cand_8f75d35010e8c005c17a050b",
+        "cand_8fa3664f6678352d67cfc647",
+        "cand_9283d05a333eebf82e7fbfb9",
+        "cand_97709d7624a10b6c47610de0",
+        "cand_bfdfa46bdc4f84989a106354",
+        "cand_d1ecc3364427693fe596e29e",
+        "cand_d467d8ec9815b0014c86dfe1",
+        "cand_f137b98073fe9658936bf244",
+        "cand_f61ecaba354ee9b0258c7f6a"
+      ],
+      "codes": [
+        "IATA:GWD",
+        "ICAO:OPGD",
+        "ICAO:OPGW"
+      ],
+      "country": "PK",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "dup_f23f0a3e363272d919374cf2",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "复用 PAA 2025年6月 NOTAM 汇总中的实际运行语句和巴基斯坦广播机构的首航记录。旧收据标题涉及 A0010/25，而受支持的运行语句标为 A0028/25；不能混淆编号、发布日与代码生效。新 PAA 入口失败，猜测 AD 2 路径404。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 14,
+      "label": "New Gwadar International Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [
+        {
+          "accessResult": "retrieval_failed",
+          "failure": "HTTPError: HTTP Error 500: Internal Server Error",
+          "httpStatus": null,
+          "sourceId": "asia-pk-aip-index"
+        }
+      ],
+      "newSourceIds": [
+        "asia-pk-aip-index"
+      ],
+      "nextAction": "取得完整 A0010/25 与 A0028/25 及其起止字段、旧新场相邻受控 AD 2 和 IATA GWD 迁转原件。",
+      "physicalSiteReviewUnits": [
+        "Old Gwadar Airport",
+        "New Gwadar International Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 25.296733,
+            "longitude": 62.498822
+          },
+          "locationId": "loc_b216e7d96bd6bf7d72ae0a0a",
+          "name": "New Gwadar International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_c92943ae7d4ef322c39b374a"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "gwadar",
+          "path": "research/evidence/global/assessments.json",
+          "sha256": "c4dd9d49edae494f0f5ad8a7d7becd0c4549203fb5be4065e6d92ded6e3c2b1a",
+          "sourceIds": [
+            "pk-gwadar-executed",
+            "pk-gwadar-notam"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [
+        "dup_005b711e37f95db466e1ae8a",
+        "dup_0becf354ba01eb2d4665d1cb",
+        "dup_976f386e323983527897036f",
+        "lead_0f5e85f3cd4fa20d031da303",
+        "lead_13c76d025920a2e67aa1f14f",
+        "lead_4e8cee34782305f9f83a0055",
+        "lead_565e21b6f32afe2b37ef636a",
+        "lead_723d6953de3b2fd653e8b67b",
+        "lead_7bd4085cfde7c1cebcefc7ae",
+        "lead_a5fe5d23e744e84853eb3d5a",
+        "lead_b0293e573be85360e9c8b1cf",
+        "lead_b7aa0f3b7f95dc99212bf6a2",
+        "lead_e825bac521feea92763df798"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_9d17429f97d6b25afc7a25e7",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [
+        "pk-gwadar-executed",
+        "pk-gwadar-notam"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "full_notam_code_transfer_and_rights_missing"
+    },
+    {
+      "candidateIds": [
+        "cand_6bdbc1b60cf1a50fd06abd88"
+      ],
+      "caseId": "asia-luzhou",
+      "codeLinkedCandidateIds": [
+        "cand_6bdbc1b60cf1a50fd06abd88",
+        "cand_912f2ab6602c87f1f972dd33",
+        "cand_c0bcdfc6ca12a0b60b85f4cf",
+        "cand_c70dbb861415b82589f6e221"
+      ],
+      "codes": [
+        "IATA:LZO",
+        "ICAO:ZULZ"
+      ],
+      "country": "CN",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "lead_ec8c58cd9bc8babd46110394",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "复用 Lantian 与 Yunlong 身份、迁场前2017年目录中的 LZO/ZULZ 以及当前 IATA 对 Yunlong 的关联。2019年抓到的旧描述仍可能过时，不能据此证明旧场迁场后继续使用代码。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 22,
+      "label": "Luzhou Lantian Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [],
+      "newSourceIds": [],
+      "nextAction": "取得2018年受控 AD 2、NOTAM 及 IATA 迁转通知；旧场和新场的代码边界继续未知。",
+      "physicalSiteReviewUnits": [
+        "Luzhou Lantian Airport",
+        "Luzhou Yunlong Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 28.852577,
+            "longitude": 105.392579
+          },
+          "locationId": "loc_970c941b535d54be3061fff7",
+          "name": "Luzhou Lantian Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_28fcade4a1da7d05ad33036b"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "luzhou",
+          "path": "research/evidence/code-dates/assessments.json",
+          "sha256": "92293e06a71866965a8e8c1a834ed069d86dc9b0bb14994b70513d591aa18b97",
+          "sourceIds": [
+            "cn-lzo-sina-20170715",
+            "iata-lzo-20261030"
+          ]
+        },
+        {
+          "caseKey": "luzhou",
+          "path": "research/evidence/priority-markets/assessments.json",
+          "sha256": "ab5dd14167550aa3c233d1bc22d0b379b9fd17042d88a94f9b3c80d42da42b2b",
+          "sourceIds": [
+            "cn-lzo-detail-20191117",
+            "cn-met-2009",
+            "cn-met-2026"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [
+        "dup_60a1869eb933c509d19e241e",
+        "lead_a9f853bdeaaea2ce202fa544"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_e05a849715c42ee6fcebd1af",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [
+        "cn-lzo-detail-20191117",
+        "cn-lzo-sina-20170715",
+        "cn-met-2009",
+        "cn-met-2026",
+        "iata-lzo-20261030"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "code_boundary_and_family_authority_missing"
+    },
+    {
+      "candidateIds": [
+        "cand_319a76a6d0b81db2843a9ca4"
+      ],
+      "caseId": "asia-sahiwal",
+      "codeLinkedCandidateIds": [
+        "cand_319a76a6d0b81db2843a9ca4",
+        "cand_86a0de636a573b7086e85bd2",
+        "cand_b22f37bbd4748e914c061d8d"
+      ],
+      "codes": [
+        "IATA:RZS",
+        "IATA:SWN"
+      ],
+      "country": "PK",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "lead_f8084b539db57166c8873725",
+      "evidenceLevel": "directory_only",
+      "expectedResolvedQueries": null,
+      "findings": "SWN/OPSW 目录仅构成未验证的代码与场址线索；本次 PAA 入口和 AD 2 请求失败。目录不是独立的官方代码分配证据，坐标差异也不能单独证明迁址。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 23,
+      "label": "Sahiwal Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [
+        {
+          "accessResult": "retrieval_failed",
+          "failure": "HTTPError: HTTP Error 404: Not Found",
+          "httpStatus": null,
+          "sourceId": "asia-pk-opsw-2026"
+        },
+        {
+          "accessResult": "retrieval_failed",
+          "failure": "HTTPError: HTTP Error 500: Internal Server Error",
+          "httpStatus": null,
+          "sourceId": "asia-pk-aip-index"
+        }
+      ],
+      "newSourceIds": [
+        "asia-pk-opsw-2026",
+        "asia-pk-aip-index"
+      ],
+      "nextAction": "查找 PAA AD 1.3、关闭机场登记与 OPSW 场图；若无公开历史记录，通过合法 AIS 访问路径补证。",
+      "physicalSiteReviewUnits": [
+        "Sahiwal Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 31.88959,
+            "longitude": 72.309345
+          },
+          "locationId": "loc_993cffe5757bba66fde9870b",
+          "name": "Sahiwal Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_49186f551706aa40de4b7b76"
+        },
+        {
+          "coordinates": {
+            "latitude": 31.88944435119629,
+            "longitude": 72.39167022705078
+          },
+          "locationId": "loc_164f242f7f015d93e6fda893",
+          "name": "Sahiwal Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_49186f551706aa40de4b7b76"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "global-1-swn",
+          "path": "research/discovery/batches/global-1.json",
+          "sha256": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094",
+          "sourceIds": [
+            "swn-dir",
+            "swn-guide"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [
+        "lead_145a6ed6f84d314a9c63010d",
+        "lead_4ceccd0a4f1bb8139d6480e2"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_0e12026534ed4e4ec11039cf",
+      "researchStatus": "directory_only_and_official_access_blocked",
+      "reusedSourceIds": [
+        "swn-dir",
+        "swn-guide"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "primary_site_code_and_dates_missing"
+    },
+    {
+      "candidateIds": [
+        "cand_d9b668a54fcc5a39a322bf21"
+      ],
+      "caseId": "asia-bicol",
+      "codeLinkedCandidateIds": [
+        "cand_113adde8dc7a0f10fe48bc7b",
+        "cand_2771ddf1044e02130d1e1bbf",
+        "cand_2ffdf1df481e0b76a7b26476",
+        "cand_d39645c5bf90c05dd0da24fe",
+        "cand_d9b668a54fcc5a39a322bf21"
+      ],
+      "codes": [
+        "IATA:DRP",
+        "IATA:LGP",
+        "ICAO:RPLK"
+      ],
+      "country": "PH",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "lead_184ed3cf58bd168c2c4a5f97",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "菲律宾航空原始通知追述比科尔机场于2022-12-15从 LGP 改用 DRP。这是承运人实施证据，不自动等于全球 IATA 分配与撤销；旧 Legazpi、新 Bicol 和新场同址改码是不同问题。CAAP 本次访问403。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 31,
+      "label": "Bicol International Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [
+        {
+          "accessResult": "retrieval_failed",
+          "failure": "HTTPError: HTTP Error 403: Forbidden",
+          "httpStatus": null,
+          "sourceId": "asia-ph-caap-aip"
+        }
+      ],
+      "newSourceIds": [
+        "asia-ph-caap-aip"
+      ],
+      "nextAction": "取得 CAAP/RPLP 受控版本、物理 ARP 以及 IATA 迁转原件；单独审查承运人通知的适用范围与使用权。",
+      "physicalSiteReviewUnits": [
+        "Legazpi Airport",
+        "Bicol International Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 13.111915,
+            "longitude": 123.676829
+          },
+          "locationId": "loc_77b7e97a253dc8eda9483163",
+          "name": "Bicol International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_f0efd81c1e65b30446de627a"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "bicol",
+          "path": "research/evidence/global/assessments.json",
+          "sha256": "c4dd9d49edae494f0f5ad8a7d7becd0c4549203fb5be4065e6d92ded6e3c2b1a",
+          "sourceIds": [
+            "ph-bicol-current",
+            "ph-bicol-pal"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [
+        "dup_df44261fa203882d88de5e74",
+        "lead_8d1e4a46f47122298bc5a2a0"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_078bffd3a9fcb28122385c09",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [
+        "ph-bicol-current",
+        "ph-bicol-pal"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "issuer_original_and_family_authority_missing"
+    },
+    {
+      "candidateIds": [
+        "cand_6318080354054307122fcebd"
+      ],
+      "caseId": "asia-pokhara",
+      "codeLinkedCandidateIds": [
+        "cand_155fb96b98cfbe1e36115837",
+        "cand_1f7edeb98c411bef20a45da6",
+        "cand_2d9c4c99014a176ccb7a8d1d",
+        "cand_3583658c48b7a0b6e50fc68e",
+        "cand_3742ba7c2a3f9fad3214ed43",
+        "cand_3b7d68c355e5d11df8fb643c",
+        "cand_47112f2e66c4933eab982089",
+        "cand_55bf8d4757932639baca627a",
+        "cand_56e014f478b3bc83163c261d",
+        "cand_6148028ac21c998bc1450ea5",
+        "cand_6318080354054307122fcebd",
+        "cand_6336a0c2f2cfc466ec416283",
+        "cand_670032b616b214247f8388c3",
+        "cand_7d94fe8f3a39cab80545f618",
+        "cand_87f03888fde48a8f1058b9d0",
+        "cand_e19d409a78d496e7eec9050e",
+        "cand_e81f6addce31309dcf9ccc0c",
+        "cand_f8108dede93713ae6dc7cb5c",
+        "cand_fd114d66560dcc34f8b44661"
+      ],
+      "codes": [
+        "IATA:PHH",
+        "IATA:PKR",
+        "ICAO:VNPK",
+        "ICAO:VNPR"
+      ],
+      "country": "NP",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "lead_cd91b0b8e4dbdc1e2eabd452",
+      "evidenceLevel": "access_attempt_only",
+      "expectedResolvedQueries": null,
+      "findings": "最终排名中的 PKR/PHH、VNPK/VNPR 新旧机场争议尚未解决。本次 CAAN 75周年出版物下载503；搜索摘要仅用于发现原件，不作为证据。此前 CAAN AD 2 取得也失败。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 35,
+      "label": "Pokhara International Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [
+        {
+          "accessResult": "retrieval_failed",
+          "failure": "HTTPError: HTTP Error 503: Service Unavailable",
+          "httpStatus": null,
+          "sourceId": "asia-np-caan-75years"
+        }
+      ],
+      "newSourceIds": [
+        "asia-np-caan-75years"
+      ],
+      "nextAction": "取得实际 CAAN 出版物及新旧机场受控 AD 2；IATA 与 ICAO 分别研究，不使用机场启用日期填边界。",
+      "physicalSiteReviewUnits": [
+        "Old Pokhara Airport",
+        "Pokhara International Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 28.1838,
+            "longitude": 84.0147
+          },
+          "locationId": "loc_89e5f920602998c972c39788",
+          "name": "Pokhara International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_d9110625e6bbd0bd2062fdaf"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "pokhara",
+          "path": "research/evidence/global/assessments.json",
+          "sha256": "c4dd9d49edae494f0f5ad8a7d7becd0c4549203fb5be4065e6d92ded6e3c2b1a",
+          "sourceIds": []
+        }
+      ],
+      "relatedEventGroupIds": [
+        "dup_6a7374d523a38a341876c58c",
+        "dup_8ecc1603c22edc267d9f28a6",
+        "dup_f03b2bac4e82e0ff61e99b94",
+        "lead_23abbdd17b22271119a44d78",
+        "lead_919b1a2304e54ecc054a8b43",
+        "lead_b5d20cf14bc3f4f0cd79c0fa",
+        "lead_b69d37d350bda87678126fc6",
+        "lead_c22d29c172e7a914e5573dc5",
+        "lead_d8eb104bbe5cc279ef88e3a4",
+        "lead_e089a6d319dbaf6799c26720",
+        "lead_ecdfb6986d8812adbbe064ca",
+        "lead_ee04f4f5865cea8dcc8b2661",
+        "lead_f0d1d40f3f1e419f851a5994"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_241e77b5eb0a8a5876a5bcb7",
+      "researchStatus": "official_original_access_blocked",
+      "reusedSourceIds": [],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "official_original_access_unresolved"
+    },
+    {
+      "candidateIds": [
+        "cand_07bdaad0f94826568db4abf9"
+      ],
+      "caseId": "asia-ishigaki",
+      "codeLinkedCandidateIds": [
+        "cand_07bdaad0f94826568db4abf9",
+        "cand_4594745109ecac42e51371bc",
+        "cand_503cf66e1109786452d79304",
+        "cand_fdc567a29d68d12ea8701d9b"
+      ],
+      "codes": [
+        "IATA:ISG",
+        "ICAO:ROIG"
+      ],
+      "country": "JP",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "lead_f898cb04a4112b970edaeb78",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "JMA 2008年与2022年资料分别将 ROIG 关联旧、新场址，冲绳资料支持实际机场替代。2013-03-07启用并不等于代码生效；旧 ARP 和迁场前 IATA ISG 原件仍缺。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 60,
+      "label": "Ishigaki Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [],
+      "newSourceIds": [],
+      "nextAction": "取得2013年3月 AIS Japan AIP/AIC/NOTAM 与旧 ISG 原件。",
+      "physicalSiteReviewUnits": [
+        "Old Ishigaki Airport",
+        "New Ishigaki Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "jp-ishigaki",
+          "path": "research/evidence/global-batch-5/batch.json",
+          "sha256": "c26c15e1503aa18225db40fabf5a8276fc5a8cc9ea037c1618923eba29e5db17",
+          "sourceIds": [
+            "b5-jp-jma-20220209",
+            "b5-jp-jma-284",
+            "b5-jp-okinawa-opening"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [
+        "dup_bb0b94267bfb9ccfd18af6a9",
+        "lead_7259b3b42e37d35604b9e8b3"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_6c95efda88010ad90c0877d3",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [
+        "b5-jp-jma-20220209",
+        "b5-jp-jma-284",
+        "b5-jp-okinawa-opening"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "cross_site_code_boundary_missing"
+    },
+    {
+      "candidateIds": [
+        "cand_7b8ed47b6f8a04635fe711fc",
+        "cand_932efeabe81f0dc48fd8b207"
+      ],
+      "caseId": "asia-yibin",
+      "codeLinkedCandidateIds": [
+        "cand_0e0c47e6d2e5c9aa161a25e1",
+        "cand_4bf603c676bd7a38380a2d8e",
+        "cand_6b13cf506f43969c9075e88d",
+        "cand_7575a2ee48c7047d84041855",
+        "cand_7b8ed47b6f8a04635fe711fc",
+        "cand_932efeabe81f0dc48fd8b207",
+        "cand_a0129e4fadd468cd8ca9658d",
+        "cand_ef93f062f676a599c85ab049"
+      ],
+      "codes": [
+        "IATA:YBP",
+        "ICAO:ZUYB"
+      ],
+      "country": "CN",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "dup_01116f26c64ddc3307158385",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "复用已准入的 Caiba 与 Wuliangye 身份、旧 YBP 目录及 CAAC 的 ZUYB 记录。标示2026-11-15生效的未来气象规范不能证明2026-11-07之前的代码有效期。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 61,
+      "label": "Yibin Wuliangye Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [],
+      "newSourceIds": [],
+      "nextAction": "取得新旧机场相邻受控 AD 2 及 IATA 迁转原件；不以2019-12-05开航日填代码边界。",
+      "physicalSiteReviewUnits": [
+        "Yibin Caiba Airport",
+        "Yibin Wuliangye Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 28.858431,
+            "longitude": 104.526157
+          },
+          "locationId": "loc_cfad1667bce89f5ecaa1ae38",
+          "name": "Yibin Wuliangye Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_e06e851f3f4cc6edf165b55e"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "yibin",
+          "path": "research/evidence/code-dates/assessments.json",
+          "sha256": "92293e06a71866965a8e8c1a834ed069d86dc9b0bb14994b70513d591aa18b97",
+          "sourceIds": [
+            "cn-ybp-sina-20170715",
+            "iata-ybp-20261030"
+          ]
+        },
+        {
+          "caseKey": "yibin",
+          "path": "research/evidence/priority-markets/assessments.json",
+          "sha256": "ab5dd14167550aa3c233d1bc22d0b379b9fd17042d88a94f9b3c80d42da42b2b",
+          "sourceIds": [
+            "cn-met-2009",
+            "cn-met-2026"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [
+        "dup_9bea11c077507527520161fa",
+        "lead_0ebade06230bb871e5c7dfcf",
+        "lead_5de84fa5ab19c9a084d47c7c",
+        "lead_760e17c595fe4f5f0d2c72ef",
+        "lead_f6e52073b2e7c59a7e27c190"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_df7415ae41cdce9ee8b375c6",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [
+        "cn-met-2009",
+        "cn-met-2026",
+        "cn-ybp-sina-20170715",
+        "iata-ybp-20261030"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "code_boundary_and_family_authority_missing"
+    },
+    {
+      "candidateIds": [
+        "cand_3702fac096e2fef448488b31",
+        "cand_78b0038cfe829759f047db80"
+      ],
+      "caseId": "asia-yanan",
+      "codeLinkedCandidateIds": [
+        "cand_1e9654a698102e16aaf4d716",
+        "cand_3702fac096e2fef448488b31",
+        "cand_51ec632639bca73d20e8f057",
+        "cand_78b0038cfe829759f047db80",
+        "cand_8679c85fef46f1ef901594d5"
+      ],
+      "codes": [
+        "IATA:ENY",
+        "ICAO:ZLYA"
+      ],
+      "country": "CN",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "dup_6dfe772c13ba3e3b0cddc719",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "2017年旧目录将 ENY/ZLYA 关联 Ershilipu；当前 IATA 查询关联 Nanniwan。2019年抓到的筹建描述已经过时，关闭或首航日期不能自动成为代码日期。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 66,
+      "label": "Yan'an Nanniwan Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [],
+      "newSourceIds": [],
+      "nextAction": "取得2018年11月前后新旧场受控 AD 2 和 IATA 迁转原件。",
+      "physicalSiteReviewUnits": [
+        "Yan’an Ershilipu Airport",
+        "Yan’an Nanniwan Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 36.479413,
+            "longitude": 109.464083
+          },
+          "locationId": "loc_77e663e6b570355ecf5ce726",
+          "name": "Yan'an Nanniwan Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_22f5ad376c8f1cfda106d70c"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "yanan",
+          "path": "research/evidence/code-dates/assessments.json",
+          "sha256": "92293e06a71866965a8e8c1a834ed069d86dc9b0bb14994b70513d591aa18b97",
+          "sourceIds": [
+            "cn-eny-sina-20170716",
+            "iata-eny-20261030"
+          ]
+        },
+        {
+          "caseKey": "yanan",
+          "path": "research/evidence/priority-markets/assessments.json",
+          "sha256": "ab5dd14167550aa3c233d1bc22d0b379b9fd17042d88a94f9b3c80d42da42b2b",
+          "sourceIds": [
+            "cn-eny-detail-20191114",
+            "cn-met-2009",
+            "cn-met-2026"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [
+        "lead_5b7c885c3187331c0ecc1c69",
+        "lead_d1266108cfd3879f0040f482",
+        "lead_f0e1aaff49b7dbb42fabbf99"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_dee3e7bcdcb3dadef46e4947",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [
+        "cn-eny-detail-20191114",
+        "cn-eny-sina-20170716",
+        "cn-met-2009",
+        "cn-met-2026",
+        "iata-eny-20261030"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "code_boundary_and_family_authority_missing"
+    },
+    {
+      "candidateIds": [
+        "cand_0c9d57ba95da6e13405a136f",
+        "cand_9af6e060722c27c0ee0411bc"
+      ],
+      "caseId": "asia-zhanjiang",
+      "codeLinkedCandidateIds": [
+        "cand_0c9d57ba95da6e13405a136f",
+        "cand_2708e2fbb1c2b780388c0967",
+        "cand_811ea5c7016ddbc599ec70e5",
+        "cand_9af6e060722c27c0ee0411bc",
+        "cand_d038b37632cacc1185af04e7",
+        "cand_fc5e3ef780464864b7fbf4c4",
+        "cand_fed9a32b6f990eab1f7d4de3"
+      ],
+      "codes": [
+        "IATA:ZHA",
+        "ICAO:ZGZJ"
+      ],
+      "country": "CN",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "dup_28cc771cb3412cc5520ebe75",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "当前 IATA 查询将 ZHA 关联 Wuchuan；未来 CAAC 气象规范列出 Wuchuan 的 ZGZJ。旧城市目录不足以选择具体旧民航场址，不能据同城或同码认定 Suixi/Potou 军用机场。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 92,
+      "label": "Zhanjiang Wuchuan Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [],
+      "newSourceIds": [],
+      "nextAction": "先取得旧民航机场 AD 2、ARP 及场界，再取得 Wuchuan 首期受控资料与 ZHA 迁转原件。",
+      "physicalSiteReviewUnits": [
+        "Zhanjiang former civil airport, physical identification pending",
+        "Zhanjiang Wuchuan Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 21.481667,
+            "longitude": 110.590278
+          },
+          "locationId": "loc_b13c1192a70a0ed75ebf59a9",
+          "name": "Zhanjiang Wuchuan International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_9f45f97f368e429ef8e5f6d2"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "zhanjiang",
+          "path": "research/evidence/code-dates/assessments.json",
+          "sha256": "92293e06a71866965a8e8c1a834ed069d86dc9b0bb14994b70513d591aa18b97",
+          "sourceIds": [
+            "cn-zha-port-20190218",
+            "cn-zha-protection-2020",
+            "cn-zha-protection-notice",
+            "cn-zha-sina-20170715",
+            "iata-zha-20261030"
+          ]
+        },
+        {
+          "caseKey": "zhanjiang",
+          "path": "research/evidence/priority-markets/assessments.json",
+          "sha256": "ab5dd14167550aa3c233d1bc22d0b379b9fd17042d88a94f9b3c80d42da42b2b",
+          "sourceIds": [
+            "cn-met-2009",
+            "cn-met-2026",
+            "cn-zha-detail-20191113"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [
+        "dup_7c673151a8288bfe6e5bdefd",
+        "lead_4745fc919dabd3c0f5cb0989",
+        "lead_cf960e874a3c5698c6d63ec3",
+        "lead_e3360e6a6f9f5d4b3d413330"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_055911f489d892e828e677be",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [
+        "cn-met-2009",
+        "cn-met-2026",
+        "cn-zha-detail-20191113",
+        "cn-zha-port-20190218",
+        "cn-zha-protection-2020",
+        "cn-zha-protection-notice",
+        "cn-zha-sina-20170715",
+        "iata-zha-20261030"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "old_site_identity_and_code_boundary_missing"
+    },
+    {
+      "candidateIds": [
+        "cand_0f36d07ba67baeac0b1f8e67",
+        "cand_5d310fb97f8315c994d6b951",
+        "cand_bf000c1ef917590dc001bc7f"
+      ],
+      "caseId": "asia-ankang",
+      "codeLinkedCandidateIds": [
+        "cand_0f36d07ba67baeac0b1f8e67",
+        "cand_5d310fb97f8315c994d6b951",
+        "cand_bf000c1ef917590dc001bc7f",
+        "cand_c60cc1e008adef141c183763"
+      ],
+      "codes": [
+        "IATA:AKA",
+        "ICAO:ZLAK"
+      ],
+      "country": "CN",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "dup_84c2ef50c5668b5f0c74ba09",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "CAAC 发证日期2020-09-18与实际抵达日期2020-09-25是不同事实。旧 Wulipu 早在2018年停航，不能假设运营或代码连续；未来规范中的 ZLAK 也不能补齐旧历史。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 138,
+      "label": "Ankang Fuqiang Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [],
+      "newSourceIds": [],
+      "nextAction": "取得 Wulipu 最后受控代码及停止公告、Fuqiang 首期 AD 2 和 IATA 记录。",
+      "physicalSiteReviewUnits": [
+        "Ankang Wulipu Airport",
+        "Ankang Fuqiang Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 32.75696,
+            "longitude": 108.87338
+          },
+          "locationId": "loc_11fd26baf481e2b67d370629",
+          "name": "Ankang Fuqiang Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_4d6f04dd0f82119f0603ba5d"
+        },
+        {
+          "coordinates": {
+            "latitude": 32.708099,
+            "longitude": 108.931
+          },
+          "locationId": "loc_06bc607412749f42a98a5ffa",
+          "name": "Ankang Fuqiang Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_4d6f04dd0f82119f0603ba5d"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "ankang",
+          "path": "research/evidence/code-dates/assessments.json",
+          "sha256": "92293e06a71866965a8e8c1a834ed069d86dc9b0bb14994b70513d591aa18b97",
+          "sourceIds": [
+            "cn-aka-sina-20170715",
+            "iata-aka-20261030"
+          ]
+        },
+        {
+          "caseKey": "ankang",
+          "path": "research/evidence/priority-markets/assessments.json",
+          "sha256": "ab5dd14167550aa3c233d1bc22d0b379b9fd17042d88a94f9b3c80d42da42b2b",
+          "sourceIds": [
+            "cn-ankang-executed",
+            "cn-ankang-license",
+            "cn-met-2009",
+            "cn-met-2026"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [
+        "lead_f1ee65d9f84e83c7a9d7783f"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_cb16b0cd53afc905021305a0",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [
+        "cn-aka-sina-20170715",
+        "cn-ankang-executed",
+        "cn-ankang-license",
+        "cn-met-2009",
+        "cn-met-2026",
+        "iata-aka-20261030"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "code_boundary_and_family_authority_missing"
+    },
+    {
+      "candidateIds": [
+        "cand_14ccf615dd224179b7f9a448",
+        "cand_3b509a4f134f6fe5ddb5fe12",
+        "cand_e0e47b80b9791ecf25374d69"
+      ],
+      "caseId": "asia-nagoya-transfer",
+      "codeLinkedCandidateIds": [
+        "cand_14ccf615dd224179b7f9a448",
+        "cand_3b509a4f134f6fe5ddb5fe12",
+        "cand_e0e47b80b9791ecf25374d69"
+      ],
+      "codes": [
+        "IATA:NGO",
+        "ICAO:RJGG"
+      ],
+      "country": "JP",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "dup_082eee1b546da42520a438e4",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "JMA 179/182号原件描述2005年2月 RJNN 停止气象报文、RJNA 开始以及 Chubu 的 RJGG。该日期是气象报文切换，并非已取得的民航 ICAO 分配日期；当前 NGO/RJGG 也不能反推 NGO 迁转。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 237,
+      "label": "Chubu Centrair International Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [],
+      "newSourceIds": [],
+      "nextAction": "合法取得 AIS Japan 2005年 AIP/AIC 及 IATA NGO/NKM 原件；不绕过注册要求。",
+      "physicalSiteReviewUnits": [
+        "Nagoya Komaki Airport",
+        "Chubu Centrair Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 34.858398,
+            "longitude": 136.804993
+          },
+          "locationId": "loc_4364e89d76b02efdf45d4a26",
+          "name": "Chubu Centrair International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_c4361bf63bd4f358481237ba"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "jp-nagoya",
+          "path": "research/evidence/global-batch-5/batch.json",
+          "sha256": "c26c15e1503aa18225db40fabf5a8276fc5a8cc9ea037c1618923eba29e5db17",
+          "sourceIds": [
+            "b5-jp-jma-179",
+            "b5-jp-jma-182"
+          ]
+        },
+        {
+          "caseKey": "chubu",
+          "path": "research/evidence/code-dates/assessments.json",
+          "sha256": "92293e06a71866965a8e8c1a834ed069d86dc9b0bb14994b70513d591aa18b97",
+          "sourceIds": [
+            "iata-ngo-20261030",
+            "jp-jma-rjgg-20041228"
+          ]
+        },
+        {
+          "caseKey": "komaki",
+          "path": "research/evidence/code-dates/assessments.json",
+          "sha256": "92293e06a71866965a8e8c1a834ed069d86dc9b0bb14994b70513d591aa18b97",
+          "sourceIds": [
+            "iata-nkm-20261030",
+            "jp-jma-rjnn-rjna-20050209"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_1d06afd2230e32fe7d45a20a",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [
+        "b5-jp-jma-179",
+        "b5-jp-jma-182",
+        "iata-ngo-20261030",
+        "iata-nkm-20261030",
+        "jp-jma-rjgg-20041228",
+        "jp-jma-rjnn-rjna-20050209"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "weather_semantics_not_allocation"
+    },
+    {
+      "candidateIds": [
+        "cand_5cd01cf3c24a1922781c531a",
+        "cand_a3e40d7f675b802b01639336",
+        "cand_cea356bc758bf6509097ccbc"
+      ],
+      "caseId": "asia-incheon",
+      "codeLinkedCandidateIds": [
+        "cand_0dd29b4c11843b43d2bf762b",
+        "cand_5cd01cf3c24a1922781c531a",
+        "cand_a3e40d7f675b802b01639336",
+        "cand_cea356bc758bf6509097ccbc"
+      ],
+      "codes": [
+        "IATA:ICN",
+        "ICAO:RKSI"
+      ],
+      "country": "KR",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "dup_29c64282ac0b47d8fe08e6a6",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "复用 MOLIT 2025年4月和5月受控 AD 2 及历史目录收据。既有韩国授权仅限 RKSI/RKSS、指定27个本地日期和 ICAO；它不授予 IATA 或全球连续性规则。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 243,
+      "label": "Incheon International Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [],
+      "newSourceIds": [],
+      "nextAction": "仅使用原授权对应的执行器和完整原件契约；不扩大机场、日期或命名空间范围。",
+      "physicalSiteReviewUnits": [
+        "Incheon International Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 37.469101,
+            "longitude": 126.450996
+          },
+          "locationId": "loc_59ec111bf3dd1ae1cc3014f7",
+          "name": "Incheon International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_c8e3d4c02b3a84b03a90dcde"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "kr-incheon",
+          "path": "research/evidence/global-batch-5/batch.json",
+          "sha256": "c26c15e1503aa18225db40fabf5a8276fc5a8cc9ea037c1618923eba29e5db17",
+          "sourceIds": [
+            "b5-kr-aim-history-2025",
+            "b5-kr-rksi-20250416"
+          ]
+        },
+        {
+          "caseKey": "incheon",
+          "path": "research/evidence/code-dates/assessments.json",
+          "sha256": "92293e06a71866965a8e8c1a834ed069d86dc9b0bb14994b70513d591aa18b97",
+          "sourceIds": [
+            "kr-20250501-rksi",
+            "kr-iata-code-search"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [
+        "lead_d3714337bdff68bc1dd62c94"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_33a898f394d35132d4b6b461",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [
+        "b5-kr-aim-history-2025",
+        "b5-kr-rksi-20250416",
+        "kr-20250501-rksi",
+        "kr-iata-code-search"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "existing_kr_executor_input_block"
+    },
+    {
+      "candidateIds": [
+        "cand_5924a1a2fead057887e850bc",
+        "cand_b17b2a46c4766ff9202cea85"
+      ],
+      "caseId": "asia-ayodhya",
+      "codeLinkedCandidateIds": [
+        "cand_12e14865cf6fee5157dd4a90",
+        "cand_37c59c6c10538dd7924fa696",
+        "cand_5924a1a2fead057887e850bc",
+        "cand_774a3d00bfd80139d3e679e5",
+        "cand_7a0c1396347926415d580644",
+        "cand_b17b2a46c4766ff9202cea85"
+      ],
+      "codes": [
+        "IATA:AYJ",
+        "ICAO:VEAY"
+      ],
+      "country": "IN",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "dup_5c7714c3807c70c6df51192b",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": 27,
+      "findings": "两个 AAI AD 2 版本均列出 VEAY、Ayodhyadham 机场名称与相同 ARP。ICAO 参考索引为一个记录、一个场址；IATA AYJ 的目录争议不能替代 ICAO 分配记录。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 252,
+      "label": "Ayodhya Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [
+        {
+          "accessResult": "content_inspected",
+          "failure": null,
+          "httpStatus": 200,
+          "sourceId": "asia-in-11-06-2026-veay"
+        },
+        {
+          "accessResult": "content_inspected",
+          "failure": null,
+          "httpStatus": 200,
+          "sourceId": "asia-in-09-07-2026-veay"
+        }
+      ],
+      "newSourceIds": [
+        "asia-in-11-06-2026-veay",
+        "asia-in-09-07-2026-veay"
+      ],
+      "nextAction": "执行既有 AAI 准入及冲突筛查；IATA AYJ 的分配日期继续单独取证。",
+      "physicalSiteReviewUnits": [
+        "Ayodhyadham Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 26.747736,
+            "longitude": 82.163664
+          },
+          "locationId": "loc_4484bcda3d106ceaf4698384",
+          "name": "Maharshi Valmiki International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_b3f11ca6f8ad5e42fdf0b54b"
+        }
+      ],
+      "priorAssessmentRefs": [],
+      "relatedEventGroupIds": [
+        "lead_0a0fc1bfb3ef178a15aa103b",
+        "lead_3ee08fd00ac8e9f6fb567059",
+        "lead_7738c9728e550a3eb471916e",
+        "lead_7865ca0f04491ceb68a19db4"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_19563bcec389e2551b6e6006",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "existing_aai_gate_candidate"
+    },
+    {
+      "candidateIds": [
+        "cand_c5343fe709c172b2e9b9a36b",
+        "cand_e6c70a4679e26830af42908d",
+        "cand_eab540bacfa9a3472d0fbf74"
+      ],
+      "caseId": "asia-bangkok-transfer",
+      "codeLinkedCandidateIds": [
+        "cand_c5343fe709c172b2e9b9a36b",
+        "cand_e6c70a4679e26830af42908d",
+        "cand_eab540bacfa9a3472d0fbf74"
+      ],
+      "codes": [
+        "IATA:BKK",
+        "ICAO:VTBS"
+      ],
+      "country": "TH",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "dup_71f71f16d251a077e7100958",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "新取得的2026年 CAAT AD 2 将 VTBD 关联 Don Mueang；同版本 AD 1.3 同时列出 VTBD 与 VTBS。复用旧 VTBS 原件；此前 AOT 空响应不能算原件。当前 ICAO 观察不能确定2006年 BKK/DMK 迁转。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 257,
+      "label": "Suvarnabhumi Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [
+        {
+          "accessResult": "content_inspected",
+          "failure": null,
+          "httpStatus": 200,
+          "sourceId": "asia-th-vtbd-2026"
+        },
+        {
+          "accessResult": "content_inspected",
+          "failure": null,
+          "httpStatus": 200,
+          "sourceId": "asia-th-ad13-2026"
+        }
+      ],
+      "newSourceIds": [
+        "asia-th-vtbd-2026",
+        "asia-th-ad13-2026"
+      ],
+      "nextAction": "取得2006年 DCA AIP/SUP 和 IATA BKK/DMK 迁转原件；新来源家族规则保持 proposal-only。",
+      "physicalSiteReviewUnits": [
+        "Don Mueang Airport",
+        "Suvarnabhumi Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 13.6811,
+            "longitude": 100.747002
+          },
+          "locationId": "loc_24a4606a630079db6eb000c3",
+          "name": "Suvarnabhumi Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_4ab0a2cae7611e8db36f1835"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "th-bangkok",
+          "path": "research/evidence/global-batch-5/batch.json",
+          "sha256": "c26c15e1503aa18225db40fabf5a8276fc5a8cc9ea037c1618923eba29e5db17",
+          "sourceIds": [
+            "b5-th-aip-vtbs-2026",
+            "b5-th-aot-2q06",
+            "b5-th-aot-fy06"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_54a1ddf587b9368fc934b699",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [
+        "b5-th-aip-vtbs-2026",
+        "b5-th-aot-2q06",
+        "b5-th-aot-fy06"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "iata_transfer_and_historical_icao_control_missing"
+    },
+    {
+      "candidateIds": [
+        "cand_3c355099d256ea35fa065778",
+        "cand_470b14912b06490db7f56cad",
+        "cand_4798e79340b6441180023269"
+      ],
+      "caseId": "asia-gimpo",
+      "codeLinkedCandidateIds": [
+        "cand_2f8da6cc97e53fd6f99af1c8",
+        "cand_3c355099d256ea35fa065778",
+        "cand_470b14912b06490db7f56cad",
+        "cand_4798e79340b6441180023269",
+        "cand_93c79f1439ae832ec7bedde0",
+        "cand_a392db393b91117e950efdad"
+      ],
+      "codes": [
+        "IATA:GMP",
+        "ICAO:RKSS"
+      ],
+      "country": "KR",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "dup_87db80245374d3fd65d0e6fd",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "复用 MOLIT 受控 AD 2 与历史目录，观察到稳定 RKSS ARP。同一机构不同版本不算独立出版者；原授权的27日 ICAO 范围不能自动覆盖 IATA GMP。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 263,
+      "label": "Gimpo International Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [],
+      "newSourceIds": [],
+      "nextAction": "核对原授权要求的精确目录及原件输入；保留 IATA 有效期未知。",
+      "physicalSiteReviewUnits": [
+        "Gimpo International Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 37.5583,
+            "longitude": 126.791
+          },
+          "locationId": "loc_527bc70f63512f5c9e965db7",
+          "name": "Seoul Gimpo International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_ff637c6e4b9017ed09555406"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "kr-gimpo",
+          "path": "research/evidence/global-batch-5/batch.json",
+          "sha256": "c26c15e1503aa18225db40fabf5a8276fc5a8cc9ea037c1618923eba29e5db17",
+          "sourceIds": [
+            "b5-kr-aim-history-2025",
+            "b5-kr-rkss-20250416"
+          ]
+        },
+        {
+          "caseKey": "gimpo",
+          "path": "research/evidence/code-dates/assessments.json",
+          "sha256": "92293e06a71866965a8e8c1a834ed069d86dc9b0bb14994b70513d591aa18b97",
+          "sourceIds": [
+            "kr-20250501-rkss",
+            "kr-iata-gmp"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [
+        "dup_a4b699cb45697c8e6f86e0f2",
+        "lead_6a08597ae34cf03879f43804"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_d8c1cc3ca17f883b675511ae",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [
+        "b5-kr-aim-history-2025",
+        "b5-kr-rkss-20250416",
+        "kr-20250501-rkss",
+        "kr-iata-gmp"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "existing_kr_executor_input_block"
+    },
+    {
+      "candidateIds": [
+        "cand_32d72208958877c549fd549c",
+        "cand_7bc0974a57ed25d96d3513be",
+        "cand_d43caee698b25f74fd9755e5"
+      ],
+      "caseId": "asia-hyderabad",
+      "codeLinkedCandidateIds": [
+        "cand_32d72208958877c549fd549c",
+        "cand_7bc0974a57ed25d96d3513be",
+        "cand_d43caee698b25f74fd9755e5"
+      ],
+      "codes": [
+        "IATA:HYD",
+        "ICAO:VOHS"
+      ],
+      "country": "IN",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "dup_944bff545aa065e1c017eeec",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "S.O.470(E) 扫描原件涉及 HYD 迁转，但其中2008-03-16生效安排已被后续通知替代。2008-03-23最终安排目前仅有二手转录；AAI 原件则分别列出 VOHY 与 VOHS。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 270,
+      "label": "Rajiv Gandhi International Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [],
+      "newSourceIds": [],
+      "nextAction": "取得2008-03-20最终通知原件及相邻版本；分别研究 IATA HYD 迁转、民航服务停止和物理机场关闭。",
+      "physicalSiteReviewUnits": [
+        "Begumpet Airport",
+        "Rajiv Gandhi International Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 17.231318,
+            "longitude": 78.429855
+          },
+          "locationId": "loc_0dc64ea1b3f6315f0e8e0573",
+          "name": "Rajiv Gandhi International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_fb7650e7f60a48cc79a32f8e"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "in-hyderabad",
+          "path": "research/evidence/global-batch-5/batch.json",
+          "sha256": "c26c15e1503aa18225db40fabf5a8276fc5a8cc9ea037c1618923eba29e5db17",
+          "sourceIds": [
+            "b5-iata-hyd-20261103",
+            "b5-in-aip-2012-ad13",
+            "b5-in-aip-2012-ad15",
+            "b5-in-aip-2026-vohs",
+            "b5-in-aip-2026-vohy",
+            "b5-in-so470e-2008",
+            "b5-in-thesis-2016"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_4b21b646bd9d70043506877f",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [
+        "b5-iata-hyd-20261103",
+        "b5-in-aip-2012-ad13",
+        "b5-in-aip-2012-ad15",
+        "b5-in-aip-2026-vohs",
+        "b5-in-aip-2026-vohy",
+        "b5-in-so470e-2008",
+        "b5-in-thesis-2016"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "superseded_boundary_original_missing"
+    },
+    {
+      "candidateIds": [
+        "cand_50cad7ea2032db28b38dd4f4",
+        "cand_7983f82cf9702bc9c218018e",
+        "cand_87094dbcf8d7dee53ddae8cd"
+      ],
+      "caseId": "asia-kunming",
+      "codeLinkedCandidateIds": [
+        "cand_50cad7ea2032db28b38dd4f4",
+        "cand_7983f82cf9702bc9c218018e",
+        "cand_87094dbcf8d7dee53ddae8cd"
+      ],
+      "codes": [
+        "IATA:KMG",
+        "ICAO:ZPPP"
+      ],
+      "country": "CN",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "dup_a70fcd3f03834db946f0a8c0",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "复用 ICAO/APAC 2010年原件中的 Wujiaba 记录与运营商2012年 Changshui 迁场通知。实际物理迁场已经有线索，但尚不能据此确认每个命名空间的分配生效日期。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 273,
+      "label": "Kunming Changshui International Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [],
+      "newSourceIds": [],
+      "nextAction": "取得2012年相邻受控 AD 2、AIRAC 及有日期的 IATA KMG 迁转原件。",
+      "physicalSiteReviewUnits": [
+        "Kunming Wujiaba Airport",
+        "Kunming Changshui Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 25.110313,
+            "longitude": 102.936743
+          },
+          "locationId": "loc_1f6d2f6232794d2638779af7",
+          "name": "Kunming Changshui International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_dc2db4ff7630225571b10fe1"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "cn-kunming",
+          "path": "research/evidence/global-batch-5/batch.json",
+          "sha256": "c26c15e1503aa18225db40fabf5a8276fc5a8cc9ea037c1618923eba29e5db17",
+          "sourceIds": [
+            "b5-cn-icao-2010-zppp",
+            "b5-cn-kmg-notice-2012"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_63aae24c50d03f7e857e5700",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [
+        "b5-cn-icao-2010-zppp",
+        "b5-cn-kmg-notice-2012"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "code_boundary_and_family_authority_missing"
+    },
+    {
+      "candidateIds": [
+        "cand_b0c1edd2af3839c91bc026eb",
+        "cand_b6120265b005767089d3dcfe",
+        "cand_e514baf38e2c493407901fbf"
+      ],
+      "caseId": "asia-bengaluru",
+      "codeLinkedCandidateIds": [
+        "cand_03e58328ebc40321ff0d6aa9",
+        "cand_98fba09a55b1471f2d913d0f",
+        "cand_b0c1edd2af3839c91bc026eb",
+        "cand_b6120265b005767089d3dcfe",
+        "cand_e514baf38e2c493407901fbf"
+      ],
+      "codes": [
+        "IATA:BLR",
+        "ICAO:VOBL"
+      ],
+      "country": "IN",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "dup_ce3a8a984a0738318d411ceb",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "复用 AAI 2012及2026原件：HAL 的 VOBG 与新机场 VOBL 是不同机场。2004年特许文件提到既有 BLR，但属于前瞻文件；最终迁转通知 S.O.1170(E) 的原件仍未取得。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 281,
+      "label": "Kempegowda International Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [],
+      "newSourceIds": [],
+      "nextAction": "取得 S.O.1170(E) 及修订原件，并逐机场获取相邻受控 AD 2 版本；不得在相隔14年的观察之间插值。",
+      "physicalSiteReviewUnits": [
+        "HAL Airport",
+        "Kempegowda International Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 13.1979,
+            "longitude": 77.706299
+          },
+          "locationId": "loc_0b70aafb6cbaa56a094f2e4a",
+          "name": "Kempegowda International Airport Bengaluru",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_932db21fd86f24c76dde0a1c"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "in-bengaluru",
+          "path": "research/evidence/global-batch-5/batch.json",
+          "sha256": "c26c15e1503aa18225db40fabf5a8276fc5a8cc9ea037c1618923eba29e5db17",
+          "sourceIds": [
+            "b5-iata-blr-20261103",
+            "b5-in-aip-2012-ad13",
+            "b5-in-aip-2012-ad15",
+            "b5-in-aip-2026-vobg",
+            "b5-in-aip-2026-vobl",
+            "b5-in-moca-bial-2004",
+            "b5-in-thesis-2016"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [
+        "lead_471d415439ffde04271fc135",
+        "lead_61b60fe97f077da6d681c689"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_4f94cc2dc4d2a315d507a3d6",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [
+        "b5-iata-blr-20261103",
+        "b5-in-aip-2012-ad13",
+        "b5-in-aip-2012-ad15",
+        "b5-in-aip-2026-vobg",
+        "b5-in-aip-2026-vobl",
+        "b5-in-moca-bial-2004",
+        "b5-in-thesis-2016"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "missing_original_transfer_and_bounded_pairs"
+    },
+    {
+      "candidateIds": [
+        "cand_5ce1ea30e00cbf5a84a7b9e7",
+        "cand_9fbefaac28829e3bfeae6096",
+        "cand_edd44e2780df3cbf6ba5dd42"
+      ],
+      "caseId": "asia-mysuru",
+      "codeLinkedCandidateIds": [
+        "cand_3563216ba3434cd7f59bee04",
+        "cand_5ce1ea30e00cbf5a84a7b9e7",
+        "cand_9fbefaac28829e3bfeae6096",
+        "cand_edd44e2780df3cbf6ba5dd42",
+        "cand_fed0e2960c4879984ca4a40c"
+      ],
+      "codes": [
+        "IATA:MYQ",
+        "ICAO:VOMY"
+      ],
+      "country": "IN",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "dup_1d6cbbe3723c25d8dafa38ac",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "两个受控 AD 2 原件将 VOMY 关联到 Mysuru 和相同 ARP；参考索引仍有三个坐标假设，其中一个与该 ARP 明显不符。坐标差异尚未证明迁址或目录纠错。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 427,
+      "label": "Mysore Airport",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [
+        {
+          "accessResult": "content_inspected",
+          "failure": null,
+          "httpStatus": 200,
+          "sourceId": "asia-in-11-06-2026-vomy"
+        },
+        {
+          "accessResult": "content_inspected",
+          "failure": null,
+          "httpStatus": 200,
+          "sourceId": "asia-in-09-07-2026-vomy"
+        }
+      ],
+      "newSourceIds": [
+        "asia-in-11-06-2026-vomy",
+        "asia-in-09-07-2026-vomy"
+      ],
+      "nextAction": "取得场界及历史 ARP 资料解决竞争场址假设；按未修改的 AAI 规则升级审查，暂不自动准入。",
+      "physicalSiteReviewUnits": [
+        "Mysuru Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 12.229751,
+            "longitude": 76.653683
+          },
+          "locationId": "loc_6923a25ad54bea7ac963c207",
+          "name": "Mysore Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_d747350d2a58674315779c57"
+        },
+        {
+          "coordinates": {
+            "latitude": 12.23,
+            "longitude": 76.655833
+          },
+          "locationId": "loc_9853f00d53890bea74fb8405",
+          "name": "Mysore Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_d747350d2a58674315779c57"
+        },
+        {
+          "coordinates": {
+            "latitude": 12.30720043182373,
+            "longitude": 76.64969635009766
+          },
+          "locationId": "loc_f5c8bac5c4ecf56df8cb5b8f",
+          "name": "Mysore Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_d747350d2a58674315779c57"
+        }
+      ],
+      "priorAssessmentRefs": [],
+      "relatedEventGroupIds": [
+        "lead_c3c370350bf18658ada637dc",
+        "lead_f6b3e9ee42f25b51f49a2997"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_1a1dd166d2d28cd75d714ecf",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "competing_physical_sites"
+    },
+    {
+      "candidateIds": [
+        "cand_38443b66e377d858d5fbac2a"
+      ],
+      "caseId": "asia-navi-mumbai",
+      "codeLinkedCandidateIds": [
+        "cand_013547348c3ffb9008d175ac",
+        "cand_38443b66e377d858d5fbac2a",
+        "cand_6bf11b64250e92731f2a496c",
+        "cand_7c3e1a98eb827c5b6f95d461",
+        "cand_b41ca9a271c9f6ee75f9d8dd",
+        "cand_cb90ea7d87fb5c9835f8dafa"
+      ],
+      "codes": [
+        "IATA:NMI",
+        "ICAO:VANM"
+      ],
+      "country": "IN",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "lead_03b31dfcd0ad9837c248e576",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": 27,
+      "findings": "两个 AAI AD 2 版本明确列出 VANM、Navi Mumbai 机场名称与相同 ARP。目录中的建设状态和开业报道都不能确定代码生效日期。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 500,
+      "label": "Navi Mumbai International Airport (under construction)",
+      "machinePriorityTier": "high",
+      "newAcquisitionOutcomes": [
+        {
+          "accessResult": "content_inspected",
+          "failure": null,
+          "httpStatus": 200,
+          "sourceId": "asia-in-11-06-2026-vanm"
+        },
+        {
+          "accessResult": "content_inspected",
+          "failure": null,
+          "httpStatus": 200,
+          "sourceId": "asia-in-09-07-2026-vanm"
+        }
+      ],
+      "newSourceIds": [
+        "asia-in-11-06-2026-vanm",
+        "asia-in-09-07-2026-vanm"
+      ],
+      "nextAction": "通过既有 AAI 规则审查27个完整本地日期；不将启用、开航或 IATA NMI 目录变化当作代码分配。",
+      "physicalSiteReviewUnits": [
+        "Navi Mumbai International Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 18.984597,
+            "longitude": 73.065253
+          },
+          "locationId": "loc_6e9cd1c523bab216bca61f49",
+          "name": "Navi Mumbai International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_73e20544277e69843b9cbc61"
+        }
+      ],
+      "priorAssessmentRefs": [],
+      "relatedEventGroupIds": [
+        "dup_6409ce5be466d565f2a2d111",
+        "lead_1df6a8f898411e12bc4cc8c4",
+        "lead_6bca3e7372f8798d490307b6",
+        "lead_e5310a52fc3eae1c8e0a2b8a"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_faf3540ecdc85a31171bd21d",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "existing_aai_gate_candidate"
+    },
+    {
+      "candidateIds": [
+        "cand_810b9344fe5351aae3754ff0"
+      ],
+      "caseId": "asia-shivamogga",
+      "codeLinkedCandidateIds": [
+        "cand_0f99abd2ea280a32d12a7291",
+        "cand_4e5c0af754101a2bc7932d65",
+        "cand_65d1bd282ad9a031c354f048",
+        "cand_810b9344fe5351aae3754ff0",
+        "cand_f04f72779001ce2613987291"
+      ],
+      "codes": [
+        "IATA:RQY",
+        "ICAO:VOSH"
+      ],
+      "country": "IN",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "lead_a2a7a2db17869a42c0b3dafb",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": 27,
+      "findings": "两个受控 AAI AD 2 版本均将 VOSH 关联到 Shivamogga 的同一名称与 ARP；原件不同、版本相隔28天。仅提出既有 AAI 规则允许的27个完整本地日期；不据开航日推断 IATA RQY 或 ICAO 首次分配。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 1531,
+      "label": "Shivamogga Airport",
+      "machinePriorityTier": "follow_up",
+      "newAcquisitionOutcomes": [
+        {
+          "accessResult": "content_inspected",
+          "failure": null,
+          "httpStatus": 200,
+          "sourceId": "asia-in-11-06-2026-vosh"
+        },
+        {
+          "accessResult": "content_inspected",
+          "failure": null,
+          "httpStatus": 200,
+          "sourceId": "asia-in-09-07-2026-vosh"
+        }
+      ],
+      "newSourceIds": [
+        "asia-in-11-06-2026-vosh",
+        "asia-in-09-07-2026-vosh"
+      ],
+      "nextAction": "由未修改的 AAI 原件回放和准入路径完成审查；保持首次分配、最终撤销、历史法定名称及时区未知。",
+      "physicalSiteReviewUnits": [
+        "Shivamogga Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 13.858024,
+            "longitude": 75.618868
+          },
+          "locationId": "loc_099398eeeee40007a6761587",
+          "name": "Rashtrakavi Kuvempu Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_736b8b35b72d219c942f9e4b"
+        }
+      ],
+      "priorAssessmentRefs": [],
+      "relatedEventGroupIds": [
+        "dup_ea41cccc5f663df1ecfa1911",
+        "lead_1cb451db3312b9bc8d972a25",
+        "lead_9167d530e93f6d471f85605e"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_99ec906f0a83b4426daf0d22",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "existing_aai_gate_candidate"
+    },
+    {
+      "candidateIds": [
+        "cand_bf8719d78d12cb56f9aed274",
+        "cand_c72c5b51e15b4ad7755ae02f",
+        "cand_fb2aaef0bcb7947a598f02c2"
+      ],
+      "caseId": "asia-dhaka",
+      "codeLinkedCandidateIds": [
+        "cand_69ba772785ad40ba9e3686de",
+        "cand_bf8719d78d12cb56f9aed274",
+        "cand_c72c5b51e15b4ad7755ae02f",
+        "cand_fb2aaef0bcb7947a598f02c2"
+      ],
+      "codes": [
+        "IATA:DAC",
+        "ICAO:VGHS"
+      ],
+      "country": "BD",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "dup_12d414601e9dcc4d81813558",
+      "evidenceLevel": "access_attempt_only",
+      "expectedResolvedQueries": null,
+      "findings": "DAC/VGHS/VGZR 的目录历史需要区分 Tejgaon 机场替代与同一场址的名称、ICAO 变化。CAAB 入口503，本次未取得官方原件；Git 修订时间不作为代码边界。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 1681,
+      "label": "Hazrat Shahjalal International Airport",
+      "machinePriorityTier": "follow_up",
+      "newAcquisitionOutcomes": [
+        {
+          "accessResult": "retrieval_failed",
+          "failure": "HTTPError: HTTP Error 503: Service Unavailable",
+          "httpStatus": null,
+          "sourceId": "asia-bd-aip"
+        }
+      ],
+      "newSourceIds": [
+        "asia-bd-aip"
+      ],
+      "nextAction": "取得 CAAB 历史 VGHS/VGZR/VGTE AD 2 及正式 ICAO 改码修订；IATA DAC 单独研究。",
+      "physicalSiteReviewUnits": [
+        "Tejgaon Airport",
+        "Dhaka Shahjalal Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 23.843347,
+            "longitude": 90.397783
+          },
+          "locationId": "loc_b471d27c80985fdc7f609232",
+          "name": "Hazrat Shahjalal International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_63b26b52ca20947eaef69642"
+        }
+      ],
+      "priorAssessmentRefs": [],
+      "relatedEventGroupIds": [
+        "lead_c389dd06ca91256edc11aa7d"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_70cc045549de9de613fe07c5",
+      "researchStatus": "official_original_access_blocked",
+      "reusedSourceIds": [],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "official_original_access_unresolved"
+    },
+    {
+      "candidateIds": [
+        "cand_67f50a4182cce4a2ea948a4b",
+        "cand_d5df8be5186e78ac057e8536",
+        "cand_f7351a6e9905a555e7fd17e1"
+      ],
+      "caseId": "asia-yogyakarta",
+      "codeLinkedCandidateIds": [
+        "cand_67f50a4182cce4a2ea948a4b",
+        "cand_d5df8be5186e78ac057e8536",
+        "cand_f7351a6e9905a555e7fd17e1"
+      ],
+      "codes": [
+        "IATA:YIA",
+        "ICAO:WAHI"
+      ],
+      "country": "ID",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "dup_cabf0b20245e8bbfd3c5d173",
+      "evidenceLevel": "official_or_carrier_original_receipt_inspected",
+      "expectedResolvedQueries": null,
+      "findings": "AirAsia 的2020-03-29航班迁转通知和交通部运行公告支持两个机场及承运人使用的 JOG/YIA 标签。它们不能自动确定 WAHH/WAHI 或 IATA 首次分配、撤销；本次 AIM 访问403。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 2472,
+      "label": "Yogyakarta International Airport",
+      "machinePriorityTier": "follow_up",
+      "newAcquisitionOutcomes": [
+        {
+          "accessResult": "retrieval_failed",
+          "failure": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+          "httpStatus": null,
+          "sourceId": "asia-id-aim"
+        }
+      ],
+      "newSourceIds": [
+        "asia-id-aim"
+      ],
+      "nextAction": "取得新旧场相邻受控 AD 2、AIRAC 及 IATA 原件；继续区分旧场保留运行与完全关闭。",
+      "physicalSiteReviewUnits": [
+        "Adisutjipto Airport",
+        "Yogyakarta International Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": -7.905338,
+            "longitude": 110.057264
+          },
+          "locationId": "loc_3560e8f70d8060e44f9a2468",
+          "name": "Yogyakarta International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_e1fa4394a034fbde7b7a662c"
+        }
+      ],
+      "priorAssessmentRefs": [
+        {
+          "caseKey": "yogyakarta",
+          "path": "research/evidence/global/assessments.json",
+          "sha256": "c4dd9d49edae494f0f5ad8a7d7becd0c4549203fb5be4065e6d92ded6e3c2b1a",
+          "sourceIds": [
+            "id-yogyakarta-airasia"
+          ]
+        }
+      ],
+      "relatedEventGroupIds": [],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_1ebaae378ff4b2f0a041006a",
+      "researchStatus": "official_original_or_locked_evidence_inspected",
+      "reusedSourceIds": [
+        "id-yogyakarta-airasia"
+      ],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "code_boundary_and_family_authority_missing"
+    },
+    {
+      "candidateIds": [
+        "cand_3a55d0033cbaa82cf80cab42",
+        "cand_bb9a77a481e53ae5d57d8596",
+        "cand_dcc2354e4ddf3483833972e1"
+      ],
+      "caseId": "asia-phu-quoc",
+      "codeLinkedCandidateIds": [
+        "cand_3a55d0033cbaa82cf80cab42",
+        "cand_4453f3e1f851e1299fb34d0d",
+        "cand_4d3c7f1264b8d45f27613a6e",
+        "cand_bb9a77a481e53ae5d57d8596",
+        "cand_dcc2354e4ddf3483833972e1"
+      ],
+      "codes": [
+        "IATA:PQC",
+        "ICAO:VVPQ"
+      ],
+      "country": "VN",
+      "datePolicy": "Airport operations, physical closure, code effective date, issue date, controlled edition, capture and retrieval are distinct. IATA never inherits ICAO boundaries; unknown earliest/latest stay null. No interpolation beyond applicable explicitly authorized policy.",
+      "estimatedMetricNote": "No per-case modelled resolved benefit claimed; production comparison is a separate root artifact.",
+      "eventGroupId": "dup_d35038e62a0c92399c26ec8a",
+      "evidenceLevel": "access_attempt_only",
+      "expectedResolvedQueries": null,
+      "findings": "目录中的 PQC/VVPQ 显示旧新场关联线索，但没有官方代码生效边界。本次 VATM 入口503，没有取得可读原件；空间差异仍只是未核实线索。",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 2521,
+      "label": "Phu Quoc International Airport",
+      "machinePriorityTier": "follow_up",
+      "newAcquisitionOutcomes": [
+        {
+          "accessResult": "retrieval_failed",
+          "failure": "HTTPError: HTTP Error 503: Service Unavailable",
+          "httpStatus": null,
+          "sourceId": "asia-vn-aim"
+        }
+      ],
+      "newSourceIds": [
+        "asia-vn-aim"
+      ],
+      "nextAction": "取得2012/2013年 VATM AD 2、AIP 修订或 NOTAM 及物理 ARP；另行获取 IATA 原件。",
+      "physicalSiteReviewUnits": [
+        "Old Phu Quoc Airport",
+        "New Phu Quoc Airport"
+      ],
+      "physicalSiteUnitMeaning": "Named research targets; the count does not certify formal identity or code validity. Unresolved site hypotheses remain explicit.",
+      "physicalSites": [
+        {
+          "coordinates": {
+            "latitude": 10.169783,
+            "longitude": 103.99353
+          },
+          "locationId": "loc_62b26ec7eab13ecb0ff01f62",
+          "name": "Phú Quốc International Airport",
+          "physicalIdentityVerified": false,
+          "referenceId": "ref_b30f6fef24dd4d2b185e851c"
+        }
+      ],
+      "priorAssessmentRefs": [],
+      "relatedEventGroupIds": [
+        "lead_23fb517f98c1658700c38f44",
+        "lead_48994edefe79cdfa84cc3337"
+      ],
+      "relatedGroupMeaning": "Same-country code-linked candidates for navigation; they are not all independently researched, proven same event, or counted toward the research minimum.",
+      "researchClusterKey": "cluster_86d7e99bde021ef3ea05a998",
+      "researchStatus": "official_original_access_blocked",
+      "reusedSourceIds": [],
+      "reviewMode": "claim_specific_existing_original_receipt_reuse_and_new_acquisition",
+      "reviewedOn": "2026-11-07",
+      "status": "official_original_access_unresolved"
+    }
+  ],
+  "countingRule": "Each code/site history research cluster counted once; related directory observations/group aliases do not multiply actual cases.",
+  "distinctResearchClusters": 29,
+  "formatVersion": 1,
+  "linkedEventGroups": 122,
+  "researchCases": 29,
+  "reviewedOn": "2026-11-07"
+}

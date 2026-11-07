@@ -1,0 +1,24 @@
+{
+  "sourceId": "qa-ad13-2014",
+  "originalSha256": "7702f21eab6e24c7cf6918040ebaec7ab15a51303b676317d4a5e1a0a457e899",
+  "extractedTextSha256": "ad912dc160ae1dd1d5cab674b3a0ce7e406bbf97b980940f9d416db0a3f70357",
+  "normalizedTextSha256": "3c626a0abfd25d4f726dd20a24d4ca4445a6145a52e3dd77600426b8ccf0aa67",
+  "spans": [
+    {
+      "representation": "normalized_text",
+      "characterStart": 453,
+      "characterEnd": 476,
+      "quote": "DOHA INTERNATIONAL OTBD",
+      "quoteSha256": "ebec7f35f8ae122303b2f195c0b29f95702f3ea037c20fec773f174cbef714b2"
+    },
+    {
+      "representation": "normalized_text",
+      "characterStart": 523,
+      "characterEnd": 547,
+      "quote": "HAMAD INTERNATIONAL OTHH",
+      "quoteSha256": "92132f91e4bc513402948d2db901149c3ad95b1aad826b695ed55fe0ef99b2f1"
+    }
+  ],
+  "quoteScope": "Minimal factual code/name/date anchors only; full original and complete extraction remain ignored work/.",
+  "dateNature": "URL archive label AIRAC04-14; exact effective date not established from retrieved index; 2014 is edition-family label only"
+}

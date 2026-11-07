@@ -1,0 +1,359 @@
+{
+  "duplicateAcquisitionIncident": {
+    "description": "One inadvertent duplicate retrieval was discovered by comparing against earlier locked hashes. It is disclosed and excluded from new-original/source-independence counts.",
+    "newOriginalCount": 0,
+    "originalSha256": "35e554ff386032ac024dd2643d1bc287a4fafb1d1436006b0da6dbd70c81f99f",
+    "priorReceipt": "research/evidence/global-batch-5/source-lock.json#b5-us-dtpp-2611",
+    "sourceId": "global-code-expansion-us-faa-dtpp-2611"
+  },
+  "formatVersion": 1,
+  "originalsRedownloadedForReuse": false,
+  "sources": [
+    {
+      "extractedTextSha256": null,
+      "hashLimitation": "Legacy receipt does not expose a separate normalized-text hash. No substitute hash is invented.",
+      "limitations": "A meteorological/planning row is not an IATA allocation. Cannot choose between old Kankan and Diankana by the city name alone.",
+      "normalizedTextSha256": null,
+      "originalSha256": "7418c6a994071fef1bb426395e718f0918f6818427f59f4b7df1671375c3ee5a",
+      "rawBytesReverifiedThisRun": false,
+      "receiptFileSha256": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094",
+      "receiptPath": "research/discovery/batches/global-1.json",
+      "reuseMode": "Existing source receipt and bounded factual evidence read offline; no original download.",
+      "rights": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed.",
+        "url": null
+      },
+      "sourceFamily": "ICAO regional meteorological planning document",
+      "sourceId": "knn-icao",
+      "title": "ICAO MET/SG/10 appendices, 2011",
+      "url": "https://www.icao.int/sites/default/files/sp-files/ESAF/Documents/APIRG/APIRG18/Docs/wp18_appendices_en.pdf"
+    },
+    {
+      "extractedTextSha256": null,
+      "hashLimitation": "Legacy receipt does not expose a separate normalized-text hash. No substitute hash is invented.",
+      "limitations": "Current operational/site observation only; not an IATA historical allocation ledger.",
+      "normalizedTextSha256": null,
+      "originalSha256": "c56b021bdb2718c23ef43c8ea2c2dc414255ab0c6fdc5772de474c2e9ad7787b",
+      "rawBytesReverifiedThisRun": false,
+      "receiptFileSha256": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094",
+      "receiptPath": "research/discovery/batches/global-1.json",
+      "reuseMode": "Existing source receipt and bounded factual evidence read offline; no original download.",
+      "rights": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed.",
+        "url": null
+      },
+      "sourceFamily": "airport operator",
+      "sourceId": "hds-operator",
+      "title": "Eastgate operator aviation information",
+      "url": "https://eastgateairport.co.za/aviation/"
+    },
+    {
+      "extractedTextSha256": null,
+      "hashLimitation": "Legacy receipt does not expose a separate normalized-text hash. No substitute hash is invented.",
+      "limitations": "Supports same airfield; does not allocate HDS or establish a 2026 withdrawal.",
+      "normalizedTextSha256": null,
+      "originalSha256": "fdb7591a8752858dac7b5ff87854f7630a96293ebd4478f12e45447eac4cc61e",
+      "rawBytesReverifiedThisRun": false,
+      "receiptFileSha256": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094",
+      "receiptPath": "research/discovery/batches/global-1.json",
+      "reuseMode": "Existing source receipt and bounded factual evidence read offline; no original download.",
+      "rights": {
+        "id": "LicenseRef-Reference-Only",
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed.",
+        "url": null
+      },
+      "sourceFamily": "aviation authority AIP via ATNS",
+      "sourceId": "hds-aip",
+      "title": "South Africa AIP FAHS, valid 2022-01-15",
+      "url": "https://cad.atns.co.za/SmartAIM/EAipPackages/15-JAN-22/2022-01-15-000000/html/eAIP/FA-AD-2-FAHS-en-US.html"
+    },
+    {
+      "excerptPath": "research/evidence/global/excerpts/cl-chaiten-aip.json",
+      "excerptSha256": "682a4fdb1efa81d42ee74b801b4c8f1e31ae5e7bb6d583e2f109e61959bd3c49",
+      "extractedTextSha256": "a226183d93218f783b430602566ba59d8912d927ad82dc6bb79f7be61bafcf5b",
+      "hashLimitation": "Legacy receipt does not expose a separate normalized-text hash. No substitute hash is invented.",
+      "limitations": [
+        "No unsupported allocation, withdrawal, daily continuity or global completeness follows from acquisition."
+      ],
+      "normalizedTextSha256": null,
+      "originalSha256": "278b31c99edf9048075231edff094c601e1072b4d34a8095d70caa27adb861a8",
+      "rawBytesReverifiedThisRun": false,
+      "receiptFileSha256": "7edaecaa997d2cc932e5fd4e4961600cbfa40228749f404981ebc10693ad8185",
+      "receiptPath": "research/evidence/global/source-lock.json",
+      "reuseMode": "Existing source receipt and bounded factual evidence read offline; no original download.",
+      "rights": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://aipchile.dgac.gob.cl/mobile/aerodromo/designador/SCTN"
+      },
+      "sourceFamily": "Chile DGAC",
+      "sourceId": "cl-chaiten-aip",
+      "title": "Nuevo Chaiten official aerodrome entry",
+      "url": "https://aipchile.dgac.gob.cl/mobile/aerodromo/designador/SCTN"
+    },
+    {
+      "excerptPath": "research/evidence/global/excerpts/cl-chaiten-mop.json",
+      "excerptSha256": "d6cbe6946883f2c67411c933eb8108065937974a45b70cc320891727230a21c2",
+      "extractedTextSha256": "000e8ad2c2b167328e551509163effcd2484070210194b074a4c59a19d1df87b",
+      "hashLimitation": "Legacy receipt does not expose a separate normalized-text hash. No substitute hash is invented.",
+      "limitations": [
+        "No unsupported allocation, withdrawal, daily continuity or global completeness follows from acquisition."
+      ],
+      "normalizedTextSha256": null,
+      "originalSha256": "9592b2bbe636787c60015453dd4c00481f4cd65f9a7aca3d5886214abdbdeebb",
+      "rawBytesReverifiedThisRun": false,
+      "receiptFileSha256": "7edaecaa997d2cc932e5fd4e4961600cbfa40228749f404981ebc10693ad8185",
+      "receiptPath": "research/evidence/global/source-lock.json",
+      "reuseMode": "Existing source receipt and bounded factual evidence read offline; no original download.",
+      "rights": {
+        "id": "LicenseRef-Source-Terms",
+        "note": "Original publisher retains applicable rights. Archived for claim verification; excluded from repository MIT license. No permission to reuse third-party photographs, charts or trademarks is granted.",
+        "url": "https://aeropuertos.mop.gob.cl/2015/01/29/ministro-de-obras-publicas-y-directora-de-aeropuertos-inauguran-aerodromo-de-chaiten/"
+      },
+      "sourceFamily": "Chile Ministry of Public Works Directorate of Airports",
+      "sourceId": "cl-chaiten-mop",
+      "title": "Nuevo Chaiten replacement and commencement",
+      "url": "https://aeropuertos.mop.gob.cl/2015/01/29/ministro-de-obras-publicas-y-directora-de-aeropuertos-inauguran-aerodromo-de-chaiten/"
+    },
+    {
+      "excerptPath": "research/evidence/markets/excerpts/us-isn-closure.json",
+      "excerptSha256": "ad671d0b47674e671e6e98f1893e022f702f30575758ecfe2cd9d448f8f29ebb",
+      "extractedTextSha256": "86f4713e65449b9899c8ad03d723ba98af3e626def1809120ffdbd712c52df5b",
+      "hashLimitation": "Legacy receipt does not expose a separate normalized-text hash. No substitute hash is invented.",
+      "limitations": null,
+      "normalizedTextSha256": null,
+      "originalSha256": "0e6b90babfbfec73c582cc0886b7de3c13d866d017993a2caa01ab9851188b35",
+      "rawBytesReverifiedThisRun": false,
+      "receiptFileSha256": "6bb9d3b8ed594064c78db6e9bd4844fd3ede49e091c51e055bf6956b3974932f",
+      "receiptPath": "research/evidence/markets/source-lock.json",
+      "reuseMode": "Existing source receipt and bounded factual evidence read offline; no original download.",
+      "rights": {
+        "mode": "metadata_and_short_excerpts",
+        "note": "No full HTML/PDF or full text is committed. Original publisher rights remain; minimal attributed quotations/factual rows retained solely for critical verification. Fetch original separately to verify its original SHA-256. No charts, photographs, or commercial code ledger redistributed.",
+        "permissionForFullRedistribution": "not_established"
+      },
+      "sourceFamily": "FAA / GPO",
+      "sourceId": "us-isn-closure",
+      "title": "Sloulin Field notice of permanent closure",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2019-08-29/pdf/2019-18577.pdf"
+    },
+    {
+      "excerptPath": "research/evidence/markets/excerpts/us-xwa-executed-2020.json",
+      "excerptSha256": "af0284b63850f12e356198d1e23323a401fef19ce8fc8ef4f3f8090fab9c5d9b",
+      "extractedTextSha256": "b0a673e1f7f71099e9271749c22febf2f73c7610669a06d96c4e7e14b3e4682b",
+      "hashLimitation": "Legacy receipt does not expose a separate normalized-text hash. No substitute hash is invented.",
+      "limitations": null,
+      "normalizedTextSha256": null,
+      "originalSha256": "889b4afe888832d41801b12862c985965b737902ff5ba11ca42c6e6172523417",
+      "rawBytesReverifiedThisRun": false,
+      "receiptFileSha256": "6bb9d3b8ed594064c78db6e9bd4844fd3ede49e091c51e055bf6956b3974932f",
+      "receiptPath": "research/evidence/markets/source-lock.json",
+      "reuseMode": "Existing source receipt and bounded factual evidence read offline; no original download.",
+      "rights": {
+        "mode": "metadata_and_short_excerpts",
+        "note": "17 USC 105 applies to US federal government works. For consistent minimal custody only scoped factual spans are committed; charts and third-party content excluded.",
+        "permissionForFullRedistribution": "US federal government factual text; no third-party rights inferred"
+      },
+      "sourceFamily": "Federal Aviation Administration",
+      "sourceId": "us-xwa-executed-2020",
+      "title": "Executed Williston Basin open for public aeronautical use February 2020",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2020-02-26/pdf/2020-03870.pdf"
+    },
+    {
+      "citationIds": [
+        "us-current-austin-sage-2005-q1"
+      ],
+      "extractedTextSha256": "0ffeb4fcdb431850f002d78dc8970b91abac092a70bb0fb2e9d691058cef3065",
+      "limitations": [
+        "Official technical model table names Mueller with KAUS and coordinates; the 2005 publication uses stale historic airport data and is not a 2005 code-validity observation.",
+        "OAG ID AUS is not independently an IATA ledger or transfer notification.",
+        "Manual expressly is not a standard, specification or regulation."
+      ],
+      "normalizedTextSha256": "597fc1b9253cdf1f1a2a4653ed4453753d16cfbec18634d507f7be8fc4facb52",
+      "originalSha256": "04c9b47ce46582ed64969f178ee6a5a62e9c85a38eae8c3b18fb2006fae280c3",
+      "rawBytesReverifiedThisRun": false,
+      "receiptFileSha256": "3fae88d999f564f21cbd1f55a88909ff8b0f31532a6383eb21452c85260ad461",
+      "receiptPath": "research/evidence/priority-market-batch-6/source-lock.json",
+      "reuseMode": "Existing source receipt and bounded factual evidence read offline; no original download.",
+      "rights": {
+        "access": "public_original",
+        "fullRedistribution": "not_established",
+        "retention": "ignored_work_originals_and_normalized_text; public handoff only metadata and limited excerpts"
+      },
+      "sourceFamily": "Federal Aviation Administration / U.S. DOT Volpe Center",
+      "sourceId": "us-current-austin-sage-2005",
+      "title": "System for assessing Aviation’s Global Emissions (SAGE), Version 1.5, Technical Manual, FAA-EE-2005-01",
+      "url": "https://rosap.ntl.bts.gov/view/dot/8909/dot_8909_DS1.pdf"
+    },
+    {
+      "citationIds": [
+        "us-current-austin-noaa-obs-mos-q1",
+        "us-current-austin-noaa-obs-mos-q2",
+        "us-current-austin-noaa-obs-mos-q3",
+        "us-current-austin-noaa-obs-mos-q4"
+      ],
+      "extractedTextSha256": "aed66253da77c12cda1d53df5294ee48764be3b6e991d3dfc1e414f9d284ec64",
+      "limitations": [
+        "Weather-observation archive call letters and site history; not an authenticated FAA ICAO assignment or withdrawal record.",
+        "Supports May 1999 at month precision only; no day/time switch inferred.",
+        "Bibliographic search dates this conference preprint to 2001, but the retained original PDF does not display a publication date; keep publicationDate unknown."
+      ],
+      "normalizedTextSha256": "2d8c7e134d8cb120b3706b3156a4ba8fa257ff9b935c3bb7148d6088c1a9b6b1",
+      "originalSha256": "d407510040ee5ba419eaed07876cae4d40706d2fe4a49d716c83bdb92ac86c47",
+      "rawBytesReverifiedThisRun": false,
+      "receiptFileSha256": "3fae88d999f564f21cbd1f55a88909ff8b0f31532a6383eb21452c85260ad461",
+      "receiptPath": "research/evidence/priority-market-batch-6/source-lock.json",
+      "reuseMode": "Existing source receipt and bounded factual evidence read offline; no original download.",
+      "rights": {
+        "access": "public_original",
+        "fullRedistribution": "not_established",
+        "retention": "ignored_work_originals_and_normalized_text; public handoff only metadata and limited excerpts"
+      },
+      "sourceFamily": "NOAA National Weather Service Meteorological Development Laboratory",
+      "sourceId": "us-current-austin-noaa-obs-mos",
+      "title": "Observational Data and MOS: The Challenges in Creating High-Quality Guidance (Rebecca L. Allen)",
+      "url": "https://www.weather.gov/media/mdl/18thwafobs.pdf"
+    },
+    {
+      "citationIds": [
+        "us-current-austin-operator-history-q1",
+        "us-current-austin-operator-history-q2"
+      ],
+      "extractedTextSha256": "9322475683231ca329a2e1beb0d0104df2dfcea72baf5e729d33a83af7493092",
+      "limitations": [
+        "Operator retrospective confirms event dates and base-to-airport site continuity; it does not identify IATA or ICAO transfer effective dates.",
+        "Page is undated; copyright year and retrieval date are not publication dates."
+      ],
+      "normalizedTextSha256": "d8620f39318b1e83d166c1aec7631764dc88271b34039da2bfc4908091a70146",
+      "originalSha256": "f3be64fa6339ebcc70ff33ad6bb9a0fb89b227e0ff66381436728f26b82051d5",
+      "rawBytesReverifiedThisRun": false,
+      "receiptFileSha256": "3fae88d999f564f21cbd1f55a88909ff8b0f31532a6383eb21452c85260ad461",
+      "receiptPath": "research/evidence/priority-market-batch-6/source-lock.json",
+      "reuseMode": "Existing source receipt and bounded factual evidence read offline; no original download.",
+      "rights": {
+        "access": "public_original",
+        "fullRedistribution": "not_established",
+        "retention": "ignored_work_originals_and_normalized_text; public handoff only metadata and limited excerpts"
+      },
+      "sourceFamily": "City of Austin Department of Aviation",
+      "sourceId": "us-current-austin-operator-history",
+      "title": "History of the Airport",
+      "url": "https://www.austintexas.gov/department/history-airport"
+    },
+    {
+      "citationIds": [
+        "us-current-austin-iata-sirm30-q1"
+      ],
+      "extractedTextSha256": "1ded263ad9f4523679f3f1fe5e7a189b5253c275a0603f066fefc4497936fab7",
+      "limitations": [
+        "IATA itself names Austin-Bergstrom as AUS in a retrospective incident reference. This is direct IATA publisher usage, but is not a formal IATA allocation/transfer ledger.",
+        "2023-02-04 is the referenced incident date, not page-publication date or code-allocation effective date."
+      ],
+      "normalizedTextSha256": "c8c2692334603abba0c7fab39bbc3f2b841f7ffb60b85868ff18b3feb610db37",
+      "originalSha256": "78d313680df69edf71876ab493a328e416165874c3a8b68911f949846ad7622c",
+      "rawBytesReverifiedThisRun": false,
+      "receiptFileSha256": "3fae88d999f564f21cbd1f55a88909ff8b0f31532a6383eb21452c85260ad461",
+      "receiptPath": "research/evidence/priority-market-batch-6/source-lock.json",
+      "reuseMode": "Existing source receipt and bounded factual evidence read offline; no original download.",
+      "rights": {
+        "access": "public_original",
+        "fullRedistribution": "not_established",
+        "retention": "ignored_work_originals_and_normalized_text; public handoff only metadata and limited excerpts"
+      },
+      "sourceFamily": "International Air Transport Association",
+      "sourceId": "us-current-austin-iata-sirm30",
+      "title": "Runway Safety Discussion, SIRM 30",
+      "url": "https://www.iata.org/en/programs/safety/safety-risk/sirm/sirm-insights/runway-safety-discussion-at-sirm-30/"
+    },
+    {
+      "extractedTextSha256": "79d3f483a5833a64419f2d57921d866acb33eabd1184dbea1f56260daa2e31a6",
+      "hashLimitation": "Legacy receipt does not expose a separate normalized-text hash. No substitute hash is invented.",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "normalizedTextSha256": null,
+      "originalSha256": "f72508c44fdee1b74cf124f85e4af854672860856e95e3db76c71e992967dfe3",
+      "rawBytesReverifiedThisRun": false,
+      "receiptFileSha256": "d054af9e1a37816207393e8768e5780ff12d3f5b4ef9e30348dbcacfca75431d",
+      "receiptPath": "research/evidence/direct/source-lock.json",
+      "reuseMode": "Existing source receipt and bounded factual evidence read offline; no original download.",
+      "rights": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-2009",
+      "title": "JO 7350.8G Location Identifiers",
+      "url": "https://www.faa.gov/documentLibrary/media/Order/Basic7350.8G.pdf"
+    },
+    {
+      "extractedTextSha256": "e7d8bbccf05263567b55c140be0dd829a955c7c714905d388e5cfc5f966c977f",
+      "hashLimitation": "Legacy receipt does not expose a separate normalized-text hash. No substitute hash is invented.",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "normalizedTextSha256": null,
+      "originalSha256": "d25ceac462f7f1f5e0b6d09339a15120e86a99d523228365a711e7e9edd78b15",
+      "rawBytesReverifiedThisRun": false,
+      "receiptFileSha256": "d054af9e1a37816207393e8768e5780ff12d3f5b4ef9e30348dbcacfca75431d",
+      "receiptPath": "research/evidence/direct/source-lock.json",
+      "reuseMode": "Existing source receipt and bounded factual evidence read offline; no original download.",
+      "rights": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "sourceFamily": "usdot-faa",
+      "sourceId": "faa-2014",
+      "title": "JO 7350.9 Location Identifiers",
+      "url": "https://www.faa.gov/documentLibrary/media/Order/LID_7-24-14.pdf"
+    },
+    {
+      "extractedTextSha256": "0542dc498543165874308c205e2e35e5f267e1e6ec290b204038348feea5648e",
+      "hashLimitation": "Legacy receipt does not expose a separate normalized-text hash. No substitute hash is invented.",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "normalizedTextSha256": null,
+      "originalSha256": "d4d58a531fc8fc845340e7a46d879894c6759a66da04512778f91e00be277e62",
+      "rawBytesReverifiedThisRun": false,
+      "receiptFileSha256": "d054af9e1a37816207393e8768e5780ff12d3f5b4ef9e30348dbcacfca75431d",
+      "receiptPath": "research/evidence/direct/source-lock.json",
+      "reuseMode": "Existing source receipt and bounded factual evidence read offline; no original download.",
+      "rights": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "sourceFamily": "noaa-nws",
+      "sourceId": "nws-panama",
+      "title": "NWS TIN 10-18 Panama City replacement",
+      "url": "https://www.weather.gov/media/notification/tins/tin10-18taf_kecp.pdf"
+    },
+    {
+      "extractedTextSha256": "79a4198fb44d52716acd5bc53abf852c6603b94dc42f03f8669087304d245f5c",
+      "hashLimitation": "Legacy receipt does not expose a separate normalized-text hash. No substitute hash is invented.",
+      "limitations": [
+        "No IATA allocation is established by a FAA identifier. No weather-service effective date is an exact airport/code allocation boundary. No human acceptance recorded."
+      ],
+      "normalizedTextSha256": null,
+      "originalSha256": "53478a7ff54a77a3084dc7693a669840e2541291fee7f849e59ddd06be6d8cb9",
+      "rawBytesReverifiedThisRun": false,
+      "receiptFileSha256": "d054af9e1a37816207393e8768e5780ff12d3f5b4ef9e30348dbcacfca75431d",
+      "receiptPath": "research/evidence/direct/source-lock.json",
+      "reuseMode": "Existing source receipt and bounded factual evidence read offline; no original download.",
+      "rights": {
+        "id": "LicenseRef-US-Government",
+        "note": "US federal government factual publication (17 USC 105); attribution retained. Not an assertion that all third-party attachments are public domain.",
+        "url": "https://www.govinfo.gov/about/policies"
+      },
+      "sourceFamily": "usdot-faa",
+      "sourceId": "fr-2011-12359",
+      "title": "FAA Federal Register 2011-12359: Panama City relocation record of decision",
+      "url": "https://www.govinfo.gov/content/pkg/FR-2011-05-19/html/2011-12359.htm"
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "admission": {
+    "airports": 3,
+    "assignments": 3,
+    "formalSources": 6,
+    "names": 0
+  },
+  "baseCommit": "7d21ff6762e1569faa1be19c8203e577420cd1f2",
+  "batchId": "policy-8d73f5f511d60003-1",
+  "events": [
+    {
+      "admittedAirportIds": [
+        "apt_5e325674-a832-4106-807e-7e1e1ef951fe"
+      ],
+      "admittedAssignmentIds": [
+        "global-code-expansion-vanm-icao"
+      ],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_b41ca9a271c9f6ee75f9d8dd"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "Only locked physical identity and bounded ICAO scope; other claims excluded.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "asia-in-11-06-2026-vanm",
+            "asia-in-09-07-2026-vanm"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Only locked physical identity and bounded ICAO scope; other claims excluded.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "asia-in-11-06-2026-vanm",
+            "asia-in-09-07-2026-vanm"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Only locked physical identity and bounded ICAO scope; other claims excluded.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "asia-in-11-06-2026-vanm",
+            "asia-in-09-07-2026-vanm"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only locked physical identity and bounded ICAO scope; other claims excluded.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "asia-in-11-06-2026-vanm",
+            "asia-in-09-07-2026-vanm"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only locked physical identity and bounded ICAO scope; other claims excluded.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "asia-in-11-06-2026-vanm",
+            "asia-in-09-07-2026-vanm"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Only locked physical identity and bounded ICAO scope; other claims excluded.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "asia-in-11-06-2026-vanm",
+            "asia-in-09-07-2026-vanm"
+          ]
+        }
+      },
+      "conflicts": [],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Bounded policy inference. No personal owner review asserted.",
+        "usedForAdmission": true
+      },
+      "eventGroupId": "lead_6bca3e7372f8798d490307b6",
+      "evidenceFactIds": [],
+      "evidenceGaps": [
+        "Continuity is a bounded policy inference, not daily direct observation.",
+        "Conflict screening covers locked research/reference evidence only; no all-history absence claim.",
+        "First allocation, final withdrawal, timezone and official-name timeline remain unknown."
+      ],
+      "exclusionReason": null,
+      "label": "Navi Mumbai International Airport",
+      "nextAction": "Create a reviewable admission PR; human merge required.",
+      "proposedRecordIds": [
+        "apt_5e325674-a832-4106-807e-7e1e1ef951fe",
+        "global-code-expansion-vanm-icao"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-11-07",
+      "sourceIds": [
+        "asia-in-11-06-2026-vanm",
+        "asia-in-09-07-2026-vanm"
+      ],
+      "status": "ready_to_admit"
+    },
+    {
+      "admittedAirportIds": [
+        "apt_96e253c6-48ee-4ca3-b9a1-c34b49df0a68"
+      ],
+      "admittedAssignmentIds": [
+        "global-code-expansion-veay-icao"
+      ],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_7a0c1396347926415d580644"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "Only locked physical identity and bounded ICAO scope; other claims excluded.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "asia-in-11-06-2026-veay",
+            "asia-in-09-07-2026-veay"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Only locked physical identity and bounded ICAO scope; other claims excluded.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "asia-in-11-06-2026-veay",
+            "asia-in-09-07-2026-veay"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Only locked physical identity and bounded ICAO scope; other claims excluded.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "asia-in-11-06-2026-veay",
+            "asia-in-09-07-2026-veay"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only locked physical identity and bounded ICAO scope; other claims excluded.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "asia-in-11-06-2026-veay",
+            "asia-in-09-07-2026-veay"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only locked physical identity and bounded ICAO scope; other claims excluded.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "asia-in-11-06-2026-veay",
+            "asia-in-09-07-2026-veay"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Only locked physical identity and bounded ICAO scope; other claims excluded.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "asia-in-11-06-2026-veay",
+            "asia-in-09-07-2026-veay"
+          ]
+        }
+      },
+      "conflicts": [],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Bounded policy inference. No personal owner review asserted.",
+        "usedForAdmission": true
+      },
+      "eventGroupId": "lead_7738c9728e550a3eb471916e",
+      "evidenceFactIds": [],
+      "evidenceGaps": [
+        "Continuity is a bounded policy inference, not daily direct observation.",
+        "Conflict screening covers locked research/reference evidence only; no all-history absence claim.",
+        "First allocation, final withdrawal, timezone and official-name timeline remain unknown."
+      ],
+      "exclusionReason": null,
+      "label": "Maharishi Valmiki International Airport Ayodhyadham",
+      "nextAction": "Create a reviewable admission PR; human merge required.",
+      "proposedRecordIds": [
+        "apt_96e253c6-48ee-4ca3-b9a1-c34b49df0a68",
+        "global-code-expansion-veay-icao"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-11-07",
+      "sourceIds": [
+        "asia-in-11-06-2026-veay",
+        "asia-in-09-07-2026-veay"
+      ],
+      "status": "ready_to_admit"
+    },
+    {
+      "admittedAirportIds": [
+        "apt_1130a628-5e21-4e68-b3e0-178487751f67"
+      ],
+      "admittedAssignmentIds": [
+        "global-code-expansion-vosh-icao"
+      ],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "cand_4e5c0af754101a2bc7932d65",
+        "cand_f04f72779001ce2613987291"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "Only locked physical identity and bounded ICAO scope; other claims excluded.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "asia-in-11-06-2026-vosh",
+            "asia-in-09-07-2026-vosh"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "Only locked physical identity and bounded ICAO scope; other claims excluded.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "asia-in-11-06-2026-vosh",
+            "asia-in-09-07-2026-vosh"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "Only locked physical identity and bounded ICAO scope; other claims excluded.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "asia-in-11-06-2026-vosh",
+            "asia-in-09-07-2026-vosh"
+          ]
+        },
+        "iata": {
+          "conclusion": "Only locked physical identity and bounded ICAO scope; other claims excluded.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "asia-in-11-06-2026-vosh",
+            "asia-in-09-07-2026-vosh"
+          ]
+        },
+        "icao": {
+          "conclusion": "Only locked physical identity and bounded ICAO scope; other claims excluded.",
+          "evidenceType": "continuity_inference",
+          "sourceIds": [
+            "asia-in-11-06-2026-vosh",
+            "asia-in-09-07-2026-vosh"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Only locked physical identity and bounded ICAO scope; other claims excluded.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "asia-in-11-06-2026-vosh",
+            "asia-in-09-07-2026-vosh"
+          ]
+        }
+      },
+      "conflicts": [],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Bounded policy inference. No personal owner review asserted.",
+        "usedForAdmission": true
+      },
+      "eventGroupId": "dup_ea41cccc5f663df1ecfa1911",
+      "evidenceFactIds": [],
+      "evidenceGaps": [
+        "Continuity is a bounded policy inference, not daily direct observation.",
+        "Conflict screening covers locked research/reference evidence only; no all-history absence claim.",
+        "First allocation, final withdrawal, timezone and official-name timeline remain unknown."
+      ],
+      "exclusionReason": null,
+      "label": "Shivamogga Airport",
+      "nextAction": "Create a reviewable admission PR; human merge required.",
+      "proposedRecordIds": [
+        "apt_1130a628-5e21-4e68-b3e0-178487751f67",
+        "global-code-expansion-vosh-icao"
+      ],
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-11-07",
+      "sourceIds": [
+        "asia-in-11-06-2026-vosh",
+        "asia-in-09-07-2026-vosh"
+      ],
+      "status": "ready_to_admit"
+    }
+  ],
+  "formatVersion": 1,
+  "nextBatch": [],
+  "reviewedOn": "2026-11-07",
+  "selection": {
+    "eventCount": 3,
+    "maximumEvents": 20,
+    "scope": "Exact policy-selected records"
+  },
+  "sources": [
+    {
+      "accessResult": "Original hash and extraction replay required by the policy admission gate.",
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Unknown outer boundaries. One issuer, no independent-publisher claim."
+      ],
+      "note": "Same AAI issuer; dated editions are temporal observations. Original hashes and citations in policy lock.",
+      "sourceId": "asia-in-11-06-2026-vanm",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Named official physical site, ARP and bounded ICAO observations."
+      ],
+      "title": "India AIP 2026-06-11 AD2 VANM",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VANM-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessResult": "Original hash and extraction replay required by the policy admission gate.",
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Unknown outer boundaries. One issuer, no independent-publisher claim."
+      ],
+      "note": "Same AAI issuer; dated editions are temporal observations. Original hashes and citations in policy lock.",
+      "sourceId": "asia-in-09-07-2026-vanm",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Named official physical site, ARP and bounded ICAO observations."
+      ],
+      "title": "India AIP 2026-07-09 AD2 VANM",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VANM-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessResult": "Original hash and extraction replay required by the policy admission gate.",
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Unknown outer boundaries. One issuer, no independent-publisher claim."
+      ],
+      "note": "Same AAI issuer; dated editions are temporal observations. Original hashes and citations in policy lock.",
+      "sourceId": "asia-in-11-06-2026-veay",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Named official physical site, ARP and bounded ICAO observations."
+      ],
+      "title": "India AIP 2026-06-11 AD2 VEAY",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VEAY-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessResult": "Original hash and extraction replay required by the policy admission gate.",
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Unknown outer boundaries. One issuer, no independent-publisher claim."
+      ],
+      "note": "Same AAI issuer; dated editions are temporal observations. Original hashes and citations in policy lock.",
+      "sourceId": "asia-in-09-07-2026-veay",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Named official physical site, ARP and bounded ICAO observations."
+      ],
+      "title": "India AIP 2026-07-09 AD2 VEAY",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEAY-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessResult": "Original hash and extraction replay required by the policy admission gate.",
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Unknown outer boundaries. One issuer, no independent-publisher claim."
+      ],
+      "note": "Same AAI issuer; dated editions are temporal observations. Original hashes and citations in policy lock.",
+      "sourceId": "asia-in-11-06-2026-vosh",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Named official physical site, ARP and bounded ICAO observations."
+      ],
+      "title": "India AIP 2026-06-11 AD2 VOSH",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VOSH-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessResult": "Original hash and extraction replay required by the policy admission gate.",
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "limitations": [
+        "Unknown outer boundaries. One issuer, no independent-publisher claim."
+      ],
+      "note": "Same AAI issuer; dated editions are temporal observations. Original hashes and citations in policy lock.",
+      "sourceId": "asia-in-09-07-2026-vosh",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Named official physical site, ARP and bounded ICAO observations."
+      ],
+      "title": "India AIP 2026-07-09 AD2 VOSH",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOSH-en-GB.html",
+      "verificationStatus": "verified"
+    }
+  ],
+  "statusCounts": {
+    "excluded": 0,
+    "insufficient_evidence": 0,
+    "pending_review": 0,
+    "ready_to_admit": 3
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "batches": [
+    {
+      "batchId": "global-code-asia-1",
+      "caseCount": 20,
+      "caseIds": [
+        "asia-samarinda",
+        "asia-lianyungang",
+        "asia-uttaradit",
+        "asia-techo",
+        "asia-manas",
+        "asia-gwadar",
+        "asia-luzhou",
+        "asia-sahiwal",
+        "asia-bicol",
+        "asia-pokhara",
+        "asia-ishigaki",
+        "asia-yibin",
+        "asia-yanan",
+        "asia-zhanjiang",
+        "asia-ankang",
+        "asia-nagoya-transfer",
+        "asia-incheon",
+        "asia-ayodhya",
+        "asia-bangkok-transfer",
+        "asia-gimpo"
+      ],
+      "eventGroupIds": [
+        "lead_6bcca26bcab4ed6357e66192",
+        "lead_870f817db8ab946ef63545ea",
+        "dup_7964d158462eebfaaf00e9ce",
+        "lead_9b847503867af7db8db74a56",
+        "lead_7ba04008c5f8ec6958131f81",
+        "dup_f23f0a3e363272d919374cf2",
+        "lead_ec8c58cd9bc8babd46110394",
+        "lead_f8084b539db57166c8873725",
+        "lead_184ed3cf58bd168c2c4a5f97",
+        "lead_cd91b0b8e4dbdc1e2eabd452",
+        "lead_f898cb04a4112b970edaeb78",
+        "dup_01116f26c64ddc3307158385",
+        "dup_6dfe772c13ba3e3b0cddc719",
+        "dup_28cc771cb3412cc5520ebe75",
+        "dup_84c2ef50c5668b5f0c74ba09",
+        "dup_082eee1b546da42520a438e4",
+        "dup_29c64282ac0b47d8fe08e6a6",
+        "dup_5c7714c3807c70c6df51192b",
+        "dup_71f71f16d251a077e7100958",
+        "dup_87db80245374d3fd65d0e6fd"
+      ],
+      "proposalOnly": true
+    },
+    {
+      "batchId": "global-code-asia-2",
+      "caseCount": 9,
+      "caseIds": [
+        "asia-hyderabad",
+        "asia-kunming",
+        "asia-bengaluru",
+        "asia-mysuru",
+        "asia-navi-mumbai",
+        "asia-shivamogga",
+        "asia-dhaka",
+        "asia-yogyakarta",
+        "asia-phu-quoc"
+      ],
+      "eventGroupIds": [
+        "dup_944bff545aa065e1c017eeec",
+        "dup_a70fcd3f03834db946f0a8c0",
+        "dup_ce3a8a984a0738318d411ceb",
+        "dup_1d6cbbe3723c25d8dafa38ac",
+        "lead_03b31dfcd0ad9837c248e576",
+        "lead_a2a7a2db17869a42c0b3dafb",
+        "dup_12d414601e9dcc4d81813558",
+        "dup_cabf0b20245e8bbfd3c5d173",
+        "dup_d35038e62a0c92399c26ec8a"
+      ],
+      "proposalOnly": true
+    }
+  ],
+  "formatVersion": 1,
+  "maximumEventsPerBatch": 20
+}

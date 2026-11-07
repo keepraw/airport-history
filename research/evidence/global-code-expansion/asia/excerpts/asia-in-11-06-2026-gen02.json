@@ -1,0 +1,28 @@
+{
+  "originalSha256": "2dfe4b1d5e80ba4667b9f8d335b0679dd712c4032c132a34823f5e4e9d6dce38",
+  "sourceId": "asia-in-11-06-2026-gen02",
+  "spans": [
+    {
+      "characterEnd": 987,
+      "characterStart": 968,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "05/2026 11 JUN 2026"
+    },
+    {
+      "characterEnd": 705,
+      "characterStart": 661,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='DC.date' content='30 APR 2026'/>"
+    },
+    {
+      "characterEnd": 765,
+      "characterStart": 707,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='EM.effectiveDateStart' content='11 JUN 2026'/>"
+    }
+  ],
+  "textOriginalSha256": "ac661fb29417fac515ad27d78021f56a90c7a9f555b62593213dcc5a464df0e0"
+}

@@ -1,0 +1,35 @@
+{
+  "originalSha256": "a2cac83315f742e4b1f54bacde412013b096dc3e2bf7cb31739faa978be0ebed",
+  "sourceId": "asia-in-11-06-2026-vosh",
+  "spans": [
+    {
+      "characterEnd": 119,
+      "characterStart": 82,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "VOSH - SHIVAMOGGA AIRPORT, SHIVAMOGGA"
+    },
+    {
+      "characterEnd": 248,
+      "characterStart": 181,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "Aerodrome reference point coordinates and its site 135135N 0753704E"
+    },
+    {
+      "characterEnd": 705,
+      "characterStart": 661,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='DC.date' content='05 MAR 2026'/>"
+    },
+    {
+      "characterEnd": 765,
+      "characterStart": 707,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='EM.effectiveDateStart' content='16 APR 2026'/>"
+    }
+  ],
+  "textOriginalSha256": "e507f696a051909706b8b83d5ba269de28830bb272544109ca4c2732aa5adb38"
+}

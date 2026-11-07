@@ -1,0 +1,41 @@
+{
+  "formatVersion": 1,
+  "facts": [
+    {
+      "factId": "tarom-chisinau-iata-20240118",
+      "eventGroupId": "lead_387a9e39fa7ca44825f74ac7",
+      "scheme": "IATA",
+      "oldCode": "KIV",
+      "newCode": "RMO",
+      "physicalRelationship": "same_physical_airport",
+      "sourceId": "md-tarom-code-change",
+      "publicationDate": "2024-01-17",
+      "announcedEffectiveBoundary": {
+        "earliest": "2024-01-18",
+        "latest": "2024-01-19",
+        "precision": "day"
+      },
+      "dateNature": "explicit_prospective_carrier_reservation_system_switch",
+      "codeChangeExecuted": false,
+      "codeChangeExecutedMeaning": "Execution not established by this prospective notice alone; false means not proved here, not disproved.",
+      "oldAssignmentStart": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "newAssignmentEnd": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "wholeContinuousWindowProposed": false,
+      "formalAdmissibility": "proposal_only",
+      "blockers": [
+        "No applicable source-family code authority",
+        "Underlying IATA notice or executed operator record missing",
+        "No full-content redistribution permission established"
+      ],
+      "nextAction": "Obtain operator executed-change/IATA original with code-specific timing, and control all relevant updates before any continuous interval."
+    }
+  ]
+}

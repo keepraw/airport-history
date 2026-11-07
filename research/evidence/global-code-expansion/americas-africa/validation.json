@@ -1,0 +1,28 @@
+{
+  "canonicalGroups": 29,
+  "conditionalScenarioQualified": false,
+  "distinctObservedCodeRows": 18,
+  "formalAdmissions": 0,
+  "formatVersion": 1,
+  "highValueIndependentResearchClusters": 20,
+  "highValueOriginalOrLockedGroups": 20,
+  "meaning": "Local byte/citation/receipt checks plus production dataset schema validation; no claim that CI reacquires private originals.",
+  "minimalCitationsVerified": 40,
+  "networkDuringValidation": false,
+  "pendingSchemaVerified": true,
+  "privateRepresentationHashesVerified": 168,
+  "publicFiles": {
+    "README.zh-CN.md": "649a381b4164a798dd7ffc1aaf2c53e44002f2741f14db4eb6e19449352c7ac0",
+    "assessments.json": "52db4d9e0a7bfdca2fd80cf07e3ae734fd844dba02e2f385f5322d418ea0a3bb",
+    "claims.json": "cdf18c4973bc2fa77b7769b13b1b42711fca6acb1a868983c4a4fd0caab23452",
+    "conditional-window-proposal.json": "b8dd65920bd509b985b0e543408274285b75e5394044a0ea75e0488f2e4d0b47",
+    "observations.json": "f108567ebc64a4635b3d01ef3b36d323fe83f0a70dadc9cfb2423b3308205dc5",
+    "reused-evidence.json": "1dabb7aeae6a86f2bf8d1d3861654fc0cf5f36240d9290e97f0bb4522bc70a97",
+    "review-batches.json": "f6dde2eb8cf19dfe62ea3c96eaeb3563d5444618be820593c22fafb833997b5a",
+    "source-acquisition.json": "ba13d97d4da4c60b95dffad6f01233258efdce752417dc8e2413c99a37d33185",
+    "summary.json": "80f10adb7e2b0182a848b50f8eaa4607f4fd809386bcda8ac2fd8424db1278c2"
+  },
+  "reusedReceiptFilesVerified": 15,
+  "reviewedOn": "2026-11-07",
+  "status": "passed"
+}
