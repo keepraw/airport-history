@@ -1,0 +1,490 @@
+[
+  {
+    "approvedRecord": {
+      "airportId": "apt_6f1a6ff3-98db-4e58-95fc-cc78bd5aa836",
+      "coordinates": {
+        "note": "Numerical position is from pinned OurAirports record 35312; the official administrative citation independently identifies the named site/project geography. It is not an official or historical ARP. The site is kept distinct from its relocation counterpart.",
+        "sourceIds": [
+          "cn-lyg-both-sites-2020",
+          "cn-batch7-ourairports-reference"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 34.571302,
+          "longitude": 118.873143
+        }
+      },
+      "externalIds": {
+        "ourAirports": "35312"
+      },
+      "name": {
+        "note": "Canonical reference display label from pinned OurAirports record 35312; official documentary label and location are retained in the admission dossier. This is not a historical legal-name interval or evidence of current military/civil operating status.",
+        "sourceIds": [
+          "cn-batch7-ourairports-reference",
+          "cn-lyg-both-sites-2020"
+        ],
+        "status": "reference",
+        "value": "Baitabu Air Base"
+      },
+      "timezone": {
+        "status": "unknown",
+        "value": null,
+        "sourceIds": [],
+        "note": "No timezone determination admitted in this identity batch."
+      }
+    },
+    "boundaryAssessment": "No historical validity interval is admitted. Administrative, opening, passenger suspension, physical closure and code effectiveness remain distinct.",
+    "continuityAssessment": "No continuity inference is used for any code or historical name.",
+    "country": "CN",
+    "decision": "policy_accepted",
+    "observations": [
+      {
+        "basis": "Reused PR #33 recorded original-byte verification and bounded citation cn-lyg-both-sites-2020-q1; not a new retrieval, independent publication or code observation.",
+        "citationIds": [
+          "cn-lyg-both-sites-2020-q1"
+        ],
+        "claimScope": "Physical site identity/location only; numeric position is separately marked reference.",
+        "independentOriginal": true,
+        "observedOn": "2020-02-25",
+        "sourceFamily": "CN-GOV-ADMIN",
+        "sourceId": "cn-lyg-both-sites-2020"
+      }
+    ],
+    "physicalIdentity": {
+      "candidateConflictReviewed": true,
+      "locationDescription": "为加强连云港白塔埠机场、连云港花果山机场（以下称机场）净空保护",
+      "matchingExistingAirportId": null,
+      "officialName": "连云港白塔埠机场",
+      "referenceRecordId": "35312",
+      "referenceSourceId": "cn-batch7-ourairports-reference",
+      "siteKey": "lianyungang-old",
+      "sourceIds": [
+        "cn-lyg-both-sites-2020"
+      ]
+    },
+    "policyKey": "official-source-claims@1.0.0",
+    "recordId": "apt_6f1a6ff3-98db-4e58-95fc-cc78bd5aa836",
+    "reviewMeaning": "Project-authorized machine rule execution; no personal owner review claimed.",
+    "reviewMode": "policy",
+    "reviewedByEngine": "official-source-claims",
+    "reviewer": null,
+    "supplementalEvidence": [
+      {
+        "originalSha256": "a1b54fa8d922f1c6e45d7b84bb58f026097c7ff36039d31c34f5c986d5e6b9a9",
+        "path": "research/evidence/markets/excerpts/cn-stat-2021.json",
+        "scope": "Prior retained factual site/relocation/operation corroboration only; date does not become a code effective date.",
+        "sha256": "1a3999149a676cc844f158414d2e750c8f6d38d5316b0fffe87c99ad93f59a58",
+        "sourceId": "cn-stat-2021"
+      }
+    ]
+  },
+  {
+    "approvedRecord": {
+      "airportId": "apt_64b5eaa6-a984-4816-86d9-d8eb71c91451",
+      "coordinates": {
+        "note": "Numerical position is from pinned OurAirports record 44167; the official administrative citation independently identifies the named site/project geography. It is not an official or historical ARP. The site is kept distinct from its relocation counterpart.",
+        "sourceIds": [
+          "cn-lyg-mee-2019",
+          "cn-batch7-ourairports-reference"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 34.41406,
+          "longitude": 119.17899
+        }
+      },
+      "externalIds": {
+        "ourAirports": "44167"
+      },
+      "name": {
+        "note": "Canonical reference display label from pinned OurAirports record 44167; official documentary label and location are retained in the admission dossier. This is not a historical legal-name interval or evidence of current military/civil operating status.",
+        "sourceIds": [
+          "cn-batch7-ourairports-reference",
+          "cn-lyg-mee-2019"
+        ],
+        "status": "reference",
+        "value": "Lianyungang Huaguoshan International Airport"
+      },
+      "timezone": {
+        "status": "unknown",
+        "value": null,
+        "sourceIds": [],
+        "note": "No timezone determination admitted in this identity batch."
+      }
+    },
+    "boundaryAssessment": "No historical validity interval is admitted. Administrative, opening, passenger suspension, physical closure and code effectiveness remain distinct.",
+    "continuityAssessment": "No continuity inference is used for any code or historical name.",
+    "country": "CN",
+    "decision": "policy_accepted",
+    "observations": [
+      {
+        "basis": "Reused PR #33 recorded original-byte verification and bounded citation cn-lyg-mee-2019-q1; not a new retrieval, independent publication or code observation.",
+        "citationIds": [
+          "cn-lyg-mee-2019-q1"
+        ],
+        "claimScope": "Physical site identity/location only; numeric position is separately marked reference.",
+        "independentOriginal": true,
+        "observedOn": "2019-01-16",
+        "sourceFamily": "CN-GOV-ADMIN",
+        "sourceId": "cn-lyg-mee-2019"
+      }
+    ],
+    "physicalIdentity": {
+      "candidateConflictReviewed": true,
+      "locationDescription": "该项目位于江苏省连云港市灌云县小伊乡洪河村附近，距连云港市中心约21公里。",
+      "matchingExistingAirportId": null,
+      "officialName": "连云港花果山机场",
+      "referenceRecordId": "44167",
+      "referenceSourceId": "cn-batch7-ourairports-reference",
+      "siteKey": "lianyungang-new",
+      "sourceIds": [
+        "cn-lyg-mee-2019"
+      ]
+    },
+    "policyKey": "official-source-claims@1.0.0",
+    "recordId": "apt_64b5eaa6-a984-4816-86d9-d8eb71c91451",
+    "reviewMeaning": "Project-authorized machine rule execution; no personal owner review claimed.",
+    "reviewMode": "policy",
+    "reviewedByEngine": "official-source-claims",
+    "reviewer": null,
+    "supplementalEvidence": [
+      {
+        "originalSha256": "a1b54fa8d922f1c6e45d7b84bb58f026097c7ff36039d31c34f5c986d5e6b9a9",
+        "path": "research/evidence/markets/excerpts/cn-stat-2021.json",
+        "scope": "Prior retained factual site/relocation/operation corroboration only; date does not become a code effective date.",
+        "sha256": "1a3999149a676cc844f158414d2e750c8f6d38d5316b0fffe87c99ad93f59a58",
+        "sourceId": "cn-stat-2021"
+      }
+    ]
+  },
+  {
+    "approvedRecord": {
+      "airportId": "apt_56b57bca-08d5-4b5e-944e-1e9cce968a0a",
+      "coordinates": {
+        "note": "Numerical position is from pinned OurAirports record 35313; the official administrative citation independently identifies the named site/project geography. It is not an official or historical ARP. The site is kept distinct from its relocation counterpart.",
+        "sourceIds": [
+          "cn-lzo-mee-2014",
+          "cn-batch7-ourairports-reference"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 28.852577,
+          "longitude": 105.392579
+        }
+      },
+      "externalIds": {
+        "ourAirports": "35313"
+      },
+      "name": {
+        "note": "Canonical reference display label from pinned OurAirports record 35313; official documentary label and location are retained in the admission dossier. This is not a historical legal-name interval or evidence of current military/civil operating status.",
+        "sourceIds": [
+          "cn-batch7-ourairports-reference",
+          "cn-lzo-mee-2014"
+        ],
+        "status": "reference",
+        "value": "Luzhou Lantian Airport"
+      },
+      "timezone": {
+        "status": "unknown",
+        "value": null,
+        "sourceIds": [],
+        "note": "No timezone determination admitted in this identity batch."
+      }
+    },
+    "boundaryAssessment": "No historical validity interval is admitted. Administrative, opening, passenger suspension, physical closure and code effectiveness remain distinct.",
+    "continuityAssessment": "No continuity inference is used for any code or historical name.",
+    "country": "CN",
+    "decision": "policy_accepted",
+    "observations": [
+      {
+        "basis": "Reused PR #33 recorded original-byte verification and bounded citation cn-lzo-mee-2014-q1; not a new retrieval, independent publication or code observation.",
+        "citationIds": [
+          "cn-lzo-mee-2014-q1"
+        ],
+        "claimScope": "Physical site identity/location only; numeric position is separately marked reference.",
+        "independentOriginal": true,
+        "observedOn": "2014-03-28",
+        "sourceFamily": "CN-GOV-ADMIN",
+        "sourceId": "cn-lzo-mee-2014"
+      }
+    ],
+    "physicalIdentity": {
+      "candidateConflictReviewed": true,
+      "locationDescription": "既有泸州机场位于四川省泸州市城区西南5.1公里处",
+      "matchingExistingAirportId": null,
+      "officialName": "泸州机场",
+      "referenceRecordId": "35313",
+      "referenceSourceId": "cn-batch7-ourairports-reference",
+      "siteKey": "luzhou-old",
+      "sourceIds": [
+        "cn-lzo-mee-2014"
+      ]
+    },
+    "policyKey": "official-source-claims@1.0.0",
+    "recordId": "apt_56b57bca-08d5-4b5e-944e-1e9cce968a0a",
+    "reviewMeaning": "Project-authorized machine rule execution; no personal owner review claimed.",
+    "reviewMode": "policy",
+    "reviewedByEngine": "official-source-claims",
+    "reviewer": null,
+    "supplementalEvidence": [
+      {
+        "originalSha256": "16e08e321d877611166f7e401ffd0a6aefe019e98a6bcad90d2e6f656c4efe37",
+        "path": "research/evidence/markets/excerpts/cn-luzhou-operator.json",
+        "scope": "Prior retained factual site/relocation/operation corroboration only; date does not become a code effective date.",
+        "sha256": "1ed973bbc286857a16013aadc93e19e6c59f9ba126e93a0398b69cf0006fe147",
+        "sourceId": "cn-luzhou-operator"
+      }
+    ]
+  },
+  {
+    "approvedRecord": {
+      "airportId": "apt_f11bdf7d-d81d-46fc-a94f-8c8c42d4e245",
+      "coordinates": {
+        "note": "Numerical position is from pinned OurAirports record 336114; the official administrative citation independently identifies the named site/project geography. It is not an official or historical ARP. The site is kept distinct from its relocation counterpart.",
+        "sourceIds": [
+          "cn-lzo-mee-2014",
+          "cn-batch7-ourairports-reference"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 29.030357,
+          "longitude": 105.468407
+        }
+      },
+      "externalIds": {
+        "ourAirports": "336114"
+      },
+      "name": {
+        "note": "Canonical reference display label from pinned OurAirports record 336114; official documentary label and location are retained in the admission dossier. This is not a historical legal-name interval or evidence of current military/civil operating status.",
+        "sourceIds": [
+          "cn-batch7-ourairports-reference",
+          "cn-lzo-mee-2014"
+        ],
+        "status": "reference",
+        "value": "Luzhou Yunlong Airport"
+      },
+      "timezone": {
+        "status": "unknown",
+        "value": null,
+        "sourceIds": [],
+        "note": "No timezone determination admitted in this identity batch."
+      }
+    },
+    "boundaryAssessment": "No historical validity interval is admitted. Administrative, opening, passenger suspension, physical closure and code effectiveness remain distinct.",
+    "continuityAssessment": "No continuity inference is used for any code or historical name.",
+    "country": "CN",
+    "decision": "policy_accepted",
+    "observations": [
+      {
+        "basis": "Reused PR #33 recorded original-byte verification and bounded citation cn-lzo-mee-2014-q2; not a new retrieval, independent publication or code observation.",
+        "citationIds": [
+          "cn-lzo-mee-2014-q2"
+        ],
+        "claimScope": "Physical site identity/location only; numeric position is separately marked reference.",
+        "independentOriginal": true,
+        "observedOn": "2014-03-28",
+        "sourceFamily": "CN-GOV-ADMIN",
+        "sourceId": "cn-lzo-mee-2014"
+      }
+    ],
+    "physicalIdentity": {
+      "candidateConflictReviewed": true,
+      "locationDescription": "本次迁建项目位于泸州市泸县云龙镇和石洞镇境内，距泸州市中心直线距离约17公里。",
+      "matchingExistingAirportId": null,
+      "officialName": "泸州机场迁建工程",
+      "referenceRecordId": "336114",
+      "referenceSourceId": "cn-batch7-ourairports-reference",
+      "siteKey": "luzhou-new",
+      "sourceIds": [
+        "cn-lzo-mee-2014"
+      ]
+    },
+    "policyKey": "official-source-claims@1.0.0",
+    "recordId": "apt_f11bdf7d-d81d-46fc-a94f-8c8c42d4e245",
+    "reviewMeaning": "Project-authorized machine rule execution; no personal owner review claimed.",
+    "reviewMode": "policy",
+    "reviewedByEngine": "official-source-claims",
+    "reviewer": null,
+    "supplementalEvidence": [
+      {
+        "originalSha256": "16e08e321d877611166f7e401ffd0a6aefe019e98a6bcad90d2e6f656c4efe37",
+        "path": "research/evidence/markets/excerpts/cn-luzhou-operator.json",
+        "scope": "Prior retained factual site/relocation/operation corroboration only; date does not become a code effective date.",
+        "sha256": "1ed973bbc286857a16013aadc93e19e6c59f9ba126e93a0398b69cf0006fe147",
+        "sourceId": "cn-luzhou-operator"
+      }
+    ]
+  },
+  {
+    "approvedRecord": {
+      "airportId": "apt_bbf9f2c1-fc01-4ed7-a4aa-74e6ed8ca45f",
+      "coordinates": {
+        "note": "Numerical position is from pinned OurAirports record 300456; the official administrative citation independently identifies the named site/project geography. It is not an official or historical ARP. The site is kept distinct from its relocation counterpart.",
+        "sourceIds": [
+          "cn-ybp-mee-2014",
+          "cn-batch7-ourairports-reference"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 28.800556,
+          "longitude": 104.545
+        }
+      },
+      "externalIds": {
+        "ourAirports": "300456"
+      },
+      "name": {
+        "note": "Canonical reference display label from pinned OurAirports record 300456; official documentary label and location are retained in the admission dossier. This is not a historical legal-name interval or evidence of current military/civil operating status.",
+        "sourceIds": [
+          "cn-batch7-ourairports-reference",
+          "cn-ybp-mee-2014"
+        ],
+        "status": "reference",
+        "value": "Yibin Caiba Airport"
+      },
+      "timezone": {
+        "status": "unknown",
+        "value": null,
+        "sourceIds": [],
+        "note": "No timezone determination admitted in this identity batch."
+      }
+    },
+    "boundaryAssessment": "No historical validity interval is admitted. Administrative, opening, passenger suspension, physical closure and code effectiveness remain distinct.",
+    "continuityAssessment": "No continuity inference is used for any code or historical name.",
+    "country": "CN",
+    "decision": "policy_accepted",
+    "observations": [
+      {
+        "basis": "Reused PR #33 recorded original-byte verification and bounded citation cn-ybp-mee-2014-q1; not a new retrieval, independent publication or code observation.",
+        "citationIds": [
+          "cn-ybp-mee-2014-q1"
+        ],
+        "claimScope": "Physical site identity/location only; numeric position is separately marked reference.",
+        "independentOriginal": true,
+        "observedOn": "2014-03-28",
+        "sourceFamily": "CN-GOV-ADMIN",
+        "sourceId": "cn-ybp-mee-2014"
+      }
+    ],
+    "physicalIdentity": {
+      "candidateConflictReviewed": true,
+      "locationDescription": "既有宜宾机场位于四川省宜宾市西北7公里的菜坝镇",
+      "matchingExistingAirportId": null,
+      "officialName": "宜宾机场",
+      "referenceRecordId": "300456",
+      "referenceSourceId": "cn-batch7-ourairports-reference",
+      "siteKey": "yibin-old",
+      "sourceIds": [
+        "cn-ybp-mee-2014"
+      ]
+    },
+    "policyKey": "official-source-claims@1.0.0",
+    "recordId": "apt_bbf9f2c1-fc01-4ed7-a4aa-74e6ed8ca45f",
+    "reviewMeaning": "Project-authorized machine rule execution; no personal owner review claimed.",
+    "reviewMode": "policy",
+    "reviewedByEngine": "official-source-claims",
+    "reviewer": null,
+    "supplementalEvidence": [
+      {
+        "originalSha256": "4e9c7ef6207ae83e68d162b019aebcce1874566602b5edfd7df11a641558e212",
+        "path": "research/evidence/markets/excerpts/cn-stat-2019.json",
+        "scope": "Prior retained factual site/relocation/operation corroboration only; date does not become a code effective date.",
+        "sha256": "4cfab603b3fbcccaf155c0e0580cbbce6ce09a009aa012eb1267ed3d64250281",
+        "sourceId": "cn-stat-2019"
+      },
+      {
+        "originalSha256": "1df63a1856e3656aa23abf1ee2d5d3be7bee2ca08280df9b3c77f21c50dd08f4",
+        "path": "research/evidence/markets/excerpts/cn-yibin-operation.json",
+        "scope": "Prior retained factual site/relocation/operation corroboration only; date does not become a code effective date.",
+        "sha256": "0fe28899c9f9a59453644aa661c7f52b92e6f57d8180613d79535aba5fffceca",
+        "sourceId": "cn-yibin-operation"
+      }
+    ]
+  },
+  {
+    "approvedRecord": {
+      "airportId": "apt_8354da99-7d18-4329-bf7b-4ed042a4ad72",
+      "coordinates": {
+        "note": "Numerical position is from pinned OurAirports record 336111; the official administrative citation independently identifies the named site/project geography. It is not an official or historical ARP. The site is kept distinct from its relocation counterpart.",
+        "sourceIds": [
+          "cn-ybp-mee-2014",
+          "cn-batch7-ourairports-reference"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 28.858431,
+          "longitude": 104.526157
+        }
+      },
+      "externalIds": {
+        "ourAirports": "336111"
+      },
+      "name": {
+        "note": "Canonical reference display label from pinned OurAirports record 336111; official documentary label and location are retained in the admission dossier. This is not a historical legal-name interval or evidence of current military/civil operating status.",
+        "sourceIds": [
+          "cn-batch7-ourairports-reference",
+          "cn-ybp-mee-2014"
+        ],
+        "status": "reference",
+        "value": "Yibin Wuliangye Airport"
+      },
+      "timezone": {
+        "status": "unknown",
+        "value": null,
+        "sourceIds": [],
+        "note": "No timezone determination admitted in this identity batch."
+      }
+    },
+    "boundaryAssessment": "No historical validity interval is admitted. Administrative, opening, passenger suspension, physical closure and code effectiveness remain distinct.",
+    "continuityAssessment": "No continuity inference is used for any code or historical name.",
+    "country": "CN",
+    "decision": "policy_accepted",
+    "observations": [
+      {
+        "basis": "Reused PR #33 recorded original-byte verification and bounded citation cn-ybp-mee-2014-q2; not a new retrieval, independent publication or code observation.",
+        "citationIds": [
+          "cn-ybp-mee-2014-q2"
+        ],
+        "claimScope": "Physical site identity/location only; numeric position is separately marked reference.",
+        "independentOriginal": true,
+        "observedOn": "2014-03-28",
+        "sourceFamily": "CN-GOV-ADMIN",
+        "sourceId": "cn-ybp-mee-2014"
+      }
+    ],
+    "physicalIdentity": {
+      "candidateConflictReviewed": true,
+      "locationDescription": "本次迁建项目位于宜宾市宗场镇境内，距宜宾市中心直线距离约11公里。",
+      "matchingExistingAirportId": null,
+      "officialName": "宜宾机场迁建工程",
+      "referenceRecordId": "336111",
+      "referenceSourceId": "cn-batch7-ourairports-reference",
+      "siteKey": "yibin-new",
+      "sourceIds": [
+        "cn-ybp-mee-2014"
+      ]
+    },
+    "policyKey": "official-source-claims@1.0.0",
+    "recordId": "apt_8354da99-7d18-4329-bf7b-4ed042a4ad72",
+    "reviewMeaning": "Project-authorized machine rule execution; no personal owner review claimed.",
+    "reviewMode": "policy",
+    "reviewedByEngine": "official-source-claims",
+    "reviewer": null,
+    "supplementalEvidence": [
+      {
+        "originalSha256": "4e9c7ef6207ae83e68d162b019aebcce1874566602b5edfd7df11a641558e212",
+        "path": "research/evidence/markets/excerpts/cn-stat-2019.json",
+        "scope": "Prior retained factual site/relocation/operation corroboration only; date does not become a code effective date.",
+        "sha256": "4cfab603b3fbcccaf155c0e0580cbbce6ce09a009aa012eb1267ed3d64250281",
+        "sourceId": "cn-stat-2019"
+      },
+      {
+        "originalSha256": "1df63a1856e3656aa23abf1ee2d5d3be7bee2ca08280df9b3c77f21c50dd08f4",
+        "path": "research/evidence/markets/excerpts/cn-yibin-operation.json",
+        "scope": "Prior retained factual site/relocation/operation corroboration only; date does not become a code effective date.",
+        "sha256": "0fe28899c9f9a59453644aa661c7f52b92e6f57d8180613d79535aba5fffceca",
+        "sourceId": "cn-yibin-operation"
+      }
+    ]
+  }
+]

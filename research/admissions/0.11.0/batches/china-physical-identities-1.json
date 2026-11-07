@@ -1,0 +1,603 @@
+{
+  "admission": {
+    "airports": 6,
+    "assignments": 0,
+    "formalSources": 5,
+    "names": 0
+  },
+  "baseCommit": "1e35d424a42377ea80c5c4ab53e1ee3d492b5acf",
+  "batchId": "china-physical-identities-1",
+  "events": [
+    {
+      "admittedAirportIds": [
+        "apt_6f1a6ff3-98db-4e58-95fc-cc78bd5aa836"
+      ],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "legacy-china-batch7-lianyungang-old"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lyg-both-sites-2020"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lyg-both-sites-2020"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lyg-both-sites-2020"
+          ]
+        },
+        "iata": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lyg-both-sites-2020"
+          ]
+        },
+        "icao": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lyg-both-sites-2020"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Admit the distinct physical 连云港白塔埠机场 site using official documentary identity/location and separately labelled pinned reference coordinates. No code allocation is admitted.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "cn-lyg-both-sites-2020",
+            "cn-batch7-ourairports-reference"
+          ]
+        }
+      },
+      "conflicts": [],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Physical identity only. No dates or code continuity inferred.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "china-batch7-lianyungang-old",
+      "evidenceGaps": [
+        "缺少旧场 LYG 的可审核主管部门／航空公司历史原件及代码交接边界。",
+        "白塔埠最后一期正式 AD 2、花果山首期 AD 2、IATA 迁转通知、2021-12 实际执行回顾。",
+        "首次分配、最终撤销和跨场址行政交接日未知；观察、客运停航、物理关闭与代码撤销分别保留。",
+        "2021-09-22 是捕获日期，不能据此认定最后有效日；2026-11-15 是气象规定未来生效日。",
+        "白塔埠最后有效 AD 2、花果山首期受控 AD 2、军民使用边界、IATA 迁转原通知。",
+        "取得旧场最终代码有效观察／撤销通知和新场首次分配通知；独立人工审核物理身份与关联命名空间。"
+      ],
+      "exclusionReason": null,
+      "label": "连云港白塔埠机场",
+      "nextAction": "Retain code candidates until official airport-specific allocation/withdrawal or dated AIP evidence supports bounded validity; human merge only.",
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-11-06",
+      "sourceIds": [
+        "cn-lyg-both-sites-2020",
+        "cn-batch7-ourairports-reference"
+      ],
+      "status": "ready_to_admit"
+    },
+    {
+      "admittedAirportIds": [
+        "apt_64b5eaa6-a984-4816-86d9-d8eb71c91451"
+      ],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "legacy-china-batch7-lianyungang-new"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lyg-mee-2019"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lyg-mee-2019"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lyg-mee-2019"
+          ]
+        },
+        "iata": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lyg-mee-2019"
+          ]
+        },
+        "icao": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lyg-mee-2019"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Admit the distinct physical 连云港花果山机场 site using official documentary identity/location and separately labelled pinned reference coordinates. No code allocation is admitted.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "cn-lyg-mee-2019",
+            "cn-batch7-ourairports-reference"
+          ]
+        }
+      },
+      "conflicts": [],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Physical identity only. No dates or code continuity inferred.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "china-batch7-lianyungang-new",
+      "evidenceGaps": [
+        "缺少旧场 LYG 的可审核主管部门／航空公司历史原件及代码交接边界。",
+        "白塔埠最后一期正式 AD 2、花果山首期 AD 2、IATA 迁转通知、2021-12 实际执行回顾。",
+        "首次分配、最终撤销和跨场址行政交接日未知；观察、客运停航、物理关闭与代码撤销分别保留。",
+        "2021-09-22 是捕获日期，不能据此认定最后有效日；2026-11-15 是气象规定未来生效日。",
+        "白塔埠最后有效 AD 2、花果山首期受控 AD 2、军民使用边界、IATA 迁转原通知。",
+        "取得旧场最终代码有效观察／撤销通知和新场首次分配通知；独立人工审核物理身份与关联命名空间。"
+      ],
+      "exclusionReason": null,
+      "label": "连云港花果山机场",
+      "nextAction": "Retain code candidates until official airport-specific allocation/withdrawal or dated AIP evidence supports bounded validity; human merge only.",
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-11-06",
+      "sourceIds": [
+        "cn-lyg-mee-2019",
+        "cn-batch7-ourairports-reference"
+      ],
+      "status": "ready_to_admit"
+    },
+    {
+      "admittedAirportIds": [
+        "apt_56b57bca-08d5-4b5e-944e-1e9cce968a0a"
+      ],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "legacy-china-batch7-luzhou-old"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lzo-mee-2014"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lzo-mee-2014"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lzo-mee-2014"
+          ]
+        },
+        "iata": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lzo-mee-2014"
+          ]
+        },
+        "icao": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lzo-mee-2014"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Admit the distinct physical 泸州蓝田机场 site using official documentary identity/location and separately labelled pinned reference coordinates. No code allocation is admitted.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "cn-lzo-mee-2014",
+            "cn-batch7-ourairports-reference"
+          ]
+        }
+      },
+      "conflicts": [],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Physical identity only. No dates or code continuity inferred.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "china-batch7-luzhou-old",
+      "evidenceGaps": [
+        "尚无可用的双侧 LZO 原始分配记录；不把网络代码表或模拟飞行资料用作批准依据。",
+        "2018 年转场前的蓝田 AD 2 或航班原始公告；云龙首期 AD 2／IATA 分配及蓝田后续军民用途文件。",
+        "首次分配、最终撤销和跨场址行政交接日未知；观察、客运停航、物理关闭与代码撤销分别保留。",
+        "旧场原始描述实际编写日期未知，不能生成有日期有效代码观察。",
+        "2018-09 前蓝田 AD 2.1/2.2 原件和有效版次；云龙首期 AIP/AIRAC；IATA 迁转通知。",
+        "取得旧场最终代码有效观察／撤销通知和新场首次分配通知；独立人工审核物理身份与关联命名空间。"
+      ],
+      "exclusionReason": null,
+      "label": "泸州蓝田机场",
+      "nextAction": "Retain code candidates until official airport-specific allocation/withdrawal or dated AIP evidence supports bounded validity; human merge only.",
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-11-06",
+      "sourceIds": [
+        "cn-lzo-mee-2014",
+        "cn-batch7-ourairports-reference"
+      ],
+      "status": "ready_to_admit"
+    },
+    {
+      "admittedAirportIds": [
+        "apt_f11bdf7d-d81d-46fc-a94f-8c8c42d4e245"
+      ],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "legacy-china-batch7-luzhou-new"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lzo-mee-2014"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lzo-mee-2014"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lzo-mee-2014"
+          ]
+        },
+        "iata": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lzo-mee-2014"
+          ]
+        },
+        "icao": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-lzo-mee-2014"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Admit the distinct physical 泸州云龙机场 site using official documentary identity/location and separately labelled pinned reference coordinates. No code allocation is admitted.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "cn-lzo-mee-2014",
+            "cn-batch7-ourairports-reference"
+          ]
+        }
+      },
+      "conflicts": [],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Physical identity only. No dates or code continuity inferred.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "china-batch7-luzhou-new",
+      "evidenceGaps": [
+        "尚无可用的双侧 LZO 原始分配记录；不把网络代码表或模拟飞行资料用作批准依据。",
+        "2018 年转场前的蓝田 AD 2 或航班原始公告；云龙首期 AD 2／IATA 分配及蓝田后续军民用途文件。",
+        "首次分配、最终撤销和跨场址行政交接日未知；观察、客运停航、物理关闭与代码撤销分别保留。",
+        "旧场原始描述实际编写日期未知，不能生成有日期有效代码观察。",
+        "2018-09 前蓝田 AD 2.1/2.2 原件和有效版次；云龙首期 AIP/AIRAC；IATA 迁转通知。",
+        "取得旧场最终代码有效观察／撤销通知和新场首次分配通知；独立人工审核物理身份与关联命名空间。"
+      ],
+      "exclusionReason": null,
+      "label": "泸州云龙机场",
+      "nextAction": "Retain code candidates until official airport-specific allocation/withdrawal or dated AIP evidence supports bounded validity; human merge only.",
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-11-06",
+      "sourceIds": [
+        "cn-lzo-mee-2014",
+        "cn-batch7-ourairports-reference"
+      ],
+      "status": "ready_to_admit"
+    },
+    {
+      "admittedAirportIds": [
+        "apt_bbf9f2c1-fc01-4ed7-a4aa-74e6ed8ca45f"
+      ],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "legacy-china-batch7-yibin-old"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-ybp-mee-2014"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-ybp-mee-2014"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-ybp-mee-2014"
+          ]
+        },
+        "iata": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-ybp-mee-2014"
+          ]
+        },
+        "icao": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-ybp-mee-2014"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Admit the distinct physical 宜宾菜坝机场 site using official documentary identity/location and separately labelled pinned reference coordinates. No code allocation is admitted.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "cn-ybp-mee-2014",
+            "cn-batch7-ourairports-reference"
+          ]
+        }
+      },
+      "conflicts": [],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Physical identity only. No dates or code continuity inferred.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "china-batch7-yibin-old",
+      "evidenceGaps": [
+        "缺少旧场 YBP 权威分配观察；菜坝军事用途、最终关闭及新旧 ZUYB 分配边界仍需另证。",
+        "菜坝最后一期 AD 2 或机场专属代码表；五粮液首期正式 AD 2；IATA 交接原件。",
+        "首次分配、最终撤销和跨场址行政交接日未知；观察、客运停航、物理关闭与代码撤销分别保留。",
+        "2019-12-05 投运为既有运营事件证据，不是 YBP/ZUYB 首配日。",
+        "菜坝最后有效航空公司/AD 2 代码原件、五粮液首期 AD 2、军用与民用状态原决定。",
+        "取得旧场最终代码有效观察／撤销通知和新场首次分配通知；独立人工审核物理身份与关联命名空间。"
+      ],
+      "exclusionReason": null,
+      "label": "宜宾菜坝机场",
+      "nextAction": "Retain code candidates until official airport-specific allocation/withdrawal or dated AIP evidence supports bounded validity; human merge only.",
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-11-06",
+      "sourceIds": [
+        "cn-ybp-mee-2014",
+        "cn-batch7-ourairports-reference"
+      ],
+      "status": "ready_to_admit"
+    },
+    {
+      "admittedAirportIds": [
+        "apt_8354da99-7d18-4329-bf7b-4ed042a4ad72"
+      ],
+      "admittedAssignmentIds": [],
+      "admittedNameIds": [],
+      "candidateIds": [
+        "legacy-china-batch7-yibin-new"
+      ],
+      "claims": {
+        "closureAndReplacement": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-ybp-mee-2014"
+          ]
+        },
+        "historicalBoundary": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-ybp-mee-2014"
+          ]
+        },
+        "historicalNames": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-ybp-mee-2014"
+          ]
+        },
+        "iata": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-ybp-mee-2014"
+          ]
+        },
+        "icao": {
+          "conclusion": "No formal claim admitted; exact first/last code validity, historical legal-name intervals and physical closure remain candidate gaps.",
+          "evidenceType": "indirect",
+          "sourceIds": [
+            "cn-ybp-mee-2014"
+          ]
+        },
+        "physicalIdentity": {
+          "conclusion": "Admit the distinct physical 宜宾五粮液机场 site using official documentary identity/location and separately labelled pinned reference coordinates. No code allocation is admitted.",
+          "evidenceType": "primary_direct",
+          "sourceIds": [
+            "cn-ybp-mee-2014",
+            "cn-batch7-ourairports-reference"
+          ]
+        }
+      },
+      "conflicts": [],
+      "continuityInference": {
+        "evidenceType": "continuity_inference",
+        "note": "Physical identity only. No dates or code continuity inferred.",
+        "usedForAdmission": false
+      },
+      "eventGroupId": "china-batch7-yibin-new",
+      "evidenceGaps": [
+        "缺少旧场 YBP 权威分配观察；菜坝军事用途、最终关闭及新旧 ZUYB 分配边界仍需另证。",
+        "菜坝最后一期 AD 2 或机场专属代码表；五粮液首期正式 AD 2；IATA 交接原件。",
+        "首次分配、最终撤销和跨场址行政交接日未知；观察、客运停航、物理关闭与代码撤销分别保留。",
+        "2019-12-05 投运为既有运营事件证据，不是 YBP/ZUYB 首配日。",
+        "菜坝最后有效航空公司/AD 2 代码原件、五粮液首期 AD 2、军用与民用状态原决定。",
+        "取得旧场最终代码有效观察／撤销通知和新场首次分配通知；独立人工审核物理身份与关联命名空间。"
+      ],
+      "exclusionReason": null,
+      "label": "宜宾五粮液机场",
+      "nextAction": "Retain code candidates until official airport-specific allocation/withdrawal or dated AIP evidence supports bounded validity; human merge only.",
+      "relatedCandidateIds": [],
+      "reviewedOn": "2026-11-06",
+      "sourceIds": [
+        "cn-ybp-mee-2014",
+        "cn-batch7-ourairports-reference"
+      ],
+      "status": "ready_to_admit"
+    }
+  ],
+  "formatVersion": 1,
+  "nextBatch": [],
+  "preparationOnly": false,
+  "reviewedOn": "2026-11-06",
+  "selection": {
+    "eventCount": 6,
+    "maximumEvents": 20,
+    "policy": "Project-authorized physical-site identities only; separate code/date admission remains blocked by evidence."
+  },
+  "sources": [
+    {
+      "accessResult": "Offline reuse of hash-checked existing source lock, bounded citation and recorded verification; original not reacquired.",
+      "accessedOn": "2026-11-06",
+      "license": {
+        "id": "LicenseRef-PRC-Official-Administrative-Documents",
+        "note": "PRC Copyright Law Article 5(1): this official administrative decision/notice is classified as outside copyright subject matter. Only attributed factual identity/location statements and provenance are retained; this is not a licence for website content, commissioned EIA reports, AIP charts, photographs or third-party attachments.",
+        "url": "https://www.gov.cn/guoqing/2021-10/29/content_5647633.htm"
+      },
+      "limitations": [
+        "No IATA or ICAO allocation, first/last effective date, continuous code validity or physical closure is asserted.",
+        "Project geography describes the proposed site at the administrative document date; executed airport existence is separately cross-checked against prior evidence and the pinned reference snapshot."
+      ],
+      "sourceId": "cn-lyg-both-sites-2020",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Named physical airport site and/or explicit project geography only."
+      ],
+      "url": "https://www.lyg.gov.cn/zglygzfmhwz/szfbgswj1/content/89a86e48-47a7-4067-9f88-65b0cc1d04e8.html"
+    },
+    {
+      "accessResult": "Offline reuse of hash-checked existing source lock, bounded citation and recorded verification; original not reacquired.",
+      "accessedOn": "2026-11-06",
+      "license": {
+        "id": "LicenseRef-PRC-Official-Administrative-Documents",
+        "note": "PRC Copyright Law Article 5(1): this official administrative decision/notice is classified as outside copyright subject matter. Only attributed factual identity/location statements and provenance are retained; this is not a licence for website content, commissioned EIA reports, AIP charts, photographs or third-party attachments.",
+        "url": "https://www.gov.cn/guoqing/2021-10/29/content_5647633.htm"
+      },
+      "limitations": [
+        "No IATA or ICAO allocation, first/last effective date, continuous code validity or physical closure is asserted.",
+        "Project geography describes the proposed site at the administrative document date; executed airport existence is separately cross-checked against prior evidence and the pinned reference snapshot."
+      ],
+      "sourceId": "cn-lyg-mee-2019",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Named physical airport site and/or explicit project geography only."
+      ],
+      "url": "https://www.mee.gov.cn/xxgk2018/xxgk/xxgk11/201901/t20190121_690274.html"
+    },
+    {
+      "accessResult": "Offline reuse of hash-checked existing source lock, bounded citation and recorded verification; original not reacquired.",
+      "accessedOn": "2026-11-06",
+      "license": {
+        "id": "LicenseRef-PRC-Official-Administrative-Documents",
+        "note": "PRC Copyright Law Article 5(1): this official administrative decision/notice is classified as outside copyright subject matter. Only attributed factual identity/location statements and provenance are retained; this is not a licence for website content, commissioned EIA reports, AIP charts, photographs or third-party attachments.",
+        "url": "https://www.gov.cn/guoqing/2021-10/29/content_5647633.htm"
+      },
+      "limitations": [
+        "No IATA or ICAO allocation, first/last effective date, continuous code validity or physical closure is asserted.",
+        "Project geography describes the proposed site at the administrative document date; executed airport existence is separately cross-checked against prior evidence and the pinned reference snapshot."
+      ],
+      "sourceId": "cn-lzo-mee-2014",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Named physical airport site and/or explicit project geography only."
+      ],
+      "url": "https://www.mee.gov.cn/gkml/sthjbgw/spwj1/201404/t20140403_270104.htm"
+    },
+    {
+      "accessResult": "Offline reuse of hash-checked existing source lock, bounded citation and recorded verification; original not reacquired.",
+      "accessedOn": "2026-11-06",
+      "license": {
+        "id": "LicenseRef-PRC-Official-Administrative-Documents",
+        "note": "PRC Copyright Law Article 5(1): this official administrative decision/notice is classified as outside copyright subject matter. Only attributed factual identity/location statements and provenance are retained; this is not a licence for website content, commissioned EIA reports, AIP charts, photographs or third-party attachments.",
+        "url": "https://www.gov.cn/guoqing/2021-10/29/content_5647633.htm"
+      },
+      "limitations": [
+        "No IATA or ICAO allocation, first/last effective date, continuous code validity or physical closure is asserted.",
+        "Project geography describes the proposed site at the administrative document date; executed airport existence is separately cross-checked against prior evidence and the pinned reference snapshot."
+      ],
+      "sourceId": "cn-ybp-mee-2014",
+      "sourceType": "primary",
+      "supportedFacts": [
+        "Named physical airport site and/or explicit project geography only."
+      ],
+      "url": "https://www.mee.gov.cn/gkml/sthjbgw/spwj1/201404/t20140403_270103.htm"
+    },
+    {
+      "accessResult": "Offline reuse of hash-checked existing source lock, bounded citation and recorded verification; original not reacquired.",
+      "accessedOn": "2026-11-06",
+      "license": {
+        "id": "LicenseRef-Public-Domain",
+        "note": "OurAirports explicitly places its airport data in the public domain; no invented CC0 licence. Only six physical-site reference rows are used.",
+        "url": "https://ourairports.com/data/"
+      },
+      "limitations": [
+        "Secondary reference only; does not prove historical code allocations, legal names or exact ARPs."
+      ],
+      "sourceId": "cn-batch7-ourairports-reference",
+      "sourceType": "secondary",
+      "supportedFacts": [
+        "Six identified physical-site reference rows: names, coordinates and external record IDs."
+      ],
+      "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/d97df1673cc5ba61a09b17ab5936091a669a04ca/airports.csv"
+    }
+  ],
+  "statusCounts": {
+    "excluded": 0,
+    "insufficient_evidence": 0,
+    "pending_review": 0,
+    "ready_to_admit": 6
+  }
+}

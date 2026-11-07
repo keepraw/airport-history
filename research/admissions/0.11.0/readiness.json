@@ -1,0 +1,1000 @@
+{
+  "formatVersion": 1,
+  "market": "CN",
+  "basedOnCommit": "1e35d424a42377ea80c5c4ab53e1ee3d492b5acf",
+  "mode": "existing-corpus-screening-no-originals-refetched",
+  "caseCount": 17,
+  "priorRuleProposalStatus": "proposal-only",
+  "actualFormalAdditionsInThisReadinessArtifact": 0,
+  "principle": "Physical identity and code assignment assessed separately. Identity-only does not create historical code resolution. Project source/claim rules require actual applicability checks; rights are never granted by user project authorization.",
+  "cases": [
+    {
+      "rank": 1,
+      "caseId": "yibin",
+      "label": "宜宾菜坝／五粮液",
+      "identityReadiness": "identity_only_close",
+      "physicalIdentityAssessment": "MEE行政批复分别定位菜坝镇旧场和宗场镇新址；CAAC地区局回顾确认五粮液已实际投运。参考坐标保持reference，不冒充ARP。",
+      "directIataEvidence": [
+        "YBP旧目录直接字符串及当前IATA Wuliangye行；没有可准入日期窗。"
+      ],
+      "directIcaoEvidence": "Explicit namespace observations, if present, remain distinct from official allocation and date validity; no new admissible ICAO interval established in this readiness screening.",
+      "effectiveDateEvidence": "None sufficient for a new bounded code assignment. Opening, licensing, publication, capture and approved-status dates remain distinct.",
+      "boundedTimeIntervalReady": false,
+      "rights": "Reassess source/claim applicability under this user-authorized China task; existing proposal-only flags do not grant rights. Only factual name/location attributes plus metadata/minimal attributed evidence; no full originals/extractions, no AAI/KR inheritance.",
+      "identityConflicts": {
+        "currentPermanentIdAdmission": "not_admitted",
+        "meaning": "Prior cited primary/official relocation or location evidence distinguishes named sites; ARP reconciliation, independent support and/or admission scope may still be missing. Unadmitted is not synonymous with nonexistent or unconfirmed.",
+        "newIdsAllocated": 0,
+        "state": "distinct_physical_sites_documented_admission_incomplete"
+      },
+      "reuseFormalAirportIds": [],
+      "reusePendingHypotheses": [
+        {
+          "proposalId": "apt_bbf9f2c1-fc01-4ed7-a4aa-74e6ed8ca45f",
+          "name": "宜宾菜坝机场",
+          "coordinates": {
+            "latitude": 28.800556,
+            "longitude": 104.545
+          },
+          "siteKeys": [
+            "yibin-old"
+          ]
+        },
+        {
+          "proposalId": "apt_8354da99-7d18-4329-bf7b-4ed042a4ad72",
+          "name": "宜宾五粮液机场",
+          "coordinates": {
+            "latitude": 28.858431,
+            "longitude": 104.526157
+          },
+          "siteKeys": [
+            "yibin-new"
+          ]
+        }
+      ],
+      "expectedFormalAirportIncrementConditionalOnIdentityAndRightsChecks": 2,
+      "expectedIataAssignmentIncrement": 0,
+      "expectedIcaoAssignmentIncrement": 0,
+      "expectedActualResolvedQueryIncrementFromIdentityOnly": 0,
+      "expectationIsNotOutcome": true,
+      "evidence": [
+        {
+          "sourceId": "cn-ybp-mee-2014",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": true,
+          "sourceRole": "regulator_environmental_approval",
+          "originalSha256": "9112b84c3ec896ad5b0f32961fc2cc939acb4bccf24510ca451074f1e51c83e7"
+        },
+        {
+          "sourceId": "cn-yibin-operation",
+          "metadataIndex": "research/evidence/priority-market-batch-6/existing-source-metadata.json#cn-yibin-operation",
+          "priorProvenance": [
+            "research/evidence/markets/source-lock.json"
+          ],
+          "originalSha256": "1df63a1856e3656aa23abf1ee2d5d3be7bee2ca08280df9b3c77f21c50dd08f4"
+        }
+      ],
+      "nextMissingOriginals": "菜坝末期AD2、五粮液首期AD2及IATA迁转通知；不重抓环评。"
+    },
+    {
+      "rank": 2,
+      "caseId": "luzhou",
+      "label": "泸州蓝田／云龙",
+      "identityReadiness": "identity_only_close",
+      "physicalIdentityAssessment": "MEE批复区分城区西南旧场和云龙/石洞新址；运营方记录蓝田迁云龙。旧场军事用途不可推断关闭。",
+      "directIataEvidence": [
+        "春秋明确Lantian IATA LZO/ICAO ZULZ，但2019捕获晚于迁场，内容编写日不明。"
+      ],
+      "directIcaoEvidence": "Explicit namespace observations, if present, remain distinct from official allocation and date validity; no new admissible ICAO interval established in this readiness screening.",
+      "effectiveDateEvidence": "None sufficient for a new bounded code assignment. Opening, licensing, publication, capture and approved-status dates remain distinct.",
+      "boundedTimeIntervalReady": false,
+      "rights": "Reassess source/claim applicability under this user-authorized China task; existing proposal-only flags do not grant rights. Only factual name/location attributes plus metadata/minimal attributed evidence; no full originals/extractions, no AAI/KR inheritance.",
+      "identityConflicts": {
+        "currentPermanentIdAdmission": "not_admitted",
+        "meaning": "Prior cited primary/official relocation or location evidence distinguishes named sites; ARP reconciliation, independent support and/or admission scope may still be missing. Unadmitted is not synonymous with nonexistent or unconfirmed.",
+        "newIdsAllocated": 0,
+        "state": "distinct_physical_sites_documented_admission_incomplete"
+      },
+      "reuseFormalAirportIds": [],
+      "reusePendingHypotheses": [
+        {
+          "proposalId": "apt_56b57bca-08d5-4b5e-944e-1e9cce968a0a",
+          "name": "泸州蓝田机场",
+          "coordinates": {
+            "latitude": 28.852577,
+            "longitude": 105.392579
+          },
+          "siteKeys": [
+            "luzhou-old"
+          ]
+        },
+        {
+          "proposalId": "apt_f11bdf7d-d81d-46fc-a94f-8c8c42d4e245",
+          "name": "泸州云龙机场",
+          "coordinates": {
+            "latitude": 29.030357,
+            "longitude": 105.468407
+          },
+          "siteKeys": [
+            "luzhou-new"
+          ]
+        }
+      ],
+      "expectedFormalAirportIncrementConditionalOnIdentityAndRightsChecks": 2,
+      "expectedIataAssignmentIncrement": 0,
+      "expectedIcaoAssignmentIncrement": 0,
+      "expectedActualResolvedQueryIncrementFromIdentityOnly": 0,
+      "expectationIsNotOutcome": true,
+      "evidence": [
+        {
+          "sourceId": "cn-lzo-mee-2014",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": true,
+          "sourceRole": "regulator_environmental_approval",
+          "originalSha256": "7d527877a517984a62e7212c3c39d8f84ec8865a84a0d64fc0f46621742e6c4e"
+        },
+        {
+          "sourceId": "cn-luzhou-operator",
+          "metadataIndex": "research/evidence/priority-market-batch-6/existing-source-metadata.json#cn-luzhou-operator",
+          "priorProvenance": [
+            "research/evidence/markets/source-lock.json"
+          ],
+          "originalSha256": "16e08e321d877611166f7e401ffd0a6aefe019e98a6bcad90d2e6f656c4efe37"
+        }
+      ],
+      "nextMissingOriginals": "蓝田转场前有效AD2、云龙首期AD2；2013环评已确认soft404，停止重复投入。"
+    },
+    {
+      "rank": 3,
+      "caseId": "lianyungang",
+      "label": "连云港白塔埠／花果山",
+      "identityReadiness": "identity_only_close",
+      "physicalIdentityAssessment": "MEE定位花果山灌云县小伊乡洪河村；2020政府行政文件分别具名两场，旧场目录与参考坐标须联核。政府联系地址不是ARP。",
+      "directIataEvidence": [
+        "LYG旧场目录路由间接关联；ZSLG气象表不作分配。"
+      ],
+      "directIcaoEvidence": "Explicit namespace observations, if present, remain distinct from official allocation and date validity; no new admissible ICAO interval established in this readiness screening.",
+      "effectiveDateEvidence": "None sufficient for a new bounded code assignment. Opening, licensing, publication, capture and approved-status dates remain distinct.",
+      "boundedTimeIntervalReady": false,
+      "rights": "Reassess source/claim applicability under this user-authorized China task; existing proposal-only flags do not grant rights. Only factual name/location attributes plus metadata/minimal attributed evidence; no full originals/extractions, no AAI/KR inheritance.",
+      "identityConflicts": {
+        "currentPermanentIdAdmission": "not_admitted",
+        "meaning": "Prior cited primary/official relocation or location evidence distinguishes named sites; ARP reconciliation, independent support and/or admission scope may still be missing. Unadmitted is not synonymous with nonexistent or unconfirmed.",
+        "newIdsAllocated": 0,
+        "state": "distinct_physical_sites_documented_admission_incomplete"
+      },
+      "reuseFormalAirportIds": [],
+      "reusePendingHypotheses": [
+        {
+          "proposalId": "apt_6f1a6ff3-98db-4e58-95fc-cc78bd5aa836",
+          "name": "连云港白塔埠机场",
+          "coordinates": {
+            "latitude": 34.571302,
+            "longitude": 118.873143
+          },
+          "siteKeys": [
+            "lianyungang-old"
+          ]
+        },
+        {
+          "proposalId": "apt_64b5eaa6-a984-4816-86d9-d8eb71c91451",
+          "name": "连云港花果山机场",
+          "coordinates": {
+            "latitude": 34.41406,
+            "longitude": 119.17899
+          },
+          "siteKeys": [
+            "lianyungang-new"
+          ]
+        }
+      ],
+      "expectedFormalAirportIncrementConditionalOnIdentityAndRightsChecks": 2,
+      "expectedIataAssignmentIncrement": 0,
+      "expectedIcaoAssignmentIncrement": 0,
+      "expectedActualResolvedQueryIncrementFromIdentityOnly": 0,
+      "expectationIsNotOutcome": true,
+      "evidence": [
+        {
+          "sourceId": "cn-lyg-mee-2019",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": true,
+          "sourceRole": "regulator_environmental_approval",
+          "originalSha256": "649d10bdd1a5ab56dfe1c5a17bea4d160a53de55afc3632d33b2dfc9b1a61e3c"
+        },
+        {
+          "sourceId": "cn-lyg-both-sites-2020",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": true,
+          "sourceRole": "municipal_administrative_notice",
+          "originalSha256": "78ed8194ae71bf9dc45e2df8dadff0d9796e24f4c9ecf4430d1e75c3a0a880f4"
+        },
+        {
+          "sourceId": "cn-stat-2021",
+          "metadataIndex": "research/evidence/priority-market-batch-6/existing-source-metadata.json#cn-stat-2021",
+          "priorProvenance": [
+            "research/evidence/markets/source-lock.json"
+          ],
+          "originalSha256": "a1b54fa8d922f1c6e45d7b84bb58f026097c7ff36039d31c34f5c986d5e6b9a9"
+        }
+      ],
+      "nextMissingOriginals": "白塔埠最后有效AD2及花果山首期AD2，IATA转移通知；不再次采集2021目录。"
+    },
+    {
+      "rank": 4,
+      "caseId": "shiyan",
+      "label": "十堰武当山",
+      "identityReadiness": "identity_only_requires_custody_rights_check",
+      "physicalIdentityAssessment": "地区局许可、运营方开航与AOPA所存荆门AD2邻场表N323536E1105422可交叉定位；AOPA不是CAAC原件保管方。",
+      "directIataEvidence": [
+        "未取得WDS或ZHSY分配机关原件。"
+      ],
+      "directIcaoEvidence": "Explicit namespace observations, if present, remain distinct from official allocation and date validity; no new admissible ICAO interval established in this readiness screening.",
+      "effectiveDateEvidence": "None sufficient for a new bounded code assignment. Opening, licensing, publication, capture and approved-status dates remain distinct.",
+      "boundedTimeIntervalReady": false,
+      "rights": "Reassess source/claim applicability under this user-authorized China task; existing proposal-only flags do not grant rights. Only factual name/location attributes plus metadata/minimal attributed evidence; no full originals/extractions, no AAI/KR inheritance.",
+      "identityConflicts": {
+        "currentPermanentIdAdmission": "not_admitted",
+        "meaning": "Prior cited primary/official relocation or location evidence distinguishes named sites; ARP reconciliation, independent support and/or admission scope may still be missing. Unadmitted is not synonymous with nonexistent or unconfirmed.",
+        "newIdsAllocated": 0,
+        "state": "distinct_physical_sites_documented_admission_incomplete"
+      },
+      "reuseFormalAirportIds": [],
+      "reusePendingHypotheses": [],
+      "expectedFormalAirportIncrementConditionalOnIdentityAndRightsChecks": 1,
+      "expectedIataAssignmentIncrement": 0,
+      "expectedIcaoAssignmentIncrement": 0,
+      "expectedActualResolvedQueryIncrementFromIdentityOnly": 0,
+      "expectationIsNotOutcome": true,
+      "evidence": [
+        {
+          "sourceId": "cn-add-shiyan-caac-licence",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": null,
+          "sourceRole": "regulator_licence_issuance_news",
+          "originalSha256": "8ae42fd7b5b78d050edb29e6b0eaabaf2a104fcd04a3b64372ab3f9bc2f42a49"
+        },
+        {
+          "sourceId": "cn-add-shiyan-basic",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": null,
+          "sourceRole": "airport_operator_history",
+          "originalSha256": "f47dfa1e5f9418f95f944771d50790aa2281c89cd91a2f26847088aabdde3bd9"
+        },
+        {
+          "sourceId": "cn-add-aopa-jingmen-ad2-20240422",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": null,
+          "sourceRole": "association_hosted_operator_neighbor_airport_table",
+          "originalSha256": "0d2c4af54ae81ddd8506c9441f2751515543a3f8e738df8f2b7f3fad52755d4f"
+        }
+      ],
+      "nextMissingOriginals": "优先寻找政府净空保护/机场运营方位置证据，或确认AD2再利用及保管链；代码需原始批准。"
+    },
+    {
+      "rank": 5,
+      "caseId": "rizhao",
+      "label": "日照山字河",
+      "identityReadiness": "identity_only_requires_custody_rights_check",
+      "physicalIdentityAssessment": "AOPA所存岚山AD2邻场表具名日照/山字河N352420E1191925；不得把邻场ARP升级为代码证据。",
+      "directIataEvidence": [
+        "RIZ 2015-03-24批准仅非官方年鉴镜像，不可准入；ZSRZ日期仅百科线索。"
+      ],
+      "directIcaoEvidence": "Explicit namespace observations, if present, remain distinct from official allocation and date validity; no new admissible ICAO interval established in this readiness screening.",
+      "effectiveDateEvidence": "None sufficient for a new bounded code assignment. Opening, licensing, publication, capture and approved-status dates remain distinct.",
+      "boundedTimeIntervalReady": false,
+      "rights": "Reassess source/claim applicability under this user-authorized China task; existing proposal-only flags do not grant rights. Only factual name/location attributes plus metadata/minimal attributed evidence; no full originals/extractions, no AAI/KR inheritance.",
+      "identityConflicts": {
+        "currentPermanentIdAdmission": "not_admitted",
+        "meaning": "Prior cited primary/official relocation or location evidence distinguishes named sites; ARP reconciliation, independent support and/or admission scope may still be missing. Unadmitted is not synonymous with nonexistent or unconfirmed.",
+        "newIdsAllocated": 0,
+        "state": "distinct_physical_sites_documented_admission_incomplete"
+      },
+      "reuseFormalAirportIds": [],
+      "reusePendingHypotheses": [],
+      "expectedFormalAirportIncrementConditionalOnIdentityAndRightsChecks": 1,
+      "expectedIataAssignmentIncrement": 0,
+      "expectedIcaoAssignmentIncrement": 0,
+      "expectedActualResolvedQueryIncrementFromIdentityOnly": 0,
+      "expectationIsNotOutcome": true,
+      "evidence": [
+        {
+          "sourceId": "cn-add-rizhao-lanshan-ad2-20200506",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": null,
+          "sourceRole": "association_hosted_operator_neighbor_airport_table",
+          "originalSha256": "752b24b5cc4e8136c7cb922e578140b8bf186d3db8251efbf61a35304f31e5f4"
+        }
+      ],
+      "nextMissingOriginals": "官方机场位置/ARP与IATA RIZ、ATMB ZSRZ批准原件；不将镜像自称年鉴作官方保管。"
+    },
+    {
+      "rank": 6,
+      "caseId": "ankang",
+      "label": "安康五里铺／富强",
+      "identityReadiness": "identity_only_new_site_close_old_site_incomplete",
+      "physicalIdentityAssessment": "MEE确认新址距城15.5公里；地区局2020许可和实际首航具名富强。旧机场2010停民航后2016仍有飞校，不是物理关闭。",
+      "directIataEvidence": [
+        "当前IATA精确行Fuqiang/AKA仅瞬时观察；旧五里铺独立具名代码/ARP不足。"
+      ],
+      "directIcaoEvidence": "Explicit namespace observations, if present, remain distinct from official allocation and date validity; no new admissible ICAO interval established in this readiness screening.",
+      "effectiveDateEvidence": "None sufficient for a new bounded code assignment. Opening, licensing, publication, capture and approved-status dates remain distinct.",
+      "boundedTimeIntervalReady": false,
+      "rights": "Reassess source/claim applicability under this user-authorized China task; existing proposal-only flags do not grant rights. Only factual name/location attributes plus metadata/minimal attributed evidence; no full originals/extractions, no AAI/KR inheritance.",
+      "identityConflicts": {
+        "currentPermanentIdAdmission": "not_admitted",
+        "meaning": "Old/new airport relocation is documented; prior old-airport directory does not itself uniquely establish the specific Wulipu identity or historical code window.",
+        "newIdsAllocated": 0,
+        "state": "distinct_sites_documented_old_site_crosswalk_incomplete"
+      },
+      "reuseFormalAirportIds": [],
+      "reusePendingHypotheses": [
+        {
+          "proposalId": "apt_0dc2a2f7-1222-46d2-afac-c16cbddb24d6",
+          "name": "安康五里铺机场",
+          "coordinates": {
+            "latitude": 32.708056,
+            "longitude": 108.931111
+          },
+          "siteKeys": [
+            "ankang-old"
+          ]
+        },
+        {
+          "proposalId": "apt_68a848c7-9db9-4233-b0d9-65eb7ed7407e",
+          "name": "安康富强机场",
+          "coordinates": {
+            "latitude": 32.75696,
+            "longitude": 108.87338
+          },
+          "siteKeys": [
+            "ankang-new"
+          ]
+        }
+      ],
+      "expectedFormalAirportIncrementConditionalOnIdentityAndRightsChecks": 1,
+      "expectedIataAssignmentIncrement": 0,
+      "expectedIcaoAssignmentIncrement": 0,
+      "expectedActualResolvedQueryIncrementFromIdentityOnly": 0,
+      "expectationIsNotOutcome": true,
+      "evidence": [
+        {
+          "sourceId": "cn-aka-mee-2014",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": true,
+          "sourceRole": "regulator_environmental_approval",
+          "originalSha256": "b995b028da3199d0bab83f17b5fa14908d5fdef998ea2862d0e9179e13b5ddb4"
+        },
+        {
+          "sourceId": "cn-ankang-license",
+          "metadataIndex": "research/evidence/priority-market-batch-6/existing-source-metadata.json#cn-ankang-license",
+          "priorProvenance": [
+            "research/evidence/priority-markets/source-lock.json"
+          ],
+          "originalSha256": "c3b6a2ca3ba2b65f3a5c61bdfc01c9a89cb590beb7288c3711ea74136b4bdade"
+        },
+        {
+          "sourceId": "cn-ankang-executed",
+          "metadataIndex": "research/evidence/priority-market-batch-6/existing-source-metadata.json#cn-ankang-executed",
+          "priorProvenance": [
+            "research/evidence/priority-markets/source-lock.json"
+          ],
+          "originalSha256": "45ca1cfa2658b99cedcbae6cb971d91fc86e892c27b25d2f132dc38170773cc1"
+        },
+        {
+          "sourceId": "cn-aka-mayor-2016",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": true,
+          "sourceRole": "municipal_official_interview",
+          "originalSha256": "4212247e795f94db3e5a69e821e2e39a7306055e064dc9aca344efde4d4f8a46"
+        }
+      ],
+      "nextMissingOriginals": "富强官方位置交叉确认；旧五里铺正式ARP、民航停止后代码状态；避免再追2018停航起点。"
+    },
+    {
+      "rank": 7,
+      "caseId": "yanan",
+      "label": "延安二十里铺／南泥湾",
+      "identityReadiness": "identity_only_two_later_sites_close_third_site_deferred",
+      "physicalIdentityAssessment": "CAAC明确1981东关迁入东二十里铺，2018新南泥湾在城南13公里山顶；保留三个物理场址。东关位置未建立，不能拿二十里铺ID覆盖。",
+      "directIataEvidence": [
+        "ENY旧目录与地区指南仅关联；ZLYA气象代码不作分配。"
+      ],
+      "directIcaoEvidence": "Explicit namespace observations, if present, remain distinct from official allocation and date validity; no new admissible ICAO interval established in this readiness screening.",
+      "effectiveDateEvidence": "None sufficient for a new bounded code assignment. Opening, licensing, publication, capture and approved-status dates remain distinct.",
+      "boundedTimeIntervalReady": false,
+      "rights": "Reassess source/claim applicability under this user-authorized China task; existing proposal-only flags do not grant rights. Only factual name/location attributes plus metadata/minimal attributed evidence; no full originals/extractions, no AAI/KR inheritance.",
+      "identityConflicts": {
+        "currentPermanentIdAdmission": "not_admitted",
+        "meaning": "Prior cited primary/official relocation or location evidence distinguishes named sites; ARP reconciliation, independent support and/or admission scope may still be missing. Unadmitted is not synonymous with nonexistent or unconfirmed.",
+        "newIdsAllocated": 0,
+        "state": "distinct_physical_sites_documented_admission_incomplete"
+      },
+      "reuseFormalAirportIds": [],
+      "reusePendingHypotheses": [
+        {
+          "proposalId": "apt_8deac363-2415-499d-8308-8f10de2528c8",
+          "name": "延安二十里铺机场",
+          "coordinates": {
+            "latitude": 36.636902,
+            "longitude": 109.554001
+          },
+          "siteKeys": [
+            "yanan-old"
+          ]
+        },
+        {
+          "proposalId": "apt_ebdabf02-ae37-4295-9667-39ea914e3c05",
+          "name": "延安南泥湾机场",
+          "coordinates": {
+            "latitude": 36.479413,
+            "longitude": 109.464083
+          },
+          "siteKeys": [
+            "yanan-new"
+          ]
+        }
+      ],
+      "expectedFormalAirportIncrementConditionalOnIdentityAndRightsChecks": 2,
+      "expectedIataAssignmentIncrement": 0,
+      "expectedIcaoAssignmentIncrement": 0,
+      "expectedActualResolvedQueryIncrementFromIdentityOnly": 0,
+      "expectationIsNotOutcome": true,
+      "evidence": [
+        {
+          "sourceId": "cn-eny-old-site-2018",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": true,
+          "sourceRole": "regulator_trial_flight_news",
+          "originalSha256": "8989af9897cfc16d369493a91ecfbf1e226c112aab74b5a94d62ac0121cba95c"
+        },
+        {
+          "sourceId": "cn-yanan-sites",
+          "metadataIndex": "research/evidence/priority-market-batch-6/existing-source-metadata.json#cn-yanan-sites",
+          "priorProvenance": [
+            "research/evidence/markets/source-lock.json"
+          ],
+          "originalSha256": "150ad64cebdce998090954d46ea6311faac22c9c2a6ab90abdcdcac238449165"
+        },
+        {
+          "sourceId": "cn-yanan-confirmation",
+          "metadataIndex": "research/evidence/priority-market-batch-6/existing-source-metadata.json#cn-yanan-confirmation",
+          "priorProvenance": [
+            "research/evidence/global/source-lock.json"
+          ],
+          "originalSha256": "87da448fad4a8dcb5c94c2fb9dddbae6659581f1d25c055eb79d26df47580b05"
+        }
+      ],
+      "nextMissingOriginals": "二十里铺及南泥湾独立位置/参考坐标交叉核实；东关仍留候选，代码需各场址控制版。"
+    },
+    {
+      "rank": 8,
+      "caseId": "jinzhou",
+      "label": "锦州小岭子／锦州湾",
+      "identityReadiness": "identity_only_new_site_close_old_site_incomplete",
+      "physicalIdentityAssessment": "CAAC确认锦州湾2015-12-10开航；辽宁环评位置为何屯盐场。北京54跑道参考点不可直接写WGS84，雷达塔不可冒充ARP。",
+      "directIataEvidence": [
+        "JNZ年报附表仅关联；暂无ZYJZ分配原件。"
+      ],
+      "directIcaoEvidence": "Explicit namespace observations, if present, remain distinct from official allocation and date validity; no new admissible ICAO interval established in this readiness screening.",
+      "effectiveDateEvidence": "None sufficient for a new bounded code assignment. Opening, licensing, publication, capture and approved-status dates remain distinct.",
+      "boundedTimeIntervalReady": false,
+      "rights": "Reassess source/claim applicability under this user-authorized China task; existing proposal-only flags do not grant rights. Only factual name/location attributes plus metadata/minimal attributed evidence; no full originals/extractions, no AAI/KR inheritance.",
+      "identityConflicts": {
+        "currentPermanentIdAdmission": "not_admitted",
+        "meaning": "Prior cited primary/official relocation or location evidence distinguishes named sites; ARP reconciliation, independent support and/or admission scope may still be missing. Unadmitted is not synonymous with nonexistent or unconfirmed.",
+        "newIdsAllocated": 0,
+        "state": "distinct_physical_sites_documented_admission_incomplete"
+      },
+      "reuseFormalAirportIds": [],
+      "reusePendingHypotheses": [
+        {
+          "proposalId": "apt_07a48d16-088f-4f88-81c3-a689cb03531b",
+          "name": "锦州小岭子机场",
+          "coordinates": {
+            "latitude": 41.101398,
+            "longitude": 121.061996
+          },
+          "siteKeys": [
+            "jinzhou-old"
+          ]
+        },
+        {
+          "proposalId": "apt_309b521b-0137-4c9b-a404-11d7bfc17075",
+          "name": "锦州湾机场",
+          "coordinates": {
+            "latitude": 40.936032,
+            "longitude": 121.277114
+          },
+          "siteKeys": [
+            "jinzhou-new"
+          ]
+        }
+      ],
+      "expectedFormalAirportIncrementConditionalOnIdentityAndRightsChecks": 1,
+      "expectedIataAssignmentIncrement": 0,
+      "expectedIcaoAssignmentIncrement": 0,
+      "expectedActualResolvedQueryIncrementFromIdentityOnly": 0,
+      "expectationIsNotOutcome": true,
+      "evidence": [
+        {
+          "sourceId": "pm6-cn-jinzhou-open-2015",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": null,
+          "sourceRole": "regulator_news",
+          "originalSha256": "c5bd96dba6b776fd0d7a798e6f3512bf4c85a0a5f06826e3ca526970ff298fbe"
+        },
+        {
+          "sourceId": "pm6-cn-jinzhou-radar-2023",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": null,
+          "sourceRole": "commissioned_environmental_report_in_government_custody",
+          "originalSha256": "aa4022e1ee334be6018bb48c00ab0335a8540dc78c0147c56271092523fdbe23"
+        },
+        {
+          "sourceId": "cn-stat-2015",
+          "metadataIndex": "research/evidence/priority-market-batch-6/existing-source-metadata.json#cn-stat-2015",
+          "priorProvenance": [
+            "research/evidence/markets/source-lock.json"
+          ],
+          "originalSha256": "048d48eda576120b2e5b9c5a9f7f3538caeb1d9eab56e8935faddb2c087b395d"
+        }
+      ],
+      "nextMissingOriginals": "小岭子独立位置及后续用途、锦州湾WGS84参考/ARP交叉；两侧代码原件。"
+    },
+    {
+      "rank": 9,
+      "caseId": "hefei",
+      "label": "合肥骆岗／新桥",
+      "identityReadiness": "identity_documented_location_crosswalk_needed",
+      "physicalIdentityAssessment": "CAAC2013转场原件及2007建设公告分别具名骆岗/新桥；待与已有reference物理点核对，避免把建设批复日当投运日。",
+      "directIataEvidence": [
+        "东航清单HFE/新桥当次关联，无内容日期；缺ZSOF原始分配。"
+      ],
+      "directIcaoEvidence": "Explicit namespace observations, if present, remain distinct from official allocation and date validity; no new admissible ICAO interval established in this readiness screening.",
+      "effectiveDateEvidence": "None sufficient for a new bounded code assignment. Opening, licensing, publication, capture and approved-status dates remain distinct.",
+      "boundedTimeIntervalReady": false,
+      "rights": "Reassess source/claim applicability under this user-authorized China task; existing proposal-only flags do not grant rights. Only factual name/location attributes plus metadata/minimal attributed evidence; no full originals/extractions, no AAI/KR inheritance.",
+      "identityConflicts": {
+        "currentPermanentIdAdmission": "not_admitted",
+        "meaning": "Parent-verified CAAC project/transfer originals distinguish Luogang and Xinqiao; independent historical ARP and formal identity admission remain incomplete. Unadmitted does not mean the physical relocation is unconfirmed.",
+        "newIdsAllocated": 0,
+        "state": "distinct_named_sites_documented_admission_incomplete"
+      },
+      "reuseFormalAirportIds": [],
+      "reusePendingHypotheses": [
+        {
+          "proposalId": null,
+          "name": "合肥骆岗机场",
+          "coordinates": null,
+          "siteKeys": [
+            "hefei-old"
+          ]
+        },
+        {
+          "proposalId": null,
+          "name": "合肥新桥国际机场",
+          "coordinates": null,
+          "siteKeys": [
+            "hefei-new"
+          ]
+        }
+      ],
+      "expectedFormalAirportIncrementConditionalOnIdentityAndRightsChecks": 2,
+      "expectedIataAssignmentIncrement": 0,
+      "expectedIcaoAssignmentIncrement": 0,
+      "expectedActualResolvedQueryIncrementFromIdentityOnly": 0,
+      "expectationIsNotOutcome": true,
+      "evidence": [
+        {
+          "sourceId": "pm6-cn-hefei-transfer-2013",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": null,
+          "sourceRole": "regulator_relocation_supervision_news",
+          "originalSha256": "7d224fac9cd39d41808d9b5e8a205ad70a11cbd92973e3e41d756a27141168ee"
+        },
+        {
+          "sourceId": "pm6-cn-hefei-project-2007",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": null,
+          "sourceRole": "operator_project_news_in_regulator_custody",
+          "originalSha256": "80420ff44426adac42f30e613f18684925f5c5e61589a97c479fc3b429b48717"
+        }
+      ],
+      "nextMissingOriginals": "补定位/ARP；骆岗最终AD2及新桥首期AD2或IATA交接通知，停止重复查开航。"
+    },
+    {
+      "rank": 10,
+      "caseId": "kunming",
+      "label": "Wujiaba → Changshui (KMG/ZPPP)",
+      "identityReadiness": "identity_documented_location_crosswalk_needed",
+      "physicalIdentityAssessment": "CAAC旧巫家坝许可、运营方2012长水转场通知及2010 ICAO会文形成可复用研究包；官方ARP/物理点需独立交叉。",
+      "directIataEvidence": [
+        "南航2017长水KMG印刷原件及东航当前名单直接关联，但非IATA台账；ZPPP会文/气象不构成控制有效期。"
+      ],
+      "directIcaoEvidence": "Explicit namespace observations, if present, remain distinct from official allocation and date validity; no new admissible ICAO interval established in this readiness screening.",
+      "effectiveDateEvidence": "None sufficient for a new bounded code assignment. Opening, licensing, publication, capture and approved-status dates remain distinct.",
+      "boundedTimeIntervalReady": false,
+      "rights": "Reassess source/claim applicability under this user-authorized China task; existing proposal-only flags do not grant rights. Only factual name/location attributes plus metadata/minimal attributed evidence; no full originals/extractions, no AAI/KR inheritance.",
+      "identityConflicts": {
+        "currentPermanentIdAdmission": "not_admitted",
+        "meaning": "Prior cited primary/official relocation or location evidence distinguishes named sites; ARP reconciliation, independent support and/or admission scope may still be missing. Unadmitted is not synonymous with nonexistent or unconfirmed.",
+        "newIdsAllocated": 0,
+        "state": "distinct_physical_sites_documented_admission_incomplete"
+      },
+      "reuseFormalAirportIds": [],
+      "reusePendingHypotheses": [
+        {
+          "proposalId": null,
+          "name": null,
+          "coordinates": null,
+          "siteKeys": [
+            "kunming"
+          ]
+        }
+      ],
+      "expectedFormalAirportIncrementConditionalOnIdentityAndRightsChecks": 2,
+      "expectedIataAssignmentIncrement": 0,
+      "expectedIcaoAssignmentIncrement": 0,
+      "expectedActualResolvedQueryIncrementFromIdentityOnly": 0,
+      "expectationIsNotOutcome": true,
+      "evidence": [
+        {
+          "sourceId": "cn-wuz-caac-licences-2007",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": null,
+          "sourceRole": "regulator_historical_airport_licence_inventory",
+          "originalSha256": "a94d396d60fb8b82dc2cf930f4ce2fffb307c02f8481a02168057df8d01bde62"
+        },
+        {
+          "sourceId": "b5-cn-kmg-notice-2012",
+          "metadataIndex": "research/evidence/priority-market-batch-6/existing-source-metadata.json#b5-cn-kmg-notice-2012",
+          "priorProvenance": [
+            "research/evidence/global-batch-5/source-lock.json"
+          ],
+          "originalSha256": "c1bbdc368bab38ffb08316a06c393648ee81d4b8d49e930a55f2aaf6508b95d3"
+        },
+        {
+          "sourceId": "b5-cn-icao-2010-zppp",
+          "metadataIndex": "research/evidence/priority-market-batch-6/existing-source-metadata.json#b5-cn-icao-2010-zppp",
+          "priorProvenance": [
+            "research/evidence/global-batch-5/source-lock.json"
+          ],
+          "originalSha256": "e8d428a9a9d0f4003ae001afeaeeb0377138d075b8f18828599abbd45eb91946"
+        }
+      ],
+      "nextMissingOriginals": "旧新AD2及2012明确代码交接；只补缺失原件，不重抓2017南航资料。"
+    },
+    {
+      "rank": 11,
+      "caseId": "wuzhou",
+      "label": "Changzhoudao → Xijiang (WUZ/ZGWZ)",
+      "identityReadiness": "identity_documented_location_crosswalk_needed",
+      "physicalIdentityAssessment": "CAAC分别具名长洲岛与西江并记录旧1800m/新2600m跑道和迁建，参考点仍缺。",
+      "directIataEvidence": [
+        "WUZ/西江2022报表是统计关联；ZGWZ旧表只城市气象代码。"
+      ],
+      "directIcaoEvidence": "Explicit namespace observations, if present, remain distinct from official allocation and date validity; no new admissible ICAO interval established in this readiness screening.",
+      "effectiveDateEvidence": "None sufficient for a new bounded code assignment. Opening, licensing, publication, capture and approved-status dates remain distinct.",
+      "boundedTimeIntervalReady": false,
+      "rights": "Reassess source/claim applicability under this user-authorized China task; existing proposal-only flags do not grant rights. Only factual name/location attributes plus metadata/minimal attributed evidence; no full originals/extractions, no AAI/KR inheritance.",
+      "identityConflicts": {
+        "currentPermanentIdAdmission": "not_admitted",
+        "meaning": "Prior cited primary/official relocation or location evidence distinguishes named sites; ARP reconciliation, independent support and/or admission scope may still be missing. Unadmitted is not synonymous with nonexistent or unconfirmed.",
+        "newIdsAllocated": 0,
+        "state": "distinct_physical_sites_documented_admission_incomplete"
+      },
+      "reuseFormalAirportIds": [],
+      "reusePendingHypotheses": [
+        {
+          "proposalId": null,
+          "name": null,
+          "coordinates": null,
+          "siteKeys": [
+            "wuzhou"
+          ]
+        }
+      ],
+      "expectedFormalAirportIncrementConditionalOnIdentityAndRightsChecks": 2,
+      "expectedIataAssignmentIncrement": 0,
+      "expectedIcaoAssignmentIncrement": 0,
+      "expectedActualResolvedQueryIncrementFromIdentityOnly": 0,
+      "expectationIsNotOutcome": true,
+      "evidence": [
+        {
+          "sourceId": "cn-wuz-caac-assets-2007",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": null,
+          "sourceRole": "operator_industry_news_in_regulator_custody",
+          "originalSha256": "6f50b37474801943651f09faa03f30f06578dbb1317361e99f4543ed3cf6bfca"
+        },
+        {
+          "sourceId": "cn-wuz-caac-license-prep-2018",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": null,
+          "sourceRole": "regulator_licence_preparation_news",
+          "originalSha256": "d09afabab37fdfc2fe5eaf01937b6a28dada38fa20ee4dba4b94edd769c6c0c6"
+        },
+        {
+          "sourceId": "cn-wuz-caac-licences-2007",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": null,
+          "sourceRole": "regulator_historical_airport_licence_inventory",
+          "originalSha256": "a94d396d60fb8b82dc2cf930f4ce2fffb307c02f8481a02168057df8d01bde62"
+        },
+        {
+          "sourceId": "cn-wuz-caac-licences-2026",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": null,
+          "sourceRole": "regulator_airport_licence_inventory",
+          "originalSha256": "a844aa49c2cb43e628332f472dc2fc8af2b924f3156da9153b2be2b309813a06"
+        }
+      ],
+      "nextMissingOriginals": "官方位置/ARP与AD2；2017–2019运营缺口及代码边界分开，不以2002停航作物理关闭。"
+    },
+    {
+      "rank": 12,
+      "caseId": "dazhou",
+      "label": "达州河市／金垭",
+      "identityReadiness": "identity_documented_location_crosswalk_needed",
+      "physicalIdentityAssessment": "CAAC地区统计确认金垭替代河市；川航2022-05-07迁转通知是事前计划而非独立执行。",
+      "directIataEvidence": [
+        "川航明确DAX河市/DZH金垭关联；无足够本地整日区间，两侧ICAO未齐。"
+      ],
+      "directIcaoEvidence": "Explicit namespace observations, if present, remain distinct from official allocation and date validity; no new admissible ICAO interval established in this readiness screening.",
+      "effectiveDateEvidence": "None sufficient for a new bounded code assignment. Opening, licensing, publication, capture and approved-status dates remain distinct.",
+      "boundedTimeIntervalReady": false,
+      "rights": "Reassess source/claim applicability under this user-authorized China task; existing proposal-only flags do not grant rights. Only factual name/location attributes plus metadata/minimal attributed evidence; no full originals/extractions, no AAI/KR inheritance.",
+      "identityConflicts": {
+        "currentPermanentIdAdmission": "not_admitted",
+        "meaning": "Prior cited primary/official relocation or location evidence distinguishes named sites; ARP reconciliation, independent support and/or admission scope may still be missing. Unadmitted is not synonymous with nonexistent or unconfirmed.",
+        "newIdsAllocated": 0,
+        "state": "distinct_physical_sites_documented_admission_incomplete"
+      },
+      "reuseFormalAirportIds": [],
+      "reusePendingHypotheses": [
+        {
+          "proposalId": "apt_449cf433-2af1-47be-a67e-d571433415a7",
+          "name": "达州河市机场",
+          "coordinates": {
+            "latitude": 31.1302,
+            "longitude": 107.4295
+          },
+          "siteKeys": [
+            "dazhou-old"
+          ]
+        },
+        {
+          "proposalId": "apt_31b795bf-a43d-461f-8321-cf3f1fed208f",
+          "name": "达州金垭机场",
+          "coordinates": {
+            "latitude": 31.048815,
+            "longitude": 107.435646
+          },
+          "siteKeys": [
+            "dazhou-new"
+          ]
+        }
+      ],
+      "expectedFormalAirportIncrementConditionalOnIdentityAndRightsChecks": 2,
+      "expectedIataAssignmentIncrement": 0,
+      "expectedIcaoAssignmentIncrement": 0,
+      "expectedActualResolvedQueryIncrementFromIdentityOnly": 0,
+      "expectationIsNotOutcome": true,
+      "evidence": [
+        {
+          "sourceId": "cn-dazhou-airline",
+          "metadataIndex": "research/evidence/priority-market-batch-6/existing-source-metadata.json#cn-dazhou-airline",
+          "priorProvenance": [
+            "research/evidence/global/source-lock.json"
+          ],
+          "originalSha256": "edd26fc088d6f68291c067348036ab3c90350ded1aaf590ae3a3eb9f30ce9e1c"
+        },
+        {
+          "sourceId": "cn-dazhou-executed",
+          "metadataIndex": "research/evidence/priority-market-batch-6/existing-source-metadata.json#cn-dazhou-executed",
+          "priorProvenance": [
+            "research/evidence/markets/source-lock.json"
+          ],
+          "originalSha256": "08a64b87e1409242ee864e914ce317336d45f18813f7842ceb1034faaa989fa7"
+        }
+      ],
+      "nextMissingOriginals": "优先官方两场位置及代码有效原件，不能把2022-05-19计划/开航作首配日。"
+    },
+    {
+      "rank": 13,
+      "caseId": "beijing",
+      "label": "北京首都／大兴／南苑",
+      "identityReadiness": "code_approval_documented_identity_location_needed",
+      "physicalIdentityAssessment": "CAAC2019-05-13明确大兴PKX/ZBAD各获批，首都/大兴/南苑平行独立。尚无既有siteHypothesis/ARP交叉。",
+      "directIataEvidence": [
+        "PKX IATA/ZBAD ATMB批准状态直接官方记载；年报IATA日期3月5与6日冲突；不是生效日期。"
+      ],
+      "directIcaoEvidence": "Explicit namespace observations, if present, remain distinct from official allocation and date validity; no new admissible ICAO interval established in this readiness screening.",
+      "effectiveDateEvidence": "None sufficient for a new bounded code assignment. Opening, licensing, publication, capture and approved-status dates remain distinct.",
+      "boundedTimeIntervalReady": false,
+      "rights": "Reassess source/claim applicability under this user-authorized China task; existing proposal-only flags do not grant rights. Only factual name/location attributes plus metadata/minimal attributed evidence; no full originals/extractions, no AAI/KR inheritance.",
+      "identityConflicts": {
+        "currentPermanentIdAdmission": "not_admitted",
+        "meaning": "Prior named-airport study exists; terminal/runway changes do not establish a second physical identity. Obtain controlled site/ARP evidence before identity admission.",
+        "newIdsAllocated": 0,
+        "state": "named_airport_documented_physical_crosswalk_incomplete"
+      },
+      "reuseFormalAirportIds": [],
+      "reusePendingHypotheses": [],
+      "expectedFormalAirportIncrementConditionalOnIdentityAndRightsChecks": 1,
+      "expectedIataAssignmentIncrement": 0,
+      "expectedIcaoAssignmentIncrement": 0,
+      "expectedActualResolvedQueryIncrementFromIdentityOnly": 0,
+      "expectationIsNotOutcome": true,
+      "evidence": [
+        {
+          "sourceId": "cn-add-daxing-code-20190513",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": null,
+          "sourceRole": "regulator_news",
+          "originalSha256": "5ff1058791e0225a6d6cdbc847e671d2112b3ad5b18d75080fd6956eccac4a70"
+        },
+        {
+          "sourceId": "cn-add-daxing-summary-2020",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": null,
+          "sourceRole": "official_retrospective_construction_and_operations_report",
+          "originalSha256": "13e7bd0eacf001549a0bbc3ac77144bc67af93edf0171e1528507779e973f050"
+        },
+        {
+          "sourceId": "pm6-cn-daxing-trial-2019",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": null,
+          "sourceRole": "regulator_news",
+          "originalSha256": "5ff1058791e0225a6d6cdbc847e671d2112b3ad5b18d75080fd6956eccac4a70"
+        }
+      ],
+      "nextMissingOriginals": "批准原件与实际effective语义、三场官方位置及独立代码史；不追溯开航推代码。"
+    },
+    {
+      "rank": 14,
+      "caseId": "chengdu",
+      "label": "成都双流／天府",
+      "identityReadiness": "identity_named_parallel_sites_location_needed",
+      "physicalIdentityAssessment": "运营方双机场互通指南支持双流/天府两处场址；互通交通和名称不是代码分配。",
+      "directIataEvidence": [
+        "TFU仅记者声称2020-01-20查询IATA的二手报道，页面禁公开转发；不留正文、不作正式代码。"
+      ],
+      "directIcaoEvidence": "Explicit namespace observations, if present, remain distinct from official allocation and date validity; no new admissible ICAO interval established in this readiness screening.",
+      "effectiveDateEvidence": "None sufficient for a new bounded code assignment. Opening, licensing, publication, capture and approved-status dates remain distinct.",
+      "boundedTimeIntervalReady": false,
+      "rights": "Reassess source/claim applicability under this user-authorized China task; existing proposal-only flags do not grant rights. Only factual name/location attributes plus metadata/minimal attributed evidence; no full originals/extractions, no AAI/KR inheritance.",
+      "identityConflicts": {
+        "currentPermanentIdAdmission": "not_admitted",
+        "meaning": "Prior named-airport study exists; terminal/runway changes do not establish a second physical identity. Obtain controlled site/ARP evidence before identity admission.",
+        "newIdsAllocated": 0,
+        "state": "named_airport_documented_physical_crosswalk_incomplete"
+      },
+      "reuseFormalAirportIds": [],
+      "reusePendingHypotheses": [],
+      "expectedFormalAirportIncrementConditionalOnIdentityAndRightsChecks": 2,
+      "expectedIataAssignmentIncrement": 0,
+      "expectedIcaoAssignmentIncrement": 0,
+      "expectedActualResolvedQueryIncrementFromIdentityOnly": 0,
+      "expectationIsNotOutcome": true,
+      "evidence": [
+        {
+          "sourceId": "pm6-cn-chengdu-dual-airport-2024",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": null,
+          "sourceRole": "airport_operator_dual_airport_transfer_guide",
+          "originalSha256": "c6ec0f34829eb686b8e4f8060a2fd19aeb0316225126ad18d836d7824b4998e7"
+        }
+      ],
+      "nextMissingOriginals": "官方机场位置/ARP和TFU分配原件；CTU未因天府开航迁移。"
+    },
+    {
+      "rank": 15,
+      "caseId": "zhanjiang",
+      "label": "湛江旧场／吴川",
+      "identityReadiness": "identity_new_site_location_needed_old_civil_site_conflict",
+      "physicalIdentityAssessment": "旧民航必须与遂溪、坡头等军场分开；2022政府净空令及2025附件只支持吴川行政位置。原计划坐标报告503，无证据。",
+      "directIataEvidence": [
+        "当前IATA Wuchuan/ZHA为瞬时观察；旧ZGZJ城市/气象及目录不能择定军场。"
+      ],
+      "directIcaoEvidence": "Explicit namespace observations, if present, remain distinct from official allocation and date validity; no new admissible ICAO interval established in this readiness screening.",
+      "effectiveDateEvidence": "None sufficient for a new bounded code assignment. Opening, licensing, publication, capture and approved-status dates remain distinct.",
+      "boundedTimeIntervalReady": false,
+      "rights": "Reassess source/claim applicability under this user-authorized China task; existing proposal-only flags do not grant rights. Only factual name/location attributes plus metadata/minimal attributed evidence; no full originals/extractions, no AAI/KR inheritance.",
+      "identityConflicts": {
+        "currentPermanentIdAdmission": "not_admitted",
+        "meaning": "Old civilian site must be distinguished from other military facilities; current directory/city labels cannot establish its ARP.",
+        "newIdsAllocated": 0,
+        "state": "old_civil_site_identity_unresolved"
+      },
+      "reuseFormalAirportIds": [],
+      "reusePendingHypotheses": [],
+      "expectedFormalAirportIncrementConditionalOnIdentityAndRightsChecks": 1,
+      "expectedIataAssignmentIncrement": 0,
+      "expectedIcaoAssignmentIncrement": 0,
+      "expectedActualResolvedQueryIncrementFromIdentityOnly": 0,
+      "expectationIsNotOutcome": true,
+      "evidence": [
+        {
+          "sourceId": "cn-zha-protection-order-2022",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": true,
+          "sourceRole": "municipal_signed_protection_order",
+          "originalSha256": "141a4c4adc7d73763a4f8b4acee242ffcc41f138bdd85f29110dae71bc94e4e8"
+        },
+        {
+          "sourceId": "cn-zha-protection-rule-2025",
+          "path": "research/evidence/priority-market-batch-6/source-lock.json",
+          "officialCustody": true,
+          "sourceRole": "government_hosted_undated_draft_regulation",
+          "originalSha256": "e72d678fb6742823fed867a7172a268e141c405d8d89a29acd39298496001033"
+        }
+      ],
+      "nextMissingOriginals": "新场官方ARP/位置；旧西厅民航场界/ARP及最终AD2。已503报告不反复耗时。"
+    },
+    {
+      "rank": 16,
+      "caseId": "qingdao",
+      "label": "青岛流亭／胶东",
+      "identityReadiness": "reuse_existing_formal_only",
+      "physicalIdentityAssessment": "流亭与胶东两物理身份及TAO分配已正式存在，本批复用，不重复ID。",
+      "directIataEvidence": [
+        "现有TAO正式记录保留；不附会未有证据ICAO。"
+      ],
+      "directIcaoEvidence": "Explicit namespace observations, if present, remain distinct from official allocation and date validity; no new admissible ICAO interval established in this readiness screening.",
+      "effectiveDateEvidence": "None sufficient for a new bounded code assignment. Opening, licensing, publication, capture and approved-status dates remain distinct.",
+      "boundedTimeIntervalReady": false,
+      "rights": "Reassess source/claim applicability under this user-authorized China task; existing proposal-only flags do not grant rights. Only factual name/location attributes plus metadata/minimal attributed evidence; no full originals/extractions, no AAI/KR inheritance.",
+      "identityConflicts": {
+        "currentPermanentIdAdmission": "existing_formal_only",
+        "meaning": "Reuse existing formal airportId; any additional physical-site claim remains separately unadmitted.",
+        "newIdsAllocated": 0,
+        "state": "formal_physical_identity_exists"
+      },
+      "reuseFormalAirportIds": [
+        "apt_6729d2b2-4b79-48c8-9c42-0d4eeba121b8",
+        "apt_f470ecb5-c6dc-4516-a233-37302da2115b"
+      ],
+      "reusePendingHypotheses": [],
+      "expectedFormalAirportIncrementConditionalOnIdentityAndRightsChecks": 0,
+      "expectedIataAssignmentIncrement": 0,
+      "expectedIcaoAssignmentIncrement": 0,
+      "expectedActualResolvedQueryIncrementFromIdentityOnly": 0,
+      "expectationIsNotOutcome": true,
+      "evidence": [],
+      "nextMissingOriginals": "仅在拿到新的控制版ICAO/日期原件时扩展；现有正式答案不得回退。"
+    },
+    {
+      "rank": 17,
+      "caseId": "yantai",
+      "label": "烟台莱山／蓬莱",
+      "identityReadiness": "reuse_existing_formal_only",
+      "physicalIdentityAssessment": "莱山与蓬莱两物理身份及YNT分配已正式存在，本批复用，不重复ID。",
+      "directIataEvidence": [
+        "现有YNT区间仍含2014–2015交接不确定；没有ZSYT交接原件。"
+      ],
+      "directIcaoEvidence": "Explicit namespace observations, if present, remain distinct from official allocation and date validity; no new admissible ICAO interval established in this readiness screening.",
+      "effectiveDateEvidence": "None sufficient for a new bounded code assignment. Opening, licensing, publication, capture and approved-status dates remain distinct.",
+      "boundedTimeIntervalReady": false,
+      "rights": "Reassess source/claim applicability under this user-authorized China task; existing proposal-only flags do not grant rights. Only factual name/location attributes plus metadata/minimal attributed evidence; no full originals/extractions, no AAI/KR inheritance.",
+      "identityConflicts": {
+        "currentPermanentIdAdmission": "existing_formal_only",
+        "meaning": "Reuse existing formal airportId; any additional physical-site claim remains separately unadmitted.",
+        "newIdsAllocated": 0,
+        "state": "formal_physical_identity_exists"
+      },
+      "reuseFormalAirportIds": [
+        "apt_0f0ebbe2-ce55-4b70-8d22-c760fe94777e",
+        "apt_7923bd7d-2855-4d5f-b979-63a5380cd3da"
+      ],
+      "reusePendingHypotheses": [],
+      "expectedFormalAirportIncrementConditionalOnIdentityAndRightsChecks": 0,
+      "expectedIataAssignmentIncrement": 0,
+      "expectedIcaoAssignmentIncrement": 0,
+      "expectedActualResolvedQueryIncrementFromIdentityOnly": 0,
+      "expectationIsNotOutcome": true,
+      "evidence": [],
+      "nextMissingOriginals": "只补2014-12-11计划实际是否执行及ZSYT控制版，禁止将计划或开航抹平不确定区间。"
+    }
+  ]
+}

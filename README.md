@@ -28,9 +28,9 @@ candidates are mechanically processed into 88,330 relevant review groups and
 explicit excluded/deferred categories. No new upstream history scan is needed.
 See [measured before/after coverage and performance](docs/worldwide-reference-pr11.md).
 
-**Curated scope (0.10.0):** thirty-seven physical airports, twenty-eight IATA
+**Curated scope (0.11.0):** forty-three physical airports, twenty-eight IATA
 assignments, twenty-four ICAO assignments and three official-name intervals, with
-101 evidence sources. The
+106 evidence sources. The
 original TAO, IST, HKG and DEN examples are joined by five reviewed ISL, ISB,
 SXF/BER, TSE/NQZ and KIV/RMO events and, in 0.5.0, by ROV/RVI (Rostov-on-Don /
 Platov), YNT (Yantai Laishan / Penglai) and PNH/KTI with VDPP/VDTI (Phnom Penh /
@@ -54,6 +54,7 @@ Version 0.10.0 adds the first three records selected through the existing owner-
 AAI ICAO policy: VEHO (Donyi Polo), VASD (Shirdi) and VOKN (Kannur), each certain
 only within `[2026-04-17, 2026-07-09)`. The real formal candidate adds 249 resolved
 code/local-date queries. See the [production admission and measurements](research/admissions/0.10.0/README.md).
+Version 0.11.0 admits six Chinese physical identities (Lianyungang, Yibin and Luzhou old/new sites) and five scoped sources. Code assignments and historical name intervals are unchanged; actual resolved-query growth is zero. See the [China admission and evidence audit](research/admissions/0.11.0/README.md).
 This remains the authoritative curated history layer. The worldwide reference
 lookup above is separate and never returns resolved historical answers. A separate
 [global discovery research layer](research/discovery/README.md) scans pinned
@@ -88,7 +89,7 @@ Initial dependency installation needs network access. All subsequent checks,
 tests, builds and resolution run offline. `pnpm build` writes:
 
 ```text
-dist/v0.10.0/
+dist/v0.11.0/
 ├── airport-history.json
 ├── dataset.schema.json
 ├── manifest.json             # SHA-256 hashes of the five other files
@@ -264,7 +265,11 @@ unique answer and returns `uncertain`. If a reviewed pair also certainly conflic
 on that date, `conflict` takes precedence and includes the other candidates.
 Nonoverlapping historical reuse is accepted normally.
 
-## Format compatibility: 0.10.0
+## Format compatibility: 0.11.0
+
+Six physical identities and five source records are added under the explicit China Batch 7 task. Schema 3.0.0 and production resolver semantics are unchanged. Reference coordinates are not official ARPs. The machine rule admits physical identity only; IATA/ICAO and historical-name claims fail closed. Prior AAI/Korean grants and engines retain their original scope and bytes.
+
+## Format compatibility: 0.10.0 (historical)
 
 0.10.0 adds three policy-reviewed physical identities, three bounded ICAO
 assignments and six source records. Schema **3.0.0** and the authorized evaluator,
