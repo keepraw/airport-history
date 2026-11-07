@@ -9,7 +9,7 @@ import tarfile
 import tempfile
 from pathlib import Path
 
-from runtime import ROOT, authorize, checked_bindings, load, policy, require, sha
+from runtime import ROOT, authorize, checked_bindings, load, policy, require, sha, git_environment
 from evidence import LOCK, Store, WINDOW, old, replay, revalidate_source
 
 _REPLAY_CACHE = {}
@@ -30,11 +30,13 @@ def locked_metadata():
     (ROOT / 'work').mkdir(exist_ok=True)
     with tempfile.TemporaryDirectory(prefix='legacy-kr-metadata-', dir=ROOT / 'work') as tmp:
         root = Path(tmp)
-        archive = subprocess.check_output(['git', 'archive', '--format=tar', commit], cwd=ROOT)
+        archive = subprocess.check_output(['git', '--no-replace-objects', 'archive', '--format=tar', commit],
+                                          cwd=ROOT, env=git_environment())
         with tarfile.open(fileobj=io.BytesIO(archive)) as tar:
             tar.extractall(root, filter='data')
         program = "import sys,json;sys.path.insert(0,'scripts/admission');import kr_adapter as a;import kr_evidence as e;print(json.dumps(e.evaluate(a.policy())))"
-        result = json.loads(subprocess.check_output(['python3', '-I', '-c', program], cwd=root, text=True))
+        result = json.loads(subprocess.check_output(['python3', '-I', '-c', program], cwd=root,
+                                                    env=git_environment(), text=True))
     require(result['originalBytesReadHere'] is False, 'Frozen metadata must not claim current original replay')
     _METADATA_CACHE[commit] = deepcopy(result)
     return result
@@ -144,7 +146,14 @@ def assignments(p, grants, approved, evidence, store, base, day):
         accepted = matched[0]
         require(accepted['candidate']['observations'][0]['arpDms'] == record['arpDms'] and
                 accepted['decision']['classification'] == 'AUTO_ELIGIBLE', 'Unadmitted/wrong physical identity')
-        require(not any(a['scheme'] == 'ICAO' and a['code'] == record['code'] for a in base['assignments']), 'Existing code requires manual correction policy')
+        existing = [a for a in base['assignments'] if a['scheme'] == 'ICAO' and a['code'] == record['code']]
+        if existing:
+            require(len(existing) == 1 and existing[0]['airportId'] == accepted['identity']['airportId'] and
+                    existing[0]['verificationStatus'] == 'verified' and
+                    existing[0]['validFrom']['latest'] == record['window']['from'] and
+                    existing[0]['validTo']['earliest'] == record['window']['toExclusive'],
+                    'Existing code requires manual correction policy')
+            continue
         entries.append({'assignmentId': 'rule-kr-' + sha([p['policyKey'], accepted['identity']['siteKey'], record])[:24],
             'airportId': accepted['identity']['airportId'], 'scheme': 'ICAO', 'code': record['code'],
             'verificationStatus': 'verified', 'verifiedOn': day,

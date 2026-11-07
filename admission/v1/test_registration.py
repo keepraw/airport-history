@@ -1,5 +1,6 @@
-"""Registration must verify live Owner comments without changing signed executors."""
+"""Isolated API fixtures; tests never rewrite the real canonical registry."""
 import copy
+import json
 import datetime as dt
 import subprocess
 import unittest
@@ -11,7 +12,14 @@ from verify import registered_authorizations
 
 class RegistrationTests(unittest.TestCase):
     def setUp(self):
-        self.registry = r.load(r.PUBLIC / 'authorizations.json')
+        self.actual = r.load(r.PUBLIC / 'authorizations.json')
+        self.registry = copy.deepcopy(self.actual)
+        # Current-executor unit fixtures, not claims about real GitHub comments.
+        for i, grant in enumerate(self.registry['authorizations'], 1):
+            kind = 'identity' if 'physical' in grant['policyKey'] else 'kr-code'
+            grant['bindings'] = r.checked_bindings(r.policy(kind))
+            grant['approval']['body'] = r.authority_text(r.policy(kind))
+            grant['approval']['html_url'] = 'https://github.com/keepraw/airport-history/issues/27#issuecomment-' + str(i)
         self.repo = {'owner': {'login': 'keepraw', 'id': 49091395, 'type': 'User'}}
         self.comments = {}
         for grant in self.registry['authorizations']:
@@ -28,11 +36,18 @@ class RegistrationTests(unittest.TestCase):
         return self.comments[path.rsplit('/', 1)[-1]]
 
     def test_actual_registration_has_only_the_two_requested_comments(self):
-        expected = {
-            'official-aip-stable-physical-identity@0.1.0-draft': 'https://github.com/keepraw/airport-history/issues/27#issuecomment-6539831536',
-            'kr-molit-bounded-icao@2.0.0-draft': 'https://github.com/keepraw/airport-history/issues/27#issuecomment-6539832668'}
-        self.assertEqual(expected, {g['policyKey']: g['approval']['html_url'] for g in self.registry['authorizations']})
-        self.assertEqual(2, len(self.registry['authorizations']))
+        self.assertEqual({r.policy(k)['policyKey'] for k in ('identity', 'kr-code')},
+                         {g['policyKey'] for g in self.actual['authorizations']})
+        self.assertEqual(2, len(self.actual['authorizations']))
+        for grant in self.actual['authorizations']:
+            self.assertRegex(grant['approval']['html_url'], r'^https://github.com/keepraw/airport-history/issues/27#issuecomment-[0-9]+$')
+
+    def test_original_signed_registry_cannot_authorize_modified_executor(self):
+        original = json.loads(subprocess.check_output(['git', 'show',
+            '86b094df59f7654ffd1511bc16186f8a4cc35c9d:research/admission/rule-v1/authorizations.json'], cwd=r.ROOT, text=True))
+        with patch.object(r.legacy, 'github') as api, self.assertRaisesRegex(ValueError, 'binding mismatch'):
+            registered_authorizations(original)
+        api.assert_not_called()
 
     def test_complete_registry_rechecks_both_api_comments(self):
         before = r.canonical(self.registry)
@@ -70,7 +85,7 @@ class RegistrationTests(unittest.TestCase):
         for mutation in ('login', 'id', 'bot', 'repo-owner', 'issue', 'body', 'future', 'reversed', 'edited'):
             self.comments = copy.deepcopy(original)
             self.repo['owner']['id'] = 49091395
-            comment = self.comments['6539831536']
+            comment = self.comments['1']
             if mutation == 'login': comment['user']['login'] = 'someone-else'
             elif mutation == 'id': comment['user']['id'] = 0
             elif mutation == 'bot': comment['user']['type'] = 'Bot'

@@ -1,5 +1,6 @@
 """Release and live rule-registry integrity; offline receipts are not raw replay."""
 import json
+import subprocess
 
 from runtime import ROOT, PUBLIC, authorize, bindings, checked_bindings, digest, fingerprint, legacy, load, policy, require
 
@@ -39,7 +40,13 @@ def verify():
             recovery['factBlockersResolvedAmongTwelve'] == 12 and recovery['oldExactBytesRestoredAmongTwelve'] == 0,
             'Detached recovery report')
     proof = load(PUBLIC / 'verification.json')
-    require(proof['bindings'] == [checked_bindings(policy(k)) for k in ('identity', 'kr-code')] and
+    # This retained receipt describes the old isolated executor, not this repair.
+    # Current grants are still independently checked live below.
+    from provenance import origin_metadata
+    origin = origin_metadata()
+    historical = json.loads(subprocess.check_output(['git', 'show', origin['originCommit'] +
+        ':research/admission/rule-v1/verification.json'], cwd=ROOT, text=True))
+    require(proof == historical and proof['bindings'] == origin['bundles'][0]['files']['receipt.json']['policies'] and
             proof['liveIsolation']['testOnly'] and not proof['liveIsolation']['productionSuccess'] and
             proof['liveIsolation']['originalBytesReadHere'] and proof['liveIsolation']['conditionalResolved'] == 54 and
             proof['liveIsolation']['productionRejectedTestAuthority'], 'Detached/overstated isolation receipt')
@@ -51,6 +58,8 @@ def verify():
     return {'protectedFilesUnchanged': len(protected), 'legacyExecutorsUnchanged': True,
             'realNewIdentities': 0, 'realNewAuthorizations': grant_count, 'formalNewResolved': 0,
             'newManifestFiles': len(fingerprint()['files']),
+            'historicalIsolationExecutorSha256': origin['originExecutorSha256'],
+            'currentExecutorSha256': fingerprint()['executorSha256'],
             'authorizationVerification': 'live-github-api' if grant_count else 'no-grants',
             'production': 'rules-authorized-data-unpublished' if grant_count else 'inactive'}
 

@@ -1,25 +1,26 @@
 {
-  "formatVersion": 2,
   "manifest": {
     "canonicalJsonInputs": {
       "package.json": "0992ebe84b92e7e946bdb852b7598fe43f062709d4d8f367f697d398e75d0b30"
     },
-    "executorSha256": "ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42",
+    "executorSha256": "b13afe9fb293e973757a1aad0b0906f63cb80eb768ea4ff5952c2388baea3546",
     "files": {
       "admission/v1/authorize.py": "8ed7bf3bcf7afd215555f3f1f305241b57ea0b0455ab8a1a5d21760ed02c03cc",
       "admission/v1/batch.py": "6c4974c6094d8e54f0613ffef102c9019dad38c08eb565dbc8f0cdadb6a2bcbf",
-      "admission/v1/evidence.py": "89a58e9e8e2ad6626e6d8d563482192e049d3ce8c5649d1dc99cea59d052af2d",
-      "admission/v1/identity.py": "8e5ab28741c709527fa1f384dcf5a0aca1fd4a76152d1d6149450cdb605d7f7f",
-      "admission/v1/korean.py": "2ef1a7e80ecd5a105d5bf126e2809a5bd3022eb77d6abefce5625bff1af3ebdd",
-      "admission/v1/publish.py": "a04b945bd65739169cbcd32fc1f44c37d9966c06fe68dec826a4b3a091428436",
+      "admission/v1/evidence.py": "c4a57e0dc7f1bf7ef57d45262d18fb1c6d125c744a589f944f9675b040fcb64c",
+      "admission/v1/identity.py": "b33b3e6e16c36bc720db03de7f01b79a0c60da681b48da963c37688df5e34e2a",
+      "admission/v1/korean.py": "67b6d61c4e17a9efa216c5c3ae3c74f25d19bf7f0fbdbae10c9d11ea37258511",
+      "admission/v1/provenance.py": "b7b8551cb87cba3fae0622757d3bf604cc574f823a2d5be4971c0124746076d8",
+      "admission/v1/publish.py": "01f1f54571d7dd343d756ff7d54657183f008d4a7ef54d7bfeeff56af19396e7",
       "admission/v1/recover.py": "edff044ff7e6ad208a8358a9adc23386d92d6f59c2762b035f345a848f6d1c97",
       "admission/v1/release-ci.yml": "7109a81462d26186fb41b04cf88cdbc3da495dd3906add8e90c8c916decf170b",
-      "admission/v1/release.py": "583db4ecaca16eb99cf4f4c37d6f3fd30c605ef7e0bb2b9fc7863dcd8e4305f3",
-      "admission/v1/release_ci.py": "2524d831c59862ead3a54419601688fb7e5281f37573c2f6693850a64387c4ea",
-      "admission/v1/runtime.py": "7c0f31cdebc50e23a5994a52d0ac660e0a2526f1d5b16224ee869a044fa5a4f4",
+      "admission/v1/release.py": "65c512b061481faef72f88bd0809bbccbdba702f60b378e6d72db1115fd712de",
+      "admission/v1/release_ci.py": "604df92c57654ca2fcc504e126c30364de8ec2b66ab1e197a085136ecee3684f",
+      "admission/v1/runtime.py": "5761a06c6a60bb2a77076de14babad0d4da9b7500061665287d2e7fe93f1ba1e",
       "pnpm-lock.yaml": "e79aceff64ebcd5fde9a832cd349832cd896337fa6dae352248539a433961163",
       "research/admission/kr-molit-v1/policy.json": "42052081318d08c96e56c6d37a2848ea34c22acc0fddae76386e8027d4fb70ab",
-      "research/admission/rule-v1/executor-inputs.json": "b8507774d952be42450bccba59e525dd6eb567662f6c8ea40a4fd217c0caea60",
+      "research/admission/rule-v1/executor-inputs.json": "691d62e91013c09991b8439da1250c2c54dae465956d9dc45c1d2a0f55685fdc",
+      "research/admission/rule-v1/pending-provenance.json": "78a6a16bcb2b31c690268881ad0d5a13d92c4857d65dcf9b4c302e70cfd6c3e6",
       "research/evidence/code-dates/excerpts/kr-20250416-amdt-full.json": "6fbdd99ae7142b3ad7ebd3565de7ecff4505c6fc5b6b94df34228d11569e08e4",
       "research/evidence/code-dates/excerpts/kr-20250416-gen03.json": "18029012009cb9aa6abf97d52ded3400246e00f08dea829203ae8755c67b8a11",
       "research/evidence/code-dates/excerpts/kr-20250416-sup-menu.json": "ae8a39aae002a034862653b48e62f88bc1e320c66d8f87ce99a030967820e8b0",
@@ -195,13 +196,13 @@
   },
   "policies": {
     "kr-molit-bounded-icao@2.0.0-draft": {
-      "executorSha256": "ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42",
+      "executorSha256": "b13afe9fb293e973757a1aad0b0906f63cb80eb768ea4ff5952c2388baea3546",
       "policyKey": "kr-molit-bounded-icao@2.0.0-draft",
       "policySha256": "13e49ee7eec3a9bfc11db72e870d028647000829954015f93175fc0661666211",
       "scopeSha256": "ca29502a69df9e8283fbdfddd0022be6988054336caacdb57f1b2076b555e413"
     },
     "official-aip-stable-physical-identity@0.1.0-draft": {
-      "executorSha256": "ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42",
+      "executorSha256": "b13afe9fb293e973757a1aad0b0906f63cb80eb768ea4ff5952c2388baea3546",
       "policyKey": "official-aip-stable-physical-identity@0.1.0-draft",
       "policySha256": "7eadcab59d93a2f33c9e9237ad2dc2e258e129f4995bbf60cba35c26d6fe65ae",
       "scopeSha256": "597ddbc5afeb66df29bf7dcb405846e9ac912ae4bfa93bfd2b71c24a6c8b4e65"

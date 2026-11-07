@@ -1,0 +1,131 @@
+{
+  "actualCoverage": {
+    "boundaryExtraResolved": 0,
+    "fourCodeQueries": 37736,
+    "newResolved": 54,
+    "oldChanged": 0,
+    "oldCodeKeys": 43,
+    "oldQueries": 405662,
+    "transitions": {
+      "not_found -> resolved": 54,
+      "not_found -> uncertain": 18814
+    },
+    "unchanged": 18868
+  },
+  "authorityGate": {
+    "currentOwnerAuthorizationRegistered": false,
+    "expectedBlockingReason": "Exact authorization binding mismatch",
+    "gateRelaxed": false
+  },
+  "bindings": {
+    "kr-molit-bounded-icao@2.0.0-draft": {
+      "executorSha256": "4c8843632a49a9e3904ead0d9bc0ab306c835c7bed907402841e3aa88628fc47",
+      "policyKey": "kr-molit-bounded-icao@2.0.0-draft",
+      "policySha256": "13e49ee7eec3a9bfc11db72e870d028647000829954015f93175fc0661666211",
+      "scopeSha256": "ca29502a69df9e8283fbdfddd0022be6988054336caacdb57f1b2076b555e413"
+    },
+    "official-aip-stable-physical-identity@0.1.0-draft": {
+      "executorSha256": "4c8843632a49a9e3904ead0d9bc0ab306c835c7bed907402841e3aa88628fc47",
+      "policyKey": "official-aip-stable-physical-identity@0.1.0-draft",
+      "policySha256": "7eadcab59d93a2f33c9e9237ad2dc2e258e129f4995bbf60cba35c26d6fe65ae",
+      "scopeSha256": "597ddbc5afeb66df29bf7dcb405846e9ac912ae4bfa93bfd2b71c24a6c8b4e65"
+    }
+  },
+  "candidateReproducibleBuildSha256": "df7f4d3e4565069e5c7174ee37090ddd6e3c31237863817d79a4d0f00d352d1f",
+  "executorSha256": "4c8843632a49a9e3904ead0d9bc0ab306c835c7bed907402841e3aa88628fc47",
+  "externalPrivatePersistenceConfigured": false,
+  "formalCounts": {
+    "airports": 37,
+    "assignments": 52,
+    "names": 3,
+    "sources": 101
+  },
+  "formalDataVersion": "0.10.0",
+  "formalIdentitiesAdded": 0,
+  "frozenResolverGate": {
+    "boundaryExtraResolved": 0,
+    "conditionalResolved": 54,
+    "formalChangedAnswers": 0,
+    "formalNewResolved": 0,
+    "formalRegressionQueries": 37736
+  },
+  "indianRehearsal": {
+    "mode": "isolated-test-authority-offline-receipt-replay",
+    "originalBytesReadHere": false,
+    "passed": true
+  },
+  "localTests": {
+    "historicalRegistration": 8,
+    "legacyPnpmCheck": 648,
+    "registration": 9,
+    "ruleEngine": 44
+  },
+  "mode": "final-source-freeze-before-new-owner-comments",
+  "newAttestationsIssued": 0,
+  "newRuleCommentsPublished": false,
+  "originalVerification": {
+    "archiveSha256": "04d33b3e7b63b96568c68b9871488dafac8084fd2cc5dac6554f15cd40334aec",
+    "externalPrivatePersistenceConfigured": false,
+    "originalComponentsVerified": 157,
+    "pendingIds": [
+      "apt_fce8985f-52c3-439b-a8e6-497028823582",
+      "apt_17ee7ea0-4997-46dd-a12e-35b33546835f"
+    ],
+    "pendingRegistrySha256": "f8085333b27220bf1d214d5bf0c4110424c05379fd481d32deeac4b34005b077",
+    "sources": 98,
+    "uniqueOriginalHashes": 153
+  },
+  "provenanceReview": {
+    "currentExecutorSha256": "4c8843632a49a9e3904ead0d9bc0ab306c835c7bed907402841e3aa88628fc47",
+    "decisions": [
+      {
+        "authorizationRequired": true,
+        "candidateKey": "kr-physical-incheon",
+        "candidateSha256": "4f8a5920fbbda46061217b0a0b269ff43078f38fdf819b3f8d6901c9d9fed091",
+        "classification": "AUTO_ELIGIBLE",
+        "coordinates": {
+          "latitude": 37.462500000000006,
+          "longitude": 126.43916666666667
+        },
+        "evidenceGaps": [],
+        "evidenceVersionSha256": "1beda6e9d01d8490dceb8a0fff183e9d6863111d4d0593a8b1db20e40c10de6f",
+        "policyKey": "official-aip-stable-physical-identity@0.1.0-draft",
+        "reasons": [],
+        "siteKey": "site_408473139d9717f8133835758738e80557474051d6b39ada24c0a77bfb557659"
+      },
+      {
+        "authorizationRequired": true,
+        "candidateKey": "kr-physical-gimpo",
+        "candidateSha256": "348e43b0c919484199655c496b17e0a5b11e02143261fee4e3808cdfe6b0e329",
+        "classification": "AUTO_ELIGIBLE",
+        "coordinates": {
+          "latitude": 37.55694444444444,
+          "longitude": 126.7975
+        },
+        "evidenceGaps": [],
+        "evidenceVersionSha256": "1beda6e9d01d8490dceb8a0fff183e9d6863111d4d0593a8b1db20e40c10de6f",
+        "policyKey": "official-aip-stable-physical-identity@0.1.0-draft",
+        "reasons": [],
+        "siteKey": "site_cb748851aaf7afc97c4460f50634256707f4de7330ba25dbd2253f44f4ee001f"
+      }
+    ],
+    "formalIdentitiesAdded": 0,
+    "mode": "pre-authorization-read-only-provenance-review",
+    "newAttestationsIssued": 0,
+    "newOwnerAuthorizationVerified": false,
+    "oldProductionProof": {
+      "bundlesVerified": 2,
+      "oldExecutorSha256": "ad99fa4f9fe58b94b3fcc2c584d510df2471f716e6add8277ea6a433d27efd42",
+      "oldOwnerAuthorization": "live-github-api",
+      "originalBytesReadHere": true
+    },
+    "originEnvelopeSha256": "903abed74a39ad313a8c28219e4d4227bd00b9dfb53aae5c2657456e33b1f47f",
+    "preservedPendingUUIDs": [
+      "apt_fce8985f-52c3-439b-a8e6-497028823582",
+      "apt_17ee7ea0-4997-46dd-a12e-35b33546835f"
+    ],
+    "recoveryArchiveSha256": "04d33b3e7b63b96568c68b9871488dafac8084fd2cc5dac6554f15cd40334aec"
+  },
+  "repeatReadOnlyReviewIdentical": true,
+  "schemaVersion": "3.0.0"
+}

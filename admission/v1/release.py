@@ -8,9 +8,9 @@ import subprocess
 import tempfile
 import base64
 
-from runtime import ROOT, PUBLIC, PRIVATE, authorize, checked_bindings, legacy, load, policy, require, sha, version, private_path, write
+from runtime import ROOT, PUBLIC, PRIVATE, authorize, checked_bindings, legacy, load, policy, require, sha, version, private_path, write, git_environment
 from evidence import Store
-from identity import allocate, classify, queue, AUTO
+from identity import allocate, classify, classify_batch, queue, AUTO
 from batch import inventory, discover
 import korean
 
@@ -108,7 +108,7 @@ def already_covered(base, accepted, code_evidence):
     by_code = {a['candidate']['observedCode']: a for a in accepted}
     if not accepted or any(a['identity']['airportId'] not in formal_ids for a in accepted):
         return False
-    if set(by_code) != {c['code'] for c in code_evidence['candidates']}:
+    if not {c['code'] for c in code_evidence['candidates']} <= set(by_code):
         return False
     for row in code_evidence['candidates']:
         matches = [a for a in base['assignments'] if a['scheme'] == 'ICAO' and a['code'] == row['code']]
@@ -134,10 +134,11 @@ def _prepare(evidence, store, grants, next_version, output, *, candidates=None):
     pending_entries = pending_from_github() + (load(pending)['identities'] if pending.exists() else [])
     if pending_entries:
         for entry in pending_entries:
-            require(entry['bindings'] == checked_bindings(ip) and entry['authorizationSha256'] == sha(identity_grant), 'Pending identity bound to a different authority')
             existing = next((r for r in registry['identities'] if r['siteKey'] == entry['siteKey']), None)
             if existing is not None:
                 require(existing['airportId'] == entry['airportId'], 'Competing pending UUIDs for one physical site')
+                from provenance import extend_identity
+                registry['identities'][registry['identities'].index(existing)] = extend_identity(existing, entry)
             else:
                 registry['identities'].append(entry)
     # Include an already prepared batch's registry by publishing it in the
@@ -153,6 +154,7 @@ def _prepare(evidence, store, grants, next_version, output, *, candidates=None):
     accepted = admitted['accepted']
     require(accepted, 'No AUTO_ELIGIBLE physical identities; inspect the exception queue')
     if already_covered(base, accepted, code_evidence):
+        write(pending, admitted['registry'])
         return {'formatVersion': 2, 'status': 'NO_CHANGES', 'originalBytesReadHere': code_evidence['originalBytesReadHere'],
                 'formalRecordsWritten': 0, 'newPermanentIds': 0, 'newPullRequests': 0,
                 'retainedIdentityCount': len(accepted), 'evidenceVersionSha256': sha(evidence)}
@@ -202,7 +204,8 @@ def validate(bundle, store=None, *, originals=True):
     base, candidate = load(bundle / 'baseline.json'), load(bundle / 'proposed-data.json')
     require(sha(base) == receipt['baselineSha256'] and sha(candidate) == receipt['candidateSha256'], 'Bundle data detached')
     # Prove the archived baseline against Git, never a mutable working-tree baseline.
-    raw = subprocess.check_output(['git', 'show', receipt['baselineCommit'] + ':data/airports.json'], cwd=ROOT)
+    raw = subprocess.check_output(['git', '--no-replace-objects', 'show', receipt['baselineCommit'] + ':data/airports.json'],
+                                  cwd=ROOT, env=git_environment())
     require(__import__('json').loads(raw) == base, 'Baseline is not the recorded published commit')
     version(candidate['dataVersion'], base['dataVersion'])
     ip, cp = policy('identity'), policy('kr-code')
@@ -214,20 +217,28 @@ def validate(bundle, store=None, *, originals=True):
     if not originals:
         # Offline CI can establish schema/immutability/resolver replay only.
         # It cannot promote a bundle or return the production validation result.
+        from provenance import revalidate_registry
+        baseline_registry = load(bundle / 'baseline-identities.json')
+        revalidate_registry(registry, candidates, ip, grants, evidence, None, inventory(base, baseline_registry),
+                            append=False, metadata_decisions=receipt['decisions'])
         measurement = gate(base, candidate, load(bundle / 'code-evidence.json'))
         require(measurement == receipt['resolver'], 'Offline resolver receipt mismatch')
         return {'mode': 'offline-structure-and-resolver', 'originalBytesReadHere': False,
                 'productionValidationPassed': False, 'resolver': measurement}
     store = store or Store()
-    require(load(PUBLIC / 'identities.json') == {'formatVersion': 1, 'identities': []} or
-            all(r in registry['identities'] for r in load(PUBLIC / 'identities.json')['identities']), 'Published identities lost')
+    from provenance import extend_identity
+    for published in load(PUBLIC / 'identities.json')['identities']:
+        match = next((e for e in registry['identities'] if e['airportId'] == published['airportId']), None)
+        require(match is not None and extend_identity(published, match) == match, 'Published identities lost')
     baseline_registry = load(bundle / 'baseline-identities.json') if (bundle / 'baseline-identities.json').exists() else {'formatVersion': 1, 'identities': []}
     competition = inventory(base, baseline_registry)
     require(sha(competition) == receipt['competitionInventorySha256'], 'Competition inventory changed; regenerate bundle')
+    from provenance import revalidate_registry
+    revalidate_registry(registry, candidates, ip, grants, evidence, store, competition, append=False)
     accepted, decisions = [], []
+    batch_decisions = classify_batch(candidates, ip, evidence, store, competition)
     used = set()
-    for item in candidates:
-        decision = classify(item, ip, evidence, store, competition)
+    for item, decision in zip(candidates, batch_decisions):
         decisions.append(decision)
         if decision['classification'] != AUTO:
             continue
@@ -236,7 +247,7 @@ def validate(bundle, store=None, *, originals=True):
                 entry['airportId'] not in used and sha(entry['airportId']) not in legacy.policy()['rejectedResearchIdentitySha256'], 'Invalid, reused or research UUID')
         proof = {'candidateSha256': sha(item), 'evidenceVersionSha256': sha(evidence),
                  'bindings': checked_bindings(ip), 'authorizationSha256': receipt['authorizationSha256'][0]}
-        require((all(entry[k] == v for k, v in proof.items()) or proof in entry.get('revalidations', [])) and
+        require((all(entry[k] == v for k, v in proof.items()) or any(all(a.get(k) == v for k, v in proof.items()) for a in entry.get('revalidations', []))) and
                 entry['coordinates'] == decision['coordinates'], 'Unapproved identity provenance')
         used.add(entry['airportId'])
         accepted.append({'candidate': item, 'identity': entry, 'decision': decision})

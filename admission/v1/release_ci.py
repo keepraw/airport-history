@@ -9,7 +9,7 @@ import subprocess
 import tarfile
 import tempfile
 
-from runtime import ROOT, load, require
+from runtime import ROOT, load, require, git_environment
 from release import validate
 
 
@@ -25,20 +25,26 @@ def main():
     receipt = load(bundle / 'receipt.json')
     require(load(bundle / 'proposed-data.json') == current and
             load(ROOT / 'package.json')['version'] == current['dataVersion'], 'Published release detached from bundle/package')
+    # The current candidate's index and complete history must be audited too;
+    # frozen legacy checks alone do not inspect new candidate-only payloads.
+    from publish import audit_candidate_rights
+    print(__import__('json').dumps(audit_candidate_rights(ROOT), sort_keys=True))
     # Neither country's historical executor/grant is rewritten. Run it with the
     # exact historical tree on which its authorization was actually valid.
     with tempfile.TemporaryDirectory(prefix='legacy-release-', dir=ROOT / 'work') as tmp:
         root = Path(tmp)
-        archive = subprocess.check_output(['git', 'archive', receipt['baselineCommit']], cwd=ROOT)
+        archive = subprocess.check_output(['git', '--no-replace-objects', 'archive', receipt['baselineCommit']],
+                                          cwd=ROOT, env=git_environment())
         with tarfile.open(fileobj=io.BytesIO(archive)) as tar:
             tar.extractall(root, filter='data')
         (root / 'node_modules').symlink_to(ROOT / 'node_modules', target_is_directory=True)
-        subprocess.run(['git', 'init', '-q'], cwd=root, check=True)
-        subprocess.run(['git', 'fetch', '--quiet', str(ROOT), receipt['baselineCommit']], cwd=root, check=True)
-        subprocess.run(['git', 'reset', '--quiet', receipt['baselineCommit']], cwd=root, check=True)
-        subprocess.run(['git', 'update-ref', 'refs/remotes/origin/main', receipt['baselineCommit']], cwd=root, check=True)
+        env = git_environment()
+        subprocess.run(['git', 'init', '-q'], cwd=root, env=env, check=True)
+        subprocess.run(['git', 'fetch', '--quiet', str(ROOT), receipt['baselineCommit']], cwd=root, env=env, check=True)
+        subprocess.run(['git', 'reset', '--quiet', receipt['baselineCommit']], cwd=root, env=env, check=True)
+        subprocess.run(['git', 'update-ref', 'refs/remotes/origin/main', receipt['baselineCommit']], cwd=root, env=env, check=True)
         command = ['python3', 'admission/v1/release_ci.py'] if (root / 'admission/v1/release_ci.py').exists() else ['pnpm', 'check']
-        subprocess.run(command, cwd=root, check=True)
+        subprocess.run(command, cwd=root, env=env, check=True)
     print('Versioned candidate schema/immutability/resolver and frozen legacy pnpm check passed. '
           'OFFLINE CI: private originals were not replayed; fresh production validation is separate.')
 

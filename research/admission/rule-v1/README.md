@@ -1,9 +1,15 @@
-# Rule-based physical identity admission (inactive)
+# Rule-based physical identity admission
 
 This release implements independent physical identity and Korean code rule
 authorization, immutable evidence versions, and a versioned candidate release
-pipeline. **No real rule grants, permanent Korean identities, or formal Korean
-resolved results are included.** See [the Chinese handoff](HANDOFF.zh-CN.md) for
+pipeline. **Two real Owner rule grants are registered for executor
+`4c8843632a49a9e3904ead0d9bc0ab306c835c7bed907402841e3aa88628fc47`: identity
+[6542124653](https://github.com/keepraw/airport-history/issues/27#issuecomment-6542124653)
+and Korean code
+[6542125068](https://github.com/keepraw/airport-history/issues/27#issuecomment-6542125068).
+There are no formally admitted Korean airport records or Korean resolved results.**
+The second-round repair changes the executor and requires two new independent
+Owner comments; the registered grants remain historical and cannot authorize it. See [the Chinese handoff](HANDOFF.zh-CN.md) for
 the twelve acceptance answers and precise remaining activation conditions.
 
 ```mermaid
@@ -58,7 +64,7 @@ old conclusion.
 
 The old twelve fact blockers were re-proved using qualified new originals and
 split official checklist requests. None of their old exact byte sequences was
-restored. The current version has 98 logical sources and 160 independently
+restored. The current version has 98 logical sources and 157 independently
 acquired original components. The truncated all-FIR diagnostic query is not
 coverage evidence; complete temporal segments and six official snapshots are.
 Current UI/operator/IATA pages support only their explicit current/protocol/site
@@ -100,3 +106,76 @@ It never rewrites a historical grant to pretend a changed executor is unchanged.
 Keep the CAS in persistent private storage, or reacquire and revalidate a qualified
 new version before each production batch. A missing required original stays a
 blocker regardless of recorded offline receipts.
+
+
+## Pending identity provenance revalidation (PR29)
+
+The two previously generated Korean UUIDs remain **pending**, not formally
+admitted. `pending-provenance.json` preserves both original production bundles,
+the original credential history and the recovery archive digest. It is metadata
+only and is an explicit signed executor input; it is not an airport allowlist.
+
+The transition verifies the recovery archive and current CAS, then runs the
+unchanged original executor in its exact published Git tree, with live original
+Owner-comment reads and full original replay. Current classification and site/ARP
+competition must pass independently. A missing ledger blocks UUID minting for
+these known sites. Old credential fields and historical attestations are retained.
+A new provenance attestation can be appended only after the current independent
+Owner grant is verified. Public offline CI checks metadata and resolver scope;
+it cannot claim private-original replay or issue an attestation.
+
+The required private archive is copied, without replacing the original, to:
+`work/rule-admission/provenance/04d33b3e7b63b96568c68b9871488dafac8084fd2cc5dac6554f15cd40334aec.tar.gz`.
+Its SHA-256 must match that filename. Preserve the original recovery package,
+pending ledger and CAS; no external private persistence is configured.
+
+Read-only review before new authorization:
+
+```sh
+python3 admission/v1/provenance.py review \
+  --registry work/rule-admission/pending-identities.json \
+  --manifest work/rule-admission/versions/1beda6e9d01d8490dceb8a0fff183e9d6863111d4d0593a8b1db20e40c10de6f.json \
+  --output work/provenance-review.json
+```
+
+This reports preserved pending IDs and fresh classifications, with zero new
+attestations and zero formal identities. The prior wait for two Owner comments
+is complete: both linked comments above are registered. For this changed executor,
+new independent authorization remains pending. After manual authorization, use
+`authorize.py record` (identity first, then `kr-code --registry`), update the
+canonical registry, and complete live integrity CI before human merge. The regular `release.py prepare/validate` and publisher
+then enforce the same provenance path; no separate approval or test-authority
+production flag exists. Regenerate the release bundle under the new executor;
+do not relabel the old bundle or edit its hashes.
+
+The publisher retains the frozen 0.10.0 research metadata checks while auditing
+the candidate's real Git directory/index and full reachable history. Versioned
+original hashes are collected from the index and history, so removing or changing
+working-tree metadata cannot hide a full newly acquired NOTAM response.
+
+
+## Continuous provenance generations
+
+Each new attestation stores metadata for its own candidate batch, evidence version,
+competition inventory, Policy, grant and exact Git executor commit. It hashes the
+preceding provenance and retains every earlier credential. Historical generations
+are replayed with their own frozen executor and live Owner comment, including
+all required original CAS objects. The original recovery archive and origin
+executor remain mandatory after admission into `data/airports.json`. New evidence
+or competition never changes an airport UUID.
+
+Pre-chain four-field and v1 attestations recover their context from retained
+origin/release bundles and their grant from the historical authorization registry
+in Git. A missing context, missing original, revoked comment, divergent ledger or
+broken link blocks preparation. Offline validation checks structure and live
+authority but cannot issue an attestation or claim original replay. Historical
+validation reports retain their original dates and pre-authorization status.
+
+`python3 admission/v1/test_migration.py` executes the retained-credential A–F
+migration in a disposable checkout, including two simulated merges, additional
+synthetic sites, changed originals and three executor generations. The original
+executor, archive, CAS and historical Owner comments are mandatory and are never
+mocked. Only future comments use an isolated API fixture; it grants no production
+authority. Missing private materials fail explicitly. `rehearse.py --manifest`
+uses this same path. The separate public synthetic harness uses distinct fixture
+sites and retains the real origin envelope; it cannot stand in for this test.
