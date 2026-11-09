@@ -1,0 +1,254 @@
+{
+  "checkCount": 60,
+  "checks": [
+    {
+      "check": "proposal_not_approval",
+      "passed": true
+    },
+    {
+      "check": "exact_32_boundary_records",
+      "passed": true
+    },
+    {
+      "check": "exact_16_linked_identities",
+      "passed": true
+    },
+    {
+      "check": "selected_formal_identity_uuidv4",
+      "passed": true
+    },
+    {
+      "check": "all_record_sites_linked",
+      "passed": true
+    },
+    {
+      "check": "no_whole_interval_ready",
+      "passed": true
+    },
+    {
+      "check": "all_outer_endpoints_remain_unknown",
+      "passed": true
+    },
+    {
+      "check": "all_selected_record_authority_pending",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:data/airports.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:reference/source-lock.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-batch-5/source-lock.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/americas-africa/assessments.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/americas-africa/boundary-facts.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/americas-africa/claims.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/americas-africa/source-lock.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/americas-africa/summary.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/americas-africa/validation.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/asia/assessments.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/asia/boundary-facts.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/asia/claims.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/asia/existing-assignment-corrections.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/asia/source-lock.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/asia/summary.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/europe/assessments.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/europe/boundary-facts.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/europe/claims.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/europe/control-review.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/europe/policy-scenario.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/europe/reused-evidence.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/europe/source-lock.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/europe/summary.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/europe/validation.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/normalized-candidates.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/physical-id-bindings.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/policy/family-readiness.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:research/evidence/global-code-next/policy/rights-source-lock.json",
+      "passed": true
+    },
+    {
+      "check": "input_sha256:scripts/reference/admissions.py",
+      "passed": true
+    },
+    {
+      "check": "every_selected_source_has_receipt",
+      "passed": true
+    },
+    {
+      "check": "policy-us-govinfo-copyright:originalSha256",
+      "passed": true
+    },
+    {
+      "check": "policy-us-govinfo-copyright:extractedTextSha256",
+      "passed": true
+    },
+    {
+      "check": "policy-us-govinfo-copyright:normalizedTextSha256",
+      "passed": true
+    },
+    {
+      "check": "policy-uz-copyright-law:originalSha256",
+      "passed": true
+    },
+    {
+      "check": "policy-uz-copyright-law:extractedTextSha256",
+      "passed": true
+    },
+    {
+      "check": "policy-uz-copyright-law:normalizedTextSha256",
+      "passed": true
+    },
+    {
+      "check": "policy-us-feist-facts:originalSha256",
+      "passed": true
+    },
+    {
+      "check": "policy-us-feist-facts:extractedTextSha256",
+      "passed": true
+    },
+    {
+      "check": "policy-us-feist-facts:normalizedTextSha256",
+      "passed": true
+    },
+    {
+      "check": "policy-md-copyright-law-agepi:originalSha256",
+      "passed": true
+    },
+    {
+      "check": "policy-md-copyright-law-agepi:extractedTextSha256",
+      "passed": true
+    },
+    {
+      "check": "policy-md-copyright-law-agepi:normalizedTextSha256",
+      "passed": true
+    },
+    {
+      "check": "policy-in-moca-website-policies:originalSha256",
+      "passed": true
+    },
+    {
+      "check": "policy-in-moca-website-policies:extractedTextSha256",
+      "passed": true
+    },
+    {
+      "check": "policy-in-moca-website-policies:normalizedTextSha256",
+      "passed": true
+    },
+    {
+      "check": "policy-in-copyright-act-wipolex-pdf:originalSha256",
+      "passed": true
+    },
+    {
+      "check": "policy-in-copyright-act-wipolex-pdf:extractedTextSha256",
+      "passed": true
+    },
+    {
+      "check": "policy-in-copyright-act-wipolex-pdf:normalizedTextSha256",
+      "passed": true
+    },
+    {
+      "check": "scope_sha256_recomputed",
+      "passed": true
+    },
+    {
+      "check": "all_48_original_family_profiles_retained",
+      "passed": true
+    },
+    {
+      "check": "new_issuer_profiles_total_four",
+      "passed": true
+    },
+    {
+      "check": "no_global_authority_activated",
+      "passed": true
+    }
+  ],
+  "decisionSha256": "5bf71fd9278ad7a8d144e5ed0afae5263457c044e272b0a7b5d34d9dffc2c38e",
+  "formalAdmissionExecuted": false,
+  "formatVersion": 1,
+  "meaning": "Research artifact hashes and scoped selection only. This does not replace Owner review or unchanged formal assembly checks.",
+  "productionResolverValidated": false,
+  "readmeSha256": "137ce4cfe634c148989cbe39ba252ef675c4894ef53e4821fbffee050f14738d",
+  "result": "passed",
+  "reviewedOn": "2026-11-09",
+  "scopeSha256": "a2622375de0b06ae716dcfeda26b87e68a66b2a72183a0393e8c255cd847ff5b"
+}

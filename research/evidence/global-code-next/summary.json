@@ -1,0 +1,161 @@
+{
+  "admissionReadiness": {
+    "alreadyAuthorizedInThisNewStage": 0,
+    "boundaryEvidenceAndScopedUseReady": 32,
+    "boundaryReadyIata": 4,
+    "boundaryReadyIcao": 28,
+    "formalAssignmentsPublished": 0,
+    "missingOwnerAuthority": 32,
+    "newCodeChangeEvents": 13,
+    "newlyFormallyAdmissibleNowIata": 0,
+    "newlyFormallyAdmissibleNowIcao": 0,
+    "observationOnlyNotBoundaryReady": 6,
+    "oldTransferEventsStrengthened": 2,
+    "pendingCandidateAssignments": 38,
+    "priorProfilesRetained": 48,
+    "profilesWithAcquiredByteReceipts": 41,
+    "profilesWithoutByteReceipts": 11,
+    "sourceProfilesAudited": 52,
+    "wholeIntervalsReady": 0
+  },
+  "costControls": {
+    "formalDataOrApplicationChanges": false,
+    "globalGitRescans": 0,
+    "networkRedownloadsDuringFinish": 0,
+    "newAdmissionInfrastructure": false,
+    "newCIRouter": false,
+    "newCountryExecutors": false,
+    "unchangedHistoricalReplayRerunsForReview": 0
+  },
+  "decisionScopeSha256": "a2622375de0b06ae716dcfeda26b87e68a66b2a72183a0393e8c255cd847ff5b",
+  "fly114": {
+    "modifiedThisPhase": false,
+    "noUnmergedHeadReleasePin": true,
+    "state": "open_0.11.0_waiting_for_actual_pr35_merge_and_main_CI"
+  },
+  "formatVersion": 1,
+  "newExplicitBoundaryFacts": {
+    "iata": [
+      {
+        "change": "HAL→Devanahalli",
+        "code": "BLR",
+        "date": "2008-05-24",
+        "old23MayDateSuperseded": true,
+        "time": "00:01"
+      }
+    ],
+    "icao": [
+      {
+        "change": "UT→UZ",
+        "date": "2025-10-02",
+        "physicalSites": 13,
+        "time": "00:01UTC",
+        "triggerExpiryIsNotCodeEnd": true
+      }
+    ],
+    "priorBoundaryFactsStrengthened": {
+      "moldovaAlreadyFormal": "2024-01-18..19; no new gain",
+      "pbiIata": "2026-08-18",
+      "pbiIcao": "2026-07-09"
+    }
+  },
+  "originalCounts": {
+    "newDistinctSupportingAviationOriginals": 60,
+    "newLegalUseOriginals": 6,
+    "newRegionalNonSupportingOriginalsExcluded": 2,
+    "newRegionalOriginalRecords": 62,
+    "policyLockRecords": 14,
+    "regionalLockRecords": 88,
+    "sourcesWithAllThreeRetainedHashesRechecked": 83
+  },
+  "pr35": {
+    "checksPassed": 5,
+    "head": "90b3b5e014168c22a934e716eac3cc1890b5c67a",
+    "merged": false,
+    "newResolvedIfMerged": 81,
+    "notFoundToUncertainIfMerged": 13017,
+    "ownerMergeDecisionRetained": true,
+    "recommendation": "can_merge_no_actual_blocker_found"
+  },
+  "publicationState": "research_and_exact_owner_decision_proposal_only",
+  "researchCounts": {
+    "caseClustersAssessed": 39,
+    "cumulativeCompletedHighValueGroups": 85,
+    "newHighValueAccessOrNonSupportingOnly": 5,
+    "newSubstantiveAssociatedLowerPriorityGroups": 6,
+    "newSubstantiveHighValueGroups": 21,
+    "priorCompletedHighValueGroups": 64,
+    "priorHighValueFollowups": 7,
+    "remainingHighValueGroups": 1113
+  },
+  "resolver": {
+    "authorizedUnmergedPriorProposal": {
+      "measurementPeriod": "Original fixed corpus retained; not the expanded 1900–2026 next-wave comparison.",
+      "merged": false,
+      "newIataAssignments": 0,
+      "newIcaoAssignments": 3,
+      "newResolved": 81,
+      "notFoundToUncertain": 13017,
+      "receiptPath": "research/admissions/0.12.0/coverage.json",
+      "receiptSha256": "b6826c75d3b1cc95accd770d26b46c33ca1c94c757eb53ccbfbc0613de637947"
+    },
+    "note": "The large candidate uncertain counts span1900–2026 and are unknown-boundary behavior, not evidence that each code existed on those dates. They are not comparable with PR35 original2015–2026 fixed-corpus counts.",
+    "pendingCandidates": {
+      "IATA": {
+        "changedResolvedAnswers": 0,
+        "newConflicts": 0,
+        "newResolved": 0,
+        "newlyResolvedCrossSiteReuseCodes": [],
+        "notFoundToResolved": 0,
+        "notFoundToUncertain": 231671,
+        "removedConflicts": 0,
+        "uncertainCodeDaysReduced": 0,
+        "uncertainToResolved": 0
+      },
+      "IATA+ICAO": {
+        "changedResolvedAnswers": 0,
+        "newConflicts": 0,
+        "newResolved": 0,
+        "newlyResolvedCrossSiteReuseCodes": [],
+        "notFoundToResolved": 0,
+        "notFoundToUncertain": 1019363,
+        "removedConflicts": 0,
+        "uncertainCodeDaysReduced": 0,
+        "uncertainToResolved": 0
+      },
+      "ICAO": {
+        "changedResolvedAnswers": 0,
+        "newConflicts": 0,
+        "newResolved": 0,
+        "newlyResolvedCrossSiteReuseCodes": [],
+        "notFoundToResolved": 0,
+        "notFoundToUncertain": 787692,
+        "removedConflicts": 0,
+        "uncertainCodeDaysReduced": 0,
+        "uncertainToResolved": 0
+      }
+    },
+    "publishedThisPhase": {
+      "changedResolvedAnswers": 0,
+      "conflictsAdded": 0,
+      "conflictsRemoved": 0,
+      "crossSiteReuseResolved": 0,
+      "newIataAssignments": 0,
+      "newIcaoAssignments": 0,
+      "newResolved": 0,
+      "notFoundToUncertain": 0,
+      "uncertainCodeDaysReduced": 0
+    },
+    "scope": {
+      "comparatorPath": "scripts/evidence/global_code_coverage.ts",
+      "comparatorSha256": "9da10e43c0fa2d19a1d6a7387a27fa00c7b0e7381f095096e761e4fff07b727f",
+      "from": "1900-01-01",
+      "method": "Unmodified production resolveAirport() at both ends of every assignment-bound partition; existing global_code_coverage.ts measure() comparator reused locally.",
+      "productionResolverPath": "src/resolve.ts",
+      "productionResolverSha256": "af9631a3c270a2ca71606a75cf7830d9f7e711bab431a919fa5be615f26ec5b0",
+      "toExclusive": "2026-11-10",
+      "unit": "unique namespace+code+local Gregorian date; exact weighted partitions, not flight coverage"
+    }
+  },
+  "reviewedOn": "2026-11-09"
+}

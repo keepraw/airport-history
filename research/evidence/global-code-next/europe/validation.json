@@ -1,0 +1,68 @@
+{
+  "formatVersion": 1,
+  "reviewedOn": "2026-11-09",
+  "checks": [
+    {
+      "check": "all_public_JSON_parse",
+      "passed": true
+    },
+    {
+      "check": "thirteen_unique_physical_sites",
+      "passed": true
+    },
+    {
+      "check": "twenty_six_unique_pending_boundary_assignments",
+      "passed": true
+    },
+    {
+      "check": "assignment_references_resolve",
+      "passed": true
+    },
+    {
+      "check": "ICAO_only_no_IATA_inference",
+      "passed": true
+    },
+    {
+      "check": "unknown_outer_bounds_preserved",
+      "passed": true
+    },
+    {
+      "check": "all_metadata_explicitly_ineligible",
+      "passed": true
+    },
+    {
+      "check": "no_expiry_as_code_end",
+      "passed": true
+    },
+    {
+      "check": "all_35_original_triple_hashes_reverified",
+      "passed": true
+    },
+    {
+      "check": "no_duplicate_canonical_assessments",
+      "passed": true
+    },
+    {
+      "check": "actual_high_tier_only",
+      "passed": true
+    },
+    {
+      "check": "Moldova_is_followup_only",
+      "passed": true
+    },
+    {
+      "check": "Estonia_access_attempts_excluded_from_content_review",
+      "passed": true
+    },
+    {
+      "check": "actual_GEN24_replacement_recorded",
+      "passed": true
+    },
+    {
+      "check": "long_scenario_excluded",
+      "passed": true
+    }
+  ],
+  "scope": "Finite research integrity checks only; does not grant source admission or modify production resolver.",
+  "result": "pass"
+}

@@ -1,0 +1,122 @@
+{
+  "correctionTarget": "Existing unadmitted research proposals only; published baseline contains no BLR assignment. Reusing draft IDs would create two new formal tuples only after an applicable future admission.",
+  "corrections": [
+    {
+      "airportId": "apt_ab3830d2-4506-46d5-8ff9-c2d5f46ce268",
+      "assignmentId": "b5-proposal-hal-iata-blr",
+      "before": {
+        "airportId": "apt_ab3830d2-4506-46d5-8ff9-c2d5f46ce268",
+        "assignmentId": "b5-proposal-hal-iata-blr",
+        "code": "BLR",
+        "evidenceType": "continuity_inference",
+        "note": "PROPOSAL ONLY, not authorized. Concession 2004 names BLR as the existing airport code; transfer by S.O.1170(E) 00:01 2008-05-23, amended to 2008-05-24 (secondary).",
+        "scheme": "IATA",
+        "sourceIds": [
+          "b5-in-moca-bial-2004",
+          "b5-in-thesis-2016"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": "2004-07-05",
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2004-07-06",
+          "latest": "2008-05-25",
+          "precision": "unknown"
+        },
+        "verificationStatus": "verified",
+        "verifiedOn": "2026-11-03"
+      },
+      "existingRecordPath": "research/evidence/global-batch-5/proposals.json",
+      "productionMutation": false,
+      "proposedAfter": {
+        "airportId": "apt_ab3830d2-4506-46d5-8ff9-c2d5f46ce268",
+        "assignmentId": "b5-proposal-hal-iata-blr",
+        "code": "BLR",
+        "evidenceType": "primary_direct",
+        "note": "BOUNDARY CORRECTION PROPOSAL ONLY. Single executed BLR transfer at00:01 24May2008 from HAL to Devanahalli, after amendment. Day bounds retain partial24May uncertainty. Other endpoint and whole continuous interval unproven; no physical closure or ICAO change inferred.",
+        "scheme": "IATA",
+        "sourceIds": [
+          "next-asia-in-moca-bial-2008-amendment",
+          "next-asia-in-moca-bial-2023-concession"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2008-05-24",
+          "latest": "2008-05-25",
+          "precision": "day"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      }
+    },
+    {
+      "airportId": "apt_bf9260e8-2d9b-413b-81d9-c6842d53cbf7",
+      "assignmentId": "b5-proposal-kempegowda-iata-blr",
+      "before": {
+        "airportId": "apt_bf9260e8-2d9b-413b-81d9-c6842d53cbf7",
+        "assignmentId": "b5-proposal-kempegowda-iata-blr",
+        "code": "BLR",
+        "evidenceType": "continuity_inference",
+        "note": "PROPOSAL ONLY, not authorized. Transfer bounded by the notifications; continuity to the 2026-11-03 IATA lookup is inferred.",
+        "scheme": "IATA",
+        "sourceIds": [
+          "b5-in-moca-bial-2004",
+          "b5-in-thesis-2016",
+          "b5-iata-blr-20261103"
+        ],
+        "validFrom": {
+          "earliest": "2004-07-05",
+          "latest": "2008-05-25",
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2026-11-03",
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "verified",
+        "verifiedOn": "2026-11-03"
+      },
+      "existingRecordPath": "research/evidence/global-batch-5/proposals.json",
+      "productionMutation": false,
+      "proposedAfter": {
+        "airportId": "apt_bf9260e8-2d9b-413b-81d9-c6842d53cbf7",
+        "assignmentId": "b5-proposal-kempegowda-iata-blr",
+        "code": "BLR",
+        "evidenceType": "primary_direct",
+        "note": "BOUNDARY CORRECTION PROPOSAL ONLY. Single executed BLR transfer at00:01 24May2008 from HAL to Devanahalli, after amendment. Day bounds retain partial24May uncertainty. Other endpoint and whole continuous interval unproven; no physical closure or ICAO change inferred.",
+        "scheme": "IATA",
+        "sourceIds": [
+          "next-asia-in-moca-bial-2008-amendment",
+          "next-asia-in-moca-bial-2023-concession"
+        ],
+        "validFrom": {
+          "earliest": "2008-05-24",
+          "latest": "2008-05-25",
+          "precision": "day"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      }
+    }
+  ],
+  "formatVersion": 1,
+  "longIntervalReview": {
+    "2004_to_2008_hal": "Not upgraded: Gazette establishes the final transfer and then-current HAL code, not continuous code validity back to2004. Earlier prospective concession and later transfer are distinct observations unless an explicit continuous-maintenance obligation and applicable amendment/lifecycle evidence are reviewed.",
+    "2008_to_2026_devanahalli": "Not upgraded: executed transfer plus current IATA observation do not prove no intervening suspension, transfer or change.",
+    "minimal_artificial_windows": "No short window is fabricated from issue dates. Only the supported transfer boundary is proposed; unknown outer endpoints remain unknown."
+  },
+  "productionDataModified": false,
+  "wholeIntervalsAsserted": false
+}

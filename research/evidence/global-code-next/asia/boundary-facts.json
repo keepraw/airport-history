@@ -1,0 +1,66 @@
+{
+  "facts": [
+    {
+      "boundary": {
+        "earliest": "2008-05-24",
+        "latest": "2008-05-25",
+        "precision": "day"
+      },
+      "code": "BLR",
+      "codeSpecificClause": true,
+      "event": "code_transfer",
+      "eventGroupId": "dup_ce3a8a984a0738318d411ceb",
+      "executionCorroboration": "Later MoCA concession dossier records commercial commencement24May2008;2008 amendment attached.",
+      "factId": "next-asia-blr-transfer-amended-20080524",
+      "fromAirportId": "apt_ab3830d2-4506-46d5-8ff9-c2d5f46ce268",
+      "fullLocalDay20080524Supported": false,
+      "icaoChangeInferred": false,
+      "originalSupersededTime": "00:01 2008-05-23",
+      "physicalClosureInferred": false,
+      "scheme": "IATA",
+      "sourceDocumentIssueDates": [
+        "2008-05-16",
+        "2008-05-21"
+      ],
+      "sourceIds": [
+        "next-asia-in-moca-bial-2008-amendment",
+        "next-asia-in-moca-bial-2023-concession"
+      ],
+      "sourceStatedLocalDate": "2008-05-24",
+      "sourceStatedTime": "00:01",
+      "status": "pending_source_specific_factual_review",
+      "timezoneOffsetIndependentlyProved": false,
+      "toAirportId": "apt_bf9260e8-2d9b-413b-81d9-c6842d53cbf7",
+      "unknownOtherEndpoints": true,
+      "wholeIntervalSupported": false
+    },
+    {
+      "codeEffectiveBoundary": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "codes": [
+        "IATA:LTH",
+        "ICAO:VVLT"
+      ],
+      "documentEffectiveDate": "2025-10-03",
+      "event": "controlled_document_identity_observation",
+      "eventGroupId": "lead_c7e49c9c1c12e13e7fd46d9e",
+      "executionEstablished": false,
+      "factId": "next-asia-long-thanh-code-identity",
+      "laterOperatingTarget": "ACV13Oct2026 targets December2026 commercial operations",
+      "plannedDatesAreNotCodeDates": [
+        "DEC2025 technical flight",
+        "JUN2026 commercial operation",
+        "11JUN2026 expected AD2 supplement"
+      ],
+      "sourceIds": [
+        "next-asia-vn-longthanh-aic0725"
+      ],
+      "wholeIntervalSupported": false
+    }
+  ],
+  "formatVersion": 1,
+  "proposalOnly": true
+}

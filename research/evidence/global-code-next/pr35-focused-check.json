@@ -1,0 +1,34 @@
+{
+  "head": "90b3b5e014168c22a934e716eac3cc1890b5c67a",
+  "appendOnly": true,
+  "existingAuthorityAndExecutorMatched": true,
+  "boundedWindows": {
+    "VANM": 27,
+    "VEAY": 27,
+    "VOSH": 27
+  },
+  "queryCorpusDates": 4366,
+  "newResolved": 81,
+  "newNotFoundToUncertain": 13017,
+  "certainWindowOutsideRemainsUnknown": true,
+  "recordCounts": {
+    "airports": [
+      43,
+      46
+    ],
+    "assignments": [
+      52,
+      55
+    ],
+    "sources": [
+      106,
+      112
+    ],
+    "names": [
+      3,
+      3
+    ]
+  },
+  "productionBuildHashesStillMatch": true,
+  "fullHistoricalCIReexecuted": false
+}

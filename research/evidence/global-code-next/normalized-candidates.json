@@ -1,0 +1,2906 @@
+{
+  "baseline": {
+    "path": "test/curated-0.11.0.json",
+    "publishedCommit": "7d21ff6762e1569faa1be19c8203e577420cd1f2",
+    "sha256": "151d63469f96833b4be54f942940a39df24f485c81e18998053d1dc72f93f778"
+  },
+  "claims": [
+    {
+      "assignmentId": "b5-proposal-hal-iata-blr",
+      "authorityStatus": "no_production_authorization_no_AAI_inheritance",
+      "basis": "Gazette explicit code clause plus amended boundary and retrospective execution; only boundary factual review eligible. Copyright Act52(1)(q)(i) Gazette exception supports scoped factual retention, not a broad source license. Outer endpoint unknown.",
+      "conditionalReviewEligible": true,
+      "eventGroupId": "dup_ce3a8a984a0738318d411ceb",
+      "intervalReviewEligible": false,
+      "lane": "asia",
+      "proposalKind": "existing_draft_assignment_boundary_correction",
+      "rightsReceiptPath": "research/evidence/global-code-next/policy/rights-source-lock.json",
+      "rightsReceiptSourceId": "policy-in-copyright-act-wipolex-pdf",
+      "rightsStatus": "ready_scoped_official_gazette_factual_use",
+      "wholeIntervalSupported": false
+    },
+    {
+      "assignmentId": "b5-proposal-kempegowda-iata-blr",
+      "authorityStatus": "no_production_authorization_no_AAI_inheritance",
+      "basis": "Gazette explicit code clause plus amended boundary and retrospective execution; only boundary factual review eligible. Copyright Act52(1)(q)(i) Gazette exception supports scoped factual retention, not a broad source license. Outer endpoint unknown.",
+      "conditionalReviewEligible": true,
+      "eventGroupId": "dup_ce3a8a984a0738318d411ceb",
+      "intervalReviewEligible": false,
+      "lane": "asia",
+      "proposalKind": "existing_draft_assignment_boundary_correction",
+      "rightsReceiptPath": "research/evidence/global-code-next/policy/rights-source-lock.json",
+      "rightsReceiptSourceId": "policy-in-copyright-act-wipolex-pdf",
+      "rightsStatus": "ready_scoped_official_gazette_factual_use",
+      "wholeIntervalSupported": false
+    },
+    {
+      "assignmentId": "next-asia-proposal-long-thanh-iata-lth",
+      "authorityStatus": "source_specific_admission_authority_unestablished",
+      "basis": "Official code identity observation; allocation, withdrawal and temporal lifecycle remain unproven.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_c7e49c9c1c12e13e7fd46d9e",
+      "intervalReviewEligible": false,
+      "lane": "asia",
+      "rightsStatus": "minimal_factual_retention_only",
+      "wholeIntervalSupported": false
+    },
+    {
+      "assignmentId": "next-asia-proposal-long-thanh-icao-vvlt",
+      "authorityStatus": "source_specific_admission_authority_unestablished",
+      "basis": "Official code identity observation; allocation, withdrawal and temporal lifecycle remain unproven.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_c7e49c9c1c12e13e7fd46d9e",
+      "intervalReviewEligible": false,
+      "lane": "asia",
+      "rightsStatus": "minimal_factual_retention_only",
+      "wholeIntervalSupported": false
+    },
+    {
+      "assignmentId": "next-asia-proposal-namniwel-iata-nam",
+      "authorityStatus": "source_specific_admission_authority_unestablished",
+      "basis": "Official code identity observation; allocation, withdrawal and temporal lifecycle remain unproven.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_b46a43aa7adf0fe278fea436",
+      "intervalReviewEligible": false,
+      "lane": "asia",
+      "rightsStatus": "minimal_factual_retention_only",
+      "wholeIntervalSupported": false
+    },
+    {
+      "assignmentId": "next-asia-proposal-namniwel-icao-wapn",
+      "authorityStatus": "source_specific_admission_authority_unestablished",
+      "basis": "Official code identity observation; allocation, withdrawal and temporal lifecycle remain unproven.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_b46a43aa7adf0fe278fea436",
+      "intervalReviewEligible": false,
+      "lane": "asia",
+      "rightsStatus": "minimal_factual_retention_only",
+      "wholeIntervalSupported": false
+    },
+    {
+      "assignmentId": "next-asia-proposal-sanga-sanga-iata-sgs",
+      "authorityStatus": "source_specific_admission_authority_unestablished",
+      "basis": "Official code identity observation; allocation, withdrawal and temporal lifecycle remain unproven.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_d755714fb98529bb4d96789d",
+      "intervalReviewEligible": false,
+      "lane": "asia",
+      "rightsStatus": "minimal_factual_retention_only",
+      "wholeIntervalSupported": false
+    },
+    {
+      "assignmentId": "next-asia-proposal-sanga-sanga-icao-rpmn",
+      "authorityStatus": "source_specific_admission_authority_unestablished",
+      "basis": "Official code identity observation; allocation, withdrawal and temporal lifecycle remain unproven.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_d755714fb98529bb4d96789d",
+      "intervalReviewEligible": false,
+      "lane": "asia",
+      "rightsStatus": "minimal_factual_retention_only",
+      "wholeIntervalSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-utfa-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_0edbda9085627c8df0748e63",
+      "factId": "uz-icao-utfa-uzfa-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": false,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-uzfa-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_0edbda9085627c8df0748e63",
+      "factId": "uz-icao-utfa-uzfa-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": false,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-utsb-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_451dc0295742c6d663cc6ff0",
+      "factId": "uz-icao-utsb-uzsb-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": true,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-uzsb-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_451dc0295742c6d663cc6ff0",
+      "factId": "uz-icao-utsb-uzsb-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": true,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-uttc-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "dup_99763655f7d22584e700c434",
+      "factId": "uz-icao-uttc-uztc-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": false,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-uztc-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "dup_99763655f7d22584e700c434",
+      "factId": "uz-icao-uttc-uztc-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": false,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-utff-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_645be5e6df374020d277bcdc",
+      "factId": "uz-icao-utff-uzff-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": false,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-uzff-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_645be5e6df374020d277bcdc",
+      "factId": "uz-icao-utff-uzff-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": false,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-utsk-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "dup_50f782e4707033751f5331ac",
+      "factId": "uz-icao-utsk-uzsk-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": true,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-uzsk-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "dup_50f782e4707033751f5331ac",
+      "factId": "uz-icao-utsk-uzsk-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": true,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-utfn-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_41e02f996fa78a8f146aa09e",
+      "factId": "uz-icao-utfn-uzfn-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": true,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-uzfn-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_41e02f996fa78a8f146aa09e",
+      "factId": "uz-icao-utfn-uzfn-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": true,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-utsa-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_0cac59f5317096d110e8b078",
+      "factId": "uz-icao-utsa-uzsa-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": false,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-uzsa-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_0cac59f5317096d110e8b078",
+      "factId": "uz-icao-utsa-uzsa-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": false,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-utnn-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_2f5f8eefcf84c78535ee86de",
+      "factId": "uz-icao-utnn-uznn-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": true,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-uznn-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_2f5f8eefcf84c78535ee86de",
+      "factId": "uz-icao-utnn-uznn-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": true,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-utss-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_8f7635eacad033d703ede8c5",
+      "factId": "uz-icao-utss-uzss-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": true,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-uzss-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_8f7635eacad033d703ede8c5",
+      "factId": "uz-icao-utss-uzss-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": true,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-uttp-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_27aa0bbaadf482da3e53bb42",
+      "factId": "uz-icao-uttp-uztp-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": false,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-uztp-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_27aa0bbaadf482da3e53bb42",
+      "factId": "uz-icao-uttp-uztp-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": false,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-uttt-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_22247e71c34af56f53fcd6f6",
+      "factId": "uz-icao-uttt-uztt-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": true,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-uztt-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_22247e71c34af56f53fcd6f6",
+      "factId": "uz-icao-uttt-uztt-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": true,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-utst-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "dup_f6b5618a12994695fdd32fee",
+      "factId": "uz-icao-utst-uzst-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": false,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-uzst-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "dup_f6b5618a12994695fdd32fee",
+      "factId": "uz-icao-utst-uzst-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": false,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-utnu-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_138fca062f434c87f15ab08e",
+      "factId": "uz-icao-utnu-uznu-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": true,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-uz-icao-uznu-20251002",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "authorizationStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "lead_138fca062f434c87f15ab08e",
+      "factId": "uz-icao-utnu-uznu-20251002",
+      "intervalReviewEligible": false,
+      "lane": "europe",
+      "newRemainingHighValueReview": true,
+      "remainingGaps": [
+        "Unknown old-code start/new-code end; do not infer open-ended validity.",
+        "Historic NOTAM and supplement issue/cancellation coverage and incorporated AIC05/25 scope incomplete despite complete recorded AIRAC sequence.",
+        "Applicable source-family code admission authorization remains an Owner policy decision."
+      ],
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "temporalEvidenceStatus": "explicit_permanent_change_day_unknown_outer_boundary_and_historic_NOTAM_gap",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-pbi-iata-pbi",
+      "authorityStatus": "source_family_code_authority_missing",
+      "authorizationStatus": "source_family_code_authority_missing",
+      "basis": "County July 9 explicitly retains PBI until August 18; cached August 20 FAQ reports actual IATA change after IATA notice. FAA prospective grouped identifiers do not override operator actual IATA timing. Underlying IATA notification still unavailable.",
+      "boundaryFacts": {
+        "date": "2026-08-18",
+        "kind": "code_change_day",
+        "precision": "day",
+        "timeOfDay": null
+      },
+      "conditionalReviewEligible": false,
+      "eventGroupId": "dup_053fff021fcc335a906d311d",
+      "intervalReviewEligible": false,
+      "lane": "americas-africa",
+      "newAssignmentId": false,
+      "newRemainingHighValueReview": false,
+      "policyDecisionPath": "research/evidence/global-code-next/policy/",
+      "recordDisposition": "amends_prior_pending_boundary_only_record_not_new_assignment",
+      "remainingGaps": [
+        "Consolidated applicable source-family code authority remains missing.",
+        "Unknown outer boundary and NOTAM/supersession continuity; no whole interval inferred.",
+        "Underlying authenticated IATA notification not obtained; actual operator report remains one county lineage."
+      ],
+      "rightsStatus": "atomic_factual_metadata_only_full_original_not_redistributed",
+      "temporalEvidenceStatus": "explicit_change_day_unknown_outer_boundary",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-pbi-iata-djt",
+      "authorityStatus": "source_family_code_authority_missing",
+      "authorizationStatus": "source_family_code_authority_missing",
+      "basis": "County July 9 explicitly retains PBI until August 18; cached August 20 FAQ reports actual IATA change after IATA notice. FAA prospective grouped identifiers do not override operator actual IATA timing. Underlying IATA notification still unavailable.",
+      "boundaryFacts": {
+        "date": "2026-08-18",
+        "kind": "code_change_day",
+        "precision": "day",
+        "timeOfDay": null
+      },
+      "conditionalReviewEligible": false,
+      "eventGroupId": "dup_053fff021fcc335a906d311d",
+      "intervalReviewEligible": false,
+      "lane": "americas-africa",
+      "newAssignmentId": false,
+      "newRemainingHighValueReview": false,
+      "policyDecisionPath": "research/evidence/global-code-next/policy/",
+      "recordDisposition": "amends_prior_pending_boundary_only_record_not_new_assignment",
+      "remainingGaps": [
+        "Consolidated applicable source-family code authority remains missing.",
+        "Unknown outer boundary and NOTAM/supersession continuity; no whole interval inferred.",
+        "Underlying authenticated IATA notification not obtained; actual operator report remains one county lineage."
+      ],
+      "rightsStatus": "atomic_factual_metadata_only_full_original_not_redistributed",
+      "temporalEvidenceStatus": "explicit_change_day_unknown_outer_boundary",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-pbi-icao-kpbi",
+      "authorityStatus": "source_family_code_authority_missing",
+      "authorizationStatus": "source_family_code_authority_missing",
+      "basis": "Code-labelled prospective federal notices plus county execution report with July9 body dateline and July14 webpage display, corroborated by reused post-event FAQ. NWS1200UTC belongs to TAF service only.",
+      "boundaryFacts": {
+        "date": "2026-07-09",
+        "kind": "code_change_day",
+        "precision": "day",
+        "timeOfDay": null
+      },
+      "conditionalReviewEligible": false,
+      "eventGroupId": "dup_053fff021fcc335a906d311d",
+      "intervalReviewEligible": false,
+      "lane": "americas-africa",
+      "newAssignmentId": false,
+      "newRemainingHighValueReview": false,
+      "policyDecisionPath": "research/evidence/global-code-next/policy/",
+      "recordDisposition": "amends_prior_pending_boundary_only_record_not_new_assignment",
+      "remainingGaps": [
+        "Consolidated applicable source-family code authority remains missing.",
+        "Unknown outer boundary and NOTAM/supersession continuity; no whole interval inferred."
+      ],
+      "rightsStatus": "atomic_factual_metadata_only_full_original_not_redistributed",
+      "temporalEvidenceStatus": "explicit_change_day_unknown_outer_boundary",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-pbi-icao-kdjt",
+      "authorityStatus": "source_family_code_authority_missing",
+      "authorizationStatus": "source_family_code_authority_missing",
+      "basis": "Code-labelled prospective federal notices plus county execution report with July9 body dateline and July14 webpage display, corroborated by reused post-event FAQ. NWS1200UTC belongs to TAF service only.",
+      "boundaryFacts": {
+        "date": "2026-07-09",
+        "kind": "code_change_day",
+        "precision": "day",
+        "timeOfDay": null
+      },
+      "conditionalReviewEligible": false,
+      "eventGroupId": "dup_053fff021fcc335a906d311d",
+      "intervalReviewEligible": false,
+      "lane": "americas-africa",
+      "newAssignmentId": false,
+      "newRemainingHighValueReview": false,
+      "policyDecisionPath": "research/evidence/global-code-next/policy/",
+      "recordDisposition": "amends_prior_pending_boundary_only_record_not_new_assignment",
+      "remainingGaps": [
+        "Consolidated applicable source-family code authority remains missing.",
+        "Unknown outer boundary and NOTAM/supersession continuity; no whole interval inferred."
+      ],
+      "rightsStatus": "atomic_factual_metadata_only_full_original_not_redistributed",
+      "temporalEvidenceStatus": "explicit_change_day_unknown_outer_boundary",
+      "wholeIntervalSupported": false,
+      "wholeWindowSupported": false
+    }
+  ],
+  "formatVersion": 1,
+  "inputs": {
+    "research/evidence/global-code-next/americas-africa/claims.json": "d40850bf0dc15c85bcb8c91e281ac3fcd84ae59479e71b2fe13a595545d20cf8",
+    "research/evidence/global-code-next/asia/claims.json": "f82462545a4cf49596171ec7a738409571c06830450d944107a40db12c1250b6",
+    "research/evidence/global-code-next/europe/claims.json": "ea9f6f21c90210bdf39d6fffe01058685782f96aa01ee8b94c3a8d04be476bd7"
+  },
+  "pendingPriorProposal": {
+    "dataVersion": "0.12.0",
+    "head": "90b3b5e014168c22a934e716eac3cc1890b5c67a",
+    "merged": false,
+    "newNotFoundToUncertain": 13017,
+    "newResolved": 81,
+    "path": "test/curated-0.12.0.json",
+    "sha256": "4573fb7e6fac8e02c8e3f57443599385dffada17b250a29f1a18964f6d6d8cc9"
+  },
+  "physicalIdBindings": {
+    "path": "research/evidence/global-code-next/physical-id-bindings.json",
+    "sha256": "33c224e3746d9e3e8fe0fa4a4b144d9daa2357a417fb275d36afdf5c905cd00b"
+  },
+  "publicationState": "research_candidates_only_no_new_authority_or_data_release",
+  "records": {
+    "airports": [
+      {
+        "airportId": "apt_ab3830d2-4506-46d5-8ff9-c2d5f46ce268",
+        "coordinates": {
+          "note": "Reference point from the OurAirports snapshot row matched to the named AAI aerodrome; not an AIP ARP claim.",
+          "sourceIds": [
+            "ourairports-20261025"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 12.95,
+            "longitude": 77.668198
+          }
+        },
+        "externalIds": {
+          "ourAirports": "26603"
+        },
+        "name": {
+          "note": "Display label only; no official-name timeline asserted.",
+          "sourceIds": [
+            "b5-in-aip-2012-ad13",
+            "b5-in-aip-2026-vobg"
+          ],
+          "status": "reference",
+          "value": "HAL Airport"
+        },
+        "timezone": {
+          "note": "No historical IANA timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      {
+        "airportId": "apt_bf9260e8-2d9b-413b-81d9-c6842d53cbf7",
+        "coordinates": {
+          "note": "Reference point from the OurAirports snapshot row matched to the named AAI aerodrome; not an AIP ARP claim.",
+          "sourceIds": [
+            "ourairports-20261025"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 13.1979,
+            "longitude": 77.706299
+          }
+        },
+        "externalIds": {
+          "ourAirports": "35145"
+        },
+        "name": {
+          "note": "Display label only; no official-name timeline asserted.",
+          "sourceIds": [
+            "b5-in-aip-2012-ad13",
+            "b5-in-aip-2026-vobl"
+          ],
+          "status": "reference",
+          "value": "Kempegowda International Airport Bengaluru"
+        },
+        "timezone": {
+          "note": "No historical IANA timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      {
+        "airportId": "apt_b89884b2-4f2c-43ba-b85f-4d1d845435d6",
+        "coordinates": {
+          "note": "Official source ARP converted from DMS; no coordinate-history claim.",
+          "sourceIds": [
+            "next-asia-vn-longthanh-aic0725"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 10.784444444444444,
+            "longitude": 107.0411111111111
+          }
+        },
+        "externalIds": {},
+        "name": {
+          "note": "Research identity only; no name interval or admission.",
+          "sourceIds": [
+            "next-asia-vn-longthanh-aic0725"
+          ],
+          "status": "reference",
+          "value": "Long Thanh International Airport"
+        },
+        "timezone": {
+          "note": "Historical IANA timezone not established.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      {
+        "airportId": "apt_f5d18210-26be-4492-a4df-8237ce76210d",
+        "coordinates": {
+          "note": "Official source ARP converted from DMS; no coordinate-history claim.",
+          "sourceIds": [
+            "next-asia-id-namniwel-profile"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": -3.143611111111111,
+            "longitude": 126.97638888888889
+          }
+        },
+        "externalIds": {},
+        "name": {
+          "note": "Research identity only; no name interval or admission.",
+          "sourceIds": [
+            "next-asia-id-namniwel-profile"
+          ],
+          "status": "reference",
+          "value": "Namniwel Airport"
+        },
+        "timezone": {
+          "note": "Historical IANA timezone not established.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      {
+        "airportId": "apt_4d186043-20f4-4293-8420-bbcc5788c674",
+        "coordinates": {
+          "note": "No reviewed official ARP.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        },
+        "externalIds": {},
+        "name": {
+          "note": "Research identity only; no name interval or admission.",
+          "sourceIds": [
+            "next-asia-ph-pagasa-icao"
+          ],
+          "status": "reference",
+          "value": "Sanga-Sanga Airport"
+        },
+        "timezone": {
+          "note": "Historical IANA timezone not established.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      {
+        "airportId": "apt_0f11fc4e-56e7-4563-b6ef-ace814d1931e",
+        "coordinates": {
+          "note": "Current official AD2.2 ARP, not a continuous historical physical-coordinate claim.",
+          "sourceIds": [
+            "next-uz-ad2-uzfa"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 40.72894444,
+            "longitude": 72.29529722
+          }
+        },
+        "externalIds": {},
+        "name": {
+          "note": "Compatibility label; historical legal-name interval not claimed.",
+          "sourceIds": [
+            "next-uz-ad2-uzfa"
+          ],
+          "status": "reference",
+          "value": "Andijan International Airport"
+        },
+        "timezone": {
+          "note": "No timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      {
+        "airportId": "apt_3a7a9265-7eff-46b9-b078-4b5c1e21a37a",
+        "coordinates": {
+          "note": "Current official AD2.2 ARP, not a continuous historical physical-coordinate claim.",
+          "sourceIds": [
+            "next-uz-ad2-uzsb"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 39.77528333,
+            "longitude": 64.48227778
+          }
+        },
+        "externalIds": {},
+        "name": {
+          "note": "Compatibility label; historical legal-name interval not claimed.",
+          "sourceIds": [
+            "next-uz-ad2-uzsb"
+          ],
+          "status": "reference",
+          "value": "Bukhara International Airport"
+        },
+        "timezone": {
+          "note": "No timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      {
+        "airportId": "apt_229092cd-9037-4fa2-bd35-4db135473f49",
+        "coordinates": {
+          "note": "Current official AD2.2 ARP, not a continuous historical physical-coordinate claim.",
+          "sourceIds": [
+            "next-uz-ad2-uztc"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 41.51696111,
+            "longitude": 69.57550278
+          }
+        },
+        "externalIds": {},
+        "name": {
+          "note": "Compatibility label; historical legal-name interval not claimed.",
+          "sourceIds": [
+            "next-uz-ad2-uztc"
+          ],
+          "status": "reference",
+          "value": "Chirchik Airport"
+        },
+        "timezone": {
+          "note": "No timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      {
+        "airportId": "apt_97c4c498-bbdd-4ab7-95d3-e4e01f241b36",
+        "coordinates": {
+          "note": "Current official AD2.2 ARP, not a continuous historical physical-coordinate claim.",
+          "sourceIds": [
+            "next-uz-ad2-uzff"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 40.35838056,
+            "longitude": 71.74466944
+          }
+        },
+        "externalIds": {},
+        "name": {
+          "note": "Compatibility label; historical legal-name interval not claimed.",
+          "sourceIds": [
+            "next-uz-ad2-uzff"
+          ],
+          "status": "reference",
+          "value": "Fergana International Airport"
+        },
+        "timezone": {
+          "note": "No timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      {
+        "airportId": "apt_5e086a57-59e2-4519-8814-3f4469b04813",
+        "coordinates": {
+          "note": "Current official AD2.2 ARP, not a continuous historical physical-coordinate claim.",
+          "sourceIds": [
+            "next-uz-ad2-uzsk"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 38.80288056,
+            "longitude": 65.77293056
+          }
+        },
+        "externalIds": {},
+        "name": {
+          "note": "Compatibility label; historical legal-name interval not claimed.",
+          "sourceIds": [
+            "next-uz-ad2-uzsk"
+          ],
+          "status": "reference",
+          "value": "Karshi Airport"
+        },
+        "timezone": {
+          "note": "No timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      {
+        "airportId": "apt_d31f8807-4195-4564-bb38-4dd4a877418c",
+        "coordinates": {
+          "note": "Current official AD2.2 ARP, not a continuous historical physical-coordinate claim.",
+          "sourceIds": [
+            "next-uz-ad2-uzfn"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 40.984875,
+            "longitude": 71.55683889
+          }
+        },
+        "externalIds": {},
+        "name": {
+          "note": "Compatibility label; historical legal-name interval not claimed.",
+          "sourceIds": [
+            "next-uz-ad2-uzfn"
+          ],
+          "status": "reference",
+          "value": "Namangan Airport"
+        },
+        "timezone": {
+          "note": "No timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      {
+        "airportId": "apt_34ce356b-c409-4607-b37c-157c686d0190",
+        "coordinates": {
+          "note": "Current official AD2.2 ARP, not a continuous historical physical-coordinate claim.",
+          "sourceIds": [
+            "next-uz-ad2-uzsa"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 40.11734722,
+            "longitude": 65.17123611
+          }
+        },
+        "externalIds": {},
+        "name": {
+          "note": "Compatibility label; historical legal-name interval not claimed.",
+          "sourceIds": [
+            "next-uz-ad2-uzsa"
+          ],
+          "status": "reference",
+          "value": "Navoi International Airport"
+        },
+        "timezone": {
+          "note": "No timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      {
+        "airportId": "apt_d31ef4a2-d47a-40ed-9c0f-a55e38fd08f4",
+        "coordinates": {
+          "note": "Current official AD2.2 ARP, not a continuous historical physical-coordinate claim.",
+          "sourceIds": [
+            "next-uz-ad2-uznn"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 42.48921111,
+            "longitude": 59.62274444
+          }
+        },
+        "externalIds": {},
+        "name": {
+          "note": "Compatibility label; historical legal-name interval not claimed.",
+          "sourceIds": [
+            "next-uz-ad2-uznn"
+          ],
+          "status": "reference",
+          "value": "Nukus International Airport"
+        },
+        "timezone": {
+          "note": "No timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      {
+        "airportId": "apt_c43b3225-3f8c-42d1-9e7b-a2ca85f4a5ec",
+        "coordinates": {
+          "note": "Current official AD2.2 ARP, not a continuous historical physical-coordinate claim.",
+          "sourceIds": [
+            "next-uz-ad2-uzss"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 39.70165278,
+            "longitude": 66.98243889
+          }
+        },
+        "externalIds": {},
+        "name": {
+          "note": "Compatibility label; historical legal-name interval not claimed.",
+          "sourceIds": [
+            "next-uz-ad2-uzss"
+          ],
+          "status": "reference",
+          "value": "Samarkand Airport"
+        },
+        "timezone": {
+          "note": "No timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      {
+        "airportId": "apt_b63fb151-04d1-4e91-ac8e-e92c597e4a84",
+        "coordinates": {
+          "note": "Current official AD2.2 ARP, not a continuous historical physical-coordinate claim.",
+          "sourceIds": [
+            "next-uz-ad2-uztp"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 41.31313056,
+            "longitude": 69.39632778
+          }
+        },
+        "externalIds": {},
+        "name": {
+          "note": "Compatibility label; historical legal-name interval not claimed.",
+          "sourceIds": [
+            "next-uz-ad2-uztp"
+          ],
+          "status": "reference",
+          "value": "Tashkent East Airport"
+        },
+        "timezone": {
+          "note": "No timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      {
+        "airportId": "apt_8e91dc51-166b-49aa-81c8-d759e5188447",
+        "coordinates": {
+          "note": "Current official AD2.2 ARP, not a continuous historical physical-coordinate claim.",
+          "sourceIds": [
+            "next-uz-ad2-uztt"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 41.25748889,
+            "longitude": 69.28097222
+          }
+        },
+        "externalIds": {},
+        "name": {
+          "note": "Compatibility label; historical legal-name interval not claimed.",
+          "sourceIds": [
+            "next-uz-ad2-uztt"
+          ],
+          "status": "reference",
+          "value": "Tashkent International Airport"
+        },
+        "timezone": {
+          "note": "No timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      {
+        "airportId": "apt_b1278e6c-0f2f-4619-abff-9bb38ab8f640",
+        "coordinates": {
+          "note": "Current official AD2.2 ARP, not a continuous historical physical-coordinate claim.",
+          "sourceIds": [
+            "next-uz-ad2-uzst"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 37.28748889,
+            "longitude": 67.308075
+          }
+        },
+        "externalIds": {},
+        "name": {
+          "note": "Compatibility label; historical legal-name interval not claimed.",
+          "sourceIds": [
+            "next-uz-ad2-uzst"
+          ],
+          "status": "reference",
+          "value": "Termez Airport"
+        },
+        "timezone": {
+          "note": "No timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      {
+        "airportId": "apt_f5025dfc-007c-4dc9-8a70-a6eb68ced95d",
+        "coordinates": {
+          "note": "Current official AD2.2 ARP, not a continuous historical physical-coordinate claim.",
+          "sourceIds": [
+            "next-uz-ad2-uznu"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 41.58257222,
+            "longitude": 60.64357222
+          }
+        },
+        "externalIds": {},
+        "name": {
+          "note": "Compatibility label; historical legal-name interval not claimed.",
+          "sourceIds": [
+            "next-uz-ad2-uznu"
+          ],
+          "status": "reference",
+          "value": "Urgench Airport"
+        },
+        "timezone": {
+          "note": "No timezone claim.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      },
+      {
+        "airportId": "apt_eb176a20-e0e3-438d-a330-a7b81185232d",
+        "coordinates": {
+          "note": "Existing reference coordinates, visually/geographically consistent with FAA chart axes; not extracted historical ARP or surveyed fact.",
+          "sourceIds": [
+            "global-code-expansion-us-faa-djt-diagram-2611"
+          ],
+          "status": "reference",
+          "value": {
+            "latitude": 26.683201,
+            "longitude": -80.095596
+          }
+        },
+        "externalIds": {
+          "ourAirports": "3766"
+        },
+        "name": {
+          "note": "Compatibility label; legal-name history not admitted.",
+          "sourceIds": [
+            "global-code-expansion-us-faa-djt-diagram-2611",
+            "global-code-expansion-us-pbc-airports"
+          ],
+          "status": "reference",
+          "value": "West Palm Beach physical airport (PBI/DJT)"
+        },
+        "timezone": {
+          "note": "No timezone claim introduced.",
+          "sourceIds": [],
+          "status": "unknown",
+          "value": null
+        }
+      }
+    ],
+    "assignments": [
+      {
+        "airportId": "apt_ab3830d2-4506-46d5-8ff9-c2d5f46ce268",
+        "assignmentId": "b5-proposal-hal-iata-blr",
+        "code": "BLR",
+        "evidenceType": "primary_direct",
+        "note": "BOUNDARY CORRECTION PROPOSAL ONLY. Single executed BLR transfer at00:01 24May2008 from HAL to Devanahalli, after amendment. Day bounds retain partial24May uncertainty. Other endpoint and whole continuous interval unproven; no physical closure or ICAO change inferred.",
+        "scheme": "IATA",
+        "sourceIds": [
+          "next-asia-in-moca-bial-2008-amendment",
+          "next-asia-in-moca-bial-2023-concession"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2008-05-24",
+          "latest": "2008-05-25",
+          "precision": "day"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_bf9260e8-2d9b-413b-81d9-c6842d53cbf7",
+        "assignmentId": "b5-proposal-kempegowda-iata-blr",
+        "code": "BLR",
+        "evidenceType": "primary_direct",
+        "note": "BOUNDARY CORRECTION PROPOSAL ONLY. Single executed BLR transfer at00:01 24May2008 from HAL to Devanahalli, after amendment. Day bounds retain partial24May uncertainty. Other endpoint and whole continuous interval unproven; no physical closure or ICAO change inferred.",
+        "scheme": "IATA",
+        "sourceIds": [
+          "next-asia-in-moca-bial-2008-amendment",
+          "next-asia-in-moca-bial-2023-concession"
+        ],
+        "validFrom": {
+          "earliest": "2008-05-24",
+          "latest": "2008-05-25",
+          "precision": "day"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_b89884b2-4f2c-43ba-b85f-4d1d845435d6",
+        "assignmentId": "next-asia-proposal-long-thanh-iata-lth",
+        "code": "LTH",
+        "evidenceType": "primary_direct",
+        "note": "Identity/edition observation only. Neither allocation boundary nor continuous interval is established. No effective date inferred from publication, retrieval, service target or opening.",
+        "scheme": "IATA",
+        "sourceIds": [
+          "next-asia-vn-longthanh-aic0725",
+          "next-asia-vn-acv-lth"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_b89884b2-4f2c-43ba-b85f-4d1d845435d6",
+        "assignmentId": "next-asia-proposal-long-thanh-icao-vvlt",
+        "code": "VVLT",
+        "evidenceType": "primary_direct",
+        "note": "Identity/edition observation only. Neither allocation boundary nor continuous interval is established. No effective date inferred from publication, retrieval, service target or opening.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-asia-vn-longthanh-aic0725"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_f5d18210-26be-4492-a4df-8237ce76210d",
+        "assignmentId": "next-asia-proposal-namniwel-iata-nam",
+        "code": "NAM",
+        "evidenceType": "primary_direct",
+        "note": "Identity/edition observation only. Neither allocation boundary nor continuous interval is established. No effective date inferred from publication, retrieval, service target or opening.",
+        "scheme": "IATA",
+        "sourceIds": [
+          "next-asia-id-namniwel-profile"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_f5d18210-26be-4492-a4df-8237ce76210d",
+        "assignmentId": "next-asia-proposal-namniwel-icao-wapn",
+        "code": "WAPN",
+        "evidenceType": "primary_direct",
+        "note": "Identity/edition observation only. Neither allocation boundary nor continuous interval is established. No effective date inferred from publication, retrieval, service target or opening.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-asia-id-namniwel-profile",
+          "next-asia-id-bmkg-2025"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_4d186043-20f4-4293-8420-bbcc5788c674",
+        "assignmentId": "next-asia-proposal-sanga-sanga-iata-sgs",
+        "code": "SGS",
+        "evidenceType": "primary_direct",
+        "note": "Identity/edition observation only. Neither allocation boundary nor continuous interval is established. No effective date inferred from publication, retrieval, service target or opening.",
+        "scheme": "IATA",
+        "sourceIds": [
+          "next-asia-ph-pagasa-icao"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_4d186043-20f4-4293-8420-bbcc5788c674",
+        "assignmentId": "next-asia-proposal-sanga-sanga-icao-rpmn",
+        "code": "RPMN",
+        "evidenceType": "primary_direct",
+        "note": "Identity/edition observation only. Neither allocation boundary nor continuous interval is established. No effective date inferred from publication, retrieval, service target or opening.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-asia-ph-pagasa-icao"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_0f11fc4e-56e7-4563-b6ef-ace814d1931e",
+        "assignmentId": "proposal-uz-icao-utfa-20251002",
+        "code": "UTFA",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uzfa",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_0f11fc4e-56e7-4563-b6ef-ace814d1931e",
+        "assignmentId": "proposal-uz-icao-uzfa-20251002",
+        "code": "UZFA",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uzfa",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_3a7a9265-7eff-46b9-b078-4b5c1e21a37a",
+        "assignmentId": "proposal-uz-icao-utsb-20251002",
+        "code": "UTSB",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uzsb",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_3a7a9265-7eff-46b9-b078-4b5c1e21a37a",
+        "assignmentId": "proposal-uz-icao-uzsb-20251002",
+        "code": "UZSB",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uzsb",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_229092cd-9037-4fa2-bd35-4db135473f49",
+        "assignmentId": "proposal-uz-icao-uttc-20251002",
+        "code": "UTTC",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uztc",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_229092cd-9037-4fa2-bd35-4db135473f49",
+        "assignmentId": "proposal-uz-icao-uztc-20251002",
+        "code": "UZTC",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uztc",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_97c4c498-bbdd-4ab7-95d3-e4e01f241b36",
+        "assignmentId": "proposal-uz-icao-utff-20251002",
+        "code": "UTFF",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uzff",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_97c4c498-bbdd-4ab7-95d3-e4e01f241b36",
+        "assignmentId": "proposal-uz-icao-uzff-20251002",
+        "code": "UZFF",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uzff",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_5e086a57-59e2-4519-8814-3f4469b04813",
+        "assignmentId": "proposal-uz-icao-utsk-20251002",
+        "code": "UTSK",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uzsk",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_5e086a57-59e2-4519-8814-3f4469b04813",
+        "assignmentId": "proposal-uz-icao-uzsk-20251002",
+        "code": "UZSK",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uzsk",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_d31f8807-4195-4564-bb38-4dd4a877418c",
+        "assignmentId": "proposal-uz-icao-utfn-20251002",
+        "code": "UTFN",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uzfn",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_d31f8807-4195-4564-bb38-4dd4a877418c",
+        "assignmentId": "proposal-uz-icao-uzfn-20251002",
+        "code": "UZFN",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uzfn",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_34ce356b-c409-4607-b37c-157c686d0190",
+        "assignmentId": "proposal-uz-icao-utsa-20251002",
+        "code": "UTSA",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uzsa",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_34ce356b-c409-4607-b37c-157c686d0190",
+        "assignmentId": "proposal-uz-icao-uzsa-20251002",
+        "code": "UZSA",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uzsa",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_d31ef4a2-d47a-40ed-9c0f-a55e38fd08f4",
+        "assignmentId": "proposal-uz-icao-utnn-20251002",
+        "code": "UTNN",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uznn",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_d31ef4a2-d47a-40ed-9c0f-a55e38fd08f4",
+        "assignmentId": "proposal-uz-icao-uznn-20251002",
+        "code": "UZNN",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uznn",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_c43b3225-3f8c-42d1-9e7b-a2ca85f4a5ec",
+        "assignmentId": "proposal-uz-icao-utss-20251002",
+        "code": "UTSS",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uzss",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_c43b3225-3f8c-42d1-9e7b-a2ca85f4a5ec",
+        "assignmentId": "proposal-uz-icao-uzss-20251002",
+        "code": "UZSS",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uzss",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_b63fb151-04d1-4e91-ac8e-e92c597e4a84",
+        "assignmentId": "proposal-uz-icao-uttp-20251002",
+        "code": "UTTP",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uztp",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_b63fb151-04d1-4e91-ac8e-e92c597e4a84",
+        "assignmentId": "proposal-uz-icao-uztp-20251002",
+        "code": "UZTP",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uztp",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_8e91dc51-166b-49aa-81c8-d759e5188447",
+        "assignmentId": "proposal-uz-icao-uttt-20251002",
+        "code": "UTTT",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uztt",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_8e91dc51-166b-49aa-81c8-d759e5188447",
+        "assignmentId": "proposal-uz-icao-uztt-20251002",
+        "code": "UZTT",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uztt",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_b1278e6c-0f2f-4619-abff-9bb38ab8f640",
+        "assignmentId": "proposal-uz-icao-utst-20251002",
+        "code": "UTST",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uzst",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_b1278e6c-0f2f-4619-abff-9bb38ab8f640",
+        "assignmentId": "proposal-uz-icao-uzst-20251002",
+        "code": "UZST",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uzst",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_f5025dfc-007c-4dc9-8a70-a6eb68ced95d",
+        "assignmentId": "proposal-uz-icao-utnu-20251002",
+        "code": "UTNU",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uznu",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_f5025dfc-007c-4dc9-8a70-a6eb68ced95d",
+        "assignmentId": "proposal-uz-icao-uznu-20251002",
+        "code": "UZNU",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal from permanent national amendment; unknown outer boundary retained. No complete historical interval or resolver eligibility inferred. Trigger expiry is not withdrawal. IATA timing independent.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "next-uz-notam-summary-20251002",
+          "next-uz-amdt05-2025",
+          "next-uz-gen01",
+          "next-uz-ad2-uznu",
+          "next-uz-ad13"
+        ],
+        "validFrom": {
+          "earliest": "2025-10-02",
+          "latest": "2025-10-03",
+          "precision": "day"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_eb176a20-e0e3-438d-a330-a7b81185232d",
+        "assignmentId": "proposal-pbi-iata-pbi",
+        "code": "PBI",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal. FAQ distinguishes namespace cutover days but does not establish the whole historical interval. Unknown outer boundary retained. No daily continuity or operational-date substitution.",
+        "scheme": "IATA",
+        "sourceIds": [
+          "global-code-expansion-us-pbi-name-faq",
+          "next-us-pbi-actual-name-change"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2026-08-18",
+          "latest": "2026-08-19",
+          "precision": "day"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_eb176a20-e0e3-438d-a330-a7b81185232d",
+        "assignmentId": "proposal-pbi-iata-djt",
+        "code": "DJT",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal. FAQ distinguishes namespace cutover days but does not establish the whole historical interval. Unknown outer boundary retained. No daily continuity or operational-date substitution.",
+        "scheme": "IATA",
+        "sourceIds": [
+          "global-code-expansion-us-pbi-name-faq",
+          "next-us-pbi-actual-name-change"
+        ],
+        "validFrom": {
+          "earliest": "2026-08-18",
+          "latest": "2026-08-19",
+          "precision": "day"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_eb176a20-e0e3-438d-a330-a7b81185232d",
+        "assignmentId": "proposal-pbi-icao-kpbi",
+        "code": "KPBI",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal. FAQ distinguishes namespace cutover days but does not establish the whole historical interval. Unknown outer boundary retained. No daily continuity or operational-date substitution.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "global-code-expansion-us-pbi-name-faq",
+          "next-us-faa-info26011-official",
+          "next-us-faa-notice8900780",
+          "next-us-nws-kdjt-implementation",
+          "next-us-pbi-actual-name-change"
+        ],
+        "validFrom": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "validTo": {
+          "earliest": "2026-07-09",
+          "latest": "2026-07-10",
+          "precision": "day"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      },
+      {
+        "airportId": "apt_eb176a20-e0e3-438d-a330-a7b81185232d",
+        "assignmentId": "proposal-pbi-icao-kdjt",
+        "code": "KDJT",
+        "evidenceType": "primary_direct",
+        "note": "Boundary-only proposal. FAQ distinguishes namespace cutover days but does not establish the whole historical interval. Unknown outer boundary retained. No daily continuity or operational-date substitution.",
+        "scheme": "ICAO",
+        "sourceIds": [
+          "global-code-expansion-us-pbi-name-faq",
+          "next-us-faa-info26011-official",
+          "next-us-faa-notice8900780",
+          "next-us-nws-kdjt-implementation",
+          "next-us-pbi-actual-name-change"
+        ],
+        "validFrom": {
+          "earliest": "2026-07-09",
+          "latest": "2026-07-10",
+          "precision": "day"
+        },
+        "validTo": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "verificationStatus": "pending",
+        "verifiedOn": null
+      }
+    ],
+    "names": [],
+    "sources": [
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Source-Specific-Factual-Evidence",
+          "note": "Atomic factual metadata and minimal citations only; full originals and extracts remain ignored. No broad reuse license or production authorization inferred.",
+          "url": "https://aim.vatm.vn/images/stories/vnaic.vn/SanPhamDichVu/AIC/aic_07-25_approvedbycaav.pdf"
+        },
+        "note": "AIC A07/25; document_publication_and_effective_date_not_code_allocation",
+        "sourceId": "next-asia-vn-longthanh-aic0725",
+        "sourceType": "primary",
+        "title": "AIC07/25: Plan for putting Long Thanh VVLT into operation",
+        "url": "https://aim.vatm.vn/images/stories/vnaic.vn/SanPhamDichVu/AIC/aic_07-25_approvedbycaav.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Source-Specific-Factual-Evidence",
+          "note": "Atomic factual metadata and minimal citations only; full originals and extracts remain ignored. No broad reuse license or production authorization inferred.",
+          "url": "https://acv.vn/vi"
+        },
+        "note": "Undated live page retained8November2026; retrieval_observation_not_code_effective_date",
+        "sourceId": "next-asia-vn-acv-lth",
+        "sourceType": "primary",
+        "title": "Operator airport list with Long Thanh LTH",
+        "url": "https://acv.vn/vi",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Source-Specific-Factual-Evidence",
+          "note": "Atomic factual metadata and minimal citations only; full originals and extracts remain ignored. No broad reuse license or production authorization inferred.",
+          "url": "https://hubud.kemenhub.go.id/upbu/namniwel/data/bandara"
+        },
+        "note": "Undated live page retained8November2026; retrieval_observation_not_code_effective_date",
+        "sourceId": "next-asia-id-namniwel-profile",
+        "sourceType": "primary",
+        "title": "Namniwel official airport data",
+        "url": "https://hubud.kemenhub.go.id/upbu/namniwel/data/bandara",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Source-Specific-Factual-Evidence",
+          "note": "Atomic factual metadata and minimal citations only; full originals and extracts remain ignored. No broad reuse license or production authorization inferred.",
+          "url": "https://nagoya-airport.jp/contact/"
+        },
+        "note": "Undated live page retained8November2026; retrieval_observation_not_code_effective_date",
+        "sourceId": "next-asia-jp-nagoya-faq",
+        "sourceType": "primary",
+        "title": "Nagoya Airport FAQ distinguishes NKM from NGO",
+        "url": "https://nagoya-airport.jp/contact/",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Source-Specific-Factual-Evidence",
+          "note": "Atomic factual metadata and minimal citations only; full originals and extracts remain ignored. No broad reuse license or production authorization inferred.",
+          "url": "https://www.centrair.jp/help/faq/flight/1216405_1831.html"
+        },
+        "note": "Undated live page retained8November2026; retrieval_observation_not_code_effective_date",
+        "sourceId": "next-asia-jp-centrair-ngo-faq",
+        "sourceType": "primary",
+        "title": "Centrair FAQ: NGO designated by IATA",
+        "url": "https://www.centrair.jp/help/faq/flight/1216405_1831.html",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Source-Specific-Factual-Evidence",
+          "note": "Atomic factual metadata and minimal citations only; full originals and extracts remain ignored. No broad reuse license or production authorization inferred.",
+          "url": "https://pagasa.dost.gov.ph/aviation/icao-codes"
+        },
+        "note": "Undated live page retained8November2026; retrieval_observation_not_code_effective_date",
+        "sourceId": "next-asia-ph-pagasa-icao",
+        "sourceType": "primary",
+        "title": "ICAO code list with Sanga-Sanga SGS/RPMN and historical reuse annotations",
+        "url": "https://pagasa.dost.gov.ph/aviation/icao-codes",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Source-Specific-Factual-Evidence",
+          "note": "Atomic factual metadata and minimal citations only; full originals and extracts remain ignored. No broad reuse license or production authorization inferred.",
+          "url": "https://jdih.bmkg.go.id/common/dokumen/2025sedmbmkg001.pdf"
+        },
+        "note": "SE.1/DM/II/2025; meteorological_administration_edition_not_allocation",
+        "sourceId": "next-asia-id-bmkg-2025",
+        "sourceType": "primary",
+        "title": "2025 BMKG meteorological station service-code circular",
+        "url": "https://jdih.bmkg.go.id/common/dokumen/2025sedmbmkg001.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Source-Specific-Factual-Evidence",
+          "note": "Atomic factual metadata and minimal citations only; full originals and extracts remain ignored. No broad reuse license or production authorization inferred.",
+          "url": "https://www.gov.cn/zhengce/zhengceku/2018-12/31/5437877/files/144b812784c64b2bbfdeed7662de616a.pdf"
+        },
+        "note": "2018 domestic route market-price attachment; government_publication_directory_observation_not_code_transfer",
+        "sourceId": "next-asia-cn-2018-route-directory",
+        "sourceType": "primary",
+        "title": "2018 market-price domestic routes attachment: WUZ and other IATA observations",
+        "url": "https://www.gov.cn/zhengce/zhengceku/2018-12/31/5437877/files/144b812784c64b2bbfdeed7662de616a.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Source-Specific-Factual-Evidence",
+          "note": "Atomic factual metadata and minimal citations only; full originals and extracts remain ignored. No broad reuse license or production authorization inferred.",
+          "url": "https://acv.vn/en/tin-tuc/tin-tuc-hoat-dong-tong-cong-ty/acv-works-with-lending-banks-to-secure-funding-for-long-thanh-international-airport-project?id=123721"
+        },
+        "note": "Operator article13October2026; publication_date_with_future_operating_target",
+        "sourceId": "next-asia-vn-acv-oct2026-plan",
+        "sourceType": "primary",
+        "title": "ACV October2026 Long Thanh project financing and commercial-operation target",
+        "url": "https://acv.vn/en/tin-tuc/tin-tuc-hoat-dong-tong-cong-ty/acv-works-with-lending-banks-to-secure-funding-for-long-thanh-international-airport-project?id=123721",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Source-Specific-Factual-Evidence",
+          "note": "Atomic factual metadata and minimal citations only; full originals and extracts remain ignored. No broad reuse license or production authorization inferred.",
+          "url": "https://gdee.gd.gov.cn/attachment/0/515/515612/4130544.pdf"
+        },
+        "note": "Guangdong aviation MRV annex;2023revision and2022reporting scope; publication_and_reporting_scope_not_code_transfer",
+        "sourceId": "next-asia-cn-gd-2022-wuz",
+        "sourceType": "primary",
+        "title": "Guangdong government airport table identifying Wuzhou Xijiang WUZ",
+        "url": "https://gdee.gd.gov.cn/attachment/0/515/515612/4130544.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Source-Specific-Factual-Evidence",
+          "note": "Atomic factual metadata and minimal citations only; full originals and extracts remain ignored. No broad reuse license or production authorization inferred.",
+          "url": "https://www.civilaviation.gov.in/sites/default/files/migration/moca_001325.pdf"
+        },
+        "note": "S.O.1170(E),16May2008; S.O.1181(E),21May2008; statutory_code_transfer_and_amended_commissioning_boundary",
+        "sourceId": "next-asia-in-moca-bial-2008-amendment",
+        "sourceType": "primary",
+        "title": "MoCA Bangalore airport opening amendment referencing S.O.1170(E)",
+        "url": "https://www.civilaviation.gov.in/sites/default/files/migration/moca_001325.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Source-Specific-Factual-Evidence",
+          "note": "Atomic factual metadata and minimal citations only; full originals and extracts remain ignored. No broad reuse license or production authorization inferred.",
+          "url": "https://www.civilaviation.gov.in/sites/default/files/2023-07/7%20Extension-of-Concession-Agreement.pdf"
+        },
+        "note": "F.No.AV-20015/12/2019-AD letter July2021 and annexes;2023 URL directory; retrospective_execution_corroboration_not_a_new_code_allocation",
+        "sourceId": "next-asia-in-moca-bial-2023-concession",
+        "sourceType": "primary",
+        "title": "MoCA July2021 Bangalore concession extension dossier with2008 Gazette annex",
+        "url": "https://www.civilaviation.gov.in/sites/default/files/2023-07/7%20Extension-of-Concession-Agreement.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-03",
+        "license": {
+          "id": "LicenseRef-AAI-Terms",
+          "note": "Original aeronautical text; retain AAI attribution. Not licensed as MIT.",
+          "url": "https://www.aai.aero/en/corporate/copyright"
+        },
+        "note": "PROPOSAL ONLY (global batch 5). Original sha256 c0dcd7075f6347dfaa4716d24a80771dbf68f92dd50e55cdf302b0ba196ed9df. AIP edition effective date. Index row only; not an allocation date. One issuer edition.",
+        "sourceId": "b5-in-aip-2012-ad13",
+        "sourceType": "primary",
+        "title": "eAIP India 01-04-2012, AD 1.3 Index to aerodromes",
+        "url": "https://aim-india.aai.aero/eAIP_Archive/01-04-2012/eaip/PUB/2012-04-01/html/eAIP/EC-AD-1.3-en-GB.html",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-03",
+        "license": {
+          "id": "LicenseRef-AAI-Terms",
+          "note": "Original aeronautical text; retain AAI attribution. Not licensed as MIT.",
+          "url": "https://www.aai.aero/en/corporate/copyright"
+        },
+        "note": "PROPOSAL ONLY (global batch 5). Original sha256 351ed6295d2db1065a200717dc1bdb59c0c789192343c1434a0a789420c95873. AMDT effective 2026-10-29; page dated 01 OCT 2026. No IATA code on page.",
+        "sourceId": "b5-in-aip-2026-vobg",
+        "sourceType": "primary",
+        "title": "eAIP India AMDT 10-26, AD 2 VOBG",
+        "url": "https://aim-india.aai.aero/eaip/eaip-v2-10-2026/pdf/eAIP/AD%202.1VOBG.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-03",
+        "license": {
+          "id": "LicenseRef-AAI-Terms",
+          "note": "Original aeronautical text; retain AAI attribution. Not licensed as MIT.",
+          "url": "https://www.aai.aero/en/corporate/copyright"
+        },
+        "note": "PROPOSAL ONLY (global batch 5). Original sha256 04cdb88682944feb1d43ddf495c9a4c4c15b3b26baf78202d0fb3fc5713e4f1b. AMDT publication 2026-09-17, effective 2026-10-29; page dated 23 JAN 2025. No IATA code on page.",
+        "sourceId": "b5-in-aip-2026-vobl",
+        "sourceType": "primary",
+        "title": "eAIP India AMDT 10-26 (effective 2026-10-29), AD 2 VOBL",
+        "url": "https://aim-india.aai.aero/eaip/eaip-v2-10-2026/pdf/eAIP/AD%202.1VOBL.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Uzbekistan-Official-Document-Facts-Scoped",
+          "note": "LexUZ ZRU42 Article8 official-document/factual exclusion considered only for atomic state-issued code facts; no blanket AIP/chart licence or project admission grant. Full originals/extractions ignored.",
+          "url": "https://lex.uz/acts/1023494"
+        },
+        "note": "Source custody and triple hashes in Europe/source-lock.json; one national AIS lineage.",
+        "sourceId": "next-uz-notam-summary-20251002",
+        "sourceType": "primary",
+        "title": "Summary NOTAM Series D, 02 OCT 2025",
+        "url": "https://uzaeronavigation.com/media/file/Summary_NOTAM_02_OCT_2025.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Uzbekistan-Official-Document-Facts-Scoped",
+          "note": "LexUZ ZRU42 Article8 official-document/factual exclusion considered only for atomic state-issued code facts; no blanket AIP/chart licence or project admission grant. Full originals/extractions ignored.",
+          "url": "https://lex.uz/acts/1023494"
+        },
+        "note": "Source custody and triple hashes in Europe/source-lock.json; one national AIS lineage.",
+        "sourceId": "next-uz-ad2-uzfa",
+        "sourceType": "primary",
+        "title": "(1) Aerodrom location indicator and name UZFA",
+        "url": "https://uzaeronavigation.com/media/file/AD2._UZFA-1.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Uzbekistan-Official-Document-Facts-Scoped",
+          "note": "LexUZ ZRU42 Article8 official-document/factual exclusion considered only for atomic state-issued code facts; no blanket AIP/chart licence or project admission grant. Full originals/extractions ignored.",
+          "url": "https://lex.uz/acts/1023494"
+        },
+        "note": "Source custody and triple hashes in Europe/source-lock.json; one national AIS lineage.",
+        "sourceId": "next-uz-ad2-uzsb",
+        "sourceType": "primary",
+        "title": "(1) Aerodrome location indicator and name UZSB",
+        "url": "https://uzaeronavigation.com/media/file/1utsb1_2_3_ujrWdRx.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Uzbekistan-Official-Document-Facts-Scoped",
+          "note": "LexUZ ZRU42 Article8 official-document/factual exclusion considered only for atomic state-issued code facts; no blanket AIP/chart licence or project admission grant. Full originals/extractions ignored.",
+          "url": "https://lex.uz/acts/1023494"
+        },
+        "note": "Source custody and triple hashes in Europe/source-lock.json; one national AIS lineage.",
+        "sourceId": "next-uz-ad2-uzff",
+        "sourceType": "primary",
+        "title": "(1) Aerodrome location indicator and name UZFF",
+        "url": "https://uzaeronavigation.com/media/file/1_utff_1_2_3_hGvY9kA.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Uzbekistan-Official-Document-Facts-Scoped",
+          "note": "LexUZ ZRU42 Article8 official-document/factual exclusion considered only for atomic state-issued code facts; no blanket AIP/chart licence or project admission grant. Full originals/extractions ignored.",
+          "url": "https://lex.uz/acts/1023494"
+        },
+        "note": "Source custody and triple hashes in Europe/source-lock.json; one national AIS lineage.",
+        "sourceId": "next-uz-ad2-uzsk",
+        "sourceType": "primary",
+        "title": "(1) Aerodrome location indicator and name UZSK",
+        "url": "https://uzaeronavigation.com/media/file/1utsk1_2_3_RazKGRP.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Uzbekistan-Official-Document-Facts-Scoped",
+          "note": "LexUZ ZRU42 Article8 official-document/factual exclusion considered only for atomic state-issued code facts; no blanket AIP/chart licence or project admission grant. Full originals/extractions ignored.",
+          "url": "https://lex.uz/acts/1023494"
+        },
+        "note": "Source custody and triple hashes in Europe/source-lock.json; one national AIS lineage.",
+        "sourceId": "next-uz-ad2-uzfn",
+        "sourceType": "primary",
+        "title": "(1) Aerodrome location indicator and name UZFN",
+        "url": "https://uzaeronavigation.com/media/file/1_utfn1_1_2_3.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Uzbekistan-Official-Document-Facts-Scoped",
+          "note": "LexUZ ZRU42 Article8 official-document/factual exclusion considered only for atomic state-issued code facts; no blanket AIP/chart licence or project admission grant. Full originals/extractions ignored.",
+          "url": "https://lex.uz/acts/1023494"
+        },
+        "note": "Source custody and triple hashes in Europe/source-lock.json; one national AIS lineage.",
+        "sourceId": "next-uz-ad2-uzsa",
+        "sourceType": "primary",
+        "title": "(1) Aerodrome location indicator and name UZSA",
+        "url": "https://uzaeronavigation.com/media/file/1utsa1_2_3_VmHtXcH.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Uzbekistan-Official-Document-Facts-Scoped",
+          "note": "LexUZ ZRU42 Article8 official-document/factual exclusion considered only for atomic state-issued code facts; no blanket AIP/chart licence or project admission grant. Full originals/extractions ignored.",
+          "url": "https://lex.uz/acts/1023494"
+        },
+        "note": "Source custody and triple hashes in Europe/source-lock.json; one national AIS lineage.",
+        "sourceId": "next-uz-ad2-uznn",
+        "sourceType": "primary",
+        "title": "(1) Aerodrome Location indicator and name UZNN",
+        "url": "https://uzaeronavigation.com/media/file/utnn1_zIZA6RK.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Uzbekistan-Official-Document-Facts-Scoped",
+          "note": "LexUZ ZRU42 Article8 official-document/factual exclusion considered only for atomic state-issued code facts; no blanket AIP/chart licence or project admission grant. Full originals/extractions ignored.",
+          "url": "https://lex.uz/acts/1023494"
+        },
+        "note": "Source custody and triple hashes in Europe/source-lock.json; one national AIS lineage.",
+        "sourceId": "next-uz-ad2-uzss",
+        "sourceType": "primary",
+        "title": "(2.1.) Aerodrome location indicator and name UZSS",
+        "url": "https://uzaeronavigation.com/media/file/1_utss_1_2_3.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Uzbekistan-Official-Document-Facts-Scoped",
+          "note": "LexUZ ZRU42 Article8 official-document/factual exclusion considered only for atomic state-issued code facts; no blanket AIP/chart licence or project admission grant. Full originals/extractions ignored.",
+          "url": "https://lex.uz/acts/1023494"
+        },
+        "note": "Source custody and triple hashes in Europe/source-lock.json; one national AIS lineage.",
+        "sourceId": "next-uz-ad2-uztt",
+        "sourceType": "primary",
+        "title": "(1) Aerodrome location indicator and name UZTT",
+        "url": "https://uzaeronavigation.com/media/file/1uttt1_2_3_FWVI1MG.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Uzbekistan-Official-Document-Facts-Scoped",
+          "note": "LexUZ ZRU42 Article8 official-document/factual exclusion considered only for atomic state-issued code facts; no blanket AIP/chart licence or project admission grant. Full originals/extractions ignored.",
+          "url": "https://lex.uz/acts/1023494"
+        },
+        "note": "Source custody and triple hashes in Europe/source-lock.json; one national AIS lineage.",
+        "sourceId": "next-uz-ad2-uztp",
+        "sourceType": "primary",
+        "title": "(1) Aerodrome location indicator and name UZTP",
+        "url": "https://uzaeronavigation.com/media/file/1_UTTP_21_2.2_2.3_3Ml1tNe.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Uzbekistan-Official-Document-Facts-Scoped",
+          "note": "LexUZ ZRU42 Article8 official-document/factual exclusion considered only for atomic state-issued code facts; no blanket AIP/chart licence or project admission grant. Full originals/extractions ignored.",
+          "url": "https://lex.uz/acts/1023494"
+        },
+        "note": "Source custody and triple hashes in Europe/source-lock.json; one national AIS lineage.",
+        "sourceId": "next-uz-ad2-uzst",
+        "sourceType": "primary",
+        "title": "(1) Aerodrome location indicator and name UZST",
+        "url": "https://uzaeronavigation.com/media/file/1utst1_2_3_xRpByh3.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Uzbekistan-Official-Document-Facts-Scoped",
+          "note": "LexUZ ZRU42 Article8 official-document/factual exclusion considered only for atomic state-issued code facts; no blanket AIP/chart licence or project admission grant. Full originals/extractions ignored.",
+          "url": "https://lex.uz/acts/1023494"
+        },
+        "note": "Source custody and triple hashes in Europe/source-lock.json; one national AIS lineage.",
+        "sourceId": "next-uz-ad2-uznu",
+        "sourceType": "primary",
+        "title": "(1) Aerodrome location indicator and name UZNU",
+        "url": "https://uzaeronavigation.com/media/file/1utnu1_2_3_h0S3fB5.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Uzbekistan-Official-Document-Facts-Scoped",
+          "note": "LexUZ ZRU42 Article8 official-document/factual exclusion considered only for atomic state-issued code facts; no blanket AIP/chart licence or project admission grant. Full originals/extractions ignored.",
+          "url": "https://lex.uz/acts/1023494"
+        },
+        "note": "Source custody and triple hashes in Europe/source-lock.json; one national AIS lineage.",
+        "sourceId": "next-uz-ad2-uztc",
+        "sourceType": "primary",
+        "title": "(1) Aerodrome location indicator and name UZTC",
+        "url": "https://uzaeronavigation.com/media/file/1uttc1_2_3_MvcJNzW.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Uzbekistan-Official-Document-Facts-Scoped",
+          "note": "LexUZ ZRU42 Article8 official-document/factual exclusion considered only for atomic state-issued code facts; no blanket AIP/chart licence or project admission grant. Full originals/extractions ignored.",
+          "url": "https://lex.uz/acts/1023494"
+        },
+        "note": "Source custody and triple hashes in Europe/source-lock.json; one national AIS lineage.",
+        "sourceId": "next-uz-ad13",
+        "sourceType": "primary",
+        "title": "AIP AD1.3 index",
+        "url": "https://uzaeronavigation.com/media/file/ad13_INebEVY.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Uzbekistan-Official-Document-Facts-Scoped",
+          "note": "LexUZ ZRU42 Article8 official-document/factual exclusion considered only for atomic state-issued code facts; no blanket AIP/chart licence or project admission grant. Full originals/extractions ignored.",
+          "url": "https://lex.uz/acts/1023494"
+        },
+        "note": "Source custody and triple hashes in Europe/source-lock.json; one national AIS lineage.",
+        "sourceId": "next-uz-amdt05-2025",
+        "sourceType": "primary",
+        "title": "AIRAC AIP AMDT05/25 attempted conventional URL",
+        "url": "https://uzaeronavigation.com/media/file/am05_2025.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-Uzbekistan-Official-Document-Facts-Scoped",
+          "note": "LexUZ ZRU42 Article8 official-document/factual exclusion considered only for atomic state-issued code facts; no blanket AIP/chart licence or project admission grant. Full originals/extractions ignored.",
+          "url": "https://lex.uz/acts/1023494"
+        },
+        "note": "Source custody and triple hashes in Europe/source-lock.json; one national AIS lineage.",
+        "sourceId": "next-uz-gen01",
+        "sourceType": "primary",
+        "title": "GEN 0.1 Preface",
+        "url": "https://uzaeronavigation.com/media/file/gen01_SLQjFGq.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-07",
+        "license": {
+          "id": "LicenseRef-PalmBeachCounty-RightsReserved",
+          "note": "Factual metadata only; full originals/extractions retained in ignored work. No third-party redistribution licence or project admission grant inferred.",
+          "url": "https://flydjt.org/about/name-change-faqs/"
+        },
+        "note": "Operator reports independent ICAO and IATA code change days; unknown outer boundaries. Only factual notes and two short heading anchors retained.",
+        "sourceId": "global-code-expansion-us-pbi-name-faq",
+        "sourceType": "primary",
+        "title": "Palm Beach County Department of Airports: name-change FAQ (updated2026-08-20)",
+        "url": "https://flydjt.org/about/name-change-faqs/",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-07",
+        "license": {
+          "id": "LicenseRef-PalmBeachCounty-RightsReserved",
+          "note": "Factual metadata only; full originals/extractions retained in ignored work. No third-party redistribution licence or project admission grant inferred.",
+          "url": "https://discover.pbc.gov/airports/Pages/default.aspx"
+        },
+        "note": "Establishes operator publishing authority and links to the airport site; no independent allocation chronology.",
+        "sourceId": "global-code-expansion-us-pbc-airports",
+        "sourceType": "primary",
+        "title": "Palm Beach County Department of Airports administration page",
+        "url": "https://discover.pbc.gov/airports/Pages/default.aspx",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-07",
+        "license": {
+          "id": "LicenseRef-US-Government",
+          "note": "Factual metadata only; full originals/extractions retained in ignored work. No third-party redistribution licence or project admission grant inferred.",
+          "url": "https://aeronav.faa.gov/d-tpp/2611/xml_data/d-TPP_Metafile.xml"
+        },
+        "note": "Reuse prior b5-us-dtpp-2611 lock; duplicate retrieval audited separately. ICAO-labelled current edition observation, not a code allocation or withdrawal record.",
+        "sourceId": "global-code-expansion-us-faa-dtpp-2611",
+        "sourceType": "primary",
+        "title": "FAA d-TPP metafile cycle2611",
+        "url": "https://aeronav.faa.gov/d-tpp/2611/xml_data/d-TPP_Metafile.xml",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-07",
+        "license": {
+          "id": "LicenseRef-US-Government",
+          "note": "Factual metadata only; full originals/extractions retained in ignored work. No third-party redistribution licence or project admission grant inferred.",
+          "url": "https://aeronav.faa.gov/d-tpp/2611/00449AD.PDF"
+        },
+        "note": "Named physical airfield corroboration only; no chart reproduced, no IATA meaning inferred from FAA LID.",
+        "sourceId": "global-code-expansion-us-faa-djt-diagram-2611",
+        "sourceType": "primary",
+        "title": "FAA airport diagram AL-449, cycle2611",
+        "url": "https://aeronav.faa.gov/d-tpp/2611/00449AD.PDF",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-US-Government",
+          "note": "Only bibliographic metadata and atomic factual claims retained; original/extraction in ignored work. No project source-family authority inferred.",
+          "url": "https://www.faa.gov/other_visit/aviation_industry/airline_operators/airline_safety/info/all_infos/InFO26011.pdf"
+        },
+        "note": "Prospective federal administrative notice",
+        "sourceId": "next-us-faa-info26011-official",
+        "sourceType": "primary",
+        "title": "FAA InFO 26011: renaming Palm Beach International Airport",
+        "url": "https://www.faa.gov/other_visit/aviation_industry/airline_operators/airline_safety/info/all_infos/InFO26011.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-US-Government",
+          "note": "Only bibliographic metadata and atomic factual claims retained; original/extraction in ignored work. No project source-family authority inferred.",
+          "url": "https://www.faa.gov/documentLibrary/media/Notice/N_8900.780.pdf"
+        },
+        "note": "Prospective federal administrative notice",
+        "sourceId": "next-us-faa-notice8900780",
+        "sourceType": "primary",
+        "title": "FAA Notice N 8900.780: renaming Palm Beach International Airport",
+        "url": "https://www.faa.gov/documentLibrary/media/Notice/N_8900.780.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-US-Government",
+          "note": "Only bibliographic metadata and atomic factual claims retained; original/extraction in ignored work. No project source-family authority inferred.",
+          "url": "https://www.weather.gov/media/notification/pdf_2026/scn26-56_KDJT_TAF_Implementation.pdf"
+        },
+        "note": "Prospective federal administrative notice",
+        "sourceId": "next-us-nws-kdjt-implementation",
+        "sourceType": "primary",
+        "title": "NWS Service Change Notice 26-56: KDJT TAF implementation",
+        "url": "https://www.weather.gov/media/notification/pdf_2026/scn26-56_KDJT_TAF_Implementation.pdf",
+        "verificationStatus": "pending"
+      },
+      {
+        "accessedOn": "2026-11-08",
+        "license": {
+          "id": "LicenseRef-PalmBeachCounty-RightsReserved",
+          "note": "Only bibliographic metadata and atomic factual claims retained; original/extraction in ignored work. No project source-family authority inferred.",
+          "url": "https://flydjt.org/articles/post/president-donald-j-trump-international-airport-name-change-takes-effect/"
+        },
+        "note": "Body datelineJuly9 reports actual ICAO KDJT and prospective IATA PBI untilAug18; page displayJuly14 preserved. Not a same-day publication claim.",
+        "sourceId": "next-us-pbi-actual-name-change",
+        "sourceType": "primary",
+        "title": "Palm Beach County airport name-change execution report",
+        "url": "https://flydjt.org/articles/post/president-donald-j-trump-international-airport-name-change-takes-effect/",
+        "verificationStatus": "pending"
+      }
+    ]
+  },
+  "unchangedPublishedSourceReuse": [
+    {
+      "lane": "asia",
+      "policy": "Use unchanged published Source record; candidate metadata cannot overwrite it.",
+      "sourceId": "ourairports-20261025"
+    }
+  ]
+}

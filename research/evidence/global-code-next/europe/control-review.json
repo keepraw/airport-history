@@ -1,0 +1,195 @@
+{
+  "formatVersion": 1,
+  "reviewedOn": "2026-11-09",
+  "sourceIds": [
+    "next-uz-amdt05-2025",
+    "next-uz-amdt06-2025",
+    "next-uz-amdt07-2025-issued",
+    "next-uz-amdt01-2026",
+    "next-uz-amdt02-26",
+    "next-uz-amdt03-26",
+    "next-uz-amdt04-26",
+    "next-uz-amdt05-26",
+    "next-uz-gen02",
+    "next-uz-gen03",
+    "next-uz-gen04",
+    "next-uz-gen05",
+    "next-uz-notam-summary-20251002",
+    "next-uz-notam-summary-20261101"
+  ],
+  "amendmentControl": [
+    {
+      "sourceId": "next-uz-amdt05-2025",
+      "packageEffectiveDate": "2025-10-02",
+      "locationIndicatorComponent": "GEN2.4-1",
+      "locationIndicatorComponentDate": "02 OCT 25",
+      "componentControlLocator": {
+        "extractedLine": 546,
+        "meaning": "Actual edition checklist row inspected; excerpt not reproduced"
+      },
+      "replacementCodeMappingCount": 13,
+      "replacementTableDisposition": "initial national replacement13mappings",
+      "incorporatedPublicationIds": [
+        "AIC 03/25",
+        "AIC 04/25",
+        "D0353/25",
+        "D0474/25",
+        "D0597/25"
+      ],
+      "noticeIdLimitation": "Cover incorporation list only, not cancellation history or complete AIC/NOTAM content."
+    },
+    {
+      "sourceId": "next-uz-amdt06-2025",
+      "packageEffectiveDate": "2025-10-30",
+      "locationIndicatorComponent": "GEN2.4-1",
+      "locationIndicatorComponentDate": "02 OCT 25",
+      "componentControlLocator": {
+        "extractedLine": 121,
+        "meaning": "Actual edition checklist row inspected; excerpt not reproduced"
+      },
+      "replacementCodeMappingCount": null,
+      "replacementTableDisposition": "prior controlled component retained per checklist",
+      "incorporatedPublicationIds": [],
+      "noticeIdLimitation": "Cover incorporation list only, not cancellation history or complete AIC/NOTAM content."
+    },
+    {
+      "sourceId": "next-uz-amdt07-2025-issued",
+      "packageEffectiveDate": "2025-11-27",
+      "locationIndicatorComponent": "GEN2.4-1",
+      "locationIndicatorComponentDate": "02 OCT 25",
+      "componentControlLocator": {
+        "extractedLine": 129,
+        "meaning": "Actual edition checklist row inspected; excerpt not reproduced"
+      },
+      "replacementCodeMappingCount": null,
+      "replacementTableDisposition": "prior controlled component retained per checklist",
+      "incorporatedPublicationIds": [
+        "D1037/25",
+        "D1042/25"
+      ],
+      "noticeIdLimitation": "Cover incorporation list only, not cancellation history or complete AIC/NOTAM content."
+    },
+    {
+      "sourceId": "next-uz-amdt01-2026",
+      "packageEffectiveDate": "2026-01-22",
+      "locationIndicatorComponent": "GEN2.4-1",
+      "locationIndicatorComponentDate": "22 JAN 26",
+      "componentControlLocator": {
+        "extractedLine": 106,
+        "meaning": "Actual edition checklist row inspected; excerpt not reproduced"
+      },
+      "replacementCodeMappingCount": 13,
+      "replacementTableDisposition": "13samecode-site mappings; Chirchik separated as military in01/26",
+      "incorporatedPublicationIds": [
+        "AIC 05/25"
+      ],
+      "noticeIdLimitation": "Cover incorporation list only, not cancellation history or complete AIC/NOTAM content."
+    },
+    {
+      "sourceId": "next-uz-amdt02-26",
+      "packageEffectiveDate": "2026-04-16",
+      "locationIndicatorComponent": "GEN2.4-1",
+      "locationIndicatorComponentDate": "22 JAN 26",
+      "componentControlLocator": {
+        "extractedLine": 99,
+        "meaning": "Actual edition checklist row inspected; excerpt not reproduced"
+      },
+      "replacementCodeMappingCount": null,
+      "replacementTableDisposition": "prior controlled component retained per checklist",
+      "incorporatedPublicationIds": [],
+      "noticeIdLimitation": "Cover incorporation list only, not cancellation history or complete AIC/NOTAM content."
+    },
+    {
+      "sourceId": "next-uz-amdt03-26",
+      "packageEffectiveDate": "2026-05-14",
+      "locationIndicatorComponent": "GEN2.4-1",
+      "locationIndicatorComponentDate": "22 JAN 26",
+      "componentControlLocator": {
+        "extractedLine": 131,
+        "meaning": "Actual edition checklist row inspected; excerpt not reproduced"
+      },
+      "replacementCodeMappingCount": null,
+      "replacementTableDisposition": "prior controlled component retained per checklist",
+      "incorporatedPublicationIds": [
+        "AIC 01/26",
+        "D0166/26",
+        "D1221/25",
+        "D1310/25",
+        "D1711/25",
+        "D1728/25"
+      ],
+      "noticeIdLimitation": "Cover incorporation list only, not cancellation history or complete AIC/NOTAM content."
+    },
+    {
+      "sourceId": "next-uz-amdt04-26",
+      "packageEffectiveDate": "2026-07-09",
+      "locationIndicatorComponent": "GEN2.4-1",
+      "locationIndicatorComponentDate": "22 JAN 26",
+      "componentControlLocator": {
+        "extractedLine": 124,
+        "meaning": "Actual edition checklist row inspected; excerpt not reproduced"
+      },
+      "replacementCodeMappingCount": null,
+      "replacementTableDisposition": "prior controlled component retained per checklist",
+      "incorporatedPublicationIds": [],
+      "noticeIdLimitation": "Cover incorporation list only, not cancellation history or complete AIC/NOTAM content."
+    },
+    {
+      "sourceId": "next-uz-amdt05-26",
+      "packageEffectiveDate": "2026-10-29",
+      "locationIndicatorComponent": "GEN2.4-1",
+      "locationIndicatorComponentDate": "22 JAN 26",
+      "componentControlLocator": {
+        "extractedLine": 152,
+        "meaning": "Actual edition checklist row inspected; excerpt not reproduced"
+      },
+      "replacementCodeMappingCount": null,
+      "replacementTableDisposition": "prior controlled component retained per checklist",
+      "incorporatedPublicationIds": [
+        "AIC 03/14",
+        "D0578/26",
+        "D0863/26",
+        "D0864/26",
+        "D0939/26",
+        "D0997/26",
+        "D0998/26"
+      ],
+      "noticeIdLimitation": "Cover incorporation list only, not cancellation history or complete AIC/NOTAM content."
+    }
+  ],
+  "currentControl": {
+    "asOfChecklistDate": "2026-10-29",
+    "GEN2.4-1": "22 JAN 26",
+    "AD2FirstPages": {
+      "02 OCT 25": [
+        "UZSB",
+        "UZTC",
+        "UZFF",
+        "UZSK",
+        "UZFN",
+        "UZSA",
+        "UZNN",
+        "UZSS",
+        "UZTT",
+        "UZST",
+        "UZNU"
+      ],
+      "14 MAY 26": [
+        "UZTP"
+      ],
+      "29 OCT 26": [
+        "UZFA"
+      ]
+    },
+    "GEN0.3": "Current acquired blank supplement record dated23Dec2004",
+    "GEN0.5": "Current acquired blank hand-amendment record dated23Dec2004"
+  },
+  "positiveFinding": "Complete recorded AIRAC sequence is acquired;13code/site mappings preserved through actual22Jan2026 replacement and latest29Oct2026 checklist. This is controlled component evidence, beyond two point observations.",
+  "unresolvedLifecycle": "Cover references and current blank GEN0.3/0.5 records do not establish historical cancellation scope. Underlying incorporated AIC05/25 and complete historic NOTAM/AIC/supplement lifecycles are not acquired. Current01Nov2026 NOTAM summary is not full intervening history.",
+  "nationalTriggerScope": {
+    "D0968/25": "Permanent ICAO prefix amendment, effective02Oct2025;16Oct trigger expiry is not code-end.",
+    "D0971/25": "Transitional operational-message/AFTN addresses retain UT temporarily; separate from the national aerodrome location-indicator substitution."
+  },
+  "wholeIntervalSupported": false,
+  "conditionalReviewEligible": false
+}

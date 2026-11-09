@@ -1,0 +1,37 @@
+{
+  "candidateValidation": {
+    "errors": [],
+    "warnings": [
+      "Possible boundary overlap: iata-ist-ataturk / iata-ist-istanbul",
+      "Possible boundary overlap: iata-hkg-kai-tak / iata-hkg-chek-lap-kok",
+      "Possible boundary overlap: iata-den-stapleton / iata-den-denver",
+      "Possible boundary overlap: icao-vhhh-kai-tak / icao-vhhh-chek-lap-kok",
+      "Possible boundary overlap: iata-isl-istanbul / iata-isl-ataturk",
+      "Possible boundary overlap: iata-isb-benazir-bhutto / iata-isb-islamabad",
+      "Possible boundary overlap: iata-rov-rostov-on-don / iata-rov-platov",
+      "Possible boundary overlap: iata-ynt-laishan / iata-ynt-penglai",
+      "Unconfirmed assignment overlap (review required): b5-proposal-hal-iata-blr / b5-proposal-kempegowda-iata-blr",
+      "Possible official-name boundary overlap: name-astana-before-2017 / name-astana-nazarbayev-2017"
+    ]
+  },
+  "checks": [
+    "Regional JSON parsed; unique canonical event/cluster counts checked against prior locked1198 queue",
+    "21new substantive high groups,5blocked,7oldfollowups,6associated lowerpriority groups separated",
+    "Every review batch has at most20physical event groups",
+    "1113remaining queue deterministic gzip mtime0; old64 and new21 excluded exactly",
+    "All available cached raw/extracted/normalized bytes rehashed without retrieval",
+    "All structured quote hashes and available character offsets verified",
+    "All policy decision input SHA256 locks match final regional artifacts",
+    "Normalized append-only full candidate Dataset validates through existing src/validate.ts",
+    "All38new candidate assignments stay pending with null verifiedOn",
+    "Production resolver reports0newresolved,0changedresolved,0newconflicts,0removedconflicts",
+    "Exact32tuple scope stays proposal-only without Owner acceptance",
+    "Formal data,grants,executor,CI,version and application files unchanged"
+  ],
+  "determinism": "Existing0.12.0 two-build receipt retained and checked in PR35 review. This phase does not change version or build inputs; no new release build claimed.",
+  "formatVersion": 1,
+  "historyAudit": "Run once after commit against actual new ancestry; CI runs existing checks once on PR.",
+  "policyValidationPath": "research/evidence/global-code-next/policy/validation.json",
+  "reviewedOn": "2026-11-09",
+  "status": "passed_targeted_artifact_checks_not_formal_admission"
+}

@@ -1,0 +1,1372 @@
+{
+  "formatVersion": 1,
+  "reviewedOn": "2026-11-09",
+  "sources": [
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "application/pdf",
+      "dateNature": "NOTAM summary issue date; code-effective and trigger-validity clauses must be read independently",
+      "extractedTextSha256": "9d61f3e0a9bb2b07ed245d4c5bb5e3bcc8aa23a5e752f234e60be6589be1a597",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/Summary_NOTAM_02_OCT_2025.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "cfe87f3766fc168356d4fac0a46957e82f69728a70dbec2eafb3090601f6eaef",
+      "originalBytes": 284655,
+      "originalSha256": "2acadce3c029d7ac929a97c07c34d2f5d2f5632a7a74d05ab40ceee52e005295",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-notam-summary-20251002.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-notam-summary-20251002.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-notam-summary-20251002.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-notam-summary-20251002",
+      "title": "Summary NOTAM Series D, 02 OCT 2025",
+      "url": "https://uzaeronavigation.com/media/file/Summary_NOTAM_02_OCT_2025.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "PDF p1, D0968/25",
+          "anchor": "TRIGGER NOTAM-PERM AIRAC AIP",
+          "factualUse": "Permanent AIRAC05/25 national UT→UZ substitution; trigger expires16Oct2025, permanent amendment does not."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "text/html; charset=utf-8",
+      "dateNature": "Current publication control index, not code allocation date",
+      "extractedTextSha256": "def21f9546f604e408adacb742e4e03018023b7d6234df6cc776e76fc9894278",
+      "extraction": "stdlib HTMLParser, script/style omitted; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/ais/",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "bc76c6124d13b2644eea3a1f3d0095a33593eb310daaf0881a1c05c36c2e45fc",
+      "originalBytes": 266327,
+      "originalSha256": "5fefdb6a0a26bade847817cdc6ec046aa7978e43d6a275dad8147940d4c95f0f",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-ais-index.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-ais-index.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-ais-index.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ais-index",
+      "title": "AIS publication index",
+      "url": "https://uzaeronavigation.com/ais/",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "AIS publication index and linked controlled AIP parts",
+          "anchor": "AIS",
+          "factualUse": "Publication navigation/current control evidence only."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "application/pdf",
+      "dateNature": "Retrospective annual report; exact code change clause separately assessed",
+      "extractedTextSha256": "fc1f4d9fbc06779d5913744c8a10bba326e84d290f156cd524b27cc950d84660",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://app.gov.md/wp-content/uploads/2023/12/2024-123.pdf",
+      "httpStatus": 200,
+      "independenceKey": "MD-APP-AIRPORT-ANNUAL-REPORT",
+      "normalizedTextSha256": "8ec1a2bb8fb7316102cea9e21272297ee6f0ec251103e5d46d0cb4791b883a80",
+      "originalBytes": 6578574,
+      "originalSha256": "c6fca741895a45227612b6204d7631fd3fda39deab7b25f81d19b7c53a8f4d97",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-md-annual-report-2024.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-md-annual-report-2024.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-md-annual-report-2024.raw",
+      "publisher": "Moldova Public Property Agency / Chișinău International Airport",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "MD-APP-AIRPORT-ANNUAL-REPORT",
+      "sourceId": "next-md-annual-report-2024",
+      "title": "Airport annual report 2024",
+      "url": "https://app.gov.md/wp-content/uploads/2023/12/2024-123.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "PDF p7,2024 activity narrative",
+          "anchor": "noul cod IATA: RMO",
+          "factualUse": "Annual report retrospectively says2024 began with newly assigned RMO. It does not independently date the transition day or clock."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "code": "UZFA",
+      "contentType": "application/pdf",
+      "dateNature": "Current controlled AIS AD2 component date and location code; not first allocation or complete continuity",
+      "extractedTextSha256": "6086e0a63265565256dcafbf9e68ec2273fdff22c09082739687aa7bef0e9e90",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/AD2._UZFA-1.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "b03ef708bac44072a547335581d4b06167b414b7d60951ff467eb8dd99282afb",
+      "originalBytes": 157238,
+      "originalSha256": "d9b42c79e6a97fce6440e1f612f732a35b6efbaec82c724781cc7ba495fedb13",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-ad2-uzfa.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-ad2-uzfa.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-ad2-uzfa.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uzfa",
+      "title": "(1) Aerodrom location indicator and name UZFA",
+      "url": "https://uzaeronavigation.com/media/file/AD2._UZFA-1.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "AD2.1 and AD2.2, first page",
+          "anchor": "AERODROME LOCATION INDICATOR AND NAME.",
+          "factualUse": "Named physical aerodrome and current ARP; component date separately retained, not assumed code allocation date."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "code": "UZSB",
+      "contentType": "application/pdf",
+      "dateNature": "Current controlled AIS AD2 component date and location code; not first allocation or complete continuity",
+      "extractedTextSha256": "f7fa003b310d9f923c3a73c8778953b8b432fcb701a3ee913a5a87d3ea1f2ea8",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/1utsb1_2_3_ujrWdRx.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "7c58484599205db3c349e11779953ece3594923012b5ae9cb0658cbc74379f95",
+      "originalBytes": 249890,
+      "originalSha256": "e0fe5bc375863da94d98709ae7e9da5afc49ddaa3b0f727f5f67d20ad1dea8ae",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-ad2-uzsb.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-ad2-uzsb.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-ad2-uzsb.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uzsb",
+      "title": "(1) Aerodrome location indicator and name UZSB",
+      "url": "https://uzaeronavigation.com/media/file/1utsb1_2_3_ujrWdRx.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "AD2.1 and AD2.2, first page",
+          "anchor": "AERODROME LOCATION INDICATOR AND NAME.",
+          "factualUse": "Named physical aerodrome and current ARP; component date separately retained, not assumed code allocation date."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "code": "UZFF",
+      "contentType": "application/pdf",
+      "dateNature": "Current controlled AIS AD2 component date and location code; not first allocation or complete continuity",
+      "extractedTextSha256": "dbc3d1a7bffe9d9fe7c842999f745aef4e65021867ec37dd45b1cf02ed1c3b96",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/1_utff_1_2_3_hGvY9kA.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "8e3aa9c334570fa1b07f0a60746a04f76aff198730652c77164e7e58f9e4af7a",
+      "originalBytes": 255513,
+      "originalSha256": "45a63eb4c91ad9ae496334ddbd3ffaf8993a5e0ed43b2b89e252b9144b97e5a0",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-ad2-uzff.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-ad2-uzff.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-ad2-uzff.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uzff",
+      "title": "(1) Aerodrome location indicator and name UZFF",
+      "url": "https://uzaeronavigation.com/media/file/1_utff_1_2_3_hGvY9kA.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "AD2.1 and AD2.2, first page",
+          "anchor": "AERODROME LOCATION INDICATOR AND NAME.",
+          "factualUse": "Named physical aerodrome and current ARP; component date separately retained, not assumed code allocation date."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "code": "UZSK",
+      "contentType": "application/pdf",
+      "dateNature": "Current controlled AIS AD2 component date and location code; not first allocation or complete continuity",
+      "extractedTextSha256": "59b8d8198c40c57f300a0ac61e1c6b4e2d1547827691f173948e77454575a599",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/1utsk1_2_3_RazKGRP.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "b77c54ac8f3a21021d077afedec25239ec626970055bdf3b44e0abd1b62db284",
+      "originalBytes": 252194,
+      "originalSha256": "c796890f6b4e286cb52c5e99123ea0205f4b2cf955ecea5352f684d3c4473e67",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-ad2-uzsk.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-ad2-uzsk.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-ad2-uzsk.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uzsk",
+      "title": "(1) Aerodrome location indicator and name UZSK",
+      "url": "https://uzaeronavigation.com/media/file/1utsk1_2_3_RazKGRP.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "AD2.1 and AD2.2, first page",
+          "anchor": "AERODROME LOCATION INDICATOR AND NAME.",
+          "factualUse": "Named physical aerodrome and current ARP; component date separately retained, not assumed code allocation date."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "code": "UZFN",
+      "contentType": "application/pdf",
+      "dateNature": "Current controlled AIS AD2 component date and location code; not first allocation or complete continuity",
+      "extractedTextSha256": "7be3e1d52d5480fd6129878ed211eac3df4a5af8b24ab9341b47b8cd97050e68",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/1_utfn1_1_2_3.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "01adca4abc8564ee5feb9c4a80c95923d37f6ed86f462f00628da582b6bbaea4",
+      "originalBytes": 252334,
+      "originalSha256": "027fd7cc720e0122cfb2ce0b3487747d428dc3aa25fb91fea9dd200d75ccb921",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-ad2-uzfn.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-ad2-uzfn.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-ad2-uzfn.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uzfn",
+      "title": "(1) Aerodrome location indicator and name UZFN",
+      "url": "https://uzaeronavigation.com/media/file/1_utfn1_1_2_3.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "AD2.1 and AD2.2, first page",
+          "anchor": "AERODROME LOCATION INDICATOR AND NAME.",
+          "factualUse": "Named physical aerodrome and current ARP; component date separately retained, not assumed code allocation date."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "code": "UZSA",
+      "contentType": "application/pdf",
+      "dateNature": "Current controlled AIS AD2 component date and location code; not first allocation or complete continuity",
+      "extractedTextSha256": "0801119d27e9a1d918330db32b9e8996fcdd05f6c061e08471bb193d2456b9d4",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/1utsa1_2_3_VmHtXcH.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "a8cdb02c9687b401e359dd72cdd651cfc4a62276f3475b32cfbbf26c18e918d6",
+      "originalBytes": 256445,
+      "originalSha256": "eedf8cd711b99ce9f40f58abf19e5166c0e24af7c1b001a1a3f4b124e06df809",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-ad2-uzsa.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-ad2-uzsa.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-ad2-uzsa.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uzsa",
+      "title": "(1) Aerodrome location indicator and name UZSA",
+      "url": "https://uzaeronavigation.com/media/file/1utsa1_2_3_VmHtXcH.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "AD2.1 and AD2.2, first page",
+          "anchor": "AERODROME LOCATION INDICATOR AND NAME.",
+          "factualUse": "Named physical aerodrome and current ARP; component date separately retained, not assumed code allocation date."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "code": "UZNN",
+      "contentType": "application/pdf",
+      "dateNature": "Current controlled AIS AD2 component date and location code; not first allocation or complete continuity",
+      "extractedTextSha256": "5d961f8a6e200333c76bd06f10690ce4b4aadee7178c813c1195a3512146159d",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/utnn1_zIZA6RK.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "378ba609f7192d01517f5ef1f218c65eac165106cb3ee857375903a23ef6ec64",
+      "originalBytes": 251366,
+      "originalSha256": "ae13121d3b417b0ddea734fd3878e900d7216f823904b0e183a1a6f1527ef35b",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-ad2-uznn.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-ad2-uznn.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-ad2-uznn.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uznn",
+      "title": "(1) Aerodrome Location indicator and name UZNN",
+      "url": "https://uzaeronavigation.com/media/file/utnn1_zIZA6RK.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "AD2.1 and AD2.2, first page",
+          "anchor": "AERODROME LOCATION INDICATOR AND NAME.",
+          "factualUse": "Named physical aerodrome and current ARP; component date separately retained, not assumed code allocation date."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "code": "UZSS",
+      "contentType": "application/pdf",
+      "dateNature": "Current controlled AIS AD2 component date and location code; not first allocation or complete continuity",
+      "extractedTextSha256": "5544683b6d91bfaf151acadde0198f06d26a8fab587039bdaed3396150739edc",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/1_utss_1_2_3.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "11f7c3e25547da8961be484489e9fd0dfa099f11e9eb4401bdb88b0af4509af6",
+      "originalBytes": 369709,
+      "originalSha256": "2549416a036ab8473ee1accf212e447c9f7a96fc530ebb47f9853f5f10ce5a2c",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-ad2-uzss.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-ad2-uzss.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-ad2-uzss.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uzss",
+      "title": "(2.1.) Aerodrome location indicator and name UZSS",
+      "url": "https://uzaeronavigation.com/media/file/1_utss_1_2_3.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "AD2.1 and AD2.2, first page",
+          "anchor": "AERODROME LOCATION INDICATOR AND NAME.",
+          "factualUse": "Named physical aerodrome and current ARP; component date separately retained, not assumed code allocation date."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "code": "UZTT",
+      "contentType": "application/pdf",
+      "dateNature": "Current controlled AIS AD2 component date and location code; not first allocation or complete continuity",
+      "extractedTextSha256": "80383693ce710c2ff630e1de0aa5e0c3342116b02571fb21329d1d0428626077",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/1uttt1_2_3_FWVI1MG.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "6617f339225d990366ddb43589232a8a689187e29f1634745516fb91d79b4f10",
+      "originalBytes": 253232,
+      "originalSha256": "796f6e1c3e09405a05d11f0f88ca8b6d5f7ec712219741620837fd32aa2ef818",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-ad2-uztt.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-ad2-uztt.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-ad2-uztt.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uztt",
+      "title": "(1) Aerodrome location indicator and name UZTT",
+      "url": "https://uzaeronavigation.com/media/file/1uttt1_2_3_FWVI1MG.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "AD2.1 and AD2.2, first page",
+          "anchor": "AERODROME LOCATION INDICATOR AND NAME.",
+          "factualUse": "Named physical aerodrome and current ARP; component date separately retained, not assumed code allocation date."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "code": "UZTP",
+      "contentType": "application/pdf",
+      "dateNature": "Current controlled AIS AD2 component date and location code; not first allocation or complete continuity",
+      "extractedTextSha256": "77716e64f0d91fd67db2ac0d0df34f05e974a8e91e03dd1f239898d24f21bccc",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/1_UTTP_21_2.2_2.3_3Ml1tNe.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "82535673f22085bb84901cb82067770fb63e9942fa1d36ae13b95a9fe1eec7f2",
+      "originalBytes": 252132,
+      "originalSha256": "a5b1b346205a1e8fb7db7507b32aceb7b34c61e02f7a99b3030a3a317be918f3",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-ad2-uztp.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-ad2-uztp.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-ad2-uztp.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uztp",
+      "title": "(1) Aerodrome location indicator and name UZTP",
+      "url": "https://uzaeronavigation.com/media/file/1_UTTP_21_2.2_2.3_3Ml1tNe.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "AD2.1 and AD2.2, first page",
+          "anchor": "AERODROME LOCATION INDICATOR AND NAME.",
+          "factualUse": "Named physical aerodrome and current ARP; component date separately retained, not assumed code allocation date."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "code": "UZST",
+      "contentType": "application/pdf",
+      "dateNature": "Current controlled AIS AD2 component date and location code; not first allocation or complete continuity",
+      "extractedTextSha256": "6061a49c6c592f0b20e9e632b027e9fac6d1fc4b961dc31ff679aaec81e650fa",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/1utst1_2_3_xRpByh3.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "7b25cdf11a0de70da2b9724b8fda34c2339c351f2e2fff58d3584601798fb475",
+      "originalBytes": 248582,
+      "originalSha256": "bc095210bc531e1dbffd37ec838809181cd4eb61e34f1bd5c327542e12cbabf9",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-ad2-uzst.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-ad2-uzst.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-ad2-uzst.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uzst",
+      "title": "(1) Aerodrome location indicator and name UZST",
+      "url": "https://uzaeronavigation.com/media/file/1utst1_2_3_xRpByh3.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "AD2.1 and AD2.2, first page",
+          "anchor": "AERODROME LOCATION INDICATOR AND NAME.",
+          "factualUse": "Named physical aerodrome and current ARP; component date separately retained, not assumed code allocation date."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "code": "UZNU",
+      "contentType": "application/pdf",
+      "dateNature": "Current controlled AIS AD2 component date and location code; not first allocation or complete continuity",
+      "extractedTextSha256": "9558246f165ea5747e5aab1dd6c1e9070d68ca160eaf825049447f852417ea9a",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/1utnu1_2_3_h0S3fB5.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "986ff46b3b774f042621ecaf0babde79027fde5d1173da25c8dd1201cd2bf029",
+      "originalBytes": 250312,
+      "originalSha256": "be93317d0934412d5d3ecfcb44a297ea8e5382afc147d331ec7adf575cbf9228",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-ad2-uznu.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-ad2-uznu.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-ad2-uznu.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uznu",
+      "title": "(1) Aerodrome location indicator and name UZNU",
+      "url": "https://uzaeronavigation.com/media/file/1utnu1_2_3_h0S3fB5.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "AD2.1 and AD2.2, first page",
+          "anchor": "AERODROME LOCATION INDICATOR AND NAME.",
+          "factualUse": "Named physical aerodrome and current ARP; component date separately retained, not assumed code allocation date."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "code": "UZTC",
+      "contentType": "application/pdf",
+      "dateNature": "Current controlled AIS AD2 component date and location code; not first allocation or complete continuity",
+      "extractedTextSha256": "723e7b6720779a02c5ef0ba546f06e090e605199db9b5793e87a7857b42e7d3d",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/1uttc1_2_3_MvcJNzW.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "c8d2626c51228cbe4bd64d7c61304aec9d113976ab9a488e49246e95efd7a0e3",
+      "originalBytes": 250192,
+      "originalSha256": "b726f793218de362d1a9918d08e782b3df3715c82547cf9f2160545c1313ea26",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-ad2-uztc.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-ad2-uztc.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-ad2-uztc.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uztc",
+      "title": "(1) Aerodrome location indicator and name UZTC",
+      "url": "https://uzaeronavigation.com/media/file/1uttc1_2_3_MvcJNzW.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "AD2.1 and AD2.2, first page",
+          "anchor": "AERODROME LOCATION INDICATOR AND NAME.",
+          "factualUse": "Named physical aerodrome and current ARP; component date separately retained, not assumed code allocation date."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "application/pdf",
+      "dateNature": "Controlled amendment/edition evidence; code effects separately assessed",
+      "extractedTextSha256": "632f86a34ce1986a246653cfa43c626b63264ec7d5cf4dfa4f60a2c4cb02a553",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/GEN_0.2-1.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "ca10b6ebf5b4ce97a707f82bb95cd96a56a3aa761261d14f6fe3e88354e3431d",
+      "originalBytes": 136932,
+      "originalSha256": "112f2a86cb2f5324a344f0c0f4fd2c5568cae3fe18a072d41a8647c5aafad53d",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-gen02.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-gen02.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-gen02.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-gen02",
+      "title": "AIP GEN0.2 amendment register",
+      "url": "https://uzaeronavigation.com/media/file/GEN_0.2-1.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "GEN0.2-1,29Oct2026",
+          "anchor": "RECORD OF AIP AMENDMENTS",
+          "factualUse": "Records AIRAC05/25,06/25,07/25 and01/26 through05/26. No intervening non-AIRAC amendment listed after20/25 of02Aug2025."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "application/pdf",
+      "dateNature": "Controlled amendment/edition evidence; code effects separately assessed",
+      "extractedTextSha256": "6b2a545040a49f54beecf1d72965d797e07b55147e1886555bc1a03ca83bbacf",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/ad13_INebEVY.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "6e8c2b51592b3296626e3c2847667e3d53963e83652fefce84cf451b70f9b30a",
+      "originalBytes": 511517,
+      "originalSha256": "cace9af11b847c25133a34c9a7a5f109898f40dd0235ebffae08564484eb7ecd",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-ad13.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-ad13.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-ad13.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad13",
+      "title": "AIP AD1.3 index",
+      "url": "https://uzaeronavigation.com/media/file/ad13_INebEVY.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "AD1.3-1,22Jan2026",
+          "anchor": "INDEX OF AERODROMES",
+          "factualUse": "Current index corroborates12 international civil aerodromes plus Chirchik military aerodrome; no independent source lineage."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "application/pdf",
+      "dateNature": "Controlled amendment/edition evidence; code effects separately assessed",
+      "extractedTextSha256": "2e2758c143f01bc8b62429014cf723847c922bb3bd04b2053d3e21f159c4ca6a",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/am05_2025.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "01658068f8689e6c60ad8f4f335df147e05df6661ad8829d9654f27ab81fe5b9",
+      "originalBytes": 128218323,
+      "originalSha256": "14782589d9f3ffb94fc13f57a5c648e3a9281ac51906997cc1512bda7e4c74ce",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-amdt05-2025.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-amdt05-2025.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-amdt05-2025.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt05-2025",
+      "title": "AIRAC AIP AMDT05/25 attempted conventional URL",
+      "url": "https://uzaeronavigation.com/media/file/am05_2025.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "PDF p1 and p33, GEN2.4-1",
+          "anchor": "EFFECTIVE DATE",
+          "factualUse": "AIRAC05/25 effective02Oct2025; GEN2.4 contains13 named aerodromes; individual code facts retained below, table not reproduced."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "application/pdf",
+      "dateNature": "Controlled amendment/edition evidence; code effects separately assessed",
+      "extractedTextSha256": "c89186002dadac6600d9c4d3fc3328e5c2acf5caf2d6836c998f3f61eeb8cdda",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/am06_2025.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "0d3f94d362d069e441cfeca1323608f1dd019dbc9f0a211765b20ce5d575d678",
+      "originalBytes": 13231462,
+      "originalSha256": "b508c5812a9db095f8d8de5d900feb2ae10f4ecb03baf6c16a608fff48e6a3ff",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-amdt06-2025.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-amdt06-2025.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-amdt06-2025.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt06-2025",
+      "title": "AIRAC AIP AMDT06/25 effective30Oct2025",
+      "url": "https://uzaeronavigation.com/media/file/am06_2025.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "Amendment cover, insertion list and GEN0.4 checklist",
+          "anchor": "EFFECTIVE DATE",
+          "factualUse": "Effective controlled replacement package; inspected against national code table and13 AD2 core components; historic NOTAM cancellation coverage remains incomplete."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "application/pdf",
+      "dateNature": "Controlled amendment/edition evidence; code effects separately assessed",
+      "extractedTextSha256": "8ede043223af3b5ecb463b51db1e48a0cc5a6c26717e025a2700dc72021e183b",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/AIRAC_AMDT_0126_eff_date_22_JAN_26.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "71ab91875502fc1fbf3b03666d179536c5dcff120d5a0f370ec3bfade4245e1c",
+      "originalBytes": 3741388,
+      "originalSha256": "fbb1c2c1c76fd30531fb1797a23befac702b24521413ffb0b82cae5e31fff47a",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-amdt01-2026.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-amdt01-2026.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-amdt01-2026.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt01-2026",
+      "title": "AIRAC AIP AMDT01/26 effective22Jan2026",
+      "url": "https://uzaeronavigation.com/media/file/AIRAC_AMDT_0126_eff_date_22_JAN_26.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "Amendment cover, insertion list and GEN0.4 checklist",
+          "anchor": "EFFECTIVE DATE",
+          "factualUse": "Effective controlled replacement package; inspected against national code table and13 AD2 core components; historic NOTAM cancellation coverage remains incomplete."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "application/pdf",
+      "dateNature": "Official AIP publisher/version control; code effective boundaries separately established",
+      "extractedTextSha256": "9b5291e47dffd6614cd05525673c63c673009fe894ecf74656d2ef0356ba1aaa",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/gen01_SLQjFGq.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "3d66b5577d087de5151c4369b584b0fafeb95c010b0626d9524809dbc2d928e2",
+      "originalBytes": 277199,
+      "originalSha256": "3c6699e32e1a3d355b63c32d4ae0799e0b685952c72631ce1ab73f30bcc97cf4",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-gen01.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-gen01.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-gen01.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-gen01",
+      "title": "GEN 0.1 Preface",
+      "url": "https://uzaeronavigation.com/media/file/gen01_SLQjFGq.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "GEN0.1-1, paragraphs1–2",
+          "anchor": "NAME OF THE PUBLISHING AUTHORITY.",
+          "factualUse": "SUE Uzaeronavigation publishes under powers of Civil Aviation Agency under Ministry of Transport; AIP follows Annex15 and Doc8126."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "application/pdf",
+      "dateNature": "Official AIP publisher/version control; code effective boundaries separately established",
+      "extractedTextSha256": "e5e8e1c3e3c61e0358e8a1e4ec95505528e9b9a45e88287a075d46ffaea1a1ec",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/AIRAC_AMDT_02_2026_eff_date_16_APR_26_hAl6OAl.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "521ec3cbc5aad4cdb87c42ce28af0879bba1ed8bbb6e0548f39af3085c67d34c",
+      "originalBytes": 5687321,
+      "originalSha256": "18e6b56d70fa006d5092b14cd0e1ad038fe2f8efc701c6a50f6ac3cfcbdbe05e",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-amdt02-26.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-amdt02-26.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-amdt02-26.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt02-26",
+      "title": "AIRAC AMDT 02/26 eff date 16 APR 26",
+      "url": "https://uzaeronavigation.com/media/file/AIRAC_AMDT_02_2026_eff_date_16_APR_26_hAl6OAl.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "Amendment cover, insertion list and GEN0.4 checklist",
+          "anchor": "EFFECTIVE DATE",
+          "factualUse": "Effective controlled replacement package; inspected against national code table and13 AD2 core components; historic NOTAM cancellation coverage remains incomplete."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "application/pdf",
+      "dateNature": "Official AIP publisher/version control; code effective boundaries separately established",
+      "extractedTextSha256": "148f56b4f706ec4262fb957f884c88d044eca96a234b7ccba4e46fa0965a31e6",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/AIRAC_AMDT_0326_eff_date_14_MAY_26.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "3d60e7b90d2186319acada7bff72fc6fe649c6d4ac21920a24fb2ce86bab5abb",
+      "originalBytes": 26938023,
+      "originalSha256": "b6786598125da7b1f85e6fdd6ce5b25a3ec59e49e0ba8618d2d70d14118a8edf",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-amdt03-26.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-amdt03-26.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-amdt03-26.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt03-26",
+      "title": "AIRAC AMDT 03/26 eff date 14 MAY 26",
+      "url": "https://uzaeronavigation.com/media/file/AIRAC_AMDT_0326_eff_date_14_MAY_26.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "Amendment cover, insertion list and GEN0.4 checklist",
+          "anchor": "EFFECTIVE DATE",
+          "factualUse": "Effective controlled replacement package; inspected against national code table and13 AD2 core components; historic NOTAM cancellation coverage remains incomplete."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "application/pdf",
+      "dateNature": "Official AIP publisher/version control; code effective boundaries separately established",
+      "extractedTextSha256": "a8d9edfa90375fdbf1491e72f66c78dd8711808e017ae0e245f2f456206caefc",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/am04_2026_eBAFjR4.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "a7cc751c931c3dd42683c07f2589660e1a930fdaa93139ca374b91cafadc0f74",
+      "originalBytes": 18667429,
+      "originalSha256": "4c1e29e350f7b9dc1f4aabb1b8467fc6423bd9adb7c94cbe63bae4e4f4b60e1d",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-amdt04-26.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-amdt04-26.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-amdt04-26.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt04-26",
+      "title": "AIRAC AMDT 04/26 eff date 09 JUL 26",
+      "url": "https://uzaeronavigation.com/media/file/am04_2026_eBAFjR4.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "Amendment cover, insertion list and GEN0.4 checklist",
+          "anchor": "EFFECTIVE DATE",
+          "factualUse": "Effective controlled replacement package; inspected against national code table and13 AD2 core components; historic NOTAM cancellation coverage remains incomplete."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "application/pdf",
+      "dateNature": "Official AIP publisher/version control; code effective boundaries separately established",
+      "extractedTextSha256": "b3279b1cded86ae85eda3243a8d39841419e8cfda9bdaf5588984a6b473cf189",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/am05_2026.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "8d7e48e5324fcd95a426b178ae17edaaac1b698abedcdf1c69459c39d7f99ca6",
+      "originalBytes": 61778974,
+      "originalSha256": "d9eeeb990224aeac989122baf3f0d46e5c179646941d97001aa7ed3d498ae336",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-amdt05-26.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-amdt05-26.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-amdt05-26.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt05-26",
+      "title": "AIRAC AMDT 05/26 eff date 29 OCT 26",
+      "url": "https://uzaeronavigation.com/media/file/am05_2026.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "Amendment cover, insertion list and GEN0.4 checklist",
+          "anchor": "EFFECTIVE DATE",
+          "factualUse": "Effective controlled replacement package; inspected against national code table and13 AD2 core components; historic NOTAM cancellation coverage remains incomplete."
+        }
+      ]
+    },
+    {
+      "accessResult": "unavailable_original",
+      "accessedOn": "2026-11-08",
+      "dateNature": "Historical version control; original effective clause separately inspected",
+      "error": "HTTP Error 404: Not Found",
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt07-2025",
+      "title": "AIRAC AIP AMDT07/25",
+      "url": "https://uzaeronavigation.com/media/file/am07_2025.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "resolvedBySourceId": "next-uz-amdt07-2025-issued",
+      "errorMeaning": "Wrong guessed URL404; corrected official07/25 PDF already acquired under resolvedBySourceId. Not an outstanding missing amendment."
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "application/pdf",
+      "dateNature": "Controlled effective page dates, not inferred code dates",
+      "extractedTextSha256": "a39deb3d45ac02d944610e27318586635b6d3918e4a518856fc956b0614574f8",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/GEN_0.4-1-6.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "f909ca3b6c36947eaafc40706cd1224cd613389cab87b4e97f64bc6403589fef",
+      "originalBytes": 596932,
+      "originalSha256": "35e4ed4a389346b92894bc3c01c069c40db6ec11bc9060b5646a5d930e8b7cb8",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-gen04.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-gen04.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-gen04.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-gen04",
+      "title": "GEN0.4 effective-page checklist",
+      "url": "https://uzaeronavigation.com/media/file/GEN_0.4-1-6.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "GEN0.4-1..6,29Oct2026",
+          "anchor": "CHECK LIST OF AIP PAGES",
+          "factualUse": "Current inventory retains replacement GEN2.4-1 of22Jan2026 and eleven AD2 first pages of02Oct2025; UZFA-1 replaced29Oct2026, UZTP-1 replaced14May2026."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "application/pdf",
+      "dateNature": "Version lifecycle control",
+      "extractedTextSha256": "d3801e4ab88e395870dd8464d860f71c9cbd45505f033f4acccf68ab7745440e",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/gen03.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "14b7be01ea4ea7b9a13bbeaddeb01f05f15e974c2c2bbde5a08dcce681b0f976",
+      "originalBytes": 65021,
+      "originalSha256": "3b007701cb65238fd87b7d34799abd09563ca873fc6dadfd221a1877dc1dd643",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-gen03.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-gen03.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-gen03.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-gen03",
+      "title": "GEN0.3 AIP supplement register",
+      "url": "https://uzaeronavigation.com/media/file/gen03.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "GEN0.3-1,23Dec2004, current download",
+          "anchor": "RECORD OF AIP SUPPLEMENTS",
+          "factualUse": "Record blank; old component date/current availability alone cannot establish complete historic supplement/cancellation coverage."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "application/pdf",
+      "dateNature": "Version lifecycle control",
+      "extractedTextSha256": "872ced58a359d23dc75d0adcd636fef4a1ea8949bdc9fd000f6d7ddee5506401",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/gen05.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "1d14d534922a2600842be5aa7a66a4258d0334d21c53628b8454fa10c986be21",
+      "originalBytes": 64747,
+      "originalSha256": "ade77e121003b76ad700bf202c252ef1ddaffd3024498790f5779ec6c3f0d72e",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-gen05.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-gen05.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-gen05.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-gen05",
+      "title": "GEN0.5 hand amendments",
+      "url": "https://uzaeronavigation.com/media/file/gen05.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "GEN0.5-1,23Dec2004, current download",
+          "anchor": "LIST OF HAND AMENDMENTS TO THE AIP",
+          "factualUse": "No hand amendment entries on acquired component; does not establish all historic NOTAM lifecycles."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "text/html; charset=UTF-8",
+      "dateNature": "Physical opening and registration statement; code allocation dates separately assessed",
+      "extractedTextSha256": "eb92563bc9254c136ef642e922da5e88d2e042ea41cd7f4ea16f9f0b97560cde",
+      "extraction": "stdlib HTMLParser, script/style omitted; normalized NFC whitespace collapse",
+      "finalUrl": "https://turkmenistan.gov.tm/en/post/94625/president-turkmenistan-participated-opening-ceremony-balkanabat-international-airport",
+      "httpStatus": 200,
+      "independenceKey": "TM-STATE-GOVERNMENT",
+      "normalizedTextSha256": "01644ac37b9e16755cac10954020950463cbba3e937fe6843204667355978f77",
+      "originalBytes": 38146,
+      "originalSha256": "7a812823a57e1f5655a1046c2a317d0eb2f7364cc71ba8a9be053a9d4385d7e6",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-tm-balkanabat-government.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-tm-balkanabat-government.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-tm-balkanabat-government.raw",
+      "publisher": "State News Agency / Government of Turkmenistan",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "TM-STATE-GOVERNMENT",
+      "sourceId": "next-tm-balkanabat-government",
+      "title": "President opens Balkanabat International Airport",
+      "url": "https://turkmenistan.gov.tm/en/post/94625/president-turkmenistan-participated-opening-ceremony-balkanabat-international-airport",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "Article date02May2025; opening ceremony and registration paragraphs",
+          "anchor": "02.05.2025",
+          "factualUse": "Actual airport opening and registration certificates described; no BKN/UTAN allocation, withdrawal or transfer clause."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "text/html; charset=UTF-8",
+      "dateNature": "Carrier announcement; code-specific claims separately assessed",
+      "extractedTextSha256": "11644367e550669aaf5ae606aa55c79398e9afaef771b0610ead337f1c0307e3",
+      "extraction": "stdlib HTMLParser, script/style omitted; normalized NFC whitespace collapse",
+      "finalUrl": "https://turkmenistanairlines.tm/en/news/show/mezhdunarodnyy-aeroport-balkanabat-novaya-veha-v-razvitii-transportnoy-infrastruktury-turkmenistana",
+      "httpStatus": 200,
+      "independenceKey": "TM-TURKMENISTAN-AIRLINES",
+      "normalizedTextSha256": "1b934cc7ee1955b1a245da88d38672b15b2f79bf4f033e090c4b694adb9a4478",
+      "originalBytes": 36903,
+      "originalSha256": "12ffb364d839ce637e9543293d8b1d6cd6b6435a3010978234de8f8703788770",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-tm-balkanabat-carrier.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-tm-balkanabat-carrier.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-tm-balkanabat-carrier.raw",
+      "publisher": "Turkmenistan Airlines",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "TM-TURKMENISTAN-AIRLINES",
+      "sourceId": "next-tm-balkanabat-carrier",
+      "title": "Balkanabat International Airport",
+      "url": "https://turkmenistanairlines.tm/en/news/show/mezhdunarodnyy-aeroport-balkanabat-novaya-veha-v-razvitii-transportnoy-infrastruktury-turkmenistana",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "Opening ceremony article body",
+          "anchor": "20 kilometers northwest",
+          "factualUse": "New airport location20km northwest, opening02May; no code assignment or transfer effective date."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "text/html;charset=utf-8",
+      "dateNature": "Current operator code observation, not historical allocation date",
+      "extractedTextSha256": "737b809c149aad3d248d7749c470f9f027173fed8ce2078be4ee7659a68094dd",
+      "extraction": "stdlib HTMLParser, script/style omitted; normalized NFC whitespace collapse",
+      "finalUrl": "https://tia.gov.tm/en",
+      "httpStatus": 200,
+      "independenceKey": "TM-TURKMENABAT-OPERATOR",
+      "normalizedTextSha256": "d2e2e56545e831b7512fc6ac17ea3e8bd82ac24a7327051de5e978a6b17767d7",
+      "originalBytes": 158527,
+      "originalSha256": "1e78a677d4210b8ad8bd7547fc9597b53f84892400503abef7cc7762ec9f4d87",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-tm-turkmenabat-operator.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-tm-turkmenabat-operator.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-tm-turkmenabat-operator.raw",
+      "publisher": "Turkmenabat International Airport",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "TM-TURKMENABAT-OPERATOR",
+      "sourceId": "next-tm-turkmenabat-operator",
+      "title": "Official operator homepage and code",
+      "url": "https://tia.gov.tm/en",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "Airport footer and about paragraph",
+          "anchor": "Airport code: CRZ",
+          "factualUse": "Operator current CRZ observation and rebuilt2018 narrative; generic airport-code label not a dated IATA allocation original."
+        }
+      ]
+    },
+    {
+      "accessResult": "unavailable_original",
+      "accessedOn": "2026-11-08",
+      "dateNature": "Controlled edition code/name observation; no allocation/withdrawal inferred",
+      "error": "HTTP Error 404: Not Found",
+      "independenceKey": "EE-EANS-AIP",
+      "publisher": "Estonian Air Navigation Services AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "EE-EANS-AIP",
+      "sourceId": "next-ee-gen24",
+      "title": "AIPGEN2.4 location indicators, edition16Apr2026",
+      "url": "https://eaip.eans.ee/2026-04-16/html/eAIP/EE-GEN-2.4-en-GB.html",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors."
+    },
+    {
+      "accessResult": "unavailable_original",
+      "accessedOn": "2026-11-08",
+      "dateNature": "Controlled edition certification and code observation; NIL certification is not code withdrawal",
+      "error": "HTTP Error 404: Not Found",
+      "independenceKey": "EE-EANS-AIP",
+      "publisher": "Estonian Air Navigation Services AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "EE-EANS-AIP",
+      "sourceId": "next-ee-ad15",
+      "title": "AIPAD1.5 certification status, edition16Apr2026",
+      "url": "https://eaip.eans.ee/2026-04-16/html/eAIP/EE-AD-1.5-en-GB.html",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors."
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "application/pdf",
+      "dateNature": "Registered successor amendment control",
+      "extractedTextSha256": "95d26af7d23aa5795916de10a092d288e543d5e48bedf6f0e49e0626cadd1b0c",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/AIRAC_AMDT_0725_eff_date_27_NOV_25.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "d0ea6457115f8b4cb3afe9e26d9a37978be886cc336c1862331d931de1ca80ab",
+      "originalBytes": 14666162,
+      "originalSha256": "5bb027bcad90f9f4523107a4abc5754320dc9859b899ee2f1674ce0c1661faa0",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-amdt07-2025-issued.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-amdt07-2025-issued.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-amdt07-2025-issued.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt07-2025-issued",
+      "title": "AIRAC AMDT07/25, effective27Nov2025, actual official indexed URL",
+      "url": "https://uzaeronavigation.com/media/file/AIRAC_AMDT_0725_eff_date_27_NOV_25.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "Amendment cover, insertion list and GEN0.4 checklist",
+          "anchor": "EFFECTIVE DATE",
+          "factualUse": "Effective controlled replacement package; inspected against national code table and13 AD2 core components; historic NOTAM cancellation coverage remains incomplete."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "application/pdf",
+      "dateNature": "Current NOTAM summary control, not complete history by itself",
+      "extractedTextSha256": "dc7f632a4e95cdf4b25245abbc74ee149fea109700ac3ba84e73f207bcf6128e",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/Summary_NOTAM_01_NOV_2026_ZfCOoKY.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "ca6f67f276408f18b3deab577ffc8c17e005d789ca7c2adabac087bf62237bb3",
+      "originalBytes": 305740,
+      "originalSha256": "f2f296d54021caafe00e680140221d5a62bb51980aa9bb40ce62798888f3b2ba",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-notam-summary-20261101.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-notam-summary-20261101.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-notam-summary-20261101.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-notam-summary-20261101",
+      "title": "Current published SummaryNOTAM01Nov2026",
+      "url": "https://uzaeronavigation.com/media/file/Summary_NOTAM_01_NOV_2026_ZfCOoKY.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "Series D summary01Nov2026; D1611/26 and current UZ aerodrome entries",
+          "anchor": "TRIGGER NOTAM-PERM AIRAC AIP",
+          "factualUse": "Current summary includes amendments to procedures/distances, not withdrawal of national UZ prefix. Absence here does not prove historic absence."
+        }
+      ]
+    },
+    {
+      "accessResult": "original_acquired",
+      "accessedOn": "2026-11-08",
+      "contentType": "application/pdf",
+      "dateNature": "Controlled pre-change code observations, not original allocation",
+      "extractedTextSha256": "8e82a0a102f65a1fd73efcf08adc1c2311d977039ca37692e8823679fd188f02",
+      "extraction": "pdftotext -layout; normalized NFC whitespace collapse",
+      "finalUrl": "https://uzaeronavigation.com/media/file/AIRAC_AMDT_04_25_eff_date_10_JUL_25.pdf",
+      "httpStatus": 200,
+      "independenceKey": "UZ-UZAERONAVIGATION-AIS",
+      "normalizedTextSha256": "b889515d8ac59af8ba22bdf1cd56c7f2e40e725fe3c13557a182f74771709c63",
+      "originalBytes": 16325321,
+      "originalSha256": "50924fe800eac2098d2d510fd7cef11dd2bee2395e7e6823987603a73126a864",
+      "privateExtractedTextPath": "work/global-code-next/europe/next-uz-amdt04-2025.txt",
+      "privateNormalizedTextPath": "work/global-code-next/europe/next-uz-amdt04-2025.normalized.txt",
+      "privateOriginalPath": "work/global-code-next/europe/next-uz-amdt04-2025.raw",
+      "publisher": "Uzaeronavigation Centre / Republic of Uzbekistan AIS",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata, source hashes, factual analysis and minimal citation anchors only; full originals/extractions stay ignored work."
+      },
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt04-2025",
+      "title": "AIRAC AMDT04/25, effective10Jul2025",
+      "url": "https://uzaeronavigation.com/media/file/AIRAC_AMDT_04_25_eff_date_10_JUL_25.pdf",
+      "reinspectedOn": "2026-11-09",
+      "custody": "Original and complete extraction retained only in ignored work; public factual metadata/minimal anchors.",
+      "cachedArtifactsReverified": true,
+      "retrievalThisFinish": "none_reused_cached_bytes",
+      "minimalCitations": [
+        {
+          "locator": "Amendment cover, insertion list and GEN0.4 checklist",
+          "anchor": "EFFECTIVE DATE",
+          "factualUse": "Effective controlled replacement package; inspected against national code table and13 AD2 core components; historic NOTAM cancellation coverage remains incomplete."
+        }
+      ]
+    }
+  ],
+  "sourceIndependence": "All Uzbekistan AIS editions, current components and NOTAM summaries are one state AIS lineage.",
+  "retentionPolicy": "Only source metadata, hashes, minimal anchors and original atomic factual analysis are public; no full original, extraction, chart or complete AIP table."
+}

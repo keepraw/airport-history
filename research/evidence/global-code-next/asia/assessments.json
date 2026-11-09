@@ -1,0 +1,430 @@
+{
+  "cases": [
+    {
+      "authorityStatus": "source_specific_proposal_only_no_global_or_AAI_grant_inheritance",
+      "caseId": "next-asia-long-thanh",
+      "codes": [
+        "IATA:LTH",
+        "ICAO:VVLT"
+      ],
+      "country": "VN",
+      "eventGroupId": "lead_c7e49c9c1c12e13e7fd46d9e",
+      "findings": "Official AIC explicitly identifies LTH and VVLT and gives ARP104704N1070228E. Its3October2025 publication/effectiveness governs the AIC, not the code allocation. June2026 commercial and11June2026 AD2 supplement dates were plans; ACV13October2026 still targets December2026 commercial operation. No observed opening or code-effective interval is inferred.",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 18,
+      "label": "Long Thanh International Airport (Under Construction)",
+      "machinePriorityTier": "high",
+      "newFacts": "Official AIC explicitly identifies LTH and VVLT and gives ARP104704N1070228E. Its3October2025 publication/effectiveness governs the AIC, not the code allocation. June2026 commercial and11June2026 AD2 supplement dates were plans; ACV13October2026 still targets December2026 commercial operation. No observed opening or code-effective interval is inferred.",
+      "newRemainingHighValueReview": true,
+      "newSourceIds": [
+        "next-asia-vn-longthanh-aic0725",
+        "next-asia-vn-acv-lth",
+        "next-asia-vn-acv-oct2026-plan"
+      ],
+      "nextAction": "Acquire the actual controlled AD2/AIP SUP and amendment lifecycle plus allocation evidence; distinguish each namespace and the former LTH reuse lead.",
+      "rank": 18,
+      "readiness": "identity_or_observation_only_no_whole_interval",
+      "relatedAliasesCountedAsNewReviews": false,
+      "relatedEventGroupIds": [
+        "lead_ccbe781e305767a2640289a4",
+        "lead_e4cfca5ac1f85dfad33c692e",
+        "lead_cb4575d1b877a8781b9f8d6a"
+      ],
+      "researchClusterKey": "cluster_ecc78d2cd4406730c0492bcc",
+      "reviewCountUnit": "one actual physical/code research cluster; aliases excluded",
+      "reviewedOn": "2026-11-09",
+      "rightsStatus": "factual_metadata_and_minimal_citations_only_full_redistribution_unestablished",
+      "sourceInspection": [
+        {
+          "accessResult": "original_acquired",
+          "sourceId": "next-asia-vn-longthanh-aic0725",
+          "sourceStatus": "inspected_factual_evidence_only"
+        },
+        {
+          "accessResult": "original_acquired",
+          "sourceId": "next-asia-vn-acv-lth",
+          "sourceStatus": "inspected_factual_evidence_only"
+        },
+        {
+          "accessResult": "original_acquired",
+          "sourceId": "next-asia-vn-acv-oct2026-plan",
+          "sourceStatus": "inspected_factual_evidence_only"
+        }
+      ],
+      "sourceStatus": "official_original_inspected",
+      "wholeIntervalSupported": false
+    },
+    {
+      "authorityStatus": "source_specific_proposal_only_no_global_or_AAI_grant_inheritance",
+      "caseId": "next-asia-namniwel",
+      "codes": [
+        "IATA:NAM",
+        "IATA:SQN",
+        "ICAO:WAPN"
+      ],
+      "country": "ID",
+      "eventGroupId": "lead_b46a43aa7adf0fe278fea436",
+      "findings": "DGCA operator profile identifies Namniwel in Buru, Maluku as NAM/WAPN, ARP03°08′37″S126°58′35″E. BMKG2025 independently lists Namlea/Namniwel WAPN as meteorological service use. The directory row previously named Emalamo Sanana SQN/WAES in another province; this is not evidence of a real SQN→NAM transfer or physical relocation.",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 56,
+      "label": "Namniwel Airport",
+      "machinePriorityTier": "high",
+      "newFacts": "DGCA operator profile identifies Namniwel in Buru, Maluku as NAM/WAPN, ARP03°08′37″S126°58′35″E. BMKG2025 independently lists Namlea/Namniwel WAPN as meteorological service use. The directory row previously named Emalamo Sanana SQN/WAES in another province; this is not evidence of a real SQN→NAM transfer or physical relocation.",
+      "newRemainingHighValueReview": true,
+      "newSourceIds": [
+        "next-asia-id-namniwel-profile",
+        "next-asia-id-bmkg-2025",
+        "next-asia-id-namniwel-history"
+      ],
+      "nextAction": "Separate Sanana from Namniwel and legacy Namlea physical sites, then obtain historical controlled AD2 and independent IATA allocation/transfer originals. DGCA history404 is not a closure record.",
+      "rank": 56,
+      "readiness": "identity_or_observation_only_no_whole_interval",
+      "relatedAliasesCountedAsNewReviews": false,
+      "relatedEventGroupIds": [
+        "lead_9d1dddf0d2190b6e993ac73c",
+        "dup_82ed4ae2ab2410c67770bcb1"
+      ],
+      "researchClusterKey": "cluster_6577dadbacf88d9023995d20",
+      "reviewCountUnit": "one actual physical/code research cluster; aliases excluded",
+      "reviewedOn": "2026-11-09",
+      "rightsStatus": "factual_metadata_and_minimal_citations_only_full_redistribution_unestablished",
+      "sourceInspection": [
+        {
+          "accessResult": "original_acquired",
+          "sourceId": "next-asia-id-namniwel-profile",
+          "sourceStatus": "inspected_factual_evidence_only"
+        },
+        {
+          "accessResult": "original_acquired",
+          "sourceId": "next-asia-id-bmkg-2025",
+          "sourceStatus": "inspected_factual_evidence_only"
+        },
+        {
+          "accessResult": "unavailable_original",
+          "sourceId": "next-asia-id-namniwel-history",
+          "sourceStatus": "blocked_or_missing_original"
+        }
+      ],
+      "sourceStatus": "official_original_inspected",
+      "wholeIntervalSupported": false
+    },
+    {
+      "authorityStatus": "source_specific_proposal_only_no_global_or_AAI_grant_inheritance",
+      "caseId": "next-asia-wuzhou",
+      "codes": [
+        "IATA:WUZ"
+      ],
+      "country": "CN",
+      "eventGroupId": "lead_d9aa9d094284e66f71829267",
+      "findings": "The2018 official route attachment contains WUZ at city level. Reused Guangdong government annex explicitly labels Wuzhou/Xijiang WUZ. Neither gives the Changzhoudao→Xijiang transfer date; city-level route labels do not bind the old physical field.",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 58,
+      "label": "Wuzhou Changzhoudao Airport",
+      "machinePriorityTier": "high",
+      "newFacts": "The2018 official route attachment contains WUZ at city level. Reused Guangdong government annex explicitly labels Wuzhou/Xijiang WUZ. Neither gives the Changzhoudao→Xijiang transfer date; city-level route labels do not bind the old physical field.",
+      "newRemainingHighValueReview": true,
+      "newSourceIds": [
+        "next-asia-cn-2018-route-directory",
+        "next-asia-cn-gd-2022-wuz"
+      ],
+      "nextAction": "Obtain old/new controlled aerodrome editions and a code-specific WUZ transfer original; do not equate2018 issue, route or opening dates with allocation.",
+      "rank": 58,
+      "readiness": "identity_or_observation_only_no_whole_interval",
+      "relatedAliasesCountedAsNewReviews": false,
+      "relatedEventGroupIds": [
+        "lead_978150eca65d83a5ede0a1b6",
+        "lead_738a3cf7723a7a6b7679fcb5"
+      ],
+      "researchClusterKey": "cluster_f9b31143532ca08afff31207",
+      "reviewCountUnit": "one actual physical/code research cluster; aliases excluded",
+      "reviewedOn": "2026-11-09",
+      "rightsStatus": "factual_metadata_and_minimal_citations_only_full_redistribution_unestablished",
+      "sourceInspection": [
+        {
+          "accessResult": "original_acquired",
+          "sourceId": "next-asia-cn-2018-route-directory",
+          "sourceStatus": "inspected_factual_evidence_only"
+        },
+        {
+          "accessResult": "reused_existing_locked_original_no_network",
+          "sourceId": "next-asia-cn-gd-2022-wuz",
+          "sourceStatus": "prior_locked_citation_metadata_reused"
+        }
+      ],
+      "sourceStatus": "official_original_inspected",
+      "wholeIntervalSupported": false
+    },
+    {
+      "authorityStatus": "source_specific_proposal_only_no_global_or_AAI_grant_inheritance",
+      "caseId": "next-asia-sanga-sanga",
+      "codes": [
+        "IATA:SGS",
+        "IATA:TWT",
+        "ICAO:RPMN"
+      ],
+      "country": "PH",
+      "eventGroupId": "lead_d755714fb98529bb4d96789d",
+      "findings": "PAGASA government aviation list pairs Sanga-Sanga with RPMN and parenthetical SGS, while the queue records SGS→TWT. This is an undated potentially stale official observation, not proof that SGS remains valid or of a TWT change day. CAAP requested original returned403.",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 116,
+      "label": "Sanga Sanga Airport",
+      "machinePriorityTier": "high",
+      "newFacts": "PAGASA government aviation list pairs Sanga-Sanga with RPMN and parenthetical SGS, while the queue records SGS→TWT. This is an undated potentially stale official observation, not proof that SGS remains valid or of a TWT change day. CAAP requested original returned403.",
+      "newRemainingHighValueReview": true,
+      "newSourceIds": [
+        "next-asia-ph-pagasa-icao",
+        "next-asia-ph-caap-area9"
+      ],
+      "nextAction": "Obtain dated CAAP AD2/AIRAC and IATA change evidence; reconcile SGS/TWT without converting PAGASA retrieval day into validity.",
+      "rank": 116,
+      "readiness": "identity_or_observation_only_no_whole_interval",
+      "relatedAliasesCountedAsNewReviews": false,
+      "relatedEventGroupIds": [
+        "lead_1570981eca84ebbc1d6aaafd"
+      ],
+      "researchClusterKey": "cluster_495036dd4cdb215df480190f",
+      "reviewCountUnit": "one actual physical/code research cluster; aliases excluded",
+      "reviewedOn": "2026-11-09",
+      "rightsStatus": "factual_metadata_and_minimal_citations_only_full_redistribution_unestablished",
+      "sourceInspection": [
+        {
+          "accessResult": "original_acquired",
+          "sourceId": "next-asia-ph-pagasa-icao",
+          "sourceStatus": "inspected_factual_evidence_only"
+        },
+        {
+          "accessResult": "unavailable_original",
+          "sourceId": "next-asia-ph-caap-area9",
+          "sourceStatus": "blocked_or_missing_original"
+        }
+      ],
+      "sourceStatus": "official_original_inspected",
+      "wholeIntervalSupported": false
+    },
+    {
+      "authorityStatus": "source_specific_proposal_only_no_global_or_AAI_grant_inheritance",
+      "caseId": "next-asia-selaparang",
+      "codes": [
+        "IATA:AMI",
+        "ICAO:WADA"
+      ],
+      "country": "ID",
+      "eventGroupId": "dup_cede79349a86129111cf77f4",
+      "findings": "Requested DGCA Selaparang profile returned404. BMKG2025 lists the separate Zainuddin Abdul Madjid site with WADL, not a Selaparang WADA allocation/withdrawal statement. The supporting material does not resolve AMI/WADA at Selaparang.",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 68,
+      "label": "Selaparang Airport",
+      "machinePriorityTier": "high",
+      "newFacts": "Requested DGCA Selaparang profile returned404. BMKG2025 lists the separate Zainuddin Abdul Madjid site with WADL, not a Selaparang WADA allocation/withdrawal statement. The supporting material does not resolve AMI/WADA at Selaparang.",
+      "newRemainingHighValueReview": true,
+      "newSourceIds": [
+        "next-asia-id-selaparang-profile",
+        "next-asia-id-bmkg-2025"
+      ],
+      "nextAction": "Obtain Selaparang controlled aerodrome history and AMI/WADA originals. Keep blocked target distinct from the Lombok replacement site.",
+      "rank": 68,
+      "readiness": "identity_or_observation_only_no_whole_interval",
+      "relatedAliasesCountedAsNewReviews": false,
+      "relatedEventGroupIds": [
+        "lead_b6ff16c2eb27f11fcc7a296a",
+        "dup_6ed688d8fd1487b5b3a5995f",
+        "lead_1b0b627f8ae1f66639845e2e",
+        "lead_b32eef96ec87fdc801fe1954",
+        "lead_cbc00d81beadd23e9204db6a",
+        "lead_d4a125ee0e5fae451bea5448"
+      ],
+      "researchClusterKey": "cluster_a74b002877cf4e20e3f0a1a8",
+      "reviewCountUnit": "one actual physical/code research cluster; aliases excluded",
+      "reviewedOn": "2026-11-09",
+      "rightsStatus": "factual_metadata_and_minimal_citations_only_full_redistribution_unestablished",
+      "sourceInspection": [
+        {
+          "accessResult": "unavailable_original",
+          "sourceId": "next-asia-id-selaparang-profile",
+          "sourceStatus": "blocked_or_missing_original"
+        },
+        {
+          "accessResult": "original_acquired",
+          "sourceId": "next-asia-id-bmkg-2025",
+          "sourceStatus": "inspected_factual_evidence_only"
+        }
+      ],
+      "sourceStatus": "blocked_target_with_non_supporting_original",
+      "wholeIntervalSupported": false
+    },
+    {
+      "authorityStatus": "source_specific_proposal_only_no_global_or_AAI_grant_inheritance",
+      "caseId": "next-asia-blr-followup",
+      "codes": [
+        "IATA:BLR",
+        "ICAO:VOBL"
+      ],
+      "country": "IN",
+      "eventGroupId": "dup_ce3a8a984a0738318d411ceb",
+      "findings": "Visually verified S.O.1170(E) expressly transfers IATA BLR from HAL to Devanahalli. S.O.1181(E) replaces commissioning00:01 23May with00:01 24May2008. Later MoCA concession dossier records24May2008 commencement and appends the amendment, corroborating execution. This supports the single transfer boundary only; old allocation start, new end and long continuous intervals remain unknown. HAL general aviation continues, so this is not physical closure.",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 281,
+      "label": "Kempegowda International Airport",
+      "machinePriorityTier": "high",
+      "newFacts": "Visually verified S.O.1170(E) expressly transfers IATA BLR from HAL to Devanahalli. S.O.1181(E) replaces commissioning00:01 23May with00:01 24May2008. Later MoCA concession dossier records24May2008 commencement and appends the amendment, corroborating execution. This supports the single transfer boundary only; old allocation start, new end and long continuous intervals remain unknown. HAL general aviation continues, so this is not physical closure.",
+      "newRemainingHighValueReview": false,
+      "newSourceIds": [
+        "next-asia-in-moca-bial-2008-amendment",
+        "next-asia-in-moca-bial-2023-concession"
+      ],
+      "nextAction": "Review source-specific Gazette factual-use scope and boundary correction proposals. Preserve old physical UUIDs; preserve24May partial-day uncertainty and do not infer ICAO VOBG/VOBL timing.",
+      "rank": 281,
+      "readiness": "boundary_evidence_ready_for_source_specific_review",
+      "relatedAliasesCountedAsNewReviews": false,
+      "relatedEventGroupIds": [
+        "lead_471d415439ffde04271fc135",
+        "lead_61b60fe97f077da6d681c689"
+      ],
+      "researchClusterKey": "cluster_4f94cc2dc4d2a315d507a3d6",
+      "reviewCountUnit": "one actual physical/code research cluster; aliases excluded",
+      "reviewedOn": "2026-11-09",
+      "rightsStatus": "factual_metadata_and_minimal_citations_only_full_redistribution_unestablished",
+      "sourceInspection": [
+        {
+          "accessResult": "original_acquired",
+          "sourceId": "next-asia-in-moca-bial-2008-amendment",
+          "sourceStatus": "inspected_factual_evidence_only"
+        },
+        {
+          "accessResult": "original_acquired",
+          "sourceId": "next-asia-in-moca-bial-2023-concession",
+          "sourceStatus": "inspected_factual_evidence_only"
+        }
+      ],
+      "sourceStatus": "official_original_inspected",
+      "wholeIntervalSupported": false
+    },
+    {
+      "authorityStatus": "source_specific_proposal_only_no_global_or_AAI_grant_inheritance",
+      "caseId": "next-asia-manas-followup",
+      "codes": [
+        "IATA:BSZ",
+        "IATA:FRU",
+        "ICAO:UCFM"
+      ],
+      "country": "KG",
+      "eventGroupId": "lead_7ba04008c5f8ec6958131f81",
+      "findings": "The retained FlyArystan route HTML has no BSZ/Bishkek token and cannot corroborate implementation. Both alleged dated AirAstana PDFs redirect to generic HTML. Prior operator announcement and mirrored IATA notice remain the only proposed9August2025 boundary evidence; issuer authentication/lifecycle and execution are still unresolved.",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 10,
+      "label": "Manas International Airport",
+      "machinePriorityTier": "high",
+      "newFacts": "The retained FlyArystan route HTML has no BSZ/Bishkek token and cannot corroborate implementation. Both alleged dated AirAstana PDFs redirect to generic HTML. Prior operator announcement and mirrored IATA notice remain the only proposed9August2025 boundary evidence; issuer authentication/lifecycle and execution are still unresolved.",
+      "newRemainingHighValueReview": false,
+      "newSourceIds": [
+        "next-asia-kg-flyarystan-bsz",
+        "next-asia-kg-airastana-jan2025",
+        "next-asia-kg-airastana-sepoct2025"
+      ],
+      "nextAction": "Authenticate the prior IATA notice at issuer and obtain dated actual execution evidence; no new continuous assignment proposed.",
+      "rank": 10,
+      "readiness": "identity_or_observation_only_no_whole_interval",
+      "relatedAliasesCountedAsNewReviews": false,
+      "relatedEventGroupIds": [
+        "lead_03ab5b97744741ffff3e5ee1",
+        "lead_4151d03fece305fd433981fc",
+        "lead_bf3b3063fef981f91a373915",
+        "lead_df645dd40115d73851f0c4aa",
+        "lead_f7a7242a7aaf7d0d633e9bea"
+      ],
+      "researchClusterKey": "cluster_af11605677ac16fc22a88217",
+      "reviewCountUnit": "one actual physical/code research cluster; aliases excluded",
+      "reviewedOn": "2026-11-09",
+      "rightsStatus": "factual_metadata_and_minimal_citations_only_full_redistribution_unestablished",
+      "sourceInspection": [
+        {
+          "accessResult": "original_acquired",
+          "sourceId": "next-asia-kg-flyarystan-bsz",
+          "sourceStatus": "acquired_but_non_supporting"
+        },
+        {
+          "accessResult": "redirected_landing_page_requested_original_unavailable",
+          "sourceId": "next-asia-kg-airastana-jan2025",
+          "sourceStatus": "requested_dated_original_not_acquired"
+        },
+        {
+          "accessResult": "redirected_landing_page_requested_original_unavailable",
+          "sourceId": "next-asia-kg-airastana-sepoct2025",
+          "sourceStatus": "requested_dated_original_not_acquired"
+        }
+      ],
+      "sourceStatus": "acquired_documents_non_supporting",
+      "wholeIntervalSupported": false
+    },
+    {
+      "authorityStatus": "source_specific_proposal_only_no_global_or_AAI_grant_inheritance",
+      "caseId": "next-asia-nagoya-followup",
+      "codes": [
+        "IATA:NGO",
+        "ICAO:RJGG"
+      ],
+      "country": "JP",
+      "eventGroupId": "dup_082eee1b546da42520a438e4",
+      "findings": "Nagoya operator FAQ distinguishes NKM at Komaki from NGO at Centrair; same raw bytes were already locked under/contact/index.html, so/contact/ adds no original. Centrair FAQ attributes NGO to IATA. These current identities give no historical transfer day and no continuous period.",
+      "formalNewIataAssignments": 0,
+      "formalNewIcaoAssignments": 0,
+      "formalNewResolvedQueries": 0,
+      "globalRank": 237,
+      "label": "Chubu Centrair International Airport",
+      "machinePriorityTier": "high",
+      "newFacts": "Nagoya operator FAQ distinguishes NKM at Komaki from NGO at Centrair; same raw bytes were already locked under/contact/index.html, so/contact/ adds no original. Centrair FAQ attributes NGO to IATA. These current identities give no historical transfer day and no continuous period.",
+      "newRemainingHighValueReview": false,
+      "newSourceIds": [
+        "next-asia-jp-nagoya-faq",
+        "next-asia-jp-centrair-ngo-faq"
+      ],
+      "nextAction": "Obtain dated IATA change original and controlled RJNN/RJNA/RJGG lifecycle; do not count the URL alias or same sites again.",
+      "rank": 237,
+      "readiness": "identity_or_observation_only_no_whole_interval",
+      "relatedAliasesCountedAsNewReviews": false,
+      "relatedEventGroupIds": [],
+      "researchClusterKey": "cluster_1d06afd2230e32fe7d45a20a",
+      "reviewCountUnit": "one actual physical/code research cluster; aliases excluded",
+      "reviewedOn": "2026-11-09",
+      "rightsStatus": "factual_metadata_and_minimal_citations_only_full_redistribution_unestablished",
+      "sourceInspection": [
+        {
+          "accessResult": "original_acquired",
+          "sourceId": "next-asia-jp-nagoya-faq",
+          "sourceStatus": "inspected_factual_evidence_only"
+        },
+        {
+          "accessResult": "original_acquired",
+          "sourceId": "next-asia-jp-centrair-ngo-faq",
+          "sourceStatus": "inspected_factual_evidence_only"
+        }
+      ],
+      "sourceStatus": "official_original_inspected",
+      "wholeIntervalSupported": false
+    }
+  ],
+  "formatVersion": 1,
+  "proposalOnly": true,
+  "queueInput": {
+    "path": "research/evidence/global-code-expansion/remaining-high-value-queue.jsonl.gz",
+    "sha256": "4052dde0591e04039cbb14332b81778087ff43c68b1f88079d2b9ed8611fe97c"
+  },
+  "rankInput": {
+    "firstShardPath": "research/evidence/global-code-expansion/ranked-events.000.jsonl.gz",
+    "manifestPath": "research/evidence/global-code-expansion/ranked-events.manifest.json"
+  }
+}

@@ -1,0 +1,854 @@
+{
+  "counts": {
+    "newDistinctSupportingAviationOriginals": 60,
+    "newLegalUseOriginals": 6,
+    "newRegionalNonSupportingOriginalsExcluded": 2,
+    "newRegionalOriginalRecords": 62,
+    "policyLockRecords": 14,
+    "regionalLockRecords": 88,
+    "sourcesWithAllThreeRetainedHashesRechecked": 83
+  },
+  "formatVersion": 1,
+  "meaning": "Recheck available cached bytes and short citation hashes only; old lock-only receipts remain receipts, not fresh original verification. All full originals/extractions remain ignored work.",
+  "networkRequests": 0,
+  "oldReceiptOnlyAdditionalReuse": [
+    {
+      "dateNature": "Carrier publication precedes announced IATA reservation-system change; execution and IATA allocation original not proved",
+      "excerptPath": "research/evidence/global-code-expansion/europe/excerpts/md-tarom-code-change.json",
+      "excerptSha256": "58f802b878fa90e82dac36431ffd77395dd51befef707fbd8d3fee75ffa074b0",
+      "extractedTextSha256": "43cdcc0ad1544fb754c74917bb722824327e51a185d5d95e32da35d52a40002b",
+      "normalizedTextSha256": "b8c38ca63c340179219232ad971b158667757d50f4a83a2ed19d51571b3f20e2",
+      "originalSha256": "aab37fc8a54478c07c661a8e810e591aa59d0bd0142394b66c031659a2af7468",
+      "rawBytesReverifiedThisRun": false,
+      "receiptFileSha256": "3ce5be20ff255c0423ce6ceaef760fe5eb228931d52f5f5660e76055362fa278",
+      "receiptPath": "research/evidence/global-code-expansion/europe/source-acquisition.json",
+      "reuseMode": "offline_locked_receipt_and_minimal_excerpt_reused_no_redownload",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata and minimal factual anchor only"
+      },
+      "sourceFamily": "MD-TAROM-NOTICE",
+      "sourceId": "md-tarom-code-change",
+      "url": "https://www.tarom.ro/en/news/passenger-information-chisinau-airport-iata-code-change-from-kiv-into-rmo/"
+    }
+  ],
+  "reviewedOn": "2026-11-09",
+  "sources": [
+    {
+      "accessResult": "original_acquired",
+      "lane": "asia",
+      "originalSha256": "2c1219e2553a9852fcf25cb2552800493379fc0283158299170b38d8bed165bf",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "VN-CAAV-VATM-AIC",
+      "sourceId": "next-asia-vn-longthanh-aic0725"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "asia",
+      "originalSha256": "8aaa5e499228e6b7aaa1c3f472e828dfc35219eb0cdf5f3998c862e2402853fb",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "KZ-FLYARYSTAN-OPERATIONAL-DIRECTORY",
+      "sourceId": "next-asia-kg-flyarystan-bsz"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "asia",
+      "originalSha256": "ddde6316f9cf7629ac4406fe2a6fd26575316a31ee9315769b46845c9d58885d",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "VN-ACV-OPERATOR",
+      "sourceId": "next-asia-vn-acv-lth"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "asia",
+      "originalSha256": "4bd985a676f90df217ce2c59d0c53162fb1df3045d1dfc19d0efbc84f3df0b63",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "ID-DGCA-UPBU",
+      "sourceId": "next-asia-id-namniwel-profile"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "asia",
+      "originalSha256": null,
+      "retainedHashComponentsRechecked": 0,
+      "sourceFamily": "ID-DGCA-UPBU",
+      "sourceId": "next-asia-id-selaparang-profile"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "asia",
+      "originalSha256": null,
+      "retainedHashComponentsRechecked": 0,
+      "sourceFamily": "ID-DGCA-UPBU",
+      "sourceId": "next-asia-id-namniwel-history"
+    },
+    {
+      "accessResult": "duplicate_original_reused_prior_lock",
+      "lane": "asia",
+      "originalSha256": "6d1ad62b8d8ec095c4987b4e58a04af941d00d058cb012bea51fd25bc3d3bf5d",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "JP-NAGOYA-OPERATOR",
+      "sourceId": "next-asia-jp-nagoya-faq"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "asia",
+      "originalSha256": "a654ed4a09afa5128b70056720df3d6b4154fd87127ccced29c9342ad276ab04",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "JP-CENTRAIR-OPERATOR",
+      "sourceId": "next-asia-jp-centrair-ngo-faq"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "asia",
+      "originalSha256": null,
+      "retainedHashComponentsRechecked": 0,
+      "sourceFamily": "PH-CAAP-AERODROME-DATA",
+      "sourceId": "next-asia-ph-caap-area9"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "asia",
+      "originalSha256": "8d58a13f0b479407c5d6c13ab34745f893d1542c6ee10c41fadcbf526d1fb4a0",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "PH-PAGASA-AVIATION",
+      "sourceId": "next-asia-ph-pagasa-icao"
+    },
+    {
+      "accessResult": "redirected_landing_page_requested_original_unavailable",
+      "lane": "asia",
+      "originalSha256": "36c0b4e623fdef94f92d4ac573cfd9c4fec55f4ec321672119ec0b14db5b58c8",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "KZ-AIRASTANA-DATED-CARRIER-PUBLICATION",
+      "sourceId": "next-asia-kg-airastana-sepoct2025"
+    },
+    {
+      "accessResult": "redirected_landing_page_requested_original_unavailable",
+      "lane": "asia",
+      "originalSha256": "6bbc7ef756f3a110eb6139f11ed2510599695cfe3cfd3b43271bc93edf8cf6a8",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "KZ-AIRASTANA-DATED-CARRIER-PUBLICATION",
+      "sourceId": "next-asia-kg-airastana-jan2025"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "asia",
+      "originalSha256": "2829cc209523dd76602d806fd386796553870cdc15cfea43fbb4eda420f6f585",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "ID-BMKG-MET-ADMIN",
+      "sourceId": "next-asia-id-bmkg-2025"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "asia",
+      "originalSha256": "bf94686dafafcb2c4d1e12fcd6781a51907cf6f2bb8eb592ad8d1035d9881682",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "CN-CAAC-ROUTE-ADMIN",
+      "sourceId": "next-asia-cn-2018-route-directory"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "asia",
+      "originalSha256": "a209536d23f24d31956b55f066aa151cfe0e402e9be096103758c965ef085d61",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "VN-ACV-OPERATOR",
+      "sourceId": "next-asia-vn-acv-oct2026-plan"
+    },
+    {
+      "accessResult": "reused_existing_locked_original_no_network",
+      "lane": "asia",
+      "originalSha256": "7373887c2088e077f9e1b718033d57b663334cf12381c11efe763bc7c78033b4",
+      "retainedHashComponentsRechecked": 0,
+      "sourceFamily": "CN-GOV-ENVIRONMENT-REPORT",
+      "sourceId": "next-asia-cn-gd-2022-wuz"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "asia",
+      "originalSha256": "65c81fc0dcaba1bba68b2daac41874d9be30a60032653187d5cb4593e1446bda",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "IN-MOCA-GAZETTE",
+      "sourceId": "next-asia-in-moca-bial-2008-amendment"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "asia",
+      "originalSha256": "b7b8fb690e604a95715f424fb54d5073b120082b695819c12969eb3af49c3467",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "IN-MOCA-GAZETTE",
+      "sourceId": "next-asia-in-moca-bial-2023-concession"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "asia",
+      "originalSha256": null,
+      "retainedHashComponentsRechecked": 0,
+      "sourceFamily": "IN-AERA-OPERATOR-FILING",
+      "sourceId": "next-asia-in-aera-hyd-2008-report"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "2acadce3c029d7ac929a97c07c34d2f5d2f5632a7a74d05ab40ceee52e005295",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-notam-summary-20251002"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "5fefdb6a0a26bade847817cdc6ec046aa7978e43d6a275dad8147940d4c95f0f",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ais-index"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "c6fca741895a45227612b6204d7631fd3fda39deab7b25f81d19b7c53a8f4d97",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "MD-APP-AIRPORT-ANNUAL-REPORT",
+      "sourceId": "next-md-annual-report-2024"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "d9b42c79e6a97fce6440e1f612f732a35b6efbaec82c724781cc7ba495fedb13",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uzfa"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "e0fe5bc375863da94d98709ae7e9da5afc49ddaa3b0f727f5f67d20ad1dea8ae",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uzsb"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "45a63eb4c91ad9ae496334ddbd3ffaf8993a5e0ed43b2b89e252b9144b97e5a0",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uzff"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "c796890f6b4e286cb52c5e99123ea0205f4b2cf955ecea5352f684d3c4473e67",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uzsk"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "027fd7cc720e0122cfb2ce0b3487747d428dc3aa25fb91fea9dd200d75ccb921",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uzfn"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "eedf8cd711b99ce9f40f58abf19e5166c0e24af7c1b001a1a3f4b124e06df809",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uzsa"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "ae13121d3b417b0ddea734fd3878e900d7216f823904b0e183a1a6f1527ef35b",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uznn"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "2549416a036ab8473ee1accf212e447c9f7a96fc530ebb47f9853f5f10ce5a2c",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uzss"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "796f6e1c3e09405a05d11f0f88ca8b6d5f7ec712219741620837fd32aa2ef818",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uztt"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "a5b1b346205a1e8fb7db7507b32aceb7b34c61e02f7a99b3030a3a317be918f3",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uztp"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "bc095210bc531e1dbffd37ec838809181cd4eb61e34f1bd5c327542e12cbabf9",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uzst"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "be93317d0934412d5d3ecfcb44a297ea8e5382afc147d331ec7adf575cbf9228",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uznu"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "b726f793218de362d1a9918d08e782b3df3715c82547cf9f2160545c1313ea26",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad2-uztc"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "112f2a86cb2f5324a344f0c0f4fd2c5568cae3fe18a072d41a8647c5aafad53d",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-gen02"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "cace9af11b847c25133a34c9a7a5f109898f40dd0235ebffae08564484eb7ecd",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-ad13"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "14782589d9f3ffb94fc13f57a5c648e3a9281ac51906997cc1512bda7e4c74ce",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt05-2025"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "b508c5812a9db095f8d8de5d900feb2ae10f4ecb03baf6c16a608fff48e6a3ff",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt06-2025"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "fbb1c2c1c76fd30531fb1797a23befac702b24521413ffb0b82cae5e31fff47a",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt01-2026"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "3c6699e32e1a3d355b63c32d4ae0799e0b685952c72631ce1ab73f30bcc97cf4",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-gen01"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "18e6b56d70fa006d5092b14cd0e1ad038fe2f8efc701c6a50f6ac3cfcbdbe05e",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt02-26"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "b6786598125da7b1f85e6fdd6ce5b25a3ec59e49e0ba8618d2d70d14118a8edf",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt03-26"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "4c1e29e350f7b9dc1f4aabb1b8467fc6423bd9adb7c94cbe63bae4e4f4b60e1d",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt04-26"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "d9eeeb990224aeac989122baf3f0d46e5c179646941d97001aa7ed3d498ae336",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt05-26"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "europe",
+      "originalSha256": null,
+      "retainedHashComponentsRechecked": 0,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt07-2025"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "35e4ed4a389346b92894bc3c01c069c40db6ec11bc9060b5646a5d930e8b7cb8",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-gen04"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "3b007701cb65238fd87b7d34799abd09563ca873fc6dadfd221a1877dc1dd643",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-gen03"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "ade77e121003b76ad700bf202c252ef1ddaffd3024498790f5779ec6c3f0d72e",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-gen05"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "7a812823a57e1f5655a1046c2a317d0eb2f7364cc71ba8a9be053a9d4385d7e6",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "TM-STATE-GOVERNMENT",
+      "sourceId": "next-tm-balkanabat-government"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "12ffb364d839ce637e9543293d8b1d6cd6b6435a3010978234de8f8703788770",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "TM-TURKMENISTAN-AIRLINES",
+      "sourceId": "next-tm-balkanabat-carrier"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "1e78a677d4210b8ad8bd7547fc9597b53f84892400503abef7cc7762ec9f4d87",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "TM-TURKMENABAT-OPERATOR",
+      "sourceId": "next-tm-turkmenabat-operator"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "europe",
+      "originalSha256": null,
+      "retainedHashComponentsRechecked": 0,
+      "sourceFamily": "EE-EANS-AIP",
+      "sourceId": "next-ee-gen24"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "europe",
+      "originalSha256": null,
+      "retainedHashComponentsRechecked": 0,
+      "sourceFamily": "EE-EANS-AIP",
+      "sourceId": "next-ee-ad15"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "5bb027bcad90f9f4523107a4abc5754320dc9859b899ee2f1674ce0c1661faa0",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt07-2025-issued"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "f2f296d54021caafe00e680140221d5a62bb51980aa9bb40ce62798888f3b2ba",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-notam-summary-20261101"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "europe",
+      "originalSha256": "50924fe800eac2098d2d510fd7cef11dd2bee2395e7e6823987603a73126a864",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "sourceId": "next-uz-amdt04-2025"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "americas-africa",
+      "originalSha256": "925bdf9a98240c9e529b37ae71be660b2919ffdf7d1db1a2a3056e3a84b49bed",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "CO-AEROCIVIL",
+      "sourceId": "next-co-ais-portal"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "americas-africa",
+      "originalSha256": "a1f629291b8064415a44c7decf7760df5abea8df1a0bc9ef3762e227e74f1ef0",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "CO-AEROCIVIL",
+      "sourceId": "next-co-iram-pa"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "americas-africa",
+      "originalSha256": "b061e26fdbd184cd62a7c183a5a07e03a6a1ca41a538b6b28d842381a218b970",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "EC-TTCAA-AIS",
+      "sourceId": "next-ec-caa-aip-gen30"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "americas-africa",
+      "originalSha256": "0dd1c0bc339ea932eb830d50696c40c1e55a391b2dde5a2501bdb04a490d6db9",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "EC-TTCAA-AIS",
+      "sourceId": "next-ec-caa-argyle-ad2"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "americas-africa",
+      "originalSha256": "757e411791c41f0efad2716a8923c5b2dca454a2b438022a2c18e9e16fd4413a",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "EC-TTCAA-AIS",
+      "sourceId": "next-ec-caa-eaip-index"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "americas-africa",
+      "originalSha256": "31f2a713306c39458b94efc07140ad2f7f8ed541e0b2d55546737c3bda252776",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "EC-TTCAA-AIS",
+      "sourceId": "next-ec-caa-montserrat-ad2"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "americas-africa",
+      "originalSha256": "391d54e7a694d83b04468da3ee2fb14fc810a73f1300f912f0dcd538bd1931df",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "EC-TTCAA-AIS",
+      "sourceId": "next-ec-caa-valid-supplements"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "americas-africa",
+      "originalSha256": null,
+      "retainedHashComponentsRechecked": 0,
+      "sourceFamily": "ET-AIRPORTS",
+      "sourceId": "next-et-airports"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "americas-africa",
+      "originalSha256": "0d2e453a8f1505a39f5ecd8881f7f4efba36757b63490238ec5abfd9f34f6735",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "ET-AGRICULTURE-UNRELATED",
+      "sourceId": "next-et-eaa"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "americas-africa",
+      "originalSha256": "33fbc61ad080ef68dd7a6479f8c53f1bf864dba2930567dbbc4ceb47490a1909",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "ET-ECAA",
+      "sourceId": "next-et-ecaa"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "americas-africa",
+      "originalSha256": "0b41f69e6564b9c89b1b344744c5b06eb4adc0e584028909286d2b936e1afed5",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "HN-AHAC",
+      "sourceId": "next-hn-aip-2528"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "americas-africa",
+      "originalSha256": "0b41f69e6564b9c89b1b344744c5b06eb4adc0e584028909286d2b936e1afed5",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "HN-AHAC",
+      "sourceId": "next-hn-aip-root"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "americas-africa",
+      "originalSha256": "a6c3215386f9d756df0b959cfb700c7c6e0509b2e6ebe3432bad195906ea99bc",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "UK-GOVERNORS-OFFICE-MONTSERRAT",
+      "sourceId": "next-ms-ukgov-aircraft-study"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "americas-africa",
+      "originalSha256": "8cbeaeebb56ba6db9629b46dc25b5e4db1d19accf301db584f7e7dac4f4b3fdb",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "US-DOE-LEGACY-MANAGEMENT",
+      "sourceId": "next-us-doe-amchitka-ltsp"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "americas-africa",
+      "originalSha256": "027d2cbbee23a2ed160c7dde993e41034f4d390b1e8b9c1818620e90fd4ec1da",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "US-FAA-FLIGHT-STANDARDS",
+      "sourceId": "next-us-faa-info26011-official"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "americas-africa",
+      "originalSha256": "dc1d54dab6ec8c00f70137927504e4f222c8395f10760b6beecfcfa94e08249f",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "US-FAA-FLIGHT-STANDARDS",
+      "sourceId": "next-us-faa-info26011"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "americas-africa",
+      "originalSha256": "c4a43daa91227181c58d6eaf5194cb2120229373c0d638d2193e8e17a307a8ea",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "US-FAA-FLIGHT-STANDARDS",
+      "sourceId": "next-us-faa-notice8900780"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "americas-africa",
+      "originalSha256": "1b3cb30d2645f97ed5bb5d7a4287025cbec847893668a3eb97a7bbf3374a9f47",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "US-FAA-ATM",
+      "sourceId": "next-us-faa-playbook"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "americas-africa",
+      "originalSha256": "77ba0ad058260158c981e3201c2ff6d835836bd4d6403c505e8b3b3e7c06483e",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "US-NOAA-NWS",
+      "sourceId": "next-us-nws-kdjt-implementation"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "americas-africa",
+      "originalSha256": "3d13e66e848eb693c67ac27ccdbc108ecdd1d79428b4437c4b78c7810f1329f2",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "US-PALM-BEACH-COUNTY-OPERATOR",
+      "sourceId": "next-us-pbi-actual-name-change"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "americas-africa",
+      "originalSha256": "33fbc61ad080ef68dd7a6479f8c53f1bf864dba2930567dbbc4ceb47490a1909",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "ZM-MOTL",
+      "sourceId": "next-zm-aib"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "americas-africa",
+      "originalSha256": "f889f1e826947f1066d175e2281cd4d2125658d4238ce93655dfcd607432cccc",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "ZM-ZACL-AIS",
+      "sourceId": "next-zm-notam-202107"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "americas-africa",
+      "originalSha256": "a3b617b5768e82449971e014a82aa2ca1783fbe0016e6c6d6b57dae801ab9c50",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "ZM-ZACL-AIS",
+      "sourceId": "next-zm-notam-202108"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "americas-africa",
+      "originalSha256": "dda5c873075fde3a723e8cfbdba9de56a85935756c1c5dce6ed4a611ff6ff5e4",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "ZM-ZACL-AIS",
+      "sourceId": "next-zm-notam-202111"
+    },
+    {
+      "accessResult": "reused_cached_original_without_fetch",
+      "lane": "americas-africa",
+      "originalSha256": "c5b980d2345a7ed17eef64b81eee261e249d3b89b488dfe93c40d0fb69baaa43",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "US-PALM-BEACH-COUNTY-OPERATOR",
+      "sourceId": "global-code-expansion-us-pbi-name-faq"
+    },
+    {
+      "accessResult": "reused_cached_original_without_fetch",
+      "lane": "americas-africa",
+      "originalSha256": "40ed3ce115d5669529cb048d995df4daa6454ac70e9fe644d477be7a747bbd3f",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "US-PALM-BEACH-COUNTY-OPERATOR",
+      "sourceId": "global-code-expansion-us-pbc-airports"
+    },
+    {
+      "accessResult": "reused_cached_original_without_fetch",
+      "lane": "americas-africa",
+      "originalSha256": "35e554ff386032ac024dd2643d1bc287a4fafb1d1436006b0da6dbd70c81f99f",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "US-FAA-AERONAV",
+      "sourceId": "global-code-expansion-us-faa-dtpp-2611"
+    },
+    {
+      "accessResult": "reused_cached_original_without_fetch",
+      "lane": "americas-africa",
+      "originalSha256": "d728c128799f57e3e531b4de53c0535cfc80f6d20e5826d9d3eea4e1a70ac8cf",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "US-FAA-AERONAV",
+      "sourceId": "global-code-expansion-us-faa-djt-diagram-2611"
+    },
+    {
+      "accessResult": "reused_legacy_hashed_receipt_without_fetch",
+      "lane": "americas-africa",
+      "originalSha256": "21db03f635ba3a53a55e9b46a52069be27bc6d16c5dca9d754dea6c5133b98d9",
+      "retainedHashComponentsRechecked": 0,
+      "sourceFamily": "CL-DGAC",
+      "sourceId": "wch-resolution"
+    },
+    {
+      "accessResult": "reused_legacy_hashed_receipt_without_fetch",
+      "lane": "americas-africa",
+      "originalSha256": "b9a55cc8a739220b3b5789652dec0ceb0b109ae71017cfb91495d6807e079fd4",
+      "retainedHashComponentsRechecked": 0,
+      "sourceFamily": "CL-DGAC",
+      "sourceId": "wch-fiche"
+    },
+    {
+      "accessResult": "reused_legacy_hashed_receipt_without_fetch",
+      "lane": "americas-africa",
+      "originalSha256": "f72508c44fdee1b74cf124f85e4af854672860856e95e3db76c71e992967dfe3",
+      "retainedHashComponentsRechecked": 0,
+      "sourceFamily": "US-FAA-LOCATION-IDENTIFIERS",
+      "sourceId": "next-us-faa-7350-8g"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "policy",
+      "originalSha256": "d9e3a2f1cb4486ab4ecc4eff640f94f9a9bb8655ca71ff00694b236e7011ad1c",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "LEGAL-RIGHTS-BASIS",
+      "sourceId": "policy-us-govinfo-copyright"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "policy",
+      "originalSha256": "dc25de2131ac0fbdc4e8473ee4fdedda3d5690dccf2f3c419f8820c8dc2b8e52",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "LEGAL-RIGHTS-BASIS",
+      "sourceId": "policy-uz-copyright-law"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "policy",
+      "originalSha256": null,
+      "retainedHashComponentsRechecked": 0,
+      "sourceFamily": "LEGAL-RIGHTS-BASIS",
+      "sourceId": "policy-us-code-105"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "policy",
+      "originalSha256": null,
+      "retainedHashComponentsRechecked": 0,
+      "sourceFamily": "LEGAL-RIGHTS-BASIS",
+      "sourceId": "policy-us-copyright-facts"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "policy",
+      "originalSha256": "d6e0cc95dd4d0773d04ed67468c972051f586a1f55dc59282d5319a4e63fd8f6",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "LEGAL-RIGHTS-BASIS",
+      "sourceId": "policy-us-feist-facts"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "policy",
+      "originalSha256": null,
+      "retainedHashComponentsRechecked": 0,
+      "sourceFamily": "LEGAL-RIGHTS-BASIS",
+      "sourceId": "policy-md-copyright-law"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "policy",
+      "originalSha256": "71bbcb7850cb7d333dd2a0337a1feedf1a484503e6eba1135b8cb3e20d7686d9",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "LEGAL-RIGHTS-BASIS",
+      "sourceId": "policy-md-copyright-law-agepi"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "policy",
+      "originalSha256": null,
+      "retainedHashComponentsRechecked": 0,
+      "sourceFamily": "LEGAL-RIGHTS-BASIS",
+      "sourceId": "policy-in-copyright-act-chapter11"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "policy",
+      "originalSha256": null,
+      "retainedHashComponentsRechecked": 0,
+      "sourceFamily": "LEGAL-RIGHTS-BASIS",
+      "sourceId": "policy-in-moca-copyright"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "policy",
+      "originalSha256": null,
+      "retainedHashComponentsRechecked": 0,
+      "sourceFamily": "LEGAL-RIGHTS-BASIS",
+      "sourceId": "policy-in-copyright-act-indiacode"
+    },
+    {
+      "accessResult": "unavailable_original",
+      "lane": "policy",
+      "originalSha256": null,
+      "retainedHashComponentsRechecked": 0,
+      "sourceFamily": "LEGAL-RIGHTS-BASIS",
+      "sourceId": "policy-in-moca-copyright-en"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "policy",
+      "originalSha256": "eb42043f69342c4cd11adf796c8b69178a53076318b27f48225ff904a7c2f42e",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "LEGAL-RIGHTS-BASIS",
+      "sourceId": "policy-in-moca-website-policies"
+    },
+    {
+      "accessResult": "metadata_only",
+      "lane": "policy",
+      "originalSha256": "11dc004cf4d58734519052cd9f0e3e275b8b2c8a0824bc30767704bdd8191ff9",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "LEGAL-RIGHTS-BASIS",
+      "sourceId": "policy-in-copyright-act-wipolex"
+    },
+    {
+      "accessResult": "original_acquired",
+      "lane": "policy",
+      "originalSha256": "da4614ef6f49e0dfa6cf521b93c95390104a0ae8f970fea8161843aa59f69a30",
+      "retainedHashComponentsRechecked": 3,
+      "sourceFamily": "LEGAL-RIGHTS-BASIS",
+      "sourceId": "policy-in-copyright-act-wipolex-pdf"
+    }
+  ]
+}

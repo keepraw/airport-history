@@ -1,0 +1,55 @@
+{
+  "formatVersion": 1,
+  "reviewedOn": "2026-11-09",
+  "facts": [
+    {
+      "factId": "aa-pbi-icao-execution",
+      "eventGroupId": "dup_053fff021fcc335a906d311d",
+      "scheme": "ICAO",
+      "fromCode": "KPBI",
+      "toCode": "KDJT",
+      "date": "2026-07-09",
+      "dateKind": "operator_reported_actual_code_change_day",
+      "timeOfDay": null,
+      "sourceIds": [
+        "next-us-pbi-actual-name-change",
+        "global-code-expansion-us-pbi-name-faq"
+      ],
+      "corroboratingProspectiveSourceIds": [
+        "next-us-nws-kdjt-implementation",
+        "next-us-faa-notice8900780",
+        "next-us-faa-info26011-official"
+      ],
+      "newBoundaryDate": false,
+      "wholeIntervalSupported": false,
+      "limitation": "Article July9 body dateline / July14 webpage display; NWS1200UTC is TAF timing only. Old boundary proposal supplemented, not new assignment."
+    },
+    {
+      "factId": "aa-pbi-iata-execution",
+      "eventGroupId": "dup_053fff021fcc335a906d311d",
+      "scheme": "IATA",
+      "fromCode": "PBI",
+      "toCode": "DJT",
+      "date": "2026-08-18",
+      "dateKind": "retrospective_operator_reported_actual_code_change_day",
+      "timeOfDay": null,
+      "sourceIds": [
+        "global-code-expansion-us-pbi-name-faq"
+      ],
+      "prospectiveSourceIds": [
+        "next-us-pbi-actual-name-change"
+      ],
+      "newBoundaryDate": false,
+      "wholeIntervalSupported": false,
+      "limitation": "Underlying IATA notice not acquired; county article is prospective for IATA. FAA grouped identifiers and FAA LID cannot substitute for actual IATA date."
+    }
+  ],
+  "newCodeBoundaryDates": 0,
+  "oldBoundaryFactsSupplemented": 2,
+  "wholeHistoricalWindowsSupported": 0,
+  "temporalRules": [
+    "Publication, capture, opening, commissioning and legal rename dates are kept separate from code validity.",
+    "Discrete observations do not imply an uninterrupted interval between editions.",
+    "Code namespace and physical site must be established independently; no FAA LID inference."
+  ]
+}

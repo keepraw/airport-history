@@ -1,0 +1,152 @@
+{
+  "formatVersion": 1,
+  "scenarioId": "uz-permanent-prefix-controlled-AIP-long-window-hypothesis",
+  "window": {
+    "from": "2025-10-03",
+    "toExclusive": "2026-10-29"
+  },
+  "eligible": false,
+  "conditionalReviewEligible": false,
+  "wholeIntervalSupported": false,
+  "sourceIds": [
+    "next-uz-notam-summary-20251002",
+    "next-uz-amdt05-2025",
+    "next-uz-gen01",
+    "next-uz-amdt06-2025",
+    "next-uz-amdt07-2025-issued",
+    "next-uz-amdt01-2026",
+    "next-uz-amdt02-26",
+    "next-uz-amdt03-26",
+    "next-uz-amdt04-26",
+    "next-uz-amdt05-26",
+    "next-uz-gen02",
+    "next-uz-gen03",
+    "next-uz-gen04",
+    "next-uz-gen05",
+    "next-uz-notam-summary-20261101"
+  ],
+  "mappings": [
+    {
+      "eventGroupId": "lead_0edbda9085627c8df0748e63",
+      "airportId": "proposal-apt-7f69b865-7beb-5c86-afa9-f489e18c334a",
+      "oldCode": "UTFA",
+      "newCode": "UZFA",
+      "factId": "uz-icao-utfa-uzfa-20251002",
+      "rank": 7076,
+      "priorityTier": "follow_up"
+    },
+    {
+      "eventGroupId": "lead_451dc0295742c6d663cc6ff0",
+      "airportId": "proposal-apt-e52f8814-7efc-5a31-b6a2-208e4e7ebdba",
+      "oldCode": "UTSB",
+      "newCode": "UZSB",
+      "factId": "uz-icao-utsb-uzsb-20251002",
+      "rank": 515,
+      "priorityTier": "high"
+    },
+    {
+      "eventGroupId": "dup_99763655f7d22584e700c434",
+      "airportId": "proposal-apt-eea91dcf-2d17-5aec-af0e-beacda9e07ec",
+      "oldCode": "UTTC",
+      "newCode": "UZTC",
+      "factId": "uz-icao-uttc-uztc-20251002",
+      "rank": 15824,
+      "priorityTier": "follow_up"
+    },
+    {
+      "eventGroupId": "lead_645be5e6df374020d277bcdc",
+      "airportId": "proposal-apt-d61959b8-e4f8-5518-a444-1a0dd9d7aefe",
+      "oldCode": "UTFF",
+      "newCode": "UZFF",
+      "factId": "uz-icao-utff-uzff-20251002",
+      "rank": 1490,
+      "priorityTier": "follow_up"
+    },
+    {
+      "eventGroupId": "dup_50f782e4707033751f5331ac",
+      "airportId": "proposal-apt-8ef5576a-2f37-5dd5-988d-6d8f169f396d",
+      "oldCode": "UTSK",
+      "newCode": "UZSK",
+      "factId": "uz-icao-utsk-uzsk-20251002",
+      "rank": 250,
+      "priorityTier": "high"
+    },
+    {
+      "eventGroupId": "lead_41e02f996fa78a8f146aa09e",
+      "airportId": "proposal-apt-12dd5569-e712-5a2a-81af-26e26195cf43",
+      "oldCode": "UTFN",
+      "newCode": "UZFN",
+      "factId": "uz-icao-utfn-uzfn-20251002",
+      "rank": 514,
+      "priorityTier": "high"
+    },
+    {
+      "eventGroupId": "lead_0cac59f5317096d110e8b078",
+      "airportId": "proposal-apt-11d8888f-1881-57ef-bd51-ca5f127c1842",
+      "oldCode": "UTSA",
+      "newCode": "UZSA",
+      "factId": "uz-icao-utsa-uzsa-20251002",
+      "rank": 1417,
+      "priorityTier": "follow_up"
+    },
+    {
+      "eventGroupId": "lead_2f5f8eefcf84c78535ee86de",
+      "airportId": "proposal-apt-f946cbb9-5d31-5fa7-8d84-d8360f2ba08b",
+      "oldCode": "UTNN",
+      "newCode": "UZNN",
+      "factId": "uz-icao-utnn-uznn-20251002",
+      "rank": 512,
+      "priorityTier": "high"
+    },
+    {
+      "eventGroupId": "lead_8f7635eacad033d703ede8c5",
+      "airportId": "proposal-apt-744b8b9d-4c46-51ff-be33-79467218142a",
+      "oldCode": "UTSS",
+      "newCode": "UZSS",
+      "factId": "uz-icao-utss-uzss-20251002",
+      "rank": 529,
+      "priorityTier": "high"
+    },
+    {
+      "eventGroupId": "lead_27aa0bbaadf482da3e53bb42",
+      "airportId": "proposal-apt-a2d8a3f0-c3e2-5b32-9e7c-b87ea76bd38c",
+      "oldCode": "UTTP",
+      "newCode": "UZTP",
+      "factId": "uz-icao-uttp-uztp-20251002",
+      "rank": 1444,
+      "priorityTier": "follow_up"
+    },
+    {
+      "eventGroupId": "lead_22247e71c34af56f53fcd6f6",
+      "airportId": "proposal-apt-012c4294-9715-5935-8ea7-4096c43d8729",
+      "oldCode": "UTTT",
+      "newCode": "UZTT",
+      "factId": "uz-icao-uttt-uztt-20251002",
+      "rank": 510,
+      "priorityTier": "high"
+    },
+    {
+      "eventGroupId": "dup_f6b5618a12994695fdd32fee",
+      "airportId": "proposal-apt-7140bfc1-8075-56aa-8199-d28bef1bcff1",
+      "oldCode": "UTST",
+      "newCode": "UZST",
+      "factId": "uz-icao-utst-uzst-20251002",
+      "rank": 1396,
+      "priorityTier": "follow_up"
+    },
+    {
+      "eventGroupId": "lead_138fca062f434c87f15ab08e",
+      "airportId": "proposal-apt-98af765d-e71d-52b0-8a54-ec6e70ff7421",
+      "oldCode": "UTNU",
+      "newCode": "UZNU",
+      "factId": "uz-icao-utnu-uznu-20251002",
+      "rank": 504,
+      "priorityTier": "high"
+    }
+  ],
+  "knownControl": "Recorded AIRAC sequence05/25 through05/26 fully cached. GEN0.4 current checklist retains GEN2.4-1 dated22Jan2026 after AIRAC01/26 replaced the02Oct2025 table without changing the13 code/site mappings; eleven first AD2 pages unchanged, UZFA and UZTP have replacement paths. GEN0.3/0.5 acquired blank current records. Current NOTAM summary inspected.",
+  "unresolvedControl": "Historic NOTAM issue/replacement/cancellation series and applicability scope throughout window not established by current summary or component dates. Blank old-dated supplement/hand-amendment records do not prove complete historical negative coverage.",
+  "basis": "Permanent national act and controlled pages support exact change day. Complete AIP amendment sequence is evidence of AIP component persistence, but alone does not establish every temporary or permanent override and lifecycle. This scenario is kept outside admissible assignment intervals.",
+  "expectedNewResolved": null,
+  "expectedUncertaintyReduction": null
+}

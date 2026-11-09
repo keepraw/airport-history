@@ -1,0 +1,824 @@
+{
+  "formatVersion": 1,
+  "reviewedOn": "2026-11-09",
+  "facts": [
+    {
+      "factId": "uz-icao-utfa-uzfa-20251002",
+      "eventGroupId": "lead_0edbda9085627c8df0748e63",
+      "relatedEventGroupIds": [
+        "lead_93e3200539557ae9fe3bee65",
+        "lead_f2d3a9c84a942013a084b39a",
+        "lead_e1b1927ed40b066c321e0c21"
+      ],
+      "country": "UZ",
+      "airportId": "proposal-apt-7f69b865-7beb-5c86-afa9-f489e18c334a",
+      "referenceId": "ref_877d808b5e6e4e28278d1bbb",
+      "name": "Andijan International Airport",
+      "scheme": "ICAO",
+      "oldCode": "UTFA",
+      "newCode": "UZFA",
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uzfa",
+        "next-uz-ad13"
+      ],
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "effectiveBoundary": {
+        "earliest": "2025-10-02",
+        "latest": "2025-10-03",
+        "precision": "day"
+      },
+      "dateNature": "explicit_permanent_AIRAC_amendment_effective_day",
+      "triggerNotam": {
+        "identifier": "D0968/25",
+        "effectiveAt": "2025-10-02T00:01:00Z",
+        "expiresAt": "2025-10-16T23:59:00Z",
+        "expiryMeaning": "notification_trigger_validity_only_not_code_assignment_end"
+      },
+      "timePrecisionDecision": "Day boundary retained for resolver; trigger WEF00:01UTC is documented separately, not silently replaced with midnight exactness.",
+      "oldAssignmentStart": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "newAssignmentEnd": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "wholeIntervalSupported": false,
+      "physicalRelationship": "named_aerodrome_code_substitution_in_same_official_amendment",
+      "currentAD2ComponentDate": "29 OCT 26",
+      "currentARP": {
+        "latitude": 40.72894444,
+        "longitude": 72.29529722
+      },
+      "physicalContinuityLimitation": "No independent proof of every physical/site change over all outer history. Current ARP is corroboration; no historical continuous coordinates asserted.",
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted."
+    },
+    {
+      "factId": "uz-icao-utsb-uzsb-20251002",
+      "eventGroupId": "lead_451dc0295742c6d663cc6ff0",
+      "relatedEventGroupIds": [
+        "lead_952e8ec7bcf06196fd5123f1",
+        "dup_3fe92780e39f92a53f294951",
+        "lead_4a14dbb162e8ce13326adcbe",
+        "lead_a025d464bcf7d47a3a40e838",
+        "lead_46b594d331f0d4e725ed887a",
+        "lead_6d6f9d2f8131c1c710be8730"
+      ],
+      "country": "UZ",
+      "airportId": "proposal-apt-e52f8814-7efc-5a31-b6a2-208e4e7ebdba",
+      "referenceId": "ref_ae10708c3eb6f446004ab861",
+      "name": "Bukhara International Airport",
+      "scheme": "ICAO",
+      "oldCode": "UTSB",
+      "newCode": "UZSB",
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uzsb",
+        "next-uz-ad13"
+      ],
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "effectiveBoundary": {
+        "earliest": "2025-10-02",
+        "latest": "2025-10-03",
+        "precision": "day"
+      },
+      "dateNature": "explicit_permanent_AIRAC_amendment_effective_day",
+      "triggerNotam": {
+        "identifier": "D0968/25",
+        "effectiveAt": "2025-10-02T00:01:00Z",
+        "expiresAt": "2025-10-16T23:59:00Z",
+        "expiryMeaning": "notification_trigger_validity_only_not_code_assignment_end"
+      },
+      "timePrecisionDecision": "Day boundary retained for resolver; trigger WEF00:01UTC is documented separately, not silently replaced with midnight exactness.",
+      "oldAssignmentStart": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "newAssignmentEnd": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "wholeIntervalSupported": false,
+      "physicalRelationship": "named_aerodrome_code_substitution_in_same_official_amendment",
+      "currentAD2ComponentDate": "02 OCT 25",
+      "currentARP": {
+        "latitude": 39.77528333,
+        "longitude": 64.48227778
+      },
+      "physicalContinuityLimitation": "No independent proof of every physical/site change over all outer history. Current ARP is corroboration; no historical continuous coordinates asserted.",
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted."
+    },
+    {
+      "factId": "uz-icao-uttc-uztc-20251002",
+      "eventGroupId": "dup_99763655f7d22584e700c434",
+      "relatedEventGroupIds": [
+        "lead_4e13febddb893b6473974291",
+        "dup_4f8bc5b2c25114d17eeb9792"
+      ],
+      "country": "UZ",
+      "airportId": "proposal-apt-eea91dcf-2d17-5aec-af0e-beacda9e07ec",
+      "referenceId": "ref_f86b0c68df8a837587425798",
+      "name": "Chirchik Airport",
+      "scheme": "ICAO",
+      "oldCode": "UTTC",
+      "newCode": "UZTC",
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uztc",
+        "next-uz-ad13"
+      ],
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "effectiveBoundary": {
+        "earliest": "2025-10-02",
+        "latest": "2025-10-03",
+        "precision": "day"
+      },
+      "dateNature": "explicit_permanent_AIRAC_amendment_effective_day",
+      "triggerNotam": {
+        "identifier": "D0968/25",
+        "effectiveAt": "2025-10-02T00:01:00Z",
+        "expiresAt": "2025-10-16T23:59:00Z",
+        "expiryMeaning": "notification_trigger_validity_only_not_code_assignment_end"
+      },
+      "timePrecisionDecision": "Day boundary retained for resolver; trigger WEF00:01UTC is documented separately, not silently replaced with midnight exactness.",
+      "oldAssignmentStart": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "newAssignmentEnd": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "wholeIntervalSupported": false,
+      "physicalRelationship": "named_aerodrome_code_substitution_in_same_official_amendment",
+      "currentAD2ComponentDate": "02 OCT 25",
+      "currentARP": {
+        "latitude": 41.51696111,
+        "longitude": 69.57550278
+      },
+      "physicalContinuityLimitation": "No independent proof of every physical/site change over all outer history. Current ARP is corroboration; no historical continuous coordinates asserted.",
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted."
+    },
+    {
+      "factId": "uz-icao-utff-uzff-20251002",
+      "eventGroupId": "lead_645be5e6df374020d277bcdc",
+      "relatedEventGroupIds": [
+        "dup_9087de9d213ddc7f335057ff",
+        "lead_a90dc07310556a97cccc2236"
+      ],
+      "country": "UZ",
+      "airportId": "proposal-apt-d61959b8-e4f8-5518-a444-1a0dd9d7aefe",
+      "referenceId": "ref_4c53c8defce99d92373709dc",
+      "name": "Fergana International Airport",
+      "scheme": "ICAO",
+      "oldCode": "UTFF",
+      "newCode": "UZFF",
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uzff",
+        "next-uz-ad13"
+      ],
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "effectiveBoundary": {
+        "earliest": "2025-10-02",
+        "latest": "2025-10-03",
+        "precision": "day"
+      },
+      "dateNature": "explicit_permanent_AIRAC_amendment_effective_day",
+      "triggerNotam": {
+        "identifier": "D0968/25",
+        "effectiveAt": "2025-10-02T00:01:00Z",
+        "expiresAt": "2025-10-16T23:59:00Z",
+        "expiryMeaning": "notification_trigger_validity_only_not_code_assignment_end"
+      },
+      "timePrecisionDecision": "Day boundary retained for resolver; trigger WEF00:01UTC is documented separately, not silently replaced with midnight exactness.",
+      "oldAssignmentStart": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "newAssignmentEnd": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "wholeIntervalSupported": false,
+      "physicalRelationship": "named_aerodrome_code_substitution_in_same_official_amendment",
+      "currentAD2ComponentDate": "02 OCT 25",
+      "currentARP": {
+        "latitude": 40.35838056,
+        "longitude": 71.74466944
+      },
+      "physicalContinuityLimitation": "No independent proof of every physical/site change over all outer history. Current ARP is corroboration; no historical continuous coordinates asserted.",
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted."
+    },
+    {
+      "factId": "uz-icao-utsk-uzsk-20251002",
+      "eventGroupId": "dup_50f782e4707033751f5331ac",
+      "relatedEventGroupIds": [
+        "lead_7b2943992733c86d048fb751",
+        "dup_8714f3b8798953e35e133598",
+        "lead_d70065ba5a2fe85f6c897943",
+        "lead_27ad5be6b42aa2a6602f7b6e"
+      ],
+      "country": "UZ",
+      "airportId": "proposal-apt-8ef5576a-2f37-5dd5-988d-6d8f169f396d",
+      "referenceId": "ref_84ad0d52f2412a077a014ec0",
+      "name": "Karshi Airport",
+      "scheme": "ICAO",
+      "oldCode": "UTSK",
+      "newCode": "UZSK",
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uzsk",
+        "next-uz-ad13"
+      ],
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "effectiveBoundary": {
+        "earliest": "2025-10-02",
+        "latest": "2025-10-03",
+        "precision": "day"
+      },
+      "dateNature": "explicit_permanent_AIRAC_amendment_effective_day",
+      "triggerNotam": {
+        "identifier": "D0968/25",
+        "effectiveAt": "2025-10-02T00:01:00Z",
+        "expiresAt": "2025-10-16T23:59:00Z",
+        "expiryMeaning": "notification_trigger_validity_only_not_code_assignment_end"
+      },
+      "timePrecisionDecision": "Day boundary retained for resolver; trigger WEF00:01UTC is documented separately, not silently replaced with midnight exactness.",
+      "oldAssignmentStart": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "newAssignmentEnd": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "wholeIntervalSupported": false,
+      "physicalRelationship": "named_aerodrome_code_substitution_in_same_official_amendment",
+      "currentAD2ComponentDate": "02 OCT 25",
+      "currentARP": {
+        "latitude": 38.80288056,
+        "longitude": 65.77293056
+      },
+      "physicalContinuityLimitation": "No independent proof of every physical/site change over all outer history. Current ARP is corroboration; no historical continuous coordinates asserted.",
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted."
+    },
+    {
+      "factId": "uz-icao-utfn-uzfn-20251002",
+      "eventGroupId": "lead_41e02f996fa78a8f146aa09e",
+      "relatedEventGroupIds": [
+        "lead_f2a8a0806b4a3bcdd087450d",
+        "dup_d7f6335af19de96841451da0",
+        "lead_8d9329055575150fb1e02499",
+        "lead_3e962f8973f8025cc9726b73"
+      ],
+      "country": "UZ",
+      "airportId": "proposal-apt-12dd5569-e712-5a2a-81af-26e26195cf43",
+      "referenceId": "ref_b93328fb2f804b5648be04a2",
+      "name": "Namangan Airport",
+      "scheme": "ICAO",
+      "oldCode": "UTFN",
+      "newCode": "UZFN",
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uzfn",
+        "next-uz-ad13"
+      ],
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "effectiveBoundary": {
+        "earliest": "2025-10-02",
+        "latest": "2025-10-03",
+        "precision": "day"
+      },
+      "dateNature": "explicit_permanent_AIRAC_amendment_effective_day",
+      "triggerNotam": {
+        "identifier": "D0968/25",
+        "effectiveAt": "2025-10-02T00:01:00Z",
+        "expiresAt": "2025-10-16T23:59:00Z",
+        "expiryMeaning": "notification_trigger_validity_only_not_code_assignment_end"
+      },
+      "timePrecisionDecision": "Day boundary retained for resolver; trigger WEF00:01UTC is documented separately, not silently replaced with midnight exactness.",
+      "oldAssignmentStart": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "newAssignmentEnd": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "wholeIntervalSupported": false,
+      "physicalRelationship": "named_aerodrome_code_substitution_in_same_official_amendment",
+      "currentAD2ComponentDate": "02 OCT 25",
+      "currentARP": {
+        "latitude": 40.984875,
+        "longitude": 71.55683889
+      },
+      "physicalContinuityLimitation": "No independent proof of every physical/site change over all outer history. Current ARP is corroboration; no historical continuous coordinates asserted.",
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted."
+    },
+    {
+      "factId": "uz-icao-utsa-uzsa-20251002",
+      "eventGroupId": "lead_0cac59f5317096d110e8b078",
+      "relatedEventGroupIds": [
+        "lead_56a4f8c619ec7dc9512df1c6",
+        "lead_80ce91975cd2de53280006d9",
+        "lead_99c9e4be233622bda40dc33f",
+        "dup_4d81059f80849cd05ec8b932",
+        "lead_3c1bb15222cec4350cd0e92d"
+      ],
+      "country": "UZ",
+      "airportId": "proposal-apt-11d8888f-1881-57ef-bd51-ca5f127c1842",
+      "referenceId": "ref_d2197839d70489ed067253d6",
+      "name": "Navoi International Airport",
+      "scheme": "ICAO",
+      "oldCode": "UTSA",
+      "newCode": "UZSA",
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uzsa",
+        "next-uz-ad13"
+      ],
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "effectiveBoundary": {
+        "earliest": "2025-10-02",
+        "latest": "2025-10-03",
+        "precision": "day"
+      },
+      "dateNature": "explicit_permanent_AIRAC_amendment_effective_day",
+      "triggerNotam": {
+        "identifier": "D0968/25",
+        "effectiveAt": "2025-10-02T00:01:00Z",
+        "expiresAt": "2025-10-16T23:59:00Z",
+        "expiryMeaning": "notification_trigger_validity_only_not_code_assignment_end"
+      },
+      "timePrecisionDecision": "Day boundary retained for resolver; trigger WEF00:01UTC is documented separately, not silently replaced with midnight exactness.",
+      "oldAssignmentStart": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "newAssignmentEnd": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "wholeIntervalSupported": false,
+      "physicalRelationship": "named_aerodrome_code_substitution_in_same_official_amendment",
+      "currentAD2ComponentDate": "02 OCT 25",
+      "currentARP": {
+        "latitude": 40.11734722,
+        "longitude": 65.17123611
+      },
+      "physicalContinuityLimitation": "No independent proof of every physical/site change over all outer history. Current ARP is corroboration; no historical continuous coordinates asserted.",
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted."
+    },
+    {
+      "factId": "uz-icao-utnn-uznn-20251002",
+      "eventGroupId": "lead_2f5f8eefcf84c78535ee86de",
+      "relatedEventGroupIds": [
+        "lead_f41ea1fa33fc96f374aba6b9",
+        "dup_b5a478f18f99cb0e65b1ebba",
+        "lead_0da0791c7a7aafa0310485da",
+        "lead_d72e6a5dec02c930626d871f",
+        "lead_4aef4be602f0cbdb2ebd4c75"
+      ],
+      "country": "UZ",
+      "airportId": "proposal-apt-f946cbb9-5d31-5fa7-8d84-d8360f2ba08b",
+      "referenceId": "ref_1f522cc4e2e3ab637520a45e",
+      "name": "Nukus International Airport",
+      "scheme": "ICAO",
+      "oldCode": "UTNN",
+      "newCode": "UZNN",
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uznn",
+        "next-uz-ad13"
+      ],
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "effectiveBoundary": {
+        "earliest": "2025-10-02",
+        "latest": "2025-10-03",
+        "precision": "day"
+      },
+      "dateNature": "explicit_permanent_AIRAC_amendment_effective_day",
+      "triggerNotam": {
+        "identifier": "D0968/25",
+        "effectiveAt": "2025-10-02T00:01:00Z",
+        "expiresAt": "2025-10-16T23:59:00Z",
+        "expiryMeaning": "notification_trigger_validity_only_not_code_assignment_end"
+      },
+      "timePrecisionDecision": "Day boundary retained for resolver; trigger WEF00:01UTC is documented separately, not silently replaced with midnight exactness.",
+      "oldAssignmentStart": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "newAssignmentEnd": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "wholeIntervalSupported": false,
+      "physicalRelationship": "named_aerodrome_code_substitution_in_same_official_amendment",
+      "currentAD2ComponentDate": "02 OCT 25",
+      "currentARP": {
+        "latitude": 42.48921111,
+        "longitude": 59.62274444
+      },
+      "physicalContinuityLimitation": "No independent proof of every physical/site change over all outer history. Current ARP is corroboration; no historical continuous coordinates asserted.",
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted."
+    },
+    {
+      "factId": "uz-icao-utss-uzss-20251002",
+      "eventGroupId": "lead_8f7635eacad033d703ede8c5",
+      "relatedEventGroupIds": [
+        "lead_c6861da23f4b504973450ff9",
+        "dup_cc07223a0598a869cd23122b",
+        "lead_26e7bd7aabf220a048f8931e",
+        "lead_8a5e3504f5f63b2c0e4a7ca0",
+        "lead_0582005f9a0387c6871503ae"
+      ],
+      "country": "UZ",
+      "airportId": "proposal-apt-744b8b9d-4c46-51ff-be33-79467218142a",
+      "referenceId": "ref_bc991fab1e40c34d7f27aeb3",
+      "name": "Samarkand Airport",
+      "scheme": "ICAO",
+      "oldCode": "UTSS",
+      "newCode": "UZSS",
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uzss",
+        "next-uz-ad13"
+      ],
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "effectiveBoundary": {
+        "earliest": "2025-10-02",
+        "latest": "2025-10-03",
+        "precision": "day"
+      },
+      "dateNature": "explicit_permanent_AIRAC_amendment_effective_day",
+      "triggerNotam": {
+        "identifier": "D0968/25",
+        "effectiveAt": "2025-10-02T00:01:00Z",
+        "expiresAt": "2025-10-16T23:59:00Z",
+        "expiryMeaning": "notification_trigger_validity_only_not_code_assignment_end"
+      },
+      "timePrecisionDecision": "Day boundary retained for resolver; trigger WEF00:01UTC is documented separately, not silently replaced with midnight exactness.",
+      "oldAssignmentStart": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "newAssignmentEnd": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "wholeIntervalSupported": false,
+      "physicalRelationship": "named_aerodrome_code_substitution_in_same_official_amendment",
+      "currentAD2ComponentDate": "02 OCT 25",
+      "currentARP": {
+        "latitude": 39.70165278,
+        "longitude": 66.98243889
+      },
+      "physicalContinuityLimitation": "No independent proof of every physical/site change over all outer history. Current ARP is corroboration; no historical continuous coordinates asserted.",
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted."
+    },
+    {
+      "factId": "uz-icao-uttp-uztp-20251002",
+      "eventGroupId": "lead_27aa0bbaadf482da3e53bb42",
+      "relatedEventGroupIds": [
+        "dup_ec65a46daa6ecce7824a7394",
+        "lead_c3446dac0b4c458b45985673",
+        "dup_493859b00674966e0c3992df",
+        "lead_7487dafbaeb78eb3a7975984",
+        "dup_60849c242deceed6edf68fe5"
+      ],
+      "country": "UZ",
+      "airportId": "proposal-apt-a2d8a3f0-c3e2-5b32-9e7c-b87ea76bd38c",
+      "referenceId": "ref_24c8011fbba66adddc12f860",
+      "name": "Tashkent East Airport",
+      "scheme": "ICAO",
+      "oldCode": "UTTP",
+      "newCode": "UZTP",
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uztp",
+        "next-uz-ad13"
+      ],
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "effectiveBoundary": {
+        "earliest": "2025-10-02",
+        "latest": "2025-10-03",
+        "precision": "day"
+      },
+      "dateNature": "explicit_permanent_AIRAC_amendment_effective_day",
+      "triggerNotam": {
+        "identifier": "D0968/25",
+        "effectiveAt": "2025-10-02T00:01:00Z",
+        "expiresAt": "2025-10-16T23:59:00Z",
+        "expiryMeaning": "notification_trigger_validity_only_not_code_assignment_end"
+      },
+      "timePrecisionDecision": "Day boundary retained for resolver; trigger WEF00:01UTC is documented separately, not silently replaced with midnight exactness.",
+      "oldAssignmentStart": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "newAssignmentEnd": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "wholeIntervalSupported": false,
+      "physicalRelationship": "named_aerodrome_code_substitution_in_same_official_amendment",
+      "currentAD2ComponentDate": "14 MAY 26",
+      "currentARP": {
+        "latitude": 41.31313056,
+        "longitude": 69.39632778
+      },
+      "physicalContinuityLimitation": "No independent proof of every physical/site change over all outer history. Current ARP is corroboration; no historical continuous coordinates asserted.",
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted."
+    },
+    {
+      "factId": "uz-icao-uttt-uztt-20251002",
+      "eventGroupId": "lead_22247e71c34af56f53fcd6f6",
+      "relatedEventGroupIds": [
+        "lead_36ee92b9f58fd8d46d02542c",
+        "dup_8674586e7c96f3e90f6c8e45",
+        "lead_7bc9588ea1c995a3b27f625d",
+        "lead_87a75860a598774fb9a5357d"
+      ],
+      "country": "UZ",
+      "airportId": "proposal-apt-012c4294-9715-5935-8ea7-4096c43d8729",
+      "referenceId": "ref_a75512eee9782c1db933b8b3",
+      "name": "Tashkent International Airport",
+      "scheme": "ICAO",
+      "oldCode": "UTTT",
+      "newCode": "UZTT",
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uztt",
+        "next-uz-ad13"
+      ],
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "effectiveBoundary": {
+        "earliest": "2025-10-02",
+        "latest": "2025-10-03",
+        "precision": "day"
+      },
+      "dateNature": "explicit_permanent_AIRAC_amendment_effective_day",
+      "triggerNotam": {
+        "identifier": "D0968/25",
+        "effectiveAt": "2025-10-02T00:01:00Z",
+        "expiresAt": "2025-10-16T23:59:00Z",
+        "expiryMeaning": "notification_trigger_validity_only_not_code_assignment_end"
+      },
+      "timePrecisionDecision": "Day boundary retained for resolver; trigger WEF00:01UTC is documented separately, not silently replaced with midnight exactness.",
+      "oldAssignmentStart": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "newAssignmentEnd": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "wholeIntervalSupported": false,
+      "physicalRelationship": "named_aerodrome_code_substitution_in_same_official_amendment",
+      "currentAD2ComponentDate": "02 OCT 25",
+      "currentARP": {
+        "latitude": 41.25748889,
+        "longitude": 69.28097222
+      },
+      "physicalContinuityLimitation": "No independent proof of every physical/site change over all outer history. Current ARP is corroboration; no historical continuous coordinates asserted.",
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted."
+    },
+    {
+      "factId": "uz-icao-utst-uzst-20251002",
+      "eventGroupId": "dup_f6b5618a12994695fdd32fee",
+      "relatedEventGroupIds": [
+        "lead_c52c555c48cd40ebb2448e5b",
+        "dup_c9b3011cbcda855ec4bb894e"
+      ],
+      "country": "UZ",
+      "airportId": "proposal-apt-7140bfc1-8075-56aa-8199-d28bef1bcff1",
+      "referenceId": "ref_4257a1180d9a12e061e2c32f",
+      "name": "Termez Airport",
+      "scheme": "ICAO",
+      "oldCode": "UTST",
+      "newCode": "UZST",
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uzst",
+        "next-uz-ad13"
+      ],
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "effectiveBoundary": {
+        "earliest": "2025-10-02",
+        "latest": "2025-10-03",
+        "precision": "day"
+      },
+      "dateNature": "explicit_permanent_AIRAC_amendment_effective_day",
+      "triggerNotam": {
+        "identifier": "D0968/25",
+        "effectiveAt": "2025-10-02T00:01:00Z",
+        "expiresAt": "2025-10-16T23:59:00Z",
+        "expiryMeaning": "notification_trigger_validity_only_not_code_assignment_end"
+      },
+      "timePrecisionDecision": "Day boundary retained for resolver; trigger WEF00:01UTC is documented separately, not silently replaced with midnight exactness.",
+      "oldAssignmentStart": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "newAssignmentEnd": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "wholeIntervalSupported": false,
+      "physicalRelationship": "named_aerodrome_code_substitution_in_same_official_amendment",
+      "currentAD2ComponentDate": "02 OCT 25",
+      "currentARP": {
+        "latitude": 37.28748889,
+        "longitude": 67.308075
+      },
+      "physicalContinuityLimitation": "No independent proof of every physical/site change over all outer history. Current ARP is corroboration; no historical continuous coordinates asserted.",
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted."
+    },
+    {
+      "factId": "uz-icao-utnu-uznu-20251002",
+      "eventGroupId": "lead_138fca062f434c87f15ab08e",
+      "relatedEventGroupIds": [
+        "lead_f3222418b319ada000ab8d0c",
+        "dup_625bc32670273a72a2452b66",
+        "lead_544fe0849fb570c8527eab98",
+        "lead_f4de5e212c0527a448875887",
+        "lead_42d8534d9574c85f18746e21"
+      ],
+      "country": "UZ",
+      "airportId": "proposal-apt-98af765d-e71d-52b0-8a54-ec6e70ff7421",
+      "referenceId": "ref_612f4fa889d7d695a29a16bc",
+      "name": "Urgench Airport",
+      "scheme": "ICAO",
+      "oldCode": "UTNU",
+      "newCode": "UZNU",
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uznu",
+        "next-uz-ad13"
+      ],
+      "sourceFamily": "UZ-UZAERONAVIGATION-AIS",
+      "effectiveBoundary": {
+        "earliest": "2025-10-02",
+        "latest": "2025-10-03",
+        "precision": "day"
+      },
+      "dateNature": "explicit_permanent_AIRAC_amendment_effective_day",
+      "triggerNotam": {
+        "identifier": "D0968/25",
+        "effectiveAt": "2025-10-02T00:01:00Z",
+        "expiresAt": "2025-10-16T23:59:00Z",
+        "expiryMeaning": "notification_trigger_validity_only_not_code_assignment_end"
+      },
+      "timePrecisionDecision": "Day boundary retained for resolver; trigger WEF00:01UTC is documented separately, not silently replaced with midnight exactness.",
+      "oldAssignmentStart": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "newAssignmentEnd": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "wholeIntervalSupported": false,
+      "physicalRelationship": "named_aerodrome_code_substitution_in_same_official_amendment",
+      "currentAD2ComponentDate": "02 OCT 25",
+      "currentARP": {
+        "latitude": 41.58257222,
+        "longitude": 60.64357222
+      },
+      "physicalContinuityLimitation": "No independent proof of every physical/site change over all outer history. Current ARP is corroboration; no historical continuous coordinates asserted.",
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "basis": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted."
+    },
+    {
+      "factId": "md-rmo-2024-operator-annual-execution",
+      "eventGroupId": "lead_387a9e39fa7ca44825f74ac7",
+      "country": "MD",
+      "scheme": "IATA",
+      "oldCode": "KIV",
+      "newCode": "RMO",
+      "sourceIds": [
+        "next-md-annual-report-2024",
+        "md-tarom-code-change"
+      ],
+      "dateNature": "retrospective_operator_annual_report_of_executed_new_code_not_exact_transition_day",
+      "executionYear": 2024,
+      "exactTransitionDayFromThisNewSource": null,
+      "exactTransitionClock": null,
+      "existingFormalAssignmentIds": [
+        "iata-kiv-chisinau",
+        "iata-rmo-chisinau"
+      ],
+      "recordDisposition": "custody_and_execution_followup_only_no_new_assignment",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "basis": "Government-hosted report p7 says year2024 began with newly assigned RMO; prior18Jan2024 transition day comes from existing evidence, not this retrospective source."
+    }
+  ],
+  "nationalPolicy": "Permanent ICAO prefix amendment; trigger notification and transitional AFTN address policy have separate validity. No IATA implication."
+}

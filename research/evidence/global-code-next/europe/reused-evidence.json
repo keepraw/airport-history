@@ -1,0 +1,25 @@
+{
+  "formatVersion": 1,
+  "reviewedOn": "2026-11-09",
+  "sources": [
+    {
+      "sourceId": "md-tarom-code-change",
+      "url": "https://www.tarom.ro/en/news/passenger-information-chisinau-airport-iata-code-change-from-kiv-into-rmo/",
+      "sourceFamily": "MD-TAROM-NOTICE",
+      "originalSha256": "aab37fc8a54478c07c661a8e810e591aa59d0bd0142394b66c031659a2af7468",
+      "extractedTextSha256": "43cdcc0ad1544fb754c74917bb722824327e51a185d5d95e32da35d52a40002b",
+      "normalizedTextSha256": "b8c38ca63c340179219232ad971b158667757d50f4a83a2ed19d51571b3f20e2",
+      "dateNature": "Carrier publication precedes announced IATA reservation-system change; execution and IATA allocation original not proved",
+      "receiptPath": "research/evidence/global-code-expansion/europe/source-acquisition.json",
+      "receiptFileSha256": "3ce5be20ff255c0423ce6ceaef760fe5eb228931d52f5f5660e76055362fa278",
+      "excerptPath": "research/evidence/global-code-expansion/europe/excerpts/md-tarom-code-change.json",
+      "excerptSha256": "58f802b878fa90e82dac36431ffd77395dd51befef707fbd8d3fee75ffa074b0",
+      "reuseMode": "offline_locked_receipt_and_minimal_excerpt_reused_no_redownload",
+      "rawBytesReverifiedThisRun": false,
+      "rights": {
+        "fullRedistribution": "not_established",
+        "retention": "Metadata and minimal factual anchor only"
+      }
+    }
+  ]
+}
