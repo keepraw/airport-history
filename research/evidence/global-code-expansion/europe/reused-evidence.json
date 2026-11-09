@@ -1,0 +1,381 @@
+{
+  "formatVersion": 1,
+  "sources": [
+    {
+      "sourceId": "uk-dsa-2022",
+      "receiptPath": "research/evidence/priority-markets/source-lock.json",
+      "receiptFileSha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437",
+      "excerptPath": "research/evidence/priority-markets/excerpts/uk-dsa-2022.json",
+      "excerptSha256": "ea3b65ec53728afadc83ad76f19955a89878beb0964907b2aae3878ebdbf2abd",
+      "reuseMode": "locked_metadata_and_short_excerpt_read_offline_no_original_redownload",
+      "rawBytesReverifiedThisRun": false,
+      "originalSha256": "48b5aed911fac83cb5c8fde89f0be86ac870f4abbfebf7431c3cbedc6c451e6a",
+      "extractedTextSha256": "d8ccf15424a1671d9dda8e0dfcb74743fce937962613222156a45b86e090d8d0",
+      "normalizedTextSha256": "cc6cb316b6774b07db5258ff021faaeec39942f83e0d1cb45c3216f38177e132",
+      "hashLimitation": null,
+      "sourceFamily": "UK-AIP-NATS",
+      "url": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2022-11-03-AIRAC/html/eAIP/EG-AD-2.EGCN-en-GB.html",
+      "rights": {
+        "assessment": "Only attributed factual text is quoted. No complete HTML/PDF, extraction, chart, photograph, annex, or code ledger is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      }
+    },
+    {
+      "sourceId": "uk-dsa-2022-cover",
+      "receiptPath": "research/evidence/priority-markets/source-lock.json",
+      "receiptFileSha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437",
+      "excerptPath": "research/evidence/priority-markets/excerpts/uk-dsa-2022-cover.json",
+      "excerptSha256": "45b091fc21d51ccd5d27f2b3f1e380597c129c91e732c00eb35301fcc2ff2023",
+      "reuseMode": "locked_metadata_and_short_excerpt_read_offline_no_original_redownload",
+      "rawBytesReverifiedThisRun": false,
+      "originalSha256": "f779ed4d96f7f9cdb49ad5a5e04799e328816b35f4175f1b3973988d7d9ef7af",
+      "extractedTextSha256": "945c3fbc7a4ddbfb3b4c5b0f1a78698b90f8d3f630f411028ffb618a8c94be99",
+      "normalizedTextSha256": "6a7b0e09f2bdea10818ae32c5f9f1b866032120d3910487830430cb0c2bd1ebd",
+      "hashLimitation": null,
+      "sourceFamily": "UK-AIP-NATS",
+      "url": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2022-11-03-AIRAC/html/EG-cover-en-GB.html",
+      "rights": {
+        "assessment": "Only attributed factual text is quoted. No complete HTML/PDF, extraction, chart, photograph, annex, or code ledger is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      }
+    },
+    {
+      "sourceId": "uk-dsa-2023",
+      "receiptPath": "research/evidence/priority-markets/source-lock.json",
+      "receiptFileSha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437",
+      "excerptPath": "research/evidence/priority-markets/excerpts/uk-dsa-2023.json",
+      "excerptSha256": "f48b20e793a4e7c3cf8ee789f3d160407aa5b7e0236368cbf3e3f03d964ec2dd",
+      "reuseMode": "locked_metadata_and_short_excerpt_read_offline_no_original_redownload",
+      "rawBytesReverifiedThisRun": false,
+      "originalSha256": "5c8362d2f12842bda7c4ac198173dc82b8a35fffe0bc4b803a7f65c48afbc7a9",
+      "extractedTextSha256": "3c38a0903b1020a6a0e4561c1c09e93d2e364d247cdd0606382925d389aab4b3",
+      "normalizedTextSha256": "b4cfd1f9cef9411d76d255f843b9cc36760618989feb9ebdc205a290c4784b67",
+      "hashLimitation": null,
+      "sourceFamily": "UK-AIP-NATS",
+      "url": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2023-01-26-AIRAC/html/eAIP/EG-AD-2.EGCN-en-GB.html",
+      "rights": {
+        "assessment": "Only attributed factual text is quoted. No complete HTML/PDF, extraction, chart, photograph, annex, or code ledger is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      }
+    },
+    {
+      "sourceId": "uk-dsa-2023-cover",
+      "receiptPath": "research/evidence/priority-markets/source-lock.json",
+      "receiptFileSha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437",
+      "excerptPath": "research/evidence/priority-markets/excerpts/uk-dsa-2023-cover.json",
+      "excerptSha256": "634670b521de0bc126d1e32481f7c7b94d534efe18fabc315ac5ec81e9cbb49d",
+      "reuseMode": "locked_metadata_and_short_excerpt_read_offline_no_original_redownload",
+      "rawBytesReverifiedThisRun": false,
+      "originalSha256": "c5df250ca7398d792dd8437a58dd6641616b14e9fb99e9093aa6cbbb5680c866",
+      "extractedTextSha256": "644ed189fd66cbc4ed1af3d914edcc2028e268894c3048cd1fe5411556f1ec2c",
+      "normalizedTextSha256": "e0923208253ac67063cae24af4aa519729fd0bacd5c7bb045f9f2898aa3844bf",
+      "hashLimitation": null,
+      "sourceFamily": "UK-AIP-NATS",
+      "url": "https://www.aurora.nats.co.uk/htmlAIP/Publications/2023-01-26-AIRAC/html/EG-cover-en-GB.html",
+      "rights": {
+        "assessment": "Only attributed factual text is quoted. No complete HTML/PDF, extraction, chart, photograph, annex, or code ledger is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      }
+    },
+    {
+      "sourceId": "es-murcia-ad2",
+      "receiptPath": "research/evidence/priority-markets/source-lock.json",
+      "receiptFileSha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437",
+      "excerptPath": "research/evidence/priority-markets/excerpts/es-murcia-ad2.json",
+      "excerptSha256": "ab42706b024c1977082dec954394115657504ac182493b9e409837f8a2d66367",
+      "reuseMode": "locked_metadata_and_short_excerpt_read_offline_no_original_redownload",
+      "rawBytesReverifiedThisRun": false,
+      "originalSha256": "b816f988a33b2bde62e68b297239ff4b8999483a892df7ff774c1bf60987fa4d",
+      "extractedTextSha256": "54d2e70af2ab53979034f9ddab8f4ddffae249556aa24fcf985cd6666b476575",
+      "normalizedTextSha256": "813c4c2a6c6e6670a9537d75353b96c3eef152fd0e8b247988579ef336773111",
+      "hashLimitation": null,
+      "sourceFamily": "ES-ENAIRE-AIP",
+      "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LEMI/LE_AD_2_LEMI_en.pdf",
+      "rights": {
+        "assessment": "Only attributed factual text is quoted. No complete HTML/PDF, extraction, chart, photograph, annex, or code ledger is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      }
+    },
+    {
+      "sourceId": "es-old-ad2",
+      "receiptPath": "research/evidence/priority-markets/source-lock.json",
+      "receiptFileSha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437",
+      "excerptPath": "research/evidence/priority-markets/excerpts/es-old-ad2.json",
+      "excerptSha256": "07e05bea86098c7ecd520eeacbb926b212d1911ca06d3a2eb6cb752f57a6d525",
+      "reuseMode": "locked_metadata_and_short_excerpt_read_offline_no_original_redownload",
+      "rawBytesReverifiedThisRun": false,
+      "originalSha256": "2bd2cd7ccaff84df3b0f2b01247378a100b8879d540e0b46deeac74ba6a422b6",
+      "extractedTextSha256": "f83f3261bc25057334c6b2482366d7f3a7b6104c7cf8d8b00c1c9776236d68e4",
+      "normalizedTextSha256": "ca28b4da27e0887ae1ac44b3d77452d9ab9b692dca8b30f99a39831b9f93ccc6",
+      "hashLimitation": null,
+      "sourceFamily": "ES-ENAIRE-AIP",
+      "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/AD2/LELC/LE_AD_2_LELC_en.pdf",
+      "rights": {
+        "assessment": "Only attributed factual text is quoted. No complete HTML/PDF, extraction, chart, photograph, annex, or code ledger is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      }
+    },
+    {
+      "sourceId": "es-ad-index",
+      "receiptPath": "research/evidence/priority-markets/source-lock.json",
+      "receiptFileSha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437",
+      "excerptPath": "research/evidence/priority-markets/excerpts/es-ad-index.json",
+      "excerptSha256": "f518a13975a86da2a57bdb6dc80d8dd100db507f32110f93449a303d42f604cf",
+      "reuseMode": "locked_metadata_and_short_excerpt_read_offline_no_original_redownload",
+      "rawBytesReverifiedThisRun": false,
+      "originalSha256": "e451c7062be2c668575c427e0e14b3a39502227b50c036f18695c0ee880ac375",
+      "extractedTextSha256": "49764f0b7c55a3314dfc75630e347b5233cab60c42fc26eb9692c5021aa2de4c",
+      "normalizedTextSha256": "477cc52d7351cef461a9a484b4cedf1bc73c89336821fc8fc5d84ac000e560af",
+      "hashLimitation": null,
+      "sourceFamily": "ES-ENAIRE-AIP",
+      "url": "https://aip.enaire.es/AIP/contenido_AIP/AD/LE_AD_1_3_en.html",
+      "rights": {
+        "assessment": "Only attributed factual text is quoted. No complete HTML/PDF, extraction, chart, photograph, annex, or code ledger is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      }
+    },
+    {
+      "sourceId": "de-ber-history",
+      "receiptPath": "research/evidence/priority-markets/source-lock.json",
+      "receiptFileSha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437",
+      "excerptPath": "research/evidence/priority-markets/excerpts/de-ber-history.json",
+      "excerptSha256": "f75a492aea978ae30c6e553e480cd710e0736428088283027c059d9fa6c3273b",
+      "reuseMode": "locked_metadata_and_short_excerpt_read_offline_no_original_redownload",
+      "rawBytesReverifiedThisRun": false,
+      "originalSha256": "190ff4328ab0d122a344df17faf026279b2444ec8276b056921859830f57665c",
+      "extractedTextSha256": "cb137e2e9c9f3169a2c0a7a52604fdda90ba6d8a99df8cc5c5fcd988c4a9643c",
+      "normalizedTextSha256": "bc50f6abc6ab7c5d8ab096665ec491b91b265ead8ca520e9f6a0bcfe1775fcc9",
+      "hashLimitation": null,
+      "sourceFamily": "DE-FBB",
+      "url": "https://corporate.berlin-airport.de/en/company-media/history/berlin-brandenburg-airport.html",
+      "rights": {
+        "assessment": "Only attributed factual text is quoted. No complete HTML/PDF, extraction, chart, photograph, annex, or code ledger is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      }
+    },
+    {
+      "sourceId": "de-tegel-history",
+      "receiptPath": "research/evidence/priority-markets/source-lock.json",
+      "receiptFileSha256": "7d47e9bc2ab1865aa9f64d574b58886e09fa96a486d2200ee7880f41735e6437",
+      "excerptPath": "research/evidence/priority-markets/excerpts/de-tegel-history.json",
+      "excerptSha256": "96011033cf8e083ddbe458c763bcb1ddd5e82bef8f677d35f5407a7dc35fa256",
+      "reuseMode": "locked_metadata_and_short_excerpt_read_offline_no_original_redownload",
+      "rawBytesReverifiedThisRun": false,
+      "originalSha256": "79c8a1be3aff2cd1da2d9adae91c0ca96d33fed7bbdafe555b845ac5ef9f5c96",
+      "extractedTextSha256": "fb03179757cbf25ea80d3fb3c81f0cd9d9a15a22e053aac2aa9ed02fb984c253",
+      "normalizedTextSha256": "c9ef4b8e13ccd08df62fb06d8966bb1b9b7b437eb25486e5f66138951b298dcb",
+      "hashLimitation": null,
+      "sourceFamily": "DE-FBB",
+      "url": "https://corporate.berlin-airport.de/en/company-media/history/berlin-tegel-airport.html",
+      "rights": {
+        "assessment": "Only attributed factual text is quoted. No complete HTML/PDF, extraction, chart, photograph, annex, or code ledger is redistributed.",
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_excerpts"
+      }
+    },
+    {
+      "sourceId": "tr-ist-transfer",
+      "receiptPath": "research/evidence/markets/source-lock.json",
+      "receiptFileSha256": "6bb9d3b8ed594064c78db6e9bd4844fd3ede49e091c51e055bf6956b3974932f",
+      "excerptPath": "research/evidence/markets/excerpts/tr-ist-transfer.json",
+      "excerptSha256": "c0e1ca5ec9b370664ba757bef9626b648f99cd7d5fb89569b4999538a20e50d9",
+      "reuseMode": "locked_metadata_and_short_excerpt_read_offline_no_original_redownload",
+      "rawBytesReverifiedThisRun": false,
+      "originalSha256": "fdc7ce5457ba50239bf51f44414a1cd862a355b2b750c45f6aa98b7bcb558a1c",
+      "extractedTextSha256": "6c25821671f7761bd046d64c2d08aebf01a3388369e4084f060d801bef56e085",
+      "normalizedTextSha256": null,
+      "hashLimitation": "Legacy lock has no separate normalized-text hash",
+      "sourceFamily": "Turkish Airlines",
+      "url": "https://blog.turkishairlines.com/en/mega-move-the-story-of-turkish-airlines-great-migration/",
+      "rights": {
+        "mode": "metadata_and_short_excerpts",
+        "note": "No full HTML/PDF or full text is committed. Original publisher rights remain; minimal attributed quotations/factual rows retained solely for critical verification. Fetch original separately to verify its original SHA-256. No charts, photographs, or commercial code ledger redistributed.",
+        "permissionForFullRedistribution": "not_established"
+      }
+    },
+    {
+      "sourceId": "cdt-operator",
+      "receiptPath": "research/discovery/batches/global-1.json",
+      "receiptFileSha256": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094",
+      "reuseMode": "prior_bounded_research_findings_no_original_redownload",
+      "rawBytesReverifiedThisRun": false,
+      "originalSha256": "2e7be8bc99e532b13662a2a3e8e8f6ead34be48672303e91fb4a957488993e22",
+      "extractedTextSha256": null,
+      "normalizedTextSha256": null,
+      "hashLimitation": "Legacy review did not preserve all three hashes; not upgraded to a new original-verification receipt",
+      "url": "https://aeroportcastello.com/en/profesionals/aeronautical-information/airport-technical-data/",
+      "priorAccessResult": "content_inspected",
+      "rights": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      }
+    },
+    {
+      "sourceId": "cdt-changes",
+      "receiptPath": "research/discovery/batches/global-1.json",
+      "receiptFileSha256": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094",
+      "reuseMode": "prior_bounded_research_findings_no_original_redownload",
+      "rawBytesReverifiedThisRun": false,
+      "originalSha256": "4806816dd6a5ed4455b6c79876755f7c262204d1f14c7078b983012171332e55",
+      "extractedTextSha256": null,
+      "normalizedTextSha256": null,
+      "hashLimitation": "Legacy review did not preserve all three hashes; not upgraded to a new original-verification receipt",
+      "url": "https://ourairports.com/airports/LECH/changes.html",
+      "priorAccessResult": "content_inspected",
+      "rights": {
+        "id": "LicenseRef-Public-Domain",
+        "url": "https://ourairports.com/data/",
+        "note": "OurAirports releases airport data to the public domain. Only factual facility/edit observations are used; this does not relicense website UI, photographs or map tiles. Derived Git observations retain the licenses in sources.json and THIRD_PARTY_NOTICES.md."
+      }
+    },
+    {
+      "sourceId": "bve-changes",
+      "receiptPath": "research/discovery/batches/global-1.json",
+      "receiptFileSha256": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094",
+      "reuseMode": "prior_bounded_research_findings_no_original_redownload",
+      "rawBytesReverifiedThisRun": false,
+      "originalSha256": "b4b1f62fd517eaa077c514ef9e45cbda4d117f138f91bca008fb4bbfb58b3e7a",
+      "extractedTextSha256": null,
+      "normalizedTextSha256": null,
+      "hashLimitation": "Legacy review did not preserve all three hashes; not upgraded to a new original-verification receipt",
+      "url": "https://ourairports.com/airports/LFSL/changes.html",
+      "priorAccessResult": "content_inspected",
+      "rights": {
+        "id": "LicenseRef-Public-Domain",
+        "url": "https://ourairports.com/data/",
+        "note": "OurAirports releases airport data to the public domain. Only factual facility/edit observations are used; this does not relicense website UI, photographs or map tiles. Derived Git observations retain the licenses in sources.json and THIRD_PARTY_NOTICES.md."
+      }
+    },
+    {
+      "sourceId": "bve-operator",
+      "receiptPath": "research/discovery/batches/global-1.json",
+      "receiptFileSha256": "4031acb6f1480583fb2b3ce1fc24eca9bde7fd823133e8e0974fe25001f69094",
+      "reuseMode": "prior_bounded_research_findings_no_original_redownload",
+      "rawBytesReverifiedThisRun": false,
+      "originalSha256": "4917b0ba2618fbb041e28197804d0326f7ce90f3d5bc888abddbed89cdb5e6f3",
+      "extractedTextSha256": null,
+      "normalizedTextSha256": null,
+      "hashLimitation": "Legacy review did not preserve all three hashes; not upgraded to a new original-verification receipt",
+      "url": "https://www.aeroport-brive-vallee-dordogne.com/professionnals/airport-informations-and-air-information-publication",
+      "priorAccessResult": "content_inspected",
+      "rights": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      }
+    },
+    {
+      "sourceId": "rov2-gov-order-2434r",
+      "receiptPath": "research/discovery/batches/global-2.json",
+      "receiptFileSha256": "b1cddfb6b7827896cbb87b9fdfaea3547afa4e366d5d4b913d10f6418b99f065",
+      "reuseMode": "prior_bounded_research_findings_no_original_redownload",
+      "rawBytesReverifiedThisRun": false,
+      "originalSha256": null,
+      "extractedTextSha256": null,
+      "normalizedTextSha256": null,
+      "hashLimitation": "Legacy review did not preserve all three hashes; not upgraded to a new original-verification receipt",
+      "url": "https://static.government.ru/media/files/AGCgTsVRezAjhuNIkq7gYA7VIWOLGnWM.pdf",
+      "priorAccessResult": "web_content_inspected_origin_download_blocked",
+      "rights": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image, chart or table is redistributed."
+      }
+    },
+    {
+      "sourceId": "rov2-aeroflot-notice",
+      "receiptPath": "research/discovery/batches/global-2.json",
+      "receiptFileSha256": "b1cddfb6b7827896cbb87b9fdfaea3547afa4e366d5d4b913d10f6418b99f065",
+      "reuseMode": "prior_bounded_research_findings_no_original_redownload",
+      "rawBytesReverifiedThisRun": false,
+      "originalSha256": "1f8985aef57d4cef10c5c7bf2a6837e37d7b7b7665c9b202e8d41bbb3a1f43f1",
+      "extractedTextSha256": null,
+      "normalizedTextSha256": null,
+      "hashLimitation": "Legacy review did not preserve all three hashes; not upgraded to a new original-verification receipt",
+      "url": "https://aviakassir.info/news/airlines/2963-su-aeroflot-otkrytie-novogo-mezhdunarodnogo-aeroporta-v-g-rostov-na-donu-s-27-11-2017.html",
+      "priorAccessResult": "content_inspected",
+      "rights": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image, chart or table is redistributed."
+      }
+    },
+    {
+      "sourceId": "dqm-oman-aip-2-25",
+      "receiptPath": "research/discovery/batches/global-2.json",
+      "receiptFileSha256": "b1cddfb6b7827896cbb87b9fdfaea3547afa4e366d5d4b913d10f6418b99f065",
+      "reuseMode": "prior_bounded_research_findings_no_original_redownload",
+      "rawBytesReverifiedThisRun": false,
+      "originalSha256": "fea5d4ff32ad18c4aa5e27a3dc3e1c3f5878f0d52204922d6e2918938d499f9a",
+      "extractedTextSha256": null,
+      "normalizedTextSha256": null,
+      "hashLimitation": "Legacy review did not preserve all three hashes; not upgraded to a new original-verification receipt",
+      "url": "https://aim.caa.gov.om/eAIP_Oman/6.AIRAC%20eAIPOman-2-25/final/2025-05-15/pdf/Amendment_complete_pdf.pdf",
+      "priorAccessResult": "content_inspected",
+      "rights": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image, chart or table is redistributed."
+      }
+    },
+    {
+      "sourceId": "g3-rov-flydubai",
+      "receiptPath": "research/discovery/batches/global-3.json",
+      "receiptFileSha256": "6b272f267fba3b79c5a9e3ffa4412a96064a2d2c2e650fdc4a457ef6aeda3032",
+      "reuseMode": "prior_bounded_research_findings_no_original_redownload",
+      "rawBytesReverifiedThisRun": false,
+      "originalSha256": "188e9dd84bd2ec51edf215e6ddbe2a1f17c7dc6875405455798c78439c80555d",
+      "extractedTextSha256": null,
+      "normalizedTextSha256": null,
+      "hashLimitation": "Legacy review did not preserve all three hashes; not upgraded to a new original-verification receipt",
+      "url": "https://news.flydubai.com/flydubai-statements-relating-to-fz-981",
+      "priorAccessResult": "content_inspected",
+      "rights": {
+        "id": "LicenseRef-Reference-Only",
+        "url": null,
+        "note": "No open redistribution permission established. Publisher retains rights. Only links and original factual notes are included; no article, PDF, image or table is redistributed."
+      }
+    },
+    {
+      "sourceId": "b5-de-dfs-eddm-2026",
+      "receiptPath": "research/evidence/global-batch-5/source-lock.json",
+      "receiptFileSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "originalSha256": "77dd5081d60d1cc8fba2bc63dc27cfb3af514068de38ff11f1b2672d1e837b57",
+      "normalizedTextSha256": "ea7897605fb6a1148ba8ce0eb914625bde134f28f09d943b3ecdd82288f1c5d2",
+      "extractedTextSha256": null,
+      "hashLimitation": "Legacy keyed lock lacks a separate extracted-text hash",
+      "reuseMode": "prior_locked_findings_read_offline_no_redownload",
+      "url": "https://aip.dfs.de/BasicIFR/2026OCT29/pages/5CF4B5CC14435D431509C4188A8F206F.html",
+      "rawBytesReverifiedThisRun": false,
+      "rights": {
+        "fullRedistribution": "not_established",
+        "use": "Only bounded prior findings and metadata retained"
+      }
+    },
+    {
+      "sourceId": "b5-de-fmg-chronology",
+      "receiptPath": "research/evidence/global-batch-5/source-lock.json",
+      "receiptFileSha256": "4ddc336454c83e15d925b8f766217f918ce38c82461458babee375b3efeabb6f",
+      "originalSha256": "88b6d7eab41d8cc3a465cc528db724b43bab4127fd7c63936cf409d521ef78ea",
+      "normalizedTextSha256": "5f5e65f0a7d89491a04665eb7e2283f90f30b5575efd4998d649cc9cf742c9d6",
+      "extractedTextSha256": null,
+      "hashLimitation": "Legacy keyed lock lacks a separate extracted-text hash",
+      "reuseMode": "prior_locked_findings_read_offline_no_redownload",
+      "url": "https://www.munich-airport.de/_b/0000000000000013477455bb627a4adf/ereignisse-aus-der-muenchner-flughafengeschichte.pdf",
+      "rawBytesReverifiedThisRun": false,
+      "rights": {
+        "fullRedistribution": "not_established",
+        "use": "Only bounded prior findings and metadata retained"
+      }
+    }
+  ]
+}

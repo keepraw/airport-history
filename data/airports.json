@@ -1244,10 +1244,10 @@
         "value": "Baitabu Air Base"
       },
       "timezone": {
-        "status": "unknown",
-        "value": null,
+        "note": "No timezone determination admitted in this identity batch.",
         "sourceIds": [],
-        "note": "No timezone determination admitted in this identity batch."
+        "status": "unknown",
+        "value": null
       }
     },
     {
@@ -1277,10 +1277,10 @@
         "value": "Lianyungang Huaguoshan International Airport"
       },
       "timezone": {
-        "status": "unknown",
-        "value": null,
+        "note": "No timezone determination admitted in this identity batch.",
         "sourceIds": [],
-        "note": "No timezone determination admitted in this identity batch."
+        "status": "unknown",
+        "value": null
       }
     },
     {
@@ -1310,10 +1310,10 @@
         "value": "Luzhou Lantian Airport"
       },
       "timezone": {
-        "status": "unknown",
-        "value": null,
+        "note": "No timezone determination admitted in this identity batch.",
         "sourceIds": [],
-        "note": "No timezone determination admitted in this identity batch."
+        "status": "unknown",
+        "value": null
       }
     },
     {
@@ -1343,10 +1343,10 @@
         "value": "Luzhou Yunlong Airport"
       },
       "timezone": {
-        "status": "unknown",
-        "value": null,
+        "note": "No timezone determination admitted in this identity batch.",
         "sourceIds": [],
-        "note": "No timezone determination admitted in this identity batch."
+        "status": "unknown",
+        "value": null
       }
     },
     {
@@ -1376,10 +1376,10 @@
         "value": "Yibin Caiba Airport"
       },
       "timezone": {
-        "status": "unknown",
-        "value": null,
+        "note": "No timezone determination admitted in this identity batch.",
         "sourceIds": [],
-        "note": "No timezone determination admitted in this identity batch."
+        "status": "unknown",
+        "value": null
       }
     },
     {
@@ -1409,10 +1409,109 @@
         "value": "Yibin Wuliangye Airport"
       },
       "timezone": {
-        "status": "unknown",
-        "value": null,
+        "note": "No timezone determination admitted in this identity batch.",
         "sourceIds": [],
-        "note": "No timezone determination admitted in this identity batch."
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_5e325674-a832-4106-807e-7e1e1ef951fe",
+      "coordinates": {
+        "note": "Reference attributes transcribed from matching controlled AAI AD2 ARPs; no historical coordinate interval.",
+        "sourceIds": [
+          "asia-in-11-06-2026-vanm",
+          "asia-in-09-07-2026-vanm"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 18.994444444444447,
+          "longitude": 73.07027777777778
+        }
+      },
+      "externalIds": {
+        "ourAirports": "342093"
+      },
+      "name": {
+        "note": "Display label, not a historical legal-name interval.",
+        "sourceIds": [
+          "asia-in-11-06-2026-vanm",
+          "asia-in-09-07-2026-vanm"
+        ],
+        "status": "reference",
+        "value": "Navi Mumbai International Airport"
+      },
+      "timezone": {
+        "note": "Timezone is outside the AAI admission scope.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_96e253c6-48ee-4ca3-b9a1-c34b49df0a68",
+      "coordinates": {
+        "note": "Reference attributes transcribed from matching controlled AAI AD2 ARPs; no historical coordinate interval.",
+        "sourceIds": [
+          "asia-in-11-06-2026-veay",
+          "asia-in-09-07-2026-veay"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 26.753888888888888,
+          "longitude": 82.15027777777779
+        }
+      },
+      "externalIds": {
+        "ourAirports": "46512"
+      },
+      "name": {
+        "note": "Display label, not a historical legal-name interval.",
+        "sourceIds": [
+          "asia-in-11-06-2026-veay",
+          "asia-in-09-07-2026-veay"
+        ],
+        "status": "reference",
+        "value": "Maharishi Valmiki International Airport Ayodhyadham"
+      },
+      "timezone": {
+        "note": "Timezone is outside the AAI admission scope.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_1130a628-5e21-4e68-b3e0-178487751f67",
+      "coordinates": {
+        "note": "Reference attributes transcribed from matching controlled AAI AD2 ARPs; no historical coordinate interval.",
+        "sourceIds": [
+          "asia-in-11-06-2026-vosh",
+          "asia-in-09-07-2026-vosh"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 13.859722222222222,
+          "longitude": 75.61777777777777
+        }
+      },
+      "externalIds": {
+        "ourAirports": "354545"
+      },
+      "name": {
+        "note": "Display label, not a historical legal-name interval.",
+        "sourceIds": [
+          "asia-in-11-06-2026-vosh",
+          "asia-in-09-07-2026-vosh"
+        ],
+        "status": "reference",
+        "value": "Shivamogga Airport"
+      },
+      "timezone": {
+        "note": "Timezone is outside the AAI admission scope.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
       }
     }
   ],
@@ -2715,9 +2814,81 @@
       },
       "verificationStatus": "verified",
       "verifiedOn": "2026-10-30"
+    },
+    {
+      "airportId": "apt_5e325674-a832-4106-807e-7e1e1ef951fe",
+      "assignmentId": "global-code-expansion-vanm-icao",
+      "code": "VANM",
+      "evidenceType": "continuity_inference",
+      "note": "Bounded whole-local-date policy inference; unknown outer bounds. Policy audit is external to Schema 3.0.0.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "asia-in-11-06-2026-vanm",
+        "asia-in-09-07-2026-vanm"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2026-06-12",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-11-07"
+    },
+    {
+      "airportId": "apt_96e253c6-48ee-4ca3-b9a1-c34b49df0a68",
+      "assignmentId": "global-code-expansion-veay-icao",
+      "code": "VEAY",
+      "evidenceType": "continuity_inference",
+      "note": "Bounded whole-local-date policy inference; unknown outer bounds. Policy audit is external to Schema 3.0.0.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "asia-in-11-06-2026-veay",
+        "asia-in-09-07-2026-veay"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2026-06-12",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-11-07"
+    },
+    {
+      "airportId": "apt_1130a628-5e21-4e68-b3e0-178487751f67",
+      "assignmentId": "global-code-expansion-vosh-icao",
+      "code": "VOSH",
+      "evidenceType": "continuity_inference",
+      "note": "Bounded whole-local-date policy inference; unknown outer bounds. Policy audit is external to Schema 3.0.0.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "asia-in-11-06-2026-vosh",
+        "asia-in-09-07-2026-vosh"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2026-06-12",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "verified",
+      "verifiedOn": "2026-11-07"
     }
   ],
-  "dataVersion": "0.11.0",
+  "dataVersion": "0.12.0",
   "names": [
     {
       "airportId": "apt_99f19660-7609-49c5-b221-ed4a37046566",
@@ -4283,6 +4454,90 @@
       "sourceType": "secondary",
       "title": "OurAirports physical-site reference rows, snapshot d97df1673cc5ba61a09b17ab5936091a669a04ca",
       "url": "https://raw.githubusercontent.com/davidmegginson/ourairports-data/d97df1673cc5ba61a09b17ab5936091a669a04ca/airports.csv",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Same AAI issuer; dated editions are temporal observations. Original hashes and citations in policy lock.",
+      "sourceId": "asia-in-11-06-2026-vanm",
+      "sourceType": "primary",
+      "title": "India AIP 2026-06-11 AD2 VANM",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VANM-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Same AAI issuer; dated editions are temporal observations. Original hashes and citations in policy lock.",
+      "sourceId": "asia-in-09-07-2026-vanm",
+      "sourceType": "primary",
+      "title": "India AIP 2026-07-09 AD2 VANM",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VANM-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Same AAI issuer; dated editions are temporal observations. Original hashes and citations in policy lock.",
+      "sourceId": "asia-in-11-06-2026-veay",
+      "sourceType": "primary",
+      "title": "India AIP 2026-06-11 AD2 VEAY",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VEAY-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Same AAI issuer; dated editions are temporal observations. Original hashes and citations in policy lock.",
+      "sourceId": "asia-in-09-07-2026-veay",
+      "sourceType": "primary",
+      "title": "India AIP 2026-07-09 AD2 VEAY",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEAY-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Same AAI issuer; dated editions are temporal observations. Original hashes and citations in policy lock.",
+      "sourceId": "asia-in-11-06-2026-vosh",
+      "sourceType": "primary",
+      "title": "India AIP 2026-06-11 AD2 VOSH",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VOSH-en-GB.html",
+      "verificationStatus": "verified"
+    },
+    {
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Same AAI issuer; dated editions are temporal observations. Original hashes and citations in policy lock.",
+      "sourceId": "asia-in-09-07-2026-vosh",
+      "sourceType": "primary",
+      "title": "India AIP 2026-07-09 AD2 VOSH",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOSH-en-GB.html",
       "verificationStatus": "verified"
     }
   ]

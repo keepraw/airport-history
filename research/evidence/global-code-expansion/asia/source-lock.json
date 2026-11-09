@@ -1,0 +1,1409 @@
+{
+  "formatVersion": 1,
+  "mode": "research-not-admission",
+  "reviewedOn": "2026-11-07",
+  "sources": [
+    {
+      "accessResult": "content_inspected",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "accessedAt": "2026-11-07T05:10:36.466178+00:00",
+      "arp": "121357N 0763923E",
+      "code": "VOMY",
+      "componentEffectiveDate": "2026-04-16",
+      "contentType": "text/html",
+      "editionAnchorSourceId": "asia-in-11-06-2026-gen02",
+      "editionEffectiveDate": "2026-06-11",
+      "excerptPath": "excerpts/asia-in-11-06-2026-vomy.json",
+      "excerptSha256": "f31a69faa4631951924028aad4de09b96e382346cf089e53e91f49f0cc3ef9f3",
+      "extractedTextSha256": "8bc74f7f024dbb19e56a16ae6d84af472684f590d4082879aae9d8944ee52760",
+      "extraction": "Unchanged scripts/evidence/global_batch.py:extract UTF8; normalization collapses Unicode whitespace",
+      "finalUrl": "https://aim-india.aai.aero.in/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VOMY-en-GB.html",
+      "httpStatus": 200,
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "normalizedTextSha256": "61f9ff7ca397c0c85698865268238b0a4d7a5e1d7f1ac22474eb15ecf88028f9",
+      "observedAtUtc": "2026-11-07T05:10:36.466178+00:00",
+      "officialName": "MYSURU AIRPORT, MYSURU",
+      "originalBytes": 139874,
+      "originalPublicationKey": "aai-aip:2026-06-11",
+      "originalSha256": "bae741f4954fae9af32851a720aaacb4cd0acec22fb1d737caa7fb48d03fc720",
+      "originalVerified": true,
+      "privateExtractedTextPath": "work/global-code-expansion/asia/asia-in-11-06-2026-vomy.gate-extracted.txt",
+      "privateNormalizedTextPath": "work/global-code-expansion/asia/asia-in-11-06-2026-vomy.gate-normalized.txt",
+      "privateOriginalPath": "work/global-code-expansion/asia/asia-in-11-06-2026-vomy.html",
+      "publicationDate": "2026-03-05",
+      "publisher": "Airports Authority of India",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "scheme": "ICAO",
+      "sourceFamily": "aai-aip",
+      "sourceId": "asia-in-11-06-2026-vomy",
+      "sourceType": "primary",
+      "spans": [
+        {
+          "characterEnd": 111,
+          "characterStart": 82,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "VOMY - MYSURU AIRPORT, MYSURU"
+        },
+        {
+          "characterEnd": 240,
+          "characterStart": 173,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "Aerodrome reference point coordinates and its site 121357N 0763923E"
+        },
+        {
+          "characterEnd": 705,
+          "characterStart": 661,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='DC.date' content='05 MAR 2026'/>"
+        },
+        {
+          "characterEnd": 765,
+          "characterStart": 707,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='EM.effectiveDateStart' content='16 APR 2026'/>"
+        }
+      ],
+      "temporalMeaning": "Controlled edition observation, never first allocation or withdrawal; bounded continuity requires unchanged existing AAI policy.",
+      "textCharacters": 27286,
+      "textOriginalSha256": "8bc74f7f024dbb19e56a16ae6d84af472684f590d4082879aae9d8944ee52760",
+      "title": "India AIP 2026-06-11 AD2 VOMY",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VOMY-en-GB.html"
+    },
+    {
+      "accessResult": "content_inspected",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "accessedAt": "2026-11-07T05:10:36.467040+00:00",
+      "airportId": "apt_1130a628-5e21-4e68-b3e0-178487751f67",
+      "arp": "135135N 0753704E",
+      "code": "VOSH",
+      "componentEffectiveDate": "2026-04-16",
+      "contentType": "text/html",
+      "editionAnchorSourceId": "asia-in-11-06-2026-gen02",
+      "editionEffectiveDate": "2026-06-11",
+      "excerptPath": "excerpts/asia-in-11-06-2026-vosh.json",
+      "excerptSha256": "4bd30168955b5301ed09c37509d303e4a93a77378b5c5b3d37fdf972aca6d4bb",
+      "extractedTextSha256": "e507f696a051909706b8b83d5ba269de28830bb272544109ca4c2732aa5adb38",
+      "extraction": "Unchanged scripts/evidence/global_batch.py:extract UTF8; normalization collapses Unicode whitespace",
+      "finalUrl": "https://aim-india.aai.aero.in/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VOSH-en-GB.html",
+      "httpStatus": 200,
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "normalizedTextSha256": "7b7a93c5f76c7325339da3f07e3872a16c7b20f77f895cb99b528e4fd11c6982",
+      "observedAtUtc": "2026-11-07T05:10:36.467040+00:00",
+      "officialName": "SHIVAMOGGA AIRPORT, SHIVAMOGGA",
+      "originalBytes": 90915,
+      "originalPublicationKey": "aai-aip:2026-06-11",
+      "originalSha256": "a2cac83315f742e4b1f54bacde412013b096dc3e2bf7cb31739faa978be0ebed",
+      "originalVerified": true,
+      "privateExtractedTextPath": "work/global-code-expansion/asia/asia-in-11-06-2026-vosh.gate-extracted.txt",
+      "privateNormalizedTextPath": "work/global-code-expansion/asia/asia-in-11-06-2026-vosh.gate-normalized.txt",
+      "privateOriginalPath": "work/global-code-expansion/asia/asia-in-11-06-2026-vosh.html",
+      "publicationDate": "2026-03-05",
+      "publisher": "Airports Authority of India",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "scheme": "ICAO",
+      "sourceFamily": "aai-aip",
+      "sourceId": "asia-in-11-06-2026-vosh",
+      "sourceType": "primary",
+      "spans": [
+        {
+          "characterEnd": 119,
+          "characterStart": 82,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "VOSH - SHIVAMOGGA AIRPORT, SHIVAMOGGA"
+        },
+        {
+          "characterEnd": 248,
+          "characterStart": 181,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "Aerodrome reference point coordinates and its site 135135N 0753704E"
+        },
+        {
+          "characterEnd": 705,
+          "characterStart": 661,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='DC.date' content='05 MAR 2026'/>"
+        },
+        {
+          "characterEnd": 765,
+          "characterStart": 707,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='EM.effectiveDateStart' content='16 APR 2026'/>"
+        }
+      ],
+      "temporalMeaning": "Controlled edition observation, never first allocation or withdrawal; bounded continuity requires unchanged existing AAI policy.",
+      "textCharacters": 15822,
+      "textOriginalSha256": "e507f696a051909706b8b83d5ba269de28830bb272544109ca4c2732aa5adb38",
+      "title": "India AIP 2026-06-11 AD2 VOSH",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VOSH-en-GB.html"
+    },
+    {
+      "accessResult": "retrieval_failed",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "failure": "HTTPError: HTTP Error 404: Not Found",
+      "observedAtUtc": "2026-11-07T05:10:36.467573+00:00",
+      "publisher": "Airports Authority of India",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "aai-aip",
+      "sourceId": "asia-in-11-06-2026-vedz",
+      "sourceType": "primary",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VEDZ-en-GB.html"
+    },
+    {
+      "accessResult": "content_inspected",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "accessedAt": "2026-11-07T05:10:36.467944+00:00",
+      "airportId": "apt_96e253c6-48ee-4ca3-b9a1-c34b49df0a68",
+      "arp": "264514N 0820901E",
+      "code": "VEAY",
+      "componentEffectiveDate": "2026-05-14",
+      "contentType": "text/html",
+      "editionAnchorSourceId": "asia-in-11-06-2026-gen02",
+      "editionEffectiveDate": "2026-06-11",
+      "excerptPath": "excerpts/asia-in-11-06-2026-veay.json",
+      "excerptSha256": "1b1f6af36e8298f6b7cc67d7756cfbf769706549c785acdee41c138035531f3c",
+      "extractedTextSha256": "d4bc89718af9da5ab05e1656a49c3ab8a4b99e3465910b8db76af36ae6065c84",
+      "extraction": "Unchanged scripts/evidence/global_batch.py:extract UTF8; normalization collapses Unicode whitespace",
+      "finalUrl": "https://aim-india.aai.aero.in/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VEAY-en-GB.html",
+      "httpStatus": 200,
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "normalizedTextSha256": "5b23fed948a86220257d2a0275707d2d73d4626b1630657579b8cf2eeff8df13",
+      "observedAtUtc": "2026-11-07T05:10:36.467944+00:00",
+      "officialName": "MAHARISHI VALMIKI INTERNATIONAL AIRPORT AYODHYADHAM,AYODHYA",
+      "originalBytes": 141499,
+      "originalPublicationKey": "aai-aip:2026-06-11",
+      "originalSha256": "a715e6da4aaa4303e207027b5bcd22516efaeb2a237be6ba7a4ce167432df84c",
+      "originalVerified": true,
+      "privateExtractedTextPath": "work/global-code-expansion/asia/asia-in-11-06-2026-veay.gate-extracted.txt",
+      "privateNormalizedTextPath": "work/global-code-expansion/asia/asia-in-11-06-2026-veay.gate-normalized.txt",
+      "privateOriginalPath": "work/global-code-expansion/asia/asia-in-11-06-2026-veay.html",
+      "publicationDate": "2026-04-02",
+      "publisher": "Airports Authority of India",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "scheme": "ICAO",
+      "sourceFamily": "aai-aip",
+      "sourceId": "asia-in-11-06-2026-veay",
+      "sourceType": "primary",
+      "spans": [
+        {
+          "characterEnd": 148,
+          "characterStart": 82,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "VEAY - MAHARISHI VALMIKI INTERNATIONAL AIRPORT AYODHYADHAM,AYODHYA"
+        },
+        {
+          "characterEnd": 277,
+          "characterStart": 210,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "Aerodrome reference point coordinates and its site 264514N 0820901E"
+        },
+        {
+          "characterEnd": 705,
+          "characterStart": 661,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='DC.date' content='02 APR 2026'/>"
+        },
+        {
+          "characterEnd": 765,
+          "characterStart": 707,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='EM.effectiveDateStart' content='14 MAY 2026'/>"
+        }
+      ],
+      "temporalMeaning": "Controlled edition observation, never first allocation or withdrawal; bounded continuity requires unchanged existing AAI policy.",
+      "textCharacters": 30866,
+      "textOriginalSha256": "d4bc89718af9da5ab05e1656a49c3ab8a4b99e3465910b8db76af36ae6065c84",
+      "title": "India AIP 2026-06-11 AD2 VEAY",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VEAY-en-GB.html"
+    },
+    {
+      "accessResult": "content_inspected",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "accessedAt": "2026-11-07T05:10:36.468301+00:00",
+      "airportId": "apt_5e325674-a832-4106-807e-7e1e1ef951fe",
+      "arp": "185940N 0730413E",
+      "code": "VANM",
+      "componentEffectiveDate": "2026-05-14",
+      "contentType": "text/html",
+      "editionAnchorSourceId": "asia-in-11-06-2026-gen02",
+      "editionEffectiveDate": "2026-06-11",
+      "excerptPath": "excerpts/asia-in-11-06-2026-vanm.json",
+      "excerptSha256": "0d56d32181f55a57b81302642a2cae0be65e35c1b75b0693830e768f45120f2a",
+      "extractedTextSha256": "5000c6d42d212b25c1a7d0987bd1018e835260a5fec9a98c778a10447700b896",
+      "extraction": "Unchanged scripts/evidence/global_batch.py:extract UTF8; normalization collapses Unicode whitespace",
+      "finalUrl": "https://aim-india.aai.aero.in/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VANM-en-GB.html",
+      "httpStatus": 200,
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "normalizedTextSha256": "c99b65b188a3b49dfb8aaf35dba0fc16e2427a7ba60d5d472415e5257a67f98f",
+      "observedAtUtc": "2026-11-07T05:10:36.468301+00:00",
+      "officialName": "NAVI MUMBAI INTERNATIONAL AIRPORT, NAVI MUMBAI",
+      "originalBytes": 440843,
+      "originalPublicationKey": "aai-aip:2026-06-11",
+      "originalSha256": "97733a9cde5b3ed0293edc32f4bc873d828efd89fbe222bdeb91a20dfe31eceb",
+      "originalVerified": true,
+      "privateExtractedTextPath": "work/global-code-expansion/asia/asia-in-11-06-2026-vanm.gate-extracted.txt",
+      "privateNormalizedTextPath": "work/global-code-expansion/asia/asia-in-11-06-2026-vanm.gate-normalized.txt",
+      "privateOriginalPath": "work/global-code-expansion/asia/asia-in-11-06-2026-vanm.html",
+      "publicationDate": "2026-04-02",
+      "publisher": "Airports Authority of India",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "scheme": "ICAO",
+      "sourceFamily": "aai-aip",
+      "sourceId": "asia-in-11-06-2026-vanm",
+      "sourceType": "primary",
+      "spans": [
+        {
+          "characterEnd": 135,
+          "characterStart": 82,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "VANM - NAVI MUMBAI INTERNATIONAL AIRPORT, NAVI MUMBAI"
+        },
+        {
+          "characterEnd": 264,
+          "characterStart": 197,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "Aerodrome reference point coordinates and its site 185940N 0730413E"
+        },
+        {
+          "characterEnd": 705,
+          "characterStart": 661,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='DC.date' content='02 APR 2026'/>"
+        },
+        {
+          "characterEnd": 765,
+          "characterStart": 707,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='EM.effectiveDateStart' content='14 MAY 2026'/>"
+        }
+      ],
+      "temporalMeaning": "Controlled edition observation, never first allocation or withdrawal; bounded continuity requires unchanged existing AAI policy.",
+      "textCharacters": 72537,
+      "textOriginalSha256": "5000c6d42d212b25c1a7d0987bd1018e835260a5fec9a98c778a10447700b896",
+      "title": "India AIP 2026-06-11 AD2 VANM",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VANM-en-GB.html"
+    },
+    {
+      "accessResult": "content_inspected",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "accessedAt": "2026-11-07T05:10:36.468710+00:00",
+      "arp": "121357N 0763923E",
+      "code": "VOMY",
+      "componentEffectiveDate": "2026-07-09",
+      "contentType": "text/html",
+      "editionAnchorSourceId": "asia-in-09-07-2026-vomy",
+      "editionEffectiveDate": "2026-07-09",
+      "excerptPath": "excerpts/asia-in-09-07-2026-vomy.json",
+      "excerptSha256": "70b47220c9bbf1098ce3f0aa7070cd3782556a99df2be4b8dd2e9cbdbaccec95",
+      "extractedTextSha256": "b4318864436963cc9767eccfe8c081c6372b7bb1e550163e70f4e2e55e6c6351",
+      "extraction": "Unchanged scripts/evidence/global_batch.py:extract UTF8; normalization collapses Unicode whitespace",
+      "finalUrl": "https://aim-india.aai.aero.in/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOMY-en-GB.html",
+      "httpStatus": 200,
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "normalizedTextSha256": "9035a8cdeb366e926062c990bb26342e3b61b7599242152479a14513098c64a2",
+      "observedAtUtc": "2026-11-07T05:10:36.468710+00:00",
+      "officialName": "MYSURU AIRPORT, MYSURU",
+      "originalBytes": 139960,
+      "originalPublicationKey": "aai-aip:2026-07-09",
+      "originalSha256": "ce0cf2a5bcdd5290704b6bcc396f707ada538ee48501f416b25868bb22a09736",
+      "originalVerified": true,
+      "privateExtractedTextPath": "work/global-code-expansion/asia/asia-in-09-07-2026-vomy.gate-extracted.txt",
+      "privateNormalizedTextPath": "work/global-code-expansion/asia/asia-in-09-07-2026-vomy.gate-normalized.txt",
+      "privateOriginalPath": "work/global-code-expansion/asia/asia-in-09-07-2026-vomy.html",
+      "publicationDate": "2026-05-28",
+      "publisher": "Airports Authority of India",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "scheme": "ICAO",
+      "sourceFamily": "aai-aip",
+      "sourceId": "asia-in-09-07-2026-vomy",
+      "sourceType": "primary",
+      "spans": [
+        {
+          "characterEnd": 111,
+          "characterStart": 82,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "VOMY - MYSURU AIRPORT, MYSURU"
+        },
+        {
+          "characterEnd": 240,
+          "characterStart": 173,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "Aerodrome reference point coordinates and its site 121357N 0763923E"
+        },
+        {
+          "characterEnd": 705,
+          "characterStart": 661,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='DC.date' content='28 MAY 2026'/>"
+        },
+        {
+          "characterEnd": 765,
+          "characterStart": 707,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='EM.effectiveDateStart' content='09 JUL 2026'/>"
+        }
+      ],
+      "temporalMeaning": "Controlled edition observation, never first allocation or withdrawal; bounded continuity requires unchanged existing AAI policy.",
+      "textCharacters": 27483,
+      "textOriginalSha256": "b4318864436963cc9767eccfe8c081c6372b7bb1e550163e70f4e2e55e6c6351",
+      "title": "India AIP 2026-07-09 AD2 VOMY",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOMY-en-GB.html"
+    },
+    {
+      "accessResult": "content_inspected",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "accessedAt": "2026-11-07T05:10:39.861422+00:00",
+      "airportId": "apt_1130a628-5e21-4e68-b3e0-178487751f67",
+      "arp": "135135N 0753704E",
+      "code": "VOSH",
+      "componentEffectiveDate": "2026-07-09",
+      "contentType": "text/html",
+      "editionAnchorSourceId": "asia-in-09-07-2026-vosh",
+      "editionEffectiveDate": "2026-07-09",
+      "excerptPath": "excerpts/asia-in-09-07-2026-vosh.json",
+      "excerptSha256": "13c1cc2595685c391e65613e0c36a0822071db9e53b59328ee309bfbcb4bbb40",
+      "extractedTextSha256": "578dfd79b81549a88732dc0c24e8a61fd99e2bec4e21989ad1fc18e78f344729",
+      "extraction": "Unchanged scripts/evidence/global_batch.py:extract UTF8; normalization collapses Unicode whitespace",
+      "finalUrl": "https://aim-india.aai.aero.in/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOSH-en-GB.html",
+      "httpStatus": 200,
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "normalizedTextSha256": "e1c704ff4ad60acea8ffe9fe37c0bbcc81754610bb692ccedfc5071fa1ef891c",
+      "observedAtUtc": "2026-11-07T05:10:39.861422+00:00",
+      "officialName": "SHIVAMOGGA AIRPORT, SHIVAMOGGA",
+      "originalBytes": 91746,
+      "originalPublicationKey": "aai-aip:2026-07-09",
+      "originalSha256": "094839f873fea68c675319964372857073ed66ff79622d80d6d527a79b324907",
+      "originalVerified": true,
+      "privateExtractedTextPath": "work/global-code-expansion/asia/asia-in-09-07-2026-vosh.gate-extracted.txt",
+      "privateNormalizedTextPath": "work/global-code-expansion/asia/asia-in-09-07-2026-vosh.gate-normalized.txt",
+      "privateOriginalPath": "work/global-code-expansion/asia/asia-in-09-07-2026-vosh.html",
+      "publicationDate": "2026-05-28",
+      "publisher": "Airports Authority of India",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "scheme": "ICAO",
+      "sourceFamily": "aai-aip",
+      "sourceId": "asia-in-09-07-2026-vosh",
+      "sourceType": "primary",
+      "spans": [
+        {
+          "characterEnd": 119,
+          "characterStart": 82,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "VOSH - SHIVAMOGGA AIRPORT, SHIVAMOGGA"
+        },
+        {
+          "characterEnd": 248,
+          "characterStart": 181,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "Aerodrome reference point coordinates and its site 135135N 0753704E"
+        },
+        {
+          "characterEnd": 705,
+          "characterStart": 661,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='DC.date' content='28 MAY 2026'/>"
+        },
+        {
+          "characterEnd": 765,
+          "characterStart": 707,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='EM.effectiveDateStart' content='09 JUL 2026'/>"
+        }
+      ],
+      "temporalMeaning": "Controlled edition observation, never first allocation or withdrawal; bounded continuity requires unchanged existing AAI policy.",
+      "textCharacters": 16013,
+      "textOriginalSha256": "578dfd79b81549a88732dc0c24e8a61fd99e2bec4e21989ad1fc18e78f344729",
+      "title": "India AIP 2026-07-09 AD2 VOSH",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOSH-en-GB.html"
+    },
+    {
+      "accessResult": "retrieval_failed",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "failure": "HTTPError: HTTP Error 404: Not Found",
+      "observedAtUtc": "2026-11-07T05:10:40.104956+00:00",
+      "publisher": "Airports Authority of India",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "aai-aip",
+      "sourceId": "asia-in-09-07-2026-vedz",
+      "sourceType": "primary",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEDZ-en-GB.html"
+    },
+    {
+      "accessResult": "content_inspected",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "accessedAt": "2026-11-07T05:10:40.766833+00:00",
+      "airportId": "apt_96e253c6-48ee-4ca3-b9a1-c34b49df0a68",
+      "arp": "264514N 0820901E",
+      "code": "VEAY",
+      "componentEffectiveDate": "2026-07-09",
+      "contentType": "text/html",
+      "editionAnchorSourceId": "asia-in-09-07-2026-veay",
+      "editionEffectiveDate": "2026-07-09",
+      "excerptPath": "excerpts/asia-in-09-07-2026-veay.json",
+      "excerptSha256": "79ba89f54f2a6d5d03a7f315934a1d75d4cb032d2cba33ecd01faf466c0e4775",
+      "extractedTextSha256": "896254de819de31135e1884e3e8e365842d97b050f0d075f77746d6aed97a071",
+      "extraction": "Unchanged scripts/evidence/global_batch.py:extract UTF8; normalization collapses Unicode whitespace",
+      "finalUrl": "https://aim-india.aai.aero.in/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEAY-en-GB.html",
+      "httpStatus": 200,
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "normalizedTextSha256": "b9f8a4f335de5570275217b1a377315bd9d41592841b08a466a55f7191190d67",
+      "observedAtUtc": "2026-11-07T05:10:40.766833+00:00",
+      "officialName": "MAHARISHI VALMIKI INTERNATIONAL AIRPORT AYODHYADHAM,AYODHYA",
+      "originalBytes": 139274,
+      "originalPublicationKey": "aai-aip:2026-07-09",
+      "originalSha256": "c795669e918839de08a4783b491d5d843eaa357d4613ea3cb9bd3d31f3ea061c",
+      "originalVerified": true,
+      "privateExtractedTextPath": "work/global-code-expansion/asia/asia-in-09-07-2026-veay.gate-extracted.txt",
+      "privateNormalizedTextPath": "work/global-code-expansion/asia/asia-in-09-07-2026-veay.gate-normalized.txt",
+      "privateOriginalPath": "work/global-code-expansion/asia/asia-in-09-07-2026-veay.html",
+      "publicationDate": "2026-05-28",
+      "publisher": "Airports Authority of India",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "scheme": "ICAO",
+      "sourceFamily": "aai-aip",
+      "sourceId": "asia-in-09-07-2026-veay",
+      "sourceType": "primary",
+      "spans": [
+        {
+          "characterEnd": 148,
+          "characterStart": 82,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "VEAY - MAHARISHI VALMIKI INTERNATIONAL AIRPORT AYODHYADHAM,AYODHYA"
+        },
+        {
+          "characterEnd": 277,
+          "characterStart": 210,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "Aerodrome reference point coordinates and its site 264514N 0820901E"
+        },
+        {
+          "characterEnd": 705,
+          "characterStart": 661,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='DC.date' content='28 MAY 2026'/>"
+        },
+        {
+          "characterEnd": 765,
+          "characterStart": 707,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='EM.effectiveDateStart' content='09 JUL 2026'/>"
+        }
+      ],
+      "temporalMeaning": "Controlled edition observation, never first allocation or withdrawal; bounded continuity requires unchanged existing AAI policy.",
+      "textCharacters": 30979,
+      "textOriginalSha256": "896254de819de31135e1884e3e8e365842d97b050f0d075f77746d6aed97a071",
+      "title": "India AIP 2026-07-09 AD2 VEAY",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEAY-en-GB.html"
+    },
+    {
+      "accessResult": "content_inspected",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "accessedAt": "2026-11-07T05:10:41.016360+00:00",
+      "airportId": "apt_5e325674-a832-4106-807e-7e1e1ef951fe",
+      "arp": "185940N 0730413E",
+      "code": "VANM",
+      "componentEffectiveDate": "2026-07-09",
+      "contentType": "text/html",
+      "editionAnchorSourceId": "asia-in-09-07-2026-vanm",
+      "editionEffectiveDate": "2026-07-09",
+      "excerptPath": "excerpts/asia-in-09-07-2026-vanm.json",
+      "excerptSha256": "860d9e0ac0786e4483b140ce8376f6621507a8f9d923c5cf07e3fb9b34cc8a36",
+      "extractedTextSha256": "f2c66ae6c971a660ccb958e2e983abc47b8f10b05e67930b53bb7d4a155c0fea",
+      "extraction": "Unchanged scripts/evidence/global_batch.py:extract UTF8; normalization collapses Unicode whitespace",
+      "finalUrl": "https://aim-india.aai.aero.in/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VANM-en-GB.html",
+      "httpStatus": 200,
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "normalizedTextSha256": "f4ae9dfc0c60ce89e49135d7c321504cfc712d43d906bcf5c129542fe7edf63f",
+      "observedAtUtc": "2026-11-07T05:10:41.016360+00:00",
+      "officialName": "NAVI MUMBAI INTERNATIONAL AIRPORT, NAVI MUMBAI",
+      "originalBytes": 433873,
+      "originalPublicationKey": "aai-aip:2026-07-09",
+      "originalSha256": "c8049db4ea483f6f451390e36e36d6d432119f6f285a8217c52752f07fdc5df7",
+      "originalVerified": true,
+      "privateExtractedTextPath": "work/global-code-expansion/asia/asia-in-09-07-2026-vanm.gate-extracted.txt",
+      "privateNormalizedTextPath": "work/global-code-expansion/asia/asia-in-09-07-2026-vanm.gate-normalized.txt",
+      "privateOriginalPath": "work/global-code-expansion/asia/asia-in-09-07-2026-vanm.html",
+      "publicationDate": "2026-05-28",
+      "publisher": "Airports Authority of India",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "scheme": "ICAO",
+      "sourceFamily": "aai-aip",
+      "sourceId": "asia-in-09-07-2026-vanm",
+      "sourceType": "primary",
+      "spans": [
+        {
+          "characterEnd": 135,
+          "characterStart": 82,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "VANM - NAVI MUMBAI INTERNATIONAL AIRPORT, NAVI MUMBAI"
+        },
+        {
+          "characterEnd": 264,
+          "characterStart": 197,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "Aerodrome reference point coordinates and its site 185940N 0730413E"
+        },
+        {
+          "characterEnd": 705,
+          "characterStart": 661,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='DC.date' content='28 MAY 2026'/>"
+        },
+        {
+          "characterEnd": 765,
+          "characterStart": 707,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='EM.effectiveDateStart' content='09 JUL 2026'/>"
+        }
+      ],
+      "temporalMeaning": "Controlled edition observation, never first allocation or withdrawal; bounded continuity requires unchanged existing AAI policy.",
+      "textCharacters": 72128,
+      "textOriginalSha256": "f2c66ae6c971a660ccb958e2e983abc47b8f10b05e67930b53bb7d4a155c0fea",
+      "title": "India AIP 2026-07-09 AD2 VANM",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VANM-en-GB.html"
+    },
+    {
+      "accessResult": "content_inspected",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "accessedAt": "2026-11-07T05:10:41.528550+00:00",
+      "arp": "265811N 0933836E",
+      "code": "VEHO",
+      "componentEffectiveDate": "2026-04-16",
+      "contentType": "text/html",
+      "editionAnchorSourceId": "asia-in-11-06-2026-gen02",
+      "editionEffectiveDate": "2026-06-11",
+      "excerptPath": "excerpts/asia-in-11-06-2026-veho.json",
+      "excerptSha256": "f43a389326018e4d160c06d8062c6992fb9e8df8b8fe1fd3d399181a6b28637b",
+      "extractedTextSha256": "d5e3d79a65c896f97f364fc0d7cbfec48790819196da40c24aa7fd4c46923ab9",
+      "extraction": "Unchanged scripts/evidence/global_batch.py:extract UTF8; normalization collapses Unicode whitespace",
+      "finalUrl": "https://aim-india.aai.aero.in/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VEHO-en-GB.html",
+      "httpStatus": 200,
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "normalizedTextSha256": "aa941165bb08059a6664004697880a1f59013c59e7dc41cbacc94fd235bcb9a8",
+      "observedAtUtc": "2026-11-07T05:10:41.528550+00:00",
+      "officialName": "DONYI POLO AIRPORT, ITANAGAR",
+      "originalBytes": 184506,
+      "originalPublicationKey": "aai-aip:2026-06-11",
+      "originalSha256": "f54b0171460a248b0ec3c6a394505e0be62da8805a567ca55487bfbc685d3f1b",
+      "originalVerified": true,
+      "privateExtractedTextPath": "work/global-code-expansion/asia/asia-in-11-06-2026-veho.gate-extracted.txt",
+      "privateNormalizedTextPath": "work/global-code-expansion/asia/asia-in-11-06-2026-veho.gate-normalized.txt",
+      "privateOriginalPath": "work/global-code-expansion/asia/asia-in-11-06-2026-veho.html",
+      "publicationDate": "2026-03-05",
+      "publisher": "Airports Authority of India",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "scheme": "ICAO",
+      "sourceFamily": "aai-aip",
+      "sourceId": "asia-in-11-06-2026-veho",
+      "sourceType": "primary",
+      "spans": [
+        {
+          "characterEnd": 117,
+          "characterStart": 82,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "VEHO - DONYI POLO AIRPORT, ITANAGAR"
+        },
+        {
+          "characterEnd": 246,
+          "characterStart": 179,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "Aerodrome reference point coordinates and its site 265811N 0933836E"
+        },
+        {
+          "characterEnd": 705,
+          "characterStart": 661,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='DC.date' content='05 MAR 2026'/>"
+        },
+        {
+          "characterEnd": 765,
+          "characterStart": 707,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='EM.effectiveDateStart' content='16 APR 2026'/>"
+        }
+      ],
+      "temporalMeaning": "Controlled edition observation, never first allocation or withdrawal; bounded continuity requires unchanged existing AAI policy.",
+      "textCharacters": 29889,
+      "textOriginalSha256": "d5e3d79a65c896f97f364fc0d7cbfec48790819196da40c24aa7fd4c46923ab9",
+      "title": "India AIP 2026-06-11 AD2 VEHO",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VEHO-en-GB.html"
+    },
+    {
+      "accessResult": "retrieval_failed",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "failure": "HTTPError: HTTP Error 404: Not Found",
+      "observedAtUtc": "2026-11-07T05:10:41.712703+00:00",
+      "publisher": "Pakistan Airports Authority",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "pk-paa-aip",
+      "sourceId": "asia-pk-opis-2026",
+      "sourceType": "primary",
+      "url": "https://paawebadmin.paa.gov.pk/media/eaip/02-26/eAIP/OP-AD-2.OPIS-en-GB.html"
+    },
+    {
+      "accessResult": "retrieval_failed",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "failure": "HTTPError: HTTP Error 404: Not Found",
+      "observedAtUtc": "2026-11-07T05:10:42.014701+00:00",
+      "publisher": "Pakistan Airports Authority",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "pk-paa-aip",
+      "sourceId": "asia-pk-oprn-2026",
+      "sourceType": "primary",
+      "url": "https://paawebadmin.paa.gov.pk/media/eaip/02-26/eAIP/OP-AD-2.OPRN-en-GB.html"
+    },
+    {
+      "accessResult": "retrieval_failed",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "failure": "HTTPError: HTTP Error 404: Not Found",
+      "observedAtUtc": "2026-11-07T05:10:42.063907+00:00",
+      "publisher": "Pakistan Airports Authority",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "pk-paa-aip",
+      "sourceId": "asia-pk-opsw-2026",
+      "sourceType": "primary",
+      "url": "https://paawebadmin.paa.gov.pk/media/eaip/02-26/eAIP/OP-AD-2.OPSW-en-GB.html"
+    },
+    {
+      "accessResult": "content_inspected",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "contentType": "text/html",
+      "editionEffectiveDate": "2026-10-29",
+      "extractedTextSha256": "8e14aa59e654d2cfd4b7c3b6d64869406d0f0d2d3f94398142d7c714bd8d37a8",
+      "extraction": "Unchanged scripts/evidence/global_batch.py:extract UTF8; normalization collapses Unicode whitespace",
+      "finalUrl": "https://aip.caat.or.th/2026-10-29-AIRAC/html/eAIP/VT-AD-2.VTBD-en-GB.html",
+      "httpStatus": 200,
+      "normalizedTextSha256": "15b434afff1e491432cbdd5c83b8e378678f1fecd38f4f572df1a18b44fdc693",
+      "observedAtUtc": "2026-11-07T05:10:42.816110+00:00",
+      "originalBytes": 459221,
+      "originalSha256": "6d277c9b3435654695bff6afcb9757f49a384e1713ea74f707249d597ef1f6cf",
+      "privateExtractedTextPath": "work/global-code-expansion/asia/asia-th-vtbd-2026.gate-extracted.txt",
+      "privateNormalizedTextPath": "work/global-code-expansion/asia/asia-th-vtbd-2026.gate-normalized.txt",
+      "privateOriginalPath": "work/global-code-expansion/asia/asia-th-vtbd-2026.html",
+      "publisher": "Civil Aviation Authority of Thailand",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "th-caat-aip",
+      "sourceId": "asia-th-vtbd-2026",
+      "sourceType": "primary",
+      "spans": [
+        {
+          "locator": "AD 2.1",
+          "quote": "VTBD — Bangkok/ Don Mueang International Airport"
+        }
+      ],
+      "temporalMeaning": "One current controlled AD2 observation; no historical continuity or IATA allocation inferred.",
+      "textCharacters": 178213,
+      "textOriginalSha256": "8e14aa59e654d2cfd4b7c3b6d64869406d0f0d2d3f94398142d7c714bd8d37a8",
+      "url": "https://aip.caat.or.th/2026-10-29-AIRAC/html/eAIP/VT-AD-2.VTBD-en-GB.html"
+    },
+    {
+      "accessResult": "retrieval_failed",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "failure": "HTTPError: HTTP Error 503: Service Unavailable",
+      "observedAtUtc": "2026-11-07T05:10:43.877618+00:00",
+      "publisher": "Civil Aviation Authority of Bangladesh",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "bd-caab-aip",
+      "sourceId": "asia-bd-aip",
+      "sourceType": "primary",
+      "url": "https://caab.gov.bd/aip.html"
+    },
+    {
+      "accessResult": "retrieval_failed",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "failure": "URLError: <urlopen error Tunnel connection failed: 403 Forbidden>",
+      "observedAtUtc": "2026-11-07T05:10:43.947591+00:00",
+      "publisher": "Indonesian Directorate General of Civil Aviation / Ministry of Transportation",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "id-dgca-ministry",
+      "sourceId": "asia-id-aim",
+      "sourceType": "primary",
+      "url": "https://aimindonesia.dephub.go.id/"
+    },
+    {
+      "accessResult": "retrieval_failed",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "failure": "HTTPError: HTTP Error 503: Service Unavailable",
+      "observedAtUtc": "2026-11-07T05:10:44.254766+00:00",
+      "publisher": "Vietnam Air Traffic Management Corporation",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "vn-vatm-aim",
+      "sourceId": "asia-vn-aim",
+      "sourceType": "primary",
+      "url": "https://aim.vatm.vn/"
+    },
+    {
+      "accessResult": "content_inspected",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "accessedAt": "2026-11-07T05:11:10.813787+00:00",
+      "componentEffectiveDate": "2025-04-17",
+      "contentType": "text/html",
+      "editionAnchorSourceId": "asia-in-11-06-2026-gen02",
+      "editionEffectiveDate": "2026-06-11",
+      "excerptPath": "excerpts/asia-in-11-06-2026-gen01.json",
+      "excerptSha256": "609bf7d986be7013c346265e6dda28c17f403656148bef38f8db772293587ce0",
+      "extractedTextSha256": "cfbe475120f2e856778b8fae9f903611a1f60dbfffa35a65bca3f6236d8ee2c6",
+      "extraction": "Unchanged scripts/evidence/global_batch.py:extract UTF8; normalization collapses Unicode whitespace",
+      "finalUrl": "https://aim-india.aai.aero.in/eAIP_Archive/11-06-2026/eAIP/IN-GEN%200.1-en-GB.html",
+      "httpStatus": 200,
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "normalizedTextSha256": "2371dd5f5a499f31d49b3324d4aff27244f7a14b8b07e6f8a3a6f1291a67145f",
+      "observedAtUtc": "2026-11-07T05:11:10.813787+00:00",
+      "originalBytes": 17754,
+      "originalPublicationKey": "aai-aip:2026-06-11",
+      "originalSha256": "d91386a4bc835e0ac48daf53d2bfeb048f073fc8eeb0551cefd50ce0dd539a85",
+      "originalVerified": true,
+      "privateExtractedTextPath": "work/global-code-expansion/asia/asia-in-11-06-2026-gen01.gate-extracted.txt",
+      "privateNormalizedTextPath": "work/global-code-expansion/asia/asia-in-11-06-2026-gen01.gate-normalized.txt",
+      "privateOriginalPath": "work/global-code-expansion/asia/asia-in-11-06-2026-gen01.html",
+      "publicationDate": "2025-03-06",
+      "publisher": "Airports Authority of India",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "aai-aip",
+      "sourceId": "asia-in-11-06-2026-gen01",
+      "sourceType": "primary",
+      "spans": [
+        {
+          "characterEnd": 705,
+          "characterStart": 661,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='DC.date' content='06 MAR 2025'/>"
+        },
+        {
+          "characterEnd": 765,
+          "characterStart": 707,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='EM.effectiveDateStart' content='17 APR 2025'/>"
+        }
+      ],
+      "temporalMeaning": "Controlled edition observation, never first allocation or withdrawal; bounded continuity requires unchanged existing AAI policy.",
+      "textCharacters": 7110,
+      "textOriginalSha256": "cfbe475120f2e856778b8fae9f903611a1f60dbfffa35a65bca3f6236d8ee2c6",
+      "title": "India AIP 2026-06-11 GEN01",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-GEN%200.1-en-GB.html"
+    },
+    {
+      "accessResult": "content_inspected",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "accessedAt": "2026-11-07T05:11:10.814573+00:00",
+      "componentEffectiveDate": "2026-06-11",
+      "contentType": "text/html",
+      "editionAnchorSourceId": "asia-in-11-06-2026-gen02",
+      "editionEffectiveDate": "2026-06-11",
+      "excerptPath": "excerpts/asia-in-11-06-2026-gen02.json",
+      "excerptSha256": "214a8c63d5f5b8764a000710fc76be2f1fa303ee635a053da3e0ce3c8e197aa1",
+      "extractedTextSha256": "ac661fb29417fac515ad27d78021f56a90c7a9f555b62593213dcc5a464df0e0",
+      "extraction": "Unchanged scripts/evidence/global_batch.py:extract UTF8; normalization collapses Unicode whitespace",
+      "finalUrl": "https://aim-india.aai.aero.in/eAIP_Archive/11-06-2026/eAIP/IN-GEN%200.2-en-GB.html",
+      "httpStatus": 200,
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "normalizedTextSha256": "434aea44fd8f9cd1932c35ccd553e5adbebbc745307552e07a5ae6e60655bc8e",
+      "observedAtUtc": "2026-11-07T05:11:10.814573+00:00",
+      "originalBytes": 19733,
+      "originalPublicationKey": "aai-aip:2026-06-11",
+      "originalSha256": "2dfe4b1d5e80ba4667b9f8d335b0679dd712c4032c132a34823f5e4e9d6dce38",
+      "originalVerified": true,
+      "privateExtractedTextPath": "work/global-code-expansion/asia/asia-in-11-06-2026-gen02.gate-extracted.txt",
+      "privateNormalizedTextPath": "work/global-code-expansion/asia/asia-in-11-06-2026-gen02.gate-normalized.txt",
+      "privateOriginalPath": "work/global-code-expansion/asia/asia-in-11-06-2026-gen02.html",
+      "publicationDate": "2026-04-30",
+      "publisher": "Airports Authority of India",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "aai-aip",
+      "sourceId": "asia-in-11-06-2026-gen02",
+      "sourceType": "primary",
+      "spans": [
+        {
+          "characterEnd": 987,
+          "characterStart": 968,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "05/2026 11 JUN 2026"
+        },
+        {
+          "characterEnd": 705,
+          "characterStart": 661,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='DC.date' content='30 APR 2026'/>"
+        },
+        {
+          "characterEnd": 765,
+          "characterStart": 707,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='EM.effectiveDateStart' content='11 JUN 2026'/>"
+        }
+      ],
+      "temporalMeaning": "Controlled edition observation, never first allocation or withdrawal; bounded continuity requires unchanged existing AAI policy.",
+      "textCharacters": 2073,
+      "textOriginalSha256": "ac661fb29417fac515ad27d78021f56a90c7a9f555b62593213dcc5a464df0e0",
+      "title": "India AIP 2026-06-11 GEN02",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-GEN%200.2-en-GB.html"
+    },
+    {
+      "accessResult": "empty_response",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "contentType": "text/html",
+      "extractedTextSha256": "ec9a0ae788bad1510eb48bf168458a26ce82ac59b97e48abfba240c01b6dfb36",
+      "finalUrl": "https://aim-india.aai.aero.in/eAIP_Archive/11-06-2026/eAIP/IN-GEN%200.4-en-GB.html",
+      "httpStatus": 200,
+      "normalizedTextSha256": "2303648f3de728c7ad6b51a03bda27f528aa9bf5fe7a159bb10eb0f151c51e1c",
+      "observedAtUtc": "2026-11-07T05:11:10.814975+00:00",
+      "originalBytes": 2554,
+      "originalSha256": "10072781f251c03114b191c8ddbd67ba70deee1c7307158b67fcffd40f636294",
+      "publisher": "Airports Authority of India",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "aai-aip",
+      "sourceId": "asia-in-11-06-2026-gen04",
+      "sourceType": "primary",
+      "textCharacters": 135,
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-GEN%200.4-en-GB.html"
+    },
+    {
+      "accessResult": "content_inspected",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "accessedAt": "2026-11-07T05:11:10.815304+00:00",
+      "componentEffectiveDate": "2026-06-11",
+      "contentType": "text/html",
+      "editionAnchorSourceId": "asia-in-11-06-2026-gen02",
+      "editionEffectiveDate": "2026-06-11",
+      "excerptPath": "excerpts/asia-in-11-06-2026-ad13.json",
+      "excerptSha256": "cd155fc6e844ebe6516a815b60a5f96771f71bab698d1edb61a12e28386f7e7f",
+      "extractedTextSha256": "e77daad35bd0ffcf1bc18c474f34d825378da7537325cfd5ee99e4365bf75e6a",
+      "extraction": "Unchanged scripts/evidence/global_batch.py:extract UTF8; normalization collapses Unicode whitespace",
+      "finalUrl": "https://aim-india.aai.aero.in/eAIP_Archive/11-06-2026/eAIP/IN-AD%201.3-en-GB.html",
+      "httpStatus": 200,
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "normalizedTextSha256": "d716557acfe8e635436b5388c87b1df9ad185c19e57ef6c847ff59cef0b61dae",
+      "observedAtUtc": "2026-11-07T05:11:10.815304+00:00",
+      "originalBytes": 104477,
+      "originalPublicationKey": "aai-aip:2026-06-11",
+      "originalSha256": "44cd3d10b0a3c6fc988836bea17be45fcb1df469856ce036f744444db2716821",
+      "originalVerified": true,
+      "privateExtractedTextPath": "work/global-code-expansion/asia/asia-in-11-06-2026-ad13.gate-extracted.txt",
+      "privateNormalizedTextPath": "work/global-code-expansion/asia/asia-in-11-06-2026-ad13.gate-normalized.txt",
+      "privateOriginalPath": "work/global-code-expansion/asia/asia-in-11-06-2026-ad13.html",
+      "publicationDate": "2026-04-30",
+      "publisher": "Airports Authority of India",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "aai-aip",
+      "sourceId": "asia-in-11-06-2026-ad13",
+      "sourceType": "primary",
+      "spans": [
+        {
+          "characterEnd": 37,
+          "characterStart": 11,
+          "kind": "normalized_text",
+          "page": null,
+          "quote": "AD 1.3 INDEX TO AERODROMES"
+        },
+        {
+          "characterEnd": 705,
+          "characterStart": 661,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='DC.date' content='30 APR 2026'/>"
+        },
+        {
+          "characterEnd": 765,
+          "characterStart": 707,
+          "kind": "raw_html",
+          "page": null,
+          "quote": "<meta name='EM.effectiveDateStart' content='11 JUN 2026'/>"
+        }
+      ],
+      "temporalMeaning": "Controlled edition observation, never first allocation or withdrawal; bounded continuity requires unchanged existing AAI policy.",
+      "textCharacters": 13572,
+      "textOriginalSha256": "e77daad35bd0ffcf1bc18c474f34d825378da7537325cfd5ee99e4365bf75e6a",
+      "title": "India AIP 2026-06-11 AD13",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%201.3-en-GB.html"
+    },
+    {
+      "accessResult": "retrieval_failed",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "failure": "HTTPError: HTTP Error 404: Not Found",
+      "observedAtUtc": "2026-11-07T05:11:10.815581+00:00",
+      "publisher": "Airports Authority of India",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "aai-aip",
+      "sourceId": "asia-in-11-06-2026-index-4",
+      "sourceType": "primary",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/index.html"
+    },
+    {
+      "accessResult": "retrieval_failed",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "failure": "HTTPError: HTTP Error 404: Not Found",
+      "observedAtUtc": "2026-11-07T05:11:10.816483+00:00",
+      "publisher": "Airports Authority of India",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "aai-aip",
+      "sourceId": "asia-in-11-06-2026-GB-5",
+      "sourceType": "primary",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-menu-en-GB.html"
+    },
+    {
+      "accessResult": "retrieval_failed",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "failure": "HTTPError: HTTP Error 404: Not Found",
+      "observedAtUtc": "2026-11-07T05:13:12.005171+00:00",
+      "publisher": "Civil Aviation Authority of Thailand",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "th-caat-aip",
+      "sourceId": "asia-th-vtpu-2026",
+      "sourceType": "primary",
+      "url": "https://aip.caat.or.th/2026-10-29-AIRAC/html/eAIP/VT-AD-2.VTPU-en-GB.html"
+    },
+    {
+      "accessResult": "content_inspected",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "contentType": "text/html",
+      "editionEffectiveDate": "2026-10-29",
+      "extractedTextSha256": "97956edb90aa866472ef1439a06b70948e4bb3b60a08aabd5c0a80a468f1100b",
+      "extraction": "Unchanged scripts/evidence/global_batch.py:extract UTF8; normalization collapses Unicode whitespace",
+      "finalUrl": "https://aip.caat.or.th/2026-10-29-AIRAC/html/eAIP/VT-AD-1.3-en-GB.html",
+      "httpStatus": 200,
+      "normalizedTextSha256": "effef778044225cad1087447584ff449bef73b55bff32dd108eeea2213fc492b",
+      "observedAtUtc": "2026-11-07T05:13:12.005861+00:00",
+      "originalBytes": 73327,
+      "originalSha256": "947b6ac145392099c14ad4798a47594b0ea39998b8aea9372b9f9b4463ff4d42",
+      "privateExtractedTextPath": "work/global-code-expansion/asia/asia-th-ad13-2026.gate-extracted.txt",
+      "privateNormalizedTextPath": "work/global-code-expansion/asia/asia-th-ad13-2026.gate-normalized.txt",
+      "privateOriginalPath": "work/global-code-expansion/asia/asia-th-ad13-2026.html",
+      "publisher": "Civil Aviation Authority of Thailand",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "th-caat-aip",
+      "sourceId": "asia-th-ad13-2026",
+      "sourceType": "primary",
+      "spans": [
+        {
+          "locator": "AD1.3",
+          "quote": "BANGKOK/DON MUEANG INTERNATIONAL AIRPORT"
+        }
+      ],
+      "temporalMeaning": "One current controlled AD2 observation; no historical continuity or IATA allocation inferred.",
+      "textCharacters": 14931,
+      "textOriginalSha256": "97956edb90aa866472ef1439a06b70948e4bb3b60a08aabd5c0a80a468f1100b",
+      "url": "https://aip.caat.or.th/2026-10-29-AIRAC/html/eAIP/VT-AD-1.3-en-GB.html"
+    },
+    {
+      "accessResult": "retrieval_failed",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "failure": "HTTPError: HTTP Error 500: Internal Server Error",
+      "observedAtUtc": "2026-11-07T05:13:12.006351+00:00",
+      "publisher": "Pakistan Airports Authority",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "pk-paa-aip",
+      "sourceId": "asia-pk-aip-index",
+      "sourceType": "primary",
+      "url": "https://paa.gov.pk/aeronautical-information-services-ais/"
+    },
+    {
+      "accessResult": "retrieval_failed",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "failure": "HTTPError: HTTP Error 403: Forbidden",
+      "observedAtUtc": "2026-11-07T05:13:12.006950+00:00",
+      "publisher": "Civil Aviation Authority of the Philippines",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "ph-caap-aip",
+      "sourceId": "asia-ph-caap-aip",
+      "sourceType": "primary",
+      "url": "https://caap.gov.ph/aeronautical-information-publication/"
+    },
+    {
+      "accessResult": "access_rejected_page",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "contentType": "text/html; charset=utf-8",
+      "extractedTextSha256": "28c177c8b319f3a95b6816042ad7cd44b7090be3f4708df68a785a6200bea48f",
+      "failure": "HTTP200 body explicitly Request Rejected; no airport content acquired",
+      "finalUrl": "https://dephub.go.id/post/read/bandara-apt-pranoto-di-samarinda-resmi-beroperasi",
+      "httpStatus": 200,
+      "normalizedTextSha256": "5a5399186dc82c3268b0d1fb9ed5fe5cb8ff659bdb7bb0834189870da8806846",
+      "observedAtUtc": "2026-11-07T05:13:12.007599+00:00",
+      "originalBytes": 413,
+      "originalSha256": "54ed57a609da8447306f28359725b1c49f322166d85f4d81b8b52139935c4f29",
+      "publisher": "Indonesian Directorate General of Civil Aviation / Ministry of Transportation",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_short_factual_citations",
+        "note": "Public accessibility is not permission to redistribute full originals, extractions, charts or databases."
+      },
+      "sourceFamily": "id-dgca-ministry",
+      "sourceId": "asia-id-samarinda",
+      "sourceType": "primary",
+      "textCharacters": 288,
+      "url": "https://dephub.go.id/post/read/bandara-apt-pranoto-di-samarinda-resmi-beroperasi"
+    },
+    {
+      "accessResult": "content_inspected",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "contentType": "text/html; charset=utf-8",
+      "dateNature": "Prospective code-specific announcement; retrieval is not execution or effective-date proof",
+      "documentVersion": "News article15; public server-rendered hydration response",
+      "excerptPath": "excerpts/asia-kg-operator-code-notice.json",
+      "excerptSha256": "fe9bdfd3d8bdb2802b0b0b519da5feb1d20ae2343104f948bf2cbd3fde831877",
+      "extractedTextSha256": "d54663a059dba65ea0c59404dcf16c3573db9ada0e6458538ef0329220084d17",
+      "extraction": "Decode public Next.js hydration string arrays using json.loads; HTMLParser removes script/style; collapse Unicode whitespace. No script executed.",
+      "finalUrl": "https://airport.kg/news/15",
+      "httpStatus": 200,
+      "independence": "Airport operator repeats competent civil-aviation agency statement. Not independent of the IATA allocation fact.",
+      "normalizedTextSha256": "28a383e63fd9a0edede4eaebc446e4ce81f773a6a3a23c30092f08cc0dc6edb2",
+      "observedAtUtc": "2026-11-07T14:58:49.413918+00:00",
+      "originalBytes": 451111,
+      "originalSha256": "f0bb454f0fa03ebb7daef095b48c60da33d846abcbd06383673b4670bd109c8f",
+      "privateExtractedTextPath": "work/global-code-expansion/asia/asia-kg-operator-code-notice.txt",
+      "privateNormalizedTextPath": "work/global-code-expansion/asia/asia-kg-operator-code-notice.normalized.txt",
+      "privateOriginalPath": "work/global-code-expansion/asia/asia-kg-operator-code-notice.html",
+      "publicationDate": null,
+      "publicationDateLimitation": "Page keywords claim creation19April2025; not used to establish notice publication or code effect.",
+      "publisher": "Airports of Kyrgyzstan / Manas airport operator",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_minimal_factual_citations",
+        "note": "Public access and possession of a mirrored original do not establish a redistribution licence. Full originals and full text stay ignored work/."
+      },
+      "sourceFamily": "kg-airport-operator",
+      "sourceId": "asia-kg-operator-code-notice",
+      "sourceType": "primary",
+      "spans": [
+        {
+          "characterEnd": 282686,
+          "characterStart": 282665,
+          "locator": "Article body / controlled heading",
+          "quote": "с 9 августа 2025 года",
+          "quoteSha256": "4f942c5183a39fc7f11f99a11b466881b2e562ae20dc10fa5d4c7a7717788951",
+          "representation": "normalized_text"
+        },
+        {
+          "characterEnd": 285626,
+          "characterStart": 285595,
+          "locator": "Article body / controlled heading",
+          "quote": "с текущего FRU на новый код BSZ",
+          "quoteSha256": "f510c1f14a962811aba60fd9a94f3d72c70d3f66b2456735db887e3886e43512",
+          "representation": "normalized_text"
+        }
+      ],
+      "textCharacters": 293984,
+      "url": "https://airport.kg/ru/news/15"
+    },
+    {
+      "accessResult": "content_inspected",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "contentType": "application/pdf",
+      "custody": "Third-party AKI CDN mirror; issuing-host original and cancellation lifecycle not independently authenticated",
+      "dateNature": "Code-specific future effective boundary explicitly stated, not airport opening or publication substitute",
+      "documentDate": "2025-05-09",
+      "documentVersion": "IATA Special Industry Notif May9th2025",
+      "excerptPath": "excerpts/asia-kg-iata-notice-mirror.json",
+      "excerptSha256": "52a3af38dcf6bf07774d87d95b1c10d9623be1f77f1b83cd4456cacac82e0712",
+      "extractedTextSha256": "b7208dcc5eed087e8f08792eded542c78ac364594ac5dc7996e57207ba58f834",
+      "extraction": "pdftotext -layout for PDF; stdlibHTMLParser for HTML; Unicode whitespace collapse. Gate-tagged AAI files use unchanged global_batch.extract.",
+      "finalUrl": "https://cdn-1.aki.kg/cdn-st-0/qgT/J/19644.ba3cbbb95b570b9d48e06479430c0906.pdf",
+      "httpStatus": 200,
+      "independence": "Same IATA notification; mirror host does not become a second independent code authority.",
+      "normalizedTextSha256": "5486fa9b7f8a8671e2408d912fff6712fbe05f2986ca97d5acfee6d9d808fefd",
+      "observedAtUtc": "2026-11-07T14:58:49.414661+00:00",
+      "originalBytes": 590319,
+      "originalSha256": "3a1d545cda856ac86e6c1d25a70325f448f3917a1bb939c5e1f07cf3d3dd3176",
+      "privateExtractedTextPath": "work/global-code-expansion/asia/asia-kg-iata-notice-mirror.txt",
+      "privateNormalizedTextPath": "work/global-code-expansion/asia/asia-kg-iata-notice-mirror.normalized.txt",
+      "privateOriginalPath": "work/global-code-expansion/asia/asia-kg-iata-notice-mirror.pdf",
+      "publisher": "Document bearing IATA name and coding-manager signature",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_minimal_factual_citations",
+        "note": "Public access and possession of a mirrored original do not establish a redistribution licence. Full originals and full text stay ignored work/."
+      },
+      "sourceFamily": "iata-location-code-notification",
+      "sourceId": "asia-kg-iata-notice-mirror",
+      "sourceType": "primary",
+      "spans": [
+        {
+          "characterEnd": 41,
+          "characterStart": 28,
+          "locator": "PDF page1",
+          "quote": "May 9th, 2025",
+          "quoteSha256": "14dc1a8491bf74c5342303aa9a4989d8535b98a80c57c7b85b6b2a98f7299ceb",
+          "representation": "normalized_text"
+        },
+        {
+          "characterEnd": 969,
+          "characterStart": 921,
+          "locator": "PDF page1",
+          "quote": "will become effective on the 9th of August, 2025",
+          "quoteSha256": "3b990bc85a47c7dfaac9515fb037e502261c2ab3bf565cb2a637ae970f3726cd",
+          "representation": "normalized_text"
+        }
+      ],
+      "textCharacters": 1542,
+      "url": "https://cdn-1.aki.kg/cdn-st-0/qgT/J/19644.ba3cbbb95b570b9d48e06479430c0906.pdf"
+    },
+    {
+      "accessResult": "content_inspected",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "contentType": "text/html; charset=utf-8",
+      "dateNature": "Retrospective airport operational transfer statement and contemporary KTI label, not IATA/ICAO effective boundary",
+      "documentVersion": "Operator inauguration article20October2025",
+      "excerptPath": "excerpts/asia-kh-techo-inauguration.json",
+      "excerptSha256": "aaf4dc50ff1f98b03aaa136a1c149c0c08649a5cd8455e504cfb132d68b46612",
+      "extractedTextSha256": "8d03e83c427f93bdb9709f8b6f9c17e822e817f88cfc8649f05facd83692c3dd",
+      "extraction": "pdftotext -layout for PDF; stdlibHTMLParser for HTML; Unicode whitespace collapse. Gate-tagged AAI files use unchanged global_batch.extract.",
+      "finalUrl": "https://www.techoairport.com.kh/news/kti-inauguration-ceremony",
+      "httpStatus": 200,
+      "independence": "One airport operator reporting its own project; no independent allocation ledger.",
+      "normalizedTextSha256": "007f452d172100ee7cf469d9e7c077fcc8ba59a8ea13f1ba6ff1eaf966167200",
+      "observedAtUtc": "2026-11-07T14:58:49.415056+00:00",
+      "originalBytes": 420193,
+      "originalSha256": "1a8ba7eb6cb514254d2b384fdb8ea652b7688c8ccb2e6faaadf71be702f93e28",
+      "privateExtractedTextPath": "work/global-code-expansion/asia/asia-kh-techo-inauguration.txt",
+      "privateNormalizedTextPath": "work/global-code-expansion/asia/asia-kh-techo-inauguration.normalized.txt",
+      "privateOriginalPath": "work/global-code-expansion/asia/asia-kh-techo-inauguration.html",
+      "publicationDate": "2025-10-20",
+      "publisher": "Techo International Airport / CAIC",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_minimal_factual_citations",
+        "note": "Public access and possession of a mirrored original do not establish a redistribution licence. Full originals and full text stay ignored work/."
+      },
+      "sourceFamily": "kh-caic-airport-operator",
+      "sourceId": "asia-kh-techo-inauguration",
+      "sourceType": "primary",
+      "spans": [
+        {
+          "characterEnd": 135,
+          "characterStart": 102,
+          "locator": "Article body / controlled heading",
+          "quote": "Techo International Airport (KTI)",
+          "quoteSha256": "67c3ef59598fdf1f3fd7b9383b450a49bba20a24730cafe1e5f9d0fb0f73f5f9",
+          "representation": "normalized_text"
+        },
+        {
+          "characterEnd": 1542,
+          "characterStart": 1451,
+          "locator": "Article body / controlled heading",
+          "quote": "officially began operations on 9 September 2025, replacing Phnom Penh International Airport",
+          "quoteSha256": "548e899cf15947ae76d2531b8324f13226f73e2c36c0cfdf9637d1c70ae11871",
+          "representation": "normalized_text"
+        }
+      ],
+      "textCharacters": 8195,
+      "url": "https://www.techoairport.com.kh/news/kti-inauguration-ceremony"
+    },
+    {
+      "accessResult": "retrieval_failed",
+      "accessType": "public_http_without_authentication_or_bypass",
+      "dateNature": "No original obtained; search discovery is not evidence",
+      "documentVersion": "75Years of Aviation in Nepal, Silver Jubilee edition",
+      "failure": "HTTPError: HTTP Error 503: Service Unavailable",
+      "observedAtUtc": "2026-11-07T14:58:49.415467+00:00",
+      "publisher": "Civil Aviation Authority of Nepal",
+      "rights": {
+        "fullRedistribution": "not_established",
+        "mode": "metadata_and_minimal_factual_citations",
+        "note": "Public access and possession of a mirrored original do not establish a redistribution licence. Full originals and full text stay ignored work/."
+      },
+      "sourceFamily": "np-caan-publication",
+      "sourceId": "asia-np-caan-75years",
+      "sourceType": "primary",
+      "url": "https://caanepal.gov.np/storage/app/media/publication/Silver%20Jubilee%20Edition%20-%20Compressed.pdf"
+    }
+  ]
+}

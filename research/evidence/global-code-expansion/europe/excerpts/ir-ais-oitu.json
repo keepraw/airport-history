@@ -1,0 +1,31 @@
+{
+  "sourceId": "ir-ais-oitu",
+  "originalSha256": "e6a5f0adef16ff652f7b8cf184505e2ce93973bfdef566d3a2c9ab5e48c2f4ce",
+  "extractedTextSha256": "5af49eda33b604bcf665566e669335cc7d6afb4a58f38672aa8277b31a183684",
+  "normalizedTextSha256": "4764fed28e5ce7911a57c68501a5b81a4e097e054c2da8bc8e76cd81e45c2317",
+  "spans": [
+    {
+      "representation": "normalized_text",
+      "characterStart": 127,
+      "characterEnd": 149,
+      "quote": "OITU - MAKU / National",
+      "quoteSha256": "fe2fc145f553dadf8aba56078e57d005cf4c1e2f6f34570753472648fe8c2007"
+    },
+    {
+      "representation": "normalized_text",
+      "characterStart": 46,
+      "characterEnd": 59,
+      "quote": "WEF 01 DEC 22",
+      "quoteSha256": "2a65d68acc83fbbb89e9a3b1a4e903ac553924e2bba6db243f1d0accf332a2af"
+    },
+    {
+      "representation": "normalized_text",
+      "characterStart": 242,
+      "characterEnd": 258,
+      "quote": "391133N 0445531E",
+      "quoteSha256": "eb631ed58b6eadb36a20e0039ebd7d98a69c12c9cae034f9c0d99f027fb12f67"
+    }
+  ],
+  "quoteScope": "Minimal factual code/name/date anchors only; full original and complete extraction remain ignored work/.",
+  "dateNature": "AD2 first page explicitly WEF01DEC22; establishes a dated section observation, not original allocation"
+}

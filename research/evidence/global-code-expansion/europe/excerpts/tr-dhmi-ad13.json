@@ -1,0 +1,38 @@
+{
+  "sourceId": "tr-dhmi-ad13",
+  "originalSha256": "9844dc1665e70fe428ae3a921f3d8bbf0247d156c22f19e0fc4565d50e92cf97",
+  "extractedTextSha256": "d21c3d296516f0add62160803da5d0aa64ea31eeba590e5cec18f3ae89d89d70",
+  "normalizedTextSha256": "ce409af9b050c5ac3d5b35573104cecf1423afdb857a01708468763bd63a772b",
+  "spans": [
+    {
+      "representation": "normalized_text",
+      "characterStart": 1861,
+      "characterEnd": 1886,
+      "quote": "İSTANBUL / Atatürk - LTBA",
+      "quoteSha256": "e73f5bf929109b24b44c208f4f3da38a073c3c6ce0c10425c3d0836b3c77462b"
+    },
+    {
+      "representation": "normalized_text",
+      "characterStart": 1971,
+      "characterEnd": 1997,
+      "quote": "İSTANBUL / İstanbul - LTFM",
+      "quoteSha256": "74d23326661c7dfbd2474a04fad4d58513af391c77261af6eae5a8c6451fb078"
+    },
+    {
+      "representation": "normalized_text",
+      "characterStart": 3604,
+      "characterEnd": 3620,
+      "quote": "ŞANLIURFA - LTCH",
+      "quoteSha256": "70c86ac844e717570ec52dbae8decba7ba179ee78dedef4abf823ff4e257b3ef"
+    },
+    {
+      "representation": "normalized_text",
+      "characterStart": 3265,
+      "characterEnd": 3283,
+      "quote": "RİZE-ARTVİN - LTFO",
+      "quoteSha256": "a1b72efb8972dcbd244f20ae1676837985334069c7884f2998e7b2d23a1c63db"
+    }
+  ],
+  "quoteScope": "Minimal factual code/name/date anchors only; full original and complete extraction remain ignored work/.",
+  "dateNature": "page date; complete AIRAC package/effective cover not obtained; no allocation date"
+}

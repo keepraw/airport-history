@@ -1,0 +1,362 @@
+{
+  "airports": [
+    {
+      "airportId": "apt_eb176a20-e0e3-438d-a330-a7b81185232d",
+      "coordinates": {
+        "note": "Existing reference coordinates, visually/geographically consistent with FAA chart axes; not extracted historical ARP or surveyed fact.",
+        "sourceIds": [
+          "global-code-expansion-us-faa-djt-diagram-2611"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 26.683201,
+          "longitude": -80.095596
+        }
+      },
+      "externalIds": {
+        "ourAirports": "3766"
+      },
+      "name": {
+        "note": "Compatibility label; legal-name history not admitted.",
+        "sourceIds": [
+          "global-code-expansion-us-faa-djt-diagram-2611",
+          "global-code-expansion-us-pbc-airports"
+        ],
+        "status": "reference",
+        "value": "West Palm Beach physical airport (PBI/DJT)"
+      },
+      "timezone": {
+        "note": "No timezone claim introduced.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_96e253c6-48ee-4ca3-b9a1-c34b49df0a68",
+      "coordinates": {
+        "note": "Reference attributes transcribed from matching controlled AAI AD2 ARPs; no historical coordinate interval.",
+        "sourceIds": [
+          "asia-in-11-06-2026-veay",
+          "asia-in-09-07-2026-veay"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 26.753888888888888,
+          "longitude": 82.15027777777779
+        }
+      },
+      "externalIds": {
+        "ourAirports": "46512"
+      },
+      "name": {
+        "note": "Display label, not a historical legal-name interval.",
+        "sourceIds": [
+          "asia-in-11-06-2026-veay",
+          "asia-in-09-07-2026-veay"
+        ],
+        "status": "reference",
+        "value": "Maharishi Valmiki International Airport Ayodhyadham"
+      },
+      "timezone": {
+        "note": "Timezone is outside the AAI admission scope.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "airportId": "apt_eb176a20-e0e3-438d-a330-a7b81185232d",
+      "assignmentId": "proposal-pbi-iata-pbi",
+      "code": "PBI",
+      "evidenceType": "primary_direct",
+      "note": "Boundary-only proposal. FAQ distinguishes namespace cutover days but does not establish the whole historical interval. Unknown outer boundary retained. No daily continuity or operational-date substitution.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "global-code-expansion-us-pbi-name-faq"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-08-18",
+        "latest": "2026-08-19",
+        "precision": "day"
+      },
+      "verificationStatus": "pending",
+      "verifiedOn": null
+    },
+    {
+      "airportId": "apt_eb176a20-e0e3-438d-a330-a7b81185232d",
+      "assignmentId": "proposal-pbi-iata-djt",
+      "code": "DJT",
+      "evidenceType": "primary_direct",
+      "note": "Boundary-only proposal. FAQ distinguishes namespace cutover days but does not establish the whole historical interval. Unknown outer boundary retained. No daily continuity or operational-date substitution.",
+      "scheme": "IATA",
+      "sourceIds": [
+        "global-code-expansion-us-pbi-name-faq"
+      ],
+      "validFrom": {
+        "earliest": "2026-08-18",
+        "latest": "2026-08-19",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "pending",
+      "verifiedOn": null
+    },
+    {
+      "airportId": "apt_eb176a20-e0e3-438d-a330-a7b81185232d",
+      "assignmentId": "proposal-pbi-icao-kpbi",
+      "code": "KPBI",
+      "evidenceType": "primary_direct",
+      "note": "Boundary-only proposal. FAQ distinguishes namespace cutover days but does not establish the whole historical interval. Unknown outer boundary retained. No daily continuity or operational-date substitution.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "global-code-expansion-us-pbi-name-faq"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": "2026-07-10",
+        "precision": "day"
+      },
+      "verificationStatus": "pending",
+      "verifiedOn": null
+    },
+    {
+      "airportId": "apt_eb176a20-e0e3-438d-a330-a7b81185232d",
+      "assignmentId": "proposal-pbi-icao-kdjt",
+      "code": "KDJT",
+      "evidenceType": "primary_direct",
+      "note": "Boundary-only proposal. FAQ distinguishes namespace cutover days but does not establish the whole historical interval. Unknown outer boundary retained. No daily continuity or operational-date substitution.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "global-code-expansion-us-pbi-name-faq"
+      ],
+      "validFrom": {
+        "earliest": "2026-07-09",
+        "latest": "2026-07-10",
+        "precision": "day"
+      },
+      "validTo": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "pending",
+      "verifiedOn": null
+    },
+    {
+      "airportId": "apt_96e253c6-48ee-4ca3-b9a1-c34b49df0a68",
+      "assignmentId": "global-code-expansion-veay-icao",
+      "code": "VEAY",
+      "evidenceType": "continuity_inference",
+      "note": "Research proposal only:27 whole local dates between controlled edition observations under unchanged AAI112-day policy; unknown outer bounds. Requires existing formal gate original replay, fingerprint, rights and scope clearance before admission.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "asia-in-11-06-2026-veay",
+        "asia-in-09-07-2026-veay"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2026-06-12",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "pending",
+      "verifiedOn": null
+    }
+  ],
+  "claims": [
+    {
+      "assignmentId": "proposal-pbi-iata-pbi",
+      "authorizationStatus": "source_family_code_authority_missing",
+      "boundaryFacts": {
+        "date": "2026-08-18",
+        "kind": "code_change_day",
+        "precision": "day",
+        "timeOfDay": null
+      },
+      "conditionalReviewEligible": false,
+      "eventGroupId": "dup_053fff021fcc335a906d311d",
+      "remainingGaps": [
+        "Consolidated source-family admission authorization and claim-specific rights assessment.",
+        "Authenticated IATA notification or FAA code allocation record to establish full interval and resolve outer bounds."
+      ],
+      "temporalEvidenceStatus": "explicit_change_day_unknown_outer_boundary",
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-pbi-iata-djt",
+      "authorizationStatus": "source_family_code_authority_missing",
+      "boundaryFacts": {
+        "date": "2026-08-18",
+        "kind": "code_change_day",
+        "precision": "day",
+        "timeOfDay": null
+      },
+      "conditionalReviewEligible": false,
+      "eventGroupId": "dup_053fff021fcc335a906d311d",
+      "remainingGaps": [
+        "Consolidated source-family admission authorization and claim-specific rights assessment.",
+        "Authenticated IATA notification or FAA code allocation record to establish full interval and resolve outer bounds."
+      ],
+      "temporalEvidenceStatus": "explicit_change_day_unknown_outer_boundary",
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-pbi-icao-kpbi",
+      "authorizationStatus": "source_family_code_authority_missing",
+      "boundaryFacts": {
+        "date": "2026-07-09",
+        "kind": "code_change_day",
+        "precision": "day",
+        "timeOfDay": null
+      },
+      "conditionalReviewEligible": false,
+      "eventGroupId": "dup_053fff021fcc335a906d311d",
+      "remainingGaps": [
+        "Consolidated source-family admission authorization and claim-specific rights assessment.",
+        "Authenticated IATA notification or FAA code allocation record to establish full interval and resolve outer bounds."
+      ],
+      "temporalEvidenceStatus": "explicit_change_day_unknown_outer_boundary",
+      "wholeWindowSupported": false
+    },
+    {
+      "assignmentId": "proposal-pbi-icao-kdjt",
+      "authorizationStatus": "source_family_code_authority_missing",
+      "boundaryFacts": {
+        "date": "2026-07-09",
+        "kind": "code_change_day",
+        "precision": "day",
+        "timeOfDay": null
+      },
+      "conditionalReviewEligible": false,
+      "eventGroupId": "dup_053fff021fcc335a906d311d",
+      "remainingGaps": [
+        "Consolidated source-family admission authorization and claim-specific rights assessment.",
+        "Authenticated IATA notification or FAA code allocation record to establish full interval and resolve outer bounds."
+      ],
+      "temporalEvidenceStatus": "explicit_change_day_unknown_outer_boundary",
+      "wholeWindowSupported": false
+    },
+    {
+      "airportId": "apt_96e253c6-48ee-4ca3-b9a1-c34b49df0a68",
+      "assignmentId": "global-code-expansion-veay-icao",
+      "authorizationStatus": "existing_aai_scope_candidate_gate_not_run",
+      "code": "VEAY",
+      "country": "IN",
+      "distinctOriginals": 2,
+      "eventGroupId": "lead_7738c9728e550a3eb471916e",
+      "formalAdmissibility": "potential_low_risk_subject_to_original_replay_scope_and_executor_gate",
+      "independentPublishers": 1,
+      "label": "Maharishi Valmiki International Airport Ayodhyadham",
+      "maximumGapDays": 28,
+      "observationDates": [
+        "2026-06-11",
+        "2026-07-09"
+      ],
+      "outerBoundsKnown": false,
+      "scheme": "ICAO",
+      "siteCoordinates": {
+        "latitude": 26.753888888888888,
+        "longitude": 82.15027777777779
+      },
+      "sourceIds": [
+        "asia-in-11-06-2026-veay",
+        "asia-in-09-07-2026-veay"
+      ],
+      "temporalEvidenceStatus": "bounded_continuity_evidence_complete",
+      "wholeLocalDays": 27
+    }
+  ],
+  "sources": [
+    {
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-PalmBeachCounty-RightsReserved",
+        "note": "Factual metadata only; full originals/extractions retained in ignored work. No third-party redistribution licence or project admission grant inferred.",
+        "url": "https://flydjt.org/about/name-change-faqs/"
+      },
+      "note": "Operator reports independent ICAO and IATA code change days; unknown outer boundaries. Only factual notes and two short heading anchors retained.",
+      "sourceId": "global-code-expansion-us-pbi-name-faq",
+      "sourceType": "primary",
+      "title": "Palm Beach County Department of Airports: name-change FAQ (updated2026-08-20)",
+      "url": "https://flydjt.org/about/name-change-faqs/",
+      "verificationStatus": "pending"
+    },
+    {
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-PalmBeachCounty-RightsReserved",
+        "note": "Factual metadata only; full originals/extractions retained in ignored work. No third-party redistribution licence or project admission grant inferred.",
+        "url": "https://discover.pbc.gov/airports/Pages/default.aspx"
+      },
+      "note": "Establishes operator publishing authority and links to the airport site; no independent allocation chronology.",
+      "sourceId": "global-code-expansion-us-pbc-airports",
+      "sourceType": "primary",
+      "title": "Palm Beach County Department of Airports administration page",
+      "url": "https://discover.pbc.gov/airports/Pages/default.aspx",
+      "verificationStatus": "pending"
+    },
+    {
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "Factual metadata only; full originals/extractions retained in ignored work. No third-party redistribution licence or project admission grant inferred.",
+        "url": "https://aeronav.faa.gov/d-tpp/2611/00449AD.PDF"
+      },
+      "note": "Named physical airfield corroboration only; no chart reproduced, no IATA meaning inferred from FAA LID.",
+      "sourceId": "global-code-expansion-us-faa-djt-diagram-2611",
+      "sourceType": "primary",
+      "title": "FAA airport diagram AL-449, cycle2611",
+      "url": "https://aeronav.faa.gov/d-tpp/2611/00449AD.PDF",
+      "verificationStatus": "pending"
+    },
+    {
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Locked original SHA256 a715e6da4aaa4303e207027b5bcd22516efaeb2a237be6ba7a4ce167432df84c; extracted text SHA256 d4bc89718af9da5ab05e1656a49c3ab8a4b99e3465910b8db76af36ae6065c84; controlled edition 2026-06-11; full original and extraction remain ignored work/.",
+      "sourceId": "asia-in-11-06-2026-veay",
+      "sourceType": "primary",
+      "title": "India AIP 2026-06-11 AD2 VEAY",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VEAY-en-GB.html",
+      "verificationStatus": "pending"
+    },
+    {
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Locked original SHA256 c795669e918839de08a4783b491d5d843eaa357d4613ea3cb9bd3d31f3ea061c; extracted text SHA256 896254de819de31135e1884e3e8e365842d97b050f0d075f77746d6aed97a071; controlled edition 2026-07-09; full original and extraction remain ignored work/.",
+      "sourceId": "asia-in-09-07-2026-veay",
+      "sourceType": "primary",
+      "title": "India AIP 2026-07-09 AD2 VEAY",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEAY-en-GB.html",
+      "verificationStatus": "pending"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "authorizationSha256": "1d960ab883e1e7add4ebc1dbf8e8b9cfff01e05410b22c71ad8c50d1847ee54e",
+  "authorizationSource": "https://github.com/keepraw/airport-history/issues/19#issuecomment-6513409968",
+  "authorizedBy": {
+    "githubUserId": 49091395,
+    "login": "keepraw"
+  },
+  "baseline": {
+    "baseCommit": "7d21ff6762e1569faa1be19c8203e577420cd1f2",
+    "dataVersion": "0.11.0",
+    "path": "test/curated-0.11.0.json",
+    "schemaVersion": "3.0.0",
+    "sha256": "151d63469f96833b4be54f942940a39df24f485c81e18998053d1dc72f93f778"
+  },
+  "batchSha256": null,
+  "batchesSha256": "ebaf592810c70cb0ca7ae1db6ab98f3cbbc186688166e3bf7de720c46f2d85b4",
+  "datasetSha256": "fe4c214d97f55a872743faa9341a8923ba100f179d44e1ef27ff39cb649824bb",
+  "decisionsSha256": "8d73f5f511d60003a1d099118d4eda4f4838bf19cc121758e7605cee3484c6db",
+  "dossierSha256": "17cf9acfbd59f6b85ceee1c96125833d46c15151dc236451af582f6cc2b6a663",
+  "executorSha256": "2415279526ff8c0eaf9ee1b3ee5afca8bde26e95bfac2c98930212f9f7992a3f",
+  "formatVersion": 1,
+  "inputSha256": "cc6474a87972c69f4f20dbb959f4fc58fb64749ef8618d780ca12d899b7ba7ee",
+  "originalVerification": {
+    "baselineSha256": "151d63469f96833b4be54f942940a39df24f485c81e18998053d1dc72f93f778",
+    "executorSha256": "2415279526ff8c0eaf9ee1b3ee5afca8bde26e95bfac2c98930212f9f7992a3f",
+    "formatVersion": 1,
+    "inputSha256": "cc6474a87972c69f4f20dbb959f4fc58fb64749ef8618d780ca12d899b7ba7ee",
+    "meaning": "Recorded private byte/hash/extraction/citation verification; offline replay does not reacquire bytes.",
+    "policySha256": "3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958",
+    "recordedBy": "policy-originals-cli",
+    "sources": [
+      {
+        "checkedCitationCount": 4,
+        "checkedCitationSha256": "94b86db1e0b64998e8303c2f69c35afe477047af4d26fb3ce0683cf59648a246",
+        "editionEffectiveDate": "2026-07-09",
+        "excerptSha256": "860d9e0ac0786e4483b140ce8376f6621507a8f9d923c5cf07e3fb9b34cc8a36",
+        "originalPublicationKey": "aai-aip:2026-07-09",
+        "originalSha256": "c8049db4ea483f6f451390e36e36d6d432119f6f285a8217c52752f07fdc5df7",
+        "sourceId": "asia-in-09-07-2026-vanm",
+        "textOriginalSha256": "f2c66ae6c971a660ccb958e2e983abc47b8f10b05e67930b53bb7d4a155c0fea",
+        "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VANM-en-GB.html"
+      },
+      {
+        "checkedCitationCount": 4,
+        "checkedCitationSha256": "7b108a1955a171f54692bf3a08f1a1898ac27552b3ac334d20e781ededf91944",
+        "editionEffectiveDate": "2026-07-09",
+        "excerptSha256": "79ba89f54f2a6d5d03a7f315934a1d75d4cb032d2cba33ecd01faf466c0e4775",
+        "originalPublicationKey": "aai-aip:2026-07-09",
+        "originalSha256": "c795669e918839de08a4783b491d5d843eaa357d4613ea3cb9bd3d31f3ea061c",
+        "sourceId": "asia-in-09-07-2026-veay",
+        "textOriginalSha256": "896254de819de31135e1884e3e8e365842d97b050f0d075f77746d6aed97a071",
+        "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEAY-en-GB.html"
+      },
+      {
+        "checkedCitationCount": 4,
+        "checkedCitationSha256": "884aa4e9b84cd2ae19efae771fea800edbe645391326eac6825cd33db6a6a131",
+        "editionEffectiveDate": "2026-07-09",
+        "excerptSha256": "13c1cc2595685c391e65613e0c36a0822071db9e53b59328ee309bfbcb4bbb40",
+        "originalPublicationKey": "aai-aip:2026-07-09",
+        "originalSha256": "094839f873fea68c675319964372857073ed66ff79622d80d6d527a79b324907",
+        "sourceId": "asia-in-09-07-2026-vosh",
+        "textOriginalSha256": "578dfd79b81549a88732dc0c24e8a61fd99e2bec4e21989ad1fc18e78f344729",
+        "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOSH-en-GB.html"
+      },
+      {
+        "checkedCitationCount": 3,
+        "checkedCitationSha256": "1d789857792f400e4d7a8007b11483e439cd49dbdf78b678dad76b55b02c20d3",
+        "editionEffectiveDate": "2026-06-11",
+        "excerptSha256": "214a8c63d5f5b8764a000710fc76be2f1fa303ee635a053da3e0ce3c8e197aa1",
+        "originalPublicationKey": "aai-aip:2026-06-11",
+        "originalSha256": "2dfe4b1d5e80ba4667b9f8d335b0679dd712c4032c132a34823f5e4e9d6dce38",
+        "sourceId": "asia-in-11-06-2026-gen02",
+        "textOriginalSha256": "ac661fb29417fac515ad27d78021f56a90c7a9f555b62593213dcc5a464df0e0",
+        "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-GEN%200.2-en-GB.html"
+      },
+      {
+        "checkedCitationCount": 4,
+        "checkedCitationSha256": "5b168586c6ca16147c67e3e834b1ae7bb3115c52b0db9628bd04703088f906b8",
+        "editionEffectiveDate": "2026-06-11",
+        "excerptSha256": "0d56d32181f55a57b81302642a2cae0be65e35c1b75b0693830e768f45120f2a",
+        "originalPublicationKey": "aai-aip:2026-06-11",
+        "originalSha256": "97733a9cde5b3ed0293edc32f4bc873d828efd89fbe222bdeb91a20dfe31eceb",
+        "sourceId": "asia-in-11-06-2026-vanm",
+        "textOriginalSha256": "5000c6d42d212b25c1a7d0987bd1018e835260a5fec9a98c778a10447700b896",
+        "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VANM-en-GB.html"
+      },
+      {
+        "checkedCitationCount": 4,
+        "checkedCitationSha256": "14f96c984bf1988296544e65858600d6957c8dc3fa36d6eabe4a225cad513df5",
+        "editionEffectiveDate": "2026-06-11",
+        "excerptSha256": "1b1f6af36e8298f6b7cc67d7756cfbf769706549c785acdee41c138035531f3c",
+        "originalPublicationKey": "aai-aip:2026-06-11",
+        "originalSha256": "a715e6da4aaa4303e207027b5bcd22516efaeb2a237be6ba7a4ce167432df84c",
+        "sourceId": "asia-in-11-06-2026-veay",
+        "textOriginalSha256": "d4bc89718af9da5ab05e1656a49c3ab8a4b99e3465910b8db76af36ae6065c84",
+        "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VEAY-en-GB.html"
+      },
+      {
+        "checkedCitationCount": 4,
+        "checkedCitationSha256": "294e0d1e1e989b7462ccc80aa0f05c5b8d99efdf2c33843873840a14d5cbb91c",
+        "editionEffectiveDate": "2026-06-11",
+        "excerptSha256": "4bd30168955b5301ed09c37509d303e4a93a77378b5c5b3d37fdf972aca6d4bb",
+        "originalPublicationKey": "aai-aip:2026-06-11",
+        "originalSha256": "a2cac83315f742e4b1f54bacde412013b096dc3e2bf7cb31739faa978be0ebed",
+        "sourceId": "asia-in-11-06-2026-vosh",
+        "textOriginalSha256": "e507f696a051909706b8b83d5ba269de28830bb272544109ca4c2732aa5adb38",
+        "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VOSH-en-GB.html"
+      }
+    ],
+    "verificationMode": "private_original_replay"
+  },
+  "originalVerificationSha256": "104cd608f9a1b30380d68cc9dfab3a81d289fe6442d2c392aac2c2f708c5d074",
+  "policyId": "official-aip-bounded-icao",
+  "policySha256": "3c606e60766f0ec89090e2b382939da67be00a7e9070aefc7568fe5559e05958",
+  "policyVersion": "1.0.0",
+  "reviewMode": "policy",
+  "reviewer": null
+}

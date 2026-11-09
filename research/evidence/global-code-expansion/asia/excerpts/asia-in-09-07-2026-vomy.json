@@ -1,0 +1,35 @@
+{
+  "originalSha256": "ce0cf2a5bcdd5290704b6bcc396f707ada538ee48501f416b25868bb22a09736",
+  "sourceId": "asia-in-09-07-2026-vomy",
+  "spans": [
+    {
+      "characterEnd": 111,
+      "characterStart": 82,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "VOMY - MYSURU AIRPORT, MYSURU"
+    },
+    {
+      "characterEnd": 240,
+      "characterStart": 173,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "Aerodrome reference point coordinates and its site 121357N 0763923E"
+    },
+    {
+      "characterEnd": 705,
+      "characterStart": 661,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='DC.date' content='28 MAY 2026'/>"
+    },
+    {
+      "characterEnd": 765,
+      "characterStart": 707,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='EM.effectiveDateStart' content='09 JUL 2026'/>"
+    }
+  ],
+  "textOriginalSha256": "b4318864436963cc9767eccfe8c081c6372b7bb1e550163e70f4e2e55e6c6351"
+}

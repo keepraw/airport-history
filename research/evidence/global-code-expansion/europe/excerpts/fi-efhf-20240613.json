@@ -1,0 +1,24 @@
+{
+  "sourceId": "fi-efhf-20240613",
+  "originalSha256": "4aae388243b0e195f29b4a731a29a637cfa863c3a2e5acefc52bdc1ef1a630df",
+  "extractedTextSha256": "8896fa1fe3c71e10ad349ad1859fdd14e144ce29023533cad019df26b3d9964c",
+  "normalizedTextSha256": "e53f991566d2f1fa78ba66215dc5864cc616c6722f2cbfd6e661de5ef0e3a01b",
+  "spans": [
+    {
+      "representation": "normalized_text",
+      "characterStart": 39,
+      "characterEnd": 60,
+      "quote": "EFHF - HELSINKI-MALMI",
+      "quoteSha256": "f76c30902514747b93b23dd236e15c21d83951607b9ccff3f661f2bf6232e173"
+    },
+    {
+      "representation": "normalized_text",
+      "characterStart": 136,
+      "characterEnd": 152,
+      "quote": "601514N 0250239E",
+      "quoteSha256": "20c1cbece3b0326a5952355478b3e15b5bc398ffe3aca76f694b0e6a73ed87aa"
+    }
+  ],
+  "quoteScope": "Minimal factual code/name/date anchors only; full original and complete extraction remain ignored work/.",
+  "dateNature": "AIP package effective observation; does not establish allocation/withdrawal dates"
+}

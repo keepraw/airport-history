@@ -1,0 +1,24 @@
+{
+  "extractedTextSha256": "b7208dcc5eed087e8f08792eded542c78ac364594ac5dc7996e57207ba58f834",
+  "normalizedTextSha256": "5486fa9b7f8a8671e2408d912fff6712fbe05f2986ca97d5acfee6d9d808fefd",
+  "originalSha256": "3a1d545cda856ac86e6c1d25a70325f448f3917a1bb939c5e1f07cf3d3dd3176",
+  "sourceId": "asia-kg-iata-notice-mirror",
+  "spans": [
+    {
+      "characterEnd": 41,
+      "characterStart": 28,
+      "locator": "PDF page1",
+      "quote": "May 9th, 2025",
+      "quoteSha256": "14dc1a8491bf74c5342303aa9a4989d8535b98a80c57c7b85b6b2a98f7299ceb",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 969,
+      "characterStart": 921,
+      "locator": "PDF page1",
+      "quote": "will become effective on the 9th of August, 2025",
+      "quoteSha256": "3b990bc85a47c7dfaac9515fb037e502261c2ab3bf565cb2a637ae970f3726cd",
+      "representation": "normalized_text"
+    }
+  ]
+}

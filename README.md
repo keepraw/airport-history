@@ -28,9 +28,9 @@ candidates are mechanically processed into 88,330 relevant review groups and
 explicit excluded/deferred categories. No new upstream history scan is needed.
 See [measured before/after coverage and performance](docs/worldwide-reference-pr11.md).
 
-**Curated scope (0.11.0):** forty-three physical airports, twenty-eight IATA
-assignments, twenty-four ICAO assignments and three official-name intervals, with
-106 evidence sources. The
+**Curated scope (0.12.0 proposal):** forty-six physical airports, twenty-eight IATA
+assignments, twenty-seven ICAO assignments and three official-name intervals, with
+112 evidence sources. The
 original TAO, IST, HKG and DEN examples are joined by five reviewed ISL, ISB,
 SXF/BER, TSE/NQZ and KIV/RMO events and, in 0.5.0, by ROV/RVI (Rostov-on-Don /
 Platov), YNT (Yantai Laishan / Penglai) and PNH/KTI with VDPP/VDTI (Phnom Penh /
@@ -55,6 +55,14 @@ AAI ICAO policy: VEHO (Donyi Polo), VASD (Shirdi) and VOKN (Kannur), each certai
 only within `[2026-04-17, 2026-07-09)`. The real formal candidate adds 249 resolved
 code/local-date queries. See the [production admission and measurements](research/admissions/0.10.0/README.md).
 Version 0.11.0 admits six Chinese physical identities (Lianyungang, Yibin and Luzhou old/new sites) and five scoped sources. Code assignments and historical name intervals are unchanged; actual resolved-query growth is zero. See the [China admission and evidence audit](research/admissions/0.11.0/README.md).
+Version 0.12.0 proposes three further bounded ICAO assignments through the unchanged
+authorized AAI gate: VANM, VEAY and VOSH, each certain only within
+`[2026-06-12, 2026-07-09)`, adding 81 resolved code/local-date queries in the
+production resolver comparison. Published coverage remains unchanged until merge.
+The [global expansion report](research/evidence/global-code-expansion/README.zh-CN.md)
+contains the complete 88,330-group ranking, 92 canonical research cases,
+64 high-value original/locked-evidence reviews and the consolidated proposal-only
+source-family rules. See the [0.12.0 admission and exact measurements](research/admissions/0.12.0/README.md).
 This remains the authoritative curated history layer. The worldwide reference
 lookup above is separate and never returns resolved historical answers. A separate
 [global discovery research layer](research/discovery/README.md) scans pinned
@@ -89,7 +97,7 @@ Initial dependency installation needs network access. All subsequent checks,
 tests, builds and resolution run offline. `pnpm build` writes:
 
 ```text
-dist/v0.11.0/
+dist/v0.12.0/
 ├── airport-history.json
 ├── dataset.schema.json
 ├── manifest.json             # SHA-256 hashes of the five other files
@@ -265,7 +273,17 @@ unique answer and returns `uncertain`. If a reviewed pair also certainly conflic
 on that date, `conflict` takes precedence and includes the other candidates.
 Nonoverlapping historical reuse is accepted normally.
 
-## Format compatibility: 0.11.0
+## Format compatibility: 0.12.0 proposal
+
+Three physical reference identities, three bounded ICAO assignments and six source
+records are appended; schema 3.0.0 and production resolution semantics are unchanged.
+The existing owner-authorized AAI evaluator and gate replay a data-only intake
+snapshot in an isolated published-0.11.0 checkout. No old research, policy, grant,
+bound executable or dependency lock changes. The whole-local-date windows have
+unknown outer boundaries; IATA and historical names are unchanged. Global source
+family proposals remain inactive. Human review and merge precede publication.
+
+## Format compatibility: 0.11.0 (historical)
 
 Six physical identities and five source records are added under the explicit China Batch 7 task. Schema 3.0.0 and production resolver semantics are unchanged. Reference coordinates are not official ARPs. The machine rule admits physical identity only; IATA/ICAO and historical-name claims fail closed. Prior AAI/Korean grants and engines retain their original scope and bytes.
 

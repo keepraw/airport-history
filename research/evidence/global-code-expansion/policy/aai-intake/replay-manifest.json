@@ -1,0 +1,118 @@
+{
+  "authorizationSource": "https://github.com/keepraw/airport-history/issues/19#issuecomment-6513409968",
+  "baselineCommit": "7d21ff6762e1569faa1be19c8203e577420cd1f2",
+  "baselinePath": "test/curated-0.11.0.json",
+  "baselineSha256": "151d63469f96833b4be54f942940a39df24f485c81e18998053d1dc72f93f778",
+  "bundlePath": "research/admissions/0.12.0",
+  "candidatePath": "test/curated-0.12.0.json",
+  "candidateSha256": "4573fb7e6fac8e02c8e3f57443599385dffada17b250a29f1a18964f6d6d8cc9",
+  "executor": {
+    "executorSha256": "2415279526ff8c0eaf9ee1b3ee5afca8bde26e95bfac2c98930212f9f7992a3f",
+    "files": {
+      "pnpm-lock.yaml": "e79aceff64ebcd5fde9a832cd349832cd896337fa6dae352248539a433961163",
+      "schema/dataset.schema.json": "30af837f0561e26c965384a7a9c1598406c4580ef55a7eed5d0a99a9a47830f2",
+      "scripts/discovery/review.py": "b6540d6cff18a3bdd0e8ef06a743defbeb9436cf620437d419036fde1ae2a92d",
+      "scripts/evidence/global_batch.py": "14ecb7dba7bcf78e53d83718912b91a0dd0b670e2c5508629cc1e088e2856ad6",
+      "scripts/evidence/policy_coverage.ts": "f32208e5e45ac7519ae51fdea710f4c897f1f4a171f62a2a1fcd905d4d97c13a",
+      "scripts/evidence/policy_executor.py": "1c7b610eb72315b7bdabba29b70d482423a1ef2d2a351cfbaa123ccc4f277508",
+      "scripts/evidence/policy_formal.py": "6a14b210bffd2fa782ab89fe08bd3dac647bd23a1216a4907988302f89df4218",
+      "scripts/evidence/policy_gate.py": "549caae6b4f5a7813b92f05c447b88e61372255773252f50d7a103c952919bfc",
+      "scripts/evidence/policy_originals.py": "63dc8c80624ecef3754ebf6cda9a5bd060ebae44203785ae2696ca9ac542c7a2",
+      "scripts/evidence/policy_review.py": "78cdd142487adf99da45fff391228fc9cda924d0408a745e13a525c7319971d6",
+      "scripts/evidence/review.py": "b57bb5a666abb5e9affe9e60f72ee6c37e3f6d9efaa6dfb66d088783ccf35afc",
+      "scripts/reference/admissions.py": "c7774e86708ff169ee5a8f006c7528d44850ef932cd5ecc913375aa5002e9992",
+      "scripts/reference/common.py": "abaa48d37d4087b9bd4223e1ecf659fcc323addce570cee1d5348cbfac78ac46",
+      "scripts/reference/query.py": "c1cc45bb5bf250c08dbe76f57296b6ca2ad6c18921862ae078339c81b57d2fa2",
+      "src/evidence.ts": "e455f76f8c379bb52b9328c87b51a9ed03a1fe37146c1426fc9bc7db8e6070ed",
+      "src/names.ts": "0ddbb7aa3268eebec58002ef008af265e68330281b9816f7f9dc2c0a7417893e",
+      "src/resolve.ts": "af9631a3c270a2ca71606a75cf7830d9f7e711bab431a919fa5be615f26ec5b0",
+      "src/time.ts": "865c62ab547f294ced584592dfc3af8dfb0c6f627ca552c254bcfffd4002e4e5",
+      "src/types.ts": "b06991be4f63e066b9d3614484ac68ded48d641e3d42b4ed59dafd8706a93e03",
+      "src/validate.ts": "10680e15e990bd2e1396434dcabb3b7a22f8ba862222a68d1fd25d1bd9655d06"
+    },
+    "formatVersion": 1
+  },
+  "formatVersion": 1,
+  "meaning": "Exact data-only intake for the unchanged AAI executor. Replayed only in an isolated published-baseline checkout; live historical research, grants and executables remain unchanged. No new policy authority is activated.",
+  "overlayFiles": [
+    {
+      "bytes": 28060,
+      "path": "research/evidence/global-code-expansion/policy/aai-intake/overlay/research/evidence/global/generated/batches/global-evidence-proposal-2.json",
+      "sha256": "25139c49436d2938ba1b1cc8332b81fc6dfce2dc10ec4c3eb707336d6c009c22",
+      "target": "research/evidence/global/generated/batches/global-evidence-proposal-2.json"
+    },
+    {
+      "bytes": 113860,
+      "path": "research/evidence/global-code-expansion/policy/aai-intake/overlay/research/evidence/global/generated/dossier.json",
+      "sha256": "c1100c7bd992f9a917aebca88542c7f1315f31628d9cb538b4689ce96549c8d4",
+      "target": "research/evidence/global/generated/dossier.json"
+    },
+    {
+      "bytes": 268101,
+      "path": "research/evidence/global-code-expansion/policy/aai-intake/overlay/research/evidence/global/generated/proposed-data.json",
+      "sha256": "dd9e13898a25c4ba1463fa095fb0df3fe7d38e530fa95886ee36168e513164c4",
+      "target": "research/evidence/global/generated/proposed-data.json"
+    },
+    {
+      "bytes": 1008,
+      "path": "research/evidence/global-code-expansion/policy/aai-intake/overlay/research/policy/excerpts/asia-in-09-07-2026-vanm.json",
+      "sha256": "860d9e0ac0786e4483b140ce8376f6621507a8f9d923c5cf07e3fb9b34cc8a36",
+      "target": "research/policy/excerpts/asia-in-09-07-2026-vanm.json"
+    },
+    {
+      "bytes": 1021,
+      "path": "research/evidence/global-code-expansion/policy/aai-intake/overlay/research/policy/excerpts/asia-in-09-07-2026-veay.json",
+      "sha256": "79ba89f54f2a6d5d03a7f315934a1d75d4cb032d2cba33ecd01faf466c0e4775",
+      "target": "research/policy/excerpts/asia-in-09-07-2026-veay.json"
+    },
+    {
+      "bytes": 992,
+      "path": "research/evidence/global-code-expansion/policy/aai-intake/overlay/research/policy/excerpts/asia-in-09-07-2026-vosh.json",
+      "sha256": "13c1cc2595685c391e65613e0c36a0822071db9e53b59328ee309bfbcb4bbb40",
+      "target": "research/policy/excerpts/asia-in-09-07-2026-vosh.json"
+    },
+    {
+      "bytes": 769,
+      "path": "research/evidence/global-code-expansion/policy/aai-intake/overlay/research/policy/excerpts/asia-in-11-06-2026-gen02.json",
+      "sha256": "214a8c63d5f5b8764a000710fc76be2f1fa303ee635a053da3e0ce3c8e197aa1",
+      "target": "research/policy/excerpts/asia-in-11-06-2026-gen02.json"
+    },
+    {
+      "bytes": 1008,
+      "path": "research/evidence/global-code-expansion/policy/aai-intake/overlay/research/policy/excerpts/asia-in-11-06-2026-vanm.json",
+      "sha256": "0d56d32181f55a57b81302642a2cae0be65e35c1b75b0693830e768f45120f2a",
+      "target": "research/policy/excerpts/asia-in-11-06-2026-vanm.json"
+    },
+    {
+      "bytes": 1021,
+      "path": "research/evidence/global-code-expansion/policy/aai-intake/overlay/research/policy/excerpts/asia-in-11-06-2026-veay.json",
+      "sha256": "1b1f6af36e8298f6b7cc67d7756cfbf769706549c785acdee41c138035531f3c",
+      "target": "research/policy/excerpts/asia-in-11-06-2026-veay.json"
+    },
+    {
+      "bytes": 992,
+      "path": "research/evidence/global-code-expansion/policy/aai-intake/overlay/research/policy/excerpts/asia-in-11-06-2026-vosh.json",
+      "sha256": "4bd30168955b5301ed09c37509d303e4a93a77378b5c5b3d37fdf972aca6d4bb",
+      "target": "research/policy/excerpts/asia-in-11-06-2026-vosh.json"
+    },
+    {
+      "bytes": 34909,
+      "path": "research/evidence/global-code-expansion/policy/aai-intake/overlay/research/policy/input-lock.json",
+      "sha256": "a1c2396bba400528aa908bc10bac93a4615ae2fc9f6328263a0691a4738dbbbe",
+      "target": "research/policy/input-lock.json"
+    },
+    {
+      "bytes": 5498,
+      "path": "research/evidence/global-code-expansion/policy/aai-intake/overlay/research/policy/screening.json",
+      "sha256": "4129a5786794af0b56d1e375d613f2372027b2f9c01329f99447372a0cbaa121",
+      "target": "research/policy/screening.json"
+    },
+    {
+      "bytes": 41465,
+      "path": "research/evidence/global-code-expansion/policy/aai-intake/overlay/research/policy/source-lock.json",
+      "sha256": "128b06d858945ff058de14f99db5711cdff844d503f9906cbdb86453b76273d8",
+      "target": "research/policy/source-lock.json"
+    }
+  ],
+  "preparationOriginals": "Actual private bytes, extractions and every citation replayed by existing policy_gate.admit; seven originals including edition anchor. CI replays the recorded receipt offline and does not reacquire bytes."
+}

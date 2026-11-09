@@ -1,0 +1,657 @@
+{
+  "countingRule": "One primary eventGroupId per substantively reviewed case. Related directory aliases are linked but never inflate researched counts. Directory-only and access/discovery-blocked cases are excluded from the50-group original/locked-evidence target.",
+  "evidenceAcquisition": {
+    "distinctReusedOriginalHashesAvailable": 97,
+    "duplicateRetrievalIncidents": [
+      {
+        "detail": "A duplicate retrieval occurred before the prior unprefixed key was discovered. Raw SHA matches exactly. Excluded from new-original counts; subsequent acquisition helper checks prior URLs. No independent corroboration claimed.",
+        "originalSha256": "35e554ff386032ac024dd2643d1bc287a4fafb1d1436006b0da6dbd70c81f99f",
+        "region": "americas-africa",
+        "sourceId": "global-code-expansion-us-faa-dtpp-2611"
+      }
+    ],
+    "issuerFamilyCountCaveat": "Family keys preserve regional registries and are not a count of independent corroborating publishers. Different editions/URLs of one issuer remain one source family.",
+    "issuerFamilyKeys": [
+      "ASECNA-AIP",
+      "AirAsia Indonesia",
+      "BO-NAABOL-OPERATOR",
+      "BR-DECEA-AISWEB",
+      "CA-NAV-CANADA",
+      "CAAC",
+      "CAOP",
+      "CL-DGAC",
+      "CN-YNAIRPORT",
+      "Chile DGAC",
+      "Chile Ministry of Public Works Directorate of Airports",
+      "City of Austin Department of Aviation",
+      "DE-FBB",
+      "ES-ENAIRE-AIP",
+      "FAA / GPO",
+      "FI-FINTRAFFIC-AIP",
+      "Federal Aviation Administration",
+      "Federal Aviation Administration / U.S. DOT Volpe Center",
+      "GL-MITTARFEQARFIIT-OPERATOR",
+      "IATA",
+      "IATA-CODE-SEARCH",
+      "ICAO regional meteorological planning document",
+      "ICAO-APAC",
+      "IN-AAI-AIP",
+      "IN-MOCA",
+      "IN-MOCA-GAZETTE",
+      "IR-IAC-AIP",
+      "International Air Transport Association",
+      "JMA",
+      "JP-JMA",
+      "JP-OKINAWA-PREF",
+      "KR-MOLIT-AIP",
+      "LEIDEN-THESIS",
+      "MD-TAROM-NOTICE",
+      "NO-AVINOR-AHRI",
+      "NOAA National Weather Service Meteorological Development Laboratory",
+      "OM-CAA-AIP",
+      "PT-NAV-AIP",
+      "Pakistan Airports Authority",
+      "Pakistan Broadcasting Corporation",
+      "Philippine Airlines",
+      "QA-QCAA-AIP",
+      "SD-SCAA",
+      "SE-LFV-AIP",
+      "SZ-ESWACAA-OPERATOR",
+      "Sichuan-Airlines",
+      "Sina-Qunar-airport-directory",
+      "TH-AOT",
+      "TH-CAAT-AIP",
+      "TR-DHMI-AIP",
+      "Turkish Airlines",
+      "UK-AIP-NATS",
+      "UK-CAA-NATS-AIP",
+      "US-ALASKA-DOT",
+      "US-FAA-AERONAV",
+      "US-PALM-BEACH-COUNTY-OPERATOR",
+      "VC-SVG-AIRPORT-OPERATOR",
+      "ZA-ACSA-OPERATOR",
+      "ZA-ATNS-AIP",
+      "Zhanjiang-government",
+      "aai-aip",
+      "airport operator",
+      "aviation authority AIP via ATNS",
+      "family_not_established",
+      "iata-location-code-notification",
+      "kg-airport-operator",
+      "kh-caic-airport-operator",
+      "noaa-nws",
+      "spring-airport-directory",
+      "th-caat-aip",
+      "usdot-faa"
+    ],
+    "newDistinctOriginalByteSequences": 70,
+    "newOriginalCountExcludesPreviouslyLockedByteSequences": true,
+    "newSourceAcquisitionByFamily": {
+      "ASECNA-AIP": {
+        "accessResultCounts": {
+          "original_acquired": 16,
+          "unavailable_original": 11
+        },
+        "distinctNewOriginalHashes": 16,
+        "sourceRecords": 27
+      },
+      "AU-AIRSERVICES": {
+        "accessResultCounts": {
+          "copyright_consent_notice_only": 1,
+          "unavailable_original": 3
+        },
+        "distinctNewOriginalHashes": 0,
+        "sourceRecords": 4
+      },
+      "BO-NAABOL-OPERATOR": {
+        "accessResultCounts": {
+          "original_acquired": 1
+        },
+        "distinctNewOriginalHashes": 1,
+        "sourceRecords": 1
+      },
+      "BR-DECEA-AISWEB": {
+        "accessResultCounts": {
+          "original_acquired": 7,
+          "unavailable_original": 1
+        },
+        "distinctNewOriginalHashes": 7,
+        "sourceRecords": 8
+      },
+      "CA-NAV-CANADA": {
+        "accessResultCounts": {
+          "original_acquired": 3
+        },
+        "distinctNewOriginalHashes": 3,
+        "sourceRecords": 3
+      },
+      "CL-DGAC": {
+        "accessResultCounts": {
+          "original_acquired": 1
+        },
+        "distinctNewOriginalHashes": 1,
+        "sourceRecords": 1
+      },
+      "FI-FINTRAFFIC-AIP": {
+        "accessResultCounts": {
+          "original_acquired": 1
+        },
+        "distinctNewOriginalHashes": 1,
+        "sourceRecords": 1
+      },
+      "FR-DGAC-SIA-AIP": {
+        "accessResultCounts": {
+          "unavailable_original": 1
+        },
+        "distinctNewOriginalHashes": 0,
+        "sourceRecords": 1
+      },
+      "GL-MITTARFEQARFIIT-OPERATOR": {
+        "accessResultCounts": {
+          "original_acquired": 1,
+          "reused_existing_lock_without_fetch": 1
+        },
+        "distinctNewOriginalHashes": 1,
+        "sourceRecords": 2
+      },
+      "GN-ANAC": {
+        "accessResultCounts": {
+          "unavailable_original": 1
+        },
+        "distinctNewOriginalHashes": 0,
+        "sourceRecords": 1
+      },
+      "IQ-ICAA-AIP": {
+        "accessResultCounts": {
+          "unavailable_original": 1
+        },
+        "distinctNewOriginalHashes": 0,
+        "sourceRecords": 1
+      },
+      "IR-IAC-AIP": {
+        "accessResultCounts": {
+          "original_acquired": 2
+        },
+        "distinctNewOriginalHashes": 2,
+        "sourceRecords": 2
+      },
+      "MD-TAROM-NOTICE": {
+        "accessResultCounts": {
+          "original_acquired": 1
+        },
+        "distinctNewOriginalHashes": 1,
+        "sourceRecords": 1
+      },
+      "NO-AVINOR-AHRI": {
+        "accessResultCounts": {
+          "original_acquired": 1
+        },
+        "distinctNewOriginalHashes": 1,
+        "sourceRecords": 1
+      },
+      "OM-CAA-AIP": {
+        "accessResultCounts": {
+          "original_acquired": 1
+        },
+        "distinctNewOriginalHashes": 1,
+        "sourceRecords": 1
+      },
+      "PT-NAV-AIP": {
+        "accessResultCounts": {
+          "original_acquired": 1
+        },
+        "distinctNewOriginalHashes": 1,
+        "sourceRecords": 1
+      },
+      "QA-QCAA-AIP": {
+        "accessResultCounts": {
+          "original_acquired": 2
+        },
+        "distinctNewOriginalHashes": 2,
+        "sourceRecords": 2
+      },
+      "RU-CAIGA-AIP": {
+        "accessResultCounts": {
+          "unavailable_original": 1
+        },
+        "distinctNewOriginalHashes": 0,
+        "sourceRecords": 1
+      },
+      "SD-SCAA": {
+        "accessResultCounts": {
+          "original_acquired": 1
+        },
+        "distinctNewOriginalHashes": 1,
+        "sourceRecords": 1
+      },
+      "SE-LFV-AIP": {
+        "accessResultCounts": {
+          "original_acquired": 1,
+          "unavailable_original": 1
+        },
+        "distinctNewOriginalHashes": 1,
+        "sourceRecords": 2
+      },
+      "SZ-ESWACAA-OPERATOR": {
+        "accessResultCounts": {
+          "original_acquired": 1
+        },
+        "distinctNewOriginalHashes": 1,
+        "sourceRecords": 1
+      },
+      "TR-DHMI-AIP": {
+        "accessResultCounts": {
+          "original_acquired": 2
+        },
+        "distinctNewOriginalHashes": 2,
+        "sourceRecords": 2
+      },
+      "UK-CAA-NATS-AIP": {
+        "accessResultCounts": {
+          "original_acquired": 1,
+          "unavailable_original": 1
+        },
+        "distinctNewOriginalHashes": 1,
+        "sourceRecords": 2
+      },
+      "US-ALASKA-DOT": {
+        "accessResultCounts": {
+          "original_acquired": 2
+        },
+        "distinctNewOriginalHashes": 2,
+        "sourceRecords": 2
+      },
+      "US-FAA-AERONAV": {
+        "accessResultCounts": {
+          "duplicate_retrieval_of_prior_locked_original": 1,
+          "original_acquired": 1
+        },
+        "distinctNewOriginalHashes": 1,
+        "sourceRecords": 2
+      },
+      "US-PALM-BEACH-COUNTY-OPERATOR": {
+        "accessResultCounts": {
+          "original_acquired": 3
+        },
+        "distinctNewOriginalHashes": 3,
+        "sourceRecords": 3
+      },
+      "VC-GOVERNMENT": {
+        "accessResultCounts": {
+          "unavailable_original": 1
+        },
+        "distinctNewOriginalHashes": 0,
+        "sourceRecords": 1
+      },
+      "VC-SVG-AIRPORT-OPERATOR": {
+        "accessResultCounts": {
+          "original_acquired": 1
+        },
+        "distinctNewOriginalHashes": 1,
+        "sourceRecords": 1
+      },
+      "ZA-ACSA-OPERATOR": {
+        "accessResultCounts": {
+          "original_acquired": 1
+        },
+        "distinctNewOriginalHashes": 1,
+        "sourceRecords": 1
+      },
+      "ZA-ATNS-AIP": {
+        "accessResultCounts": {
+          "original_acquired": 1
+        },
+        "distinctNewOriginalHashes": 1,
+        "sourceRecords": 1
+      },
+      "aai-aip": {
+        "accessResultCounts": {
+          "content_inspected": 12,
+          "empty_response": 1,
+          "retrieval_failed": 4
+        },
+        "distinctNewOriginalHashes": 12,
+        "sourceRecords": 17
+      },
+      "bd-caab-aip": {
+        "accessResultCounts": {
+          "retrieval_failed": 1
+        },
+        "distinctNewOriginalHashes": 0,
+        "sourceRecords": 1
+      },
+      "iata-location-code-notification": {
+        "accessResultCounts": {
+          "content_inspected": 1
+        },
+        "distinctNewOriginalHashes": 1,
+        "sourceRecords": 1
+      },
+      "id-dgca-ministry": {
+        "accessResultCounts": {
+          "access_rejected_page": 1,
+          "retrieval_failed": 1
+        },
+        "distinctNewOriginalHashes": 0,
+        "sourceRecords": 2
+      },
+      "kg-airport-operator": {
+        "accessResultCounts": {
+          "content_inspected": 1
+        },
+        "distinctNewOriginalHashes": 1,
+        "sourceRecords": 1
+      },
+      "kh-caic-airport-operator": {
+        "accessResultCounts": {
+          "content_inspected": 1
+        },
+        "distinctNewOriginalHashes": 1,
+        "sourceRecords": 1
+      },
+      "np-caan-publication": {
+        "accessResultCounts": {
+          "retrieval_failed": 1
+        },
+        "distinctNewOriginalHashes": 0,
+        "sourceRecords": 1
+      },
+      "ph-caap-aip": {
+        "accessResultCounts": {
+          "retrieval_failed": 1
+        },
+        "distinctNewOriginalHashes": 0,
+        "sourceRecords": 1
+      },
+      "pk-paa-aip": {
+        "accessResultCounts": {
+          "retrieval_failed": 4
+        },
+        "distinctNewOriginalHashes": 0,
+        "sourceRecords": 4
+      },
+      "th-caat-aip": {
+        "accessResultCounts": {
+          "content_inspected": 2,
+          "retrieval_failed": 1
+        },
+        "distinctNewOriginalHashes": 2,
+        "sourceRecords": 3
+      },
+      "vn-vatm-aim": {
+        "accessResultCounts": {
+          "retrieval_failed": 1
+        },
+        "distinctNewOriginalHashes": 0,
+        "sourceRecords": 1
+      }
+    },
+    "originalCustody": "Complete originals and extractions remain only in ignored work/. Offline CI checks receipts and citations without claiming fresh original retrieval.",
+    "sourceCountCaveat": "New originals include source navigation/version-control documents as well as airport evidence. Original counts are acquisition accounting, not code coverage or independent confirmations."
+  },
+  "formalData": {
+    "mergedProductionGrowth": {
+      "newIataAssignments": 0,
+      "newIcaoAssignments": 0,
+      "newResolvedCrossSiteReuses": 0,
+      "newResolvedQueries": 0,
+      "reason": "No automatic merge is authorized. This report describes an unmerged PR proposal against the fixed published baseline.",
+      "uncertainIntervalsNarrowed": 0
+    },
+    "publishedMainBaseline": {
+      "commit": "7d21ff6762e1569faa1be19c8203e577420cd1f2",
+      "dataVersion": "0.11.0",
+      "sha256": "151d63469f96833b4be54f942940a39df24f485c81e18998053d1dc72f93f778"
+    },
+    "reviewableWorkingTreeProposal": {
+      "assignmentIds": [
+        "global-code-expansion-vanm-icao",
+        "global-code-expansion-veay-icao",
+        "global-code-expansion-vosh-icao"
+      ],
+      "dataVersion": "0.12.0",
+      "newHistoricalNames": 0,
+      "newIataAssignments": 0,
+      "newIcaoAssignments": 3,
+      "newPhysicalAirports": 3,
+      "newSources": 6,
+      "resolverMeasurement": {
+        "authoritativeAaiDailyCoverageSha256": "b6826c75d3b1cc95accd770d26b46c33ca1c94c757eb53ccbfbc0613de637947",
+        "batches": 5,
+        "candidateAssignmentsPreservedPending": 7,
+        "canonicalCases": 92,
+        "changedExistingAnswers": 0,
+        "inputSha256": "3672507589bb44566c825c8f8ccc0609558c6870751f235eba9d44482e078ea2",
+        "mainProductionNewResolvedUntilMerge": 0,
+        "newConflicts": 0,
+        "proposedNewResolvedQueries": 81,
+        "proposedNotFoundToResolved": 81,
+        "proposedUncertainToResolved": 0,
+        "reportSha256": "fc8cc5713e87defe3c538f1d5ee1ac014fd50c7dcfa39bc5823eb98c5ab65185",
+        "separateIataIcaoCombinedComparisonsComplete": true
+      },
+      "sha256": "4573fb7e6fac8e02c8e3f57443599385dffada17b250a29f1a18964f6d6d8cc9"
+    }
+  },
+  "formatVersion": 1,
+  "remainingHighValueQueue": {
+    "eventGroups": 1198,
+    "meaning": "All high-value groups remain visible until formal production coverage is admitted and merged. Pending proposals, completed evidence reviews, aliases and unresearched groups have distinct progress states.",
+    "path": "remaining-high-value-queue.jsonl.gz",
+    "states": {
+      "access_directory_or_discovery_blocked": 5,
+      "authorized_formal_data_proposal_pending_merge": 2,
+      "code_linked_observation_requires_distinct_event_review": 118,
+      "evidence_researched_followup": 62,
+      "not_yet_evidence_researched": 1011
+    }
+  },
+  "research": {
+    "acquisitionClusters": 92,
+    "airportUnitDefinition": "Distinct primary referenceId among reviewed canonical cases; unmatched cases use country plus acquisition-cluster key. Directory reference records are research units, not verified physical-airport counts. Separate possible locationIds remain hypotheses and are not automatically treated as relocations.",
+    "byRegion": {
+      "americas-africa": {
+        "assessmentPath": "research/evidence/global-code-expansion/americas-africa/assessments.json",
+        "assessmentSha256": "52db4d9e0a7bfdca2fd80cf07e3ae734fd844dba02e2f385f5322d418ea0a3bb",
+        "candidateAirportReferenceUnits": 29,
+        "candidateLocationHypotheses": 38,
+        "canonicalEventGroupsInvestigated": 29,
+        "countries": [
+          "AU",
+          "BO",
+          "BR",
+          "CA",
+          "CG",
+          "CI",
+          "CL",
+          "GA",
+          "GL",
+          "GN",
+          "ML",
+          "SN",
+          "SZ",
+          "US",
+          "VC",
+          "ZA"
+        ],
+        "countryCount": 16,
+        "highValueAccessOrDirectoryOnlyCases": 1,
+        "highValueEventGroupsInvestigated": 21,
+        "highValueOriginalOrLockedEvidenceCases": 20,
+        "originalOrLockedEvidenceCases": 28
+      },
+      "asia": {
+        "assessmentPath": "research/evidence/global-code-expansion/asia/assessments.json",
+        "assessmentSha256": "a284d177e97cd63ef0d50d8b921ec1453029e524547b23bb55c232bf02666977",
+        "candidateAirportReferenceUnits": 29,
+        "candidateLocationHypotheses": 35,
+        "canonicalEventGroupsInvestigated": 29,
+        "countries": [
+          "BD",
+          "CN",
+          "ID",
+          "IN",
+          "JP",
+          "KG",
+          "KH",
+          "KR",
+          "NP",
+          "PH",
+          "PK",
+          "TH",
+          "VN"
+        ],
+        "countryCount": 13,
+        "highValueAccessOrDirectoryOnlyCases": 2,
+        "highValueEventGroupsInvestigated": 25,
+        "highValueOriginalOrLockedEvidenceCases": 23,
+        "originalOrLockedEvidenceCases": 25
+      },
+      "europe": {
+        "assessmentPath": "research/evidence/global-code-expansion/europe/assessments.json",
+        "assessmentSha256": "0031c37039bde823c5dfc2ca14be190b59b1e096aa2fca91a11627edb70b5b77",
+        "candidateAirportReferenceUnits": 34,
+        "candidateLocationHypotheses": 40,
+        "canonicalEventGroupsInvestigated": 34,
+        "countries": [
+          "DE",
+          "ES",
+          "FI",
+          "FR",
+          "GB",
+          "IQ",
+          "IR",
+          "MD",
+          "NO",
+          "OM",
+          "PT",
+          "QA",
+          "RU",
+          "SE",
+          "TR"
+        ],
+        "countryCount": 15,
+        "highValueAccessOrDirectoryOnlyCases": 2,
+        "highValueEventGroupsInvestigated": 23,
+        "highValueOriginalOrLockedEvidenceCases": 21,
+        "originalOrLockedEvidenceCases": 29
+      }
+    },
+    "candidateAirportReferenceUnits": 92,
+    "candidateLocationHypotheses": 113,
+    "canonicalEventGroupsInvestigated": 92,
+    "countries": [
+      "AU",
+      "BD",
+      "BO",
+      "BR",
+      "CA",
+      "CG",
+      "CI",
+      "CL",
+      "CN",
+      "DE",
+      "ES",
+      "FI",
+      "FR",
+      "GA",
+      "GB",
+      "GL",
+      "GN",
+      "ID",
+      "IN",
+      "IQ",
+      "IR",
+      "JP",
+      "KG",
+      "KH",
+      "KR",
+      "MD",
+      "ML",
+      "NO",
+      "NP",
+      "OM",
+      "PH",
+      "PK",
+      "PT",
+      "QA",
+      "RU",
+      "SE",
+      "SN",
+      "SZ",
+      "TH",
+      "TR",
+      "US",
+      "VC",
+      "VN",
+      "ZA"
+    ],
+    "countriesWithOriginalOrLockedEvidenceReview": [
+      "BO",
+      "BR",
+      "CA",
+      "CG",
+      "CI",
+      "CL",
+      "CN",
+      "DE",
+      "ES",
+      "FI",
+      "FR",
+      "GA",
+      "GB",
+      "GL",
+      "GN",
+      "ID",
+      "IN",
+      "IR",
+      "JP",
+      "KG",
+      "KH",
+      "KR",
+      "MD",
+      "ML",
+      "NO",
+      "OM",
+      "PH",
+      "PK",
+      "PT",
+      "QA",
+      "RU",
+      "SE",
+      "SN",
+      "SZ",
+      "TH",
+      "TR",
+      "US",
+      "VC",
+      "ZA"
+    ],
+    "countryCount": 44,
+    "countryCountWithOriginalOrLockedEvidenceReview": 39,
+    "countryCountingRule": "Targeted countries include access-only or directory-only cases. Substantive-evidence countries require at least one canonical case with inspected official/carrier originals or locked evidence receipts.",
+    "highValueEventGroupsInvestigated": 69,
+    "highValueEventGroupsWithOriginalOrLockedEvidenceInspected": 64,
+    "originalOrLockedEvidenceCases": 82,
+    "relatedObservationGroupIds": 243,
+    "remainingHighValueGroupsNotYetInvestigatedAsCanonicalCases": 1129,
+    "remainingHighValueGroupsWithoutCompletedPrimaryEvidenceReview": 1134
+  },
+  "reviewedOn": "2026-11-07",
+  "rightsAndPolicy": {
+    "aaiAndKoreanScopeExpanded": false,
+    "blanketThirdPartyRedistributionPermissionClaimed": false,
+    "chinaPhysicalIdentityAuthorityUsedAsCodeAuthority": false,
+    "globalCodeAuthorityActivated": false,
+    "proposalPath": "research/evidence/global-code-expansion/policy/proposal.json"
+  },
+  "screening": {
+    "codeAssociationCandidatesRanked": 2484,
+    "eventGroupsRanked": 88330,
+    "geographicReuseLeadsRanked": 493,
+    "highValueGroups": 1198,
+    "highValueResearchClusters": 845,
+    "selectedCandidatesJoined": 117356,
+    "sourceRevisionCandidatesInspected": 1240058
+  }
+}

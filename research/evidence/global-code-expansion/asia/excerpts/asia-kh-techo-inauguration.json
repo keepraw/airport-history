@@ -1,0 +1,24 @@
+{
+  "extractedTextSha256": "8d03e83c427f93bdb9709f8b6f9c17e822e817f88cfc8649f05facd83692c3dd",
+  "normalizedTextSha256": "007f452d172100ee7cf469d9e7c077fcc8ba59a8ea13f1ba6ff1eaf966167200",
+  "originalSha256": "1a8ba7eb6cb514254d2b384fdb8ea652b7688c8ccb2e6faaadf71be702f93e28",
+  "sourceId": "asia-kh-techo-inauguration",
+  "spans": [
+    {
+      "characterEnd": 135,
+      "characterStart": 102,
+      "locator": "Article body / controlled heading",
+      "quote": "Techo International Airport (KTI)",
+      "quoteSha256": "67c3ef59598fdf1f3fd7b9383b450a49bba20a24730cafe1e5f9d0fb0f73f5f9",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 1542,
+      "characterStart": 1451,
+      "locator": "Article body / controlled heading",
+      "quote": "officially began operations on 9 September 2025, replacing Phnom Penh International Airport",
+      "quoteSha256": "548e899cf15947ae76d2531b8324f13226f73e2c36c0cfdf9637d1c70ae11871",
+      "representation": "normalized_text"
+    }
+  ]
+}

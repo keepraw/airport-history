@@ -1,0 +1,24 @@
+{
+  "sourceId": "se-lfv-amdt-20261029",
+  "originalSha256": "5d8394c4c526972138d9674801f52d31bad3489aafd769ead9dfe35024b4b010",
+  "extractedTextSha256": "0868cac9c8349ed0ab569ac361d771e0ab26dd8e6e80fc8b18f071f6ad65e1f3",
+  "normalizedTextSha256": "78d5668d23d6d4ff8a2f242dc905a2dd006ff89018359583bb826894a5f8da2a",
+  "spans": [
+    {
+      "representation": "normalized_text",
+      "characterStart": 50,
+      "characterEnd": 71,
+      "quote": "EFFECTIVE 29 OCT 2026",
+      "quoteSha256": "3bf4d061436e285f0dc185dc7f3512e6a4f8efac2a06acb1e12c681bb95156d8"
+    },
+    {
+      "representation": "normalized_text",
+      "characterStart": 57270,
+      "characterEnd": 57303,
+      "quote": "SÄLEN/SCANDINAVIAN MOUNTAINS ESKS",
+      "quoteSha256": "66ec7f38b44b6667d1a0109eb087b06e6bb82e2f3b4d596f948745b5246b20b5"
+    }
+  ],
+  "quoteScope": "Minimal factual code/name/date anchors only; full original and complete extraction remain ignored work/.",
+  "dateNature": "AIP package effective observation; does not establish allocation/withdrawal dates"
+}

@@ -1,0 +1,35 @@
+{
+  "originalSha256": "c8049db4ea483f6f451390e36e36d6d432119f6f285a8217c52752f07fdc5df7",
+  "sourceId": "asia-in-09-07-2026-vanm",
+  "spans": [
+    {
+      "characterEnd": 135,
+      "characterStart": 82,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "VANM - NAVI MUMBAI INTERNATIONAL AIRPORT, NAVI MUMBAI"
+    },
+    {
+      "characterEnd": 264,
+      "characterStart": 197,
+      "kind": "normalized_text",
+      "page": null,
+      "quote": "Aerodrome reference point coordinates and its site 185940N 0730413E"
+    },
+    {
+      "characterEnd": 705,
+      "characterStart": 661,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='DC.date' content='28 MAY 2026'/>"
+    },
+    {
+      "characterEnd": 765,
+      "characterStart": 707,
+      "kind": "raw_html",
+      "page": null,
+      "quote": "<meta name='EM.effectiveDateStart' content='09 JUL 2026'/>"
+    }
+  ],
+  "textOriginalSha256": "f2c66ae6c971a660ccb958e2e983abc47b8f10b05e67930b53bb7d4a155c0fea"
+}

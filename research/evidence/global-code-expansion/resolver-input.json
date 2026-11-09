@@ -1,0 +1,893 @@
+{
+  "assessmentInputs": {
+    "research/evidence/global-code-expansion/americas-africa/assessments.json": "52db4d9e0a7bfdca2fd80cf07e3ae734fd844dba02e2f385f5322d418ea0a3bb",
+    "research/evidence/global-code-expansion/asia/assessments.json": "a284d177e97cd63ef0d50d8b921ec1453029e524547b23bb55c232bf02666977",
+    "research/evidence/global-code-expansion/europe/assessments.json": "0031c37039bde823c5dfc2ca14be190b59b1e096aa2fca91a11627edb70b5b77"
+  },
+  "baselinePath": "test/curated-0.11.0.json",
+  "baselineSha256": "151d63469f96833b4be54f942940a39df24f485c81e18998053d1dc72f93f778",
+  "batches": [
+    {
+      "batchId": "global-code-review-1",
+      "claimsPath": "research/evidence/global-code-expansion/resolver-candidates/global-code-review-1.json",
+      "codes": [
+        {
+          "code": "AAP",
+          "scheme": "IATA"
+        },
+        {
+          "code": "AOY",
+          "scheme": "IATA"
+        },
+        {
+          "code": "AUS",
+          "scheme": "IATA"
+        },
+        {
+          "code": "BSZ",
+          "scheme": "IATA"
+        },
+        {
+          "code": "DRP",
+          "scheme": "IATA"
+        },
+        {
+          "code": "FEK",
+          "scheme": "IATA"
+        },
+        {
+          "code": "FRU",
+          "scheme": "IATA"
+        },
+        {
+          "code": "GWD",
+          "scheme": "IATA"
+        },
+        {
+          "code": "HDS",
+          "scheme": "IATA"
+        },
+        {
+          "code": "ISL",
+          "scheme": "IATA"
+        },
+        {
+          "code": "IST",
+          "scheme": "IATA"
+        },
+        {
+          "code": "JJU",
+          "scheme": "IATA"
+        },
+        {
+          "code": "KNN",
+          "scheme": "IATA"
+        },
+        {
+          "code": "KTI",
+          "scheme": "IATA"
+        },
+        {
+          "code": "LGP",
+          "scheme": "IATA"
+        },
+        {
+          "code": "LYG",
+          "scheme": "IATA"
+        },
+        {
+          "code": "LZO",
+          "scheme": "IATA"
+        },
+        {
+          "code": "MUC",
+          "scheme": "IATA"
+        },
+        {
+          "code": "OSB",
+          "scheme": "IATA"
+        },
+        {
+          "code": "OSM",
+          "scheme": "IATA"
+        },
+        {
+          "code": "ROV",
+          "scheme": "IATA"
+        },
+        {
+          "code": "RVI",
+          "scheme": "IATA"
+        },
+        {
+          "code": "RZS",
+          "scheme": "IATA"
+        },
+        {
+          "code": "SRI",
+          "scheme": "IATA"
+        },
+        {
+          "code": "SWN",
+          "scheme": "IATA"
+        },
+        {
+          "code": "UTR",
+          "scheme": "IATA"
+        },
+        {
+          "code": "WCH",
+          "scheme": "IATA"
+        },
+        {
+          "code": "YEH",
+          "scheme": "IATA"
+        },
+        {
+          "code": "BGQO",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "EDDM",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "FAHS",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "KAUS",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "LTBA",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "OPGD",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "OPGW",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "ORBM",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "RPLK",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "UCFM",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "VDTI",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "VTPU",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "WALS",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "ZSLG",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "ZULZ",
+          "scheme": "ICAO"
+        }
+      ],
+      "eventGroupIds": [
+        "lead_6bcca26bcab4ed6357e66192",
+        "lead_870f817db8ab946ef63545ea",
+        "dup_7964d158462eebfaaf00e9ce",
+        "lead_5435d53927e52def66f2cd4a",
+        "lead_9b847503867af7db8db74a56",
+        "lead_63733ec78caca303d45e9a47",
+        "lead_7ba04008c5f8ec6958131f81",
+        "dup_293f24eacb96702d95adab66",
+        "dup_f23f0a3e363272d919374cf2",
+        "lead_a7a28326868cf4c08cae8b1e",
+        "lead_d51b691e28aca59a9f12a35f",
+        "lead_ec8c58cd9bc8babd46110394",
+        "lead_f8084b539db57166c8873725",
+        "lead_f9f3bb9722e89126685ef545",
+        "dup_ac77ae85203e4e731cc4004b",
+        "dup_9587398766d8b4a241137dcc",
+        "dup_a797ea41b884fed08363bae6",
+        "dup_cb7c13dcb1ec6ae96ae76e8c",
+        "lead_184ed3cf58bd168c2c4a5f97",
+        "lead_3af61bb5d76c256421355a59"
+      ]
+    },
+    {
+      "batchId": "global-code-review-2",
+      "claimsPath": "research/evidence/global-code-expansion/resolver-candidates/global-code-review-2.json",
+      "codes": [
+        {
+          "code": "AUS",
+          "scheme": "IATA"
+        },
+        {
+          "code": "AVR",
+          "scheme": "IATA"
+        },
+        {
+          "code": "COV",
+          "scheme": "IATA"
+        },
+        {
+          "code": "ENY",
+          "scheme": "IATA"
+        },
+        {
+          "code": "ISG",
+          "scheme": "IATA"
+        },
+        {
+          "code": "IST",
+          "scheme": "IATA"
+        },
+        {
+          "code": "JNB",
+          "scheme": "IATA"
+        },
+        {
+          "code": "KIV",
+          "scheme": "IATA"
+        },
+        {
+          "code": "KTX",
+          "scheme": "IATA"
+        },
+        {
+          "code": "PHH",
+          "scheme": "IATA"
+        },
+        {
+          "code": "PKR",
+          "scheme": "IATA"
+        },
+        {
+          "code": "RMO",
+          "scheme": "IATA"
+        },
+        {
+          "code": "RMU",
+          "scheme": "IATA"
+        },
+        {
+          "code": "ROV",
+          "scheme": "IATA"
+        },
+        {
+          "code": "SCR",
+          "scheme": "IATA"
+        },
+        {
+          "code": "WSI",
+          "scheme": "IATA"
+        },
+        {
+          "code": "WWT",
+          "scheme": "IATA"
+        },
+        {
+          "code": "XWA",
+          "scheme": "IATA"
+        },
+        {
+          "code": "YBP",
+          "scheme": "IATA"
+        },
+        {
+          "code": "ZHA",
+          "scheme": "IATA"
+        },
+        {
+          "code": "ENQE",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "ENQO",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "ESKS",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "FAOR",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "GAKO",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "KXWA",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "LEMI",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "LPAR",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "LTDB",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "LTFM",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "LUKK",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "PAEW",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "ROIG",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "URRP",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "VNPK",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "VNPR",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "YSWS",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "ZGZJ",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "ZLYA",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "ZUYB",
+          "scheme": "ICAO"
+        }
+      ],
+      "eventGroupIds": [
+        "lead_9d7d0ffde173512b52088c3f",
+        "lead_cd91b0b8e4dbdc1e2eabd452",
+        "dup_1653af0a886f31dc7d293e35",
+        "dup_cac762f68477060f12f5362a",
+        "dup_f54baac8013d3a7eb7b68afd",
+        "lead_08430e1557d83404a4027a44",
+        "lead_f898cb04a4112b970edaeb78",
+        "dup_01116f26c64ddc3307158385",
+        "dup_18d1f3570fd480ee1dc58afd",
+        "dup_5c819a661040eb0011dc6f88",
+        "dup_6dfe772c13ba3e3b0cddc719",
+        "dup_ae6c2feb4df3dba06649cf9a",
+        "lead_05d2b569514e67268fe8b82b",
+        "lead_387a9e39fa7ca44825f74ac7",
+        "lead_deec67ab38bd8f6fcd6a191c",
+        "dup_01b344a4bc278419e399fcbb",
+        "dup_28cc771cb3412cc5520ebe75",
+        "lead_01bac8ce977266145372f540",
+        "lead_7e6f86f679857158217d2aa4",
+        "lead_8ac0188c916e961ba6af4977"
+      ]
+    },
+    {
+      "batchId": "global-code-review-3",
+      "claimsPath": "research/evidence/global-code-expansion/resolver-candidates/global-code-review-3.json",
+      "codes": [
+        {
+          "code": "AKA",
+          "scheme": "IATA"
+        },
+        {
+          "code": "AYJ",
+          "scheme": "IATA"
+        },
+        {
+          "code": "BKK",
+          "scheme": "IATA"
+        },
+        {
+          "code": "BLR",
+          "scheme": "IATA"
+        },
+        {
+          "code": "CEL",
+          "scheme": "IATA"
+        },
+        {
+          "code": "DJT",
+          "scheme": "IATA"
+        },
+        {
+          "code": "DQM",
+          "scheme": "IATA"
+        },
+        {
+          "code": "ECP",
+          "scheme": "IATA"
+        },
+        {
+          "code": "GMP",
+          "scheme": "IATA"
+        },
+        {
+          "code": "HYD",
+          "scheme": "IATA"
+        },
+        {
+          "code": "ICN",
+          "scheme": "IATA"
+        },
+        {
+          "code": "ISN",
+          "scheme": "IATA"
+        },
+        {
+          "code": "JJU",
+          "scheme": "IATA"
+        },
+        {
+          "code": "JNJ",
+          "scheme": "IATA"
+        },
+        {
+          "code": "KMG",
+          "scheme": "IATA"
+        },
+        {
+          "code": "KSS",
+          "scheme": "IATA"
+        },
+        {
+          "code": "NGO",
+          "scheme": "IATA"
+        },
+        {
+          "code": "PBI",
+          "scheme": "IATA"
+        },
+        {
+          "code": "PGU",
+          "scheme": "IATA"
+        },
+        {
+          "code": "QCN",
+          "scheme": "IATA"
+        },
+        {
+          "code": "SHO",
+          "scheme": "IATA"
+        },
+        {
+          "code": "SRE",
+          "scheme": "IATA"
+        },
+        {
+          "code": "SVD",
+          "scheme": "IATA"
+        },
+        {
+          "code": "YEH",
+          "scheme": "IATA"
+        },
+        {
+          "code": "FDSK",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "GASO",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "KDJT",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "KECP",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "KPBI",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "OODQ",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "RJGG",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "RKSI",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "RKSS",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "SLAL",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "SSCN",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "TVSA",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "VEAY",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "VOBL",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "VOHS",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "VTBS",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "ZLAK",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "ZPPP",
+          "scheme": "ICAO"
+        }
+      ],
+      "conditionalReview": {
+        "assignmentIds": [
+          "global-code-expansion-veay-icao"
+        ],
+        "basis": "Three evidence-complete low-risk AAI claims passed the unchanged authorized gate, actual original replay and production resolver. Pending candidate states remain separate from the generated 0.12.0 data PR.",
+        "remainingBlockers": [
+          "Owner review and merge of the 0.12.0 data PR; no published production coverage before merge."
+        ]
+      },
+      "eventGroupIds": [
+        "lead_aab2291b41e2412c65ac4a5b",
+        "lead_d968aea0b5ec9cc399ea4989",
+        "dup_4667074808cf3feab31c8d30",
+        "dup_5c746275bd391fa3564f411e",
+        "dup_84c2ef50c5668b5f0c74ba09",
+        "dup_8a7de9f5895ebfebf5d44ac7",
+        "dup_d017f33dfdaf1a055fcf536e",
+        "dup_e3b996ff0b6c0b5d1062a8ce",
+        "lead_3e6b74ea8e570042583bc831",
+        "lead_b26407119d6e26dbf2ca21ab",
+        "dup_053fff021fcc335a906d311d",
+        "dup_082eee1b546da42520a438e4",
+        "dup_29c64282ac0b47d8fe08e6a6",
+        "dup_5c7714c3807c70c6df51192b",
+        "dup_71f71f16d251a077e7100958",
+        "dup_7a584406aa27a226ded5fec9",
+        "dup_87db80245374d3fd65d0e6fd",
+        "dup_944bff545aa065e1c017eeec",
+        "dup_a70fcd3f03834db946f0a8c0",
+        "dup_ce3a8a984a0738318d411ceb"
+      ]
+    },
+    {
+      "batchId": "global-code-review-4",
+      "claimsPath": "research/evidence/global-code-expansion/resolver-candidates/global-code-review-4.json",
+      "codes": [
+        {
+          "code": "BER",
+          "scheme": "IATA"
+        },
+        {
+          "code": "BOE",
+          "scheme": "IATA"
+        },
+        {
+          "code": "CVT",
+          "scheme": "IATA"
+        },
+        {
+          "code": "DAC",
+          "scheme": "IATA"
+        },
+        {
+          "code": "DIA",
+          "scheme": "IATA"
+        },
+        {
+          "code": "DSA",
+          "scheme": "IATA"
+        },
+        {
+          "code": "GGJ",
+          "scheme": "IATA"
+        },
+        {
+          "code": "GSM",
+          "scheme": "IATA"
+        },
+        {
+          "code": "IMQ",
+          "scheme": "IATA"
+        },
+        {
+          "code": "ISU",
+          "scheme": "IATA"
+        },
+        {
+          "code": "MKB",
+          "scheme": "IATA"
+        },
+        {
+          "code": "MYQ",
+          "scheme": "IATA"
+        },
+        {
+          "code": "NMI",
+          "scheme": "IATA"
+        },
+        {
+          "code": "NQT",
+          "scheme": "IATA"
+        },
+        {
+          "code": "PQC",
+          "scheme": "IATA"
+        },
+        {
+          "code": "QGA",
+          "scheme": "IATA"
+        },
+        {
+          "code": "QUY",
+          "scheme": "IATA"
+        },
+        {
+          "code": "RQY",
+          "scheme": "IATA"
+        },
+        {
+          "code": "RZV",
+          "scheme": "IATA"
+        },
+        {
+          "code": "SEO",
+          "scheme": "IATA"
+        },
+        {
+          "code": "SXF",
+          "scheme": "IATA"
+        },
+        {
+          "code": "YIA",
+          "scheme": "IATA"
+        },
+        {
+          "code": "DISG",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "EGBE",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "EGBN",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "EGUY",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "FCOB",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "FOOE",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "LTFO",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "OIKQ",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "OITU",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "ORSJ",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "ORSU",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "OTBD",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "SSGY",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "VANM",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "VGHS",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "VOMY",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "VOSH",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "VVPQ",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "WAHI",
+          "scheme": "ICAO"
+        }
+      ],
+      "conditionalReview": {
+        "assignmentIds": [
+          "global-code-expansion-vanm-icao",
+          "global-code-expansion-vosh-icao"
+        ],
+        "basis": "Three evidence-complete low-risk AAI claims passed the unchanged authorized gate, actual original replay and production resolver. Pending candidate states remain separate from the generated 0.12.0 data PR.",
+        "remainingBlockers": [
+          "Owner review and merge of the 0.12.0 data PR; no published production coverage before merge."
+        ]
+      },
+      "eventGroupIds": [
+        "lead_16143f9495a47fb4c6d8c459",
+        "lead_44eb038101149ba29b640d00",
+        "lead_4db9fe79750c89e72fe9090a",
+        "dup_1d6cbbe3723c25d8dafa38ac",
+        "lead_03b31dfcd0ad9837c248e576",
+        "lead_4a8c092b3a9e280393d36ca0",
+        "dup_4a4a177df596784e36c89fa7",
+        "dup_63e538cc862ba693a3eedd6d",
+        "lead_a5cceef42d82e2b4df7cdfe9",
+        "dup_410ac52b9140237b9828aa6c",
+        "dup_52b890b00c3da6adbf1c4e27",
+        "dup_92d234f2ebef1b748b19582d",
+        "dup_cdf336afa578e242566cb2fc",
+        "lead_05d2f77a08aedbf520c780e6",
+        "lead_a2a7a2db17869a42c0b3dafb",
+        "dup_0365ae594762d8429605e838",
+        "dup_12d414601e9dcc4d81813558",
+        "dup_cabf0b20245e8bbfd3c5d173",
+        "dup_d35038e62a0c92399c26ec8a",
+        "lead_5a57390fb9887cf1ca30be4e"
+      ]
+    },
+    {
+      "batchId": "global-code-review-5",
+      "claimsPath": "research/evidence/global-code-expansion/resolver-candidates/global-code-review-5.json",
+      "codes": [
+        {
+          "code": "BVE",
+          "scheme": "IATA"
+        },
+        {
+          "code": "CDT",
+          "scheme": "IATA"
+        },
+        {
+          "code": "HEM",
+          "scheme": "IATA"
+        },
+        {
+          "code": "KDA",
+          "scheme": "IATA"
+        },
+        {
+          "code": "NEF",
+          "scheme": "IATA"
+        },
+        {
+          "code": "PGZ",
+          "scheme": "IATA"
+        },
+        {
+          "code": "RTW",
+          "scheme": "IATA"
+        },
+        {
+          "code": "SQZ",
+          "scheme": "IATA"
+        },
+        {
+          "code": "TXL",
+          "scheme": "IATA"
+        },
+        {
+          "code": "YKZ",
+          "scheme": "IATA"
+        },
+        {
+          "code": "YZD",
+          "scheme": "IATA"
+        },
+        {
+          "code": "GODK",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "GOGK",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "LFSL",
+          "scheme": "ICAO"
+        },
+        {
+          "code": "SBPG",
+          "scheme": "ICAO"
+        }
+      ],
+      "eventGroupIds": [
+        "lead_b1a856576135737af35617ce",
+        "dup_537489a7957162a4e48f1d41",
+        "lead_05d4dbd8f1344479c3d9cae4",
+        "lead_0a4abadffb06db8a2cdd54c7",
+        "lead_1d15ddf06701d61c513ae02a",
+        "lead_1f87223a168fb0c56519e4d5",
+        "lead_38fcbb99cfa7b2e457aa9f3c",
+        "dup_17dce87343bd52effbe0c3dc",
+        "lead_10c5732d7bf423516b919553",
+        "lead_6a1c7c90a62bbe5f92863737",
+        "lead_112c34034dd4e11bb3ad3ffa",
+        "lead_3fdeae19cef5a209b7d042d0"
+      ]
+    }
+  ],
+  "formalSha256": "4573fb7e6fac8e02c8e3f57443599385dffada17b250a29f1a18964f6d6d8cc9",
+  "from": "1900-01-01",
+  "publicationState": "unmerged_data_PR_candidate",
+  "publishedBaselineCommit": "7d21ff6762e1569faa1be19c8203e577420cd1f2",
+  "reviewedOn": "2026-11-07",
+  "selection": "Canonical assessed event groups sorted by complete global rank; at most20 per review packet. Aliases do not increase group or case counts.",
+  "toExclusive": "2026-11-08"
+}

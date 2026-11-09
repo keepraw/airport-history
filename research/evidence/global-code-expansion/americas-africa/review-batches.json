@@ -1,0 +1,46 @@
+{
+  "batches": [
+    {
+      "batchId": "worldwide-americas-africa-1",
+      "eventGroupIds": [
+        "dup_293f24eacb96702d95adab66",
+        "lead_d51b691e28aca59a9f12a35f",
+        "lead_f9f3bb9722e89126685ef545",
+        "dup_ac77ae85203e4e731cc4004b",
+        "dup_a797ea41b884fed08363bae6",
+        "dup_cb7c13dcb1ec6ae96ae76e8c",
+        "lead_9d7d0ffde173512b52088c3f",
+        "dup_ae6c2feb4df3dba06649cf9a",
+        "lead_01bac8ce977266145372f540",
+        "lead_7e6f86f679857158217d2aa4",
+        "lead_aab2291b41e2412c65ac4a5b",
+        "lead_d968aea0b5ec9cc399ea4989",
+        "dup_4667074808cf3feab31c8d30",
+        "dup_5c746275bd391fa3564f411e",
+        "dup_053fff021fcc335a906d311d",
+        "dup_7a584406aa27a226ded5fec9",
+        "dup_8a7de9f5895ebfebf5d44ac7",
+        "dup_e3b996ff0b6c0b5d1062a8ce",
+        "lead_b26407119d6e26dbf2ca21ab",
+        "lead_05d2b569514e67268fe8b82b"
+      ],
+      "maximumEvents": 20
+    },
+    {
+      "batchId": "worldwide-americas-africa-2",
+      "eventGroupIds": [
+        "dup_410ac52b9140237b9828aa6c",
+        "dup_92d234f2ebef1b748b19582d",
+        "dup_52b890b00c3da6adbf1c4e27",
+        "lead_0a4abadffb06db8a2cdd54c7",
+        "dup_0365ae594762d8429605e838",
+        "dup_17dce87343bd52effbe0c3dc",
+        "lead_1f87223a168fb0c56519e4d5",
+        "lead_10c5732d7bf423516b919553",
+        "dup_01b344a4bc278419e399fcbb"
+      ],
+      "maximumEvents": 20
+    }
+  ],
+  "formatVersion": 1
+}

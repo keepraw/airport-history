@@ -1,0 +1,73 @@
+{
+  "actualCases": 29,
+  "canonicalResearchClusters": 29,
+  "countingMethod": "One primary event group per actual research cluster. Related code-linked groups are navigation only and do not inflate reviewed counts.",
+  "countries": 13,
+  "countriesWithOfficialOrCarrierOriginalReceiptInspected": [
+    "CN",
+    "ID",
+    "IN",
+    "JP",
+    "KG",
+    "KH",
+    "KR",
+    "PH",
+    "PK",
+    "TH"
+  ],
+  "countryCodes": [
+    "BD",
+    "CN",
+    "ID",
+    "IN",
+    "JP",
+    "KG",
+    "KH",
+    "KR",
+    "NP",
+    "PH",
+    "PK",
+    "TH",
+    "VN"
+  ],
+  "existingAaiScopeEscalatedCodes": [
+    "VOMY"
+  ],
+  "failedOrEmptyAcquisitionRecords": {
+    "access_rejected_page": 1,
+    "empty_response": 1,
+    "retrieval_failed": 14
+  },
+  "followupCases": 4,
+  "formalCoverageMeaning": "This research packet itself makes no formal admission; root release bundle controls actual proposed/merged formal counts.",
+  "formalNewIataAssignments": 0,
+  "formalNewIcaoAssignments": 0,
+  "formatVersion": 1,
+  "fullOriginalRedistribution": "not_established; all complete originals/extractions remain ignored work/",
+  "globalFamilyAuthorizationActivated": false,
+  "iataBoundaryFactCaveat": "Manas FRU→BSZ announced9August2025 in mirrored IATA notice and operator announcement; authentication/lifecycle/implementation pending. No continuous IATA interval proposed.",
+  "namedPhysicalSiteReviewUnits": 49,
+  "newAcquiredOriginalRecords": 17,
+  "newDistinctOriginalByteHashes": 17,
+  "newEvidenceQualifiedIcaoCandidateIntervals": 3,
+  "newIataBoundaryFactCandidates": 1,
+  "newOriginalRecordsByFamily": {
+    "aai-aip": 12,
+    "iata-location-code-notification": 1,
+    "kg-airport-operator": 1,
+    "kh-caic-airport-operator": 1,
+    "th-caat-aip": 2
+  },
+  "oldReceiptAndCitationHashAudit": "Passed for all reused source-record, catalog and excerpt references where recorded; missing legacy extraction hashes remain null.",
+  "potentialCoverageMeaning": "Three27whole-local-day windows subject to unchanged AAI original replay, identity/conflict and exact admission gate. Root records actual gate outcome and production differential.",
+  "potentialIcaoResolvedQueries": 81,
+  "privateOriginalHashAudit": "Passed for every new content-inspected record: raw, extracted and normalized SHA256",
+  "rankHighCases": 25,
+  "rankHighCasesWithOfficialOrCarrierOriginalReceiptInspected": 23,
+  "rankHighDirectoryOnlyCases": 1,
+  "rankHighOfficialAccessBlockedCases": 1,
+  "reuseMeaning": "Prior locked originals/citations reviewed offline; no raw-byte replay claimed for old materials. A record reused in multiple sources does not multiply evidence.",
+  "reusedSourceReceipts": 70,
+  "reviewedOn": "2026-11-07",
+  "siteUnitCountMeaning": "Named research targets including blocked cases; not new formal identities. Candidate coordinate hypotheses are not counted as separate proven airports."
+}

@@ -1,0 +1,149 @@
+{
+  "airports": [
+    {
+      "airportId": "apt_eb176a20-e0e3-438d-a330-a7b81185232d",
+      "coordinates": {
+        "note": "Existing reference coordinates, visually/geographically consistent with FAA chart axes; not extracted historical ARP or surveyed fact.",
+        "sourceIds": [
+          "global-code-expansion-us-faa-djt-diagram-2611"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 26.683201,
+          "longitude": -80.095596
+        }
+      },
+      "externalIds": {
+        "ourAirports": "3766"
+      },
+      "name": {
+        "note": "Compatibility label; legal-name history not admitted.",
+        "sourceIds": [
+          "global-code-expansion-us-faa-djt-diagram-2611",
+          "global-code-expansion-us-pbc-airports"
+        ],
+        "status": "reference",
+        "value": "West Palm Beach physical airport (PBI/DJT)"
+      },
+      "timezone": {
+        "note": "No timezone claim introduced.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "airportId": "apt_eb176a20-e0e3-438d-a330-a7b81185232d",
+      "assignmentId": "proposal-pbi-icao-kdjt-controlled-edition",
+      "code": "KDJT",
+      "evidenceType": "primary_direct",
+      "note": "Separate review-only controlled-publication window. Complete days within FAA edition0901Z2026-10-29–0901Z2026-11-26 only; no interpolation July→October and no assertion the actual code starts/ends at these limits. Existence in d-TPP alone does not guarantee NOTAM freshness. Requires policy acceptance and archive/NOTAM checks; not automatically evidence-qualified.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "global-code-expansion-us-faa-dtpp-2611",
+        "global-code-expansion-us-faa-djt-diagram-2611"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2026-10-30",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-11-26",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "pending",
+      "verifiedOn": null
+    }
+  ],
+  "claims": [
+    {
+      "assignmentId": "proposal-pbi-icao-kdjt-controlled-edition",
+      "authorizationStatus": "source_family_code_authority_missing",
+      "conditionalReviewEligible": false,
+      "eventGroupId": "dup_053fff021fcc335a906d311d",
+      "proposedCompleteDays": {
+        "from": "2026-10-30",
+        "toExclusive": "2026-11-26"
+      },
+      "remainingGaps": [
+        "Accept controlled-edition code-use as continuous assignment evidence by source-family policy; verify against superseding NOTAM and retention artifacts.",
+        "Grant applicable source-family code admission scope; federal source rights do not grant project policy authority."
+      ],
+      "sourceEditionEffectiveFrom": "2026-10-29T09:01:00Z",
+      "sourceEditionEffectiveTo": "2026-11-26T09:01:00Z",
+      "temporalEvidenceStatus": "controlled_edition_window_proposal_requires_NOTAM_review",
+      "wholeWindowSupported": false
+    }
+  ],
+  "clockAssessment": {
+    "formalTimezoneAdmission": false,
+    "fullDays": "2026-10-30 through2026-11-25 only, under that disclosed arithmetic assumption.",
+    "researchArithmeticTimezone": "America/New_York, an explicit geographic research assumption for WestPalmBeach; timezone remains unknown in the proposed physicalAirport record.",
+    "sourceClock": "UTC; d-TPP cycle starts and ends at0901Z."
+  },
+  "formalAdmission": false,
+  "formatVersion": 1,
+  "meaning": "Explicit conditional policy scenario only; root must retain as pending and may measure a separately labelled hypothetical-policy variant. Not a formal or evidence-qualified coverage gain.",
+  "sources": [
+    {
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-PalmBeachCounty-RightsReserved",
+        "note": "Factual metadata only; full originals/extractions retained in ignored work. No third-party redistribution licence or project admission grant inferred.",
+        "url": "https://flydjt.org/about/name-change-faqs/"
+      },
+      "note": "Operator reports independent ICAO and IATA code change days; unknown outer boundaries. Only factual notes and two short heading anchors retained.",
+      "sourceId": "global-code-expansion-us-pbi-name-faq",
+      "sourceType": "primary",
+      "title": "Palm Beach County Department of Airports: name-change FAQ (updated2026-08-20)",
+      "url": "https://flydjt.org/about/name-change-faqs/",
+      "verificationStatus": "pending"
+    },
+    {
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-PalmBeachCounty-RightsReserved",
+        "note": "Factual metadata only; full originals/extractions retained in ignored work. No third-party redistribution licence or project admission grant inferred.",
+        "url": "https://discover.pbc.gov/airports/Pages/default.aspx"
+      },
+      "note": "Establishes operator publishing authority and links to the airport site; no independent allocation chronology.",
+      "sourceId": "global-code-expansion-us-pbc-airports",
+      "sourceType": "primary",
+      "title": "Palm Beach County Department of Airports administration page",
+      "url": "https://discover.pbc.gov/airports/Pages/default.aspx",
+      "verificationStatus": "pending"
+    },
+    {
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "Factual metadata only; full originals/extractions retained in ignored work. No third-party redistribution licence or project admission grant inferred.",
+        "url": "https://aeronav.faa.gov/d-tpp/2611/xml_data/d-TPP_Metafile.xml"
+      },
+      "note": "Reuse prior b5-us-dtpp-2611 lock; duplicate retrieval audited separately. ICAO-labelled current edition observation, not a code allocation or withdrawal record.",
+      "sourceId": "global-code-expansion-us-faa-dtpp-2611",
+      "sourceType": "primary",
+      "title": "FAA d-TPP metafile cycle2611",
+      "url": "https://aeronav.faa.gov/d-tpp/2611/xml_data/d-TPP_Metafile.xml",
+      "verificationStatus": "pending"
+    },
+    {
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-US-Government",
+        "note": "Factual metadata only; full originals/extractions retained in ignored work. No third-party redistribution licence or project admission grant inferred.",
+        "url": "https://aeronav.faa.gov/d-tpp/2611/00449AD.PDF"
+      },
+      "note": "Named physical airfield corroboration only; no chart reproduced, no IATA meaning inferred from FAA LID.",
+      "sourceId": "global-code-expansion-us-faa-djt-diagram-2611",
+      "sourceType": "primary",
+      "title": "FAA airport diagram AL-449, cycle2611",
+      "url": "https://aeronav.faa.gov/d-tpp/2611/00449AD.PDF",
+      "verificationStatus": "pending"
+    }
+  ]
+}

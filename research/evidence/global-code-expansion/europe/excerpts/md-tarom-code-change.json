@@ -1,0 +1,17 @@
+{
+  "sourceId": "md-tarom-code-change",
+  "originalSha256": "aab37fc8a54478c07c661a8e810e591aa59d0bd0142394b66c031659a2af7468",
+  "extractedTextSha256": "43cdcc0ad1544fb754c74917bb722824327e51a185d5d95e32da35d52a40002b",
+  "normalizedTextSha256": "b8c38ca63c340179219232ad971b158667757d50f4a83a2ed19d51571b3f20e2",
+  "spans": [
+    {
+      "representation": "normalized_text",
+      "characterStart": 331,
+      "characterEnd": 451,
+      "quote": "Starting January 18, 2024, the IATA abbreviation code of Chisinau International Airport will change from \"KIV\" to \"RMO\".",
+      "quoteSha256": "862e50cbfa728df82326036639127f7218660acf95c051eb8ad88919dee5034f"
+    }
+  ],
+  "quoteScope": "Minimal factual code/name/date anchors only; full original and complete extraction remain ignored work/.",
+  "dateNature": "Carrier publication precedes announced IATA reservation-system change; execution and IATA allocation original not proved"
+}

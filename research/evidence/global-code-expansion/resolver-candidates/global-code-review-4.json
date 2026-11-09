@@ -1,0 +1,238 @@
+{
+  "airports": [
+    {
+      "airportId": "apt_5e325674-a832-4106-807e-7e1e1ef951fe",
+      "coordinates": {
+        "note": "Reference attributes transcribed from matching controlled AAI AD2 ARPs; no historical coordinate interval.",
+        "sourceIds": [
+          "asia-in-11-06-2026-vanm",
+          "asia-in-09-07-2026-vanm"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 18.994444444444447,
+          "longitude": 73.07027777777778
+        }
+      },
+      "externalIds": {
+        "ourAirports": "342093"
+      },
+      "name": {
+        "note": "Display label, not a historical legal-name interval.",
+        "sourceIds": [
+          "asia-in-11-06-2026-vanm",
+          "asia-in-09-07-2026-vanm"
+        ],
+        "status": "reference",
+        "value": "Navi Mumbai International Airport"
+      },
+      "timezone": {
+        "note": "Timezone is outside the AAI admission scope.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    },
+    {
+      "airportId": "apt_1130a628-5e21-4e68-b3e0-178487751f67",
+      "coordinates": {
+        "note": "Reference attributes transcribed from matching controlled AAI AD2 ARPs; no historical coordinate interval.",
+        "sourceIds": [
+          "asia-in-11-06-2026-vosh",
+          "asia-in-09-07-2026-vosh"
+        ],
+        "status": "reference",
+        "value": {
+          "latitude": 13.859722222222222,
+          "longitude": 75.61777777777777
+        }
+      },
+      "externalIds": {
+        "ourAirports": "354545"
+      },
+      "name": {
+        "note": "Display label, not a historical legal-name interval.",
+        "sourceIds": [
+          "asia-in-11-06-2026-vosh",
+          "asia-in-09-07-2026-vosh"
+        ],
+        "status": "reference",
+        "value": "Shivamogga Airport"
+      },
+      "timezone": {
+        "note": "Timezone is outside the AAI admission scope.",
+        "sourceIds": [],
+        "status": "unknown",
+        "value": null
+      }
+    }
+  ],
+  "assignments": [
+    {
+      "airportId": "apt_5e325674-a832-4106-807e-7e1e1ef951fe",
+      "assignmentId": "global-code-expansion-vanm-icao",
+      "code": "VANM",
+      "evidenceType": "continuity_inference",
+      "note": "Research proposal only:27 whole local dates between controlled edition observations under unchanged AAI112-day policy; unknown outer bounds. Requires existing formal gate original replay, fingerprint, rights and scope clearance before admission.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "asia-in-11-06-2026-vanm",
+        "asia-in-09-07-2026-vanm"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2026-06-12",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "pending",
+      "verifiedOn": null
+    },
+    {
+      "airportId": "apt_1130a628-5e21-4e68-b3e0-178487751f67",
+      "assignmentId": "global-code-expansion-vosh-icao",
+      "code": "VOSH",
+      "evidenceType": "continuity_inference",
+      "note": "Research proposal only:27 whole local dates between controlled edition observations under unchanged AAI112-day policy; unknown outer bounds. Requires existing formal gate original replay, fingerprint, rights and scope clearance before admission.",
+      "scheme": "ICAO",
+      "sourceIds": [
+        "asia-in-11-06-2026-vosh",
+        "asia-in-09-07-2026-vosh"
+      ],
+      "validFrom": {
+        "earliest": null,
+        "latest": "2026-06-12",
+        "precision": "unknown"
+      },
+      "validTo": {
+        "earliest": "2026-07-09",
+        "latest": null,
+        "precision": "unknown"
+      },
+      "verificationStatus": "pending",
+      "verifiedOn": null
+    }
+  ],
+  "claims": [
+    {
+      "airportId": "apt_5e325674-a832-4106-807e-7e1e1ef951fe",
+      "assignmentId": "global-code-expansion-vanm-icao",
+      "authorizationStatus": "existing_aai_scope_candidate_gate_not_run",
+      "code": "VANM",
+      "country": "IN",
+      "distinctOriginals": 2,
+      "eventGroupId": "lead_6bca3e7372f8798d490307b6",
+      "formalAdmissibility": "potential_low_risk_subject_to_original_replay_scope_and_executor_gate",
+      "independentPublishers": 1,
+      "label": "Navi Mumbai International Airport",
+      "maximumGapDays": 28,
+      "observationDates": [
+        "2026-06-11",
+        "2026-07-09"
+      ],
+      "outerBoundsKnown": false,
+      "scheme": "ICAO",
+      "siteCoordinates": {
+        "latitude": 18.994444444444447,
+        "longitude": 73.07027777777778
+      },
+      "sourceIds": [
+        "asia-in-11-06-2026-vanm",
+        "asia-in-09-07-2026-vanm"
+      ],
+      "temporalEvidenceStatus": "bounded_continuity_evidence_complete",
+      "wholeLocalDays": 27
+    },
+    {
+      "airportId": "apt_1130a628-5e21-4e68-b3e0-178487751f67",
+      "assignmentId": "global-code-expansion-vosh-icao",
+      "authorizationStatus": "existing_aai_scope_candidate_gate_not_run",
+      "code": "VOSH",
+      "country": "IN",
+      "distinctOriginals": 2,
+      "eventGroupId": "dup_ea41cccc5f663df1ecfa1911",
+      "formalAdmissibility": "potential_low_risk_subject_to_original_replay_scope_and_executor_gate",
+      "independentPublishers": 1,
+      "label": "Shivamogga Airport",
+      "maximumGapDays": 28,
+      "observationDates": [
+        "2026-06-11",
+        "2026-07-09"
+      ],
+      "outerBoundsKnown": false,
+      "scheme": "ICAO",
+      "siteCoordinates": {
+        "latitude": 13.859722222222222,
+        "longitude": 75.61777777777777
+      },
+      "sourceIds": [
+        "asia-in-11-06-2026-vosh",
+        "asia-in-09-07-2026-vosh"
+      ],
+      "temporalEvidenceStatus": "bounded_continuity_evidence_complete",
+      "wholeLocalDays": 27
+    }
+  ],
+  "sources": [
+    {
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Locked original SHA256 97733a9cde5b3ed0293edc32f4bc873d828efd89fbe222bdeb91a20dfe31eceb; extracted text SHA256 5000c6d42d212b25c1a7d0987bd1018e835260a5fec9a98c778a10447700b896; controlled edition 2026-06-11; full original and extraction remain ignored work/.",
+      "sourceId": "asia-in-11-06-2026-vanm",
+      "sourceType": "primary",
+      "title": "India AIP 2026-06-11 AD2 VANM",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VANM-en-GB.html",
+      "verificationStatus": "pending"
+    },
+    {
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Locked original SHA256 c8049db4ea483f6f451390e36e36d6d432119f6f285a8217c52752f07fdc5df7; extracted text SHA256 f2c66ae6c971a660ccb958e2e983abc47b8f10b05e67930b53bb7d4a155c0fea; controlled edition 2026-07-09; full original and extraction remain ignored work/.",
+      "sourceId": "asia-in-09-07-2026-vanm",
+      "sourceType": "primary",
+      "title": "India AIP 2026-07-09 AD2 VANM",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VANM-en-GB.html",
+      "verificationStatus": "pending"
+    },
+    {
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Locked original SHA256 a2cac83315f742e4b1f54bacde412013b096dc3e2bf7cb31739faa978be0ebed; extracted text SHA256 e507f696a051909706b8b83d5ba269de28830bb272544109ca4c2732aa5adb38; controlled edition 2026-06-11; full original and extraction remain ignored work/.",
+      "sourceId": "asia-in-11-06-2026-vosh",
+      "sourceType": "primary",
+      "title": "India AIP 2026-06-11 AD2 VOSH",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VOSH-en-GB.html",
+      "verificationStatus": "pending"
+    },
+    {
+      "accessedOn": "2026-11-07",
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "note": "Locked original SHA256 094839f873fea68c675319964372857073ed66ff79622d80d6d527a79b324907; extracted text SHA256 578dfd79b81549a88732dc0c24e8a61fd99e2bec4e21989ad1fc18e78f344729; controlled edition 2026-07-09; full original and extraction remain ignored work/.",
+      "sourceId": "asia-in-09-07-2026-vosh",
+      "sourceType": "primary",
+      "title": "India AIP 2026-07-09 AD2 VOSH",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOSH-en-GB.html",
+      "verificationStatus": "pending"
+    }
+  ]
+}

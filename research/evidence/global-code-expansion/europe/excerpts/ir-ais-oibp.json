@@ -1,0 +1,31 @@
+{
+  "sourceId": "ir-ais-oibp",
+  "originalSha256": "3d2efc5519b0e21c25f191f6b2815a3622f6d305f17b38c3f91a3bcb38483efa",
+  "extractedTextSha256": "dc9e47703f81573540e9dce77bda7cf2b5e1784ed9dc5f042694deb6ff6d911f",
+  "normalizedTextSha256": "ae09003c56a38ba70b4c05c97b04d5d8e7d7d18ed8da1ae0f8956d473edc7430",
+  "spans": [
+    {
+      "representation": "normalized_text",
+      "characterStart": 170,
+      "characterEnd": 209,
+      "quote": "OIBP – PARS SPECIAL ENERGY ECONOMY ZONE",
+      "quoteSha256": "d8418fbf90e4497d8254889468790a04b787a7a4c13b21e11930ec1a6a82dd81"
+    },
+    {
+      "representation": "normalized_text",
+      "characterStart": 89,
+      "characterEnd": 102,
+      "quote": "WEF 17 APR 25",
+      "quoteSha256": "81e5d741d2953f418ff832a5e9bab370ab86287377f330d1a3889dc06d5362b3"
+    },
+    {
+      "representation": "normalized_text",
+      "characterStart": 375,
+      "characterEnd": 391,
+      "quote": "272246N 0524416E",
+      "quoteSha256": "c71d5bf702f52f35b5a4f32876e429c9663a68050e92e36e01aa5278aad825c1"
+    }
+  ],
+  "quoteScope": "Minimal factual code/name/date anchors only; full original and complete extraction remain ignored work/.",
+  "dateNature": "AD2 first page explicitly WEF17APR25; establishes a dated section observation, not original allocation"
+}

@@ -1,0 +1,2707 @@
+{
+  "formatVersion": 1,
+  "reviewedOn": "2026-11-07",
+  "selectionInput": "research/evidence/global-code-expansion/ranked-events.manifest.json",
+  "events": [
+    {
+      "reviewId": "europe-01",
+      "eventGroupId": "lead_112c34034dd4e11bb3ad3ffa",
+      "candidateId": "cand_ba1d95c1c6212eaafe0407f3",
+      "relatedEventGroupIds": [
+        "lead_e2d86da76cb0fdbb78562e04",
+        "dup_6d726f9935c2ba287c83c774",
+        "lead_205ecf0cffeb9443bdbc42b7",
+        "lead_605fab5fc340e5faefdacd38",
+        "lead_b28a127f1eea6b8e10974954"
+      ],
+      "country": "FR",
+      "name": "Brive-Souillac",
+      "referenceId": "ref_a9695acf889280017cfb52d9",
+      "codes": [
+        "BVE",
+        "LFSL"
+      ],
+      "rankedPriorityScore": -75,
+      "globalRanking": {
+        "rank": 40603,
+        "priorityScore": -75,
+        "priorityTier": "defer_or_correction",
+        "researchClusterKey": "cluster_d59cbd5970ee45f233f4577d",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Lower-tier follow-up retained from preliminary queue; not counted toward the high-value minimum. Final score and reason remain visible.",
+      "sourceIds": [
+        "bve-changes",
+        "bve-operator",
+        "fr-sia-lfsl-20260514"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "cross_site_code_reuse_or_directory_error_unverified",
+        "location_change_or_directory_correction_unverified",
+        "reopening_observation_not_code_reallocation",
+        "prior_excluded_interpretation"
+      ],
+      "researchClassification": "source_record_repurposing_with_separate_real_relocation_lead",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Prior LFSL directory record confuses Toul and Brive. Operator LFSL observation remains useful; the new SIA original is404. No evidence that BVE moved from Toul.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain dated SIA pre2010 LFSL/LFBV identity and IATA BVE transfer notice for Laroche→Souillac; keep Toul record-repurposing separate."
+    },
+    {
+      "reviewId": "europe-02",
+      "eventGroupId": "lead_5435d53927e52def66f2cd4a",
+      "candidateId": "cand_7fc9b08615e93efbdffdc2a8",
+      "relatedEventGroupIds": [
+        "lead_e2ecc5d5759ce982d8473c11",
+        "lead_4974737588d96d1239eee576",
+        "lead_e14748ab595c635b6139a36d",
+        "lead_9d7fbc43dffbbe9578de301f",
+        "lead_31c9e8f4dfafede26848f95e"
+      ],
+      "country": "RU",
+      "name": "Rostov-on-Don Airport",
+      "referenceId": "ref_1ab29eb201db4223f9e848fb",
+      "codes": [
+        "ROV",
+        "RVI"
+      ],
+      "rankedPriorityScore": 125,
+      "globalRanking": {
+        "rank": 4,
+        "priorityScore": 125,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_901cba101df26da457648df2",
+        "existingFormalAirportIds": [
+          "apt_0fd3915b-6dd8-4391-a840-9992db9683cf"
+        ],
+        "existingFormalAssignmentIds": [
+          "iata-rov-rostov-on-don",
+          "iata-rvi-rostov-on-don"
+        ]
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "rov2-gov-order-2434r",
+        "rov2-aeroflot-notice",
+        "g3-rov-flydubai",
+        "ru-caiga-aip"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "cross_site_code_reuse_or_directory_error_unverified",
+        "closure_observation_not_code_withdrawal"
+      ],
+      "researchClassification": "cross_site_code_reuse_lead",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Reused airline2016 ROV observation for old site and reproduced Aeroflot2017 notice distinguish old RVI and new ROV. Government order independently distinguishes sites but has no codes. CAIGA original unavailable503.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain attached IATA notice mentioned by reproduced Aeroflot record and dated URRR/URRP AD2 editions; do not substitute2017-12-07 flight transfer or2018-03-01 civil closure for code dates."
+    },
+    {
+      "reviewId": "europe-03",
+      "eventGroupId": "lead_6a1c7c90a62bbe5f92863737",
+      "candidateId": "cand_27f8e5c4d6f78bb8d11e7629",
+      "relatedEventGroupIds": [
+        "lead_b34afd33689da783ced3cf2a",
+        "dup_904fc6d6695afa48e041dc95",
+        "lead_6ed2685e034297ea4921d524",
+        "lead_dfabcf775ed26100ea285658"
+      ],
+      "country": "ES",
+      "name": "Castellón-Costa Azahar Airport",
+      "referenceId": null,
+      "codes": [
+        "CDT"
+      ],
+      "rankedPriorityScore": -65,
+      "globalRanking": {
+        "rank": 40433,
+        "priorityScore": -65,
+        "priorityTier": "defer_or_correction",
+        "researchClusterKey": "cluster_a5d8cb495aef968af7c13142",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Lower-tier follow-up retained from preliminary queue; not counted toward the high-value minimum. Final score and reason remain visible.",
+      "sourceIds": [
+        "cdt-operator",
+        "cdt-changes",
+        "es-ad-index"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "location_change_or_directory_correction_unverified",
+        "reopening_observation_not_code_reallocation",
+        "prior_excluded_interpretation"
+      ],
+      "researchClassification": "directory_conflation_with_possible_genuine_code_reuse",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Calamocha interpretation was already excluded. Reused operator identifies current CDT/LECH, while prior community history points to LECN/CDT. Index alone cannot establish transfer.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain ENAIRE historical LECN and LECH/LEDS AD2 plus IATA CDT allocation/transfer notice; review old Castellon physical site separately."
+    },
+    {
+      "reviewId": "europe-04",
+      "eventGroupId": "lead_a7a28326868cf4c08cae8b1e",
+      "candidateId": "cand_a2170692e28ea4506cc3d35c",
+      "relatedEventGroupIds": [
+        "lead_f5be42cf8a13551e9fe5dd9b",
+        "lead_194298632c9378572b78c781"
+      ],
+      "country": "IR",
+      "name": "Asaloyeh Airport",
+      "referenceId": null,
+      "codes": [
+        "AOY",
+        "YEH"
+      ],
+      "rankedPriorityScore": 110,
+      "globalRanking": {
+        "rank": 17,
+        "priorityScore": 110,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_772dc55afbc2e28fd585fc9c",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "ir-ais-oibp"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "cross_site_code_reuse_or_directory_error_unverified",
+        "closure_observation_not_code_withdrawal"
+      ],
+      "researchClassification": "possible_cross_site_code_reuse_unproven",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "New Iranian OIBP AD2 binds Persian Gulf PSEEZ to an ARP with WEF17APR25. It says nothing about indexed AOY/YEH and former OIBI allocation.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "dated_observation_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain official historical OIBI AD2 and IATA AOY/YEH/PGU notices; compare ARPs before concluding that a directory name/code edit represents relocation."
+    },
+    {
+      "reviewId": "europe-05",
+      "eventGroupId": "dup_cdf336afa578e242566cb2fc",
+      "candidateId": "cand_0e5777e065dd3aa84a3ae165",
+      "relatedEventGroupIds": [
+        "lead_aaec325c12dc91899623a50f",
+        "dup_5875cb95095abd70ffad7ba6"
+      ],
+      "country": "IQ",
+      "name": "Jalal Talabani International Airport",
+      "referenceId": "ref_46d59ab9f3f8ff8eee94c2a8",
+      "codes": [
+        "ISU",
+        "ORSJ",
+        "ORSU"
+      ],
+      "rankedPriorityScore": 60,
+      "globalRanking": {
+        "rank": 1373,
+        "priorityScore": 60,
+        "priorityTier": "follow_up",
+        "researchClusterKey": "cluster_42bb5aa9e4b9f2833521ab74",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Lower-tier follow-up retained from preliminary queue; not counted toward the high-value minimum. Final score and reason remain visible.",
+      "sourceIds": [
+        "iq-icaa-ais"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified"
+      ],
+      "researchClassification": "same_site_code_change_lead",
+      "researchStatus": "official_source_access_or_discovery_blocked",
+      "findings": "ORSU→ORSJ and ISU/OSO are directory candidates. ICAA portal403; third-party current NOTAM summaries are discovery leads, not acquired official code originals.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain ICAA AIP amendment introducing ORSJ and dated old ORSU AD2; independently investigate IATA ISU/OSO rather than copying ICAO date."
+    },
+    {
+      "reviewId": "europe-06",
+      "eventGroupId": "lead_4db9fe79750c89e72fe9090a",
+      "candidateId": "cand_8acb727203ae48ef688b9376",
+      "relatedEventGroupIds": [
+        "dup_f8231e5b61157a1cde7ef553",
+        "lead_7de831e072b80a98214a25a2",
+        "lead_1744c858b9465c148bc08ec8",
+        "lead_33f882ca14e4cbdaa14ee8ae"
+      ],
+      "country": "IR",
+      "name": "Maku National Airport",
+      "referenceId": "ref_ebb90edbe1a1d0d7332d0be3",
+      "codes": [
+        "IMQ",
+        "OITU"
+      ],
+      "rankedPriorityScore": 75,
+      "globalRanking": {
+        "rank": 326,
+        "priorityScore": 75,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_790bb8e4967c2009fed43443",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "ir-ais-oitu"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "cross_site_code_reuse_or_directory_error_unverified"
+      ],
+      "researchClassification": "coordinate_correction_or_site_change_unresolved",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Acquired official OITU AD2 pageWEF01DEC22 gives National Maku and391133N0445531E. Indexed coordinate changes cannot alone prove relocation.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "dated_observation_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain earlier OITU AD2 editions/ARP and airport project records, plus IATA IMQ allocation notice; determine physical continuity before proposing identities."
+    },
+    {
+      "reviewId": "europe-07",
+      "eventGroupId": "lead_3af61bb5d76c256421355a59",
+      "candidateId": "cand_1aee138c86445d3c3f180678",
+      "relatedEventGroupIds": [
+        "dup_02258ce7a5a67a947c8fbcdd",
+        "lead_faa6f6bad251fdd150dee706",
+        "lead_4db17a014787db380a77add8"
+      ],
+      "country": "IQ",
+      "name": "Mosul International Airport",
+      "referenceId": "ref_1e2a7f7c9a2ef63a8a74e073",
+      "codes": [
+        "OSB",
+        "OSM",
+        "ORBM"
+      ],
+      "rankedPriorityScore": 100,
+      "globalRanking": {
+        "rank": 32,
+        "priorityScore": 100,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_345f92f58b48a3bd2c417313",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "iq-icaa-ais"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "cross_site_code_reuse_or_directory_error_unverified"
+      ],
+      "researchClassification": "closure_reopening_and_directory_code_lead",
+      "researchStatus": "official_source_access_or_discovery_blocked",
+      "findings": "OSM/OSB and ORBM candidate cannot be dated from operational reopening. Official ICAA portal403; no code allocation original acquired.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain Mosul ORBM AD2 before closure and after reopening plus separate IATA OSM/OSB allocation correspondence; preserve reopening as operational fact only."
+    },
+    {
+      "reviewId": "europe-08",
+      "eventGroupId": "dup_d017f33dfdaf1a055fcf536e",
+      "candidateId": "cand_71b6870828669f7f72ef6644",
+      "relatedEventGroupIds": [
+        "lead_6177cdaaac2764a328935f93",
+        "lead_40a4cc91108ed78aaa91dc1e"
+      ],
+      "country": "OM",
+      "name": "Duqm International Airport",
+      "referenceId": "ref_20ef2e63b9e76181a0f510d7",
+      "codes": [
+        "DQM",
+        "JNJ",
+        "OODQ"
+      ],
+      "rankedPriorityScore": 80,
+      "globalRanking": {
+        "rank": 146,
+        "priorityScore": 80,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_bace6e7f993caa6104567a5a",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "dqm-oman-aip-2-25",
+        "om-ad13-20250515"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "cross_site_code_reuse_or_directory_error_unverified"
+      ],
+      "researchClassification": "directory_conflation_between_distinct_physical_sites",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "New official AD1.3 lists Duqm/OODQ and Jaaluni/OOJA separately; reused earlier complete AIP checklist supports separation. Does not prove JNJ moved to Duqm.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "dated_observation_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain dated OODQ/OOJA AD2 ARPs and original IATA JNJ/DQM notices; preserve unknown IATA relationships."
+    },
+    {
+      "reviewId": "europe-09",
+      "eventGroupId": "lead_63733ec78caca303d45e9a47",
+      "candidateId": "cand_d339f397f6788c2556565e98",
+      "relatedEventGroupIds": [
+        "dup_8565570d9b35e484514133ec",
+        "lead_1d446c3fd97d78bbee48ccd9",
+        "lead_62f0027c8ca08575bf5d8cf0",
+        "lead_99138ba51feb0b4d591ce876",
+        "lead_f5fe5f1606f06acb3a92b52a"
+      ],
+      "country": "TR",
+      "name": "Atatürk International Airport",
+      "referenceId": "ref_a0b322187484c655c37a1890",
+      "codes": [
+        "ISL",
+        "IST",
+        "LTBA"
+      ],
+      "rankedPriorityScore": 115,
+      "globalRanking": {
+        "rank": 9,
+        "priorityScore": 115,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_ad148780ceed840ce5207c33",
+        "existingFormalAirportIds": [
+          "apt_d8f290d3-11cc-4441-af6d-f4dd52d3b8dc"
+        ],
+        "existingFormalAssignmentIds": [
+          "iata-isl-ataturk",
+          "iata-ist-ataturk",
+          "icao-ltba-ataturk"
+        ]
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "tr-ist-transfer",
+        "tr-dhmi-ad13"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "cross_site_code_reuse_or_directory_error_unverified"
+      ],
+      "researchClassification": "same_site_code_change_and_cross_site_transfer",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Reused Turkish Airlines direct retrospective states IST→ISL at Ataturk on2019-04-06; newly acquired DHMI index separately identifies LTBA. No blanket continuous interval or allocation ledger obtained.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "dated_observation_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Retrieve carrier original-notice/IATA implementation record with timezone and surrounding code periods; resolve02:59 local versus third-party0001Z precision before admitting exact boundary."
+    },
+    {
+      "reviewId": "europe-10",
+      "eventGroupId": "lead_deec67ab38bd8f6fcd6a191c",
+      "candidateId": "cand_872cf19ce1d6d16144c526a4",
+      "relatedEventGroupIds": [
+        "dup_a0caa0005741e29c72e5bbaa",
+        "lead_55a6a7264e725bc670e595d7",
+        "lead_aba67c26fd348a100e2f2f6d"
+      ],
+      "country": "TR",
+      "name": "Istanbul Airport",
+      "referenceId": "ref_7210b66a2b57cdfabf2d7015",
+      "codes": [
+        "IST",
+        "LTFM"
+      ],
+      "rankedPriorityScore": 90,
+      "globalRanking": {
+        "rank": 86,
+        "priorityScore": 90,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_ddb3c62d90e224ccab98f1d3",
+        "existingFormalAirportIds": [
+          "apt_92a92544-1808-487a-85e0-0fa995e1de82"
+        ],
+        "existingFormalAssignmentIds": [
+          "iata-isl-istanbul",
+          "iata-ist-istanbul",
+          "icao-ltfm-istanbul"
+        ]
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "tr-ist-transfer",
+        "tr-dhmi-ad13"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "cross_site_code_reuse_or_directory_error_unverified",
+        "location_change_or_directory_correction_unverified"
+      ],
+      "researchClassification": "cross_site_code_reuse",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Reused Turkish Airlines code-switch account distinguishes new Istanbul taking IST from Ataturk; new official LTFM row corroborates new physical airport indicator. ICAO date cannot be copied from IATA switch.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "dated_observation_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain controlled2018/2019 LTFM AD2 and IATA ISL→IST original implementation notice; preserve2018 operations versus2019 transfer distinction."
+    },
+    {
+      "reviewId": "europe-11",
+      "eventGroupId": "lead_a5cceef42d82e2b4df7cdfe9",
+      "candidateId": "cand_7631085a3219301d9d92bc8a",
+      "relatedEventGroupIds": [
+        "dup_5e840df298d13cc9e0cd8fa5",
+        "dup_4f07a1a911b8cc605a7a0b31",
+        "lead_ac0155336c0606c7ba6de1e7",
+        "lead_c806960ed7dc90c877032fd3",
+        "lead_ef81d23bc7895aa4de9f5c56",
+        "lead_f594bc0811b9c99f1d7d6906"
+      ],
+      "country": "IR",
+      "name": "Qeshm International Airport",
+      "referenceId": "ref_d1198c3725db7cd75af6b141",
+      "codes": [
+        "GSM",
+        "OIKQ"
+      ],
+      "rankedPriorityScore": 65,
+      "globalRanking": {
+        "rank": 999,
+        "priorityScore": 65,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_3d9538d28ec3456c65b3bf04",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [],
+      "machineClassifications": [
+        "cross_site_code_reuse_or_directory_error_unverified",
+        "location_change_or_directory_correction_unverified"
+      ],
+      "researchClassification": "location_correction_or_code_change_unresolved",
+      "researchStatus": "official_source_access_or_discovery_blocked",
+      "findings": "Qeshm OIKQ/GSM candidate remains unverified; third-party link-discovery request403 and no official AD2 target acquired. No relocation conclusion from coordinates.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Locate official Iran AIS OIKQ AD2 original and prior edition; compare ARP; independently obtain dated IATA GSM allocation evidence."
+    },
+    {
+      "reviewId": "europe-12",
+      "eventGroupId": "dup_4a4a177df596784e36c89fa7",
+      "candidateId": "cand_b7e7f726808b56f0df9942f5",
+      "relatedEventGroupIds": [
+        "lead_d52dde9c1fc9b9841ab46328",
+        "dup_5ce6264bdf9551f558c38cf4",
+        "lead_a231524492d8732be1eca47e"
+      ],
+      "country": "GB",
+      "name": "Coventry Airport",
+      "referenceId": "ref_1e014f02864d36dba640125a",
+      "codes": [
+        "CVT",
+        "EGBE"
+      ],
+      "rankedPriorityScore": 65,
+      "globalRanking": {
+        "rank": 583,
+        "priorityScore": 65,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_19fdddf393cede94a00e38d1",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "uk-nats-ad13-20221103"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "closure_observation_not_code_withdrawal"
+      ],
+      "researchClassification": "same_site_code_observation_no_effective_change_proven",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Archived official2022 AD1.3 explicitly lists Coventry/EGBE. No CVT IATA or historical allocation boundary follows from that row.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "dated_observation_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Fetch adjacent controlled archived EGBE AD2 and amendment histories for the candidate namespace edit, plus IATA CVT evidence."
+    },
+    {
+      "reviewId": "europe-13",
+      "eventGroupId": "dup_537489a7957162a4e48f1d41",
+      "candidateId": "cand_1dca17c8649ce0770817769c",
+      "relatedEventGroupIds": [
+        "lead_2026ebf95737f3ca9a895178",
+        "lead_315a6edab9374a4c840420cb"
+      ],
+      "country": "GB",
+      "name": "RAF Scampton",
+      "referenceId": "ref_0e0865f7cf16efe67fe187f4",
+      "codes": [
+        "SQZ"
+      ],
+      "rankedPriorityScore": 50,
+      "globalRanking": {
+        "rank": 2992,
+        "priorityScore": 50,
+        "priorityTier": "follow_up",
+        "researchClusterKey": "cluster_54cfe150f6c9977f92486bc9",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Lower-tier follow-up retained from preliminary queue; not counted toward the high-value minimum. Final score and reason remain visible.",
+      "sourceIds": [
+        "uk-nats-ad13-20221103"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "closure_observation_not_code_withdrawal"
+      ],
+      "researchClassification": "military_code_change_lead_unresolved",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Scampton absent from this civilian AD1.3 index. Absence is not evidence EGXP/SQZ was withdrawn; military AIP custody is separate.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "dated_observation_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain UK Military AIP AD2 EGXP and Defence closure/code notices with effective editions; IATA SQZ independently."
+    },
+    {
+      "reviewId": "europe-14",
+      "eventGroupId": "dup_63e538cc862ba693a3eedd6d",
+      "candidateId": "cand_3e397bcd23e81d1a1d16732b",
+      "relatedEventGroupIds": [
+        "lead_ee70624dc77957971e64fee2",
+        "dup_8bb4347f77c22dc2da5d81c4",
+        "lead_eb34eafb87d548adae7af5e6",
+        "lead_cf932aa8717730ea932b62f4"
+      ],
+      "country": "GB",
+      "name": "RAF Wyton",
+      "referenceId": "ref_c4baec8f7995d4297fa0bc10",
+      "codes": [
+        "QUY",
+        "EGUY"
+      ],
+      "rankedPriorityScore": 65,
+      "globalRanking": {
+        "rank": 597,
+        "priorityScore": 65,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_a5ea8005c7c37d33802f1c83",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "uk-nats-ad13-20221103"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "reopening_observation_not_code_reallocation"
+      ],
+      "researchClassification": "military_code_change_lead_unresolved",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Wyton absent from civilian AD1.3. No inference from that omission to EGUY or QUY withdrawal; directory GB-1222 identifier is not ICAO.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "dated_observation_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain UK Military AIP AD2 EGUY old/new controlled editions; establish QUY separately from local identifier edits."
+    },
+    {
+      "reviewId": "europe-15",
+      "eventGroupId": "lead_05d2f77a08aedbf520c780e6",
+      "candidateId": "cand_f9c4b644c8cb7e2ea491e7df",
+      "relatedEventGroupIds": [
+        "dup_081fcb826d48daf08245b2b5",
+        "lead_df55bbf06f29b05caf5c65a5",
+        "lead_82dba101e417e7c0bd43bcdb",
+        "lead_b542af503649f89d8966c622",
+        "lead_c2e2cefceaa689ab1b711dd8"
+      ],
+      "country": "DE",
+      "name": "Berlin Brandenburg Airport",
+      "referenceId": null,
+      "codes": [
+        "BER",
+        "SXF"
+      ],
+      "rankedPriorityScore": 60,
+      "globalRanking": {
+        "rank": 1414,
+        "priorityScore": 60,
+        "priorityTier": "follow_up",
+        "researchClusterKey": "cluster_00e82e91853f1cee8b48b934",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Lower-tier follow-up retained from preliminary queue; not counted toward the high-value minimum. Final score and reason remain visible.",
+      "sourceIds": [
+        "de-ber-history"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified"
+      ],
+      "researchClassification": "same_physical_airport_code_change",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Reused FBB states booking systems replaced SXF with BER during night24/25Oct2020 and former Schonefeld continues as BER Terminal5. This does not prove a new physical site or ICAO change.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain original IATA change/booking implementation record and historical DFS EDDB AD2; assess the airport footprint using physical-continuity rules, not renamed terminal count."
+    },
+    {
+      "reviewId": "europe-16",
+      "eventGroupId": "lead_05d4dbd8f1344479c3d9cae4",
+      "candidateId": "cand_63f63ea8b16f8666530efe69",
+      "relatedEventGroupIds": [
+        "lead_42b505e44af3d3b5d433cbdf",
+        "lead_e606f17e55e9fb49799362cf",
+        "lead_af10889e82914e3c7e7f1e8e"
+      ],
+      "country": "RU",
+      "name": "Neftekamsk Airport",
+      "referenceId": "ref_a421a811c3d5525e07c3844e",
+      "codes": [
+        "NEF"
+      ],
+      "rankedPriorityScore": 50,
+      "globalRanking": {
+        "rank": 3062,
+        "priorityScore": 50,
+        "priorityTier": "follow_up",
+        "researchClusterKey": "cluster_9c16a05eb8773b58a10ec3ea",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Lower-tier follow-up retained from preliminary queue; not counted toward the high-value minimum. Final score and reason remain visible.",
+      "sourceIds": [
+        "ru-caiga-aip"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "closure_observation_not_code_withdrawal"
+      ],
+      "researchClassification": "same_site_code_observation_unresolved",
+      "researchStatus": "official_source_access_or_discovery_blocked",
+      "findings": "Neftekamsk NEF/UWUF candidates cannot be dated; official CAIGA index503 prevents archived AD2 acquisition in this batch.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain CAIGA UWUF AD2 dated editions and any identifier amendment; IATA NEF allocation separately. Preserve candidate as unresolved."
+    },
+    {
+      "reviewId": "europe-17",
+      "eventGroupId": "lead_08430e1557d83404a4027a44",
+      "candidateId": "cand_879eed0a29a998e3fa0b4223",
+      "relatedEventGroupIds": [
+        "lead_28437818df333382538a633e",
+        "lead_397fc18fe4454af286aa3d94",
+        "dup_3acbb4ea3f755bbfa78d81e1",
+        "lead_445643cd0f6d626b0554f840",
+        "lead_9227628c89ea20eddd86f0f4",
+        "lead_a0c5499fce3e73d19e4ef7d4"
+      ],
+      "country": "TR",
+      "name": "Çukurova Regional Airport (under construction)",
+      "referenceId": "ref_24c914b5f016b33734b54a79",
+      "codes": [
+        "COV",
+        "LTDB"
+      ],
+      "rankedPriorityScore": 95,
+      "globalRanking": {
+        "rank": 48,
+        "priorityScore": 95,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_910ee29957a66b801ed6e11d",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "tr-dhmi-ad13",
+        "tr-dhmi-ltdb"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "cross_site_code_reuse_or_directory_error_unverified",
+        "reopening_observation_not_code_reallocation"
+      ],
+      "researchClassification": "new_airport_and_stale_directory_status",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "New LTDB AD2 page19MAR26 gives Cukurova ARP365330N0350416E and named operator; index lists LTDB. Directory under-construction label is stale and does not date COV or LTDB allocation.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "dated_observation_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain preopening LTDB AIP amendment/effectivity cover and COV allocation notice; keep2024 airport opening separate from each code date."
+    },
+    {
+      "reviewId": "europe-18",
+      "eventGroupId": "lead_16143f9495a47fb4c6d8c459",
+      "candidateId": "cand_3186995872a3ec48b05ca2d7",
+      "relatedEventGroupIds": [
+        "lead_e38932444ba71135690ae625",
+        "dup_ae46a2af191f6e060673575b",
+        "dup_4d684231e242495dc7c19154",
+        "lead_69912c3b3d0369689d0a5d17"
+      ],
+      "country": "GB",
+      "name": "Nottingham City Airport",
+      "referenceId": "ref_aba65711af8d486fda42f858",
+      "codes": [
+        "NQT",
+        "EGBN"
+      ],
+      "rankedPriorityScore": 75,
+      "globalRanking": {
+        "rank": 296,
+        "priorityScore": 75,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_5b95ced46d1207b46b82eddd",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "uk-nats-ad13-20221103"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "closure_observation_not_code_withdrawal"
+      ],
+      "researchClassification": "same_site_code_observation_no_effective_change_proven",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Official2022 index lists Nottingham/EGBN. NQT IATA and code-change effective boundary not established.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "dated_observation_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain older Nottingham AD2 and namespace-change amendment if one exists; independently dated IATA NQT evidence; eliminate mere directory backfill."
+    },
+    {
+      "reviewId": "europe-19",
+      "eventGroupId": "lead_1d15ddf06701d61c513ae02a",
+      "candidateId": "cand_c963277f345990a31d45f171",
+      "relatedEventGroupIds": [
+        "lead_842175ecc74e8b13c92ff6bc",
+        "lead_89c608ae6b4b824c1455bf8e",
+        "lead_fc67fa7aef5cbcc855cfafaf",
+        "lead_6e8f4dee162a68d945330583"
+      ],
+      "country": "FI",
+      "name": "Helsinki Malmi Airport",
+      "referenceId": "ref_8fd23df2b29d6d82d760715b",
+      "codes": [
+        "HEM"
+      ],
+      "rankedPriorityScore": 50,
+      "globalRanking": {
+        "rank": 3102,
+        "priorityScore": 50,
+        "priorityTier": "follow_up",
+        "researchClusterKey": "cluster_2390c79ec362d1b87c6017a7",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Lower-tier follow-up retained from preliminary queue; not counted toward the high-value minimum. Final score and reason remain visible.",
+      "sourceIds": [
+        "fi-efhf-20240613"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "closure_observation_not_code_withdrawal"
+      ],
+      "researchClassification": "closure_reopening_or_directory_status_change",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Official2024 package retains EFHF Helsinki-Malmi AD2 and ARP601514N0250239E. Airport closure or operator changes cannot substitute for HEM/EFHF withdrawal.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "dated_observation_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain Fintraffic AIP deletion/amendment chronology and Traficom official closure instruments; code withdrawal must be explicit and independent by namespace."
+    },
+    {
+      "reviewId": "europe-20",
+      "eventGroupId": "lead_38fcbb99cfa7b2e457aa9f3c",
+      "candidateId": "cand_f56a26cafe9500e1b3e1489e",
+      "relatedEventGroupIds": [
+        "lead_92aea0da9b38e8dcc3e45399",
+        "lead_9c9b4e0403143cba380fa47b",
+        "lead_992147d5538d1ffb7ad8af7b"
+      ],
+      "country": "RU",
+      "name": "Saratov Central Airport",
+      "referenceId": "ref_c617aa7b9e3034d0d1c8329b",
+      "codes": [
+        "RTW"
+      ],
+      "rankedPriorityScore": 50,
+      "globalRanking": {
+        "rank": 3157,
+        "priorityScore": 50,
+        "priorityTier": "follow_up",
+        "researchClusterKey": "cluster_1ea0c0cc1025a23a0f29ce7b",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Lower-tier follow-up retained from preliminary queue; not counted toward the high-value minimum. Final score and reason remain visible.",
+      "sourceIds": [
+        "ru-caiga-aip"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "closure_observation_not_code_withdrawal"
+      ],
+      "researchClassification": "replacement_airport_code_history_lead",
+      "researchStatus": "official_source_access_or_discovery_blocked",
+      "findings": "Saratov Central RTW/UWSS candidate remains unresolved; CAIGA503 and no original RTW/GSV transfer or independent code boundary acquired.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain old UWSS/new UWSG AD2 and Saratov replacement records plus IATA RTW/GSV allocation notices; do not equate closure with allocation end."
+    },
+    {
+      "reviewId": "europe-21",
+      "eventGroupId": "lead_3e6b74ea8e570042583bc831",
+      "candidateId": "cand_a4afc2003c251453c7a35418",
+      "relatedEventGroupIds": [
+        "lead_729795938ddb339c77ff4431",
+        "lead_b4531b5ebc227e05802c4390",
+        "lead_b95984b17a6a725aa88fc2b5",
+        "lead_f6c8c264fd29fcafc7aea344",
+        "dup_37c18c33691f8dc3e6236d2e",
+        "lead_01ea1cdbe7e7c08871cf07a0",
+        "lead_6ad910c1a1958f4471731f44"
+      ],
+      "country": "IR",
+      "name": "Persian Gulf International Airport",
+      "referenceId": null,
+      "codes": [
+        "PGU",
+        "YEH"
+      ],
+      "rankedPriorityScore": 80,
+      "globalRanking": {
+        "rank": 175,
+        "priorityScore": 80,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_8ff933b0d67cc7e9c0e3b94b",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "ir-ais-oibp"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "cross_site_code_reuse_or_directory_error_unverified"
+      ],
+      "researchClassification": "same_site_code_change_or_conflation_unresolved",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Official OIBP ARP and name are directly observed WEF17APR25. YEH/PGU values are not printed code-allocation facts in the obtained AD2.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "dated_observation_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain original IATA PGU/YEH notifications and historical OIBP/OIBI AD2; resolve source conflation before dating a transfer."
+    },
+    {
+      "reviewId": "europe-22",
+      "eventGroupId": "lead_3fdeae19cef5a209b7d042d0",
+      "candidateId": "cand_c7eb2036332cce3fc077b3d6",
+      "relatedEventGroupIds": [
+        "dup_7f46d44953ea5f33949bcdc2",
+        "lead_9c3b892ec785a21dcbba4d14"
+      ],
+      "country": "QA",
+      "name": "Hamad International Airport",
+      "referenceId": null,
+      "codes": [],
+      "rankedPriorityScore": -110,
+      "globalRanking": {
+        "rank": 87957,
+        "priorityScore": -110,
+        "priorityTier": "defer_or_correction",
+        "researchClusterKey": "cluster_7f89dbd78357684636867f6d",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Lower-tier follow-up retained from preliminary queue; not counted toward the high-value minimum. Final score and reason remain visible.",
+      "sourceIds": [
+        "qa-ad13-2014",
+        "qa-ad13-20181011"
+      ],
+      "machineClassifications": [
+        "location_change_or_directory_correction_unverified",
+        "label_coordinate_or_duplicate_observation_without_typed_code_change"
+      ],
+      "researchClassification": "replacement_airport_ICAO_observations",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "QCAA indexes independently list Hamad/OTHH and Doha/OTBD within each edition. Two distant observations do not establish continuous code validity and no DOH date is proved.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "dated_observation_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Retrieve controlled2014 edition cover and AD2 ARPs, QCAA commissioning/code notices and original IATA DOH/DIA change record; do not use29Apr/27May operational milestones as code dates."
+    },
+    {
+      "reviewId": "europe-23",
+      "eventGroupId": "lead_4a8c092b3a9e280393d36ca0",
+      "candidateId": "cand_320fe86cc4522176760ae59b",
+      "relatedEventGroupIds": [
+        "dup_39f00a063440cdee7ad7aa84",
+        "lead_54b4555665b65ee9b191c96f",
+        "lead_87be9351babfb052c87a5b70",
+        "lead_bec4b17cbeeb07229aca1b5a",
+        "lead_48170096284646a216584c82",
+        "lead_9b946410b21f5eb14bd9faed"
+      ],
+      "country": "QA",
+      "name": "Doha International Airport",
+      "referenceId": "ref_f6fa0c8171b492e83b56b8db",
+      "codes": [
+        "DIA",
+        "OTBD"
+      ],
+      "rankedPriorityScore": 70,
+      "globalRanking": {
+        "rank": 516,
+        "priorityScore": 70,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_2806ac8037a1cb1ca5fcf424",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "qa-ad13-2014",
+        "qa-ad13-20181011"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "reopening_observation_not_code_reallocation"
+      ],
+      "researchClassification": "old_airport_continued_ICAO_entry",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Old Doha OTBD still appears in official2018 index alongside Hamad OTHH. Civil flight transfer did not justify deleting old physical identity or deriving ICAO termination.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "dated_observation_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain OTBD AD2 and code-specific DOH/DIA records before/after2014 and2022; retain possible continuing old-airport use."
+    },
+    {
+      "reviewId": "europe-24",
+      "eventGroupId": "lead_5a57390fb9887cf1ca30be4e",
+      "candidateId": "cand_db252bd7e07d87465994bdd5",
+      "relatedEventGroupIds": [
+        "lead_9c90ad792a950e9b23e9abf4",
+        "lead_db97711e3e479f79be9a0138",
+        "lead_b640e4b0ff0b79546f10342d",
+        "lead_2553b95154d2d9df724d69f0",
+        "lead_3b62bc24b1e9789003bc11b8"
+      ],
+      "country": "GB",
+      "name": "Robin Hood Doncaster Sheffield Airport",
+      "referenceId": "ref_bd2021cb1e85e112a69f9808",
+      "codes": [
+        "DSA"
+      ],
+      "rankedPriorityScore": 55,
+      "globalRanking": {
+        "rank": 2818,
+        "priorityScore": 55,
+        "priorityTier": "follow_up",
+        "researchClusterKey": "cluster_86908641a7bcb794b3c95b4f",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Lower-tier follow-up retained from preliminary queue; not counted toward the high-value minimum. Final score and reason remain visible.",
+      "sourceIds": [
+        "uk-dsa-2022",
+        "uk-dsa-2022-cover",
+        "uk-dsa-2023",
+        "uk-dsa-2023-cover"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "closure_observation_not_code_withdrawal"
+      ],
+      "researchClassification": "closure_and_reopening_lead_with_AIP_observations",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Reused controlled EGCN AD2 editions2022-11-03 and2023-01-26 are after terminal closure; no IATA DSA withdrawal date follows. Existing locked cover/evidence not redownloaded.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain exact CAA/NATS EGCN deletion or reinstatement amendment and IATA DSA notices; keep2022 closure and reopening announcements separate."
+    },
+    {
+      "reviewId": "europe-25",
+      "eventGroupId": "lead_b1a856576135737af35617ce",
+      "candidateId": "cand_a87a65f198f6d86f070d504b",
+      "relatedEventGroupIds": [
+        "lead_e1feb97ceeddae7055bc128d",
+        "lead_02cec3a01ed9b60754dac6d3",
+        "lead_79aeb7c7db7b4a6e28e8a6dd",
+        "lead_c18b59f47a9f27aa3e51cf8b"
+      ],
+      "country": "DE",
+      "name": "Berlin-Tegel Otto Lilienthal Airport",
+      "referenceId": "ref_ce282e22e756e35579180c4f",
+      "codes": [
+        "TXL"
+      ],
+      "rankedPriorityScore": 55,
+      "globalRanking": {
+        "rank": 2904,
+        "priorityScore": 55,
+        "priorityTier": "follow_up",
+        "researchClusterKey": "cluster_a962196a8e7e40fe93acc5cb",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Lower-tier follow-up retained from preliminary queue; not counted toward the high-value minimum. Final score and reason remain visible.",
+      "sourceIds": [
+        "de-tegel-history"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "closure_observation_not_code_withdrawal"
+      ],
+      "researchClassification": "operational_stop_distinct_from_physical_legal_closure",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Reused FBB history separates last Tegel flight8Nov2020 from later operating-permit end4May2021. Neither event proves TXL/EDDT assignment termination.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain DFS EDDT deletion AIRAC/AIP amendment and IATA TXL withdrawal original; do not inherit BER dates."
+    },
+    {
+      "reviewId": "europe-26",
+      "eventGroupId": "dup_9587398766d8b4a241137dcc",
+      "candidateId": "cand_4c572d3ffd16072ba384ce82",
+      "relatedEventGroupIds": [
+        "lead_ee61f6f8f6290e46dd362f62"
+      ],
+      "country": "DE",
+      "name": "Munich Airport",
+      "referenceId": "ref_10a4094e4aeaeddb2fec0d03",
+      "codes": [
+        "MUC",
+        "EDDM"
+      ],
+      "rankedPriorityScore": 100,
+      "globalRanking": {
+        "rank": 26,
+        "priorityScore": 100,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_cedd329e3c074f309859d371",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "b5-de-dfs-eddm-2026",
+        "b5-de-fmg-chronology"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "cross_site_code_reuse_or_directory_error_unverified"
+      ],
+      "researchClassification": "cross_site_code_reuse_lead",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Reused DFS current EDDM observation and Munich operator1992 chronology distinguish Riem from new airport. Operational transfer17May1992 is not an MUC/EDDM code boundary.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain historical DFS Riem AD2 and new-site amendment plus original IATA MUC transfer notice; do not use operator first-flight chronology as code date."
+    },
+    {
+      "reviewId": "europe-27",
+      "eventGroupId": "dup_cac762f68477060f12f5362a",
+      "candidateId": "cand_04127c56867bb8148d1020f5",
+      "relatedEventGroupIds": [
+        "lead_eec7945ceec0fcb5ef65cb49"
+      ],
+      "country": "RU",
+      "name": "Platov International Airport",
+      "referenceId": "ref_afb282bbc3cdcb0149b35fd8",
+      "codes": [
+        "ROV",
+        "URRP"
+      ],
+      "rankedPriorityScore": 95,
+      "globalRanking": {
+        "rank": 44,
+        "priorityScore": 95,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_cb99811dda71e02f5a1ac38e",
+        "existingFormalAirportIds": [
+          "apt_4c75d2ab-29db-4593-8b78-6104b8bdb720"
+        ],
+        "existingFormalAssignmentIds": [
+          "iata-rov-platov"
+        ]
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "rov2-gov-order-2434r",
+        "rov2-aeroflot-notice",
+        "ru-caiga-aip"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "cross_site_code_reuse_or_directory_error_unverified"
+      ],
+      "researchClassification": "new_site_code_reuse_lead",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Platov is physically separate from old Rostov per reused government act; reproduced Aeroflot notice links new ROV while old airport uses RVI. Original IATA attachment remains missing.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain original IATA notice and URRP establishment amendment; claim shares acquisition with old Rostov but its physical site is separately reviewed."
+    },
+    {
+      "reviewId": "europe-28",
+      "eventGroupId": "dup_18d1f3570fd480ee1dc58afd",
+      "candidateId": "cand_6d992127cb51d9183178ab57",
+      "relatedEventGroupIds": [
+        "lead_5245caf9c753081feca0a097",
+        "dup_63268bca965b3c91a1210785"
+      ],
+      "country": "PT",
+      "name": "Alverca Air Base",
+      "referenceId": "ref_ebdaa7e96da496e07425f61e",
+      "codes": [
+        "AVR",
+        "LPAR"
+      ],
+      "rankedPriorityScore": 90,
+      "globalRanking": {
+        "rank": 62,
+        "priorityScore": 90,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_aef55398df3bf86acd655e91",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "pt-nav-gen24"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "cross_site_code_reuse_or_directory_error_unverified"
+      ],
+      "researchClassification": "code_association_with_possible_directory_backfill",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "New official NAV GEN2.4 explicitly encodes Alverca as LPAR in edition valid01Oct2026. No AVR IATA allocation or historic indicator replacement is established.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "dated_observation_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain military AD2 LPAR and historical editions plus independent IATA AVR notice; review whether the candidate is an association backfill."
+    },
+    {
+      "reviewId": "europe-29",
+      "eventGroupId": "dup_5c819a661040eb0011dc6f88",
+      "candidateId": "cand_046cef2da66f3701ba8d8553",
+      "relatedEventGroupIds": [
+        "dup_cbc54082c6a4a8c6559951d4",
+        "lead_76ee96600530077245b0b71d"
+      ],
+      "country": "ES",
+      "name": "Región de Murcia International Airport",
+      "referenceId": "ref_1d941430bed5ec339a73ce8a",
+      "codes": [
+        "RMU",
+        "LEMI"
+      ],
+      "rankedPriorityScore": 90,
+      "globalRanking": {
+        "rank": 64,
+        "priorityScore": 90,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_a967360da3b3613ed8ea67f9",
+        "existingFormalAirportIds": [
+          "apt_f50aecf6-9778-4db7-9027-0e751ffab63a"
+        ],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "es-ad-index",
+        "es-old-ad2",
+        "es-murcia-ad2"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified"
+      ],
+      "researchClassification": "replacement_airport_with_independent_code_namespaces",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Reused ENAIRE index and AD2 material distinguish RMU/LEMI new Murcia from MJV/LELC SanJavier.15Jan2019 opening is separate from each code allocation.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain controlled preopening LEMI amendment and IATA RMU allocation notice, retaining old SanJavier military ICAO use."
+    },
+    {
+      "reviewId": "europe-30",
+      "eventGroupId": "lead_387a9e39fa7ca44825f74ac7",
+      "candidateId": "cand_3863a61dbfe9ea4e4b2836fe",
+      "relatedEventGroupIds": [
+        "lead_3c394604bf8b50a15c1287e4",
+        "dup_752a3e333b7b9592d91353ec",
+        "lead_bbaa9424ebcdbc8c0ef84f55"
+      ],
+      "country": "MD",
+      "name": "Chişinău International Airport",
+      "referenceId": "ref_6a06dadc2b9af93dcd1d9d67",
+      "codes": [
+        "KIV",
+        "RMO",
+        "LUKK"
+      ],
+      "rankedPriorityScore": 90,
+      "globalRanking": {
+        "rank": 75,
+        "priorityScore": 90,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_372be6d33fdaa382808783b2",
+        "existingFormalAirportIds": [
+          "apt_7a7e34d3-dbfa-4cce-ad24-818709177bfd"
+        ],
+        "existingFormalAssignmentIds": [
+          "iata-kiv-chisinau",
+          "iata-rmo-chisinau"
+        ]
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "md-tarom-code-change"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified"
+      ],
+      "researchClassification": "same_physical_airport_IATA_code_change",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "New direct TAROM notice published17Jan2024 explicitly schedules Chisinau KIV→RMO from18Jan2024 and describes reservation-system recoding. It is a prospective carrier implementation notice, not executed IATA allocation ledger.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain operator or IATA executed-change original and current direct code observation; preserve unknown KIV start/RMO end and do not infer LUKK dates from IATA switch."
+    },
+    {
+      "reviewId": "europe-31",
+      "eventGroupId": "dup_1653af0a886f31dc7d293e35",
+      "candidateId": "cand_54c0d39eb52b4bb18a922fca",
+      "relatedEventGroupIds": [
+        "lead_e3d08c5d9b213c70fad754d8"
+      ],
+      "country": "NO",
+      "name": "Oseberg South Helideck",
+      "referenceId": "ref_9a36bc4efb845b0b30c2faa1",
+      "codes": [
+        "ENQO"
+      ],
+      "rankedPriorityScore": 95,
+      "globalRanking": {
+        "rank": 38,
+        "priorityScore": 95,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_4ede05a44b5b373a01af8b8f",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "no-avinor-offshore"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "cross_site_code_reuse_or_directory_error_unverified",
+        "location_change_or_directory_correction_unverified"
+      ],
+      "researchClassification": "possible_source_code_swap_or_correction",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "New Avinor AHRI table explicitly associates OsebergSor with ENQO and OsebergOst with ENQE. Opposite community observations may be swap corrections, not historical offshore relocation. Alphanumeric1QO/8QE columns are not promoted to three-letter IATA assignments.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "dated_observation_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain historical Avinor AHRI controlled revisions or helicopter AIP change record tied to platform coordinates; distinguish swapped directory fields from real indicator change."
+    },
+    {
+      "reviewId": "europe-32",
+      "eventGroupId": "dup_f54baac8013d3a7eb7b68afd",
+      "candidateId": "cand_4004af466bc446f4d04160f2",
+      "relatedEventGroupIds": [
+        "lead_e976f583f6b12e0816c605a7"
+      ],
+      "country": "NO",
+      "name": "Oseberg East Helideck",
+      "referenceId": "ref_9bce5d5b8c10b7ade55302d2",
+      "codes": [
+        "ENQE"
+      ],
+      "rankedPriorityScore": 95,
+      "globalRanking": {
+        "rank": 47,
+        "priorityScore": 95,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_11c58f3d5f44480bdf4e524a",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "no-avinor-offshore"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "cross_site_code_reuse_or_directory_error_unverified",
+        "location_change_or_directory_correction_unverified"
+      ],
+      "researchClassification": "possible_source_code_swap_or_correction",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Same acquired Avinor table independently names East platform ENQE; one publisher is one source family and East/South are separate physical platforms. Document update26Oct2026 is not indicator effective date.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "dated_observation_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain old and new official platform indicator records/ARP, retaining ENQE/ENQO uncertainty until swap/correction chronology proven."
+    },
+    {
+      "reviewId": "europe-33",
+      "eventGroupId": "lead_8ac0188c916e961ba6af4977",
+      "candidateId": "cand_5357b25ac716701c4900b324",
+      "relatedEventGroupIds": [
+        "dup_e1474cf7665bbf6699b4a8b5",
+        "lead_455816c4106389d56441775e",
+        "lead_df2ccf23fdec3699a5090b05"
+      ],
+      "country": "SE",
+      "name": "Scandinavian Mountains Airport",
+      "referenceId": "ref_ea2c20c41013a0461898f0fc",
+      "codes": [
+        "SCR",
+        "ESKS"
+      ],
+      "rankedPriorityScore": 85,
+      "globalRanking": {
+        "rank": 112,
+        "priorityScore": 85,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_74ac5bddccd23e7422ccaf57",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "se-lfv-amdt-20250904",
+        "se-lfv-amdt-20261029"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "cross_site_code_reuse_or_directory_error_unverified"
+      ],
+      "researchClassification": "new_airport_code_and_certification_dates_separate",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "LFV archived2025 amendment original404; current2026 amendment acquisition is recorded separately. A certification/opening date cannot date SCR or ESKS assignment.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "dated_observation_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Use LFV current package and historical2019 establishment amendment to bind ESKS to the new site; acquire IATA SCR allocation separately, without copying20Dec2019 certification date."
+    },
+    {
+      "reviewId": "europe-34",
+      "eventGroupId": "lead_44eb038101149ba29b640d00",
+      "candidateId": "cand_1145934b57755bab1c11eba1",
+      "relatedEventGroupIds": [
+        "lead_80eab5d78d6139aeba04054a",
+        "dup_2d25b8f30458ca9937557b33",
+        "lead_627fff2555cee2132d72cbf6",
+        "lead_8785df3baa39500ae974646d"
+      ],
+      "country": "TR",
+      "name": "Rize–Artvin Airport",
+      "referenceId": "ref_381cc33411c1ff120d0da814",
+      "codes": [
+        "RZV",
+        "LTFO"
+      ],
+      "rankedPriorityScore": 75,
+      "globalRanking": {
+        "rank": 320,
+        "priorityScore": 75,
+        "priorityTier": "high",
+        "researchClusterKey": "cluster_d983a33d8ce7cfc7b8f817c1",
+        "existingFormalAirportIds": [],
+        "existingFormalAssignmentIds": []
+      },
+      "selectionReason": "Final global high-tier selection: code-change/location/reuse lead; direct original or explicitly identified access gap researched.",
+      "sourceIds": [
+        "tr-dhmi-ad13"
+      ],
+      "machineClassifications": [
+        "same_site_code_change_or_source_correction_unverified",
+        "cross_site_code_reuse_or_directory_error_unverified"
+      ],
+      "researchClassification": "new_airport_code_observation",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "findings": "Already acquired DHMI AD1.3 names RIZE-ARTVIN / LTFO and links AD2 LTFO; page date16Apr2026 is an observation, not allocation. It provides no RZV IATA validity.",
+      "iataConclusion": {
+        "status": "candidate_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical IATA interval newly established by this review; operational/code observations remain distinct."
+      },
+      "icaoConclusion": {
+        "status": "dated_observation_only",
+        "allocationBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "withdrawalBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        },
+        "limitation": "No whole historical ICAO interval newly established; exact original allocation/withdrawal still unknown."
+      },
+      "independence": "Different editions/URLs of one publisher count as one family; directory derivatives remain one OurAirports lineage. Government physical acts do not establish codes.",
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "No applicable source-family code-admission grant",
+          "Historical allocation/withdrawal or licensed continuity evidence incomplete",
+          "No general source-data redistribution licence established"
+        ]
+      },
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain controlled first LTFO AD2/amendment and RZV code notice; distinguish operational opening from both allocation dates."
+    }
+  ],
+  "canonicalEventGroups": 34,
+  "distinctCountries": [
+    "DE",
+    "ES",
+    "FI",
+    "FR",
+    "GB",
+    "IQ",
+    "IR",
+    "MD",
+    "NO",
+    "OM",
+    "PT",
+    "QA",
+    "RU",
+    "SE",
+    "TR"
+  ],
+  "countsPolicy": "Canonical reviewed indexed eventGroupIds counted once. Related indexed groups are crosswalks, not additional independent investigations. BER/Schonefeld continuity is not fabricated into a relocation."
+}

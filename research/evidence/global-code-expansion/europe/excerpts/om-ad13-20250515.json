@@ -1,0 +1,31 @@
+{
+  "sourceId": "om-ad13-20250515",
+  "originalSha256": "3673c8bdbbd0507dc67ed81b9cb68329c884036baab9aae05289706e4bf74941",
+  "extractedTextSha256": "2e7a2d4e860c66402dcb54f543d0cc1c968671c77e9e74ea8ba90cf46731e45e",
+  "normalizedTextSha256": "eb88c460b760417b22d9c75019cb3d990dd09ff98e5ae137af669194e5e58305",
+  "spans": [
+    {
+      "representation": "normalized_text",
+      "characterStart": 341,
+      "characterEnd": 355,
+      "quote": "DUQM/Duqm OODQ",
+      "quoteSha256": "120f60d1a711b70f95e75b8c9459762a06fab5ae5b8493ac676a184568fd2fc5"
+    },
+    {
+      "representation": "normalized_text",
+      "characterStart": 516,
+      "characterEnd": 538,
+      "quote": "JA’ALUNI/Ja’aluni OOJA",
+      "quoteSha256": "5998c3bd9030d7793da4eb5a296edf6555cbebd14c517291024f461e3a6690c3"
+    },
+    {
+      "representation": "normalized_text",
+      "characterStart": 817,
+      "characterEnd": 833,
+      "quote": "SUHAR/Suhar OOSH",
+      "quoteSha256": "130761b47985dca2e81af50f0b83d2c1db333c53bdba82235aa6ebca720e666b"
+    }
+  ],
+  "quoteScope": "Minimal factual code/name/date anchors only; full original and complete extraction remain ignored work/.",
+  "dateNature": "AIP package effective observation; does not establish allocation/withdrawal dates"
+}

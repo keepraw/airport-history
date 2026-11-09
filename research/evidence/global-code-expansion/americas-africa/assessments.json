@@ -1,0 +1,1639 @@
+{
+  "events": [
+    {
+      "candidateId": "cand_51b7f16fdc1dd9b60af605a7",
+      "codes": [
+        "IATA:KNN"
+      ],
+      "country": "GN",
+      "eventGroupId": "dup_293f24eacb96702d95adab66",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "ICAO regional 2011 planning row observes GUXN at Kankan; it cannot disambiguate old in-town site and Diankana. Guinea official portal403. No IATA evidence or allocation dates obtained.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 13,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Kankan",
+      "nextAction": "Obtain Guinea AIS AD2 for GUXN/GUXD with separate ARPs and dated allocation/withdrawal or correction notices.",
+      "rankedPriorityScore": 110,
+      "referenceId": "ref_b91b0b06f459bf7bab5524a9",
+      "relatedEventGroupIds": [
+        "lead_92d1839eeaff400a69e8b692"
+      ],
+      "researchClassification": "physical_identity_and_code_ambiguity",
+      "researchClusterKey": "cluster_7e0f090e4b3d8da797e74455",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-01",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "knn-icao"
+      ]
+    },
+    {
+      "candidateId": "cand_d44c034a2d3d45bb51c2c0da",
+      "codes": [
+        "IATA:FEK"
+      ],
+      "country": "CI",
+      "eventGroupId": "lead_d51b691e28aca59a9f12a35f",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "New official ASECNA aerodrome row binds Ferkessédougou to DIFK and coordinates09°36N005°11W. FEK and candidate site-shift chronology are not established by that current component.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 20,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Ferkessédougou",
+      "nextAction": "Acquire pre/post official AD2/location-indicator editions and IATA FEK boundary original; screen site coordinates against prior directory record.",
+      "rankedPriorityScore": 110,
+      "referenceId": "ref_00c52e631b80a22fcafd00b9",
+      "relatedEventGroupIds": [
+        "lead_cb670a7c3ae5b513efaf27ae",
+        "lead_ac61aba5f399b4a8adfaa57c"
+      ],
+      "researchClassification": "source_revision_or_cross_site_ambiguity",
+      "researchClusterKey": "cluster_6c671542b93103e13616da6e",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-02",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-asecna-ci-ad13-sites"
+      ]
+    },
+    {
+      "candidateId": "cand_4ecbdc43aaa5a0a46a3c5e78",
+      "codes": [
+        "IATA:WCH"
+      ],
+      "country": "CL",
+      "eventGroupId": "lead_f9f3bb9722e89126685ef545",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "Reused Chile DGAC observation identifies Nuevo Chaitén SCTN/WCH with new-site coordinates; MOP 2015 inauguration establishes distinct replacement works. It does not prove code transfer on inauguration.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 24,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Chaitén old/new relocation",
+      "nextAction": "Obtain old/new SCTN/WCH allocation/withdrawal and intervening AIP amendment/NOTAM chronology; do not use 2015 opening as code date.",
+      "rankedPriorityScore": 110,
+      "referenceId": "ref_48ad878611748697c62b6e30",
+      "relatedEventGroupIds": [
+        "lead_c85fcbeaff5dacda34bd3e82",
+        "lead_2eda3554424efbd52a834146"
+      ],
+      "researchClassification": "genuine_relocation_code_boundaries_missing",
+      "researchClusterKey": "cluster_850c5b40edd4c29f58192272",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-03",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "cl-chaiten-aip",
+        "cl-chaiten-mop"
+      ]
+    },
+    {
+      "candidateId": "cand_51373cfe20e6c3c44b994d23",
+      "codes": [
+        "IATA:HDS",
+        "ICAO:FAHS"
+      ],
+      "country": "ZA",
+      "eventGroupId": "dup_ac77ae85203e4e731cc4004b",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "Existing operator and 2022 AIP identify Hoedspruit/FAHS in South Africa. South Atlantic directory displacement/nonexistent label is unsupported as a physical move or code cancellation.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 25,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Hoedspruit",
+      "nextAction": "Obtain 2026 official current AIP/NOTAM and independent HDS assignment continuity; retain corrupted source edit as correction lead.",
+      "rankedPriorityScore": 105,
+      "referenceId": "ref_30b07600ba73f8efad91c7ab",
+      "relatedEventGroupIds": [],
+      "researchClassification": "directory_source_error_no_proven_relocation",
+      "researchClusterKey": "cluster_179dbce1fad0b08095c7f24b",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-04",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "hds-operator",
+        "hds-aip"
+      ]
+    },
+    {
+      "candidateId": "cand_9a9195ca8b439e9eeb47593d",
+      "codes": [
+        "IATA:AUS",
+        "ICAO:KAUS"
+      ],
+      "country": "US",
+      "eventGroupId": "dup_a797ea41b884fed08363bae6",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "City history confirms Bergstrom opened 1999-05-23 and Mueller closedMay 1999; NOAA describes KBSM→KAUS weather identifiers. IATA incident page directly uses AUS for Bergstrom but is no allocation ledger.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 28,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Austin Bergstrom",
+      "nextAction": "Acquire FAA identifier action and IATA AUS transfer original aroundMay 1999, preserving each namespace and physical site independently.",
+      "rankedPriorityScore": 100,
+      "referenceId": "ref_33fa5f06371e04df7597eee3",
+      "relatedEventGroupIds": [],
+      "researchClassification": "cross_site_code_reuse_boundary_missing",
+      "researchClusterKey": "cluster_7748d6860f797f4d8620c6e5",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-05",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "us-current-austin-operator-history",
+        "us-current-austin-noaa-obs-mos",
+        "us-current-austin-iata-sirm30"
+      ]
+    },
+    {
+      "candidateId": "cand_a6f30cddf6fe2e8d69c159ff",
+      "codes": [
+        "IATA:JJU",
+        "ICAO:BGQO"
+      ],
+      "country": "GL",
+      "eventGroupId": "dup_cb7c13dcb1ec6ae96ae76e8c",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "Mittarfeqarfiit 2022 annual report describes airport development at Qaqortoq separately from existing operations; supports physical project context only. New 2026 operator opening URL unavailable. BGQO/JJU validity not proven.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 30,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Qaqortoq new airport",
+      "nextAction": "Obtain Greenland AIS effective AD2 BGQO, old heliport ARP and IATA JJU transfer notice; reconcile actual opening against planned report.",
+      "rankedPriorityScore": 100,
+      "referenceId": "ref_05607fd09493adbc30049c47",
+      "relatedEventGroupIds": [
+        "dup_03a9df1fa193f5e531470ae7"
+      ],
+      "researchClassification": "planned_replacement_not_code_transfer_proof",
+      "researchClusterKey": "cluster_e36c07a6c302bad75ef28bb1",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-06",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-gl-operator-annual2022"
+      ]
+    },
+    {
+      "candidateId": "cand_9e41ed228409b9299551229d",
+      "codes": [
+        "IATA:JNB",
+        "ICAO:FAOR"
+      ],
+      "country": "ZA",
+      "eventGroupId": "lead_9d7d0ffde173512b52088c3f",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "New official ATNS AIP component effective 2021-07-15 names FAOR and ARP26°08S028°14E. Operator corroborates airport identity. This does not date earlier FAJS→FAOR or IATA JNB continuity.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 33,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Johannesburg OR Tambo",
+      "nextAction": "Acquire South Africa AIP AMDT/NOTAM effective FAJS→FAOR and separate historical IATA JNB evidence; screen coordinates for directory correction.",
+      "rankedPriorityScore": 100,
+      "referenceId": "ref_b17f3ebc4ce86e7186fe2c12",
+      "relatedEventGroupIds": [
+        "dup_0a3b8429b3a8a898836693dd",
+        "dup_8b79ae883bf66d2f47c4fdf6",
+        "lead_00e63794e078d117e14ce328"
+      ],
+      "researchClassification": "same_site_code_change_or_directory_correction",
+      "researchClusterKey": "cluster_cf2944456f6df1108770aa41",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-07",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-za-atns-faor-20210715",
+        "global-code-expansion-za-acsa-or-tambo"
+      ]
+    },
+    {
+      "candidateId": "cand_d9ef5c4bf04a22c91733bb2c",
+      "codes": [
+        "IATA:KTX",
+        "ICAO:GAKO"
+      ],
+      "country": "ML",
+      "eventGroupId": "dup_ae6c2feb4df3dba06649cf9a",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "Official ASECNA AD1.3 row identifies Koutiala GAKO with precise site coordinates12°21N005°25W. Directory coordinate movement alone is not proof of relocation; IATA KTX date remains unknown.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 67,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Koutiala",
+      "nextAction": "Compare dated historical Mali AD2/AD1.3 ARPs and official physical-site plans; obtain KTX assignment evidence.",
+      "rankedPriorityScore": 90,
+      "referenceId": "ref_9e5603bea0ecfdd7787ca908",
+      "relatedEventGroupIds": [
+        "dup_13376d6c301d3c98a8b93c91",
+        "dup_e9ebf1b8ae035cda1e9b217e"
+      ],
+      "researchClassification": "coordinate_revision_or_relocation_unproven",
+      "researchClusterKey": "cluster_ced6820a3e33c00c1fd04bab",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-08",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-asecna-ml-ad13-sites"
+      ]
+    },
+    {
+      "candidateId": "cand_f61c58d3ab2e8a9a85fed6e3",
+      "codes": [
+        "IATA:XWA",
+        "ICAO:KXWA"
+      ],
+      "country": "US",
+      "eventGroupId": "lead_01bac8ce977266145372f540",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "Reused executed FAA 2020 notice confirms Williston Basin open for public aeronautical use at a distinct new site. Airspace and operating facts are not an IATA XWA allocation date.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 100,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Williston Basin",
+      "nextAction": "Retrieve controlled FAA identifier editions/cycles around 2019 switch and direct XWA IATA allocation notice; retained source remains discrete physical/code observation.",
+      "rankedPriorityScore": 85,
+      "referenceId": "ref_cbd009ff0a608f06a7f1d8cc",
+      "relatedEventGroupIds": [
+        "dup_2b894340741269092660730a"
+      ],
+      "researchClassification": "new_airport_replacement_with_code_date_gaps",
+      "researchClusterKey": "cluster_90ddac64509832530216513f",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-09",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "us-xwa-executed-2020"
+      ]
+    },
+    {
+      "candidateId": "cand_86b94096c97450c2e5b84912",
+      "codes": [
+        "IATA:AUS"
+      ],
+      "country": "US",
+      "eventGroupId": "lead_7e6f86f679857158217d2aa4",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "FAA 2005 SAGE table associates Mueller coordinates with KAUS/AUS but expressly uses stale historical input; city history distinguishes Mueller from Bergstrom.2005 publication is not code validity in 2005.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 110,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Austin Mueller",
+      "nextAction": "Obtain dated 1999 FAA/IATA originals for old-site termination; no continuous interval from stale 2005 table.",
+      "rankedPriorityScore": 85,
+      "referenceId": null,
+      "relatedEventGroupIds": [],
+      "researchClassification": "old_site_code_reuse_with_stale_technical_table",
+      "researchClusterKey": "cluster_5302c3f8b50c5540d746c2a8",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-10",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "us-current-austin-sage-2005",
+        "us-current-austin-operator-history"
+      ]
+    },
+    {
+      "candidateId": "cand_3d738afa4105d07678f218c1",
+      "codes": [
+        "IATA:ECP",
+        "ICAO:KECP"
+      ],
+      "country": "US",
+      "eventGroupId": "lead_aab2291b41e2412c65ac4a5b",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "Existing official FAA location-identifier and NWS replacement evidence already underlies bounded formal ICAO KECP data. NWS weather effective date must not be reused as IATA ECP first allocation without direct statement.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 114,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Northwest Florida Beaches",
+      "nextAction": "Find original IATA ECP assignment/old PFN withdrawal and earlier controlled FAA original; preserve already-published KECP answers.",
+      "rankedPriorityScore": 85,
+      "referenceId": "ref_a6bf9453eb5fe70d0e6853fe",
+      "relatedEventGroupIds": [
+        "dup_74d59eb493cd15e3e5b56600"
+      ],
+      "researchClassification": "existing_formal_scope_reused_no_new_iata_interval",
+      "researchClusterKey": "cluster_684a199713fddc6617c94394",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-11",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "faa-2009",
+        "faa-2014",
+        "nws-panama",
+        "fr-2011-12359"
+      ]
+    },
+    {
+      "candidateId": "cand_56737a2573508e3580bca58a",
+      "codes": [
+        "IATA:ISN"
+      ],
+      "country": "US",
+      "eventGroupId": "lead_d968aea0b5ec9cc399ea4989",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "Reused FAA notice states permanent Sloulin physical closure effective 2019-10-10. It does not, by itself, establish exact ISN or KISN withdrawal instants.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 117,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Sloulin Field",
+      "nextAction": "Obtain code withdrawal records and archive directory issue lifecycle; distinguish closure effective date from code termination.",
+      "rankedPriorityScore": 85,
+      "referenceId": "ref_6530f03b81dbc68f71146713",
+      "relatedEventGroupIds": [
+        "lead_df058146ff2e7d386b3b4d11"
+      ],
+      "researchClassification": "physical_closure_not_code_withdrawal_proof",
+      "researchClusterKey": "cluster_18fa784a44ba643dd20936a5",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-12",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "us-isn-closure"
+      ]
+    },
+    {
+      "candidateId": "cand_54497250c7cdecd98ddff8a1",
+      "codes": [
+        "IATA:CEL",
+        "IATA:QCN",
+        "ICAO:SSCN"
+      ],
+      "country": "BR",
+      "eventGroupId": "dup_4667074808cf3feab31c8d30",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "DECEA AISWEB currently identifies Canela SSCN with physical coordinates. Candidate CEL→QCN IATA change is not confirmed by ICAO/ROTAER row.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 128,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Canela",
+      "nextAction": "Obtain IATA/ANAC/operator original explicitly binding CEL and QCN to code-specific effective dates; retain SSCN as discrete official observation.",
+      "rankedPriorityScore": 80,
+      "referenceId": "ref_f3eaf6b50f486129860892ef",
+      "relatedEventGroupIds": [
+        "dup_6da3166762f1a1da3181aa62"
+      ],
+      "researchClassification": "same_site_iata_change_or_directory_correction",
+      "researchClusterKey": "cluster_d14b55100af5ee4ba029378c",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-13",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-br-decea-sscn"
+      ]
+    },
+    {
+      "candidateId": "cand_2a776616dfc68a904fc2df0a",
+      "codes": [
+        "IATA:KSS",
+        "ICAO:GASO"
+      ],
+      "country": "ML",
+      "eventGroupId": "dup_5c746275bd391fa3564f411e",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "ASECNA AD 2 effective 2025-04-17 directly names Sikasso / Dignangan as GASO; GEN 2.4 effective 2020-05-21 also lists that named GASO site. These are dated component observations, not a proven continuous 2020–2025 interval or evidence of GASK withdrawal or KSS transfer.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 130,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Sikasso Dignangan",
+      "nextAction": "Acquire earlier GASK AD2 with ARP plus commissioning/closure and KSS transfer originals; keep Dignangan and old Sikasso physically separate.",
+      "rankedPriorityScore": 80,
+      "referenceId": "ref_ca0445fda06a40ae1075d51f",
+      "relatedEventGroupIds": [
+        "dup_180ddc8017e6c8e23ed4a78a"
+      ],
+      "researchClassification": "new_old_site_replacement_code_relation_unresolved",
+      "researchClusterKey": "cluster_4f96fec1b296946276eb1467",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-14",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-asecna-ml-gaso-ad2",
+        "global-code-expansion-asecna-ml-gen24"
+      ]
+    },
+    {
+      "candidateId": "cand_5ae2bd951f1ddfbbbc4a1b98",
+      "codes": [
+        "IATA:DJT",
+        "IATA:PBI",
+        "ICAO:KDJT",
+        "ICAO:KPBI"
+      ],
+      "country": "US",
+      "eventGroupId": "dup_053fff021fcc335a906d311d",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "County operator FAQ explicitly reports ICAO KPBI→KDJT on 2026-07-09 and IATA PBI→DJT on 2026-08-18. County page corroborates publisher; FAA 2611 confirms current ICAO KDJT and physical field. Outer boundaries and continuous histories remain unknown.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 235,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "boundary_only_candidate",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "West Palm Beach code changes",
+      "nextAction": "Obtain authenticated FAA location-identifier action and IATA notification originals; accept a source-family code policy and clear relevant NOTAM lifecycle before controlled-edition simulation is admitted.",
+      "rankedPriorityScore": 75,
+      "referenceId": "ref_883aa326342a218ed6f9e953",
+      "relatedEventGroupIds": [
+        "dup_6279a9905036d66a2791adb9",
+        "dup_c4b7b5d86ec95fca31808484",
+        "dup_0a6721aad67018d831da5cf4",
+        "dup_ebd2dc88ed61ee3086aec91c"
+      ],
+      "researchClassification": "same_physical_airport_two_namespace_code_changes",
+      "researchClusterKey": "cluster_d5ca864bb0f6b7eae665e5c5",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-15",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-us-pbi-name-faq",
+        "global-code-expansion-us-pbc-airports",
+        "global-code-expansion-us-faa-dtpp-2611",
+        "global-code-expansion-us-faa-djt-diagram-2611"
+      ]
+    },
+    {
+      "candidateId": "cand_0f2e3f5f72074abbd6b0ab15",
+      "codes": [
+        "IATA:JJU"
+      ],
+      "country": "GL",
+      "eventGroupId": "dup_7a584406aa27a226ded5fec9",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "Operator report distinguishes ongoing Greenland operations and future Qaqortoq airport development, preventing automatic old heliport/new airport merging. No code-specific heliport withdrawal or JJU transfer time obtained.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 261,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Qaqortoq existing heliport",
+      "nextAction": "Obtain old heliport entry and its closure/withdrawal NOTAM plus new BGQO/IATA transition records; do not assign future project dates to codes.",
+      "rankedPriorityScore": 75,
+      "referenceId": "ref_646dfd4b316e1d20ca208774",
+      "relatedEventGroupIds": [],
+      "researchClassification": "existing_heliport_vs_new_airport_transfer_unproven",
+      "researchClusterKey": "cluster_fd1dcfb7d99f54f8fc2271a0",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-16",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-gl-operator-annual2022"
+      ]
+    },
+    {
+      "candidateId": "cand_00edcd7e3087744b28ff945e",
+      "codes": [
+        "IATA:SVD",
+        "ICAO:TVSA"
+      ],
+      "country": "VC",
+      "eventGroupId": "dup_8a7de9f5895ebfebf5d44ac7",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "Operator current aerodrome data explicitly binds SVD/TVSA to Argyle and coordinates13°09N061°09W. Its 2017 opening history is distinct from code assignment dates; government opening original503.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 140,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Argyle",
+      "nextAction": "Acquire Eastern Caribbean AIS pre/post TVSV/TVSA and IATA SVD transfer notice; verify nominal operator source custody against government reference.",
+      "rankedPriorityScore": 80,
+      "referenceId": "ref_f3d275fcbfec4cd3eaf29cef",
+      "relatedEventGroupIds": [],
+      "researchClassification": "genuine_airport_replacement_code_transfer_unproven",
+      "researchClusterKey": "cluster_4a20e55783333e13ecb30231",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-17",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-vc-argyle-operator"
+      ]
+    },
+    {
+      "candidateId": "cand_406d75eef807af6f08f04c57",
+      "codes": [
+        "IATA:SHO",
+        "ICAO:FDSK"
+      ],
+      "country": "SZ",
+      "eventGroupId": "dup_e3b996ff0b6c0b5d1062a8ce",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "Eswatini CAA operator page describes King Mswati III airport infrastructure and separate physical facility. Retrieved page contains no direct SHO/FDSK allocation clause.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 152,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "King MswatiIII",
+      "nextAction": "Acquire Eswatini AIS AD2 FDSK and official SHO allocation/transfer notice with version/effectiveness; keep infrastructure facts separate.",
+      "rankedPriorityScore": 80,
+      "referenceId": "ref_82e7068d097445c48d2f3e91",
+      "relatedEventGroupIds": [],
+      "researchClassification": "physical_airport_context_no_historical_code_interval",
+      "researchClusterKey": "cluster_2da89abea29f47dd703a95c7",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-18",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-sz-eswacaa-kmiii"
+      ]
+    },
+    {
+      "candidateId": "cand_8c248a2c9e591d36448e0279",
+      "codes": [
+        "IATA:SRE",
+        "ICAO:SLAL"
+      ],
+      "country": "BO",
+      "eventGroupId": "lead_b26407119d6e26dbf2ca21ab",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "NAABOL explicitly describes Alcantarí as 2016 replacement for Juana Azurduy airport, corroborating two physical sites. Retrieved history has no code-specific SRE transfer or SLAL first allocation dates.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 212,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Alcantarí",
+      "nextAction": "Acquire Bolivia AIS SLAL/SLSU effective AD2 and IATA SRE transfer notice; do not substitute 2016 inauguration for either code boundary.",
+      "rankedPriorityScore": 80,
+      "referenceId": "ref_05deb575ed2fba7a570ba2c2",
+      "relatedEventGroupIds": [
+        "lead_d18b79c0bb9809446250e9a4",
+        "lead_d4be90551708c5f9059595d7"
+      ],
+      "researchClassification": "real_replacement_operations_not_code_dates",
+      "researchClusterKey": "cluster_44592c5d23722707dccf7d74",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-19",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-bo-naabol-alcantari"
+      ]
+    },
+    {
+      "candidateId": "cand_59b95440fba4a9fd901db84e",
+      "codes": [
+        "IATA:WWT",
+        "ICAO:PAEW"
+      ],
+      "country": "US",
+      "eventGroupId": "lead_05d2b569514e67268fe8b82b",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "FAA/Alaska 2020 approved modification identifies existing Newtok PAEW/EWU and planned relocation to Mertarvik; current DOT list calls Mertarvik EWU. A project identifier and FAA LID do not establish IATA WWT or exact ICAO reassignment date.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 70,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Mertarvik",
+      "nextAction": "Acquire FAA master-record identifier action for both ARPs plus IATA WWT relocation notice and actual closure/opening execution; retain plan/date distinctions.",
+      "rankedPriorityScore": 90,
+      "referenceId": null,
+      "relatedEventGroupIds": [],
+      "researchClassification": "real_relocation_project_code_reuse_unresolved",
+      "researchClusterKey": "cluster_7631cbe0f6989ff49a81ea8f",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-20",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-us-alaska-mertarvik-relocation",
+        "global-code-expansion-us-alaska-central-airports"
+      ]
+    },
+    {
+      "candidateId": "cand_166657d8a64952b52f8d35a1",
+      "codes": [
+        "IATA:SEO",
+        "ICAO:DISG"
+      ],
+      "country": "CI",
+      "eventGroupId": "dup_410ac52b9140237b9828aa6c",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "ASECNA row observes Séguéla DISG at07°58N006°42W; SEO timing absent.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 1262,
+      "highValue": false,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Séguéla",
+      "nextAction": "Obtain dated pre/post DISG official editions and IATA SEO allocation evidence.",
+      "rankedPriorityScore": 60,
+      "referenceId": "ref_38e6a60fd2e45af5c918cf98",
+      "relatedEventGroupIds": [
+        "dup_17b95ee4446392b7a9f9d0f2"
+      ],
+      "researchClassification": "directory_correction_or_code_change_unresolved",
+      "researchClusterKey": "cluster_cae5cf1c89f26d53d3715198",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-21",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-asecna-ci-ad13-sites"
+      ]
+    },
+    {
+      "candidateId": "cand_0fafbc4e42b734f11b88cdc6",
+      "codes": [
+        "IATA:BOE",
+        "ICAO:FCOB"
+      ],
+      "country": "CG",
+      "eventGroupId": "dup_92d234f2ebef1b748b19582d",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "ASECNA AD1.3 row observes Boundji FCOB; no BOE allocation date.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 1331,
+      "highValue": false,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Boundji",
+      "nextAction": "Compare official historical FCOB site/indicator records and independent BOE ledger.",
+      "rankedPriorityScore": 60,
+      "referenceId": "ref_1e164c32367683b6792bf100",
+      "relatedEventGroupIds": [
+        "dup_6687a8726bd50021bfdb4572"
+      ],
+      "researchClassification": "directory_correction_or_code_change_unresolved",
+      "researchClusterKey": "cluster_27776584a5042637c1263e4f",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-22",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-asecna-cg-ad13-sites"
+      ]
+    },
+    {
+      "candidateId": "cand_889bf6b000a49c406b01cae4",
+      "codes": [
+        "IATA:MKB",
+        "ICAO:FOOE"
+      ],
+      "country": "GA",
+      "eventGroupId": "dup_52b890b00c3da6adbf1c4e27",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "ASECNA AD1.3 row observes Mekambo FOOE; no MKB allocation date.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 1276,
+      "highValue": false,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Mekambo",
+      "nextAction": "Obtain dated Gabon AD2/location-indicator amendments and IATA MKB original.",
+      "rankedPriorityScore": 60,
+      "referenceId": "ref_b899667788d842a9b429828f",
+      "relatedEventGroupIds": [
+        "dup_0accef3450d3ef3c30342424"
+      ],
+      "researchClassification": "directory_correction_or_code_change_unresolved",
+      "researchClusterKey": "cluster_8127151b6b4b371f8cf54e94",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-23",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-asecna-ga-ad13-sites"
+      ]
+    },
+    {
+      "candidateId": "cand_bab9b998a6bda9fcf148436a",
+      "codes": [
+        "IATA:KDA",
+        "ICAO:GODK",
+        "ICAO:GOGK"
+      ],
+      "country": "SN",
+      "eventGroupId": "lead_0a4abadffb06db8a2cdd54c7",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "ASECNA Senegal AD 1.3 explicitly observes Kolda / Sare Bidji as GOGK. Candidate GODK/GOGK history remains unresolved. The guessed closure supplement endpoint returned 404; no closure or code boundary is claimed.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 3068,
+      "highValue": false,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Kolda",
+      "nextAction": "Find actual ASECNA SUP/NOTAM identifier with issuer index, then reconcile old/new GODK/GOGK site associations.",
+      "rankedPriorityScore": 50,
+      "referenceId": "ref_bac0e7fbe65da299621f1e75",
+      "relatedEventGroupIds": [
+        "lead_bb869fed0118ecc7bce2e2a5",
+        "lead_d4cc62fe9f666a97fe3c18f5",
+        "lead_e0a1700cf35038eb4b69c087",
+        "lead_ead263faa77e7fab0ec32c15"
+      ],
+      "researchClassification": "icao_indicator_correction_or_reuse_unresolved",
+      "researchClusterKey": "cluster_f0d983fbffdefd7d1f35118e",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-24",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-asecna-sn-ad13-sites",
+        "global-code-expansion-asecna-kolda-closure-2025"
+      ]
+    },
+    {
+      "candidateId": "cand_1c54665e51a20b60f7c8294a",
+      "codes": [
+        "IATA:GGJ",
+        "IATA:QGA",
+        "ICAO:SSGY"
+      ],
+      "country": "BR",
+      "eventGroupId": "dup_0365ae594762d8429605e838",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "DECEA current row observes Guaíra SSGY. Candidate GGJ/QGA IATA relationship remains directory-only.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 1612,
+      "highValue": false,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Guaíra",
+      "nextAction": "Acquire original IATA/ANAC operator notice for GGJ/QGA and dates; do not infer from ICAO row.",
+      "rankedPriorityScore": 55,
+      "referenceId": "ref_226932c34b4429ea045eb7bf",
+      "relatedEventGroupIds": [
+        "dup_9f07cac850e949e8956e16c8"
+      ],
+      "researchClassification": "same_site_iata_change_unproven",
+      "researchClusterKey": "cluster_520b6c5ae36df1269425ef91",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-25",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-br-decea-ssgy"
+      ]
+    },
+    {
+      "candidateId": "cand_b1ce87e8cb342fe42795bf60",
+      "codes": [
+        "IATA:PGZ",
+        "ICAO:SBPG"
+      ],
+      "country": "BR",
+      "eventGroupId": "dup_17dce87343bd52effbe0c3dc",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "DECEA current row observes PontaGrossa SBPG. Historical SSZW→SBPG effective date and PGZ interval remain unknown.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 3851,
+      "highValue": false,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "PontaGrossa",
+      "nextAction": "Acquire DECEA amendment/NOTAM for SSZW/SBPG with effective timestamp and separate PGZ evidence.",
+      "rankedPriorityScore": 45,
+      "referenceId": "ref_aa7acf8b1985bb44c416d608",
+      "relatedEventGroupIds": [],
+      "researchClassification": "icao_change_or_directory_correction_unproven",
+      "researchClusterKey": "cluster_04c5d05b280b15e5aae261f2",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-26",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-br-decea-sbpg"
+      ]
+    },
+    {
+      "candidateId": "cand_8b2f00d334d03213eb52c2f0",
+      "codes": [
+        "IATA:YKZ"
+      ],
+      "country": "CA",
+      "eventGroupId": "lead_1f87223a168fb0c56519e4d5",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "NAVCANADA notice explicitly states Buttonville CYKZ ceases operations 2023-11-30 at 0901 UTC; procedures remain effective until then. This is not separately IATA YKZ withdrawal.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 3106,
+      "highValue": false,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Buttonville",
+      "nextAction": "Find code withdrawal/identifier amendment; preserve local-day edge of 0901 UTC separately from code allocation boundary.",
+      "rankedPriorityScore": 50,
+      "referenceId": null,
+      "relatedEventGroupIds": [],
+      "researchClassification": "operational_closure_not_code_withdrawal",
+      "researchClusterKey": "cluster_8ebfbc67e8572baa46cb15b4",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-27",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-ca-buttonville-notice-2023",
+        "global-code-expansion-ca-buttonville-aic-16-23"
+      ]
+    },
+    {
+      "candidateId": "cand_53a05911b200ff4ff5f5501f",
+      "codes": [
+        "IATA:YZD"
+      ],
+      "country": "CA",
+      "eventGroupId": "lead_10c5732d7bf423516b919553",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "NAVCANADA notice identifies Downsview CYZD closure and airspace/procedure changes. No independent IATA YZD withdrawal date established.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 7920,
+      "highValue": false,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "Downsview",
+      "nextAction": "Obtain controlled code identifier retirement and exact effective AIP/NOTAM package; IATA separately.",
+      "rankedPriorityScore": 40,
+      "referenceId": "ref_31e8cea26b2edc83867ed2f0",
+      "relatedEventGroupIds": [
+        "dup_5e73bf99ed5a2c5161926628"
+      ],
+      "researchClassification": "operational_closure_not_code_withdrawal",
+      "researchClusterKey": "cluster_ca8165b83936c0827a7a1108",
+      "researchStatus": "original_or_locked_evidence_inspected",
+      "reviewId": "americas-africa-28",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-ca-downsview-notice-2024"
+      ]
+    },
+    {
+      "candidateId": "cand_1635fb8a39bc1529ddaef394",
+      "codes": [
+        "IATA:WSI",
+        "ICAO:YSWS"
+      ],
+      "country": "AU",
+      "eventGroupId": "dup_01b344a4bc278419e399fcbb",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "findings": "Airservices endpoint returns copyright consent notice rather than AIP original; restricted storage/publication conditions were not accepted. No WSI/YSWS date evidence acquired.",
+      "formalAdmission": {
+        "blockers": [
+          "Code-specific historical whole-interval/outer-bound evidence remains incomplete or unsupported continuity would be required.",
+          "No applicable new source-family code authorization is activated by this research.",
+          "Claim-specific rights/access and conflict/NOTAM review remain separate requirements."
+        ],
+        "eligible": false
+      },
+      "globalRank": 91,
+      "highValue": true,
+      "iataConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "icaoConclusion": {
+        "continuousHistoricalIntervalEstablished": false,
+        "status": "candidate_or_already_formal_only",
+        "validityBoundary": {
+          "earliest": null,
+          "latest": null,
+          "precision": "unknown"
+        }
+      },
+      "independence": "Repeated issuer editions or mirrored FAA records are one issuer lineage; directory derivatives are not independent corroboration.",
+      "name": "WesternSydney",
+      "nextAction": "Obtain lawfully usable official code allocation notice or an authorized AIP access/reuse basis; do not bypass consent.",
+      "rankedPriorityScore": 85,
+      "referenceId": "ref_5105073a8f6342bc90e6dbd2",
+      "relatedEventGroupIds": [
+        "lead_0c92b252f2e7f1908d598877",
+        "lead_a859ec9c95d9e9a7d5c37194"
+      ],
+      "researchClassification": "access_and_rights_blocked",
+      "researchClusterKey": "cluster_0515f4f9e56913fca4016f6f",
+      "researchStatus": "source_access_or_rights_blocked",
+      "reviewId": "americas-africa-29",
+      "selectionReason": "Final full-corpus ranking, code/reuse/physical-site value and reusable primary-source cluster; no regional bonus or fixed country quota.",
+      "sourceIds": [
+        "global-code-expansion-au-ersa-20260903-index"
+      ]
+    }
+  ],
+  "formatVersion": 1,
+  "reviewedOn": "2026-11-07",
+  "selectionInput": "research/evidence/global-code-expansion/ranked-events.manifest.json"
+}

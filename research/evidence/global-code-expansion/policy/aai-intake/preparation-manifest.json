@@ -1,0 +1,28 @@
+{
+  "baselineCommit": "7d21ff6762e1569faa1be19c8203e577420cd1f2",
+  "formalAdmission": false,
+  "formatVersion": 1,
+  "meaning": "Data appended only in ignored isolated checkout; live research/grants/executables unchanged.",
+  "mode": "private_scratch_data_overlay",
+  "newInputSource": "research/evidence/global-code-expansion/asia/aai-gate-intake.json",
+  "newRecordIds": [
+    "global-code-expansion-vosh-icao",
+    "global-code-expansion-veay-icao",
+    "global-code-expansion-vanm-icao"
+  ],
+  "overlayFiles": [
+    "research/policy/excerpts/asia-in-11-06-2026-vosh.json",
+    "research/policy/excerpts/asia-in-11-06-2026-veay.json",
+    "research/policy/excerpts/asia-in-11-06-2026-vanm.json",
+    "research/policy/excerpts/asia-in-09-07-2026-vosh.json",
+    "research/policy/excerpts/asia-in-09-07-2026-veay.json",
+    "research/policy/excerpts/asia-in-09-07-2026-vanm.json",
+    "research/policy/excerpts/asia-in-11-06-2026-gen02.json",
+    "research/policy/source-lock.json",
+    "research/evidence/global/generated/proposed-data.json",
+    "research/evidence/global/generated/dossier.json",
+    "research/evidence/global/generated/batches/global-evidence-proposal-2.json",
+    "research/policy/screening.json"
+  ],
+  "unchangedExecutableRequirement": true
+}

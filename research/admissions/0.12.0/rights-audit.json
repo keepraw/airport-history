@@ -1,0 +1,72 @@
+{
+  "access": "Public official AAI archive originals obtained without access bypass; actual retained bytes replayed by the unchanged gate.",
+  "authorityScope": "Existing official-aip-bounded-icao@1.0.0 only. No IATA, China or Korean code authority, copyright transfer, or general global source licence is inferred.",
+  "existingAuthority": "https://github.com/keepraw/airport-history/issues/19#issuecomment-6513409968",
+  "formatVersion": 1,
+  "fullRedistributionPermissionEstablished": false,
+  "independence": "Two controlled dated observations per code are distinct original publications from ONE issuer. They are not two independent publishers.",
+  "publicRetention": "Attribution, original/text/citation hashes, minimal factual code/name/ARP citations, and original research analysis. Full originals, full extraction, charts, photographs and complete AIP tables stay ignored work/.",
+  "scope": "Only the six new AAI source records for VANM/VEAY/VOSH; source publication rights remain with AAI.",
+  "sourceRecords": [
+    {
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "scope": "Named physical-site reference plus bounded ICAO continuity only.",
+      "sourceId": "asia-in-11-06-2026-vanm",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VANM-en-GB.html"
+    },
+    {
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "scope": "Named physical-site reference plus bounded ICAO continuity only.",
+      "sourceId": "asia-in-09-07-2026-vanm",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VANM-en-GB.html"
+    },
+    {
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "scope": "Named physical-site reference plus bounded ICAO continuity only.",
+      "sourceId": "asia-in-11-06-2026-veay",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VEAY-en-GB.html"
+    },
+    {
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "scope": "Named physical-site reference plus bounded ICAO continuity only.",
+      "sourceId": "asia-in-09-07-2026-veay",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VEAY-en-GB.html"
+    },
+    {
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "scope": "Named physical-site reference plus bounded ICAO continuity only.",
+      "sourceId": "asia-in-11-06-2026-vosh",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/11-06-2026/eAIP/IN-AD%202.1VOSH-en-GB.html"
+    },
+    {
+      "license": {
+        "id": "LicenseRef-AAI-Terms",
+        "note": "AAI retains rights. Only necessary factual citations; no full original, charts, photographs or complete extraction redistributed.",
+        "url": "https://www.aai.aero/en/corporate/copyright"
+      },
+      "scope": "Named physical-site reference plus bounded ICAO continuity only.",
+      "sourceId": "asia-in-09-07-2026-vosh",
+      "url": "https://aim-india.aai.aero/eAIP_Archive/09-07-2026/eAIP/IN-AD%202.1VOSH-en-GB.html"
+    }
+  ]
+}

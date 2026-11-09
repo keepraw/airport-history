@@ -1,0 +1,24 @@
+{
+  "sourceId": "pt-nav-gen24",
+  "originalSha256": "e34bdaed960b5472e9700cb3f3e605e14c78ebe7069b2a160b5d9459a7f2fd58",
+  "extractedTextSha256": "e7cac5bf4d52a702a28b98a6196bb3e6b9f7656a41606d45fa9f60681099ba63",
+  "normalizedTextSha256": "75ab1fbc6261dadf0473134862e27760802e2dbf195dd91597b24e1c1bfc9e91",
+  "spans": [
+    {
+      "representation": "normalized_text",
+      "characterStart": 438,
+      "characterEnd": 450,
+      "quote": "ALVERCA LPAR",
+      "quoteSha256": "ce53084363502312e93e0c9b7560a62105cf65ac5161a35eec122b474ef9edb9"
+    },
+    {
+      "representation": "normalized_text",
+      "characterStart": 54,
+      "characterEnd": 76,
+      "quote": "valid from 01 OCT 2026",
+      "quoteSha256": "55a9c77f661563247afa1a99ab22cac6f9e179b2694e7f9ffbb8fbe79f323c40"
+    }
+  ],
+  "quoteScope": "Minimal factual code/name/date anchors only; full original and complete extraction remain ignored work/.",
+  "dateNature": "GEN2.4 meta explicitly records effective2026-10-01; this is a controlled location-indicator observation, not first allocation"
+}

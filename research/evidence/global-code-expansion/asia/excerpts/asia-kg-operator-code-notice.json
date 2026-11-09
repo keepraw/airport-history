@@ -1,0 +1,24 @@
+{
+  "extractedTextSha256": "d54663a059dba65ea0c59404dcf16c3573db9ada0e6458538ef0329220084d17",
+  "normalizedTextSha256": "28a383e63fd9a0edede4eaebc446e4ce81f773a6a3a23c30092f08cc0dc6edb2",
+  "originalSha256": "f0bb454f0fa03ebb7daef095b48c60da33d846abcbd06383673b4670bd109c8f",
+  "sourceId": "asia-kg-operator-code-notice",
+  "spans": [
+    {
+      "characterEnd": 282686,
+      "characterStart": 282665,
+      "locator": "Article body / controlled heading",
+      "quote": "с 9 августа 2025 года",
+      "quoteSha256": "4f942c5183a39fc7f11f99a11b466881b2e562ae20dc10fa5d4c7a7717788951",
+      "representation": "normalized_text"
+    },
+    {
+      "characterEnd": 285626,
+      "characterStart": 285595,
+      "locator": "Article body / controlled heading",
+      "quote": "с текущего FRU на новый код BSZ",
+      "quoteSha256": "f510c1f14a962811aba60fd9a94f3d72c70d3f66b2456735db887e3886e43512",
+      "representation": "normalized_text"
+    }
+  ]
+}

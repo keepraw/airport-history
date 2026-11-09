@@ -1,0 +1,24 @@
+{
+  "sourceId": "no-avinor-offshore",
+  "originalSha256": "57aabe37d5b30e4434fc19d80ab582cddb15a5d1b19f790050317dd47968c2c9",
+  "extractedTextSha256": "52258dd9c640a6db7cfb505db7ad08c4e3f00f8a13581402188d0045ac9a2c50",
+  "normalizedTextSha256": "e6fe35e452df5de4afb70858de47dcc3dcde01d98a4f4a0b7bb68f3bd408f103",
+  "spans": [
+    {
+      "representation": "normalized_text",
+      "characterStart": 3713,
+      "characterEnd": 3729,
+      "quote": "ENQO Oseberg Sør",
+      "quoteSha256": "e0edbabf755beeb23e376b55d18f9bc19793f681ddd6b5be0fb2c02da5bd676c"
+    },
+    {
+      "representation": "normalized_text",
+      "characterStart": 3766,
+      "characterEnd": 3782,
+      "quote": "ENQE Oseberg Øst",
+      "quoteSha256": "d7690b58ddb11630d5c19dda6e4761e3f2039464986be071438da8b55abc9746"
+    }
+  ],
+  "quoteScope": "Minimal factual code/name/date anchors only; full original and complete extraction remain ignored work/.",
+  "dateNature": "Operator wiki last-update date; no code-effective boundary stated"
+}

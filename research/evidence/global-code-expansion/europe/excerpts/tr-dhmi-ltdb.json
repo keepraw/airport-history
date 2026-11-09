@@ -1,0 +1,24 @@
+{
+  "sourceId": "tr-dhmi-ltdb",
+  "originalSha256": "f11f1edc604f811ee61ac73685bcf8e54354905de4c0741d79d4170f8fbaa9ba",
+  "extractedTextSha256": "4d481838e906af43b774bcd196129c7ad3dfde0b3d23719e350687d55d69d30b",
+  "normalizedTextSha256": "a59cb100887b025e8244f3489a050382eba7e973460773da93b68906c2b17bf1",
+  "spans": [
+    {
+      "representation": "normalized_text",
+      "characterStart": 86,
+      "characterEnd": 101,
+      "quote": "LTDB - ÇUKUROVA",
+      "quoteSha256": "64a25db41a93468a88ac8150bef0be319a81da77aa9f7d7057bd21efc9d1a417"
+    },
+    {
+      "representation": "normalized_text",
+      "characterStart": 194,
+      "characterEnd": 210,
+      "quote": "365330N-0350416E",
+      "quoteSha256": "15a18bd584171843c500cd85e9a8f51e55a939147f06315d433debb8c6385c54"
+    }
+  ],
+  "quoteScope": "Minimal factual code/name/date anchors only; full original and complete extraction remain ignored work/.",
+  "dateNature": "page date; complete AIRAC package/effective cover not obtained; no allocation date"
+}

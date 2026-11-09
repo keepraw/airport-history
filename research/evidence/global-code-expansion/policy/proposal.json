@@ -1,0 +1,1450 @@
+{
+  "authorization": null,
+  "baseline": {
+    "commit": "7d21ff6762e1569faa1be19c8203e577420cd1f2",
+    "dataVersion": "0.11.0"
+  },
+  "createdOn": "2026-11-07",
+  "dataPreparationStatus": {
+    "aaiOverlay": "same_authorized_AAI_gate_and_private_original_replay_passed_for_VOSH_VEAY_VANM",
+    "admission": "reviewable_0.12.0_formal_data_proposal_and_isolated_offline_replay_passed",
+    "admissionBundle": "research/admissions/0.12.0",
+    "executorChanged": false,
+    "formalDataChanged": true,
+    "formalDataMeaning": "Working-tree 0.12.0 proposal only; published main remains 0.11.0 until human merge.",
+    "grantChanged": false,
+    "newIcaoAssignmentsProposed": 3,
+    "newResolvedCodeDateQueriesInProposedData": 81,
+    "newResolvedCodeDateQueriesInPublishedMain": 0,
+    "replayManifest": "research/evidence/global-code-expansion/policy/aai-intake/replay-manifest.json"
+  },
+  "evidenceClasses": {
+    "code_specific_explicit_notice": {
+      "defaultResult": "candidate_until_family_authority_and_all_other_gates_pass",
+      "required": [
+        "official operator or competent authority explicitly distinguishes code change from passenger/terminal move",
+        "typed code, physical sites and code-specific effective boundary",
+        "issuer role/competence and fact lineage documented",
+        "allocation authority corroboration or explicit approved family acceptance",
+        "rights and conflict review"
+      ]
+    },
+    "iata_explicit_allocation_notice": {
+      "doesNotProve": [
+        "the other namespace",
+        "unknown opposite boundary",
+        "continuous validity outside explicit scope"
+      ],
+      "required": [
+        "lawfully acquired original issued by IATA or competent authority/operator explicitly reporting allocation/transfer/withdrawal",
+        "explicit IATA namespace and exact code",
+        "unambiguous physical site identity",
+        "code-specific effective boundary, separately distinguished from approval/publication/opening",
+        "execution or supersession/correction review where prospective",
+        "source-specific lawful reuse basis"
+      ]
+    },
+    "icao_controlled_aip": {
+      "continuityRule": "No new global numerical gap grants continuity. An observation pair with missing intermediate control remains two observations and unknown intervening validity.",
+      "required": [
+        "AD2 site-specific code/name/ARP original",
+        "effective edition index and amendment publication identity",
+        "all intervening relevant ordinary/AIRAC revisions and SUP/NOTAM checked",
+        "independent physical-site corroboration and competing-site screen",
+        "exact authorized family temporal rule or explicit effective validity clause"
+      ]
+    },
+    "icao_explicit_allocation_notice": {
+      "doesNotProve": [
+        "IATA code",
+        "airport physical opening/closure unless separately stated"
+      ],
+      "required": [
+        "issuer-authenticated AIS/AIP/NOTAM or competent official code-change notice",
+        "explicit ICAO location indicator linked to physical site",
+        "code-specific effective date/clock and timezone if available",
+        "notice replacement/cancellation/EST/PERM lifecycle and contradictory editions reconciled",
+        "source-specific lawful reuse basis"
+      ]
+    },
+    "observation_or_physical_event_only": {
+      "defaultResult": "research_candidate_or_physical_event_only",
+      "examples": [
+        "current directory",
+        "archived airline page",
+        "weather exchange station code",
+        "licence",
+        "airport inauguration",
+        "terminal replacement",
+        "airspace regulation",
+        "government project approval"
+      ],
+      "maySetCodeValidity": false
+    }
+  },
+  "existingAuthority": [
+    {
+      "excludedCodes": [
+        "LEMI",
+        "RMU",
+        "MJV",
+        "TAG",
+        "LYG",
+        "YBP"
+      ],
+      "family": "aai-aip",
+      "grantPath": "research/policy/authorizations.json",
+      "maximumGapDays": 112,
+      "maximumWindowDays": 112,
+      "minimumDistinctOriginals": 2,
+      "policy": "official-aip-bounded-icao@1.0.0",
+      "policyPath": "research/policy/policy.json",
+      "publisher": "Airports Authority of India",
+      "scheme": "ICAO",
+      "state": "authorized_exact_existing_scope",
+      "unknownOuterBoundsRequired": true,
+      "urlPrefix": "https://aim-india.aai.aero/eAIP_Archive/",
+      "usableForNewBatchOnlyIf": "All existing policy, scope, executor, evidence replay, immutable-baseline and competition predicates still pass; no grant inheritance."
+    },
+    {
+      "codes": [
+        "RKSI",
+        "RKSS"
+      ],
+      "grantPath": "research/admission/rule-v1/authorizations.json",
+      "policy": "kr-molit-bounded-icao@2.0.0-draft",
+      "policyPath": "research/admission/rule-v1/kr-code-policy.json",
+      "requiresSeparateAuthorizedPhysicalIdentity": true,
+      "scheme": "ICAO",
+      "state": "authorized_exact_existing_scope",
+      "usableForNewBatchOnlyIf": "Exact identity, original AIP, ordinary editions, AIRAC, NOTAM, SUP, checklist and outstanding-snapshot facts replay under existing fingerprints; legacy kr-molit-v1 has no authorizations.",
+      "window": {
+        "from": "2025-04-18",
+        "timezone": "Asia/Seoul",
+        "toExclusive": "2025-05-15"
+      }
+    },
+    {
+      "codeAuthority": false,
+      "inactiveCodeFamilies": [
+        "CN-CAAC-AIP",
+        "CN-EXPLICIT-CODE-ALLOCATION"
+      ],
+      "policy": "official-source-claims@1.0.0",
+      "policyPath": "research/admission/source-claims-v1/policy.json",
+      "state": "CN_physical_identity_only"
+    }
+  ],
+  "families": [
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Use the exact existing aai-aip publisher, archive URL prefix, scheme, thresholds, exclusions and executor fingerprint; this profile creates no new authority.",
+        "AIP AD1.3 index or airport licence date alone cannot satisfy existing AD2/name/ARP and original replay requirements."
+      ],
+      "countries": [
+        "IN"
+      ],
+      "familyId": "IN-AAI-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "b5-in-aip-2012-ad13",
+        "b5-in-aip-2026-vobl",
+        "in-rajkot-aip-2024"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "existing_authorized_exact_scope_only",
+      "publisher": "Airports Authority of India",
+      "rightsStatus": "existing_scoped_metadata_and_necessary_factual_citations_only",
+      "sourceClass": "official_ais",
+      "status": "existing_authorized_exact_scope_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Only exact RKSI/RKSS ICAO window 2025-04-18 to 2025-05-15 Asia/Seoul is within rule-v1 authority.",
+        "Physical identities must already satisfy the separately authorized identity rule; all ordinary/AIRAC editions and A/G/Z NOTAM, SUP and official outstanding snapshots must be reconciled.",
+        "Other codes, dates, relocation/closure or IATA require new family scope approval."
+      ],
+      "countries": [
+        "KR"
+      ],
+      "familyId": "KR-MOLIT-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "kr-rksi-2025-04-16",
+        "kr-rksi-2025-05-14",
+        "kr-rkss-2025-04-16",
+        "kr-rkss-2025-05-14"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "existing_authorized_exact_scope_only",
+      "publisher": "Republic of Korea MOLIT Office of Civil Aviation",
+      "rightsStatus": "existing_scoped_metadata_and_short_citations_only",
+      "sourceClass": "official_ais",
+      "status": "existing_authorized_exact_scope_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Both CN-CAAC-AIP and CN-EXPLICIT-CODE-ALLOCATION are inactive in source-claims-v1.",
+        "Controlled historical AD2, edition index and all intervening amendments/NOTAM required; proposed 28-day ceiling grants no continuity.",
+        "Meteorological exchange identifiers do not establish ICAO assignment."
+      ],
+      "countries": [
+        "CN"
+      ],
+      "familyId": "CN-CAAC-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Civil Aviation Administration of China AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "observation_or_physical_event_only"
+      ],
+      "additionalRequirements": [
+        "Existing Article 5 administrative-document review covers scoped physical identities/administrative events only.",
+        "No airline directory, opening, approval or licence date can become a code effective date.",
+        "A document explicitly stating a code still needs code-claim authority and per-document rights/class review."
+      ],
+      "countries": [
+        "CN"
+      ],
+      "familyId": "CN-CAAC-GOV-ADMIN",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "cn-ankang-license",
+        "cn-ankang-executed",
+        "cn-yanan-sites"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "CAAC and document-issuing Chinese government agencies",
+      "rightsStatus": "existing_identity_scope_only_code_reuse_unestablished",
+      "sourceClass": "official_administration",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "iata_explicit_allocation_notice",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Obtain lawfully accessible dated assignment/transfer/withdrawal notice or licensed historical location-code edition.",
+        "Current code search only supports current displayed association; search/retrieval date is not an allocation boundary.",
+        "No licensed directory/database bulk redistribution or derived dataset permission is presumed."
+      ],
+      "countries": [
+        "GLOBAL"
+      ],
+      "familyId": "IATA-ALLOCATION",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "b5-iata-hyd-20261103",
+        "b5-iata-blr-20261103"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "International Air Transport Association",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "allocation_authority",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Historical AIP AD2 and controlled AIRAC/AMDT originals required; JMA station indicators are not sufficient ICAO allocation evidence."
+      ],
+      "countries": [
+        "JP"
+      ],
+      "familyId": "JP-MLIT-AIS",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Japan MLIT Civil Aviation Bureau AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "code_specific_explicit_notice"
+      ],
+      "additionalRequirements": [
+        "Operator code/site observations require a code-specific effective statement; airport opening and terminal changes establish different facts."
+      ],
+      "countries": [
+        "JP"
+      ],
+      "familyId": "JP-CENTRAIR-OPERATOR",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "jp-centrair-outline",
+        "jp-centrair-2005"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Central Japan International Airport Co.",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_operator",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "code_specific_explicit_notice"
+      ],
+      "additionalRequirements": [
+        "Distinguish NGO/NKM transfer from unchanged RJNA physical site, and separate commercial code from ICAO."
+      ],
+      "countries": [
+        "JP"
+      ],
+      "familyId": "JP-NAGOYA-OPERATOR",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "jp-nagoya-outline"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Nagoya Airport Terminal Building Co.",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_operator",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Recover historical controlled VTBS/VTBD packages around transition; current AIP cannot prove 2006 allocation."
+      ],
+      "countries": [
+        "TH"
+      ],
+      "familyId": "TH-CAAT-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "b5-th-aip-vtbs-2026"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Civil Aviation Authority of Thailand AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "code_specific_explicit_notice"
+      ],
+      "additionalRequirements": [
+        "Fiscal/operational report dates do not establish BKK/DMK or ICAO code transfer date."
+      ],
+      "countries": [
+        "TH"
+      ],
+      "familyId": "TH-AOT-OPERATOR",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "b5-th-aot-2q06",
+        "b5-th-aot-fy06"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Airports of Thailand",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_operator",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Recover controlled historical WMKK/WMSA AD2 and amendment chain; separate ARP correction from physical replacement."
+      ],
+      "countries": [
+        "MY"
+      ],
+      "familyId": "MY-CAAM-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "b5-my-aip-wmkk-2026"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Civil Aviation Authority of Malaysia AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Validate notice validity, replacement/cancellation and physical old/new Gwadar site; planned operations do not establish code effect."
+      ],
+      "countries": [
+        "PK"
+      ],
+      "familyId": "PK-PAA-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "pk-gwadar-aip",
+        "pk-gwadar-notam"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Pakistan Airports Authority AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Issuer custody, historical AD2 version and legal access/reuse must first be established."
+      ],
+      "countries": [
+        "BD"
+      ],
+      "familyId": "BD-CAAB-AIS",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Civil Aviation Authority of Bangladesh AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Historical AIP code/site clauses needed; Ministry opening articles remain physical-event evidence unless explicit namespace and effective boundary appear."
+      ],
+      "countries": [
+        "ID"
+      ],
+      "familyId": "ID-DGCA-AIS",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Indonesia Directorate General of Civil Aviation AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Distinguish certificates and physical transfer announcements from TAG/RPMT/RPSP code validity; acquire historical AD2/AIRAC originals."
+      ],
+      "countries": [
+        "PH"
+      ],
+      "familyId": "PH-CAAP-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "ph-bohol-caap",
+        "ph-caap-cert2025"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Civil Aviation Authority of the Philippines AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Airline timetable/carrier map does not substitute for historical ICAO AD2 or IATA allocation notice."
+      ],
+      "countries": [
+        "VN"
+      ],
+      "familyId": "VN-CAAV-AIS",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Civil Aviation Authority of Vietnam AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "observation_or_physical_event_only"
+      ],
+      "additionalRequirements": [
+        "Separate prospective REP/SAI or PNH/KTI announcement, actual move and code-specific effective notice."
+      ],
+      "countries": [
+        "KH"
+      ],
+      "familyId": "KH-SSCA",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "kh-sai-caa"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Cambodia State Secretariat of Civil Aviation",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_administration",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "observation_or_physical_event_only"
+      ],
+      "additionalRequirements": [
+        "Opening/commemoration date alone cannot prove PKR/VNPK/VNPR code transfer; historical controlled notice required."
+      ],
+      "countries": [
+        "NP"
+      ],
+      "familyId": "NP-CAAN",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "np-pokhara-caan",
+        "np-pokhara-jubilee"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Civil Aviation Authority of Nepal",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_administration",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Namespace must be explicitly ICAO: FAA LID and IATA overlap does not transfer namespace authority.",
+        "Federal employee official-work/public-domain status must be source scoped; contractors, third-party components, charts and notices require separate checks.",
+        "Historical NASR/airport-master/AD2 version and effective publication cycle required."
+      ],
+      "countries": [
+        "US"
+      ],
+      "familyId": "US-FAA-AIS",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "b5-us-dtpp-2611",
+        "us-xwa-supplement",
+        "us-order-2023"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "United States Federal Aviation Administration AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "observation_or_physical_event_only"
+      ],
+      "additionalRequirements": [
+        "Airspace-rule dates are not airport/code dates unless the original explicitly changes the typed code assignment."
+      ],
+      "countries": [
+        "US"
+      ],
+      "familyId": "US-FAA-FEDERAL-REGISTER",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "b5-us-fr-1999-aus",
+        "us-isn-closure"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "FAA regulations in Federal Register / GPO",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_administration",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "NAV CANADA publication access and database reuse terms must be verified; no US federal-public-domain inheritance.",
+        "New official AIC16/23 and Buttonville/Downsview notices establish operational closure/service or airspace dates only; CYKZ code withdrawal is not thereby proven."
+      ],
+      "countries": [
+        "CA"
+      ],
+      "familyId": "CA-NAVCANADA-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "NAV CANADA AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Recover adjacent controlled editions, amendment covers and relevant NOTAM; EGCN/DSA closure/opening dates require separate namespace evidence."
+      ],
+      "countries": [
+        "GB"
+      ],
+      "familyId": "GB-NATS-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "uk-dsa-2022",
+        "uk-dsa-2023"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "UK CAA / NATS AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "DFS historical AD2 and amendment chain required; airport operator chronology alone cannot date EDDM/EDDB/EDDT assignments."
+      ],
+      "countries": [
+        "DE"
+      ],
+      "familyId": "DE-DFS-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "b5-de-dfs-eddm-2026"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Deutsche Flugsicherung AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "code_specific_explicit_notice"
+      ],
+      "additionalRequirements": [
+        "Separate SXF to BER same-site code change, terminal designation and TXL physical closure; quoted code-effective clause required."
+      ],
+      "countries": [
+        "DE"
+      ],
+      "familyId": "DE-FBB-OPERATOR",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "de-ber-history",
+        "de-tegel-history"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Flughafen Berlin Brandenburg GmbH",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_operator",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Controlled historical AD2/AMDT and issuer terms must be obtained before code continuity proposal."
+      ],
+      "countries": [
+        "FR"
+      ],
+      "familyId": "FR-SIA-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "French DGAC Service de l Information Aeronautique",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Physical San Javier and Corvera sites remain distinct; LELC/LEMI and MJV/RMU separately evidenced, controlled historical pair needed."
+      ],
+      "countries": [
+        "ES"
+      ],
+      "familyId": "ES-ENAIRE-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "es-murcia-ad2",
+        "es-old-ad2",
+        "es-ad-index"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "ENAIRE AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Record licence/access conditions and historical AD2 edition; do not treat terminal replacement as physical airport relocation."
+      ],
+      "countries": [
+        "IT"
+      ],
+      "familyId": "IT-ENAV-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "ENAV AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Old/new Narvik or Bodo sites require explicit historical code/site mapping and effective notice; EAD derivative mirrors are not independent issuers."
+      ],
+      "countries": [
+        "NO"
+      ],
+      "familyId": "NO-AVINOR-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Avinor AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "IST transfer and LTBA/LTFM are independently dated; airline passenger-move notice is insufficient absent explicit code-effective language."
+      ],
+      "countries": [
+        "TR"
+      ],
+      "familyId": "TR-DHMI-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Turkey DHMI AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Ramon opening and Eilat closure are separate from ETM/ETH and LLER/LLET validity; historical controlled clauses needed."
+      ],
+      "countries": [
+        "IL"
+      ],
+      "familyId": "IL-IAA-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "il-ramon-operator"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Israel Airports Authority AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Separate future edition/effective date and operational transition; JJU/site/code continuity not inferred from airline booking labels."
+      ],
+      "countries": [
+        "GL"
+      ],
+      "familyId": "GL-NAVIAIR-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "gl-qaqortoq-aip"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Naviair AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Recover old/new SBVC/SBVQ controlled AD2 editions and code-specific notices; city opening report proves only physical event."
+      ],
+      "countries": [
+        "BR"
+      ],
+      "familyId": "BR-DECEA-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "br-conquista-ais"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Brazil DECEA AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Chaiten physical-site replacement requires code-specific controlled dates; Ministry infrastructure report alone does not date code change."
+      ],
+      "countries": [
+        "CL"
+      ],
+      "familyId": "CL-DGAC-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "cl-chaiten-aip"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Chile DGAC AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "code_specific_explicit_notice"
+      ],
+      "additionalRequirements": [
+        "Operator NLA/site statements and NOTAM role must be reconciled with issuer-authenticated historical AIP; opening date is not IATA transfer proof."
+      ],
+      "countries": [
+        "ZM"
+      ],
+      "familyId": "ZM-ZACL-OPERATOR",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "zm-ndola-history",
+        "zm-ndola-actual",
+        "zm-ndola-codes"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Zambia Airports Corporation",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_operator",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "observation_or_physical_event_only"
+      ],
+      "additionalRequirements": [
+        "Carrier operations at LAD/NBJ are association evidence; official code transfer notice and site-specific boundary remain required."
+      ],
+      "countries": [
+        "AO"
+      ],
+      "familyId": "AO-TAAG-AIRLINE",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "ao-luanda-taag",
+        "ao-luanda-history"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "TAAG Angola Airlines",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "carrier_directory",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "code_specific_explicit_notice"
+      ],
+      "additionalRequirements": [
+        "Current code/site profile alone does not date allocation or provide continuity from inauguration."
+      ],
+      "countries": [
+        "MZ"
+      ],
+      "familyId": "MZ-ADM-OPERATOR",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "mz-xaixai-operator"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Aeroportos de Mocambique",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_operator",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "code_specific_explicit_notice"
+      ],
+      "additionalRequirements": [
+        "Fagalii physical reopening and airport-code continuation are distinct; controlled history/typed allocation notice required."
+      ],
+      "countries": [
+        "WS"
+      ],
+      "familyId": "WS-SAA-OPERATOR",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [
+        "ws-fagalii-operator"
+      ],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Samoa Airport Authority",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_operator",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "code_specific_explicit_notice"
+      ],
+      "additionalRequirements": [
+        "New original FAQ acquired by Americas review: operator states ICAO KPBI to KDJT effective 2026-07-09 and IATA PBI to DJT effective 2026-08-18, independently.",
+        "County/local-government source is separate from US federal FAA works; all-rights-reserved statement and per-source factual reuse scope must be evaluated.",
+        "Underlying FAA change publication and IATA allocation notification are not yet acquired; same physical site/code-change evidence does not establish unknown opposite boundaries.",
+        "No existing operator-family code authority; proposed exact-date claim remains candidate pending family authorization and remaining evidence/rights gates."
+      ],
+      "countries": [
+        "US"
+      ],
+      "familyId": "US-PALM-BEACH-COUNTY-DOA",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Palm Beach County Department of Airports",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_operator",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "2025 AD1.3 index acquisition is an observation; obtain historical site-specific AD2 and explicit effective chain."
+      ],
+      "countries": [
+        "OM"
+      ],
+      "familyId": "OM-CAA-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Oman Civil Aviation Authority AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "2014 and 2018 AD1.3 snapshots cannot bridge four years; obtain transition-window AD2 and code-specific notice."
+      ],
+      "countries": [
+        "QA"
+      ],
+      "familyId": "QA-QCAA-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Qatar Civil Aviation Authority AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "EFHF 2024 historical AD2 must be paired with controlled effective index and relevant closure/code notice."
+      ],
+      "countries": [
+        "FI"
+      ],
+      "familyId": "FI-FINTRAFFIC-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Fintraffic ANS AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "OITU/OIBP current publication does not prove older assignment dates; source custody and historical editions required."
+      ],
+      "countries": [
+        "IR"
+      ],
+      "familyId": "IR-IAC-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Iran Airports and Air Navigation Company AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Portal availability is not acquisition of airport-specific historical AD2; no code/date assertion from login/index."
+      ],
+      "countries": [
+        "IQ"
+      ],
+      "familyId": "IQ-ICAA-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Iraq Civil Aviation Authority AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Verify issuer custody, permitted access/reuse and historical AD2; portal response alone gives no code claim."
+      ],
+      "countries": [
+        "RU"
+      ],
+      "familyId": "RU-CAIGA-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Russian aeronautical information publisher CAIGA",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Controlled 2026-10-29 AIP cover/table of contents establishes edition only; country AD2/code-specific original remains required.",
+        "Country jurisdiction and airport issuer mapping must be recorded per original; shared ASECNA packages are one publication lineage, not independent issuers."
+      ],
+      "countries": [
+        "BJ",
+        "BF",
+        "CM",
+        "CF",
+        "TD",
+        "KM",
+        "CG",
+        "CI",
+        "GQ",
+        "GA",
+        "GW",
+        "MG",
+        "ML",
+        "MR",
+        "NE",
+        "SN",
+        "TG"
+      ],
+      "familyId": "AF-ASECNA-AIP",
+      "iataFromIcao": false,
+      "legalAccess": "public_or_licensed_access_must_be_recorded_per_original",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "ASECNA AIS",
+      "rightsStatus": "source_specific_review_required",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "icao_controlled_aip",
+        "icao_explicit_allocation_notice"
+      ],
+      "additionalRequirements": [
+        "Reviewed Airservices AIP terms restrict reproduction, storage, redistribution and commercial use, with personal/non-commercial screen display scope and narrow caching terms.",
+        "Do not acquire protected AIS originals for repository derivation absent an applicable licence/permission or documented exception.",
+        "Observed index403 and stalePDF404 are access results; do not bypass or claim historical content obtained."
+      ],
+      "countries": [
+        "AU"
+      ],
+      "familyId": "AU-AIRSERVICES-ERSA",
+      "iataFromIcao": false,
+      "legalAccess": "AIP portal redirects to copyright consent page; no consent accepted and no aeronautical original acquired",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Airservices Australia AIS",
+      "rightsStatus": "restricted_pending_permission_or_documented_applicable_exception",
+      "sourceClass": "official_ais",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "code_specific_explicit_notice"
+      ],
+      "additionalRequirements": [
+        "Separate the operator notice from the IATA notification mirrored on a third-party CDN; a mirror is not issuer custody.",
+        "Confirm the IATA letter authenticity, supersession, exact implementation and physical-site association before accepting the FRU to BSZ boundary.",
+        "The reported 2025-08-09 code-change day is a boundary fact; it creates no continuous historical interval and supplies no ICAO date."
+      ],
+      "countries": [
+        "KG"
+      ],
+      "familyId": "KG-MANAS-OPERATOR",
+      "iataFromIcao": false,
+      "legalAccess": "Publicly acquired original or explicitly identified mirror; access and custody recorded per source.",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "Manas International Airport operator",
+      "rightsStatus": "Source-specific metadata and minimal factual citation basis only; no full redistribution licence established.",
+      "sourceClass": "official_operator",
+      "status": "proposal_only"
+    },
+    {
+      "acceptedEvidence": [
+        "code_specific_explicit_notice"
+      ],
+      "additionalRequirements": [
+        "A carrier implementation notice is primary for its own operations, not the IATA allocation authority.",
+        "The KIV to RMO change planned for 2024-01-18 requires actual implementation and IATA/competent-authority corroboration.",
+        "Do not extend a prospective boundary statement into a continuous airport-code interval or infer any ICAO effective date."
+      ],
+      "countries": [
+        "MD"
+      ],
+      "familyId": "MD-TAROM-CARRIER-NOTICE",
+      "iataFromIcao": false,
+      "legalAccess": "Publicly acquired original or explicitly identified mirror; access and custody recorded per source.",
+      "priorSourceIds": [],
+      "productionEnabledByThisProposal": false,
+      "projectCodeAuthority": "proposal_only",
+      "publisher": "TAROM (Romanian carrier; affected airport in Moldova)",
+      "rightsStatus": "Source-specific metadata and minimal factual citation basis only; no full redistribution licence established.",
+      "sourceClass": "participating_carrier",
+      "status": "proposal_only"
+    }
+  ],
+  "formalAdmissionDecision": "existing authority AND sufficient evidence AND lawful scoped reuse AND no material conflict AND existing formal validation must all pass; failure of any condition remains candidate",
+  "formatVersion": 1,
+  "identityAndConflictRules": {
+    "coordinatesAloneDoNotProveRelocation": true,
+    "crossSiteTransferRequirement": "Separate old/new site identity and each namespace effective boundary; any unsupported transition gap remains uncertain.",
+    "materialConflictAction": "retain competing candidates and cite conflict; do not overwrite published answers",
+    "reuseExistingPermanentIds": true,
+    "sameCodeOrCityDoesNotMergeSites": true,
+    "samePhysicalSiteCodeChangeVsCrossSiteReuseSeparate": true,
+    "terminalChangesRemainSameSiteUnlessPhysicalEvidenceProvesOtherwise": true
+  },
+  "newEvidenceFindings": [
+    {
+      "evidenceResult": "separate explicit namespace change dates obtained",
+      "familyId": "US-PALM-BEACH-COUNTY-DOA",
+      "formalResult": "candidate_only",
+      "reason": [
+        "source-family project code authority absent",
+        "source-specific reuse basis and allocation authority corroboration still under review"
+      ],
+      "researchPath": "research/evidence/global-code-expansion/americas-africa/"
+    },
+    {
+      "admissionBundle": "research/admissions/0.12.0",
+      "evidenceResult": "eight AD2 originals for VOMY/VOSH/VEAY/VANM across 2026-06-11 and 2026-07-09 plus edition controls",
+      "familyId": "IN-AAI-AIP",
+      "formalResult": "three_ICAO_assignments_passed_unchanged_authorized_gate_and_isolated_offline_replay_in_0.12.0_proposal",
+      "proposedIcaoAssignments": 3,
+      "proposedNewResolvedCodeDateQueries": 81,
+      "publishedMainGrowth": 0,
+      "reason": [
+        "VOMY has multiple reference locations; mandatory competing-site escalation remains unresolved",
+        "VOSH/VEAY/VANM passed exact low-risk evaluation, stable ARP/name and reference-site screening, private raw/extraction/citation replay, shared admission validator, schema and production resolver",
+        "Thirteen data-only intake snapshots restore the original fixed input paths in a temporary published-0.11.0 checkout. Old live research, grants, thresholds, bound executables and archival checks remain unchanged. No new authority or country executor is introduced."
+      ],
+      "researchPath": "research/evidence/global-code-expansion/asia/"
+    },
+    {
+      "evidenceResult": "Explicit IATA change-day statement obtained; custody, implementation and full interval remain separately assessed.",
+      "familyId": "KG-MANAS-OPERATOR",
+      "formalResult": "candidate_boundary_fact_only",
+      "reason": [
+        "Separate the operator notice from the IATA notification mirrored on a third-party CDN; a mirror is not issuer custody.",
+        "Confirm the IATA letter authenticity, supersession, exact implementation and physical-site association before accepting the FRU to BSZ boundary.",
+        "The reported 2025-08-09 code-change day is a boundary fact; it creates no continuous historical interval and supplies no ICAO date."
+      ],
+      "researchPath": "research/evidence/global-code-expansion/asia/"
+    },
+    {
+      "evidenceResult": "Explicit IATA change-day statement obtained; custody, implementation and full interval remain separately assessed.",
+      "familyId": "MD-TAROM-CARRIER-NOTICE",
+      "formalResult": "candidate_boundary_fact_only",
+      "reason": [
+        "A carrier implementation notice is primary for its own operations, not the IATA allocation authority.",
+        "The KIV to RMO change planned for 2024-01-18 requires actual implementation and IATA/competent-authority corroboration.",
+        "Do not extend a prospective boundary statement into a continuous airport-code interval or infer any ICAO effective date."
+      ],
+      "researchPath": "research/evidence/global-code-expansion/europe/"
+    }
+  ],
+  "ownerAuthorizationRequested": {
+    "implementationConstraint": "Record a future explicit authorization using the existing project admission mechanism; this file is a research proposal and must not be read as an active grant. No independent release system or country-specific executor is proposed.",
+    "noAutomaticMergeOrRelease": true,
+    "requestedDecision": [
+      "Permit proposed family profiles whose issuer custody, lawful access/reuse, explicit code/site/time evidence and conflicts have been checked to produce batch data PR proposals through the existing admission path.",
+      "Accept explicit code-specific IATA or ICAO effective clauses under the proposed claim rules; do not grant implicit continuity between directory observations.",
+      "For controlled AIP bounded continuity beyond current AAI/KR scope, approve the concrete family-specific edition/notice completeness rule before any formal use; no default gap is authorized.",
+      "Keep owner final merge, existing formal immutability and production resolver differential requirements.",
+      "Approve source-family scope only; this decision cannot grant third-party copyright/database rights.",
+      "Include the US Palm Beach County Department of Airports operator family for explicit independently dated namespace change notices, subject to retained source rights, source competence and allocation corroboration checks; do not inherit FAA federal-work status."
+    ],
+    "state": "not_requested_in_external_comment_not_granted",
+    "unit": "single consolidated project/source-family decision; no per-airport grant"
+  },
+  "preservedAuthorityFiles": {
+    "research/admission/kr-molit-v1/authorizations.json": "67978ee885f016258eab68b609f5dade98043129f2daf7219b6d4a41096b4fca",
+    "research/admission/kr-molit-v1/policy.json": "42052081318d08c96e56c6d37a2848ea34c22acc0fddae76386e8027d4fb70ab",
+    "research/admission/rule-v1/authorizations.json": "e23674ffba709170b152fb336f77d89bb33808e74dce7457191bdd45a88fa8ff",
+    "research/admission/rule-v1/identity-policy.json": "470ffce23a8f3944a837ef93e37e136a10ebf98036edf49212da884645c384e1",
+    "research/admission/rule-v1/kr-code-policy.json": "6d0d2e73235b5afae64b607b3020adef651126d8114e0bdb64657b009cc00af0",
+    "research/admission/source-claims-v1/policy.json": "22f275120fef6461cd9762e048889bda0d53a510c3511f7e71bbefca98787faa",
+    "research/policy/authorizations.json": "94b166846f9789a1dc389d7bc98b6f3eb0153226c355e7ea2fabdba19cb4a6d0",
+    "research/policy/batch-authorizations.json": "82a611b7d2fd0b56cd40e5c52dda9aa0ee5be0946a22bba81a3ed719f553ae4c",
+    "research/policy/policy.json": "f327a2551c12d213a54bd3fc17a8ae3a659fec59c4c3062415a672b77d87df53"
+  },
+  "productionEnabled": false,
+  "proposalId": "global-historical-code-families-v1",
+  "purpose": "One consolidated project/source-family approval proposal for trustworthy historical IATA and ICAO assignments; it neither activates a policy nor creates new executors.",
+  "reusedPolicyResearchInputs": {
+    "research/evidence/global-batch-5/catalog.json": "e806e9c6d33621c03f92e96884b46030393388f8eb80e60a63be1ef301ce261d",
+    "research/evidence/global/catalog.json": "48b3b3055cae32f63a8007b424e1647092dc13526540781ecc25de3d0e94486e",
+    "research/evidence/markets/catalog.json": "51a7ababa049ed680a7ffb48cabeb0d1c79bef69daa6173547b984dbb341a7ab",
+    "research/evidence/priority-markets/catalog.json": "00cd5da944ed41b11b9796609ee61f68e51c25acd6c5464976c8ae42f3300de0",
+    "research/evidence/transfers/catalog.json": "a76f5a66eebfdebb2101d01e3dae6039e9587c1ae432a5a57d503c343e89fc21"
+  },
+  "rightsAndRetention": {
+    "committedMaterial": "necessary factual metadata and short source-scoped citations only after rights review; no chart/photo/full table/complete text",
+    "noBypass": true,
+    "publicAccessIsNotReusePermission": true,
+    "publicDomainMustBeScoped": "Verify issuer/work/document and third-party exclusions; no whole-government or website assumption.",
+    "rawOriginalAndFullTextLocation": "ignored work/ only; never Git blobs or release assets",
+    "requiredPerOriginal": [
+      "originalUrl",
+      "finalUrl",
+      "publisher",
+      "publisherFamily",
+      "documentVersion",
+      "publicationDate_and_kind",
+      "effectiveDate_and_kind_if_known",
+      "acquiredAt",
+      "accessMethod_and_result",
+      "originalSha256",
+      "extractedTextSha256",
+      "normalizedTextSha256",
+      "preciseCitation",
+      "factLineage",
+      "lawfulAccessBasis",
+      "reuseBasis_and_scope"
+    ],
+    "thirdPartyLicenceNotCreatedByOwnerApproval": true,
+    "unknownReuseBasis": "candidate_only_for_research_metadata; no formal source reuse assertion"
+  },
+  "sourceIndependence": {
+    "countBy": "fact-origin publisher/publication lineage, not download URL, filename, Git revision, mirror or capture",
+    "derivativeFamilies": "OurAirports derivatives, syndicated directory copies and copied AIP pages share upstream lineage until independently disproved.",
+    "independentSiteCorroboration": "Operator-own facility/address/government execution evidence may corroborate a physical site without independently corroborating code allocation.",
+    "sameIssuerEditions": "Can establish controlled temporal observations under an authorized rule; never counted as independent issuers."
+  },
+  "status": "proposal-only",
+  "temporalRules": {
+    "dateKinds": [
+      "airport_operations_start",
+      "civil_operations_stop",
+      "physical_closure",
+      "iata_effective_start",
+      "iata_effective_end",
+      "icao_effective_start",
+      "icao_effective_end",
+      "aip_publication",
+      "airac_effective",
+      "notam_publication",
+      "notam_effective",
+      "original_observation",
+      "archive_capture",
+      "retrieval"
+    ],
+    "disjointObservationsDoNotProveContinuousInterval": true,
+    "earliestLatestPrecisionRequiredForInexactBoundaries": true,
+    "effectiveClockMustNotBeInvented": true,
+    "futureEffectiveEvidenceCannotResolveEarlierDate": true,
+    "namespaceIndependent": true,
+    "publicationCaptureGitOpeningAndLicenceDatesCannotSubstitute": true,
+    "unknownBoundsRemainUnknown": true
+  }
+}

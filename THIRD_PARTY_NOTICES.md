@@ -137,6 +137,22 @@ annotations are included. AAI/ENAIRE publications are not relicensed under the
 project's CC0 data dedication or MIT code license. See the exact URLs, terms and
 scoped content checks in [source-review.json](research/admissions/0.9.0/source-review.json).
 
+## 0.12.0 AAI bounded ICAO observations
+
+Six new source records attribute the controlled 11 June and 9 July 2026 AAI
+India AIP AD 2 observations for Shivamogga (VOSH), Ayodhya (VEAY) and Navi
+Mumbai (VANM). The existing owner-authorized AAI policy supports only the
+27 whole local dates between those observations. Unknown first-allocation and
+final-withdrawal boundaries remain unknown. IATA, legal-name timelines and
+timezones are outside this admission.
+
+AAI retains its publication rights. Only source metadata, hashes, minimal factual
+citations and original analysis are retained; complete originals, extractions,
+charts and tables remain outside Git in ignored `work/`. The existing scoped
+AAI terms and owner grant are unchanged; no general redistribution permission
+or new source-family authority is claimed. The edition-control original and
+exact provenance are recorded in the [admission bundle](research/admissions/0.12.0/README.md).
+
 ## 0.11.0 China physical identities
 
 Four official administrative approvals/notices from MEE and Lianyungang identify
