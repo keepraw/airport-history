@@ -1,0 +1,15 @@
+{
+  "formatVersion": 1,
+  "reviewedOn": "2026-11-09",
+  "status": "passed",
+  "checks": [
+    "All new retained raw/extracted/normalized hashes replayed against actual cached bytes.",
+    "Four reused cached PBI originals replayed; Chaitén and FAA2009 legacy hash-only receipts explicitly exclude fresh replay.",
+    "Every assessment sourceId resolves in owned source-lock.",
+    "All seven selected eventGroupIds occur in persisted remaining-high queue.",
+    "Four old proposal IDs remain pending, no new assignments or whole intervals.",
+    "Citation anchors and Unicode character offsets replayed on locked normalized text."
+  ],
+  "scope": "Research artifact consistency only; production resolver differential belongs to root integration.",
+  "newResolverCoverageClaimed": 0
+}

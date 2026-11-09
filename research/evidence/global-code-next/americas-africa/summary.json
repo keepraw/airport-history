@@ -1,0 +1,75 @@
+{
+  "formatVersion": 1,
+  "reviewedOn": "2026-11-09",
+  "finiteBatchComplete": true,
+  "newRemainingHighValueGroupsReviewed": 7,
+  "newRemainingHighValueGroupsWithRelevantCachedOriginalsAssessed": 5,
+  "newRemainingHighValueGroupsAccessBlocked": 2,
+  "newRemainingHighValueGroupIds": [
+    "lead_64929d9965f8a8d8465ddbe4",
+    "lead_7c1ddf9dd2e2c3daf38dace7",
+    "lead_cb4f180b3f24a67043671b31",
+    "dup_776fb1e55335514e794845ee",
+    "dup_d75d2d8d421fa030f935fc63",
+    "lead_3e35698d318c89fda875e9b9",
+    "lead_a1806e14890534e9bbb68c12"
+  ],
+  "accessBlockedNewGroupIds": [
+    "lead_7c1ddf9dd2e2c3daf38dace7",
+    "dup_d75d2d8d421fa030f935fc63"
+  ],
+  "oldFollowupGroupsReviewed": 3,
+  "oldFollowupGroupIds": [
+    "dup_053fff021fcc335a906d311d",
+    "lead_f9f3bb9722e89126685ef545",
+    "dup_8a7de9f5895ebfebf5d44ac7"
+  ],
+  "newOriginalsObtained": 16,
+  "newOriginalsRelevantToAviation": 15,
+  "irrelevantOriginalsExcludedFromAviationEvidence": 1,
+  "originalAccessAttemptsUnavailable": 8,
+  "reusedOriginalOrLegacyReceipts": 7,
+  "reusedCachedOriginalsTripleHashReplayed": 4,
+  "reusedLegacyRawHashOnlyReceipts": 3,
+  "newCodeBoundaryDates": 0,
+  "oldCodeBoundaryFactsSupplemented": 2,
+  "oldPendingAssignmentSourceAmendments": 4,
+  "newAssignmentIds": 0,
+  "newWholeHistoricalCandidateIntervals": 0,
+  "newFormalIATAAssignments": 0,
+  "newFormalICAOAssignments": 0,
+  "newFormalResolvedQueries": 0,
+  "uncertainIntervalsNarrowed": 0,
+  "newCrossSiteReuseResolved": 0,
+  "newDownloadsDuringFinish": 0,
+  "newSourceOriginalIds": [
+    "next-co-iram-pa",
+    "next-ec-caa-aip-gen30",
+    "next-ec-caa-argyle-ad2",
+    "next-ec-caa-eaip-index",
+    "next-ec-caa-valid-supplements",
+    "next-et-eaa",
+    "next-ms-ukgov-aircraft-study",
+    "next-us-doe-amchitka-ltsp",
+    "next-us-faa-info26011-official",
+    "next-us-faa-notice8900780",
+    "next-us-faa-playbook",
+    "next-us-nws-kdjt-implementation",
+    "next-us-pbi-actual-name-change",
+    "next-zm-notam-202107",
+    "next-zm-notam-202108",
+    "next-zm-notam-202111"
+  ],
+  "countsMeaning": "Original counts are acquisition results from the earlier cached finite batch, not successful whole-window evidence. HTTP200 unrelated agriculture page is explicitly excluded from aviation evidence. Old follow-ups do not count as new remaining-high coverage.",
+  "blockedCarryForward": [
+    {
+      "case": "Australian source rights",
+      "reviewedThisBatch": false,
+      "newRemainingHighValueReview": false,
+      "status": "rights_or_consent_blocked_no_further_fetch",
+      "countedInNewAccessBlockedGroups": false
+    }
+  ],
+  "formalDisposition": "All four Palm Beach proposals remain pending. Zero whole windows eligible. The separate source-policy decision may clear narrow factual fields but cannot create missing temporal coverage.",
+  "sourceIndependence": "FAA Flight Standards/ATM/Aeronav components are federal publisher branches, not independent historical allocation confirmations. County article and FAQ are one operator family; ZACL summaries one family; OurAirports derivatives one directory lineage."
+}

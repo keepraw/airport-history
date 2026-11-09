@@ -1,0 +1,155 @@
+{
+  "checkedOn": "2026-11-09",
+  "pullRequests": [
+    {
+      "repository": "keepraw/airport-history",
+      "number": 35,
+      "url": "https://github.com/keepraw/airport-history/pull/35",
+      "state": "open",
+      "merged": false,
+      "head": "90b3b5e014168c22a934e716eac3cc1890b5c67a",
+      "base": "7d21ff6762e1569faa1be19c8203e577420cd1f2",
+      "headRef": "data/global-historical-code-expansion",
+      "baseRef": "main",
+      "precomputedMergeShaNotReleasePin": "8d1c5f05d8ef89f615c3f0e3e6852934ab82e263",
+      "checks": [
+        {
+          "name": "policy-admission-rehearsal",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/keepraw/airport-history/actions/runs/42462009254/job/128673127669"
+        },
+        {
+          "name": "check",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/keepraw/airport-history/actions/runs/42462009254/job/128673126949"
+        },
+        {
+          "name": "materialize-worldwide",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/keepraw/airport-history/actions/runs/42462009243/job/128673126777"
+        },
+        {
+          "name": "inactive-adapter",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/keepraw/airport-history/actions/runs/42462009261/job/128673126767"
+        },
+        {
+          "name": "isolated-rule-engine",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/keepraw/airport-history/actions/runs/42462009251/job/128673126740"
+        }
+      ],
+      "action": "Targeted review complete; merge recommended; Owner decision preserved."
+    },
+    {
+      "repository": "keepraw/Keepraw-Fly",
+      "number": 114,
+      "url": "https://github.com/keepraw/Keepraw-Fly/pull/114",
+      "state": "open",
+      "merged": false,
+      "head": "b01526a747789d79aa4bbdde90b8f38ba3023b1a",
+      "base": "eb847e6f87d81c1e5a688075c2153e8117fcf254",
+      "headRef": "data/airport-history-0.11.0",
+      "baseRef": "main",
+      "precomputedMergeShaNotReleasePin": "00a5b582cc14bd8ee10983035e3f281234a62321",
+      "checks": [
+        {
+          "name": "deploy",
+          "status": "completed",
+          "conclusion": "skipped",
+          "url": "https://github.com/keepraw/Keepraw-Fly/actions/runs/42341741636/job/128313662205"
+        },
+        {
+          "name": "verify",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/keepraw/Keepraw-Fly/actions/runs/42341741636/job/128313647126"
+        },
+        {
+          "name": "chromium (6)",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/keepraw/Keepraw-Fly/actions/runs/42341741636/job/128310708812"
+        },
+        {
+          "name": "chromium (1)",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/keepraw/Keepraw-Fly/actions/runs/42341741636/job/128310708794"
+        },
+        {
+          "name": "chromium (4)",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/keepraw/Keepraw-Fly/actions/runs/42341741636/job/128310708775"
+        },
+        {
+          "name": "cross-browser (firefox, 1)",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/keepraw/Keepraw-Fly/actions/runs/42341741636/job/128310708733"
+        },
+        {
+          "name": "chromium (5)",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/keepraw/Keepraw-Fly/actions/runs/42341741636/job/128310708721"
+        },
+        {
+          "name": "csp (chromium)",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/keepraw/Keepraw-Fly/actions/runs/42341741636/job/128310708692"
+        },
+        {
+          "name": "csp (webkit)",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/keepraw/Keepraw-Fly/actions/runs/42341741636/job/128310708689"
+        },
+        {
+          "name": "cross-browser (webkit, 2)",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/keepraw/Keepraw-Fly/actions/runs/42341741636/job/128310708681"
+        },
+        {
+          "name": "csp (firefox)",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/keepraw/Keepraw-Fly/actions/runs/42341741636/job/128310708669"
+        },
+        {
+          "name": "chromium (2)",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/keepraw/Keepraw-Fly/actions/runs/42341741636/job/128310708666"
+        },
+        {
+          "name": "chromium (3)",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/keepraw/Keepraw-Fly/actions/runs/42341741636/job/128310708655"
+        },
+        {
+          "name": "airport-history",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/keepraw/Keepraw-Fly/actions/runs/42341741636/job/128310708643"
+        },
+        {
+          "name": "checks",
+          "status": "completed",
+          "conclusion": "success",
+          "url": "https://github.com/keepraw/Keepraw-Fly/actions/runs/42341741636/job/128310708421"
+        }
+      ],
+      "action": "Wait for actual PR35 merge + main CI; do not build0.12.0 from PR HEAD."
+    }
+  ]
+}

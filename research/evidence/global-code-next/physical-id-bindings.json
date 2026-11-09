@@ -1,0 +1,118 @@
+{
+  "bindings": [
+    {
+      "airportId": "apt_b89884b2-4f2c-43ba-b85f-4d1d845435d6",
+      "draftAirportId": "apt_a552b777-b17f-5b38-bc33-9e068bb47aa7",
+      "label": "Long Thanh International Airport",
+      "lane": "asia",
+      "status": "reserved_proposal_only"
+    },
+    {
+      "airportId": "apt_f5d18210-26be-4492-a4df-8237ce76210d",
+      "draftAirportId": "apt_05ed0d21-ff84-5ea0-bfb5-59ff81aee53b",
+      "label": "Namniwel Airport",
+      "lane": "asia",
+      "status": "reserved_proposal_only"
+    },
+    {
+      "airportId": "apt_4d186043-20f4-4293-8420-bbcc5788c674",
+      "draftAirportId": "apt_fef723ab-2164-5ebd-bcdf-9313a17fe726",
+      "label": "Sanga-Sanga Airport",
+      "lane": "asia",
+      "status": "reserved_proposal_only"
+    },
+    {
+      "airportId": "apt_0f11fc4e-56e7-4563-b6ef-ace814d1931e",
+      "draftAirportId": "proposal-apt-7f69b865-7beb-5c86-afa9-f489e18c334a",
+      "label": "Andijan International Airport",
+      "lane": "europe",
+      "status": "reserved_proposal_only"
+    },
+    {
+      "airportId": "apt_3a7a9265-7eff-46b9-b078-4b5c1e21a37a",
+      "draftAirportId": "proposal-apt-e52f8814-7efc-5a31-b6a2-208e4e7ebdba",
+      "label": "Bukhara International Airport",
+      "lane": "europe",
+      "status": "reserved_proposal_only"
+    },
+    {
+      "airportId": "apt_229092cd-9037-4fa2-bd35-4db135473f49",
+      "draftAirportId": "proposal-apt-eea91dcf-2d17-5aec-af0e-beacda9e07ec",
+      "label": "Chirchik Airport",
+      "lane": "europe",
+      "status": "reserved_proposal_only"
+    },
+    {
+      "airportId": "apt_97c4c498-bbdd-4ab7-95d3-e4e01f241b36",
+      "draftAirportId": "proposal-apt-d61959b8-e4f8-5518-a444-1a0dd9d7aefe",
+      "label": "Fergana International Airport",
+      "lane": "europe",
+      "status": "reserved_proposal_only"
+    },
+    {
+      "airportId": "apt_5e086a57-59e2-4519-8814-3f4469b04813",
+      "draftAirportId": "proposal-apt-8ef5576a-2f37-5dd5-988d-6d8f169f396d",
+      "label": "Karshi Airport",
+      "lane": "europe",
+      "status": "reserved_proposal_only"
+    },
+    {
+      "airportId": "apt_d31f8807-4195-4564-bb38-4dd4a877418c",
+      "draftAirportId": "proposal-apt-12dd5569-e712-5a2a-81af-26e26195cf43",
+      "label": "Namangan Airport",
+      "lane": "europe",
+      "status": "reserved_proposal_only"
+    },
+    {
+      "airportId": "apt_34ce356b-c409-4607-b37c-157c686d0190",
+      "draftAirportId": "proposal-apt-11d8888f-1881-57ef-bd51-ca5f127c1842",
+      "label": "Navoi International Airport",
+      "lane": "europe",
+      "status": "reserved_proposal_only"
+    },
+    {
+      "airportId": "apt_d31ef4a2-d47a-40ed-9c0f-a55e38fd08f4",
+      "draftAirportId": "proposal-apt-f946cbb9-5d31-5fa7-8d84-d8360f2ba08b",
+      "label": "Nukus International Airport",
+      "lane": "europe",
+      "status": "reserved_proposal_only"
+    },
+    {
+      "airportId": "apt_c43b3225-3f8c-42d1-9e7b-a2ca85f4a5ec",
+      "draftAirportId": "proposal-apt-744b8b9d-4c46-51ff-be33-79467218142a",
+      "label": "Samarkand Airport",
+      "lane": "europe",
+      "status": "reserved_proposal_only"
+    },
+    {
+      "airportId": "apt_b63fb151-04d1-4e91-ac8e-e92c597e4a84",
+      "draftAirportId": "proposal-apt-a2d8a3f0-c3e2-5b32-9e7c-b87ea76bd38c",
+      "label": "Tashkent East Airport",
+      "lane": "europe",
+      "status": "reserved_proposal_only"
+    },
+    {
+      "airportId": "apt_8e91dc51-166b-49aa-81c8-d759e5188447",
+      "draftAirportId": "proposal-apt-012c4294-9715-5935-8ea7-4096c43d8729",
+      "label": "Tashkent International Airport",
+      "lane": "europe",
+      "status": "reserved_proposal_only"
+    },
+    {
+      "airportId": "apt_b1278e6c-0f2f-4619-abff-9bb38ab8f640",
+      "draftAirportId": "proposal-apt-7140bfc1-8075-56aa-8199-d28bef1bcff1",
+      "label": "Termez Airport",
+      "lane": "europe",
+      "status": "reserved_proposal_only"
+    },
+    {
+      "airportId": "apt_f5025dfc-007c-4dc9-8a70-a6eb68ced95d",
+      "draftAirportId": "proposal-apt-98af765d-e71d-52b0-8a54-ec6e70ff7421",
+      "label": "Urgench Airport",
+      "lane": "europe",
+      "status": "reserved_proposal_only"
+    }
+  ],
+  "formatVersion": 1,
+  "meaning": "Stable Schema3.0.0 physical IDs reserved for new provisional research sites. Existing valid draft/permanent IDs are preserved. No identity is admitted by this mapping."
+}

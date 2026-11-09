@@ -1,0 +1,540 @@
+{
+  "formatVersion": 1,
+  "reviewedOn": "2026-11-09",
+  "selection": "Seven exact eventGroupIds from remaining-high-value queue; three old follow-ups reported separately. No broad new search in finish step.",
+  "events": [
+    {
+      "reviewId": "next-aa-15",
+      "candidateId": "cand_c16c53f63535b6ce914aeff9",
+      "eventGroupId": "lead_64929d9965f8a8d8465ddbe4",
+      "referenceId": "ref_7eb95ad27e87ba98d6ac7294",
+      "researchClusterKey": "cluster_165f964bdec2c902ef9349bc",
+      "globalRank": 15,
+      "priorityScore": 110,
+      "highValue": true,
+      "country": "CO",
+      "name": "Gilgal Airport",
+      "codes": [
+        "IATA:GGL"
+      ],
+      "reviewClass": "new_remaining_high_value_group",
+      "newRemainingHighValueReview": true,
+      "selectionInput": "research/evidence/global-code-expansion/remaining-high-value-queue.jsonl.gz",
+      "selectionVerifiedByExactEventGroupId": true,
+      "priorResearchExactIdPaths": [
+        "research/discovery/batches/global-2.json"
+      ],
+      "researchStatus": "cached_original_inspected",
+      "evidenceLevel": "official_portal_name_only",
+      "sourceIds": [
+        "next-co-ais-portal",
+        "next-co-iram-pa"
+      ],
+      "researchClassification": "name_observation_typed_code_and_physical_identity_unproven",
+      "findings": "The AIS path returned403. The acquired Aerocivil interactive IRAM portal includes Santa María del Darién - El Gilgal as a selectable name. Incidental GGL substrings occur inside unrelated longer option codes and do not constitute a typed IATA:GGL airport row. No coordinates or dated allocation bind either candidate site.",
+      "nextAction": "Obtain a site-specific controlled Aerocivil aerodrome row and authenticated IATA GGL allocation/withdrawal action; resolve 15.872km candidate separation.",
+      "codeFacts": [],
+      "iataConclusion": {
+        "status": "no_allocation_or_withdrawal_boundary_proven",
+        "wholeIntervalSupported": false
+      },
+      "icaoConclusion": {
+        "status": "no_boundary_proven",
+        "wholeIntervalSupported": false
+      },
+      "wholeIntervalSupported": false,
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "Code-specific allocation/withdrawal and full historical continuity are not established.",
+          "Rights and source-family admission are claim-specific; source policy cannot manufacture temporal evidence."
+        ]
+      },
+      "expectedNewResolved": 0,
+      "expectedUncertaintyReduction": 0,
+      "independence": "Different editions of one issuer are one family. OurAirports and derivatives are one directory lineage; directory revisions are not real-world events."
+    },
+    {
+      "reviewId": "next-aa-16",
+      "candidateId": "cand_025ed86a58c3d799fd1028e1",
+      "eventGroupId": "lead_7c1ddf9dd2e2c3daf38dace7",
+      "referenceId": "ref_cb77b2e818cea4ebb4cd64d2",
+      "researchClusterKey": "cluster_7770e4159f90401f1694f808",
+      "globalRank": 16,
+      "priorityScore": 110,
+      "highValue": true,
+      "country": "HN",
+      "name": "Limon Airport",
+      "codes": [
+        "IATA:LMH"
+      ],
+      "reviewClass": "new_remaining_high_value_group",
+      "newRemainingHighValueReview": true,
+      "selectionInput": "research/evidence/global-code-expansion/remaining-high-value-queue.jsonl.gz",
+      "selectionVerifiedByExactEventGroupId": true,
+      "priorResearchExactIdPaths": [
+        "research/discovery/batches/global-1.json"
+      ],
+      "researchStatus": "official_source_access_blocked",
+      "evidenceLevel": "no_official_original_obtained",
+      "sourceIds": [
+        "next-hn-aip-root",
+        "next-hn-aip-2528"
+      ],
+      "researchClassification": "access_blocked_code_reuse_or_directory_correction_unresolved",
+      "findings": "Both attempted AHAC eAIP URLs returned404. Response bodies establish access failures only. They do not establish absence of a Honduran AIP or any LMH code fact.",
+      "nextAction": "Locate an authenticated AHAC current and historical AIP entry for Limón with ARP; obtain IATA LMH code action separately. Resolve 5.9km directory discrepancy.",
+      "codeFacts": [],
+      "iataConclusion": {
+        "status": "no_allocation_or_withdrawal_boundary_proven",
+        "wholeIntervalSupported": false
+      },
+      "icaoConclusion": {
+        "status": "no_boundary_proven",
+        "wholeIntervalSupported": false
+      },
+      "wholeIntervalSupported": false,
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "Code-specific allocation/withdrawal and full historical continuity are not established.",
+          "Rights and source-family admission are claim-specific; source policy cannot manufacture temporal evidence."
+        ]
+      },
+      "expectedNewResolved": 0,
+      "expectedUncertaintyReduction": 0,
+      "independence": "Different editions of one issuer are one family. OurAirports and derivatives are one directory lineage; directory revisions are not real-world events."
+    },
+    {
+      "reviewId": "next-aa-34",
+      "candidateId": "cand_53960f6615ecc81ef1579a9c",
+      "eventGroupId": "lead_cb4f180b3f24a67043671b31",
+      "referenceId": "ref_2b5b14cf2b0671475fd9cc74",
+      "researchClusterKey": "cluster_e0e9581d0fbba930fd5238b2",
+      "globalRank": 34,
+      "priorityScore": 100,
+      "highValue": true,
+      "country": "US",
+      "name": "Amchitka West Airfield",
+      "codes": [
+        "IATA:AHT"
+      ],
+      "reviewClass": "new_remaining_high_value_group",
+      "newRemainingHighValueReview": true,
+      "selectionInput": "research/evidence/global-code-expansion/remaining-high-value-queue.jsonl.gz",
+      "selectionVerifiedByExactEventGroupId": true,
+      "priorResearchExactIdPaths": [
+        "research/evidence/priority-market-batch-6/priority-code-reuse-leads.json"
+      ],
+      "researchStatus": "cached_original_inspected",
+      "evidenceLevel": "official_context_without_typed_code",
+      "sourceIds": [
+        "next-us-doe-amchitka-ltsp",
+        "next-us-faa-7350-8g"
+      ],
+      "researchClassification": "multiple_island_airfields_code_association_unproven",
+      "findings": "DOE July2014 site plan describes military use and Charlie Runway remediation. It contains no typed IATA:AHT allocation evidence or binding of AHT to Amchitka West versus other island airfields. FAA7350.8G historical hash receipt was reused without refetch; its FAA namespace cannot be promoted to IATA.",
+      "nextAction": "Acquire an authenticated IATA AHT history tied to a specific runway/ARP plus independent east/west military airfield identity chronology.",
+      "codeFacts": [],
+      "iataConclusion": {
+        "status": "no_allocation_or_withdrawal_boundary_proven",
+        "wholeIntervalSupported": false
+      },
+      "icaoConclusion": {
+        "status": "no_boundary_proven",
+        "wholeIntervalSupported": false
+      },
+      "wholeIntervalSupported": false,
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "Code-specific allocation/withdrawal and full historical continuity are not established.",
+          "Rights and source-family admission are claim-specific; source policy cannot manufacture temporal evidence."
+        ]
+      },
+      "expectedNewResolved": 0,
+      "expectedUncertaintyReduction": 0,
+      "independence": "Different editions of one issuer are one family. OurAirports and derivatives are one directory lineage; directory revisions are not real-world events."
+    },
+    {
+      "reviewId": "next-aa-136",
+      "candidateId": "cand_7898b66fb86a1c138c986000",
+      "eventGroupId": "dup_776fb1e55335514e794845ee",
+      "referenceId": "ref_b6a4f33a87e14f614cd46d25",
+      "researchClusterKey": "cluster_1a400f097b5ec533cac2ee17",
+      "globalRank": 136,
+      "priorityScore": 80,
+      "highValue": true,
+      "country": "MS",
+      "name": "John A. Osborne Airport",
+      "codes": [
+        "IATA:MNI",
+        "ICAO:TRPG"
+      ],
+      "reviewClass": "new_remaining_high_value_group",
+      "newRemainingHighValueReview": true,
+      "selectionInput": "research/evidence/global-code-expansion/remaining-high-value-queue.jsonl.gz",
+      "selectionVerifiedByExactEventGroupId": true,
+      "priorResearchExactIdPaths": [],
+      "researchStatus": "cached_original_inspected",
+      "evidenceLevel": "controlled_component_plus_official_retrospective",
+      "sourceIds": [
+        "next-ec-caa-aip-gen30",
+        "next-ms-ukgov-aircraft-study",
+        "next-ec-caa-montserrat-ad2",
+        "next-ec-caa-eaip-index",
+        "next-ec-caa-valid-supplements"
+      ],
+      "researchClassification": "replacement_airport_discrete_icao_observation_transfer_unproven",
+      "findings": "AIP GEN2.4-1 dated01DEC22 directly associates John A. Osborne, Montserrat with TRPG. GOV.UK18JAN2023 independently labels ICAO designator TRPG and says the airport opened2005 after loss of the previous airport. These establish code/name observations; neither establishes initial TRPG allocation, MNI transfer, old-site withdrawal, or continuous validity. The attempted AD2 path404 is not evidence that AD2 is absent.",
+      "nextAction": "Obtain the authenticated Gerald’s AD2 with ARP and 2005 pre/post AIP/NOTAM allocation chronology; obtain IATA MNI transfer action independent of opening.",
+      "codeFacts": [
+        {
+          "scheme": "ICAO",
+          "code": "TRPG",
+          "siteName": "John A. Osborne Airport, Montserrat",
+          "sourceId": "next-ec-caa-aip-gen30",
+          "date": "2022-12-01",
+          "dateKind": "controlled_component_date_not_allocation",
+          "boundary": false
+        },
+        {
+          "scheme": "ICAO",
+          "code": "TRPG",
+          "siteName": "John A. Osborne Airport, Montserrat",
+          "sourceId": "next-ms-ukgov-aircraft-study",
+          "date": "2023-01-18",
+          "dateKind": "publication_observation_not_allocation",
+          "boundary": false
+        }
+      ],
+      "iataConclusion": {
+        "status": "no_allocation_or_withdrawal_boundary_proven",
+        "wholeIntervalSupported": false
+      },
+      "icaoConclusion": {
+        "status": "discrete_observation_only",
+        "wholeIntervalSupported": false
+      },
+      "wholeIntervalSupported": false,
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "Code-specific allocation/withdrawal and full historical continuity are not established.",
+          "Rights and source-family admission are claim-specific; source policy cannot manufacture temporal evidence."
+        ]
+      },
+      "expectedNewResolved": 0,
+      "expectedUncertaintyReduction": 0,
+      "independence": "Different editions of one issuer are one family. OurAirports and derivatives are one directory lineage; directory revisions are not real-world events."
+    },
+    {
+      "reviewId": "next-aa-147",
+      "candidateId": "cand_237e137c1d47a5ced8a494c6",
+      "eventGroupId": "dup_d75d2d8d421fa030f935fc63",
+      "referenceId": "ref_fc0683c0c9efc37c704ca840",
+      "researchClusterKey": "cluster_a121fa94a40a3cf4cd595013",
+      "globalRank": 147,
+      "priorityScore": 80,
+      "highValue": true,
+      "country": "ET",
+      "name": "Hawassa International Airport",
+      "codes": [
+        "IATA:AWA",
+        "ICAO:HALA"
+      ],
+      "reviewClass": "new_remaining_high_value_group",
+      "newRemainingHighValueReview": true,
+      "selectionInput": "research/evidence/global-code-expansion/remaining-high-value-queue.jsonl.gz",
+      "selectionVerifiedByExactEventGroupId": true,
+      "priorResearchExactIdPaths": [],
+      "researchStatus": "official_source_access_blocked",
+      "evidenceLevel": "no_relevant_aviation_original_obtained",
+      "sourceIds": [
+        "next-et-airports",
+        "next-et-ecaa",
+        "next-et-eaa"
+      ],
+      "researchClassification": "access_blocked_wrong_agency_endpoint_rejected",
+      "findings": "Airports endpoint failed and ECAA returned503. The acquired eaa.gov.et page concerns plant and animal regulation, not an airports authority; it is excluded as aviation evidence. No HALA/AWA association or chronology is established by this batch.",
+      "nextAction": "Find the authenticated Ethiopian airports/AIS publisher; acquire old/new Hawassa AD2 with ARPs, amendment chronology and independent IATA AWA action.",
+      "codeFacts": [],
+      "iataConclusion": {
+        "status": "no_allocation_or_withdrawal_boundary_proven",
+        "wholeIntervalSupported": false
+      },
+      "icaoConclusion": {
+        "status": "no_boundary_proven",
+        "wholeIntervalSupported": false
+      },
+      "wholeIntervalSupported": false,
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "Code-specific allocation/withdrawal and full historical continuity are not established.",
+          "Rights and source-family admission are claim-specific; source policy cannot manufacture temporal evidence."
+        ]
+      },
+      "expectedNewResolved": 0,
+      "expectedUncertaintyReduction": 0,
+      "independence": "Different editions of one issuer are one family. OurAirports and derivatives are one directory lineage; directory revisions are not real-world events."
+    },
+    {
+      "reviewId": "next-aa-174",
+      "candidateId": "cand_ee0047fd48acfb13ec1083c3",
+      "eventGroupId": "lead_3e35698d318c89fda875e9b9",
+      "referenceId": "ref_afc2eb811fc0adb247aeef4c",
+      "researchClusterKey": "cluster_7d1fd8441e320f3ecdc3f5db",
+      "globalRank": 174,
+      "priorityScore": 80,
+      "highValue": true,
+      "country": "ZM",
+      "name": "Simon Mwansa Kapwepwe International Airport",
+      "codes": [
+        "IATA:NLA",
+        "ICAO:FLSK"
+      ],
+      "reviewClass": "new_remaining_high_value_group",
+      "newRemainingHighValueReview": true,
+      "selectionInput": "research/evidence/global-code-expansion/remaining-high-value-queue.jsonl.gz",
+      "selectionVerifiedByExactEventGroupId": true,
+      "priorResearchExactIdPaths": [],
+      "researchStatus": "cached_original_inspected",
+      "evidenceLevel": "official_notam_summary_code_name_observations",
+      "sourceIds": [
+        "next-zm-notam-202107",
+        "next-zm-notam-202108",
+        "next-zm-notam-202111",
+        "next-zm-aib"
+      ],
+      "researchClassification": "pre_opening_icao_designation_observed_opening_not_allocation",
+      "findings": "ZACL July2021 summary as at1July already has a separate FLSK section for Simon Mwansa Kapwepwe and FLND section for Ndola. A0196/21 corrects a VOR procedure referenced to AIRAC AIP SUP003/2021 with May27-Aug26 validity. August repeats FLSK and a July30-Aug6 CNS commissioning notice; November again labels FLSK. FLSK was thus in official material before the August5 inauguration lead. Procedure validity and inauguration dates do not prove initial allocation. No NLA transfer or daily continuity is established.",
+      "nextAction": "Obtain AIRAC AIP SUP003/2021, initial FLSK AD2/ARP and amendment provenance; independently obtain NLA transfer/old-site withdrawal originals.",
+      "codeFacts": [
+        {
+          "scheme": "ICAO",
+          "code": "FLSK",
+          "siteName": "Simon Mwansa Kapwepwe International Airport",
+          "sourceId": "next-zm-notam-202107",
+          "date": "2021-07-01",
+          "dateKind": "notam_summary_as_at_date_or_month_not_initial_allocation",
+          "boundary": false
+        },
+        {
+          "scheme": "ICAO",
+          "code": "FLSK",
+          "siteName": "Simon Mwansa Kapwepwe International Airport",
+          "sourceId": "next-zm-notam-202108",
+          "date": "2021-08-01",
+          "dateKind": "notam_summary_as_at_date_or_month_not_initial_allocation",
+          "boundary": false
+        },
+        {
+          "scheme": "ICAO",
+          "code": "FLSK",
+          "siteName": "Simon Mwansa Kapwepwe International Airport",
+          "sourceId": "next-zm-notam-202111",
+          "date": "2021-11",
+          "dateKind": "notam_summary_as_at_date_or_month_not_initial_allocation",
+          "boundary": false
+        }
+      ],
+      "iataConclusion": {
+        "status": "no_allocation_or_withdrawal_boundary_proven",
+        "wholeIntervalSupported": false
+      },
+      "icaoConclusion": {
+        "status": "discrete_observation_only",
+        "wholeIntervalSupported": false
+      },
+      "wholeIntervalSupported": false,
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "Code-specific allocation/withdrawal and full historical continuity are not established.",
+          "Rights and source-family admission are claim-specific; source policy cannot manufacture temporal evidence."
+        ]
+      },
+      "expectedNewResolved": 0,
+      "expectedUncertaintyReduction": 0,
+      "independence": "Different editions of one issuer are one family. OurAirports and derivatives are one directory lineage; directory revisions are not real-world events."
+    },
+    {
+      "reviewId": "next-aa-209",
+      "candidateId": "cand_c92425d6375f564d26298307",
+      "eventGroupId": "lead_a1806e14890534e9bbb68c12",
+      "referenceId": "ref_1d6c32a19a6f0d52d3d28ead",
+      "researchClusterKey": "cluster_c33fe44b148a67e7ea5785e0",
+      "globalRank": 209,
+      "priorityScore": 80,
+      "highValue": true,
+      "country": "CO",
+      "name": "Miriti Parana Airport",
+      "codes": [
+        "IATA:MIX"
+      ],
+      "reviewClass": "new_remaining_high_value_group",
+      "newRemainingHighValueReview": true,
+      "selectionInput": "research/evidence/global-code-expansion/remaining-high-value-queue.jsonl.gz",
+      "selectionVerifiedByExactEventGroupId": true,
+      "priorResearchExactIdPaths": [],
+      "researchStatus": "cached_original_inspected",
+      "evidenceLevel": "official_portal_name_only",
+      "sourceIds": [
+        "next-co-ais-portal",
+        "next-co-iram-pa"
+      ],
+      "researchClassification": "name_observation_large_coordinate_conflict_unresolved",
+      "findings": "Aerocivil IRAM portal includes MIRITI PARANA as a selectable name. It does not supply an inspected code/name/site result establishing IATA:MIX or either candidate ARP. A name-only portal option cannot resolve the238.892km geographic discrepancy.",
+      "nextAction": "Obtain site-specific Aerocivil rows with coordinates and IATA MIX assignment history; distinguish source correction from actual relocation before any date proposal.",
+      "codeFacts": [],
+      "iataConclusion": {
+        "status": "no_allocation_or_withdrawal_boundary_proven",
+        "wholeIntervalSupported": false
+      },
+      "icaoConclusion": {
+        "status": "no_boundary_proven",
+        "wholeIntervalSupported": false
+      },
+      "wholeIntervalSupported": false,
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "Code-specific allocation/withdrawal and full historical continuity are not established.",
+          "Rights and source-family admission are claim-specific; source policy cannot manufacture temporal evidence."
+        ]
+      },
+      "expectedNewResolved": 0,
+      "expectedUncertaintyReduction": 0,
+      "independence": "Different editions of one issuer are one family. OurAirports and derivatives are one directory lineage; directory revisions are not real-world events."
+    },
+    {
+      "candidateId": "cand_5ae2bd951f1ddfbbbc4a1b98",
+      "eventGroupId": "dup_053fff021fcc335a906d311d",
+      "referenceId": "ref_883aa326342a218ed6f9e953",
+      "researchClusterKey": "cluster_d5ca864bb0f6b7eae665e5c5",
+      "globalRank": 235,
+      "country": "US",
+      "codes": [
+        "IATA:DJT",
+        "IATA:PBI",
+        "ICAO:KDJT",
+        "ICAO:KPBI"
+      ],
+      "name": "West Palm Beach code changes",
+      "reviewId": "next-aa-followup-235",
+      "reviewClass": "old_followup",
+      "newRemainingHighValueReview": false,
+      "sourceIds": [
+        "global-code-expansion-us-pbi-name-faq",
+        "global-code-expansion-us-pbc-airports",
+        "global-code-expansion-us-faa-dtpp-2611",
+        "global-code-expansion-us-faa-djt-diagram-2611",
+        "next-us-faa-notice8900780",
+        "next-us-faa-info26011-official",
+        "next-us-nws-kdjt-implementation",
+        "next-us-pbi-actual-name-change",
+        "next-us-faa-playbook"
+      ],
+      "evidenceLevel": "old_boundary_only_candidates_with_new_source_amendments",
+      "researchStatus": "cached_original_or_legacy_receipt_inspected",
+      "findings": "FAA June notices group the future namespace changes with July9 renaming/administrative updates. NWS June12 explicitly plans KPBI→KDJT July9; its1200UTC time is TAF service timing. County article body datedJuly9 reports ICAO now KDJT while retaining IATA PBI untilAug18; page display isJuly14. Reused FAQ updatedAug20 reports actual IATA changeAug18 and ICAO changeJuly9. These preserve two code-specific days and the four old pending proposal IDs. They establish no unknown outer boundary or whole interval. No FAA LID DJT→IATA inference.",
+      "nextAction": "Review authenticated underlying IATA notification and FAA location-identifier action, clarify lifecycle/supersession, apply the separate source policy only within its exact scope.",
+      "codeFacts": [],
+      "wholeIntervalSupported": false,
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "Code-specific allocation/withdrawal and full historical continuity are not established.",
+          "Rights and source-family admission are claim-specific; source policy cannot manufacture temporal evidence."
+        ]
+      },
+      "expectedNewResolved": 0,
+      "expectedUncertaintyReduction": 0,
+      "independence": "Different editions of one issuer are one family. OurAirports and derivatives are one directory lineage; directory revisions are not real-world events."
+    },
+    {
+      "candidateId": "cand_4ecbdc43aaa5a0a46a3c5e78",
+      "eventGroupId": "lead_f9f3bb9722e89126685ef545",
+      "referenceId": "ref_48ad878611748697c62b6e30",
+      "researchClusterKey": "cluster_850c5b40edd4c29f58192272",
+      "globalRank": 24,
+      "country": "CL",
+      "codes": [
+        "IATA:WCH"
+      ],
+      "name": "Chaitén old/new relocation",
+      "reviewId": "next-aa-followup-24",
+      "reviewClass": "old_followup",
+      "newRemainingHighValueReview": false,
+      "sourceIds": [
+        "wch-resolution",
+        "wch-fiche"
+      ],
+      "evidenceLevel": "legacy_hashed_receipts_only_conflicting_icao",
+      "researchStatus": "cached_original_or_legacy_receipt_inspected",
+      "findings": "The old global1 receipt actually retains nested raw SHA256/byte count for DASA027 and the technical fiche. Resolution supported-facts note identifies new-site SCTN with coordinates42°46′55″S72°50′06″W. Fiche prints SCPC and describes inherited codes without an effective date. The SCTN/SCPC conflict is preserved. No current raw/extraction replay was available; no refetch or fabricated OCR/page citation occurred. The2015-01-25 opening is not a code transfer date.",
+      "nextAction": "Recover retained local originals/OCR through an authorized custody path, resolve SCTN versus SCPC against controlled AD2/amendments and independently obtain WCH transfer/withdrawal chronology.",
+      "codeFacts": [],
+      "wholeIntervalSupported": false,
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "Code-specific allocation/withdrawal and full historical continuity are not established.",
+          "Rights and source-family admission are claim-specific; source policy cannot manufacture temporal evidence."
+        ]
+      },
+      "expectedNewResolved": 0,
+      "expectedUncertaintyReduction": 0,
+      "independence": "Different editions of one issuer are one family. OurAirports and derivatives are one directory lineage; directory revisions are not real-world events."
+    },
+    {
+      "candidateId": "cand_00edcd7e3087744b28ff945e",
+      "eventGroupId": "dup_8a7de9f5895ebfebf5d44ac7",
+      "referenceId": "ref_f3d275fcbfec4cd3eaf29cef",
+      "researchClusterKey": "cluster_4a20e55783333e13ecb30231",
+      "globalRank": 140,
+      "country": "VC",
+      "codes": [
+        "IATA:SVD",
+        "ICAO:TVSA"
+      ],
+      "name": "Argyle",
+      "reviewId": "next-aa-followup-140",
+      "reviewClass": "old_followup",
+      "newRemainingHighValueReview": false,
+      "sourceIds": [
+        "next-ec-caa-argyle-ad2",
+        "next-ec-caa-aip-gen30",
+        "next-ec-caa-eaip-index",
+        "next-ec-caa-valid-supplements"
+      ],
+      "evidenceLevel": "controlled_ad2_code_name_arp_observation",
+      "researchStatus": "cached_original_or_legacy_receipt_inspected",
+      "findings": "New official AD2.9-1 dated04NOV21 explicitly labels TVSA—Kingstown/Argyle with ARP13°09′36″N61°08′55″W. GEN location indicators agree. This improves official physical-code context for an old follow-up; it proves no 2017 SVD transfer or first TVSA allocation and supplies no whole window.",
+      "nextAction": "Obtain pre/post TVSV/TVSA controlled amendments, cancellation and NOTAM lifecycle plus authenticated IATA SVD transfer action.",
+      "codeFacts": [
+        {
+          "scheme": "ICAO",
+          "code": "TVSA",
+          "siteName": "Argyle, St Vincent and the Grenadines",
+          "sourceId": "next-ec-caa-argyle-ad2",
+          "date": "2021-11-04",
+          "dateKind": "controlled_component_date_not_initial_allocation",
+          "boundary": false
+        }
+      ],
+      "wholeIntervalSupported": false,
+      "formalAdmission": {
+        "eligible": false,
+        "blockers": [
+          "Code-specific allocation/withdrawal and full historical continuity are not established.",
+          "Rights and source-family admission are claim-specific; source policy cannot manufacture temporal evidence."
+        ]
+      },
+      "expectedNewResolved": 0,
+      "expectedUncertaintyReduction": 0,
+      "independence": "Different editions of one issuer are one family. OurAirports and derivatives are one directory lineage; directory revisions are not real-world events."
+    }
+  ]
+}

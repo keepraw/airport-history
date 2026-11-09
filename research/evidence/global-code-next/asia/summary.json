@@ -1,0 +1,42 @@
+{
+  "actualResearchClusters": 8,
+  "countingMethod": "One actual research cluster per review; queue aliases, same site/code pairs and old followups excluded from new-group count. Blocked target separately labeled.",
+  "duplicateOriginalExcluded": [
+    "next-asia-jp-nagoya-faq"
+  ],
+  "existingFollowupEventGroupIds": [
+    "dup_ce3a8a984a0738318d411ceb",
+    "lead_7ba04008c5f8ec6958131f81",
+    "dup_082eee1b546da42520a438e4"
+  ],
+  "existingFollowupGroups": 3,
+  "formalNewIataAssignments": 0,
+  "formalNewIcaoAssignments": 0,
+  "formalNewResolvedQueries": 0,
+  "formatVersion": 1,
+  "newBoundaryEvidenceFollowup": [
+    "IATA:BLR HAL→Devanahalli,24May2008 at00:01; unknown outer endpoints"
+  ],
+  "newDistinctSupportingOriginalByteHashes": 10,
+  "newRemainingHighValueBlockedTargets": 1,
+  "newRemainingHighValueEventGroupIds": [
+    "lead_c7e49c9c1c12e13e7fd46d9e",
+    "lead_b46a43aa7adf0fe278fea436",
+    "lead_d9aa9d094284e66f71829267",
+    "lead_d755714fb98529bb4d96789d",
+    "dup_cede79349a86129111cf77f4"
+  ],
+  "newRemainingHighValueOfficialContentInspected": 4,
+  "newRemainingHighValueReviewGroups": 5,
+  "newSupportingOriginalRecords": 10,
+  "nonSupportingOriginalExcluded": [
+    "next-asia-kg-flyarystan-bsz"
+  ],
+  "requestedOriginalRedirectExcluded": [
+    "next-asia-kg-airastana-jan2025",
+    "next-asia-kg-airastana-sepoct2025"
+  ],
+  "reviewedOn": "2026-11-09",
+  "sourceFamilyAuthorityActivated": false,
+  "wholeIntervalsSupported": 0
+}

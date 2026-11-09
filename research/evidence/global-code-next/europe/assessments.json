@@ -1,0 +1,1026 @@
+{
+  "formatVersion": 1,
+  "reviewedOn": "2026-11-09",
+  "events": [
+    {
+      "eventGroupId": "dup_b750937e0b45cd8bcfdea882",
+      "country": "TM",
+      "name": "Balkanabat International Airport",
+      "referenceId": "ref_7d49957fabca3ef405e3bc6a",
+      "codes": {
+        "ICAO": [
+          "UTAN"
+        ],
+        "IATA": [
+          "BKN"
+        ]
+      },
+      "rank": 29,
+      "priorityTier": "high",
+      "researchClusterKey": "cluster_52f07efdf5e3d0285c3e1876",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": true,
+      "evidenceInspected": true,
+      "sourceIds": [
+        "next-tm-balkanabat-government",
+        "next-tm-balkanabat-carrier"
+      ],
+      "researchStatus": "evidence_inspected_code_boundary_blocked",
+      "finding": "Actual opening02May2025 and new site20km northwest are established; ICAO/IATA registration certificates are described without BKN/UTAN assignment/transfer effective clauses. No allocation date inferred from opening.",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_metadata_only_full_redistribution_not_established",
+      "authorityStatus": "source_family_code_admission_grant_missing",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain site-specific original and code-specific timing; retain blocked status."
+    },
+    {
+      "eventGroupId": "lead_387a9e39fa7ca44825f74ac7",
+      "relatedEventGroupIds": [
+        "lead_3c394604bf8b50a15c1287e4",
+        "dup_752a3e333b7b9592d91353ec",
+        "lead_bbaa9424ebcdbc8c0ef84f55"
+      ],
+      "country": "MD",
+      "name": "Chişinău International Airport",
+      "rank": 75,
+      "priorityTier": "high",
+      "newRemainingReview": false,
+      "newRemainingHighValueReview": false,
+      "evidenceInspected": true,
+      "sourceIds": [
+        "next-md-annual-report-2024",
+        "md-tarom-code-change"
+      ],
+      "researchStatus": "existing_formal_transition_custody_strengthened_followup_only",
+      "finding": "Government-hosted operator2024 annual report retrospectively confirms new IATA RMO assigned at beginning2024. This strengthens execution/custody against prior prospective TAROM notice; it supplies no independent18Jan clock and creates no new formal assignment or gain. Existing2024 KIV/RMO formal day uncertainty is preserved.",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "existingFormalAssignmentIds": [
+        "iata-kiv-chisinau",
+        "iata-rmo-chisinau"
+      ],
+      "expectedNewResolved": 0,
+      "expectedUncertaintyReduction": 0
+    },
+    {
+      "eventGroupId": "dup_9de0177dfcd42a2011af658b",
+      "country": "UZ",
+      "name": "Zomin Airport",
+      "referenceId": "ref_e025fa3109e34fac1ea1739b",
+      "codes": {
+        "ICAO": [
+          "UTTZ",
+          "UZTZ"
+        ],
+        "IATA": [
+          "OMN"
+        ]
+      },
+      "rank": 94,
+      "priorityTier": "high",
+      "researchClusterKey": "cluster_619ac69f333f4a7b4be8bb3c",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": true,
+      "evidenceInspected": true,
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01"
+      ],
+      "researchStatus": "evidence_inspected_code_boundary_blocked",
+      "finding": "National prefix rule is relevant but Zomin lacks acquired aerodrome-specific allocation/site original in this finite batch; no per-site code boundary proposed.",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_metadata_only_full_redistribution_not_established",
+      "authorityStatus": "source_family_code_admission_grant_missing",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain site-specific original and code-specific timing; retain blocked status."
+    },
+    {
+      "eventGroupId": "dup_33ab0ee538cfd267e3a464da",
+      "country": "EE",
+      "name": "Tallinn Linnahall Heliport",
+      "referenceId": "ref_dfd2dee7ce37368a1f7c67c9",
+      "codes": {
+        "ICAO": [
+          "EECL"
+        ],
+        "IATA": [
+          "CHE"
+        ]
+      },
+      "rank": 126,
+      "priorityTier": "high",
+      "researchClusterKey": "cluster_5f20224fe781920362b6fb25",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": true,
+      "evidenceInspected": false,
+      "sourceIds": [
+        "next-ee-gen24",
+        "next-ee-ad15"
+      ],
+      "researchStatus": "access_attempt_only_original_unavailable",
+      "finding": "Official dated eAIP GEN2.4/AD1.5 original requests failed; no source content acquired. Heliport closure is not code withdrawal. Count access attempt separately from evidence review.",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_metadata_only_full_redistribution_not_established",
+      "authorityStatus": "source_family_code_admission_grant_missing",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain site-specific original and code-specific timing; retain blocked status."
+    },
+    {
+      "eventGroupId": "dup_76fc99e1b2d7da4bd492b3c5",
+      "country": "TM",
+      "name": "Türkmenabat International Airport",
+      "referenceId": "ref_9cdddcbbc556d522f1cac315",
+      "codes": {
+        "ICAO": [
+          "UTAV"
+        ],
+        "IATA": [
+          "CRZ"
+        ]
+      },
+      "rank": 135,
+      "priorityTier": "high",
+      "researchClusterKey": "cluster_419d35341e4fa19264af65a4",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": true,
+      "evidenceInspected": true,
+      "sourceIds": [
+        "next-tm-turkmenabat-operator"
+      ],
+      "researchStatus": "evidence_inspected_code_boundary_blocked",
+      "finding": "Operator current CRZ and rebuilt2018 narrative are observed; no controlled UTAV/code-transfer history or allocation boundary. Existing old/new airport physical distinction remains unresolved here.",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_metadata_only_full_redistribution_not_established",
+      "authorityStatus": "source_family_code_admission_grant_missing",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain site-specific original and code-specific timing; retain blocked status."
+    },
+    {
+      "eventGroupId": "lead_9f0c9aa63c3f40a334746107",
+      "country": "UZ",
+      "name": "Kokand Airport",
+      "referenceId": "ref_a3af2cb3e6a86cea06cd1fe7",
+      "codes": {
+        "ICAO": [
+          "UZKK"
+        ],
+        "IATA": [
+          "OQN"
+        ]
+      },
+      "rank": 207,
+      "priorityTier": "high",
+      "researchClusterKey": "cluster_5c3c27f1d6bea0a09e12389d",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": true,
+      "evidenceInspected": true,
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01"
+      ],
+      "researchStatus": "evidence_inspected_code_boundary_blocked",
+      "finding": "National prefix rule is relevant but Kokand lacks acquired aerodrome-specific allocation/site original; code-addition/rename observations cannot prove code start.",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_metadata_only_full_redistribution_not_established",
+      "authorityStatus": "source_family_code_admission_grant_missing",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain site-specific original and code-specific timing; retain blocked status."
+    },
+    {
+      "eventGroupId": "dup_235a874afa680e4b8e1d7024",
+      "country": "EE",
+      "name": "Ämari Air Base",
+      "referenceId": "ref_c5fcfd18d568b5e2bd070e2d",
+      "codes": {
+        "ICAO": [
+          "EEEI"
+        ],
+        "IATA": [
+          "AMI"
+        ]
+      },
+      "rank": 241,
+      "priorityTier": "high",
+      "researchClusterKey": "cluster_d4e2af14aa4cb2f811e6f53e",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": true,
+      "evidenceInspected": false,
+      "sourceIds": [
+        "next-ee-gen24",
+        "next-ee-ad15"
+      ],
+      "researchStatus": "access_attempt_only_original_unavailable",
+      "finding": "Official dated eAIP originals unavailable; no new EEEI boundary evidence. Military/civil infrastructure change does not establish ICAO allocation/withdrawal.",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_metadata_only_full_redistribution_not_established",
+      "authorityStatus": "source_family_code_admission_grant_missing",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain site-specific original and code-specific timing; retain blocked status."
+    },
+    {
+      "eventGroupId": "dup_50f782e4707033751f5331ac",
+      "relatedEventGroupIds": [
+        "lead_7b2943992733c86d048fb751",
+        "dup_8714f3b8798953e35e133598",
+        "lead_d70065ba5a2fe85f6c897943",
+        "lead_27ad5be6b42aa2a6602f7b6e"
+      ],
+      "country": "UZ",
+      "name": "Karshi Airport",
+      "referenceId": "ref_84ad0d52f2412a077a014ec0",
+      "codes": {
+        "ICAO": [
+          "UTSK",
+          "UZSK"
+        ],
+        "IATA": [
+          "KSQ"
+        ]
+      },
+      "rank": 250,
+      "priorityTier": "high",
+      "researchClusterKey": "cluster_4587e431c1f7367cbefdd863",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": true,
+      "evidenceInspected": true,
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uzsk",
+        "next-uz-ad13",
+        "next-uz-amdt06-2025",
+        "next-uz-amdt07-2025-issued",
+        "next-uz-amdt01-2026",
+        "next-uz-amdt02-26",
+        "next-uz-amdt03-26",
+        "next-uz-amdt04-26",
+        "next-uz-amdt05-26",
+        "next-uz-gen02",
+        "next-uz-gen03",
+        "next-uz-gen04",
+        "next-uz-gen05",
+        "next-uz-notam-summary-20261101"
+      ],
+      "researchStatus": "permanent_code_boundary_proved_whole_interval_blocked",
+      "finding": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "boundaryFactId": "uz-icao-utsk-uzsk-20251002",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain historical NOTAM lifecycle/control scope and decide applicable source-family policy before any continuous interval."
+    },
+    {
+      "eventGroupId": "lead_138fca062f434c87f15ab08e",
+      "relatedEventGroupIds": [
+        "lead_f3222418b319ada000ab8d0c",
+        "dup_625bc32670273a72a2452b66",
+        "lead_544fe0849fb570c8527eab98",
+        "lead_f4de5e212c0527a448875887",
+        "lead_42d8534d9574c85f18746e21"
+      ],
+      "country": "UZ",
+      "name": "Urgench Airport",
+      "referenceId": "ref_612f4fa889d7d695a29a16bc",
+      "codes": {
+        "ICAO": [
+          "UTNU",
+          "UZNU"
+        ],
+        "IATA": [
+          "UGC"
+        ]
+      },
+      "rank": 504,
+      "priorityTier": "high",
+      "researchClusterKey": "cluster_12c1ce3d3d78e9f80b5443a1",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": true,
+      "evidenceInspected": true,
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uznu",
+        "next-uz-ad13",
+        "next-uz-amdt06-2025",
+        "next-uz-amdt07-2025-issued",
+        "next-uz-amdt01-2026",
+        "next-uz-amdt02-26",
+        "next-uz-amdt03-26",
+        "next-uz-amdt04-26",
+        "next-uz-amdt05-26",
+        "next-uz-gen02",
+        "next-uz-gen03",
+        "next-uz-gen04",
+        "next-uz-gen05",
+        "next-uz-notam-summary-20261101"
+      ],
+      "researchStatus": "permanent_code_boundary_proved_whole_interval_blocked",
+      "finding": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "boundaryFactId": "uz-icao-utnu-uznu-20251002",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain historical NOTAM lifecycle/control scope and decide applicable source-family policy before any continuous interval."
+    },
+    {
+      "eventGroupId": "lead_22247e71c34af56f53fcd6f6",
+      "relatedEventGroupIds": [
+        "lead_36ee92b9f58fd8d46d02542c",
+        "dup_8674586e7c96f3e90f6c8e45",
+        "lead_7bc9588ea1c995a3b27f625d",
+        "lead_87a75860a598774fb9a5357d"
+      ],
+      "country": "UZ",
+      "name": "Tashkent International Airport",
+      "referenceId": "ref_a75512eee9782c1db933b8b3",
+      "codes": {
+        "ICAO": [
+          "UTTT",
+          "UZTT"
+        ],
+        "IATA": [
+          "TAS"
+        ]
+      },
+      "rank": 510,
+      "priorityTier": "high",
+      "researchClusterKey": "cluster_1c8dcf5a42a5ab9d58160b55",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": true,
+      "evidenceInspected": true,
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uztt",
+        "next-uz-ad13",
+        "next-uz-amdt06-2025",
+        "next-uz-amdt07-2025-issued",
+        "next-uz-amdt01-2026",
+        "next-uz-amdt02-26",
+        "next-uz-amdt03-26",
+        "next-uz-amdt04-26",
+        "next-uz-amdt05-26",
+        "next-uz-gen02",
+        "next-uz-gen03",
+        "next-uz-gen04",
+        "next-uz-gen05",
+        "next-uz-notam-summary-20261101"
+      ],
+      "researchStatus": "permanent_code_boundary_proved_whole_interval_blocked",
+      "finding": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "boundaryFactId": "uz-icao-uttt-uztt-20251002",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain historical NOTAM lifecycle/control scope and decide applicable source-family policy before any continuous interval."
+    },
+    {
+      "eventGroupId": "lead_2f5f8eefcf84c78535ee86de",
+      "relatedEventGroupIds": [
+        "lead_f41ea1fa33fc96f374aba6b9",
+        "dup_b5a478f18f99cb0e65b1ebba",
+        "lead_0da0791c7a7aafa0310485da",
+        "lead_d72e6a5dec02c930626d871f",
+        "lead_4aef4be602f0cbdb2ebd4c75"
+      ],
+      "country": "UZ",
+      "name": "Nukus International Airport",
+      "referenceId": "ref_1f522cc4e2e3ab637520a45e",
+      "codes": {
+        "ICAO": [
+          "UTNN",
+          "UZNN"
+        ],
+        "IATA": [
+          "NCU"
+        ]
+      },
+      "rank": 512,
+      "priorityTier": "high",
+      "researchClusterKey": "cluster_adfc438f45e4f97550a209b9",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": true,
+      "evidenceInspected": true,
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uznn",
+        "next-uz-ad13",
+        "next-uz-amdt06-2025",
+        "next-uz-amdt07-2025-issued",
+        "next-uz-amdt01-2026",
+        "next-uz-amdt02-26",
+        "next-uz-amdt03-26",
+        "next-uz-amdt04-26",
+        "next-uz-amdt05-26",
+        "next-uz-gen02",
+        "next-uz-gen03",
+        "next-uz-gen04",
+        "next-uz-gen05",
+        "next-uz-notam-summary-20261101"
+      ],
+      "researchStatus": "permanent_code_boundary_proved_whole_interval_blocked",
+      "finding": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "boundaryFactId": "uz-icao-utnn-uznn-20251002",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain historical NOTAM lifecycle/control scope and decide applicable source-family policy before any continuous interval."
+    },
+    {
+      "eventGroupId": "lead_41e02f996fa78a8f146aa09e",
+      "relatedEventGroupIds": [
+        "lead_f2a8a0806b4a3bcdd087450d",
+        "dup_d7f6335af19de96841451da0",
+        "lead_8d9329055575150fb1e02499",
+        "lead_3e962f8973f8025cc9726b73"
+      ],
+      "country": "UZ",
+      "name": "Namangan Airport",
+      "referenceId": "ref_b93328fb2f804b5648be04a2",
+      "codes": {
+        "ICAO": [
+          "UTFN",
+          "UZFN"
+        ],
+        "IATA": [
+          "NMA"
+        ]
+      },
+      "rank": 514,
+      "priorityTier": "high",
+      "researchClusterKey": "cluster_be46a8445490fecbaa2ebd21",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": true,
+      "evidenceInspected": true,
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uzfn",
+        "next-uz-ad13",
+        "next-uz-amdt06-2025",
+        "next-uz-amdt07-2025-issued",
+        "next-uz-amdt01-2026",
+        "next-uz-amdt02-26",
+        "next-uz-amdt03-26",
+        "next-uz-amdt04-26",
+        "next-uz-amdt05-26",
+        "next-uz-gen02",
+        "next-uz-gen03",
+        "next-uz-gen04",
+        "next-uz-gen05",
+        "next-uz-notam-summary-20261101"
+      ],
+      "researchStatus": "permanent_code_boundary_proved_whole_interval_blocked",
+      "finding": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "boundaryFactId": "uz-icao-utfn-uzfn-20251002",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain historical NOTAM lifecycle/control scope and decide applicable source-family policy before any continuous interval."
+    },
+    {
+      "eventGroupId": "lead_451dc0295742c6d663cc6ff0",
+      "relatedEventGroupIds": [
+        "lead_952e8ec7bcf06196fd5123f1",
+        "dup_3fe92780e39f92a53f294951",
+        "lead_4a14dbb162e8ce13326adcbe",
+        "lead_a025d464bcf7d47a3a40e838",
+        "lead_46b594d331f0d4e725ed887a",
+        "lead_6d6f9d2f8131c1c710be8730"
+      ],
+      "country": "UZ",
+      "name": "Bukhara International Airport",
+      "referenceId": "ref_ae10708c3eb6f446004ab861",
+      "codes": {
+        "ICAO": [
+          "UTSB",
+          "UZSB"
+        ],
+        "IATA": [
+          "BHK"
+        ]
+      },
+      "rank": 515,
+      "priorityTier": "high",
+      "researchClusterKey": "cluster_836c720d08642e6c477874ae",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": true,
+      "evidenceInspected": true,
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uzsb",
+        "next-uz-ad13",
+        "next-uz-amdt06-2025",
+        "next-uz-amdt07-2025-issued",
+        "next-uz-amdt01-2026",
+        "next-uz-amdt02-26",
+        "next-uz-amdt03-26",
+        "next-uz-amdt04-26",
+        "next-uz-amdt05-26",
+        "next-uz-gen02",
+        "next-uz-gen03",
+        "next-uz-gen04",
+        "next-uz-gen05",
+        "next-uz-notam-summary-20261101"
+      ],
+      "researchStatus": "permanent_code_boundary_proved_whole_interval_blocked",
+      "finding": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "boundaryFactId": "uz-icao-utsb-uzsb-20251002",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain historical NOTAM lifecycle/control scope and decide applicable source-family policy before any continuous interval."
+    },
+    {
+      "eventGroupId": "lead_8f7635eacad033d703ede8c5",
+      "relatedEventGroupIds": [
+        "lead_c6861da23f4b504973450ff9",
+        "dup_cc07223a0598a869cd23122b",
+        "lead_26e7bd7aabf220a048f8931e",
+        "lead_8a5e3504f5f63b2c0e4a7ca0",
+        "lead_0582005f9a0387c6871503ae"
+      ],
+      "country": "UZ",
+      "name": "Samarkand Airport",
+      "referenceId": "ref_bc991fab1e40c34d7f27aeb3",
+      "codes": {
+        "ICAO": [
+          "UTSS",
+          "UZSS"
+        ],
+        "IATA": [
+          "SKD"
+        ]
+      },
+      "rank": 529,
+      "priorityTier": "high",
+      "researchClusterKey": "cluster_bb7297a8620369798b5e1ba5",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": true,
+      "evidenceInspected": true,
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uzss",
+        "next-uz-ad13",
+        "next-uz-amdt06-2025",
+        "next-uz-amdt07-2025-issued",
+        "next-uz-amdt01-2026",
+        "next-uz-amdt02-26",
+        "next-uz-amdt03-26",
+        "next-uz-amdt04-26",
+        "next-uz-amdt05-26",
+        "next-uz-gen02",
+        "next-uz-gen03",
+        "next-uz-gen04",
+        "next-uz-gen05",
+        "next-uz-notam-summary-20261101"
+      ],
+      "researchStatus": "permanent_code_boundary_proved_whole_interval_blocked",
+      "finding": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "boundaryFactId": "uz-icao-utss-uzss-20251002",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain historical NOTAM lifecycle/control scope and decide applicable source-family policy before any continuous interval."
+    },
+    {
+      "eventGroupId": "lead_432c71da3d370385f94601e0",
+      "country": "UZ",
+      "name": "Karshi-Khanabad Air Base",
+      "referenceId": "ref_d372efe3582d40c5d0a651f8",
+      "codes": {
+        "ICAO": [
+          "UZSL"
+        ],
+        "IATA": [
+          "KSQ"
+        ]
+      },
+      "rank": 792,
+      "priorityTier": "high",
+      "researchClusterKey": "cluster_ac5ad3d2e07cbfe7bae3f515",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": true,
+      "evidenceInspected": true,
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01"
+      ],
+      "researchStatus": "evidence_inspected_code_boundary_blocked",
+      "finding": "Karshi-Khanabad military UZSL is distinct from civil Karshi UZSK; no acquired AD2 site original for UZSL, so do not collapse physical airports.",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_metadata_only_full_redistribution_not_established",
+      "authorityStatus": "source_family_code_admission_grant_missing",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain site-specific original and code-specific timing; retain blocked status."
+    },
+    {
+      "eventGroupId": "dup_f6b5618a12994695fdd32fee",
+      "relatedEventGroupIds": [
+        "lead_c52c555c48cd40ebb2448e5b",
+        "dup_c9b3011cbcda855ec4bb894e"
+      ],
+      "country": "UZ",
+      "name": "Termez Airport",
+      "referenceId": "ref_4257a1180d9a12e061e2c32f",
+      "codes": {
+        "ICAO": [
+          "UTST",
+          "UZST"
+        ],
+        "IATA": [
+          "TMJ"
+        ]
+      },
+      "rank": 1396,
+      "priorityTier": "follow_up",
+      "researchClusterKey": "cluster_271f5dcdaee3cb52b7194a44",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": false,
+      "evidenceInspected": true,
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uzst",
+        "next-uz-ad13",
+        "next-uz-amdt06-2025",
+        "next-uz-amdt07-2025-issued",
+        "next-uz-amdt01-2026",
+        "next-uz-amdt02-26",
+        "next-uz-amdt03-26",
+        "next-uz-amdt04-26",
+        "next-uz-amdt05-26",
+        "next-uz-gen02",
+        "next-uz-gen03",
+        "next-uz-gen04",
+        "next-uz-gen05",
+        "next-uz-notam-summary-20261101"
+      ],
+      "researchStatus": "permanent_code_boundary_proved_whole_interval_blocked",
+      "finding": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "boundaryFactId": "uz-icao-utst-uzst-20251002",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain historical NOTAM lifecycle/control scope and decide applicable source-family policy before any continuous interval."
+    },
+    {
+      "eventGroupId": "lead_0cac59f5317096d110e8b078",
+      "relatedEventGroupIds": [
+        "lead_56a4f8c619ec7dc9512df1c6",
+        "lead_80ce91975cd2de53280006d9",
+        "lead_99c9e4be233622bda40dc33f",
+        "dup_4d81059f80849cd05ec8b932",
+        "lead_3c1bb15222cec4350cd0e92d"
+      ],
+      "country": "UZ",
+      "name": "Navoi International Airport",
+      "referenceId": "ref_d2197839d70489ed067253d6",
+      "codes": {
+        "ICAO": [
+          "UTSA",
+          "UZSA"
+        ],
+        "IATA": [
+          "NVI"
+        ]
+      },
+      "rank": 1417,
+      "priorityTier": "follow_up",
+      "researchClusterKey": "cluster_0e2688be40419271210e78bf",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": false,
+      "evidenceInspected": true,
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uzsa",
+        "next-uz-ad13",
+        "next-uz-amdt06-2025",
+        "next-uz-amdt07-2025-issued",
+        "next-uz-amdt01-2026",
+        "next-uz-amdt02-26",
+        "next-uz-amdt03-26",
+        "next-uz-amdt04-26",
+        "next-uz-amdt05-26",
+        "next-uz-gen02",
+        "next-uz-gen03",
+        "next-uz-gen04",
+        "next-uz-gen05",
+        "next-uz-notam-summary-20261101"
+      ],
+      "researchStatus": "permanent_code_boundary_proved_whole_interval_blocked",
+      "finding": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "boundaryFactId": "uz-icao-utsa-uzsa-20251002",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain historical NOTAM lifecycle/control scope and decide applicable source-family policy before any continuous interval."
+    },
+    {
+      "eventGroupId": "lead_27aa0bbaadf482da3e53bb42",
+      "relatedEventGroupIds": [
+        "dup_ec65a46daa6ecce7824a7394",
+        "lead_c3446dac0b4c458b45985673",
+        "dup_493859b00674966e0c3992df",
+        "lead_7487dafbaeb78eb3a7975984",
+        "dup_60849c242deceed6edf68fe5"
+      ],
+      "country": "UZ",
+      "name": "Tashkent East Airport",
+      "referenceId": "ref_24c8011fbba66adddc12f860",
+      "codes": {
+        "ICAO": [
+          "UTTP",
+          "UZTP"
+        ],
+        "IATA": [
+          "TVT"
+        ]
+      },
+      "rank": 1444,
+      "priorityTier": "follow_up",
+      "researchClusterKey": "cluster_f0a9a7bdd767341cf5f4e27b",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": false,
+      "evidenceInspected": true,
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uztp",
+        "next-uz-ad13",
+        "next-uz-amdt06-2025",
+        "next-uz-amdt07-2025-issued",
+        "next-uz-amdt01-2026",
+        "next-uz-amdt02-26",
+        "next-uz-amdt03-26",
+        "next-uz-amdt04-26",
+        "next-uz-amdt05-26",
+        "next-uz-gen02",
+        "next-uz-gen03",
+        "next-uz-gen04",
+        "next-uz-gen05",
+        "next-uz-notam-summary-20261101"
+      ],
+      "researchStatus": "permanent_code_boundary_proved_whole_interval_blocked",
+      "finding": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "boundaryFactId": "uz-icao-uttp-uztp-20251002",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain historical NOTAM lifecycle/control scope and decide applicable source-family policy before any continuous interval."
+    },
+    {
+      "eventGroupId": "lead_645be5e6df374020d277bcdc",
+      "relatedEventGroupIds": [
+        "dup_9087de9d213ddc7f335057ff",
+        "lead_a90dc07310556a97cccc2236"
+      ],
+      "country": "UZ",
+      "name": "Fergana International Airport",
+      "referenceId": "ref_4c53c8defce99d92373709dc",
+      "codes": {
+        "ICAO": [
+          "UTFF",
+          "UZFF"
+        ],
+        "IATA": [
+          "FEG"
+        ]
+      },
+      "rank": 1490,
+      "priorityTier": "follow_up",
+      "researchClusterKey": "cluster_b03c482b6bcd02ab558a7bec",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": false,
+      "evidenceInspected": true,
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uzff",
+        "next-uz-ad13",
+        "next-uz-amdt06-2025",
+        "next-uz-amdt07-2025-issued",
+        "next-uz-amdt01-2026",
+        "next-uz-amdt02-26",
+        "next-uz-amdt03-26",
+        "next-uz-amdt04-26",
+        "next-uz-amdt05-26",
+        "next-uz-gen02",
+        "next-uz-gen03",
+        "next-uz-gen04",
+        "next-uz-gen05",
+        "next-uz-notam-summary-20261101"
+      ],
+      "researchStatus": "permanent_code_boundary_proved_whole_interval_blocked",
+      "finding": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "boundaryFactId": "uz-icao-utff-uzff-20251002",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain historical NOTAM lifecycle/control scope and decide applicable source-family policy before any continuous interval."
+    },
+    {
+      "eventGroupId": "lead_0edbda9085627c8df0748e63",
+      "relatedEventGroupIds": [
+        "lead_93e3200539557ae9fe3bee65",
+        "lead_f2d3a9c84a942013a084b39a",
+        "lead_e1b1927ed40b066c321e0c21"
+      ],
+      "country": "UZ",
+      "name": "Andijan International Airport",
+      "referenceId": "ref_877d808b5e6e4e28278d1bbb",
+      "codes": {
+        "ICAO": [
+          "UTFA",
+          "UZFA"
+        ],
+        "IATA": [
+          "AZN"
+        ]
+      },
+      "rank": 7076,
+      "priorityTier": "follow_up",
+      "researchClusterKey": "cluster_ae815bf458e26395957e10df",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": false,
+      "evidenceInspected": true,
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uzfa",
+        "next-uz-ad13",
+        "next-uz-amdt06-2025",
+        "next-uz-amdt07-2025-issued",
+        "next-uz-amdt01-2026",
+        "next-uz-amdt02-26",
+        "next-uz-amdt03-26",
+        "next-uz-amdt04-26",
+        "next-uz-amdt05-26",
+        "next-uz-gen02",
+        "next-uz-gen03",
+        "next-uz-gen04",
+        "next-uz-gen05",
+        "next-uz-notam-summary-20261101"
+      ],
+      "researchStatus": "permanent_code_boundary_proved_whole_interval_blocked",
+      "finding": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "boundaryFactId": "uz-icao-utfa-uzfa-20251002",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain historical NOTAM lifecycle/control scope and decide applicable source-family policy before any continuous interval."
+    },
+    {
+      "eventGroupId": "dup_99763655f7d22584e700c434",
+      "relatedEventGroupIds": [
+        "lead_4e13febddb893b6473974291",
+        "dup_4f8bc5b2c25114d17eeb9792"
+      ],
+      "country": "UZ",
+      "name": "Chirchik Airport",
+      "referenceId": "ref_f86b0c68df8a837587425798",
+      "codes": {
+        "ICAO": [
+          "UTTC",
+          "UZTC"
+        ],
+        "IATA": []
+      },
+      "rank": 15824,
+      "priorityTier": "follow_up",
+      "researchClusterKey": "cluster_c1ce2289a389e8c1bc8dacd7",
+      "newRemainingReview": true,
+      "newRemainingHighValueReview": false,
+      "evidenceInspected": true,
+      "sourceIds": [
+        "next-uz-notam-summary-20251002",
+        "next-uz-amdt05-2025",
+        "next-uz-gen01",
+        "next-uz-ad2-uztc",
+        "next-uz-ad13",
+        "next-uz-amdt06-2025",
+        "next-uz-amdt07-2025-issued",
+        "next-uz-amdt01-2026",
+        "next-uz-amdt02-26",
+        "next-uz-amdt03-26",
+        "next-uz-amdt04-26",
+        "next-uz-amdt05-26",
+        "next-uz-gen02",
+        "next-uz-gen03",
+        "next-uz-gen04",
+        "next-uz-gen05",
+        "next-uz-notam-summary-20261101"
+      ],
+      "researchStatus": "permanent_code_boundary_proved_whole_interval_blocked",
+      "finding": "Permanent national ICAO UT→UZ substitution effective02Oct2025, with13 named entries in GEN2.4 and corresponding AD2 site records. Trigger NOTAM expiry16Oct2025 is not code withdrawal. Issuer competence is explicit in GEN0.1. Complete post-effective AIRAC chain acquired; historic supplement/NOTAM cancellation scope remains incomplete, so no whole historical interval asserted.",
+      "boundaryFactId": "uz-icao-uttc-uztc-20251002",
+      "wholeIntervalSupported": false,
+      "conditionalReviewEligible": false,
+      "formalAdmission": false,
+      "rightsStatus": "atomic_factual_metadata_retention_scoped_LexUZ_Art8_full_AIP_redistribution_not_established",
+      "authorityStatus": "issuer_competence_documented_source_family_code_admission_grant_pending_owner",
+      "expectedNewResolved": null,
+      "expectedUncertaintyReduction": null,
+      "nextAction": "Obtain historical NOTAM lifecycle/control scope and decide applicable source-family policy before any continuous interval."
+    }
+  ],
+  "canonicalEventGroups": 21,
+  "distinctCountriesEvidenceInspected": [
+    "MD",
+    "TM",
+    "UZ"
+  ],
+  "distinctCountriesAccessAttemptOnly": [
+    "EE"
+  ],
+  "countsPolicy": "One assessment per physical code-event cluster; related directory event IDs do not create extra physical events. High-value follows actual priorityTier, not code count; MD is prior followup, EE only access attempts."
+}
