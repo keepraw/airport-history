@@ -1,0 +1,375 @@
+{
+  "auditModified": false,
+  "blobs": [
+    {
+      "blob": "df4c9019a4b0a1f8ca226a01d43b9449971f8ea1",
+      "compressedBytes": 14278,
+      "error": null,
+      "path": "THIRD_PARTY_NOTICES.md",
+      "records": null,
+      "uncompressedBytes": 14278
+    },
+    {
+      "blob": "550e5c246c6e6fc0d30953b8cbd0b0b9b462f8d1",
+      "compressedBytes": 2210,
+      "error": null,
+      "path": "research/evidence/global-public-data/LICENSES.md",
+      "records": null,
+      "uncompressedBytes": 2210
+    },
+    {
+      "blob": "317d011cdcf211fb9a0f25ed22ef32b58c662e1f",
+      "compressedBytes": 72978,
+      "error": null,
+      "path": "research/evidence/global-public-data/admission-proposal.json",
+      "records": null,
+      "uncompressedBytes": 72978
+    },
+    {
+      "blob": "b82500a879cfd448f72401c7a59a6a34659c8323",
+      "compressedBytes": 6473,
+      "error": null,
+      "path": "research/evidence/global-public-data/artifact-manifest.json",
+      "records": null,
+      "uncompressedBytes": 6473
+    },
+    {
+      "blob": "5a6c5be06133090d54460f4f1daa36f99c5fefd5",
+      "compressedBytes": 115988,
+      "error": null,
+      "path": "research/evidence/global-public-data/bts-airport-id-lookup.jsonl.gz",
+      "records": 6918,
+      "uncompressedBytes": 485024
+    },
+    {
+      "blob": "d540c361bc43de714425e0ecdf6f0767b6516bd5",
+      "compressedBytes": 185735,
+      "error": null,
+      "path": "research/evidence/global-public-data/bts-airport-seq-id-lookup.jsonl.gz",
+      "records": 20298,
+      "uncompressedBytes": 1464871
+    },
+    {
+      "blob": "57a6ae21f8afde5aa0f8cf695c6478e6236458ba",
+      "compressedBytes": 27420,
+      "error": null,
+      "path": "research/evidence/global-public-data/bts-crosswalk.jsonl.gz",
+      "records": 560,
+      "uncompressedBytes": 250758
+    },
+    {
+      "blob": "903d2dffdd19d4ab710163d4e3fb759bb8ffe7e5",
+      "compressedBytes": 66,
+      "error": null,
+      "path": "research/evidence/global-public-data/checkpoint-P238.json",
+      "records": null,
+      "uncompressedBytes": 66
+    },
+    {
+      "blob": "7c6535986355d24b3288354b289a609e5fba922b",
+      "compressedBytes": 66,
+      "error": null,
+      "path": "research/evidence/global-public-data/checkpoint-P239.json",
+      "records": null,
+      "uncompressedBytes": 66
+    },
+    {
+      "blob": "a70ecd40b374064efe1e8db0e0ed7a8ae1d0ccdc",
+      "compressedBytes": 542,
+      "error": null,
+      "path": "research/evidence/global-public-data/checkpoint-bts.json",
+      "records": null,
+      "uncompressedBytes": 542
+    },
+    {
+      "blob": "ea3e9936cf390d1db838de66debfff1e0c18d590",
+      "compressedBytes": 315,
+      "error": null,
+      "path": "research/evidence/global-public-data/checkpoint-entity-enumeration.json",
+      "records": null,
+      "uncompressedBytes": 315
+    },
+    {
+      "blob": "72f0813bd9138b310ccf540234107d1e0f45915d",
+      "compressedBytes": 92,
+      "error": null,
+      "path": "research/evidence/global-public-data/checkpoint-faa.json",
+      "records": null,
+      "uncompressedBytes": 92
+    },
+    {
+      "blob": "e39dc36c13e3c0cf32f80734d3d11c86ed383bf1",
+      "compressedBytes": 2344,
+      "error": null,
+      "path": "research/evidence/global-public-data/checkpoint-osm-entities.json",
+      "records": null,
+      "uncompressedBytes": 2344
+    },
+    {
+      "blob": "f5da1e2555204f36cb00ba8a295221b71941dad9",
+      "compressedBytes": 124742,
+      "error": null,
+      "path": "research/evidence/global-public-data/checkpoint-osm-history.json",
+      "records": null,
+      "uncompressedBytes": 124742
+    },
+    {
+      "blob": "cfc7b981ef2c1416df7e6f9fa2a2378cd4d4b942",
+      "compressedBytes": 44,
+      "error": null,
+      "path": "research/evidence/global-public-data/checkpoint-statements-P238.json",
+      "records": null,
+      "uncompressedBytes": 44
+    },
+    {
+      "blob": "218e71ba12d56d7fc0976e76e38a2cedfd398f93",
+      "compressedBytes": 44,
+      "error": null,
+      "path": "research/evidence/global-public-data/checkpoint-statements-P239.json",
+      "records": null,
+      "uncompressedBytes": 44
+    },
+    {
+      "blob": "ea88672fded41a574e57cc08690e5973ccaf0e81",
+      "compressedBytes": 515009,
+      "error": null,
+      "path": "research/evidence/global-public-data/checkpoint-wikidata-history.json",
+      "records": null,
+      "uncompressedBytes": 515009
+    },
+    {
+      "blob": "ed21f57d8bc99994f72c8ff1b6a54690835c7394",
+      "compressedBytes": 65384,
+      "error": null,
+      "path": "research/evidence/global-public-data/coverage-report.json",
+      "records": null,
+      "uncompressedBytes": 65384
+    },
+    {
+      "blob": "40267e77a733b6bedca80642527212b8b3dd4f7a",
+      "compressedBytes": 515756,
+      "error": null,
+      "path": "research/evidence/global-public-data/faa-admission-candidates.jsonl.gz",
+      "records": 2458,
+      "uncompressedBytes": 5146064
+    },
+    {
+      "blob": "781a57415c4b23d035a1445790a44c6eb2f1eadf",
+      "compressedBytes": 1776,
+      "error": null,
+      "path": "research/evidence/global-public-data/faa-admission-summary.json",
+      "records": null,
+      "uncompressedBytes": 1776
+    },
+    {
+      "blob": "fe51488c7066f6687ef680d6bfaa4f7768ef205c",
+      "compressedBytes": 3,
+      "error": null,
+      "path": "research/evidence/global-public-data/faa-conflicts.json",
+      "records": null,
+      "uncompressedBytes": 3
+    },
+    {
+      "blob": "e1cbf30531fc5c8f23c537eec3c478da9378236f",
+      "compressedBytes": 651341,
+      "error": null,
+      "path": "research/evidence/global-public-data/faa-nasr-2026-10-01.jsonl.gz",
+      "records": 19427,
+      "uncompressedBytes": 5055040
+    },
+    {
+      "blob": "303514598828ddbcf583113128a168a646583eb9",
+      "compressedBytes": 651568,
+      "error": null,
+      "path": "research/evidence/global-public-data/faa-nasr-2026-10-29.jsonl.gz",
+      "records": 19434,
+      "uncompressedBytes": 5056804
+    },
+    {
+      "blob": "3c94f028ef2044b59bff16ff7aa33fcb1858bfe7",
+      "compressedBytes": 1559,
+      "error": null,
+      "path": "research/evidence/global-public-data/faa-source-lock.json",
+      "records": null,
+      "uncompressedBytes": 1559
+    },
+    {
+      "blob": "5e1f10a293c6932bf90331fb538edcc565015225",
+      "compressedBytes": 1422082,
+      "error": null,
+      "path": "research/evidence/global-public-data/global-crosswalk.jsonl.gz",
+      "records": 40726,
+      "uncompressedBytes": 14667593
+    },
+    {
+      "blob": "5b2f22495648c719a9bcd074a004f1057fa0499e",
+      "compressedBytes": 5489578,
+      "error": "Public payload exceeds bounded content-review limits",
+      "path": "research/evidence/global-public-data/historical-code-candidates.jsonl.gz",
+      "records": 85691,
+      "uncompressedBytes": 83052216
+    },
+    {
+      "blob": "a3ff12fbad35ff585ad1116d93b3b2a38239ef8f",
+      "compressedBytes": 3828231,
+      "error": null,
+      "path": "research/evidence/global-public-data/osm-airport-entities.jsonl.gz",
+      "records": 16231,
+      "uncompressedBytes": 14895343
+    },
+    {
+      "blob": "a8e21e397f5a93d40cdb7c38c9a8c64727acab36",
+      "compressedBytes": 27136,
+      "error": null,
+      "path": "research/evidence/global-public-data/osm-history.jsonl.gz",
+      "records": 1645,
+      "uncompressedBytes": 370365
+    },
+    {
+      "blob": "0a9c823940a690aa10955fee19c3fea1bbfb5e80",
+      "compressedBytes": 59394,
+      "error": null,
+      "path": "research/evidence/global-public-data/physical-reuse-candidates.jsonl.gz",
+      "records": 674,
+      "uncompressedBytes": 389475
+    },
+    {
+      "blob": "a1c6fd8ce06c2131e1c1ccf05f217898b29e69cb",
+      "compressedBytes": 134449,
+      "error": null,
+      "path": "research/evidence/global-public-data/proposed-airport-id-bindings.json",
+      "records": null,
+      "uncompressedBytes": 134449
+    },
+    {
+      "blob": "d1d604c8a2675e9937f8302b3783b601c9df6d9e",
+      "compressedBytes": 5602717,
+      "error": null,
+      "path": "research/evidence/global-public-data/proposed-data.json",
+      "records": null,
+      "uncompressedBytes": 5602717
+    },
+    {
+      "blob": "56a1e9a580eb02fa6b566ee5254a7dd8afb6917a",
+      "compressedBytes": 2522,
+      "error": null,
+      "path": "research/evidence/global-public-data/qualified-relationship-review.json",
+      "records": null,
+      "uncompressedBytes": 2522
+    },
+    {
+      "blob": "121b76ae8dd1d4d2232737c6a1e520a5c1ea3331",
+      "compressedBytes": 895,
+      "error": null,
+      "path": "research/evidence/global-public-data/resolver-diff.json",
+      "records": null,
+      "uncompressedBytes": 895
+    },
+    {
+      "blob": "87a328bbfd6a19edeaee982f54eb2849fd511eda",
+      "compressedBytes": 1435396,
+      "error": null,
+      "path": "research/evidence/global-public-data/resolver-query-codes.json",
+      "records": null,
+      "uncompressedBytes": 1435396
+    },
+    {
+      "blob": "48d0c0084e917c902fe69685eaf29dede56a440e",
+      "compressedBytes": 56449,
+      "error": null,
+      "path": "research/evidence/global-public-data/reused-review-decisions.json",
+      "records": null,
+      "uncompressedBytes": 56449
+    },
+    {
+      "blob": "a64a2845d25650d8c1656142b21578dda1bdd8b9",
+      "compressedBytes": 2330,
+      "error": null,
+      "path": "research/evidence/global-public-data/source-catalog.json",
+      "records": null,
+      "uncompressedBytes": 2330
+    },
+    {
+      "blob": "a908dca01f612ae3575458bc2d499fa4698270d6",
+      "compressedBytes": 2069567,
+      "error": null,
+      "path": "research/evidence/global-public-data/source-lock.json",
+      "records": null,
+      "uncompressedBytes": 2069567
+    },
+    {
+      "blob": "8a9ff8d2a2f847f9935c9dbb3b51f0ebb2c86d73",
+      "compressedBytes": 7961,
+      "error": null,
+      "path": "research/evidence/global-public-data/summary.md",
+      "records": null,
+      "uncompressedBytes": 7961
+    },
+    {
+      "blob": "5db51aa2ccdbd1480101a538824fc05bed5a2853",
+      "compressedBytes": 39153,
+      "error": null,
+      "path": "research/evidence/global-public-data/unmatched-wikidata-entities.jsonl.gz",
+      "records": 11011,
+      "uncompressedBytes": 1549811
+    },
+    {
+      "blob": "188c4956f920e983c3bed17f60bfe6753dfcb9d3",
+      "compressedBytes": 464,
+      "error": null,
+      "path": "research/evidence/global-public-data/validation.json",
+      "records": null,
+      "uncompressedBytes": 464
+    },
+    {
+      "blob": "033226daefd450cb74f121b7bb72edc56e031337",
+      "compressedBytes": 1333628,
+      "error": null,
+      "path": "research/evidence/global-public-data/wikidata-code-statements.jsonl.gz",
+      "records": 38690,
+      "uncompressedBytes": 15122103
+    },
+    {
+      "blob": "4d302b526bf4d24bafbca690f07456889a78666f",
+      "compressedBytes": 843242,
+      "error": null,
+      "path": "research/evidence/global-public-data/wikidata-entities.jsonl.gz",
+      "records": 21477,
+      "uncompressedBytes": 6792194
+    },
+    {
+      "blob": "c21c9669cbf0c445742dca32684a7a5102ee1f6f",
+      "compressedBytes": 78478,
+      "error": null,
+      "path": "research/evidence/global-public-data/wikidata-history.jsonl.gz",
+      "records": 2446,
+      "uncompressedBytes": 989627
+    },
+    {
+      "blob": "b55ad1d2b53b63833f54876ac2fe7541322de8c4",
+      "compressedBytes": 61421,
+      "error": null,
+      "path": "scripts/evidence/public_data.py",
+      "records": null,
+      "uncompressedBytes": 61421
+    },
+    {
+      "blob": "cf4b2bc1a07880572538bfb139f8a383ead0d015",
+      "compressedBytes": 4267,
+      "error": null,
+      "path": "scripts/evidence/public_data_coverage.ts",
+      "records": null,
+      "uncompressedBytes": 4267
+    },
+    {
+      "blob": "d19c9d85247f30ef5d1a3ad43d2038f5af8d123f",
+      "compressedBytes": 2225,
+      "error": null,
+      "path": "test/evidence/test_public_data.py",
+      "records": null,
+      "uncompressedBytes": 2225
+    }
+  ],
+  "introducedBlobsInspected": 46,
+  "originalHead": "a25f4fa88fed119e31e4ffe10e7fc185dd04738d"
+}

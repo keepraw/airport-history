@@ -45,6 +45,12 @@ jobs:
       - run: pnpm policy:validate
       - run: pnpm evidence:history
       - run: pnpm test:evidence
+      - name: Public-data identity and deterministic shard tests
+        run: pnpm test:public-data
+      - name: Validate public-data manifests and pending research proposals
+        run: python3 scripts/evidence/public_data.py validate
+      - name: Reproduce public-data package without acquisition cache
+        run: python3 scripts/evidence/public_data.py reproduce
       - run: pnpm build
   policy-admission-rehearsal:
     runs-on: ubuntu-latest

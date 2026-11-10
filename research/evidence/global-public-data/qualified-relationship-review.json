@@ -1,0 +1,89 @@
+[
+  {
+    "code": "ISL",
+    "endQualifiers": [
+      {
+        "after": 0,
+        "before": 0,
+        "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+        "precision": 11,
+        "time": "+2019-04-05T00:00:00Z",
+        "timezone": 0
+      }
+    ],
+    "formalAdmission": false,
+    "qid": "Q3661908",
+    "rank": "deprecated",
+    "review": "Deprecated ISL assertion; opening date is not allocation proof. Baseline already has reviewed ISL observations and April 6 transfer bounds.",
+    "revisionId": 2563013274,
+    "startQualifiers": [
+      {
+        "after": 0,
+        "before": 0,
+        "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+        "precision": 11,
+        "time": "+2018-10-29T00:00:00Z",
+        "timezone": 0
+      }
+    ],
+    "statementId": "Q3661908$f0443ed3-468e-3b0d-fb5a-e807a98b2a27"
+  },
+  {
+    "code": "LGP",
+    "endQualifiers": [
+      {
+        "after": 0,
+        "before": 0,
+        "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+        "precision": 11,
+        "time": "+2022-12-15T00:00:00Z",
+        "timezone": 0
+      }
+    ],
+    "formalAdmission": false,
+    "qid": "Q4903706",
+    "rank": "normal",
+    "review": "LGP on Bicol entity; requires primary operator/code-specific effective-date evidence and source authority review.",
+    "revisionId": 2548003590,
+    "startQualifiers": [
+      {
+        "after": 0,
+        "before": 0,
+        "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+        "precision": 11,
+        "time": "+2021-10-07T00:00:00Z",
+        "timezone": 0
+      }
+    ],
+    "statementId": "Q4903706$5e371462-4630-fcf9-c08f-3353f30c68f2"
+  },
+  {
+    "code": "EDDB",
+    "endQualifiers": [
+      {
+        "after": 0,
+        "before": 0,
+        "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+        "precision": 10,
+        "time": "+2020-10-00T00:00:00Z",
+        "timezone": 0
+      }
+    ],
+    "formalAdmission": false,
+    "qid": "Q9689",
+    "rank": "normal",
+    "review": "EDDB on Schonefeld entity; baseline already preserves continuous EDDB on same physical airside site. Entity dissolution does not prove code withdrawal.",
+    "revisionId": 2549705240,
+    "startQualifiers": [
+      {
+        "after": 0,
+        "before": 0,
+        "calendarmodel": "http://www.wikidata.org/entity/Q1985727",
+        "precision": 9,
+        "time": "+1995-00-00T00:00:00Z",
+        "timezone": 0
+      }
+    ],
+    "statementId": "q9689$B0D16B32-F629-4278-AB29-BC9B67144022"
+  }
+]

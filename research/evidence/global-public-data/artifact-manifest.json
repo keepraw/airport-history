@@ -1,0 +1,446 @@
+{
+  "artifacts": [
+    {
+      "bytes": 2441,
+      "compressedBytes": 2441,
+      "path": "LICENSES.md",
+      "recordCount": null,
+      "sha256": "c558f1d6940ef0cc307c4b6df641bc84416d3ae6e4950af2cc81ee906e370614",
+      "uncompressedBytes": 2441
+    },
+    {
+      "bytes": 72978,
+      "compressedBytes": 72978,
+      "path": "admission-proposal.json",
+      "recordCount": null,
+      "sha256": "54367e927c19c05ef2cd8880ba84c80c4fab438a5fdcc5adf106a988cca5e4bb",
+      "uncompressedBytes": 72978
+    },
+    {
+      "bytes": 115988,
+      "compressedBytes": 115988,
+      "path": "bts-airport-id-lookup.jsonl.gz",
+      "recordCount": 6918,
+      "sha256": "08da0f9b4b163e8bb08a748ec4daffaad13ee34b54f5597f91305d35061f5541",
+      "uncompressedBytes": 485024
+    },
+    {
+      "bytes": 185735,
+      "compressedBytes": 185735,
+      "path": "bts-airport-seq-id-lookup.jsonl.gz",
+      "recordCount": 20298,
+      "sha256": "3c6970eb710cc06b7faa2a6f1659a7f35ea9c42bfd4f764fec198087c36779fa",
+      "uncompressedBytes": 1464871
+    },
+    {
+      "bytes": 27420,
+      "compressedBytes": 27420,
+      "path": "bts-crosswalk.jsonl.gz",
+      "recordCount": 560,
+      "sha256": "027d9fa1257d0128ebbec5cd4dfb6af91103d03ec6ef610cca2a926ee2ed6407",
+      "uncompressedBytes": 250758
+    },
+    {
+      "bytes": 66,
+      "compressedBytes": 66,
+      "path": "checkpoint-P238.json",
+      "recordCount": null,
+      "sha256": "dc2526a34dc2c8e2a6b6f867bf2d1f7083fba58b5efb26680111dcbff603d693",
+      "uncompressedBytes": 66
+    },
+    {
+      "bytes": 66,
+      "compressedBytes": 66,
+      "path": "checkpoint-P239.json",
+      "recordCount": null,
+      "sha256": "149dd7922c98f10deecb05123fe7e3a30150a7ead8d2aa72c78280c4450d7536",
+      "uncompressedBytes": 66
+    },
+    {
+      "bytes": 542,
+      "compressedBytes": 542,
+      "path": "checkpoint-bts.json",
+      "recordCount": null,
+      "sha256": "4484a3be02d2085ec6b53ffa4efde0ecabcbe712a292369614ee9941f9419afa",
+      "uncompressedBytes": 542
+    },
+    {
+      "bytes": 315,
+      "compressedBytes": 315,
+      "path": "checkpoint-entity-enumeration.json",
+      "recordCount": null,
+      "sha256": "f8dcf6934f8fcca6f72ef4549fc5a349ed138efd624fdebaa5be1d408e5ae052",
+      "uncompressedBytes": 315
+    },
+    {
+      "bytes": 92,
+      "compressedBytes": 92,
+      "path": "checkpoint-faa.json",
+      "recordCount": null,
+      "sha256": "b3038590c397cec017559708a0da287c6b5078d416856c98b688dfee88d72272",
+      "uncompressedBytes": 92
+    },
+    {
+      "bytes": 2344,
+      "compressedBytes": 2344,
+      "path": "checkpoint-osm-entities.json",
+      "recordCount": null,
+      "sha256": "773a155f8be3f79d37bcd20b121f0927af01186cf1c7302d1bd0ec9e9c3acd81",
+      "uncompressedBytes": 2344
+    },
+    {
+      "bytes": 124742,
+      "compressedBytes": 124742,
+      "path": "checkpoint-osm-history.json",
+      "recordCount": null,
+      "sha256": "f96e18662bf4cda23b1365259318b614155e97f9878ce4047954c7b0a13bcd97",
+      "uncompressedBytes": 124742
+    },
+    {
+      "bytes": 44,
+      "compressedBytes": 44,
+      "path": "checkpoint-statements-P238.json",
+      "recordCount": null,
+      "sha256": "bf36ab61f1c3598ef38bca6ddc2cefb58e2bd336c5b9cfc48b43878ba0f6bcf2",
+      "uncompressedBytes": 44
+    },
+    {
+      "bytes": 44,
+      "compressedBytes": 44,
+      "path": "checkpoint-statements-P239.json",
+      "recordCount": null,
+      "sha256": "4c3af9b6ea7d070b0fe746e33be124295ee9d76ceb41f285561ced9fedca7fd9",
+      "uncompressedBytes": 44
+    },
+    {
+      "bytes": 515009,
+      "compressedBytes": 515009,
+      "path": "checkpoint-wikidata-history.json",
+      "recordCount": null,
+      "sha256": "6a42aa1ca76491f8366582d673532f16fc079d463780cd4e09c76635665430c5",
+      "uncompressedBytes": 515009
+    },
+    {
+      "bytes": 65384,
+      "compressedBytes": 65384,
+      "path": "coverage-report.json",
+      "recordCount": null,
+      "sha256": "28f2e8caabf67bea1f2571c00cba861694aed98823f44ea3bf8265272323a357",
+      "uncompressedBytes": 65384
+    },
+    {
+      "bytes": 515756,
+      "compressedBytes": 515756,
+      "path": "faa-admission-candidates.jsonl.gz",
+      "recordCount": 2458,
+      "sha256": "1a05e3b4780426299662e66160ccead0470ec5e0075db83644505feba8a15c76",
+      "uncompressedBytes": 5146064
+    },
+    {
+      "bytes": 1776,
+      "compressedBytes": 1776,
+      "path": "faa-admission-summary.json",
+      "recordCount": null,
+      "sha256": "e55cbddaa40e783cafad68bc650ca798447233d48d0a68f32ccbf0c381bc6c46",
+      "uncompressedBytes": 1776
+    },
+    {
+      "bytes": 3,
+      "compressedBytes": 3,
+      "path": "faa-conflicts.json",
+      "recordCount": null,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "uncompressedBytes": 3
+    },
+    {
+      "bytes": 651341,
+      "compressedBytes": 651341,
+      "path": "faa-nasr-2026-10-01.jsonl.gz",
+      "recordCount": 19427,
+      "sha256": "82b00b270019eeedfdbaffd4f7d2156c9cc2a60701728f2bc22425377587d0a3",
+      "uncompressedBytes": 5055040
+    },
+    {
+      "bytes": 651568,
+      "compressedBytes": 651568,
+      "path": "faa-nasr-2026-10-29.jsonl.gz",
+      "recordCount": 19434,
+      "sha256": "6aa2ccbad6b7ea702ec98aa1a84d2259289f16510973360f52a836ef5eda6ade",
+      "uncompressedBytes": 5056804
+    },
+    {
+      "bytes": 1559,
+      "compressedBytes": 1559,
+      "path": "faa-source-lock.json",
+      "recordCount": null,
+      "sha256": "0419e53d973303457195d3169382cd92887e39b7211c457b2ca448e7e987ac06",
+      "uncompressedBytes": 1559
+    },
+    {
+      "bytes": 735731,
+      "compressedBytes": 735731,
+      "path": "global-crosswalk.000.jsonl.gz",
+      "recordCount": 24089,
+      "sha256": "febe3ac51677ed2c77616c56cca35c384f2fb7b645df31e4a25390a8d595c5b2",
+      "uncompressedBytes": 8388269
+    },
+    {
+      "bytes": 686916,
+      "compressedBytes": 686916,
+      "path": "global-crosswalk.001.jsonl.gz",
+      "recordCount": 16637,
+      "sha256": "53fe59f631a95b87a2d22cca2aa046e62b87345a79d864053a94a382166d5e7a",
+      "uncompressedBytes": 6279324
+    },
+    {
+      "bytes": 607208,
+      "compressedBytes": 607208,
+      "path": "historical-code-candidates.000.jsonl.gz",
+      "recordCount": 4928,
+      "sha256": "a90e48a49dc4f715a37c8ddac4600d5b3cb949d8b3f46ad44666dfd6eb318ce1",
+      "uncompressedBytes": 8386774
+    },
+    {
+      "bytes": 585739,
+      "compressedBytes": 585739,
+      "path": "historical-code-candidates.001.jsonl.gz",
+      "recordCount": 6708,
+      "sha256": "43316bff1bd13a570ac9ab7f7e1d9e96f83e0b62b3bf1b2855a39b5db31c1c9f",
+      "uncompressedBytes": 8388353
+    },
+    {
+      "bytes": 611596,
+      "compressedBytes": 611596,
+      "path": "historical-code-candidates.002.jsonl.gz",
+      "recordCount": 4547,
+      "sha256": "e8cbab1b5df3f1a3491019462d4501d298edfc334ebb3f589d8bfd9d39cc3008",
+      "uncompressedBytes": 8386778
+    },
+    {
+      "bytes": 538450,
+      "compressedBytes": 538450,
+      "path": "historical-code-candidates.003.jsonl.gz",
+      "recordCount": 8041,
+      "sha256": "62452d609f6ec21d5186ad3c931e9199dc9a33079e0e963d955475909dc58fa7",
+      "uncompressedBytes": 8388314
+    },
+    {
+      "bytes": 497319,
+      "compressedBytes": 497319,
+      "path": "historical-code-candidates.004.jsonl.gz",
+      "recordCount": 10055,
+      "sha256": "1940063d592972113cfae7ef4ab3d002bf94a40310767ad1f23cb8c99f213125",
+      "uncompressedBytes": 8388405
+    },
+    {
+      "bytes": 473295,
+      "compressedBytes": 473295,
+      "path": "historical-code-candidates.005.jsonl.gz",
+      "recordCount": 10019,
+      "sha256": "66821adc960ac41015b8fcbdc18e97f0bfe4692d759f226b17b25b2a75428c27",
+      "uncompressedBytes": 8387931
+    },
+    {
+      "bytes": 626419,
+      "compressedBytes": 626419,
+      "path": "historical-code-candidates.006.jsonl.gz",
+      "recordCount": 11964,
+      "sha256": "9dfb05a9929d358b51a6ec6c5cb92b9cb4edd22b8bba00f70927b9accf38ceda",
+      "uncompressedBytes": 8387686
+    },
+    {
+      "bytes": 562877,
+      "compressedBytes": 562877,
+      "path": "historical-code-candidates.007.jsonl.gz",
+      "recordCount": 10144,
+      "sha256": "a59d9c95a3bd0ec3eb2875adba996a0e7340061668b307b1c9cf58e796a8dc02",
+      "uncompressedBytes": 8387740
+    },
+    {
+      "bytes": 498633,
+      "compressedBytes": 498633,
+      "path": "historical-code-candidates.008.jsonl.gz",
+      "recordCount": 9373,
+      "sha256": "6142407f79e73366170416208478a3579f6e7d4c1132e121f397f8d616db3a13",
+      "uncompressedBytes": 8388571
+    },
+    {
+      "bytes": 492665,
+      "compressedBytes": 492665,
+      "path": "historical-code-candidates.009.jsonl.gz",
+      "recordCount": 9912,
+      "sha256": "3da2a743e504518597afc2f9ce75f4c526fc8e08c7f18005d8e4a78403266c49",
+      "uncompressedBytes": 7561664
+    },
+    {
+      "bytes": 12029,
+      "compressedBytes": 12029,
+      "path": "introduced-blob-review.json",
+      "recordCount": null,
+      "sha256": "4c4c557e4137706f88e37d58e1b2fdcc81cecaa36a1a2e7424d8fcf6d685b5ea",
+      "uncompressedBytes": 12029
+    },
+    {
+      "bytes": 11603,
+      "compressedBytes": 11603,
+      "path": "jsonl-shards.json",
+      "recordCount": null,
+      "sha256": "994213f421547dba1f04d4eee05870961098696af73cb0105795bfd56e46f6f3",
+      "uncompressedBytes": 11603
+    },
+    {
+      "bytes": 2164879,
+      "compressedBytes": 2164879,
+      "path": "osm-airport-entities.000.jsonl.gz",
+      "recordCount": 9268,
+      "sha256": "1a0de8afb56826479903d9640cd09a153113b0df762c12ac09a8de819f63eb20",
+      "uncompressedBytes": 8388307
+    },
+    {
+      "bytes": 1664117,
+      "compressedBytes": 1664117,
+      "path": "osm-airport-entities.001.jsonl.gz",
+      "recordCount": 6963,
+      "sha256": "c7bc22168e84c4640480753e3325662e995c9dccefb4e97014b9f369a2702716",
+      "uncompressedBytes": 6507036
+    },
+    {
+      "bytes": 27136,
+      "compressedBytes": 27136,
+      "path": "osm-history.jsonl.gz",
+      "recordCount": 1645,
+      "sha256": "896044d3e7716a84fbfe16f0bebbd0d98ed0a99c44300eb084824e9bf33c72c8",
+      "uncompressedBytes": 370365
+    },
+    {
+      "bytes": 59394,
+      "compressedBytes": 59394,
+      "path": "physical-reuse-candidates.jsonl.gz",
+      "recordCount": 674,
+      "sha256": "0ff0b5fc54133e53a82abff98d4b8d53e73585a42d5b7cb84622cccdb139d209",
+      "uncompressedBytes": 389475
+    },
+    {
+      "bytes": 134449,
+      "compressedBytes": 134449,
+      "path": "proposed-airport-id-bindings.json",
+      "recordCount": null,
+      "sha256": "d2a85e486388f00d18a8327f1f77b43ed01822a2c6cfbef738b2b7e6c65c42c2",
+      "uncompressedBytes": 134449
+    },
+    {
+      "bytes": 5602717,
+      "compressedBytes": 5602717,
+      "path": "proposed-data.json",
+      "recordCount": null,
+      "sha256": "68ca55b4f3f20b38d983c59a905fc597a88f93d902b31bc3798e7a7198dfae74",
+      "uncompressedBytes": 5602717
+    },
+    {
+      "bytes": 2522,
+      "compressedBytes": 2522,
+      "path": "qualified-relationship-review.json",
+      "recordCount": null,
+      "sha256": "fde10ad220cd98d6a3607cc713d6ebae371746e6afdc62f3e5e4ef977d29937b",
+      "uncompressedBytes": 2522
+    },
+    {
+      "bytes": 895,
+      "compressedBytes": 895,
+      "path": "resolver-diff.json",
+      "recordCount": null,
+      "sha256": "aad3847cd2f0b27ceaf137be80272597ffc6bc14d9f01145447ef81b73d40e5f",
+      "uncompressedBytes": 895
+    },
+    {
+      "bytes": 1435396,
+      "compressedBytes": 1435396,
+      "path": "resolver-query-codes.json",
+      "recordCount": null,
+      "sha256": "2a8245b7f0a6c7160291ea7134ff0ad6197ade680d270fbd501ab56c056ab01c",
+      "uncompressedBytes": 1435396
+    },
+    {
+      "bytes": 56449,
+      "compressedBytes": 56449,
+      "path": "reused-review-decisions.json",
+      "recordCount": null,
+      "sha256": "402b3617e37bd2b73494d94f9d9c7614b50532c14d5178d7e35c928e9fb2e9ef",
+      "uncompressedBytes": 56449
+    },
+    {
+      "bytes": 5524,
+      "compressedBytes": 5524,
+      "path": "shard-reconstruction.json",
+      "recordCount": null,
+      "sha256": "8cfafd68386f12e8d8a2c4b67137d23e9a6b2e654c93a8016a0ce961aa676db5",
+      "uncompressedBytes": 5524
+    },
+    {
+      "bytes": 2330,
+      "compressedBytes": 2330,
+      "path": "source-catalog.json",
+      "recordCount": null,
+      "sha256": "ee16b1915cde5c8da5fa75605fec0fa69f7b04f67fbaf4ed6dabd09325a1bf87",
+      "uncompressedBytes": 2330
+    },
+    {
+      "bytes": 2069567,
+      "compressedBytes": 2069567,
+      "path": "source-lock.json",
+      "recordCount": null,
+      "sha256": "464d9d17f4ef32511a8b2059f97eb432752b2f44ef30175278e6ec935454df9f",
+      "uncompressedBytes": 2069567
+    },
+    {
+      "bytes": 8442,
+      "compressedBytes": 8442,
+      "path": "summary.md",
+      "recordCount": null,
+      "sha256": "f1bb528f14864e8eed1021164e17ae257b1629d8713883fd947bbc0df4721822",
+      "uncompressedBytes": 8442
+    },
+    {
+      "bytes": 39153,
+      "compressedBytes": 39153,
+      "path": "unmatched-wikidata-entities.jsonl.gz",
+      "recordCount": 11011,
+      "sha256": "c9a41d44106b3f2483c43a4e00d1d338f2e0e31a6741e719ccc19bf35058a984",
+      "uncompressedBytes": 1549811
+    },
+    {
+      "bytes": 743026,
+      "compressedBytes": 743026,
+      "path": "wikidata-code-statements.000.jsonl.gz",
+      "recordCount": 21860,
+      "sha256": "ea28239a0abb3148322ea17db2223f7d41432f8e1d6b25631542025c4b33412b",
+      "uncompressedBytes": 8388384
+    },
+    {
+      "bytes": 590822,
+      "compressedBytes": 590822,
+      "path": "wikidata-code-statements.001.jsonl.gz",
+      "recordCount": 16830,
+      "sha256": "01764e7cf26f7c8b29c34dd049c9f2f959796622f226a2310786b45d75bef856",
+      "uncompressedBytes": 6733719
+    },
+    {
+      "bytes": 843242,
+      "compressedBytes": 843242,
+      "path": "wikidata-entities.jsonl.gz",
+      "recordCount": 21477,
+      "sha256": "086eed78672681dd73448314a863fabff6c46b0986b3128b8a1c5270c760936d",
+      "uncompressedBytes": 6792194
+    },
+    {
+      "bytes": 78478,
+      "compressedBytes": 78478,
+      "path": "wikidata-history.jsonl.gz",
+      "recordCount": 2446,
+      "sha256": "639f660e990544e937d48ac95140d12e967e7bfb3c145e3eead848a80c3326aa",
+      "uncompressedBytes": 989627
+    }
+  ],
+  "formatVersion": 2,
+  "maxUncompressedShardBytes": 8388608
+}

@@ -1,0 +1,176 @@
+{
+  "scope": "Global coded aerodromes; codeless and deleted objects outside current discovery.",
+  "status": "partial",
+  "tiles": [
+    {
+      "bbox": [
+        -90,
+        -180,
+        0,
+        -90
+      ],
+      "complete": true,
+      "count": 91
+    },
+    {
+      "bbox": [
+        -90,
+        -90,
+        0,
+        0
+      ],
+      "complete": true,
+      "count": 1842
+    },
+    {
+      "bbox": [
+        -90,
+        0,
+        0,
+        90
+      ],
+      "complete": true,
+      "count": 1272
+    },
+    {
+      "bbox": [
+        -90,
+        90,
+        0,
+        180
+      ],
+      "complete": true,
+      "count": 2149
+    },
+    {
+      "bbox": [
+        0,
+        -180,
+        90,
+        -90
+      ],
+      "complete": true,
+      "count": 2415
+    },
+    {
+      "bbox": [
+        0,
+        -90,
+        90,
+        0
+      ],
+      "complete": true,
+      "count": 3132
+    },
+    {
+      "bbox": [
+        0,
+        0,
+        45,
+        45
+      ],
+      "complete": true,
+      "count": 1222
+    },
+    {
+      "bbox": [
+        0,
+        90,
+        45,
+        135
+      ],
+      "complete": true,
+      "count": 893
+    },
+    {
+      "bbox": [
+        0,
+        135,
+        45,
+        180
+      ],
+      "complete": true,
+      "count": 126
+    },
+    {
+      "bbox": [
+        45,
+        0,
+        90,
+        45
+      ],
+      "complete": true,
+      "count": 2196
+    },
+    {
+      "bbox": [
+        45,
+        45,
+        90,
+        90
+      ],
+      "complete": true,
+      "count": 223
+    },
+    {
+      "bbox": [
+        45,
+        90,
+        90,
+        135
+      ],
+      "complete": true,
+      "count": 136
+    },
+    {
+      "bbox": [
+        45,
+        135,
+        90,
+        180
+      ],
+      "complete": true,
+      "count": 90
+    },
+    {
+      "bbox": [
+        0,
+        45,
+        22.5,
+        67.5
+      ],
+      "complete": true,
+      "count": 46
+    },
+    {
+      "bbox": [
+        0,
+        67.5,
+        22.5,
+        90.0
+      ],
+      "complete": true,
+      "count": 140
+    },
+    {
+      "bbox": [
+        22.5,
+        45,
+        45.0,
+        67.5
+      ],
+      "complete": true,
+      "count": 269
+    },
+    {
+      "bbox": [
+        22.5,
+        67.5,
+        45.0,
+        90.0
+      ],
+      "complete": false,
+      "count": 0
+    }
+  ]
+}

@@ -164,3 +164,12 @@ or third-party publications. Only factual annotations and source metadata are ad
 previous short quotations and original-verification receipts are referenced in place.
 The separately scoped OurAirports source preserves its public-domain designation
 and provides reference names/positions only. It supplies no historical code dates.
+
+## Global public-data research package
+
+`research/evidence/global-public-data/` contains separately scoped Wikidata CC0,
+OpenStreetMap ODbL, FAA/BTS government factual data, and reused directory facts.
+See its `LICENSES.md` and `source-catalog.json`. OSM-derived combined research
+databases retain ODbL obligations and are outside the project CC0 dedication.
+The FAA-only pending formal proposal contains no OSM material. No formal
+production data or existing source authorization is changed by this package.

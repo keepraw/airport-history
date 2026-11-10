@@ -1,0 +1,66 @@
+{
+  "horizon": [
+    "1970-01-01",
+    "2026-11-10"
+  ],
+  "sources": [
+    {
+      "id": "ourairports",
+      "license": "Public Domain",
+      "lineage": [
+        "airport-codes",
+        "airport-codes-raw",
+        "datasets/airport-codes"
+      ],
+      "role": "Existing pinned snapshot and source observations; all derivatives count as one family."
+    },
+    {
+      "id": "wikidata",
+      "license": "CC0-1.0",
+      "role": "Structured main-namespace code, identity and revision facts; not effective-date authority.",
+      "url": "https://www.wikidata.org/"
+    },
+    {
+      "attribution": "© OpenStreetMap contributors",
+      "id": "osm",
+      "license": "ODbL-1.0",
+      "role": "Separate research database: osm-airport-entities.jsonl.gz and osm-history.jsonl.gz. Crosswalk OSM rows and OSM-derived matches retain ODbL obligations. No formal data incorporation.",
+      "url": "https://www.openstreetmap.org/copyright"
+    },
+    {
+      "id": "bts",
+      "records": {
+        "actualFlightRecords": 0,
+        "limitation": "Lookups have no sequence effective chronology and are not actual flight records.",
+        "lookups": [
+          {
+            "lookup": "airport-id",
+            "rows": 6918,
+            "status": "complete",
+            "url": "https://www.transtats.bts.gov/Download_Lookup.asp?Y11x72=Y_NVe214g_VQ"
+          },
+          {
+            "lookup": "airport-seq-id",
+            "rows": 20298,
+            "status": "complete",
+            "url": "https://www.transtats.bts.gov/Download_Lookup.asp?Y11x72=Y_NVe214g_fRd_VQ"
+          }
+        ],
+        "nameCityStateMatches": 560
+      },
+      "role": "AirportID and AirportSeqID lookup data; name/city/state research links only. No actual flight records.",
+      "url": "https://www.transtats.bts.gov/"
+    },
+    {
+      "id": "faa",
+      "license": "US government factual data; 17 USC 105",
+      "role": "Two official NASR effective editions; selected factual airport fields, stable-site ICAO continuity proposals only.",
+      "sourceLock": "faa-source-lock.json",
+      "url": "https://www.faa.gov/air_traffic/flight_info/aeronav/Aero_Data/NASR_Subscription/"
+    },
+    {
+      "id": "airportsdata-mwgg",
+      "role": "Existing references reused through ranked groups; source independence not established."
+    }
+  ]
+}

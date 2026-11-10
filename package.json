@@ -14,7 +14,7 @@
     "validate:data": "node scripts/validate.ts",
     "test": "vitest run",
     "build": "node scripts/build.ts",
-    "check": "pnpm typecheck && pnpm validate:data && pnpm validate:admission && pnpm test && pnpm test:research && pnpm research:validate && pnpm reference:validate && pnpm test:reference && pnpm evidence:validate && pnpm evidence:global validate && pnpm evidence:markets validate && pnpm evidence:transfers validate && pnpm evidence:first-admission validate && pnpm policy:validate && pnpm evidence:history && pnpm test:evidence && pnpm build",
+    "check": "pnpm typecheck && pnpm validate:data && pnpm validate:admission && pnpm test && pnpm test:research && pnpm research:validate && pnpm reference:validate && pnpm test:reference && pnpm evidence:validate && pnpm evidence:global validate && pnpm evidence:markets validate && pnpm evidence:transfers validate && pnpm evidence:first-admission validate && pnpm policy:validate && pnpm evidence:history && pnpm test:evidence && pnpm test:public-data && pnpm build",
     "evidence:priority-markets": "python3 scripts/evidence/priority_market_dispatch.py",
     "policy:build": "python3 scripts/evidence/policy_review.py build && node scripts/evidence/policy_coverage.ts build && python3 scripts/evidence/policy_report.py build",
     "policy:validate": "python3 scripts/evidence/legacy_replay.py aai-validate",
@@ -45,7 +45,8 @@
     "evidence:markets": "python3 scripts/evidence/market_batch.py",
     "evidence:transfers": "python3 scripts/evidence/transfer_batch.py",
     "evidence:history": "python3 scripts/evidence/history_audit.py",
-    "evidence:first-admission": "node scripts/evidence/first_admission.ts"
+    "evidence:first-admission": "node scripts/evidence/first_admission.ts",
+    "test:public-data": "python3 -m unittest discover -s test/evidence -p test_public_data.py -v"
   },
   "devDependencies": {
     "@types/node": "^24.3.0",

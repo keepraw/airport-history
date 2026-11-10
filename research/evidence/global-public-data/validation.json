@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "required artifacts present",
+    "complete fixed candidate-universe counts",
+    "all frozen artifact hashes and size/record metadata",
+    "ordered deterministic JSONL shards at most 8 MiB",
+    "byte-identical decompressed dataset reconstruction",
+    "formal data byte-identical to specified base",
+    "FAA site/code/edition/row-hash consistency",
+    "all proposed assignments pending",
+    "unknown outer code-allocation bounds preserved",
+    "actual resolver gain matches 26-day cores",
+    "no existing resolved answer changes or new conflicts"
+  ],
+  "status": "passed"
+}

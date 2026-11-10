@@ -1,0 +1,24 @@
+{
+  "baselineDataVersion": "0.12.0",
+  "horizon": [
+    "1970-01-01",
+    "2026-11-10"
+  ],
+  "eligibleOverlayAssignments": 2458,
+  "uniqueSchemeCodeKeys": 28903,
+  "actualResolverCalls": 67868,
+  "baselineCodeDateQueryCells": {
+    "not_found": 599381974,
+    "uncertain": 752982,
+    "resolved": 122548
+  },
+  "newResolvedCodeDateQueries": 63908,
+  "uncertainToResolved": 0,
+  "notFoundToResolved": 63908,
+  "existingResolvedAnswersChanged": 0,
+  "newConflicts": 0,
+  "notFoundToUncertainNotCoverageGain": 50983836,
+  "realHistoricalFlightRecords": null,
+  "unit": "Synthetic namespace/code/day query cells; boundary-partition weighted exact resolver results, never actual flight counts.",
+  "limitation": "Conditional Owner-approved hypothesis for the FAA bounded proposals only. Pending proposal is not production data. No authorization or verification state is written into formal data."
+}

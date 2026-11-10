@@ -1,0 +1,140 @@
+{
+  "datasets": {
+    "bts-airport-id-lookup.jsonl.gz": {
+      "byteIdentical": true,
+      "originalCompressedBytes": 115988,
+      "originalGitBlob": "5a6c5be06133090d54460f4f1daa36f99c5fefd5",
+      "recordCount": 6918,
+      "shards": 1,
+      "uncompressedBytes": 485024,
+      "uncompressedSha256": "ddd81240baa353df2ecbf2114901dca5ddb504fcb60d4fcb6b11ad6665d001d3"
+    },
+    "bts-airport-seq-id-lookup.jsonl.gz": {
+      "byteIdentical": true,
+      "originalCompressedBytes": 185735,
+      "originalGitBlob": "d540c361bc43de714425e0ecdf6f0767b6516bd5",
+      "recordCount": 20298,
+      "shards": 1,
+      "uncompressedBytes": 1464871,
+      "uncompressedSha256": "39bea7daabbfd936e9c277674c5c9f1afea9cefa637eda64a26b16e438a39b8d"
+    },
+    "bts-crosswalk.jsonl.gz": {
+      "byteIdentical": true,
+      "originalCompressedBytes": 27420,
+      "originalGitBlob": "57a6ae21f8afde5aa0f8cf695c6478e6236458ba",
+      "recordCount": 560,
+      "shards": 1,
+      "uncompressedBytes": 250758,
+      "uncompressedSha256": "fc77eb30f09fb996e5aa5b9aa656dc626766fd721b29271e881af92ed365911f"
+    },
+    "faa-admission-candidates.jsonl.gz": {
+      "byteIdentical": true,
+      "originalCompressedBytes": 515756,
+      "originalGitBlob": "40267e77a733b6bedca80642527212b8b3dd4f7a",
+      "recordCount": 2458,
+      "shards": 1,
+      "uncompressedBytes": 5146064,
+      "uncompressedSha256": "79aaea0eb9d959f85097fd93f77a165200d0021236250f96a17e8925b2518bba"
+    },
+    "faa-nasr-2026-10-01.jsonl.gz": {
+      "byteIdentical": true,
+      "originalCompressedBytes": 651341,
+      "originalGitBlob": "e1cbf30531fc5c8f23c537eec3c478da9378236f",
+      "recordCount": 19427,
+      "shards": 1,
+      "uncompressedBytes": 5055040,
+      "uncompressedSha256": "9f988fde927f1464ac2c2515418d65b873fe7f83ec6e823cc55ae38d33e98b41"
+    },
+    "faa-nasr-2026-10-29.jsonl.gz": {
+      "byteIdentical": true,
+      "originalCompressedBytes": 651568,
+      "originalGitBlob": "303514598828ddbcf583113128a168a646583eb9",
+      "recordCount": 19434,
+      "shards": 1,
+      "uncompressedBytes": 5056804,
+      "uncompressedSha256": "c8187a233dcb12e6079e7ae8da6d2e871605b8407bc267c3ac8f757018785b4a"
+    },
+    "global-crosswalk.jsonl.gz": {
+      "byteIdentical": true,
+      "originalCompressedBytes": 1422082,
+      "originalGitBlob": "5e1f10a293c6932bf90331fb538edcc565015225",
+      "recordCount": 40726,
+      "shards": 2,
+      "uncompressedBytes": 14667593,
+      "uncompressedSha256": "8df191bf394d5a51a61b04b65a9536102ea1d75a63e2d3940bc459ed0a01c3cd"
+    },
+    "historical-code-candidates.jsonl.gz": {
+      "byteIdentical": true,
+      "originalCompressedBytes": 5489578,
+      "originalGitBlob": "5b2f22495648c719a9bcd074a004f1057fa0499e",
+      "recordCount": 85691,
+      "shards": 10,
+      "uncompressedBytes": 83052216,
+      "uncompressedSha256": "447295ba30a4ed92ed1c8cbf395ca20fd8cdce4decdbe598155a4cf870a99386"
+    },
+    "osm-airport-entities.jsonl.gz": {
+      "byteIdentical": true,
+      "originalCompressedBytes": 3828231,
+      "originalGitBlob": "a3ff12fbad35ff585ad1116d93b3b2a38239ef8f",
+      "recordCount": 16231,
+      "shards": 2,
+      "uncompressedBytes": 14895343,
+      "uncompressedSha256": "8e29d547fc64981b9905988bb293faa43daa1054954cfc02aa91d2b6ac6e6a88"
+    },
+    "osm-history.jsonl.gz": {
+      "byteIdentical": true,
+      "originalCompressedBytes": 27136,
+      "originalGitBlob": "a8e21e397f5a93d40cdb7c38c9a8c64727acab36",
+      "recordCount": 1645,
+      "shards": 1,
+      "uncompressedBytes": 370365,
+      "uncompressedSha256": "e9ea7075ed4c8f74c82e1e8cdfb1b583f43423ca4df8766248c33978b7f2ab4f"
+    },
+    "physical-reuse-candidates.jsonl.gz": {
+      "byteIdentical": true,
+      "originalCompressedBytes": 59394,
+      "originalGitBlob": "0a9c823940a690aa10955fee19c3fea1bbfb5e80",
+      "recordCount": 674,
+      "shards": 1,
+      "uncompressedBytes": 389475,
+      "uncompressedSha256": "acc44a513b7f5e15e64a739bd5dfe42b8808949ad953cbae7b91a74416abb2ac"
+    },
+    "unmatched-wikidata-entities.jsonl.gz": {
+      "byteIdentical": true,
+      "originalCompressedBytes": 39153,
+      "originalGitBlob": "5db51aa2ccdbd1480101a538824fc05bed5a2853",
+      "recordCount": 11011,
+      "shards": 1,
+      "uncompressedBytes": 1549811,
+      "uncompressedSha256": "8fc7de257e74fb547bee38dafd2d7ed0d06d81573690f4cd48c9a33fa8efe94c"
+    },
+    "wikidata-code-statements.jsonl.gz": {
+      "byteIdentical": true,
+      "originalCompressedBytes": 1333628,
+      "originalGitBlob": "033226daefd450cb74f121b7bb72edc56e031337",
+      "recordCount": 38690,
+      "shards": 2,
+      "uncompressedBytes": 15122103,
+      "uncompressedSha256": "4c130d4ad93629f324f74c7c2c0aa1e54645c5a8eb35a6aee562f61ce076acbf"
+    },
+    "wikidata-entities.jsonl.gz": {
+      "byteIdentical": true,
+      "originalCompressedBytes": 843242,
+      "originalGitBlob": "4d302b526bf4d24bafbca690f07456889a78666f",
+      "recordCount": 21477,
+      "shards": 1,
+      "uncompressedBytes": 6792194,
+      "uncompressedSha256": "5cf573e5f6742f79c00b98e6a8d8a05766a6d7e50842d93413c51dbd884f2058"
+    },
+    "wikidata-history.jsonl.gz": {
+      "byteIdentical": true,
+      "originalCompressedBytes": 78478,
+      "originalGitBlob": "c21c9669cbf0c445742dca32684a7a5102ee1f6f",
+      "recordCount": 2446,
+      "shards": 1,
+      "uncompressedBytes": 989627,
+      "uncompressedSha256": "49c5580480e94c07d894e3a718b2b82111c7a2ddce4e7f54c0b42e053d3fe2d9"
+    }
+  },
+  "originalHead": "a25f4fa88fed119e31e4ffe10e7fc185dd04738d"
+}
