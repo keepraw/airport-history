@@ -1,0 +1,19 @@
+{
+  "actualFlightRecords": 0,
+  "limitation": "Lookups have no sequence effective chronology and are not actual flight records.",
+  "lookups": [
+    {
+      "lookup": "airport-id",
+      "rows": 6918,
+      "status": "complete",
+      "url": "https://www.transtats.bts.gov/Download_Lookup.asp?Y11x72=Y_NVe214g_VQ"
+    },
+    {
+      "lookup": "airport-seq-id",
+      "rows": 20298,
+      "status": "complete",
+      "url": "https://www.transtats.bts.gov/Download_Lookup.asp?Y11x72=Y_NVe214g_fRd_VQ"
+    }
+  ],
+  "nameCityStateMatches": 560
+}

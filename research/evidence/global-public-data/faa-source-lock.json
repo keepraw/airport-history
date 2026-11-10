@@ -1,0 +1,50 @@
+[
+  {
+    "archiveBytes": 8030968,
+    "archiveSha256": "aba48ea877f249d9b8cd63988b14b3432a6a09ad1fbe9561a5e6443c99c03dd0",
+    "effectiveEdition": "2026-10-01",
+    "license": "US government factual airport data; 17 USC 105; no third-party charts or private contact fields redistributed.",
+    "member": "APT_BASE.csv",
+    "memberSha256": "799c7bcc78cda2fd360324858ca268b8ce1bc570d669a68fe7cdddf0d4bd8d16",
+    "projectedFields": [
+      "EFF_DATE",
+      "SITE_NO",
+      "SITE_TYPE_CODE",
+      "STATE_CODE",
+      "ARPT_ID",
+      "CITY",
+      "COUNTRY_CODE",
+      "ARPT_NAME",
+      "LAT_DECIMAL",
+      "LONG_DECIMAL",
+      "ICAO_ID",
+      "ARPT_STATUS"
+    ],
+    "rows": 19427,
+    "url": "https://nfdc.faa.gov/webContent/28DaySub/extra/01_Oct_2026_APT_CSV.zip"
+  },
+  {
+    "archiveBytes": 8502128,
+    "archiveSha256": "6e1e422f483d44cc8a38a1c97cf98e97588a6fc3fa857b39b5bdcbcfe8331154",
+    "effectiveEdition": "2026-10-29",
+    "license": "US government factual airport data; 17 USC 105; no third-party charts or private contact fields redistributed.",
+    "member": "APT_BASE.csv",
+    "memberSha256": "f1cfd7308f878a8385c3fc741b022c013ffef526414f1b8336d3834eed92ac22",
+    "projectedFields": [
+      "EFF_DATE",
+      "SITE_NO",
+      "SITE_TYPE_CODE",
+      "STATE_CODE",
+      "ARPT_ID",
+      "CITY",
+      "COUNTRY_CODE",
+      "ARPT_NAME",
+      "LAT_DECIMAL",
+      "LONG_DECIMAL",
+      "ICAO_ID",
+      "ARPT_STATUS"
+    ],
+    "rows": 19434,
+    "url": "https://nfdc.faa.gov/webContent/28DaySub/extra/29_Oct_2026_APT_CSV.zip"
+  }
+]
