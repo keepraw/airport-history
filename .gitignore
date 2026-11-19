@@ -1,0 +1,15 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.DS_Store
+.env
+.env.*
+
+# Local downloads, caches and scratch files
+work/
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+__pycache__/
